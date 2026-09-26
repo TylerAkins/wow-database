@@ -42,4 +42,4 @@ See [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md) for tests, refresh commands, inva
 
 ## License and attribution
 
-Repository code is GPL-3.0. Wowhead and World of Warcraft data retain their respective ownership; see [ATTRIBUTION.md](ATTRIBUTION.md).
+The repository's original code, documentation, schema, and database compilation are proprietary and **All Rights Reserved**. No permission is granted to use, copy, modify, or redistribute them. Wowhead, Blizzard, and other third-party data retain their respective ownership; see [LICENSE](LICENSE) and [ATTRIBUTION.md](ATTRIBUTION.md).
