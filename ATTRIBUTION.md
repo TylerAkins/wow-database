@@ -16,4 +16,4 @@ World of Warcraft and related names and identifiers are trademarks or property o
 
 ## License
 
-The original repository code is licensed under GPL-3.0. Third-party game and website data retain their respective ownership and are provided with provenance rather than relicensed by this repository.
+The repository's original software, documentation, schema, selection, arrangement, and compilation are proprietary and All Rights Reserved. Third-party game and website data retain their respective ownership and are provided with provenance rather than relicensed by this repository.
