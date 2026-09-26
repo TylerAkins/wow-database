@@ -1,0 +1,127 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T06:59:03+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 13[/li][li]Requires level 7[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Race: [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=1748/highlord-bolvar-fordragon]Highlord Bolvar Fordragon[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=234/gryan-stoutmantle]Gryan Stoutmantle[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]7[/color][small] &nbsp;[/small][color=r1]9[/color][small] &nbsp;[/small][color=r2]11[/color][small] &nbsp;[/small][color=r3]16[/color][small] &nbsp;[/small][color=r4]19[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1519": {
+        "levels": [
+          [
+            {
+              "coord": [
+                78,
+                18
+              ],
+              "coords": [
+                [
+                  77.4,
+                  18.4
+                ],
+                [
+                  77.4,
+                  18.8
+                ],
+                [
+                  77.6,
+                  18.6
+                ],
+                [
+                  78,
+                  18
+                ],
+                [
+                  80,
+                  38.4
+                ]
+              ],
+              "id": 1748,
+              "name": "Highlord Bolvar Fordragon",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stormwind City"
+      },
+      "40": {
+        "levels": [
+          [
+            {
+              "coord": [
+                56.2,
+                47.6
+              ],
+              "coords": [
+                [
+                  56.2,
+                  47.4
+                ],
+                [
+                  56.2,
+                  47.6
+                ]
+              ],
+              "id": 234,
+              "name": "Gryan Stoutmantle",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Westfall"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1519,
+        1
+      ],
+      [
+        40,
+        1
+      ]
+    ]
+  },
+  "minLevel": 7,
+  "pageInfo": {
+    "name": "Journey to Sentinel Hill",
+    "type": 5,
+    "typeId": 98021
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 98021,
+  "races": [
+    95
+  ],
+  "startPins": [
+    {
+      "npcId": 1748,
+      "npcName": "Highlord Bolvar Fordragon",
+      "zoneId": 1519,
+      "x": 78.0,
+      "y": 18.0,
+      "zoneName": "Stormwind City"
+    }
+  ]
+}

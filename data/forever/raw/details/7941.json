@@ -1,0 +1,156 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T04:11:21+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": true,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 40[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=14833/chronos]Chronos[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=14833/chronos]Chronos[/url][/icon][/li][li]Repeatable[/li][li]Sharable[/li][li]Difficulty: [color=q10]40[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.3.33155\"]1.13.3[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "12": {
+        "levels": [
+          [
+            {
+              "coord": [
+                43.6,
+                70.8
+              ],
+              "coords": [
+                [
+                  43.4,
+                  70.6
+                ],
+                [
+                  43.6,
+                  70.8
+                ]
+              ],
+              "id": 14833,
+              "name": "Chronos",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                43.6,
+                70.8
+              ],
+              "coords": [
+                [
+                  43.4,
+                  70.6
+                ],
+                [
+                  43.6,
+                  70.8
+                ]
+              ],
+              "id": 14833,
+              "name": "Chronos",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Elwynn Forest"
+      },
+      "215": {
+        "levels": [
+          [
+            {
+              "coord": [
+                36.2,
+                35.2
+              ],
+              "coords": [
+                [
+                  36.2,
+                  35.2
+                ]
+              ],
+              "id": 14833,
+              "name": "Chronos",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                36.2,
+                35.2
+              ],
+              "coords": [
+                [
+                  36.2,
+                  35.2
+                ]
+              ],
+              "id": 14833,
+              "name": "Chronos",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Mulgore"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        215,
+        1
+      ],
+      [
+        12,
+        1
+      ]
+    ]
+  },
+  "minLevel": 40,
+  "pageInfo": {
+    "name": "More Armor Kits",
+    "type": 5,
+    "typeId": 7941
+  },
+  "pinCategory": "repeatable",
+  "prerequisiteQuestIds": [],
+  "questId": 7941,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 14833,
+      "npcName": "Chronos",
+      "zoneId": 12,
+      "x": 43.6,
+      "y": 70.8,
+      "zoneName": "Elwynn Forest"
+    },
+    {
+      "npcId": 14833,
+      "npcName": "Chronos",
+      "zoneId": 215,
+      "x": 36.2,
+      "y": 35.2,
+      "zoneName": "Mulgore"
+    }
+  ]
+}

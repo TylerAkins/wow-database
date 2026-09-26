@@ -1,0 +1,130 @@
+{
+  "classes": [
+    1
+  ],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T04:59:15+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": true,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 58[/li][li]Type: Dungeon[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Class: [class=1][/li][li][icon name=quest-start]Start: [url=/forever/npc=16013/deliana]Deliana[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=16013/deliana]Deliana[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.5.35186\"]1.13.5[/acronym] \"The Gates of Ahn'Qiraj\"[/li][/ul]",
+  "mapper": {
+    "missing": 2,
+    "objectives": {
+      "1537": {
+        "levels": [
+          [
+            {
+              "coord": [
+                43.4,
+                52.2
+              ],
+              "coords": [
+                [
+                  42.4,
+                  53.2
+                ],
+                [
+                  43.2,
+                  52.6
+                ],
+                [
+                  43.4,
+                  52.2
+                ],
+                [
+                  43.6,
+                  51.4
+                ],
+                [
+                  43.6,
+                  52
+                ]
+              ],
+              "id": 16013,
+              "name": "Deliana",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                43.4,
+                52.2
+              ],
+              "coords": [
+                [
+                  42.4,
+                  53.2
+                ],
+                [
+                  43.2,
+                  52.6
+                ],
+                [
+                  43.4,
+                  52.2
+                ],
+                [
+                  43.6,
+                  51.4
+                ],
+                [
+                  43.6,
+                  52
+                ]
+              ],
+              "id": 16013,
+              "name": "Deliana",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ironforge"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1537,
+        1
+      ]
+    ]
+  },
+  "minLevel": 58,
+  "pageInfo": {
+    "name": "Just Compensation",
+    "type": 5,
+    "typeId": 8937
+  },
+  "pinCategory": "instance",
+  "prerequisiteQuestIds": [
+    8925,
+    8928
+  ],
+  "questId": 8937,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 16013,
+      "npcName": "Deliana",
+      "zoneId": 1537,
+      "x": 43.4,
+      "y": 52.2,
+      "zoneName": "Ironforge"
+    }
+  ]
+}

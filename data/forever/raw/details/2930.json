@@ -1,0 +1,125 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T01:38:39+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": true,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 30[/li][li]Requires level 25[/li][li]Type: Dungeon[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=7950/master-mechanic-castpipe]Master Mechanic Castpipe[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=7950/master-mechanic-castpipe]Master Mechanic Castpipe[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]25[/color][small] &nbsp;[/small][color=r1]26[/color][small] &nbsp;[/small][color=r2]28[/color][small] &nbsp;[/small][color=r3]33[/color][small] &nbsp;[/small][color=r4]38[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "1537": {
+        "levels": [
+          [
+            {
+              "coord": [
+                69.8,
+                48.4
+              ],
+              "coords": [
+                [
+                  69.4,
+                  47.6
+                ],
+                [
+                  69.8,
+                  48.4
+                ],
+                [
+                  69.8,
+                  48.6
+                ],
+                [
+                  70,
+                  47.4
+                ],
+                [
+                  70,
+                  49.8
+                ]
+              ],
+              "id": 7950,
+              "name": "Master Mechanic Castpipe",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                69.8,
+                48.4
+              ],
+              "coords": [
+                [
+                  69.4,
+                  47.6
+                ],
+                [
+                  69.8,
+                  48.4
+                ],
+                [
+                  69.8,
+                  48.6
+                ],
+                [
+                  70,
+                  47.4
+                ],
+                [
+                  70,
+                  49.8
+                ]
+              ],
+              "id": 7950,
+              "name": "Master Mechanic Castpipe",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ironforge"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1537,
+        1
+      ]
+    ]
+  },
+  "minLevel": 25,
+  "pageInfo": {
+    "name": "Data Rescue",
+    "type": 5,
+    "typeId": 2930
+  },
+  "pinCategory": "instance",
+  "prerequisiteQuestIds": [],
+  "questId": 2930,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 7950,
+      "npcName": "Master Mechanic Castpipe",
+      "zoneId": 1537,
+      "x": 69.8,
+      "y": 48.4,
+      "zoneName": "Ironforge"
+    }
+  ]
+}

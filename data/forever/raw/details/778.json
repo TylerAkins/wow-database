@@ -1,0 +1,165 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-24T23:23:35+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 45[/li][li]Requires level 35[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=2921/lotwil-veriatus]Lotwil Veriatus[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2921/lotwil-veriatus]Lotwil Veriatus[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]35[/color][small] &nbsp;[/small][color=r1]41[/color][small] &nbsp;[/small][color=r2]43[/color][small] &nbsp;[/small][color=r3]48[/color][small] &nbsp;[/small][color=r4]55[/color][/li][li]Added in patch [acronym=\"1.13.2.30682\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "3": {
+        "levels": [
+          [
+            {
+              "coord": [
+                25.8,
+                45
+              ],
+              "coords": [
+                [
+                  25.8,
+                  44.4
+                ],
+                [
+                  25.8,
+                  45
+                ],
+                [
+                  26,
+                  45.6
+                ]
+              ],
+              "id": 2921,
+              "name": "Lotwil Veriatus",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                25.8,
+                45
+              ],
+              "coords": [
+                [
+                  25.8,
+                  44.4
+                ],
+                [
+                  25.8,
+                  45
+                ],
+                [
+                  26,
+                  45.6
+                ]
+              ],
+              "id": 2921,
+              "name": "Lotwil Veriatus",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                25.8,
+                45.6
+              ],
+              "coords": [
+                [
+                  25.4,
+                  44.2
+                ],
+                [
+                  25.4,
+                  45.4
+                ],
+                [
+                  25.4,
+                  45.8
+                ],
+                [
+                  25.6,
+                  44.2
+                ],
+                [
+                  25.8,
+                  45.4
+                ],
+                [
+                  25.8,
+                  45.6
+                ],
+                [
+                  26,
+                  46.6
+                ],
+                [
+                  26.6,
+                  45.6
+                ]
+              ],
+              "id": 2919,
+              "item": "Lotwil's Shackles of Elemental Binding",
+              "name": "Fam'retor Guardian",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Badlands"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        3,
+        2
+      ]
+    ]
+  },
+  "minLevel": 35,
+  "pageInfo": {
+    "name": "This Is Going to Be Hard",
+    "type": 5,
+    "typeId": 778
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    710,
+    711,
+    712,
+    713,
+    714,
+    715,
+    716,
+    734
+  ],
+  "questId": 778,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 2921,
+      "npcName": "Lotwil Veriatus",
+      "zoneId": 3,
+      "x": 25.8,
+      "y": 45.0,
+      "zoneName": "Badlands"
+    }
+  ]
+}

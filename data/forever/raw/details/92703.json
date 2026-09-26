@@ -1,0 +1,116 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T06:08:11+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 9[/li][li]Requires level 5[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=252800/aamelia-windfield]Aamelia Windfield[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=252448/alvarion-windfield]Alvarion Windfield[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]5[/color][small] &nbsp;[/small][color=r2]7[/color][small] &nbsp;[/small][color=r3]12[/color][small] &nbsp;[/small][color=r4]15[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "16593": {
+        "levels": [
+          [
+            {
+              "coord": [
+                46.6,
+                81.8
+              ],
+              "coords": [
+                [
+                  46.6,
+                  81.8
+                ],
+                [
+                  47,
+                  81.2
+                ],
+                [
+                  47.2,
+                  80
+                ],
+                [
+                  47.4,
+                  78.4
+                ],
+                [
+                  47.4,
+                  78.6
+                ],
+                [
+                  47.6,
+                  78.4
+                ],
+                [
+                  47.6,
+                  78.6
+                ]
+              ],
+              "id": 252800,
+              "name": "Aamelia Windfield",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                62,
+                73.2
+              ],
+              "coords": [
+                [
+                  62,
+                  73.2
+                ]
+              ],
+              "id": 252448,
+              "name": "Alvarion Windfield",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Zephras Isle"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16593,
+        2
+      ]
+    ]
+  },
+  "minLevel": 5,
+  "pageInfo": {
+    "name": "Deliver the News",
+    "type": 5,
+    "typeId": 92703
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 92703,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 252800,
+      "npcName": "Aamelia Windfield",
+      "zoneId": 16593,
+      "x": 46.6,
+      "y": 81.8,
+      "zoneName": "Zephras Isle"
+    }
+  ]
+}

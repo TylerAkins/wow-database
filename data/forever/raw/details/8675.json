@@ -1,0 +1,92 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T04:42:25+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 1[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=15577/elder-skychaser]Elder Skychaser[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=15577/elder-skychaser]Elder Skychaser[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]1[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "40": {
+        "levels": [
+          [
+            {
+              "coord": [
+                56.6,
+                47.2
+              ],
+              "coords": [
+                [
+                  56.6,
+                  47.2
+                ]
+              ],
+              "id": 15577,
+              "name": "Elder Skychaser",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                56.6,
+                47.2
+              ],
+              "coords": [
+                [
+                  56.6,
+                  47.2
+                ]
+              ],
+              "id": 15577,
+              "name": "Elder Skychaser",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Westfall"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        40,
+        1
+      ]
+    ]
+  },
+  "minLevel": 1,
+  "pageInfo": {
+    "name": "Skychaser the Elder",
+    "type": 5,
+    "typeId": 8675
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 8675,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 15577,
+      "npcName": "Elder Skychaser",
+      "zoneId": 40,
+      "x": 56.6,
+      "y": 47.2,
+      "zoneName": "Westfall"
+    }
+  ]
+}

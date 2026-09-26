@@ -1,0 +1,119 @@
+{
+  "classes": [
+    4
+  ],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T01:24:50+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 20[/li][li]Requires level 20[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Races: [race=2], [race=5], [br][race=8][/li][li]Class: [class=4][/li][li][icon name=quest-start]Start: [url=/forever/npc=3401/shenthul]Shenthul[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=7233/taskmaster-fizzule]Taskmaster Fizzule[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]20[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1637": {
+        "levels": [
+          [
+            {
+              "coord": [
+                43,
+                53.4
+              ],
+              "coords": [
+                [
+                  43,
+                  53.4
+                ],
+                [
+                  43,
+                  53.6
+                ]
+              ],
+              "id": 3401,
+              "name": "Shenthul",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Orgrimmar"
+      },
+      "17": {
+        "levels": [
+          [
+            {
+              "coord": [
+                55.4,
+                5.6
+              ],
+              "coords": [
+                [
+                  55.4,
+                  5.4
+                ],
+                [
+                  55.4,
+                  5.6
+                ]
+              ],
+              "id": 7233,
+              "name": "Taskmaster Fizzule",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Barrens"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1637,
+        1
+      ],
+      [
+        17,
+        1
+      ]
+    ]
+  },
+  "minLevel": 20,
+  "pageInfo": {
+    "name": "Deep Cover",
+    "type": 5,
+    "typeId": 2458
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 2458,
+  "races": [
+    2,
+    5,
+    8
+  ],
+  "startPins": [
+    {
+      "npcId": 3401,
+      "npcName": "Shenthul",
+      "zoneId": 1637,
+      "x": 43.0,
+      "y": 53.4,
+      "zoneName": "Orgrimmar"
+    }
+  ]
+}

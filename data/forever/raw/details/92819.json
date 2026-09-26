@@ -1,0 +1,109 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T06:09:51+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 18[/li][li]Requires level 9[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=253279/alba-fairmoon]Alba Fairmoon[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=253279/alba-fairmoon]Alba Fairmoon[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]9[/color][small] &nbsp;[/small][color=r1]14[/color][small] &nbsp;[/small][color=r2]16[/color][small] &nbsp;[/small][color=r3]21[/color][small] &nbsp;[/small][color=r4]25[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "40": {
+        "levels": [
+          [
+            {
+              "coord": [
+                38.6,
+                83.6
+              ],
+              "coords": [
+                [
+                  38.4,
+                  83.6
+                ],
+                [
+                  38.6,
+                  83.2
+                ],
+                [
+                  38.6,
+                  83.6
+                ]
+              ],
+              "id": 253279,
+              "name": "Alba Fairmoon",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                38.6,
+                83.6
+              ],
+              "coords": [
+                [
+                  38.4,
+                  83.6
+                ],
+                [
+                  38.6,
+                  83.2
+                ],
+                [
+                  38.6,
+                  83.6
+                ]
+              ],
+              "id": 253279,
+              "name": "Alba Fairmoon",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Westfall"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        40,
+        1
+      ]
+    ]
+  },
+  "minLevel": 9,
+  "pageInfo": {
+    "name": "Destruction in Deadmines",
+    "type": 5,
+    "typeId": 92819
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 92819,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 253279,
+      "npcName": "Alba Fairmoon",
+      "zoneId": 40,
+      "x": 38.6,
+      "y": 83.6,
+      "zoneName": "Westfall"
+    }
+  ]
+}

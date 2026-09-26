@@ -1,0 +1,342 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-24T23:25:55+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 20[/li][li]Requires level 13[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3339/captain-thalothas-brightsun]Captain Thalo'thas Brightsun[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3339/captain-thalothas-brightsun]Captain Thalo'thas Brightsun[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]13[/color][small] &nbsp;[/small][color=r1]16[/color][small] &nbsp;[/small][color=r2]18[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "17": {
+        "levels": [
+          [
+            {
+              "coord": [
+                62.2,
+                39
+              ],
+              "coords": [
+                [
+                  62.2,
+                  39
+                ]
+              ],
+              "id": 3339,
+              "name": "Captain Thalo'thas Brightsun",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                62.2,
+                39
+              ],
+              "coords": [
+                [
+                  62.2,
+                  39
+                ]
+              ],
+              "id": 3339,
+              "name": "Captain Thalo'thas Brightsun",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                61.8,
+                54.8
+              ],
+              "coords": [
+                [
+                  61.8,
+                  54.8
+                ]
+              ],
+              "id": 3393,
+              "name": "Captain Fairmount",
+              "objective": 3393,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                63,
+                56.6
+              ],
+              "coords": [
+                [
+                  63,
+                  56.4
+                ],
+                [
+                  63,
+                  56.6
+                ]
+              ],
+              "id": 3454,
+              "name": "Cannoneer Smythe",
+              "objective": 3454,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                60.4,
+                54.8
+              ],
+              "coords": [
+                [
+                  60.4,
+                  54.8
+                ]
+              ],
+              "id": 3455,
+              "name": "Cannoneer Whessan",
+              "objective": 3455,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                61.8,
+                55
+              ],
+              "coords": [
+                [
+                  60.2,
+                  52.2
+                ],
+                [
+                  60.4,
+                  54.8
+                ],
+                [
+                  60.6,
+                  55.2
+                ],
+                [
+                  61.2,
+                  52.2
+                ],
+                [
+                  61.2,
+                  53.6
+                ],
+                [
+                  61.4,
+                  55.8
+                ],
+                [
+                  61.6,
+                  55.8
+                ],
+                [
+                  61.8,
+                  55
+                ],
+                [
+                  62,
+                  53.6
+                ],
+                [
+                  62.2,
+                  52.4
+                ],
+                [
+                  62.2,
+                  53.2
+                ],
+                [
+                  62.6,
+                  56.4
+                ],
+                [
+                  63,
+                  56.6
+                ]
+              ],
+              "id": 3385,
+              "item": "Theramore Medal",
+              "name": "Theramore Marine",
+              "objective": 3,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                63,
+                56.6
+              ],
+              "coords": [
+                [
+                  60.4,
+                  54.8
+                ],
+                [
+                  60.6,
+                  55
+                ],
+                [
+                  61.2,
+                  53.4
+                ],
+                [
+                  61.2,
+                  53.6
+                ],
+                [
+                  61.4,
+                  55.6
+                ],
+                [
+                  61.6,
+                  53.6
+                ],
+                [
+                  61.8,
+                  53.4
+                ],
+                [
+                  61.8,
+                  54.8
+                ],
+                [
+                  62.2,
+                  56.4
+                ],
+                [
+                  63,
+                  56.6
+                ]
+              ],
+              "id": 3386,
+              "item": "Theramore Medal",
+              "name": "Theramore Preserver",
+              "objective": 3,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                61.8,
+                54.8
+              ],
+              "coords": [
+                [
+                  61.8,
+                  54.8
+                ]
+              ],
+              "id": 3393,
+              "item": "Theramore Medal",
+              "name": "Captain Fairmount",
+              "objective": 3,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                63,
+                56.6
+              ],
+              "coords": [
+                [
+                  63,
+                  56.4
+                ],
+                [
+                  63,
+                  56.6
+                ]
+              ],
+              "id": 3454,
+              "item": "Theramore Medal",
+              "name": "Cannoneer Smythe",
+              "objective": 3,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                60.4,
+                54.8
+              ],
+              "coords": [
+                [
+                  60.4,
+                  54.8
+                ]
+              ],
+              "id": 3455,
+              "item": "Theramore Medal",
+              "name": "Cannoneer Whessan",
+              "objective": 3,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Barrens"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        17,
+        6
+      ]
+    ]
+  },
+  "minLevel": 13,
+  "pageInfo": {
+    "name": "The Guns of Northwatch",
+    "type": 5,
+    "typeId": 891
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 891,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3339,
+      "npcName": "Captain Thalo'thas Brightsun",
+      "zoneId": 17,
+      "x": 62.2,
+      "y": 39.0,
+      "zoneName": "The Barrens"
+    }
+  ]
+}

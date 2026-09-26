@@ -1,0 +1,92 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T04:58:05+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 58[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=16014/mux-manascrambler]Mux Manascrambler[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=16014/mux-manascrambler]Mux Manascrambler[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.5.34713\"]1.13.5[/acronym] \"The Gates of Ahn'Qiraj\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "440": {
+        "levels": [
+          [
+            {
+              "coord": [
+                52.4,
+                27.2
+              ],
+              "coords": [
+                [
+                  52.4,
+                  27.2
+                ]
+              ],
+              "id": 16014,
+              "name": "Mux Manascrambler",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                52.4,
+                27.2
+              ],
+              "coords": [
+                [
+                  52.4,
+                  27.2
+                ]
+              ],
+              "id": 16014,
+              "name": "Mux Manascrambler",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Tanaris"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        440,
+        1
+      ]
+    ]
+  },
+  "minLevel": 58,
+  "pageInfo": {
+    "name": "A Portable Power Source",
+    "type": 5,
+    "typeId": 8925
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 8925,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 16014,
+      "npcName": "Mux Manascrambler",
+      "zoneId": 440,
+      "x": 52.4,
+      "y": 27.2,
+      "zoneName": "Tanaris"
+    }
+  ]
+}

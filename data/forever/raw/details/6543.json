@@ -1,0 +1,95 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T03:30:01+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 19[/li][li]Requires level 17[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=8582/kadrak]Kadrak[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=8582/kadrak]Kadrak[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]17[/color][small] &nbsp;[/small][color=r3]22[/color][small] &nbsp;[/small][color=r4]26[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 3,
+    "objectives": {
+      "17": {
+        "levels": [
+          [
+            {
+              "coord": [
+                48,
+                5.4
+              ],
+              "coords": [
+                [
+                  48,
+                  5.4
+                ]
+              ],
+              "id": 8582,
+              "name": "Kadrak",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                48,
+                5.4
+              ],
+              "coords": [
+                [
+                  48,
+                  5.4
+                ]
+              ],
+              "id": 8582,
+              "name": "Kadrak",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Barrens"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        17,
+        1
+      ]
+    ]
+  },
+  "minLevel": 17,
+  "pageInfo": {
+    "name": "The Warsong Reports",
+    "type": 5,
+    "typeId": 6543
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    6541
+  ],
+  "questId": 6543,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 8582,
+      "npcName": "Kadrak",
+      "zoneId": 17,
+      "x": 48.0,
+      "y": 5.4,
+      "zoneName": "The Barrens"
+    }
+  ]
+}

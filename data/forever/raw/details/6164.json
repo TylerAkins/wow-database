@@ -1,0 +1,108 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T03:23:32+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 55[/li][li]Requires level 50[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=12384/augustus-the-touched]Augustus the Touched[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=12384/augustus-the-touched]Augustus the Touched[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]50[/color][small] &nbsp;[/small][color=r1]51[/color][small] &nbsp;[/small][color=r2]53[/color][small] &nbsp;[/small][color=r3]58[/color][small] &nbsp;[/small][color=r4]66[/color][/li][li]Added in patch [acronym=\"1.13.2.30786\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "139": {
+        "levels": [
+          [
+            {
+              "coord": [
+                14.4,
+                33.6
+              ],
+              "coords": [
+                [
+                  14.4,
+                  33.4
+                ],
+                [
+                  14.4,
+                  33.6
+                ],
+                [
+                  14.6,
+                  33.4
+                ]
+              ],
+              "id": 12384,
+              "name": "Augustus the Touched",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                14.4,
+                33.6
+              ],
+              "coords": [
+                [
+                  14.4,
+                  33.4
+                ],
+                [
+                  14.4,
+                  33.6
+                ],
+                [
+                  14.6,
+                  33.4
+                ]
+              ],
+              "id": 12384,
+              "name": "Augustus the Touched",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Eastern Plaguelands"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        139,
+        1
+      ]
+    ]
+  },
+  "minLevel": 50,
+  "pageInfo": {
+    "name": "Augustus' Receipt Book",
+    "type": 5,
+    "typeId": 6164
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 6164,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 12384,
+      "npcName": "Augustus the Touched",
+      "zoneId": 139,
+      "x": 14.4,
+      "y": 33.6,
+      "zoneName": "Eastern Plaguelands"
+    }
+  ]
+}

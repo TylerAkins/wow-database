@@ -1,0 +1,116 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T05:33:44+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 32[/li][li]Requires level 14[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/object=424012/mound-of-dirt]Mound of Dirt[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=424007/carved-figurine]Carved Figurine[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]14[/color][small] &nbsp;[/small][color=r1]28[/color][small] &nbsp;[/small][color=r2]30[/color][small] &nbsp;[/small][color=r3]35[/color][small] &nbsp;[/small][color=r4]41[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "38": {
+        "levels": [
+          [
+            {
+              "coord": [
+                49.5,
+                12.8
+              ],
+              "coords": [
+                [
+                  49.4,
+                  12.9
+                ],
+                [
+                  49.5,
+                  12.8
+                ]
+              ],
+              "id": 424007,
+              "name": "Carved Figurine",
+              "point": "end",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Loch Modan"
+      },
+      "406": {
+        "levels": [
+          [
+            {
+              "coord": [
+                39.6,
+                49.9
+              ],
+              "coords": [
+                [
+                  39.6,
+                  49.9
+                ]
+              ],
+              "id": 424012,
+              "name": "Mound of Dirt",
+              "point": "start",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stonetalon Mountains"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        406,
+        1
+      ],
+      [
+        38,
+        1
+      ]
+    ]
+  },
+  "minLevel": 14,
+  "objectSpawns": [
+    {
+      "entityId": 424012,
+      "entityKind": "object",
+      "entityName": "Mound of Dirt",
+      "uiMapId": 1442,
+      "uiMapName": "Stonetalon Mountains",
+      "x": 39.6,
+      "y": 49.9,
+      "zoneId": 406
+    }
+  ],
+  "pageInfo": {
+    "name": "Wet Job",
+    "type": 5,
+    "typeId": 79974
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 79974,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 424012,
+      "npcName": "Mound of Dirt",
+      "x": 39.6,
+      "y": 49.9,
+      "zoneId": 406,
+      "zoneName": "Stonetalon Mountains"
+    }
+  ]
+}

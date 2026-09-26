@@ -1,0 +1,117 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T02:54:29+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 58[/li][li]Requires level 53[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=11079/wynd-nightchaser]Wynd Nightchaser[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3516/arch-druid-fandral-staghelm]Arch Druid Fandral Staghelm[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]53[/color][small] &nbsp;[/small][color=r1]54[/color][small] &nbsp;[/small][color=r2]56[/color][small] &nbsp;[/small][color=r3]61[/color][small] &nbsp;[/small][color=r4]69[/color][/li][li]Added in patch [acronym=\"1.13.2.31727\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1657": {
+        "levels": [
+          [
+            {
+              "coord": [
+                34.8,
+                8.8
+              ],
+              "coords": [
+                [
+                  34.4,
+                  8.4
+                ],
+                [
+                  34.4,
+                  8.6
+                ],
+                [
+                  34.6,
+                  8.4
+                ],
+                [
+                  34.8,
+                  8.8
+                ]
+              ],
+              "id": 3516,
+              "name": "Arch Druid Fandral Staghelm",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Darnassus"
+      },
+      "618": {
+        "levels": [
+          [
+            {
+              "coord": [
+                52,
+                30.2
+              ],
+              "coords": [
+                [
+                  52,
+                  30.2
+                ]
+              ],
+              "id": 11079,
+              "name": "Wynd Nightchaser",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Winterspring"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        618,
+        1
+      ],
+      [
+        1657,
+        1
+      ]
+    ]
+  },
+  "minLevel": 53,
+  "pageInfo": {
+    "name": "The Crystal of Zin-Malor",
+    "type": 5,
+    "typeId": 5253
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 5253,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 11079,
+      "npcName": "Wynd Nightchaser",
+      "zoneId": 618,
+      "x": 52.0,
+      "y": 30.2,
+      "zoneName": "Winterspring"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "classes": [
+    4
+  ],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T01:21:33+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 16[/li][li]Requires level 16[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Class: [class=4][/li][li][icon name=quest-start]Start: [url=/forever/npc=3599/jannok-breezesong]Jannok Breezesong[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=4214/erion-shadewhisper]Erion Shadewhisper[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]16[/color][small] &nbsp;[/small][color=r3]19[/color][small] &nbsp;[/small][color=r4]23[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "141": {
+        "levels": [
+          [
+            {
+              "coord": [
+                56.2,
+                60
+              ],
+              "coords": [
+                [
+                  56.2,
+                  60
+                ]
+              ],
+              "id": 3599,
+              "name": "Jannok Breezesong",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Teldrassil"
+      },
+      "1657": {
+        "levels": [
+          [
+            {
+              "coord": [
+                34.6,
+                25.6
+              ],
+              "coords": [
+                [
+                  34.4,
+                  25.8
+                ],
+                [
+                  34.6,
+                  25.6
+                ],
+                [
+                  35.2,
+                  25.2
+                ]
+              ],
+              "id": 4214,
+              "name": "Erion Shadewhisper",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Darnassus"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        141,
+        1
+      ],
+      [
+        1657,
+        1
+      ]
+    ]
+  },
+  "minLevel": 16,
+  "pageInfo": {
+    "name": "Erion Shadewhisper",
+    "type": 5,
+    "typeId": 2259
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 2259,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3599,
+      "npcName": "Jannok Breezesong",
+      "zoneId": 141,
+      "x": 56.2,
+      "y": 60.0,
+      "zoneName": "Teldrassil"
+    }
+  ]
+}

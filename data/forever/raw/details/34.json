@@ -1,0 +1,177 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-24T23:08:21+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 24[/li][li]Requires level 18[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=342/martie-jainrose]Martie Jainrose[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=342/martie-jainrose]Martie Jainrose[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]18[/color][small] &nbsp;[/small][color=r1]20[/color][small] &nbsp;[/small][color=r2]22[/color][small] &nbsp;[/small][color=r3]27[/color][small] &nbsp;[/small][color=r4]32[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "44": {
+        "levels": [
+          [
+            {
+              "coord": [
+                21.8,
+                46.4
+              ],
+              "coords": [
+                [
+                  21.4,
+                  46.4
+                ],
+                [
+                  21.4,
+                  46.6
+                ],
+                [
+                  21.8,
+                  46.4
+                ]
+              ],
+              "id": 342,
+              "name": "Martie Jainrose",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                21.8,
+                46.4
+              ],
+              "coords": [
+                [
+                  21.4,
+                  46.4
+                ],
+                [
+                  21.4,
+                  46.6
+                ],
+                [
+                  21.8,
+                  46.4
+                ]
+              ],
+              "id": 342,
+              "name": "Martie Jainrose",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                16.4,
+                49
+              ],
+              "coords": [
+                [
+                  15.4,
+                  50.4
+                ],
+                [
+                  16.2,
+                  49.6
+                ],
+                [
+                  16.2,
+                  50.6
+                ],
+                [
+                  16.4,
+                  48.4
+                ],
+                [
+                  16.4,
+                  49
+                ],
+                [
+                  16.6,
+                  49.6
+                ],
+                [
+                  16.6,
+                  50.8
+                ],
+                [
+                  17,
+                  48.4
+                ],
+                [
+                  17,
+                  48.6
+                ],
+                [
+                  17.4,
+                  47.4
+                ],
+                [
+                  17.6,
+                  47.4
+                ],
+                [
+                  17.6,
+                  48
+                ],
+                [
+                  21.2,
+                  46.6
+                ]
+              ],
+              "id": 345,
+              "item": "Bellygrub's Tusk",
+              "name": "Bellygrub",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Redridge Mountains"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        44,
+        2
+      ]
+    ]
+  },
+  "minLevel": 18,
+  "pageInfo": {
+    "name": "An Unwelcome Guest",
+    "type": 5,
+    "typeId": 34
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 34,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 342,
+      "npcName": "Martie Jainrose",
+      "zoneId": 44,
+      "x": 21.8,
+      "y": 46.4,
+      "zoneName": "Redridge Mountains"
+    }
+  ]
+}

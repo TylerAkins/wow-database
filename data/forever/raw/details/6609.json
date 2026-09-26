@@ -1,0 +1,119 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T03:33:02+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 45[/li][li]Requires level 35[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Profession: [url=/forever/skill=356/fishing]Fishing[/url][/li][li][icon name=quest-start]Start: [url=/forever/npc=5161/grimnur-stonebrand]Grimnur Stonebrand[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=12919/nat-pagle]Nat Pagle[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]35[/color][small] &nbsp;[/small][color=r1]41[/color][small] &nbsp;[/small][color=r2]43[/color][small] &nbsp;[/small][color=r3]48[/color][small] &nbsp;[/small][color=r4]55[/color][/li][li]Added in patch [acronym=\"1.13.2.30682\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "15": {
+        "levels": [
+          [
+            {
+              "coord": [
+                58.4,
+                60
+              ],
+              "coords": [
+                [
+                  58.4,
+                  60
+                ],
+                [
+                  58.6,
+                  60
+                ]
+              ],
+              "id": 12919,
+              "name": "Nat Pagle",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Dustwallow Marsh"
+      },
+      "1537": {
+        "levels": [
+          [
+            {
+              "coord": [
+                48.2,
+                6.6
+              ],
+              "coords": [
+                [
+                  48.2,
+                  6.6
+                ],
+                [
+                  48.4,
+                  6.4
+                ],
+                [
+                  48.6,
+                  6.2
+                ]
+              ],
+              "id": 5161,
+              "name": "Grimnur Stonebrand",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ironforge"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1537,
+        1
+      ],
+      [
+        15,
+        1
+      ]
+    ]
+  },
+  "minLevel": 35,
+  "pageInfo": {
+    "name": "I Got Nothin' Left!",
+    "type": 5,
+    "typeId": 6609
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    6608
+  ],
+  "questId": 6609,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 5161,
+      "npcName": "Grimnur Stonebrand",
+      "zoneId": 1537,
+      "x": 48.2,
+      "y": 6.6,
+      "zoneName": "Ironforge"
+    }
+  ]
+}

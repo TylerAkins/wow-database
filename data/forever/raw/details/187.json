@@ -1,0 +1,231 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-24T23:11:27+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 35[/li][li]Requires level 28[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=717/ajeck-rouack]Ajeck Rouack[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=717/ajeck-rouack]Ajeck Rouack[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]28[/color][small] &nbsp;[/small][color=r1]31[/color][small] &nbsp;[/small][color=r2]33[/color][small] &nbsp;[/small][color=r3]38[/color][small] &nbsp;[/small][color=r4]44[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "33": {
+        "levels": [
+          [
+            {
+              "coord": [
+                35.6,
+                10.6
+              ],
+              "coords": [
+                [
+                  35.6,
+                  10.4
+                ],
+                [
+                  35.6,
+                  10.6
+                ]
+              ],
+              "id": 717,
+              "name": "Ajeck Rouack",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                35.6,
+                10.6
+              ],
+              "coords": [
+                [
+                  35.6,
+                  10.4
+                ],
+                [
+                  35.6,
+                  10.6
+                ]
+              ],
+              "id": 717,
+              "name": "Ajeck Rouack",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                33,
+                19
+              ],
+              "coords": [
+                [
+                  30.4,
+                  17.4
+                ],
+                [
+                  31.2,
+                  16.8
+                ],
+                [
+                  31.4,
+                  16.4
+                ],
+                [
+                  31.4,
+                  18.2
+                ],
+                [
+                  31.4,
+                  18.6
+                ],
+                [
+                  31.4,
+                  19.8
+                ],
+                [
+                  31.6,
+                  16.6
+                ],
+                [
+                  31.8,
+                  16
+                ],
+                [
+                  32,
+                  14.4
+                ],
+                [
+                  32,
+                  14.6
+                ],
+                [
+                  32,
+                  19
+                ],
+                [
+                  32.2,
+                  19.8
+                ],
+                [
+                  32.4,
+                  18.4
+                ],
+                [
+                  32.4,
+                  20.6
+                ],
+                [
+                  32.6,
+                  15
+                ],
+                [
+                  32.6,
+                  15.6
+                ],
+                [
+                  32.6,
+                  20.2
+                ],
+                [
+                  33,
+                  17.4
+                ],
+                [
+                  33,
+                  17.6
+                ],
+                [
+                  33,
+                  19
+                ],
+                [
+                  33.6,
+                  18.4
+                ],
+                [
+                  34,
+                  17.4
+                ],
+                [
+                  34,
+                  19
+                ],
+                [
+                  35,
+                  19
+                ],
+                [
+                  35.4,
+                  18.4
+                ],
+                [
+                  35.4,
+                  19.8
+                ],
+                [
+                  35.6,
+                  18.4
+                ],
+                [
+                  35.6,
+                  20
+                ],
+                [
+                  36,
+                  18.8
+                ]
+              ],
+              "id": 1085,
+              "name": "Elder Stranglethorn Tiger",
+              "objective": 1085,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stranglethorn Vale"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        33,
+        2
+      ]
+    ]
+  },
+  "minLevel": 28,
+  "pageInfo": {
+    "name": "Tiger Mastery",
+    "type": 5,
+    "typeId": 187
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 187,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 717,
+      "npcName": "Ajeck Rouack",
+      "zoneId": 33,
+      "x": 35.6,
+      "y": 10.6,
+      "zoneName": "Stranglethorn Vale"
+    }
+  ]
+}

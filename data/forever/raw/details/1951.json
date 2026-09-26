@@ -1,0 +1,117 @@
+{
+  "classes": [
+    8
+  ],
+  "fetchedAt": "2026-09-25T01:16:46+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": true,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 40[/li][li]Requires level 30[/li][li]Type: Dungeon[/li][li]Side: Both[/li][li]Class: [class=8][/li][li][icon name=quest-start]Start: [url=/forever/npc=6548/magus-tirth]Magus Tirth[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=6546/tabetha]Tabetha[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]30[/color][small] &nbsp;[/small][color=r1]36[/color][small] &nbsp;[/small][color=r2]38[/color][small] &nbsp;[/small][color=r3]43[/color][small] &nbsp;[/small][color=r4]49[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "15": {
+        "levels": [
+          [
+            {
+              "coord": [
+                46,
+                57
+              ],
+              "coords": [
+                [
+                  46,
+                  57
+                ]
+              ],
+              "id": 6546,
+              "name": "Tabetha",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Dustwallow Marsh"
+      },
+      "400": {
+        "levels": [
+          [
+            {
+              "coord": [
+                78.2,
+                75.8
+              ],
+              "coords": [
+                [
+                  78.2,
+                  75.8
+                ],
+                [
+                  78.4,
+                  75.4
+                ]
+              ],
+              "id": 6548,
+              "name": "Magus Tirth",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Thousand Needles"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        400,
+        1
+      ],
+      [
+        15,
+        1
+      ]
+    ]
+  },
+  "minLevel": 30,
+  "pageInfo": {
+    "name": "Rituals of Power",
+    "type": 5,
+    "typeId": 1951
+  },
+  "pinCategory": "instance",
+  "prerequisiteQuestIds": [
+    1049,
+    1947,
+    1948,
+    1949,
+    1950,
+    1952
+  ],
+  "questId": 1951,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 6548,
+      "npcName": "Magus Tirth",
+      "zoneId": 400,
+      "x": 78.2,
+      "y": 75.8,
+      "zoneName": "Thousand Needles"
+    }
+  ]
+}

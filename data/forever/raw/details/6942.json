@@ -1,0 +1,596 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T03:38:01+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": true,
+    "raid": false,
+    "repeatable": true,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 51[/li][li]Type: PvP[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=13438/wing-commander-slidore]Wing Commander Slidore[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=13438/wing-commander-slidore]Wing Commander Slidore[/url][/icon][/li][li]Repeatable[/li][li]Sharable[/li][li]Difficulty: [color=q10]51[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.30786\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "2597": {
+        "levels": [
+          [
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13438,
+              "name": "Wing Commander Slidore",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13438,
+              "name": "Wing Commander Slidore",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 11946,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Drek'Thar",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 11947,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Captain Galvangar",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 11948,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Vanndar Stormpike",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 11949,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Captain Balinda Stonehearth",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 12051,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Frostwolf Legionnaire",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 12052,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Frostwolf Warrior",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 12053,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Frostwolf Guardian",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13152,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Commander Malgor",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                48.9,
+                86.9
+              ],
+              "coords": [
+                [
+                  48.9,
+                  86.9
+                ]
+              ],
+              "id": 13153,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Commander Mulfort",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13154,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Commander Louis Philips",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13176,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Smith Regzar",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13179,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Wing Commander Guse",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13180,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Wing Commander Jeztor",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13216,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Gaelden Hammersmith",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13218,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Grunnda Wolfheart",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13256,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Lokholar the Ice Lord",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13319,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Commander Duffy",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13328,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Seasoned Guardian",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13329,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Seasoned Legionnaire",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13330,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Seasoned Warrior",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13332,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Veteran Guardian",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13334,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Veteran Legionnaire",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13337,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Veteran Warrior",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13359,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Frostwolf Bowman",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13419,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Ivus the Forest Lord",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13421,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Champion Guardian",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13425,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Champion Legionnaire",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13428,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Champion Warrior",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13437,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Wing Commander Ichman",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13438,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Wing Commander Slidore",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13439,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Wing Commander Vipore",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13442,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Arch Druid Renferal",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13798,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Jotek",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 14185,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Najak Hexxen",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 14186,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Ravak Grimtotem",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 14768,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "East Frostwolf Marshal",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 14948,
+              "item": "Frostwolf Soldier's Medal",
+              "name": "Vipore's Gryphon",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Alterac Valley"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        2597,
+        37
+      ]
+    ]
+  },
+  "minLevel": 51,
+  "pageInfo": {
+    "name": "Call of Air - Slidore's Fleet",
+    "type": 5,
+    "typeId": 6942
+  },
+  "pinCategory": "pvp",
+  "prerequisiteQuestIds": [],
+  "questId": 6942,
+  "races": [],
+  "startPins": []
+}

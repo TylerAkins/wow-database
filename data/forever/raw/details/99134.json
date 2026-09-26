@@ -1,0 +1,882 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T07:08:59+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 6[/li][li]Requires level 4[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1515/executor-zygand]Executor Zygand[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1515/executor-zygand]Executor Zygand[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]4[/color][small] &nbsp;[/small][color=r3]9[/color][small] &nbsp;[/small][color=r4]12[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "85": {
+        "levels": [
+          [
+            {
+              "coord": [
+                60.6,
+                51.8
+              ],
+              "coords": [
+                [
+                  60.4,
+                  51.8
+                ],
+                [
+                  60.6,
+                  51.8
+                ]
+              ],
+              "id": 1515,
+              "name": "Executor Zygand",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                60.6,
+                51.8
+              ],
+              "coords": [
+                [
+                  60.4,
+                  51.8
+                ],
+                [
+                  60.6,
+                  51.8
+                ]
+              ],
+              "id": 1515,
+              "name": "Executor Zygand",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                65.4,
+                60.2
+              ],
+              "coords": [
+                [
+                  65.4,
+                  60.2
+                ],
+                [
+                  65.6,
+                  60.2
+                ]
+              ],
+              "id": 1495,
+              "name": "Deathguard Linnea",
+              "objective": 1746,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                58.2,
+                51.4
+              ],
+              "coords": [
+                [
+                  58.2,
+                  51.4
+                ],
+                [
+                  58.2,
+                  51.6
+                ]
+              ],
+              "id": 1496,
+              "name": "Deathguard Dillinger",
+              "objective": 1746,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                40.8,
+                54.2
+              ],
+              "coords": [
+                [
+                  40.8,
+                  54.2
+                ]
+              ],
+              "id": 1519,
+              "name": "Deathguard Simmer",
+              "objective": 1746,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                60.8,
+                52
+              ],
+              "coords": [
+                [
+                  60.8,
+                  52
+                ]
+              ],
+              "id": 1652,
+              "name": "Deathguard Burgess",
+              "objective": 1746,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                53.6,
+                53.2
+              ],
+              "coords": [
+                [
+                  53.4,
+                  53.2
+                ],
+                [
+                  53.6,
+                  53.2
+                ]
+              ],
+              "id": 1735,
+              "name": "Deathguard Abraham",
+              "objective": 1746,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                32,
+                64.6
+              ],
+              "coords": [
+                [
+                  32,
+                  64.6
+                ]
+              ],
+              "id": 1736,
+              "name": "Deathguard Randolph",
+              "objective": 1746,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                31.8,
+                67.4
+              ],
+              "coords": [
+                [
+                  30.4,
+                  66.8
+                ],
+                [
+                  30.8,
+                  66.8
+                ],
+                [
+                  31.4,
+                  66.4
+                ],
+                [
+                  31.8,
+                  66.4
+                ],
+                [
+                  31.8,
+                  67.4
+                ],
+                [
+                  31.8,
+                  67.8
+                ]
+              ],
+              "id": 1737,
+              "name": "Deathguard Oliver",
+              "objective": 1746,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                61.4,
+                53.4
+              ],
+              "coords": [
+                [
+                  61.4,
+                  53.4
+                ],
+                [
+                  61.4,
+                  53.6
+                ],
+                [
+                  61.6,
+                  53.2
+                ],
+                [
+                  61.6,
+                  53.8
+                ],
+                [
+                  62.4,
+                  55.4
+                ],
+                [
+                  63.4,
+                  56.4
+                ],
+                [
+                  63.4,
+                  56.6
+                ],
+                [
+                  63.4,
+                  59.4
+                ]
+              ],
+              "id": 1738,
+              "name": "Deathguard Terrence",
+              "objective": 1746,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                32,
+                64.8
+              ],
+              "coords": [
+                [
+                  32,
+                  64
+                ],
+                [
+                  32,
+                  64.8
+                ],
+                [
+                  32.2,
+                  67
+                ],
+                [
+                  32.4,
+                  66
+                ],
+                [
+                  32.6,
+                  66
+                ],
+                [
+                  32.6,
+                  67.2
+                ]
+              ],
+              "id": 1739,
+              "name": "Deathguard Phillip",
+              "objective": 1746,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                31.6,
+                65.6
+              ],
+              "coords": [
+                [
+                  31.6,
+                  65.4
+                ],
+                [
+                  31.6,
+                  65.6
+                ]
+              ],
+              "id": 1740,
+              "name": "Deathguard Saltain",
+              "objective": 1746,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                32,
+                64.8
+              ],
+              "coords": [
+                [
+                  32,
+                  64.8
+                ]
+              ],
+              "id": 1741,
+              "name": "Deathguard Bartrand",
+              "objective": 1746,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                58.4,
+                51.4
+              ],
+              "coords": [
+                [
+                  57.4,
+                  49.2
+                ],
+                [
+                  58.2,
+                  49.8
+                ],
+                [
+                  58.4,
+                  51.4
+                ],
+                [
+                  58.4,
+                  51.6
+                ],
+                [
+                  58.6,
+                  51.4
+                ],
+                [
+                  58.6,
+                  51.6
+                ],
+                [
+                  59.2,
+                  46.8
+                ],
+                [
+                  59.8,
+                  49.4
+                ]
+              ],
+              "id": 1742,
+              "name": "Deathguard Bartholomew",
+              "objective": 1746,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                58.6,
+                51.4
+              ],
+              "coords": [
+                [
+                  58.4,
+                  51.4
+                ],
+                [
+                  58.4,
+                  51.6
+                ],
+                [
+                  58.6,
+                  51.4
+                ],
+                [
+                  58.6,
+                  51.6
+                ]
+              ],
+              "id": 1743,
+              "name": "Deathguard Lawrence",
+              "objective": 1746,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                61.4,
+                53
+              ],
+              "coords": [
+                [
+                  59.2,
+                  41.4
+                ],
+                [
+                  61.4,
+                  53
+                ],
+                [
+                  61.6,
+                  53
+                ]
+              ],
+              "id": 1744,
+              "name": "Deathguard Mort",
+              "objective": 1746,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                60.2,
+                52.4
+              ],
+              "coords": [
+                [
+                  60.2,
+                  52.4
+                ],
+                [
+                  60.2,
+                  52.6
+                ]
+              ],
+              "id": 1745,
+              "name": "Deathguard Morris",
+              "objective": 1746,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                60.6,
+                52
+              ],
+              "coords": [
+                [
+                  60.4,
+                  52
+                ],
+                [
+                  60.6,
+                  52
+                ]
+              ],
+              "id": 1746,
+              "name": "Deathguard Cyrus",
+              "objective": 1746,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                61.8,
+                51.2
+              ],
+              "coords": [
+                [
+                  61.8,
+                  51.2
+                ]
+              ],
+              "id": 2209,
+              "name": "Deathguard Gavin",
+              "objective": 1746,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                61.6,
+                51.2
+              ],
+              "coords": [
+                [
+                  61.6,
+                  51.2
+                ]
+              ],
+              "id": 2210,
+              "name": "Deathguard Royann",
+              "objective": 1746,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                53.6,
+                53.2
+              ],
+              "coords": [
+                [
+                  43.6,
+                  54.4
+                ],
+                [
+                  44,
+                  54.8
+                ],
+                [
+                  44.4,
+                  55.6
+                ],
+                [
+                  44.6,
+                  55.4
+                ],
+                [
+                  45.4,
+                  56.4
+                ],
+                [
+                  45.6,
+                  56.4
+                ],
+                [
+                  45.8,
+                  56.6
+                ],
+                [
+                  46.8,
+                  57
+                ],
+                [
+                  47.6,
+                  57.4
+                ],
+                [
+                  48.2,
+                  57.6
+                ],
+                [
+                  48.6,
+                  57.8
+                ],
+                [
+                  49.6,
+                  57.8
+                ],
+                [
+                  50.4,
+                  57.4
+                ],
+                [
+                  50.8,
+                  57
+                ],
+                [
+                  51.2,
+                  56.4
+                ],
+                [
+                  51.6,
+                  55.6
+                ],
+                [
+                  52,
+                  55.2
+                ],
+                [
+                  52.4,
+                  54.4
+                ],
+                [
+                  52.6,
+                  54.2
+                ],
+                [
+                  53.4,
+                  53.4
+                ],
+                [
+                  53.6,
+                  53.2
+                ],
+                [
+                  54.6,
+                  52.6
+                ],
+                [
+                  55,
+                  52.4
+                ],
+                [
+                  56.2,
+                  52.4
+                ],
+                [
+                  56.6,
+                  52.2
+                ],
+                [
+                  57.6,
+                  51.8
+                ],
+                [
+                  58.4,
+                  51.4
+                ],
+                [
+                  59.2,
+                  51.4
+                ],
+                [
+                  59.4,
+                  51.6
+                ],
+                [
+                  59.8,
+                  51.8
+                ],
+                [
+                  60.6,
+                  52.4
+                ],
+                [
+                  61,
+                  52.8
+                ],
+                [
+                  61.4,
+                  53.8
+                ],
+                [
+                  61.6,
+                  54
+                ],
+                [
+                  62.2,
+                  55.2
+                ],
+                [
+                  62.4,
+                  55.6
+                ],
+                [
+                  62.6,
+                  55.4
+                ],
+                [
+                  62.8,
+                  55.6
+                ],
+                [
+                  63.4,
+                  56.8
+                ],
+                [
+                  63.4,
+                  58.4
+                ],
+                [
+                  63.4,
+                  59.4
+                ],
+                [
+                  63.4,
+                  60.2
+                ],
+                [
+                  63.6,
+                  56.8
+                ],
+                [
+                  63.6,
+                  57.6
+                ],
+                [
+                  63.6,
+                  59
+                ],
+                [
+                  63.6,
+                  60.2
+                ]
+              ],
+              "id": 5725,
+              "name": "Deathguard Lundmark",
+              "objective": 1746,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                65.2,
+                60.2
+              ],
+              "coords": [
+                [
+                  65.2,
+                  60.2
+                ]
+              ],
+              "id": 251001,
+              "name": "Deathguard Kristof",
+              "objective": 1746,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                22,
+                44.6
+              ],
+              "coords": [
+                [
+                  22,
+                  44.4
+                ],
+                [
+                  22,
+                  44.6
+                ]
+              ],
+              "id": 257655,
+              "name": "Deathguard Billmuth",
+              "objective": 1746,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                52.4,
+                54.6
+              ],
+              "coords": [
+                [
+                  52.4,
+                  54.4
+                ],
+                [
+                  52.4,
+                  54.6
+                ],
+                [
+                  52.6,
+                  54.4
+                ],
+                [
+                  52.6,
+                  54.6
+                ]
+              ],
+              "id": 272101,
+              "name": "Deathguard Lizabetha",
+              "objective": 1746,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                39,
+                55.4
+              ],
+              "coords": [
+                [
+                  38.2,
+                  55.8
+                ],
+                [
+                  39,
+                  55.4
+                ],
+                [
+                  39.2,
+                  55.6
+                ]
+              ],
+              "id": 275103,
+              "name": "Deathguard Veteran",
+              "objective": 1746,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Tirisfal Glades"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        85,
+        24
+      ]
+    ]
+  },
+  "minLevel": 4,
+  "pageInfo": {
+    "name": "Discipline",
+    "type": 5,
+    "typeId": 99134
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 99134,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 1515,
+      "npcName": "Executor Zygand",
+      "zoneId": 85,
+      "x": 60.6,
+      "y": 51.8,
+      "zoneName": "Tirisfal Glades"
+    }
+  ]
+}

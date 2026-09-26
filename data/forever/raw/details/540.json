@@ -1,0 +1,183 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-24T23:18:40+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 38[/li][li]Requires level 20[/li][li]Type: Elite[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=2277/loremaster-dibbs]Loremaster Dibbs[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2277/loremaster-dibbs]Loremaster Dibbs[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]20[/color][small] &nbsp;[/small][color=r1]34[/color][small] &nbsp;[/small][color=r2]36[/color][small] &nbsp;[/small][color=r3]41[/color][small] &nbsp;[/small][color=r4]47[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "267": {
+        "levels": [
+          [
+            {
+              "coord": [
+                50.4,
+                57
+              ],
+              "coords": [
+                [
+                  50.4,
+                  57
+                ],
+                [
+                  50.6,
+                  57
+                ]
+              ],
+              "id": 2277,
+              "name": "Loremaster Dibbs",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                50.4,
+                57
+              ],
+              "coords": [
+                [
+                  50.4,
+                  57
+                ],
+                [
+                  50.6,
+                  57
+                ]
+              ],
+              "id": 2277,
+              "name": "Loremaster Dibbs",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Hillsbrad Foothills"
+      },
+      "36": {
+        "levels": [
+          [
+            {
+              "coord": [
+                38.8,
+                47.2
+              ],
+              "coords": [
+                [
+                  38.4,
+                  46.4
+                ],
+                [
+                  38.6,
+                  46.4
+                ],
+                [
+                  38.6,
+                  47.6
+                ],
+                [
+                  38.8,
+                  47.2
+                ],
+                [
+                  40,
+                  46.6
+                ],
+                [
+                  40.2,
+                  46.4
+                ]
+              ],
+              "id": 2421,
+              "item": "Worn Leather Book",
+              "name": "Muckrake",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                38.5,
+                46.4
+              ],
+              "coords": [
+                [
+                  38.4,
+                  46.2
+                ],
+                [
+                  38.4,
+                  46.6
+                ],
+                [
+                  38.5,
+                  46.4
+                ],
+                [
+                  38.5,
+                  46.5
+                ]
+              ],
+              "id": 1760,
+              "item": "Worn Leather Book",
+              "name": "Weathered Bookcase",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Alterac Mountains"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        267,
+        1
+      ],
+      [
+        36,
+        2
+      ]
+    ]
+  },
+  "minLevel": 20,
+  "pageInfo": {
+    "name": "Preserving Knowledge",
+    "type": 5,
+    "typeId": 540
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 540,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 2277,
+      "npcName": "Loremaster Dibbs",
+      "zoneId": 267,
+      "x": 50.4,
+      "y": 57.0,
+      "zoneName": "Hillsbrad Foothills"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T06:52:40+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 6[/li][li]Requires level 4[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=265809/brakk]Brakk[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=5941/lautiki]Lau'Tiki[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]4[/color][small] &nbsp;[/small][color=r3]9[/color][small] &nbsp;[/small][color=r4]12[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "14": {
+        "levels": [
+          [
+            {
+              "coord": [
+                52,
+                47.4
+              ],
+              "coords": [
+                [
+                  52,
+                  47.4
+                ],
+                [
+                  52,
+                  47.6
+                ]
+              ],
+              "id": 265809,
+              "name": "Brakk",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                53.2,
+                81.4
+              ],
+              "coords": [
+                [
+                  53.2,
+                  81.4
+                ],
+                [
+                  53.2,
+                  81.6
+                ]
+              ],
+              "id": 5941,
+              "name": "Lau'Tiki",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Durotar"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        14,
+        2
+      ]
+    ]
+  },
+  "minLevel": 4,
+  "pageInfo": {
+    "name": "Camping 101: Fishing",
+    "type": 5,
+    "typeId": 97904
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 97904,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 265809,
+      "npcName": "Brakk",
+      "zoneId": 14,
+      "x": 52.0,
+      "y": 47.4,
+      "zoneName": "Durotar"
+    }
+  ]
+}

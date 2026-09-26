@@ -1,0 +1,263 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T03:28:25+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": true,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 50[/li][li]Type: Raid[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=12580/reginald-windsor]Reginald Windsor[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1748/highlord-bolvar-fordragon]Highlord Bolvar Fordragon[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]50[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.31687\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "12": {
+        "levels": [
+          [
+            {
+              "coord": [
+                32,
+                49.2
+              ],
+              "coords": [
+                [
+                  32,
+                  49.2
+                ],
+                [
+                  32.2,
+                  49.6
+                ],
+                [
+                  32.6,
+                  50.2
+                ],
+                [
+                  33,
+                  51.2
+                ],
+                [
+                  33.4,
+                  51.8
+                ],
+                [
+                  33.6,
+                  52
+                ],
+                [
+                  34.6,
+                  53.2
+                ]
+              ],
+              "id": 12580,
+              "name": "Reginald Windsor",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Elwynn Forest"
+      },
+      "1519": {
+        "levels": [
+          [
+            {
+              "coord": [
+                68,
+                29.8
+              ],
+              "coords": [
+                [
+                  60.2,
+                  51.6
+                ],
+                [
+                  64.2,
+                  75.4
+                ],
+                [
+                  64.2,
+                  75.6
+                ],
+                [
+                  64.6,
+                  76.4
+                ],
+                [
+                  65,
+                  77
+                ],
+                [
+                  65.4,
+                  77.8
+                ],
+                [
+                  65.6,
+                  78.2
+                ],
+                [
+                  66,
+                  79
+                ],
+                [
+                  68,
+                  29.8
+                ],
+                [
+                  68.4,
+                  29.4
+                ],
+                [
+                  68.4,
+                  83.6
+                ],
+                [
+                  68.6,
+                  29.4
+                ],
+                [
+                  68.8,
+                  84.2
+                ],
+                [
+                  69.2,
+                  85.2
+                ],
+                [
+                  69.4,
+                  86
+                ],
+                [
+                  69.8,
+                  86
+                ],
+                [
+                  70.8,
+                  26.6
+                ],
+                [
+                  71.2,
+                  26.2
+                ],
+                [
+                  75.4,
+                  21
+                ],
+                [
+                  75.6,
+                  21
+                ],
+                [
+                  77.4,
+                  18.4
+                ],
+                [
+                  77.4,
+                  18.8
+                ],
+                [
+                  77.6,
+                  18.4
+                ],
+                [
+                  77.6,
+                  18.8
+                ]
+              ],
+              "id": 12580,
+              "name": "Reginald Windsor",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                78,
+                18
+              ],
+              "coords": [
+                [
+                  77.4,
+                  18.4
+                ],
+                [
+                  77.4,
+                  18.8
+                ],
+                [
+                  77.6,
+                  18.6
+                ],
+                [
+                  78,
+                  18
+                ],
+                [
+                  80,
+                  38.4
+                ]
+              ],
+              "id": 1748,
+              "name": "Highlord Bolvar Fordragon",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stormwind City"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1519,
+        2
+      ],
+      [
+        12,
+        1
+      ]
+    ]
+  },
+  "minLevel": 50,
+  "pageInfo": {
+    "name": "The Great Masquerade",
+    "type": 5,
+    "typeId": 6403
+  },
+  "pinCategory": "attunement",
+  "prerequisiteQuestIds": [],
+  "questId": 6403,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 12580,
+      "npcName": "Reginald Windsor",
+      "zoneId": 12,
+      "x": 32.0,
+      "y": 49.2,
+      "zoneName": "Elwynn Forest"
+    },
+    {
+      "npcId": 12580,
+      "npcName": "Reginald Windsor",
+      "zoneId": 1519,
+      "x": 68.0,
+      "y": 29.8,
+      "zoneName": "Stormwind City"
+    }
+  ]
+}

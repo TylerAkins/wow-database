@@ -1,0 +1,883 @@
+{
+  "classes": [
+    1
+  ],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T01:12:28+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 30[/li][li]Requires level 20[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Class: [class=1][/li][li][icon name=quest-start]Start: [url=/forever/npc=5878/thungrim-firegaze]Thun'grim Firegaze[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=5878/thungrim-firegaze]Thun'grim Firegaze[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]20[/color][small] &nbsp;[/small][color=r1]26[/color][small] &nbsp;[/small][color=r2]28[/color][small] &nbsp;[/small][color=r3]33[/color][small] &nbsp;[/small][color=r4]38[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 3,
+    "objectives": {
+      "16": {
+        "levels": [
+          [
+            {
+              "coord": [
+                30.2,
+                79.8
+              ],
+              "coords": [
+                [
+                  16.4,
+                  51
+                ],
+                [
+                  17.6,
+                  58.8
+                ],
+                [
+                  21.2,
+                  54
+                ],
+                [
+                  24.8,
+                  47.4
+                ],
+                [
+                  24.8,
+                  47.6
+                ],
+                [
+                  25,
+                  81.4
+                ],
+                [
+                  25,
+                  81.6
+                ],
+                [
+                  30.2,
+                  79.8
+                ],
+                [
+                  33,
+                  81.4
+                ]
+              ],
+              "id": 223544,
+              "item": "Iron Bar",
+              "name": "Fel Interloper",
+              "objective": 2,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Azshara"
+      },
+      "17": {
+        "levels": [
+          [
+            {
+              "coord": [
+                57.2,
+                30.2
+              ],
+              "coords": [
+                [
+                  57.2,
+                  30.2
+                ]
+              ],
+              "id": 5878,
+              "name": "Thun'grim Firegaze",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                57.2,
+                30.2
+              ],
+              "coords": [
+                [
+                  57.2,
+                  30.2
+                ]
+              ],
+              "id": 5878,
+              "name": "Thun'grim Firegaze",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                50.2,
+                80.6
+              ],
+              "coords": [
+                [
+                  42.8,
+                  81.8
+                ],
+                [
+                  43.8,
+                  84
+                ],
+                [
+                  46,
+                  85.6
+                ],
+                [
+                  47.6,
+                  83.4
+                ],
+                [
+                  48.4,
+                  81.2
+                ],
+                [
+                  50.2,
+                  80.6
+                ]
+              ],
+              "id": 223542,
+              "item": "Iron Bar",
+              "name": "Fel Interloper",
+              "objective": 2,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Barrens"
+      },
+      "331": {
+        "levels": [
+          [
+            {
+              "coord": [
+                77.2,
+                73.2
+              ],
+              "coords": [
+                [
+                  24.2,
+                  63.4
+                ],
+                [
+                  27.6,
+                  62.6
+                ],
+                [
+                  30.2,
+                  30
+                ],
+                [
+                  33.6,
+                  28.4
+                ],
+                [
+                  44.6,
+                  64.2
+                ],
+                [
+                  50.8,
+                  47
+                ],
+                [
+                  52.4,
+                  62.8
+                ],
+                [
+                  55.6,
+                  40.2
+                ],
+                [
+                  67,
+                  46
+                ],
+                [
+                  67.2,
+                  51.2
+                ],
+                [
+                  77.2,
+                  73.2
+                ],
+                [
+                  80.4,
+                  71
+                ],
+                [
+                  84.4,
+                  69.4
+                ],
+                [
+                  84.8,
+                  70.2
+                ]
+              ],
+              "id": 223542,
+              "item": "Iron Bar",
+              "name": "Fel Interloper",
+              "objective": 2,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ashenvale"
+      },
+      "357": {
+        "levels": [
+          [
+            {
+              "coord": [
+                74.2,
+                50.6
+              ],
+              "coords": [
+                [
+                  68.2,
+                  58.8
+                ],
+                [
+                  70.6,
+                  62.6
+                ],
+                [
+                  72.4,
+                  63.6
+                ],
+                [
+                  72.6,
+                  63.8
+                ],
+                [
+                  73.2,
+                  54.2
+                ],
+                [
+                  74.2,
+                  50.6
+                ],
+                [
+                  74.2,
+                  56.8
+                ],
+                [
+                  74.2,
+                  60
+                ],
+                [
+                  76.2,
+                  56.4
+                ],
+                [
+                  76.2,
+                  56.6
+                ],
+                [
+                  76.6,
+                  63.8
+                ]
+              ],
+              "id": 223544,
+              "item": "Iron Bar",
+              "name": "Fel Interloper",
+              "objective": 2,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Feralas"
+      },
+      "4": {
+        "levels": [
+          [
+            {
+              "coord": [
+                62.2,
+                39
+              ],
+              "coords": [
+                [
+                  34.8,
+                  56.2
+                ],
+                [
+                  35,
+                  55
+                ],
+                [
+                  41.2,
+                  33.4
+                ],
+                [
+                  41.2,
+                  33.6
+                ],
+                [
+                  43.6,
+                  25.2
+                ],
+                [
+                  46.2,
+                  39.4
+                ],
+                [
+                  46.6,
+                  39.2
+                ],
+                [
+                  48.8,
+                  48.2
+                ],
+                [
+                  49.2,
+                  48.6
+                ],
+                [
+                  56.2,
+                  36.4
+                ],
+                [
+                  56.2,
+                  36.6
+                ],
+                [
+                  56.6,
+                  36.6
+                ],
+                [
+                  58.8,
+                  41.2
+                ],
+                [
+                  59.2,
+                  40.2
+                ],
+                [
+                  59.8,
+                  42.4
+                ],
+                [
+                  60.2,
+                  46.6
+                ],
+                [
+                  60.4,
+                  46.4
+                ],
+                [
+                  60.6,
+                  39
+                ],
+                [
+                  60.6,
+                  44.8
+                ],
+                [
+                  61.8,
+                  38.4
+                ],
+                [
+                  62.2,
+                  39
+                ]
+              ],
+              "id": 223544,
+              "item": "Iron Bar",
+              "name": "Fel Interloper",
+              "objective": 2,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Blasted Lands"
+      },
+      "405": {
+        "levels": [
+          [
+            {
+              "coord": [
+                48.8,
+                82
+              ],
+              "coords": [
+                [
+                  47.4,
+                  22
+                ],
+                [
+                  48.8,
+                  81.4
+                ],
+                [
+                  48.8,
+                  82
+                ],
+                [
+                  49.4,
+                  74.8
+                ],
+                [
+                  49.6,
+                  75
+                ],
+                [
+                  52,
+                  85.4
+                ],
+                [
+                  52.2,
+                  72.2
+                ],
+                [
+                  52.2,
+                  72.6
+                ],
+                [
+                  52.2,
+                  85.6
+                ],
+                [
+                  52.8,
+                  81
+                ],
+                [
+                  54.2,
+                  19.2
+                ],
+                [
+                  56,
+                  74.8
+                ],
+                [
+                  71.4,
+                  18.8
+                ],
+                [
+                  71.6,
+                  18.8
+                ],
+                [
+                  72.2,
+                  22.2
+                ],
+                [
+                  72.6,
+                  21.8
+                ],
+                [
+                  73.4,
+                  24.6
+                ],
+                [
+                  73.6,
+                  24.4
+                ],
+                [
+                  73.6,
+                  24.6
+                ],
+                [
+                  74.6,
+                  10.4
+                ],
+                [
+                  76.2,
+                  19.2
+                ],
+                [
+                  80.4,
+                  17.2
+                ],
+                [
+                  80.4,
+                  17.6
+                ]
+              ],
+              "id": 223543,
+              "item": "Iron Bar",
+              "name": "Fel Interloper",
+              "objective": 2,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Desolace"
+      },
+      "44": {
+        "levels": [
+          [
+            {
+              "coord": [
+                29.8,
+                30
+              ],
+              "coords": [
+                [
+                  28.8,
+                  28
+                ],
+                [
+                  29.2,
+                  30.4
+                ],
+                [
+                  29.8,
+                  30
+                ],
+                [
+                  30.4,
+                  22
+                ],
+                [
+                  30.8,
+                  21.8
+                ],
+                [
+                  32.2,
+                  20.8
+                ],
+                [
+                  42.4,
+                  17
+                ],
+                [
+                  42.6,
+                  17
+                ],
+                [
+                  71,
+                  84.8
+                ],
+                [
+                  71.4,
+                  58.2
+                ],
+                [
+                  71.4,
+                  84
+                ],
+                [
+                  78.8,
+                  65.6
+                ],
+                [
+                  78.8,
+                  72.8
+                ],
+                [
+                  81.8,
+                  60.8
+                ],
+                [
+                  83.2,
+                  44.6
+                ],
+                [
+                  86.4,
+                  52.4
+                ]
+              ],
+              "id": 223542,
+              "item": "Iron Bar",
+              "name": "Fel Interloper",
+              "objective": 2,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Redridge Mountains"
+      },
+      "8": {
+        "levels": [
+          [
+            {
+              "coord": [
+                36.2,
+                50
+              ],
+              "coords": [
+                [
+                  10.4,
+                  60
+                ],
+                [
+                  10.4,
+                  60.6
+                ],
+                [
+                  10.6,
+                  60
+                ],
+                [
+                  12.4,
+                  29.8
+                ],
+                [
+                  12.6,
+                  29.8
+                ],
+                [
+                  16,
+                  63.2
+                ],
+                [
+                  16.8,
+                  62.2
+                ],
+                [
+                  17,
+                  63
+                ],
+                [
+                  22.6,
+                  64.6
+                ],
+                [
+                  22.8,
+                  64.4
+                ],
+                [
+                  27,
+                  49.8
+                ],
+                [
+                  34.2,
+                  28.4
+                ],
+                [
+                  34.2,
+                  28.6
+                ],
+                [
+                  36.2,
+                  50
+                ],
+                [
+                  49.2,
+                  38.8
+                ],
+                [
+                  49.4,
+                  38.4
+                ],
+                [
+                  49.8,
+                  38.6
+                ],
+                [
+                  56.6,
+                  65.4
+                ],
+                [
+                  56.8,
+                  65.6
+                ],
+                [
+                  60.4,
+                  27.8
+                ],
+                [
+                  60.6,
+                  27
+                ],
+                [
+                  60.6,
+                  27.8
+                ],
+                [
+                  60.8,
+                  43.2
+                ],
+                [
+                  61.2,
+                  43.6
+                ],
+                [
+                  69.4,
+                  78.4
+                ],
+                [
+                  69.4,
+                  79.2
+                ],
+                [
+                  69.6,
+                  78.4
+                ],
+                [
+                  69.6,
+                  78.8
+                ],
+                [
+                  72.2,
+                  10.4
+                ],
+                [
+                  72.2,
+                  10.8
+                ],
+                [
+                  72.6,
+                  10.4
+                ],
+                [
+                  72.8,
+                  10.8
+                ],
+                [
+                  77.2,
+                  89.6
+                ],
+                [
+                  77.4,
+                  89.4
+                ],
+                [
+                  77.6,
+                  89.4
+                ],
+                [
+                  77.6,
+                  90
+                ],
+                [
+                  81.2,
+                  34
+                ],
+                [
+                  81.2,
+                  34.8
+                ],
+                [
+                  83.6,
+                  66.2
+                ],
+                [
+                  87,
+                  26.2
+                ],
+                [
+                  90.6,
+                  65.8
+                ],
+                [
+                  91,
+                  65.4
+                ],
+                [
+                  91.2,
+                  56.6
+                ],
+                [
+                  91.4,
+                  56
+                ]
+              ],
+              "id": 223543,
+              "item": "Iron Bar",
+              "name": "Fel Interloper",
+              "objective": 2,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Swamp of Sorrows"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        17,
+        2
+      ],
+      [
+        44,
+        1
+      ],
+      [
+        331,
+        1
+      ],
+      [
+        8,
+        1
+      ],
+      [
+        405,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        16,
+        1
+      ],
+      [
+        357,
+        1
+      ]
+    ]
+  },
+  "minLevel": 20,
+  "pageInfo": {
+    "name": "Brutal Armor",
+    "type": 5,
+    "typeId": 1838
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 1838,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 5878,
+      "npcName": "Thun'grim Firegaze",
+      "zoneId": 17,
+      "x": 57.2,
+      "y": 30.2,
+      "zoneName": "The Barrens"
+    }
+  ]
+}

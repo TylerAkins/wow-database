@@ -1,0 +1,247 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T06:09:01+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 14[/li][li]Requires level 9[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=253092/alba-fairmoon]Alba Fairmoon[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=253092/alba-fairmoon]Alba Fairmoon[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]9[/color][small] &nbsp;[/small][color=r1]10[/color][small] &nbsp;[/small][color=r2]12[/color][small] &nbsp;[/small][color=r3]17[/color][small] &nbsp;[/small][color=r4]21[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "40": {
+        "levels": [
+          [
+            {
+              "coord": [
+                52.4,
+                53
+              ],
+              "coords": [
+                [
+                  52.4,
+                  53
+                ],
+                [
+                  52.6,
+                  53.2
+                ]
+              ],
+              "id": 253092,
+              "name": "Alba Fairmoon",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                52.4,
+                53
+              ],
+              "coords": [
+                [
+                  52.4,
+                  53
+                ],
+                [
+                  52.6,
+                  53.2
+                ]
+              ],
+              "id": 253092,
+              "name": "Alba Fairmoon",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                44.6,
+                23.4
+              ],
+              "coords": [
+                [
+                  44.4,
+                  19.6
+                ],
+                [
+                  44.4,
+                  21.4
+                ],
+                [
+                  44.4,
+                  23.6
+                ],
+                [
+                  44.6,
+                  20.2
+                ],
+                [
+                  44.6,
+                  21
+                ],
+                [
+                  44.6,
+                  23.4
+                ],
+                [
+                  44.6,
+                  23.6
+                ],
+                [
+                  44.8,
+                  22.4
+                ],
+                [
+                  45,
+                  18.6
+                ],
+                [
+                  45.4,
+                  18.2
+                ],
+                [
+                  45.6,
+                  20.4
+                ],
+                [
+                  45.8,
+                  18.2
+                ],
+                [
+                  46,
+                  18.6
+                ],
+                [
+                  46.6,
+                  19.4
+                ]
+              ],
+              "id": 1236,
+              "name": "Kobold Digger",
+              "objective": 1236,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                30,
+                47.4
+              ],
+              "coords": [
+                [
+                  28.8,
+                  49
+                ],
+                [
+                  28.8,
+                  49.6
+                ],
+                [
+                  29,
+                  51
+                ],
+                [
+                  29.4,
+                  46.2
+                ],
+                [
+                  29.6,
+                  50.2
+                ],
+                [
+                  29.6,
+                  50.6
+                ],
+                [
+                  30,
+                  47.4
+                ],
+                [
+                  30.2,
+                  45.4
+                ],
+                [
+                  30.2,
+                  47.6
+                ],
+                [
+                  30.4,
+                  45.8
+                ],
+                [
+                  30.4,
+                  49.2
+                ],
+                [
+                  30.6,
+                  45.8
+                ],
+                [
+                  30.6,
+                  48
+                ],
+                [
+                  30.6,
+                  48.6
+                ],
+                [
+                  31,
+                  45.2
+                ]
+              ],
+              "id": 1426,
+              "name": "Riverpaw Miner",
+              "objective": 1426,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Westfall"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        40,
+        3
+      ]
+    ]
+  },
+  "minLevel": 9,
+  "pageInfo": {
+    "name": "The State of the Mines",
+    "type": 5,
+    "typeId": 92745
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 92745,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 253092,
+      "npcName": "Alba Fairmoon",
+      "zoneId": 40,
+      "x": 52.4,
+      "y": 53.0,
+      "zoneName": "Westfall"
+    }
+  ]
+}

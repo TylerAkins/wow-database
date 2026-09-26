@@ -1,0 +1,95 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T02:35:23+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 14[/li][li]Requires level 12[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=2930/sentinel-glynda-nalshea]Sentinel Glynda Nal'Shea[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=175524/mysterious-red-crystal]Mysterious Red Crystal[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]12[/color][small] &nbsp;[/small][color=r3]17[/color][small] &nbsp;[/small][color=r4]21[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "148": {
+        "levels": [
+          [
+            {
+              "coord": [
+                37.6,
+                43.4
+              ],
+              "coords": [
+                [
+                  37.6,
+                  43.4
+                ],
+                [
+                  37.6,
+                  43.6
+                ]
+              ],
+              "id": 2930,
+              "name": "Sentinel Glynda Nal'Shea",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                47.3,
+                48.7
+              ],
+              "coords": [
+                [
+                  47.3,
+                  48.7
+                ]
+              ],
+              "id": 175524,
+              "name": "Mysterious Red Crystal",
+              "point": "end",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Darkshore"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        148,
+        2
+      ]
+    ]
+  },
+  "minLevel": 12,
+  "pageInfo": {
+    "name": "As Water Cascades",
+    "type": 5,
+    "typeId": 4812
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 4812,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 2930,
+      "npcName": "Sentinel Glynda Nal'Shea",
+      "zoneId": 148,
+      "x": 37.6,
+      "y": 43.4,
+      "zoneName": "Darkshore"
+    }
+  ]
+}

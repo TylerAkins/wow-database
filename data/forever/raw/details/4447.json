@@ -1,0 +1,118 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T02:24:11+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": true,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 55[/li][li]Requires level 48[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/object=173324/corrupted-night-dragon]Corrupted Night Dragon[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=173324/corrupted-night-dragon]Corrupted Night Dragon[/url][/icon][/li][li]Repeatable[/li][li]Sharable[/li][li]Difficulty: [color=q10]48[/color][small] &nbsp;[/small][color=r1]51[/color][small] &nbsp;[/small][color=r2]53[/color][small] &nbsp;[/small][color=r3]58[/color][small] &nbsp;[/small][color=r4]66[/color][/li][li]Added in patch [acronym=\"1.13.2.30786\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "361": {
+        "levels": [
+          [
+            {
+              "coord": [
+                50.6,
+                30.5
+              ],
+              "coords": [
+                [
+                  50.6,
+                  30.4
+                ],
+                [
+                  50.6,
+                  30.5
+                ]
+              ],
+              "id": 173324,
+              "name": "Corrupted Night Dragon",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                50.6,
+                30.5
+              ],
+              "coords": [
+                [
+                  50.6,
+                  30.4
+                ],
+                [
+                  50.6,
+                  30.5
+                ]
+              ],
+              "id": 173324,
+              "name": "Corrupted Night Dragon",
+              "point": "end",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Felwood"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        361,
+        1
+      ]
+    ]
+  },
+  "minLevel": 48,
+  "objectSpawns": [
+    {
+      "entityId": 173324,
+      "entityKind": "object",
+      "entityName": "Corrupted Night Dragon",
+      "uiMapId": 1448,
+      "uiMapName": "Felwood",
+      "x": 50.6,
+      "y": 30.4,
+      "zoneId": 361
+    },
+    {
+      "entityId": 173324,
+      "entityKind": "object",
+      "entityName": "Corrupted Night Dragon",
+      "uiMapId": 1448,
+      "uiMapName": "Felwood",
+      "x": 50.6,
+      "y": 30.5,
+      "zoneId": 361
+    }
+  ],
+  "pageInfo": {
+    "name": "Corrupted Night Dragon",
+    "type": 5,
+    "typeId": 4447
+  },
+  "pinCategory": "repeatable",
+  "prerequisiteQuestIds": [],
+  "questId": 4447,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 173324,
+      "npcName": "Corrupted Night Dragon",
+      "x": 50.6,
+      "y": 30.5,
+      "zoneId": 361,
+      "zoneName": "Felwood"
+    }
+  ]
+}

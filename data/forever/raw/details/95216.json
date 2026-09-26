@@ -1,0 +1,133 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T06:39:36+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": true,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 22[/li][li]Requires level 16[/li][li]Type: Dungeon[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=11835/theodore-griffs]Theodore Griffs[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=11835/theodore-griffs]Theodore Griffs[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]16[/color][small] &nbsp;[/small][color=r1]18[/color][small] &nbsp;[/small][color=r2]20[/color][small] &nbsp;[/small][color=r3]25[/color][small] &nbsp;[/small][color=r4]29[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "1497": {
+        "levels": [
+          [
+            {
+              "coord": [
+                46.6,
+                72
+              ],
+              "coords": [
+                [
+                  46,
+                  70.4
+                ],
+                [
+                  46.4,
+                  71.4
+                ],
+                [
+                  46.4,
+                  71.8
+                ],
+                [
+                  46.6,
+                  71.4
+                ],
+                [
+                  46.6,
+                  72
+                ],
+                [
+                  47,
+                  72.6
+                ]
+              ],
+              "id": 11835,
+              "name": "Theodore Griffs",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                46.6,
+                72
+              ],
+              "coords": [
+                [
+                  46,
+                  70.4
+                ],
+                [
+                  46.4,
+                  71.4
+                ],
+                [
+                  46.4,
+                  71.8
+                ],
+                [
+                  46.6,
+                  71.4
+                ],
+                [
+                  46.6,
+                  72
+                ],
+                [
+                  47,
+                  72.6
+                ]
+              ],
+              "id": 11835,
+              "name": "Theodore Griffs",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Undercity"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1497,
+        1
+      ]
+    ]
+  },
+  "minLevel": 16,
+  "pageInfo": {
+    "name": "The New Plague",
+    "type": 5,
+    "typeId": 95216
+  },
+  "pinCategory": "instance",
+  "prerequisiteQuestIds": [],
+  "questId": 95216,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 11835,
+      "npcName": "Theodore Griffs",
+      "zoneId": 1497,
+      "x": 46.6,
+      "y": 72.0,
+      "zoneName": "Undercity"
+    }
+  ]
+}

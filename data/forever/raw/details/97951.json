@@ -1,0 +1,97 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T06:56:42+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 6[/li][li]Requires level 4[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=265812/eleanor-shackleton]Eleanor Shackleton[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2132/carolai-anise]Carolai Anise[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]4[/color][small] &nbsp;[/small][color=r3]9[/color][small] &nbsp;[/small][color=r4]12[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "85": {
+        "levels": [
+          [
+            {
+              "coord": [
+                57.2,
+                55.4
+              ],
+              "coords": [
+                [
+                  57.2,
+                  55.4
+                ],
+                [
+                  57.2,
+                  55.6
+                ]
+              ],
+              "id": 265812,
+              "name": "Eleanor Shackleton",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                59.4,
+                52.2
+              ],
+              "coords": [
+                [
+                  59.4,
+                  52.2
+                ]
+              ],
+              "id": 2132,
+              "name": "Carolai Anise",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Tirisfal Glades"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        85,
+        2
+      ]
+    ]
+  },
+  "minLevel": 4,
+  "pageInfo": {
+    "name": "Camping 101: Alchemy",
+    "type": 5,
+    "typeId": 97951
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 97951,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 265812,
+      "npcName": "Eleanor Shackleton",
+      "zoneId": 85,
+      "x": 57.2,
+      "y": 55.4,
+      "zoneName": "Tirisfal Glades"
+    }
+  ]
+}

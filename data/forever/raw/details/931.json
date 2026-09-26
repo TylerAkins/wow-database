@@ -1,0 +1,110 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-24T23:26:42+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 10[/li][li]Requires level 4[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/object=6752/strange-fronded-plant]Strange Fronded Plant[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2080/denalan]Denalan[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]4[/color][small] &nbsp;[/small][color=r1]6[/color][small] &nbsp;[/small][color=r2]8[/color][small] &nbsp;[/small][color=r3]13[/color][small] &nbsp;[/small][color=r4]16[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "141": {
+        "levels": [
+          [
+            {
+              "coord": [
+                34.7,
+                28.8
+              ],
+              "coords": [
+                [
+                  34.7,
+                  28.8
+                ]
+              ],
+              "id": 6752,
+              "name": "Strange Fronded Plant",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                60.8,
+                68.4
+              ],
+              "coords": [
+                [
+                  60.8,
+                  68.4
+                ],
+                [
+                  60.8,
+                  68.6
+                ]
+              ],
+              "id": 2080,
+              "name": "Denalan",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Teldrassil"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        141,
+        2
+      ]
+    ]
+  },
+  "minLevel": 4,
+  "objectSpawns": [
+    {
+      "entityId": 6752,
+      "entityKind": "object",
+      "entityName": "Strange Fronded Plant",
+      "uiMapId": 1438,
+      "uiMapName": "Teldrassil",
+      "x": 34.7,
+      "y": 28.8,
+      "zoneId": 141
+    }
+  ],
+  "pageInfo": {
+    "name": "The Shimmering Frond",
+    "type": 5,
+    "typeId": 931
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    918,
+    919
+  ],
+  "questId": 931,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 6752,
+      "npcName": "Strange Fronded Plant",
+      "x": 34.7,
+      "y": 28.8,
+      "zoneId": 141,
+      "zoneName": "Teldrassil"
+    }
+  ]
+}

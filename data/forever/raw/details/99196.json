@@ -1,0 +1,101 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T07:10:40+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 12[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=276171/oura-stormspinner]Oura Stormspinner[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=276171/oura-stormspinner]Oura Stormspinner[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]12[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "215": {
+        "levels": [
+          [
+            {
+              "coord": [
+                34.2,
+                22.4
+              ],
+              "coords": [
+                [
+                  34.2,
+                  22.4
+                ],
+                [
+                  34.2,
+                  22.6
+                ]
+              ],
+              "id": 276171,
+              "name": "Oura Stormspinner",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                34.2,
+                22.4
+              ],
+              "coords": [
+                [
+                  34.2,
+                  22.4
+                ],
+                [
+                  34.2,
+                  22.6
+                ]
+              ],
+              "id": 276171,
+              "name": "Oura Stormspinner",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Mulgore"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        215,
+        1
+      ]
+    ]
+  },
+  "minLevel": 12,
+  "pageInfo": {
+    "name": "A Donation of Wool",
+    "type": 5,
+    "typeId": 99196
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 99196,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 276171,
+      "npcName": "Oura Stormspinner",
+      "zoneId": 215,
+      "x": 34.2,
+      "y": 22.4,
+      "zoneName": "Mulgore"
+    }
+  ]
+}

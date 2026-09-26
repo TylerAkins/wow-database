@@ -1,0 +1,182 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T01:44:23+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 47[/li][li]Requires level 42[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=7825/oran-snakewrithe]Oran Snakewrithe[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=7825/oran-snakewrithe]Oran Snakewrithe[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]42[/color][small] &nbsp;[/small][color=r1]43[/color][small] &nbsp;[/small][color=r2]45[/color][small] &nbsp;[/small][color=r3]50[/color][small] &nbsp;[/small][color=r4]57[/color][/li][li]Added in patch [acronym=\"1.13.2.30786\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1497": {
+        "levels": [
+          [
+            {
+              "coord": [
+                73.4,
+                32.4
+              ],
+              "coords": [
+                [
+                  73.4,
+                  32.4
+                ],
+                [
+                  73.4,
+                  32.6
+                ],
+                [
+                  73.6,
+                  32.4
+                ],
+                [
+                  73.6,
+                  32.6
+                ]
+              ],
+              "id": 7825,
+              "name": "Oran Snakewrithe",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                73.4,
+                32.4
+              ],
+              "coords": [
+                [
+                  73.4,
+                  32.4
+                ],
+                [
+                  73.4,
+                  32.6
+                ],
+                [
+                  73.6,
+                  32.4
+                ],
+                [
+                  73.6,
+                  32.6
+                ]
+              ],
+              "id": 7825,
+              "name": "Oran Snakewrithe",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Undercity"
+      },
+      "47": {
+        "levels": [
+          [
+            {
+              "coord": [
+                32,
+                46.9
+              ],
+              "coords": [
+                [
+                  32,
+                  46.9
+                ]
+              ],
+              "id": 144071,
+              "name": "Highvale Records",
+              "objective": 0,
+              "point": "requirement",
+              "type": 2
+            },
+            {
+              "coord": [
+                29.7,
+                48.5
+              ],
+              "coords": [
+                [
+                  29.7,
+                  48.5
+                ]
+              ],
+              "id": 144072,
+              "name": "Highvale Notes",
+              "objective": 1,
+              "point": "requirement",
+              "type": 2
+            },
+            {
+              "coord": [
+                28.5,
+                45.9
+              ],
+              "coords": [
+                [
+                  28.5,
+                  45.9
+                ]
+              ],
+              "id": 144073,
+              "name": "Highvale Report",
+              "objective": 2,
+              "point": "requirement",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Hinterlands"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1497,
+        1
+      ],
+      [
+        47,
+        3
+      ]
+    ]
+  },
+  "minLevel": 42,
+  "pageInfo": {
+    "name": "Lines of Communication",
+    "type": 5,
+    "typeId": 2995
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    7841
+  ],
+  "questId": 2995,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 7825,
+      "npcName": "Oran Snakewrithe",
+      "zoneId": 1497,
+      "x": 73.4,
+      "y": 32.4,
+      "zoneName": "Undercity"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-24T23:21:07+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 33[/li][li]Requires level 30[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=2711/phin-odelic]Phin Odelic[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2712/quae]Quae[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]30[/color][small] &nbsp;[/small][color=r2]31[/color][small] &nbsp;[/small][color=r3]36[/color][small] &nbsp;[/small][color=r4]42[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "267": {
+        "levels": [
+          [
+            {
+              "coord": [
+                50.2,
+                58.8
+              ],
+              "coords": [
+                [
+                  50.2,
+                  58.8
+                ]
+              ],
+              "id": 2711,
+              "name": "Phin Odelic",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Hillsbrad Foothills"
+      },
+      "45": {
+        "levels": [
+          [
+            {
+              "coord": [
+                60.2,
+                53.8
+              ],
+              "coords": [
+                [
+                  60,
+                  53.4
+                ],
+                [
+                  60.2,
+                  53.8
+                ]
+              ],
+              "id": 2712,
+              "name": "Quae",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Arathi Highlands"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        267,
+        1
+      ],
+      [
+        45,
+        1
+      ]
+    ]
+  },
+  "minLevel": 30,
+  "pageInfo": {
+    "name": "Hints of a New Plague?",
+    "type": 5,
+    "typeId": 659
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 659,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 2711,
+      "npcName": "Phin Odelic",
+      "zoneId": 267,
+      "x": 50.2,
+      "y": 58.8,
+      "zoneName": "Hillsbrad Foothills"
+    }
+  ]
+}

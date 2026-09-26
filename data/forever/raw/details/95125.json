@@ -1,0 +1,105 @@
+{
+  "classes": [
+    2
+  ],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T06:38:36+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 25[/li][li]Requires level 20[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Race: [race=5][/li][li]Class: [class=2][/li][li][icon name=quest-start]Start: [url=/forever/npc=3539/ott]Ott[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3539/ott]Ott[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]20[/color][small] &nbsp;[/small][color=r1]21[/color][small] &nbsp;[/small][color=r2]23[/color][small] &nbsp;[/small][color=r3]28[/color][small] &nbsp;[/small][color=r4]33[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "267": {
+        "levels": [
+          [
+            {
+              "coord": [
+                60.4,
+                26
+              ],
+              "coords": [
+                [
+                  60.4,
+                  26
+                ],
+                [
+                  60.6,
+                  26
+                ]
+              ],
+              "id": 3539,
+              "name": "Ott",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                60.4,
+                26
+              ],
+              "coords": [
+                [
+                  60.4,
+                  26
+                ],
+                [
+                  60.6,
+                  26
+                ]
+              ],
+              "id": 3539,
+              "name": "Ott",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Hillsbrad Foothills"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        267,
+        1
+      ]
+    ]
+  },
+  "minLevel": 20,
+  "pageInfo": {
+    "name": "Ott's Masterwork",
+    "type": 5,
+    "typeId": 95125
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 95125,
+  "races": [
+    5
+  ],
+  "startPins": [
+    {
+      "npcId": 3539,
+      "npcName": "Ott",
+      "zoneId": 267,
+      "x": 60.4,
+      "y": 26.0,
+      "zoneName": "Hillsbrad Foothills"
+    }
+  ]
+}

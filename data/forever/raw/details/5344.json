@@ -1,0 +1,117 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T02:56:26+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": true,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 52[/li][li]Type: PvP[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=11023/weldon-barov]Weldon Barov[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=11023/weldon-barov]Weldon Barov[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]52[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.31727\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "28": {
+        "levels": [
+          [
+            {
+              "coord": [
+                43.4,
+                83.6
+              ],
+              "coords": [
+                [
+                  43.4,
+                  83.4
+                ],
+                [
+                  43.4,
+                  83.6
+                ],
+                [
+                  43.6,
+                  83.4
+                ],
+                [
+                  43.6,
+                  83.6
+                ]
+              ],
+              "id": 11023,
+              "name": "Weldon Barov",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                43.4,
+                83.6
+              ],
+              "coords": [
+                [
+                  43.4,
+                  83.4
+                ],
+                [
+                  43.4,
+                  83.6
+                ],
+                [
+                  43.6,
+                  83.4
+                ],
+                [
+                  43.6,
+                  83.6
+                ]
+              ],
+              "id": 11023,
+              "name": "Weldon Barov",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Western Plaguelands"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        28,
+        1
+      ]
+    ]
+  },
+  "minLevel": 52,
+  "pageInfo": {
+    "name": "The Last Barov",
+    "type": 5,
+    "typeId": 5344
+  },
+  "pinCategory": "pvp",
+  "prerequisiteQuestIds": [],
+  "questId": 5344,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 11023,
+      "npcName": "Weldon Barov",
+      "zoneId": 28,
+      "x": 43.4,
+      "y": 83.6,
+      "zoneName": "Western Plaguelands"
+    }
+  ]
+}

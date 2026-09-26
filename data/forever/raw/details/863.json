@@ -1,0 +1,108 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-24T23:25:18+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 18[/li][li]Requires level 13[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=3439/wizzlecranks-shredder]Wizzlecrank's Shredder[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3442/sputtervalve]Sputtervalve[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]13[/color][small] &nbsp;[/small][color=r1]14[/color][small] &nbsp;[/small][color=r2]16[/color][small] &nbsp;[/small][color=r3]21[/color][small] &nbsp;[/small][color=r4]25[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "17": {
+        "levels": [
+          [
+            {
+              "coord": [
+                56.4,
+                7.4
+              ],
+              "coords": [
+                [
+                  55.4,
+                  7
+                ],
+                [
+                  55.4,
+                  7.6
+                ],
+                [
+                  56.4,
+                  7.4
+                ],
+                [
+                  56.4,
+                  7.6
+                ],
+                [
+                  56.6,
+                  7.4
+                ]
+              ],
+              "id": 3439,
+              "name": "Wizzlecrank's Shredder",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                63,
+                37.2
+              ],
+              "coords": [
+                [
+                  63,
+                  37.2
+                ]
+              ],
+              "id": 3442,
+              "name": "Sputtervalve",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Barrens"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        17,
+        2
+      ]
+    ]
+  },
+  "minLevel": 13,
+  "pageInfo": {
+    "name": "The Escape",
+    "type": 5,
+    "typeId": 863
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 863,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3439,
+      "npcName": "Wizzlecrank's Shredder",
+      "zoneId": 17,
+      "x": 56.4,
+      "y": 7.4,
+      "zoneName": "The Barrens"
+    }
+  ]
+}

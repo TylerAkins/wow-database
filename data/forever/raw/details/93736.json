@@ -1,0 +1,165 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T06:12:48+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 9[/li][li]Requires level 4[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=254344/endaria-mistgaze]Endaria Mistgaze[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=254344/endaria-mistgaze]Endaria Mistgaze[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]4[/color][small] &nbsp;[/small][color=r1]5[/color][small] &nbsp;[/small][color=r2]7[/color][small] &nbsp;[/small][color=r3]12[/color][small] &nbsp;[/small][color=r4]15[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "16593": {
+        "levels": [
+          [
+            {
+              "coord": [
+                58.2,
+                78.4
+              ],
+              "coords": [
+                [
+                  58.2,
+                  78.4
+                ]
+              ],
+              "id": 254344,
+              "name": "Endaria Mistgaze",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                58.2,
+                78.4
+              ],
+              "coords": [
+                [
+                  58.2,
+                  78.4
+                ]
+              ],
+              "id": 254344,
+              "name": "Endaria Mistgaze",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                57,
+                29.4
+              ],
+              "coords": [
+                [
+                  57,
+                  29.4
+                ],
+                [
+                  57.2,
+                  29.6
+                ],
+                [
+                  57.2,
+                  33.4
+                ],
+                [
+                  57.2,
+                  33.6
+                ],
+                [
+                  57.4,
+                  32
+                ],
+                [
+                  57.6,
+                  31
+                ],
+                [
+                  57.6,
+                  32.2
+                ],
+                [
+                  57.6,
+                  33.8
+                ],
+                [
+                  57.8,
+                  30.4
+                ],
+                [
+                  58.4,
+                  32.6
+                ],
+                [
+                  58.6,
+                  32.2
+                ],
+                [
+                  58.8,
+                  31.2
+                ],
+                [
+                  58.8,
+                  32.6
+                ],
+                [
+                  59.2,
+                  34.2
+                ]
+              ],
+              "id": 251676,
+              "item": "Wind Hollow Essence",
+              "name": "Wind Hollow",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Zephras Isle"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16593,
+        2
+      ]
+    ]
+  },
+  "minLevel": 4,
+  "pageInfo": {
+    "name": "Unwelcome Spirits",
+    "type": 5,
+    "typeId": 93736
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 93736,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 254344,
+      "npcName": "Endaria Mistgaze",
+      "zoneId": 16593,
+      "x": 58.2,
+      "y": 78.4,
+      "zoneName": "Zephras Isle"
+    }
+  ]
+}

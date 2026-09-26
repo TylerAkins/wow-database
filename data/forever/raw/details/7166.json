@@ -1,0 +1,93 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T03:43:34+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 51[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=13840/warmaster-laggrond]Warmaster Laggrond[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=13840/warmaster-laggrond]Warmaster Laggrond[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]51[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.3.32790\"]1.13.3[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "36": {
+        "levels": [
+          [
+            {
+              "coord": [
+                62.2,
+                59
+              ],
+              "coords": [
+                [
+                  62.2,
+                  59
+                ]
+              ],
+              "id": 13840,
+              "name": "Warmaster Laggrond",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                62.2,
+                59
+              ],
+              "coords": [
+                [
+                  62.2,
+                  59
+                ]
+              ],
+              "id": 13840,
+              "name": "Warmaster Laggrond",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Alterac Mountains"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        36,
+        1
+      ]
+    ]
+  },
+  "minLevel": 51,
+  "pageInfo": {
+    "name": "Legendary Heroes",
+    "type": 5,
+    "typeId": 7166
+  },
+  "pinCategory": "pvp",
+  "prerequisiteQuestIds": [],
+  "questId": 7166,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 13840,
+      "npcName": "Warmaster Laggrond",
+      "zoneId": 36,
+      "x": 62.2,
+      "y": 59.0,
+      "zoneName": "Alterac Mountains"
+    }
+  ]
+}

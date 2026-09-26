@@ -1,0 +1,153 @@
+{
+  "classes": [
+    7
+  ],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T06:30:32+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 4[/li][li]Requires level 4[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Class: [class=7][/li][li][icon name=quest-start]Start: [url=/forever/npc=5891/minor-manifestation-of-earth]Minor Manifestation of Earth[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=257446/teo-hammerstorm]Teo Hammerstorm[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]4[/color][small] &nbsp;[/small][color=r3]7[/color][small] &nbsp;[/small][color=r4]9[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1": {
+        "levels": [
+          [
+            {
+              "coord": [
+                28.8,
+                66.2
+              ],
+              "coords": [
+                [
+                  28.8,
+                  66.2
+                ]
+              ],
+              "id": 257446,
+              "name": "Teo Hammerstorm",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Dun Morogh"
+      },
+      "14": {
+        "levels": [
+          [
+            {
+              "coord": [
+                44,
+                76
+              ],
+              "coords": [
+                [
+                  44,
+                  76
+                ]
+              ],
+              "id": 5891,
+              "name": "Minor Manifestation of Earth",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Durotar"
+      },
+      "215": {
+        "levels": [
+          [
+            {
+              "coord": [
+                53.8,
+                80.4
+              ],
+              "coords": [
+                [
+                  51.8,
+                  80.2
+                ],
+                [
+                  53.8,
+                  80.4
+                ],
+                [
+                  53.8,
+                  80.6
+                ]
+              ],
+              "id": 5891,
+              "name": "Minor Manifestation of Earth",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Mulgore"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        215,
+        1
+      ],
+      [
+        14,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  "minLevel": 4,
+  "pageInfo": {
+    "name": "Call of Earth",
+    "type": 5,
+    "typeId": 94375
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 94375,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 5891,
+      "npcName": "Minor Manifestation of Earth",
+      "zoneId": 14,
+      "x": 44.0,
+      "y": 76.0,
+      "zoneName": "Durotar"
+    },
+    {
+      "npcId": 5891,
+      "npcName": "Minor Manifestation of Earth",
+      "zoneId": 215,
+      "x": 53.8,
+      "y": 80.4,
+      "zoneName": "Mulgore"
+    }
+  ]
+}

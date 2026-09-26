@@ -1,0 +1,100 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T05:34:47+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 40[/li][li]Requires level 1[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/object=424082/firepit]Firepit[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=424082/firepit]Firepit[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]1[/color][small] &nbsp;[/small][color=r1]36[/color][small] &nbsp;[/small][color=r2]38[/color][small] &nbsp;[/small][color=r3]43[/color][small] &nbsp;[/small][color=r4]49[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 2,
+    "objectives": {
+      "406": {
+        "levels": [
+          [
+            {
+              "coord": [
+                40.6,
+                52.4
+              ],
+              "coords": [
+                [
+                  40.6,
+                  52.4
+                ]
+              ],
+              "id": 424082,
+              "name": "Firepit",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                40.6,
+                52.4
+              ],
+              "coords": [
+                [
+                  40.6,
+                  52.4
+                ]
+              ],
+              "id": 424082,
+              "name": "Firepit",
+              "point": "end",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stonetalon Mountains"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        406,
+        1
+      ]
+    ]
+  },
+  "minLevel": 1,
+  "objectSpawns": [
+    {
+      "entityId": 424082,
+      "entityKind": "object",
+      "entityName": "Firepit",
+      "uiMapId": 1442,
+      "uiMapName": "Stonetalon Mountains",
+      "x": 40.6,
+      "y": 52.4,
+      "zoneId": 406
+    }
+  ],
+  "pageInfo": {
+    "name": "Rekindle",
+    "type": 5,
+    "typeId": 80001
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 80001,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 424082,
+      "npcName": "Firepit",
+      "x": 40.6,
+      "y": 52.4,
+      "zoneId": 406,
+      "zoneName": "Stonetalon Mountains"
+    }
+  ]
+}

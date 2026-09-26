@@ -1,0 +1,145 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T03:23:22+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 51[/li][li]Requires level 46[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=9620/drekasur]Dreka'Sur[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=9620/drekasur]Dreka'Sur[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]46[/color][small] &nbsp;[/small][color=r1]47[/color][small] &nbsp;[/small][color=r2]49[/color][small] &nbsp;[/small][color=r3]54[/color][small] &nbsp;[/small][color=r4]62[/color][/li][li]Added in patch [acronym=\"1.13.2.30786\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "361": {
+        "levels": [
+          [
+            {
+              "coord": [
+                34.8,
+                52.6
+              ],
+              "coords": [
+                [
+                  34.8,
+                  52.6
+                ]
+              ],
+              "id": 9620,
+              "name": "Dreka'Sur",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                34.8,
+                52.6
+              ],
+              "coords": [
+                [
+                  34.8,
+                  52.6
+                ]
+              ],
+              "id": 9620,
+              "name": "Dreka'Sur",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                48.2,
+                94
+              ],
+              "coords": [
+                [
+                  47.4,
+                  93.2
+                ],
+                [
+                  47.4,
+                  94
+                ],
+                [
+                  48,
+                  94.8
+                ],
+                [
+                  48.2,
+                  93.4
+                ],
+                [
+                  48.2,
+                  94
+                ],
+                [
+                  48.4,
+                  92.4
+                ],
+                [
+                  48.6,
+                  92.4
+                ],
+                [
+                  48.6,
+                  93.4
+                ],
+                [
+                  48.6,
+                  93.6
+                ]
+              ],
+              "id": 9464,
+              "item": "Overlord Ror's Claw",
+              "name": "Overlord Ror",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Felwood"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        361,
+        2
+      ]
+    ]
+  },
+  "minLevel": 46,
+  "pageInfo": {
+    "name": "A Husband's Last Battle",
+    "type": 5,
+    "typeId": 6162
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 6162,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 9620,
+      "npcName": "Dreka'Sur",
+      "zoneId": 361,
+      "x": 34.8,
+      "y": 52.6,
+      "zoneName": "Felwood"
+    }
+  ]
+}

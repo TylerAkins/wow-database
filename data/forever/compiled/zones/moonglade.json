@@ -1,0 +1,1539 @@
+{
+  "schemaVersion": 1,
+  "gameVersion": "forever",
+  "zone": {
+    "slug": "moonglade",
+    "sourceSlug": "kd/moonglade",
+    "sourceUrl": "https://www.wowhead.com/forever/quests/kalimdor/moonglade",
+    "sourceFetchedAt": "2026-09-24T23:19:10+00:00",
+    "zoneId": 493
+  },
+  "questCount": 8,
+  "quests": {
+    "1124": {
+      "index": {
+        "classes": [],
+        "hasDetail": true,
+        "id": 1124,
+        "list": {
+          "category": 493,
+          "category2": 1,
+          "currencychoicerewards": [],
+          "currencyrewards": [],
+          "envChange": {
+            "labels": [],
+            "lines": [],
+            "status": "unchanged"
+          },
+          "firstseenpatch": 11302,
+          "icon": "quest-start",
+          "id": 1124,
+          "itemchoices": [],
+          "itemrewards": [],
+          "level": 55,
+          "money": 0,
+          "name": "Wasteland",
+          "popularity": 35,
+          "reprewards": [
+            [
+              609,
+              50
+            ]
+          ],
+          "reqclass": 0,
+          "reqlevel": 54,
+          "side": 3,
+          "titlereward": 0,
+          "type": 0,
+          "xp": 2800
+        },
+        "minLevel": 54,
+        "name": "Wasteland",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 11801,
+          "npcName": "Rabine Saturna",
+          "x": 51.6,
+          "y": 44.8,
+          "zoneId": 493,
+          "zoneName": "Moonglade"
+        },
+        "races": [],
+        "sourceKinds": [
+          "zone"
+        ],
+        "sourceSlugs": [
+          "kd/moonglade"
+        ],
+        "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/moonglade"
+        ],
+        "startPinCount": 1,
+        "zoneId": 493,
+        "zoneId2": 1
+      },
+      "detail": {
+        "classes": [],
+        "fetchedAt": "2026-09-25T00:30:21+00:00",
+        "infoboxFlags": {
+          "daily": false,
+          "dungeon": false,
+          "monthly": false,
+          "pvp": false,
+          "raid": false,
+          "repeatable": false,
+          "sharable": true,
+          "weekly": false
+        },
+        "infoboxMarkup": "[ul][li]Level: 55[/li][li]Requires level 54[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=11801/rabine-saturna]Rabine Saturna[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=13220/layo-starstrike]Layo Starstrike[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]54[/color][small] &nbsp;[/small][color=r3]58[/color][small] &nbsp;[/small][color=r4]66[/color][/li][li]Added in patch [acronym=\"1.13.2.31687\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+        "mapper": {
+          "missing": 0,
+          "objectives": {
+            "1377": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      81.8,
+                      18.8
+                    ],
+                    "coords": [
+                      [
+                        81.8,
+                        18.8
+                      ]
+                    ],
+                    "id": 13220,
+                    "name": "Layo Starstrike",
+                    "point": "end",
+                    "reactalliance": 1,
+                    "reacthorde": 1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Silithus"
+            },
+            "493": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      51.6,
+                      44.8
+                    ],
+                    "coords": [
+                      [
+                        51.6,
+                        44.4
+                      ],
+                      [
+                        51.6,
+                        44.8
+                      ]
+                    ],
+                    "id": 11801,
+                    "name": "Rabine Saturna",
+                    "point": "start",
+                    "reactalliance": 1,
+                    "reacthorde": 1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Moonglade"
+            }
+          },
+          "parent": "fweiuasf",
+          "zoneparent": "lksjdowlha",
+          "zones": [
+            [
+              493,
+              1
+            ],
+            [
+              1377,
+              1
+            ]
+          ]
+        },
+        "minLevel": 54,
+        "pageInfo": {
+          "name": "Wasteland",
+          "type": 5,
+          "typeId": 1124
+        },
+        "pinCategory": "normal",
+        "prerequisiteQuestIds": [
+          6762
+        ],
+        "questId": 1124,
+        "races": [],
+        "startPins": [
+          {
+            "npcId": 11801,
+            "npcName": "Rabine Saturna",
+            "zoneId": 493,
+            "x": 51.6,
+            "y": 44.8,
+            "zoneName": "Moonglade"
+          }
+        ]
+      }
+    },
+    "1185": {
+      "index": {
+        "classes": [],
+        "hasDetail": true,
+        "id": 1185,
+        "list": {
+          "category": 493,
+          "category2": 1,
+          "currencychoicerewards": [],
+          "currencyrewards": [],
+          "envChange": {
+            "labels": [],
+            "lines": [],
+            "status": "unchanged"
+          },
+          "firstseenpatch": 11302,
+          "icon": "quest-start",
+          "id": 1185,
+          "itemchoices": [],
+          "itemrewards": [],
+          "level": 57,
+          "money": 0,
+          "name": "Under the Chitin Was...",
+          "popularity": 29,
+          "reprewards": [
+            [
+              609,
+              50
+            ]
+          ],
+          "reqclass": 0,
+          "reqlevel": 54,
+          "side": 3,
+          "titlereward": 0,
+          "type": 0,
+          "xp": 3000
+        },
+        "minLevel": 54,
+        "name": "Under the Chitin Was...",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 11939,
+          "npcName": "Umber",
+          "x": 44.8,
+          "y": 35.4,
+          "zoneId": 493,
+          "zoneName": "Moonglade"
+        },
+        "races": [],
+        "sourceKinds": [
+          "zone"
+        ],
+        "sourceSlugs": [
+          "kd/moonglade"
+        ],
+        "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/moonglade"
+        ],
+        "startPinCount": 1,
+        "zoneId": 493,
+        "zoneId2": 1
+      },
+      "detail": {
+        "classes": [],
+        "fetchedAt": "2026-09-25T00:35:56+00:00",
+        "infoboxFlags": {
+          "daily": false,
+          "dungeon": false,
+          "monthly": false,
+          "pvp": false,
+          "raid": false,
+          "repeatable": false,
+          "sharable": true,
+          "weekly": false
+        },
+        "infoboxMarkup": "[ul][li]Level: 57[/li][li]Requires level 54[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=11939/umber]Umber[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=11939/umber]Umber[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]54[/color][small] &nbsp;[/small][color=r2]55[/color][small] &nbsp;[/small][color=r3]60[/color][small] &nbsp;[/small][color=r4]68[/color][/li][li]Added in patch [acronym=\"1.13.2.31687\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+        "mapper": {
+          "missing": 0,
+          "objectives": {
+            "493": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      44.8,
+                      35.4
+                    ],
+                    "coords": [
+                      [
+                        44.8,
+                        35.4
+                      ],
+                      [
+                        44.8,
+                        35.6
+                      ],
+                      [
+                        47.4,
+                        39.4
+                      ],
+                      [
+                        47.4,
+                        39.6
+                      ],
+                      [
+                        47.6,
+                        39.4
+                      ],
+                      [
+                        47.8,
+                        39.6
+                      ]
+                    ],
+                    "id": 11939,
+                    "name": "Umber",
+                    "point": "start",
+                    "reactalliance": 1,
+                    "reacthorde": 1,
+                    "type": 1
+                  },
+                  {
+                    "coord": [
+                      44.8,
+                      35.4
+                    ],
+                    "coords": [
+                      [
+                        44.8,
+                        35.4
+                      ],
+                      [
+                        44.8,
+                        35.6
+                      ],
+                      [
+                        47.4,
+                        39.4
+                      ],
+                      [
+                        47.4,
+                        39.6
+                      ],
+                      [
+                        47.6,
+                        39.4
+                      ],
+                      [
+                        47.8,
+                        39.6
+                      ]
+                    ],
+                    "id": 11939,
+                    "name": "Umber",
+                    "point": "end",
+                    "reactalliance": 1,
+                    "reacthorde": 1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Moonglade"
+            }
+          },
+          "parent": "fweiuasf",
+          "zoneparent": "lksjdowlha",
+          "zones": [
+            [
+              493,
+              1
+            ]
+          ]
+        },
+        "minLevel": 54,
+        "pageInfo": {
+          "name": "Under the Chitin Was...",
+          "type": 5,
+          "typeId": 1185
+        },
+        "pinCategory": "normal",
+        "prerequisiteQuestIds": [
+          5527,
+          6845
+        ],
+        "questId": 1185,
+        "races": [],
+        "startPins": [
+          {
+            "npcId": 11939,
+            "npcName": "Umber",
+            "zoneId": 493,
+            "x": 44.8,
+            "y": 35.4,
+            "zoneName": "Moonglade"
+          }
+        ]
+      }
+    },
+    "5526": {
+      "index": {
+        "classes": [],
+        "hasDetail": true,
+        "id": 5526,
+        "list": {
+          "category": 493,
+          "category2": 1,
+          "currencychoicerewards": [],
+          "currencyrewards": [],
+          "envChange": {
+            "labels": [
+              "rewards_changed"
+            ],
+            "lines": [
+              "Rewards: no longer Choice of Milli's Lexicon, Choice of Milli's Shield"
+            ],
+            "notShown": [
+              "Rewards: no longer Choice of Milli's Lexicon, Choice of Milli's Shield"
+            ],
+            "status": "updated"
+          },
+          "firstseenpatch": 11302,
+          "icon": "quest-start",
+          "id": 5526,
+          "itemchoices": [
+            [
+              18535,
+              1
+            ],
+            [
+              18536,
+              1
+            ]
+          ],
+          "itemrewards": [],
+          "level": 60,
+          "money": 0,
+          "name": "Shards of the Felvine",
+          "popularity": 33,
+          "reprewards": [
+            [
+              609,
+              150
+            ]
+          ],
+          "reqclass": 0,
+          "reqlevel": 56,
+          "side": 3,
+          "titlereward": 0,
+          "type": 81,
+          "xp": 8300
+        },
+        "minLevel": 56,
+        "name": "Shards of the Felvine",
+        "pinCategory": "instance",
+        "primaryStart": {
+          "npcId": 11801,
+          "npcName": "Rabine Saturna",
+          "x": 51.6,
+          "y": 44.8,
+          "zoneId": 493,
+          "zoneName": "Moonglade"
+        },
+        "races": [],
+        "sourceKinds": [
+          "zone"
+        ],
+        "sourceSlugs": [
+          "kd/moonglade"
+        ],
+        "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/moonglade"
+        ],
+        "startPinCount": 1,
+        "zoneId": 493,
+        "zoneId2": 1
+      },
+      "detail": {
+        "classes": [],
+        "fetchedAt": "2026-09-25T03:01:29+00:00",
+        "infoboxFlags": {
+          "daily": false,
+          "dungeon": true,
+          "monthly": false,
+          "pvp": false,
+          "raid": false,
+          "repeatable": false,
+          "sharable": true,
+          "weekly": false
+        },
+        "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 56[/li][li]Type: Dungeon[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=11801/rabine-saturna]Rabine Saturna[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=11801/rabine-saturna]Rabine Saturna[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.31727\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+        "mapper": {
+          "missing": 2,
+          "objectives": {
+            "493": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      51.6,
+                      44.8
+                    ],
+                    "coords": [
+                      [
+                        51.6,
+                        44.4
+                      ],
+                      [
+                        51.6,
+                        44.8
+                      ]
+                    ],
+                    "id": 11801,
+                    "name": "Rabine Saturna",
+                    "point": "start",
+                    "reactalliance": 1,
+                    "reacthorde": 1,
+                    "type": 1
+                  },
+                  {
+                    "coord": [
+                      51.6,
+                      44.8
+                    ],
+                    "coords": [
+                      [
+                        51.6,
+                        44.4
+                      ],
+                      [
+                        51.6,
+                        44.8
+                      ]
+                    ],
+                    "id": 11801,
+                    "name": "Rabine Saturna",
+                    "point": "end",
+                    "reactalliance": 1,
+                    "reacthorde": 1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Moonglade"
+            }
+          },
+          "parent": "fweiuasf",
+          "zoneparent": "lksjdowlha",
+          "zones": [
+            [
+              493,
+              1
+            ]
+          ]
+        },
+        "minLevel": 56,
+        "pageInfo": {
+          "name": "Shards of the Felvine",
+          "type": 5,
+          "typeId": 5526
+        },
+        "pinCategory": "instance",
+        "prerequisiteQuestIds": [],
+        "questId": 5526,
+        "races": [],
+        "startPins": [
+          {
+            "npcId": 11801,
+            "npcName": "Rabine Saturna",
+            "zoneId": 493,
+            "x": 51.6,
+            "y": 44.8,
+            "zoneName": "Moonglade"
+          }
+        ]
+      }
+    },
+    "5527": {
+      "index": {
+        "classes": [],
+        "hasDetail": true,
+        "id": 5527,
+        "list": {
+          "category": 493,
+          "category2": 1,
+          "currencychoicerewards": [],
+          "currencyrewards": [],
+          "envChange": {
+            "labels": [],
+            "lines": [],
+            "status": "unchanged"
+          },
+          "firstseenpatch": 11302,
+          "icon": "quest-start",
+          "id": 5527,
+          "itemchoices": [],
+          "itemrewards": [],
+          "level": 60,
+          "money": 0,
+          "name": "A Reliquary of Purity",
+          "popularity": 33,
+          "reprewards": [
+            [
+              609,
+              100
+            ]
+          ],
+          "reqclass": 0,
+          "reqlevel": 56,
+          "side": 3,
+          "titlereward": 0,
+          "type": 0,
+          "xp": 6600
+        },
+        "minLevel": 56,
+        "name": "A Reliquary of Purity",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 11801,
+          "npcName": "Rabine Saturna",
+          "x": 51.6,
+          "y": 44.8,
+          "zoneId": 493,
+          "zoneName": "Moonglade"
+        },
+        "races": [],
+        "sourceKinds": [
+          "zone"
+        ],
+        "sourceSlugs": [
+          "kd/moonglade"
+        ],
+        "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/moonglade"
+        ],
+        "startPinCount": 1,
+        "zoneId": 493,
+        "zoneId2": 1
+      },
+      "detail": {
+        "classes": [],
+        "fetchedAt": "2026-09-25T03:01:34+00:00",
+        "infoboxFlags": {
+          "daily": false,
+          "dungeon": false,
+          "monthly": false,
+          "pvp": false,
+          "raid": false,
+          "repeatable": false,
+          "sharable": true,
+          "weekly": false
+        },
+        "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 56[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=11801/rabine-saturna]Rabine Saturna[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=11801/rabine-saturna]Rabine Saturna[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.30786\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+        "mapper": {
+          "missing": 1,
+          "objectives": {
+            "493": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      51.6,
+                      44.8
+                    ],
+                    "coords": [
+                      [
+                        51.6,
+                        44.4
+                      ],
+                      [
+                        51.6,
+                        44.8
+                      ]
+                    ],
+                    "id": 11801,
+                    "name": "Rabine Saturna",
+                    "point": "start",
+                    "reactalliance": 1,
+                    "reacthorde": 1,
+                    "type": 1
+                  },
+                  {
+                    "coord": [
+                      51.6,
+                      44.8
+                    ],
+                    "coords": [
+                      [
+                        51.6,
+                        44.4
+                      ],
+                      [
+                        51.6,
+                        44.8
+                      ]
+                    ],
+                    "id": 11801,
+                    "name": "Rabine Saturna",
+                    "point": "end",
+                    "reactalliance": 1,
+                    "reacthorde": 1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Moonglade"
+            }
+          },
+          "parent": "fweiuasf",
+          "zoneparent": "lksjdowlha",
+          "zones": [
+            [
+              493,
+              1
+            ]
+          ]
+        },
+        "minLevel": 56,
+        "pageInfo": {
+          "name": "A Reliquary of Purity",
+          "type": 5,
+          "typeId": 5527
+        },
+        "pinCategory": "normal",
+        "prerequisiteQuestIds": [
+          5247,
+          5526
+        ],
+        "questId": 5527,
+        "races": [],
+        "startPins": [
+          {
+            "npcId": 11801,
+            "npcName": "Rabine Saturna",
+            "zoneId": 493,
+            "x": 51.6,
+            "y": 44.8,
+            "zoneName": "Moonglade"
+          }
+        ]
+      }
+    },
+    "6845": {
+      "index": {
+        "classes": [],
+        "hasDetail": true,
+        "id": 6845,
+        "list": {
+          "category": 493,
+          "category2": 1,
+          "currencychoicerewards": [],
+          "currencyrewards": [],
+          "envChange": {
+            "labels": [],
+            "lines": [],
+            "status": "unchanged"
+          },
+          "firstseenpatch": 11302,
+          "icon": "quest-start",
+          "id": 6845,
+          "itemchoices": [
+            [
+              18400,
+              1
+            ],
+            [
+              18402,
+              1
+            ]
+          ],
+          "itemrewards": [],
+          "level": 57,
+          "money": 17000,
+          "name": "Uncovering Past Secrets",
+          "popularity": 38,
+          "reprewards": [
+            [
+              609,
+              150
+            ]
+          ],
+          "reqclass": 0,
+          "reqlevel": 54,
+          "side": 3,
+          "titlereward": 0,
+          "type": 0,
+          "xp": 7550
+        },
+        "minLevel": 54,
+        "name": "Uncovering Past Secrets",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 11939,
+          "npcName": "Umber",
+          "x": 44.8,
+          "y": 35.4,
+          "zoneId": 493,
+          "zoneName": "Moonglade"
+        },
+        "races": [],
+        "sourceKinds": [
+          "zone"
+        ],
+        "sourceSlugs": [
+          "kd/moonglade"
+        ],
+        "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/moonglade"
+        ],
+        "startPinCount": 1,
+        "zoneId": 493,
+        "zoneId2": 1
+      },
+      "detail": {
+        "classes": [],
+        "fetchedAt": "2026-09-25T03:36:55+00:00",
+        "infoboxFlags": {
+          "daily": false,
+          "dungeon": false,
+          "monthly": false,
+          "pvp": false,
+          "raid": false,
+          "repeatable": false,
+          "sharable": true,
+          "weekly": false
+        },
+        "infoboxMarkup": "[ul][li]Level: 57[/li][li]Requires level 54[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=11939/umber]Umber[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=11801/rabine-saturna]Rabine Saturna[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]54[/color][small] &nbsp;[/small][color=r2]55[/color][small] &nbsp;[/small][color=r3]60[/color][small] &nbsp;[/small][color=r4]68[/color][/li][li]Added in patch [acronym=\"1.13.2.31687\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+        "mapper": {
+          "missing": 0,
+          "objectives": {
+            "493": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      44.8,
+                      35.4
+                    ],
+                    "coords": [
+                      [
+                        44.8,
+                        35.4
+                      ],
+                      [
+                        44.8,
+                        35.6
+                      ],
+                      [
+                        47.4,
+                        39.4
+                      ],
+                      [
+                        47.4,
+                        39.6
+                      ],
+                      [
+                        47.6,
+                        39.4
+                      ],
+                      [
+                        47.8,
+                        39.6
+                      ]
+                    ],
+                    "id": 11939,
+                    "name": "Umber",
+                    "point": "start",
+                    "reactalliance": 1,
+                    "reacthorde": 1,
+                    "type": 1
+                  },
+                  {
+                    "coord": [
+                      51.6,
+                      44.8
+                    ],
+                    "coords": [
+                      [
+                        51.6,
+                        44.4
+                      ],
+                      [
+                        51.6,
+                        44.8
+                      ]
+                    ],
+                    "id": 11801,
+                    "name": "Rabine Saturna",
+                    "point": "end",
+                    "reactalliance": 1,
+                    "reacthorde": 1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Moonglade"
+            }
+          },
+          "parent": "fweiuasf",
+          "zoneparent": "lksjdowlha",
+          "zones": [
+            [
+              493,
+              2
+            ]
+          ]
+        },
+        "minLevel": 54,
+        "pageInfo": {
+          "name": "Uncovering Past Secrets",
+          "type": 5,
+          "typeId": 6845
+        },
+        "pinCategory": "normal",
+        "prerequisiteQuestIds": [],
+        "questId": 6845,
+        "races": [],
+        "startPins": [
+          {
+            "npcId": 11939,
+            "npcName": "Umber",
+            "zoneId": 493,
+            "x": 44.8,
+            "y": 35.4,
+            "zoneName": "Moonglade"
+          }
+        ]
+      }
+    },
+    "8735": {
+      "index": {
+        "classes": [],
+        "hasDetail": true,
+        "id": 8735,
+        "list": {
+          "category": 493,
+          "category2": 1,
+          "currencychoicerewards": [],
+          "currencyrewards": [],
+          "envChange": {
+            "labels": [],
+            "lines": [],
+            "status": "unchanged"
+          },
+          "firstseenpatch": 11305,
+          "icon": "quest-start",
+          "id": 8735,
+          "itemchoices": [],
+          "itemrewards": [],
+          "level": 60,
+          "money": 0,
+          "name": "The Nightmare's Corruption",
+          "popularity": 31,
+          "reprewards": [
+            [
+              910,
+              100
+            ],
+            [
+              609,
+              100
+            ]
+          ],
+          "reqclass": 0,
+          "reqlevel": 60,
+          "side": 3,
+          "titlereward": 0,
+          "type": 62,
+          "xp": 6600
+        },
+        "minLevel": 60,
+        "name": "The Nightmare's Corruption",
+        "pinCategory": "raid",
+        "primaryStart": {
+          "npcId": 11832,
+          "npcName": "Keeper Remulos",
+          "x": 36.2,
+          "y": 41.8,
+          "zoneId": 493,
+          "zoneName": "Moonglade"
+        },
+        "races": [],
+        "sourceKinds": [
+          "zone"
+        ],
+        "sourceSlugs": [
+          "kd/moonglade"
+        ],
+        "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/moonglade"
+        ],
+        "startPinCount": 1,
+        "zoneId": 493,
+        "zoneId2": 1
+      },
+      "detail": {
+        "classes": [],
+        "fetchedAt": "2026-09-25T04:45:47+00:00",
+        "infoboxFlags": {
+          "daily": false,
+          "dungeon": false,
+          "monthly": false,
+          "pvp": false,
+          "raid": true,
+          "repeatable": false,
+          "sharable": true,
+          "weekly": false
+        },
+        "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 60[/li][li]Type: Raid[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=11832/keeper-remulos]Keeper Remulos[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=11832/keeper-remulos]Keeper Remulos[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]60[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.5.35186\"]1.13.5[/acronym] \"The Gates of Ahn'Qiraj\"[/li][/ul]",
+        "mapper": {
+          "missing": 3,
+          "objectives": {
+            "10": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      47.2,
+                      39
+                    ],
+                    "coords": [
+                      [
+                        46.6,
+                        36.2
+                      ],
+                      [
+                        46.8,
+                        49.6
+                      ],
+                      [
+                        47.2,
+                        37.4
+                      ],
+                      [
+                        47.2,
+                        38.4
+                      ],
+                      [
+                        47.2,
+                        39
+                      ],
+                      [
+                        47.2,
+                        39.6
+                      ],
+                      [
+                        47.6,
+                        38.8
+                      ],
+                      [
+                        48,
+                        36.4
+                      ],
+                      [
+                        48.8,
+                        34.4
+                      ],
+                      [
+                        48.8,
+                        34.8
+                      ],
+                      [
+                        48.8,
+                        37.2
+                      ],
+                      [
+                        49,
+                        40.2
+                      ]
+                    ],
+                    "id": 15625,
+                    "item": "Fragment of the Nightmare's Corruption",
+                    "name": "Twilight Corrupter",
+                    "objective": 1,
+                    "point": "sourcerequirement",
+                    "reactalliance": -1,
+                    "reacthorde": -1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Duskwood"
+            },
+            "493": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      36.2,
+                      41.8
+                    ],
+                    "coords": [
+                      [
+                        36.2,
+                        41.2
+                      ],
+                      [
+                        36.2,
+                        41.8
+                      ],
+                      [
+                        36.6,
+                        41.8
+                      ]
+                    ],
+                    "id": 11832,
+                    "name": "Keeper Remulos",
+                    "point": "start",
+                    "reactalliance": 1,
+                    "reacthorde": 1,
+                    "type": 1
+                  },
+                  {
+                    "coord": [
+                      36.2,
+                      41.8
+                    ],
+                    "coords": [
+                      [
+                        36.2,
+                        41.2
+                      ],
+                      [
+                        36.2,
+                        41.8
+                      ],
+                      [
+                        36.6,
+                        41.8
+                      ]
+                    ],
+                    "id": 11832,
+                    "name": "Keeper Remulos",
+                    "point": "end",
+                    "reactalliance": 1,
+                    "reacthorde": 1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Moonglade"
+            }
+          },
+          "parent": "fweiuasf",
+          "zoneparent": "lksjdowlha",
+          "zones": [
+            [
+              493,
+              1
+            ],
+            [
+              10,
+              1
+            ]
+          ]
+        },
+        "minLevel": 60,
+        "pageInfo": {
+          "name": "The Nightmare's Corruption",
+          "type": 5,
+          "typeId": 8735
+        },
+        "pinCategory": "raid",
+        "prerequisiteQuestIds": [
+          8734,
+          8736
+        ],
+        "questId": 8735,
+        "races": [],
+        "startPins": [
+          {
+            "npcId": 11832,
+            "npcName": "Keeper Remulos",
+            "zoneId": 493,
+            "x": 36.2,
+            "y": 41.8,
+            "zoneName": "Moonglade"
+          }
+        ]
+      }
+    },
+    "8736": {
+      "index": {
+        "classes": [],
+        "hasDetail": true,
+        "id": 8736,
+        "list": {
+          "category": 493,
+          "category2": 1,
+          "currencychoicerewards": [],
+          "currencyrewards": [],
+          "envChange": {
+            "labels": [],
+            "lines": [],
+            "status": "unchanged"
+          },
+          "firstseenpatch": 11305,
+          "icon": "quest-start",
+          "id": 8736,
+          "itemchoices": [
+            [
+              21531,
+              1
+            ],
+            [
+              21532,
+              1
+            ]
+          ],
+          "itemrewards": [],
+          "level": 60,
+          "money": 0,
+          "name": "The Nightmare Manifests",
+          "popularity": 33,
+          "reprewards": [
+            [
+              609,
+              200
+            ],
+            [
+              910,
+              200
+            ]
+          ],
+          "reqclass": 0,
+          "reqlevel": 60,
+          "side": 3,
+          "titlereward": 0,
+          "type": 62,
+          "xp": 9950
+        },
+        "minLevel": 60,
+        "name": "The Nightmare Manifests",
+        "pinCategory": "raid",
+        "primaryStart": {
+          "npcId": 11832,
+          "npcName": "Keeper Remulos",
+          "x": 36.2,
+          "y": 41.8,
+          "zoneId": 493,
+          "zoneName": "Moonglade"
+        },
+        "races": [],
+        "sourceKinds": [
+          "zone"
+        ],
+        "sourceSlugs": [
+          "kd/moonglade"
+        ],
+        "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/moonglade"
+        ],
+        "startPinCount": 1,
+        "zoneId": 493,
+        "zoneId2": 1
+      },
+      "detail": {
+        "classes": [],
+        "fetchedAt": "2026-09-25T04:45:53+00:00",
+        "infoboxFlags": {
+          "daily": false,
+          "dungeon": false,
+          "monthly": false,
+          "pvp": false,
+          "raid": true,
+          "repeatable": false,
+          "sharable": true,
+          "weekly": false
+        },
+        "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 60[/li][li]Type: Raid[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=11832/keeper-remulos]Keeper Remulos[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=11832/keeper-remulos]Keeper Remulos[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]60[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.5.35186\"]1.13.5[/acronym] \"The Gates of Ahn'Qiraj\"[/li][/ul]",
+        "mapper": {
+          "missing": 1,
+          "objectives": {
+            "493": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      36.2,
+                      41.8
+                    ],
+                    "coords": [
+                      [
+                        36.2,
+                        41.2
+                      ],
+                      [
+                        36.2,
+                        41.8
+                      ],
+                      [
+                        36.6,
+                        41.8
+                      ]
+                    ],
+                    "id": 11832,
+                    "name": "Keeper Remulos",
+                    "point": "start",
+                    "reactalliance": 1,
+                    "reacthorde": 1,
+                    "type": 1
+                  },
+                  {
+                    "coord": [
+                      36.2,
+                      41.8
+                    ],
+                    "coords": [
+                      [
+                        36.2,
+                        41.2
+                      ],
+                      [
+                        36.2,
+                        41.8
+                      ],
+                      [
+                        36.6,
+                        41.8
+                      ]
+                    ],
+                    "id": 11832,
+                    "name": "Keeper Remulos",
+                    "point": "end",
+                    "reactalliance": 1,
+                    "reacthorde": 1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Moonglade"
+            }
+          },
+          "parent": "fweiuasf",
+          "zoneparent": "lksjdowlha",
+          "zones": [
+            [
+              493,
+              1
+            ]
+          ]
+        },
+        "minLevel": 60,
+        "pageInfo": {
+          "name": "The Nightmare Manifests",
+          "type": 5,
+          "typeId": 8736
+        },
+        "pinCategory": "raid",
+        "prerequisiteQuestIds": [
+          8735,
+          8741
+        ],
+        "questId": 8736,
+        "races": [],
+        "startPins": [
+          {
+            "npcId": 11832,
+            "npcName": "Keeper Remulos",
+            "zoneId": 493,
+            "x": 36.2,
+            "y": 41.8,
+            "zoneName": "Moonglade"
+          }
+        ]
+      }
+    },
+    "8741": {
+      "index": {
+        "classes": [],
+        "hasDetail": true,
+        "id": 8741,
+        "list": {
+          "category": 493,
+          "category2": 1,
+          "currencychoicerewards": [],
+          "currencyrewards": [],
+          "envChange": {
+            "labels": [],
+            "lines": [],
+            "status": "unchanged"
+          },
+          "firstseenpatch": 11305,
+          "icon": "quest-start",
+          "id": 8741,
+          "itemchoices": [],
+          "itemrewards": [],
+          "level": 60,
+          "money": 0,
+          "name": "The Champion Returns",
+          "popularity": 34,
+          "reprewards": [
+            [
+              910,
+              100
+            ]
+          ],
+          "reqclass": 0,
+          "reqlevel": 60,
+          "side": 3,
+          "titlereward": 0,
+          "type": 0,
+          "xp": 6600
+        },
+        "minLevel": 60,
+        "name": "The Champion Returns",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 11832,
+          "npcName": "Keeper Remulos",
+          "x": 36.2,
+          "y": 41.8,
+          "zoneId": 493,
+          "zoneName": "Moonglade"
+        },
+        "races": [],
+        "sourceKinds": [
+          "zone"
+        ],
+        "sourceSlugs": [
+          "kd/moonglade"
+        ],
+        "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/moonglade"
+        ],
+        "startPinCount": 1,
+        "zoneId": 493,
+        "zoneId2": 1
+      },
+      "detail": {
+        "classes": [],
+        "fetchedAt": "2026-09-25T04:46:28+00:00",
+        "infoboxFlags": {
+          "daily": false,
+          "dungeon": false,
+          "monthly": false,
+          "pvp": false,
+          "raid": false,
+          "repeatable": false,
+          "sharable": true,
+          "weekly": false
+        },
+        "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 60[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=11832/keeper-remulos]Keeper Remulos[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=15192/anachronos]Anachronos[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]60[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.5.35186\"]1.13.5[/acronym] \"The Gates of Ahn'Qiraj\"[/li][/ul]",
+        "mapper": {
+          "missing": 0,
+          "objectives": {
+            "440": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      65.2,
+                      50
+                    ],
+                    "coords": [
+                      [
+                        65.2,
+                        50
+                      ]
+                    ],
+                    "id": 15192,
+                    "name": "Anachronos",
+                    "point": "end",
+                    "reactalliance": -1,
+                    "reacthorde": 1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Tanaris"
+            },
+            "493": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      36.2,
+                      41.8
+                    ],
+                    "coords": [
+                      [
+                        36.2,
+                        41.2
+                      ],
+                      [
+                        36.2,
+                        41.8
+                      ],
+                      [
+                        36.6,
+                        41.8
+                      ]
+                    ],
+                    "id": 11832,
+                    "name": "Keeper Remulos",
+                    "point": "start",
+                    "reactalliance": 1,
+                    "reacthorde": 1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Moonglade"
+            }
+          },
+          "parent": "fweiuasf",
+          "zoneparent": "lksjdowlha",
+          "zones": [
+            [
+              493,
+              1
+            ],
+            [
+              440,
+              1
+            ]
+          ]
+        },
+        "minLevel": 60,
+        "pageInfo": {
+          "name": "The Champion Returns",
+          "type": 5,
+          "typeId": 8741
+        },
+        "pinCategory": "normal",
+        "prerequisiteQuestIds": [
+          8729,
+          8730,
+          8736,
+          8742
+        ],
+        "questId": 8741,
+        "races": [],
+        "startPins": [
+          {
+            "npcId": 11832,
+            "npcName": "Keeper Remulos",
+            "zoneId": 493,
+            "x": 36.2,
+            "y": 41.8,
+            "zoneName": "Moonglade"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,210 @@
+{
+  "classes": [
+    8
+  ],
+  "fetchedAt": "2026-09-25T05:17:44+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 60[/li][li]Side: Both[/li][li]Class: [class=8][/li][li][icon name=quest-start]Start: [url=/forever/npc=8379/archmage-xylem]Archmage Xylem[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=8379/archmage-xylem]Archmage Xylem[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]60[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.31727\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "16": {
+        "levels": [
+          [
+            {
+              "coord": [
+                29.2,
+                40.2
+              ],
+              "coords": [
+                [
+                  29.2,
+                  40.2
+                ],
+                [
+                  29.6,
+                  40.4
+                ],
+                [
+                  29.6,
+                  40.6
+                ]
+              ],
+              "id": 8379,
+              "name": "Archmage Xylem",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                29.2,
+                40.2
+              ],
+              "coords": [
+                [
+                  29.2,
+                  40.2
+                ],
+                [
+                  29.6,
+                  40.4
+                ],
+                [
+                  29.6,
+                  40.6
+                ]
+              ],
+              "id": 8379,
+              "name": "Archmage Xylem",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                40.4,
+                53
+              ],
+              "coords": [
+                [
+                  40.4,
+                  52.4
+                ],
+                [
+                  40.4,
+                  53
+                ],
+                [
+                  40.4,
+                  53.6
+                ],
+                [
+                  40.8,
+                  53
+                ],
+                [
+                  41.4,
+                  52.4
+                ],
+                [
+                  41.4,
+                  53.8
+                ],
+                [
+                  41.6,
+                  52.4
+                ],
+                [
+                  41.6,
+                  52.8
+                ]
+              ],
+              "id": 8408,
+              "item": "Prismatic Shell",
+              "name": "Warlord Krellian",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                54.4,
+                48.4
+              ],
+              "coords": [
+                [
+                  52,
+                  49.4
+                ],
+                [
+                  52.8,
+                  46.6
+                ],
+                [
+                  52.8,
+                  49.4
+                ],
+                [
+                  53.2,
+                  50
+                ],
+                [
+                  54.2,
+                  47.4
+                ],
+                [
+                  54.2,
+                  48.6
+                ],
+                [
+                  54.2,
+                  49.6
+                ],
+                [
+                  54.4,
+                  48.4
+                ],
+                [
+                  54.6,
+                  48.4
+                ]
+              ],
+              "id": 13896,
+              "item": "Prismatic Shell",
+              "name": "Scalebeard",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Azshara"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16,
+        3
+      ]
+    ]
+  },
+  "minLevel": 60,
+  "pageInfo": {
+    "name": "Warlord Krellian",
+    "type": 5,
+    "typeId": 9362
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 9362,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 8379,
+      "npcName": "Archmage Xylem",
+      "zoneId": 16,
+      "x": 29.2,
+      "y": 40.2,
+      "zoneName": "Azshara"
+    }
+  ]
+}

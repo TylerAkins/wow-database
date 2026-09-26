@@ -1,0 +1,575 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T00:37:42+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 35[/li][li]Requires level 30[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=4791/nazeer-bloodpike]Nazeer Bloodpike[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=4791/nazeer-bloodpike]Nazeer Bloodpike[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]30[/color][small] &nbsp;[/small][color=r1]31[/color][small] &nbsp;[/small][color=r2]33[/color][small] &nbsp;[/small][color=r3]38[/color][small] &nbsp;[/small][color=r4]44[/color][/li][li]Added in patch [acronym=\"1.13.2.30682\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "15": {
+        "levels": [
+          [
+            {
+              "coord": [
+                35.2,
+                30.6
+              ],
+              "coords": [
+                [
+                  35.2,
+                  30.6
+                ]
+              ],
+              "id": 4791,
+              "name": "Nazeer Bloodpike",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                35.2,
+                30.6
+              ],
+              "coords": [
+                [
+                  35.2,
+                  30.6
+                ]
+              ],
+              "id": 4791,
+              "name": "Nazeer Bloodpike",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                71.4,
+                51.2
+              ],
+              "coords": [
+                [
+                  62,
+                  26.4
+                ],
+                [
+                  62,
+                  28.4
+                ],
+                [
+                  62.2,
+                  21.6
+                ],
+                [
+                  62.2,
+                  24.4
+                ],
+                [
+                  62.2,
+                  27.4
+                ],
+                [
+                  62.2,
+                  30.2
+                ],
+                [
+                  62.2,
+                  30.6
+                ],
+                [
+                  62.4,
+                  25.4
+                ],
+                [
+                  62.4,
+                  29
+                ],
+                [
+                  62.6,
+                  25
+                ],
+                [
+                  62.6,
+                  26.4
+                ],
+                [
+                  62.6,
+                  27
+                ],
+                [
+                  62.6,
+                  28.2
+                ],
+                [
+                  62.6,
+                  28.8
+                ],
+                [
+                  62.6,
+                  30
+                ],
+                [
+                  62.6,
+                  32
+                ],
+                [
+                  62.8,
+                  23.8
+                ],
+                [
+                  63,
+                  32.8
+                ],
+                [
+                  63.2,
+                  22.4
+                ],
+                [
+                  63.4,
+                  23.2
+                ],
+                [
+                  63.4,
+                  30.8
+                ],
+                [
+                  63.8,
+                  19.6
+                ],
+                [
+                  64,
+                  32.6
+                ],
+                [
+                  64.2,
+                  21.4
+                ],
+                [
+                  64.4,
+                  22.4
+                ],
+                [
+                  64.4,
+                  30.8
+                ],
+                [
+                  64.6,
+                  22
+                ],
+                [
+                  64.6,
+                  32.4
+                ],
+                [
+                  64.8,
+                  32.6
+                ],
+                [
+                  65,
+                  20.2
+                ],
+                [
+                  65.2,
+                  21
+                ],
+                [
+                  65.2,
+                  31.4
+                ],
+                [
+                  65.4,
+                  29.4
+                ],
+                [
+                  65.4,
+                  30.4
+                ],
+                [
+                  65.6,
+                  20.2
+                ],
+                [
+                  65.6,
+                  22.8
+                ],
+                [
+                  65.6,
+                  30.2
+                ],
+                [
+                  65.6,
+                  30.6
+                ],
+                [
+                  65.8,
+                  20.6
+                ],
+                [
+                  65.8,
+                  22.4
+                ],
+                [
+                  65.8,
+                  28.4
+                ],
+                [
+                  65.8,
+                  29
+                ],
+                [
+                  66.2,
+                  24.6
+                ],
+                [
+                  66.4,
+                  24.2
+                ],
+                [
+                  66.4,
+                  26.2
+                ],
+                [
+                  66.4,
+                  26.6
+                ],
+                [
+                  66.6,
+                  25
+                ],
+                [
+                  66.6,
+                  29.2
+                ],
+                [
+                  66.8,
+                  22.2
+                ],
+                [
+                  66.8,
+                  27.8
+                ],
+                [
+                  67,
+                  25.6
+                ],
+                [
+                  67,
+                  57.6
+                ],
+                [
+                  67.2,
+                  57.2
+                ],
+                [
+                  67.4,
+                  26.6
+                ],
+                [
+                  67.4,
+                  61.2
+                ],
+                [
+                  68.2,
+                  59.4
+                ],
+                [
+                  68.4,
+                  59.6
+                ],
+                [
+                  68.8,
+                  56.8
+                ],
+                [
+                  68.8,
+                  59.8
+                ],
+                [
+                  69,
+                  55.2
+                ],
+                [
+                  69.2,
+                  54
+                ],
+                [
+                  69.2,
+                  56.4
+                ],
+                [
+                  69.4,
+                  58.2
+                ],
+                [
+                  69.4,
+                  60.6
+                ],
+                [
+                  69.6,
+                  60.4
+                ],
+                [
+                  69.6,
+                  60.8
+                ],
+                [
+                  70,
+                  56.6
+                ],
+                [
+                  70.2,
+                  53.2
+                ],
+                [
+                  70.2,
+                  53.8
+                ],
+                [
+                  70.2,
+                  55.4
+                ],
+                [
+                  70.4,
+                  48.4
+                ],
+                [
+                  70.4,
+                  50.4
+                ],
+                [
+                  70.4,
+                  55.8
+                ],
+                [
+                  70.6,
+                  52.4
+                ],
+                [
+                  70.6,
+                  55.6
+                ],
+                [
+                  70.6,
+                  60.4
+                ],
+                [
+                  70.6,
+                  61.8
+                ],
+                [
+                  70.8,
+                  61.4
+                ],
+                [
+                  71,
+                  48.8
+                ],
+                [
+                  71,
+                  54
+                ],
+                [
+                  71.2,
+                  50.4
+                ],
+                [
+                  71.2,
+                  53.4
+                ],
+                [
+                  71.2,
+                  55.4
+                ],
+                [
+                  71.4,
+                  48
+                ],
+                [
+                  71.4,
+                  51.2
+                ],
+                [
+                  71.4,
+                  57.8
+                ],
+                [
+                  71.6,
+                  50
+                ],
+                [
+                  71.6,
+                  51
+                ],
+                [
+                  71.6,
+                  51.8
+                ],
+                [
+                  71.6,
+                  54.6
+                ],
+                [
+                  71.6,
+                  55.6
+                ],
+                [
+                  71.8,
+                  56.6
+                ],
+                [
+                  72,
+                  53.4
+                ],
+                [
+                  72.2,
+                  53.8
+                ],
+                [
+                  72.6,
+                  53.6
+                ],
+                [
+                  72.8,
+                  51.6
+                ],
+                [
+                  73.6,
+                  72.6
+                ],
+                [
+                  73.8,
+                  73.8
+                ],
+                [
+                  74.2,
+                  71.2
+                ],
+                [
+                  74.4,
+                  72.2
+                ],
+                [
+                  74.6,
+                  70.8
+                ],
+                [
+                  74.6,
+                  72
+                ],
+                [
+                  74.8,
+                  72.8
+                ],
+                [
+                  75.4,
+                  70.2
+                ],
+                [
+                  75.6,
+                  32
+                ],
+                [
+                  75.8,
+                  70
+                ],
+                [
+                  76.4,
+                  69.2
+                ],
+                [
+                  78.2,
+                  69
+                ],
+                [
+                  78.8,
+                  69
+                ],
+                [
+                  79.8,
+                  63.8
+                ],
+                [
+                  80.8,
+                  61.2
+                ],
+                [
+                  81,
+                  52.8
+                ]
+              ],
+              "id": 5434,
+              "item": "Captain's Documents",
+              "name": "Coral Shark",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                71.5,
+                51.1
+              ],
+              "coords": [
+                [
+                  71.5,
+                  51.1
+                ]
+              ],
+              "id": 20925,
+              "item": "Captain's Documents",
+              "name": "Captain's Footlocker",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Dustwallow Marsh"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        15,
+        3
+      ]
+    ]
+  },
+  "minLevel": 30,
+  "pageInfo": {
+    "name": "The Theramore Docks",
+    "type": 5,
+    "typeId": 1202
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 1202,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 4791,
+      "npcName": "Nazeer Bloodpike",
+      "zoneId": 15,
+      "x": 35.2,
+      "y": 30.6,
+      "zoneName": "Dustwallow Marsh"
+    }
+  ]
+}

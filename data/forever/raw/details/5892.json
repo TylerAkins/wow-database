@@ -1,0 +1,72 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T03:13:46+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": true,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 55[/li][li]Requires level 51[/li][li]Type: PvP[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=12096/stormpike-quartermaster]Stormpike Quartermaster[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=12096/stormpike-quartermaster]Stormpike Quartermaster[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]51[/color][small] &nbsp;[/small][color=r2]53[/color][small] &nbsp;[/small][color=r3]58[/color][small] &nbsp;[/small][color=r4]66[/color][/li][li]Added in patch [acronym=\"1.13.2.30786\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "2597": {
+        "levels": [
+          [
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 12096,
+              "name": "Stormpike Quartermaster",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 12096,
+              "name": "Stormpike Quartermaster",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Alterac Valley"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        2597,
+        1
+      ]
+    ]
+  },
+  "minLevel": 51,
+  "pageInfo": {
+    "name": "Irondeep Supplies",
+    "type": 5,
+    "typeId": 5892
+  },
+  "pinCategory": "pvp",
+  "prerequisiteQuestIds": [],
+  "questId": 5892,
+  "races": [],
+  "startPins": []
+}

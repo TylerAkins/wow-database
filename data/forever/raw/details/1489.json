@@ -1,0 +1,124 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T00:56:08+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": true,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 16[/li][li]Requires level 10[/li][li]Type: Dungeon[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3448/tonga-runetotem]Tonga Runetotem[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=5769/arch-druid-hamuul-runetotem]Arch Druid Hamuul Runetotem[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]10[/color][small] &nbsp;[/small][color=r1]12[/color][small] &nbsp;[/small][color=r2]14[/color][small] &nbsp;[/small][color=r3]19[/color][small] &nbsp;[/small][color=r4]23[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1638": {
+        "levels": [
+          [
+            {
+              "coord": [
+                78.4,
+                28.4
+              ],
+              "coords": [
+                [
+                  78.4,
+                  28.4
+                ],
+                [
+                  78.4,
+                  28.6
+                ],
+                [
+                  78.6,
+                  28.4
+                ],
+                [
+                  78.6,
+                  28.6
+                ]
+              ],
+              "id": 5769,
+              "name": "Arch Druid Hamuul Runetotem",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Thunder Bluff"
+      },
+      "17": {
+        "levels": [
+          [
+            {
+              "coord": [
+                52.2,
+                31.8
+              ],
+              "coords": [
+                [
+                  52.2,
+                  31.8
+                ]
+              ],
+              "id": 3448,
+              "name": "Tonga Runetotem",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Barrens"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        17,
+        1
+      ],
+      [
+        1638,
+        1
+      ]
+    ]
+  },
+  "minLevel": 10,
+  "pageInfo": {
+    "name": "Hamuul Runetotem",
+    "type": 5,
+    "typeId": 1489
+  },
+  "pinCategory": "instance",
+  "prerequisiteQuestIds": [
+    870,
+    877,
+    880,
+    886,
+    914,
+    1490
+  ],
+  "questId": 1489,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3448,
+      "npcName": "Tonga Runetotem",
+      "zoneId": 17,
+      "x": 52.2,
+      "y": 31.8,
+      "zoneName": "The Barrens"
+    }
+  ]
+}

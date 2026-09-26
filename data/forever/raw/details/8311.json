@@ -1,0 +1,117 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T04:22:38+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 10[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=15310/jesper]Jesper[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=15310/jesper]Jesper[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]10[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 4,
+    "objectives": {
+      "1519": {
+        "levels": [
+          [
+            {
+              "coord": [
+                47.6,
+                35.4
+              ],
+              "coords": [
+                [
+                  47.4,
+                  35.4
+                ],
+                [
+                  47.4,
+                  35.6
+                ],
+                [
+                  47.6,
+                  35.4
+                ],
+                [
+                  47.6,
+                  35.6
+                ]
+              ],
+              "id": 15310,
+              "name": "Jesper",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                47.6,
+                35.4
+              ],
+              "coords": [
+                [
+                  47.4,
+                  35.4
+                ],
+                [
+                  47.4,
+                  35.6
+                ],
+                [
+                  47.6,
+                  35.4
+                ],
+                [
+                  47.6,
+                  35.6
+                ]
+              ],
+              "id": 15310,
+              "name": "Jesper",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stormwind City"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1519,
+        1
+      ]
+    ]
+  },
+  "minLevel": 10,
+  "pageInfo": {
+    "name": "Hallow's End Treats for Jesper!",
+    "type": 5,
+    "typeId": 8311
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 8311,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 15310,
+      "npcName": "Jesper",
+      "zoneId": 1519,
+      "x": 47.6,
+      "y": 35.4,
+      "zoneName": "Stormwind City"
+    }
+  ]
+}

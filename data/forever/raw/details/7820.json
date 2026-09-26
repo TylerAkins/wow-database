@@ -1,0 +1,117 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T04:02:29+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 12[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=14728/rumstag-proudstrider]Rumstag Proudstrider[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=14728/rumstag-proudstrider]Rumstag Proudstrider[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]12[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "1638": {
+        "levels": [
+          [
+            {
+              "coord": [
+                43.2,
+                42.8
+              ],
+              "coords": [
+                [
+                  43.2,
+                  42.8
+                ],
+                [
+                  43.4,
+                  42.4
+                ],
+                [
+                  43.6,
+                  42.6
+                ],
+                [
+                  43.8,
+                  42.2
+                ]
+              ],
+              "id": 14728,
+              "name": "Rumstag Proudstrider",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                43.2,
+                42.8
+              ],
+              "coords": [
+                [
+                  43.2,
+                  42.8
+                ],
+                [
+                  43.4,
+                  42.4
+                ],
+                [
+                  43.6,
+                  42.6
+                ],
+                [
+                  43.8,
+                  42.2
+                ]
+              ],
+              "id": 14728,
+              "name": "Rumstag Proudstrider",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Thunder Bluff"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1638,
+        1
+      ]
+    ]
+  },
+  "minLevel": 12,
+  "pageInfo": {
+    "name": "A Donation of Wool",
+    "type": 5,
+    "typeId": 7820
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 7820,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 14728,
+      "npcName": "Rumstag Proudstrider",
+      "zoneId": 1638,
+      "x": 43.2,
+      "y": 42.8,
+      "zoneName": "Thunder Bluff"
+    }
+  ]
+}

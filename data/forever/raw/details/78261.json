@@ -1,0 +1,133 @@
+{
+  "classes": [
+    4
+  ],
+  "fetchedAt": "2026-09-25T05:27:40+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 23[/li][li]Requires level 1[/li][li]Side: Both[/li][li]Class: [class=4][/li][li][icon name=quest-start]Start: [url=/forever/object=410369/dead-drop]Dead Drop[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=410369/dead-drop]Dead Drop[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]1[/color][small] &nbsp;[/small][color=r1]19[/color][small] &nbsp;[/small][color=r2]21[/color][small] &nbsp;[/small][color=r3]26[/color][small] &nbsp;[/small][color=r4]31[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "130": {
+        "levels": [
+          [
+            {
+              "coord": [
+                47.1,
+                71.1
+              ],
+              "coords": [
+                [
+                  47.1,
+                  71.1
+                ]
+              ],
+              "id": 410369,
+              "name": "Dead Drop",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                47.1,
+                71.1
+              ],
+              "coords": [
+                [
+                  47.1,
+                  71.1
+                ]
+              ],
+              "id": 410369,
+              "name": "Dead Drop",
+              "point": "end",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Silverpine Forest"
+      },
+      "406": {
+        "levels": [
+          [
+            {
+              "coord": [
+                58.2,
+                51.6
+              ],
+              "coords": [
+                [
+                  58.2,
+                  51.6
+                ]
+              ],
+              "id": 4086,
+              "name": "Veenix",
+              "objective": 4086,
+              "point": "requirement",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stonetalon Mountains"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        130,
+        1
+      ],
+      [
+        406,
+        1
+      ]
+    ]
+  },
+  "minLevel": 1,
+  "objectSpawns": [
+    {
+      "entityId": 410369,
+      "entityKind": "object",
+      "entityName": "Dead Drop",
+      "uiMapId": 1421,
+      "uiMapName": "Silverpine Forest",
+      "x": 47.1,
+      "y": 71.1,
+      "zoneId": 130
+    }
+  ],
+  "pageInfo": {
+    "name": "The Horn of Xelthos",
+    "type": 5,
+    "typeId": 78261
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 78261,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 410369,
+      "npcName": "Dead Drop",
+      "x": 47.1,
+      "y": 71.1,
+      "zoneId": 130,
+      "zoneName": "Silverpine Forest"
+    }
+  ]
+}

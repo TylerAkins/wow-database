@@ -1,0 +1,132 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-24T23:26:21+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": true,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 22[/li][li]Requires level 10[/li][li]Type: Dungeon[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=5770/nara-wildmane]Nara Wildmane[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=5770/nara-wildmane]Nara Wildmane[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]10[/color][small] &nbsp;[/small][color=r1]18[/color][small] &nbsp;[/small][color=r2]20[/color][small] &nbsp;[/small][color=r3]25[/color][small] &nbsp;[/small][color=r4]29[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 4,
+    "objectives": {
+      "1638": {
+        "levels": [
+          [
+            {
+              "coord": [
+                75.6,
+                31.2
+              ],
+              "coords": [
+                [
+                  75.2,
+                  30.4
+                ],
+                [
+                  75.4,
+                  31
+                ],
+                [
+                  75.6,
+                  31.2
+                ],
+                [
+                  75.6,
+                  31.6
+                ],
+                [
+                  76,
+                  30.4
+                ]
+              ],
+              "id": 5770,
+              "name": "Nara Wildmane",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                75.6,
+                31.2
+              ],
+              "coords": [
+                [
+                  75.2,
+                  30.4
+                ],
+                [
+                  75.4,
+                  31
+                ],
+                [
+                  75.6,
+                  31.2
+                ],
+                [
+                  75.6,
+                  31.6
+                ],
+                [
+                  76,
+                  30.4
+                ]
+              ],
+              "id": 5770,
+              "name": "Nara Wildmane",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Thunder Bluff"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1638,
+        1
+      ]
+    ]
+  },
+  "minLevel": 10,
+  "pageInfo": {
+    "name": "Leaders of the Fang",
+    "type": 5,
+    "typeId": 914
+  },
+  "pinCategory": "instance",
+  "prerequisiteQuestIds": [
+    870,
+    877,
+    880,
+    886,
+    1489,
+    1490
+  ],
+  "questId": 914,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 5770,
+      "npcName": "Nara Wildmane",
+      "zoneId": 1638,
+      "x": 75.6,
+      "y": 31.2,
+      "zoneName": "Thunder Bluff"
+    }
+  ]
+}

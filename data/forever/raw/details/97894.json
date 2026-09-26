@@ -1,0 +1,125 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T06:51:59+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 17[/li][li]Requires level 13[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=7232/borgus-steelhand]Borgus Steelhand[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=6301/gorbold-steelhand]Gorbold Steelhand[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]13[/color][small] &nbsp;[/small][color=r2]15[/color][small] &nbsp;[/small][color=r3]20[/color][small] &nbsp;[/small][color=r4]24[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "148": {
+        "levels": [
+          [
+            {
+              "coord": [
+                38,
+                41.2
+              ],
+              "coords": [
+                [
+                  38,
+                  41.2
+                ]
+              ],
+              "id": 6301,
+              "name": "Gorbold Steelhand",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Darkshore"
+      },
+      "1519": {
+        "levels": [
+          [
+            {
+              "coord": [
+                51.4,
+                12.6
+              ],
+              "coords": [
+                [
+                  51.4,
+                  12.4
+                ],
+                [
+                  51.4,
+                  12.6
+                ],
+                [
+                  51.6,
+                  12.4
+                ],
+                [
+                  51.6,
+                  12.6
+                ],
+                [
+                  59.4,
+                  34.2
+                ],
+                [
+                  59.6,
+                  34.2
+                ]
+              ],
+              "id": 7232,
+              "name": "Borgus Steelhand",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stormwind City"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1519,
+        1
+      ],
+      [
+        148,
+        1
+      ]
+    ]
+  },
+  "minLevel": 13,
+  "pageInfo": {
+    "name": "Business in Auberdine",
+    "type": 5,
+    "typeId": 97894
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 97894,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 7232,
+      "npcName": "Borgus Steelhand",
+      "zoneId": 1519,
+      "x": 51.4,
+      "y": 12.6,
+      "zoneName": "Stormwind City"
+    }
+  ]
+}

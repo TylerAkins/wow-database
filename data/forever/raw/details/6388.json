@@ -1,0 +1,124 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T03:27:24+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 10[/li][li]Requires level 10[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=3], [race=7][/li][li][icon name=quest-start]Start: [url=/forever/npc=4256/golnir-bouldertoe]Golnir Bouldertoe[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1573/gryth-thurden]Gryth Thurden[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]10[/color][small] &nbsp;[/small][color=r3]13[/color][small] &nbsp;[/small][color=r4]16[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1537": {
+        "levels": [
+          [
+            {
+              "coord": [
+                51,
+                26
+              ],
+              "coords": [
+                [
+                  51,
+                  26
+                ],
+                [
+                  51,
+                  26.6
+                ],
+                [
+                  51.4,
+                  25.4
+                ],
+                [
+                  51.6,
+                  26.4
+                ]
+              ],
+              "id": 4256,
+              "name": "Golnir Bouldertoe",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                55.8,
+                48
+              ],
+              "coords": [
+                [
+                  55.4,
+                  47.4
+                ],
+                [
+                  55.4,
+                  48
+                ],
+                [
+                  55.6,
+                  47.4
+                ],
+                [
+                  55.8,
+                  48
+                ],
+                [
+                  56.2,
+                  49
+                ]
+              ],
+              "id": 1573,
+              "name": "Gryth Thurden",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ironforge"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1537,
+        2
+      ]
+    ]
+  },
+  "minLevel": 10,
+  "pageInfo": {
+    "name": "Gryth Thurden",
+    "type": 5,
+    "typeId": 6388
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 6388,
+  "races": [
+    3,
+    7
+  ],
+  "startPins": [
+    {
+      "npcId": 4256,
+      "npcName": "Golnir Bouldertoe",
+      "zoneId": 1537,
+      "x": 51.0,
+      "y": 26.0,
+      "zoneName": "Ironforge"
+    }
+  ]
+}

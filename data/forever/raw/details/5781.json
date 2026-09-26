@@ -1,0 +1,148 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T03:10:49+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 57[/li][li]Requires level 52[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=1855/tirion-fordring]Tirion Fordring[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1855/tirion-fordring]Tirion Fordring[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]52[/color][small] &nbsp;[/small][color=r1]53[/color][small] &nbsp;[/small][color=r2]55[/color][small] &nbsp;[/small][color=r3]60[/color][small] &nbsp;[/small][color=r4]68[/color][/li][li]Added in patch [acronym=\"1.13.2.31687\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "139": {
+        "levels": [
+          [
+            {
+              "coord": [
+                7.4,
+                43.6
+              ],
+              "coords": [
+                [
+                  7.4,
+                  43.4
+                ],
+                [
+                  7.4,
+                  43.6
+                ],
+                [
+                  7.6,
+                  43.6
+                ]
+              ],
+              "id": 1855,
+              "name": "Tirion Fordring",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                7.4,
+                43.6
+              ],
+              "coords": [
+                [
+                  7.4,
+                  43.4
+                ],
+                [
+                  7.4,
+                  43.6
+                ],
+                [
+                  7.6,
+                  43.6
+                ]
+              ],
+              "id": 1855,
+              "name": "Tirion Fordring",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                28.2,
+                86.4
+              ],
+              "coords": [
+                [
+                  28.2,
+                  86.4
+                ],
+                [
+                  28.2,
+                  86.6
+                ],
+                [
+                  28.2,
+                  87.6
+                ],
+                [
+                  28.4,
+                  85.4
+                ],
+                [
+                  28.6,
+                  86.4
+                ],
+                [
+                  28.6,
+                  87.4
+                ]
+              ],
+              "id": 11886,
+              "item": "Taelan's Hammer",
+              "name": "Mercutio Filthgorger",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Eastern Plaguelands"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        139,
+        2
+      ]
+    ]
+  },
+  "minLevel": 52,
+  "pageInfo": {
+    "name": "Of Forgotten Memories",
+    "type": 5,
+    "typeId": 5781
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 5781,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 1855,
+      "npcName": "Tirion Fordring",
+      "zoneId": 139,
+      "x": 7.4,
+      "y": 43.6,
+      "zoneName": "Eastern Plaguelands"
+    }
+  ]
+}

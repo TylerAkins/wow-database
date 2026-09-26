@@ -1,0 +1,176 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-24T23:24:42+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 10[/li][li]Requires level 7[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3233/lorekeeper-raintotem]Lorekeeper Raintotem[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3233/lorekeeper-raintotem]Lorekeeper Raintotem[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]7[/color][small] &nbsp;[/small][color=r2]8[/color][small] &nbsp;[/small][color=r3]13[/color][small] &nbsp;[/small][color=r4]16[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "215": {
+        "levels": [
+          [
+            {
+              "coord": [
+                59.8,
+                25.6
+              ],
+              "coords": [
+                [
+                  59.8,
+                  25.4
+                ],
+                [
+                  59.8,
+                  25.6
+                ]
+              ],
+              "id": 3233,
+              "name": "Lorekeeper Raintotem",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                59.8,
+                25.6
+              ],
+              "coords": [
+                [
+                  59.8,
+                  25.4
+                ],
+                [
+                  59.8,
+                  25.6
+                ]
+              ],
+              "id": 3233,
+              "name": "Lorekeeper Raintotem",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                61.6,
+                22.6
+              ],
+              "coords": [
+                [
+                  60,
+                  21
+                ],
+                [
+                  60.4,
+                  19.2
+                ],
+                [
+                  60.4,
+                  20.4
+                ],
+                [
+                  60.4,
+                  22
+                ],
+                [
+                  60.8,
+                  19.4
+                ],
+                [
+                  60.8,
+                  20.4
+                ],
+                [
+                  60.8,
+                  23.6
+                ],
+                [
+                  61,
+                  23
+                ],
+                [
+                  61.4,
+                  21.2
+                ],
+                [
+                  61.4,
+                  22
+                ],
+                [
+                  61.6,
+                  20.2
+                ],
+                [
+                  61.6,
+                  21.4
+                ],
+                [
+                  61.6,
+                  22.4
+                ],
+                [
+                  61.6,
+                  22.6
+                ],
+                [
+                  61.6,
+                  23.6
+                ]
+              ],
+              "id": 3232,
+              "name": "Bristleback Interloper",
+              "objective": 3232,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Mulgore"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        215,
+        2
+      ]
+    ]
+  },
+  "minLevel": 7,
+  "pageInfo": {
+    "name": "A Sacred Burial",
+    "type": 5,
+    "typeId": 833
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 833,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3233,
+      "npcName": "Lorekeeper Raintotem",
+      "zoneId": 215,
+      "x": 59.8,
+      "y": 25.6,
+      "zoneName": "Mulgore"
+    }
+  ]
+}

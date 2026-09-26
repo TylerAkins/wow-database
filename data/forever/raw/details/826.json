@@ -1,0 +1,351 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-24T23:24:33+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 10[/li][li]Requires level 4[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3188/master-gadrin]Master Gadrin[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3188/master-gadrin]Master Gadrin[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]4[/color][small] &nbsp;[/small][color=r1]6[/color][small] &nbsp;[/small][color=r2]8[/color][small] &nbsp;[/small][color=r3]13[/color][small] &nbsp;[/small][color=r4]16[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "14": {
+        "levels": [
+          [
+            {
+              "coord": [
+                56,
+                74.6
+              ],
+              "coords": [
+                [
+                  55.8,
+                  74.4
+                ],
+                [
+                  56,
+                  74.6
+                ]
+              ],
+              "id": 3188,
+              "name": "Master Gadrin",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                56,
+                74.6
+              ],
+              "coords": [
+                [
+                  55.8,
+                  74.4
+                ],
+                [
+                  56,
+                  74.6
+                ]
+              ],
+              "id": 3188,
+              "name": "Master Gadrin",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                67.6,
+                83.4
+              ],
+              "coords": [
+                [
+                  65.6,
+                  86
+                ],
+                [
+                  65.8,
+                  83.8
+                ],
+                [
+                  65.8,
+                  84.8
+                ],
+                [
+                  66,
+                  82.8
+                ],
+                [
+                  66.4,
+                  87.4
+                ],
+                [
+                  66.4,
+                  87.6
+                ],
+                [
+                  66.6,
+                  87.6
+                ],
+                [
+                  66.8,
+                  82.4
+                ],
+                [
+                  67.2,
+                  85
+                ],
+                [
+                  67.2,
+                  87
+                ],
+                [
+                  67.4,
+                  83.4
+                ],
+                [
+                  67.4,
+                  83.6
+                ],
+                [
+                  67.4,
+                  86.4
+                ],
+                [
+                  67.6,
+                  83.4
+                ],
+                [
+                  67.6,
+                  83.6
+                ],
+                [
+                  67.6,
+                  86.4
+                ],
+                [
+                  67.6,
+                  86.6
+                ],
+                [
+                  67.6,
+                  87.8
+                ],
+                [
+                  67.8,
+                  82.2
+                ],
+                [
+                  68.2,
+                  84.6
+                ]
+              ],
+              "id": 3206,
+              "name": "Voodoo Troll",
+              "objective": 3206,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                67.6,
+                83.4
+              ],
+              "coords": [
+                [
+                  65.6,
+                  86
+                ],
+                [
+                  65.8,
+                  84.2
+                ],
+                [
+                  66,
+                  82.8
+                ],
+                [
+                  66.2,
+                  87.4
+                ],
+                [
+                  66.4,
+                  87.6
+                ],
+                [
+                  66.4,
+                  88.6
+                ],
+                [
+                  66.6,
+                  86.8
+                ],
+                [
+                  66.6,
+                  87.6
+                ],
+                [
+                  67.2,
+                  85.4
+                ],
+                [
+                  67.2,
+                  85.6
+                ],
+                [
+                  67.2,
+                  88.6
+                ],
+                [
+                  67.4,
+                  83.4
+                ],
+                [
+                  67.4,
+                  83.6
+                ],
+                [
+                  67.6,
+                  83.4
+                ],
+                [
+                  67.6,
+                  88.4
+                ],
+                [
+                  67.6,
+                  88.6
+                ],
+                [
+                  67.8,
+                  86
+                ],
+                [
+                  68.2,
+                  82.4
+                ],
+                [
+                  68.2,
+                  84.6
+                ],
+                [
+                  68.4,
+                  84.4
+                ],
+                [
+                  68.4,
+                  86.6
+                ],
+                [
+                  68.6,
+                  86.4
+                ]
+              ],
+              "id": 3207,
+              "name": "Hexed Troll",
+              "objective": 3207,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                67.6,
+                87.8
+              ],
+              "coords": [
+                [
+                  66.4,
+                  87.4
+                ],
+                [
+                  66.4,
+                  87.6
+                ],
+                [
+                  66.6,
+                  87.6
+                ],
+                [
+                  67.4,
+                  86.4
+                ],
+                [
+                  67.4,
+                  86.6
+                ],
+                [
+                  67.6,
+                  86.4
+                ],
+                [
+                  67.6,
+                  86.8
+                ],
+                [
+                  67.6,
+                  87.8
+                ],
+                [
+                  67.6,
+                  88.6
+                ]
+              ],
+              "id": 3205,
+              "item": "Zalazane's Head",
+              "name": "Zalazane",
+              "objective": 2,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Durotar"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        14,
+        4
+      ]
+    ]
+  },
+  "minLevel": 4,
+  "pageInfo": {
+    "name": "Zalazane",
+    "type": 5,
+    "typeId": 826
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 826,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3188,
+      "npcName": "Master Gadrin",
+      "zoneId": 14,
+      "x": 56.0,
+      "y": 74.6,
+      "zoneName": "Durotar"
+    }
+  ]
+}

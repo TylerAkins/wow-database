@@ -1,0 +1,272 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T06:12:07+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 7[/li][li]Requires level 4[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=251906/teeri-wellwind]Teeri Wellwind[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=251906/teeri-wellwind]Teeri Wellwind[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]4[/color][small] &nbsp;[/small][color=r2]5[/color][small] &nbsp;[/small][color=r3]10[/color][small] &nbsp;[/small][color=r4]13[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "16593": {
+        "levels": [
+          [
+            {
+              "coord": [
+                44.4,
+                45
+              ],
+              "coords": [
+                [
+                  44.4,
+                  45
+                ]
+              ],
+              "id": 251906,
+              "name": "Teeri Wellwind",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                44.4,
+                45
+              ],
+              "coords": [
+                [
+                  44.4,
+                  45
+                ]
+              ],
+              "id": 251906,
+              "name": "Teeri Wellwind",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                50.4,
+                33.4
+              ],
+              "coords": [
+                [
+                  47.4,
+                  36
+                ],
+                [
+                  47.4,
+                  37.2
+                ],
+                [
+                  47.4,
+                  38.2
+                ],
+                [
+                  47.4,
+                  38.8
+                ],
+                [
+                  47.6,
+                  36.4
+                ],
+                [
+                  47.8,
+                  37
+                ],
+                [
+                  47.8,
+                  38.4
+                ],
+                [
+                  47.8,
+                  38.6
+                ],
+                [
+                  48.8,
+                  37.2
+                ],
+                [
+                  49.2,
+                  35.4
+                ],
+                [
+                  49.2,
+                  35.8
+                ],
+                [
+                  49.2,
+                  38.4
+                ],
+                [
+                  49.2,
+                  40
+                ],
+                [
+                  49.4,
+                  34.4
+                ],
+                [
+                  49.4,
+                  38.6
+                ],
+                [
+                  49.6,
+                  38.8
+                ],
+                [
+                  49.8,
+                  33.8
+                ],
+                [
+                  49.8,
+                  35
+                ],
+                [
+                  50,
+                  35.8
+                ],
+                [
+                  50.4,
+                  33.4
+                ],
+                [
+                  50.6,
+                  33.4
+                ],
+                [
+                  50.6,
+                  33.6
+                ]
+              ],
+              "id": 251918,
+              "item": "Pilfered Windstone",
+              "name": "Highlands Bandit",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                50.8,
+                34
+              ],
+              "coords": [
+                [
+                  50.4,
+                  33.4
+                ],
+                [
+                  50.4,
+                  33.8
+                ],
+                [
+                  50.6,
+                  33.4
+                ],
+                [
+                  50.8,
+                  34
+                ]
+              ],
+              "id": 255534,
+              "item": "Pilfered Windstone",
+              "name": "\"Badwind\" Bennic",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                48.6,
+                86
+              ],
+              "coords": [
+                [
+                  48.4,
+                  85.8
+                ],
+                [
+                  48.6,
+                  86
+                ]
+              ],
+              "id": 256514,
+              "item": "Pilfered Windstone",
+              "name": "Contemplative Bandit",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                43,
+                46.4
+              ],
+              "coords": [
+                [
+                  43,
+                  46.4
+                ]
+              ],
+              "id": 256930,
+              "item": "Pilfered Windstone",
+              "name": "Captured Bandit",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Zephras Isle"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16593,
+        5
+      ]
+    ]
+  },
+  "minLevel": 4,
+  "pageInfo": {
+    "name": "Pilfered Windstones",
+    "type": 5,
+    "typeId": 93319
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 93319,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 251906,
+      "npcName": "Teeri Wellwind",
+      "zoneId": 16593,
+      "x": 44.4,
+      "y": 45.0,
+      "zoneName": "Zephras Isle"
+    }
+  ]
+}

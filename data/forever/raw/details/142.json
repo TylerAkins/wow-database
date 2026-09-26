@@ -1,0 +1,153 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-24T23:10:31+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 18[/li][li]Requires level 14[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=234/gryan-stoutmantle]Gryan Stoutmantle[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=234/gryan-stoutmantle]Gryan Stoutmantle[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]14[/color][small] &nbsp;[/small][color=r2]16[/color][small] &nbsp;[/small][color=r3]21[/color][small] &nbsp;[/small][color=r4]25[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "40": {
+        "levels": [
+          [
+            {
+              "coord": [
+                56.2,
+                47.6
+              ],
+              "coords": [
+                [
+                  56.2,
+                  47.4
+                ],
+                [
+                  56.2,
+                  47.6
+                ]
+              ],
+              "id": 234,
+              "name": "Gryan Stoutmantle",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                56.2,
+                47.6
+              ],
+              "coords": [
+                [
+                  56.2,
+                  47.4
+                ],
+                [
+                  56.2,
+                  47.6
+                ]
+              ],
+              "id": 234,
+              "name": "Gryan Stoutmantle",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                44.4,
+                69.6
+              ],
+              "coords": [
+                [
+                  44.4,
+                  69.4
+                ],
+                [
+                  44.4,
+                  69.6
+                ],
+                [
+                  44.6,
+                  69.4
+                ],
+                [
+                  44.6,
+                  69.6
+                ],
+                [
+                  45.4,
+                  66.2
+                ],
+                [
+                  45.4,
+                  68.4
+                ],
+                [
+                  45.6,
+                  67
+                ],
+                [
+                  45.6,
+                  68
+                ],
+                [
+                  45.6,
+                  68.6
+                ]
+              ],
+              "id": 550,
+              "item": "A Mysterious Message",
+              "name": "Defias Messenger",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Westfall"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        40,
+        2
+      ]
+    ]
+  },
+  "minLevel": 14,
+  "pageInfo": {
+    "name": "The Defias Brotherhood",
+    "type": 5,
+    "typeId": 142
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 142,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 234,
+      "npcName": "Gryan Stoutmantle",
+      "zoneId": 40,
+      "x": 56.2,
+      "y": 47.6,
+      "zoneName": "Westfall"
+    }
+  ]
+}

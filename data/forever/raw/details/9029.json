@@ -1,0 +1,118 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T05:09:03+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 1[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/object=181073/fragrant-cauldron]Fragrant Cauldron[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=181073/fragrant-cauldron]Fragrant Cauldron[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]1[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.3.33155\"]1.13.3[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "36": {
+        "levels": [
+          [
+            {
+              "coord": [
+                89.3,
+                75.1
+              ],
+              "coords": [
+                [
+                  89.3,
+                  75.1
+                ],
+                [
+                  89.5,
+                  75
+                ]
+              ],
+              "id": 181073,
+              "name": "Fragrant Cauldron",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                89.3,
+                75.1
+              ],
+              "coords": [
+                [
+                  89.3,
+                  75.1
+                ],
+                [
+                  89.5,
+                  75
+                ]
+              ],
+              "id": 181073,
+              "name": "Fragrant Cauldron",
+              "point": "end",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Alterac Mountains"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        36,
+        1
+      ]
+    ]
+  },
+  "minLevel": 1,
+  "objectSpawns": [
+    {
+      "entityId": 181073,
+      "entityKind": "object",
+      "entityName": "Fragrant Cauldron",
+      "uiMapId": 1416,
+      "uiMapName": "Alterac Mountains",
+      "x": 89.3,
+      "y": 75.1,
+      "zoneId": 36
+    },
+    {
+      "entityId": 181073,
+      "entityKind": "object",
+      "entityName": "Fragrant Cauldron",
+      "uiMapId": 1416,
+      "uiMapName": "Alterac Mountains",
+      "x": 89.5,
+      "y": 75.0,
+      "zoneId": 36
+    }
+  ],
+  "pageInfo": {
+    "name": "A Bubbling Cauldron",
+    "type": 5,
+    "typeId": 9029
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 9029,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 181073,
+      "npcName": "Fragrant Cauldron",
+      "x": 89.3,
+      "y": 75.1,
+      "zoneId": 36,
+      "zoneName": "Alterac Mountains"
+    }
+  ]
+}

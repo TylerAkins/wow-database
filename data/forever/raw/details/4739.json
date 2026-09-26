@@ -1,0 +1,134 @@
+{
+  "classes": [
+    9
+  ],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T02:31:56+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 31[/li][li]Requires level 31[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Races: [race=2], [race=5][/li][li]Class: [class=9][/li][li][icon name=quest-start]Start: [url=/forever/npc=4563/kaal-soulreaper]Kaal Soulreaper[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=6266/menara-voidrender]Menara Voidrender[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]31[/color][small] &nbsp;[/small][color=r3]34[/color][small] &nbsp;[/small][color=r4]39[/color][/li][li]Added in patch [acronym=\"1.13.2.30682\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1497": {
+        "levels": [
+          [
+            {
+              "coord": [
+                86,
+                15.6
+              ],
+              "coords": [
+                [
+                  85.2,
+                  15.8
+                ],
+                [
+                  85.4,
+                  15.4
+                ],
+                [
+                  86,
+                  15.4
+                ],
+                [
+                  86,
+                  15.6
+                ]
+              ],
+              "id": 4563,
+              "name": "Kaal Soulreaper",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Undercity"
+      },
+      "17": {
+        "levels": [
+          [
+            {
+              "coord": [
+                62.4,
+                35.4
+              ],
+              "coords": [
+                [
+                  62.4,
+                  35.4
+                ],
+                [
+                  62.6,
+                  35.4
+                ]
+              ],
+              "id": 6266,
+              "name": "Menara Voidrender",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Barrens"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1497,
+        1
+      ],
+      [
+        17,
+        1
+      ]
+    ]
+  },
+  "minLevel": 31,
+  "pageInfo": {
+    "name": "In Search of Menara Voidrender",
+    "type": 5,
+    "typeId": 4739
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    1796,
+    4781,
+    4782,
+    4783,
+    4784,
+    4785,
+    4786
+  ],
+  "questId": 4739,
+  "races": [
+    2,
+    5
+  ],
+  "startPins": [
+    {
+      "npcId": 4563,
+      "npcName": "Kaal Soulreaper",
+      "zoneId": 1497,
+      "x": 86.0,
+      "y": 15.6,
+      "zoneName": "Undercity"
+    }
+  ]
+}

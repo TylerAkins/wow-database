@@ -1,0 +1,220 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-24T23:26:00+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 18[/li][li]Requires level 13[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=3453/wharfmaster-dizzywig]Wharfmaster Dizzywig[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3453/wharfmaster-dizzywig]Wharfmaster Dizzywig[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]13[/color][small] &nbsp;[/small][color=r1]14[/color][small] &nbsp;[/small][color=r2]16[/color][small] &nbsp;[/small][color=r3]21[/color][small] &nbsp;[/small][color=r4]25[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "17": {
+        "levels": [
+          [
+            {
+              "coord": [
+                63.2,
+                38.4
+              ],
+              "coords": [
+                [
+                  63.2,
+                  38.4
+                ]
+              ],
+              "id": 3453,
+              "name": "Wharfmaster Dizzywig",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                63.2,
+                38.4
+              ],
+              "coords": [
+                [
+                  63.2,
+                  38.4
+                ]
+              ],
+              "id": 3453,
+              "name": "Wharfmaster Dizzywig",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                60.4,
+                3.8
+              ],
+              "coords": [
+                [
+                  60,
+                  3.2
+                ],
+                [
+                  60.4,
+                  3.8
+                ],
+                [
+                  60.6,
+                  3.8
+                ],
+                [
+                  61.2,
+                  5
+                ],
+                [
+                  61.4,
+                  5.6
+                ],
+                [
+                  61.8,
+                  3.8
+                ],
+                [
+                  61.8,
+                  5.6
+                ],
+                [
+                  62,
+                  3.4
+                ],
+                [
+                  62,
+                  4.8
+                ]
+              ],
+              "id": 3283,
+              "item": "Cats Eye Emerald",
+              "name": "Venture Co. Enforcer",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                60.6,
+                3.8
+              ],
+              "coords": [
+                [
+                  60,
+                  3.2
+                ],
+                [
+                  60.4,
+                  3.8
+                ],
+                [
+                  60.6,
+                  3.8
+                ],
+                [
+                  61.4,
+                  5
+                ],
+                [
+                  61.4,
+                  5.6
+                ],
+                [
+                  61.6,
+                  3.4
+                ],
+                [
+                  61.6,
+                  4.4
+                ],
+                [
+                  61.6,
+                  4.8
+                ],
+                [
+                  61.6,
+                  5.6
+                ]
+              ],
+              "id": 3286,
+              "item": "Cats Eye Emerald",
+              "name": "Venture Co. Overseer",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                60,
+                4
+              ],
+              "coords": [
+                [
+                  59.8,
+                  3.4
+                ],
+                [
+                  60,
+                  4
+                ]
+              ],
+              "id": 9336,
+              "item": "Cats Eye Emerald",
+              "name": "Boss Copperplug",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Barrens"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        17,
+        4
+      ]
+    ]
+  },
+  "minLevel": 13,
+  "pageInfo": {
+    "name": "Miner's Fortune",
+    "type": 5,
+    "typeId": 896
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 896,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3453,
+      "npcName": "Wharfmaster Dizzywig",
+      "zoneId": 17,
+      "x": 63.2,
+      "y": 38.4,
+      "zoneName": "The Barrens"
+    }
+  ]
+}

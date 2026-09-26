@@ -1,0 +1,101 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T06:47:00+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 8[/li][li]Requires level 5[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=266881/pazula]Pa'zula[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=266881/pazula]Pa'zula[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]5[/color][small] &nbsp;[/small][color=r2]6[/color][small] &nbsp;[/small][color=r3]11[/color][small] &nbsp;[/small][color=r4]14[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "14": {
+        "levels": [
+          [
+            {
+              "coord": [
+                56.6,
+                73.6
+              ],
+              "coords": [
+                [
+                  56.4,
+                  73.6
+                ],
+                [
+                  56.6,
+                  73.6
+                ]
+              ],
+              "id": 266881,
+              "name": "Pa'zula",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                56.6,
+                73.6
+              ],
+              "coords": [
+                [
+                  56.4,
+                  73.6
+                ],
+                [
+                  56.6,
+                  73.6
+                ]
+              ],
+              "id": 266881,
+              "name": "Pa'zula",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Durotar"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        14,
+        1
+      ]
+    ]
+  },
+  "minLevel": 5,
+  "pageInfo": {
+    "name": "A Pain in the Neck",
+    "type": 5,
+    "typeId": 96873
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 96873,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 266881,
+      "npcName": "Pa'zula",
+      "zoneId": 14,
+      "x": 56.6,
+      "y": 73.6,
+      "zoneName": "Durotar"
+    }
+  ]
+}

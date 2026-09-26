@@ -1,0 +1,469 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-24T23:19:14+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 28[/li][li]Requires level 19[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/object=2008/dangerous]Dangerous![/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2215/high-executor-darthalia]High Executor Darthalia[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]19[/color][small] &nbsp;[/small][color=r1]24[/color][small] &nbsp;[/small][color=r2]26[/color][small] &nbsp;[/small][color=r3]31[/color][small] &nbsp;[/small][color=r4]36[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "267": {
+        "levels": [
+          [
+            {
+              "coord": [
+                62.5,
+                19.7
+              ],
+              "coords": [
+                [
+                  62.4,
+                  19.7
+                ],
+                [
+                  62.5,
+                  19.7
+                ]
+              ],
+              "id": 2008,
+              "name": "Dangerous!",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                62.2,
+                20.2
+              ],
+              "coords": [
+                [
+                  62.2,
+                  20.2
+                ],
+                [
+                  62.2,
+                  20.6
+                ]
+              ],
+              "id": 2215,
+              "name": "High Executor Darthalia",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                30,
+                42.8
+              ],
+              "coords": [
+                [
+                  29.4,
+                  42.4
+                ],
+                [
+                  29.4,
+                  43
+                ],
+                [
+                  29.6,
+                  42.4
+                ],
+                [
+                  30,
+                  42.8
+                ],
+                [
+                  30.6,
+                  42.2
+                ]
+              ],
+              "id": 2448,
+              "name": "Clerk Horrace Whitesteed",
+              "objective": 2448,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                31.2,
+                42
+              ],
+              "coords": [
+                [
+                  29,
+                  41.6
+                ],
+                [
+                  30.4,
+                  40.4
+                ],
+                [
+                  30.4,
+                  40.8
+                ],
+                [
+                  30.4,
+                  42.2
+                ],
+                [
+                  30.6,
+                  40.4
+                ],
+                [
+                  30.6,
+                  40.8
+                ],
+                [
+                  31.2,
+                  42
+                ],
+                [
+                  31.2,
+                  42.6
+                ],
+                [
+                  31.6,
+                  41.2
+                ],
+                [
+                  31.6,
+                  42
+                ],
+                [
+                  32,
+                  45.6
+                ],
+                [
+                  32.2,
+                  42.6
+                ],
+                [
+                  32.4,
+                  36.2
+                ],
+                [
+                  32.4,
+                  36.6
+                ],
+                [
+                  32.4,
+                  38.4
+                ],
+                [
+                  32.4,
+                  39
+                ],
+                [
+                  32.4,
+                  40.4
+                ],
+                [
+                  32.4,
+                  44.4
+                ],
+                [
+                  32.4,
+                  44.8
+                ],
+                [
+                  32.6,
+                  35.4
+                ],
+                [
+                  32.6,
+                  37.6
+                ],
+                [
+                  32.6,
+                  40
+                ],
+                [
+                  32.6,
+                  41.2
+                ],
+                [
+                  32.6,
+                  41.6
+                ],
+                [
+                  32.6,
+                  42.6
+                ],
+                [
+                  32.6,
+                  44.4
+                ],
+                [
+                  32.6,
+                  44.6
+                ],
+                [
+                  32.8,
+                  39.2
+                ],
+                [
+                  33,
+                  35.8
+                ],
+                [
+                  33,
+                  36.6
+                ],
+                [
+                  34.2,
+                  38.8
+                ],
+                [
+                  34.4,
+                  38
+                ],
+                [
+                  34.6,
+                  38.4
+                ],
+                [
+                  35.2,
+                  38.8
+                ],
+                [
+                  36,
+                  39.6
+                ],
+                [
+                  36.2,
+                  39.2
+                ],
+                [
+                  36.4,
+                  38.4
+                ],
+                [
+                  36.6,
+                  38.4
+                ],
+                [
+                  36.6,
+                  39.4
+                ],
+                [
+                  36.6,
+                  39.6
+                ]
+              ],
+              "id": 2449,
+              "name": "Citizen Wilkes",
+              "objective": 2449,
+              "point": "requirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                31.2,
+                53.4
+              ],
+              "coords": [
+                [
+                  29.8,
+                  54.4
+                ],
+                [
+                  29.8,
+                  55
+                ],
+                [
+                  29.8,
+                  55.6
+                ],
+                [
+                  30.2,
+                  56.8
+                ],
+                [
+                  30.4,
+                  58.2
+                ],
+                [
+                  30.8,
+                  55.4
+                ],
+                [
+                  30.8,
+                  56.4
+                ],
+                [
+                  30.8,
+                  56.6
+                ],
+                [
+                  30.8,
+                  58.4
+                ],
+                [
+                  30.8,
+                  58.6
+                ],
+                [
+                  31.2,
+                  53.4
+                ],
+                [
+                  31.2,
+                  53.6
+                ],
+                [
+                  31.6,
+                  52.8
+                ],
+                [
+                  31.8,
+                  52.4
+                ]
+              ],
+              "id": 2450,
+              "name": "Miner Hackett",
+              "objective": 2450,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                35.8,
+                46.2
+              ],
+              "coords": [
+                [
+                  34.4,
+                  45.8
+                ],
+                [
+                  35.4,
+                  45.4
+                ],
+                [
+                  35.4,
+                  46
+                ],
+                [
+                  35.4,
+                  46.6
+                ],
+                [
+                  35.4,
+                  48.2
+                ],
+                [
+                  35.6,
+                  46.6
+                ],
+                [
+                  35.6,
+                  48.8
+                ],
+                [
+                  35.8,
+                  46.2
+                ],
+                [
+                  36.4,
+                  45.4
+                ],
+                [
+                  36.4,
+                  47.6
+                ],
+                [
+                  36.6,
+                  45.4
+                ],
+                [
+                  36.6,
+                  47.4
+                ],
+                [
+                  36.6,
+                  47.6
+                ]
+              ],
+              "id": 2451,
+              "name": "Farmer Kalaba",
+              "objective": 2451,
+              "point": "requirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Hillsbrad Foothills"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        267,
+        6
+      ]
+    ]
+  },
+  "minLevel": 19,
+  "objectSpawns": [
+    {
+      "entityId": 2008,
+      "entityKind": "object",
+      "entityName": "Dangerous!",
+      "uiMapId": 1424,
+      "uiMapName": "Hillsbrad Foothills",
+      "x": 62.4,
+      "y": 19.7,
+      "zoneId": 267
+    },
+    {
+      "entityId": 2008,
+      "entityKind": "object",
+      "entityName": "Dangerous!",
+      "uiMapId": 1424,
+      "uiMapName": "Hillsbrad Foothills",
+      "x": 62.5,
+      "y": 19.7,
+      "zoneId": 267
+    }
+  ],
+  "pageInfo": {
+    "name": "Dangerous!",
+    "type": 5,
+    "typeId": 567
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 567,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 2008,
+      "npcName": "Dangerous!",
+      "x": 62.5,
+      "y": 19.7,
+      "zoneId": 267,
+      "zoneName": "Hillsbrad Foothills"
+    }
+  ]
+}

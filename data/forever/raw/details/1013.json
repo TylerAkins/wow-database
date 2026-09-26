@@ -1,0 +1,133 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-24T23:28:22+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": true,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 26[/li][li]Requires level 16[/li][li]Type: Dungeon[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=2934/keeper-beldugur]Keeper Bel'dugur[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2934/keeper-beldugur]Keeper Bel'dugur[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]16[/color][small] &nbsp;[/small][color=r1]22[/color][small] &nbsp;[/small][color=r2]24[/color][small] &nbsp;[/small][color=r3]29[/color][small] &nbsp;[/small][color=r4]34[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "1497": {
+        "levels": [
+          [
+            {
+              "coord": [
+                53.6,
+                54
+              ],
+              "coords": [
+                [
+                  53.4,
+                  53
+                ],
+                [
+                  53.4,
+                  53.8
+                ],
+                [
+                  53.6,
+                  53
+                ],
+                [
+                  53.6,
+                  54
+                ],
+                [
+                  54,
+                  54.6
+                ],
+                [
+                  54.4,
+                  55.6
+                ]
+              ],
+              "id": 2934,
+              "name": "Keeper Bel'dugur",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                53.6,
+                54
+              ],
+              "coords": [
+                [
+                  53.4,
+                  53
+                ],
+                [
+                  53.4,
+                  53.8
+                ],
+                [
+                  53.6,
+                  53
+                ],
+                [
+                  53.6,
+                  54
+                ],
+                [
+                  54,
+                  54.6
+                ],
+                [
+                  54.4,
+                  55.6
+                ]
+              ],
+              "id": 2934,
+              "name": "Keeper Bel'dugur",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Undercity"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1497,
+        1
+      ]
+    ]
+  },
+  "minLevel": 16,
+  "pageInfo": {
+    "name": "The Book of Ur",
+    "type": 5,
+    "typeId": 1013
+  },
+  "pinCategory": "instance",
+  "prerequisiteQuestIds": [],
+  "questId": 1013,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 2934,
+      "npcName": "Keeper Bel'dugur",
+      "zoneId": 1497,
+      "x": 53.6,
+      "y": 54.0,
+      "zoneName": "Undercity"
+    }
+  ]
+}

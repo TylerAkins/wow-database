@@ -1,0 +1,279 @@
+{
+  "classes": [
+    11
+  ],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T05:09:26+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 52[/li][li]Requires level 50[/li][li]Side: Both[/li][li]Class: [class=11][/li][li][icon name=quest-start]Start: [span class=icon-horde][url=/forever/npc=3033/turak-runetotem]Turak Runetotem[/url][/span][/icon][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-alliance-padded][url=/forever/npc=4217/mathrengyl-bearwalker]Mathrengyl Bearwalker[/url][/span][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-alliance-padded][url=/forever/npc=5505/theridran]Theridran[/url][/span][br][span=invisible][icon name=quest-start]Start: [/icon][/span][url=/forever/npc=12042/loganaar]Loganaar[/url][/li][li][icon name=quest-end]End: [url=/forever/npc=9619/torwa-pathfinder]Torwa Pathfinder[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]50[/color][small] &nbsp;[/small][color=r3]55[/color][small] &nbsp;[/small][color=r4]63[/color][/li][li]Added in patch [acronym=\"1.13.3.33155\"]1.13.3[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1519": {
+        "levels": [
+          [
+            {
+              "coord": [
+                21.4,
+                51.4
+              ],
+              "coords": [
+                [
+                  21.2,
+                  52.6
+                ],
+                [
+                  21.4,
+                  51.4
+                ],
+                [
+                  21.4,
+                  51.6
+                ],
+                [
+                  21.6,
+                  51.4
+                ],
+                [
+                  36.2,
+                  64.2
+                ]
+              ],
+              "id": 5505,
+              "name": "Theridran",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stormwind City"
+      },
+      "1638": {
+        "levels": [
+          [
+            {
+              "coord": [
+                76.4,
+                27.6
+              ],
+              "coords": [
+                [
+                  76.4,
+                  27.4
+                ],
+                [
+                  76.4,
+                  27.6
+                ],
+                [
+                  76.6,
+                  27.4
+                ],
+                [
+                  76.6,
+                  27.6
+                ]
+              ],
+              "id": 3033,
+              "name": "Turak Runetotem",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Thunder Bluff"
+      },
+      "1657": {
+        "levels": [
+          [
+            {
+              "coord": [
+                35.2,
+                8
+              ],
+              "coords": [
+                [
+                  34.8,
+                  7.4
+                ],
+                [
+                  35.2,
+                  8
+                ],
+                [
+                  35.2,
+                  8.6
+                ]
+              ],
+              "id": 4217,
+              "name": "Mathrengyl Bearwalker",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Darnassus"
+      },
+      "490": {
+        "levels": [
+          [
+            {
+              "coord": [
+                71.6,
+                76
+              ],
+              "coords": [
+                [
+                  71.4,
+                  76
+                ],
+                [
+                  71.6,
+                  76
+                ]
+              ],
+              "id": 9619,
+              "name": "Torwa Pathfinder",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Un'Goro Crater"
+      },
+      "493": {
+        "levels": [
+          [
+            {
+              "coord": [
+                52.4,
+                40.4
+              ],
+              "coords": [
+                [
+                  52.4,
+                  40.4
+                ],
+                [
+                  52.4,
+                  40.6
+                ],
+                [
+                  52.6,
+                  40.4
+                ]
+              ],
+              "id": 12042,
+              "name": "Loganaar",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Moonglade"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        493,
+        1
+      ],
+      [
+        1638,
+        1
+      ],
+      [
+        1657,
+        1
+      ],
+      [
+        1519,
+        1
+      ],
+      [
+        490,
+        1
+      ]
+    ]
+  },
+  "minLevel": 50,
+  "pageInfo": {
+    "name": "Torwa Pathfinder",
+    "type": 5,
+    "typeId": 9063
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    8232,
+    8236,
+    8253,
+    8257,
+    8413,
+    8418,
+    8422,
+    8425,
+    9053
+  ],
+  "questId": 9063,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3033,
+      "npcName": "Turak Runetotem",
+      "zoneId": 1638,
+      "x": 76.4,
+      "y": 27.6,
+      "zoneName": "Thunder Bluff"
+    },
+    {
+      "npcId": 4217,
+      "npcName": "Mathrengyl Bearwalker",
+      "zoneId": 1657,
+      "x": 35.2,
+      "y": 8.0,
+      "zoneName": "Darnassus"
+    },
+    {
+      "npcId": 5505,
+      "npcName": "Theridran",
+      "zoneId": 1519,
+      "x": 21.4,
+      "y": 51.4,
+      "zoneName": "Stormwind City"
+    },
+    {
+      "npcId": 12042,
+      "npcName": "Loganaar",
+      "zoneId": 493,
+      "x": 52.4,
+      "y": 40.4,
+      "zoneName": "Moonglade"
+    }
+  ]
+}

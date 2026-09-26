@@ -1,0 +1,109 @@
+{
+  "classes": [
+    9
+  ],
+  "fetchedAt": "2026-09-25T02:34:03+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 38[/li][li]Requires level 31[/li][li]Side: Both[/li][li]Class: [class=9][/li][li][icon name=quest-start]Start: [url=/forever/npc=6266/menara-voidrender]Menara Voidrender[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=6266/menara-voidrender]Menara Voidrender[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]31[/color][small] &nbsp;[/small][color=r1]34[/color][small] &nbsp;[/small][color=r2]36[/color][small] &nbsp;[/small][color=r3]41[/color][small] &nbsp;[/small][color=r4]47[/color][/li][li]Added in patch [acronym=\"1.13.2.30682\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "17": {
+        "levels": [
+          [
+            {
+              "coord": [
+                62.4,
+                35.4
+              ],
+              "coords": [
+                [
+                  62.4,
+                  35.4
+                ],
+                [
+                  62.6,
+                  35.4
+                ]
+              ],
+              "id": 6266,
+              "name": "Menara Voidrender",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                62.4,
+                35.4
+              ],
+              "coords": [
+                [
+                  62.4,
+                  35.4
+                ],
+                [
+                  62.6,
+                  35.4
+                ]
+              ],
+              "id": 6266,
+              "name": "Menara Voidrender",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Barrens"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        17,
+        1
+      ]
+    ]
+  },
+  "minLevel": 31,
+  "pageInfo": {
+    "name": "The Completed Robe",
+    "type": 5,
+    "typeId": 4786
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    1796,
+    4781,
+    4782,
+    4783,
+    4784,
+    4785
+  ],
+  "questId": 4786,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 6266,
+      "npcName": "Menara Voidrender",
+      "zoneId": 17,
+      "x": 62.4,
+      "y": 35.4,
+      "zoneName": "The Barrens"
+    }
+  ]
+}

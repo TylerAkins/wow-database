@@ -1,0 +1,168 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-24T23:08:04+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 5[/li][li]Requires level 1[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=197/marshal-mcbride]Marshal McBride[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=197/marshal-mcbride]Marshal McBride[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]1[/color][small] &nbsp;[/small][color=r2]3[/color][small] &nbsp;[/small][color=r3]8[/color][small] &nbsp;[/small][color=r4]11[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "12": {
+        "levels": [
+          [
+            {
+              "coord": [
+                48.8,
+                41.6
+              ],
+              "coords": [
+                [
+                  48.8,
+                  41.4
+                ],
+                [
+                  48.8,
+                  41.6
+                ]
+              ],
+              "id": 197,
+              "name": "Marshal McBride",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                48.8,
+                41.6
+              ],
+              "coords": [
+                [
+                  48.8,
+                  41.4
+                ],
+                [
+                  48.8,
+                  41.6
+                ]
+              ],
+              "id": 197,
+              "name": "Marshal McBride",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                48.4,
+                29.2
+              ],
+              "coords": [
+                [
+                  47.4,
+                  30.2
+                ],
+                [
+                  47.6,
+                  31.8
+                ],
+                [
+                  47.8,
+                  31.2
+                ],
+                [
+                  48.2,
+                  30.2
+                ],
+                [
+                  48.4,
+                  26.6
+                ],
+                [
+                  48.4,
+                  28
+                ],
+                [
+                  48.4,
+                  29.2
+                ],
+                [
+                  48.6,
+                  27.4
+                ],
+                [
+                  48.6,
+                  27.6
+                ],
+                [
+                  49,
+                  29
+                ],
+                [
+                  49.4,
+                  25.8
+                ],
+                [
+                  50.2,
+                  26.2
+                ],
+                [
+                  50.2,
+                  26.6
+                ]
+              ],
+              "id": 80,
+              "name": "Kobold Laborer",
+              "objective": 80,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Elwynn Forest"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        12,
+        2
+      ]
+    ]
+  },
+  "minLevel": 1,
+  "pageInfo": {
+    "name": "Skirmish at Echo Ridge",
+    "type": 5,
+    "typeId": 21
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 21,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 197,
+      "npcName": "Marshal McBride",
+      "zoneId": 12,
+      "x": 48.8,
+      "y": 41.6,
+      "zoneName": "Elwynn Forest"
+    }
+  ]
+}

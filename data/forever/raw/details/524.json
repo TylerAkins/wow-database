@@ -1,0 +1,91 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-24T23:18:21+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 30[/li][li]Requires level 24[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=2216/apothecary-lydon]Apothecary Lydon[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=1728/dusty-rug]Dusty Rug[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]24[/color][small] &nbsp;[/small][color=r1]26[/color][small] &nbsp;[/small][color=r2]28[/color][small] &nbsp;[/small][color=r3]33[/color][small] &nbsp;[/small][color=r4]38[/color][/li][li]Added in patch [acronym=\"1.13.2.30682\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "267": {
+        "levels": [
+          [
+            {
+              "coord": [
+                61.4,
+                19.2
+              ],
+              "coords": [
+                [
+                  61.4,
+                  19.2
+                ]
+              ],
+              "id": 2216,
+              "name": "Apothecary Lydon",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                62.8,
+                18.8
+              ],
+              "coords": [
+                [
+                  62.8,
+                  18.8
+                ]
+              ],
+              "id": 1728,
+              "name": "Dusty Rug",
+              "point": "end",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Hillsbrad Foothills"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        267,
+        2
+      ]
+    ]
+  },
+  "minLevel": 24,
+  "pageInfo": {
+    "name": "Elixir of Agony",
+    "type": 5,
+    "typeId": 524
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 524,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 2216,
+      "npcName": "Apothecary Lydon",
+      "zoneId": 267,
+      "x": 61.4,
+      "y": 19.2,
+      "zoneName": "Hillsbrad Foothills"
+    }
+  ]
+}

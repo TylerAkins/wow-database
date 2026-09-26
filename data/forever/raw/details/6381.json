@@ -1,0 +1,118 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T03:26:39+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 25[/li][li]Requires level 17[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=11864/tammra-windfield]Tammra Windfield[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=11864/tammra-windfield]Tammra Windfield[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]17[/color][small] &nbsp;[/small][color=r1]21[/color][small] &nbsp;[/small][color=r2]23[/color][small] &nbsp;[/small][color=r3]28[/color][small] &nbsp;[/small][color=r4]33[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "406": {
+        "levels": [
+          [
+            {
+              "coord": [
+                47.4,
+                58.4
+              ],
+              "coords": [
+                [
+                  47.4,
+                  58.4
+                ],
+                [
+                  47.4,
+                  58.6
+                ]
+              ],
+              "id": 11864,
+              "name": "Tammra Windfield",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                47.4,
+                58.4
+              ],
+              "coords": [
+                [
+                  47.4,
+                  58.4
+                ],
+                [
+                  47.4,
+                  58.6
+                ]
+              ],
+              "id": 11864,
+              "name": "Tammra Windfield",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                36.1,
+                62.7
+              ],
+              "coords": [
+                [
+                  36.1,
+                  62.7
+                ]
+              ],
+              "id": 177929,
+              "name": "Gaea Dirt Mound",
+              "objective": 0,
+              "point": "requirement",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stonetalon Mountains"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        406,
+        2
+      ]
+    ]
+  },
+  "minLevel": 17,
+  "pageInfo": {
+    "name": "New Life",
+    "type": 5,
+    "typeId": 6381
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 6381,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 11864,
+      "npcName": "Tammra Windfield",
+      "zoneId": 406,
+      "x": 47.4,
+      "y": 58.4,
+      "zoneName": "Stonetalon Mountains"
+    }
+  ]
+}

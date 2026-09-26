@@ -1,0 +1,105 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T02:00:32+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 52[/li][li]Requires level 45[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=8587/jediga]Jediga[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=8379/archmage-xylem]Archmage Xylem[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]45[/color][small] &nbsp;[/small][color=r1]48[/color][small] &nbsp;[/small][color=r2]50[/color][small] &nbsp;[/small][color=r3]55[/color][small] &nbsp;[/small][color=r4]63[/color][/li][li]Added in patch [acronym=\"1.13.2.31687\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "16": {
+        "levels": [
+          [
+            {
+              "coord": [
+                22.4,
+                51.4
+              ],
+              "coords": [
+                [
+                  22.4,
+                  51.4
+                ],
+                [
+                  22.6,
+                  51.4
+                ]
+              ],
+              "id": 8587,
+              "name": "Jediga",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                29.2,
+                40.2
+              ],
+              "coords": [
+                [
+                  29.2,
+                  40.2
+                ],
+                [
+                  29.6,
+                  40.4
+                ],
+                [
+                  29.6,
+                  40.6
+                ]
+              ],
+              "id": 8379,
+              "name": "Archmage Xylem",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Azshara"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16,
+        2
+      ]
+    ]
+  },
+  "minLevel": 45,
+  "pageInfo": {
+    "name": "Delivery to Archmage Xylem",
+    "type": 5,
+    "typeId": 3561
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 3561,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 8587,
+      "npcName": "Jediga",
+      "zoneId": 16,
+      "x": 22.4,
+      "y": 51.4,
+      "zoneName": "Azshara"
+    }
+  ]
+}

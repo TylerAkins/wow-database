@@ -1,0 +1,484 @@
+{
+  "classes": [
+    8
+  ],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T01:17:46+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 15[/li][li]Requires level 15[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Races: [race=5], [race=8][/li][li]Class: [class=8][/li][li][icon name=quest-start]Start: [url=/forever/npc=4568/anastasia-hartwell]Anastasia Hartwell[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=4576/josef-gregorian]Josef Gregorian[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]15[/color][small] &nbsp;[/small][color=r3]18[/color][small] &nbsp;[/small][color=r4]22[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "1497": {
+        "levels": [
+          [
+            {
+              "coord": [
+                85,
+                10.2
+              ],
+              "coords": [
+                [
+                  84.4,
+                  11
+                ],
+                [
+                  84.8,
+                  10.6
+                ],
+                [
+                  85,
+                  10.2
+                ]
+              ],
+              "id": 4568,
+              "name": "Anastasia Hartwell",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                70.6,
+                30.4
+              ],
+              "coords": [
+                [
+                  70.4,
+                  30.4
+                ],
+                [
+                  70.4,
+                  30.6
+                ],
+                [
+                  70.6,
+                  30.4
+                ],
+                [
+                  70.6,
+                  30.6
+                ],
+                [
+                  70.8,
+                  29.2
+                ]
+              ],
+              "id": 4576,
+              "name": "Josef Gregorian",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                65.2,
+                10.4
+              ],
+              "coords": [
+                [
+                  60.6,
+                  17
+                ],
+                [
+                  61,
+                  19.2
+                ],
+                [
+                  61.4,
+                  11.2
+                ],
+                [
+                  61.6,
+                  13
+                ],
+                [
+                  61.8,
+                  14.2
+                ],
+                [
+                  62,
+                  10.6
+                ],
+                [
+                  63,
+                  9.6
+                ],
+                [
+                  63.2,
+                  12.8
+                ],
+                [
+                  63.6,
+                  11.4
+                ],
+                [
+                  63.8,
+                  8.6
+                ],
+                [
+                  63.8,
+                  12.4
+                ],
+                [
+                  65,
+                  8.6
+                ],
+                [
+                  65.2,
+                  10.4
+                ],
+                [
+                  65.2,
+                  11
+                ],
+                [
+                  65.2,
+                  11.6
+                ],
+                [
+                  65.2,
+                  13.4
+                ],
+                [
+                  65.2,
+                  15.6
+                ],
+                [
+                  65.4,
+                  8
+                ],
+                [
+                  65.4,
+                  14.4
+                ],
+                [
+                  65.4,
+                  14.6
+                ],
+                [
+                  65.6,
+                  9.8
+                ],
+                [
+                  65.6,
+                  13.4
+                ],
+                [
+                  65.8,
+                  15.2
+                ],
+                [
+                  65.8,
+                  21.8
+                ],
+                [
+                  66,
+                  4.4
+                ],
+                [
+                  66,
+                  10.8
+                ],
+                [
+                  66,
+                  12
+                ],
+                [
+                  66,
+                  13.8
+                ],
+                [
+                  66,
+                  17
+                ],
+                [
+                  66,
+                  18.2
+                ],
+                [
+                  66,
+                  18.6
+                ],
+                [
+                  66,
+                  20.2
+                ],
+                [
+                  66,
+                  26.8
+                ],
+                [
+                  66,
+                  27.6
+                ],
+                [
+                  66.2,
+                  1
+                ],
+                [
+                  66.2,
+                  5.4
+                ],
+                [
+                  66.2,
+                  6
+                ],
+                [
+                  66.2,
+                  7.2
+                ],
+                [
+                  66.2,
+                  8.2
+                ],
+                [
+                  66.2,
+                  15.6
+                ],
+                [
+                  66.4,
+                  8.8
+                ],
+                [
+                  66.6,
+                  3.8
+                ],
+                [
+                  66.6,
+                  8.8
+                ],
+                [
+                  66.6,
+                  20.8
+                ],
+                [
+                  66.8,
+                  10.2
+                ],
+                [
+                  66.8,
+                  12.8
+                ],
+                [
+                  67,
+                  7.6
+                ],
+                [
+                  67,
+                  10.6
+                ],
+                [
+                  67,
+                  11.6
+                ],
+                [
+                  67.2,
+                  6.6
+                ],
+                [
+                  67.4,
+                  14
+                ],
+                [
+                  67.4,
+                  15.2
+                ],
+                [
+                  67.6,
+                  8.6
+                ],
+                [
+                  67.6,
+                  11
+                ],
+                [
+                  67.6,
+                  13.6
+                ],
+                [
+                  67.8,
+                  9.6
+                ],
+                [
+                  67.8,
+                  15
+                ],
+                [
+                  68,
+                  11.8
+                ],
+                [
+                  68.6,
+                  7.8
+                ],
+                [
+                  68.8,
+                  11.2
+                ],
+                [
+                  69,
+                  12
+                ],
+                [
+                  69,
+                  14
+                ],
+                [
+                  69.2,
+                  13.4
+                ],
+                [
+                  69.6,
+                  11.8
+                ],
+                [
+                  70.2,
+                  11.4
+                ],
+                [
+                  70.2,
+                  12.6
+                ],
+                [
+                  71,
+                  12.8
+                ]
+              ],
+              "id": 3617,
+              "item": "Linen Cloth",
+              "name": "Lordaeron Citizen",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                70,
+                38.2
+              ],
+              "coords": [
+                [
+                  46.9,
+                  70.5
+                ],
+                [
+                  52.2,
+                  77.1
+                ],
+                [
+                  52.5,
+                  70.7
+                ],
+                [
+                  61.9,
+                  44.6
+                ],
+                [
+                  63.6,
+                  52.1
+                ],
+                [
+                  69.4,
+                  43
+                ],
+                [
+                  69.6,
+                  42.9
+                ],
+                [
+                  70,
+                  38.2
+                ],
+                [
+                  70,
+                  50.3
+                ],
+                [
+                  71.9,
+                  24.4
+                ],
+                [
+                  72,
+                  71.2
+                ],
+                [
+                  76.4,
+                  30.3
+                ],
+                [
+                  78.2,
+                  22.3
+                ],
+                [
+                  78.8,
+                  33
+                ],
+                [
+                  79,
+                  33.5
+                ],
+                [
+                  84.8,
+                  57.3
+                ]
+              ],
+              "id": 3662,
+              "item": "Linen Cloth",
+              "name": "Food Crate",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Undercity"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1497,
+        4
+      ]
+    ]
+  },
+  "minLevel": 15,
+  "pageInfo": {
+    "name": "Gathering Materials",
+    "type": 5,
+    "typeId": 1961
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 1961,
+  "races": [
+    5,
+    8
+  ],
+  "startPins": [
+    {
+      "npcId": 4568,
+      "npcName": "Anastasia Hartwell",
+      "zoneId": 1497,
+      "x": 85.0,
+      "y": 10.2,
+      "zoneName": "Undercity"
+    }
+  ]
+}

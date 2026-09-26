@@ -1,0 +1,93 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T04:13:27+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": true,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 50[/li][li]Type: PvP[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=15021/deathmaster-dwire]Deathmaster Dwire[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=15021/deathmaster-dwire]Deathmaster Dwire[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]50[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.4.33920\"]1.13.4[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "45": {
+        "levels": [
+          [
+            {
+              "coord": [
+                73.2,
+                29.8
+              ],
+              "coords": [
+                [
+                  73.2,
+                  29.8
+                ]
+              ],
+              "id": 15021,
+              "name": "Deathmaster Dwire",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                73.2,
+                29.8
+              ],
+              "coords": [
+                [
+                  73.2,
+                  29.8
+                ]
+              ],
+              "id": 15021,
+              "name": "Deathmaster Dwire",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Arathi Highlands"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        45,
+        1
+      ]
+    ]
+  },
+  "minLevel": 50,
+  "pageInfo": {
+    "name": "Take Five Bases",
+    "type": 5,
+    "typeId": 8122
+  },
+  "pinCategory": "pvp",
+  "prerequisiteQuestIds": [],
+  "questId": 8122,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 15021,
+      "npcName": "Deathmaster Dwire",
+      "zoneId": 45,
+      "x": 73.2,
+      "y": 29.8,
+      "zoneName": "Arathi Highlands"
+    }
+  ]
+}

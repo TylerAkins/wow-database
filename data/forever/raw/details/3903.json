@@ -1,0 +1,101 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T02:08:47+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 4[/li][li]Requires level 2[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=823/deputy-willem]Deputy Willem[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=9296/milly-osworth]Milly Osworth[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]2[/color][small] &nbsp;[/small][color=r3]7[/color][small] &nbsp;[/small][color=r4]9[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "12": {
+        "levels": [
+          [
+            {
+              "coord": [
+                48.2,
+                42.8
+              ],
+              "coords": [
+                [
+                  48.2,
+                  42.8
+                ]
+              ],
+              "id": 823,
+              "name": "Deputy Willem",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                50.6,
+                39.4
+              ],
+              "coords": [
+                [
+                  50.4,
+                  39.2
+                ],
+                [
+                  50.6,
+                  39.4
+                ],
+                [
+                  50.8,
+                  39.6
+                ]
+              ],
+              "id": 9296,
+              "name": "Milly Osworth",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Elwynn Forest"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        12,
+        2
+      ]
+    ]
+  },
+  "minLevel": 2,
+  "pageInfo": {
+    "name": "Milly Osworth",
+    "type": 5,
+    "typeId": 3903
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 3903,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 823,
+      "npcName": "Deputy Willem",
+      "zoneId": 12,
+      "x": 48.2,
+      "y": 42.8,
+      "zoneName": "Elwynn Forest"
+    }
+  ]
+}

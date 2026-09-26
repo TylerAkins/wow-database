@@ -1,0 +1,141 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T04:55:43+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 1[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=16008/temma-of-the-wells]Temma of the Wells[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=16004/elenia-haydon]Elenia Haydon[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]1[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1497": {
+        "levels": [
+          [
+            {
+              "coord": [
+                66.6,
+                45.4
+              ],
+              "coords": [
+                [
+                  66.4,
+                  45.4
+                ],
+                [
+                  66.4,
+                  45.6
+                ],
+                [
+                  66.6,
+                  45.4
+                ],
+                [
+                  66.6,
+                  45.6
+                ],
+                [
+                  66.8,
+                  44.4
+                ]
+              ],
+              "id": 16004,
+              "name": "Elenia Haydon",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Undercity"
+      },
+      "1638": {
+        "levels": [
+          [
+            {
+              "coord": [
+                44.8,
+                59.6
+              ],
+              "coords": [
+                [
+                  44.4,
+                  58.8
+                ],
+                [
+                  44.4,
+                  60.2
+                ],
+                [
+                  44.4,
+                  60.6
+                ],
+                [
+                  44.6,
+                  60.6
+                ],
+                [
+                  44.8,
+                  59.6
+                ],
+                [
+                  45,
+                  59.4
+                ]
+              ],
+              "id": 16008,
+              "name": "Temma of the Wells",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Thunder Bluff"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1638,
+        1
+      ],
+      [
+        1497,
+        1
+      ]
+    ]
+  },
+  "minLevel": 1,
+  "pageInfo": {
+    "name": "Dearest Elenia,",
+    "type": 5,
+    "typeId": 8901
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 8901,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 16008,
+      "npcName": "Temma of the Wells",
+      "zoneId": 1638,
+      "x": 44.8,
+      "y": 59.6,
+      "zoneName": "Thunder Bluff"
+    }
+  ]
+}

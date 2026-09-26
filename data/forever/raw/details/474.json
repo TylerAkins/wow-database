@@ -1,0 +1,173 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-24T23:17:18+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 32[/li][li]Requires level 23[/li][li]Type: Elite[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/object=1609/dragonmaw-catapult]Dragonmaw Catapult[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2104/captain-stoutfist]Captain Stoutfist[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]23[/color][small] &nbsp;[/small][color=r1]28[/color][small] &nbsp;[/small][color=r2]30[/color][small] &nbsp;[/small][color=r3]35[/color][small] &nbsp;[/small][color=r4]41[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "11": {
+        "levels": [
+          [
+            {
+              "coord": [
+                47.5,
+                46.9
+              ],
+              "coords": [
+                [
+                  47.4,
+                  46.9
+                ],
+                [
+                  47.5,
+                  46.9
+                ]
+              ],
+              "id": 1609,
+              "name": "Dragonmaw Catapult",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                9.8,
+                57.4
+              ],
+              "coords": [
+                [
+                  9.8,
+                  57.4
+                ]
+              ],
+              "id": 2104,
+              "name": "Captain Stoutfist",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                53.4,
+                54.4
+              ],
+              "coords": [
+                [
+                  51.2,
+                  52
+                ],
+                [
+                  52.4,
+                  53.2
+                ],
+                [
+                  52.4,
+                  54
+                ],
+                [
+                  52.6,
+                  53.4
+                ],
+                [
+                  53.2,
+                  56
+                ],
+                [
+                  53.4,
+                  54.4
+                ],
+                [
+                  53.4,
+                  54.6
+                ],
+                [
+                  53.6,
+                  55.8
+                ],
+                [
+                  54,
+                  55.2
+                ],
+                [
+                  54.2,
+                  54.2
+                ]
+              ],
+              "id": 2091,
+              "item": "Nek'rosh's Head",
+              "name": "Chieftain Nek'rosh",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Wetlands"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        11,
+        3
+      ]
+    ]
+  },
+  "minLevel": 23,
+  "objectSpawns": [
+    {
+      "entityId": 1609,
+      "entityKind": "object",
+      "entityName": "Dragonmaw Catapult",
+      "uiMapId": 1437,
+      "uiMapName": "Wetlands",
+      "x": 47.4,
+      "y": 46.9,
+      "zoneId": 11
+    },
+    {
+      "entityId": 1609,
+      "entityKind": "object",
+      "entityName": "Dragonmaw Catapult",
+      "uiMapId": 1437,
+      "uiMapName": "Wetlands",
+      "x": 47.5,
+      "y": 46.9,
+      "zoneId": 11
+    }
+  ],
+  "pageInfo": {
+    "name": "Defeat Nek'rosh",
+    "type": 5,
+    "typeId": 474
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 474,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 1609,
+      "npcName": "Dragonmaw Catapult",
+      "x": 47.5,
+      "y": 46.9,
+      "zoneId": 11,
+      "zoneName": "Wetlands"
+    }
+  ]
+}

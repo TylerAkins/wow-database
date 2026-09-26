@@ -1,0 +1,159 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T04:57:54+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 58[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=16012/mokvar]Mokvar[/url][/icon][br][span=invisible][icon name=quest-start]Start: [/icon][/span][url=/forever/npc=230317/mokvar]Mokvar[/url][/li][li][icon name=quest-end]End: [url=/forever/npc=16014/mux-manascrambler]Mux Manascrambler[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.5.34713\"]1.13.5[/acronym] \"The Gates of Ahn'Qiraj\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1637": {
+        "levels": [
+          [
+            {
+              "coord": [
+                34.8,
+                38
+              ],
+              "coords": [
+                [
+                  34.4,
+                  37.4
+                ],
+                [
+                  34.4,
+                  37.6
+                ],
+                [
+                  34.8,
+                  38
+                ],
+                [
+                  35.2,
+                  37.4
+                ]
+              ],
+              "id": 16012,
+              "name": "Mokvar",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                35,
+                38
+              ],
+              "coords": [
+                [
+                  34.4,
+                  37.4
+                ],
+                [
+                  34.4,
+                  37.8
+                ],
+                [
+                  34.8,
+                  38.6
+                ],
+                [
+                  35,
+                  38
+                ],
+                [
+                  35.2,
+                  37.4
+                ]
+              ],
+              "id": 230317,
+              "name": "Mokvar",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Orgrimmar"
+      },
+      "440": {
+        "levels": [
+          [
+            {
+              "coord": [
+                52.4,
+                27.2
+              ],
+              "coords": [
+                [
+                  52.4,
+                  27.2
+                ]
+              ],
+              "id": 16014,
+              "name": "Mux Manascrambler",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Tanaris"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1637,
+        2
+      ],
+      [
+        440,
+        1
+      ]
+    ]
+  },
+  "minLevel": 58,
+  "pageInfo": {
+    "name": "A Supernatural Device",
+    "type": 5,
+    "typeId": 8923
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 8923,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 16012,
+      "npcName": "Mokvar",
+      "zoneId": 1637,
+      "x": 34.8,
+      "y": 38.0,
+      "zoneName": "Orgrimmar"
+    },
+    {
+      "npcId": 230317,
+      "npcName": "Mokvar",
+      "zoneId": 1637,
+      "x": 35.0,
+      "y": 38.0,
+      "zoneName": "Orgrimmar"
+    }
+  ]
+}

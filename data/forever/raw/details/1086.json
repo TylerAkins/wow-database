@@ -1,0 +1,127 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T11:20:43+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 23[/li][li]Requires level 13[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3419/apothecary-zamah]Apothecary Zamah[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3419/apothecary-zamah]Apothecary Zamah[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]13[/color][small] &nbsp;[/small][color=r1]19[/color][small] &nbsp;[/small][color=r2]21[/color][small] &nbsp;[/small][color=r3]26[/color][small] &nbsp;[/small][color=r4]31[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "1638": {
+        "levels": [
+          [
+            {
+              "coord": [
+                23,
+                21
+              ],
+              "coords": [
+                [
+                  22.4,
+                  19.8
+                ],
+                [
+                  22.8,
+                  20.4
+                ],
+                [
+                  23,
+                  21
+                ],
+                [
+                  23.6,
+                  21.4
+                ],
+                [
+                  23.6,
+                  21.6
+                ]
+              ],
+              "id": 3419,
+              "name": "Apothecary Zamah",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                23,
+                21
+              ],
+              "coords": [
+                [
+                  22.4,
+                  19.8
+                ],
+                [
+                  22.8,
+                  20.4
+                ],
+                [
+                  23,
+                  21
+                ],
+                [
+                  23.6,
+                  21.4
+                ],
+                [
+                  23.6,
+                  21.6
+                ]
+              ],
+              "id": 3419,
+              "name": "Apothecary Zamah",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Thunder Bluff"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1638,
+        1
+      ]
+    ]
+  },
+  "minLevel": 13,
+  "pageInfo": {
+    "name": "The Flying Machine Airport",
+    "type": 5,
+    "typeId": 1086
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    1067
+  ],
+  "questId": 1086,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3419,
+      "npcName": "Apothecary Zamah",
+      "zoneId": 1638,
+      "x": 23.0,
+      "y": 21.0,
+      "zoneName": "Thunder Bluff"
+    }
+  ]
+}

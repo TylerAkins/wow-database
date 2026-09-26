@@ -1,0 +1,149 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T07:02:50+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 9[/li][li]Requires level 5[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=8508/gretta-ganter]Gretta Ganter[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=8508/gretta-ganter]Gretta Ganter[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]5[/color][small] &nbsp;[/small][color=r2]7[/color][small] &nbsp;[/small][color=r3]12[/color][small] &nbsp;[/small][color=r4]15[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1": {
+        "levels": [
+          [
+            {
+              "coord": [
+                31.4,
+                44.6
+              ],
+              "coords": [
+                [
+                  31.4,
+                  44.6
+                ],
+                [
+                  31.6,
+                  44.4
+                ],
+                [
+                  31.6,
+                  44.6
+                ]
+              ],
+              "id": 8508,
+              "name": "Gretta Ganter",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                31.4,
+                44.6
+              ],
+              "coords": [
+                [
+                  31.4,
+                  44.6
+                ],
+                [
+                  31.6,
+                  44.4
+                ],
+                [
+                  31.6,
+                  44.6
+                ]
+              ],
+              "id": 8508,
+              "name": "Gretta Ganter",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                39.8,
+                48.6
+              ],
+              "coords": [
+                [
+                  39.2,
+                  49.6
+                ],
+                [
+                  39.4,
+                  48.4
+                ],
+                [
+                  39.4,
+                  48.8
+                ],
+                [
+                  39.6,
+                  47.4
+                ],
+                [
+                  39.8,
+                  48.6
+                ],
+                [
+                  40,
+                  48.4
+                ]
+              ],
+              "id": 271587,
+              "item": "Sack of Fish",
+              "name": "Frosthowl",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Dun Morogh"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  "minLevel": 5,
+  "pageInfo": {
+    "name": "Frosthowl",
+    "type": 5,
+    "typeId": 98326
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 98326,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 8508,
+      "npcName": "Gretta Ganter",
+      "zoneId": 1,
+      "x": 31.4,
+      "y": 44.6,
+      "zoneName": "Dun Morogh"
+    }
+  ]
+}

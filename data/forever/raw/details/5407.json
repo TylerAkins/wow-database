@@ -1,0 +1,101 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T02:57:41+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": true,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 55[/li][li]Requires level 50[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=10839/argent-officer-garush]Argent Officer Garush[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=10839/argent-officer-garush]Argent Officer Garush[/url][/icon][/li][li]Repeatable[/li][li]Sharable[/li][li]Difficulty: [color=q10]50[/color][small] &nbsp;[/small][color=r1]51[/color][small] &nbsp;[/small][color=r2]53[/color][small] &nbsp;[/small][color=r3]58[/color][small] &nbsp;[/small][color=r4]66[/color][/li][li]Added in patch [acronym=\"1.13.2.31687\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "85": {
+        "levels": [
+          [
+            {
+              "coord": [
+                83.2,
+                68.4
+              ],
+              "coords": [
+                [
+                  83.2,
+                  68.4
+                ],
+                [
+                  83.2,
+                  68.6
+                ]
+              ],
+              "id": 10839,
+              "name": "Argent Officer Garush",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                83.2,
+                68.4
+              ],
+              "coords": [
+                [
+                  83.2,
+                  68.4
+                ],
+                [
+                  83.2,
+                  68.6
+                ]
+              ],
+              "id": 10839,
+              "name": "Argent Officer Garush",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Tirisfal Glades"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        85,
+        1
+      ]
+    ]
+  },
+  "minLevel": 50,
+  "pageInfo": {
+    "name": "Invader's Scourgestones",
+    "type": 5,
+    "typeId": 5407
+  },
+  "pinCategory": "repeatable",
+  "prerequisiteQuestIds": [],
+  "questId": 5407,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 10839,
+      "npcName": "Argent Officer Garush",
+      "zoneId": 85,
+      "x": 83.2,
+      "y": 68.4,
+      "zoneName": "Tirisfal Glades"
+    }
+  ]
+}

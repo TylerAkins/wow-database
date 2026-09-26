@@ -1,0 +1,111 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T06:40:17+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 13[/li][li]Requires level 7[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Race: [race=96][/li][li][icon name=quest-start]Start: [url=/forever/npc=259119/alaana-stormwalker]Alaana Stormwalker[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=4949/thrall]Thrall[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]7[/color][small] &nbsp;[/small][color=r1]9[/color][small] &nbsp;[/small][color=r2]11[/color][small] &nbsp;[/small][color=r3]16[/color][small] &nbsp;[/small][color=r4]19[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1637": {
+        "levels": [
+          [
+            {
+              "coord": [
+                32,
+                37.8
+              ],
+              "coords": [
+                [
+                  32,
+                  37.8
+                ]
+              ],
+              "id": 4949,
+              "name": "Thrall",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Orgrimmar"
+      },
+      "215": {
+        "levels": [
+          [
+            {
+              "coord": [
+                33.4,
+                22.4
+              ],
+              "coords": [
+                [
+                  33.4,
+                  22.4
+                ],
+                [
+                  33.4,
+                  22.6
+                ]
+              ],
+              "id": 259119,
+              "name": "Alaana Stormwalker",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Mulgore"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        215,
+        1
+      ],
+      [
+        1637,
+        1
+      ]
+    ]
+  },
+  "minLevel": 7,
+  "pageInfo": {
+    "name": "Welcome to Azeroth",
+    "type": 5,
+    "typeId": 95350
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 95350,
+  "races": [
+    96
+  ],
+  "startPins": [
+    {
+      "npcId": 259119,
+      "npcName": "Alaana Stormwalker",
+      "zoneId": 215,
+      "x": 33.4,
+      "y": 22.4,
+      "zoneName": "Mulgore"
+    }
+  ]
+}

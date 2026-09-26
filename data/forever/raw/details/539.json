@@ -1,0 +1,279 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-24T23:18:38+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 28[/li][li]Requires level 19[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=2215/high-executor-darthalia]High Executor Darthalia[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2215/high-executor-darthalia]High Executor Darthalia[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]19[/color][small] &nbsp;[/small][color=r1]24[/color][small] &nbsp;[/small][color=r2]26[/color][small] &nbsp;[/small][color=r3]31[/color][small] &nbsp;[/small][color=r4]36[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "267": {
+        "levels": [
+          [
+            {
+              "coord": [
+                62.2,
+                20.2
+              ],
+              "coords": [
+                [
+                  62.2,
+                  20.2
+                ],
+                [
+                  62.2,
+                  20.6
+                ]
+              ],
+              "id": 2215,
+              "name": "High Executor Darthalia",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                62.2,
+                20.2
+              ],
+              "coords": [
+                [
+                  62.2,
+                  20.2
+                ],
+                [
+                  62.2,
+                  20.6
+                ]
+              ],
+              "id": 2215,
+              "name": "High Executor Darthalia",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                27.4,
+                58
+              ],
+              "coords": [
+                [
+                  26.4,
+                  58.6
+                ],
+                [
+                  27.2,
+                  58.8
+                ],
+                [
+                  27.4,
+                  57
+                ],
+                [
+                  27.4,
+                  58
+                ],
+                [
+                  27.6,
+                  56.8
+                ],
+                [
+                  27.6,
+                  57.6
+                ],
+                [
+                  28,
+                  54.4
+                ],
+                [
+                  28,
+                  56.2
+                ],
+                [
+                  28.2,
+                  51.4
+                ],
+                [
+                  28.2,
+                  55.2
+                ],
+                [
+                  28.4,
+                  52.4
+                ],
+                [
+                  28.4,
+                  52.6
+                ],
+                [
+                  28.6,
+                  56.2
+                ],
+                [
+                  28.6,
+                  57.2
+                ],
+                [
+                  29,
+                  53.2
+                ],
+                [
+                  29,
+                  57.6
+                ],
+                [
+                  29.6,
+                  53.4
+                ],
+                [
+                  29.8,
+                  53.6
+                ],
+                [
+                  29.8,
+                  54.6
+                ],
+                [
+                  30.2,
+                  56.8
+                ],
+                [
+                  30.4,
+                  56.2
+                ],
+                [
+                  30.4,
+                  58.2
+                ],
+                [
+                  30.6,
+                  55.8
+                ],
+                [
+                  30.6,
+                  58.2
+                ],
+                [
+                  31,
+                  54.4
+                ],
+                [
+                  31,
+                  54.8
+                ],
+                [
+                  31,
+                  58.6
+                ],
+                [
+                  31.2,
+                  53.4
+                ],
+                [
+                  31.6,
+                  52.8
+                ],
+                [
+                  31.6,
+                  54.8
+                ],
+                [
+                  31.8,
+                  52.4
+                ]
+              ],
+              "id": 2269,
+              "name": "Hillsbrad Miner",
+              "objective": 2269,
+              "point": "requirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                31,
+                56.2
+              ],
+              "coords": [
+                [
+                  30.4,
+                  56.4
+                ],
+                [
+                  30.4,
+                  56.6
+                ],
+                [
+                  30.6,
+                  56.6
+                ],
+                [
+                  30.8,
+                  55
+                ],
+                [
+                  31,
+                  54.4
+                ],
+                [
+                  31,
+                  56.2
+                ]
+              ],
+              "id": 2305,
+              "name": "Foreman Bonds",
+              "objective": 2305,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Hillsbrad Foothills"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        267,
+        3
+      ]
+    ]
+  },
+  "minLevel": 19,
+  "pageInfo": {
+    "name": "Battle of Hillsbrad",
+    "type": 5,
+    "typeId": 539
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 539,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 2215,
+      "npcName": "High Executor Darthalia",
+      "zoneId": 267,
+      "x": 62.2,
+      "y": 20.2,
+      "zoneName": "Hillsbrad Foothills"
+    }
+  ]
+}

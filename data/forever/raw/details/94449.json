@@ -1,0 +1,169 @@
+{
+  "classes": [
+    7
+  ],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T06:31:37+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 10[/li][li]Requires level 10[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Class: [class=7][/li][li][icon name=quest-start]Start: [url=/forever/npc=258098/eldrun-stormbreaker]Eldrun Stormbreaker[/url][/icon][br][span=invisible][icon name=quest-start]Start: [/icon][/span][url=/forever/npc=258113/ingrid-dunwald]Ingrid Dunwald[/url][/li][li][icon name=quest-end]End: [url=/forever/npc=257597/bruegs-kindleborn]Bruegs Kindleborn[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]10[/color][small] &nbsp;[/small][color=r3]13[/color][small] &nbsp;[/small][color=r4]16[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1": {
+        "levels": [
+          [
+            {
+              "coord": [
+                47.4,
+                52
+              ],
+              "coords": [
+                [
+                  47.4,
+                  52
+                ],
+                [
+                  47.6,
+                  52
+                ]
+              ],
+              "id": 258113,
+              "name": "Ingrid Dunwald",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                87.6,
+                43.6
+              ],
+              "coords": [
+                [
+                  87.6,
+                  43.6
+                ]
+              ],
+              "id": 257597,
+              "name": "Bruegs Kindleborn",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Dun Morogh"
+      },
+      "1537": {
+        "levels": [
+          [
+            {
+              "coord": [
+                47.4,
+                13.6
+              ],
+              "coords": [
+                [
+                  46.2,
+                  13
+                ],
+                [
+                  46.4,
+                  12.4
+                ],
+                [
+                  47,
+                  13.4
+                ],
+                [
+                  47.2,
+                  12.2
+                ],
+                [
+                  47.4,
+                  13.6
+                ],
+                [
+                  47.6,
+                  13.4
+                ],
+                [
+                  47.6,
+                  13.6
+                ],
+                [
+                  47.6,
+                  14.8
+                ],
+                [
+                  47.8,
+                  12.4
+                ]
+              ],
+              "id": 258098,
+              "name": "Eldrun Stormbreaker",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ironforge"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1,
+        2
+      ],
+      [
+        1537,
+        1
+      ]
+    ]
+  },
+  "minLevel": 10,
+  "pageInfo": {
+    "name": "Call of Fire",
+    "type": 5,
+    "typeId": 94449
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 94449,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 258098,
+      "npcName": "Eldrun Stormbreaker",
+      "zoneId": 1537,
+      "x": 47.4,
+      "y": 13.6,
+      "zoneName": "Ironforge"
+    },
+    {
+      "npcId": 258113,
+      "npcName": "Ingrid Dunwald",
+      "zoneId": 1,
+      "x": 47.4,
+      "y": 52.0,
+      "zoneName": "Dun Morogh"
+    }
+  ]
+}

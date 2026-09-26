@@ -1,0 +1,121 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T03:44:55+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": true,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 51[/li][li]Type: PvP[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=13842/frostwolf-ambassador-rokhstrom]Frostwolf Ambassador Rokhstrom[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=13840/warmaster-laggrond]Warmaster Laggrond[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]51[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.30786\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1637": {
+        "levels": [
+          [
+            {
+              "coord": [
+                49.8,
+                71.2
+              ],
+              "coords": [
+                [
+                  49,
+                  71.4
+                ],
+                [
+                  49,
+                  71.6
+                ],
+                [
+                  49.8,
+                  70.2
+                ],
+                [
+                  49.8,
+                  71.2
+                ],
+                [
+                  50.2,
+                  71.6
+                ]
+              ],
+              "id": 13842,
+              "name": "Frostwolf Ambassador Rokhstrom",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Orgrimmar"
+      },
+      "36": {
+        "levels": [
+          [
+            {
+              "coord": [
+                62.2,
+                59
+              ],
+              "coords": [
+                [
+                  62.2,
+                  59
+                ]
+              ],
+              "id": 13840,
+              "name": "Warmaster Laggrond",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Alterac Mountains"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1637,
+        1
+      ],
+      [
+        36,
+        1
+      ]
+    ]
+  },
+  "minLevel": 51,
+  "pageInfo": {
+    "name": "In Defense of Frostwolf",
+    "type": 5,
+    "typeId": 7241
+  },
+  "pinCategory": "pvp",
+  "prerequisiteQuestIds": [],
+  "questId": 7241,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 13842,
+      "npcName": "Frostwolf Ambassador Rokhstrom",
+      "zoneId": 1637,
+      "x": 49.8,
+      "y": 71.2,
+      "zoneName": "Orgrimmar"
+    }
+  ]
+}

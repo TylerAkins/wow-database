@@ -1,0 +1,101 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-24T23:28:19+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 20[/li][li]Requires level 20[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3847/orendil-broadleaf]Orendil Broadleaf[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3847/orendil-broadleaf]Orendil Broadleaf[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]20[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "331": {
+        "levels": [
+          [
+            {
+              "coord": [
+                26.4,
+                38.6
+              ],
+              "coords": [
+                [
+                  26.4,
+                  38.4
+                ],
+                [
+                  26.4,
+                  38.6
+                ]
+              ],
+              "id": 3847,
+              "name": "Orendil Broadleaf",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                26.4,
+                38.6
+              ],
+              "coords": [
+                [
+                  26.4,
+                  38.4
+                ],
+                [
+                  26.4,
+                  38.6
+                ]
+              ],
+              "id": 3847,
+              "name": "Orendil Broadleaf",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ashenvale"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        331,
+        1
+      ]
+    ]
+  },
+  "minLevel": 20,
+  "pageInfo": {
+    "name": "Bathran's Hair",
+    "type": 5,
+    "typeId": 1010
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 1010,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3847,
+      "npcName": "Orendil Broadleaf",
+      "zoneId": 331,
+      "x": 26.4,
+      "y": 38.6,
+      "zoneName": "Ashenvale"
+    }
+  ]
+}

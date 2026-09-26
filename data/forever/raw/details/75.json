@@ -1,0 +1,117 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-24T23:09:07+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 28[/li][li]Requires level 22[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=294/marshal-haggard]Marshal Haggard[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=294/marshal-haggard]Marshal Haggard[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]22[/color][small] &nbsp;[/small][color=r1]24[/color][small] &nbsp;[/small][color=r2]26[/color][small] &nbsp;[/small][color=r3]31[/color][small] &nbsp;[/small][color=r4]36[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "12": {
+        "levels": [
+          [
+            {
+              "coord": [
+                84.6,
+                69.4
+              ],
+              "coords": [
+                [
+                  84.4,
+                  69.2
+                ],
+                [
+                  84.4,
+                  69.6
+                ],
+                [
+                  84.6,
+                  69.4
+                ],
+                [
+                  84.6,
+                  69.6
+                ]
+              ],
+              "id": 294,
+              "name": "Marshal Haggard",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                84.6,
+                69.4
+              ],
+              "coords": [
+                [
+                  84.4,
+                  69.2
+                ],
+                [
+                  84.4,
+                  69.6
+                ],
+                [
+                  84.6,
+                  69.4
+                ],
+                [
+                  84.6,
+                  69.6
+                ]
+              ],
+              "id": 294,
+              "name": "Marshal Haggard",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Elwynn Forest"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        12,
+        1
+      ]
+    ]
+  },
+  "minLevel": 22,
+  "pageInfo": {
+    "name": "The Legend of Stalvan",
+    "type": 5,
+    "typeId": 75
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 75,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 294,
+      "npcName": "Marshal Haggard",
+      "zoneId": 12,
+      "x": 84.6,
+      "y": 69.4,
+      "zoneName": "Elwynn Forest"
+    }
+  ]
+}

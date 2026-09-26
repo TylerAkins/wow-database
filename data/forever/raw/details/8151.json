@@ -1,0 +1,318 @@
+{
+  "classes": [
+    3
+  ],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T04:13:37+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 52[/li][li]Requires level 50[/li][li]Side: Both[/li][li]Class: [class=3][/li][li][icon name=quest-start]Start: [span class=icon-horde][url=/forever/npc=3039/holt-thunderhorn]Holt Thunderhorn[/url][/span][/icon][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-horde][url=/forever/npc=3352/ormak-grimshot]Ormak Grimshot[/url][/span][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-alliance-padded][url=/forever/npc=4205/dorion]Dorion[/url][/span][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-alliance-padded][url=/forever/npc=5116/olmin-burningbeard]Olmin Burningbeard[/url][/span][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-alliance-padded][url=/forever/npc=5516/ulfir-ironbeard]Ulfir Ironbeard[/url][/span][/li][li][icon name=quest-end]End: [url=/forever/npc=8405/ogtinc]Ogtinc[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]50[/color][small] &nbsp;[/small][color=r3]55[/color][small] &nbsp;[/small][color=r4]63[/color][/li][li]Added in patch [acronym=\"1.13.3.33155\"]1.13.3[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1519": {
+        "levels": [
+          [
+            {
+              "coord": [
+                62,
+                15
+              ],
+              "coords": [
+                [
+                  61.8,
+                  15.6
+                ],
+                [
+                  62,
+                  15
+                ]
+              ],
+              "id": 5516,
+              "name": "Ulfir Ironbeard",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stormwind City"
+      },
+      "1537": {
+        "levels": [
+          [
+            {
+              "coord": [
+                70.6,
+                83.8
+              ],
+              "coords": [
+                [
+                  70,
+                  84.6
+                ],
+                [
+                  70.4,
+                  83.4
+                ],
+                [
+                  70.4,
+                  83.8
+                ],
+                [
+                  70.6,
+                  83.4
+                ],
+                [
+                  70.6,
+                  83.8
+                ]
+              ],
+              "id": 5116,
+              "name": "Olmin Burningbeard",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ironforge"
+      },
+      "16": {
+        "levels": [
+          [
+            {
+              "coord": [
+                42.4,
+                42.6
+              ],
+              "coords": [
+                [
+                  42.4,
+                  42.6
+                ]
+              ],
+              "id": 8405,
+              "name": "Ogtinc",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Azshara"
+      },
+      "1637": {
+        "levels": [
+          [
+            {
+              "coord": [
+                66.2,
+                18.2
+              ],
+              "coords": [
+                [
+                  66.2,
+                  18.2
+                ],
+                [
+                  66.2,
+                  18.6
+                ]
+              ],
+              "id": 3352,
+              "name": "Ormak Grimshot",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Orgrimmar"
+      },
+      "1638": {
+        "levels": [
+          [
+            {
+              "coord": [
+                57.4,
+                89.2
+              ],
+              "coords": [
+                [
+                  57.2,
+                  89.6
+                ],
+                [
+                  57.4,
+                  88.4
+                ],
+                [
+                  57.4,
+                  89.2
+                ],
+                [
+                  57.6,
+                  88.4
+                ],
+                [
+                  57.6,
+                  88.6
+                ]
+              ],
+              "id": 3039,
+              "name": "Holt Thunderhorn",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Thunder Bluff"
+      },
+      "1657": {
+        "levels": [
+          [
+            {
+              "coord": [
+                42.2,
+                7.6
+              ],
+              "coords": [
+                [
+                  42.2,
+                  7.4
+                ],
+                [
+                  42.2,
+                  7.6
+                ],
+                [
+                  42.2,
+                  8.6
+                ]
+              ],
+              "id": 4205,
+              "name": "Dorion",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Darnassus"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1519,
+        1
+      ],
+      [
+        1638,
+        1
+      ],
+      [
+        1637,
+        1
+      ],
+      [
+        1657,
+        1
+      ],
+      [
+        1537,
+        1
+      ],
+      [
+        16,
+        1
+      ]
+    ]
+  },
+  "minLevel": 50,
+  "pageInfo": {
+    "name": "The Hunter's Charm",
+    "type": 5,
+    "typeId": 8151
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    8153,
+    8232,
+    8236,
+    8253,
+    8257,
+    8413,
+    8418,
+    8422,
+    8425,
+    9053
+  ],
+  "questId": 8151,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3039,
+      "npcName": "Holt Thunderhorn",
+      "zoneId": 1638,
+      "x": 57.4,
+      "y": 89.2,
+      "zoneName": "Thunder Bluff"
+    },
+    {
+      "npcId": 3352,
+      "npcName": "Ormak Grimshot",
+      "zoneId": 1637,
+      "x": 66.2,
+      "y": 18.2,
+      "zoneName": "Orgrimmar"
+    },
+    {
+      "npcId": 4205,
+      "npcName": "Dorion",
+      "zoneId": 1657,
+      "x": 42.2,
+      "y": 7.6,
+      "zoneName": "Darnassus"
+    },
+    {
+      "npcId": 5116,
+      "npcName": "Olmin Burningbeard",
+      "zoneId": 1537,
+      "x": 70.6,
+      "y": 83.8,
+      "zoneName": "Ironforge"
+    },
+    {
+      "npcId": 5516,
+      "npcName": "Ulfir Ironbeard",
+      "zoneId": 1519,
+      "x": 62.0,
+      "y": 15.0,
+      "zoneName": "Stormwind City"
+    }
+  ]
+}

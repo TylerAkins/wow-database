@@ -1,0 +1,101 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-24T23:13:12+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 15[/li][li]Requires level 10[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1105/jern-hornhelm]Jern Hornhelm[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2057/huldar]Huldar[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]10[/color][small] &nbsp;[/small][color=r1]11[/color][small] &nbsp;[/small][color=r2]13[/color][small] &nbsp;[/small][color=r3]18[/color][small] &nbsp;[/small][color=r4]22[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 2,
+    "objectives": {
+      "38": {
+        "levels": [
+          [
+            {
+              "coord": [
+                37.2,
+                47.4
+              ],
+              "coords": [
+                [
+                  37.2,
+                  47.4
+                ],
+                [
+                  37.2,
+                  47.6
+                ]
+              ],
+              "id": 1105,
+              "name": "Jern Hornhelm",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                52.2,
+                69.2
+              ],
+              "coords": [
+                [
+                  52,
+                  69.6
+                ],
+                [
+                  52.2,
+                  69.2
+                ]
+              ],
+              "id": 2057,
+              "name": "Huldar",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Loch Modan"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        38,
+        2
+      ]
+    ]
+  },
+  "minLevel": 10,
+  "pageInfo": {
+    "name": "Resupplying the Excavation",
+    "type": 5,
+    "typeId": 273
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 273,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 1105,
+      "npcName": "Jern Hornhelm",
+      "zoneId": 38,
+      "x": 37.2,
+      "y": 47.4,
+      "zoneName": "Loch Modan"
+    }
+  ]
+}

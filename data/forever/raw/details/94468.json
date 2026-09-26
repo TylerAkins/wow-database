@@ -1,0 +1,177 @@
+{
+  "classes": [
+    7
+  ],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T06:32:08+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 14[/li][li]Requires level 10[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Class: [class=7][/li][li][icon name=quest-start]Start: [url=/forever/object=61934/brazier-of-the-dormant-flame]Brazier of the Dormant Flame[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=257597/bruegs-kindleborn]Bruegs Kindleborn[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]10[/color][small] &nbsp;[/small][color=r2]12[/color][small] &nbsp;[/small][color=r3]17[/color][small] &nbsp;[/small][color=r4]21[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1": {
+        "levels": [
+          [
+            {
+              "coord": [
+                87.6,
+                43.6
+              ],
+              "coords": [
+                [
+                  87.6,
+                  43.6
+                ]
+              ],
+              "id": 257597,
+              "name": "Bruegs Kindleborn",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Dun Morogh"
+      },
+      "14": {
+        "levels": [
+          [
+            {
+              "coord": [
+                38.9,
+                58.2
+              ],
+              "coords": [
+                [
+                  38.9,
+                  58.2
+                ]
+              ],
+              "id": 61934,
+              "name": "Brazier of the Dormant Flame",
+              "point": "start",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Durotar"
+      },
+      "38": {
+        "levels": [
+          [
+            {
+              "coord": [
+                31.9,
+                64.5
+              ],
+              "coords": [
+                [
+                  31.9,
+                  64.4
+                ],
+                [
+                  31.9,
+                  64.5
+                ]
+              ],
+              "id": 61934,
+              "name": "Brazier of the Dormant Flame",
+              "point": "start",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Loch Modan"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        38,
+        1
+      ],
+      [
+        14,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  "minLevel": 10,
+  "objectSpawns": [
+    {
+      "entityId": 61934,
+      "entityKind": "object",
+      "entityName": "Brazier of the Dormant Flame",
+      "uiMapId": 1411,
+      "uiMapName": "Durotar",
+      "x": 38.9,
+      "y": 58.2,
+      "zoneId": 14
+    },
+    {
+      "entityId": 61934,
+      "entityKind": "object",
+      "entityName": "Brazier of the Dormant Flame",
+      "uiMapId": 1432,
+      "uiMapName": "Loch Modan",
+      "x": 31.9,
+      "y": 64.4,
+      "zoneId": 38
+    },
+    {
+      "entityId": 61934,
+      "entityKind": "object",
+      "entityName": "Brazier of the Dormant Flame",
+      "uiMapId": 1432,
+      "uiMapName": "Loch Modan",
+      "x": 31.9,
+      "y": 64.5,
+      "zoneId": 38
+    }
+  ],
+  "pageInfo": {
+    "name": "Call of Fire",
+    "type": 5,
+    "typeId": 94468
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 94468,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 61934,
+      "npcName": "Brazier of the Dormant Flame",
+      "x": 38.9,
+      "y": 58.2,
+      "zoneId": 14,
+      "zoneName": "Durotar"
+    },
+    {
+      "npcId": 61934,
+      "npcName": "Brazier of the Dormant Flame",
+      "x": 31.9,
+      "y": 64.5,
+      "zoneId": 38,
+      "zoneName": "Loch Modan"
+    }
+  ]
+}

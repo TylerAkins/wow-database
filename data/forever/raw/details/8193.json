@@ -1,0 +1,92 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T04:15:14+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": true,
+    "sharable": true,
+    "weekly": true
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 1[/li][li]Type: Weekly[/li][li]Side: Both[/li][li]Profession: [url=/forever/skill=356/fishing]Fishing[/url][/li][li][icon name=quest-start]Start: [url=/forever/npc=15077/riggle-bassbait]Riggle Bassbait[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=15077/riggle-bassbait]Riggle Bassbait[/url][/icon][/li][li]Repeatable[/li][li]Not sharable[/li][li]Difficulty: [color=q10]1[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "33": {
+        "levels": [
+          [
+            {
+              "coord": [
+                27.4,
+                76.8
+              ],
+              "coords": [
+                [
+                  27.4,
+                  76.8
+                ]
+              ],
+              "id": 15077,
+              "name": "Riggle Bassbait",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                27.4,
+                76.8
+              ],
+              "coords": [
+                [
+                  27.4,
+                  76.8
+                ]
+              ],
+              "id": 15077,
+              "name": "Riggle Bassbait",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stranglethorn Vale"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        33,
+        1
+      ]
+    ]
+  },
+  "minLevel": 1,
+  "pageInfo": {
+    "name": "Master Angler",
+    "type": 5,
+    "typeId": 8193
+  },
+  "pinCategory": "repeatable",
+  "prerequisiteQuestIds": [],
+  "questId": 8193,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 15077,
+      "npcName": "Riggle Bassbait",
+      "zoneId": 33,
+      "x": 27.4,
+      "y": 76.8,
+      "zoneName": "Stranglethorn Vale"
+    }
+  ]
+}

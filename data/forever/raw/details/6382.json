@@ -1,0 +1,109 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T03:26:44+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 20[/li][li]Requires level 20[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3387/jorn-skyseer]Jorn Skyseer[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=12696/senani-thunderheart]Senani Thunderheart[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]20[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "17": {
+        "levels": [
+          [
+            {
+              "coord": [
+                44.8,
+                59
+              ],
+              "coords": [
+                [
+                  44.8,
+                  59
+                ]
+              ],
+              "id": 3387,
+              "name": "Jorn Skyseer",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Barrens"
+      },
+      "331": {
+        "levels": [
+          [
+            {
+              "coord": [
+                73.6,
+                61.4
+              ],
+              "coords": [
+                [
+                  73.6,
+                  61.4
+                ],
+                [
+                  73.6,
+                  61.6
+                ]
+              ],
+              "id": 12696,
+              "name": "Senani Thunderheart",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ashenvale"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        17,
+        1
+      ],
+      [
+        331,
+        1
+      ]
+    ]
+  },
+  "minLevel": 20,
+  "pageInfo": {
+    "name": "The Ashenvale Hunt",
+    "type": 5,
+    "typeId": 6382
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 6382,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3387,
+      "npcName": "Jorn Skyseer",
+      "zoneId": 17,
+      "x": 44.8,
+      "y": 59.0,
+      "zoneName": "The Barrens"
+    }
+  ]
+}

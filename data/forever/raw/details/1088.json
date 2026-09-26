@@ -1,0 +1,101 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T00:26:34+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 29[/li][li]Requires level 20[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=4198/braelyn-firehand]Braelyn Firehand[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=4198/braelyn-firehand]Braelyn Firehand[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]20[/color][small] &nbsp;[/small][color=r1]25[/color][small] &nbsp;[/small][color=r2]27[/color][small] &nbsp;[/small][color=r3]32[/color][small] &nbsp;[/small][color=r4]37[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "406": {
+        "levels": [
+          [
+            {
+              "coord": [
+                46,
+                60.4
+              ],
+              "coords": [
+                [
+                  46,
+                  60.4
+                ],
+                [
+                  46,
+                  60.6
+                ]
+              ],
+              "id": 4198,
+              "name": "Braelyn Firehand",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                46,
+                60.4
+              ],
+              "coords": [
+                [
+                  46,
+                  60.4
+                ],
+                [
+                  46,
+                  60.6
+                ]
+              ],
+              "id": 4198,
+              "name": "Braelyn Firehand",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stonetalon Mountains"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        406,
+        1
+      ]
+    ]
+  },
+  "minLevel": 20,
+  "pageInfo": {
+    "name": "Ordanus",
+    "type": 5,
+    "typeId": 1088
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 1088,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 4198,
+      "npcName": "Braelyn Firehand",
+      "zoneId": 406,
+      "x": 46.0,
+      "y": 60.4,
+      "zoneName": "Stonetalon Mountains"
+    }
+  ]
+}

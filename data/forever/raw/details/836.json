@@ -1,0 +1,135 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-24T23:24:46+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 48[/li][li]Requires level 43[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=7806/homing-robot-oox-09-hl]Homing Robot OOX-09/HL[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=7406/oglethorpe-obnoticus]Oglethorpe Obnoticus[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]43[/color][small] &nbsp;[/small][color=r1]44[/color][small] &nbsp;[/small][color=r2]46[/color][small] &nbsp;[/small][color=r3]51[/color][small] &nbsp;[/small][color=r4]58[/color][/li][li]Added in patch [acronym=\"1.13.2.31446\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "33": {
+        "levels": [
+          [
+            {
+              "coord": [
+                28.2,
+                76.2
+              ],
+              "coords": [
+                [
+                  28.2,
+                  76.2
+                ]
+              ],
+              "id": 7406,
+              "name": "Oglethorpe Obnoticus",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stranglethorn Vale"
+      },
+      "47": {
+        "levels": [
+          [
+            {
+              "coord": [
+                49.4,
+                37.6
+              ],
+              "coords": [
+                [
+                  48.2,
+                  44.2
+                ],
+                [
+                  49.2,
+                  40.6
+                ],
+                [
+                  49.4,
+                  37.6
+                ],
+                [
+                  49.6,
+                  40.6
+                ],
+                [
+                  49.8,
+                  39.2
+                ],
+                [
+                  49.8,
+                  40.4
+                ],
+                [
+                  57.6,
+                  50
+                ]
+              ],
+              "id": 7806,
+              "name": "Homing Robot OOX-09/HL",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Hinterlands"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        47,
+        1
+      ],
+      [
+        33,
+        1
+      ]
+    ]
+  },
+  "minLevel": 43,
+  "pageInfo": {
+    "name": "Rescue OOX-09/HL!",
+    "type": 5,
+    "typeId": 836
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    351,
+    485,
+    648,
+    2766,
+    2767,
+    3721
+  ],
+  "questId": 836,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 7806,
+      "npcName": "Homing Robot OOX-09/HL",
+      "zoneId": 47,
+      "x": 49.4,
+      "y": 37.6,
+      "zoneName": "The Hinterlands"
+    }
+  ]
+}

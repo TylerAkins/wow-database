@@ -1,0 +1,685 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-24T23:14:01+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 7[/li][li]Requires level 4[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1377/pilot-stonegear]Pilot Stonegear[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1377/pilot-stonegear]Pilot Stonegear[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]4[/color][small] &nbsp;[/small][color=r2]5[/color][small] &nbsp;[/small][color=r3]10[/color][small] &nbsp;[/small][color=r4]13[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1": {
+        "levels": [
+          [
+            {
+              "coord": [
+                49.6,
+                48.4
+              ],
+              "coords": [
+                [
+                  49.6,
+                  48.4
+                ],
+                [
+                  49.6,
+                  48.6
+                ]
+              ],
+              "id": 1377,
+              "name": "Pilot Stonegear",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                49.6,
+                48.4
+              ],
+              "coords": [
+                [
+                  49.6,
+                  48.4
+                ],
+                [
+                  49.6,
+                  48.6
+                ]
+              ],
+              "id": 1377,
+              "name": "Pilot Stonegear",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                42.4,
+                55
+              ],
+              "coords": [
+                [
+                  39.2,
+                  49.2
+                ],
+                [
+                  40.4,
+                  45.8
+                ],
+                [
+                  40.6,
+                  45.4
+                ],
+                [
+                  40.6,
+                  45.6
+                ],
+                [
+                  42.4,
+                  54.4
+                ],
+                [
+                  42.4,
+                  55
+                ],
+                [
+                  42.4,
+                  55.6
+                ],
+                [
+                  42.6,
+                  55.2
+                ],
+                [
+                  42.6,
+                  55.6
+                ],
+                [
+                  43.4,
+                  54.4
+                ],
+                [
+                  43.6,
+                  55.4
+                ]
+              ],
+              "id": 1134,
+              "item": "Wendigo Mane",
+              "name": "Young Wendigo",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                42.2,
+                52.6
+              ],
+              "coords": [
+                [
+                  39.4,
+                  46.2
+                ],
+                [
+                  40.4,
+                  46.4
+                ],
+                [
+                  40.4,
+                  46.8
+                ],
+                [
+                  40.6,
+                  46
+                ],
+                [
+                  40.6,
+                  46.8
+                ],
+                [
+                  41,
+                  45.4
+                ],
+                [
+                  41,
+                  49.8
+                ],
+                [
+                  41.2,
+                  49.4
+                ],
+                [
+                  41.2,
+                  50.6
+                ],
+                [
+                  41.6,
+                  49
+                ],
+                [
+                  41.8,
+                  45.2
+                ],
+                [
+                  41.8,
+                  51.4
+                ],
+                [
+                  42,
+                  46
+                ],
+                [
+                  42,
+                  47.8
+                ],
+                [
+                  42.2,
+                  47.4
+                ],
+                [
+                  42.2,
+                  52.4
+                ],
+                [
+                  42.2,
+                  52.6
+                ],
+                [
+                  42.4,
+                  54.2
+                ],
+                [
+                  42.4,
+                  54.6
+                ],
+                [
+                  42.6,
+                  49.4
+                ],
+                [
+                  42.6,
+                  49.6
+                ],
+                [
+                  42.6,
+                  51.8
+                ],
+                [
+                  42.6,
+                  55
+                ]
+              ],
+              "id": 1135,
+              "item": "Wendigo Mane",
+              "name": "Wendigo",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                40.8,
+                47
+              ],
+              "coords": [
+                [
+                  39,
+                  47.6
+                ],
+                [
+                  39.2,
+                  46.2
+                ],
+                [
+                  39.2,
+                  47.4
+                ],
+                [
+                  39.6,
+                  46
+                ],
+                [
+                  40.4,
+                  46.8
+                ],
+                [
+                  40.8,
+                  47
+                ],
+                [
+                  43,
+                  49.2
+                ],
+                [
+                  43.2,
+                  49.6
+                ]
+              ],
+              "id": 1137,
+              "item": "Wendigo Mane",
+              "name": "Edan the Howler",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                38.4,
+                54
+              ],
+              "coords": [
+                [
+                  36.4,
+                  52.4
+                ],
+                [
+                  36.4,
+                  53.6
+                ],
+                [
+                  37.2,
+                  52.2
+                ],
+                [
+                  37.4,
+                  53.4
+                ],
+                [
+                  37.4,
+                  53.6
+                ],
+                [
+                  37.6,
+                  53.4
+                ],
+                [
+                  38.4,
+                  54
+                ],
+                [
+                  38.6,
+                  53.8
+                ]
+              ],
+              "id": 1271,
+              "item": "Wendigo Mane",
+              "name": "Old Icebeard",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                62.4,
+                46.2
+              ],
+              "coords": [
+                [
+                  61.4,
+                  47
+                ],
+                [
+                  62.2,
+                  46.8
+                ],
+                [
+                  62.2,
+                  48
+                ],
+                [
+                  62.2,
+                  49.6
+                ],
+                [
+                  62.4,
+                  46.2
+                ],
+                [
+                  62.4,
+                  48.8
+                ],
+                [
+                  62.6,
+                  46.2
+                ],
+                [
+                  63.2,
+                  50
+                ],
+                [
+                  64.4,
+                  50
+                ]
+              ],
+              "id": 1388,
+              "item": "Wendigo Mane",
+              "name": "Vagash",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                42,
+                49.4
+              ],
+              "coords": [
+                [
+                  39,
+                  47.8
+                ],
+                [
+                  39.2,
+                  49.4
+                ],
+                [
+                  39.4,
+                  46.2
+                ],
+                [
+                  39.4,
+                  47.2
+                ],
+                [
+                  39.6,
+                  49.2
+                ],
+                [
+                  40.2,
+                  48
+                ],
+                [
+                  40.4,
+                  45.4
+                ],
+                [
+                  40.4,
+                  45.6
+                ],
+                [
+                  40.4,
+                  47
+                ],
+                [
+                  40.6,
+                  45.4
+                ],
+                [
+                  40.6,
+                  45.6
+                ],
+                [
+                  40.6,
+                  46.8
+                ],
+                [
+                  41,
+                  48.8
+                ],
+                [
+                  41.2,
+                  49.6
+                ],
+                [
+                  41.8,
+                  45.4
+                ],
+                [
+                  42,
+                  46.2
+                ],
+                [
+                  42,
+                  46.8
+                ],
+                [
+                  42,
+                  48.4
+                ],
+                [
+                  42,
+                  49.4
+                ],
+                [
+                  42.2,
+                  51.6
+                ],
+                [
+                  42.6,
+                  47
+                ],
+                [
+                  42.6,
+                  49.2
+                ],
+                [
+                  42.8,
+                  50
+                ],
+                [
+                  43,
+                  48.4
+                ]
+              ],
+              "id": 271486,
+              "item": "Wendigo Mane",
+              "name": "Wendigo Shaman",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                40.4,
+                46.6
+              ],
+              "coords": [
+                [
+                  38.6,
+                  48
+                ],
+                [
+                  39.2,
+                  49.2
+                ],
+                [
+                  39.4,
+                  46.2
+                ],
+                [
+                  39.4,
+                  47.4
+                ],
+                [
+                  39.8,
+                  48.6
+                ],
+                [
+                  40.2,
+                  48.4
+                ],
+                [
+                  40.4,
+                  46.2
+                ],
+                [
+                  40.4,
+                  46.6
+                ],
+                [
+                  40.6,
+                  46.2
+                ],
+                [
+                  40.8,
+                  47
+                ],
+                [
+                  41.2,
+                  45.2
+                ],
+                [
+                  41.2,
+                  49.2
+                ],
+                [
+                  41.2,
+                  49.6
+                ],
+                [
+                  41.4,
+                  48.4
+                ],
+                [
+                  41.6,
+                  45.2
+                ],
+                [
+                  42,
+                  46.4
+                ],
+                [
+                  42,
+                  46.6
+                ],
+                [
+                  42,
+                  47.6
+                ],
+                [
+                  42.4,
+                  49
+                ],
+                [
+                  42.4,
+                  50.4
+                ],
+                [
+                  42.4,
+                  50.8
+                ],
+                [
+                  42.6,
+                  46
+                ],
+                [
+                  42.6,
+                  46.8
+                ],
+                [
+                  42.6,
+                  49.2
+                ],
+                [
+                  42.6,
+                  50.2
+                ],
+                [
+                  42.6,
+                  50.6
+                ],
+                [
+                  43.6,
+                  49.4
+                ],
+                [
+                  43.8,
+                  50
+                ]
+              ],
+              "id": 271530,
+              "item": "Wendigo Mane",
+              "name": "Elder Wendigo",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                39.8,
+                48.6
+              ],
+              "coords": [
+                [
+                  39.4,
+                  48.8
+                ],
+                [
+                  39.8,
+                  48.6
+                ],
+                [
+                  40,
+                  48.4
+                ]
+              ],
+              "id": 271587,
+              "item": "Wendigo Mane",
+              "name": "Frosthowl",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Dun Morogh"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1,
+        9
+      ]
+    ]
+  },
+  "minLevel": 4,
+  "pageInfo": {
+    "name": "The Grizzled Den",
+    "type": 5,
+    "typeId": 313
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 313,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 1377,
+      "npcName": "Pilot Stonegear",
+      "zoneId": 1,
+      "x": 49.6,
+      "y": 48.4,
+      "zoneName": "Dun Morogh"
+    }
+  ]
+}

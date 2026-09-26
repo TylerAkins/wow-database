@@ -1,0 +1,111 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T00:37:26+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": true,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 24[/li][li]Requires level 18[/li][li]Type: Dungeon[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=4786/dawnwatcher-shaedlass]Dawnwatcher Shaedlass[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=4787/argent-guard-thaelrid]Argent Guard Thaelrid[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]18[/color][small] &nbsp;[/small][color=r1]20[/color][small] &nbsp;[/small][color=r2]22[/color][small] &nbsp;[/small][color=r3]27[/color][small] &nbsp;[/small][color=r4]32[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1657": {
+        "levels": [
+          [
+            {
+              "coord": [
+                55.4,
+                24.6
+              ],
+              "coords": [
+                [
+                  55.4,
+                  24.4
+                ],
+                [
+                  55.4,
+                  24.6
+                ],
+                [
+                  55.6,
+                  24.4
+                ],
+                [
+                  55.6,
+                  24.6
+                ]
+              ],
+              "id": 4786,
+              "name": "Dawnwatcher Shaedlass",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Darnassus"
+      },
+      "719": {
+        "levels": [
+          [
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 4787,
+              "name": "Argent Guard Thaelrid",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Blackfathom Deeps"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1657,
+        1
+      ],
+      [
+        719,
+        1
+      ]
+    ]
+  },
+  "minLevel": 18,
+  "pageInfo": {
+    "name": "In Search of Thaelrid",
+    "type": 5,
+    "typeId": 1198
+  },
+  "pinCategory": "instance",
+  "prerequisiteQuestIds": [],
+  "questId": 1198,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 4786,
+      "npcName": "Dawnwatcher Shaedlass",
+      "zoneId": 1657,
+      "x": 55.4,
+      "y": 24.6,
+      "zoneName": "Darnassus"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T07:04:36+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 20[/li][li]Requires level 20[/li][li]Side: Both[/li][li]Races: [race=95], [race=96][/li][li][icon name=quest-start]Start: [url=/forever/npc=272054/avatar-of-saeyleenan]Avatar of Saeyleenan[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=272054/avatar-of-saeyleenan]Avatar of Saeyleenan[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]20[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 3,
+    "objectives": {
+      "493": {
+        "levels": [
+          [
+            {
+              "coord": [
+                44,
+                73.4
+              ],
+              "coords": [
+                [
+                  44,
+                  73.4
+                ],
+                [
+                  44,
+                  73.6
+                ]
+              ],
+              "id": 272054,
+              "name": "Avatar of Saeyleenan",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                44,
+                73.4
+              ],
+              "coords": [
+                [
+                  44,
+                  73.4
+                ],
+                [
+                  44,
+                  73.6
+                ]
+              ],
+              "id": 272054,
+              "name": "Avatar of Saeyleenan",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Moonglade"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        493,
+        1
+      ]
+    ]
+  },
+  "minLevel": 20,
+  "pageInfo": {
+    "name": "The Great Windborne Cat Spirit",
+    "type": 5,
+    "typeId": 98404
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 98404,
+  "races": [
+    95,
+    96
+  ],
+  "startPins": [
+    {
+      "npcId": 272054,
+      "npcName": "Avatar of Saeyleenan",
+      "zoneId": 493,
+      "x": 44.0,
+      "y": 73.4,
+      "zoneName": "Moonglade"
+    }
+  ]
+}

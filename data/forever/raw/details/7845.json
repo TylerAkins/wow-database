@@ -1,0 +1,101 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T04:05:06+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 51[/li][li]Requires level 46[/li][li]Type: Elite[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=14736/primal-torntusk]Primal Torntusk[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=14757/elder-torntusk]Elder Torntusk[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]46[/color][small] &nbsp;[/small][color=r1]47[/color][small] &nbsp;[/small][color=r2]49[/color][small] &nbsp;[/small][color=r3]54[/color][small] &nbsp;[/small][color=r4]62[/color][/li][li]Added in patch [acronym=\"1.13.2.30786\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "47": {
+        "levels": [
+          [
+            {
+              "coord": [
+                78.2,
+                81.2
+              ],
+              "coords": [
+                [
+                  78.2,
+                  81.2
+                ]
+              ],
+              "id": 14736,
+              "name": "Primal Torntusk",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                59.6,
+                77.8
+              ],
+              "coords": [
+                [
+                  59.4,
+                  77.6
+                ],
+                [
+                  59.6,
+                  77.4
+                ],
+                [
+                  59.6,
+                  77.8
+                ]
+              ],
+              "id": 14757,
+              "name": "Elder Torntusk",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Hinterlands"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        47,
+        2
+      ]
+    ]
+  },
+  "minLevel": 46,
+  "pageInfo": {
+    "name": "Kidnapped Elder Torntusk!",
+    "type": 5,
+    "typeId": 7845
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 7845,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 14736,
+      "npcName": "Primal Torntusk",
+      "zoneId": 47,
+      "x": 78.2,
+      "y": 81.2,
+      "zoneName": "The Hinterlands"
+    }
+  ]
+}

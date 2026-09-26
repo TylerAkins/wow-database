@@ -1,0 +1,117 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T03:34:28+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 23[/li][li]Requires level 20[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=12717/muglash]Muglash[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=12863/warsong-runner]Warsong Runner[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]20[/color][small] &nbsp;[/small][color=r2]21[/color][small] &nbsp;[/small][color=r3]26[/color][small] &nbsp;[/small][color=r4]31[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "331": {
+        "levels": [
+          [
+            {
+              "coord": [
+                12,
+                34.6
+              ],
+              "coords": [
+                [
+                  9.6,
+                  27.4
+                ],
+                [
+                  9.6,
+                  27.6
+                ],
+                [
+                  11,
+                  29.8
+                ],
+                [
+                  11.6,
+                  31.2
+                ],
+                [
+                  11.8,
+                  33
+                ],
+                [
+                  12,
+                  34.4
+                ],
+                [
+                  12,
+                  34.6
+                ]
+              ],
+              "id": 12717,
+              "name": "Muglash",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                12.2,
+                34.2
+              ],
+              "coords": [
+                [
+                  12.2,
+                  34.2
+                ]
+              ],
+              "id": 12863,
+              "name": "Warsong Runner",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ashenvale"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        331,
+        2
+      ]
+    ]
+  },
+  "minLevel": 20,
+  "pageInfo": {
+    "name": "Vorsha the Lasher",
+    "type": 5,
+    "typeId": 6641
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 6641,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 12717,
+      "npcName": "Muglash",
+      "zoneId": 331,
+      "x": 12.0,
+      "y": 34.6,
+      "zoneName": "Ashenvale"
+    }
+  ]
+}

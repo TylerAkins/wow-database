@@ -1,0 +1,101 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T06:46:55+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 6[/li][li]Requires level 3[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3191/cook-torka]Cook Torka[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3191/cook-torka]Cook Torka[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]3[/color][small] &nbsp;[/small][color=r2]4[/color][small] &nbsp;[/small][color=r3]9[/color][small] &nbsp;[/small][color=r4]12[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "14": {
+        "levels": [
+          [
+            {
+              "coord": [
+                51.2,
+                42.4
+              ],
+              "coords": [
+                [
+                  51.2,
+                  42.4
+                ],
+                [
+                  51.2,
+                  42.6
+                ]
+              ],
+              "id": 3191,
+              "name": "Cook Torka",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                51.2,
+                42.4
+              ],
+              "coords": [
+                [
+                  51.2,
+                  42.4
+                ],
+                [
+                  51.2,
+                  42.6
+                ]
+              ],
+              "id": 3191,
+              "name": "Cook Torka",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Durotar"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        14,
+        1
+      ]
+    ]
+  },
+  "minLevel": 3,
+  "pageInfo": {
+    "name": "This Fruit Could Bite Back",
+    "type": 5,
+    "typeId": 96825
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 96825,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3191,
+      "npcName": "Cook Torka",
+      "zoneId": 14,
+      "x": 51.2,
+      "y": 42.4,
+      "zoneName": "Durotar"
+    }
+  ]
+}

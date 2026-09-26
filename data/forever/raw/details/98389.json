@@ -1,0 +1,152 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T07:03:36+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 4[/li][li]Requires level 2[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=244808/aramis-hammerhand]Aramis Hammerhand[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=244808/aramis-hammerhand]Aramis Hammerhand[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]2[/color][small] &nbsp;[/small][color=r3]7[/color][small] &nbsp;[/small][color=r4]9[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "85": {
+        "levels": [
+          [
+            {
+              "coord": [
+                31,
+                66.2
+              ],
+              "coords": [
+                [
+                  31,
+                  66.2
+                ]
+              ],
+              "id": 244808,
+              "name": "Aramis Hammerhand",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                31,
+                66.2
+              ],
+              "coords": [
+                [
+                  31,
+                  66.2
+                ]
+              ],
+              "id": 244808,
+              "name": "Aramis Hammerhand",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                26.6,
+                59.4
+              ],
+              "coords": [
+                [
+                  23.2,
+                  60.2
+                ],
+                [
+                  23.4,
+                  58.2
+                ],
+                [
+                  23.4,
+                  59
+                ],
+                [
+                  23.8,
+                  60.6
+                ],
+                [
+                  24.4,
+                  59.4
+                ],
+                [
+                  24.4,
+                  59.6
+                ],
+                [
+                  24.6,
+                  59.4
+                ],
+                [
+                  25.4,
+                  59.8
+                ],
+                [
+                  25.8,
+                  59.4
+                ],
+                [
+                  26.2,
+                  60.2
+                ],
+                [
+                  26.6,
+                  59.4
+                ]
+              ],
+              "id": 271961,
+              "name": "Webbed Forsaken",
+              "objective": 271961,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Tirisfal Glades"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        85,
+        2
+      ]
+    ]
+  },
+  "minLevel": 2,
+  "pageInfo": {
+    "name": "A Light in the Darkness",
+    "type": 5,
+    "typeId": 98389
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 98389,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 244808,
+      "npcName": "Aramis Hammerhand",
+      "zoneId": 85,
+      "x": 31.0,
+      "y": 66.2,
+      "zoneName": "Tirisfal Glades"
+    }
+  ]
+}

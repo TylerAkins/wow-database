@@ -1,0 +1,124 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T00:35:26+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 30[/li][li]Requires level 28[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=2092/pilot-longbeard]Pilot Longbeard[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=4453/wizzle-brassbolts]Wizzle Brassbolts[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]28[/color][small] &nbsp;[/small][color=r3]33[/color][small] &nbsp;[/small][color=r4]38[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1537": {
+        "levels": [
+          [
+            {
+              "coord": [
+                72.4,
+                93.6
+              ],
+              "coords": [
+                [
+                  72,
+                  92.4
+                ],
+                [
+                  72.4,
+                  93.4
+                ],
+                [
+                  72.4,
+                  93.6
+                ],
+                [
+                  72.6,
+                  93.4
+                ],
+                [
+                  72.6,
+                  93.6
+                ]
+              ],
+              "id": 2092,
+              "name": "Pilot Longbeard",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ironforge"
+      },
+      "400": {
+        "levels": [
+          [
+            {
+              "coord": [
+                78,
+                77
+              ],
+              "coords": [
+                [
+                  78,
+                  77
+                ]
+              ],
+              "id": 4453,
+              "name": "Wizzle Brassbolts",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Thousand Needles"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1537,
+        1
+      ],
+      [
+        400,
+        1
+      ]
+    ]
+  },
+  "minLevel": 28,
+  "pageInfo": {
+    "name": "The Brassbolts Brothers",
+    "type": 5,
+    "typeId": 1179
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    2769,
+    2770
+  ],
+  "questId": 1179,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 2092,
+      "npcName": "Pilot Longbeard",
+      "zoneId": 1537,
+      "x": 72.4,
+      "y": 93.6,
+      "zoneName": "Ironforge"
+    }
+  ]
+}

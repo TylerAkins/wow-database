@@ -1,0 +1,100 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T00:48:13+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 35[/li][li]Requires level 30[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=1776/magtoor]Magtoor[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1776/magtoor]Magtoor[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]30[/color][small] &nbsp;[/small][color=r1]31[/color][small] &nbsp;[/small][color=r2]33[/color][small] &nbsp;[/small][color=r3]38[/color][small] &nbsp;[/small][color=r4]44[/color][/li][li]Added in patch [acronym=\"1.13.2.30682\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "8": {
+        "levels": [
+          [
+            {
+              "coord": [
+                26,
+                31.4
+              ],
+              "coords": [
+                [
+                  26,
+                  31.4
+                ],
+                [
+                  26,
+                  31.6
+                ]
+              ],
+              "id": 1776,
+              "name": "Magtoor",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                26,
+                31.4
+              ],
+              "coords": [
+                [
+                  26,
+                  31.4
+                ],
+                [
+                  26,
+                  31.6
+                ]
+              ],
+              "id": 1776,
+              "name": "Magtoor",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Swamp of Sorrows"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        8,
+        1
+      ]
+    ]
+  },
+  "minLevel": 30,
+  "pageInfo": {
+    "name": "Draenethyst Crystals",
+    "type": 5,
+    "typeId": 1389
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 1389,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 1776,
+      "npcName": "Magtoor",
+      "zoneId": 8,
+      "x": 26.0,
+      "y": 31.4,
+      "zoneName": "Swamp of Sorrows"
+    }
+  ]
+}

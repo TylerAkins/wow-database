@@ -1,0 +1,1282 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T03:35:29+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": true,
+    "raid": false,
+    "repeatable": true,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 51[/li][li]Type: PvP[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=13257/murgot-deepforge]Murgot Deepforge[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=13257/murgot-deepforge]Murgot Deepforge[/url][/icon][/li][li]Repeatable[/li][li]Sharable[/li][li]Difficulty: [color=q10]51[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.30786\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "2597": {
+        "levels": [
+          [
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13257,
+              "name": "Murgot Deepforge",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13257,
+              "name": "Murgot Deepforge",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 11946,
+              "item": "Armor Scraps",
+              "name": "Drek'Thar",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 11947,
+              "item": "Armor Scraps",
+              "name": "Captain Galvangar",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 11948,
+              "item": "Armor Scraps",
+              "name": "Vanndar Stormpike",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 11949,
+              "item": "Armor Scraps",
+              "name": "Captain Balinda Stonehearth",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 12047,
+              "item": "Armor Scraps",
+              "name": "Stormpike Mountaineer",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 12048,
+              "item": "Armor Scraps",
+              "name": "Alliance Sentinel",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 12050,
+              "item": "Armor Scraps",
+              "name": "Stormpike Defender",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 12051,
+              "item": "Armor Scraps",
+              "name": "Frostwolf Legionnaire",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 12052,
+              "item": "Armor Scraps",
+              "name": "Frostwolf Warrior",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 12053,
+              "item": "Armor Scraps",
+              "name": "Frostwolf Guardian",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 12127,
+              "item": "Armor Scraps",
+              "name": "Stormpike Guardsman",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13078,
+              "item": "Armor Scraps",
+              "name": "Umi Thorson",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13137,
+              "item": "Armor Scraps",
+              "name": "Lieutenant Rugba",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13138,
+              "item": "Armor Scraps",
+              "name": "Lieutenant Spencer",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13139,
+              "item": "Armor Scraps",
+              "name": "Commander Randolph",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13140,
+              "item": "Armor Scraps",
+              "name": "Commander Dardosh",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13143,
+              "item": "Armor Scraps",
+              "name": "Lieutenant Stronghoof",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13144,
+              "item": "Armor Scraps",
+              "name": "Lieutenant Vol'talar",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13145,
+              "item": "Armor Scraps",
+              "name": "Lieutenant Grummus",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13146,
+              "item": "Armor Scraps",
+              "name": "Lieutenant Murp",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13147,
+              "item": "Armor Scraps",
+              "name": "Lieutenant Lewis",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13152,
+              "item": "Armor Scraps",
+              "name": "Commander Malgor",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                48.9,
+                86.9
+              ],
+              "coords": [
+                [
+                  48.9,
+                  86.9
+                ]
+              ],
+              "id": 13153,
+              "item": "Armor Scraps",
+              "name": "Commander Mulfort",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13154,
+              "item": "Armor Scraps",
+              "name": "Commander Louis Philips",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13176,
+              "item": "Armor Scraps",
+              "name": "Smith Regzar",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13179,
+              "item": "Armor Scraps",
+              "name": "Wing Commander Guse",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13180,
+              "item": "Armor Scraps",
+              "name": "Wing Commander Jeztor",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13181,
+              "item": "Armor Scraps",
+              "name": "Wing Commander Mulverick",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13216,
+              "item": "Armor Scraps",
+              "name": "Gaelden Hammersmith",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13218,
+              "item": "Armor Scraps",
+              "name": "Grunnda Wolfheart",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13236,
+              "item": "Armor Scraps",
+              "name": "Primalist Thurloga",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13256,
+              "item": "Armor Scraps",
+              "name": "Lokholar the Ice Lord",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13257,
+              "item": "Armor Scraps",
+              "name": "Murgot Deepforge",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13284,
+              "item": "Armor Scraps",
+              "name": "Frostwolf Shaman",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13296,
+              "item": "Armor Scraps",
+              "name": "Lieutenant Largent",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13297,
+              "item": "Armor Scraps",
+              "name": "Lieutenant Stouthandle",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13298,
+              "item": "Armor Scraps",
+              "name": "Lieutenant Greywand",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13299,
+              "item": "Armor Scraps",
+              "name": "Lieutenant Lonadin",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13300,
+              "item": "Armor Scraps",
+              "name": "Lieutenant Mancuso",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13318,
+              "item": "Armor Scraps",
+              "name": "Commander Mortimer",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13319,
+              "item": "Armor Scraps",
+              "name": "Commander Duffy",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13320,
+              "item": "Armor Scraps",
+              "name": "Commander Karl Philips",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13324,
+              "item": "Armor Scraps",
+              "name": "Seasoned Guardsman",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13325,
+              "item": "Armor Scraps",
+              "name": "Seasoned Mountaineer",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13326,
+              "item": "Armor Scraps",
+              "name": "Seasoned Defender",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13327,
+              "item": "Armor Scraps",
+              "name": "Seasoned Sentinel",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13328,
+              "item": "Armor Scraps",
+              "name": "Seasoned Guardian",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13329,
+              "item": "Armor Scraps",
+              "name": "Seasoned Legionnaire",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13330,
+              "item": "Armor Scraps",
+              "name": "Seasoned Warrior",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13331,
+              "item": "Armor Scraps",
+              "name": "Veteran Defender",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13332,
+              "item": "Armor Scraps",
+              "name": "Veteran Guardian",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13333,
+              "item": "Armor Scraps",
+              "name": "Veteran Guardsman",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13334,
+              "item": "Armor Scraps",
+              "name": "Veteran Legionnaire",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13335,
+              "item": "Armor Scraps",
+              "name": "Veteran Mountaineer",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13336,
+              "item": "Armor Scraps",
+              "name": "Veteran Sentinel",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13337,
+              "item": "Armor Scraps",
+              "name": "Veteran Warrior",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13358,
+              "item": "Armor Scraps",
+              "name": "Stormpike Bowman",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13359,
+              "item": "Armor Scraps",
+              "name": "Frostwolf Bowman",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13419,
+              "item": "Armor Scraps",
+              "name": "Ivus the Forest Lord",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13421,
+              "item": "Armor Scraps",
+              "name": "Champion Guardian",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13422,
+              "item": "Armor Scraps",
+              "name": "Champion Defender",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13424,
+              "item": "Armor Scraps",
+              "name": "Champion Guardsman",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13425,
+              "item": "Armor Scraps",
+              "name": "Champion Legionnaire",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13428,
+              "item": "Armor Scraps",
+              "name": "Champion Warrior",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13437,
+              "item": "Armor Scraps",
+              "name": "Wing Commander Ichman",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13438,
+              "item": "Armor Scraps",
+              "name": "Wing Commander Slidore",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13439,
+              "item": "Armor Scraps",
+              "name": "Wing Commander Vipore",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13440,
+              "item": "Armor Scraps",
+              "name": "Frostwolf Wolf Rider",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13441,
+              "item": "Armor Scraps",
+              "name": "Frostwolf Wolf Rider Commander",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13442,
+              "item": "Armor Scraps",
+              "name": "Arch Druid Renferal",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13443,
+              "item": "Armor Scraps",
+              "name": "Druid of the Grove",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13446,
+              "item": "Armor Scraps",
+              "name": "Field Marshal Teravaine",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13525,
+              "item": "Armor Scraps",
+              "name": "Seasoned Commando",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13576,
+              "item": "Armor Scraps",
+              "name": "Stormpike Ram Rider",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13577,
+              "item": "Armor Scraps",
+              "name": "Stormpike Ram Rider Commander",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13617,
+              "item": "Armor Scraps",
+              "name": "Stormpike Stable Master",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13797,
+              "item": "Armor Scraps",
+              "name": "Mountaineer Boombellow",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13798,
+              "item": "Armor Scraps",
+              "name": "Jotek",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 14185,
+              "item": "Armor Scraps",
+              "name": "Najak Hexxen",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 14186,
+              "item": "Armor Scraps",
+              "name": "Ravak Grimtotem",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 14187,
+              "item": "Armor Scraps",
+              "name": "Athramanis",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 14188,
+              "item": "Armor Scraps",
+              "name": "Dirk Swindle",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 14763,
+              "item": "Armor Scraps",
+              "name": "Dun Baldar South Marshal",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 14764,
+              "item": "Armor Scraps",
+              "name": "Icewing Marshal",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 14768,
+              "item": "Armor Scraps",
+              "name": "East Frostwolf Marshal",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 14948,
+              "item": "Armor Scraps",
+              "name": "Vipore's Gryphon",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Alterac Valley"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        2597,
+        86
+      ]
+    ]
+  },
+  "minLevel": 51,
+  "pageInfo": {
+    "name": "More Armor Scraps",
+    "type": 5,
+    "typeId": 6781
+  },
+  "pinCategory": "pvp",
+  "prerequisiteQuestIds": [],
+  "questId": 6781,
+  "races": [],
+  "startPins": []
+}

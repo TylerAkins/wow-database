@@ -1,0 +1,152 @@
+{
+  "classes": [
+    1,
+    7,
+    11
+  ],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T01:30:44+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 40[/li][li]Requires level 40[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Classes: [class=1], [class=7], [br][class=11][/li][li]Profession: [url=/forever/skill=164/blacksmithing]Blacksmithing[/url][/li][li][icon name=quest-start]Start: [url=/forever/npc=7792/aturk-the-anvil]Aturk the Anvil[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=7792/aturk-the-anvil]Aturk the Anvil[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]40[/color][small] &nbsp;[/small][color=r3]43[/color][small] &nbsp;[/small][color=r4]49[/color][/li][li]Added in patch [acronym=\"1.13.2.30682\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 2,
+    "objectives": {
+      "1637": {
+        "levels": [
+          [
+            {
+              "coord": [
+                80.6,
+                23.2
+              ],
+              "coords": [
+                [
+                  80.4,
+                  23.2
+                ],
+                [
+                  80.4,
+                  23.8
+                ],
+                [
+                  80.6,
+                  22.4
+                ],
+                [
+                  80.6,
+                  23.2
+                ],
+                [
+                  80.6,
+                  23.6
+                ]
+              ],
+              "id": 7792,
+              "name": "Aturk the Anvil",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                80.6,
+                23.2
+              ],
+              "coords": [
+                [
+                  80.4,
+                  23.2
+                ],
+                [
+                  80.4,
+                  23.8
+                ],
+                [
+                  80.6,
+                  22.4
+                ],
+                [
+                  80.6,
+                  23.2
+                ],
+                [
+                  80.6,
+                  23.6
+                ]
+              ],
+              "id": 7792,
+              "name": "Aturk the Anvil",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Orgrimmar"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1637,
+        1
+      ]
+    ]
+  },
+  "minLevel": 40,
+  "pageInfo": {
+    "name": "The Old Ways",
+    "type": 5,
+    "typeId": 2756
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    22,
+    38,
+    90,
+    92,
+    93,
+    127,
+    384,
+    385,
+    418,
+    429,
+    471,
+    564,
+    769,
+    862,
+    1582,
+    1618,
+    2751,
+    2752,
+    2753,
+    2754,
+    2755,
+    2758
+  ],
+  "questId": 2756,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 7792,
+      "npcName": "Aturk the Anvil",
+      "zoneId": 1637,
+      "x": 80.6,
+      "y": 23.2,
+      "zoneName": "Orgrimmar"
+    }
+  ]
+}

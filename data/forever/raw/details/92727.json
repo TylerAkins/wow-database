@@ -1,0 +1,75 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T06:08:41+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 10[/li][li]Requires level 4[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=253204/dondallion-whisperwind]Dondallion Whisperwind[/url][/icon][/li][li][icon name=quest-end]End: Object #581822[/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]4[/color][small] &nbsp;[/small][color=r1]6[/color][small] &nbsp;[/small][color=r2]8[/color][small] &nbsp;[/small][color=r3]13[/color][small] &nbsp;[/small][color=r4]16[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "16593": {
+        "levels": [
+          [
+            {
+              "coord": [
+                66.2,
+                79.8
+              ],
+              "coords": [
+                [
+                  66.2,
+                  79.8
+                ]
+              ],
+              "id": 253204,
+              "name": "Dondallion Whisperwind",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Zephras Isle"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16593,
+        1
+      ]
+    ]
+  },
+  "minLevel": 4,
+  "pageInfo": {
+    "name": "The Missing Scholar",
+    "type": 5,
+    "typeId": 92727
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 92727,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 253204,
+      "npcName": "Dondallion Whisperwind",
+      "zoneId": 16593,
+      "x": 66.2,
+      "y": 79.8,
+      "zoneName": "Zephras Isle"
+    }
+  ]
+}

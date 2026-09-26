@@ -1,0 +1,137 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T05:57:43+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 20[/li][li]Requires level 15[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=10219/gwennyth-blyleggonde]Gwennyth Bly'Leggonde[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=10219/gwennyth-blyleggonde]Gwennyth Bly'Leggonde[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]15[/color][small] &nbsp;[/small][color=r1]16[/color][small] &nbsp;[/small][color=r2]18[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "148": {
+        "levels": [
+          [
+            {
+              "coord": [
+                36.6,
+                45.4
+              ],
+              "coords": [
+                [
+                  36.6,
+                  45.4
+                ],
+                [
+                  36.6,
+                  45.6
+                ]
+              ],
+              "id": 10219,
+              "name": "Gwennyth Bly'Leggonde",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                36.6,
+                45.4
+              ],
+              "coords": [
+                [
+                  36.6,
+                  45.4
+                ],
+                [
+                  36.6,
+                  45.6
+                ]
+              ],
+              "id": 10219,
+              "name": "Gwennyth Bly'Leggonde",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                49.2,
+                11.6
+              ],
+              "coords": [
+                [
+                  49.2,
+                  11.6
+                ],
+                [
+                  49.6,
+                  11.4
+                ],
+                [
+                  49.6,
+                  11.8
+                ],
+                [
+                  49.8,
+                  13.4
+                ],
+                [
+                  50,
+                  13.6
+                ]
+              ],
+              "id": 271903,
+              "item": "Rod of Deep Dominion",
+              "name": "Stormscale Beastmistress",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Darkshore"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        148,
+        2
+      ]
+    ]
+  },
+  "minLevel": 15,
+  "pageInfo": {
+    "name": "Holy Diver",
+    "type": 5,
+    "typeId": 87760
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 87760,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 10219,
+      "npcName": "Gwennyth Bly'Leggonde",
+      "zoneId": 148,
+      "x": 36.6,
+      "y": 45.4,
+      "zoneName": "Darkshore"
+    }
+  ]
+}

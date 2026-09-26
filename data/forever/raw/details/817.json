@@ -1,0 +1,525 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-24T23:24:22+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 8[/li][li]Requires level 5[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3194/velrin-fang]Vel'rin Fang[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3194/velrin-fang]Vel'rin Fang[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]5[/color][small] &nbsp;[/small][color=r2]6[/color][small] &nbsp;[/small][color=r3]11[/color][small] &nbsp;[/small][color=r4]14[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "14": {
+        "levels": [
+          [
+            {
+              "coord": [
+                55.8,
+                74
+              ],
+              "coords": [
+                [
+                  55.8,
+                  74
+                ]
+              ],
+              "id": 3194,
+              "name": "Vel'rin Fang",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                55.8,
+                74
+              ],
+              "coords": [
+                [
+                  55.8,
+                  74
+                ]
+              ],
+              "id": 3194,
+              "name": "Vel'rin Fang",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                60,
+                79.8
+              ],
+              "coords": [
+                [
+                  59.2,
+                  89.4
+                ],
+                [
+                  59.2,
+                  89.6
+                ],
+                [
+                  59.2,
+                  90.6
+                ],
+                [
+                  59.4,
+                  82.4
+                ],
+                [
+                  59.4,
+                  82.8
+                ],
+                [
+                  59.4,
+                  84
+                ],
+                [
+                  59.4,
+                  84.6
+                ],
+                [
+                  59.6,
+                  84.8
+                ],
+                [
+                  59.8,
+                  83.2
+                ],
+                [
+                  60,
+                  79.8
+                ],
+                [
+                  60,
+                  82.4
+                ],
+                [
+                  60,
+                  84.2
+                ],
+                [
+                  60,
+                  91.6
+                ],
+                [
+                  60.2,
+                  91.4
+                ],
+                [
+                  60.4,
+                  79.4
+                ],
+                [
+                  60.4,
+                  81.4
+                ],
+                [
+                  60.4,
+                  88
+                ],
+                [
+                  60.4,
+                  89.4
+                ],
+                [
+                  60.4,
+                  90
+                ],
+                [
+                  60.6,
+                  79.4
+                ],
+                [
+                  60.6,
+                  79.6
+                ],
+                [
+                  60.6,
+                  81.4
+                ],
+                [
+                  60.6,
+                  82
+                ],
+                [
+                  60.6,
+                  88
+                ],
+                [
+                  60.8,
+                  91.6
+                ],
+                [
+                  61,
+                  82.8
+                ],
+                [
+                  61.2,
+                  89
+                ],
+                [
+                  61.2,
+                  89.6
+                ],
+                [
+                  61.4,
+                  91.4
+                ],
+                [
+                  61.6,
+                  89.4
+                ],
+                [
+                  61.6,
+                  90.4
+                ],
+                [
+                  61.6,
+                  90.6
+                ],
+                [
+                  61.6,
+                  91.8
+                ],
+                [
+                  62.2,
+                  94.2
+                ],
+                [
+                  62.4,
+                  94.8
+                ],
+                [
+                  62.4,
+                  96.6
+                ],
+                [
+                  62.8,
+                  96.4
+                ],
+                [
+                  62.8,
+                  97
+                ],
+                [
+                  63.4,
+                  95.4
+                ],
+                [
+                  63.6,
+                  95.4
+                ],
+                [
+                  63.8,
+                  96.2
+                ],
+                [
+                  64,
+                  97
+                ],
+                [
+                  64.4,
+                  81.4
+                ],
+                [
+                  64.4,
+                  81.6
+                ],
+                [
+                  64.4,
+                  84.4
+                ],
+                [
+                  64.4,
+                  85.4
+                ],
+                [
+                  64.4,
+                  85.6
+                ],
+                [
+                  64.4,
+                  88
+                ],
+                [
+                  64.6,
+                  84.4
+                ],
+                [
+                  64.8,
+                  80.8
+                ],
+                [
+                  64.8,
+                  81.8
+                ],
+                [
+                  64.8,
+                  85
+                ],
+                [
+                  64.8,
+                  88.6
+                ],
+                [
+                  65,
+                  85.6
+                ],
+                [
+                  65.2,
+                  79.4
+                ],
+                [
+                  65.2,
+                  80.2
+                ],
+                [
+                  65.2,
+                  87.6
+                ],
+                [
+                  65.4,
+                  87.4
+                ],
+                [
+                  65.6,
+                  79.4
+                ],
+                [
+                  65.6,
+                  80.4
+                ],
+                [
+                  65.6,
+                  87.4
+                ],
+                [
+                  65.8,
+                  81.6
+                ],
+                [
+                  66,
+                  81
+                ],
+                [
+                  67,
+                  71.6
+                ],
+                [
+                  67.2,
+                  70.4
+                ],
+                [
+                  67.2,
+                  70.6
+                ],
+                [
+                  67.4,
+                  73.8
+                ],
+                [
+                  67.4,
+                  74.6
+                ],
+                [
+                  67.6,
+                  71.2
+                ],
+                [
+                  67.6,
+                  74
+                ],
+                [
+                  67.8,
+                  73.4
+                ],
+                [
+                  67.8,
+                  74.6
+                ],
+                [
+                  68.4,
+                  71.8
+                ],
+                [
+                  68.4,
+                  80.4
+                ],
+                [
+                  68.4,
+                  80.6
+                ],
+                [
+                  68.6,
+                  71.8
+                ],
+                [
+                  68.8,
+                  69.4
+                ],
+                [
+                  68.8,
+                  71.4
+                ],
+                [
+                  68.8,
+                  80.8
+                ],
+                [
+                  69,
+                  69.6
+                ],
+                [
+                  69,
+                  80.2
+                ],
+                [
+                  69,
+                  84
+                ],
+                [
+                  69,
+                  85.2
+                ],
+                [
+                  69.2,
+                  72.8
+                ],
+                [
+                  69.2,
+                  73.6
+                ],
+                [
+                  69.2,
+                  85.6
+                ],
+                [
+                  69.6,
+                  70
+                ],
+                [
+                  69.6,
+                  84.4
+                ],
+                [
+                  69.6,
+                  84.6
+                ],
+                [
+                  69.8,
+                  72.4
+                ],
+                [
+                  69.8,
+                  73.6
+                ],
+                [
+                  70.2,
+                  73.2
+                ],
+                [
+                  70.6,
+                  73.4
+                ]
+              ],
+              "id": 3121,
+              "item": "Durotar Tiger Fur",
+              "name": "Durotar Tiger",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                60.4,
+                89.6
+              ],
+              "coords": [
+                [
+                  59.8,
+                  91
+                ],
+                [
+                  60.4,
+                  89.6
+                ],
+                [
+                  60.8,
+                  89.8
+                ],
+                [
+                  62.8,
+                  96.8
+                ],
+                [
+                  63,
+                  96.2
+                ],
+                [
+                  63.6,
+                  95.6
+                ],
+                [
+                  68.6,
+                  70.6
+                ]
+              ],
+              "id": 276198,
+              "item": "Durotar Tiger Fur",
+              "name": "Shal'ma",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Durotar"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        14,
+        3
+      ]
+    ]
+  },
+  "minLevel": 5,
+  "pageInfo": {
+    "name": "Practical Prey",
+    "type": 5,
+    "typeId": 817
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 817,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3194,
+      "npcName": "Vel'rin Fang",
+      "zoneId": 14,
+      "x": 55.8,
+      "y": 74.0,
+      "zoneName": "Durotar"
+    }
+  ]
+}

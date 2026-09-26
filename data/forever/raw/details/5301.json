@@ -1,0 +1,131 @@
+{
+  "classes": [
+    1
+  ],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T02:55:30+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 40[/li][li]Requires level 40[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Class: [class=1][/li][li]Profession: [url=/forever/skill=164/blacksmithing]Blacksmithing[/url][/li][li][icon name=quest-start]Start: [url=/forever/npc=11177/okothos-ironrager]Okothos Ironrager[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=11177/okothos-ironrager]Okothos Ironrager[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]40[/color][small] &nbsp;[/small][color=r3]43[/color][small] &nbsp;[/small][color=r4]49[/color][/li][li]Added in patch [acronym=\"1.13.2.30682\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 3,
+    "objectives": {
+      "1637": {
+        "levels": [
+          [
+            {
+              "coord": [
+                79.8,
+                23.8
+              ],
+              "coords": [
+                [
+                  79.4,
+                  23.4
+                ],
+                [
+                  79.4,
+                  23.6
+                ],
+                [
+                  79.8,
+                  23.4
+                ],
+                [
+                  79.8,
+                  23.8
+                ]
+              ],
+              "id": 11177,
+              "name": "Okothos Ironrager",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                79.8,
+                23.8
+              ],
+              "coords": [
+                [
+                  79.4,
+                  23.4
+                ],
+                [
+                  79.4,
+                  23.6
+                ],
+                [
+                  79.8,
+                  23.4
+                ],
+                [
+                  79.8,
+                  23.8
+                ]
+              ],
+              "id": 11177,
+              "name": "Okothos Ironrager",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Orgrimmar"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1637,
+        1
+      ]
+    ]
+  },
+  "minLevel": 40,
+  "pageInfo": {
+    "name": "The Art of the Armorsmith",
+    "type": 5,
+    "typeId": 5301
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    2756,
+    2758,
+    2760,
+    2761,
+    2762,
+    2763,
+    2764,
+    2765,
+    2771,
+    2772,
+    2773
+  ],
+  "questId": 5301,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 11177,
+      "npcName": "Okothos Ironrager",
+      "zoneId": 1637,
+      "x": 79.8,
+      "y": 23.8,
+      "zoneName": "Orgrimmar"
+    }
+  ]
+}

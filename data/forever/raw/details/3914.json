@@ -1,0 +1,127 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T02:09:48+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 52[/li][li]Requires level 47[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/object=148504/a-conspicuous-gravestone]A Conspicuous Gravestone[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=8737/linken]Linken[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]47[/color][small] &nbsp;[/small][color=r1]48[/color][small] &nbsp;[/small][color=r2]50[/color][small] &nbsp;[/small][color=r3]55[/color][small] &nbsp;[/small][color=r4]63[/color][/li][li]Added in patch [acronym=\"1.13.2.31687\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "440": {
+        "levels": [
+          [
+            {
+              "coord": [
+                53.9,
+                29
+              ],
+              "coords": [
+                [
+                  53.9,
+                  29
+                ]
+              ],
+              "id": 148504,
+              "name": "A Conspicuous Gravestone",
+              "point": "start",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Tanaris"
+      },
+      "490": {
+        "levels": [
+          [
+            {
+              "coord": [
+                44.6,
+                8.2
+              ],
+              "coords": [
+                [
+                  44.6,
+                  8.2
+                ]
+              ],
+              "id": 8737,
+              "name": "Linken",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Un'Goro Crater"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        440,
+        1
+      ],
+      [
+        490,
+        1
+      ]
+    ]
+  },
+  "minLevel": 47,
+  "objectSpawns": [
+    {
+      "entityId": 148504,
+      "entityKind": "object",
+      "entityName": "A Conspicuous Gravestone",
+      "uiMapId": 1446,
+      "uiMapName": "Tanaris",
+      "x": 53.9,
+      "y": 29.0,
+      "zoneId": 440
+    }
+  ],
+  "pageInfo": {
+    "name": "Linken's Sword",
+    "type": 5,
+    "typeId": 3914
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    3844,
+    3845,
+    3908,
+    3909,
+    3912,
+    3913,
+    3941,
+    3942,
+    3961,
+    3962,
+    4005,
+    4084
+  ],
+  "questId": 3914,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 148504,
+      "npcName": "A Conspicuous Gravestone",
+      "x": 53.9,
+      "y": 29.0,
+      "zoneId": 440,
+      "zoneName": "Tanaris"
+    }
+  ]
+}

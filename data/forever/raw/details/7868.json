@@ -1,0 +1,93 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T04:06:17+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 45[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=14754/kelm-hargunth]Kelm Hargunth[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=14754/kelm-hargunth]Kelm Hargunth[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]45[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.3.32790\"]1.13.3[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "17": {
+        "levels": [
+          [
+            {
+              "coord": [
+                46.6,
+                8.4
+              ],
+              "coords": [
+                [
+                  46.6,
+                  8.4
+                ]
+              ],
+              "id": 14754,
+              "name": "Kelm Hargunth",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                46.6,
+                8.4
+              ],
+              "coords": [
+                [
+                  46.6,
+                  8.4
+                ]
+              ],
+              "id": 14754,
+              "name": "Kelm Hargunth",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Barrens"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        17,
+        1
+      ]
+    ]
+  },
+  "minLevel": 45,
+  "pageInfo": {
+    "name": "Outrider Advanced Care Package",
+    "type": 5,
+    "typeId": 7868
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 7868,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 14754,
+      "npcName": "Kelm Hargunth",
+      "zoneId": 17,
+      "x": 46.6,
+      "y": 8.4,
+      "zoneName": "The Barrens"
+    }
+  ]
+}

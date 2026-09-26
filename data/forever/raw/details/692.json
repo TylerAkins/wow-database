@@ -1,0 +1,290 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-24T23:21:48+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 41[/li][li]Requires level 30[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=2785/theldurin-the-lost]Theldurin the Lost[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2785/theldurin-the-lost]Theldurin the Lost[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]30[/color][small] &nbsp;[/small][color=r1]37[/color][small] &nbsp;[/small][color=r2]39[/color][small] &nbsp;[/small][color=r3]44[/color][small] &nbsp;[/small][color=r4]51[/color][/li][li]Added in patch [acronym=\"1.13.2.30682\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 2,
+    "objectives": {
+      "3": {
+        "levels": [
+          [
+            {
+              "coord": [
+                51.4,
+                76.8
+              ],
+              "coords": [
+                [
+                  51.4,
+                  76.4
+                ],
+                [
+                  51.4,
+                  76.8
+                ],
+                [
+                  51.6,
+                  76.4
+                ],
+                [
+                  51.6,
+                  76.6
+                ]
+              ],
+              "id": 2785,
+              "name": "Theldurin the Lost",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                51.4,
+                76.8
+              ],
+              "coords": [
+                [
+                  51.4,
+                  76.4
+                ],
+                [
+                  51.4,
+                  76.8
+                ],
+                [
+                  51.6,
+                  76.4
+                ],
+                [
+                  51.6,
+                  76.6
+                ]
+              ],
+              "id": 2785,
+              "name": "Theldurin the Lost",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                52.6,
+                85.4
+              ],
+              "coords": [
+                [
+                  52.4,
+                  78.6
+                ],
+                [
+                  52.4,
+                  85.4
+                ],
+                [
+                  52.4,
+                  85.6
+                ],
+                [
+                  52.6,
+                  85.4
+                ],
+                [
+                  52.6,
+                  85.6
+                ],
+                [
+                  52.8,
+                  79.4
+                ],
+                [
+                  53,
+                  81.6
+                ],
+                [
+                  53.2,
+                  80.4
+                ],
+                [
+                  53.2,
+                  80.6
+                ],
+                [
+                  53.2,
+                  82.6
+                ],
+                [
+                  53.4,
+                  83.6
+                ],
+                [
+                  53.6,
+                  79.4
+                ],
+                [
+                  53.6,
+                  80.2
+                ],
+                [
+                  53.6,
+                  86.2
+                ],
+                [
+                  53.8,
+                  81
+                ],
+                [
+                  53.8,
+                  82
+                ],
+                [
+                  53.8,
+                  84.2
+                ],
+                [
+                  54.2,
+                  82.6
+                ],
+                [
+                  54.4,
+                  84.8
+                ],
+                [
+                  54.4,
+                  86.6
+                ],
+                [
+                  54.6,
+                  81.4
+                ],
+                [
+                  54.6,
+                  85.4
+                ],
+                [
+                  54.8,
+                  86
+                ],
+                [
+                  55,
+                  87.4
+                ],
+                [
+                  55,
+                  87.6
+                ],
+                [
+                  55.2,
+                  82.4
+                ],
+                [
+                  55.2,
+                  84
+                ],
+                [
+                  55.4,
+                  82.8
+                ],
+                [
+                  55.6,
+                  84.8
+                ],
+                [
+                  55.6,
+                  85.6
+                ],
+                [
+                  55.6,
+                  87
+                ],
+                [
+                  55.8,
+                  83.6
+                ],
+                [
+                  56.2,
+                  87.6
+                ],
+                [
+                  56.4,
+                  82.4
+                ],
+                [
+                  56.4,
+                  82.6
+                ],
+                [
+                  56.6,
+                  82
+                ],
+                [
+                  56.6,
+                  82.6
+                ],
+                [
+                  56.8,
+                  80.4
+                ],
+                [
+                  56.8,
+                  81
+                ]
+              ],
+              "id": 2791,
+              "item": "Singed Scroll Fragment",
+              "name": "Enraged Rock Elemental",
+              "objective": 2,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Badlands"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        3,
+        2
+      ]
+    ]
+  },
+  "minLevel": 30,
+  "pageInfo": {
+    "name": "The Lost Fragments",
+    "type": 5,
+    "typeId": 692
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    2500
+  ],
+  "questId": 692,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 2785,
+      "npcName": "Theldurin the Lost",
+      "zoneId": 3,
+      "x": 51.4,
+      "y": 76.8,
+      "zoneName": "Badlands"
+    }
+  ]
+}

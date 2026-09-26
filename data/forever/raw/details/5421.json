@@ -1,0 +1,101 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T02:58:02+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": true,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 25[/li][li]Requires level 25[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=11317/jinarzillen]Jinar'Zillen[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=11317/jinarzillen]Jinar'Zillen[/url][/icon][/li][li]Repeatable[/li][li]Sharable[/li][li]Difficulty: [color=r2]25[/color][small] &nbsp;[/small][color=r3]28[/color][small] &nbsp;[/small][color=r4]33[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "405": {
+        "levels": [
+          [
+            {
+              "coord": [
+                22.4,
+                73
+              ],
+              "coords": [
+                [
+                  22.4,
+                  73
+                ],
+                [
+                  22.6,
+                  72.8
+                ]
+              ],
+              "id": 11317,
+              "name": "Jinar'Zillen",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                22.4,
+                73
+              ],
+              "coords": [
+                [
+                  22.4,
+                  73
+                ],
+                [
+                  22.6,
+                  72.8
+                ]
+              ],
+              "id": 11317,
+              "name": "Jinar'Zillen",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Desolace"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        405,
+        1
+      ]
+    ]
+  },
+  "minLevel": 25,
+  "pageInfo": {
+    "name": "Fish in a Bucket",
+    "type": 5,
+    "typeId": 5421
+  },
+  "pinCategory": "repeatable",
+  "prerequisiteQuestIds": [],
+  "questId": 5421,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 11317,
+      "npcName": "Jinar'Zillen",
+      "zoneId": 405,
+      "x": 22.4,
+      "y": 73.0,
+      "zoneName": "Desolace"
+    }
+  ]
+}

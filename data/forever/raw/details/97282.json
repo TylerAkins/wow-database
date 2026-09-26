@@ -1,0 +1,245 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T06:50:44+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 11[/li][li]Requires level 7[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3293/rezlak]Rezlak[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3293/rezlak]Rezlak[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]7[/color][small] &nbsp;[/small][color=r2]9[/color][small] &nbsp;[/small][color=r3]14[/color][small] &nbsp;[/small][color=r4]17[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "14": {
+        "levels": [
+          [
+            {
+              "coord": [
+                46.4,
+                23
+              ],
+              "coords": [
+                [
+                  46.4,
+                  23
+                ]
+              ],
+              "id": 3293,
+              "name": "Rezlak",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                46.4,
+                23
+              ],
+              "coords": [
+                [
+                  46.4,
+                  23
+                ]
+              ],
+              "id": 3293,
+              "name": "Rezlak",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                39.2,
+                28.4
+              ],
+              "coords": [
+                [
+                  39,
+                  26.4
+                ],
+                [
+                  39,
+                  26.6
+                ],
+                [
+                  39,
+                  29.8
+                ],
+                [
+                  39,
+                  31.4
+                ],
+                [
+                  39,
+                  31.6
+                ],
+                [
+                  39.2,
+                  28.4
+                ],
+                [
+                  39.2,
+                  29
+                ],
+                [
+                  39.4,
+                  23.6
+                ],
+                [
+                  39.4,
+                  25
+                ],
+                [
+                  39.6,
+                  24.8
+                ],
+                [
+                  39.6,
+                  28
+                ],
+                [
+                  40,
+                  24.2
+                ],
+                [
+                  40.4,
+                  29
+                ],
+                [
+                  40.4,
+                  29.6
+                ],
+                [
+                  40.6,
+                  24.2
+                ],
+                [
+                  40.6,
+                  30
+                ]
+              ],
+              "id": 3130,
+              "item": "Charged Thunder Lizard Organ",
+              "name": "Thunder Lizard",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                41.4,
+                24.4
+              ],
+              "coords": [
+                [
+                  39,
+                  26.4
+                ],
+                [
+                  39,
+                  26.6
+                ],
+                [
+                  39.4,
+                  23.6
+                ],
+                [
+                  39.4,
+                  25
+                ],
+                [
+                  39.6,
+                  24.8
+                ],
+                [
+                  40,
+                  24.2
+                ],
+                [
+                  41.4,
+                  24.4
+                ],
+                [
+                  41.4,
+                  24.6
+                ],
+                [
+                  42.4,
+                  24.4
+                ],
+                [
+                  42.4,
+                  24.6
+                ],
+                [
+                  42.8,
+                  23.6
+                ],
+                [
+                  43.4,
+                  24.6
+                ],
+                [
+                  43.6,
+                  24
+                ],
+                [
+                  43.6,
+                  24.6
+                ]
+              ],
+              "id": 3131,
+              "item": "Charged Thunder Lizard Organ",
+              "name": "Lightning Hide",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Durotar"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        14,
+        3
+      ]
+    ]
+  },
+  "minLevel": 7,
+  "pageInfo": {
+    "name": "Stormy Potential",
+    "type": 5,
+    "typeId": 97282
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 97282,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3293,
+      "npcName": "Rezlak",
+      "zoneId": 14,
+      "x": 46.4,
+      "y": 23.0,
+      "zoneName": "Durotar"
+    }
+  ]
+}

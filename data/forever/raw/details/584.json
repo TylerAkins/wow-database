@@ -1,0 +1,159 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-24T23:19:35+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 41[/li][li]Requires level 30[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=2497/nimboya]Nimboya[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=2076/bubbling-cauldron]Bubbling Cauldron[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]30[/color][small] &nbsp;[/small][color=r1]37[/color][small] &nbsp;[/small][color=r2]39[/color][small] &nbsp;[/small][color=r3]44[/color][small] &nbsp;[/small][color=r4]51[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "33": {
+        "levels": [
+          [
+            {
+              "coord": [
+                32.2,
+                27.8
+              ],
+              "coords": [
+                [
+                  32.2,
+                  27.8
+                ]
+              ],
+              "id": 2497,
+              "name": "Nimboya",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                32.2,
+                27.7
+              ],
+              "coords": [
+                [
+                  32.2,
+                  27.7
+                ]
+              ],
+              "id": 2076,
+              "name": "Bubbling Cauldron",
+              "point": "end",
+              "type": 2
+            },
+            {
+              "coord": [
+                23.4,
+                8.2
+              ],
+              "coords": [
+                [
+                  23.4,
+                  8.2
+                ],
+                [
+                  23.4,
+                  8.6
+                ],
+                [
+                  23.6,
+                  8
+                ],
+                [
+                  23.8,
+                  8.6
+                ]
+              ],
+              "id": 1061,
+              "item": "Gan'zulah's Head",
+              "name": "Gan'zulah",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                23.4,
+                9.4
+              ],
+              "coords": [
+                [
+                  23.4,
+                  8.4
+                ],
+                [
+                  23.4,
+                  9.4
+                ],
+                [
+                  23.4,
+                  9.6
+                ],
+                [
+                  23.6,
+                  9.4
+                ],
+                [
+                  23.6,
+                  9.6
+                ]
+              ],
+              "id": 1062,
+              "item": "Nezzliok's Head",
+              "name": "Nezzliok the Dire",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stranglethorn Vale"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        33,
+        4
+      ]
+    ]
+  },
+  "minLevel": 30,
+  "pageInfo": {
+    "name": "Bloodscalp Clan Heads",
+    "type": 5,
+    "typeId": 584
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 584,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 2497,
+      "npcName": "Nimboya",
+      "zoneId": 33,
+      "x": 32.2,
+      "y": 27.8,
+      "zoneName": "Stranglethorn Vale"
+    }
+  ]
+}

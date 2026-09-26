@@ -1,0 +1,117 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T06:42:18+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 6[/li][li]Requires level 4[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1246/vosur-brakthel]Vosur Brakthel[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1246/vosur-brakthel]Vosur Brakthel[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]4[/color][small] &nbsp;[/small][color=r3]9[/color][small] &nbsp;[/small][color=r4]12[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1537": {
+        "levels": [
+          [
+            {
+              "coord": [
+                66.4,
+                55.2
+              ],
+              "coords": [
+                [
+                  66.4,
+                  55.2
+                ],
+                [
+                  66.4,
+                  55.6
+                ],
+                [
+                  66.6,
+                  55.2
+                ],
+                [
+                  67,
+                  54.2
+                ]
+              ],
+              "id": 1246,
+              "name": "Vosur Brakthel",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                66.4,
+                55.2
+              ],
+              "coords": [
+                [
+                  66.4,
+                  55.2
+                ],
+                [
+                  66.4,
+                  55.6
+                ],
+                [
+                  66.6,
+                  55.2
+                ],
+                [
+                  67,
+                  54.2
+                ]
+              ],
+              "id": 1246,
+              "name": "Vosur Brakthel",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ironforge"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1537,
+        1
+      ]
+    ]
+  },
+  "minLevel": 4,
+  "pageInfo": {
+    "name": "Camping 101: Alchemy",
+    "type": 5,
+    "typeId": 96045
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 96045,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 1246,
+      "npcName": "Vosur Brakthel",
+      "zoneId": 1537,
+      "x": 66.4,
+      "y": 55.2,
+      "zoneName": "Ironforge"
+    }
+  ]
+}

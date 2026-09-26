@@ -1,0 +1,117 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-24T23:17:23+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 14[/li][li]Requires level 10[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/object=1627/dalaran-crate]Dalaran Crate[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2121/shadow-priest-allister]Shadow Priest Allister[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]10[/color][small] &nbsp;[/small][color=r2]12[/color][small] &nbsp;[/small][color=r3]17[/color][small] &nbsp;[/small][color=r4]21[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "130": {
+        "levels": [
+          [
+            {
+              "coord": [
+                49.9,
+                60.2
+              ],
+              "coords": [
+                [
+                  49.9,
+                  60.2
+                ],
+                [
+                  49.9,
+                  60.5
+                ]
+              ],
+              "id": 1627,
+              "name": "Dalaran Crate",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                44,
+                41
+              ],
+              "coords": [
+                [
+                  44,
+                  41
+                ]
+              ],
+              "id": 2121,
+              "name": "Shadow Priest Allister",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Silverpine Forest"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        130,
+        2
+      ]
+    ]
+  },
+  "minLevel": 10,
+  "objectSpawns": [
+    {
+      "entityId": 1627,
+      "entityKind": "object",
+      "entityName": "Dalaran Crate",
+      "uiMapId": 1421,
+      "uiMapName": "Silverpine Forest",
+      "x": 49.9,
+      "y": 60.2,
+      "zoneId": 130
+    },
+    {
+      "entityId": 1627,
+      "entityKind": "object",
+      "entityName": "Dalaran Crate",
+      "uiMapId": 1421,
+      "uiMapName": "Silverpine Forest",
+      "x": 49.9,
+      "y": 60.5,
+      "zoneId": 130
+    }
+  ],
+  "pageInfo": {
+    "name": "Maps and Runes",
+    "type": 5,
+    "typeId": 478
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 478,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 1627,
+      "npcName": "Dalaran Crate",
+      "x": 49.9,
+      "y": 60.2,
+      "zoneId": 130,
+      "zoneName": "Silverpine Forest"
+    }
+  ]
+}

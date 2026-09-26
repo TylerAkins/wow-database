@@ -1,0 +1,174 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T04:20:31+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 59[/li][li]Requires level 54[/li][li]Type: Elite[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/object=180448/wanted-poster-deathclasp]Wanted Poster: Deathclasp[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=15182/vish-kozus]Vish Kozus[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]54[/color][small] &nbsp;[/small][color=r1]55[/color][small] &nbsp;[/small][color=r2]57[/color][small] &nbsp;[/small][color=r3]62[/color][small] &nbsp;[/small][color=r4]71[/color][/li][li]Added in patch [acronym=\"1.13.2.30786\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1377": {
+        "levels": [
+          [
+            {
+              "coord": [
+                51.3,
+                38.2
+              ],
+              "coords": [
+                [
+                  51.3,
+                  38.2
+                ],
+                [
+                  51.5,
+                  38.2
+                ]
+              ],
+              "id": 180448,
+              "name": "Wanted Poster: Deathclasp",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                50.8,
+                33.6
+              ],
+              "coords": [
+                [
+                  50.8,
+                  33.4
+                ],
+                [
+                  50.8,
+                  33.6
+                ]
+              ],
+              "id": 15182,
+              "name": "Vish Kozus",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                44.8,
+                90.8
+              ],
+              "coords": [
+                [
+                  42,
+                  90.6
+                ],
+                [
+                  43.4,
+                  90.2
+                ],
+                [
+                  44.2,
+                  90.4
+                ],
+                [
+                  44.4,
+                  90.6
+                ],
+                [
+                  44.6,
+                  90.4
+                ],
+                [
+                  44.8,
+                  90.8
+                ],
+                [
+                  45,
+                  92
+                ],
+                [
+                  45,
+                  92.6
+                ],
+                [
+                  45.6,
+                  90.8
+                ]
+              ],
+              "id": 15196,
+              "item": "Deathclasp's Pincer",
+              "name": "Deathclasp",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Silithus"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1377,
+        3
+      ]
+    ]
+  },
+  "minLevel": 54,
+  "objectSpawns": [
+    {
+      "entityId": 180448,
+      "entityKind": "object",
+      "entityName": "Wanted Poster: Deathclasp",
+      "uiMapId": 1451,
+      "uiMapName": "Silithus",
+      "x": 51.3,
+      "y": 38.2,
+      "zoneId": 1377
+    },
+    {
+      "entityId": 180448,
+      "entityKind": "object",
+      "entityName": "Wanted Poster: Deathclasp",
+      "uiMapId": 1451,
+      "uiMapName": "Silithus",
+      "x": 51.5,
+      "y": 38.2,
+      "zoneId": 1377
+    }
+  ],
+  "pageInfo": {
+    "name": "Wanted - Deathclasp, Terror of the Sands",
+    "type": 5,
+    "typeId": 8283
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    8277
+  ],
+  "questId": 8283,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 180448,
+      "npcName": "Wanted Poster: Deathclasp",
+      "x": 51.3,
+      "y": 38.2,
+      "zoneId": 1377,
+      "zoneName": "Silithus"
+    }
+  ]
+}

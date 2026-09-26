@@ -1,0 +1,519 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T03:22:31+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 35[/li][li]Requires level 31[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=12031/mailahii]Mai'Lahii[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=12031/mailahii]Mai'Lahii[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]31[/color][small] &nbsp;[/small][color=r2]33[/color][small] &nbsp;[/small][color=r3]38[/color][small] &nbsp;[/small][color=r4]44[/color][/li][li]Added in patch [acronym=\"1.13.2.30682\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1637": {
+        "levels": [
+          [
+            {
+              "coord": [
+                45.2,
+                63.8
+              ],
+              "coords": [
+                [
+                  45.2,
+                  63.8
+                ],
+                [
+                  45.6,
+                  64
+                ]
+              ],
+              "id": 3310,
+              "item": "Soft-shelled Clam Meat",
+              "name": "Doras",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Orgrimmar"
+      },
+      "405": {
+        "levels": [
+          [
+            {
+              "coord": [
+                22.6,
+                72
+              ],
+              "coords": [
+                [
+                  22.6,
+                  72
+                ]
+              ],
+              "id": 12031,
+              "name": "Mai'Lahii",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                22.6,
+                72
+              ],
+              "coords": [
+                [
+                  22.6,
+                  72
+                ]
+              ],
+              "id": 12031,
+              "name": "Mai'Lahii",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                33.2,
+                31.6
+              ],
+              "coords": [
+                [
+                  25.4,
+                  38.8
+                ],
+                [
+                  25.6,
+                  38.8
+                ],
+                [
+                  26,
+                  38
+                ],
+                [
+                  28.4,
+                  36.8
+                ],
+                [
+                  30,
+                  28
+                ],
+                [
+                  30,
+                  29.2
+                ],
+                [
+                  30.4,
+                  31.2
+                ],
+                [
+                  30.4,
+                  34.6
+                ],
+                [
+                  30.4,
+                  35.6
+                ],
+                [
+                  30.6,
+                  31.8
+                ],
+                [
+                  30.6,
+                  34.6
+                ],
+                [
+                  30.8,
+                  35.6
+                ],
+                [
+                  31.4,
+                  24.4
+                ],
+                [
+                  31.4,
+                  24.6
+                ],
+                [
+                  31.4,
+                  28.2
+                ],
+                [
+                  31.6,
+                  24.4
+                ],
+                [
+                  31.6,
+                  24.6
+                ],
+                [
+                  31.6,
+                  27.6
+                ],
+                [
+                  32.4,
+                  29.4
+                ],
+                [
+                  32.4,
+                  30.2
+                ],
+                [
+                  32.4,
+                  33.4
+                ],
+                [
+                  32.4,
+                  33.6
+                ],
+                [
+                  32.6,
+                  25.2
+                ],
+                [
+                  32.6,
+                  33.4
+                ],
+                [
+                  32.6,
+                  33.6
+                ],
+                [
+                  32.8,
+                  28.6
+                ],
+                [
+                  33,
+                  26.4
+                ],
+                [
+                  33,
+                  26.6
+                ],
+                [
+                  33,
+                  28.4
+                ],
+                [
+                  33,
+                  30.2
+                ],
+                [
+                  33,
+                  30.6
+                ],
+                [
+                  33.2,
+                  31.6
+                ],
+                [
+                  33.8,
+                  32
+                ],
+                [
+                  33.8,
+                  33.2
+                ],
+                [
+                  34,
+                  27.4
+                ],
+                [
+                  34,
+                  30.8
+                ],
+                [
+                  34.2,
+                  28.4
+                ],
+                [
+                  34.2,
+                  29
+                ],
+                [
+                  34.2,
+                  29.6
+                ],
+                [
+                  34.2,
+                  35.6
+                ],
+                [
+                  34.4,
+                  23.2
+                ],
+                [
+                  34.4,
+                  25.4
+                ],
+                [
+                  34.4,
+                  25.8
+                ],
+                [
+                  34.4,
+                  35
+                ],
+                [
+                  34.6,
+                  25.4
+                ],
+                [
+                  34.6,
+                  25.8
+                ],
+                [
+                  34.6,
+                  29
+                ],
+                [
+                  34.6,
+                  34
+                ],
+                [
+                  34.6,
+                  35
+                ],
+                [
+                  35,
+                  22.4
+                ],
+                [
+                  35,
+                  22.6
+                ],
+                [
+                  36.4,
+                  24.4
+                ],
+                [
+                  36.4,
+                  24.6
+                ],
+                [
+                  36.6,
+                  24.4
+                ],
+                [
+                  36.6,
+                  24.6
+                ]
+              ],
+              "id": 12347,
+              "item": "Soft-shelled Clam",
+              "name": "Enraged Reef Crawler",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                33,
+                28.6
+              ],
+              "coords": [
+                [
+                  23.8,
+                  40.5
+                ],
+                [
+                  23.9,
+                  40.4
+                ],
+                [
+                  24.6,
+                  44.1
+                ],
+                [
+                  25.4,
+                  47.8
+                ],
+                [
+                  25.5,
+                  47.8
+                ],
+                [
+                  25.6,
+                  38.9
+                ],
+                [
+                  26.2,
+                  36.6
+                ],
+                [
+                  26.4,
+                  41
+                ],
+                [
+                  26.5,
+                  41.1
+                ],
+                [
+                  28,
+                  37.4
+                ],
+                [
+                  28,
+                  37.5
+                ],
+                [
+                  28.2,
+                  34.1
+                ],
+                [
+                  29.7,
+                  36.6
+                ],
+                [
+                  30,
+                  26.2
+                ],
+                [
+                  30.1,
+                  29.2
+                ],
+                [
+                  30.4,
+                  34.2
+                ],
+                [
+                  30.5,
+                  32
+                ],
+                [
+                  30.5,
+                  34.3
+                ],
+                [
+                  30.7,
+                  27.5
+                ],
+                [
+                  30.8,
+                  24.4
+                ],
+                [
+                  30.8,
+                  27.4
+                ],
+                [
+                  31.9,
+                  30.4
+                ],
+                [
+                  32,
+                  30.5
+                ],
+                [
+                  32.7,
+                  25.4
+                ],
+                [
+                  32.8,
+                  35.2
+                ],
+                [
+                  33,
+                  28.4
+                ],
+                [
+                  33,
+                  28.6
+                ],
+                [
+                  33.9,
+                  33.2
+                ],
+                [
+                  34.1,
+                  27.5
+                ],
+                [
+                  34.1,
+                  30.8
+                ],
+                [
+                  34.2,
+                  27.4
+                ],
+                [
+                  34.3,
+                  23.2
+                ],
+                [
+                  35.2,
+                  34.7
+                ],
+                [
+                  35.4,
+                  25
+                ],
+                [
+                  35.5,
+                  25
+                ]
+              ],
+              "id": 177784,
+              "item": "Soft-shelled Clam",
+              "name": "Giant Softshell Clam",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Desolace"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        405,
+        3
+      ],
+      [
+        1637,
+        1
+      ]
+    ]
+  },
+  "minLevel": 31,
+  "pageInfo": {
+    "name": "Clam Bait",
+    "type": 5,
+    "typeId": 6142
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 6142,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 12031,
+      "npcName": "Mai'Lahii",
+      "zoneId": 405,
+      "x": 22.6,
+      "y": 72.0,
+      "zoneName": "Desolace"
+    }
+  ]
+}

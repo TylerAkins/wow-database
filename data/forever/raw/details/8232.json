@@ -1,0 +1,103 @@
+{
+  "classes": [
+    3
+  ],
+  "fetchedAt": "2026-09-25T04:16:19+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": true,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 52[/li][li]Requires level 50[/li][li]Type: Dungeon[/li][li]Side: Both[/li][li]Class: [class=3][/li][li][icon name=quest-start]Start: [url=/forever/npc=8405/ogtinc]Ogtinc[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=8405/ogtinc]Ogtinc[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]50[/color][small] &nbsp;[/small][color=r3]55[/color][small] &nbsp;[/small][color=r4]63[/color][/li][li]Added in patch [acronym=\"1.13.3.33155\"]1.13.3[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "16": {
+        "levels": [
+          [
+            {
+              "coord": [
+                42.4,
+                42.6
+              ],
+              "coords": [
+                [
+                  42.4,
+                  42.6
+                ]
+              ],
+              "id": 8405,
+              "name": "Ogtinc",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                42.4,
+                42.6
+              ],
+              "coords": [
+                [
+                  42.4,
+                  42.6
+                ]
+              ],
+              "id": 8405,
+              "name": "Ogtinc",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Azshara"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16,
+        1
+      ]
+    ]
+  },
+  "minLevel": 50,
+  "pageInfo": {
+    "name": "The Green Drake",
+    "type": 5,
+    "typeId": 8232
+  },
+  "pinCategory": "instance",
+  "prerequisiteQuestIds": [
+    8236,
+    8253,
+    8257,
+    8413,
+    8418,
+    8422,
+    8425,
+    9053
+  ],
+  "questId": 8232,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 8405,
+      "npcName": "Ogtinc",
+      "zoneId": 16,
+      "x": 42.4,
+      "y": 42.6,
+      "zoneName": "Azshara"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T00:46:12+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 35[/li][li]Requires level 30[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=5395/felgur-twocuts]Felgur Twocuts[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=5395/felgur-twocuts]Felgur Twocuts[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]30[/color][small] &nbsp;[/small][color=r1]31[/color][small] &nbsp;[/small][color=r2]33[/color][small] &nbsp;[/small][color=r3]38[/color][small] &nbsp;[/small][color=r4]44[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "405": {
+        "levels": [
+          [
+            {
+              "coord": [
+                56.2,
+                59.4
+              ],
+              "coords": [
+                [
+                  56.2,
+                  59.4
+                ],
+                [
+                  56.2,
+                  59.6
+                ]
+              ],
+              "id": 5395,
+              "name": "Felgur Twocuts",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                56.2,
+                59.4
+              ],
+              "coords": [
+                [
+                  56.2,
+                  59.4
+                ],
+                [
+                  56.2,
+                  59.6
+                ]
+              ],
+              "id": 5395,
+              "name": "Felgur Twocuts",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                73.2,
+                41.8
+              ],
+              "coords": [
+                [
+                  73,
+                  45.6
+                ],
+                [
+                  73,
+                  46.8
+                ],
+                [
+                  73.2,
+                  41.8
+                ],
+                [
+                  73.2,
+                  42.6
+                ],
+                [
+                  74.4,
+                  48.8
+                ],
+                [
+                  74.6,
+                  48.8
+                ]
+              ],
+              "id": 5600,
+              "item": "Khan Dez'hepah's Head",
+              "name": "Khan Dez'hepah",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Desolace"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        405,
+        2
+      ]
+    ]
+  },
+  "minLevel": 30,
+  "pageInfo": {
+    "name": "Khan Dez'hepah",
+    "type": 5,
+    "typeId": 1365
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 1365,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 5395,
+      "npcName": "Felgur Twocuts",
+      "zoneId": 405,
+      "x": 56.2,
+      "y": 59.4,
+      "zoneName": "Desolace"
+    }
+  ]
+}

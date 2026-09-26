@@ -1,0 +1,131 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T06:59:13+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 13[/li][li]Requires level 10[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/object=175320/wanted-murkdeep]WANTED: Murkdeep![/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2930/sentinel-glynda-nalshea]Sentinel Glynda Nal'Shea[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]10[/color][small] &nbsp;[/small][color=r2]11[/color][small] &nbsp;[/small][color=r3]16[/color][small] &nbsp;[/small][color=r4]19[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "148": {
+        "levels": [
+          [
+            {
+              "coord": [
+                37.2,
+                44.2
+              ],
+              "coords": [
+                [
+                  37.2,
+                  44.2
+                ]
+              ],
+              "id": 175320,
+              "name": "WANTED: Murkdeep!",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                37.6,
+                43.4
+              ],
+              "coords": [
+                [
+                  37.6,
+                  43.4
+                ],
+                [
+                  37.6,
+                  43.6
+                ]
+              ],
+              "id": 2930,
+              "name": "Sentinel Glynda Nal'Shea",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                45,
+                58.2
+              ],
+              "coords": [
+                [
+                  45,
+                  58.2
+                ],
+                [
+                  45,
+                  58.6
+                ]
+              ],
+              "id": 270196,
+              "item": "Feather of Jai'vhanel",
+              "name": "Jai'vhanel",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Darkshore"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        148,
+        3
+      ]
+    ]
+  },
+  "minLevel": 10,
+  "objectSpawns": [
+    {
+      "entityId": 175320,
+      "entityKind": "object",
+      "entityName": "WANTED: Murkdeep!",
+      "uiMapId": 1439,
+      "uiMapName": "Darkshore",
+      "x": 37.2,
+      "y": 44.2,
+      "zoneId": 148
+    }
+  ],
+  "pageInfo": {
+    "name": "WANTED: Jai'vhanel",
+    "type": 5,
+    "typeId": 98025
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 98025,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 175320,
+      "npcName": "WANTED: Murkdeep!",
+      "x": 37.2,
+      "y": 44.2,
+      "zoneId": 148,
+      "zoneName": "Darkshore"
+    }
+  ]
+}

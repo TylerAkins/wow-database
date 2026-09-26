@@ -1,0 +1,156 @@
+{
+  "classes": [
+    1
+  ],
+  "fetchedAt": "2026-09-25T01:07:56+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": true,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 37[/li][li]Requires level 30[/li][li]Side: Both[/li][li]Class: [class=1][/li][li][icon name=quest-start]Start: [url=/forever/object=89931/bathrahs-cauldron]Bath'rah's Cauldron[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=89931/bathrahs-cauldron]Bath'rah's Cauldron[/url][/icon][/li][li]Repeatable[/li][li]Sharable[/li][li]Difficulty: [color=q10]30[/color][small] &nbsp;[/small][color=r1]33[/color][small] &nbsp;[/small][color=r2]35[/color][small] &nbsp;[/small][color=r3]40[/color][small] &nbsp;[/small][color=r4]46[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 2,
+    "objectives": {
+      "36": {
+        "levels": [
+          [
+            {
+              "coord": [
+                79.3,
+                66.7
+              ],
+              "coords": [
+                [
+                  79.3,
+                  66.7
+                ],
+                [
+                  79.5,
+                  66.8
+                ]
+              ],
+              "id": 89931,
+              "name": "Bath'rah's Cauldron",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                79.3,
+                66.7
+              ],
+              "coords": [
+                [
+                  79.3,
+                  66.7
+                ],
+                [
+                  79.5,
+                  66.8
+                ]
+              ],
+              "id": 89931,
+              "name": "Bath'rah's Cauldron",
+              "point": "end",
+              "type": 2
+            },
+            {
+              "coord": [
+                60,
+                45.6
+              ],
+              "coords": [
+                [
+                  59.4,
+                  46.4
+                ],
+                [
+                  60,
+                  45.4
+                ],
+                [
+                  60,
+                  45.6
+                ],
+                [
+                  60,
+                  46.6
+                ],
+                [
+                  61.4,
+                  46.4
+                ]
+              ],
+              "id": 217305,
+              "item": "Burning Charm",
+              "name": "Ancient Fire Elemental",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Alterac Mountains"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        36,
+        2
+      ]
+    ]
+  },
+  "minLevel": 30,
+  "objectSpawns": [
+    {
+      "entityId": 89931,
+      "entityKind": "object",
+      "entityName": "Bath'rah's Cauldron",
+      "uiMapId": 1416,
+      "uiMapName": "Alterac Mountains",
+      "x": 79.3,
+      "y": 66.7,
+      "zoneId": 36
+    },
+    {
+      "entityId": 89931,
+      "entityKind": "object",
+      "entityName": "Bath'rah's Cauldron",
+      "uiMapId": 1416,
+      "uiMapName": "Alterac Mountains",
+      "x": 79.5,
+      "y": 66.8,
+      "zoneId": 36
+    }
+  ],
+  "pageInfo": {
+    "name": "Essence of the Exile",
+    "type": 5,
+    "typeId": 1714
+  },
+  "pinCategory": "repeatable",
+  "prerequisiteQuestIds": [],
+  "questId": 1714,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 89931,
+      "npcName": "Bath'rah's Cauldron",
+      "x": 79.3,
+      "y": 66.7,
+      "zoneId": 36,
+      "zoneName": "Alterac Mountains"
+    }
+  ]
+}

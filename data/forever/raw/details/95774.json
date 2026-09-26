@@ -1,0 +1,261 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T06:41:02+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 20[/li][li]Requires level 14[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3432/mankrik]Mankrik[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3432/mankrik]Mankrik[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]14[/color][small] &nbsp;[/small][color=r1]16[/color][small] &nbsp;[/small][color=r2]18[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "17": {
+        "levels": [
+          [
+            {
+              "coord": [
+                52,
+                31.6
+              ],
+              "coords": [
+                [
+                  52,
+                  31.4
+                ],
+                [
+                  52,
+                  31.6
+                ]
+              ],
+              "id": 3432,
+              "name": "Mankrik",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                52,
+                31.6
+              ],
+              "coords": [
+                [
+                  52,
+                  31.4
+                ],
+                [
+                  52,
+                  31.6
+                ]
+              ],
+              "id": 3432,
+              "name": "Mankrik",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                49.2,
+                50.4
+              ],
+              "coords": [
+                [
+                  47.4,
+                  51
+                ],
+                [
+                  47.4,
+                  52.2
+                ],
+                [
+                  47.6,
+                  50.6
+                ],
+                [
+                  47.6,
+                  52.6
+                ],
+                [
+                  47.8,
+                  49.8
+                ],
+                [
+                  48,
+                  49
+                ],
+                [
+                  48,
+                  53.6
+                ],
+                [
+                  48.2,
+                  54.6
+                ],
+                [
+                  48.4,
+                  52
+                ],
+                [
+                  49.2,
+                  50.4
+                ],
+                [
+                  49.2,
+                  50.6
+                ],
+                [
+                  49.2,
+                  54.6
+                ],
+                [
+                  49.4,
+                  46
+                ],
+                [
+                  49.4,
+                  49.2
+                ],
+                [
+                  49.4,
+                  54.2
+                ],
+                [
+                  49.6,
+                  46.4
+                ],
+                [
+                  49.6,
+                  50.6
+                ],
+                [
+                  49.8,
+                  49.4
+                ],
+                [
+                  49.8,
+                  51.6
+                ],
+                [
+                  49.8,
+                  54.6
+                ],
+                [
+                  50,
+                  50
+                ],
+                [
+                  50,
+                  56
+                ],
+                [
+                  50.2,
+                  53
+                ],
+                [
+                  50.4,
+                  48.4
+                ],
+                [
+                  50.4,
+                  53.8
+                ],
+                [
+                  50.6,
+                  48.4
+                ],
+                [
+                  50.6,
+                  50
+                ],
+                [
+                  51.2,
+                  51.6
+                ],
+                [
+                  51.2,
+                  52.8
+                ],
+                [
+                  51.4,
+                  51.4
+                ],
+                [
+                  51.6,
+                  49.4
+                ],
+                [
+                  51.6,
+                  50
+                ],
+                [
+                  51.6,
+                  51.2
+                ],
+                [
+                  51.6,
+                  52.8
+                ],
+                [
+                  52.6,
+                  50.4
+                ],
+                [
+                  52.6,
+                  50.6
+                ]
+              ],
+              "id": 268624,
+              "item": "Olgra's Adornments",
+              "name": "Razormane Raider",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Barrens"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        17,
+        2
+      ]
+    ]
+  },
+  "minLevel": 14,
+  "pageInfo": {
+    "name": "Her Name Is Olgra",
+    "type": 5,
+    "typeId": 95774
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 95774,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3432,
+      "npcName": "Mankrik",
+      "zoneId": 17,
+      "x": 52.0,
+      "y": 31.6,
+      "zoneName": "The Barrens"
+    }
+  ]
+}

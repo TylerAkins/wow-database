@@ -1,0 +1,337 @@
+{
+  "classes": [
+    1
+  ],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T04:31:29+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 52[/li][li]Requires level 50[/li][li]Side: Both[/li][li]Class: [class=1][/li][li][icon name=quest-start]Start: [span class=icon-horde][url=/forever/npc=3354/sorek]Sorek[/url][/span][/icon][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-horde][url=/forever/npc=4593/christoph-walker]Christoph Walker[/url][/span][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-alliance-padded][url=/forever/npc=5113/kelv-sternhammer]Kelv Sternhammer[/url][/span][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-alliance-padded][url=/forever/npc=5479/wu-shen]Wu Shen[/url][/span][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-alliance-padded][url=/forever/npc=7315/darnath-bladesinger]Darnath Bladesinger[/url][/span][/li][li][icon name=quest-end]End: [url=/forever/npc=7572/fallen-hero-of-the-horde]Fallen Hero of the Horde[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]50[/color][small] &nbsp;[/small][color=r3]55[/color][small] &nbsp;[/small][color=r4]63[/color][/li][li]Added in patch [acronym=\"1.13.3.33155\"]1.13.3[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1497": {
+        "levels": [
+          [
+            {
+              "coord": [
+                47.2,
+                15
+              ],
+              "coords": [
+                [
+                  46.6,
+                  16.6
+                ],
+                [
+                  46.8,
+                  15.6
+                ],
+                [
+                  47.2,
+                  15
+                ],
+                [
+                  47.6,
+                  15.8
+                ],
+                [
+                  47.8,
+                  14.8
+                ]
+              ],
+              "id": 4593,
+              "name": "Christoph Walker",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Undercity"
+      },
+      "1519": {
+        "levels": [
+          [
+            {
+              "coord": [
+                78.8,
+                45.6
+              ],
+              "coords": [
+                [
+                  78.8,
+                  45.4
+                ],
+                [
+                  78.8,
+                  45.6
+                ]
+              ],
+              "id": 5479,
+              "name": "Wu Shen",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stormwind City"
+      },
+      "1537": {
+        "levels": [
+          [
+            {
+              "coord": [
+                70,
+                90.6
+              ],
+              "coords": [
+                [
+                  69.2,
+                  91.4
+                ],
+                [
+                  70,
+                  89.4
+                ],
+                [
+                  70,
+                  90.4
+                ],
+                [
+                  70,
+                  90.6
+                ],
+                [
+                  70.6,
+                  90.4
+                ],
+                [
+                  70.6,
+                  90.6
+                ],
+                [
+                  71.2,
+                  91.6
+                ]
+              ],
+              "id": 5113,
+              "name": "Kelv Sternhammer",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ironforge"
+      },
+      "1637": {
+        "levels": [
+          [
+            {
+              "coord": [
+                80.2,
+                32.4
+              ],
+              "coords": [
+                [
+                  79.8,
+                  32.6
+                ],
+                [
+                  80.2,
+                  32.4
+                ],
+                [
+                  80.4,
+                  31.4
+                ]
+              ],
+              "id": 3354,
+              "name": "Sorek",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Orgrimmar"
+      },
+      "1657": {
+        "levels": [
+          [
+            {
+              "coord": [
+                58.6,
+                35.4
+              ],
+              "coords": [
+                [
+                  58.4,
+                  35.4
+                ],
+                [
+                  58.4,
+                  35.6
+                ],
+                [
+                  58.6,
+                  35.4
+                ],
+                [
+                  58.6,
+                  35.6
+                ]
+              ],
+              "id": 7315,
+              "name": "Darnath Bladesinger",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Darnassus"
+      },
+      "8": {
+        "levels": [
+          [
+            {
+              "coord": [
+                34.2,
+                66
+              ],
+              "coords": [
+                [
+                  34.2,
+                  65.4
+                ],
+                [
+                  34.2,
+                  66
+                ]
+              ],
+              "id": 7572,
+              "name": "Fallen Hero of the Horde",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Swamp of Sorrows"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1657,
+        1
+      ],
+      [
+        1637,
+        1
+      ],
+      [
+        1497,
+        1
+      ],
+      [
+        1537,
+        1
+      ],
+      [
+        1519,
+        1
+      ],
+      [
+        8,
+        1
+      ]
+    ]
+  },
+  "minLevel": 50,
+  "pageInfo": {
+    "name": "A Troubled Spirit",
+    "type": 5,
+    "typeId": 8417
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    8232,
+    8236,
+    8253,
+    8257,
+    8413,
+    8418,
+    8422,
+    8425,
+    9053
+  ],
+  "questId": 8417,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3354,
+      "npcName": "Sorek",
+      "zoneId": 1637,
+      "x": 80.2,
+      "y": 32.4,
+      "zoneName": "Orgrimmar"
+    },
+    {
+      "npcId": 4593,
+      "npcName": "Christoph Walker",
+      "zoneId": 1497,
+      "x": 47.2,
+      "y": 15.0,
+      "zoneName": "Undercity"
+    },
+    {
+      "npcId": 5113,
+      "npcName": "Kelv Sternhammer",
+      "zoneId": 1537,
+      "x": 70.0,
+      "y": 90.6,
+      "zoneName": "Ironforge"
+    },
+    {
+      "npcId": 5479,
+      "npcName": "Wu Shen",
+      "zoneId": 1519,
+      "x": 78.8,
+      "y": 45.6,
+      "zoneName": "Stormwind City"
+    },
+    {
+      "npcId": 7315,
+      "npcName": "Darnath Bladesinger",
+      "zoneId": 1657,
+      "x": 58.6,
+      "y": 35.4,
+      "zoneName": "Darnassus"
+    }
+  ]
+}

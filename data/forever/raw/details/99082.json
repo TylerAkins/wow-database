@@ -1,0 +1,125 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T07:08:04+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 9[/li][li]Requires level 4[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=2993/baine-bloodhoof]Baine Bloodhoof[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3057/cairne-bloodhoof]Cairne Bloodhoof[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]4[/color][small] &nbsp;[/small][color=r1]5[/color][small] &nbsp;[/small][color=r2]7[/color][small] &nbsp;[/small][color=r3]12[/color][small] &nbsp;[/small][color=r4]15[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1638": {
+        "levels": [
+          [
+            {
+              "coord": [
+                59.8,
+                51.6
+              ],
+              "coords": [
+                [
+                  59.4,
+                  51.4
+                ],
+                [
+                  59.4,
+                  51.6
+                ],
+                [
+                  59.8,
+                  51.4
+                ],
+                [
+                  59.8,
+                  51.6
+                ]
+              ],
+              "id": 3057,
+              "name": "Cairne Bloodhoof",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Thunder Bluff"
+      },
+      "215": {
+        "levels": [
+          [
+            {
+              "coord": [
+                47.4,
+                60.2
+              ],
+              "coords": [
+                [
+                  46.6,
+                  63.4
+                ],
+                [
+                  47.4,
+                  60.2
+                ],
+                [
+                  47.6,
+                  60.2
+                ]
+              ],
+              "id": 2993,
+              "name": "Baine Bloodhoof",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Mulgore"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        215,
+        1
+      ],
+      [
+        1638,
+        1
+      ]
+    ]
+  },
+  "minLevel": 4,
+  "pageInfo": {
+    "name": "The High Chieftain",
+    "type": 5,
+    "typeId": 99082
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 99082,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 2993,
+      "npcName": "Baine Bloodhoof",
+      "zoneId": 215,
+      "x": 47.4,
+      "y": 60.2,
+      "zoneName": "Mulgore"
+    }
+  ]
+}

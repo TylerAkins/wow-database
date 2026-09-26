@@ -1,0 +1,146 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T02:42:52+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 55[/li][li]Requires level 52[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/object=175924/locked-cabinet]Locked Cabinet[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=175924/locked-cabinet]Locked Cabinet[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]52[/color][small] &nbsp;[/small][color=r2]53[/color][small] &nbsp;[/small][color=r3]58[/color][small] &nbsp;[/small][color=r4]66[/color][/li][li]Added in patch [acronym=\"1.13.2.30786\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "28": {
+        "levels": [
+          [
+            {
+              "coord": [
+                47.4,
+                49.7
+              ],
+              "coords": [
+                [
+                  47.4,
+                  49.7
+                ],
+                [
+                  47.5,
+                  49.6
+                ]
+              ],
+              "id": 175924,
+              "name": "Locked Cabinet",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                47.4,
+                49.7
+              ],
+              "coords": [
+                [
+                  47.4,
+                  49.7
+                ],
+                [
+                  47.5,
+                  49.6
+                ]
+              ],
+              "id": 175924,
+              "name": "Locked Cabinet",
+              "point": "end",
+              "type": 2
+            },
+            {
+              "coord": [
+                48.2,
+                49.6
+              ],
+              "coords": [
+                [
+                  48.2,
+                  49.4
+                ],
+                [
+                  48.2,
+                  49.6
+                ],
+                [
+                  48.6,
+                  49.4
+                ]
+              ],
+              "id": 10836,
+              "item": "Dalson Cabinet Key",
+              "name": "Farmer Dalson",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Western Plaguelands"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        28,
+        2
+      ]
+    ]
+  },
+  "minLevel": 52,
+  "objectSpawns": [
+    {
+      "entityId": 175924,
+      "entityKind": "object",
+      "entityName": "Locked Cabinet",
+      "uiMapId": 1422,
+      "uiMapName": "Western Plaguelands",
+      "x": 47.4,
+      "y": 49.7,
+      "zoneId": 28
+    },
+    {
+      "entityId": 175924,
+      "entityKind": "object",
+      "entityName": "Locked Cabinet",
+      "uiMapId": 1422,
+      "uiMapName": "Western Plaguelands",
+      "x": 47.5,
+      "y": 49.6,
+      "zoneId": 28
+    }
+  ],
+  "pageInfo": {
+    "name": "Locked Away",
+    "type": 5,
+    "typeId": 5060
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 5060,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 175924,
+      "npcName": "Locked Cabinet",
+      "x": 47.4,
+      "y": 49.7,
+      "zoneId": 28,
+      "zoneName": "Western Plaguelands"
+    }
+  ]
+}

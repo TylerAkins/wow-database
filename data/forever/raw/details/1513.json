@@ -1,0 +1,246 @@
+{
+  "classes": [
+    9
+  ],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T00:58:04+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 20[/li][li]Requires level 20[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Races: [race=2], [race=5][/li][li]Class: [class=9][/li][li][icon name=quest-start]Start: [url=/forever/npc=5875/ganrul-bloodeye]Gan'rul Bloodeye[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=5875/ganrul-bloodeye]Gan'rul Bloodeye[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]20[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1497": {
+        "levels": [
+          [
+            {
+              "coord": [
+                86.4,
+                26.6
+              ],
+              "coords": [
+                [
+                  84.8,
+                  24.6
+                ],
+                [
+                  85,
+                  25.6
+                ],
+                [
+                  85.6,
+                  24.4
+                ],
+                [
+                  85.8,
+                  25
+                ],
+                [
+                  86.2,
+                  27.6
+                ],
+                [
+                  86.4,
+                  26.4
+                ],
+                [
+                  86.4,
+                  26.6
+                ],
+                [
+                  86.6,
+                  26.4
+                ],
+                [
+                  86.6,
+                  26.8
+                ],
+                [
+                  86.8,
+                  27.8
+                ]
+              ],
+              "id": 5677,
+              "name": "Summoned Succubus",
+              "objective": 5677,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Undercity"
+      },
+      "1519": {
+        "levels": [
+          [
+            {
+              "coord": [
+                25.2,
+                77.4
+              ],
+              "coords": [
+                [
+                  25.2,
+                  77.4
+                ],
+                [
+                  25.2,
+                  77.6
+                ],
+                [
+                  25.6,
+                  77
+                ]
+              ],
+              "id": 5677,
+              "name": "Summoned Succubus",
+              "objective": 5677,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stormwind City"
+      },
+      "1637": {
+        "levels": [
+          [
+            {
+              "coord": [
+                48.2,
+                45.6
+              ],
+              "coords": [
+                [
+                  48.2,
+                  45.4
+                ],
+                [
+                  48.2,
+                  45.6
+                ]
+              ],
+              "id": 5875,
+              "name": "Gan'rul Bloodeye",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                48.2,
+                45.6
+              ],
+              "coords": [
+                [
+                  48.2,
+                  45.4
+                ],
+                [
+                  48.2,
+                  45.6
+                ]
+              ],
+              "id": 5875,
+              "name": "Gan'rul Bloodeye",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                49.4,
+                50
+              ],
+              "coords": [
+                [
+                  49.4,
+                  50
+                ],
+                [
+                  49.6,
+                  50
+                ]
+              ],
+              "id": 5677,
+              "name": "Summoned Succubus",
+              "objective": 5677,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Orgrimmar"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1637,
+        2
+      ],
+      [
+        1497,
+        1
+      ],
+      [
+        1519,
+        1
+      ]
+    ]
+  },
+  "minLevel": 20,
+  "pageInfo": {
+    "name": "The Binding",
+    "type": 5,
+    "typeId": 1513
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    1472,
+    1474,
+    1476,
+    1507,
+    1508,
+    1509,
+    1510,
+    1511,
+    1512,
+    1515
+  ],
+  "questId": 1513,
+  "races": [
+    2,
+    5
+  ],
+  "startPins": [
+    {
+      "npcId": 5875,
+      "npcName": "Gan'rul Bloodeye",
+      "zoneId": 1637,
+      "x": 48.2,
+      "y": 45.6,
+      "zoneName": "Orgrimmar"
+    }
+  ]
+}

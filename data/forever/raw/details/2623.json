@@ -1,0 +1,253 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T01:28:27+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 55[/li][li]Requires level 45[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=7643/bengor]Bengor[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=7572/fallen-hero-of-the-horde]Fallen Hero of the Horde[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]45[/color][small] &nbsp;[/small][color=r1]51[/color][small] &nbsp;[/small][color=r2]53[/color][small] &nbsp;[/small][color=r3]58[/color][small] &nbsp;[/small][color=r4]66[/color][/li][li]Added in patch [acronym=\"1.13.2.31446\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "8": {
+        "levels": [
+          [
+            {
+              "coord": [
+                45,
+                57.2
+              ],
+              "coords": [
+                [
+                  45,
+                  57.2
+                ]
+              ],
+              "id": 7643,
+              "name": "Bengor",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                34.2,
+                66
+              ],
+              "coords": [
+                [
+                  34.2,
+                  65.4
+                ],
+                [
+                  34.2,
+                  66
+                ]
+              ],
+              "id": 7572,
+              "name": "Fallen Hero of the Horde",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                61,
+                84.2
+              ],
+              "coords": [
+                [
+                  60.4,
+                  85.2
+                ],
+                [
+                  60.4,
+                  86
+                ],
+                [
+                  60.4,
+                  87
+                ],
+                [
+                  60.6,
+                  85.2
+                ],
+                [
+                  60.6,
+                  85.8
+                ],
+                [
+                  60.6,
+                  86.8
+                ],
+                [
+                  61,
+                  83.4
+                ],
+                [
+                  61,
+                  84.2
+                ],
+                [
+                  62.4,
+                  81
+                ],
+                [
+                  62.4,
+                  87.4
+                ],
+                [
+                  62.4,
+                  87.8
+                ],
+                [
+                  62.4,
+                  88.8
+                ],
+                [
+                  62.4,
+                  89.6
+                ],
+                [
+                  62.6,
+                  89.4
+                ],
+                [
+                  62.6,
+                  89.6
+                ],
+                [
+                  62.8,
+                  80.6
+                ],
+                [
+                  62.8,
+                  88.2
+                ],
+                [
+                  63,
+                  91
+                ],
+                [
+                  63.2,
+                  87.4
+                ],
+                [
+                  63.4,
+                  80.4
+                ],
+                [
+                  63.6,
+                  88.4
+                ],
+                [
+                  63.6,
+                  91.2
+                ],
+                [
+                  64,
+                  80.4
+                ],
+                [
+                  64,
+                  80.8
+                ],
+                [
+                  64.2,
+                  79.4
+                ],
+                [
+                  64.2,
+                  82
+                ],
+                [
+                  64.4,
+                  90.4
+                ],
+                [
+                  64.6,
+                  80.2
+                ],
+                [
+                  64.8,
+                  81.4
+                ],
+                [
+                  65,
+                  81.6
+                ],
+                [
+                  65.6,
+                  80.6
+                ],
+                [
+                  65.6,
+                  82
+                ],
+                [
+                  65.8,
+                  80.2
+                ],
+                [
+                  66,
+                  79
+                ]
+              ],
+              "id": 950,
+              "item": "Warchief's Orders",
+              "name": "Swamp Talker",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Swamp of Sorrows"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        8,
+        3
+      ]
+    ]
+  },
+  "minLevel": 45,
+  "pageInfo": {
+    "name": "The Swamp Talker",
+    "type": 5,
+    "typeId": 2623
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    698,
+    1426,
+    1428
+  ],
+  "questId": 2623,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 7643,
+      "npcName": "Bengor",
+      "zoneId": 8,
+      "x": 45.0,
+      "y": 57.2,
+      "zoneName": "Swamp of Sorrows"
+    }
+  ]
+}

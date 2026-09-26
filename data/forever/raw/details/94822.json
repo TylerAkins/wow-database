@@ -1,0 +1,70 @@
+{
+  "classes": [
+    5
+  ],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T06:36:05+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 10[/li][li]Requires level 10[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Race: [race=7][/li][li]Class: [class=5][/li][li][icon name=quest-end]End: [url=/forever/npc=258785/high-priestess-mims]High Priestess Mims[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]10[/color][small] &nbsp;[/small][color=r3]13[/color][small] &nbsp;[/small][color=r4]16[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1537": {
+        "levels": [
+          [
+            {
+              "coord": [
+                24.8,
+                10
+              ],
+              "coords": [
+                [
+                  24.8,
+                  10
+                ]
+              ],
+              "id": 258785,
+              "name": "High Priestess Mims",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ironforge"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1537,
+        1
+      ]
+    ]
+  },
+  "minLevel": 10,
+  "pageInfo": {
+    "name": "Confounding Flash",
+    "type": 5,
+    "typeId": 94822
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 94822,
+  "races": [
+    7
+  ],
+  "startPins": []
+}

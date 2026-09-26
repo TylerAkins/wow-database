@@ -1,0 +1,291 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-24T23:15:56+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 13[/li][li]Requires level 7[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1499/magistrate-sevren]Magistrate Sevren[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1499/magistrate-sevren]Magistrate Sevren[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]7[/color][small] &nbsp;[/small][color=r1]9[/color][small] &nbsp;[/small][color=r2]11[/color][small] &nbsp;[/small][color=r3]16[/color][small] &nbsp;[/small][color=r4]19[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "85": {
+        "levels": [
+          [
+            {
+              "coord": [
+                61.2,
+                50.8
+              ],
+              "coords": [
+                [
+                  61.2,
+                  50.8
+                ]
+              ],
+              "id": 1499,
+              "name": "Magistrate Sevren",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                61.2,
+                50.8
+              ],
+              "coords": [
+                [
+                  61.2,
+                  50.8
+                ]
+              ],
+              "id": 1499,
+              "name": "Magistrate Sevren",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                52.4,
+                26.2
+              ],
+              "coords": [
+                [
+                  50.4,
+                  29.6
+                ],
+                [
+                  50.6,
+                  29.2
+                ],
+                [
+                  50.8,
+                  29.6
+                ],
+                [
+                  51.2,
+                  28
+                ],
+                [
+                  51.2,
+                  31.6
+                ],
+                [
+                  51.4,
+                  31.4
+                ],
+                [
+                  51.8,
+                  30.4
+                ],
+                [
+                  51.8,
+                  30.6
+                ],
+                [
+                  52,
+                  27.6
+                ],
+                [
+                  52.4,
+                  26.2
+                ],
+                [
+                  52.4,
+                  26.6
+                ],
+                [
+                  52.6,
+                  26.2
+                ],
+                [
+                  52.6,
+                  26.8
+                ],
+                [
+                  53.2,
+                  31
+                ],
+                [
+                  53.4,
+                  30.2
+                ],
+                [
+                  53.8,
+                  29.8
+                ]
+              ],
+              "id": 1530,
+              "name": "Rotting Ancestor",
+              "objective": 1530,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                52.2,
+                26.4
+              ],
+              "coords": [
+                [
+                  50.4,
+                  30.4
+                ],
+                [
+                  50.4,
+                  30.6
+                ],
+                [
+                  50.8,
+                  30.4
+                ],
+                [
+                  50.8,
+                  30.6
+                ],
+                [
+                  51.4,
+                  29.2
+                ],
+                [
+                  51.6,
+                  30
+                ],
+                [
+                  51.6,
+                  31.4
+                ],
+                [
+                  52,
+                  28.2
+                ],
+                [
+                  52,
+                  28.6
+                ],
+                [
+                  52.2,
+                  26.4
+                ],
+                [
+                  52.2,
+                  26.8
+                ],
+                [
+                  52.6,
+                  26
+                ],
+                [
+                  52.6,
+                  26.6
+                ],
+                [
+                  53.2,
+                  27.6
+                ],
+                [
+                  53.6,
+                  28.4
+                ],
+                [
+                  54,
+                  29
+                ],
+                [
+                  54.6,
+                  29.4
+                ],
+                [
+                  54.6,
+                  29.6
+                ]
+              ],
+              "id": 1534,
+              "name": "Wailing Ancestor",
+              "objective": 1534,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                52.2,
+                26.4
+              ],
+              "coords": [
+                [
+                  52.2,
+                  26.4
+                ],
+                [
+                  52.4,
+                  26.6
+                ],
+                [
+                  52.6,
+                  26.4
+                ],
+                [
+                  52.6,
+                  26.6
+                ]
+              ],
+              "id": 1658,
+              "item": "Dargol's Skull",
+              "name": "Captain Dargol",
+              "objective": 2,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Tirisfal Glades"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        85,
+        4
+      ]
+    ]
+  },
+  "minLevel": 7,
+  "pageInfo": {
+    "name": "The Family Crypt",
+    "type": 5,
+    "typeId": 408
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 408,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 1499,
+      "npcName": "Magistrate Sevren",
+      "zoneId": 85,
+      "x": 61.2,
+      "y": 50.8,
+      "zoneName": "Tirisfal Glades"
+    }
+  ]
+}

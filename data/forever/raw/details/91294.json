@@ -1,0 +1,201 @@
+{
+  "classes": [
+    2
+  ],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T05:58:35+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 11[/li][li]Requires level 8[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Race: [race=5][/li][li]Class: [class=2][/li][li][icon name=quest-start]Start: [url=/forever/npc=246349/breton-samuels]Breton Samuels[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=246378/danitha-morr]Danitha Morr[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]8[/color][small] &nbsp;[/small][color=r2]9[/color][small] &nbsp;[/small][color=r3]14[/color][small] &nbsp;[/small][color=r4]17[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "85": {
+        "levels": [
+          [
+            {
+              "coord": [
+                21.8,
+                45.2
+              ],
+              "coords": [
+                [
+                  21.8,
+                  45.2
+                ]
+              ],
+              "id": 246349,
+              "name": "Breton Samuels",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                22,
+                44.6
+              ],
+              "coords": [
+                [
+                  22,
+                  44.6
+                ]
+              ],
+              "id": 246378,
+              "name": "Danitha Morr",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                22,
+                44.6
+              ],
+              "coords": [
+                [
+                  22,
+                  44.6
+                ]
+              ],
+              "id": 246378,
+              "name": "Danitha Morr",
+              "objective": 246378,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                22,
+                47.2
+              ],
+              "coords": [
+                [
+                  22,
+                  47.2
+                ]
+              ],
+              "id": 246389,
+              "name": "Hilda the Breaker",
+              "objective": 246389,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                22.6,
+                44.8
+              ],
+              "coords": [
+                [
+                  22.4,
+                  44.8
+                ],
+                [
+                  22.6,
+                  44.8
+                ]
+              ],
+              "id": 246393,
+              "name": "Jorin Croge",
+              "objective": 246393,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                25.4,
+                50.4
+              ],
+              "coords": [
+                [
+                  22.2,
+                  49.4
+                ],
+                [
+                  22.4,
+                  49.6
+                ],
+                [
+                  22.6,
+                  49.4
+                ],
+                [
+                  22.6,
+                  49.6
+                ],
+                [
+                  23.6,
+                  49.8
+                ],
+                [
+                  24.6,
+                  50.6
+                ],
+                [
+                  25.4,
+                  50.4
+                ]
+              ],
+              "id": 246394,
+              "name": "Ander Solliden",
+              "objective": 246394,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Tirisfal Glades"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        85,
+        5
+      ]
+    ]
+  },
+  "minLevel": 8,
+  "pageInfo": {
+    "name": "Touring the Grounds",
+    "type": 5,
+    "typeId": 91294
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 91294,
+  "races": [
+    5
+  ],
+  "startPins": [
+    {
+      "npcId": 246349,
+      "npcName": "Breton Samuels",
+      "zoneId": 85,
+      "x": 21.8,
+      "y": 45.2,
+      "zoneName": "Tirisfal Glades"
+    }
+  ]
+}

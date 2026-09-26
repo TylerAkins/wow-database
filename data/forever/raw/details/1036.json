@@ -1,0 +1,116 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T00:21:22+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 55[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=2545/pretty-boy-duncan]\"Pretty Boy\" Duncan[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2546/fleet-master-firallon]Fleet Master Firallon[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]55[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.3.33155\"]1.13.3[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 2,
+    "objectives": {
+      "33": {
+        "levels": [
+          [
+            {
+              "coord": [
+                27.4,
+                69.4
+              ],
+              "coords": [
+                [
+                  27.4,
+                  68.4
+                ],
+                [
+                  27.4,
+                  69.4
+                ],
+                [
+                  27.4,
+                  69.6
+                ],
+                [
+                  27.6,
+                  69.4
+                ],
+                [
+                  27.6,
+                  69.6
+                ]
+              ],
+              "id": 2545,
+              "name": "\"Pretty Boy\" Duncan",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                30.6,
+                90.4
+              ],
+              "coords": [
+                [
+                  30.4,
+                  90
+                ],
+                [
+                  30.6,
+                  90.4
+                ],
+                [
+                  30.6,
+                  90.6
+                ]
+              ],
+              "id": 2546,
+              "name": "Fleet Master Firallon",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stranglethorn Vale"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        33,
+        2
+      ]
+    ]
+  },
+  "minLevel": 55,
+  "pageInfo": {
+    "name": "Avast Ye, Scallywag",
+    "type": 5,
+    "typeId": 1036
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 1036,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 2545,
+      "npcName": "\"Pretty Boy\" Duncan",
+      "zoneId": 33,
+      "x": 27.4,
+      "y": 69.4,
+      "zoneName": "Stranglethorn Vale"
+    }
+  ]
+}

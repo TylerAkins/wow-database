@@ -1,0 +1,116 @@
+{
+  "classes": [
+    4
+  ],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T01:21:24+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 10[/li][li]Requires level 10[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Class: [class=4][/li][li][icon name=quest-start]Start: [url=/forever/npc=4163/syurna]Syurna[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=4163/syurna]Syurna[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]10[/color][small] &nbsp;[/small][color=r3]13[/color][small] &nbsp;[/small][color=r4]16[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "1657": {
+        "levels": [
+          [
+            {
+              "coord": [
+                36.8,
+                21.8
+              ],
+              "coords": [
+                [
+                  36.2,
+                  21.4
+                ],
+                [
+                  36.2,
+                  21.6
+                ],
+                [
+                  36.8,
+                  21.8
+                ]
+              ],
+              "id": 4163,
+              "name": "Syurna",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                36.8,
+                21.8
+              ],
+              "coords": [
+                [
+                  36.2,
+                  21.4
+                ],
+                [
+                  36.2,
+                  21.6
+                ],
+                [
+                  36.8,
+                  21.8
+                ]
+              ],
+              "id": 4163,
+              "name": "Syurna",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Darnassus"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1657,
+        1
+      ]
+    ]
+  },
+  "minLevel": 10,
+  "pageInfo": {
+    "name": "Destiny Calls",
+    "type": 5,
+    "typeId": 2242
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    2205,
+    2206,
+    2218,
+    2241
+  ],
+  "questId": 2242,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 4163,
+      "npcName": "Syurna",
+      "zoneId": 1657,
+      "x": 36.8,
+      "y": 21.8,
+      "zoneName": "Darnassus"
+    }
+  ]
+}

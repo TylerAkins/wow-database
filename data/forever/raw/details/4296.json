@@ -1,0 +1,92 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T02:20:59+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 50[/li][li]Requires level 50[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=9536/maxwort-uberglint]Maxwort Uberglint[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=9536/maxwort-uberglint]Maxwort Uberglint[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]50[/color][small] &nbsp;[/small][color=r3]53[/color][small] &nbsp;[/small][color=r4]61[/color][/li][li]Added in patch [acronym=\"1.13.2.30786\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "46": {
+        "levels": [
+          [
+            {
+              "coord": [
+                65.2,
+                23.8
+              ],
+              "coords": [
+                [
+                  65.2,
+                  23.8
+                ]
+              ],
+              "id": 9536,
+              "name": "Maxwort Uberglint",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                65.2,
+                23.8
+              ],
+              "coords": [
+                [
+                  65.2,
+                  23.8
+                ]
+              ],
+              "id": 9536,
+              "name": "Maxwort Uberglint",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Burning Steppes"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        46,
+        1
+      ]
+    ]
+  },
+  "minLevel": 50,
+  "pageInfo": {
+    "name": "Tablet of the Seven",
+    "type": 5,
+    "typeId": 4296
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 4296,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 9536,
+      "npcName": "Maxwort Uberglint",
+      "zoneId": 46,
+      "x": 65.2,
+      "y": 23.8,
+      "zoneName": "Burning Steppes"
+    }
+  ]
+}

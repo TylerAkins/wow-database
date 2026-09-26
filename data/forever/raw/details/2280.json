@@ -1,0 +1,102 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T01:22:08+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": true,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 47[/li][li]Requires level 40[/li][li]Type: Dungeon[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/object=131474/the-discs-of-norgannon]The Discs of Norgannon[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3978/sage-truthseeker]Sage Truthseeker[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]40[/color][small] &nbsp;[/small][color=r1]43[/color][small] &nbsp;[/small][color=r2]45[/color][small] &nbsp;[/small][color=r3]50[/color][small] &nbsp;[/small][color=r4]57[/color][/li][li]Added in patch [acronym=\"1.13.2.30682\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1337": {
+        "levels": [
+          [
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 131474,
+              "name": "The Discs of Norgannon",
+              "point": "start",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Uldaman"
+      },
+      "1638": {
+        "levels": [
+          [
+            {
+              "coord": [
+                34.6,
+                47.2
+              ],
+              "coords": [
+                [
+                  34.4,
+                  47.2
+                ],
+                [
+                  34.4,
+                  48.2
+                ],
+                [
+                  34.6,
+                  47.2
+                ],
+                [
+                  34.8,
+                  47.8
+                ]
+              ],
+              "id": 3978,
+              "name": "Sage Truthseeker",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Thunder Bluff"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1337,
+        1
+      ],
+      [
+        1638,
+        1
+      ]
+    ]
+  },
+  "minLevel": 40,
+  "pageInfo": {
+    "name": "The Platinum Discs",
+    "type": 5,
+    "typeId": 2280
+  },
+  "pinCategory": "instance",
+  "prerequisiteQuestIds": [
+    2439
+  ],
+  "questId": 2280,
+  "races": [],
+  "startPins": []
+}

@@ -1,0 +1,109 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-24T23:14:26+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 30[/li][li]Requires level 25[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1435/zardeth-of-the-black-claw]Zardeth of the Black Claw[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1435/zardeth-of-the-black-claw]Zardeth of the Black Claw[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]25[/color][small] &nbsp;[/small][color=r1]26[/color][small] &nbsp;[/small][color=r2]28[/color][small] &nbsp;[/small][color=r3]33[/color][small] &nbsp;[/small][color=r4]38[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 2,
+    "objectives": {
+      "1519": {
+        "levels": [
+          [
+            {
+              "coord": [
+                26.4,
+                78.4
+              ],
+              "coords": [
+                [
+                  26.2,
+                  78.6
+                ],
+                [
+                  26.4,
+                  78.4
+                ],
+                [
+                  26.6,
+                  77.6
+                ]
+              ],
+              "id": 1435,
+              "name": "Zardeth of the Black Claw",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                26.4,
+                78.4
+              ],
+              "coords": [
+                [
+                  26.2,
+                  78.6
+                ],
+                [
+                  26.4,
+                  78.4
+                ],
+                [
+                  26.6,
+                  77.6
+                ]
+              ],
+              "id": 1435,
+              "name": "Zardeth of the Black Claw",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stormwind City"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1519,
+        1
+      ]
+    ]
+  },
+  "minLevel": 25,
+  "pageInfo": {
+    "name": "A Noble Brew",
+    "type": 5,
+    "typeId": 335
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 335,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 1435,
+      "npcName": "Zardeth of the Black Claw",
+      "zoneId": 1519,
+      "x": 26.4,
+      "y": 78.4,
+      "zoneName": "Stormwind City"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-24T23:23:45+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 8[/li][li]Requires level 5[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3140/lar-prowltusk]Lar Prowltusk[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3140/lar-prowltusk]Lar Prowltusk[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]5[/color][small] &nbsp;[/small][color=r2]6[/color][small] &nbsp;[/small][color=r3]11[/color][small] &nbsp;[/small][color=r4]14[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "14": {
+        "levels": [
+          [
+            {
+              "coord": [
+                54.2,
+                73.2
+              ],
+              "coords": [
+                [
+                  54,
+                  76.2
+                ],
+                [
+                  54.2,
+                  73.2
+                ],
+                [
+                  54.4,
+                  74.4
+                ],
+                [
+                  54.4,
+                  75
+                ],
+                [
+                  54.6,
+                  74.4
+                ],
+                [
+                  54.6,
+                  75
+                ]
+              ],
+              "id": 3140,
+              "name": "Lar Prowltusk",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                54.2,
+                73.2
+              ],
+              "coords": [
+                [
+                  54,
+                  76.2
+                ],
+                [
+                  54.2,
+                  73.2
+                ],
+                [
+                  54.4,
+                  74.4
+                ],
+                [
+                  54.4,
+                  75
+                ],
+                [
+                  54.6,
+                  74.4
+                ],
+                [
+                  54.6,
+                  75
+                ]
+              ],
+              "id": 3140,
+              "name": "Lar Prowltusk",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                49.8,
+                81.3
+              ],
+              "coords": [
+                [
+                  49.8,
+                  81.3
+                ]
+              ],
+              "id": 3189,
+              "name": "Attack Plan: Valley of Trials",
+              "objective": 0,
+              "point": "requirement",
+              "type": 2
+            },
+            {
+              "coord": [
+                47.7,
+                77.4
+              ],
+              "coords": [
+                [
+                  47.7,
+                  77.4
+                ],
+                [
+                  47.7,
+                  77.5
+                ]
+              ],
+              "id": 3190,
+              "name": "Attack Plan: Sen'jin Village",
+              "objective": 1,
+              "point": "requirement",
+              "type": 2
+            },
+            {
+              "coord": [
+                46.3,
+                79
+              ],
+              "coords": [
+                [
+                  46.3,
+                  79
+                ]
+              ],
+              "id": 3192,
+              "name": "Attack Plan: Orgrimmar",
+              "objective": 2,
+              "point": "requirement",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Durotar"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        14,
+        4
+      ]
+    ]
+  },
+  "minLevel": 5,
+  "pageInfo": {
+    "name": "Thwarting Kolkar Aggression",
+    "type": 5,
+    "typeId": 786
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 786,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3140,
+      "npcName": "Lar Prowltusk",
+      "zoneId": 14,
+      "x": 54.2,
+      "y": 73.2,
+      "zoneName": "Durotar"
+    }
+  ]
+}

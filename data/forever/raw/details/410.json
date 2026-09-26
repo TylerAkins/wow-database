@@ -1,0 +1,103 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-24T23:15:58+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": true,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 10[/li][li]Requires level 5[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/object=1557/lilliths-dinner-table]Lillith's Dinner Table[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=1557/lilliths-dinner-table]Lillith's Dinner Table[/url][/icon][/li][li]Repeatable[/li][li]Sharable[/li][li]Difficulty: [color=q10]5[/color][small] &nbsp;[/small][color=r1]6[/color][small] &nbsp;[/small][color=r2]8[/color][small] &nbsp;[/small][color=r3]13[/color][small] &nbsp;[/small][color=r4]16[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "85": {
+        "levels": [
+          [
+            {
+              "coord": [
+                66.6,
+                44.8
+              ],
+              "coords": [
+                [
+                  66.6,
+                  44.8
+                ]
+              ],
+              "id": 1557,
+              "name": "Lillith's Dinner Table",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                66.6,
+                44.8
+              ],
+              "coords": [
+                [
+                  66.6,
+                  44.8
+                ]
+              ],
+              "id": 1557,
+              "name": "Lillith's Dinner Table",
+              "point": "end",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Tirisfal Glades"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        85,
+        1
+      ]
+    ]
+  },
+  "minLevel": 5,
+  "objectSpawns": [
+    {
+      "entityId": 1557,
+      "entityKind": "object",
+      "entityName": "Lillith's Dinner Table",
+      "uiMapId": 1420,
+      "uiMapName": "Tirisfal Glades",
+      "x": 66.6,
+      "y": 44.8,
+      "zoneId": 85
+    }
+  ],
+  "pageInfo": {
+    "name": "The Dormant Shade",
+    "type": 5,
+    "typeId": 410
+  },
+  "pinCategory": "repeatable",
+  "prerequisiteQuestIds": [
+    431
+  ],
+  "questId": 410,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 1557,
+      "npcName": "Lillith's Dinner Table",
+      "x": 66.6,
+      "y": 44.8,
+      "zoneId": 85,
+      "zoneName": "Tirisfal Glades"
+    }
+  ]
+}

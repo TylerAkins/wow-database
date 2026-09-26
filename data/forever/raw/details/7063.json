@@ -1,0 +1,117 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T03:41:08+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 10[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=2916/historian-karnik]Historian Karnik[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2784/king-magni-bronzebeard]King Magni Bronzebeard[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]10[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.3.32790\"]1.13.3[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1537": {
+        "levels": [
+          [
+            {
+              "coord": [
+                77.2,
+                11.8
+              ],
+              "coords": [
+                [
+                  76.4,
+                  11.4
+                ],
+                [
+                  76.4,
+                  12.2
+                ],
+                [
+                  77.2,
+                  11.4
+                ],
+                [
+                  77.2,
+                  11.8
+                ]
+              ],
+              "id": 2916,
+              "name": "Historian Karnik",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                39.4,
+                55.8
+              ],
+              "coords": [
+                [
+                  39.4,
+                  55.4
+                ],
+                [
+                  39.4,
+                  55.8
+                ],
+                [
+                  39.6,
+                  55.6
+                ],
+                [
+                  40,
+                  55.2
+                ]
+              ],
+              "id": 2784,
+              "name": "King Magni Bronzebeard",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ironforge"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1537,
+        2
+      ]
+    ]
+  },
+  "minLevel": 10,
+  "pageInfo": {
+    "name": "The Feast of Winter Veil",
+    "type": 5,
+    "typeId": 7063
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 7063,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 2916,
+      "npcName": "Historian Karnik",
+      "zoneId": 1537,
+      "x": 77.2,
+      "y": 11.8,
+      "zoneName": "Ironforge"
+    }
+  ]
+}

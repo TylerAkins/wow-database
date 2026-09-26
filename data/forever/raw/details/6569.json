@@ -1,0 +1,93 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T03:31:32+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": true,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 55[/li][li]Type: Raid[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=11872/myranda-the-hag]Myranda the Hag[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=11872/myranda-the-hag]Myranda the Hag[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]55[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.31727\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "28": {
+        "levels": [
+          [
+            {
+              "coord": [
+                50.8,
+                77.8
+              ],
+              "coords": [
+                [
+                  50.8,
+                  77.8
+                ]
+              ],
+              "id": 11872,
+              "name": "Myranda the Hag",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                50.8,
+                77.8
+              ],
+              "coords": [
+                [
+                  50.8,
+                  77.8
+                ]
+              ],
+              "id": 11872,
+              "name": "Myranda the Hag",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Western Plaguelands"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        28,
+        1
+      ]
+    ]
+  },
+  "minLevel": 55,
+  "pageInfo": {
+    "name": "Oculus Illusions",
+    "type": 5,
+    "typeId": 6569
+  },
+  "pinCategory": "attunement",
+  "prerequisiteQuestIds": [],
+  "questId": 6569,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 11872,
+      "npcName": "Myranda the Hag",
+      "zoneId": 28,
+      "x": 50.8,
+      "y": 77.8,
+      "zoneName": "Western Plaguelands"
+    }
+  ]
+}

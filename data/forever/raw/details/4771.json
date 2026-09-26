@@ -1,0 +1,127 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T02:33:22+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": true,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 57[/li][li]Type: Dungeon[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=11035/betina-bigglezink]Betina Bigglezink[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=11035/betina-bigglezink]Betina Bigglezink[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]57[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.31727\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "139": {
+        "levels": [
+          [
+            {
+              "coord": [
+                81.4,
+                59.6
+              ],
+              "coords": [
+                [
+                  81.4,
+                  59.4
+                ],
+                [
+                  81.4,
+                  59.6
+                ]
+              ],
+              "id": 11035,
+              "name": "Betina Bigglezink",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                81.4,
+                59.6
+              ],
+              "coords": [
+                [
+                  81.4,
+                  59.4
+                ],
+                [
+                  81.4,
+                  59.6
+                ]
+              ],
+              "id": 11035,
+              "name": "Betina Bigglezink",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Eastern Plaguelands"
+      },
+      "2057": {
+        "levels": [
+          [
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 10432,
+              "name": "Vectus",
+              "objective": 10432,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Scholomance"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        139,
+        1
+      ],
+      [
+        2057,
+        1
+      ]
+    ]
+  },
+  "minLevel": 57,
+  "pageInfo": {
+    "name": "Dawn's Gambit",
+    "type": 5,
+    "typeId": 4771
+  },
+  "pinCategory": "instance",
+  "prerequisiteQuestIds": [
+    4726
+  ],
+  "questId": 4771,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 11035,
+      "npcName": "Betina Bigglezink",
+      "zoneId": 139,
+      "x": 81.4,
+      "y": 59.6,
+      "zoneName": "Eastern Plaguelands"
+    }
+  ]
+}

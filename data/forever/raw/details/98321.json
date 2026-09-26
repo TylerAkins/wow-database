@@ -1,0 +1,93 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T07:02:35+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 7[/li][li]Requires level 4[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1241/tognus-flintfire]Tognus Flintfire[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1241/tognus-flintfire]Tognus Flintfire[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]4[/color][small] &nbsp;[/small][color=r2]5[/color][small] &nbsp;[/small][color=r3]10[/color][small] &nbsp;[/small][color=r4]13[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "1": {
+        "levels": [
+          [
+            {
+              "coord": [
+                45.2,
+                52
+              ],
+              "coords": [
+                [
+                  45.2,
+                  52
+                ]
+              ],
+              "id": 1241,
+              "name": "Tognus Flintfire",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                45.2,
+                52
+              ],
+              "coords": [
+                [
+                  45.2,
+                  52
+                ]
+              ],
+              "id": 1241,
+              "name": "Tognus Flintfire",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Dun Morogh"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  "minLevel": 4,
+  "pageInfo": {
+    "name": "Flintfire's Shipment",
+    "type": 5,
+    "typeId": 98321
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 98321,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 1241,
+      "npcName": "Tognus Flintfire",
+      "zoneId": 1,
+      "x": 45.2,
+      "y": 52.0,
+      "zoneName": "Dun Morogh"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-24T23:15:03+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 7[/li][li]Requires level 4[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1519/deathguard-simmer]Deathguard Simmer[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1518/apothecary-johaan]Apothecary Johaan[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]4[/color][small] &nbsp;[/small][color=r2]5[/color][small] &nbsp;[/small][color=r3]10[/color][small] &nbsp;[/small][color=r4]13[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "85": {
+        "levels": [
+          [
+            {
+              "coord": [
+                40.8,
+                54.2
+              ],
+              "coords": [
+                [
+                  40.8,
+                  54.2
+                ]
+              ],
+              "id": 1519,
+              "name": "Deathguard Simmer",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                59.4,
+                52.2
+              ],
+              "coords": [
+                [
+                  59.4,
+                  52.2
+                ],
+                [
+                  59.6,
+                  52.2
+                ]
+              ],
+              "id": 1518,
+              "name": "Apothecary Johaan",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Tirisfal Glades"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        85,
+        2
+      ]
+    ]
+  },
+  "minLevel": 4,
+  "pageInfo": {
+    "name": "Fields of Grief",
+    "type": 5,
+    "typeId": 365
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 365,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 1519,
+      "npcName": "Deathguard Simmer",
+      "zoneId": 85,
+      "x": 40.8,
+      "y": 54.2,
+      "zoneName": "Tirisfal Glades"
+    }
+  ]
+}

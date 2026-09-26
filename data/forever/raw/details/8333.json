@@ -1,0 +1,364 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T04:24:20+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": true,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 60[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=15282/aurel-goldleaf]Aurel Goldleaf[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=15282/aurel-goldleaf]Aurel Goldleaf[/url][/icon][/li][li]Repeatable[/li][li]Sharable[/li][li]Difficulty: [color=r2]60[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.4.33920\"]1.13.4[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "1377": {
+        "levels": [
+          [
+            {
+              "coord": [
+                51.8,
+                38
+              ],
+              "coords": [
+                [
+                  51.8,
+                  38
+                ]
+              ],
+              "id": 15282,
+              "name": "Aurel Goldleaf",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                51.8,
+                38
+              ],
+              "coords": [
+                [
+                  51.8,
+                  38
+                ]
+              ],
+              "id": 15282,
+              "name": "Aurel Goldleaf",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                38.2,
+                46.4
+              ],
+              "coords": [
+                [
+                  18.2,
+                  81
+                ],
+                [
+                  20.4,
+                  86.2
+                ],
+                [
+                  20.6,
+                  86.2
+                ],
+                [
+                  24.4,
+                  36
+                ],
+                [
+                  24.6,
+                  35.8
+                ],
+                [
+                  28,
+                  30.4
+                ],
+                [
+                  28,
+                  30.6
+                ],
+                [
+                  38.2,
+                  46.4
+                ],
+                [
+                  38.2,
+                  46.6
+                ],
+                [
+                  38.6,
+                  45.8
+                ],
+                [
+                  38.8,
+                  42.4
+                ],
+                [
+                  38.8,
+                  42.6
+                ]
+              ],
+              "id": 15209,
+              "item": "Abyssal Crest",
+              "name": "Crimson Templar",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                38.2,
+                46.6
+              ],
+              "coords": [
+                [
+                  18.2,
+                  81
+                ],
+                [
+                  20.4,
+                  86.2
+                ],
+                [
+                  20.4,
+                  86.6
+                ],
+                [
+                  20.6,
+                  86.2
+                ],
+                [
+                  24.4,
+                  36
+                ],
+                [
+                  24.6,
+                  35.4
+                ],
+                [
+                  24.6,
+                  35.8
+                ],
+                [
+                  27.8,
+                  30.6
+                ],
+                [
+                  28,
+                  30.4
+                ],
+                [
+                  38.2,
+                  46.4
+                ],
+                [
+                  38.2,
+                  46.6
+                ],
+                [
+                  38.6,
+                  45.8
+                ],
+                [
+                  38.8,
+                  42.4
+                ],
+                [
+                  39,
+                  42.6
+                ]
+              ],
+              "id": 15211,
+              "item": "Abyssal Crest",
+              "name": "Azure Templar",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                38.8,
+                42.4
+              ],
+              "coords": [
+                [
+                  18.2,
+                  81
+                ],
+                [
+                  20.4,
+                  86.2
+                ],
+                [
+                  20.6,
+                  86.2
+                ],
+                [
+                  24.4,
+                  36
+                ],
+                [
+                  24.6,
+                  35.8
+                ],
+                [
+                  27.8,
+                  30.6
+                ],
+                [
+                  28,
+                  30.4
+                ],
+                [
+                  38.2,
+                  46.4
+                ],
+                [
+                  38.2,
+                  46.6
+                ],
+                [
+                  38.8,
+                  42.4
+                ],
+                [
+                  38.8,
+                  42.6
+                ]
+              ],
+              "id": 15212,
+              "item": "Abyssal Crest",
+              "name": "Hoary Templar",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                38.2,
+                46.6
+              ],
+              "coords": [
+                [
+                  18.2,
+                  81
+                ],
+                [
+                  18.2,
+                  81.6
+                ],
+                [
+                  20.4,
+                  86.2
+                ],
+                [
+                  20.4,
+                  86.6
+                ],
+                [
+                  20.6,
+                  86.4
+                ],
+                [
+                  24.4,
+                  35.8
+                ],
+                [
+                  24.6,
+                  35.8
+                ],
+                [
+                  27.8,
+                  30.4
+                ],
+                [
+                  27.8,
+                  30.6
+                ],
+                [
+                  38.2,
+                  46.4
+                ],
+                [
+                  38.2,
+                  46.6
+                ],
+                [
+                  38.6,
+                  45.8
+                ],
+                [
+                  38.8,
+                  42.4
+                ],
+                [
+                  38.8,
+                  42.6
+                ],
+                [
+                  39,
+                  41.4
+                ]
+              ],
+              "id": 15307,
+              "item": "Abyssal Crest",
+              "name": "Earthen Templar",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Silithus"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1377,
+        5
+      ]
+    ]
+  },
+  "minLevel": 60,
+  "pageInfo": {
+    "name": "Medallion of Station",
+    "type": 5,
+    "typeId": 8333
+  },
+  "pinCategory": "repeatable",
+  "prerequisiteQuestIds": [],
+  "questId": 8333,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 15282,
+      "npcName": "Aurel Goldleaf",
+      "zoneId": 1377,
+      "x": 51.8,
+      "y": 38.0,
+      "zoneName": "Silithus"
+    }
+  ]
+}

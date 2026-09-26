@@ -1,0 +1,103 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T04:46:38+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 60[/li][li]Type: World Event[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/object=180717/the-scarab-gong]The Scarab Gong[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=180717/the-scarab-gong]The Scarab Gong[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]60[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.5.35395\"]1.13.5[/acronym] \"The Gates of Ahn'Qiraj\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "1377": {
+        "levels": [
+          [
+            {
+              "coord": [
+                25.8,
+                90.9
+              ],
+              "coords": [
+                [
+                  25.8,
+                  90.9
+                ]
+              ],
+              "id": 180717,
+              "name": "The Scarab Gong",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                25.8,
+                90.9
+              ],
+              "coords": [
+                [
+                  25.8,
+                  90.9
+                ]
+              ],
+              "id": 180717,
+              "name": "The Scarab Gong",
+              "point": "end",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Silithus"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1377,
+        1
+      ]
+    ]
+  },
+  "minLevel": 60,
+  "objectSpawns": [
+    {
+      "entityId": 180717,
+      "entityKind": "object",
+      "entityName": "The Scarab Gong",
+      "uiMapId": 1451,
+      "uiMapName": "Silithus",
+      "x": 25.8,
+      "y": 90.9,
+      "zoneId": 1377
+    }
+  ],
+  "pageInfo": {
+    "name": "Bang a Gong!",
+    "type": 5,
+    "typeId": 8743
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    8742,
+    8745
+  ],
+  "questId": 8743,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 180717,
+      "npcName": "The Scarab Gong",
+      "x": 25.8,
+      "y": 90.9,
+      "zoneId": 1377,
+      "zoneName": "Silithus"
+    }
+  ]
+}

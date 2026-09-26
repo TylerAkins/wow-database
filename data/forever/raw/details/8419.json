@@ -1,0 +1,279 @@
+{
+  "classes": [
+    9
+  ],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T04:31:40+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 52[/li][li]Requires level 50[/li][li]Side: Both[/li][li]Class: [class=9][/li][li][icon name=quest-start]Start: [span class=icon-alliance-padded][url=/forever/npc=461/demisette-cloyce]Demisette Cloyce[/url][/span][/icon][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-horde][url=/forever/npc=3326/zevrost]Zevrost[/url][/span][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-horde][url=/forever/npc=4563/kaal-soulreaper]Kaal Soulreaper[/url][/span][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-alliance-padded][url=/forever/npc=5172/briarthorn]Briarthorn[/url][/span][/li][li][icon name=quest-end]End: [url=/forever/npc=14470/impsy]Impsy[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]50[/color][small] &nbsp;[/small][color=r3]55[/color][small] &nbsp;[/small][color=r4]63[/color][/li][li]Added in patch [acronym=\"1.13.3.33155\"]1.13.3[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "1497": {
+        "levels": [
+          [
+            {
+              "coord": [
+                86,
+                15.6
+              ],
+              "coords": [
+                [
+                  85.2,
+                  15.8
+                ],
+                [
+                  85.4,
+                  15.4
+                ],
+                [
+                  86,
+                  15.4
+                ],
+                [
+                  86,
+                  15.6
+                ]
+              ],
+              "id": 4563,
+              "name": "Kaal Soulreaper",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Undercity"
+      },
+      "1519": {
+        "levels": [
+          [
+            {
+              "coord": [
+                25.4,
+                78.2
+              ],
+              "coords": [
+                [
+                  25.4,
+                  78.2
+                ],
+                [
+                  25.4,
+                  78.6
+                ],
+                [
+                  25.6,
+                  78
+                ]
+              ],
+              "id": 461,
+              "name": "Demisette Cloyce",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stormwind City"
+      },
+      "1537": {
+        "levels": [
+          [
+            {
+              "coord": [
+                50.2,
+                6
+              ],
+              "coords": [
+                [
+                  50.2,
+                  5.4
+                ],
+                [
+                  50.2,
+                  6
+                ],
+                [
+                  50.2,
+                  7.4
+                ],
+                [
+                  50.6,
+                  6
+                ]
+              ],
+              "id": 5172,
+              "name": "Briarthorn",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ironforge"
+      },
+      "1637": {
+        "levels": [
+          [
+            {
+              "coord": [
+                48.4,
+                45.6
+              ],
+              "coords": [
+                [
+                  48.2,
+                  45.4
+                ],
+                [
+                  48.4,
+                  45.6
+                ],
+                [
+                  48.6,
+                  45.4
+                ],
+                [
+                  48.6,
+                  45.6
+                ]
+              ],
+              "id": 3326,
+              "name": "Zevrost",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Orgrimmar"
+      },
+      "361": {
+        "levels": [
+          [
+            {
+              "coord": [
+                41.4,
+                44.8
+              ],
+              "coords": [
+                [
+                  41.4,
+                  44.8
+                ],
+                [
+                  41.6,
+                  44.8
+                ]
+              ],
+              "id": 14470,
+              "name": "Impsy",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Felwood"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1537,
+        1
+      ],
+      [
+        1519,
+        1
+      ],
+      [
+        1637,
+        1
+      ],
+      [
+        1497,
+        1
+      ],
+      [
+        361,
+        1
+      ]
+    ]
+  },
+  "minLevel": 50,
+  "pageInfo": {
+    "name": "An Imp's Request",
+    "type": 5,
+    "typeId": 8419
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    8232,
+    8236,
+    8253,
+    8257,
+    8413,
+    8418,
+    8422,
+    8425,
+    9053
+  ],
+  "questId": 8419,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 461,
+      "npcName": "Demisette Cloyce",
+      "zoneId": 1519,
+      "x": 25.4,
+      "y": 78.2,
+      "zoneName": "Stormwind City"
+    },
+    {
+      "npcId": 3326,
+      "npcName": "Zevrost",
+      "zoneId": 1637,
+      "x": 48.4,
+      "y": 45.6,
+      "zoneName": "Orgrimmar"
+    },
+    {
+      "npcId": 4563,
+      "npcName": "Kaal Soulreaper",
+      "zoneId": 1497,
+      "x": 86.0,
+      "y": 15.6,
+      "zoneName": "Undercity"
+    },
+    {
+      "npcId": 5172,
+      "npcName": "Briarthorn",
+      "zoneId": 1537,
+      "x": 50.2,
+      "y": 6.0,
+      "zoneName": "Ironforge"
+    }
+  ]
+}

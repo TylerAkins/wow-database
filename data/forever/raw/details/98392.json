@@ -1,0 +1,197 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T07:03:46+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 12[/li][li]Requires level 6[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3519/sentinel-arynia-cloudsbreak]Sentinel Arynia Cloudsbreak[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3519/sentinel-arynia-cloudsbreak]Sentinel Arynia Cloudsbreak[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]6[/color][small] &nbsp;[/small][color=r1]8[/color][small] &nbsp;[/small][color=r2]10[/color][small] &nbsp;[/small][color=r3]15[/color][small] &nbsp;[/small][color=r4]18[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "141": {
+        "levels": [
+          [
+            {
+              "coord": [
+                38.2,
+                34.4
+              ],
+              "coords": [
+                [
+                  38.2,
+                  34.4
+                ]
+              ],
+              "id": 3519,
+              "name": "Sentinel Arynia Cloudsbreak",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                38.2,
+                34.4
+              ],
+              "coords": [
+                [
+                  38.2,
+                  34.4
+                ]
+              ],
+              "id": 3519,
+              "name": "Sentinel Arynia Cloudsbreak",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                35,
+                39.2
+              ],
+              "coords": [
+                [
+                  35,
+                  39.2
+                ],
+                [
+                  35.4,
+                  38.4
+                ]
+              ],
+              "id": 272034,
+              "item": "Hatescreech's Amulet",
+              "name": "Hatescreech",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                33.2,
+                36
+              ],
+              "coords": [
+                [
+                  33.2,
+                  36
+                ],
+                [
+                  33.6,
+                  35.6
+                ]
+              ],
+              "id": 272044,
+              "item": "Windmistress Gaedress' Amulet",
+              "name": "Windmistress Gaedress",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                34.2,
+                28
+              ],
+              "coords": [
+                [
+                  33.2,
+                  27.8
+                ],
+                [
+                  34.2,
+                  27.2
+                ],
+                [
+                  34.2,
+                  28
+                ],
+                [
+                  34.2,
+                  28.6
+                ],
+                [
+                  34.2,
+                  29.6
+                ],
+                [
+                  34.2,
+                  30.8
+                ],
+                [
+                  34.6,
+                  28.2
+                ],
+                [
+                  34.8,
+                  27
+                ],
+                [
+                  35,
+                  28.8
+                ],
+                [
+                  35,
+                  29.6
+                ]
+              ],
+              "id": 272046,
+              "item": "Witchmother Arysa's Amulet",
+              "name": "Witchmother Arysa",
+              "objective": 2,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Teldrassil"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        141,
+        4
+      ]
+    ]
+  },
+  "minLevel": 6,
+  "pageInfo": {
+    "name": "Darkness in the Glade",
+    "type": 5,
+    "typeId": 98392
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 98392,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3519,
+      "npcName": "Sentinel Arynia Cloudsbreak",
+      "zoneId": 141,
+      "x": 38.2,
+      "y": 34.4,
+      "zoneName": "Teldrassil"
+    }
+  ]
+}

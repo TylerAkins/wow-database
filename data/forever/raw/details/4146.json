@@ -1,0 +1,117 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T02:16:46+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 52[/li][li]Requires level 47[/li][li]Type: Elite[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=8496/liv-rizzlefix]Liv Rizzlefix[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=9118/larion]Larion[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]47[/color][small] &nbsp;[/small][color=r1]48[/color][small] &nbsp;[/small][color=r2]50[/color][small] &nbsp;[/small][color=r3]55[/color][small] &nbsp;[/small][color=r4]63[/color][/li][li]Added in patch [acronym=\"1.13.2.31687\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "17": {
+        "levels": [
+          [
+            {
+              "coord": [
+                62.4,
+                38.6
+              ],
+              "coords": [
+                [
+                  62.4,
+                  38.6
+                ]
+              ],
+              "id": 8496,
+              "name": "Liv Rizzlefix",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Barrens"
+      },
+      "490": {
+        "levels": [
+          [
+            {
+              "coord": [
+                45.6,
+                8.6
+              ],
+              "coords": [
+                [
+                  45.4,
+                  8.4
+                ],
+                [
+                  45.4,
+                  8.6
+                ],
+                [
+                  45.6,
+                  8.4
+                ],
+                [
+                  45.6,
+                  8.6
+                ]
+              ],
+              "id": 9118,
+              "name": "Larion",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Un'Goro Crater"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        17,
+        1
+      ],
+      [
+        490,
+        1
+      ]
+    ]
+  },
+  "minLevel": 47,
+  "pageInfo": {
+    "name": "Zapper Fuel",
+    "type": 5,
+    "typeId": 4146
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 4146,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 8496,
+      "npcName": "Liv Rizzlefix",
+      "zoneId": 17,
+      "x": 62.4,
+      "y": 38.6,
+      "zoneName": "The Barrens"
+    }
+  ]
+}

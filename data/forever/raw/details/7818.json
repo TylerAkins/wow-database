@@ -1,0 +1,141 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T04:02:19+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 50[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=14729/ralston-farnsley]Ralston Farnsley[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=14729/ralston-farnsley]Ralston Farnsley[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]50[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.31687\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "1497": {
+        "levels": [
+          [
+            {
+              "coord": [
+                71.6,
+                28.8
+              ],
+              "coords": [
+                [
+                  71.4,
+                  27.8
+                ],
+                [
+                  71.4,
+                  28.8
+                ],
+                [
+                  71.6,
+                  28.8
+                ],
+                [
+                  71.8,
+                  27.8
+                ],
+                [
+                  72.4,
+                  29.8
+                ],
+                [
+                  72.6,
+                  29.4
+                ],
+                [
+                  72.6,
+                  29.6
+                ]
+              ],
+              "id": 14729,
+              "name": "Ralston Farnsley",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                71.6,
+                28.8
+              ],
+              "coords": [
+                [
+                  71.4,
+                  27.8
+                ],
+                [
+                  71.4,
+                  28.8
+                ],
+                [
+                  71.6,
+                  28.8
+                ],
+                [
+                  71.8,
+                  27.8
+                ],
+                [
+                  72.4,
+                  29.8
+                ],
+                [
+                  72.6,
+                  29.4
+                ],
+                [
+                  72.6,
+                  29.6
+                ]
+              ],
+              "id": 14729,
+              "name": "Ralston Farnsley",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Undercity"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1497,
+        1
+      ]
+    ]
+  },
+  "minLevel": 50,
+  "pageInfo": {
+    "name": "A Donation of Runecloth",
+    "type": 5,
+    "typeId": 7818
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 7818,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 14729,
+      "npcName": "Ralston Farnsley",
+      "zoneId": 1497,
+      "x": 71.6,
+      "y": 28.8,
+      "zoneName": "Undercity"
+    }
+  ]
+}

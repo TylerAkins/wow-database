@@ -1,0 +1,105 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-24T23:17:58+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 36[/li][li]Requires level 29[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=2316/goldir]Gol'dir[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2229/krusk]Krusk[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]29[/color][small] &nbsp;[/small][color=r1]32[/color][small] &nbsp;[/small][color=r2]34[/color][small] &nbsp;[/small][color=r3]39[/color][small] &nbsp;[/small][color=r4]45[/color][/li][li]Added in patch [acronym=\"1.13.2.30682\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "267": {
+        "levels": [
+          [
+            {
+              "coord": [
+                63.2,
+                20.6
+              ],
+              "coords": [
+                [
+                  63.2,
+                  20.6
+                ]
+              ],
+              "id": 2229,
+              "name": "Krusk",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Hillsbrad Foothills"
+      },
+      "36": {
+        "levels": [
+          [
+            {
+              "coord": [
+                60,
+                43.8
+              ],
+              "coords": [
+                [
+                  60,
+                  43.8
+                ]
+              ],
+              "id": 2316,
+              "name": "Gol'dir",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Alterac Mountains"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        36,
+        1
+      ],
+      [
+        267,
+        1
+      ]
+    ]
+  },
+  "minLevel": 29,
+  "pageInfo": {
+    "name": "Blackmoore's Legacy",
+    "type": 5,
+    "typeId": 506
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 506,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 2316,
+      "npcName": "Gol'dir",
+      "zoneId": 36,
+      "x": 60.0,
+      "y": 43.8,
+      "zoneName": "Alterac Mountains"
+    }
+  ]
+}
