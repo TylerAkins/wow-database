@@ -288,16 +288,142 @@
     "typeId": 65597
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    65593
+  ],
   "questId": 65597,
-  "races": [],
+  "questLevel": -1,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "exclusiveTo": [
+        1507
+      ],
+      "extraObjectives": [
+        {
+          "2": 3,
+          "3": "Summon the Incubus",
+          "4": 0,
+          "5": [
+            [
+              "object",
+              37097
+            ]
+          ]
+        }
+      ],
+      "finishedBy": [
+        [
+          5675
+        ]
+      ],
+      "name": "The Binding",
+      "nextQuestInChain": 0,
+      "objectives": [
+        [
+          {
+            "1": 185335,
+            "3": 0
+          }
+        ]
+      ],
+      "objectivesText": [
+        "Using the Lovers' Hearts, summon and subdue an incubus, then return the Lovers' Hearts to Carendin Halgar in the Magic Quarter of the Undercity."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        65593
+      ],
+      "questFlags": 0,
+      "questLevel": -1,
+      "requiredClasses": 256,
+      "requiredLevel": 20,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 8589934770,
+      "requiredSourceItems": [
+        190181
+      ],
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          5675
+        ]
+      ],
+      "zoneOrSort": -61
+    },
+    "finishers": [
+      {
+        "id": 5675,
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "exclusiveTo": "QuestieDB",
+      "extraObjectives": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSourceItems": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 5675,
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    2,
+    5,
+    6,
+    8,
+    96
+  ],
+  "requirements": {
+    "anyOf": [
+      65593
+    ],
+    "exclusiveTo": [
+      1507
+    ],
+    "preQuestSingle": [
+      65593
+    ]
+  },
   "startPins": [
     {
       "npcId": 5675,
       "npcName": "Carendin Halgar",
-      "zoneId": 1497,
       "x": 85.0,
       "y": 25.6,
+      "zoneId": 1497,
       "zoneName": "Undercity"
     }
   ]

@@ -135,14 +135,239 @@
   "pinCategory": "instance",
   "prerequisiteQuestIds": [],
   "questId": 96403,
-  "races": [],
+  "questLevel": 15,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          265003
+        ]
+      ],
+      "name": "Important Heirlooms",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Collect 8 Dwarven Heirlooms from the Hall of Thanes."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 15,
+      "reputationReward": [
+        [
+          369,
+          100
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 10,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 4294967373,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          265003
+        ]
+      ],
+      "zoneOrSort": 16919
+    },
+    "finishers": [
+      {
+        "id": 265003,
+        "name": "Thom Filch",
+        "spawns": {
+          "1537": [
+            [
+              32,
+              45.05
+            ],
+            [
+              32.06,
+              44.96
+            ],
+            [
+              32.13,
+              44.91
+            ],
+            [
+              32.19,
+              44.89
+            ],
+            [
+              32.31,
+              44.83
+            ],
+            [
+              32.33,
+              44.68
+            ],
+            [
+              32.39,
+              44.75
+            ],
+            [
+              32.4,
+              44.39
+            ],
+            [
+              32.41,
+              44.81
+            ],
+            [
+              32.47,
+              44.7
+            ],
+            [
+              32.48,
+              44.44
+            ],
+            [
+              32.48,
+              44.82
+            ],
+            [
+              32.52,
+              44.4
+            ],
+            [
+              32.52,
+              44.64
+            ],
+            [
+              32.61,
+              44.63
+            ],
+            [
+              32.88,
+              44.9
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 265003,
+        "name": "Thom Filch",
+        "spawns": {
+          "1537": [
+            [
+              32,
+              45.05
+            ],
+            [
+              32.06,
+              44.96
+            ],
+            [
+              32.13,
+              44.91
+            ],
+            [
+              32.19,
+              44.89
+            ],
+            [
+              32.31,
+              44.83
+            ],
+            [
+              32.33,
+              44.68
+            ],
+            [
+              32.39,
+              44.75
+            ],
+            [
+              32.4,
+              44.39
+            ],
+            [
+              32.41,
+              44.81
+            ],
+            [
+              32.47,
+              44.7
+            ],
+            [
+              32.48,
+              44.44
+            ],
+            [
+              32.48,
+              44.82
+            ],
+            [
+              32.52,
+              44.4
+            ],
+            [
+              32.52,
+              44.64
+            ],
+            [
+              32.61,
+              44.63
+            ],
+            [
+              32.88,
+              44.9
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    1,
+    3,
+    4,
+    7,
+    95
+  ],
   "startPins": [
     {
       "npcId": 265003,
       "npcName": "Thom Filch",
-      "zoneId": 1537,
       "x": 32.4,
       "y": 44.8,
+      "zoneId": 1537,
       "zoneName": "Ironforge"
     }
   ]

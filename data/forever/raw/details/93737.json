@@ -96,16 +96,173 @@
     "typeId": 93737
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    93735
+  ],
   "questId": 93737,
-  "races": [],
+  "questLevel": 9,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          256083
+        ]
+      ],
+      "name": "The Broken Construct",
+      "nextQuestInChain": 93738,
+      "objectives": {
+        "1": [
+          {
+            "1": 256083,
+            "3": 3
+          }
+        ],
+        "3": [
+          {
+            "1": 260881,
+            "3": 0
+          },
+          {
+            "1": 260883,
+            "3": 0
+          },
+          {
+            "1": 260880,
+            "3": 0
+          }
+        ]
+      },
+      "objectivesText": [
+        "Speak with Rianni Nightwind and list to what he has to say."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        93735
+      ],
+      "questFlags": 0,
+      "questLevel": 9,
+      "reputationReward": [
+        [
+          2778,
+          100
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 4,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 8589934770,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          256083
+        ]
+      ],
+      "zoneOrSort": 16593
+    },
+    "finishers": [
+      {
+        "id": 256083,
+        "name": "Riaani Nightwind",
+        "spawns": {
+          "16593": [
+            [
+              59.02,
+              72.92
+            ],
+            [
+              59.06,
+              73.06
+            ],
+            [
+              59.09,
+              73
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 256083,
+        "name": "Riaani Nightwind",
+        "spawns": {
+          "16593": [
+            [
+              59.02,
+              72.92
+            ],
+            [
+              59.06,
+              73.06
+            ],
+            [
+              59.09,
+              73
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    2,
+    5,
+    6,
+    8,
+    96
+  ],
+  "requirements": {
+    "anyOf": [
+      93735
+    ],
+    "nextQuestInChain": 93738,
+    "preQuestSingle": [
+      93735
+    ]
+  },
   "startPins": [
     {
       "npcId": 256083,
       "npcName": "Riaani Nightwind",
-      "zoneId": 16593,
       "x": 59.0,
       "y": 73.0,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

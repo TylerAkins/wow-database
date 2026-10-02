@@ -65,6 +65,111 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 92910,
-  "races": [],
+  "questLevel": 15,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          253395
+        ]
+      ],
+      "name": "Harvesting the Harvesters",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Bring the Precessive Autocognition Assembly to Ozwin Ironsprocket at Saldean's Farm."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 15,
+      "reputationReward": [
+        [
+          54,
+          50
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 8,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 4294967373,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": {
+        "3": [
+          255155
+        ]
+      },
+      "zoneOrSort": 40
+    },
+    "finishers": [
+      {
+        "id": 253395,
+        "name": "Ozwin Ironsprocket",
+        "spawns": {
+          "40": [
+            [
+              51.53,
+              32.14
+            ],
+            [
+              51.59,
+              32.19
+            ],
+            [
+              51.6,
+              32.3
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 255155,
+        "name": "Precessive Autocognition Assembly",
+        "type": "item"
+      }
+    ]
+  },
+  "races": [
+    1,
+    3,
+    4,
+    7,
+    95
+  ],
   "startPins": []
 }

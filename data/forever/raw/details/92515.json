@@ -770,14 +770,132 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 92515,
+  "questLevel": 6,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          251993
+        ]
+      ],
+      "name": "The Problem With Prideclaws",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Collect 10 Prideclaw Pelts from the Prideclaws in Shen'dar Highlands."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        92514,
+        93461
+      ],
+      "questFlags": 0,
+      "questLevel": 6,
+      "reputationReward": [
+        [
+          2778,
+          50
+        ],
+        [
+          2779,
+          50
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 4,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 0,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          251993
+        ]
+      ],
+      "zoneOrSort": 16593
+    },
+    "finishers": [
+      {
+        "id": 251993,
+        "name": "Indari Sunseam",
+        "spawns": {
+          "16593": [
+            [
+              44.67,
+              44.52
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 251993,
+        "name": "Indari Sunseam",
+        "spawns": {
+          "16593": [
+            [
+              44.67,
+              44.52
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [],
+  "requirements": {
+    "anyOf": [
+      92514,
+      93461
+    ],
+    "preQuestSingle": [
+      92514,
+      93461
+    ]
+  },
   "startPins": [
     {
       "npcId": 251993,
       "npcName": "Indari Sunseam",
-      "zoneId": 16593,
       "x": 44.6,
       "y": 44.4,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

@@ -232,16 +232,142 @@
     "typeId": 65604
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    65610
+  ],
   "questId": 65604,
-  "races": [],
+  "questLevel": -1,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "exclusiveTo": [
+        1472
+      ],
+      "extraObjectives": [
+        {
+          "2": 3,
+          "3": "Summon the Incubus",
+          "4": 0,
+          "5": [
+            [
+              "object",
+              105576
+            ]
+          ]
+        }
+      ],
+      "finishedBy": [
+        [
+          5875
+        ]
+      ],
+      "name": "The Binding",
+      "nextQuestInChain": 0,
+      "objectives": [
+        [
+          {
+            "1": 185335,
+            "3": 0
+          }
+        ]
+      ],
+      "objectivesText": [
+        "Using the Withered Scarf, summon and subdue an incubus, then return the Withered Scarf to Gan'rul Bloodeye in Orgrimmar."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        65610
+      ],
+      "questFlags": 0,
+      "questLevel": -1,
+      "requiredClasses": 256,
+      "requiredLevel": 20,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 8589934770,
+      "requiredSourceItems": [
+        190187
+      ],
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          5875
+        ]
+      ],
+      "zoneOrSort": -61
+    },
+    "finishers": [
+      {
+        "id": 5875,
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "exclusiveTo": "QuestieDB",
+      "extraObjectives": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSourceItems": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 5875,
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    2,
+    5,
+    6,
+    8,
+    96
+  ],
+  "requirements": {
+    "anyOf": [
+      65610
+    ],
+    "exclusiveTo": [
+      1472
+    ],
+    "preQuestSingle": [
+      65610
+    ]
+  },
   "startPins": [
     {
       "npcId": 5875,
       "npcName": "Gan'rul Bloodeye",
-      "zoneId": 1637,
       "x": 48.2,
       "y": 45.6,
+      "zoneId": 1637,
       "zoneName": "Orgrimmar"
     }
   ]

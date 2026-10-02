@@ -119,14 +119,233 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 97485,
-  "races": [],
+  "questLevel": 10,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          269068
+        ]
+      ],
+      "name": "Traditions of the Bluff",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Purchase a Bundle of Herbs from Nida the herbalist, a Bundle of Ceder Twigs from Nata the enchanting supplier, and Sinew Thread from Mahu the leatherworking supplier and Ceremonial Flint and Tinder from Naal the cooking supplier.",
+        "",
+        "Combine the items and sprinkle the incense off of Hunter's Rise."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 10,
+      "reputationReward": [
+        [
+          81,
+          100
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 3,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 8589934770,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          269068
+        ]
+      ],
+      "zoneOrSort": 1638
+    },
+    "finishers": [
+      {
+        "id": 269068,
+        "name": "Eylah Sunhorn",
+        "spawns": {
+          "1638": [
+            [
+              37.67,
+              56.33
+            ],
+            [
+              38.03,
+              56.53
+            ],
+            [
+              38.05,
+              56.62
+            ],
+            [
+              38.06,
+              56.14
+            ],
+            [
+              38.07,
+              55.99
+            ],
+            [
+              38.1,
+              56.25
+            ],
+            [
+              38.1,
+              56.44
+            ],
+            [
+              38.14,
+              56.06
+            ],
+            [
+              38.14,
+              56.38
+            ],
+            [
+              38.2,
+              56.05
+            ],
+            [
+              38.23,
+              55.95
+            ],
+            [
+              38.24,
+              56.11
+            ],
+            [
+              38.24,
+              56.33
+            ],
+            [
+              38.34,
+              56.31
+            ],
+            [
+              38.45,
+              55.89
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 269068,
+        "name": "Eylah Sunhorn",
+        "spawns": {
+          "1638": [
+            [
+              37.67,
+              56.33
+            ],
+            [
+              38.03,
+              56.53
+            ],
+            [
+              38.05,
+              56.62
+            ],
+            [
+              38.06,
+              56.14
+            ],
+            [
+              38.07,
+              55.99
+            ],
+            [
+              38.1,
+              56.25
+            ],
+            [
+              38.1,
+              56.44
+            ],
+            [
+              38.14,
+              56.06
+            ],
+            [
+              38.14,
+              56.38
+            ],
+            [
+              38.2,
+              56.05
+            ],
+            [
+              38.23,
+              55.95
+            ],
+            [
+              38.24,
+              56.11
+            ],
+            [
+              38.24,
+              56.33
+            ],
+            [
+              38.34,
+              56.31
+            ],
+            [
+              38.45,
+              55.89
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    2,
+    5,
+    6,
+    8,
+    96
+  ],
   "startPins": [
     {
       "npcId": 269068,
       "npcName": "Eylah Sunhorn",
-      "zoneId": 1638,
       "x": 38.2,
       "y": 56.2,
+      "zoneId": 1638,
       "zoneName": "Thunder Bluff"
     }
   ]

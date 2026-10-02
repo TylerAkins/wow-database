@@ -81,14 +81,112 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 94472,
-  "races": [],
+  "questLevel": 4,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          257446
+        ]
+      ],
+      "name": "Earth Sapta",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Speak to Teo Hammerstorm for another Earth Sapta."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 4,
+      "requiredClasses": 64,
+      "requiredLevel": 4,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 4294967373,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          257446
+        ]
+      ],
+      "zoneOrSort": -82
+    },
+    "finishers": [
+      {
+        "id": 257446,
+        "name": "Teo Hammerstorm",
+        "spawns": [
+          [
+            [
+              28.84,
+              66.23
+            ]
+          ]
+        ],
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 257446,
+        "name": "Teo Hammerstorm",
+        "spawns": [
+          [
+            [
+              28.84,
+              66.23
+            ]
+          ]
+        ],
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    1,
+    3,
+    4,
+    7,
+    95
+  ],
   "startPins": [
     {
       "npcId": 257446,
       "npcName": "Teo Hammerstorm",
-      "zoneId": 1,
       "x": 28.8,
       "y": 66.2,
+      "zoneId": 1,
       "zoneName": "Dun Morogh"
     }
   ]

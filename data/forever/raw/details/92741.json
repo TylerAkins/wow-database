@@ -341,16 +341,135 @@
     "typeId": 92741
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    92699
+  ],
   "questId": 92741,
-  "races": [],
+  "questLevel": 13,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          253004
+        ]
+      ],
+      "name": "Unwelcome Visitors",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Travel to Shadowgale Forest and collect 8 Shriekling Talons for Iaadaria Bitterwind in Valanaar."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        92699
+      ],
+      "questFlags": 0,
+      "questLevel": 13,
+      "reputationReward": [
+        [
+          2779,
+          50
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 8,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 4294967373,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          253004
+        ]
+      ],
+      "zoneOrSort": 16593
+    },
+    "finishers": [
+      {
+        "id": 253004,
+        "name": "Iaadaria Bitterwind",
+        "spawns": {
+          "16593": [
+            [
+              66.32,
+              79.56
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 253004,
+        "name": "Iaadaria Bitterwind",
+        "spawns": {
+          "16593": [
+            [
+              66.32,
+              79.56
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    1,
+    3,
+    4,
+    7,
+    95
+  ],
+  "requirements": {
+    "anyOf": [
+      92699
+    ],
+    "preQuestSingle": [
+      92699
+    ]
+  },
   "startPins": [
     {
       "npcId": 253004,
       "npcName": "Iaadaria Bitterwind",
-      "zoneId": 16593,
       "x": 66.2,
       "y": 79.6,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

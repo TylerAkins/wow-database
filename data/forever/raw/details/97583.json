@@ -121,6 +121,145 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 97583,
-  "races": [],
+  "questLevel": 1,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          269452
+        ]
+      ],
+      "name": "WRIGGLE.",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Purchase Nutritious Slime Sludge and return to your befriended excitable slime. If it seems tired, try dancing with it again to catch its attention."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 1,
+      "requiredClasses": 0,
+      "requiredLevel": 1,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 8589934770,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [],
+      "zoneOrSort": -284
+    },
+    "finishers": [
+      {
+        "id": 269452,
+        "name": "Excitable Slime",
+        "spawns": {
+          "1497": [
+            [
+              50.6,
+              44.8
+            ],
+            [
+              51.6,
+              58.8
+            ],
+            [
+              52,
+              31.8
+            ],
+            [
+              52.6,
+              58.2
+            ],
+            [
+              55,
+              62.2
+            ],
+            [
+              55.2,
+              63
+            ],
+            [
+              55.2,
+              63.6
+            ],
+            [
+              55.6,
+              63.2
+            ],
+            [
+              57.2,
+              66.4
+            ],
+            [
+              57.4,
+              63.6
+            ],
+            [
+              74.6,
+              23.2
+            ],
+            [
+              76.2,
+              24.8
+            ],
+            [
+              76.2,
+              25.6
+            ],
+            [
+              76.4,
+              60
+            ],
+            [
+              81.2,
+              32.2
+            ],
+            [
+              81.4,
+              34.4
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    }
+  },
+  "races": [
+    2,
+    5,
+    6,
+    8,
+    96
+  ],
   "startPins": []
 }

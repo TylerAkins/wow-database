@@ -76,16 +76,122 @@
     "typeId": 92469
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    92465
+  ],
   "questId": 92469,
+  "questLevel": 4,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          251361
+        ]
+      ],
+      "name": "Return to Rorian",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Bring word of the Al'Aketh to Rorian the Dayseeker in Thendal Grove."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        92465
+      ],
+      "questFlags": 0,
+      "questLevel": 4,
+      "requiredClasses": 0,
+      "requiredLevel": 3,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 0,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          249363
+        ]
+      ],
+      "zoneOrSort": 16593
+    },
+    "finishers": [
+      {
+        "id": 251361,
+        "name": "Rorian the Dayseeker",
+        "spawns": {
+          "16593": [
+            [
+              42.1,
+              23.49
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 249363,
+        "name": "Yala Windwatcher",
+        "spawns": {
+          "16593": [
+            [
+              47.26,
+              21.88
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [],
+  "requirements": {
+    "anyOf": [
+      92465
+    ],
+    "preQuestSingle": [
+      92465
+    ]
+  },
   "startPins": [
     {
       "npcId": 249363,
       "npcName": "Yala Windwatcher",
-      "zoneId": 16593,
       "x": 47.2,
       "y": 21.8,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

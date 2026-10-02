@@ -80,16 +80,132 @@
     "typeId": 97963
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    96101
+  ],
   "questId": 97963,
+  "questLevel": 6,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          257019
+        ]
+      ],
+      "name": "Camping 101: Alchemy",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Speak with Nyassa Swiftdraught in Shen'dar Village to learn to craft a camping item for your profession once you have shown proficiency in your skill."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        96101
+      ],
+      "questFlags": 0,
+      "questLevel": 6,
+      "requiredClasses": 0,
+      "requiredLevel": 4,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 0,
+      "requiredSkill": [
+        171,
+        1
+      ],
+      "requiredSpecialization": 0,
+      "requiredSpell": -1230564,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          263664
+        ]
+      ],
+      "zoneOrSort": -666
+    },
+    "finishers": [
+      {
+        "id": 257019,
+        "name": "Nyassa Swiftdraught",
+        "spawns": {
+          "16593": [
+            [
+              43.73,
+              43.46
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSkill": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 263664,
+        "name": "Raan Wildwind",
+        "spawns": {
+          "16593": [
+            [
+              41.7,
+              44.79
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [],
+  "requirements": {
+    "anyOf": [
+      96101
+    ],
+    "preQuestSingle": [
+      96101
+    ],
+    "requiredSkill": [
+      171,
+      1
+    ],
+    "requiredSpell": -1230564
+  },
   "startPins": [
     {
       "npcId": 263664,
       "npcName": "Raan Wildwind",
-      "zoneId": 16593,
       "x": 41.6,
       "y": 44.8,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

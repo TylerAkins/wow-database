@@ -78,16 +78,133 @@
     "typeId": 92483
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    92461
+  ],
   "questId": 92483,
+  "questLevel": 2,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          251389
+        ]
+      ],
+      "name": "At Home in the Shadows",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Read the Simple Note then speak with Akeri Duskblade within the watchtower in Thendal Grove."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        92461
+      ],
+      "questFlags": 0,
+      "questLevel": 2,
+      "reputationReward": [
+        [
+          2778,
+          50
+        ],
+        [
+          2779,
+          50
+        ]
+      ],
+      "requiredClasses": 8,
+      "requiredLevel": 2,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 0,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          251361
+        ]
+      ],
+      "zoneOrSort": -162
+    },
+    "finishers": [
+      {
+        "id": 251389,
+        "name": "Akeri Duskblade",
+        "spawns": {
+          "16593": [
+            [
+              43.71,
+              24.3
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 251361,
+        "name": "Rorian the Dayseeker",
+        "spawns": {
+          "16593": [
+            [
+              42.1,
+              23.49
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [],
+  "requirements": {
+    "anyOf": [
+      92461
+    ],
+    "preQuestSingle": [
+      92461
+    ]
+  },
   "startPins": [
     {
       "npcId": 251361,
       "npcName": "Rorian the Dayseeker",
-      "zoneId": 16593,
       "x": 42.0,
       "y": 23.4,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

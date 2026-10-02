@@ -78,14 +78,132 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 93951,
+  "questLevel": 7,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          251991
+        ]
+      ],
+      "name": "A Little Beauty",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Collect 8 Hippogryph Down feathers in the Shen'dar Highlands."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        92514,
+        93461
+      ],
+      "questFlags": 0,
+      "questLevel": 7,
+      "reputationReward": [
+        [
+          2778,
+          50
+        ],
+        [
+          2779,
+          50
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 4,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 0,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          251991
+        ]
+      ],
+      "zoneOrSort": 16593
+    },
+    "finishers": [
+      {
+        "id": 251991,
+        "name": "Taleen Shimmerthread",
+        "spawns": {
+          "16593": [
+            [
+              44.83,
+              44.25
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 251991,
+        "name": "Taleen Shimmerthread",
+        "spawns": {
+          "16593": [
+            [
+              44.83,
+              44.25
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [],
+  "requirements": {
+    "anyOf": [
+      92514,
+      93461
+    ],
+    "preQuestSingle": [
+      92514,
+      93461
+    ]
+  },
   "startPins": [
     {
       "npcId": 251991,
       "npcName": "Taleen Shimmerthread",
-      "zoneId": 16593,
       "x": 44.8,
       "y": 44.2,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

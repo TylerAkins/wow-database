@@ -17099,7 +17099,15 @@
           "zoneId": 141,
           "zoneName": "Teldrassil"
         },
-        "races": [],
+        "questLevel": 7,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -17626,14 +17634,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 87288,
-        "races": [],
+        "questLevel": 7,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                3608
+              ]
+            ],
+            "name": "Soft Saber Pelts",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Bring 6 Soft Nightsaber Pelts to Aldria."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 7,
+            "reputationReward": [
+              [
+                69,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 4,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                3608
+              ]
+            ],
+            "zoneOrSort": 141
+          },
+          "finishers": [
+            {
+              "id": 3608,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 3608,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 3608,
             "npcName": "Aldia",
-            "zoneId": 141,
             "x": 55.4,
             "y": 57.2,
+            "zoneId": 141,
             "zoneName": "Teldrassil"
           }
         ]
@@ -17680,7 +17775,15 @@
         "minLevel": 1,
         "name": "Fang of Githyiss",
         "pinCategory": "normal",
-        "races": [],
+        "questLevel": 5,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -17757,7 +17860,95 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 97236,
-        "races": [],
+        "questLevel": 5,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                2082
+              ]
+            ],
+            "name": "Fang of Githyiss",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Deliver the Fang of Githyiss to someone interested in the study of spiders in Aldrassil."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 5,
+            "reputationReward": [
+              [
+                69,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 1,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": {
+              "3": [
+                277190
+              ]
+            },
+            "zoneOrSort": 141
+          },
+          "finishers": [
+            {
+              "id": 2082,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 277190,
+              "name": "Fang of Githyiss",
+              "type": "item"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": []
       }
     },
@@ -17810,7 +18001,15 @@
           "zoneId": 141,
           "zoneName": "Teldrassil"
         },
-        "races": [],
+        "questLevel": 3,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -17905,14 +18104,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 97977,
-        "races": [],
+        "questLevel": 3,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                1992
+              ]
+            ],
+            "name": "Nature's Call",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Collect 4  Gnarlpine Totems and bring them to Tarindrella."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 3,
+            "reputationReward": [
+              [
+                69,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 1,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                1992
+              ]
+            ],
+            "zoneOrSort": 141
+          },
+          "finishers": [
+            {
+              "id": 1992,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 1992,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 1992,
             "npcName": "Tarindrella",
-            "zoneId": 141,
             "x": 57.8,
             "y": 45.0,
+            "zoneId": 141,
             "zoneName": "Teldrassil"
           }
         ]
@@ -17967,7 +18253,15 @@
           "zoneId": 1657,
           "zoneName": "Darnassus"
         },
-        "races": [],
+        "questLevel": 11,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -18102,14 +18396,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 98046,
-        "races": [],
+        "questLevel": 11,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                4092
+              ]
+            ],
+            "name": "Crown of the Earth",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Bring the Drained Vessel to Lariia in the Temple of the Moon in Darnassus."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 11,
+            "reputationReward": [
+              [
+                69,
+                150
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 1,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                3516
+              ]
+            ],
+            "zoneOrSort": 141
+          },
+          "finishers": [
+            {
+              "id": 4092,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 3516,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 3516,
             "npcName": "Arch Druid Fandral Staghelm",
-            "zoneId": 1657,
             "x": 34.8,
             "y": 8.8,
+            "zoneId": 1657,
             "zoneName": "Darnassus"
           }
         ]
@@ -18164,7 +18545,15 @@
           "zoneId": 1657,
           "zoneName": "Darnassus"
         },
-        "races": [],
+        "questLevel": 11,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -18307,14 +18696,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 98065,
-        "races": [],
+        "questLevel": 11,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                7999
+              ]
+            ],
+            "name": "Crown of the Earth",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Bring the Moonwell Remnants to Tyrande Whisperwind in the Temple of the Moon in Darnassus."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 11,
+            "reputationReward": [
+              [
+                69,
+                150
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 1,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                4092
+              ]
+            ],
+            "zoneOrSort": 141
+          },
+          "finishers": [
+            {
+              "id": 7999,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 4092,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 4092,
             "npcName": "Lariia",
-            "zoneId": 1657,
             "x": 40.2,
             "y": 88.4,
+            "zoneId": 1657,
             "zoneName": "Darnassus"
           }
         ]
@@ -18364,7 +18840,15 @@
           "zoneId": 141,
           "zoneName": "Teldrassil"
         },
-        "races": [],
+        "questLevel": 12,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -18563,14 +19047,94 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 98392,
-        "races": [],
+        "questLevel": 12,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                3519
+              ]
+            ],
+            "name": "Darkness in the Glade",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Collect Hatescreech's Amulet, Windmistress Gaedress' Amulet, and Witchmother Arysa's Amulet for Sentinel Arynia Cloudsbreak in the Oracle Glade."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 12,
+            "requiredClasses": 0,
+            "requiredLevel": 6,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                3519
+              ]
+            ],
+            "zoneOrSort": 141
+          },
+          "finishers": [
+            {
+              "id": 3519,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 3519,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 3519,
             "npcName": "Sentinel Arynia Cloudsbreak",
-            "zoneId": 141,
             "x": 38.2,
             "y": 34.4,
+            "zoneId": 141,
             "zoneName": "Teldrassil"
           }
         ]
@@ -18620,7 +19184,15 @@
           "zoneId": 141,
           "zoneName": "Teldrassil"
         },
-        "races": [],
+        "questLevel": 12,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -18697,14 +19269,84 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 98398,
-        "races": [],
+        "questLevel": 12,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [],
+            "name": "The Oracle Tree",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Find the Oracle Tree Bark nearby to receive its message."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 12,
+            "requiredClasses": 0,
+            "requiredLevel": 6,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                3519
+              ]
+            ],
+            "zoneOrSort": 141
+          },
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 3519,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 3519,
             "npcName": "Sentinel Arynia Cloudsbreak",
-            "zoneId": 141,
             "x": 38.2,
             "y": 34.4,
+            "zoneId": 141,
             "zoneName": "Teldrassil"
           }
         ]
@@ -18764,7 +19406,15 @@
           "zoneId": 141,
           "zoneName": "Teldrassil"
         },
-        "races": [],
+        "questLevel": 12,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -19018,14 +19668,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 98403,
-        "races": [],
+        "questLevel": 12,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                3567
+              ]
+            ],
+            "name": "Twisted Hatred",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Kill 8 Befouled Webwoods and bring Xethorr the Wicked's Mature Fel Moss to Tallonkai Swiftroot in Dolanaar."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 12,
+            "reputationReward": [
+              [
+                69,
+                150
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 4,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                3567
+              ]
+            ],
+            "zoneOrSort": 141
+          },
+          "finishers": [
+            {
+              "id": 3567,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 3567,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 3567,
             "npcName": "Tallonkai Swiftroot",
-            "zoneId": 141,
             "x": 55.4,
             "y": 56.8,
+            "zoneId": 141,
             "zoneName": "Teldrassil"
           }
         ]
@@ -19080,7 +19817,15 @@
           "zoneId": 141,
           "zoneName": "Teldrassil"
         },
-        "races": [],
+        "questLevel": 9,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -19187,14 +19932,122 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 99046,
-        "races": [],
+        "questLevel": 9,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                275683
+              ]
+            ],
+            "name": "The Lost Runner",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Search for Sentinel Eralya Leafshadow on the road leading to the Oracle Glade."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 9,
+            "reputationReward": [
+              [
+                69,
+                10
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 4,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                2081
+              ]
+            ],
+            "zoneOrSort": 141
+          },
+          "finishers": [
+            {
+              "id": 275683,
+              "name": "Sentinel Eralya Leafshadow",
+              "spawns": {
+                "141": [
+                  [
+                    37.56,
+                    36.93
+                  ],
+                  [
+                    37.57,
+                    36.72
+                  ],
+                  [
+                    37.57,
+                    36.84
+                  ],
+                  [
+                    37.61,
+                    36.92
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 2081,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 2081,
             "npcName": "Sentinel Kyra Starsong",
-            "zoneId": 141,
             "x": 56.0,
             "y": 59.4,
+            "zoneId": 141,
             "zoneName": "Teldrassil"
           }
         ]
@@ -19249,7 +20102,15 @@
           "zoneId": 141,
           "zoneName": "Teldrassil"
         },
-        "races": [],
+        "questLevel": 9,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -19352,14 +20213,122 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 99047,
-        "races": [],
+        "questLevel": 9,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                6094
+              ]
+            ],
+            "name": "Not Dead Yet",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Seek aid from Byancie in Dolaanar for Sentinel Eralya Leafshadow."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 9,
+            "reputationReward": [
+              [
+                69,
+                10
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 4,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                275683
+              ]
+            ],
+            "zoneOrSort": 141
+          },
+          "finishers": [
+            {
+              "id": 6094,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 275683,
+              "name": "Sentinel Eralya Leafshadow",
+              "spawns": {
+                "141": [
+                  [
+                    37.56,
+                    36.93
+                  ],
+                  [
+                    37.57,
+                    36.72
+                  ],
+                  [
+                    37.57,
+                    36.84
+                  ],
+                  [
+                    37.61,
+                    36.92
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 275683,
             "npcName": "Sentinel Eralya Leafshadow",
-            "zoneId": 141,
             "x": 37.6,
             "y": 36.8,
+            "zoneId": 141,
             "zoneName": "Teldrassil"
           }
         ]
@@ -19414,7 +20383,15 @@
           "zoneId": 141,
           "zoneName": "Teldrassil"
         },
-        "races": [],
+        "questLevel": 10,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -24887,14 +25864,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 99050,
-        "races": [],
+        "questLevel": 10,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                6094
+              ]
+            ],
+            "name": "The Great Tree Provides",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Collect 6 Dewy Lasher Fronds, an Empty Vial, and a Refreshing Spring Water for Byancie in Dolanaar."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 10,
+            "reputationReward": [
+              [
+                69,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 4,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                6094
+              ]
+            ],
+            "zoneOrSort": 141
+          },
+          "finishers": [
+            {
+              "id": 6094,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 6094,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 6094,
             "npcName": "Byancie",
-            "zoneId": 141,
             "x": 55.2,
             "y": 56.8,
+            "zoneId": 141,
             "zoneName": "Teldrassil"
           }
         ]
@@ -24944,7 +26008,15 @@
           "zoneId": 141,
           "zoneName": "Teldrassil"
         },
-        "races": [],
+        "questLevel": 9,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -25079,14 +26151,107 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 99053,
-        "races": [],
+        "questLevel": 9,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                2081
+              ]
+            ],
+            "name": "Escaping Ban'ethil",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Help Sentinel Lynessa Duskblossom escape Ban'ethil Barrow Den, and report her is safety to Sentinel Kyra Starsong in Dolanaar."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 9,
+            "requiredClasses": 0,
+            "requiredLevel": 4,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                275744
+              ]
+            ],
+            "zoneOrSort": 141
+          },
+          "finishers": [
+            {
+              "id": 2081,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 275744,
+              "name": "Sentinel Lynessa Duskblossom",
+              "spawns": {
+                "141": [
+                  [
+                    44.64,
+                    58.98
+                  ],
+                  [
+                    44.69,
+                    58.9
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 275744,
             "npcName": "Sentinel Lynessa Duskblossom",
-            "zoneId": 141,
             "x": 44.6,
             "y": 58.8,
+            "zoneId": 141,
             "zoneName": "Teldrassil"
           }
         ]
@@ -25136,7 +26301,15 @@
           "zoneId": 141,
           "zoneName": "Teldrassil"
         },
-        "races": [],
+        "questLevel": 10,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -25239,14 +26412,115 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 99073,
-        "races": [],
+        "questLevel": 10,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                275683
+              ]
+            ],
+            "name": "Easing Suffering",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Take the Lashwater Salve to Sentinel Eralya Leafshadow on the road to the Oracle Tree."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 10,
+            "requiredClasses": 0,
+            "requiredLevel": 4,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                6094
+              ]
+            ],
+            "zoneOrSort": 141
+          },
+          "finishers": [
+            {
+              "id": 275683,
+              "name": "Sentinel Eralya Leafshadow",
+              "spawns": {
+                "141": [
+                  [
+                    37.56,
+                    36.93
+                  ],
+                  [
+                    37.57,
+                    36.72
+                  ],
+                  [
+                    37.57,
+                    36.84
+                  ],
+                  [
+                    37.61,
+                    36.92
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 6094,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 6094,
             "npcName": "Byancie",
-            "zoneId": 141,
             "x": 55.2,
             "y": 56.8,
+            "zoneId": 141,
             "zoneName": "Teldrassil"
           }
         ]

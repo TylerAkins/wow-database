@@ -1,5 +1,7 @@
 {
-  "classes": [],
+  "classes": [
+    11
+  ],
   "fetchedAt": "2026-09-25T06:34:29+00:00",
   "infoboxFlags": {
     "daily": false,
@@ -112,20 +114,163 @@
   },
   "pinCategory": "normal",
   "prerequisiteQuestIds": [
-    92840
+    94006
   ],
   "questId": 94638,
+  "questLevel": 10,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          255853
+        ]
+      ],
+      "name": "Strength and Mercy",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Find and kill Ur'endra in the Shen'dar Highlands."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        94006
+      ],
+      "questFlags": 0,
+      "questLevel": 10,
+      "reputationReward": [
+        [
+          2758,
+          100
+        ]
+      ],
+      "requiredClasses": 1024,
+      "requiredLevel": 10,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 12884901888,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          255853
+        ]
+      ],
+      "zoneOrSort": -263
+    },
+    "finishers": [
+      {
+        "id": 255853,
+        "name": "Urs'endris",
+        "spawns": {
+          "16593": [
+            [
+              69.69,
+              61.57
+            ],
+            [
+              69.7,
+              61.62
+            ],
+            [
+              69.72,
+              61.68
+            ],
+            [
+              69.78,
+              61.71
+            ],
+            [
+              69.83,
+              61.67
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 255853,
+        "name": "Urs'endris",
+        "spawns": {
+          "16593": [
+            [
+              69.69,
+              61.57
+            ],
+            [
+              69.7,
+              61.62
+            ],
+            [
+              69.72,
+              61.68
+            ],
+            [
+              69.78,
+              61.71
+            ],
+            [
+              69.83,
+              61.67
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [
     95,
     96
   ],
+  "requirements": {
+    "anyOf": [
+      94006
+    ],
+    "preQuestSingle": [
+      94006
+    ]
+  },
   "startPins": [
     {
       "npcId": 255853,
       "npcName": "Urs'endris",
-      "zoneId": 16593,
       "x": 69.8,
       "y": 61.6,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

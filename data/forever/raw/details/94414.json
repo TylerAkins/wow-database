@@ -78,14 +78,124 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 94414,
+  "questLevel": 2,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          257554
+        ]
+      ],
+      "name": "The Anchors of Zephras",
+      "nextQuestInChain": 0,
+      "objectives": [
+        [
+          {
+            "1": 257554,
+            "3": 5
+          }
+        ]
+      ],
+      "objectivesText": [
+        "Speak with Halaan Hawk-Eye and borrow his gift to view the anchor pylon in the distance."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 2,
+      "reputationReward": [
+        [
+          2778,
+          10
+        ],
+        [
+          2779,
+          10
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 2,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 0,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          257554
+        ]
+      ],
+      "zoneOrSort": 16593
+    },
+    "finishers": [
+      {
+        "id": 257554,
+        "name": "Halaan Hawk-Eye",
+        "spawns": {
+          "16593": [
+            [
+              43.77,
+              24.08
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 257554,
+        "name": "Halaan Hawk-Eye",
+        "spawns": {
+          "16593": [
+            [
+              43.77,
+              24.08
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [],
   "startPins": [
     {
       "npcId": 257554,
       "npcName": "Halaan Hawk-Eye",
-      "zoneId": 16593,
       "x": 43.8,
       "y": 24.0,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

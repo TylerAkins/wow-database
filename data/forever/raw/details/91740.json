@@ -65,6 +65,103 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 91740,
-  "races": [],
+  "questLevel": 10,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          248277
+        ]
+      ],
+      "name": "Croaky's Head",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Deliver Croaky's Head to Merell Ross at Ridgepoint Tower."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 10,
+      "reputationReward": [
+        [
+          72,
+          100
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 7,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 4294967373,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": {
+        "3": [
+          247826
+        ]
+      },
+      "zoneOrSort": 12
+    },
+    "finishers": [
+      {
+        "id": 248277,
+        "name": "Merell Ross",
+        "spawns": {
+          "12": [
+            [
+              84.65,
+              79.3
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 247826,
+        "name": "Croaky's Head",
+        "type": "item"
+      }
+    ]
+  },
+  "races": [
+    1,
+    3,
+    4,
+    7,
+    95
+  ],
   "startPins": []
 }

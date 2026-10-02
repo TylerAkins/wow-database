@@ -148,14 +148,131 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 92465,
+  "questLevel": 3,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          249363
+        ]
+      ],
+      "name": "Agitators",
+      "nextQuestInChain": 92469,
+      "objectives": [
+        [
+          {
+            "1": 251160,
+            "3": 0
+          },
+          {
+            "1": 251143,
+            "3": 0
+          }
+        ]
+      ],
+      "objectivesText": [
+        "Slay 6 Roiling Winds and 7 Al'Aketh Converts in Thendal Grove."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 3,
+      "reputationReward": [
+        [
+          2778,
+          50
+        ],
+        [
+          2779,
+          50
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 2,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 0,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          249363
+        ]
+      ],
+      "zoneOrSort": 16593
+    },
+    "finishers": [
+      {
+        "id": 249363,
+        "name": "Yala Windwatcher",
+        "spawns": {
+          "16593": [
+            [
+              47.26,
+              21.88
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 249363,
+        "name": "Yala Windwatcher",
+        "spawns": {
+          "16593": [
+            [
+              47.26,
+              21.88
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [],
+  "requirements": {
+    "nextQuestInChain": 92469
+  },
   "startPins": [
     {
       "npcId": 249363,
       "npcName": "Yala Windwatcher",
-      "zoneId": 16593,
       "x": 47.2,
       "y": 21.8,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

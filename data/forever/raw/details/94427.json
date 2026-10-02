@@ -101,6 +101,134 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 94427,
+  "questLevel": 12,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          257648
+        ]
+      ],
+      "name": "A Lesson in Divinity",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Speak to Tanis Alderwood in the Undercity."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 12,
+      "requiredClasses": 2,
+      "requiredLevel": 12,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 16,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          246378
+        ]
+      ],
+      "zoneOrSort": -141
+    },
+    "finishers": [
+      {
+        "id": 257648,
+        "name": "Tanis Alderwood",
+        "spawns": {
+          "1497": [
+            [
+              65.24,
+              37.9
+            ],
+            [
+              65.5,
+              38.04
+            ],
+            [
+              65.52,
+              37.96
+            ],
+            [
+              65.58,
+              38.05
+            ],
+            [
+              65.62,
+              37.94
+            ],
+            [
+              65.67,
+              38
+            ],
+            [
+              65.72,
+              37.84
+            ],
+            [
+              65.76,
+              37.72
+            ],
+            [
+              65.82,
+              37.59
+            ],
+            [
+              65.83,
+              37.8
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 246378,
+        "name": "Danitha Morr",
+        "spawns": {
+          "85": [
+            [
+              22.05,
+              44.7
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [
     5
   ],
@@ -108,9 +236,9 @@
     {
       "npcId": 246378,
       "npcName": "Danitha Morr",
-      "zoneId": 85,
       "x": 22.0,
       "y": 44.6,
+      "zoneId": 85,
       "zoneName": "Tirisfal Glades"
     }
   ]

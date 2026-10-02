@@ -1,5 +1,7 @@
 {
-  "classes": [],
+  "classes": [
+    7
+  ],
   "faction": "Horde",
   "fetchedAt": "2026-09-25T06:49:28+00:00",
   "infoboxFlags": {
@@ -105,24 +107,160 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 97243,
+  "questLevel": 10,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          268592
+        ]
+      ],
+      "name": "Call of Fire",
+      "nextQuestInChain": 97244,
+      "objectives": [],
+      "objectivesText": [
+        "Bring the Torch of Dormant Flame to Olariaan Swiftburn at the Shrine of Flames in the Gustberry Lowlands."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 10,
+      "reputationReward": [
+        [
+          2778,
+          25
+        ]
+      ],
+      "requiredClasses": 64,
+      "requiredLevel": 10,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 8589934592,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 6653,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          252382,
+          254082
+        ]
+      ],
+      "zoneOrSort": -82
+    },
+    "finishers": [
+      {
+        "id": 268592,
+        "name": "Olariaan Swiftburn",
+        "spawns": {
+          "16593": [
+            [
+              51.2,
+              86.13
+            ],
+            [
+              51.22,
+              86.22
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 252382,
+        "name": "Sessaria Skystride",
+        "spawns": {
+          "16593": [
+            [
+              58.31,
+              78.43
+            ],
+            [
+              58.34,
+              78.52
+            ]
+          ]
+        },
+        "type": "npc"
+      },
+      {
+        "id": 254082,
+        "name": "Aarnor Galestrike",
+        "spawns": {
+          "16593": [
+            [
+              43.4,
+              44.58
+            ],
+            [
+              43.44,
+              44.96
+            ],
+            [
+              43.46,
+              44.72
+            ],
+            [
+              43.48,
+              44.84
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [
     96
   ],
+  "requirements": {
+    "nextQuestInChain": 97244
+  },
   "startPins": [
     {
       "npcId": 252382,
       "npcName": "Sessaria Skystride",
-      "zoneId": 16593,
       "x": 58.2,
       "y": 78.4,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     },
     {
       "npcId": 254082,
       "npcName": "Aarnor Galestrike",
-      "zoneId": 16593,
       "x": 43.4,
       "y": 44.8,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

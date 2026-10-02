@@ -127,19 +127,129 @@
     "typeId": 65593
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    1472
+  ],
   "questId": 65593,
+  "questLevel": -1,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "exclusiveTo": [
+        1507
+      ],
+      "finishedBy": [
+        [
+          5675
+        ]
+      ],
+      "name": "Hearts of the Lovers",
+      "nextQuestInChain": 65597,
+      "objectives": {
+        "3": [
+          {
+            "1": 190179,
+            "3": 0
+          },
+          {
+            "1": 190180,
+            "3": 0
+          }
+        ]
+      },
+      "objectivesText": [
+        "Bring the hearts of Avelina Lilly and Isaac Pearson to Carendin Halgar in the Temple of the Damned."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        1472
+      ],
+      "questFlags": 0,
+      "questLevel": -1,
+      "requiredClasses": 256,
+      "requiredLevel": 20,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 8589934770,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          5693
+        ]
+      ],
+      "zoneOrSort": -61
+    },
+    "finishers": [
+      {
+        "id": 5675,
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "exclusiveTo": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 5693,
+        "type": "npc"
+      }
+    ]
+  },
   "races": [
     2,
-    5
+    5,
+    6,
+    8,
+    96
   ],
+  "requirements": {
+    "anyOf": [
+      1472
+    ],
+    "exclusiveTo": [
+      1507
+    ],
+    "nextQuestInChain": 65597,
+    "preQuestSingle": [
+      1472
+    ]
+  },
   "startPins": [
     {
       "npcId": 5693,
       "npcName": "Godrick Farsan",
-      "zoneId": 1497,
       "x": 85.0,
       "y": 14.8,
+      "zoneId": 1497,
       "zoneName": "Undercity"
     }
   ]

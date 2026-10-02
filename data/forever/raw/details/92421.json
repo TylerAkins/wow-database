@@ -119,14 +119,183 @@
   "pinCategory": "instance",
   "prerequisiteQuestIds": [],
   "questId": 92421,
-  "races": [],
+  "questLevel": 22,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          266484
+        ]
+      ],
+      "name": "Light's Justice",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Collect 25 Intact Limbs within The Ruins of Lordaeron for Morbin Lightbane in the Undercity."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 22,
+      "reputationReward": [
+        [
+          68,
+          150
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 15,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 8589934770,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          266484
+        ]
+      ],
+      "zoneOrSort": 16611
+    },
+    "finishers": [
+      {
+        "id": 266484,
+        "name": "Morbin Lightbane",
+        "spawns": {
+          "1497": [
+            [
+              57.78,
+              89.34
+            ],
+            [
+              57.81,
+              90.03
+            ],
+            [
+              57.85,
+              89.89
+            ],
+            [
+              57.89,
+              89.07
+            ],
+            [
+              57.89,
+              89.75
+            ],
+            [
+              57.94,
+              89.08
+            ],
+            [
+              58,
+              89.23
+            ],
+            [
+              58.05,
+              89.13
+            ],
+            [
+              58.08,
+              89.52
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 266484,
+        "name": "Morbin Lightbane",
+        "spawns": {
+          "1497": [
+            [
+              57.78,
+              89.34
+            ],
+            [
+              57.81,
+              90.03
+            ],
+            [
+              57.85,
+              89.89
+            ],
+            [
+              57.89,
+              89.07
+            ],
+            [
+              57.89,
+              89.75
+            ],
+            [
+              57.94,
+              89.08
+            ],
+            [
+              58,
+              89.23
+            ],
+            [
+              58.05,
+              89.13
+            ],
+            [
+              58.08,
+              89.52
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    2,
+    5,
+    6,
+    8,
+    96
+  ],
   "startPins": [
     {
       "npcId": 266484,
       "npcName": "Morbin Lightbane",
-      "zoneId": 1497,
       "x": 57.8,
       "y": 89.8,
+      "zoneId": 1497,
       "zoneName": "Undercity"
     }
   ]

@@ -100,16 +100,133 @@
     "typeId": 92703
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    92693
+  ],
   "questId": 92703,
+  "questLevel": 9,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          252448
+        ]
+      ],
+      "name": "Deliver the News",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Speak with Alvarion Windfield in Valanaar."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        92693
+      ],
+      "questFlags": 0,
+      "questLevel": 9,
+      "reputationReward": [
+        [
+          2778,
+          100
+        ],
+        [
+          2779,
+          100
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 5,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 0,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          252800
+        ]
+      ],
+      "zoneOrSort": 16593
+    },
+    "finishers": [
+      {
+        "id": 252448,
+        "name": "Alvarion Windfield",
+        "spawns": {
+          "16593": [
+            [
+              62.14,
+              73.3
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 252800,
+        "name": "Aamelia Windfield",
+        "spawns": {
+          "16593": [
+            [
+              46.7,
+              81.95
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [],
+  "requirements": {
+    "anyOf": [
+      92693
+    ],
+    "preQuestSingle": [
+      92693
+    ]
+  },
   "startPins": [
     {
       "npcId": 252800,
       "npcName": "Aamelia Windfield",
-      "zoneId": 16593,
       "x": 46.6,
       "y": 81.8,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

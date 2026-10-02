@@ -59,16 +59,144 @@
     "typeId": 92727
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    92699
+  ],
   "questId": 92727,
-  "races": [],
+  "questLevel": 10,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": {
+        "2": [
+          581822
+        ]
+      },
+      "name": "The Missing Scholar",
+      "nextQuestInChain": 92849,
+      "objectives": [],
+      "objectivesText": [
+        "Discover what became of Fillion Flamebreeze."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        92699
+      ],
+      "questFlags": 0,
+      "questLevel": 10,
+      "reputationReward": [
+        [
+          2779,
+          100
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 4,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 4294967373,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          253204
+        ]
+      ],
+      "zoneOrSort": 16593
+    },
+    "finishers": [
+      {
+        "id": 581822,
+        "name": "Bloodstained Satchel",
+        "spawns": {
+          "16593": [
+            [
+              53.25,
+              72.17
+            ],
+            [
+              53.31,
+              72.1
+            ],
+            [
+              53.36,
+              72.22
+            ]
+          ]
+        },
+        "type": "object"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 253204,
+        "name": "Dondallion Whisperwind",
+        "spawns": {
+          "16593": [
+            [
+              66.27,
+              79.85
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    1,
+    3,
+    4,
+    7,
+    95
+  ],
+  "requirements": {
+    "anyOf": [
+      92699
+    ],
+    "nextQuestInChain": 92849,
+    "preQuestSingle": [
+      92699
+    ]
+  },
   "startPins": [
     {
       "npcId": 253204,
       "npcName": "Dondallion Whisperwind",
-      "zoneId": 16593,
       "x": 66.2,
       "y": 79.8,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

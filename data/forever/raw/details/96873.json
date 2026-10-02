@@ -87,14 +87,119 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 96873,
-  "races": [],
+  "questLevel": 8,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          266881
+        ]
+      ],
+      "name": "A Pain in the Neck",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Pa'zula in Sen'jin Village wants you to collect 3 Luminous Residue. Luminous Residue can be obtained by disenchanting Hexed Pendants dropped by trolls in the Echo Isles."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 8,
+      "reputationReward": [
+        [
+          76,
+          75
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 5,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 8589934770,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          266881
+        ]
+      ],
+      "zoneOrSort": 14
+    },
+    "finishers": [
+      {
+        "id": 266881,
+        "name": "Pa'zula",
+        "spawns": {
+          "14": [
+            [
+              56.67,
+              73.75
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 266881,
+        "name": "Pa'zula",
+        "spawns": {
+          "14": [
+            [
+              56.67,
+              73.75
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    2,
+    5,
+    6,
+    8,
+    96
+  ],
   "startPins": [
     {
       "npcId": 266881,
       "npcName": "Pa'zula",
-      "zoneId": 14,
       "x": 56.6,
       "y": 73.6,
+      "zoneId": 14,
       "zoneName": "Durotar"
     }
   ]

@@ -79,14 +79,126 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 99049,
-  "races": [],
+  "questLevel": 11,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          3142
+        ]
+      ],
+      "name": "Threat from Below",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Find signs of what attacked Heglan Shadeeye."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 11,
+      "reputationReward": [
+        [
+          76,
+          25
+        ],
+        [
+          530,
+          25
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 9,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 8589934770,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          275657
+        ]
+      ],
+      "zoneOrSort": 14
+    },
+    "finishers": [
+      {
+        "id": 3142,
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 275657,
+        "name": "Heglan Shadeeye",
+        "spawns": {
+          "14": [
+            [
+              58.58,
+              45.61
+            ],
+            [
+              58.61,
+              45.67
+            ],
+            [
+              58.64,
+              45.72
+            ],
+            [
+              58.67,
+              45.6
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    2,
+    5,
+    6,
+    8,
+    96
+  ],
   "startPins": [
     {
       "npcId": 275657,
       "npcName": "Heglan Shadeeye",
-      "zoneId": 14,
       "x": 58.6,
       "y": 45.6,
+      "zoneId": 14,
       "zoneName": "Durotar"
     }
   ]

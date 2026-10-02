@@ -59,7 +59,15 @@
           "zoneId": 1519,
           "zoneName": "Stormwind City"
         },
-        "races": [],
+        "questLevel": 22,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -182,14 +190,94 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 95161,
-        "races": [],
+        "questLevel": 22,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                228
+              ]
+            ],
+            "name": "Remember That I Love You",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Deliver the Blood-Stained Letter to Avette Fellwood in Duskwood."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 22,
+            "requiredClasses": 0,
+            "requiredLevel": 15,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                14450
+              ]
+            ],
+            "zoneOrSort": 16591
+          },
+          "finishers": [
+            {
+              "id": 228,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 14450,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 14450,
             "npcName": "Orphan Matron Nightingale",
-            "zoneId": 1519,
             "x": 47.2,
             "y": 38.4,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]

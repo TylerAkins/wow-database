@@ -87,14 +87,119 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 97237,
-  "races": [],
+  "questLevel": 18,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          268568
+        ]
+      ],
+      "name": "Shelf Picked",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Find each of the reading materials located somewhere in the library and then return to Roy Lewells in Stormwind's Park."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 18,
+      "requiredClasses": 0,
+      "requiredLevel": 13,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 4294967373,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          2504
+        ]
+      ],
+      "zoneOrSort": 1519
+    },
+    "finishers": [
+      {
+        "id": 268568,
+        "name": "Roy Lewells",
+        "spawns": {
+          "1519": [
+            [
+              38.65,
+              62.18
+            ],
+            [
+              38.68,
+              62.11
+            ],
+            [
+              38.72,
+              62.39
+            ],
+            [
+              38.75,
+              62.15
+            ],
+            [
+              38.75,
+              62.25
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 2504,
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    1,
+    3,
+    4,
+    7,
+    95
+  ],
   "startPins": [
     {
       "npcId": 2504,
       "npcName": "Donyal Tovald",
-      "zoneId": 1519,
       "x": 71.6,
       "y": 7.4,
+      "zoneId": 1519,
       "zoneName": "Stormwind City"
     }
   ]

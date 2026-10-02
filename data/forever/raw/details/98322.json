@@ -79,14 +79,118 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 98322,
-  "races": [],
+  "questLevel": 8,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          271546
+        ]
+      ],
+      "name": "Secure the Mountain",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Check in on Mountaineer Gretchen west of Kharanos."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 8,
+      "reputationReward": [
+        [
+          47,
+          100
+        ],
+        [
+          54,
+          100
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 4,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 4294967373,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          1252
+        ]
+      ],
+      "zoneOrSort": 1
+    },
+    "finishers": [
+      {
+        "id": 271546,
+        "name": "Mountaineer Gretchen",
+        "spawns": [
+          [
+            [
+              44.08,
+              56.99
+            ],
+            [
+              44.14,
+              57.03
+            ]
+          ]
+        ],
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 1252,
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    1,
+    3,
+    4,
+    7,
+    95
+  ],
   "startPins": [
     {
       "npcId": 1252,
       "npcName": "Senir Whitebeard",
-      "zoneId": 1,
       "x": 46.6,
       "y": 53.8,
+      "zoneId": 1,
       "zoneName": "Dun Morogh"
     }
   ]

@@ -76,16 +76,129 @@
     "typeId": 93949
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    93948
+  ],
   "questId": 93949,
+  "questLevel": 8,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          252383
+        ]
+      ],
+      "name": "Bugged",
+      "nextQuestInChain": 0,
+      "objectives": [
+        [
+          {
+            "1": 251727,
+            "3": 0
+          }
+        ]
+      ],
+      "objectivesText": [
+        "Kill Skyhoppers in Valanaar until you've eliminated 8 Enchanted Skyhoppers."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        93948
+      ],
+      "questFlags": 0,
+      "questLevel": 8,
+      "requiredClasses": 0,
+      "requiredLevel": 6,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 0,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          252383
+        ]
+      ],
+      "zoneOrSort": 16593
+    },
+    "finishers": [
+      {
+        "id": 252383,
+        "name": "Valennia Stormfist",
+        "spawns": {
+          "16593": [
+            [
+              66.22,
+              76.63
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 252383,
+        "name": "Valennia Stormfist",
+        "spawns": {
+          "16593": [
+            [
+              66.22,
+              76.63
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [],
+  "requirements": {
+    "anyOf": [
+      93948
+    ],
+    "preQuestSingle": [
+      93948
+    ]
+  },
   "startPins": [
     {
       "npcId": 252383,
       "npcName": "Valennia Stormfist",
-      "zoneId": 16593,
       "x": 66.2,
       "y": 76.6,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

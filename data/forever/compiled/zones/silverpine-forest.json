@@ -13371,7 +13371,15 @@
           "zoneId": 130,
           "zoneName": "Silverpine Forest"
         },
-        "races": [],
+        "questLevel": 11,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -14518,14 +14526,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 91920,
-        "races": [],
+        "questLevel": 11,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                1937
+              ]
+            ],
+            "name": "Wild Eyes",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Gather 3 murloc eyes and bring them to Apothecary Renferrel at the Sepulcher."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 11,
+            "reputationReward": [
+              [
+                68,
+                50
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 10,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                1951
+              ]
+            ],
+            "zoneOrSort": 130
+          },
+          "finishers": [
+            {
+              "id": 1937,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 1951,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 1951,
             "npcName": "Quinn Yorick",
-            "zoneId": 130,
             "x": 53.4,
             "y": 12.6,
+            "zoneId": 130,
             "zoneName": "Silverpine Forest"
           }
         ]
@@ -14580,7 +14675,15 @@
           "zoneId": 130,
           "zoneName": "Silverpine Forest"
         },
-        "races": [],
+        "questLevel": 11,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -14675,14 +14778,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 91921,
-        "races": [],
+        "questLevel": 11,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                1951
+              ]
+            ],
+            "name": "Return to Quinn (Again)",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Bring Quinn's potion to Quinn Yorick at the Ivar Patch, north of the Sepulcher."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 11,
+            "reputationReward": [
+              [
+                68,
+                75
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 10,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                1937
+              ]
+            ],
+            "zoneOrSort": 130
+          },
+          "finishers": [
+            {
+              "id": 1951,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 1937,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 1937,
             "npcName": "Apothecary Renferrel",
-            "zoneId": 130,
             "x": 42.8,
             "y": 40.8,
+            "zoneId": 130,
             "zoneName": "Silverpine Forest"
           }
         ]
@@ -14724,7 +14914,15 @@
         "minLevel": 20,
         "name": "The Tortured Soul",
         "pinCategory": "normal",
-        "races": [],
+        "questLevel": 23,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -14927,7 +15125,67 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 95883,
-        "races": [],
+        "questLevel": 23,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [],
+            "name": "The Tortured Soul",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Collect a Tortured Soul from the nearby undead in Beren's Peril in Silverpine Forest."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 23,
+            "requiredClasses": 0,
+            "requiredLevel": 20,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [],
+            "zoneOrSort": 130
+          },
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          }
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": []
       }
     },
@@ -14967,7 +15225,15 @@
         "minLevel": 20,
         "name": "The Offering Stone",
         "pinCategory": "normal",
-        "races": [],
+        "questLevel": 23,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -15170,7 +15436,78 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 95884,
-        "races": [],
+        "questLevel": 23,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [],
+            "name": "The Offering Stone",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Find the Offering Stone in Beren's Peril in Silverpine Forest."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 23,
+            "requiredClasses": 0,
+            "requiredLevel": 20,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": {
+              "3": [
+                271343
+              ]
+            },
+            "zoneOrSort": 130
+          },
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 271343,
+              "name": "Note Scrap",
+              "type": "item"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": []
       }
     },
@@ -15215,7 +15552,15 @@
         "minLevel": 20,
         "name": "The Offering of Blood",
         "pinCategory": "normal",
-        "races": [],
+        "questLevel": 23,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -15417,7 +15762,67 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 95885,
-        "races": [],
+        "questLevel": 23,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [],
+            "name": "The Offering of Blood",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Use the Tortured Soul to give an offering of blood at the Offering Stone in Beren's Peril."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 23,
+            "requiredClasses": 0,
+            "requiredLevel": 20,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [],
+            "zoneOrSort": 130
+          },
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          }
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": []
       }
     },
@@ -15475,7 +15880,15 @@
           "zoneId": 130,
           "zoneName": "Silverpine Forest"
         },
-        "races": [],
+        "questLevel": 20,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -15912,14 +16325,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 95981,
-        "races": [],
+        "questLevel": 20,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                2121
+              ]
+            ],
+            "name": "Watching the Roads",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Slay 8 Dalaran Wizards and 8 Dalaran Watchers for Shadow Priest Allister in the Sepulcher."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 20,
+            "reputationReward": [
+              [
+                68,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 10,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                2121
+              ]
+            ],
+            "zoneOrSort": 130
+          },
+          "finishers": [
+            {
+              "id": 2121,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 2121,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 2121,
             "npcName": "Shadow Priest Allister",
-            "zoneId": 130,
             "x": 44.0,
             "y": 41.0,
+            "zoneId": 130,
             "zoneName": "Silverpine Forest"
           }
         ]
@@ -15979,7 +16479,15 @@
           "zoneId": 130,
           "zoneName": "Silverpine Forest"
         },
-        "races": [],
+        "questLevel": 16,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -16390,14 +16898,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 98298,
-        "races": [],
+        "questLevel": 16,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                1938
+              ]
+            ],
+            "name": "Arugal's Folly",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Bring 6 Worgen Bits to Dalar Dawnweaver in The Sepulcher."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 16,
+            "reputationReward": [
+              [
+                68,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 9,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                1938
+              ]
+            ],
+            "zoneOrSort": 130
+          },
+          "finishers": [
+            {
+              "id": 1938,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 1938,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 1938,
             "npcName": "Dalar Dawnweaver",
-            "zoneId": 130,
             "x": 44.2,
             "y": 39.8,
+            "zoneId": 130,
             "zoneName": "Silverpine Forest"
           }
         ]
@@ -16452,7 +17047,15 @@
           "zoneId": 130,
           "zoneName": "Silverpine Forest"
         },
-        "races": [],
+        "questLevel": 20,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -16729,14 +17332,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 98299,
-        "races": [],
+        "questLevel": 20,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                1938
+              ]
+            ],
+            "name": "Stop the Spread",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Slay 5 Sickly Refugees and 5 Haggard Refugees for Dalar Dawnweaver in The Sepulcher."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 20,
+            "reputationReward": [
+              [
+                68,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 9,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                1938
+              ]
+            ],
+            "zoneOrSort": 130
+          },
+          "finishers": [
+            {
+              "id": 1938,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 1938,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 1938,
             "npcName": "Dalar Dawnweaver",
-            "zoneId": 130,
             "x": 44.2,
             "y": 39.8,
+            "zoneId": 130,
             "zoneName": "Silverpine Forest"
           }
         ]

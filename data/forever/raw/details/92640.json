@@ -145,16 +145,149 @@
     "typeId": 92640
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    94568
+  ],
   "questId": 92640,
+  "questLevel": 11,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          252383
+        ]
+      ],
+      "name": "Desperate Times",
+      "nextQuestInChain": 93065,
+      "objectives": [
+        [
+          {
+            "1": 252383,
+            "3": 5
+          },
+          {
+            "1": 251968,
+            "3": 5
+          },
+          {
+            "1": 252475,
+            "3": 5
+          }
+        ]
+      ],
+      "objectivesText": [
+        "Speak with Valennia Stormfist in Valanaar and follow her instructions."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        94568
+      ],
+      "questFlags": 0,
+      "questLevel": 11,
+      "reputationReward": [
+        [
+          2778,
+          50
+        ],
+        [
+          2779,
+          50
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 6,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 0,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          252476
+        ]
+      ],
+      "zoneOrSort": 16593
+    },
+    "finishers": [
+      {
+        "id": 252383,
+        "name": "Valennia Stormfist",
+        "spawns": {
+          "16593": [
+            [
+              66.22,
+              76.63
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 252476,
+        "name": "Talaanis Shadowsong",
+        "spawns": {
+          "16593": [
+            [
+              66.17,
+              76.51
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [],
+  "requirements": {
+    "anyOf": [
+      94568
+    ],
+    "nextQuestInChain": 93065,
+    "preQuestSingle": [
+      94568
+    ]
+  },
   "startPins": [
     {
       "npcId": 252476,
       "npcName": "Talaanis Shadowsong",
-      "zoneId": 16593,
       "x": 66.2,
       "y": 76.6,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

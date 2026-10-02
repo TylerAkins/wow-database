@@ -149,16 +149,135 @@
     "typeId": 93736
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    92700
+  ],
   "questId": 93736,
-  "races": [],
+  "questLevel": 9,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          254344
+        ]
+      ],
+      "name": "Unwelcome Spirits",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Gather 10 Wind Hollow Essences from Wind Hollows in the Shadowgale Forest."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        92700
+      ],
+      "questFlags": 0,
+      "questLevel": 9,
+      "reputationReward": [
+        [
+          2778,
+          50
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 4,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 8589934770,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          254344
+        ]
+      ],
+      "zoneOrSort": 16593
+    },
+    "finishers": [
+      {
+        "id": 254344,
+        "name": "Endaria Mistgaze",
+        "spawns": {
+          "16593": [
+            [
+              58.17,
+              78.3
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 254344,
+        "name": "Endaria Mistgaze",
+        "spawns": {
+          "16593": [
+            [
+              58.17,
+              78.3
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    2,
+    5,
+    6,
+    8,
+    96
+  ],
+  "requirements": {
+    "anyOf": [
+      92700
+    ],
+    "preQuestSingle": [
+      92700
+    ]
+  },
   "startPins": [
     {
       "npcId": 254344,
       "npcName": "Endaria Mistgaze",
-      "zoneId": 16593,
       "x": 58.2,
       "y": 78.4,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

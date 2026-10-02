@@ -91,19 +91,125 @@
     "typeId": 65610
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    65601
+  ],
   "questId": 65610,
+  "questLevel": 20,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "exclusiveTo": [
+        1472
+      ],
+      "finishedBy": [
+        [
+          5875
+        ]
+      ],
+      "name": "Wish You Were Here",
+      "nextQuestInChain": 65604,
+      "objectives": {
+        "3": [
+          {
+            "1": 190232,
+            "3": 0
+          }
+        ]
+      },
+      "objectivesText": [
+        "Investigate Fallen Sky Lake in Ashenvale and report your findings to Gan'rul Bloodeye in Orgrimmar."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        65601
+      ],
+      "questFlags": 0,
+      "questLevel": 20,
+      "requiredClasses": 256,
+      "requiredLevel": 20,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 8589934770,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          3363
+        ]
+      ],
+      "zoneOrSort": -61
+    },
+    "finishers": [
+      {
+        "id": 5875,
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "exclusiveTo": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 3363,
+        "type": "npc"
+      }
+    ]
+  },
   "races": [
     2,
-    5
+    5,
+    6,
+    8,
+    96
   ],
+  "requirements": {
+    "anyOf": [
+      65601
+    ],
+    "exclusiveTo": [
+      1472
+    ],
+    "nextQuestInChain": 65604,
+    "preQuestSingle": [
+      65601
+    ]
+  },
   "startPins": [
     {
       "npcId": 3363,
       "npcName": "Magar",
-      "zoneId": 1637,
       "x": 63.4,
       "y": 50.0,
+      "zoneId": 1637,
       "zoneName": "Orgrimmar"
     }
   ]

@@ -108,6 +108,98 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 91209,
+  "questLevel": 4,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          246152
+        ]
+      ],
+      "name": "Continue Your Training",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Follow the road east out of Deathknell to find the town of Brill. Report to Shari Stilwell to continue your training."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 4,
+      "requiredClasses": 2,
+      "requiredLevel": 4,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 16,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          244808
+        ]
+      ],
+      "zoneOrSort": -141
+    },
+    "finishers": [
+      {
+        "id": 246152,
+        "name": "Shari Stilwell",
+        "spawns": {
+          "85": [
+            [
+              60.25,
+              52.63
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 244808,
+        "name": "Aramis Hammerhand",
+        "spawns": {
+          "85": [
+            [
+              31.09,
+              66.32
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [
     5
   ],
@@ -115,9 +207,9 @@
     {
       "npcId": 244808,
       "npcName": "Aramis Hammerhand",
-      "zoneId": 85,
       "x": 31.0,
       "y": 66.2,
+      "zoneId": 85,
       "zoneName": "Tirisfal Glades"
     }
   ]

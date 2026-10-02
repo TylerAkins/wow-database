@@ -143,14 +143,114 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 79092,
-  "races": [],
+  "questLevel": 20,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          211022,
+          211033
+        ]
+      ],
+      "name": "Archmage Theocritus' Research Journal",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 20,
+      "requiredClasses": 0,
+      "requiredLevel": 1,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 4294967373,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          211033
+        ]
+      ],
+      "zoneOrSort": -284
+    },
+    "finishers": [
+      {
+        "id": 211022,
+        "name": "Owen Thadd",
+        "spawns": {
+          "1497": [
+            [
+              73.4,
+              33
+            ],
+            [
+              73.6,
+              33
+            ],
+            [
+              74,
+              32.4
+            ]
+          ]
+        },
+        "type": "npc"
+      },
+      {
+        "id": 211033,
+        "name": "Garion Wendell",
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 211033,
+        "name": "Garion Wendell",
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    1,
+    3,
+    4,
+    7,
+    95
+  ],
   "startPins": [
     {
       "npcId": 211033,
       "npcName": "Garion Wendell",
-      "zoneId": 1519,
       "x": 37.8,
       "y": 80.2,
+      "zoneId": 1519,
       "zoneName": "Stormwind City"
     }
   ]

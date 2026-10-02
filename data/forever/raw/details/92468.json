@@ -1,5 +1,7 @@
 {
-  "classes": [],
+  "classes": [
+    7
+  ],
   "faction": "Horde",
   "fetchedAt": "2026-09-25T06:03:37+00:00",
   "infoboxFlags": {
@@ -81,16 +83,135 @@
     "typeId": 92468
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    92467
+  ],
   "questId": 92468,
-  "races": [],
+  "questLevel": 4,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          251374
+        ]
+      ],
+      "name": "Call of Earth",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Bring the Rough Quartz to Windshaper Boros in Thendal Grove."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        92467
+      ],
+      "questFlags": 0,
+      "questLevel": 4,
+      "reputationReward": [
+        [
+          2778,
+          50
+        ]
+      ],
+      "requiredClasses": 64,
+      "requiredLevel": 3,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 8589934770,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          251166
+        ]
+      ],
+      "zoneOrSort": 16593
+    },
+    "finishers": [
+      {
+        "id": 251374,
+        "name": "Windshaper Boro",
+        "spawns": {
+          "16593": [
+            [
+              42.76,
+              23.58
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 251166,
+        "name": "Minor Manifestation of Earth",
+        "spawns": {
+          "16593": [
+            [
+              49.67,
+              23.8
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    2,
+    5,
+    6,
+    8,
+    96
+  ],
+  "requirements": {
+    "anyOf": [
+      92467
+    ],
+    "preQuestSingle": [
+      92467
+    ]
+  },
   "startPins": [
     {
       "npcId": 251166,
       "npcName": "Minor Manifestation of Earth",
-      "zoneId": 16593,
       "x": 49.6,
       "y": 24.0,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

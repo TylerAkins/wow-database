@@ -131,22 +131,111 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 94375,
-  "races": [],
+  "questLevel": 4,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          257446
+        ]
+      ],
+      "name": "Call of Earth",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Bring the Rough Quartz to Teo Hammerstorm in Anvilmar."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 4,
+      "requiredClasses": 64,
+      "requiredLevel": 4,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 4294967373,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          5891
+        ]
+      ],
+      "zoneOrSort": -82
+    },
+    "finishers": [
+      {
+        "id": 257446,
+        "name": "Teo Hammerstorm",
+        "spawns": [
+          [
+            [
+              28.84,
+              66.23
+            ]
+          ]
+        ],
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 5891,
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    1,
+    3,
+    4,
+    7,
+    95
+  ],
   "startPins": [
     {
       "npcId": 5891,
       "npcName": "Minor Manifestation of Earth",
-      "zoneId": 14,
       "x": 44.0,
       "y": 76.0,
+      "zoneId": 14,
       "zoneName": "Durotar"
     },
     {
       "npcId": 5891,
       "npcName": "Minor Manifestation of Earth",
-      "zoneId": 215,
       "x": 53.8,
       "y": 80.4,
+      "zoneId": 215,
       "zoneName": "Mulgore"
     }
   ]

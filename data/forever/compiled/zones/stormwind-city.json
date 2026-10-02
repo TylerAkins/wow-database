@@ -16425,6 +16425,8 @@
           "zoneId": 1519,
           "zoneName": "Stormwind City"
         },
+        "questLevel": 13,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
         "races": [
           95
         ],
@@ -16694,6 +16696,103 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 93963,
+        "questLevel": 13,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                1748
+              ]
+            ],
+            "name": "Exploring the Alliance",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Speak with Randal Emerson in Stormwind Keep to receive further instructions. Use the instructions received to locate and speak with King Magni Bronzebeard, High Tinker Mekkatorque, and Tyrande Whisperwind."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 13,
+            "reputationReward": [
+              [
+                47,
+                100
+              ],
+              [
+                54,
+                100
+              ],
+              [
+                69,
+                100
+              ],
+              [
+                72,
+                100
+              ],
+              [
+                2740,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 7,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967296,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                1748
+              ]
+            ],
+            "zoneOrSort": 1519
+          },
+          "finishers": [
+            {
+              "id": 1748,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 1748,
+              "type": "npc"
+            }
+          ]
+        },
         "races": [
           95
         ],
@@ -16701,9 +16800,9 @@
           {
             "npcId": 1748,
             "npcName": "Highlord Bolvar Fordragon",
-            "zoneId": 1519,
             "x": 78.0,
             "y": 18.0,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -16758,6 +16857,8 @@
           "zoneId": 36,
           "zoneName": "Alterac Mountains"
         },
+        "questLevel": 13,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
         "races": [
           95
         ],
@@ -16891,6 +16992,108 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 94947,
+        "questLevel": 13,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                1748
+              ]
+            ],
+            "name": "Welcome to Azeroth",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Take the Skyborne Portal to Stormwind and report to Bolvar Fordragon in Stormwind Keep."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 13,
+            "reputationReward": [
+              [
+                2779,
+                25
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 7,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967296,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                259084
+              ]
+            ],
+            "zoneOrSort": 1519
+          },
+          "finishers": [
+            {
+              "id": 1748,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 259084,
+              "name": "Denaaris Stargale",
+              "spawns": {
+                "36": [
+                  [
+                    12.33,
+                    56.37
+                  ],
+                  [
+                    12.39,
+                    56.25
+                  ],
+                  [
+                    12.4,
+                    56.12
+                  ],
+                  [
+                    12.41,
+                    56.32
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
         "races": [
           95
         ],
@@ -16898,9 +17101,9 @@
           {
             "npcId": 259084,
             "npcName": "Denaaris Stargale",
-            "zoneId": 36,
             "x": 12.4,
             "y": 56.2,
+            "zoneId": 36,
             "zoneName": "Alterac Mountains"
           }
         ]
@@ -16959,7 +17162,15 @@
           "zoneId": 1519,
           "zoneName": "Stormwind City"
         },
-        "races": [],
+        "questLevel": 12,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -17070,14 +17281,136 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 95065,
-        "races": [],
+        "questLevel": 12,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                267118
+              ]
+            ],
+            "name": "Fishin' Time",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Bring 1 Shiny Bauble and 3 Nightcrawlers to Gilbert Gray at the harbor in Stormwind."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 12,
+            "requiredClasses": 0,
+            "requiredLevel": 7,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                267118
+              ]
+            ],
+            "zoneOrSort": 1519
+          },
+          "finishers": [
+            {
+              "id": 267118,
+              "name": "Gilbert Gray",
+              "spawns": {
+                "1519": [
+                  [
+                    26.21,
+                    47.17
+                  ],
+                  [
+                    26.26,
+                    46.98
+                  ],
+                  [
+                    26.29,
+                    47.15
+                  ],
+                  [
+                    26.31,
+                    47.01
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 267118,
+              "name": "Gilbert Gray",
+              "spawns": {
+                "1519": [
+                  [
+                    26.21,
+                    47.17
+                  ],
+                  [
+                    26.26,
+                    46.98
+                  ],
+                  [
+                    26.29,
+                    47.15
+                  ],
+                  [
+                    26.31,
+                    47.01
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 267118,
             "npcName": "Gilbert Gray",
-            "zoneId": 1519,
             "x": 26.2,
             "y": 47.0,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -17127,7 +17460,15 @@
           "zoneId": 1519,
           "zoneName": "Stormwind City"
         },
-        "races": [],
+        "questLevel": 15,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -17234,14 +17575,103 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 97220,
-        "races": [],
+        "questLevel": 15,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                483
+              ]
+            ],
+            "name": "Philmor's Favor",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Bring the Gatehouse Shipment to the stockroom entrance located in Trias' Cheese shop in the Trade District"
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 15,
+            "requiredClasses": 0,
+            "requiredLevel": 9,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                268511
+              ]
+            ],
+            "zoneOrSort": 1519
+          },
+          "finishers": [
+            {
+              "id": 483,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 268511,
+              "name": "Manifest Clerk Philmor",
+              "spawns": {
+                "1519": [
+                  [
+                    30.68,
+                    28.95
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 268511,
             "npcName": "Manifest Clerk Philmor",
-            "zoneId": 1519,
             "x": 30.4,
             "y": 29.0,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -17296,7 +17726,15 @@
           "zoneId": 1519,
           "zoneName": "Stormwind City"
         },
-        "races": [],
+        "questLevel": 15,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -17415,14 +17853,94 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 97222,
-        "races": [],
+        "questLevel": 15,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                483
+              ]
+            ],
+            "name": "Gatehouse Goods",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Carry the Gatehouse Shipment up the stairs in Trias' shop and leave it outside the door."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 15,
+            "requiredClasses": 0,
+            "requiredLevel": 9,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                483
+              ]
+            ],
+            "zoneOrSort": 1519
+          },
+          "finishers": [
+            {
+              "id": 483,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 483,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 483,
             "npcName": "Elaine Trias",
-            "zoneId": 1519,
             "x": 60.4,
             "y": 63.4,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -17472,7 +17990,15 @@
           "zoneId": 1519,
           "zoneName": "Stormwind City"
         },
-        "races": [],
+        "questLevel": 18,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -17575,14 +18101,119 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 97234,
-        "races": [],
+        "questLevel": 18,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                2504
+              ]
+            ],
+            "name": "Reading Room",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Bring the wrapped reading material to the Stormwind library."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 18,
+            "requiredClasses": 0,
+            "requiredLevel": 13,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                268568
+              ]
+            ],
+            "zoneOrSort": 1519
+          },
+          "finishers": [
+            {
+              "id": 2504,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 268568,
+              "name": "Roy Lewells",
+              "spawns": {
+                "1519": [
+                  [
+                    38.65,
+                    62.18
+                  ],
+                  [
+                    38.68,
+                    62.11
+                  ],
+                  [
+                    38.72,
+                    62.39
+                  ],
+                  [
+                    38.75,
+                    62.15
+                  ],
+                  [
+                    38.75,
+                    62.25
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 268568,
             "npcName": "Roy Lewells",
-            "zoneId": 1519,
             "x": 38.6,
             "y": 62.0,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -17641,7 +18272,15 @@
           "zoneId": 1519,
           "zoneName": "Stormwind City"
         },
-        "races": [],
+        "questLevel": 18,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -17744,14 +18383,119 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 97237,
-        "races": [],
+        "questLevel": 18,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                268568
+              ]
+            ],
+            "name": "Shelf Picked",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Find each of the reading materials located somewhere in the library and then return to Roy Lewells in Stormwind's Park."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 18,
+            "requiredClasses": 0,
+            "requiredLevel": 13,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                2504
+              ]
+            ],
+            "zoneOrSort": 1519
+          },
+          "finishers": [
+            {
+              "id": 268568,
+              "name": "Roy Lewells",
+              "spawns": {
+                "1519": [
+                  [
+                    38.65,
+                    62.18
+                  ],
+                  [
+                    38.68,
+                    62.11
+                  ],
+                  [
+                    38.72,
+                    62.39
+                  ],
+                  [
+                    38.75,
+                    62.15
+                  ],
+                  [
+                    38.75,
+                    62.25
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 2504,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 2504,
             "npcName": "Donyal Tovald",
-            "zoneId": 1519,
             "x": 71.6,
             "y": 7.4,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -17801,7 +18545,15 @@
           "zoneId": 148,
           "zoneName": "Darkshore"
         },
-        "races": [],
+        "questLevel": 17,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -17912,14 +18664,96 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 97914,
-        "races": [],
+        "questLevel": 17,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                1646
+              ]
+            ],
+            "name": "Expanding Horizons",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Bring Thundris' Letter to Baros Alexston in Stormwind.",
+              "",
+              "Thundris mentioned a boat in Auberdine that can take you there."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 17,
+            "requiredClasses": 0,
+            "requiredLevel": 13,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                3649
+              ]
+            ],
+            "zoneOrSort": 1519
+          },
+          "finishers": [
+            {
+              "id": 1646,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 3649,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 3649,
             "npcName": "Thundris Windweaver",
-            "zoneId": 148,
             "x": 37.4,
             "y": 40.2,
+            "zoneId": 148,
             "zoneName": "Darkshore"
           }
         ]
@@ -17961,7 +18795,15 @@
         "minLevel": 20,
         "name": "A Friend of the Family",
         "pinCategory": "normal",
-        "races": [],
+        "questLevel": 25,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -18000,7 +18842,67 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 98190,
-        "races": [],
+        "questLevel": 25,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [],
+            "name": "A Friend of the Family",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Bring the Menethil Statuette to Highlord Bolvar Fordragon in Stormwind Keep."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 25,
+            "requiredClasses": 0,
+            "requiredLevel": 20,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [],
+            "zoneOrSort": 1519
+          },
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          }
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": []
       }
     },
@@ -18049,7 +18951,15 @@
         "minLevel": 20,
         "name": "A Friend of the Family",
         "pinCategory": "normal",
-        "races": [],
+        "questLevel": 25,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -18088,7 +18998,67 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 98191,
-        "races": [],
+        "questLevel": 25,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [],
+            "name": "A Friend of the Family",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Bring the Menethil Statuette to Lord Grayson Shadowbreaker in the Cathedral of Light."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 25,
+            "requiredClasses": 0,
+            "requiredLevel": 20,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [],
+            "zoneOrSort": 1519
+          },
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          }
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": []
       }
     },
@@ -18128,7 +19098,15 @@
         "minLevel": 20,
         "name": "The Shamed Lieutenant",
         "pinCategory": "normal",
-        "races": [],
+        "questLevel": 30,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -18167,7 +19145,67 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 98219,
-        "races": [],
+        "questLevel": 30,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [],
+            "name": "The Shamed Lieutenant",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Speak to Lieutenant Farren Orinelle in Southshore in Hillsbrad Foothills."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 30,
+            "requiredClasses": 0,
+            "requiredLevel": 20,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [],
+            "zoneOrSort": 1519
+          },
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          }
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": []
       }
     }

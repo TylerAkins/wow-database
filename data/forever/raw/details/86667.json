@@ -83,14 +83,123 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 86667,
-  "races": [],
+  "questLevel": 10,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          258043
+        ]
+      ],
+      "name": "Snowbound",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Deliver a Jar of Snow to Norric Lochthane at his house on the northwest coast of the Loch."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 10,
+      "reputationReward": [
+        [
+          47,
+          100
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 10,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 4294967373,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          49808
+        ]
+      ],
+      "zoneOrSort": 38
+    },
+    "finishers": [
+      {
+        "id": 258043,
+        "name": "Norric Lochthane",
+        "spawns": {
+          "38": [
+            [
+              41.78,
+              18.9
+            ],
+            [
+              41.89,
+              19.03
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 49808,
+        "name": "Grenhild Darktalon",
+        "spawns": {
+          "38": [
+            [
+              36.49,
+              48.29
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    1,
+    3,
+    4,
+    7,
+    95
+  ],
   "startPins": [
     {
       "npcId": 49808,
       "npcName": "Grenhild Darktalon",
-      "zoneId": 38,
       "x": 36.4,
       "y": 48.2,
+      "zoneId": 38,
       "zoneName": "Loch Modan"
     }
   ]

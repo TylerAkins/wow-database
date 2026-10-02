@@ -13,6 +13,7 @@ from .parse_page import extract_page_listviews, quest_id_from_url
 from .parse_quest import eligibility_restrictions, extract_start_pins, parse_quest_detail
 from .sources import SOURCE_PAGES, SourcePage
 from .store import load_manifest, save_manifest, utc_now_iso, write_json
+from .questie_import import apply_questie_record, load_overlay
 
 _FOREVER_PREFIX = "https://www.wowhead.com/forever/"
 
@@ -180,14 +181,18 @@ def _ingest_quest_detail(
 
     details_dir = data_root / "details"
     details_dir.mkdir(parents=True, exist_ok=True)
-    write_json(details_dir / f"{quest_id}.json", detail)
-
     entry["pinCategory"] = pin_category
     entry.update(restrictions)
     entry["hasDetail"] = True
     entry["startPinCount"] = len(detail["startPins"])
     if detail["startPins"]:
         entry["primaryStart"] = detail["startPins"][0]
+    commit, questie_rows = load_overlay(data_root)
+    if str(quest_id) in questie_rows:
+        entry, detail, _ = apply_questie_record(
+            entry, detail, questie_rows[str(quest_id)], commit,
+        )
+    write_json(details_dir / f"{quest_id}.json", detail)
     quest_index[str(quest_id)] = entry
     write_json(index_path, quest_index)
 

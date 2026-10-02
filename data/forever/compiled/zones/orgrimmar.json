@@ -19724,6 +19724,8 @@
           "zoneId": 1637,
           "zoneName": "Orgrimmar"
         },
+        "questLevel": 13,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
         "races": [
           96
         ],
@@ -19965,6 +19967,93 @@
           5725
         ],
         "questId": 93739,
+        "questLevel": 13,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [],
+            "name": "Exploring the Horde",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Speak with Nazgrel in Grommash Hold to receive further instructions. Use the instructions received to locate and speak with Vol'jin, Cairne Bloodhoof, and Lady Sylvanas Windrunner."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 13,
+            "reputationReward": [
+              [
+                68,
+                100
+              ],
+              [
+                76,
+                100
+              ],
+              [
+                81,
+                100
+              ],
+              [
+                530,
+                100
+              ],
+              [
+                2787,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 7,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934592,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                4949
+              ]
+            ],
+            "zoneOrSort": 1637
+          },
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 4949,
+              "type": "npc"
+            }
+          ]
+        },
         "races": [
           96
         ],
@@ -19972,9 +20061,9 @@
           {
             "npcId": 4949,
             "npcName": "Thrall",
-            "zoneId": 1637,
             "x": 32.0,
             "y": 37.8,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -20029,6 +20118,8 @@
           "zoneId": 215,
           "zoneName": "Mulgore"
         },
+        "questLevel": 13,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
         "races": [
           96
         ],
@@ -20142,6 +20233,96 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 95350,
+        "questLevel": 13,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                4949
+              ]
+            ],
+            "name": "Welcome to Azeroth",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Travel to Orgrimmar and speak with Thrall in the Valley of Wisdom."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 13,
+            "reputationReward": [
+              [
+                2778,
+                25
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 7,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934592,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                259119
+              ]
+            ],
+            "zoneOrSort": 1637
+          },
+          "finishers": [
+            {
+              "id": 4949,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 259119,
+              "name": "Alaana Stormwalker",
+              "spawns": {
+                "215": [
+                  [
+                    33.4,
+                    22.5
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
         "races": [
           96
         ],
@@ -20149,9 +20330,9 @@
           {
             "npcId": 259119,
             "npcName": "Alaana Stormwalker",
-            "zoneId": 215,
             "x": 33.4,
             "y": 22.4,
+            "zoneId": 215,
             "zoneName": "Mulgore"
           }
         ]
@@ -20201,7 +20382,15 @@
           "zoneId": 1637,
           "zoneName": "Orgrimmar"
         },
-        "races": [],
+        "questLevel": 15,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -20304,14 +20493,94 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 97242,
-        "races": [],
+        "questLevel": 15,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                3348
+              ]
+            ],
+            "name": "Yelmak's Medley",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Take some cuttings from the Cattails and Speargrass growing around the water flows in the Valley of Honor and return to Kor'geld in Yelmak's Alchemy and Potions"
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 15,
+            "requiredClasses": 0,
+            "requiredLevel": 9,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                3348
+              ]
+            ],
+            "zoneOrSort": 1637
+          },
+          "finishers": [
+            {
+              "id": 3348,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 3348,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 3348,
             "npcName": "Kor'geld",
-            "zoneId": 1637,
             "x": 56.2,
             "y": 34.2,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -20361,7 +20630,15 @@
           "zoneId": 1637,
           "zoneName": "Orgrimmar"
         },
-        "races": [],
+        "questLevel": 15,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -20468,14 +20745,119 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 97246,
-        "races": [],
+        "questLevel": 15,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                3368
+              ]
+            ],
+            "name": "Meal Appeal",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Visit Borstan's Firepit and tell him Thatog wants you to deliver Migi's lunch to him personally."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 15,
+            "requiredClasses": 0,
+            "requiredLevel": 5,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                268701
+              ]
+            ],
+            "zoneOrSort": 1637
+          },
+          "finishers": [
+            {
+              "id": 3368,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 268701,
+              "name": "Thatog",
+              "spawns": {
+                "1637": [
+                  [
+                    55.59,
+                    72.1
+                  ],
+                  [
+                    55.65,
+                    72.22
+                  ],
+                  [
+                    55.68,
+                    72
+                  ],
+                  [
+                    55.69,
+                    72.08
+                  ],
+                  [
+                    55.93,
+                    72.47
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 268701,
             "npcName": "Thatog",
-            "zoneId": 1637,
             "x": 55.6,
             "y": 72.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -20525,7 +20907,15 @@
           "zoneId": 1637,
           "zoneName": "Orgrimmar"
         },
-        "races": [],
+        "questLevel": 15,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -20632,14 +21022,123 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 97249,
-        "races": [],
+        "questLevel": 15,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                268682
+              ]
+            ],
+            "name": "Favorite Food",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Bring Migi's Lunch to him behind Grommash Hold"
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 15,
+            "requiredClasses": 0,
+            "requiredLevel": 5,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                3368
+              ]
+            ],
+            "zoneOrSort": 1637
+          },
+          "finishers": [
+            {
+              "id": 268682,
+              "name": "Migi",
+              "spawns": {
+                "1637": [
+                  [
+                    36.49,
+                    28.91
+                  ],
+                  [
+                    36.56,
+                    29.2
+                  ],
+                  [
+                    36.6,
+                    29.16
+                  ],
+                  [
+                    36.77,
+                    29.08
+                  ],
+                  [
+                    36.81,
+                    28.95
+                  ],
+                  [
+                    36.83,
+                    28.87
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 3368,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 3368,
             "npcName": "Borstan",
-            "zoneId": 1637,
             "x": 57.4,
             "y": 53.4,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -20698,7 +21197,15 @@
           "zoneId": 1637,
           "zoneName": "Orgrimmar"
         },
-        "races": [],
+        "questLevel": 15,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -20809,14 +21316,94 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 97275,
-        "races": [],
+        "questLevel": 15,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                11046
+              ]
+            ],
+            "name": "Whuut's the Rush",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Give Yelmak's Potion to Whuut."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 15,
+            "requiredClasses": 0,
+            "requiredLevel": 9,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                3347
+              ]
+            ],
+            "zoneOrSort": 1637
+          },
+          "finishers": [
+            {
+              "id": 11046,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 3347,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 3347,
             "npcName": "Yelmak",
-            "zoneId": 1637,
             "x": 56.6,
             "y": 33.2,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -20892,7 +21479,15 @@
           "zoneId": 1637,
           "zoneName": "Orgrimmar"
         },
-        "races": [],
+        "questLevel": 15,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -21067,14 +21662,239 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 97326,
-        "races": [],
+        "questLevel": 15,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                268684
+              ]
+            ],
+            "name": "Rocks to Rests",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Return 8 Smooth Boulders to Thra behind Grommash Hold."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 15,
+            "reputationReward": [
+              [
+                76,
+                50
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 5,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                268684
+              ]
+            ],
+            "zoneOrSort": 1637
+          },
+          "finishers": [
+            {
+              "id": 268684,
+              "name": "Thra",
+              "spawns": {
+                "1637": [
+                  [
+                    34.87,
+                    29
+                  ],
+                  [
+                    36,
+                    28.33
+                  ],
+                  [
+                    36.49,
+                    28.84
+                  ],
+                  [
+                    36.65,
+                    29.07
+                  ],
+                  [
+                    36.66,
+                    28.55
+                  ],
+                  [
+                    36.66,
+                    28.94
+                  ],
+                  [
+                    36.83,
+                    28.87
+                  ],
+                  [
+                    37,
+                    28.81
+                  ],
+                  [
+                    37.01,
+                    28.9
+                  ],
+                  [
+                    38.24,
+                    28.71
+                  ],
+                  [
+                    38.72,
+                    28.21
+                  ],
+                  [
+                    38.74,
+                    28.93
+                  ],
+                  [
+                    38.78,
+                    28.42
+                  ],
+                  [
+                    38.81,
+                    28.27
+                  ],
+                  [
+                    38.88,
+                    28.29
+                  ],
+                  [
+                    39.05,
+                    28.96
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 268684,
+              "name": "Thra",
+              "spawns": {
+                "1637": [
+                  [
+                    34.87,
+                    29
+                  ],
+                  [
+                    36,
+                    28.33
+                  ],
+                  [
+                    36.49,
+                    28.84
+                  ],
+                  [
+                    36.65,
+                    29.07
+                  ],
+                  [
+                    36.66,
+                    28.55
+                  ],
+                  [
+                    36.66,
+                    28.94
+                  ],
+                  [
+                    36.83,
+                    28.87
+                  ],
+                  [
+                    37,
+                    28.81
+                  ],
+                  [
+                    37.01,
+                    28.9
+                  ],
+                  [
+                    38.24,
+                    28.71
+                  ],
+                  [
+                    38.72,
+                    28.21
+                  ],
+                  [
+                    38.74,
+                    28.93
+                  ],
+                  [
+                    38.78,
+                    28.42
+                  ],
+                  [
+                    38.81,
+                    28.27
+                  ],
+                  [
+                    38.88,
+                    28.29
+                  ],
+                  [
+                    39.05,
+                    28.96
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 268684,
             "npcName": "Thra",
-            "zoneId": 1637,
             "x": 36.8,
             "y": 29.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]

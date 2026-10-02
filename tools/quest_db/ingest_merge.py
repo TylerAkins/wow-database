@@ -8,6 +8,7 @@ from typing import Any
 
 from .sources import SourcePage
 from .store import write_json
+from .questie_import import apply_questie_record, load_overlay
 
 
 def merge_quest_list_rows(data_root: Path, rows: list[dict[str, Any]], page: SourcePage) -> int:
@@ -15,6 +16,7 @@ def merge_quest_list_rows(data_root: Path, rows: list[dict[str, Any]], page: Sou
     quest_index: dict[str, Any] = {}
     if index_path.is_file():
         quest_index = json.loads(index_path.read_text(encoding="utf-8"))
+    commit, questie_rows = load_overlay(data_root)
 
     for row in rows:
         qid = str(row["id"])
@@ -23,6 +25,10 @@ def merge_quest_list_rows(data_root: Path, rows: list[dict[str, Any]], page: Sou
             quest_index[qid] = _new_index_entry(row, page)
         else:
             _merge_index_entry(existing, row, page)
+        if qid in questie_rows:
+            quest_index[qid], _, _ = apply_questie_record(
+                quest_index[qid], {"questId": int(qid)}, questie_rows[qid], commit,
+            )
 
     write_json(index_path, quest_index)
     return len(quest_index)

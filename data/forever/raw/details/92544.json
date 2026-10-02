@@ -263,14 +263,140 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 92544,
+  "questLevel": 5,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          252095
+        ]
+      ],
+      "name": "Al'Aketh Thugs",
+      "nextQuestInChain": 0,
+      "objectives": [
+        [
+          {
+            "1": 251145,
+            "3": 0
+          },
+          {
+            "1": 251448,
+            "3": 0
+          },
+          {
+            "1": 256935,
+            "3": 0
+          }
+        ]
+      ],
+      "objectivesText": [
+        "Slay 6 Al'Aketh Brutes, 4 Al'Aketh Neophytes, and Malduko Cloudcrush in Thendal Grove."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 5,
+      "reputationReward": [
+        [
+          2778,
+          50
+        ],
+        [
+          2779,
+          50
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 2,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 0,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          252095
+        ]
+      ],
+      "zoneOrSort": 16593
+    },
+    "finishers": [
+      {
+        "id": 252095,
+        "name": "Hanaa Nightwind",
+        "spawns": {
+          "16593": [
+            [
+              38.23,
+              30.18
+            ],
+            [
+              38.32,
+              30.19
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 252095,
+        "name": "Hanaa Nightwind",
+        "spawns": {
+          "16593": [
+            [
+              38.23,
+              30.18
+            ],
+            [
+              38.32,
+              30.19
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [],
   "startPins": [
     {
       "npcId": 252095,
       "npcName": "Hanaa Nightwind",
-      "zoneId": 16593,
       "x": 38.2,
       "y": 30.2,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

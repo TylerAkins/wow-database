@@ -1,6 +1,6 @@
 # Forever raw quest database
 
-Canonical scrape artifacts for the Forever version. These files are the inputs to `tools/compile_zone_files.py` and should not be edited by hand.
+Canonical scrape artifacts for the Forever version. These files are the inputs to `tools/compile_zone_files.py` and should not be edited by hand. The index and quest details also carry the pinned QuestieDB overlay applied by `tools/import_questie.py`; original Wowhead list rows and markup are retained.
 
 | Path | Purpose |
 |------|---------|

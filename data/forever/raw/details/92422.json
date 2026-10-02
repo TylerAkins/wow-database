@@ -79,14 +79,135 @@
   "pinCategory": "instance",
   "prerequisiteQuestIds": [],
   "questId": 92422,
-  "races": [],
+  "questLevel": 22,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          251001
+        ]
+      ],
+      "name": "The Wrath of Rath'mael",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Kill Rath'mael in the Ruins of Lordaeron for Deathguard Kristof in Brill."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 22,
+      "reputationReward": [
+        [
+          68,
+          150
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 15,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 8589934770,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          251001
+        ]
+      ],
+      "zoneOrSort": 16611
+    },
+    "finishers": [
+      {
+        "id": 251001,
+        "name": "Deathguard Kristof",
+        "spawns": {
+          "85": [
+            [
+              65.18,
+              60.26
+            ],
+            [
+              65.22,
+              60.12
+            ],
+            [
+              65.22,
+              60.19
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 251001,
+        "name": "Deathguard Kristof",
+        "spawns": {
+          "85": [
+            [
+              65.18,
+              60.26
+            ],
+            [
+              65.22,
+              60.12
+            ],
+            [
+              65.22,
+              60.19
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    2,
+    5,
+    6,
+    8,
+    96
+  ],
   "startPins": [
     {
       "npcId": 251001,
       "npcName": "Deathguard Kristof",
-      "zoneId": 85,
       "x": 65.2,
       "y": 60.2,
+      "zoneId": 85,
       "zoneName": "Tirisfal Glades"
     }
   ]

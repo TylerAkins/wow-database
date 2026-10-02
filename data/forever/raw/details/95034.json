@@ -102,6 +102,98 @@
     95036
   ],
   "questId": 95034,
+  "questLevel": 24,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          259620
+        ]
+      ],
+      "name": "The Debt",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Speak with Lumina Windsinger in the Sepulcher."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 24,
+      "requiredClasses": 2,
+      "requiredLevel": 18,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 16,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          259620
+        ]
+      ],
+      "zoneOrSort": -141
+    },
+    "finishers": [
+      {
+        "id": 259620,
+        "name": "Lumina Windsinger",
+        "spawns": {
+          "130": [
+            [
+              43.2,
+              40.8
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 259620,
+        "name": "Lumina Windsinger",
+        "spawns": {
+          "130": [
+            [
+              43.2,
+              40.8
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [
     5
   ],
@@ -109,9 +201,9 @@
     {
       "npcId": 259620,
       "npcName": "Lumina Windsinger",
-      "zoneId": 130,
       "x": 43.2,
       "y": 40.8,
+      "zoneId": 130,
       "zoneName": "Silverpine Forest"
     }
   ]

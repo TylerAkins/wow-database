@@ -85,16 +85,136 @@
     "typeId": 93090
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    93836
+  ],
   "questId": 93090,
-  "races": [],
+  "questLevel": 13,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          251968
+        ]
+      ],
+      "name": "What Comes Next",
+      "nextQuestInChain": 95349,
+      "objectives": [],
+      "objectivesText": [
+        "Speak with Ayessa Dawnsinger when you are prepared to leave Zephras Isle."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        93836
+      ],
+      "questFlags": 0,
+      "questLevel": 13,
+      "reputationReward": [
+        [
+          2778,
+          25
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 7,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 8589934770,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          252476
+        ]
+      ],
+      "zoneOrSort": 16593
+    },
+    "finishers": [
+      {
+        "id": 251968,
+        "name": "Ayessa Dawnsinger",
+        "spawns": {
+          "16593": [
+            [
+              59.15,
+              79.73
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 252476,
+        "name": "Talaanis Shadowsong",
+        "spawns": {
+          "16593": [
+            [
+              66.17,
+              76.51
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    2,
+    5,
+    6,
+    8,
+    96
+  ],
+  "requirements": {
+    "anyOf": [
+      93836
+    ],
+    "nextQuestInChain": 95349,
+    "preQuestSingle": [
+      93836
+    ]
+  },
   "startPins": [
     {
       "npcId": 252476,
       "npcName": "Talaanis Shadowsong",
-      "zoneId": 16593,
       "x": 66.2,
       "y": 76.6,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

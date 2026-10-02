@@ -95,14 +95,127 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 92819,
-  "races": [],
+  "questLevel": 18,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          253279
+        ]
+      ],
+      "name": "Destruction in Deadmines",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Use the detonator."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 18,
+      "reputationReward": [
+        [
+          72,
+          50
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 9,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 4294967373,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          253279
+        ]
+      ],
+      "zoneOrSort": 40
+    },
+    "finishers": [
+      {
+        "id": 253279,
+        "name": "Alba Fairmoon",
+        "spawns": {
+          "40": [
+            [
+              38.69,
+              83.55
+            ],
+            [
+              38.75,
+              84.16
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 253279,
+        "name": "Alba Fairmoon",
+        "spawns": {
+          "40": [
+            [
+              38.69,
+              83.55
+            ],
+            [
+              38.75,
+              84.16
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    1,
+    3,
+    4,
+    7,
+    95
+  ],
   "startPins": [
     {
       "npcId": 253279,
       "npcName": "Alba Fairmoon",
-      "zoneId": 40,
       "x": 38.6,
       "y": 83.6,
+      "zoneId": 40,
       "zoneName": "Westfall"
     }
   ]

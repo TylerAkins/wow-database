@@ -1,5 +1,7 @@
 {
-  "classes": [],
+  "classes": [
+    3
+  ],
   "fetchedAt": "2026-09-25T06:15:04+00:00",
   "infoboxFlags": {
     "daily": false,
@@ -78,6 +80,98 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 94050,
+  "questLevel": 10,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          254411
+        ]
+      ],
+      "name": "Training the Beast",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Speak to Quel'dora Quickgale in Valanaar."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 10,
+      "requiredClasses": 4,
+      "requiredLevel": 10,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 12884901888,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          252389
+        ]
+      ],
+      "zoneOrSort": -261
+    },
+    "finishers": [
+      {
+        "id": 254411,
+        "name": "Quel'dora Quickgale",
+        "spawns": {
+          "16593": [
+            [
+              59.62,
+              72.6
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 252389,
+        "name": "Quel'ana Quickgale",
+        "spawns": {
+          "16593": [
+            [
+              59.61,
+              72.65
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [
     95,
     96
@@ -86,9 +180,9 @@
     {
       "npcId": 252389,
       "npcName": "Quel'ana Quickgale",
-      "zoneId": 16593,
       "x": 59.6,
       "y": 72.6,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]
