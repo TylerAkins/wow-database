@@ -16785,6 +16785,8 @@
           "zoneId": 406,
           "zoneName": "Stonetalon Mountains"
         },
+        "questLevel": 32,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
         "races": [],
         "sourceKinds": [
           "zone"
@@ -16903,6 +16905,110 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 79974,
+        "questLevel": 32,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": {
+              "2": [
+                424007
+              ]
+            },
+            "name": "Wet Job",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Dusting off a messenger bag emerging from the soil, you find a parchment nestled among the supplies."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 32,
+            "requiredClasses": 0,
+            "requiredLevel": 14,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 0,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": {
+              "2": [
+                424012
+              ]
+            },
+            "zoneOrSort": 406
+          },
+          "finishers": [
+            {
+              "id": 424007,
+              "name": "Carved Figurine",
+              "spawns": {
+                "38": [
+                  [
+                    49.35,
+                    12.92
+                  ],
+                  [
+                    49.42,
+                    12.78
+                  ],
+                  [
+                    49.55,
+                    12.75
+                  ]
+                ]
+              },
+              "type": "object"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 424012,
+              "name": "Mound of Dirt",
+              "spawns": {
+                "406": [
+                  [
+                    39.6,
+                    49.91
+                  ],
+                  [
+                    39.64,
+                    49.86
+                  ]
+                ]
+              },
+              "type": "object"
+            }
+          ]
+        },
         "races": [],
         "startPins": [
           {
@@ -16998,6 +17104,8 @@
           "zoneId": 406,
           "zoneName": "Stonetalon Mountains"
         },
+        "questLevel": 24,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
         "races": [],
         "sourceKinds": [
           "zone"
@@ -17114,6 +17222,102 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 79980,
+        "questLevel": 24,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": {
+              "2": [
+                424012
+              ]
+            },
+            "name": "Scramble",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Find what awaits you."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 24,
+            "requiredClasses": 0,
+            "requiredLevel": 14,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 0,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": {
+              "2": [
+                424005
+              ]
+            },
+            "zoneOrSort": 406
+          },
+          "finishers": [
+            {
+              "id": 424012,
+              "name": "Mound of Dirt",
+              "spawns": {
+                "406": [
+                  [
+                    39.6,
+                    49.91
+                  ],
+                  [
+                    39.64,
+                    49.86
+                  ]
+                ]
+              },
+              "type": "object"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 424005,
+              "name": "Pocket Litter",
+              "spawns": {
+                "406": [
+                  [
+                    40.79,
+                    52.61
+                  ]
+                ]
+              },
+              "type": "object"
+            }
+          ]
+        },
         "races": [],
         "startPins": [
           {
@@ -17332,7 +17536,15 @@
         "minLevel": 20,
         "name": "Stonetalon Supply Run",
         "pinCategory": "normal",
-        "races": [],
+        "questLevel": 24,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -17411,7 +17623,67 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 86574,
-        "races": [],
+        "questLevel": 24,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [],
+            "name": "Stonetalon Supply Run",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Collect 6 Stonetalon Supplies from Pridewing Wyverns and deliver them to Innkeeper Faralia."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 24,
+            "requiredClasses": 0,
+            "requiredLevel": 20,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [],
+            "zoneOrSort": 406
+          },
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          }
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": []
       }
     },
@@ -17464,7 +17736,15 @@
           "zoneId": 406,
           "zoneName": "Stonetalon Mountains"
         },
-        "races": [],
+        "questLevel": 26,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -19329,14 +19609,84 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 86576,
-        "races": [],
+        "questLevel": 26,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [],
+            "name": "Bloodfury Trinkets",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Bring 15 Glittering Sunstones to Mor'rogal."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 26,
+            "requiredClasses": 0,
+            "requiredLevel": 18,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                11860
+              ]
+            ],
+            "zoneOrSort": 406
+          },
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 11860,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 11860,
             "npcName": "Maggran Earthbinder",
-            "zoneId": 406,
             "x": 47.2,
             "y": 61.0,
+            "zoneId": 406,
             "zoneName": "Stonetalon Mountains"
           }
         ]
@@ -19391,7 +19741,15 @@
           "zoneId": 1638,
           "zoneName": "Thunder Bluff"
         },
-        "races": [],
+        "questLevel": 26,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -19484,14 +19842,91 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 97538,
-        "races": [],
+        "questLevel": 26,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [],
+            "name": "Pigments for Paints",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Tah Winterhoof in Thunder Bluff wants 30 Mirkweed Pods from Mirkfallon Lake."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 26,
+            "reputationReward": [
+              [
+                81,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 20,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                3024
+              ]
+            ],
+            "zoneOrSort": 406
+          },
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 3024,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 3024,
             "npcName": "Tah Winterhoof",
-            "zoneId": 1638,
             "x": 54.0,
             "y": 47.4,
+            "zoneId": 1638,
             "zoneName": "Thunder Bluff"
           }
         ]

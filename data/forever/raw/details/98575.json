@@ -81,6 +81,87 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 98575,
+  "questLevel": 1,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          3156
+        ]
+      ],
+      "name": "Tainted Tablet",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Read the Tainted Tablet and speak to Nartok inside the Den in the Valley of Trials."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 1,
+      "reputationReward": [
+        [
+          530,
+          50
+        ]
+      ],
+      "requiredClasses": 256,
+      "requiredLevel": 1,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 128,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          3143
+        ]
+      ],
+      "zoneOrSort": -61
+    },
+    "finishers": [
+      {
+        "id": 3156,
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 3143,
+        "type": "npc"
+      }
+    ]
+  },
   "races": [
     8
   ],
@@ -88,9 +169,9 @@
     {
       "npcId": 3143,
       "npcName": "Gornek",
-      "zoneId": 14,
       "x": 42.0,
       "y": 68.4,
+      "zoneId": 14,
       "zoneName": "Durotar"
     }
   ]

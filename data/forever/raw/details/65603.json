@@ -256,19 +256,135 @@
     "typeId": 65603
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    65602
+  ],
   "questId": 65603,
+  "questLevel": -1,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "extraObjectives": [
+        {
+          "2": 3,
+          "3": "Summon the Incubus",
+          "4": 0,
+          "5": [
+            [
+              "object",
+              92015
+            ]
+          ]
+        }
+      ],
+      "finishedBy": [
+        [
+          6122
+        ]
+      ],
+      "name": "The Binding",
+      "nextQuestInChain": 0,
+      "objectives": [
+        [
+          {
+            "1": 185335,
+            "3": 0
+          }
+        ]
+      ],
+      "objectivesText": [
+        "Using the Wooden Figurine, summon and subdue an incubus, then return the Wooden Figurine to Gakin the Darkbinder in the Slaughtered Lamb."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        65602
+      ],
+      "questFlags": 0,
+      "questLevel": -1,
+      "requiredClasses": 256,
+      "requiredLevel": 20,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 4294967373,
+      "requiredSourceItems": [
+        190186
+      ],
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          6122
+        ]
+      ],
+      "zoneOrSort": -61
+    },
+    "finishers": [
+      {
+        "id": 6122,
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "extraObjectives": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSourceItems": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 6122,
+        "type": "npc"
+      }
+    ]
+  },
   "races": [
     1,
-    7
+    3,
+    4,
+    7,
+    95
   ],
+  "requirements": {
+    "anyOf": [
+      65602
+    ],
+    "preQuestSingle": [
+      65602
+    ]
+  },
   "startPins": [
     {
       "npcId": 6122,
       "npcName": "Gakin the Darkbinder",
-      "zoneId": 1519,
       "x": 25.4,
       "y": 78.4,
+      "zoneId": 1519,
       "zoneName": "Stormwind City"
     }
   ]

@@ -79,6 +79,112 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 92597,
+  "questLevel": 4,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          251371
+        ]
+      ],
+      "name": "Reading the Ley Lines",
+      "nextQuestInChain": 0,
+      "objectives": {
+        "2": [
+          {
+            "1": 450002,
+            "3": 0
+          }
+        ]
+      },
+      "objectivesText": [
+        "Use your Read Ley Line racial ability at the ley line in Thendal Grove."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 4,
+      "reputationReward": [
+        [
+          2779,
+          100
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 2,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 4294967296,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          251371
+        ]
+      ],
+      "zoneOrSort": 16593
+    },
+    "finishers": [
+      {
+        "id": 251371,
+        "name": "Falorne Fallwind",
+        "spawns": {
+          "16593": [
+            [
+              43.32,
+              24.87
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 251371,
+        "name": "Falorne Fallwind",
+        "spawns": {
+          "16593": [
+            [
+              43.32,
+              24.87
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [
     95
   ],
@@ -86,9 +192,9 @@
     {
       "npcId": 251371,
       "npcName": "Falorne Fallwind",
-      "zoneId": 16593,
       "x": 43.2,
       "y": 24.8,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

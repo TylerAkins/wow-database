@@ -78,6 +78,121 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 92474,
+  "questLevel": 2,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          251361
+        ]
+      ],
+      "name": "Falling With Style",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Jump from the top of the watchtower in Thendal Grove and use your Walk on Air ability to slow your fall."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 2,
+      "reputationReward": [
+        [
+          2778,
+          50
+        ],
+        [
+          2779,
+          50
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 2,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 12884901888,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          263113
+        ]
+      ],
+      "triggerEnd": [
+        "Use Walk on Air",
+        {
+          "16593": [
+            [
+              43.67,
+              24.14
+            ]
+          ]
+        }
+      ],
+      "zoneOrSort": 16593
+    },
+    "finishers": [
+      {
+        "id": 251361,
+        "name": "Rorian the Dayseeker",
+        "spawns": {
+          "16593": [
+            [
+              42.1,
+              23.49
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "triggerEnd": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 263113,
+        "name": "Myriaal Mistwake",
+        "spawns": {
+          "16593": [
+            [
+              43.68,
+              24.09
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [
     95,
     96
@@ -86,9 +201,9 @@
     {
       "npcId": 263113,
       "npcName": "Myriaal Mistwake",
-      "zoneId": 16593,
       "x": 43.6,
       "y": 24.0,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

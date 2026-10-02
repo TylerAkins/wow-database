@@ -22344,7 +22344,15 @@
         "minLevel": 1,
         "name": "Your Package Has Arrived",
         "pinCategory": "normal",
-        "races": [],
+        "questLevel": 2,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -22453,7 +22461,149 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 97263,
-        "races": [],
+        "questLevel": 2,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                258098
+              ]
+            ],
+            "name": "Your Package Has Arrived",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Deliver Eldrun's misplaced package."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 2,
+            "requiredClasses": 0,
+            "requiredLevel": 1,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": {
+              "2": [
+                660964
+              ]
+            },
+            "zoneOrSort": 1537
+          },
+          "finishers": [
+            {
+              "id": 258098,
+              "name": "Eldrun Stormbreaker",
+              "spawns": {
+                "1537": [
+                  [
+                    47.14,
+                    13.52
+                  ],
+                  [
+                    47.37,
+                    13.43
+                  ],
+                  [
+                    47.43,
+                    13.5
+                  ],
+                  [
+                    47.48,
+                    13.23
+                  ],
+                  [
+                    47.49,
+                    13.58
+                  ],
+                  [
+                    47.61,
+                    13.4
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 660964,
+              "name": "Misplaced Packages",
+              "spawns": {
+                "1537": [
+                  [
+                    72.16,
+                    48.88
+                  ],
+                  [
+                    72.22,
+                    49.23
+                  ],
+                  [
+                    72.32,
+                    48.76
+                  ],
+                  [
+                    72.38,
+                    48.76
+                  ],
+                  [
+                    72.38,
+                    49
+                  ],
+                  [
+                    72.51,
+                    48.23
+                  ],
+                  [
+                    72.57,
+                    48.25
+                  ]
+                ]
+              },
+              "type": "object"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": []
       }
     }

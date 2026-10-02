@@ -79,14 +79,118 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 96408,
-  "races": [],
+  "questLevel": 13,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          264936
+        ]
+      ],
+      "name": "A Visitor to Dun Morogh",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Investigate the campsite overlooking the Gol'Bolar Quarry."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 13,
+      "reputationReward": [
+        [
+          47,
+          75
+        ],
+        [
+          54,
+          75
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 9,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 4294967373,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          1376
+        ]
+      ],
+      "zoneOrSort": 1
+    },
+    "finishers": [
+      {
+        "id": 264936,
+        "name": "Earthseer Farsen",
+        "spawns": [
+          [
+            [
+              64.84,
+              58.45
+            ],
+            [
+              64.92,
+              58.51
+            ]
+          ]
+        ],
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 1376,
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    1,
+    3,
+    4,
+    7,
+    95
+  ],
   "startPins": [
     {
       "npcId": 1376,
       "npcName": "Beldin Steelgrill",
-      "zoneId": 1,
       "x": 50.4,
       "y": 49.0,
+      "zoneId": 1,
       "zoneName": "Dun Morogh"
     }
   ]

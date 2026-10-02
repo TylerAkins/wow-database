@@ -115,6 +115,108 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 94947,
+  "questLevel": 13,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          1748
+        ]
+      ],
+      "name": "Welcome to Azeroth",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Take the Skyborne Portal to Stormwind and report to Bolvar Fordragon in Stormwind Keep."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 13,
+      "reputationReward": [
+        [
+          2779,
+          25
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 7,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 4294967296,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          259084
+        ]
+      ],
+      "zoneOrSort": 1519
+    },
+    "finishers": [
+      {
+        "id": 1748,
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 259084,
+        "name": "Denaaris Stargale",
+        "spawns": {
+          "36": [
+            [
+              12.33,
+              56.37
+            ],
+            [
+              12.39,
+              56.25
+            ],
+            [
+              12.4,
+              56.12
+            ],
+            [
+              12.41,
+              56.32
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [
     95
   ],
@@ -122,9 +224,9 @@
     {
       "npcId": 259084,
       "npcName": "Denaaris Stargale",
-      "zoneId": 36,
       "x": 12.4,
       "y": 56.2,
+      "zoneId": 36,
       "zoneName": "Alterac Mountains"
     }
   ]

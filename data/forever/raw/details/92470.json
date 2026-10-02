@@ -183,16 +183,133 @@
     "typeId": 92470
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    92471
+  ],
   "questId": 92470,
+  "questLevel": 5,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          251366
+        ]
+      ],
+      "name": "Foul Matriarch",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Slay 8 Ursera Scavengers and collect the head of the den mother, Urs'anah in Thendal Grove."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        92471
+      ],
+      "questFlags": 0,
+      "questLevel": 5,
+      "reputationReward": [
+        [
+          2778,
+          50
+        ],
+        [
+          2779,
+          50
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 2,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 0,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          251366
+        ]
+      ],
+      "zoneOrSort": 16593
+    },
+    "finishers": [
+      {
+        "id": 251366,
+        "name": "Aetheen of the Gales",
+        "spawns": {
+          "16593": [
+            [
+              42.74,
+              23.66
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 251366,
+        "name": "Aetheen of the Gales",
+        "spawns": {
+          "16593": [
+            [
+              42.74,
+              23.66
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [],
+  "requirements": {
+    "anyOf": [
+      92471
+    ],
+    "preQuestSingle": [
+      92471
+    ]
+  },
   "startPins": [
     {
       "npcId": 251366,
       "npcName": "Aetheen of the Gales",
-      "zoneId": 16593,
       "x": 42.6,
       "y": 23.6,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

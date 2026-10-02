@@ -151,14 +151,101 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 96130,
-  "races": [],
+  "questLevel": 5,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          3065
+        ]
+      ],
+      "name": "Chakuyak",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Defeat Chakuyak and bring back her pelt."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 5,
+      "reputationReward": [
+        [
+          81,
+          50
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 5,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 8589934770,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          3065
+        ]
+      ],
+      "zoneOrSort": 215
+    },
+    "finishers": [
+      {
+        "id": 3065,
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 3065,
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    2,
+    5,
+    6,
+    8,
+    96
+  ],
   "startPins": [
     {
       "npcId": 3065,
       "npcName": "Yaw Sharpmane",
-      "zoneId": 215,
       "x": 47.8,
       "y": 55.6,
+      "zoneId": 215,
       "zoneName": "Mulgore"
     }
   ]

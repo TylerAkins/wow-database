@@ -112,16 +112,174 @@
     "typeId": 92698
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    92679
+  ],
   "questId": 92698,
+  "questLevel": 9,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          252800
+        ]
+      ],
+      "name": "What Is My Purpose?",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Speak with Aamelia Windfield about the Malfunctioning Cyclone Construct."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        92679
+      ],
+      "questFlags": 0,
+      "questLevel": 9,
+      "requiredClasses": 0,
+      "requiredLevel": 5,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 0,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          250929
+        ]
+      ],
+      "zoneOrSort": 16593
+    },
+    "finishers": [
+      {
+        "id": 252800,
+        "name": "Aamelia Windfield",
+        "spawns": {
+          "16593": [
+            [
+              46.7,
+              81.95
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 250929,
+        "name": "Malfunctioning Cyclone Construct",
+        "spawns": {
+          "16593": [
+            [
+              48.54,
+              78.04
+            ],
+            [
+              48.61,
+              78.46
+            ],
+            [
+              48.64,
+              78.4
+            ],
+            [
+              48.66,
+              78.28
+            ],
+            [
+              48.71,
+              78.52
+            ],
+            [
+              48.74,
+              78.62
+            ],
+            [
+              48.75,
+              78.33
+            ],
+            [
+              48.78,
+              78.5
+            ],
+            [
+              48.8,
+              77.98
+            ],
+            [
+              48.82,
+              78.38
+            ],
+            [
+              48.84,
+              78.22
+            ],
+            [
+              48.84,
+              78.57
+            ],
+            [
+              48.88,
+              78.68
+            ],
+            [
+              48.93,
+              78.17
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [],
+  "requirements": {
+    "anyOf": [
+      92679
+    ],
+    "preQuestSingle": [
+      92679
+    ]
+  },
   "startPins": [
     {
       "npcId": 250929,
       "npcName": "Malfunctioning Cyclone Construct",
-      "zoneId": 16593,
       "x": 48.8,
       "y": 78.4,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

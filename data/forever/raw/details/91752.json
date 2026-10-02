@@ -111,14 +111,114 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 91752,
-  "races": [],
+  "questLevel": 3,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          197
+        ]
+      ],
+      "name": "The Big Picture",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Retrieve a Sack of \"Picture\" Books from Shinyfinder Narf. Bring the sack to Marshal McBride just inside Northshire's Abbey."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 3,
+      "reputationReward": [
+        [
+          72,
+          100
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 1,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 4294967373,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          247226
+        ]
+      ],
+      "zoneOrSort": 12
+    },
+    "finishers": [
+      {
+        "id": 197,
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 247226,
+        "name": "Kelsey Fargo",
+        "spawns": {
+          "12": [
+            [
+              47.19,
+              32.22
+            ],
+            [
+              47.19,
+              32.32
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    1,
+    3,
+    4,
+    7,
+    95
+  ],
   "startPins": [
     {
       "npcId": 247226,
       "npcName": "Kelsey Fargo",
-      "zoneId": 12,
       "x": 47.2,
       "y": 32.2,
+      "zoneId": 12,
       "zoneName": "Elwynn Forest"
     }
   ]

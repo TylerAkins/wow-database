@@ -18,6 +18,7 @@ from quest_db.compile_zones import (
     check_zone_bundles,
     write_zone_bundles,
 )
+from quest_db.questie_import import render_collections
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -40,14 +41,18 @@ def main(argv: list[str] | None = None) -> int:
     version_root = ROOT / "data" / args.version
     raw_root = version_root / "raw"
     output_dir = args.output or version_root / "compiled" / "zones"
+    collection_dir = version_root / "compiled" / "collections"
     try:
         rendered = build_zone_bundles(raw_root, args.version, args.zone)
+        collections = render_collections(raw_root) if args.zone is None and args.version == "forever" else {}
         if args.check:
             differences = check_zone_bundles(
                 output_dir,
                 rendered,
                 check_all=args.zone is None,
             )
+            if collections and args.output is None:
+                differences.extend(check_zone_bundles(collection_dir, collections, check_all=True))
             if differences:
                 for difference in differences:
                     print(difference, file=sys.stderr)
@@ -55,6 +60,8 @@ def main(argv: list[str] | None = None) -> int:
             print(f"Validated {len(rendered)} compiled zone file(s)")
             return 0
         write_zone_bundles(output_dir, rendered, replace_all=args.zone is None)
+        if collections and args.output is None:
+            write_zone_bundles(collection_dir, collections, replace_all=True)
     except ZoneCompileError as exc:
         print(f"error: {exc}", file=sys.stderr)
         return 2

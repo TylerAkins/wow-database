@@ -87,14 +87,103 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 91753,
-  "races": [],
+  "questLevel": 7,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          11072
+        ]
+      ],
+      "name": "An Enchanting Lesson",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Kitta Firewind in the Tower of Azora wants you to collect 3 Luminous Residue.",
+        "",
+        "Luminous Residue can be obtained by disenchanting Crude Wax Effigies dropped by Kobold Geomancers."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 7,
+      "reputationReward": [
+        [
+          72,
+          75
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 5,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 4294967373,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          11072
+        ]
+      ],
+      "zoneOrSort": 12
+    },
+    "finishers": [
+      {
+        "id": 11072,
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 11072,
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    1,
+    3,
+    4,
+    7,
+    95
+  ],
   "startPins": [
     {
       "npcId": 11072,
       "npcName": "Kitta Firewind",
-      "zoneId": 12,
       "x": 64.8,
       "y": 70.6,
+      "zoneId": 12,
       "zoneName": "Elwynn Forest"
     }
   ]

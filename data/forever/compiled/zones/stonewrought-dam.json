@@ -66,6 +66,8 @@
           "zoneId": 38,
           "zoneName": "Loch Modan"
         },
+        "questLevel": 32,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
         "races": [],
         "sourceKinds": [
           "zone"
@@ -198,6 +200,106 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 79975,
+        "questLevel": 32,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": {
+              "2": [
+                406918
+              ]
+            },
+            "name": "Eagle's Fist",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Water spray dampens the air, the view is incredible."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 32,
+            "requiredClasses": 0,
+            "requiredLevel": 14,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 0,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": {
+              "2": [
+                424007
+              ]
+            },
+            "zoneOrSort": 146
+          },
+          "finishers": [
+            {
+              "id": 406918,
+              "name": "Messenger Bag",
+              "spawns": {
+                "45": [
+                  [
+                    22.48,
+                    24.23
+                  ]
+                ]
+              },
+              "type": "object"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 424007,
+              "name": "Carved Figurine",
+              "spawns": {
+                "38": [
+                  [
+                    49.35,
+                    12.92
+                  ],
+                  [
+                    49.42,
+                    12.78
+                  ],
+                  [
+                    49.55,
+                    12.75
+                  ]
+                ]
+              },
+              "type": "object"
+            }
+          ]
+        },
         "races": [],
         "startPins": [
           {

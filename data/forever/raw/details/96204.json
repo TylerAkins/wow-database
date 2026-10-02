@@ -131,6 +131,157 @@
     95034
   ],
   "questId": 96204,
+  "questLevel": 22,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          259620
+        ]
+      ],
+      "name": "The Windshaper's Wrath",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Accompany Lumina Windsinger and help her escape Fenris Keep."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 22,
+      "reputationReward": [
+        [
+          68,
+          50
+        ],
+        [
+          2787,
+          100
+        ]
+      ],
+      "requiredClasses": 2,
+      "requiredLevel": 18,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 16,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          248755
+        ]
+      ],
+      "zoneOrSort": -141
+    },
+    "finishers": [
+      {
+        "id": 259620,
+        "name": "Lumina Windsinger",
+        "spawns": {
+          "130": [
+            [
+              43.2,
+              40.8
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 248755,
+        "name": "Lumina Windsinger",
+        "spawns": {
+          "130": [
+            [
+              64,
+              34
+            ],
+            [
+              64.2,
+              33.4
+            ],
+            [
+              65.2,
+              33
+            ],
+            [
+              65.6,
+              23.2
+            ],
+            [
+              65.6,
+              27.4
+            ],
+            [
+              65.6,
+              29.6
+            ],
+            [
+              65.6,
+              32.4
+            ],
+            [
+              65.8,
+              25.4
+            ],
+            [
+              65.8,
+              25.6
+            ],
+            [
+              65.8,
+              27.6
+            ],
+            [
+              65.8,
+              28.6
+            ],
+            [
+              65.8,
+              30.8
+            ],
+            [
+              66,
+              24.2
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [
     5
   ],
@@ -138,9 +289,9 @@
     {
       "npcId": 248755,
       "npcName": "Lumina Windsinger",
-      "zoneId": 130,
       "x": 65.6,
       "y": 23.2,
+      "zoneId": 130,
       "zoneName": "Silverpine Forest"
     }
   ]

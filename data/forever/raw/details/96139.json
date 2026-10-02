@@ -103,14 +103,94 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 96139,
-  "races": [],
+  "questLevel": 22,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          268
+        ]
+      ],
+      "name": "The Valor Family",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Search Raven Hill for anything of interest and return to Sirra Von'Indi in Darkshire."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 22,
+      "requiredClasses": 0,
+      "requiredLevel": 18,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 4294967373,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          268
+        ]
+      ],
+      "zoneOrSort": 10
+    },
+    "finishers": [
+      {
+        "id": 268,
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 268,
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    1,
+    3,
+    4,
+    7,
+    95
+  ],
   "startPins": [
     {
       "npcId": 268,
       "npcName": "Sirra Von'Indi",
-      "zoneId": 10,
       "x": 72.6,
       "y": 47.6,
+      "zoneId": 10,
       "zoneName": "Duskwood"
     }
   ]

@@ -65,6 +65,110 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 86614,
-  "races": [],
+  "questLevel": 20,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          1684
+        ]
+      ],
+      "name": "Silver of the Waves",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Return the Monogrammed Silver Hair clip to its owner."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 20,
+      "reputationReward": [
+        [
+          47,
+          100
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 13,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 4294967373,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": {
+        "2": [
+          665289
+        ]
+      },
+      "zoneOrSort": 38
+    },
+    "finishers": [
+      {
+        "id": 1684,
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 665289,
+        "name": "Discarded Fishing Toolbox",
+        "spawns": {
+          "38": [
+            [
+              48.06,
+              39.76
+            ],
+            [
+              50.58,
+              53.29
+            ],
+            [
+              50.69,
+              53.33
+            ]
+          ]
+        },
+        "type": "object"
+      }
+    ]
+  },
+  "races": [
+    1,
+    3,
+    4,
+    7,
+    95
+  ],
   "startPins": []
 }

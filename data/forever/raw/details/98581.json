@@ -81,6 +81,96 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 98581,
+  "questLevel": 1,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          257446
+        ]
+      ],
+      "name": "Archaic Rune",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Read the Archaic Rune and speak to Teo Hammerstorm in Anvilmar."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 1,
+      "reputationReward": [
+        [
+          47,
+          50
+        ]
+      ],
+      "requiredClasses": 64,
+      "requiredLevel": 1,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 4,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          658
+        ]
+      ],
+      "zoneOrSort": -82
+    },
+    "finishers": [
+      {
+        "id": 257446,
+        "name": "Teo Hammerstorm",
+        "spawns": [
+          [
+            [
+              28.84,
+              66.23
+            ]
+          ]
+        ],
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 658,
+        "type": "npc"
+      }
+    ]
+  },
   "races": [
     3
   ],
@@ -88,9 +178,9 @@
     {
       "npcId": 658,
       "npcName": "Sten Stoutarm",
-      "zoneId": 1,
       "x": 29.8,
       "y": 71.2,
+      "zoneId": 1,
       "zoneName": "Dun Morogh"
     }
   ]

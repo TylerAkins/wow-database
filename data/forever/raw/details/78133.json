@@ -110,14 +110,134 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 78133,
+  "questLevel": 25,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          210995
+        ]
+      ],
+      "name": "Dragonslayer's Shield",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 25,
+      "requiredClasses": 0,
+      "requiredLevel": 15,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 0,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          210995
+        ]
+      ],
+      "zoneOrSort": 0
+    },
+    "finishers": [
+      {
+        "id": 210995,
+        "name": "Alonso",
+        "spawns": {
+          "331": [
+            [
+              42,
+              69.2
+            ],
+            [
+              42.4,
+              70
+            ],
+            [
+              43.4,
+              70.4
+            ],
+            [
+              43.4,
+              70.6
+            ],
+            [
+              43.6,
+              70.4
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 210995,
+        "name": "Alonso",
+        "spawns": {
+          "331": [
+            [
+              42,
+              69.2
+            ],
+            [
+              42.4,
+              70
+            ],
+            [
+              43.4,
+              70.4
+            ],
+            [
+              43.4,
+              70.6
+            ],
+            [
+              43.6,
+              70.4
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [],
   "startPins": [
     {
       "npcId": 210995,
       "npcName": "Alonso",
-      "zoneId": 331,
       "x": 43.4,
       "y": 70.4,
+      "zoneId": 331,
       "zoneName": "Ashenvale"
     }
   ]

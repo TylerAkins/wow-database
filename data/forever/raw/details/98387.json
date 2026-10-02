@@ -95,14 +95,101 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 98387,
-  "races": [],
+  "questLevel": 21,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          382
+        ]
+      ],
+      "name": "Blackrock Blockade",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Bring 10 Battleworn Axes to Marshal Marris in Lakeshire."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 21,
+      "reputationReward": [
+        [
+          72,
+          100
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 18,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 4294967373,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          382
+        ]
+      ],
+      "zoneOrSort": 44
+    },
+    "finishers": [
+      {
+        "id": 382,
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 382,
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    1,
+    3,
+    4,
+    7,
+    95
+  ],
   "startPins": [
     {
       "npcId": 382,
       "npcName": "Marshal Marris",
-      "zoneId": 44,
       "x": 33.4,
       "y": 48.8,
+      "zoneId": 44,
       "zoneName": "Redridge Mountains"
     }
   ]

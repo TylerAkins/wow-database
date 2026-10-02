@@ -164,14 +164,117 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 92679,
+  "questLevel": 9,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          252800
+        ]
+      ],
+      "name": "Blood Tithe",
+      "nextQuestInChain": 0,
+      "objectives": [
+        [
+          {
+            "1": 252800,
+            "3": 17
+          },
+          {
+            "1": 252448,
+            "3": 3
+          }
+        ]
+      ],
+      "objectivesText": [
+        "Listen to what Alvarion Windfield has to say and find Aamelia Windfield at the Windfield Orchard."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 9,
+      "requiredClasses": 0,
+      "requiredLevel": 5,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 0,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          252448
+        ]
+      ],
+      "zoneOrSort": 16593
+    },
+    "finishers": [
+      {
+        "id": 252800,
+        "name": "Aamelia Windfield",
+        "spawns": {
+          "16593": [
+            [
+              46.7,
+              81.95
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 252448,
+        "name": "Alvarion Windfield",
+        "spawns": {
+          "16593": [
+            [
+              62.14,
+              73.3
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [],
   "startPins": [
     {
       "npcId": 252448,
       "npcName": "Alvarion Windfield",
-      "zoneId": 16593,
       "x": 62.0,
       "y": 73.2,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

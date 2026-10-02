@@ -87,14 +87,122 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 99047,
-  "races": [],
+  "questLevel": 9,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          6094
+        ]
+      ],
+      "name": "Not Dead Yet",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Seek aid from Byancie in Dolaanar for Sentinel Eralya Leafshadow."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 9,
+      "reputationReward": [
+        [
+          69,
+          10
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 4,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 4294967373,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          275683
+        ]
+      ],
+      "zoneOrSort": 141
+    },
+    "finishers": [
+      {
+        "id": 6094,
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 275683,
+        "name": "Sentinel Eralya Leafshadow",
+        "spawns": {
+          "141": [
+            [
+              37.56,
+              36.93
+            ],
+            [
+              37.57,
+              36.72
+            ],
+            [
+              37.57,
+              36.84
+            ],
+            [
+              37.61,
+              36.92
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    1,
+    3,
+    4,
+    7,
+    95
+  ],
   "startPins": [
     {
       "npcId": 275683,
       "npcName": "Sentinel Eralya Leafshadow",
-      "zoneId": 141,
       "x": 37.6,
       "y": 36.8,
+      "zoneId": 141,
       "zoneName": "Teldrassil"
     }
   ]

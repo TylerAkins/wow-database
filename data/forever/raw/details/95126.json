@@ -99,6 +99,89 @@
     95140
   ],
   "questId": 95126,
+  "questLevel": 25,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          248840
+        ]
+      ],
+      "name": "The Moonsilver Blade",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Bring Ott's Masterwork to Trevan Rol in Silverpine Forest."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 25,
+      "requiredClasses": 2,
+      "requiredLevel": 20,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 16,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          3539
+        ]
+      ],
+      "zoneOrSort": -141
+    },
+    "finishers": [
+      {
+        "id": 248840,
+        "name": "Trevan Rol",
+        "spawns": {
+          "130": [
+            [
+              43.4,
+              41
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 3539,
+        "type": "npc"
+      }
+    ]
+  },
   "races": [
     5
   ],
@@ -106,9 +189,9 @@
     {
       "npcId": 3539,
       "npcName": "Ott",
-      "zoneId": 267,
       "x": 60.4,
       "y": 26.0,
+      "zoneId": 267,
       "zoneName": "Hillsbrad Foothills"
     }
   ]

@@ -87,14 +87,155 @@
   "pinCategory": "instance",
   "prerequisiteQuestIds": [],
   "questId": 92401,
-  "races": [],
+  "questLevel": 22,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          250686
+        ]
+      ],
+      "name": "A Frightened Request",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Investigate the disappearance of Edward Heartweaver in the Ruins of Lordaeron."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 22,
+      "reputationReward": [
+        [
+          68,
+          150
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 15,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 8589934770,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          250686
+        ]
+      ],
+      "triggerEnd": [
+        "Investigate the disappearance of Edward Heartweaver in the Ruins of Lordaeron.",
+        {
+          "1497": [
+            [
+              65.57,
+              49.47
+            ]
+          ]
+        }
+      ],
+      "zoneOrSort": 1497
+    },
+    "finishers": [
+      {
+        "id": 250686,
+        "name": "Tabitha Heartweaver",
+        "spawns": {
+          "130": [
+            [
+              44.46,
+              42.94
+            ],
+            [
+              44.51,
+              42.96
+            ],
+            [
+              44.57,
+              42.94
+            ],
+            [
+              44.61,
+              43.04
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "triggerEnd": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 250686,
+        "name": "Tabitha Heartweaver",
+        "spawns": {
+          "130": [
+            [
+              44.46,
+              42.94
+            ],
+            [
+              44.51,
+              42.96
+            ],
+            [
+              44.57,
+              42.94
+            ],
+            [
+              44.61,
+              43.04
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    2,
+    5,
+    6,
+    8,
+    96
+  ],
   "startPins": [
     {
       "npcId": 250686,
       "npcName": "Tabitha Heartweaver",
-      "zoneId": 130,
       "x": 44.4,
       "y": 43.0,
+      "zoneId": 130,
       "zoneName": "Silverpine Forest"
     }
   ]

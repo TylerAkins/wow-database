@@ -95,6 +95,87 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 98024,
+  "questLevel": 13,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          3429
+        ]
+      ],
+      "name": "Journey to the Crossroads",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Report To Thork at The Crossroads in The Barrens."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 13,
+      "reputationReward": [
+        [
+          2778,
+          25
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 7,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 8589934592,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          4949
+        ]
+      ],
+      "zoneOrSort": 17
+    },
+    "finishers": [
+      {
+        "id": 3429,
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 4949,
+        "type": "npc"
+      }
+    ]
+  },
   "races": [
     96
   ],
@@ -102,9 +183,9 @@
     {
       "npcId": 4949,
       "npcName": "Thrall",
-      "zoneId": 1637,
       "x": 32.0,
       "y": 37.8,
+      "zoneId": 1637,
       "zoneName": "Orgrimmar"
     }
   ]

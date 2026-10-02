@@ -23,6 +23,7 @@ from .parse_quest import (
 )
 from .sources import SOURCE_PAGES
 from .store import load_manifest, save_manifest, utc_now_iso, write_json
+from .questie_import import apply_questie_record, load_overlay
 from .zone_resolver import bootstrap_zone_ui_map_ids
 
 
@@ -67,6 +68,7 @@ def sync_quest_details(
     errors_path = data_root / "fetch_errors.jsonl"
 
     attunement_ids = _load_attunement_ids(data_root, attunement_seed_path)
+    questie_commit, questie_rows = load_overlay(data_root)
 
     processed = 0
     skipped_errors = 0
@@ -112,7 +114,6 @@ def sync_quest_details(
         detail["pinCategory"] = pin_category
         restrictions = eligibility_restrictions(detail.get("infoboxMarkup"), entry.get("list"))
         detail.update(restrictions)
-        write_json(detail_path, detail)
 
         entry["pinCategory"] = pin_category
         entry.update(restrictions)
@@ -120,9 +121,15 @@ def sync_quest_details(
         entry["startPinCount"] = len(detail["startPins"])
         if detail["startPins"]:
             entry["primaryStart"] = detail["startPins"][0]
+        if qid in questie_rows:
+            entry, detail, _ = apply_questie_record(
+                entry, detail, questie_rows[qid], questie_commit,
+            )
+            quest_index[qid] = entry
+        write_json(detail_path, detail)
         processed += 1
         print(
-            f"  saved quest {qid} faction={restrictions.get('faction')} races={restrictions.get('races')} starts={len(detail['startPins'])}",
+            f"  saved quest {qid} faction={entry.get('faction')} races={detail.get('races')} starts={len(detail['startPins'])}",
             flush=True,
         )
 
@@ -459,6 +466,7 @@ def backfill_eligibility(data_root: Path) -> int:
         quest_index = json.loads(index_path.read_text(encoding="utf-8"))
 
     updated = 0
+    questie_commit, questie_rows = load_overlay(data_root)
     details_dir = data_root / "details"
     for path in details_dir.glob("*.json"):
         detail = json.loads(path.read_text(encoding="utf-8"))
@@ -466,10 +474,14 @@ def backfill_eligibility(data_root: Path) -> int:
         entry = quest_index.get(qid, {})
         restrictions = eligibility_restrictions(detail.get("infoboxMarkup"), entry.get("list"))
         detail.update(restrictions)
-        write_json(path, detail)
         if entry:
             entry.update(restrictions)
+            if qid in questie_rows:
+                entry, detail, _ = apply_questie_record(
+                    entry, detail, questie_rows[qid], questie_commit,
+                )
             quest_index[qid] = entry
+        write_json(path, detail)
         updated += 1
 
     if quest_index:

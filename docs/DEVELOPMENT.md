@@ -42,3 +42,5 @@ python3 tools/fetch_quest_pages.py sync-quests --browser --delay 5 \
 ```
 
 Run the offline tests and regenerate the compiled files after any refresh. See [quest-database.md](quest-database.md) for the complete source catalog and specialized sync commands.
+
+The pinned QuestieDB overlay is reapplied during list and detail ingestion. After a batch refresh, run `python3 tools/import_questie.py` and `python3 tools/compile_zone_files.py` to refresh both compiled collections and the zone bundles. `python3 tools/import_questie.py --dry-run` previews effective field changes without writing files.

@@ -247,14 +247,94 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 95774,
-  "races": [],
+  "questLevel": 20,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          3432
+        ]
+      ],
+      "name": "Her Name Is Olgra",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Slay quilboars and collect 4 of Olgra's Adornments for Mankrik's memorial."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 20,
+      "requiredClasses": 0,
+      "requiredLevel": 14,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 8589934770,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          3432
+        ]
+      ],
+      "zoneOrSort": 17
+    },
+    "finishers": [
+      {
+        "id": 3432,
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 3432,
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    2,
+    5,
+    6,
+    8,
+    96
+  ],
   "startPins": [
     {
       "npcId": 3432,
       "npcName": "Mankrik",
-      "zoneId": 17,
       "x": 52.0,
       "y": 31.6,
+      "zoneId": 17,
       "zoneName": "The Barrens"
     }
   ]

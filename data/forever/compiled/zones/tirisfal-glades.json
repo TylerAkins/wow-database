@@ -36765,7 +36765,15 @@
           "zoneId": 85,
           "zoneName": "Tirisfal Glades"
         },
-        "races": [],
+        "questLevel": 7,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -36892,14 +36900,110 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 86784,
-        "races": [],
+        "questLevel": 7,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                265812
+              ]
+            ],
+            "name": "Sticks and Bones",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Collect 6 Dry Branches and bring them to Eleanor Shackleton."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 7,
+            "reputationReward": [
+              [
+                68,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 4,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                1742
+              ]
+            ],
+            "zoneOrSort": 85
+          },
+          "finishers": [
+            {
+              "id": 265812,
+              "name": "Eleanor Shackleton",
+              "spawns": {
+                "85": [
+                  [
+                    57.23,
+                    55.47
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 1742,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 1742,
             "npcName": "Deathguard Bartholomew",
-            "zoneId": 85,
             "x": 58.4,
             "y": 51.4,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -36954,7 +37058,15 @@
           "zoneId": 85,
           "zoneName": "Tirisfal Glades"
         },
-        "races": [],
+        "questLevel": 10,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -37049,14 +37161,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 95314,
-        "races": [],
+        "questLevel": 10,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                2132
+              ]
+            ],
+            "name": "That Shadowvale Green Elixir",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Collect 8 Bottles of Whispering Elixir from Shadowvale, then return to Carolai Anise in Brill."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 10,
+            "reputationReward": [
+              [
+                68,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 7,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                2132
+              ]
+            ],
+            "zoneOrSort": 85
+          },
+          "finishers": [
+            {
+              "id": 2132,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 2132,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 2132,
             "npcName": "Carolai Anise",
-            "zoneId": 85,
             "x": 59.4,
             "y": 52.2,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -37103,7 +37302,15 @@
         "minLevel": 7,
         "name": "Whispering Horror Residue",
         "pinCategory": "normal",
-        "races": [],
+        "questLevel": 10,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -37244,7 +37451,95 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 95328,
-        "races": [],
+        "questLevel": 10,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                4607
+              ]
+            ],
+            "name": "Whispering Horror Residue",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Deliver Whispering Horror Residue to Father Lankester in the War Quarter of Undercity."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 10,
+            "reputationReward": [
+              [
+                68,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 7,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": {
+              "3": [
+                268812
+              ]
+            },
+            "zoneOrSort": 85
+          },
+          "finishers": [
+            {
+              "id": 4607,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 268812,
+              "name": "Whispering Horror Residue",
+              "type": "item"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": []
       }
     },
@@ -37297,7 +37592,15 @@
           "zoneId": 85,
           "zoneName": "Tirisfal Glades"
         },
-        "races": [],
+        "questLevel": 13,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -37420,14 +37723,114 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 96895,
-        "races": [],
+        "questLevel": 13,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                267009
+              ]
+            ],
+            "name": "The Argent Emissary",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Find the Argent Dawn member near the entrance to the Undercity."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 13,
+            "reputationReward": [
+              [
+                529,
+                150
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 10,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                1738
+              ]
+            ],
+            "zoneOrSort": 85
+          },
+          "finishers": [
+            {
+              "id": 267009,
+              "name": "Hadric Harlson",
+              "spawns": {
+                "85": [
+                  [
+                    65.88,
+                    61.13
+                  ],
+                  [
+                    65.91,
+                    61.01
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 1738,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 1738,
             "npcName": "Deathguard Terrence",
-            "zoneId": 85,
             "x": 61.4,
             "y": 53.4,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -37482,7 +37885,15 @@
           "zoneId": 85,
           "zoneName": "Tirisfal Glades"
         },
-        "races": [],
+        "questLevel": 13,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -37577,14 +37988,127 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 96896,
-        "races": [],
+        "questLevel": 13,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                267008
+              ]
+            ],
+            "name": "A Righteous Cause",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Observe the conversation between Danitha Morr and Leonid Barthalomew the Revered."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 13,
+            "reputationReward": [
+              [
+                529,
+                150
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 10,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                267008
+              ]
+            ],
+            "zoneOrSort": 85
+          },
+          "finishers": [
+            {
+              "id": 267008,
+              "name": "Leonid Barthalomew the Revered",
+              "spawns": {
+                "85": [
+                  [
+                    22.01,
+                    44.77
+                  ],
+                  [
+                    22.04,
+                    44.69
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 267008,
+              "name": "Leonid Barthalomew the Revered",
+              "spawns": {
+                "85": [
+                  [
+                    22.01,
+                    44.77
+                  ],
+                  [
+                    22.04,
+                    44.69
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 267008,
             "npcName": "Leonid Barthalomew the Revered",
-            "zoneId": 85,
             "x": 22.0,
             "y": 44.8,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -37639,7 +38163,15 @@
           "zoneId": 85,
           "zoneName": "Tirisfal Glades"
         },
-        "races": [],
+        "questLevel": 13,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -37908,14 +38440,127 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 96897,
-        "races": [],
+        "questLevel": 13,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                267009
+              ]
+            ],
+            "name": "The Cult of the Damned",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Kill 8 Dark Neophytes and 8 Dark Enforcers in Tirisfal Glades."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 13,
+            "reputationReward": [
+              [
+                529,
+                150
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 10,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                267009
+              ]
+            ],
+            "zoneOrSort": 85
+          },
+          "finishers": [
+            {
+              "id": 267009,
+              "name": "Hadric Harlson",
+              "spawns": {
+                "85": [
+                  [
+                    65.88,
+                    61.13
+                  ],
+                  [
+                    65.91,
+                    61.01
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 267009,
+              "name": "Hadric Harlson",
+              "spawns": {
+                "85": [
+                  [
+                    65.88,
+                    61.13
+                  ],
+                  [
+                    65.91,
+                    61.01
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 267009,
             "npcName": "Hadric Harlson",
-            "zoneId": 85,
             "x": 65.8,
             "y": 61.0,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -37970,7 +38615,15 @@
           "zoneId": 85,
           "zoneName": "Tirisfal Glades"
         },
-        "races": [],
+        "questLevel": 13,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -38241,14 +38894,127 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 96898,
-        "races": [],
+        "questLevel": 13,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                267009
+              ]
+            ],
+            "name": "Remnants of War",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Gather 12 Necrotic Crystal Fragments in Tirisfal Glades."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 13,
+            "reputationReward": [
+              [
+                529,
+                150
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 10,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                267009
+              ]
+            ],
+            "zoneOrSort": 85
+          },
+          "finishers": [
+            {
+              "id": 267009,
+              "name": "Hadric Harlson",
+              "spawns": {
+                "85": [
+                  [
+                    65.88,
+                    61.13
+                  ],
+                  [
+                    65.91,
+                    61.01
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 267009,
+              "name": "Hadric Harlson",
+              "spawns": {
+                "85": [
+                  [
+                    65.88,
+                    61.13
+                  ],
+                  [
+                    65.91,
+                    61.01
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 267009,
             "npcName": "Hadric Harlson",
-            "zoneId": 85,
             "x": 65.8,
             "y": 61.0,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -38303,7 +39069,15 @@
           "zoneId": 85,
           "zoneName": "Tirisfal Glades"
         },
-        "races": [],
+        "questLevel": 13,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -38398,14 +39172,127 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 96899,
-        "races": [],
+        "questLevel": 13,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                267008
+              ]
+            ],
+            "name": "Bandarion Keep",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Meet Leonid Barthalomew at Bandarion Keep in Tirisfal Glades."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 13,
+            "reputationReward": [
+              [
+                529,
+                150
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 10,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                267009
+              ]
+            ],
+            "zoneOrSort": 85
+          },
+          "finishers": [
+            {
+              "id": 267008,
+              "name": "Leonid Barthalomew the Revered",
+              "spawns": {
+                "85": [
+                  [
+                    22.01,
+                    44.77
+                  ],
+                  [
+                    22.04,
+                    44.69
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 267009,
+              "name": "Hadric Harlson",
+              "spawns": {
+                "85": [
+                  [
+                    65.88,
+                    61.13
+                  ],
+                  [
+                    65.91,
+                    61.01
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 267009,
             "npcName": "Hadric Harlson",
-            "zoneId": 85,
             "x": 65.8,
             "y": 61.0,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -38473,7 +39360,15 @@
           "zoneId": 85,
           "zoneName": "Tirisfal Glades"
         },
-        "races": [],
+        "questLevel": 11,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -38568,14 +39463,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 97558,
-        "races": [],
+        "questLevel": 11,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                3549
+              ]
+            ],
+            "name": "Hides for the Forsaken",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Bring Shelene Rhobart 8 Duskbat Wing Membranes, 6 Darkhound Hides and 3 Vile Fin Murloc Skin."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 11,
+            "reputationReward": [
+              [
+                68,
+                75
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 6,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                3549
+              ]
+            ],
+            "zoneOrSort": 85
+          },
+          "finishers": [
+            {
+              "id": 3549,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 3549,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 3549,
             "npcName": "Shelene Rhobart",
-            "zoneId": 85,
             "x": 65.4,
             "y": 60.0,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -38630,7 +39612,15 @@
           "zoneId": 85,
           "zoneName": "Tirisfal Glades"
         },
-        "races": [],
+        "questLevel": 4,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -38784,14 +39774,119 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 98389,
-        "races": [],
+        "questLevel": 4,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                244808
+              ]
+            ],
+            "name": "A Light in the Darkness",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Free 6 Webbed Victims in Night's Web Hollow for Aramis Hammerhand in Deathknell."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 4,
+            "reputationReward": [
+              [
+                68,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 2,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                244808
+              ]
+            ],
+            "zoneOrSort": 85
+          },
+          "finishers": [
+            {
+              "id": 244808,
+              "name": "Aramis Hammerhand",
+              "spawns": {
+                "85": [
+                  [
+                    31.09,
+                    66.32
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 244808,
+              "name": "Aramis Hammerhand",
+              "spawns": {
+                "85": [
+                  [
+                    31.09,
+                    66.32
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 244808,
             "npcName": "Aramis Hammerhand",
-            "zoneId": 85,
             "x": 31.0,
             "y": 66.2,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -38859,7 +39954,15 @@
           "zoneId": 85,
           "zoneName": "Tirisfal Glades"
         },
-        "races": [],
+        "questLevel": 13,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -38970,14 +40073,163 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 98545,
-        "races": [],
+        "questLevel": 13,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                272526
+              ]
+            ],
+            "name": "Leonid's Letter",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Deliver the Sealed Letter to Glix Xizzix in the Undercity."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 13,
+            "reputationReward": [
+              [
+                529,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 10,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                267008
+              ]
+            ],
+            "zoneOrSort": 85
+          },
+          "finishers": [
+            {
+              "id": 272526,
+              "name": "Glix Xizzix",
+              "spawns": {
+                "1497": [
+                  [
+                    69.5,
+                    47.31
+                  ],
+                  [
+                    69.6,
+                    47.09
+                  ],
+                  [
+                    69.64,
+                    47.24
+                  ],
+                  [
+                    69.68,
+                    47.12
+                  ],
+                  [
+                    69.77,
+                    47.15
+                  ],
+                  [
+                    69.81,
+                    47.21
+                  ],
+                  [
+                    69.84,
+                    47.13
+                  ],
+                  [
+                    69.92,
+                    46.99
+                  ],
+                  [
+                    69.94,
+                    46.8
+                  ],
+                  [
+                    70,
+                    46.96
+                  ],
+                  [
+                    70.07,
+                    46.98
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 267008,
+              "name": "Leonid Barthalomew the Revered",
+              "spawns": {
+                "85": [
+                  [
+                    22.01,
+                    44.77
+                  ],
+                  [
+                    22.04,
+                    44.69
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 267008,
             "npcName": "Leonid Barthalomew the Revered",
-            "zoneId": 85,
             "x": 22.0,
             "y": 44.8,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -39032,7 +40284,15 @@
           "zoneId": 85,
           "zoneName": "Tirisfal Glades"
         },
-        "races": [],
+        "questLevel": 6,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -39916,14 +41176,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 99134,
-        "races": [],
+        "questLevel": 6,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                1515
+              ]
+            ],
+            "name": "Discipline",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Punish 5 Deathguards for Executor Zygand."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 6,
+            "reputationReward": [
+              [
+                68,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 4,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                1515
+              ]
+            ],
+            "zoneOrSort": 85
+          },
+          "finishers": [
+            {
+              "id": 1515,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 1515,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 1515,
             "npcName": "Executor Zygand",
-            "zoneId": 85,
             "x": 60.6,
             "y": 51.8,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -39978,7 +41325,15 @@
           "zoneId": 85,
           "zoneName": "Tirisfal Glades"
         },
-        "races": [],
+        "questLevel": 6,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -40081,14 +41436,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 99141,
-        "races": [],
+        "questLevel": 6,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                1515
+              ]
+            ],
+            "name": "Patience",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Obtain reports from Deathguard Dillinger, Deathguard Kristof, and Gordo for Executor Zygand."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 6,
+            "reputationReward": [
+              [
+                68,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 4,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                1515
+              ]
+            ],
+            "zoneOrSort": 85
+          },
+          "finishers": [
+            {
+              "id": 1515,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 1515,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 1515,
             "npcName": "Executor Zygand",
-            "zoneId": 85,
             "x": 60.6,
             "y": 51.8,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -40143,7 +41585,15 @@
           "zoneId": 85,
           "zoneName": "Tirisfal Glades"
         },
-        "races": [],
+        "questLevel": 11,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -40286,14 +41736,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 99142,
-        "races": [],
+        "questLevel": 11,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                10665
+              ]
+            ],
+            "name": "Tomb Weed",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Collect 5 Tomb Weed and deliver them back to Junior Apothecary Holland."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 11,
+            "reputationReward": [
+              [
+                68,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 5,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                10665
+              ]
+            ],
+            "zoneOrSort": 85
+          },
+          "finishers": [
+            {
+              "id": 10665,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 10665,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 10665,
             "npcName": "Junior Apothecary Holland",
-            "zoneId": 85,
             "x": 57.6,
             "y": 49.0,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -40348,7 +41885,15 @@
           "zoneId": 85,
           "zoneName": "Tirisfal Glades"
         },
-        "races": [],
+        "questLevel": 7,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -40487,14 +42032,119 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 99144,
-        "races": [],
+        "questLevel": 7,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                246152
+              ]
+            ],
+            "name": "Seeking Refuge",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Help Bareth Dawnstone escape Crusader's Outpost, and report his safety to Shari Stilwell in Brill."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 7,
+            "reputationReward": [
+              [
+                68,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 5,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                275954
+              ]
+            ],
+            "zoneOrSort": 85
+          },
+          "finishers": [
+            {
+              "id": 246152,
+              "name": "Shari Stilwell",
+              "spawns": {
+                "85": [
+                  [
+                    60.25,
+                    52.63
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 275954,
+              "name": "Bareth Dawnstone",
+              "spawns": {
+                "85": [
+                  [
+                    31.96,
+                    46.34
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 275954,
             "npcName": "Bareth Dawnstone",
-            "zoneId": 85,
             "x": 32.0,
             "y": 46.2,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -40549,7 +42199,15 @@
           "zoneId": 85,
           "zoneName": "Tirisfal Glades"
         },
-        "races": [],
+        "questLevel": 10,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -40784,14 +42442,175 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 99152,
-        "races": [],
+        "questLevel": 10,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                246389
+              ]
+            ],
+            "name": "As Above, So Below",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Collect 6 Faintly Glowing Bones for Hilda the Breaker."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 10,
+            "reputationReward": [
+              [
+                68,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 7,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                246389
+              ]
+            ],
+            "zoneOrSort": 85
+          },
+          "finishers": [
+            {
+              "id": 246389,
+              "name": "Hilda the Breaker",
+              "spawns": {
+                "85": [
+                  [
+                    21.92,
+                    47.19
+                  ],
+                  [
+                    21.92,
+                    47.27
+                  ],
+                  [
+                    21.94,
+                    46.94
+                  ],
+                  [
+                    21.94,
+                    47.33
+                  ],
+                  [
+                    22,
+                    47.11
+                  ],
+                  [
+                    22.01,
+                    46.93
+                  ],
+                  [
+                    22.03,
+                    47.23
+                  ],
+                  [
+                    22.05,
+                    47.33
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 246389,
+              "name": "Hilda the Breaker",
+              "spawns": {
+                "85": [
+                  [
+                    21.92,
+                    47.19
+                  ],
+                  [
+                    21.92,
+                    47.27
+                  ],
+                  [
+                    21.94,
+                    46.94
+                  ],
+                  [
+                    21.94,
+                    47.33
+                  ],
+                  [
+                    22,
+                    47.11
+                  ],
+                  [
+                    22.01,
+                    46.93
+                  ],
+                  [
+                    22.03,
+                    47.23
+                  ],
+                  [
+                    22.05,
+                    47.33
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 246389,
             "npcName": "Hilda the Breaker",
-            "zoneId": 85,
             "x": 22.0,
             "y": 47.2,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -40846,7 +42665,15 @@
           "zoneId": 85,
           "zoneName": "Tirisfal Glades"
         },
-        "races": [],
+        "questLevel": 10,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -40949,14 +42776,127 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 99153,
-        "races": [],
+        "questLevel": 10,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                259190
+              ]
+            ],
+            "name": "The One That Got Away",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Find the Hidden Crystal Fragment beneath Shadowvale for Ephram Barbaro."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 10,
+            "reputationReward": [
+              [
+                68,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 7,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                259190
+              ]
+            ],
+            "zoneOrSort": 85
+          },
+          "finishers": [
+            {
+              "id": 259190,
+              "name": "Ephram Barbaro",
+              "spawns": {
+                "85": [
+                  [
+                    20.15,
+                    46.59
+                  ],
+                  [
+                    20.23,
+                    46.55
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 259190,
+              "name": "Ephram Barbaro",
+              "spawns": {
+                "85": [
+                  [
+                    20.15,
+                    46.59
+                  ],
+                  [
+                    20.23,
+                    46.55
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 259190,
             "npcName": "Ephram Barbaro",
-            "zoneId": 85,
             "x": 20.2,
             "y": 46.4,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -41006,7 +42946,15 @@
           "zoneId": 85,
           "zoneName": "Tirisfal Glades"
         },
-        "races": [],
+        "questLevel": 13,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -41233,14 +43181,94 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 99156,
-        "races": [],
+        "questLevel": 13,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                1495
+              ]
+            ],
+            "name": "Rear Guard Patrol",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Bring Riptear's Heart to Deathguard Linnea."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 13,
+            "requiredClasses": 0,
+            "requiredLevel": 6,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                1495
+              ]
+            ],
+            "zoneOrSort": 85
+          },
+          "finishers": [
+            {
+              "id": 1495,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 1495,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 1495,
             "npcName": "Deathguard Linnea",
-            "zoneId": 85,
             "x": 65.4,
             "y": 60.2,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]

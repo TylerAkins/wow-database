@@ -76,16 +76,138 @@
     "typeId": 92880
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    92642,
+    92645
+  ],
   "questId": 92880,
+  "questLevel": 11,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          252383
+        ]
+      ],
+      "name": "Return to Valanaar",
+      "nextQuestInChain": 92881,
+      "objectives": [],
+      "objectivesText": [
+        "Bring Yorna's Report to Valennia Stormfist in Valanaar."
+      ],
+      "parentQuest": 0,
+      "preQuestGroup": [
+        92642,
+        92645
+      ],
+      "questFlags": 0,
+      "questLevel": 11,
+      "reputationReward": [
+        [
+          2778,
+          25
+        ],
+        [
+          2779,
+          25
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 6,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 0,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          252378
+        ]
+      ],
+      "zoneOrSort": 16593
+    },
+    "finishers": [
+      {
+        "id": 252383,
+        "name": "Valennia Stormfist",
+        "spawns": {
+          "16593": [
+            [
+              66.22,
+              76.63
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestGroup": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 252378,
+        "name": "Yorana Windyreed",
+        "spawns": {
+          "16593": [
+            [
+              69.61,
+              67.11
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [],
+  "requirements": {
+    "allOf": [
+      92642,
+      92645
+    ],
+    "nextQuestInChain": 92881,
+    "preQuestGroup": [
+      92642,
+      92645
+    ]
+  },
   "startPins": [
     {
       "npcId": 252378,
       "npcName": "Yorana Windyreed",
-      "zoneId": 16593,
       "x": 69.6,
       "y": 67.0,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

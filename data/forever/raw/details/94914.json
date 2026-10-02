@@ -103,6 +103,87 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 94914,
+  "questLevel": 10,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          11802
+        ]
+      ],
+      "name": "Moonglade",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Use the spell \"Teleport: Moonglade\" to travel to Moonglade.  When you arrive, speak with Dendrite Starblaze in the village of Nighthaven."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 10,
+      "reputationReward": [
+        [
+          609,
+          25
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 10,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 4294967296,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          5504
+        ]
+      ],
+      "zoneOrSort": -263
+    },
+    "finishers": [
+      {
+        "id": 11802,
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 5504,
+        "type": "npc"
+      }
+    ]
+  },
   "races": [
     95
   ],
@@ -110,9 +191,9 @@
     {
       "npcId": 5504,
       "npcName": "Sheldras Moontree",
-      "zoneId": 1519,
       "x": 21.0,
       "y": 55.4,
+      "zoneId": 1519,
       "zoneName": "Stormwind City"
     }
   ]

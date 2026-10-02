@@ -77,14 +77,91 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 97538,
-  "races": [],
+  "questLevel": 26,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [],
+      "name": "Pigments for Paints",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Tah Winterhoof in Thunder Bluff wants 30 Mirkweed Pods from Mirkfallon Lake."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 26,
+      "reputationReward": [
+        [
+          81,
+          100
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 20,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 8589934770,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          3024
+        ]
+      ],
+      "zoneOrSort": 406
+    },
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 3024,
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    2,
+    5,
+    6,
+    8,
+    96
+  ],
   "startPins": [
     {
       "npcId": 3024,
       "npcName": "Tah Winterhoof",
-      "zoneId": 1638,
       "x": 54.0,
       "y": 47.4,
+      "zoneId": 1638,
       "zoneName": "Thunder Bluff"
     }
   ]

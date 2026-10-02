@@ -261,6 +261,180 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 79192,
+  "questLevel": 24,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": {
+        "2": [
+          424005
+        ]
+      },
+      "name": "Stepping Stones",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "You tear the note from the plank and read the scrawled writing."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 24,
+      "requiredClasses": 0,
+      "requiredLevel": 14,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 0,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": {
+        "2": [
+          415106,
+          415107,
+          417072,
+          424010
+        ]
+      },
+      "zoneOrSort": 17
+    },
+    "finishers": [
+      {
+        "id": 424005,
+        "name": "Pocket Litter",
+        "spawns": {
+          "406": [
+            [
+              40.79,
+              52.61
+            ]
+          ]
+        },
+        "type": "object"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 415106,
+        "name": "Burned-Out Remains",
+        "spawns": {
+          "17": [
+            [
+              46.34,
+              73.86
+            ],
+            [
+              46.34,
+              73.96
+            ],
+            [
+              46.41,
+              73.96
+            ]
+          ]
+        },
+        "type": "object"
+      },
+      {
+        "id": 415107,
+        "name": "Burned-Out Remains",
+        "spawns": {
+          "40": [
+            [
+              37.27,
+              50.7
+            ],
+            [
+              37.33,
+              50.86
+            ],
+            [
+              37.37,
+              50.79
+            ],
+            [
+              37.4,
+              50.85
+            ],
+            [
+              37.45,
+              50.71
+            ],
+            [
+              37.45,
+              50.86
+            ],
+            [
+              37.46,
+              50.59
+            ],
+            [
+              37.46,
+              50.92
+            ],
+            [
+              37.54,
+              50.8
+            ]
+          ]
+        },
+        "type": "object"
+      },
+      {
+        "id": 417072,
+        "name": "Nailed Plank",
+        "spawns": {
+          "17": [
+            [
+              46.4,
+              73.8
+            ]
+          ]
+        },
+        "type": "object"
+      },
+      {
+        "id": 424010,
+        "name": "Nailed Plank",
+        "spawns": {
+          "40": [
+            [
+              37.44,
+              50.86
+            ]
+          ]
+        },
+        "type": "object"
+      }
+    ]
+  },
   "races": [],
   "startPins": [
     {

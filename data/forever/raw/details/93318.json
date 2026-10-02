@@ -96,6 +96,124 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 93318,
+  "questLevel": 9,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          252172
+        ]
+      ],
+      "name": "WANTED: Vulgara the Insatiable",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Kill Vulgara the Insatiable in the Shen'dar Highlands and bring her head to Danarii Bellowveil."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        92514,
+        93461
+      ],
+      "questFlags": 0,
+      "questLevel": 9,
+      "reputationReward": [
+        [
+          2778,
+          50
+        ],
+        [
+          2779,
+          50
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 4,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 0,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": {
+        "2": [
+          610954
+        ]
+      },
+      "zoneOrSort": 16593
+    },
+    "finishers": [
+      {
+        "id": 252172,
+        "name": "Danarii Bellowveil",
+        "spawns": {
+          "16593": [
+            [
+              45.2,
+              45.21
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 610954,
+        "name": "Bounty Available: Vulgara the Insatiable!",
+        "spawns": {
+          "16593": [
+            [
+              43.37,
+              45.82
+            ]
+          ]
+        },
+        "type": "object"
+      }
+    ]
+  },
   "races": [],
+  "requirements": {
+    "anyOf": [
+      92514,
+      93461
+    ],
+    "preQuestSingle": [
+      92514,
+      93461
+    ]
+  },
   "startPins": []
 }

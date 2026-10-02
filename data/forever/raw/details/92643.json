@@ -99,16 +99,145 @@
     "typeId": 92643
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    92881
+  ],
   "questId": 92643,
+  "questLevel": 11,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          253372
+        ]
+      ],
+      "name": "The Turncoat",
+      "nextQuestInChain": 92644,
+      "objectives": [
+        [
+          {
+            "1": 255013,
+            "3": 3
+          },
+          {
+            "1": 253372,
+            "3": 17
+          }
+        ]
+      ],
+      "objectivesText": [
+        "Find the cultist turncoat at the house just inside the highlands northwest of Valanaar."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        92881
+      ],
+      "questFlags": 0,
+      "questLevel": 11,
+      "reputationReward": [
+        [
+          2778,
+          50
+        ],
+        [
+          2779,
+          50
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 6,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 0,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          252476
+        ]
+      ],
+      "zoneOrSort": 16593
+    },
+    "finishers": [
+      {
+        "id": 253372,
+        "name": "Dead Cultist",
+        "spawns": {
+          "16593": [
+            [
+              56.01,
+              58.81
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 252476,
+        "name": "Talaanis Shadowsong",
+        "spawns": {
+          "16593": [
+            [
+              66.17,
+              76.51
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [],
+  "requirements": {
+    "anyOf": [
+      92881
+    ],
+    "nextQuestInChain": 92644,
+    "preQuestSingle": [
+      92881
+    ]
+  },
   "startPins": [
     {
       "npcId": 252476,
       "npcName": "Talaanis Shadowsong",
-      "zoneId": 16593,
       "x": 66.2,
       "y": 76.6,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

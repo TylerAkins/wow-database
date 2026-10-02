@@ -107,19 +107,137 @@
     "typeId": 65602
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    1716
+  ],
   "questId": 65602,
+  "questLevel": -1,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "extraObjectives": [
+        {
+          "2": 17,
+          "3": "Light the Unlit Torch near a fire and use the Burning Torch to set the Archaeologist's Cart on fire.",
+          "4": 0,
+          "5": [
+            [
+              "object",
+              400002
+            ]
+          ]
+        }
+      ],
+      "finishedBy": [
+        [
+          6122
+        ]
+      ],
+      "name": "What Is Love?",
+      "nextQuestInChain": 65603,
+      "objectives": {
+        "3": [
+          {
+            "1": 190309,
+            "3": 0
+          }
+        ]
+      },
+      "objectivesText": [
+        "Retrieve the Wooden Figurine and bring it to Gakin the Darkbinder in the Mage Quarter of Stormwind."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        1716
+      ],
+      "questFlags": 0,
+      "questLevel": -1,
+      "requiredClasses": 256,
+      "requiredLevel": 20,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 4294967373,
+      "requiredSourceItems": [
+        190307,
+        190308
+      ],
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          6244
+        ]
+      ],
+      "zoneOrSort": -61
+    },
+    "finishers": [
+      {
+        "id": 6122,
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "extraObjectives": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSourceItems": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 6244,
+        "type": "npc"
+      }
+    ]
+  },
   "races": [
     1,
-    7
+    3,
+    4,
+    7,
+    95
   ],
+  "requirements": {
+    "anyOf": [
+      1716
+    ],
+    "nextQuestInChain": 65603,
+    "preQuestSingle": [
+      1716
+    ]
+  },
   "startPins": [
     {
       "npcId": 6244,
       "npcName": "Takar the Seer",
-      "zoneId": 17,
       "x": 49.2,
       "y": 57.0,
+      "zoneId": 17,
       "zoneName": "The Barrens"
     }
   ]

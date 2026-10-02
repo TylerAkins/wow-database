@@ -46890,6 +46890,8 @@
           "zoneId": 1638,
           "zoneName": "Thunder Bluff"
         },
+        "questLevel": 10,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
         "races": [
           2,
           6,
@@ -47033,6 +47035,138 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 76156,
+        "questLevel": 10,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                205729
+              ]
+            ],
+            "name": "Stalk With The Earthmother",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Sneak into the Venture Company mine southeast of Thunder Bluff and collect 5 Seaforium Mining Charges from carts of blasting supplies, then return them to Boarton Shadetotem in Thunder Bluff."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 10,
+            "requiredClasses": 1089,
+            "requiredLevel": 4,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 162,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                205729
+              ]
+            ],
+            "zoneOrSort": 215
+          },
+          "finishers": [
+            {
+              "id": 205729,
+              "name": "Boarton Shadetotem",
+              "spawns": {
+                "1638": [
+                  [
+                    39.53,
+                    65.82
+                  ],
+                  [
+                    39.53,
+                    66.03
+                  ],
+                  [
+                    39.54,
+                    65.58
+                  ],
+                  [
+                    39.58,
+                    66.08
+                  ],
+                  [
+                    39.6,
+                    65.85
+                  ],
+                  [
+                    39.75,
+                    65.69
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 205729,
+              "name": "Boarton Shadetotem",
+              "spawns": {
+                "1638": [
+                  [
+                    39.53,
+                    65.82
+                  ],
+                  [
+                    39.53,
+                    66.03
+                  ],
+                  [
+                    39.54,
+                    65.58
+                  ],
+                  [
+                    39.58,
+                    66.08
+                  ],
+                  [
+                    39.6,
+                    65.85
+                  ],
+                  [
+                    39.75,
+                    65.69
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
         "races": [
           2,
           6,
@@ -47042,9 +47176,9 @@
           {
             "npcId": 205729,
             "npcName": "Boarton Shadetotem",
-            "zoneId": 1638,
             "x": 39.6,
             "y": 65.6,
+            "zoneId": 1638,
             "zoneName": "Thunder Bluff"
           }
         ]
@@ -47120,6 +47254,8 @@
           "zoneId": 1638,
           "zoneName": "Thunder Bluff"
         },
+        "questLevel": 11,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
         "races": [
           2,
           6,
@@ -47263,6 +47399,138 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 76160,
+        "questLevel": 11,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                205729
+              ]
+            ],
+            "name": "Stalk With The Earthmother",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Gather 8 Windfury Cones north of Thunder Bluff, use them with the Mortar and Pestle, then return to Boarton Shadetotem in Thunder Bluff with the result."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 11,
+            "requiredClasses": 1089,
+            "requiredLevel": 4,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 162,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                205729
+              ]
+            ],
+            "zoneOrSort": 215
+          },
+          "finishers": [
+            {
+              "id": 205729,
+              "name": "Boarton Shadetotem",
+              "spawns": {
+                "1638": [
+                  [
+                    39.53,
+                    65.82
+                  ],
+                  [
+                    39.53,
+                    66.03
+                  ],
+                  [
+                    39.54,
+                    65.58
+                  ],
+                  [
+                    39.58,
+                    66.08
+                  ],
+                  [
+                    39.6,
+                    65.85
+                  ],
+                  [
+                    39.75,
+                    65.69
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 205729,
+              "name": "Boarton Shadetotem",
+              "spawns": {
+                "1638": [
+                  [
+                    39.53,
+                    65.82
+                  ],
+                  [
+                    39.53,
+                    66.03
+                  ],
+                  [
+                    39.54,
+                    65.58
+                  ],
+                  [
+                    39.58,
+                    66.08
+                  ],
+                  [
+                    39.6,
+                    65.85
+                  ],
+                  [
+                    39.75,
+                    65.69
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
         "races": [
           2,
           6,
@@ -47272,9 +47540,9 @@
           {
             "npcId": 205729,
             "npcName": "Boarton Shadetotem",
-            "zoneId": 1638,
             "x": 39.6,
             "y": 65.6,
+            "zoneId": 1638,
             "zoneName": "Thunder Bluff"
           }
         ]
@@ -47339,7 +47607,15 @@
           "zoneId": 1638,
           "zoneName": "Thunder Bluff"
         },
-        "races": [],
+        "questLevel": 11,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -47476,14 +47752,152 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 76240,
-        "races": [],
+        "questLevel": 11,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                205729
+              ]
+            ],
+            "name": "Stalk With The Earthmother",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Buy or catch a Raw Brilliant Smallfish, then use the Knife Set to fillet it in front of Boarton Shadetotem in Thunder Bluff."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 11,
+            "requiredClasses": 64,
+            "requiredLevel": 4,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                205729
+              ]
+            ],
+            "zoneOrSort": 215
+          },
+          "finishers": [
+            {
+              "id": 205729,
+              "name": "Boarton Shadetotem",
+              "spawns": {
+                "1638": [
+                  [
+                    39.53,
+                    65.82
+                  ],
+                  [
+                    39.53,
+                    66.03
+                  ],
+                  [
+                    39.54,
+                    65.58
+                  ],
+                  [
+                    39.58,
+                    66.08
+                  ],
+                  [
+                    39.6,
+                    65.85
+                  ],
+                  [
+                    39.75,
+                    65.69
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 205729,
+              "name": "Boarton Shadetotem",
+              "spawns": {
+                "1638": [
+                  [
+                    39.53,
+                    65.82
+                  ],
+                  [
+                    39.53,
+                    66.03
+                  ],
+                  [
+                    39.54,
+                    65.58
+                  ],
+                  [
+                    39.58,
+                    66.08
+                  ],
+                  [
+                    39.6,
+                    65.85
+                  ],
+                  [
+                    39.75,
+                    65.69
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 205729,
             "npcName": "Boarton Shadetotem",
-            "zoneId": 1638,
             "x": 39.6,
             "y": 65.6,
+            "zoneId": 1638,
             "zoneName": "Thunder Bluff"
           }
         ]
@@ -47543,7 +47957,15 @@
           "zoneId": 215,
           "zoneName": "Mulgore"
         },
-        "races": [],
+        "questLevel": 4,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -47632,14 +48054,91 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 95805,
-        "races": [],
+        "questLevel": 4,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [],
+            "name": "Grace of An'she and Mu'sha",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Carry the Smoldering Incense to the shrine of An'she and Mu'sha in the southeastern hills before the incense burns to ash in ten minutes!"
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 4,
+            "reputationReward": [
+              [
+                81,
+                50
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 1,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                2982
+              ]
+            ],
+            "zoneOrSort": 215
+          },
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 2982,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 2982,
             "npcName": "Seer Graytongue",
-            "zoneId": 215,
             "x": 42.6,
             "y": 92.0,
+            "zoneId": 215,
             "zoneName": "Mulgore"
           }
         ]
@@ -47699,7 +48198,15 @@
           "zoneId": 215,
           "zoneName": "Mulgore"
         },
-        "races": [],
+        "questLevel": 5,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -47866,14 +48373,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 96130,
-        "races": [],
+        "questLevel": 5,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                3065
+              ]
+            ],
+            "name": "Chakuyak",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Defeat Chakuyak and bring back her pelt."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 5,
+            "reputationReward": [
+              [
+                81,
+                50
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 5,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                3065
+              ]
+            ],
+            "zoneOrSort": 215
+          },
+          "finishers": [
+            {
+              "id": 3065,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 3065,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 3065,
             "npcName": "Yaw Sharpmane",
-            "zoneId": 215,
             "x": 47.8,
             "y": 55.6,
+            "zoneId": 215,
             "zoneName": "Mulgore"
           }
         ]
@@ -47920,7 +48514,15 @@
         "minLevel": 5,
         "name": "Fizsprocket's Notes",
         "pinCategory": "normal",
-        "races": [],
+        "questLevel": 10,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -48093,7 +48695,95 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 98424,
-        "races": [],
+        "questLevel": 10,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                2988
+              ]
+            ],
+            "name": "Fizsprocket's Notes",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Collect the rest of Supervisor Fizsprocket's pages inside The Venture Co. Mine and bring them to Morin Cloudstalker near Bloodhoof Village."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 10,
+            "reputationReward": [
+              [
+                81,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 5,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": {
+              "3": [
+                281031
+              ]
+            },
+            "zoneOrSort": 215
+          },
+          "finishers": [
+            {
+              "id": 2988,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 281031,
+              "name": "Mulgore Expansion Plans",
+              "type": "item"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": []
       }
     },
@@ -48155,7 +48845,15 @@
           "zoneId": 215,
           "zoneName": "Mulgore"
         },
-        "races": [],
+        "questLevel": 12,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -48386,14 +49084,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 98427,
-        "races": [],
+        "questLevel": 12,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                2988
+              ]
+            ],
+            "name": "Ceasing Operations",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Bring the Clearcutter Key to Morin Cloudstalker outside Bloodhoof Village."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 12,
+            "reputationReward": [
+              [
+                81,
+                150
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 5,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                2988
+              ]
+            ],
+            "zoneOrSort": 215
+          },
+          "finishers": [
+            {
+              "id": 2988,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 2988,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 2988,
             "npcName": "Morin Cloudstalker",
-            "zoneId": 215,
             "x": 53.0,
             "y": 60.2,
+            "zoneId": 215,
             "zoneName": "Mulgore"
           }
         ]
@@ -48448,7 +49233,15 @@
           "zoneId": 215,
           "zoneName": "Mulgore"
         },
-        "races": [],
+        "questLevel": 8,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -48607,14 +49400,110 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 98430,
-        "races": [],
+        "questLevel": 8,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                3057
+              ]
+            ],
+            "name": "The Longwalkers",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Help Perith Stormhoof escape Palemane Rock, and report his safety to Cairne Bloodhoof in Thunder Bluff."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 8,
+            "reputationReward": [
+              [
+                81,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 1,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                272203
+              ]
+            ],
+            "zoneOrSort": 215
+          },
+          "finishers": [
+            {
+              "id": 3057,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 272203,
+              "name": "Perith Stormhoof",
+              "spawns": {
+                "215": [
+                  [
+                    33.1,
+                    65.93
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 272203,
             "npcName": "Perith Stormhoof",
-            "zoneId": 215,
             "x": 33.0,
             "y": 65.8,
+            "zoneId": 215,
             "zoneName": "Mulgore"
           }
         ]
@@ -48678,7 +49567,15 @@
           "zoneId": 215,
           "zoneName": "Mulgore"
         },
-        "races": [],
+        "questLevel": 10,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -48809,14 +49706,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 98435,
-        "races": [],
+        "questLevel": 10,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                5769
+              ]
+            ],
+            "name": "Thunderhorn's Report",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Bring Thunderhorn's Report to Arch Druid Hamuul Runetotem in Thunder Bluff."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 10,
+            "reputationReward": [
+              [
+                81,
+                10
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 4,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                2948
+              ]
+            ],
+            "zoneOrSort": 215
+          },
+          "finishers": [
+            {
+              "id": 5769,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 2948,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 2948,
             "npcName": "Mull Thunderhorn",
-            "zoneId": 215,
             "x": 48.4,
             "y": 60.4,
+            "zoneId": 215,
             "zoneName": "Mulgore"
           }
         ]
@@ -48871,7 +49855,15 @@
           "zoneId": 215,
           "zoneName": "Mulgore"
         },
-        "races": [],
+        "questLevel": 9,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -49086,14 +50078,114 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 99079,
-        "races": [],
+        "questLevel": 9,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                275789
+              ]
+            ],
+            "name": "Longwalker Malah",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Find Longwalker Malah Longwind east of Bloodhoof Village, near the edge of Mulgore."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 9,
+            "reputationReward": [
+              [
+                81,
+                10
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 4,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                3222
+              ]
+            ],
+            "zoneOrSort": 215
+          },
+          "finishers": [
+            {
+              "id": 275789,
+              "name": "Malah Longwind",
+              "spawns": {
+                "215": [
+                  [
+                    57.57,
+                    63.18
+                  ],
+                  [
+                    57.65,
+                    63.27
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 3222,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 3222,
             "npcName": "Brave Wildrunner",
-            "zoneId": 215,
             "x": 47.2,
             "y": 59.6,
+            "zoneId": 215,
             "zoneName": "Mulgore"
           }
         ]
@@ -49148,7 +50240,15 @@
           "zoneId": 215,
           "zoneName": "Mulgore"
         },
-        "races": [],
+        "questLevel": 9,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -50121,14 +51221,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 99080,
-        "races": [],
+        "questLevel": 9,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                2993
+              ]
+            ],
+            "name": "Drive Them Out",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Kill 6 Galak Centaurs, 4 Galak Outrunners, and bring the head of Herak the Pillager to Baine Bloodhoof."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 9,
+            "reputationReward": [
+              [
+                81,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 4,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                2993
+              ]
+            ],
+            "zoneOrSort": 215
+          },
+          "finishers": [
+            {
+              "id": 2993,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 2993,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 2993,
             "npcName": "Baine Bloodhoof",
-            "zoneId": 215,
             "x": 47.4,
             "y": 60.2,
+            "zoneId": 215,
             "zoneName": "Mulgore"
           }
         ]
@@ -50183,7 +51370,15 @@
           "zoneId": 215,
           "zoneName": "Mulgore"
         },
-        "races": [],
+        "questLevel": 9,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -50398,14 +51593,114 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 99081,
-        "races": [],
+        "questLevel": 9,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                3222
+              ]
+            ],
+            "name": "Grim Tidings",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Bring Longwalker Malah's Report to Brave Wildrunner in Bloodhoof Village."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 9,
+            "reputationReward": [
+              [
+                81,
+                10
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 4,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                275789
+              ]
+            ],
+            "zoneOrSort": 215
+          },
+          "finishers": [
+            {
+              "id": 3222,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 275789,
+              "name": "Malah Longwind",
+              "spawns": {
+                "215": [
+                  [
+                    57.57,
+                    63.18
+                  ],
+                  [
+                    57.65,
+                    63.27
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 275789,
             "npcName": "Malah Longwind",
-            "zoneId": 215,
             "x": 57.6,
             "y": 63.2,
+            "zoneId": 215,
             "zoneName": "Mulgore"
           }
         ]
@@ -50460,7 +51755,15 @@
           "zoneId": 215,
           "zoneName": "Mulgore"
         },
-        "races": [],
+        "questLevel": 9,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -50587,14 +51890,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 99082,
-        "races": [],
+        "questLevel": 9,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                3057
+              ]
+            ],
+            "name": "The High Chieftain",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Seek audience with High Chieftain Cairne Bloodhoof in Thunder Bluff."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 9,
+            "reputationReward": [
+              [
+                81,
+                10
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 4,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                2993
+              ]
+            ],
+            "zoneOrSort": 215
+          },
+          "finishers": [
+            {
+              "id": 3057,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 2993,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 2993,
             "npcName": "Baine Bloodhoof",
-            "zoneId": 215,
             "x": 47.4,
             "y": 60.2,
+            "zoneId": 215,
             "zoneName": "Mulgore"
           }
         ]
@@ -50649,7 +52039,15 @@
           "zoneId": 215,
           "zoneName": "Mulgore"
         },
-        "races": [],
+        "questLevel": 9,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -50868,14 +52266,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 99101,
-        "races": [],
+        "questLevel": 9,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                2993
+              ]
+            ],
+            "name": "Our Ancient Enemy",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Bring Longwalker Malah's Report to Baine Bloodhoof."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 9,
+            "reputationReward": [
+              [
+                81,
+                10
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 4,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                3222
+              ]
+            ],
+            "zoneOrSort": 215
+          },
+          "finishers": [
+            {
+              "id": 2993,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 3222,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 3222,
             "npcName": "Brave Wildrunner",
-            "zoneId": 215,
             "x": 47.2,
             "y": 59.6,
+            "zoneId": 215,
             "zoneName": "Mulgore"
           }
         ]
@@ -50939,7 +52424,15 @@
           "zoneId": 215,
           "zoneName": "Mulgore"
         },
-        "races": [],
+        "questLevel": 6,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -51066,14 +52559,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 99108,
-        "races": [],
+        "questLevel": 6,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                3063
+              ]
+            ],
+            "name": "Sparring Match",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Defeat 3 other players in duels or Novice Warriors for Tang Stonehoof."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 6,
+            "reputationReward": [
+              [
+                81,
+                75
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 4,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                3063
+              ]
+            ],
+            "zoneOrSort": 215
+          },
+          "finishers": [
+            {
+              "id": 3063,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 3063,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 3063,
             "npcName": "Krang Stonehoof",
-            "zoneId": 215,
             "x": 49.4,
             "y": 60.4,
+            "zoneId": 215,
             "zoneName": "Mulgore"
           }
         ]
@@ -51128,7 +52708,15 @@
           "zoneId": 215,
           "zoneName": "Mulgore"
         },
-        "races": [],
+        "questLevel": 60,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -51231,14 +52819,131 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 99196,
-        "races": [],
+        "questLevel": 60,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                276171
+              ]
+            ],
+            "name": "A Donation of Wool",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 60,
+            "reputationReward": [
+              [
+                2778,
+                150
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 12,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 8589934770,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                276171
+              ]
+            ],
+            "zoneOrSort": 215
+          },
+          "finishers": [
+            {
+              "id": 276171,
+              "name": "Oura Stormspinner",
+              "spawns": {
+                "215": [
+                  [
+                    34.17,
+                    22.51
+                  ],
+                  [
+                    34.18,
+                    22.39
+                  ],
+                  [
+                    34.25,
+                    22.49
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 276171,
+              "name": "Oura Stormspinner",
+              "spawns": {
+                "215": [
+                  [
+                    34.17,
+                    22.51
+                  ],
+                  [
+                    34.18,
+                    22.39
+                  ],
+                  [
+                    34.25,
+                    22.49
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          2,
+          5,
+          6,
+          8,
+          96
+        ],
         "startPins": [
           {
             "npcId": 276171,
             "npcName": "Oura Stormspinner",
-            "zoneId": 215,
             "x": 34.2,
             "y": 22.4,
+            "zoneId": 215,
             "zoneName": "Mulgore"
           }
         ]

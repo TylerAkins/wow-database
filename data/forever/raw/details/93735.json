@@ -81,16 +81,144 @@
     "typeId": 93735
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    92700
+  ],
   "questId": 93735,
-  "races": [],
+  "questLevel": 9,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          256083
+        ]
+      ],
+      "name": "The Broken Construct",
+      "nextQuestInChain": 93737,
+      "objectives": [],
+      "objectivesText": [
+        "Find Riaani Nightwind on the west side of Valanaar."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        92700
+      ],
+      "questFlags": 0,
+      "questLevel": 9,
+      "reputationReward": [
+        [
+          2778,
+          100
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 4,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 8589934770,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          251968
+        ]
+      ],
+      "zoneOrSort": 16593
+    },
+    "finishers": [
+      {
+        "id": 256083,
+        "name": "Riaani Nightwind",
+        "spawns": {
+          "16593": [
+            [
+              59.02,
+              72.92
+            ],
+            [
+              59.06,
+              73.06
+            ],
+            [
+              59.09,
+              73
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 251968,
+        "name": "Ayessa Dawnsinger",
+        "spawns": {
+          "16593": [
+            [
+              59.15,
+              79.73
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    2,
+    5,
+    6,
+    8,
+    96
+  ],
+  "requirements": {
+    "anyOf": [
+      92700
+    ],
+    "nextQuestInChain": 93737,
+    "preQuestSingle": [
+      92700
+    ]
+  },
   "startPins": [
     {
       "npcId": 251968,
       "npcName": "Ayessa Dawnsinger",
-      "zoneId": 16593,
       "x": 59.0,
       "y": 79.6,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

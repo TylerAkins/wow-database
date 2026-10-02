@@ -86,6 +86,113 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 98404,
+  "questLevel": 20,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          272054
+        ]
+      ],
+      "name": "The Great Windborne Cat Spirit",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "objectivesText": [
+        "Recover the Relic of the Fang, Relic of the Claw, and Relic of the Silent Shadow from the Stormrage Barrow Den, and return them to the Avatar of Saeyleenan."
+      ],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 20,
+      "reputationReward": [
+        [
+          609,
+          50
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 20,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 12884901888,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          272054
+        ]
+      ],
+      "zoneOrSort": -263
+    },
+    "finishers": [
+      {
+        "id": 272054,
+        "name": "Avatar of Saeyleenan",
+        "spawns": {
+          "493": [
+            [
+              44,
+              73.4
+            ],
+            [
+              44,
+              73.6
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 272054,
+        "name": "Avatar of Saeyleenan",
+        "spawns": {
+          "493": [
+            [
+              44,
+              73.4
+            ],
+            [
+              44,
+              73.6
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
   "races": [
     95,
     96
@@ -94,9 +201,9 @@
     {
       "npcId": 272054,
       "npcName": "Avatar of Saeyleenan",
-      "zoneId": 493,
       "x": 44.0,
       "y": 73.4,
+      "zoneId": 493,
       "zoneName": "Moonglade"
     }
   ]

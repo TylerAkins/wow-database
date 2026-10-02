@@ -31430,7 +31430,15 @@
           "zoneId": 12,
           "zoneName": "Elwynn Forest"
         },
-        "races": [],
+        "questLevel": 10,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -31628,14 +31636,119 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 91723,
-        "races": [],
+        "questLevel": 10,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                248242
+              ]
+            ],
+            "name": "Delicate Instruments",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Kill 8 Kobold Geomancers in Jasperlode Mine, then return to Hamish Bergwort in the Tower of Azora."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 10,
+            "reputationReward": [
+              [
+                72,
+                75
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 7,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                248242
+              ]
+            ],
+            "zoneOrSort": 12
+          },
+          "finishers": [
+            {
+              "id": 248242,
+              "name": "Hamish Bergwort",
+              "spawns": {
+                "12": [
+                  [
+                    65.01,
+                    69.79
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 248242,
+              "name": "Hamish Bergwort",
+              "spawns": {
+                "12": [
+                  [
+                    65.01,
+                    69.79
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 248242,
             "npcName": "Hamish Bergwort",
-            "zoneId": 12,
             "x": 65.0,
             "y": 69.8,
+            "zoneId": 12,
             "zoneName": "Elwynn Forest"
           }
         ]
@@ -31690,7 +31803,15 @@
           "zoneId": 12,
           "zoneName": "Elwynn Forest"
         },
-        "races": [],
+        "questLevel": 10,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -32032,14 +32153,119 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 91724,
-        "races": [],
+        "questLevel": 10,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                248242
+              ]
+            ],
+            "name": "Delicate Instruments",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Kill 6 Defias Rogue Wizards at Stone Cairn Lake, then return to Hamish Bergwort in the Tower of Azora."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 10,
+            "reputationReward": [
+              [
+                72,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 7,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                248242
+              ]
+            ],
+            "zoneOrSort": 12
+          },
+          "finishers": [
+            {
+              "id": 248242,
+              "name": "Hamish Bergwort",
+              "spawns": {
+                "12": [
+                  [
+                    65.01,
+                    69.79
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 248242,
+              "name": "Hamish Bergwort",
+              "spawns": {
+                "12": [
+                  [
+                    65.01,
+                    69.79
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 248242,
             "npcName": "Hamish Bergwort",
-            "zoneId": 12,
             "x": 65.0,
             "y": 69.8,
+            "zoneId": 12,
             "zoneName": "Elwynn Forest"
           }
         ]
@@ -32094,7 +32320,15 @@
           "zoneId": 12,
           "zoneName": "Elwynn Forest"
         },
-        "races": [],
+        "questLevel": 10,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -32197,14 +32431,143 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 91725,
-        "races": [],
+        "questLevel": 10,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                248248
+              ]
+            ],
+            "name": "Stolen Enchanting Supplies",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Collect 5 Stolen Enchanting Supplies from gnoll camps around Stone Cairn Lake, then return to Blixie Fitzwink near the Tower of Azora."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 10,
+            "reputationReward": [
+              [
+                72,
+                75
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 7,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                248248
+              ]
+            ],
+            "zoneOrSort": 12
+          },
+          "finishers": [
+            {
+              "id": 248248,
+              "name": "Blixie Fitzwink",
+              "spawns": {
+                "12": [
+                  [
+                    63.13,
+                    72.69
+                  ],
+                  [
+                    63.26,
+                    72.41
+                  ],
+                  [
+                    63.26,
+                    72.57
+                  ],
+                  [
+                    63.32,
+                    72.73
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 248248,
+              "name": "Blixie Fitzwink",
+              "spawns": {
+                "12": [
+                  [
+                    63.13,
+                    72.69
+                  ],
+                  [
+                    63.26,
+                    72.41
+                  ],
+                  [
+                    63.26,
+                    72.57
+                  ],
+                  [
+                    63.32,
+                    72.73
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 248248,
             "npcName": "Blixie Fitzwink",
-            "zoneId": 12,
             "x": 63.2,
             "y": 72.6,
+            "zoneId": 12,
             "zoneName": "Elwynn Forest"
           }
         ]
@@ -32259,7 +32622,15 @@
           "zoneId": 12,
           "zoneName": "Elwynn Forest"
         },
-        "races": [],
+        "questLevel": 10,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -32362,14 +32733,143 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 91732,
-        "races": [],
+        "questLevel": 10,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                248266
+              ]
+            ],
+            "name": "Good Steel",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Collect 4 Mining Tools from Jasperlode Mine, then return to Hagar Lowe in Eastvale Logging Camp."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 10,
+            "reputationReward": [
+              [
+                72,
+                75
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 7,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                248266
+              ]
+            ],
+            "zoneOrSort": 12
+          },
+          "finishers": [
+            {
+              "id": 248266,
+              "name": "Hagar Lowe",
+              "spawns": {
+                "12": [
+                  [
+                    82.37,
+                    63.77
+                  ],
+                  [
+                    82.44,
+                    63.94
+                  ],
+                  [
+                    82.55,
+                    63.82
+                  ],
+                  [
+                    82.57,
+                    63.77
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 248266,
+              "name": "Hagar Lowe",
+              "spawns": {
+                "12": [
+                  [
+                    82.37,
+                    63.77
+                  ],
+                  [
+                    82.44,
+                    63.94
+                  ],
+                  [
+                    82.55,
+                    63.82
+                  ],
+                  [
+                    82.57,
+                    63.77
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 248266,
             "npcName": "Hagar Lowe",
-            "zoneId": 12,
             "x": 82.4,
             "y": 63.8,
+            "zoneId": 12,
             "zoneName": "Elwynn Forest"
           }
         ]
@@ -32424,7 +32924,15 @@
           "zoneId": 12,
           "zoneName": "Elwynn Forest"
         },
-        "races": [],
+        "questLevel": 10,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -32527,14 +33035,159 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 91733,
-        "races": [],
+        "questLevel": 10,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                248265
+              ]
+            ],
+            "name": "Downstream",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Collect the Waterlogged Axe, Waterlogged Saw, and Waterlogged Toolbox that have washed downstream from Eastvale Logging Camp, then return to Ormin Pelford."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 10,
+            "reputationReward": [
+              [
+                72,
+                75
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 7,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                248265
+              ]
+            ],
+            "zoneOrSort": 12
+          },
+          "finishers": [
+            {
+              "id": 248265,
+              "name": "Ormin Pelford",
+              "spawns": {
+                "12": [
+                  [
+                    76.4,
+                    71.85
+                  ],
+                  [
+                    76.47,
+                    71.9
+                  ],
+                  [
+                    76.51,
+                    72.02
+                  ],
+                  [
+                    76.58,
+                    71.82
+                  ],
+                  [
+                    76.63,
+                    71.83
+                  ],
+                  [
+                    76.65,
+                    71.98
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 248265,
+              "name": "Ormin Pelford",
+              "spawns": {
+                "12": [
+                  [
+                    76.4,
+                    71.85
+                  ],
+                  [
+                    76.47,
+                    71.9
+                  ],
+                  [
+                    76.51,
+                    72.02
+                  ],
+                  [
+                    76.58,
+                    71.82
+                  ],
+                  [
+                    76.63,
+                    71.83
+                  ],
+                  [
+                    76.65,
+                    71.98
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 248265,
             "npcName": "Ormin Pelford",
-            "zoneId": 12,
             "x": 76.4,
             "y": 72.0,
+            "zoneId": 12,
             "zoneName": "Elwynn Forest"
           }
         ]
@@ -32580,7 +33233,14 @@
         },
         "name": "Applejack Still",
         "pinCategory": "normal",
-        "races": [],
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -32620,7 +33280,62 @@
           91738
         ],
         "questId": 91736,
-        "races": [],
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [],
+            "name": "Applejack Still",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 0,
+            "requiredClasses": 0,
+            "requiredLevel": 0,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [],
+            "zoneOrSort": 12
+          },
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          }
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": []
       }
     },
@@ -32668,7 +33383,15 @@
           "zoneId": 12,
           "zoneName": "Elwynn Forest"
         },
-        "races": [],
+        "questLevel": 10,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -32763,14 +33486,90 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 91738,
-        "races": [],
+        "questLevel": 10,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                955
+              ]
+            ],
+            "name": "An Apple Treat",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 10,
+            "requiredClasses": 0,
+            "requiredLevel": 7,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                955
+              ]
+            ],
+            "zoneOrSort": 12
+          },
+          "finishers": [
+            {
+              "id": 955,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 955,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 955,
             "npcName": "Sergeant De Vries",
-            "zoneId": 12,
             "x": 24.0,
             "y": 73.0,
+            "zoneId": 12,
             "zoneName": "Elwynn Forest"
           }
         ]
@@ -32817,7 +33616,15 @@
         "minLevel": 7,
         "name": "Croaky's Head",
         "pinCategory": "normal",
-        "races": [],
+        "questLevel": 10,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -32898,7 +33705,104 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 91740,
-        "races": [],
+        "questLevel": 10,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                248277
+              ]
+            ],
+            "name": "Croaky's Head",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Deliver Croaky's Head to Merell Ross at Ridgepoint Tower."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 10,
+            "reputationReward": [
+              [
+                72,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 7,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": {
+              "3": [
+                247826
+              ]
+            },
+            "zoneOrSort": 12
+          },
+          "finishers": [
+            {
+              "id": 248277,
+              "name": "Merell Ross",
+              "spawns": {
+                "12": [
+                  [
+                    84.65,
+                    79.3
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 247826,
+              "name": "Croaky's Head",
+              "type": "item"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": []
       }
     },
@@ -32938,7 +33842,15 @@
         "minLevel": 1,
         "name": "Nibbled-On Book",
         "pinCategory": "normal",
-        "races": [],
+        "questLevel": 2,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -33019,7 +33931,88 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 91741,
-        "races": [],
+        "questLevel": 2,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                951
+              ]
+            ],
+            "name": "Nibbled-On Book",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Return the book to Brother Paxton."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 2,
+            "requiredClasses": 0,
+            "requiredLevel": 1,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": {
+              "3": [
+                247834
+              ]
+            },
+            "zoneOrSort": 12
+          },
+          "finishers": [
+            {
+              "id": 951,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 247834,
+              "name": "Nibbled-On Book",
+              "type": "item"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": []
       }
     },
@@ -33072,7 +34065,15 @@
           "zoneId": 12,
           "zoneName": "Elwynn Forest"
         },
-        "races": [],
+        "questLevel": 2,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -33475,14 +34476,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 91743,
-        "races": [],
+        "questLevel": 2,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                951
+              ]
+            ],
+            "name": "Rascally Rodents",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Retrieve 8 Stolen Books from kobolds in Northshire Valley and return them to Brother Paxton."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 2,
+            "reputationReward": [
+              [
+                72,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 1,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                951
+              ]
+            ],
+            "zoneOrSort": 12
+          },
+          "finishers": [
+            {
+              "id": 951,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 951,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 951,
             "npcName": "Brother Paxton",
-            "zoneId": 12,
             "x": 49.4,
             "y": 40.4,
+            "zoneId": 12,
             "zoneName": "Elwynn Forest"
           }
         ]
@@ -33537,7 +34625,15 @@
           "zoneId": 12,
           "zoneName": "Elwynn Forest"
         },
-        "races": [],
+        "questLevel": 3,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -33640,14 +34736,114 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 91745,
-        "races": [],
+        "questLevel": 3,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                247226
+              ]
+            ],
+            "name": "Mining Consultant",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Talk to Kelsey Fargo outside the Echo Ridge Mine in Northshire Valley."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 3,
+            "reputationReward": [
+              [
+                72,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 1,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                951
+              ]
+            ],
+            "zoneOrSort": 12
+          },
+          "finishers": [
+            {
+              "id": 247226,
+              "name": "Kelsey Fargo",
+              "spawns": {
+                "12": [
+                  [
+                    47.19,
+                    32.22
+                  ],
+                  [
+                    47.19,
+                    32.32
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 951,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 951,
             "npcName": "Brother Paxton",
-            "zoneId": 12,
             "x": 49.4,
             "y": 40.4,
+            "zoneId": 12,
             "zoneName": "Elwynn Forest"
           }
         ]
@@ -33694,7 +34890,15 @@
         "minLevel": 7,
         "name": "Elmpaw's Head",
         "pinCategory": "normal",
-        "races": [],
+        "questLevel": 10,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -33771,7 +34975,95 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 91746,
-        "races": [],
+        "questLevel": 10,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                6306
+              ]
+            ],
+            "name": "Elmpaw's Head",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Deliver Elmpaw's Head to Helene Peltskinner near Goldshire."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 10,
+            "reputationReward": [
+              [
+                72,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 7,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": {
+              "3": [
+                247862
+              ]
+            },
+            "zoneOrSort": 12
+          },
+          "finishers": [
+            {
+              "id": 6306,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 247862,
+              "name": "Elmpaw's Head",
+              "type": "item"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": []
       }
     },
@@ -33824,7 +35116,15 @@
           "zoneId": 12,
           "zoneName": "Elwynn Forest"
         },
-        "races": [],
+        "questLevel": 7,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -35107,14 +36407,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 91751,
-        "races": [],
+        "questLevel": 7,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                6306
+              ]
+            ],
+            "name": "Rough Wolf Pelts",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Skin wolves around Elwynn Forest to obtain 7 Rough Wolf Pelts, then deliver them to Helene Peltskinner near Goldshire."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 7,
+            "reputationReward": [
+              [
+                72,
+                75
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 5,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                6306
+              ]
+            ],
+            "zoneOrSort": 12
+          },
+          "finishers": [
+            {
+              "id": 6306,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 6306,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 6306,
             "npcName": "Helene Peltskinner",
-            "zoneId": 12,
             "x": 46.2,
             "y": 62.2,
+            "zoneId": 12,
             "zoneName": "Elwynn Forest"
           }
         ]
@@ -35169,7 +36556,15 @@
           "zoneId": 12,
           "zoneName": "Elwynn Forest"
         },
-        "races": [],
+        "questLevel": 3,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -35296,14 +36691,114 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 91752,
-        "races": [],
+        "questLevel": 3,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                197
+              ]
+            ],
+            "name": "The Big Picture",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Retrieve a Sack of \"Picture\" Books from Shinyfinder Narf. Bring the sack to Marshal McBride just inside Northshire's Abbey."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 3,
+            "reputationReward": [
+              [
+                72,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 1,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                247226
+              ]
+            ],
+            "zoneOrSort": 12
+          },
+          "finishers": [
+            {
+              "id": 197,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 247226,
+              "name": "Kelsey Fargo",
+              "spawns": {
+                "12": [
+                  [
+                    47.19,
+                    32.22
+                  ],
+                  [
+                    47.19,
+                    32.32
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 247226,
             "npcName": "Kelsey Fargo",
-            "zoneId": 12,
             "x": 47.2,
             "y": 32.2,
+            "zoneId": 12,
             "zoneName": "Elwynn Forest"
           }
         ]
@@ -35358,7 +36853,15 @@
           "zoneId": 12,
           "zoneName": "Elwynn Forest"
         },
-        "races": [],
+        "questLevel": 7,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -35461,14 +36964,103 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 91753,
-        "races": [],
+        "questLevel": 7,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                11072
+              ]
+            ],
+            "name": "An Enchanting Lesson",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Kitta Firewind in the Tower of Azora wants you to collect 3 Luminous Residue.",
+              "",
+              "Luminous Residue can be obtained by disenchanting Crude Wax Effigies dropped by Kobold Geomancers."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 7,
+            "reputationReward": [
+              [
+                72,
+                75
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 5,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                11072
+              ]
+            ],
+            "zoneOrSort": 12
+          },
+          "finishers": [
+            {
+              "id": 11072,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 11072,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 11072,
             "npcName": "Kitta Firewind",
-            "zoneId": 12,
             "x": 64.8,
             "y": 70.6,
+            "zoneId": 12,
             "zoneName": "Elwynn Forest"
           }
         ]
@@ -35523,7 +37115,15 @@
           "zoneId": 12,
           "zoneName": "Elwynn Forest"
         },
-        "races": [],
+        "questLevel": 4,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -35626,14 +37226,122 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 91758,
-        "races": [],
+        "questLevel": 4,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                248415
+              ]
+            ],
+            "name": "Follow That Kobold!",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Speak to Tordrin Sternblade near the stable behind Northshire's Abbey."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 4,
+            "reputationReward": [
+              [
+                72,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 1,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                197
+              ]
+            ],
+            "zoneOrSort": 12
+          },
+          "finishers": [
+            {
+              "id": 248415,
+              "name": "Tordrin Sternblade",
+              "spawns": {
+                "12": [
+                  [
+                    51.13,
+                    40.67
+                  ],
+                  [
+                    51.19,
+                    40.66
+                  ],
+                  [
+                    51.19,
+                    40.74
+                  ],
+                  [
+                    51.21,
+                    40.9
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 197,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 197,
             "npcName": "Marshal McBride",
-            "zoneId": 12,
             "x": 48.8,
             "y": 41.6,
+            "zoneId": 12,
             "zoneName": "Elwynn Forest"
           }
         ]
@@ -35688,7 +37396,15 @@
           "zoneId": 12,
           "zoneName": "Elwynn Forest"
         },
-        "races": [],
+        "questLevel": 4,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -35787,14 +37503,122 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 91772,
-        "races": [],
+        "questLevel": 4,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                240
+              ]
+            ],
+            "name": "Shhh! We're Hunting Kobolds",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Follow the kobold tracks and report to Marshal Dughan in Goldshire with your findings and the Kobold Tracking Kit."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 4,
+            "reputationReward": [
+              [
+                72,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 1,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                248415
+              ]
+            ],
+            "zoneOrSort": 12
+          },
+          "finishers": [
+            {
+              "id": 240,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 248415,
+              "name": "Tordrin Sternblade",
+              "spawns": {
+                "12": [
+                  [
+                    51.13,
+                    40.67
+                  ],
+                  [
+                    51.19,
+                    40.66
+                  ],
+                  [
+                    51.19,
+                    40.74
+                  ],
+                  [
+                    51.21,
+                    40.9
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 248415,
             "npcName": "Tordrin Sternblade",
-            "zoneId": 12,
             "x": 51.2,
             "y": 40.8,
+            "zoneId": 12,
             "zoneName": "Elwynn Forest"
           }
         ]
@@ -35854,7 +37678,15 @@
           "zoneId": 12,
           "zoneName": "Elwynn Forest"
         },
-        "races": [],
+        "questLevel": 6,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -36277,14 +38109,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 91775,
-        "races": [],
+        "questLevel": 6,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                240
+              ]
+            ],
+            "name": "Book Return",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Find 6 Lost Books and \"Fun with Elementals\" and return them to Marshal Dughan."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 6,
+            "reputationReward": [
+              [
+                72,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 1,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                240
+              ]
+            ],
+            "zoneOrSort": 12
+          },
+          "finishers": [
+            {
+              "id": 240,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 240,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 240,
             "npcName": "Marshal Dughan",
-            "zoneId": 12,
             "x": 42.2,
             "y": 65.8,
+            "zoneId": 12,
             "zoneName": "Elwynn Forest"
           }
         ]
@@ -36360,7 +38279,15 @@
           "zoneId": 12,
           "zoneName": "Elwynn Forest"
         },
-        "races": [],
+        "questLevel": 7,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -36551,14 +38478,101 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 91777,
-        "races": [],
+        "questLevel": 7,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                951
+              ]
+            ],
+            "name": "Rare Books",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Recover \"Geomancy for Curious Young Wizards\" and \"Arcane Explainer: Magical Stuff in Simple Words\" and return them to Brother Paxton inside Northshire's Abbey."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 7,
+            "reputationReward": [
+              [
+                72,
+                100
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 1,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                240
+              ]
+            ],
+            "zoneOrSort": 12
+          },
+          "finishers": [
+            {
+              "id": 951,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 240,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 240,
             "npcName": "Marshal Dughan",
-            "zoneId": 12,
             "x": 42.2,
             "y": 65.8,
+            "zoneId": 12,
             "zoneName": "Elwynn Forest"
           }
         ]
@@ -36613,7 +38627,15 @@
           "zoneId": 12,
           "zoneName": "Elwynn Forest"
         },
-        "races": [],
+        "questLevel": 2,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -36720,14 +38742,110 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 92124,
-        "races": [],
+        "questLevel": 2,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                247229
+              ]
+            ],
+            "name": "Book Inventory",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Speak to Daniel, Brother Paxton's assistant in the library."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 2,
+            "reputationReward": [
+              [
+                72,
+                10
+              ]
+            ],
+            "requiredClasses": 0,
+            "requiredLevel": 1,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                951
+              ]
+            ],
+            "zoneOrSort": 12
+          },
+          "finishers": [
+            {
+              "id": 247229,
+              "name": "Daniel",
+              "spawns": {
+                "12": [
+                  [
+                    49.51,
+                    40.57
+                  ]
+                ]
+              },
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "reputationReward": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 951,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 951,
             "npcName": "Brother Paxton",
-            "zoneId": 12,
             "x": 49.4,
             "y": 40.4,
+            "zoneId": 12,
             "zoneName": "Elwynn Forest"
           }
         ]
@@ -36859,7 +38977,15 @@
           "zoneId": 12,
           "zoneName": "Elwynn Forest"
         },
-        "races": [],
+        "questLevel": 7,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -36962,14 +39088,94 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 99127,
-        "races": [],
+        "questLevel": 7,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                383
+              ]
+            ],
+            "name": "A Net Disaster",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Check the fishing traps in Crystal Lake."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 7,
+            "requiredClasses": 0,
+            "requiredLevel": 4,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                383
+              ]
+            ],
+            "zoneOrSort": 12
+          },
+          "finishers": [
+            {
+              "id": 383,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 383,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 383,
             "npcName": "Jason Mathers",
-            "zoneId": 12,
             "x": 47.4,
             "y": 62.2,
+            "zoneId": 12,
             "zoneName": "Elwynn Forest"
           }
         ]
@@ -37019,7 +39225,15 @@
           "zoneId": 12,
           "zoneName": "Elwynn Forest"
         },
-        "races": [],
+        "questLevel": 7,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -37464,14 +39678,94 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 99128,
-        "races": [],
+        "questLevel": 7,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                383
+              ]
+            ],
+            "name": "Slimy Menace",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Kill the murlocs at Crystal Lake."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 7,
+            "requiredClasses": 0,
+            "requiredLevel": 4,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                383
+              ]
+            ],
+            "zoneOrSort": 12
+          },
+          "finishers": [
+            {
+              "id": 383,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 383,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 383,
             "npcName": "Jason Mathers",
-            "zoneId": 12,
             "x": 47.4,
             "y": 62.2,
+            "zoneId": 12,
             "zoneName": "Elwynn Forest"
           }
         ]
@@ -37521,7 +39815,15 @@
           "zoneId": 12,
           "zoneName": "Elwynn Forest"
         },
-        "races": [],
+        "questLevel": 7,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -37624,14 +39926,94 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 99129,
-        "races": [],
+        "questLevel": 7,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                241
+              ]
+            ],
+            "name": "A Man About a Murloc",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Speak with Remy \"Two Times\" about Jason's murloc problems."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 7,
+            "requiredClasses": 0,
+            "requiredLevel": 4,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                383
+              ]
+            ],
+            "zoneOrSort": 12
+          },
+          "finishers": [
+            {
+              "id": 241,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 383,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 383,
             "npcName": "Jason Mathers",
-            "zoneId": 12,
             "x": 47.4,
             "y": 62.2,
+            "zoneId": 12,
             "zoneName": "Elwynn Forest"
           }
         ]
@@ -37681,7 +40063,15 @@
           "zoneId": 12,
           "zoneName": "Elwynn Forest"
         },
-        "races": [],
+        "questLevel": 7,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -38320,14 +40710,94 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 99130,
-        "races": [],
+        "questLevel": 7,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                241
+              ]
+            ],
+            "name": "An Enticing Offer",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Collect ingredients for murloc bait."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 7,
+            "requiredClasses": 0,
+            "requiredLevel": 4,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                241
+              ]
+            ],
+            "zoneOrSort": 12
+          },
+          "finishers": [
+            {
+              "id": 241,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 241,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 241,
             "npcName": "Remy \"Two Times\"",
-            "zoneId": 12,
             "x": 42.2,
             "y": 67.2,
+            "zoneId": 12,
             "zoneName": "Elwynn Forest"
           }
         ]
@@ -38377,7 +40847,15 @@
           "zoneId": 12,
           "zoneName": "Elwynn Forest"
         },
-        "races": [],
+        "questLevel": 7,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -38480,14 +40958,94 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 99131,
-        "races": [],
+        "questLevel": 7,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                383
+              ]
+            ],
+            "name": "Baited for Success",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Return to Jason Mathers."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 7,
+            "requiredClasses": 0,
+            "requiredLevel": 4,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                241
+              ]
+            ],
+            "zoneOrSort": 12
+          },
+          "finishers": [
+            {
+              "id": 383,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 241,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 241,
             "npcName": "Remy \"Two Times\"",
-            "zoneId": 12,
             "x": 42.2,
             "y": 67.2,
+            "zoneId": 12,
             "zoneName": "Elwynn Forest"
           }
         ]
@@ -38537,7 +41095,15 @@
           "zoneId": 12,
           "zoneName": "Elwynn Forest"
         },
-        "races": [],
+        "questLevel": 7,
+        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -38640,14 +41206,94 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 99143,
-        "races": [],
+        "questLevel": 7,
+        "questie": {
+          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "fields": {
+            "availableStartingWith": 0,
+            "availableUntilCompleted": 0,
+            "breadcrumbForQuestId": 0,
+            "disabledByQuest": 0,
+            "finishedBy": [
+              [
+                1651
+              ]
+            ],
+            "name": "Bottles and Baubles",
+            "nextQuestInChain": 0,
+            "objectives": [],
+            "objectivesText": [
+              "Collect 6 pieces of shiny junk from the nearby Murloc camp."
+            ],
+            "parentQuest": 0,
+            "questFlags": 0,
+            "questLevel": 7,
+            "requiredClasses": 0,
+            "requiredLevel": 4,
+            "requiredMaxLevel": 0,
+            "requiredRaces": 4294967373,
+            "requiredSpecialization": 0,
+            "requiredSpell": 0,
+            "sourceItemId": 0,
+            "specialFlags": 0,
+            "startedBy": [
+              [
+                1651
+              ]
+            ],
+            "zoneOrSort": 12
+          },
+          "finishers": [
+            {
+              "id": 1651,
+              "type": "npc"
+            }
+          ],
+          "provenance": {
+            "availableStartingWith": "QuestieDB",
+            "availableUntilCompleted": "QuestieDB",
+            "breadcrumbForQuestId": "QuestieDB",
+            "disabledByQuest": "QuestieDB",
+            "finishedBy": "QuestieDB",
+            "name": "QuestieDB",
+            "nextQuestInChain": "QuestieDB",
+            "objectives": "QuestieDB",
+            "objectivesText": "QuestieDB",
+            "parentQuest": "QuestieDB",
+            "questFlags": "QuestieDB",
+            "questLevel": "QuestieDB",
+            "requiredClasses": "QuestieDB",
+            "requiredLevel": "QuestieDB",
+            "requiredMaxLevel": "QuestieDB",
+            "requiredRaces": "QuestieDB",
+            "requiredSpecialization": "QuestieDB",
+            "requiredSpell": "QuestieDB",
+            "sourceItemId": "QuestieDB",
+            "specialFlags": "QuestieDB",
+            "startedBy": "QuestieDB",
+            "zoneOrSort": "QuestieDB"
+          },
+          "starters": [
+            {
+              "id": 1651,
+              "type": "npc"
+            }
+          ]
+        },
+        "races": [
+          1,
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 1651,
             "npcName": "Lee Brown",
-            "zoneId": 12,
             "x": 47.4,
             "y": 62.2,
+            "zoneId": 12,
             "zoneName": "Elwynn Forest"
           }
         ]

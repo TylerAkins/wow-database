@@ -117,16 +117,158 @@
     "typeId": 92850
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    92849
+  ],
   "questId": 92850,
-  "races": [],
+  "questLevel": 10,
+  "questie": {
+    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          253204,
+          253285
+        ]
+      ],
+      "name": "The Missing Scholar",
+      "nextQuestInChain": 99260,
+      "objectives": [],
+      "objectivesText": [
+        "Slay the Shriekling Matriarch in the Shriekling Den then return its head to Dondallion Whisperwind in Valanaar."
+      ],
+      "parentQuest": 0,
+      "preQuestSingle": [
+        92849
+      ],
+      "questFlags": 0,
+      "questLevel": 10,
+      "reputationReward": [
+        [
+          2779,
+          100
+        ]
+      ],
+      "requiredClasses": 0,
+      "requiredLevel": 4,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 4294967373,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          253284
+        ]
+      ],
+      "zoneOrSort": 16593
+    },
+    "finishers": [
+      {
+        "id": 253204,
+        "name": "Dondallion Whisperwind",
+        "spawns": {
+          "16593": [
+            [
+              66.27,
+              79.85
+            ]
+          ]
+        },
+        "type": "npc"
+      },
+      {
+        "id": 253285,
+        "name": "Fillion Flamebreeze",
+        "spawns": {
+          "16593": [
+            [
+              66.18,
+              79.87
+            ],
+            [
+              66.25,
+              79.82
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "objectivesText": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "reputationReward": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 253284,
+        "name": "Fillion Flamebreeze",
+        "spawns": {
+          "16593": [
+            [
+              52.04,
+              69.34
+            ],
+            [
+              52.06,
+              69.43
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ]
+  },
+  "races": [
+    1,
+    3,
+    4,
+    7,
+    95
+  ],
+  "requirements": {
+    "anyOf": [
+      92849
+    ],
+    "nextQuestInChain": 99260,
+    "preQuestSingle": [
+      92849
+    ]
+  },
   "startPins": [
     {
       "npcId": 253284,
       "npcName": "Fillion Flamebreeze",
-      "zoneId": 16593,
       "x": 52.0,
       "y": 69.4,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]
