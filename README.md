@@ -1,65 +1,67 @@
 # WoW Database
 
-Reusable World of Warcraft quest data gathered from Wowhead. The repository keeps canonical scrape artifacts separate from deterministic compiled outputs so consumers do not need to understand the scraper's storage layout.
+Published Forever quest data for other repositories to probe. QuestieDB is the only source. The scheduled workflow refreshes the export. You do not run a scraper locally.
 
-The initial dataset contains the **Forever** game version and was migrated from [`TylerAkins/forever-quest-markers`](https://github.com/TylerAkins/forever-quest-markers) at commit `43f22e73ff3bf19f564d20d1e6846b0d57dbd3de`.
+`schemaVersion` is 2. The previous Wowhead tree is gone, including `data/forever/raw`, `data/forever/compiled`, `data/forever/questie`, and `data/forever/reports`. Start at `export/forever/manifest.json`.
 
 ## Layout
 
 | Path | Purpose |
-|------|---------|
-| `data/forever/raw/` | Canonical list snapshots, indexes, quest details, and object/item records |
-| `data/forever/questie/quests.json` | Pinned effective QuestieDB records for quests first seen in Forever |
-| `data/forever/compiled/zones/` | Consumer-ready quest bundles grouped by Wowhead zone catalog |
-| `data/forever/compiled/collections/` | Zephras Isle and New in Forever quest collections |
-| `tools/fetch_quest_pages.py` | Local/manual Wowhead ingestion and synchronization CLI |
-| `tools/compile_zone_files.py` | Deterministic zone compiler and drift checker |
-| `tools/quest_db/` | Parsing, classification, synchronization, and compilation modules |
+| --- | --- |
+| `export/forever/manifest.json` | Probe document: QuestieDB commit, quest count, shard paths, and sha256 |
+| `export/forever/quests/` | Quest bodies, at most 500 quests per file |
+| `export/forever/indexes/zones.json` | `zoneOrSort` to quest ids |
+| `export/forever/indexes/starters.json` | `npc\|id`, `object\|id`, or `item\|id` to quests that start there |
+| `export/forever/indexes/finishers.json` | Same key shape for turn-in providers |
+| `export/forever/indexes/chains.json` | Prerequisite and follow-up ids |
 
-## Compiled zone files
+Each quest is stored once. `places` says where it is available, where it turns in, and where its objectives are. Coordinates are `[zoneId, x, y]`. `preQuestGroup` means every listed quest is required. `preQuestSingle` means any one is enough. `questType` carries repeatable, event, daily, weekly, monthly, raid, dungeon, battleground, profession, and sort.
 
-Generate every zone:
+## Probe
 
-```bash
-python3 tools/compile_zone_files.py
+Fetch the manifest first. Use its shard list and sha256 values to decide what else to download.
+
+Public checkout of the manifest and one shard:
+
+```yaml
+- uses: actions/checkout@v7.0.1
+  with:
+    repository: TylerAkins/wow-database
+    sparse-checkout: |
+      export/forever/manifest.json
+      export/forever/quests/0001.json
+    sparse-checkout-cone-mode: false
 ```
 
-Generate only Durotar while preserving the other compiled files:
+Private checkout uses a fine-grained personal access token with contents read on this repository, stored as a secret in the consumer repository:
 
-```bash
-python3 tools/compile_zone_files.py --zone durotar
+```yaml
+- uses: actions/checkout@v7.0.1
+  with:
+    repository: TylerAkins/wow-database
+    token: ${{ secrets.WOW_DATABASE_TOKEN }}
+    sparse-checkout: |
+      export/forever/manifest.json
+    sparse-checkout-cone-mode: false
 ```
 
-Verify that committed output is current without writing files:
+`raw.githubusercontent.com` does not serve a private repository without that token. This workflow does not change repository visibility.
 
-```bash
-python3 tools/compile_zone_files.py --check
-```
+## Updates
 
-Each file contains source metadata and a `quests` object keyed by quest ID. Every quest retains its complete global `index` record and full `detail` record. Zone membership comes only from the corresponding Wowhead zone catalog, not from coordinate inference.
+[`.github/workflows/update-questiedb.yml`](.github/workflows/update-questiedb.yml) runs every day at 11:00 UTC (5:00am CST, 6:00am CDT) and can be started with `workflow_dispatch`. It checks out QuestieDB `master`, exports the Forever flavor with LuaJIT, compiles `export/forever`, and opens a pull request when the tree changes. The pull request records the manifest commit and quest count from before the compile.
 
-## QuestieDB Forever overlay
+Before the first scheduled pull request can open, the repository needs:
 
-The 820 quests with `list.firstseenpatch == 16001` include all 114 Zephras Isle quests. Their effective QuestieDB fields are pinned in `data/forever/questie/quests.json` at commit `9d39232dab48e35811a7cc02473c2f4e42b62ab6`. The importer keeps the original Wowhead `list` and quest-page markup intact, puts every available QuestieDB quest field and starter/finisher spawn in `detail.questie`, and updates matching effective index/detail fields. QuestieDB has no record for 68 of the 820 IDs; those retain their existing data.
+1. Settings, Actions, General, Workflow permissions: Read and write permissions.
+2. The same page: Allow GitHub Actions to create and approve pull requests.
 
-QuestieDB returns `0` for missing numeric fields on a known quest. The snapshot retains those zeros for an exact API record; the importer does not use them to erase an existing nonzero level or eligibility restriction.
-
-`detail.requirements.allOf` holds grouped prerequisites. `detail.requirements.anyOf` holds alternative prerequisites. The legacy `prerequisiteQuestIds` field is updated only when it can express the QuestieDB requirement without losing that distinction. The [field-level CSV](data/forever/reports/questie-forever-changes.csv) records old and new values plus likely ATT fields; the [summary](data/forever/reports/questie-forever-summary.md) lists missing records and QuestieDB verification comments. These are review inputs, not edits to ATT.
-
-Reapply the committed snapshot after a Wowhead refresh:
-
-```bash
-python3 tools/import_questie.py --dry-run
-python3 tools/import_questie.py
-python3 tools/compile_zone_files.py
-```
-
-To reproduce the snapshot from a checkout at the pinned QuestieDB commit, run `python3 tools/import_questie.py --questiedb /path/to/QuestieDB`. This requires LuaJIT or another Lua 5.1-compatible interpreter. Normal snapshot reapplication and compilation use only Python's standard library.
+The workflow creates the pull request. It does not approve it.
 
 ## Development
 
-See [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md) for tests, refresh commands, invariants, and the known quest-detail gap.
+See [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md) for the optional local commands.
 
 ## License and attribution
 
-The repository's original code, documentation, schema, and database compilation are proprietary and **All Rights Reserved**. No permission is granted to use, copy, modify, or redistribute them. Wowhead, Blizzard, and other third-party data retain their respective ownership; see [LICENSE](LICENSE) and [ATTRIBUTION.md](ATTRIBUTION.md).
+The schema, compiler, and arrangement are proprietary. See [LICENSE](LICENSE) and [ATTRIBUTION.md](ATTRIBUTION.md).

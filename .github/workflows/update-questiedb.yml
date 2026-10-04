@@ -1,0 +1,122 @@
+name: Update QuestieDB
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 11 * * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update-questiedb
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7.0.1
+        with:
+          fetch-depth: 0
+
+      - name: Set up Go
+        uses: actions/setup-go@v7.0.0
+        with:
+          go-version-file: go.mod
+
+      - name: Checkout QuestieDB
+        uses: actions/checkout@v7.0.1
+        with:
+          repository: Questie/QuestieDB
+          ref: master
+          path: .cache/QuestieDB
+          fetch-depth: 1
+
+      - name: Install LuaJIT
+        run: sudo apt-get update && sudo apt-get install -y luajit
+
+      - name: Read previous manifest
+        id: before
+        run: |
+          set -euo pipefail
+          if [[ -f export/forever/manifest.json ]]; then
+            echo "old_sha=$(awk -F'"' '/"commit":/{print $4; exit}' export/forever/manifest.json)" >> "$GITHUB_OUTPUT"
+            echo "old_quests=$(awk -F'[:, ]+' '/"questCount":/{print $3; exit}' export/forever/manifest.json)" >> "$GITHUB_OUTPUT"
+          else
+            echo "old_sha=none" >> "$GITHUB_OUTPUT"
+            echo "old_quests=0" >> "$GITHUB_OUTPUT"
+          fi
+          echo "sha=$(git -C .cache/QuestieDB rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+          echo "generated_at=$(git -C .cache/QuestieDB log -1 --format=%cI)" >> "$GITHUB_OUTPUT"
+
+      - name: Export and compile
+        run: |
+          set -euo pipefail
+          echo "QuestieDB ${{ steps.before.outputs.sha }}"
+          (
+            cd .cache/QuestieDB
+            luajit "$GITHUB_WORKSPACE/tools/export_questiedb.lua" \
+              "${{ steps.before.outputs.sha }}" \
+              "${{ steps.before.outputs.generated_at }}" \
+              > "${RUNNER_TEMP}/quests.jsonl"
+          )
+          go run ./cmd/compile --dump "${RUNNER_TEMP}/quests.jsonl" --out export/forever
+          go test ./...
+
+      - name: Detect export changes
+        id: changes
+        run: |
+          set -euo pipefail
+          if [[ -z "$(git status --porcelain -- export/forever)" ]]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+          echo "quests=$(awk -F'[:, ]+' '/"questCount":/{print $3; exit}' export/forever/manifest.json)" >> "$GITHUB_OUTPUT"
+
+      - name: Close stale database pull request
+        if: steps.changes.outputs.changed == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          PR_NUMBER="$(gh pr list \
+            --repo "$GITHUB_REPOSITORY" \
+            --base main \
+            --head questiedb-update \
+            --state open \
+            --limit 1 \
+            --json number \
+            --jq '.[0].number // empty')"
+          if [[ -z "$PR_NUMBER" ]]; then
+            echo "No stale QuestieDB pull request is open."
+            exit 0
+          fi
+          gh pr close "$PR_NUMBER" \
+            --repo "$GITHUB_REPOSITORY" \
+            --delete-branch \
+            --comment "Closing automatically because the regenerated Forever export now matches main."
+
+      - name: Create pull request
+        if: steps.changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v8.1.1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: questiedb-update
+          delete-branch: true
+          commit-message: "chore: update QuestieDB Forever export"
+          title: "chore: update QuestieDB Forever export"
+          assignees: TylerAkins
+          add-paths: export/forever
+          body: |
+            Automated regeneration of `export/forever` from [QuestieDB](https://github.com/Questie/QuestieDB) Forever data.
+
+            | | SHA | Quests |
+            |---|---|---|
+            | Previous | `${{ steps.before.outputs.old_sha }}` | ${{ steps.before.outputs.old_quests }} |
+            | Updated | `${{ steps.before.outputs.sha }}` | ${{ steps.changes.outputs.quests }} |
+
+            The previous SHA and quest count were read from `export/forever/manifest.json` before this compile. This workflow does not change repository visibility.
