@@ -184,7 +184,7 @@
   "questId": 91723,
   "questLevel": 10,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -197,7 +197,14 @@
       ],
       "name": "Delicate Instruments",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": [
+        [
+          {
+            "1": 476,
+            "3": 0
+          }
+        ]
+      ],
       "objectivesText": [
         "Kill 8 Kobold Geomancers in Jasperlode Mine, then return to Hamish Bergwort in the Tower of Azora."
       ],

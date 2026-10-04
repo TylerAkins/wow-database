@@ -82,7 +82,7 @@
   "questId": 94485,
   "questLevel": 12,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -95,13 +95,21 @@
       ],
       "name": "Tears of the Lady",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "3": [
+          {
+            "1": 265105,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Collect 8 Lady's Tear Moss."
       ],
       "parentQuest": 0,
       "preQuestSingle": [
-        94484
+        94484,
+        94493
       ],
       "questFlags": 0,
       "questLevel": 12,
@@ -194,10 +202,12 @@
   "races": [],
   "requirements": {
     "anyOf": [
-      94484
+      94484,
+      94493
     ],
     "preQuestSingle": [
-      94484
+      94484,
+      94493
     ]
   },
   "startPins": [

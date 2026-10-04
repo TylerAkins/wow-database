@@ -91,7 +91,7 @@
   "questId": 94500,
   "questLevel": 23,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -104,7 +104,14 @@
       ],
       "name": "Call of Water",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "3": [
+          {
+            "1": 265773,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Fill the Unfilled Blue Waterskin at the waters of Astranaar in Ashenvale and return to Hervdana Saegrund in the Wetlands."
       ],
@@ -117,7 +124,7 @@
       "requiredRaces": 4294967373,
       "requiredSpecialization": 0,
       "requiredSpell": 0,
-      "sourceItemId": 0,
+      "sourceItemId": 265772,
       "specialFlags": 0,
       "startedBy": [
         [

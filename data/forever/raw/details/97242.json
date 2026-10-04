@@ -89,7 +89,7 @@
   "questId": 97242,
   "questLevel": 15,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -102,7 +102,18 @@
       ],
       "name": "Yelmak's Medley",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "3": [
+          {
+            "1": 277278,
+            "3": 0
+          },
+          {
+            "1": 277279,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Take some cuttings from the Cattails and Speargrass growing around the water flows in the Valley of Honor and return to Kor'geld in Yelmak's Alchemy and Potions"
       ],

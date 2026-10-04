@@ -5459,7 +5459,7 @@
   "questId": 99050,
   "questLevel": 10,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -5472,7 +5472,18 @@
       ],
       "name": "The Great Tree Provides",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "3": [
+          {
+            "1": 286017,
+            "3": 0
+          },
+          {
+            "1": 159,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Collect 6 Dewy Lasher Fronds, an Empty Vial, and a Refreshing Spring Water for Byancie in Dolanaar."
       ],

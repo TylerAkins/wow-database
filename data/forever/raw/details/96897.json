@@ -255,7 +255,7 @@
   "questId": 96897,
   "questLevel": 13,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -268,7 +268,22 @@
       ],
       "name": "The Cult of the Damned",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": [
+        [
+          {
+            "1": 267006,
+            "3": 0
+          },
+          {
+            "1": 275437,
+            "3": 0
+          },
+          {
+            "1": 1547,
+            "3": 0
+          }
+        ]
+      ],
       "objectivesText": [
         "Kill 8 Dark Neophytes and 8 Dark Enforcers in Tirisfal Glades."
       ],

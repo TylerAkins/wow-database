@@ -81,7 +81,7 @@
   "questId": 98197,
   "questLevel": 22,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -94,7 +94,18 @@
       ],
       "name": "Spoils of War",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "3": [
+          {
+            "1": 279821,
+            "3": 0
+          },
+          {
+            "1": 279822,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Recover 6 Khaz Modan Timber and 30 Khaz Modan Iron from Menethil Harbor for Valstag Ironjaw."
       ],

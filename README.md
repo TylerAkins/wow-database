@@ -40,7 +40,7 @@ Each file contains source metadata and a `quests` object keyed by quest ID. Ever
 
 ## QuestieDB Forever overlay
 
-The 820 quests with `list.firstseenpatch == 16001` include all 114 Zephras Isle quests. Their effective QuestieDB fields are pinned in `data/forever/questie/quests.json` at commit `cac1eff815923f896d082764d023cf812454a023`. The importer keeps the original Wowhead `list` and quest-page markup intact, puts every available QuestieDB quest field and starter/finisher spawn in `detail.questie`, and updates matching effective index/detail fields. QuestieDB has no record for 85 of the 820 IDs; those retain their existing data.
+The 820 quests with `list.firstseenpatch == 16001` include all 114 Zephras Isle quests. Their effective QuestieDB fields are pinned in `data/forever/questie/quests.json` at commit `9d39232dab48e35811a7cc02473c2f4e42b62ab6`. The importer keeps the original Wowhead `list` and quest-page markup intact, puts every available QuestieDB quest field and starter/finisher spawn in `detail.questie`, and updates matching effective index/detail fields. QuestieDB has no record for 68 of the 820 IDs; those retain their existing data.
 
 QuestieDB returns `0` for missing numeric fields on a known quest. The snapshot retains those zeros for an exact API record; the importer does not use them to erase an existing nonzero level or eligibility restriction.
 

@@ -113,11 +113,13 @@
     "typeId": 94947
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    94946
+  ],
   "questId": 94947,
   "questLevel": 13,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -129,12 +131,15 @@
         ]
       ],
       "name": "Welcome to Azeroth",
-      "nextQuestInChain": 0,
+      "nextQuestInChain": 93963,
       "objectives": [],
       "objectivesText": [
         "Take the Skyborne Portal to Stormwind and report to Bolvar Fordragon in Stormwind Keep."
       ],
       "parentQuest": 0,
+      "preQuestSingle": [
+        94946
+      ],
       "questFlags": 0,
       "questLevel": 13,
       "reputationReward": [
@@ -175,6 +180,7 @@
       "objectives": "QuestieDB",
       "objectivesText": "QuestieDB",
       "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
       "questFlags": "QuestieDB",
       "questLevel": "QuestieDB",
       "reputationReward": "QuestieDB",
@@ -220,6 +226,15 @@
   "races": [
     95
   ],
+  "requirements": {
+    "anyOf": [
+      94946
+    ],
+    "nextQuestInChain": 93963,
+    "preQuestSingle": [
+      94946
+    ]
+  },
   "startPins": [
     {
       "npcId": 259084,

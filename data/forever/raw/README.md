@@ -16,6 +16,6 @@ Canonical scrape artifacts for the Forever version. These files are the inputs t
 | `attunement_quest_ids.json` | Legacy attunement classification seed retained with the snapshot |
 | `pin_categories.json` | Pin classification reference |
 
-The snapshot contains 5,058 indexed quests and 5,057 detail files. Quest `7507` is the known non-zone gap because its old Wowhead name redirect-loops. Every quest in the 59 zone catalogs has a detail record.
+The snapshot contains 5,058 indexed quests and 5,058 detail files. Every quest in the 59 zone catalogs has a detail record.
 
 See `docs/quest-database.md` for refresh commands and the complete source list.

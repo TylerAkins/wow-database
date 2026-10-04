@@ -1574,7 +1574,7 @@
   "questId": 93165,
   "questLevel": 13,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -1587,13 +1587,21 @@
       ],
       "name": "Mercy Falls on Deaf Ears",
       "nextQuestInChain": 93459,
-      "objectives": [],
+      "objectives": {
+        "3": [
+          {
+            "1": 258771,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Collect 10 Al'Aketh Cultist's Ears from the Al'Aketh cultists in Shadowgale Forest, the Shine of Akir, or Gustberry Lowlands."
       ],
       "parentQuest": 0,
       "preQuestSingle": [
-        94484
+        94484,
+        94493
       ],
       "questFlags": 0,
       "questLevel": 13,
@@ -1686,11 +1694,13 @@
   "races": [],
   "requirements": {
     "anyOf": [
-      94484
+      94484,
+      94493
     ],
     "nextQuestInChain": 93459,
     "preQuestSingle": [
-      94484
+      94484,
+      94493
     ]
   },
   "startPins": [

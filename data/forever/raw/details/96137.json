@@ -699,7 +699,7 @@
   "questId": 96137,
   "questLevel": 24,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -708,7 +708,18 @@
       "finishedBy": [],
       "name": "Ira's Dagger",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": [
+        [
+          {
+            "1": 923,
+            "3": 0
+          },
+          {
+            "1": 628,
+            "3": 0
+          }
+        ]
+      ],
       "objectivesText": [
         "Defeat 10 Young Black Ravagers and 7 Black Ravagers then return to Sirra Von'Indi in Darkshire for more information."
       ],
@@ -721,7 +732,7 @@
       "requiredRaces": 4294967373,
       "requiredSpecialization": 0,
       "requiredSpell": 0,
-      "sourceItemId": 0,
+      "sourceItemId": 281143,
       "specialFlags": 0,
       "startedBy": {
         "3": [

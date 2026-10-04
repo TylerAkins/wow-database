@@ -98,7 +98,7 @@
   "questId": 93318,
   "questLevel": 9,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -111,7 +111,14 @@
       ],
       "name": "WANTED: Vulgara the Insatiable",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "3": [
+          {
+            "1": 257942,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Kill Vulgara the Insatiable in the Shen'dar Highlands and bring her head to Danarii Bellowveil."
       ],

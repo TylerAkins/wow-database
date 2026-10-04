@@ -959,7 +959,7 @@
   "questId": 99080,
   "questLevel": 9,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -972,7 +972,24 @@
       ],
       "name": "Drive Them Out",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "1": [
+          {
+            "1": 2967,
+            "3": 0
+          },
+          {
+            "1": 2968,
+            "3": 0
+          }
+        ],
+        "3": [
+          {
+            "1": 286075,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Kill 6 Galak Centaurs, 4 Galak Outrunners, and bring the head of Herak the Pillager to Baine Bloodhoof."
       ],

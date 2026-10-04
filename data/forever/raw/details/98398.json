@@ -63,13 +63,17 @@
   "questId": 98398,
   "questLevel": 12,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
       "breadcrumbForQuestId": 0,
       "disabledByQuest": 0,
-      "finishedBy": [],
+      "finishedBy": {
+        "2": [
+          673378
+        ]
+      },
       "name": "The Oracle Tree",
       "nextQuestInChain": 0,
       "objectives": [],
@@ -94,6 +98,25 @@
       ],
       "zoneOrSort": 141
     },
+    "finishers": [
+      {
+        "id": 673378,
+        "name": "Oracle Tree Bark",
+        "spawns": {
+          "141": [
+            [
+              36.99,
+              33.97
+            ],
+            [
+              37.03,
+              34.1
+            ]
+          ]
+        },
+        "type": "object"
+      }
+    ],
     "provenance": {
       "availableStartingWith": "QuestieDB",
       "availableUntilCompleted": "QuestieDB",

@@ -80,12 +80,15 @@
   "questId": 94484,
   "questLevel": 11,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
       "breadcrumbForQuestId": 0,
       "disabledByQuest": 0,
+      "exclusiveTo": [
+        94493
+      ],
       "finishedBy": [
         [
           257944
@@ -145,6 +148,7 @@
       "availableUntilCompleted": "QuestieDB",
       "breadcrumbForQuestId": "QuestieDB",
       "disabledByQuest": "QuestieDB",
+      "exclusiveTo": "QuestieDB",
       "finishedBy": "QuestieDB",
       "name": "QuestieDB",
       "nextQuestInChain": "QuestieDB",
@@ -186,6 +190,11 @@
     ]
   },
   "races": [],
+  "requirements": {
+    "exclusiveTo": [
+      94493
+    ]
+  },
   "startPins": [
     {
       "npcId": 252359,

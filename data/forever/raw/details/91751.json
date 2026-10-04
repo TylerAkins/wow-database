@@ -1269,7 +1269,7 @@
   "questId": 91751,
   "questLevel": 7,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -1282,7 +1282,14 @@
       ],
       "name": "Rough Wolf Pelts",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "3": [
+          {
+            "1": 247877,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Skin wolves around Elwynn Forest to obtain 7 Rough Wolf Pelts, then deliver them to Helene Peltskinner near Goldshire."
       ],

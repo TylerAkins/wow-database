@@ -253,7 +253,7 @@
   "questId": 96875,
   "questLevel": 10,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -266,7 +266,14 @@
       ],
       "name": "Beasts of Thunder Ridge",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "3": [
+          {
+            "1": 275720,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Kamari in Orgrimmar wants you to collect 5 Rough Lizard Hide from beasts in Thunder Ridge, along with 2 Cured Light Hides."
       ],

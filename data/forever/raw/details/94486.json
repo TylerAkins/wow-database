@@ -338,7 +338,7 @@
   "questId": 94486,
   "questLevel": 11,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -351,13 +351,21 @@
       ],
       "name": "Feathers for Binding",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "3": [
+          {
+            "1": 265140,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Collect 20 feathers from the Shadowgale Shrieklings in Shadowgale Forest."
       ],
       "parentQuest": 0,
       "preQuestSingle": [
-        94484
+        94484,
+        94493
       ],
       "questFlags": 0,
       "questLevel": 11,
@@ -450,10 +458,12 @@
   "races": [],
   "requirements": {
     "anyOf": [
-      94484
+      94484,
+      94493
     ],
     "preQuestSingle": [
-      94484
+      94484,
+      94493
     ]
   },
   "startPins": [

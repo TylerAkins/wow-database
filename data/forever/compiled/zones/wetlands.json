@@ -13332,7 +13332,7 @@
         "name": "Return the Statuette",
         "pinCategory": "normal",
         "questLevel": 25,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -13380,7 +13380,7 @@
         "questId": 98189,
         "questLevel": 25,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -13402,7 +13402,7 @@
             "requiredRaces": 4294967373,
             "requiredSpecialization": 0,
             "requiredSpell": 0,
-            "sourceItemId": 0,
+            "sourceItemId": 279589,
             "specialFlags": 0,
             "startedBy": [],
             "zoneOrSort": 11
@@ -13492,7 +13492,7 @@
           "zoneName": "Wetlands"
         },
         "questLevel": 22,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -13596,7 +13596,7 @@
         "questId": 98197,
         "questLevel": 22,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -13609,7 +13609,18 @@
             ],
             "name": "Spoils of War",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 279821,
+                  "3": 0
+                },
+                {
+                  "1": 279822,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Recover 6 Khaz Modan Timber and 30 Khaz Modan Iron from Menethil Harbor for Valstag Ironjaw."
             ],
@@ -13823,7 +13834,7 @@
         "name": "Crimson Crate Delivery",
         "pinCategory": "normal",
         "questLevel": 29,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -13871,7 +13882,7 @@
         "questId": 98240,
         "questLevel": 29,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -13899,7 +13910,7 @@
             "requiredRaces": 4294967373,
             "requiredSpecialization": 0,
             "requiredSpell": 0,
-            "sourceItemId": 0,
+            "sourceItemId": 280099,
             "specialFlags": 0,
             "startedBy": [],
             "zoneOrSort": 11
@@ -13982,7 +13993,7 @@
         "name": "Razormaw Needling",
         "pinCategory": "normal",
         "questLevel": 29,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -14554,7 +14565,7 @@
         "questId": 98245,
         "questLevel": 29,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -14563,7 +14574,14 @@
             "finishedBy": [],
             "name": "Razormaw Needling",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 280103,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Collect 10 Razormaw Incisors for Howin Kindfeather."
             ],
@@ -14665,7 +14683,7 @@
         "name": "Trying Times",
         "pinCategory": "normal",
         "questLevel": 29,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -14713,7 +14731,7 @@
         "questId": 98246,
         "questLevel": 29,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -14722,7 +14740,14 @@
             "finishedBy": [],
             "name": "Trying Times",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 280132,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Gather 12 Perfect Razormaw Eggs for Howin Kindfeather."
             ],
@@ -14824,7 +14849,7 @@
         "name": "Alchemical Hazards",
         "pinCategory": "normal",
         "questLevel": 22,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -15196,7 +15221,7 @@
         "questId": 98282,
         "questLevel": 22,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -15205,7 +15230,14 @@
             "finishedBy": [],
             "name": "Alchemical Hazards",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 280319,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Collect an Unruptured Stalker Gland from Thelgen Rock for Caitlin Grassman in Menethil Harbor."
             ],
@@ -15220,7 +15252,11 @@
             "requiredSpell": 0,
             "sourceItemId": 0,
             "specialFlags": 0,
-            "startedBy": [],
+            "startedBy": [
+              [
+                1480
+              ]
+            ],
             "zoneOrSort": 11
           },
           "provenance": {
@@ -15246,7 +15282,13 @@
             "specialFlags": "QuestieDB",
             "startedBy": "QuestieDB",
             "zoneOrSort": "QuestieDB"
-          }
+          },
+          "starters": [
+            {
+              "id": 1480,
+              "type": "npc"
+            }
+          ]
         },
         "races": [
           1,
@@ -15300,7 +15342,7 @@
         "name": "Forced Disarmament",
         "pinCategory": "normal",
         "questLevel": 30,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -15348,7 +15390,7 @@
         "questId": 98293,
         "questLevel": 30,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -15357,7 +15399,14 @@
             "finishedBy": [],
             "name": "Forced Disarmament",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 280369,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Collect 30 Dragonmaw Armaments in Dragonmaw Retreat, then bring them to Captain Stoutfist in Menethil Keep."
             ],
@@ -15467,7 +15516,7 @@
           "zoneName": "Hillsbrad Foothills"
         },
         "questLevel": 21,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -15607,7 +15656,7 @@
         "questId": 98459,
         "questLevel": 21,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -15639,7 +15688,7 @@
             "requiredRaces": 4294967373,
             "requiredSpecialization": 0,
             "requiredSpell": 0,
-            "sourceItemId": 0,
+            "sourceItemId": 281240,
             "specialFlags": 0,
             "startedBy": [
               [
@@ -15759,7 +15808,7 @@
           "zoneName": "Darkshore"
         },
         "questLevel": 21,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -15883,7 +15932,7 @@
         "questId": 98461,
         "questLevel": 21,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -15909,7 +15958,7 @@
             "requiredRaces": 4294967373,
             "requiredSpecialization": 0,
             "requiredSpell": 0,
-            "sourceItemId": 0,
+            "sourceItemId": 281243,
             "specialFlags": 0,
             "startedBy": [
               [

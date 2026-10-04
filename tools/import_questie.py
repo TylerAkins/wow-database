@@ -20,7 +20,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 from quest_db.questie_import import apply_questie_record, build_collections, json_cell
 from quest_db.store import write_json
 
-COMMIT = "cac1eff815923f896d082764d023cf812454a023"
+COMMIT = "9d39232dab48e35811a7cc02473c2f4e42b62ab6"
 RAW = ROOT / "data" / "forever" / "raw"
 SNAPSHOT = ROOT / "data" / "forever" / "questie" / "quests.json"
 COLLECTIONS = ROOT / "data" / "forever" / "compiled" / "collections"

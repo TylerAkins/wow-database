@@ -25,7 +25,7 @@
   "questId": 92109,
   "questLevel": 10,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -38,7 +38,22 @@
       ],
       "name": "My First Alchemy Set",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "3": [
+          {
+            "1": 3371,
+            "3": 0
+          },
+          {
+            "1": 2447,
+            "3": 0
+          },
+          {
+            "1": 765,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Gather 5 Empty Vials, 5 Silverleaf, and 5 Peacebloom to the young, aspiring alchemist inside the barn of Moonbrook in Westfall."
       ],

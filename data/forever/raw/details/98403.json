@@ -240,7 +240,7 @@
   "questId": 98403,
   "questLevel": 12,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -253,7 +253,20 @@
       ],
       "name": "Twisted Hatred",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "1": [
+          {
+            "1": 272096,
+            "3": 0
+          }
+        ],
+        "3": [
+          {
+            "1": 281023,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Kill 8 Befouled Webwoods and bring Xethorr the Wicked's Mature Fel Moss to Tallonkai Swiftroot in Dolanaar."
       ],

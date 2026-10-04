@@ -143,14 +143,106 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 78142,
+  "questie": {
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          211022
+        ]
+      ],
+      "name": "Bewitchments and Glamours",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 0,
+      "requiredClasses": 0,
+      "requiredLevel": 0,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 0,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [],
+      "zoneOrSort": 0
+    },
+    "finishers": [
+      {
+        "id": 211022,
+        "name": "Owen Thadd",
+        "spawns": {
+          "1497": [
+            [
+              73.59,
+              32.92
+            ],
+            [
+              73.66,
+              33.22
+            ],
+            [
+              73.67,
+              32.9
+            ],
+            [
+              73.67,
+              32.96
+            ],
+            [
+              73.68,
+              33.03
+            ],
+            [
+              73.68,
+              33.09
+            ],
+            [
+              73.79,
+              33.18
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    }
+  },
   "races": [],
   "startPins": [
     {
       "npcId": 211033,
       "npcName": "Garion Wendell",
-      "zoneId": 1519,
       "x": 37.8,
       "y": 80.2,
+      "zoneId": 1519,
       "zoneName": "Stormwind City"
     }
   ]

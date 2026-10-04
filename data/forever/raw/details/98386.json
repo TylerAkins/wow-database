@@ -539,7 +539,7 @@
   "questId": 98386,
   "questLevel": 21,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -552,7 +552,14 @@
       ],
       "name": "Alther's Mill",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": [
+        [
+          {
+            "1": 505,
+            "3": 0
+          }
+        ]
+      ],
       "objectivesText": [
         "Slay 12 Greater Tarantulas and destroy 6 Tarantula Eggs in Alther's Mill for Foreman Oslow in Redridge."
       ],

@@ -21821,7 +21821,7 @@
           "zoneName": "Darkshore"
         },
         "questLevel": 20,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -21969,7 +21969,7 @@
         "questId": 87760,
         "questLevel": 20,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -21982,7 +21982,14 @@
             ],
             "name": "Holy Diver",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 280686,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Find a Stormscale Beastmistress, slay her, and bring back her Rod of Deep Dominion."
             ],
@@ -22112,7 +22119,7 @@
           "zoneName": "Stormwind City"
         },
         "questLevel": 17,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -22248,11 +22255,11 @@
         "questId": 97894,
         "questLevel": 17,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
-            "breadcrumbForQuestId": 0,
+            "breadcrumbForQuestId": 982,
             "disabledByQuest": 0,
             "finishedBy": [
               [
@@ -22260,7 +22267,7 @@
               ]
             ],
             "name": "Business in Auberdine",
-            "nextQuestInChain": 0,
+            "nextQuestInChain": 982,
             "objectives": [],
             "objectivesText": [
               "Check on Gorbold Steelhand in Auberdine in Darkshore.",
@@ -22329,6 +22336,10 @@
           7,
           95
         ],
+        "requirements": {
+          "breadcrumbForQuestId": 982,
+          "nextQuestInChain": 982
+        },
         "startPins": [
           {
             "npcId": 7232,
@@ -22391,7 +22402,7 @@
           "zoneName": "Stormwind City"
         },
         "questLevel": 17,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -22511,7 +22522,7 @@
         "questId": 97926,
         "questLevel": 17,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -22537,7 +22548,7 @@
             "requiredRaces": 4294967373,
             "requiredSpecialization": 0,
             "requiredSpell": 0,
-            "sourceItemId": 0,
+            "sourceItemId": 279048,
             "specialFlags": 0,
             "startedBy": [
               [
@@ -22652,7 +22663,7 @@
           "zoneName": "Darkshore"
         },
         "questLevel": 20,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -23197,7 +23208,7 @@
         "questId": 98013,
         "questLevel": 20,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -23210,7 +23221,22 @@
             ],
             "name": "Swelling Forces",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": [
+              [
+                {
+                  "1": 2181,
+                  "3": 0
+                },
+                {
+                  "1": 2182,
+                  "3": 0
+                },
+                {
+                  "1": 2183,
+                  "3": 0
+                }
+              ]
+            ],
             "objectivesText": [
               "Eliminate 12 Stormscale Myrmidons, 8 Stormscale Sorceresses, and 6 Stormscale Warriors for Arbal at the Grove of the Ancients."
             ],
@@ -23369,7 +23395,7 @@
           "zoneName": "Darkshore"
         },
         "questLevel": 13,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -23511,7 +23537,7 @@
         "questId": 98025,
         "questLevel": 13,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -23524,7 +23550,14 @@
             ],
             "name": "WANTED: Jai'vhanel",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 281038,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Find and slay the owl known as Jai'vhanel and take one of her feathers. The black owl was last seen north of the Ameth'Aran ruins near the mountain base. Report the death of Jai'vhanel to Sentinel Glynda Nal'Shea in Auberdine."
             ],
@@ -23669,7 +23702,7 @@
         "name": "Baron Marinous",
         "pinCategory": "normal",
         "questLevel": 21,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -23759,7 +23792,7 @@
         "questId": 98028,
         "questLevel": 21,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -23791,7 +23824,7 @@
             "requiredRaces": 4294967373,
             "requiredSpecialization": 0,
             "requiredSpell": 0,
-            "sourceItemId": 0,
+            "sourceItemId": 279275,
             "specialFlags": 0,
             "startedBy": {
               "3": [
@@ -23900,7 +23933,7 @@
           "zoneName": "Darkshore"
         },
         "questLevel": 17,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -24142,7 +24175,7 @@
         "questId": 98042,
         "questLevel": 17,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -24155,7 +24188,14 @@
             ],
             "name": "It's All Fun and Games Until...",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 279279,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Obtain a Peerless Eye from a Twilight Disciple or Thug at the Master's Glaive in Darkshore and find someone in Auberdine who is willing to take it."
             ],

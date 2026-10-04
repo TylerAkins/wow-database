@@ -46891,7 +46891,7 @@
           "zoneName": "Thunder Bluff"
         },
         "questLevel": 10,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           6,
@@ -47037,7 +47037,7 @@
         "questId": 76156,
         "questLevel": 10,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -47255,7 +47255,7 @@
           "zoneName": "Thunder Bluff"
         },
         "questLevel": 11,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           6,
@@ -47401,7 +47401,7 @@
         "questId": 76160,
         "questLevel": 11,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -47608,7 +47608,7 @@
           "zoneName": "Thunder Bluff"
         },
         "questLevel": 11,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -47754,7 +47754,7 @@
         "questId": 76240,
         "questLevel": 11,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -47958,7 +47958,7 @@
           "zoneName": "Mulgore"
         },
         "questLevel": 4,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -48056,13 +48056,17 @@
         "questId": 95805,
         "questLevel": 4,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
             "breadcrumbForQuestId": 0,
             "disabledByQuest": 0,
-            "finishedBy": [],
+            "finishedBy": {
+              "2": [
+                660739
+              ]
+            },
             "name": "Grace of An'she and Mu'sha",
             "nextQuestInChain": 0,
             "objectives": [],
@@ -48084,7 +48088,7 @@
             "requiredRaces": 8589934770,
             "requiredSpecialization": 0,
             "requiredSpell": 0,
-            "sourceItemId": 0,
+            "sourceItemId": 277199,
             "specialFlags": 0,
             "startedBy": [
               [
@@ -48093,6 +48097,21 @@
             ],
             "zoneOrSort": 215
           },
+          "finishers": [
+            {
+              "id": 660739,
+              "name": "Ritual Fire",
+              "spawns": {
+                "215": [
+                  [
+                    56.57,
+                    88.69
+                  ]
+                ]
+              },
+              "type": "object"
+            }
+          ],
           "provenance": {
             "availableStartingWith": "QuestieDB",
             "availableUntilCompleted": "QuestieDB",
@@ -48199,7 +48218,7 @@
           "zoneName": "Mulgore"
         },
         "questLevel": 5,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -48375,7 +48394,7 @@
         "questId": 96130,
         "questLevel": 5,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -48388,7 +48407,14 @@
             ],
             "name": "Chakuyak",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 270302,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Defeat Chakuyak and bring back her pelt."
             ],
@@ -48515,7 +48541,7 @@
         "name": "Fizsprocket's Notes",
         "pinCategory": "normal",
         "questLevel": 10,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -48697,7 +48723,7 @@
         "questId": 98424,
         "questLevel": 10,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -48710,7 +48736,22 @@
             ],
             "name": "Fizsprocket's Notes",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 281035,
+                  "3": 0
+                },
+                {
+                  "1": 281036,
+                  "3": 0
+                },
+                {
+                  "1": 281037,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Collect the rest of Supervisor Fizsprocket's pages inside The Venture Co. Mine and bring them to Morin Cloudstalker near Bloodhoof Village."
             ],
@@ -48846,7 +48887,7 @@
           "zoneName": "Mulgore"
         },
         "questLevel": 12,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -49086,7 +49127,7 @@
         "questId": 98427,
         "questLevel": 12,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -49099,7 +49140,14 @@
             ],
             "name": "Ceasing Operations",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 281048,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Bring the Clearcutter Key to Morin Cloudstalker outside Bloodhoof Village."
             ],
@@ -49234,7 +49282,7 @@
           "zoneName": "Mulgore"
         },
         "questLevel": 8,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -49402,7 +49450,7 @@
         "questId": 98430,
         "questLevel": 8,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -49441,6 +49489,17 @@
                 272203
               ]
             ],
+            "triggerEnd": [
+              "Escort Perith Stormhoof out of Palemane Rock",
+              {
+                "215": [
+                  [
+                    37.19,
+                    64.62
+                  ]
+                ]
+              }
+            ],
             "zoneOrSort": 215
           },
           "finishers": [
@@ -49472,6 +49531,7 @@
             "sourceItemId": "QuestieDB",
             "specialFlags": "QuestieDB",
             "startedBy": "QuestieDB",
+            "triggerEnd": "QuestieDB",
             "zoneOrSort": "QuestieDB"
           },
           "starters": [
@@ -49568,7 +49628,7 @@
           "zoneName": "Mulgore"
         },
         "questLevel": 10,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -49708,7 +49768,7 @@
         "questId": 98435,
         "questLevel": 10,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -49740,7 +49800,7 @@
             "requiredRaces": 8589934770,
             "requiredSpecialization": 0,
             "requiredSpell": 0,
-            "sourceItemId": 0,
+            "sourceItemId": 281139,
             "specialFlags": 0,
             "startedBy": [
               [
@@ -49856,7 +49916,7 @@
           "zoneName": "Mulgore"
         },
         "questLevel": 9,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -50080,7 +50140,7 @@
         "questId": 99079,
         "questLevel": 9,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -50241,7 +50301,7 @@
           "zoneName": "Mulgore"
         },
         "questLevel": 9,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -51223,7 +51283,7 @@
         "questId": 99080,
         "questLevel": 9,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -51236,7 +51296,24 @@
             ],
             "name": "Drive Them Out",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "1": [
+                {
+                  "1": 2967,
+                  "3": 0
+                },
+                {
+                  "1": 2968,
+                  "3": 0
+                }
+              ],
+              "3": [
+                {
+                  "1": 286075,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Kill 6 Galak Centaurs, 4 Galak Outrunners, and bring the head of Herak the Pillager to Baine Bloodhoof."
             ],
@@ -51371,7 +51448,7 @@
           "zoneName": "Mulgore"
         },
         "questLevel": 9,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -51595,7 +51672,7 @@
         "questId": 99081,
         "questLevel": 9,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -51627,7 +51704,7 @@
             "requiredRaces": 8589934770,
             "requiredSpecialization": 0,
             "requiredSpell": 0,
-            "sourceItemId": 0,
+            "sourceItemId": 286104,
             "specialFlags": 0,
             "startedBy": [
               [
@@ -51756,7 +51833,7 @@
           "zoneName": "Mulgore"
         },
         "questLevel": 9,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -51892,7 +51969,7 @@
         "questId": 99082,
         "questLevel": 9,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -52040,7 +52117,7 @@
           "zoneName": "Mulgore"
         },
         "questLevel": 9,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -52268,7 +52345,7 @@
         "questId": 99101,
         "questLevel": 9,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -52300,7 +52377,7 @@
             "requiredRaces": 8589934770,
             "requiredSpecialization": 0,
             "requiredSpell": 0,
-            "sourceItemId": 0,
+            "sourceItemId": 286104,
             "specialFlags": 0,
             "startedBy": [
               [
@@ -52425,7 +52502,7 @@
           "zoneName": "Mulgore"
         },
         "questLevel": 6,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -52561,7 +52638,7 @@
         "questId": 99108,
         "questLevel": 6,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -52709,7 +52786,7 @@
           "zoneName": "Mulgore"
         },
         "questLevel": 60,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -52821,7 +52898,7 @@
         "questId": 99196,
         "questLevel": 60,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -52834,7 +52911,14 @@
             ],
             "name": "A Donation of Wool",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 2592,
+                  "3": 0
+                }
+              ]
+            },
             "parentQuest": 0,
             "questFlags": 0,
             "questLevel": 60,

@@ -89,7 +89,7 @@
   "questId": 91753,
   "questLevel": 7,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -102,7 +102,14 @@
       ],
       "name": "An Enchanting Lesson",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "3": [
+          {
+            "1": 247884,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Kitta Firewind in the Tower of Azora wants you to collect 3 Luminous Residue.",
         "",

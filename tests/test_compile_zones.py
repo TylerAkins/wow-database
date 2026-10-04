@@ -184,10 +184,10 @@ class ForeverSnapshotTests(unittest.TestCase):
         quest_index = json.loads((raw_root / "quest_index.json").read_text(encoding="utf-8"))
 
         self.assertEqual(5058, len(quest_index))
-        self.assertEqual(5057, len(list((raw_root / "details").glob("*.json"))))
+        self.assertEqual(5058, len(list((raw_root / "details").glob("*.json"))))
         self.assertEqual(330, len(list((raw_root / "object").glob("*.json"))))
         self.assertEqual(1, len(list((raw_root / "item").glob("*.json"))))
-        self.assertFalse((raw_root / "details" / "7507.json").exists())
+        self.assertTrue((raw_root / "details" / "7507.json").is_file())
 
         rendered = build_zone_bundles(raw_root, "forever")
         self.assertEqual(59, len(rendered))

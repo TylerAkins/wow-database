@@ -511,7 +511,7 @@
   "questId": 96821,
   "questLevel": 6,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -524,7 +524,18 @@
       ],
       "name": "Legging It",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": [
+        [
+          {
+            "1": 266850,
+            "3": 0
+          },
+          {
+            "1": 266849,
+            "3": 0
+          }
+        ]
+      ],
       "objectivesText": [
         "Kill 6 Ridgeshade Creepers and 6 Ridgeshade Lurkers in southern Durotar, then report to Gar'thok in Razor Hill."
       ],

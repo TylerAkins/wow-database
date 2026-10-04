@@ -177,7 +177,7 @@
   "questId": 91777,
   "questLevel": 7,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -190,7 +190,18 @@
       ],
       "name": "Rare Books",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "3": [
+          {
+            "1": 248003,
+            "3": 0
+          },
+          {
+            "1": 248004,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Recover \"Geomancy for Curious Young Wizards\" and \"Arcane Explainer: Magical Stuff in Simple Words\" and return them to Brother Paxton inside Northshire's Abbey."
       ],

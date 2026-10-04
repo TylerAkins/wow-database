@@ -77,11 +77,13 @@
     "typeId": 92597
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    92461
+  ],
   "questId": 92597,
   "questLevel": 4,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -106,6 +108,9 @@
         "Use your Read Ley Line racial ability at the ley line in Thendal Grove."
       ],
       "parentQuest": 0,
+      "preQuestSingle": [
+        92461
+      ],
       "questFlags": 0,
       "questLevel": 4,
       "reputationReward": [
@@ -155,6 +160,7 @@
       "objectives": "QuestieDB",
       "objectivesText": "QuestieDB",
       "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
       "questFlags": "QuestieDB",
       "questLevel": "QuestieDB",
       "reputationReward": "QuestieDB",
@@ -188,6 +194,14 @@
   "races": [
     95
   ],
+  "requirements": {
+    "anyOf": [
+      92461
+    ],
+    "preQuestSingle": [
+      92461
+    ]
+  },
   "startPins": [
     {
       "npcId": 251371,

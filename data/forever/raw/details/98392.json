@@ -185,7 +185,7 @@
   "questId": 98392,
   "questLevel": 12,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -198,7 +198,22 @@
       ],
       "name": "Darkness in the Glade",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "3": [
+          {
+            "1": 280831,
+            "3": 0
+          },
+          {
+            "1": 280832,
+            "3": 0
+          },
+          {
+            "1": 280834,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Collect Hatescreech's Amulet, Windmistress Gaedress' Amulet, and Witchmother Arysa's Amulet for Sentinel Arynia Cloudsbreak in the Oracle Glade."
       ],
