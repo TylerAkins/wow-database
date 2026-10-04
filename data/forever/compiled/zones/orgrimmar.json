@@ -19725,7 +19725,7 @@
           "zoneName": "Orgrimmar"
         },
         "questLevel": 13,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           96
         ],
@@ -19964,25 +19964,53 @@
         },
         "pinCategory": "normal",
         "prerequisiteQuestIds": [
-          5725
+          95350
         ],
         "questId": 93739,
         "questLevel": 13,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
             "breadcrumbForQuestId": 0,
             "disabledByQuest": 0,
-            "finishedBy": [],
+            "finishedBy": [
+              [
+                4949
+              ]
+            ],
             "name": "Exploring the Horde",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "1": [
+                {
+                  "1": 10540,
+                  "3": 5
+                },
+                {
+                  "1": 3057,
+                  "3": 5
+                },
+                {
+                  "1": 10181,
+                  "3": 5
+                }
+              ],
+              "3": [
+                {
+                  "1": 285357,
+                  "3": 5
+                }
+              ]
+            },
             "objectivesText": [
               "Speak with Nazgrel in Grommash Hold to receive further instructions. Use the instructions received to locate and speak with Vol'jin, Cairne Bloodhoof, and Lady Sylvanas Windrunner."
             ],
             "parentQuest": 0,
+            "preQuestSingle": [
+              95350
+            ],
             "questFlags": 0,
             "questLevel": 13,
             "reputationReward": [
@@ -20022,6 +20050,12 @@
             ],
             "zoneOrSort": 1637
           },
+          "finishers": [
+            {
+              "id": 4949,
+              "type": "npc"
+            }
+          ],
           "provenance": {
             "availableStartingWith": "QuestieDB",
             "availableUntilCompleted": "QuestieDB",
@@ -20033,6 +20067,7 @@
             "objectives": "QuestieDB",
             "objectivesText": "QuestieDB",
             "parentQuest": "QuestieDB",
+            "preQuestSingle": "QuestieDB",
             "questFlags": "QuestieDB",
             "questLevel": "QuestieDB",
             "reputationReward": "QuestieDB",
@@ -20057,6 +20092,14 @@
         "races": [
           96
         ],
+        "requirements": {
+          "anyOf": [
+            95350
+          ],
+          "preQuestSingle": [
+            95350
+          ]
+        },
         "startPins": [
           {
             "npcId": 4949,
@@ -20119,7 +20162,7 @@
           "zoneName": "Mulgore"
         },
         "questLevel": 13,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           96
         ],
@@ -20231,11 +20274,13 @@
           "typeId": 95350
         },
         "pinCategory": "normal",
-        "prerequisiteQuestIds": [],
+        "prerequisiteQuestIds": [
+          95349
+        ],
         "questId": 95350,
         "questLevel": 13,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -20247,12 +20292,15 @@
               ]
             ],
             "name": "Welcome to Azeroth",
-            "nextQuestInChain": 0,
+            "nextQuestInChain": 93739,
             "objectives": [],
             "objectivesText": [
               "Travel to Orgrimmar and speak with Thrall in the Valley of Wisdom."
             ],
             "parentQuest": 0,
+            "preQuestSingle": [
+              95349
+            ],
             "questFlags": 0,
             "questLevel": 13,
             "reputationReward": [
@@ -20293,6 +20341,7 @@
             "objectives": "QuestieDB",
             "objectivesText": "QuestieDB",
             "parentQuest": "QuestieDB",
+            "preQuestSingle": "QuestieDB",
             "questFlags": "QuestieDB",
             "questLevel": "QuestieDB",
             "reputationReward": "QuestieDB",
@@ -20326,6 +20375,15 @@
         "races": [
           96
         ],
+        "requirements": {
+          "anyOf": [
+            95349
+          ],
+          "nextQuestInChain": 93739,
+          "preQuestSingle": [
+            95349
+          ]
+        },
         "startPins": [
           {
             "npcId": 259119,
@@ -20383,7 +20441,7 @@
           "zoneName": "Orgrimmar"
         },
         "questLevel": 15,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -20495,7 +20553,7 @@
         "questId": 97242,
         "questLevel": 15,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -20508,7 +20566,18 @@
             ],
             "name": "Yelmak's Medley",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 277278,
+                  "3": 0
+                },
+                {
+                  "1": 277279,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Take some cuttings from the Cattails and Speargrass growing around the water flows in the Valley of Honor and return to Kor'geld in Yelmak's Alchemy and Potions"
             ],
@@ -20631,7 +20700,7 @@
           "zoneName": "Orgrimmar"
         },
         "questLevel": 15,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -20747,7 +20816,7 @@
         "questId": 97246,
         "questLevel": 15,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -20908,7 +20977,7 @@
           "zoneName": "Orgrimmar"
         },
         "questLevel": 15,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -21024,7 +21093,7 @@
         "questId": 97249,
         "questLevel": 15,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -21050,7 +21119,7 @@
             "requiredRaces": 8589934770,
             "requiredSpecialization": 0,
             "requiredSpell": 0,
-            "sourceItemId": 0,
+            "sourceItemId": 277284,
             "specialFlags": 0,
             "startedBy": [
               [
@@ -21198,7 +21267,7 @@
           "zoneName": "Orgrimmar"
         },
         "questLevel": 15,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -21318,7 +21387,7 @@
         "questId": 97275,
         "questLevel": 15,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -21344,7 +21413,7 @@
             "requiredRaces": 8589934770,
             "requiredSpecialization": 0,
             "requiredSpell": 0,
-            "sourceItemId": 0,
+            "sourceItemId": 277566,
             "specialFlags": 0,
             "startedBy": [
               [
@@ -21480,7 +21549,7 @@
           "zoneName": "Orgrimmar"
         },
         "questLevel": 15,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -21664,7 +21733,7 @@
         "questId": 97326,
         "questLevel": 15,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -21677,7 +21746,14 @@
             ],
             "name": "Rocks to Rests",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 277952,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Return 8 Smooth Boulders to Thra behind Grommash Hold."
             ],

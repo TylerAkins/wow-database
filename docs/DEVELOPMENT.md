@@ -24,11 +24,10 @@ The compiler validates all selected inputs before replacing output. A full run r
 ## Forever snapshot invariants
 
 - 5,058 indexed quests
-- 5,057 quest detail records
+- 5,058 quest detail records
 - 330 object records
 - One item record
 - 59 zone catalogs with complete detail coverage
-- Quest `7507` (`Nostro's Compendium`) is the documented non-zone gap because its old Wowhead name redirect-loops
 
 ## Refreshing raw data
 

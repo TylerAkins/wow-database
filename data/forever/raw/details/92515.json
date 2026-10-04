@@ -772,7 +772,7 @@
   "questId": 92515,
   "questLevel": 6,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -785,7 +785,14 @@
       ],
       "name": "The Problem With Prideclaws",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "3": [
+          {
+            "1": 252670,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Collect 10 Prideclaw Pelts from the Prideclaws in Shen'dar Highlands."
       ],

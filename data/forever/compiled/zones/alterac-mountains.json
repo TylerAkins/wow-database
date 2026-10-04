@@ -3170,7 +3170,7 @@
         "name": "A Donation of Wool",
         "pinCategory": "normal",
         "questLevel": 60,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -3218,7 +3218,7 @@
         "questId": 99191,
         "questLevel": 60,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -3227,7 +3227,14 @@
             "finishedBy": [],
             "name": "A Donation of Wool",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 2592,
+                  "3": 0
+                }
+              ]
+            },
             "parentQuest": 0,
             "questFlags": 0,
             "questLevel": 60,

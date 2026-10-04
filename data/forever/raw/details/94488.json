@@ -109,13 +109,14 @@
   },
   "pinCategory": "normal",
   "prerequisiteQuestIds": [
+    94485,
     94486,
     94487
   ],
   "questId": 94488,
   "questLevel": 11,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -128,12 +129,20 @@
       ],
       "name": "The Ties That Bind",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "3": [
+          {
+            "1": 265475,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Kill Commander Haalien and bring his head to Elegael Thornpaw in the Shadowgale Forest."
       ],
       "parentQuest": 0,
       "preQuestGroup": [
+        94485,
         94486,
         94487
       ],
@@ -228,10 +237,12 @@
   "races": [],
   "requirements": {
     "allOf": [
+      94485,
       94486,
       94487
     ],
     "preQuestGroup": [
+      94485,
       94486,
       94487
     ]

@@ -220,25 +220,53 @@
   },
   "pinCategory": "normal",
   "prerequisiteQuestIds": [
-    5725
+    95350
   ],
   "questId": 93739,
   "questLevel": 13,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
       "breadcrumbForQuestId": 0,
       "disabledByQuest": 0,
-      "finishedBy": [],
+      "finishedBy": [
+        [
+          4949
+        ]
+      ],
       "name": "Exploring the Horde",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "1": [
+          {
+            "1": 10540,
+            "3": 5
+          },
+          {
+            "1": 3057,
+            "3": 5
+          },
+          {
+            "1": 10181,
+            "3": 5
+          }
+        ],
+        "3": [
+          {
+            "1": 285357,
+            "3": 5
+          }
+        ]
+      },
       "objectivesText": [
         "Speak with Nazgrel in Grommash Hold to receive further instructions. Use the instructions received to locate and speak with Vol'jin, Cairne Bloodhoof, and Lady Sylvanas Windrunner."
       ],
       "parentQuest": 0,
+      "preQuestSingle": [
+        95350
+      ],
       "questFlags": 0,
       "questLevel": 13,
       "reputationReward": [
@@ -278,6 +306,12 @@
       ],
       "zoneOrSort": 1637
     },
+    "finishers": [
+      {
+        "id": 4949,
+        "type": "npc"
+      }
+    ],
     "provenance": {
       "availableStartingWith": "QuestieDB",
       "availableUntilCompleted": "QuestieDB",
@@ -289,6 +323,7 @@
       "objectives": "QuestieDB",
       "objectivesText": "QuestieDB",
       "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
       "questFlags": "QuestieDB",
       "questLevel": "QuestieDB",
       "reputationReward": "QuestieDB",
@@ -313,6 +348,14 @@
   "races": [
     96
   ],
+  "requirements": {
+    "anyOf": [
+      95350
+    ],
+    "preQuestSingle": [
+      95350
+    ]
+  },
   "startPins": [
     {
       "npcId": 4949,

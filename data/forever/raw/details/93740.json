@@ -1551,7 +1551,7 @@
   "questId": 93740,
   "questLevel": 11,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -1564,7 +1564,14 @@
       ],
       "name": "Blood for Blood",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "3": [
+          {
+            "1": 255658,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Collect 10 Al'Aketh Windstone Charms from the corpses of Al'Aketh cultists in the Gustberry Lowlands."
       ],

@@ -113,7 +113,7 @@
   "questId": 97245,
   "questLevel": 10,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -139,7 +139,14 @@
       ],
       "name": "Call of Fire",
       "nextQuestInChain": 97257,
-      "objectives": [],
+      "objectives": {
+        "3": [
+          {
+            "1": 277269,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Find the home of Kuramaa in the Shen'dar Highlands, and defeat the spirit in combat. Bring Kuramaa's Mask to Olariaan Swiftburn in the Gustberry Lowlands when you are victorious."
       ],

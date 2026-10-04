@@ -189,7 +189,7 @@
   "questId": 92470,
   "questLevel": 5,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -202,7 +202,20 @@
       ],
       "name": "Foul Matriarch",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "1": [
+          {
+            "1": 250937,
+            "3": 0
+          }
+        ],
+        "3": [
+          {
+            "1": 252665,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Slay 8 Ursera Scavengers and collect the head of the den mother, Urs'anah in Thendal Grove."
       ],

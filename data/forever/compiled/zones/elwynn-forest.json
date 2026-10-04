@@ -31431,7 +31431,7 @@
           "zoneName": "Elwynn Forest"
         },
         "questLevel": 10,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -31638,7 +31638,7 @@
         "questId": 91723,
         "questLevel": 10,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -31651,7 +31651,14 @@
             ],
             "name": "Delicate Instruments",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": [
+              [
+                {
+                  "1": 476,
+                  "3": 0
+                }
+              ]
+            ],
             "objectivesText": [
               "Kill 8 Kobold Geomancers in Jasperlode Mine, then return to Hamish Bergwort in the Tower of Azora."
             ],
@@ -31804,7 +31811,7 @@
           "zoneName": "Elwynn Forest"
         },
         "questLevel": 10,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -32155,7 +32162,7 @@
         "questId": 91724,
         "questLevel": 10,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -32168,7 +32175,14 @@
             ],
             "name": "Delicate Instruments",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": [
+              [
+                {
+                  "1": 474,
+                  "3": 0
+                }
+              ]
+            ],
             "objectivesText": [
               "Kill 6 Defias Rogue Wizards at Stone Cairn Lake, then return to Hamish Bergwort in the Tower of Azora."
             ],
@@ -32321,7 +32335,7 @@
           "zoneName": "Elwynn Forest"
         },
         "questLevel": 10,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -32433,7 +32447,7 @@
         "questId": 91725,
         "questLevel": 10,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -32446,7 +32460,14 @@
             ],
             "name": "Stolen Enchanting Supplies",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 247805,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Collect 5 Stolen Enchanting Supplies from gnoll camps around Stone Cairn Lake, then return to Blixie Fitzwink near the Tower of Azora."
             ],
@@ -32623,7 +32644,7 @@
           "zoneName": "Elwynn Forest"
         },
         "questLevel": 10,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -32735,7 +32756,7 @@
         "questId": 91732,
         "questLevel": 10,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -32748,7 +32769,14 @@
             ],
             "name": "Good Steel",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 247816,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Collect 4 Mining Tools from Jasperlode Mine, then return to Hagar Lowe in Eastvale Logging Camp."
             ],
@@ -32925,7 +32953,7 @@
           "zoneName": "Elwynn Forest"
         },
         "questLevel": 10,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -33037,7 +33065,7 @@
         "questId": 91733,
         "questLevel": 10,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -33050,7 +33078,22 @@
             ],
             "name": "Downstream",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 247817,
+                  "3": 0
+                },
+                {
+                  "1": 247813,
+                  "3": 0
+                },
+                {
+                  "1": 247818,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Collect the Waterlogged Axe, Waterlogged Saw, and Waterlogged Toolbox that have washed downstream from Eastvale Logging Camp, then return to Ormin Pelford."
             ],
@@ -33233,7 +33276,7 @@
         },
         "name": "Applejack Still",
         "pinCategory": "normal",
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -33281,7 +33324,7 @@
         ],
         "questId": 91736,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -33290,7 +33333,14 @@
             "finishedBy": [],
             "name": "Applejack Still",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 4536,
+                  "3": 0
+                }
+              ]
+            },
             "parentQuest": 0,
             "questFlags": 0,
             "questLevel": 0,
@@ -33384,7 +33434,7 @@
           "zoneName": "Elwynn Forest"
         },
         "questLevel": 10,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -33488,7 +33538,7 @@
         "questId": 91738,
         "questLevel": 10,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -33501,7 +33551,14 @@
             ],
             "name": "An Apple Treat",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 247824,
+                  "3": 0
+                }
+              ]
+            },
             "parentQuest": 0,
             "questFlags": 0,
             "questLevel": 10,
@@ -33617,7 +33674,7 @@
         "name": "Croaky's Head",
         "pinCategory": "normal",
         "questLevel": 10,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -33707,7 +33764,7 @@
         "questId": 91740,
         "questLevel": 10,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -33739,7 +33796,7 @@
             "requiredRaces": 4294967373,
             "requiredSpecialization": 0,
             "requiredSpell": 0,
-            "sourceItemId": 0,
+            "sourceItemId": 247826,
             "specialFlags": 0,
             "startedBy": {
               "3": [
@@ -33843,7 +33900,7 @@
         "name": "Nibbled-On Book",
         "pinCategory": "normal",
         "questLevel": 2,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -33933,7 +33990,7 @@
         "questId": 91741,
         "questLevel": 2,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -33959,7 +34016,7 @@
             "requiredRaces": 4294967373,
             "requiredSpecialization": 0,
             "requiredSpell": 0,
-            "sourceItemId": 0,
+            "sourceItemId": 247857,
             "specialFlags": 0,
             "startedBy": {
               "3": [
@@ -34066,7 +34123,7 @@
           "zoneName": "Elwynn Forest"
         },
         "questLevel": 2,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -34478,7 +34535,7 @@
         "questId": 91743,
         "questLevel": 2,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -34491,7 +34548,14 @@
             ],
             "name": "Rascally Rodents",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 247839,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Retrieve 8 Stolen Books from kobolds in Northshire Valley and return them to Brother Paxton."
             ],
@@ -34626,7 +34690,7 @@
           "zoneName": "Elwynn Forest"
         },
         "questLevel": 3,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -34738,7 +34802,7 @@
         "questId": 91745,
         "questLevel": 3,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -34891,7 +34955,7 @@
         "name": "Elmpaw's Head",
         "pinCategory": "normal",
         "questLevel": 10,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -34977,7 +35041,7 @@
         "questId": 91746,
         "questLevel": 10,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -35009,7 +35073,7 @@
             "requiredRaces": 4294967373,
             "requiredSpecialization": 0,
             "requiredSpell": 0,
-            "sourceItemId": 0,
+            "sourceItemId": 247862,
             "specialFlags": 0,
             "startedBy": {
               "3": [
@@ -35117,7 +35181,7 @@
           "zoneName": "Elwynn Forest"
         },
         "questLevel": 7,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -36409,7 +36473,7 @@
         "questId": 91751,
         "questLevel": 7,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -36422,7 +36486,14 @@
             ],
             "name": "Rough Wolf Pelts",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 247877,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Skin wolves around Elwynn Forest to obtain 7 Rough Wolf Pelts, then deliver them to Helene Peltskinner near Goldshire."
             ],
@@ -36557,7 +36628,7 @@
           "zoneName": "Elwynn Forest"
         },
         "questLevel": 3,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -36693,7 +36764,7 @@
         "questId": 91752,
         "questLevel": 3,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -36706,7 +36777,14 @@
             ],
             "name": "The Big Picture",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 247886,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Retrieve a Sack of \"Picture\" Books from Shinyfinder Narf. Bring the sack to Marshal McBride just inside Northshire's Abbey."
             ],
@@ -36854,7 +36932,7 @@
           "zoneName": "Elwynn Forest"
         },
         "questLevel": 7,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -36966,7 +37044,7 @@
         "questId": 91753,
         "questLevel": 7,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -36979,7 +37057,14 @@
             ],
             "name": "An Enchanting Lesson",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 247884,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Kitta Firewind in the Tower of Azora wants you to collect 3 Luminous Residue.",
               "",
@@ -37116,7 +37201,7 @@
           "zoneName": "Elwynn Forest"
         },
         "questLevel": 4,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -37228,7 +37313,7 @@
         "questId": 91758,
         "questLevel": 4,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -37397,7 +37482,7 @@
           "zoneName": "Elwynn Forest"
         },
         "questLevel": 4,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -37505,7 +37590,7 @@
         "questId": 91772,
         "questLevel": 4,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -37537,7 +37622,7 @@
             "requiredRaces": 4294967373,
             "requiredSpecialization": 0,
             "requiredSpell": 0,
-            "sourceItemId": 0,
+            "sourceItemId": 247970,
             "specialFlags": 0,
             "startedBy": [
               [
@@ -37679,7 +37764,7 @@
           "zoneName": "Elwynn Forest"
         },
         "questLevel": 6,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -38111,7 +38196,7 @@
         "questId": 91775,
         "questLevel": 6,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -38124,7 +38209,18 @@
             ],
             "name": "Book Return",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 248002,
+                  "3": 0
+                },
+                {
+                  "1": 248001,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Find 6 Lost Books and \"Fun with Elementals\" and return them to Marshal Dughan."
             ],
@@ -38143,7 +38239,7 @@
             "requiredRaces": 4294967373,
             "requiredSpecialization": 0,
             "requiredSpell": 0,
-            "sourceItemId": 0,
+            "sourceItemId": 279935,
             "specialFlags": 0,
             "startedBy": [
               [
@@ -38280,7 +38376,7 @@
           "zoneName": "Elwynn Forest"
         },
         "questLevel": 7,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -38480,7 +38576,7 @@
         "questId": 91777,
         "questLevel": 7,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -38493,7 +38589,18 @@
             ],
             "name": "Rare Books",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 248003,
+                  "3": 0
+                },
+                {
+                  "1": 248004,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Recover \"Geomancy for Curious Young Wizards\" and \"Arcane Explainer: Magical Stuff in Simple Words\" and return them to Brother Paxton inside Northshire's Abbey."
             ],
@@ -38628,7 +38735,7 @@
           "zoneName": "Elwynn Forest"
         },
         "questLevel": 2,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -38744,7 +38851,7 @@
         "questId": 92124,
         "questLevel": 2,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -38978,7 +39085,7 @@
           "zoneName": "Elwynn Forest"
         },
         "questLevel": 7,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -39090,7 +39197,7 @@
         "questId": 99127,
         "questLevel": 7,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -39103,7 +39210,14 @@
             ],
             "name": "A Net Disaster",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 286205,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Check the fishing traps in Crystal Lake."
             ],
@@ -39226,7 +39340,7 @@
           "zoneName": "Elwynn Forest"
         },
         "questLevel": 7,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -39680,7 +39794,7 @@
         "questId": 99128,
         "questLevel": 7,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -39693,7 +39807,18 @@
             ],
             "name": "Slimy Menace",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": [
+              [
+                {
+                  "1": 735,
+                  "3": 0
+                },
+                {
+                  "1": 285,
+                  "3": 0
+                }
+              ]
+            ],
             "objectivesText": [
               "Kill the murlocs at Crystal Lake."
             ],
@@ -39816,7 +39941,7 @@
           "zoneName": "Elwynn Forest"
         },
         "questLevel": 7,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -39928,7 +40053,7 @@
         "questId": 99129,
         "questLevel": 7,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -40064,7 +40189,7 @@
           "zoneName": "Elwynn Forest"
         },
         "questLevel": 7,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -40712,7 +40837,7 @@
         "questId": 99130,
         "questLevel": 7,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -40725,7 +40850,18 @@
             ],
             "name": "An Enticing Offer",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 286214,
+                  "3": 0
+                },
+                {
+                  "1": 286215,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Collect ingredients for murloc bait."
             ],
@@ -40848,7 +40984,7 @@
           "zoneName": "Elwynn Forest"
         },
         "questLevel": 7,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -40960,7 +41096,7 @@
         "questId": 99131,
         "questLevel": 7,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -41096,7 +41232,7 @@
           "zoneName": "Elwynn Forest"
         },
         "questLevel": 7,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -41208,7 +41344,7 @@
         "questId": 99143,
         "questLevel": 7,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -41221,7 +41357,14 @@
             ],
             "name": "Bottles and Baubles",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 286209,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Collect 6 pieces of shiny junk from the nearby Murloc camp."
             ],

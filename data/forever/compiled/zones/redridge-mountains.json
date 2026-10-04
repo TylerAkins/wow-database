@@ -24305,7 +24305,7 @@
         "name": "WANTED: Incinerator Gar'im",
         "pinCategory": "normal",
         "questLevel": 25,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -24439,7 +24439,7 @@
         "questId": 95999,
         "questLevel": 25,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -24452,7 +24452,14 @@
             ],
             "name": "WANTED: Incinerator Gar'im",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 271872,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Deliver the Broken Staff of Incinerator Gar'im to Magistrate Solomon in Lakeshire."
             ],
@@ -24565,7 +24572,7 @@
         "name": "Shipping Label",
         "pinCategory": "normal",
         "questLevel": 60,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -24655,7 +24662,7 @@
         "questId": 98247,
         "questLevel": 60,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -24668,7 +24675,14 @@
             ],
             "name": "Shipping Label",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 280179,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Deliver the Shipping Label to someone at the Azeroth Commerce Authority trade hub in Redridge Mountains."
             ],
@@ -24801,7 +24815,7 @@
         "name": "Shipping Label",
         "pinCategory": "normal",
         "questLevel": 60,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -24887,7 +24901,7 @@
         "questId": 98248,
         "questLevel": 60,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -24900,7 +24914,14 @@
             ],
             "name": "Shipping Label",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 280180,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Deliver the Shipping Label to someone at the Durotar Supply and Logistics trade hub near the Crossroads in the Barrens."
             ],
@@ -25036,7 +25057,7 @@
           "zoneName": "Redridge Mountains"
         },
         "questLevel": 21,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -25598,7 +25619,7 @@
         "questId": 98386,
         "questLevel": 21,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -25611,7 +25632,14 @@
             ],
             "name": "Alther's Mill",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": [
+              [
+                {
+                  "1": 505,
+                  "3": 0
+                }
+              ]
+            ],
             "objectivesText": [
               "Slay 12 Greater Tarantulas and destroy 6 Tarantula Eggs in Alther's Mill for Foreman Oslow in Redridge."
             ],
@@ -25746,7 +25774,7 @@
           "zoneName": "Redridge Mountains"
         },
         "questLevel": 21,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -25866,7 +25894,7 @@
         "questId": 98387,
         "questLevel": 21,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -25879,7 +25907,18 @@
             ],
             "name": "Blackrock Blockade",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 280839,
+                  "3": 0
+                },
+                {
+                  "1": 280841,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Bring 10 Battleworn Axes to Marshal Marris in Lakeshire."
             ],
@@ -26014,7 +26053,7 @@
           "zoneName": "Redridge Mountains"
         },
         "questLevel": 17,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           1,
           3,
@@ -26610,7 +26649,7 @@
         "questId": 98407,
         "questLevel": 17,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -26623,7 +26662,14 @@
             ],
             "name": "Show of Force",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 280911,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Collect 5 Spiked Collars from Gnoll Thrashers for Deputy Feldon near Lakeshire."
             ],

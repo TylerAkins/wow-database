@@ -21113,7 +21113,7 @@
           "zoneName": "Durotar"
         },
         "questLevel": 6,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -21647,7 +21647,7 @@
         "questId": 96821,
         "questLevel": 6,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -21660,7 +21660,18 @@
             ],
             "name": "Legging It",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": [
+              [
+                {
+                  "1": 266850,
+                  "3": 0
+                },
+                {
+                  "1": 266849,
+                  "3": 0
+                }
+              ]
+            ],
             "objectivesText": [
               "Kill 6 Ridgeshade Creepers and 6 Ridgeshade Lurkers in southern Durotar, then report to Gar'thok in Razor Hill."
             ],
@@ -21795,7 +21806,7 @@
           "zoneName": "Durotar"
         },
         "questLevel": 6,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -21907,7 +21918,7 @@
         "questId": 96822,
         "questLevel": 6,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -21920,7 +21931,22 @@
             ],
             "name": "For Honor",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 275713,
+                  "3": 0
+                },
+                {
+                  "1": 275716,
+                  "3": 0
+                },
+                {
+                  "1": 275717,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Collect the Raider's Battleaxe, Raider's Bow, and Raider's Shield from the Tiragarde Keep outskirts, then return them to Turroc in Razor Hill."
             ],
@@ -22097,7 +22123,7 @@
           "zoneName": "Durotar"
         },
         "questLevel": 6,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -22209,7 +22235,7 @@
         "questId": 96825,
         "questLevel": 6,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -22222,7 +22248,14 @@
             ],
             "name": "This Fruit Could Bite Back",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 275718,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Cook Torka in Razor Hill wants you to collect 8 Prickly Pear Fruit from the Razormane Grounds west of town."
             ],
@@ -22357,7 +22390,7 @@
           "zoneName": "Durotar"
         },
         "questLevel": 8,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -22469,7 +22502,7 @@
         "questId": 96873,
         "questLevel": 8,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -22482,7 +22515,14 @@
             ],
             "name": "A Pain in the Neck",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 247884,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Pa'zula in Sen'jin Village wants you to collect 3 Luminous Residue. Luminous Residue can be obtained by disenchanting Hexed Pendants dropped by trolls in the Echo Isles."
             ],
@@ -22640,7 +22680,7 @@
           "zoneName": "Orgrimmar"
         },
         "questLevel": 10,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -22932,7 +22972,7 @@
         "questId": 96874,
         "questLevel": 10,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -22945,7 +22985,18 @@
             ],
             "name": "This Is Spinal Axe",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 275719,
+                  "3": 0
+                },
+                {
+                  "1": 3470,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Ug'thok in Orgrimmar wants you to collect 5 Weathered Spines from beasts in Thunder Ridge, along with 5 Rough Grinding Stones."
             ],
@@ -23085,7 +23136,7 @@
           "zoneName": "Orgrimmar"
         },
         "questLevel": 10,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -23361,7 +23412,7 @@
         "questId": 96875,
         "questLevel": 10,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -23374,7 +23425,14 @@
             ],
             "name": "Beasts of Thunder Ridge",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 275720,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Kamari in Orgrimmar wants you to collect 5 Rough Lizard Hide from beasts in Thunder Ridge, along with 2 Cured Light Hides."
             ],
@@ -23501,7 +23559,7 @@
         "name": "Ukor's Lost Pack",
         "pinCategory": "normal",
         "questLevel": 8,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -23587,7 +23645,7 @@
         "questId": 96876,
         "questLevel": 8,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -23619,7 +23677,7 @@
             "requiredRaces": 8589934770,
             "requiredSpecialization": 0,
             "requiredSpell": 0,
-            "sourceItemId": 0,
+            "sourceItemId": 275722,
             "specialFlags": 0,
             "startedBy": {
               "3": [
@@ -23719,7 +23777,7 @@
         "name": "Halikor's Hoof",
         "pinCategory": "normal",
         "questLevel": 12,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -23809,7 +23867,7 @@
         "questId": 96877,
         "questLevel": 12,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -23841,7 +23899,7 @@
             "requiredRaces": 8589934770,
             "requiredSpecialization": 0,
             "requiredSpell": 0,
-            "sourceItemId": 0,
+            "sourceItemId": 275723,
             "specialFlags": 0,
             "startedBy": {
               "3": [
@@ -23958,7 +24016,7 @@
           "zoneName": "Durotar"
         },
         "questLevel": 8,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -24118,7 +24176,7 @@
         "questId": 97223,
         "questLevel": 8,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -24131,7 +24189,14 @@
             ],
             "name": "Bloodtalon Matriarch",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 277128,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Bring Eggs of the Bloodtalon Matriarch to Xar'Ti in Sen'jin Village."
             ],
@@ -24279,7 +24344,7 @@
           "zoneName": "Durotar"
         },
         "questLevel": 9,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -24391,7 +24456,7 @@
         "questId": 97225,
         "questLevel": 9,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -24404,7 +24469,14 @@
             ],
             "name": "Forgotten Loa Idols",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 277135,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Collect 8 Forgotten Loa Idols from the Echo Isles. Bring them to Master Gadrin in Sen'jin Village."
             ],
@@ -24547,7 +24619,7 @@
           "zoneName": "Durotar"
         },
         "questLevel": 2,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -24655,7 +24727,7 @@
         "questId": 97279,
         "questLevel": 2,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -24668,7 +24740,14 @@
             ],
             "name": "Wayward Weapons",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 277653,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Collect 6 Abandoned Training Weapons, then return to Kzan Thornslash in the Den."
             ],
@@ -24807,7 +24886,7 @@
         "name": "A Simmering Storm",
         "pinCategory": "normal",
         "questLevel": 11,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -24893,7 +24972,7 @@
         "questId": 97281,
         "questLevel": 11,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -25054,7 +25133,7 @@
           "zoneName": "Durotar"
         },
         "questLevel": 11,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -25310,7 +25389,7 @@
         "questId": 97282,
         "questLevel": 11,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -25323,7 +25402,14 @@
             ],
             "name": "Stormy Potential",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 277665,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Bring 5 Charged Thunder Lizard Organs to Rezlak near Drygulch Ravine."
             ],
@@ -25470,7 +25556,7 @@
           "zoneName": "Durotar"
         },
         "questLevel": 11,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -25574,7 +25660,7 @@
         "questId": 99048,
         "questLevel": 11,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -25751,7 +25837,7 @@
           "zoneName": "Durotar"
         },
         "questLevel": 11,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -25855,7 +25941,7 @@
         "questId": 99049,
         "questLevel": 11,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -25868,7 +25954,22 @@
             ],
             "name": "Threat from Below",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 286012,
+                  "3": 0
+                },
+                {
+                  "1": 286011,
+                  "3": 0
+                },
+                {
+                  "1": 286010,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Find signs of what attacked Heglan Shadeeye."
             ],
@@ -26032,7 +26133,7 @@
           "zoneName": "Durotar"
         },
         "questLevel": 11,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -26392,7 +26493,7 @@
         "questId": 99051,
         "questLevel": 11,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -26405,7 +26506,14 @@
             ],
             "name": "Threat from Below",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 286008,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Collect 9 Naga Spinefins."
             ],
@@ -26548,7 +26656,7 @@
           "zoneName": "Durotar"
         },
         "questLevel": 12,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -26704,7 +26812,7 @@
         "questId": 99052,
         "questLevel": 12,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,
@@ -26717,7 +26825,14 @@
             ],
             "name": "Threat from Below",
             "nextQuestInChain": 0,
-            "objectives": [],
+            "objectives": {
+              "3": [
+                {
+                  "1": 286009,
+                  "3": 0
+                }
+              ]
+            },
             "objectivesText": [
               "Kill the sea giant along Durotar's north coast and bring back proof of your accomplishment."
             ],
@@ -26851,7 +26966,7 @@
           "zoneName": "Durotar"
         },
         "questLevel": 8,
-        "questieCommit": "cac1eff815923f896d082764d023cf812454a023",
+        "questieCommit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
         "races": [
           2,
           5,
@@ -26991,7 +27106,7 @@
         "questId": 99123,
         "questLevel": 8,
         "questie": {
-          "commit": "cac1eff815923f896d082764d023cf812454a023",
+          "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
           "fields": {
             "availableStartingWith": 0,
             "availableUntilCompleted": 0,

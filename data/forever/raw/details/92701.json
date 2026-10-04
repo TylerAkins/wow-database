@@ -82,12 +82,13 @@
   },
   "pinCategory": "normal",
   "prerequisiteQuestIds": [
-    92550
+    92550,
+    93927
   ],
   "questId": 92701,
   "questLevel": 9,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -105,6 +106,10 @@
         "Deliver Aonda's Written Report to Valennia Stormfist in Valanaar."
       ],
       "parentQuest": 0,
+      "preQuestGroup": [
+        92550,
+        93927
+      ],
       "preQuestSingle": [
         92550
       ],
@@ -116,7 +121,7 @@
       "requiredRaces": 4294967373,
       "requiredSpecialization": 0,
       "requiredSpell": 0,
-      "sourceItemId": 0,
+      "sourceItemId": 253152,
       "specialFlags": 0,
       "startedBy": [
         [
@@ -151,6 +156,7 @@
       "objectives": "QuestieDB",
       "objectivesText": "QuestieDB",
       "parentQuest": "QuestieDB",
+      "preQuestGroup": "QuestieDB",
       "preQuestSingle": "QuestieDB",
       "questFlags": "QuestieDB",
       "questLevel": "QuestieDB",
@@ -189,10 +195,18 @@
     95
   ],
   "requirements": {
+    "allOf": [
+      92550,
+      93927
+    ],
     "anyOf": [
       92550
     ],
     "nextQuestInChain": 92699,
+    "preQuestGroup": [
+      92550,
+      93927
+    ],
     "preQuestSingle": [
       92550
     ]

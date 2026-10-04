@@ -81,7 +81,7 @@
   "questId": 99049,
   "questLevel": 11,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -94,7 +94,22 @@
       ],
       "name": "Threat from Below",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "3": [
+          {
+            "1": 286012,
+            "3": 0
+          },
+          {
+            "1": 286011,
+            "3": 0
+          },
+          {
+            "1": 286010,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Find signs of what attacked Heglan Shadeeye."
       ],

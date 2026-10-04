@@ -241,13 +241,14 @@
   },
   "pinCategory": "normal",
   "prerequisiteQuestIds": [
+    94485,
     94486,
     94487
   ],
   "questId": 94489,
   "questLevel": 12,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -260,12 +261,35 @@
       ],
       "name": "The Wounds of Betrayal",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "1": [
+          {
+            "1": 258130,
+            "3": 5
+          }
+        ],
+        "5": [
+          {
+            "1": [
+              258134,
+              258137,
+              258138,
+              258275,
+              258277,
+              258288,
+              258289
+            ],
+            "2": 258134,
+            "4": 17
+          }
+        ]
+      },
       "objectivesText": [
         "Enter the Nightfang Den and heal 7 druids and find Jorel Windsinger in Shadowgale Forest."
       ],
       "parentQuest": 0,
       "preQuestGroup": [
+        94485,
         94486,
         94487
       ],
@@ -360,10 +384,12 @@
   "races": [],
   "requirements": {
     "allOf": [
+      94485,
       94486,
       94487
     ],
     "preQuestGroup": [
+      94485,
       94486,
       94487
     ]

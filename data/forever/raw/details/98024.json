@@ -93,11 +93,13 @@
     "typeId": 98024
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    95350
+  ],
   "questId": 98024,
   "questLevel": 13,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -115,6 +117,9 @@
         "Report To Thork at The Crossroads in The Barrens."
       ],
       "parentQuest": 0,
+      "preQuestSingle": [
+        95350
+      ],
       "questFlags": 0,
       "questLevel": 13,
       "reputationReward": [
@@ -155,6 +160,7 @@
       "objectives": "QuestieDB",
       "objectivesText": "QuestieDB",
       "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
       "questFlags": "QuestieDB",
       "questLevel": "QuestieDB",
       "reputationReward": "QuestieDB",
@@ -179,6 +185,14 @@
   "races": [
     96
   ],
+  "requirements": {
+    "anyOf": [
+      95350
+    ],
+    "preQuestSingle": [
+      95350
+    ]
+  },
   "startPins": [
     {
       "npcId": 4949,

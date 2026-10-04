@@ -143,14 +143,102 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 81955,
+  "questie": {
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          211033
+        ]
+      ],
+      "name": "A Mind of Metal",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 0,
+      "requiredClasses": 0,
+      "requiredLevel": 0,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 0,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [],
+      "zoneOrSort": 0
+    },
+    "finishers": [
+      {
+        "id": 211033,
+        "name": "Garion Wendell",
+        "spawns": {
+          "1519": [
+            [
+              48.93,
+              86.45
+            ],
+            [
+              49,
+              86.44
+            ],
+            [
+              49.02,
+              86.52
+            ],
+            [
+              49.02,
+              86.59
+            ],
+            [
+              49.13,
+              86.42
+            ],
+            [
+              49.25,
+              86.25
+            ]
+          ]
+        },
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    }
+  },
   "races": [],
   "startPins": [
     {
       "npcId": 211033,
       "npcName": "Garion Wendell",
-      "zoneId": 1519,
       "x": 37.8,
       "y": 80.2,
+      "zoneId": 1519,
       "zoneName": "Stormwind City"
     }
   ]

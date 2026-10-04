@@ -89,7 +89,7 @@
   "questId": 92467,
   "questLevel": 4,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -108,6 +108,8 @@
       ],
       "parentQuest": 0,
       "preQuestSingle": [
+        1516,
+        1519,
         92466
       ],
       "questFlags": 0,
@@ -199,10 +201,14 @@
   ],
   "requirements": {
     "anyOf": [
+      1516,
+      1519,
       92466
     ],
     "nextQuestInChain": 92468,
     "preQuestSingle": [
+      1516,
+      1519,
       92466
     ]
   },

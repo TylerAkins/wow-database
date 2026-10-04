@@ -257,7 +257,7 @@
   "questId": 95494,
   "questLevel": 18,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -270,7 +270,14 @@
       ],
       "name": "Bruised Pride and Lion Hides",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "3": [
+          {
+            "1": 269715,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Collect 6 Savannah Lion Hides from the Savannah Matriarchs and Savannah Patriarchs in the Barrens."
       ],

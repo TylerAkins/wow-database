@@ -93,11 +93,13 @@
     "typeId": 95350
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    95349
+  ],
   "questId": 95350,
   "questLevel": 13,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -109,12 +111,15 @@
         ]
       ],
       "name": "Welcome to Azeroth",
-      "nextQuestInChain": 0,
+      "nextQuestInChain": 93739,
       "objectives": [],
       "objectivesText": [
         "Travel to Orgrimmar and speak with Thrall in the Valley of Wisdom."
       ],
       "parentQuest": 0,
+      "preQuestSingle": [
+        95349
+      ],
       "questFlags": 0,
       "questLevel": 13,
       "reputationReward": [
@@ -155,6 +160,7 @@
       "objectives": "QuestieDB",
       "objectivesText": "QuestieDB",
       "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
       "questFlags": "QuestieDB",
       "questLevel": "QuestieDB",
       "reputationReward": "QuestieDB",
@@ -188,6 +194,15 @@
   "races": [
     96
   ],
+  "requirements": {
+    "anyOf": [
+      95349
+    ],
+    "nextQuestInChain": 93739,
+    "preQuestSingle": [
+      95349
+    ]
+  },
   "startPins": [
     {
       "npcId": 259119,

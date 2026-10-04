@@ -79,11 +79,13 @@
     "typeId": 93797
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    93791
+  ],
   "questId": 93797,
   "questLevel": 10,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -96,11 +98,21 @@
       ],
       "name": "Boughs in the Wind",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "3": [
+          {
+            "1": 262668,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Bring a Wind-Infused Bough to Belann Windwood in Valanaar."
       ],
       "parentQuest": 0,
+      "preQuestSingle": [
+        93791
+      ],
       "questFlags": 0,
       "questLevel": 10,
       "reputationReward": [
@@ -154,6 +166,7 @@
       "objectives": "QuestieDB",
       "objectivesText": "QuestieDB",
       "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
       "questFlags": "QuestieDB",
       "questLevel": "QuestieDB",
       "reputationReward": "QuestieDB",
@@ -191,6 +204,14 @@
     7,
     95
   ],
+  "requirements": {
+    "anyOf": [
+      93791
+    ],
+    "preQuestSingle": [
+      93791
+    ]
+  },
   "startPins": [
     {
       "npcId": 256507,

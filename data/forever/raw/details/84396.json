@@ -147,14 +147,83 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 84396,
+  "questie": {
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
+    "fields": {
+      "availableStartingWith": 0,
+      "availableUntilCompleted": 0,
+      "breadcrumbForQuestId": 0,
+      "disabledByQuest": 0,
+      "finishedBy": [
+        [
+          5497
+        ]
+      ],
+      "name": "Magma or Lava?",
+      "nextQuestInChain": 0,
+      "objectives": [],
+      "parentQuest": 0,
+      "questFlags": 0,
+      "questLevel": 0,
+      "requiredClasses": 0,
+      "requiredLevel": 0,
+      "requiredMaxLevel": 0,
+      "requiredRaces": 0,
+      "requiredSpecialization": 0,
+      "requiredSpell": 0,
+      "sourceItemId": 0,
+      "specialFlags": 0,
+      "startedBy": [
+        [
+          5497
+        ]
+      ],
+      "zoneOrSort": 0
+    },
+    "finishers": [
+      {
+        "id": 5497,
+        "type": "npc"
+      }
+    ],
+    "provenance": {
+      "availableStartingWith": "QuestieDB",
+      "availableUntilCompleted": "QuestieDB",
+      "breadcrumbForQuestId": "QuestieDB",
+      "disabledByQuest": "QuestieDB",
+      "finishedBy": "QuestieDB",
+      "name": "QuestieDB",
+      "nextQuestInChain": "QuestieDB",
+      "objectives": "QuestieDB",
+      "parentQuest": "QuestieDB",
+      "questFlags": "QuestieDB",
+      "questLevel": "QuestieDB",
+      "requiredClasses": "QuestieDB",
+      "requiredLevel": "QuestieDB",
+      "requiredMaxLevel": "QuestieDB",
+      "requiredRaces": "QuestieDB",
+      "requiredSpecialization": "QuestieDB",
+      "requiredSpell": "QuestieDB",
+      "sourceItemId": "QuestieDB",
+      "specialFlags": "QuestieDB",
+      "startedBy": "QuestieDB",
+      "zoneOrSort": "QuestieDB"
+    },
+    "starters": [
+      {
+        "id": 5497,
+        "type": "npc"
+      }
+    ]
+  },
   "races": [],
   "startPins": [
     {
       "npcId": 5497,
       "npcName": "Jennea Cannon",
-      "zoneId": 1519,
       "x": 38.6,
       "y": 79.4,
+      "zoneId": 1519,
       "zoneName": "Stormwind City"
     }
   ]

@@ -341,7 +341,7 @@
   "questId": 91317,
   "questLevel": 12,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -354,7 +354,24 @@
       ],
       "name": "The Tarnished",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "1": [
+          {
+            "1": 259434,
+            "3": 0
+          },
+          {
+            "1": 259433,
+            "3": 0
+          }
+        ],
+        "3": [
+          {
+            "1": 270435,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Slay 8 Tarnished Drudges, 6 Tarnished Zealots, and collect the head of Commander Rudolph Gelhardt in Tirisfal Glades."
       ],

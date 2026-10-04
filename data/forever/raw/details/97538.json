@@ -79,7 +79,7 @@
   "questId": 97538,
   "questLevel": 26,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -88,7 +88,14 @@
       "finishedBy": [],
       "name": "Pigments for Paints",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "3": [
+          {
+            "1": 278201,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Tah Winterhoof in Thunder Bluff wants 30 Mirkweed Pods from Mirkfallon Lake."
       ],

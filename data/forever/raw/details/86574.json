@@ -65,7 +65,7 @@
   "questId": 86574,
   "questLevel": 24,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -74,7 +74,14 @@
       "finishedBy": [],
       "name": "Stonetalon Supply Run",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "3": [
+          {
+            "1": 277917,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Collect 6 Stonetalon Supplies from Pridewing Wyverns and deliver them to Innkeeper Faralia."
       ],
@@ -87,7 +94,7 @@
       "requiredRaces": 4294967373,
       "requiredSpecialization": 0,
       "requiredSpell": 0,
-      "sourceItemId": 0,
+      "sourceItemId": 277915,
       "specialFlags": 0,
       "startedBy": [],
       "zoneOrSort": 406

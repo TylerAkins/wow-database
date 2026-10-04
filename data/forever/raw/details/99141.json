@@ -89,7 +89,7 @@
   "questId": 99141,
   "questLevel": 6,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -102,7 +102,22 @@
       ],
       "name": "Patience",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "3": [
+          {
+            "1": 286200,
+            "3": 0
+          },
+          {
+            "1": 286201,
+            "3": 0
+          },
+          {
+            "1": 286202,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Obtain reports from Deathguard Dillinger, Deathguard Kristof, and Gordo for Executor Zygand."
       ],

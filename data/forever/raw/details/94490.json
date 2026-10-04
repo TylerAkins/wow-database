@@ -59,13 +59,14 @@
   },
   "pinCategory": "normal",
   "prerequisiteQuestIds": [
+    94485,
     94486,
     94487
   ],
   "questId": 94490,
   "questLevel": 12,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -84,6 +85,7 @@
       ],
       "parentQuest": 0,
       "preQuestGroup": [
+        94485,
         94486,
         94487
       ],
@@ -101,7 +103,7 @@
       "requiredRaces": 0,
       "requiredSpecialization": 0,
       "requiredSpell": 0,
-      "sourceItemId": 0,
+      "sourceItemId": 265476,
       "specialFlags": 0,
       "startedBy": {
         "3": [
@@ -166,11 +168,13 @@
   "races": [],
   "requirements": {
     "allOf": [
+      94485,
       94486,
       94487
     ],
     "nextQuestInChain": 94491,
     "preQuestGroup": [
+      94485,
       94486,
       94487
     ]

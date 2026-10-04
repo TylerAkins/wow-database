@@ -235,7 +235,7 @@
   "questId": 92745,
   "questLevel": 14,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -248,7 +248,18 @@
       ],
       "name": "The State of the Mines",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": [
+        [
+          {
+            "1": 1236,
+            "3": 0
+          },
+          {
+            "1": 1426,
+            "3": 0
+          }
+        ]
+      ],
       "objectivesText": [
         "Slay 4 Kobold Diggers in the Jangolode Mine and 6 Riverpaw Miners in the Gold Coast Quarry."
       ],

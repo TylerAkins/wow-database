@@ -24,7 +24,7 @@
   "questId": 94303,
   "questLevel": 60,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -33,7 +33,18 @@
       "finishedBy": [],
       "name": "Craftsman's Writ: Thick Leather Ammo Pouch",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "3": [
+          {
+            "1": 264103,
+            "3": 0
+          },
+          {
+            "1": 8218,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Acquire the items requested by the customer and deliver them to the location marked on your map. This writ must be in your possession to complete the transaction."
       ],

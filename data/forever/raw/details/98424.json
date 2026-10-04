@@ -159,7 +159,7 @@
   "questId": 98424,
   "questLevel": 10,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -172,7 +172,22 @@
       ],
       "name": "Fizsprocket's Notes",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "3": [
+          {
+            "1": 281035,
+            "3": 0
+          },
+          {
+            "1": 281036,
+            "3": 0
+          },
+          {
+            "1": 281037,
+            "3": 0
+          }
+        ]
+      },
       "objectivesText": [
         "Collect the rest of Supervisor Fizsprocket's pages inside The Venture Co. Mine and bring them to Morin Cloudstalker near Bloodhoof Village."
       ],

@@ -77,7 +77,7 @@
   "questId": 94503,
   "questLevel": 23,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -105,7 +105,11 @@
       "requiredSpell": 0,
       "sourceItemId": 0,
       "specialFlags": 0,
-      "startedBy": [],
+      "startedBy": {
+        "2": [
+          619896
+        ]
+      },
       "zoneOrSort": -82
     },
     "finishers": [
@@ -145,7 +149,22 @@
       "specialFlags": "QuestieDB",
       "startedBy": "QuestieDB",
       "zoneOrSort": "QuestieDB"
-    }
+    },
+    "starters": [
+      {
+        "id": 619896,
+        "name": "Forgotten Shrine",
+        "spawns": {
+          "40": [
+            [
+              45.45,
+              59.89
+            ]
+          ]
+        },
+        "type": "object"
+      }
+    ]
   },
   "races": [
     1,

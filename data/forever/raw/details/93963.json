@@ -249,11 +249,13 @@
     "typeId": 93963
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    94947
+  ],
   "questId": 93963,
   "questLevel": 13,
   "questie": {
-    "commit": "cac1eff815923f896d082764d023cf812454a023",
+    "commit": "9d39232dab48e35811a7cc02473c2f4e42b62ab6",
     "fields": {
       "availableStartingWith": 0,
       "availableUntilCompleted": 0,
@@ -266,11 +268,35 @@
       ],
       "name": "Exploring the Alliance",
       "nextQuestInChain": 0,
-      "objectives": [],
+      "objectives": {
+        "1": [
+          {
+            "1": 7937,
+            "3": 5
+          },
+          {
+            "1": 2784,
+            "3": 5
+          },
+          {
+            "1": 7999,
+            "3": 5
+          }
+        ],
+        "3": [
+          {
+            "1": 285356,
+            "3": 5
+          }
+        ]
+      },
       "objectivesText": [
         "Speak with Randal Emerson in Stormwind Keep to receive further instructions. Use the instructions received to locate and speak with King Magni Bronzebeard, High Tinker Mekkatorque, and Tyrande Whisperwind."
       ],
       "parentQuest": 0,
+      "preQuestSingle": [
+        94947
+      ],
       "questFlags": 0,
       "questLevel": 13,
       "reputationReward": [
@@ -327,6 +353,7 @@
       "objectives": "QuestieDB",
       "objectivesText": "QuestieDB",
       "parentQuest": "QuestieDB",
+      "preQuestSingle": "QuestieDB",
       "questFlags": "QuestieDB",
       "questLevel": "QuestieDB",
       "reputationReward": "QuestieDB",
@@ -351,6 +378,14 @@
   "races": [
     95
   ],
+  "requirements": {
+    "anyOf": [
+      94947
+    ],
+    "preQuestSingle": [
+      94947
+    ]
+  },
   "startPins": [
     {
       "npcId": 1748,
