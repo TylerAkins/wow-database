@@ -49,7 +49,7 @@ Private checkout uses a fine-grained personal access token with contents read on
 
 ## Updates
 
-[`.github/workflows/update-questiedb.yml`](.github/workflows/update-questiedb.yml) refreshes the merged Forever export daily at 11:00 UTC and can be started manually with `workflow_dispatch`. Each run checks out the current QuestieDB and AllTheThings revisions, uses QuestieDB's Forever export as the base, applies eligible ATT locations, runs `go test ./...`, and updates the existing `questiedb-update` review pull request branch. The pull request records both source commits and the merger's counts and issues. The workflow does not merge its pull request.
+[`.github/workflows/database-update.yml`](.github/workflows/database-update.yml) refreshes the merged Forever export daily at 11:00 UTC and can be started manually with `workflow_dispatch`. Each run checks out the current QuestieDB and AllTheThings revisions, uses QuestieDB's Forever export as the base, applies eligible ATT locations, runs `go test ./...`, and updates the existing `questiedb-update` review pull request branch. The pull request records both source commits and the merger's counts and issues. The workflow does not merge its pull request.
 
 Before the first scheduled pull request can open, the repository needs:
 

@@ -10,7 +10,7 @@ import (
 func TestWorkflowScheduleParses(t *testing.T) {
 	root := repoRoot(t)
 	ci := string(mustRead(t, filepath.Join(root, ".github/workflows/ci.yml")))
-	update := string(mustRead(t, filepath.Join(root, ".github/workflows/update-questiedb.yml")))
+	update := string(mustRead(t, filepath.Join(root, ".github/workflows/database-update.yml")))
 	for _, body := range []string{ci, update} {
 		if !strings.Contains(body, "actions/checkout@v7.0.1") {
 			t.Fatal("checkout is not pinned to v7.0.1")
@@ -36,8 +36,13 @@ func TestWorkflowScheduleParses(t *testing.T) {
 			t.Fatalf("update workflow missing %s", needle)
 		}
 	}
-	if _, err := os.Stat(filepath.Join(root, ".github/workflows/update-att.yml")); err == nil {
-		t.Fatal("redundant update-att workflow should be removed")
+	for _, path := range []string{
+		".github/workflows/update-att.yml",
+		".github/workflows/update-questiedb.yml",
+	} {
+		if _, err := os.Stat(filepath.Join(root, path)); err == nil {
+			t.Fatalf("legacy workflow %s should be removed", path)
+		}
 	}
 }
 
