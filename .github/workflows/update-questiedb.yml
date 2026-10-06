@@ -1,7 +1,6 @@
-name: Refresh QuestieDB source
+name: Refresh Forever quest sources
 
 on:
-  workflow_call:
   workflow_dispatch:
   schedule:
     - cron: "0 11 * * *"
