@@ -13,6 +13,8 @@ import (
 	"path/filepath"
 	"sort"
 	"strconv"
+
+	"github.com/TylerAkins/wow-database/internal/att"
 )
 
 const (
@@ -30,20 +32,34 @@ func ExceedsShardLimit(n int) bool {
 
 // Options selects the dump and the published directory.
 type Options struct {
-	Dump   io.Reader
-	OutDir string
-	Check  bool
+	Dump      io.Reader
+	OutDir    string
+	Check     bool
+	ATT       *att.Result
+	ATTCommit string
 }
 
 type summary struct {
 	questCount  int
 	commit      string
+	attCommit   string
 	generatedAt string
+	merge       mergeCounts
+}
+
+type mergeCounts struct {
+	filled    int
+	conflicts int
+	ambiguous int
+	unmapped  int
+	attOnly   int
+	issues    []map[string]any
 }
 
 type questRecord struct {
 	id    int
 	quest map[string]any
+	raw   map[string]any
 }
 
 // Run publishes a dump, or compares it with the existing tree when Check is set.
@@ -54,9 +70,15 @@ func Run(opts Options) error {
 	if opts.OutDir == "" {
 		return fmt.Errorf("output directory is required")
 	}
-	records, meta, err := readDump(opts.Dump)
+	records, meta, err := readDump(opts.Dump, opts.ATT)
 	if err != nil {
 		return err
+	}
+	if opts.ATT != nil {
+		meta.attCommit = opts.ATTCommit
+		if meta.attCommit == "" {
+			return fmt.Errorf("ATT commit is required when ATT data is provided")
+		}
 	}
 	files, err := render(records, meta)
 	if err != nil {
@@ -68,7 +90,7 @@ func Run(opts Options) error {
 	return replace(opts.OutDir, files)
 }
 
-func readDump(reader io.Reader) ([]questRecord, summary, error) {
+func readDump(reader io.Reader, attData *att.Result) ([]questRecord, summary, error) {
 	scanner := bufio.NewScanner(reader)
 	scanner.Buffer(make([]byte, 64*1024), 32*1024*1024)
 	var records []questRecord
@@ -105,11 +127,7 @@ func readDump(reader io.Reader) ([]questRecord, summary, error) {
 			return nil, summary{}, fmt.Errorf("duplicate quest %d", id)
 		}
 		seen[id] = true
-		quest, err := publishQuest(id, row)
-		if err != nil {
-			return nil, summary{}, err
-		}
-		records = append(records, questRecord{id: id, quest: quest})
+		records = append(records, questRecord{id: id, raw: row})
 	}
 	if err := scanner.Err(); err != nil {
 		return nil, summary{}, err
@@ -124,6 +142,16 @@ func readDump(reader io.Reader) ([]questRecord, summary, error) {
 		return nil, summary{}, fmt.Errorf("summary questCount %d does not match %d rows", meta.questCount, len(records))
 	}
 	sort.Slice(records, func(i, j int) bool { return records[i].id < records[j].id })
+	if attData != nil {
+		meta.merge = mergeATT(records, *attData)
+	}
+	for i := range records {
+		quest, err := publishQuest(records[i].id, records[i].raw)
+		if err != nil {
+			return nil, summary{}, err
+		}
+		records[i].quest = quest
+	}
 	return records, meta, nil
 }
 
@@ -194,7 +222,7 @@ func render(records []questRecord, meta summary) (map[string][]byte, error) {
 			"sha256":     hex.EncodeToString(sum[:]),
 		})
 	}
-	manifest, err := marshal(map[string]any{
+	manifestData := map[string]any{
 		"schemaVersion": schemaVersion,
 		"gameVersion":   "forever",
 		"source":        "Questie/QuestieDB",
@@ -203,7 +231,19 @@ func render(records []questRecord, meta summary) (map[string][]byte, error) {
 		"generatedAt":   meta.generatedAt,
 		"questCount":    meta.questCount,
 		"shards":        shards,
-	})
+	}
+	if meta.attCommit != "" {
+		manifestData["sources"] = map[string]string{"questie": meta.commit, "att": meta.attCommit}
+		manifestData["merge"] = map[string]any{
+			"attFilledSpawns":       meta.merge.filled,
+			"coordinateConflicts":   meta.merge.conflicts,
+			"ambiguousLocations":    meta.merge.ambiguous,
+			"unmappedLocations":     meta.merge.unmapped,
+			"attOnlyQuestsExcluded": meta.merge.attOnly,
+			"issues":                meta.merge.issues,
+		}
+	}
+	manifest, err := marshal(manifestData)
 	if err != nil {
 		return nil, err
 	}

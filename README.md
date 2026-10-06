@@ -1,6 +1,6 @@
 # WoW Database
 
-Published Forever quest data for other repositories to probe. QuestieDB is the only source. The scheduled workflow refreshes the export. You do not run a scraper locally.
+Published Forever quest data for other repositories to probe. QuestieDB defines the quest set and metadata. AllTheThings (ATT) supplements available NPC locations where QuestieDB has no usable spawn. The scheduled workflows refresh both sources through one merge pipeline. You do not run a scraper locally.
 
 `schemaVersion` is 2. The previous Wowhead tree is gone, including `data/forever/raw`, `data/forever/compiled`, `data/forever/questie`, and `data/forever/reports`. Start at `export/forever/manifest.json`.
 
@@ -8,7 +8,7 @@ Published Forever quest data for other repositories to probe. QuestieDB is the o
 
 | Path | Purpose |
 | --- | --- |
-| `export/forever/manifest.json` | Probe document: QuestieDB commit, quest count, shard paths, and sha256 |
+| `export/forever/manifest.json` | Probe document: source commits, merge counts, quest count, shard paths, and sha256 |
 | `export/forever/quests/` | Quest bodies, at most 500 quests per file |
 | `export/forever/indexes/zones.json` | `zoneOrSort` to quest ids |
 | `export/forever/indexes/starters.json` | `npc\|id`, `object\|id`, or `item\|id` to quests that start there |
@@ -49,7 +49,7 @@ Private checkout uses a fine-grained personal access token with contents read on
 
 ## Updates
 
-[`.github/workflows/update-questiedb.yml`](.github/workflows/update-questiedb.yml) runs every day at 11:00 UTC (5:00am CST, 6:00am CDT) and can be started with `workflow_dispatch`. It checks out QuestieDB `master`, exports the Forever flavor with LuaJIT, compiles `export/forever`, and opens a pull request when the tree changes. The pull request records the manifest commit and quest count from before the compile.
+[`.github/workflows/update-questiedb.yml`](.github/workflows/update-questiedb.yml) checks for QuestieDB changes daily at 11:00 UTC. [`.github/workflows/update-att.yml`](.github/workflows/update-att.yml) checks for ATT changes daily at 12:00 UTC. Both can be started with `workflow_dispatch` and call the same serialized refresh workflow. Each run checks out both current source revisions, uses QuestieDB's Forever export as the base, applies eligible ATT locations, and updates the existing `questiedb-update` review pull request branch. The pull request records both source commits and the merger's counts and issues. Neither workflow merges its pull request.
 
 Before the first scheduled pull request can open, the repository needs:
 

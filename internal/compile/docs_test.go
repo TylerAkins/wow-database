@@ -11,6 +11,7 @@ func TestWorkflowScheduleParses(t *testing.T) {
 	root := repoRoot(t)
 	ci := string(mustRead(t, filepath.Join(root, ".github/workflows/ci.yml")))
 	update := string(mustRead(t, filepath.Join(root, ".github/workflows/update-questiedb.yml")))
+	attUpdate := string(mustRead(t, filepath.Join(root, ".github/workflows/update-att.yml")))
 	for _, body := range []string{ci, update} {
 		if !strings.Contains(body, "actions/checkout@v7.0.1") {
 			t.Fatal("checkout is not pinned to v7.0.1")
@@ -30,6 +31,11 @@ func TestWorkflowScheduleParses(t *testing.T) {
 	} {
 		if !strings.Contains(update, needle) {
 			t.Fatalf("update workflow missing %s", needle)
+		}
+	}
+	for _, needle := range []string{`cron: "0 12 * * *"`, "workflow_dispatch", "./.github/workflows/update-questiedb.yml", "pull-requests: write"} {
+		if !strings.Contains(attUpdate, needle) {
+			t.Fatalf("ATT update workflow missing %s", needle)
 		}
 	}
 }
