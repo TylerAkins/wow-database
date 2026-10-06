@@ -6007,6 +6007,129 @@
           "type": "npc"
         }
       ]
+    },
+    "99411": {
+      "faction": "Horde",
+      "finishedBy": [
+        {
+          "id": 277182,
+          "name": "Ahab Wheathoof",
+          "spawns": [
+            [
+              215,
+              47.28,
+              57.63
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "id": 99411,
+      "name": "Kyle's Gone Missing!",
+      "objectives": {
+        "creature": [
+          {
+            "count": 17,
+            "id": 277154
+          }
+        ]
+      },
+      "objectivesText": [
+        "Ahab Wheathoof at Bloodhoof Village in Mulgore wants you to feed his prized puppy, Kyle the Frenzied.",
+        "",
+        "Feed Kyle Tender Strider Meat and return to Ahab Wheathoof."
+      ],
+      "places": [
+        {
+          "id": 277182,
+          "name": "Ahab Wheathoof",
+          "role": "available",
+          "spawns": [
+            [
+              215,
+              47.28,
+              57.63
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 277182,
+          "name": "Ahab Wheathoof",
+          "role": "turnIn",
+          "spawns": [
+            [
+              215,
+              47.28,
+              57.63
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 277154,
+          "name": "Kyle the Frenzied",
+          "role": "objective",
+          "spawns": [
+            [
+              215,
+              46.82,
+              63.84
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "questLevel": 7,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": true,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "reputationReward": [
+        {
+          "factionId": 81,
+          "value": 100
+        }
+      ],
+      "requiredLevel": 7,
+      "requiredRaces": [
+        2,
+        5,
+        6,
+        8,
+        96
+      ],
+      "requiredSourceItems": [
+        287505
+      ],
+      "startedBy": [
+        {
+          "id": 277182,
+          "name": "Ahab Wheathoof",
+          "spawns": [
+            [
+              215,
+              47.28,
+              57.63
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 215
     }
   },
   "schemaVersion": 2
