@@ -1,6 +1,7 @@
-name: Update QuestieDB
+name: Refresh QuestieDB source
 
 on:
+  workflow_call:
   workflow_dispatch:
   schedule:
     - cron: "0 11 * * *"
@@ -10,7 +11,7 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: update-questiedb
+  group: forever-database-update
   cancel-in-progress: false
 
 jobs:
@@ -35,35 +36,48 @@ jobs:
           path: .cache/QuestieDB
           fetch-depth: 1
 
+      - name: Checkout AllTheThings
+        uses: actions/checkout@v7.0.1
+        with:
+          repository: ATTWoWAddon/AllTheThings
+          ref: master
+          path: .cache/AllTheThings
+          fetch-depth: 1
+
       - name: Install LuaJIT
         run: sudo apt-get update && sudo apt-get install -y luajit
 
-      - name: Read previous manifest
-        id: before
+      - name: Read source revisions
+        id: sources
         run: |
           set -euo pipefail
           if [[ -f export/forever/manifest.json ]]; then
-            echo "old_sha=$(awk -F'"' '/"commit":/{print $4; exit}' export/forever/manifest.json)" >> "$GITHUB_OUTPUT"
-            echo "old_quests=$(awk -F'[:, ]+' '/"questCount":/{print $3; exit}' export/forever/manifest.json)" >> "$GITHUB_OUTPUT"
+            old_questie=$(jq -r '.sources.questie // .commit // "none"' export/forever/manifest.json)
+            old_att=$(jq -r '.sources.att // "none"' export/forever/manifest.json)
           else
-            echo "old_sha=none" >> "$GITHUB_OUTPUT"
-            echo "old_quests=0" >> "$GITHUB_OUTPUT"
+            old_questie=none
+            old_att=none
           fi
-          echo "sha=$(git -C .cache/QuestieDB rev-parse HEAD)" >> "$GITHUB_OUTPUT"
-          echo "generated_at=$(git -C .cache/QuestieDB log -1 --format=%cI)" >> "$GITHUB_OUTPUT"
+          questie_sha=$(git -C .cache/QuestieDB rev-parse HEAD)
+          att_sha=$(git -C .cache/AllTheThings rev-parse HEAD)
+          generated_at=$(git -C .cache/QuestieDB log -1 --format=%cI)
+          printf 'old_questie=%s\nold_att=%s\nquestie=%s\natt=%s\ngenerated_at=%s\n' \
+            "$old_questie" "$old_att" "$questie_sha" "$att_sha" "$generated_at" >> "$GITHUB_OUTPUT"
 
-      - name: Export and compile
+      - name: Export and merge sources
         run: |
           set -euo pipefail
-          echo "QuestieDB ${{ steps.before.outputs.sha }}"
           (
             cd .cache/QuestieDB
             luajit "$GITHUB_WORKSPACE/tools/export_questiedb.lua" \
-              "${{ steps.before.outputs.sha }}" \
-              "${{ steps.before.outputs.generated_at }}" \
+              "${{ steps.sources.outputs.questie }}" \
+              "${{ steps.sources.outputs.generated_at }}" \
               > "${RUNNER_TEMP}/quests.jsonl"
           )
-          go run ./cmd/compile --dump "${RUNNER_TEMP}/quests.jsonl" --out export/forever
+          go run ./cmd/compile --dump "${RUNNER_TEMP}/quests.jsonl" \
+            --att-root .cache/AllTheThings \
+            --att-commit "${{ steps.sources.outputs.att }}" \
+            --out export/forever
           go test ./...
 
       - name: Detect export changes
@@ -75,7 +89,7 @@ jobs:
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
-          echo "quests=$(awk -F'[:, ]+' '/"questCount":/{print $3; exit}' export/forever/manifest.json)" >> "$GITHUB_OUTPUT"
+          printf 'quests=%s\n' "$(jq -r '.questCount' export/forever/manifest.json)" >> "$GITHUB_OUTPUT"
 
       - name: Close stale database pull request
         if: steps.changes.outputs.changed == 'false'
@@ -83,40 +97,32 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
-          PR_NUMBER="$(gh pr list \
-            --repo "$GITHUB_REPOSITORY" \
-            --base main \
-            --head questiedb-update \
-            --state open \
-            --limit 1 \
-            --json number \
-            --jq '.[0].number // empty')"
-          if [[ -z "$PR_NUMBER" ]]; then
-            echo "No stale QuestieDB pull request is open."
+          pr_number=$(gh pr list --repo "$GITHUB_REPOSITORY" --base main \
+            --head questiedb-update --state open --limit 1 --json number --jq '.[0].number // empty')
+          if [[ -z "$pr_number" ]]; then
+            echo "No stale Forever database pull request is open."
             exit 0
           fi
-          gh pr close "$PR_NUMBER" \
-            --repo "$GITHUB_REPOSITORY" \
-            --delete-branch \
+          gh pr close "$pr_number" --repo "$GITHUB_REPOSITORY" --delete-branch \
             --comment "Closing automatically because the regenerated Forever export now matches main."
 
-      - name: Create pull request
+      - name: Create or update merged pull request
         if: steps.changes.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v8.1.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: questiedb-update
           delete-branch: true
-          commit-message: "chore: update QuestieDB Forever export"
-          title: "chore: update QuestieDB Forever export"
+          commit-message: "chore: refresh Forever quest sources"
+          title: "chore: refresh Forever quest sources"
           assignees: TylerAkins
           add-paths: export/forever
           body: |
-            Automated regeneration of `export/forever` from [QuestieDB](https://github.com/Questie/QuestieDB) Forever data.
+            Automated regeneration of `export/forever` from the Forever data in [QuestieDB](https://github.com/Questie/QuestieDB) and [AllTheThings](https://github.com/ATTWoWAddon/AllTheThings).
 
-            | | SHA | Quests |
+            | Source | Previous SHA | Updated SHA |
             |---|---|---|
-            | Previous | `${{ steps.before.outputs.old_sha }}` | ${{ steps.before.outputs.old_quests }} |
-            | Updated | `${{ steps.before.outputs.sha }}` | ${{ steps.changes.outputs.quests }} |
+            | QuestieDB | `${{ steps.sources.outputs.old_questie }}` | `${{ steps.sources.outputs.questie }}` |
+            | AllTheThings | `${{ steps.sources.outputs.old_att }}` | `${{ steps.sources.outputs.att }}` |
 
-            The previous SHA and quest count were read from `export/forever/manifest.json` before this compile. This workflow does not change repository visibility.
+            QuestieDB defines the published quest set and quest metadata. ATT fills available NPC locations only when the matching QuestieDB available place has no usable spawn. The manifest records merge counts and coordinate issues.
