@@ -10,8 +10,7 @@ import (
 func TestWorkflowScheduleParses(t *testing.T) {
 	root := repoRoot(t)
 	ci := string(mustRead(t, filepath.Join(root, ".github/workflows/ci.yml")))
-	update := string(mustRead(t, filepath.Join(root, ".github/workflows/update-questiedb.yml")))
-	attUpdate := string(mustRead(t, filepath.Join(root, ".github/workflows/update-att.yml")))
+	update := string(mustRead(t, filepath.Join(root, ".github/workflows/database-update.yml")))
 	for _, body := range []string{ci, update} {
 		if !strings.Contains(body, "actions/checkout@v7.0.1") {
 			t.Fatal("checkout is not pinned to v7.0.1")
@@ -22,20 +21,27 @@ func TestWorkflowScheduleParses(t *testing.T) {
 	}
 	for _, needle := range []string{
 		`cron: "0 11 * * *"`,
+		"workflow_dispatch",
 		"contents: write",
 		"pull-requests: write",
+		"forever-database-update",
 		"luajit",
 		"cmd/compile",
+		"go test ./...",
 		"peter-evans/create-pull-request@v8.1.1",
 		"cd .cache/QuestieDB",
+		".cache/AllTheThings",
 	} {
 		if !strings.Contains(update, needle) {
 			t.Fatalf("update workflow missing %s", needle)
 		}
 	}
-	for _, needle := range []string{`cron: "0 12 * * *"`, "workflow_dispatch", "./.github/workflows/update-questiedb.yml", "pull-requests: write"} {
-		if !strings.Contains(attUpdate, needle) {
-			t.Fatalf("ATT update workflow missing %s", needle)
+	for _, path := range []string{
+		".github/workflows/update-att.yml",
+		".github/workflows/update-questiedb.yml",
+	} {
+		if _, err := os.Stat(filepath.Join(root, path)); err == nil {
+			t.Fatalf("legacy workflow %s should be removed", path)
 		}
 	}
 }
