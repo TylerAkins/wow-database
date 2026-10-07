@@ -27,14 +27,6 @@ jobs:
         with:
           go-version-file: go.mod
 
-      - name: Checkout QuestieDB
-        uses: actions/checkout@v7.0.1
-        with:
-          repository: Questie/QuestieDB
-          ref: master
-          path: .cache/QuestieDB
-          fetch-depth: 1
-
       - name: Checkout AllTheThings
         uses: actions/checkout@v7.0.1
         with:
@@ -43,39 +35,27 @@ jobs:
           path: .cache/AllTheThings
           fetch-depth: 1
 
-      - name: Install LuaJIT
-        run: sudo apt-get update && sudo apt-get install -y luajit
-
-      - name: Read source revisions
+      - name: Read source revision
         id: sources
         run: |
           set -euo pipefail
           if [[ -f export/forever/manifest.json ]]; then
-            old_questie=$(jq -r '.sources.questie // .commit // "none"' export/forever/manifest.json)
-            old_att=$(jq -r '.sources.att // "none"' export/forever/manifest.json)
+            old_att=$(jq -r '.commit // "none"' export/forever/manifest.json)
           else
-            old_questie=none
             old_att=none
           fi
-          questie_sha=$(git -C .cache/QuestieDB rev-parse HEAD)
           att_sha=$(git -C .cache/AllTheThings rev-parse HEAD)
-          generated_at=$(git -C .cache/QuestieDB log -1 --format=%cI)
-          printf 'old_questie=%s\nold_att=%s\nquestie=%s\natt=%s\ngenerated_at=%s\n' \
-            "$old_questie" "$old_att" "$questie_sha" "$att_sha" "$generated_at" >> "$GITHUB_OUTPUT"
+          generated_at=$(git -C .cache/AllTheThings log -1 --format=%cI)
+          printf 'old_att=%s\natt=%s\ngenerated_at=%s\n' \
+            "$old_att" "$att_sha" "$generated_at" >> "$GITHUB_OUTPUT"
 
-      - name: Export and merge sources
+      - name: Export ATT Forever quests
         run: |
           set -euo pipefail
-          (
-            cd .cache/QuestieDB
-            luajit "$GITHUB_WORKSPACE/tools/export_questiedb.lua" \
-              "${{ steps.sources.outputs.questie }}" \
-              "${{ steps.sources.outputs.generated_at }}" \
-              > "${RUNNER_TEMP}/quests.jsonl"
-          )
-          go run ./cmd/compile --dump "${RUNNER_TEMP}/quests.jsonl" \
+          go run ./cmd/compile \
             --att-root .cache/AllTheThings \
             --att-commit "${{ steps.sources.outputs.att }}" \
+            --generated-at "${{ steps.sources.outputs.generated_at }}" \
             --out export/forever
           go test ./...
 
@@ -97,7 +77,7 @@ jobs:
         run: |
           set -euo pipefail
           pr_number=$(gh pr list --repo "$GITHUB_REPOSITORY" --base main \
-            --head questiedb-update --state open --limit 1 --json number --jq '.[0].number // empty')
+            --head att-update --state open --limit 1 --json number --jq '.[0].number // empty')
           if [[ -z "$pr_number" ]]; then
             echo "No stale Forever database pull request is open."
             exit 0
@@ -105,23 +85,22 @@ jobs:
           gh pr close "$pr_number" --repo "$GITHUB_REPOSITORY" --delete-branch \
             --comment "Closing automatically because the regenerated Forever export now matches main."
 
-      - name: Create or update merged pull request
+      - name: Create or update pull request
         if: steps.changes.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v8.1.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: questiedb-update
+          branch: att-update
           delete-branch: true
-          commit-message: "chore: refresh Forever quest sources"
-          title: "chore: refresh Forever quest sources"
+          commit-message: "chore: refresh Forever quest export from ATT"
+          title: "chore: refresh Forever quest export from ATT"
           assignees: TylerAkins
           add-paths: export/forever
           body: |
-            Automated regeneration of `export/forever` from the Forever data in [QuestieDB](https://github.com/Questie/QuestieDB) and [AllTheThings](https://github.com/ATTWoWAddon/AllTheThings).
+            Automated regeneration of `export/forever` from the Forever database in [AllTheThings](https://github.com/ATTWoWAddon/AllTheThings).
 
             | Source | Previous SHA | Updated SHA |
             |---|---|---|
-            | QuestieDB | `${{ steps.sources.outputs.old_questie }}` | `${{ steps.sources.outputs.questie }}` |
             | AllTheThings | `${{ steps.sources.outputs.old_att }}` | `${{ steps.sources.outputs.att }}` |
 
-            QuestieDB defines the published quest set and quest metadata. ATT fills available NPC locations only when the matching QuestieDB available place has no usable spawn. The manifest records merge counts and coordinate issues.
+            The Go compiler reads ATT `.contrib/.db/forever` quest declarations directly. The manifest records any unmapped coordinate issues.
