@@ -1,6 +1,6 @@
 package compile
 
-// Quest flag bits from QuestieDB src/corrections/enum/quests.lua.
+// Quest flag bits aligned with the published questType schema (WoW quest flags).
 const (
 	questFlagStayAlive     = 1
 	questFlagPartyAccept   = 2
@@ -18,8 +18,7 @@ const (
 	questFlagMonthly       = 65536
 )
 
-// specialFlags from QuestieDB. Repeatable is constants.specialFlags.REPEATABLE.
-// Event is the event-gated bit named in src/meta/questMeta.lua.
+// specialFlags for repeatable and event-gated quests in the published schema.
 const (
 	questSpecialRepeatable = 1
 	questSpecialEvent      = 2
@@ -54,7 +53,7 @@ var classBits = []bitID{
 var allianceRaces = map[int]bool{1: true, 3: true, 4: true, 7: true, 95: true}
 var hordeRaces = map[int]bool{2: true, 5: true, 6: true, 8: true, 9: true, 96: true}
 
-// sortKeys from QuestieDB src/corrections/enum/quests.lua. Negative zoneOrSort values.
+// sortKeys for negative zoneOrSort values in the published schema.
 var sortKeys = map[int]string{
 	-1000: "SPECIALTEMP", -367: "REPUTATION", -344: "LEGENDARY", -284: "SPECIAL",
 	-221: "TREASURE_MAP", -23: "UNDERCITY", -1: "EPIC",
@@ -75,7 +74,7 @@ var sortKeys = map[int]string{
 	-676: "NIGHT_ELF", -666: "CAMPING", -660: "THE_HIGH_ORDER",
 }
 
-// professionKeys from QuestieDB src/corrections/enum/professions.lua.
+// professionKeys for profession quest sorting in the published schema.
 var professionKeys = map[int]string{
 	164: "BLACKSMITHING", 165: "LEATHERWORKING", 171: "ALCHEMY", 197: "TAILORING",
 	202: "ENGINEERING", 333: "ENCHANTING", 755: "JEWELCRAFTING", 773: "INSCRIPTION",

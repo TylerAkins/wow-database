@@ -25,12 +25,11 @@ func TestWorkflowScheduleParses(t *testing.T) {
 		"contents: write",
 		"pull-requests: write",
 		"forever-database-update",
-		"luajit",
 		"cmd/compile",
 		"go test ./...",
 		"peter-evans/create-pull-request@v8.1.1",
-		"cd .cache/QuestieDB",
 		".cache/AllTheThings",
+		"--att-root",
 	} {
 		if !strings.Contains(update, needle) {
 			t.Fatalf("update workflow missing %s", needle)

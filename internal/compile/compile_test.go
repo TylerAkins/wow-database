@@ -9,8 +9,6 @@ import (
 	"path/filepath"
 	"strings"
 	"testing"
-
-	"github.com/TylerAkins/wow-database/internal/att"
 )
 
 func TestCompile_OmitsWowheadFields(t *testing.T) {
@@ -333,123 +331,97 @@ func TestCompile_UnmappedFieldFails(t *testing.T) {
 	}
 }
 
-func TestMergeATT_FillsMatchingAvailablePlacesAndKeepsQuestieData(t *testing.T) {
-	rows := []map[string]any{
-		quest(333, map[string]any{"name": "Questie title"}, map[string]any{
-			"places": []any{map[string]any{"role": "available", "type": "npc", "id": 1427, "name": "Harlan", "spawns": []any{}}},
-		}),
-		quest(399, map[string]any{"name": "Questie title"}, map[string]any{
-			"places": []any{map[string]any{"role": "available", "type": "npc", "id": 1646, "spawns": []any{[]any{1519, 1.0, 2.0}}}},
-		}),
-		quest(9000, map[string]any{"name": "Questie only"}, map[string]any{"places": []any{map[string]any{"role": "available", "type": "npc", "id": 1, "spawns": []any{}}}}),
-	}
-	attData := &att.Result{Locations: []att.Location{
-		{QuestID: 333, Kind: "npc", NPCID: 1427, Spawns: []att.Spawn{{Zone: 1519, X: 62.3, Y: 67.9}}},
-		{QuestID: 399, Kind: "npc", NPCID: 1646, Spawns: []att.Spawn{{Zone: 1519, X: 57.7, Y: 47.9}}},
-		{QuestID: 1, Kind: "npc", NPCID: 2, Spawns: []att.Spawn{{Zone: 1519, X: 3, Y: 4}}},
-	}}
-	dir := t.TempDir()
-	if err := Run(Options{Dump: strings.NewReader(dump(t, rows...)), OutDir: dir, ATT: attData, ATTCommit: "def"}); err != nil {
+func TestCompile_ATTExportFromFixture(t *testing.T) {
+	root := t.TempDir()
+	base := filepath.Join(root, ".contrib/.db/forever")
+	if err := os.MkdirAll(filepath.Join(base, ".config/constants"), 0o755); err != nil {
 		t.Fatal(err)
 	}
-	q333 := readQuest(t, dir, 333)
-	spawn := q333["places"].([]any)[0].(map[string]any)["spawns"].([]any)[0].([]any)
-	if spawn[0].(float64) != 1519 || spawn[1].(float64) != 62.3 || spawn[2].(float64) != 67.9 || q333["name"] != "Questie title" {
-		t.Fatalf("merged quest 333 %#v", q333)
+	if err := os.MkdirAll(filepath.Join(base, "zones"), 0o755); err != nil {
+		t.Fatal(err)
 	}
-	q399 := readQuest(t, dir, 399)
-	spawn = q399["places"].([]any)[0].(map[string]any)["spawns"].([]any)[0].([]any)
-	if spawn[1].(float64) != 1 || spawn[2].(float64) != 2 {
-		t.Fatalf("Questie spawn was overwritten: %#v", spawn)
+	body := `root({
+	q(783, {	-- A Threat Within
+		qg = 823,
+		coord = { 48.1, 42.9, MAP.ELWYNN_FOREST },
+		races = ALLIANCE_ONLY,
+	}),
+	q(6, {	-- Bounty on Garrick Padfoot
+		sourceQuest = 18,
+		qg = 823,
+		coord = { 48.1, 42.9, MAP.ELWYNN_FOREST },
+		lvl = 2,
+		groups = {
+			objective(1, {	-- 0/1 Garrick's Head
+				provider = { "i", 182 },
+				cr = 103,
+			}),
+		},
+	}),
+})`
+	if err := os.WriteFile(filepath.Join(base, ".config/constants/maps.lua"), []byte("MAP = {\n ELWYNN_FOREST = 1429;\n}"), 0o644); err != nil {
+		t.Fatal(err)
+	}
+	if err := os.WriteFile(filepath.Join(base, "zones/elwynn.lua"), []byte(body), 0o644); err != nil {
+		t.Fatal(err)
+	}
+	dir := t.TempDir()
+	if err := Run(Options{
+		ATTRoot:     root,
+		ATTCommit:   "att-sha",
+		GeneratedAt: "2026-10-07T00:00:00Z",
+		OutDir:      dir,
+	}); err != nil {
+		t.Fatal(err)
+	}
+	q783 := readQuest(t, dir, 783)
+	if q783["name"] != "A Threat Within" {
+		t.Fatalf("name %#v", q783["name"])
+	}
+	spawn := q783["places"].([]any)[0].(map[string]any)["spawns"].([]any)[0].([]any)
+	if spawn[0].(float64) != 12 {
+		t.Fatalf("zone %#v", spawn[0])
 	}
 	var manifest map[string]any
 	unmarshalFile(t, filepath.Join(dir, "manifest.json"), &manifest)
-	if manifest["sources"].(map[string]any)["att"] != "def" {
-		t.Fatalf("source metadata %#v", manifest["sources"])
-	}
-	counts := manifest["merge"].(map[string]any)
-	if counts["attFilledSpawns"].(float64) != 1 || counts["coordinateConflicts"].(float64) != 1 || counts["attOnlyQuestsExcluded"].(float64) != 1 {
-		t.Fatalf("merge counts %#v", counts)
-	}
-	if len(counts["issues"].([]any)) != 1 {
-		t.Fatalf("merge issues %#v", counts["issues"])
-	}
-	var shard map[string]any
-	unmarshalFile(t, filepath.Join(dir, "quests/0001.json"), &shard)
-	if _, included := shard["quests"].(map[string]any)["1"]; included {
-		t.Fatal("ATT-only quest was added to the Questie quest set")
-	}
-}
-
-func TestMergeATT_ReportsAmbiguousAvailablePlace(t *testing.T) {
-	row := quest(10, nil, map[string]any{"places": []any{
-		map[string]any{"role": "available", "type": "npc", "id": 4, "spawns": []any{}},
-		map[string]any{"role": "available", "type": "npc", "id": 4, "spawns": []any{}},
-	}})
-	dir := t.TempDir()
-	data := &att.Result{Locations: []att.Location{{QuestID: 10, Kind: "npc", NPCID: 4, Spawns: []att.Spawn{{Zone: 1519, X: 1, Y: 2}}}}}
-	if err := Run(Options{Dump: strings.NewReader(dump(t, row)), OutDir: dir, ATT: data, ATTCommit: "att-sha"}); err != nil {
-		t.Fatal(err)
-	}
-	var manifest map[string]any
-	unmarshalFile(t, filepath.Join(dir, "manifest.json"), &manifest)
-	merge := manifest["merge"].(map[string]any)
-	if merge["ambiguousLocations"].(float64) != 1 || len(merge["issues"].([]any)) != 1 {
-		t.Fatalf("merge report %#v", merge)
+	if manifest["source"] != "AllTheThings" || manifest["commit"] != "att-sha" {
+		t.Fatalf("manifest %#v", manifest)
 	}
 }
 
 func TestCompile_ATTOutputIsDeterministic(t *testing.T) {
-	attData := &att.Result{
-		Locations: []att.Location{{QuestID: 3, Kind: "npc", NPCID: 4, Spawns: []att.Spawn{{Zone: 1519, X: 1.5, Y: 2.5}}}},
-		Unmapped:  []att.Report{{QuestID: 9, NPCID: 10, File: "map.lua", Reason: "unknown map"}},
-	}
-	raw := dump(t, quest(3, map[string]any{"name": "A"}, map[string]any{"places": []any{map[string]any{
-		"role": "available", "type": "npc", "id": 4, "spawns": []any{},
-	}}}))
+	root := attFixtureRoot(t)
 	first, second := t.TempDir(), t.TempDir()
 	for _, dir := range []string{first, second} {
-		if err := Run(Options{Dump: strings.NewReader(raw), OutDir: dir, ATT: attData, ATTCommit: "att-sha"}); err != nil {
+		if err := Run(Options{
+			ATTRoot: root, ATTCommit: "att-sha", GeneratedAt: "2026-10-07T00:00:00Z", OutDir: dir,
+		}); err != nil {
 			t.Fatal(err)
 		}
-	}
-	var manifest map[string]any
-	unmarshalFile(t, filepath.Join(first, "manifest.json"), &manifest)
-	if manifest["merge"].(map[string]any)["unmappedLocations"].(float64) != 1 {
-		t.Fatalf("manifest merge metadata %#v", manifest["merge"])
 	}
 	sameFile(t, filepath.Join(first, "manifest.json"), filepath.Join(second, "manifest.json"))
 	sameFile(t, filepath.Join(first, "quests/0001.json"), filepath.Join(second, "quests/0001.json"))
 }
 
-func TestATTRegressionStormwindCoordinatesCompileForReportedAndRelatedQuests(t *testing.T) {
-	cases := []struct {
-		quest, npc int
-		x, y       float64
-	}{
-		{333, 1427, 62.3, 67.9}, {399, 1646, 57.7, 47.9}, {353, 1416, 59.7, 33.8},
-		{325, 1416, 59.7, 33.8}, {389, 1646, 57.7, 47.9}, {393, 1646, 57.7, 47.9}, {396, 1646, 57.7, 47.9},
-	}
-	var rows []map[string]any
-	var locations []att.Location
-	for _, test := range cases {
-		rows = append(rows, quest(test.quest, map[string]any{"name": "Quest"}, map[string]any{"places": []any{map[string]any{
-			"role": "available", "type": "npc", "id": test.npc, "spawns": []any{},
-		}}}))
-		locations = append(locations, att.Location{QuestID: test.quest, Kind: "npc", NPCID: test.npc, Spawns: []att.Spawn{{Zone: 1519, X: test.x, Y: test.y}}})
-	}
-	dir := t.TempDir()
-	if err := Run(Options{Dump: strings.NewReader(dump(t, rows...)), OutDir: dir, ATT: &att.Result{Locations: locations}, ATTCommit: "att-sha"}); err != nil {
+func attFixtureRoot(t *testing.T) string {
+	t.Helper()
+	root := t.TempDir()
+	base := filepath.Join(root, ".contrib/.db/forever")
+	if err := os.MkdirAll(filepath.Join(base, ".config/constants"), 0o755); err != nil {
 		t.Fatal(err)
 	}
-	for _, test := range cases {
-		questBody := readQuest(t, dir, test.quest)
-		place := questBody["places"].([]any)[0].(map[string]any)
-		spawn := place["spawns"].([]any)[0].([]any)
-		if spawn[0].(float64) != 1519 || spawn[1].(float64) != test.x || spawn[2].(float64) != test.y {
-			t.Errorf("quest %d spawn = %#v", test.quest, spawn)
-		}
+	if err := os.MkdirAll(filepath.Join(base, "zones"), 0o755); err != nil {
+		t.Fatal(err)
 	}
+	if err := os.WriteFile(filepath.Join(base, ".config/constants/maps.lua"), []byte("MAP = {\n STORMWIND_CITY = 1453;\n}"), 0o644); err != nil {
+		t.Fatal(err)
+	}
+	if err := os.WriteFile(filepath.Join(base, "zones/quests.lua"), []byte(`root({
+	q(333, { qg = 1427, coord = { 62.3, 67.9, MAP.STORMWIND_CITY } }),
+})`), 0o644); err != nil {
+		t.Fatal(err)
+	}
+	return root
 }
 
 func quest(id int, fields map[string]any, extra ...map[string]any) map[string]any {
