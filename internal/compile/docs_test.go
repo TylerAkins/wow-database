@@ -55,6 +55,37 @@ func TestReadme_PrivateCheckout(t *testing.T) {
 	}
 }
 
+func TestDocs_DescribeATTOnlyPipeline(t *testing.T) {
+	root := repoRoot(t)
+	readme := string(mustRead(t, filepath.Join(root, "README.md")))
+	dev := string(mustRead(t, filepath.Join(root, "docs/DEVELOPMENT.md")))
+	manifest := string(mustRead(t, filepath.Join(root, "docs/MANIFEST.md")))
+	for _, needle := range []string{
+		"AllTheThings",
+		"--att-root",
+		"docs/MANIFEST.md",
+		"att-update",
+	} {
+		if !strings.Contains(readme, needle) {
+			t.Fatalf("README missing %q", needle)
+		}
+	}
+	if strings.Contains(readme, "QuestieDB defines") || strings.Contains(readme, "merge pipeline") {
+		t.Fatal("README still describes the Questie merge pipeline")
+	}
+	if !strings.Contains(dev, "internal/att") {
+		t.Fatal("DEVELOPMENT.md should document internal/att")
+	}
+	if !strings.Contains(dev, "LuaJIT and QuestieDB are **not** used") {
+		t.Fatal("DEVELOPMENT.md should state LuaJIT and QuestieDB are not used")
+	}
+	for _, needle := range []string{"parse.issues", "sources", "merge"} {
+		if !strings.Contains(manifest, needle) {
+			t.Fatalf("MANIFEST.md missing %q", needle)
+		}
+	}
+}
+
 func repoRoot(t *testing.T) string {
 	t.Helper()
 	dir, err := os.Getwd()
