@@ -1,0 +1,133 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T02:28:14+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 54[/li][li]Requires level 48[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=9616/laris-geardawdle]Laris Geardawdle[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=9616/laris-geardawdle]Laris Geardawdle[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]48[/color][small] &nbsp;[/small][color=r1]50[/color][small] &nbsp;[/small][color=r2]52[/color][small] &nbsp;[/small][color=r3]57[/color][small] &nbsp;[/small][color=r4]65[/color][/li][li]Added in patch [acronym=\"1.13.2.31687\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "1537": {
+        "levels": [
+          [
+            {
+              "coord": [
+                75.4,
+                23
+              ],
+              "coords": [
+                [
+                  74.8,
+                  22.2
+                ],
+                [
+                  75.4,
+                  23
+                ],
+                [
+                  75.4,
+                  23.6
+                ],
+                [
+                  75.6,
+                  21.6
+                ],
+                [
+                  75.6,
+                  23
+                ],
+                [
+                  75.6,
+                  23.6
+                ]
+              ],
+              "id": 9616,
+              "name": "Laris Geardawdle",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                75.4,
+                23
+              ],
+              "coords": [
+                [
+                  74.8,
+                  22.2
+                ],
+                [
+                  75.4,
+                  23
+                ],
+                [
+                  75.4,
+                  23.6
+                ],
+                [
+                  75.6,
+                  21.6
+                ],
+                [
+                  75.6,
+                  23
+                ],
+                [
+                  75.6,
+                  23.6
+                ]
+              ],
+              "id": 9616,
+              "name": "Laris Geardawdle",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ironforge"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1537,
+        1
+      ]
+    ]
+  },
+  "minLevel": 48,
+  "pageInfo": {
+    "name": "A Little Slime Goes a Long Way",
+    "type": 5,
+    "typeId": 4513
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 4513,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 9616,
+      "npcName": "Laris Geardawdle",
+      "zoneId": 1537,
+      "x": 75.4,
+      "y": 23.0,
+      "zoneName": "Ironforge"
+    }
+  ]
+}

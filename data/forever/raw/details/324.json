@@ -1,0 +1,275 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-24T23:14:14+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 29[/li][li]Requires level 20[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/object=2734/waterlogged-chest]Waterlogged Chest[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1217/glorin-steelbrow]Glorin Steelbrow[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]20[/color][small] &nbsp;[/small][color=r1]25[/color][small] &nbsp;[/small][color=r2]27[/color][small] &nbsp;[/small][color=r3]32[/color][small] &nbsp;[/small][color=r4]37[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "11": {
+        "levels": [
+          [
+            {
+              "coord": [
+                12.1,
+                64.1
+              ],
+              "coords": [
+                [
+                  12.1,
+                  64.1
+                ]
+              ],
+              "id": 2734,
+              "name": "Waterlogged Chest",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                10.6,
+                60.4
+              ],
+              "coords": [
+                [
+                  10.6,
+                  60.4
+                ],
+                [
+                  10.6,
+                  60.6
+                ]
+              ],
+              "id": 1217,
+              "name": "Glorin Steelbrow",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                11.8,
+                64.2
+              ],
+              "coords": [
+                [
+                  6.2,
+                  73.6
+                ],
+                [
+                  6.4,
+                  72.4
+                ],
+                [
+                  6.4,
+                  72.6
+                ],
+                [
+                  7,
+                  71.4
+                ],
+                [
+                  7,
+                  72.4
+                ],
+                [
+                  7.2,
+                  72.6
+                ],
+                [
+                  7.8,
+                  71.4
+                ],
+                [
+                  7.8,
+                  72.4
+                ],
+                [
+                  8,
+                  70.2
+                ],
+                [
+                  8,
+                  72.6
+                ],
+                [
+                  8.6,
+                  72.4
+                ],
+                [
+                  8.8,
+                  67.8
+                ],
+                [
+                  9.4,
+                  66.4
+                ],
+                [
+                  9.4,
+                  66.6
+                ],
+                [
+                  9.4,
+                  68.8
+                ],
+                [
+                  9.4,
+                  70
+                ],
+                [
+                  9.4,
+                  71.4
+                ],
+                [
+                  9.4,
+                  72.6
+                ],
+                [
+                  9.6,
+                  66.4
+                ],
+                [
+                  9.6,
+                  67.4
+                ],
+                [
+                  9.6,
+                  67.6
+                ],
+                [
+                  9.6,
+                  72.4
+                ],
+                [
+                  9.6,
+                  72.6
+                ],
+                [
+                  9.8,
+                  68.6
+                ],
+                [
+                  10.2,
+                  70
+                ],
+                [
+                  10.2,
+                  71
+                ],
+                [
+                  10.8,
+                  71.4
+                ],
+                [
+                  11.2,
+                  65.2
+                ],
+                [
+                  11.2,
+                  65.6
+                ],
+                [
+                  11.8,
+                  63.2
+                ],
+                [
+                  11.8,
+                  64.2
+                ],
+                [
+                  12,
+                  66.6
+                ],
+                [
+                  12.4,
+                  65.2
+                ],
+                [
+                  12.4,
+                  66.2
+                ],
+                [
+                  12.6,
+                  65.2
+                ],
+                [
+                  13,
+                  63.4
+                ],
+                [
+                  13.4,
+                  64.2
+                ],
+                [
+                  13.6,
+                  64.2
+                ]
+              ],
+              "id": 1418,
+              "item": "Lightforge Ingot",
+              "name": "Bluegill Raider",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Wetlands"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        11,
+        3
+      ]
+    ]
+  },
+  "minLevel": 20,
+  "objectSpawns": [
+    {
+      "entityId": 2734,
+      "entityKind": "object",
+      "entityName": "Waterlogged Chest",
+      "uiMapId": 1437,
+      "uiMapName": "Wetlands",
+      "x": 12.1,
+      "y": 64.1,
+      "zoneId": 11
+    }
+  ],
+  "pageInfo": {
+    "name": "The Lost Ingots",
+    "type": 5,
+    "typeId": 324
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 324,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 2734,
+      "npcName": "Waterlogged Chest",
+      "x": 12.1,
+      "y": 64.1,
+      "zoneId": 11,
+      "zoneName": "Wetlands"
+    }
+  ]
+}

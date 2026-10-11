@@ -1,0 +1,117 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T03:09:18+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 15[/li][li]Requires level 10[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=11711/sentinel-aynasha]Sentinel Aynasha[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=11806/sentinel-onaeya]Sentinel Onaeya[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]10[/color][small] &nbsp;[/small][color=r1]11[/color][small] &nbsp;[/small][color=r2]13[/color][small] &nbsp;[/small][color=r3]18[/color][small] &nbsp;[/small][color=r4]22[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "148": {
+        "levels": [
+          [
+            {
+              "coord": [
+                45.8,
+                90.2
+              ],
+              "coords": [
+                [
+                  45.8,
+                  90.2
+                ]
+              ],
+              "id": 11711,
+              "name": "Sentinel Aynasha",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Darkshore"
+      },
+      "331": {
+        "levels": [
+          [
+            {
+              "coord": [
+                26.6,
+                36.6
+              ],
+              "coords": [
+                [
+                  26.4,
+                  36.4
+                ],
+                [
+                  26.4,
+                  36.6
+                ],
+                [
+                  26.6,
+                  36.4
+                ],
+                [
+                  26.6,
+                  36.6
+                ]
+              ],
+              "id": 11806,
+              "name": "Sentinel Onaeya",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ashenvale"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        148,
+        1
+      ],
+      [
+        331,
+        1
+      ]
+    ]
+  },
+  "minLevel": 10,
+  "pageInfo": {
+    "name": "One Shot. One Kill.",
+    "type": 5,
+    "typeId": 5713
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 5713,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 11711,
+      "npcName": "Sentinel Aynasha",
+      "zoneId": 148,
+      "x": 45.8,
+      "y": 90.2,
+      "zoneName": "Darkshore"
+    }
+  ]
+}

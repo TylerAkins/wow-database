@@ -1,0 +1,778 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T03:37:35+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": true,
+    "raid": false,
+    "repeatable": true,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 51[/li][li]Type: PvP[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=13442/arch-druid-renferal]Arch Druid Renferal[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=13442/arch-druid-renferal]Arch Druid Renferal[/url][/icon][/li][li]Repeatable[/li][li]Sharable[/li][li]Difficulty: [color=q10]51[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.30786\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "2597": {
+        "levels": [
+          [
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13442,
+              "name": "Arch Druid Renferal",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13442,
+              "name": "Arch Druid Renferal",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 11946,
+              "item": "Storm Crystal",
+              "name": "Drek'Thar",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 11947,
+              "item": "Storm Crystal",
+              "name": "Captain Galvangar",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 11948,
+              "item": "Storm Crystal",
+              "name": "Vanndar Stormpike",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 11949,
+              "item": "Storm Crystal",
+              "name": "Captain Balinda Stonehearth",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 12051,
+              "item": "Storm Crystal",
+              "name": "Frostwolf Legionnaire",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 12052,
+              "item": "Storm Crystal",
+              "name": "Frostwolf Warrior",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 12053,
+              "item": "Storm Crystal",
+              "name": "Frostwolf Guardian",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13137,
+              "item": "Storm Crystal",
+              "name": "Lieutenant Rugba",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13140,
+              "item": "Storm Crystal",
+              "name": "Commander Dardosh",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13143,
+              "item": "Storm Crystal",
+              "name": "Lieutenant Stronghoof",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13144,
+              "item": "Storm Crystal",
+              "name": "Lieutenant Vol'talar",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13145,
+              "item": "Storm Crystal",
+              "name": "Lieutenant Grummus",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13146,
+              "item": "Storm Crystal",
+              "name": "Lieutenant Murp",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13147,
+              "item": "Storm Crystal",
+              "name": "Lieutenant Lewis",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13152,
+              "item": "Storm Crystal",
+              "name": "Commander Malgor",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                48.9,
+                86.9
+              ],
+              "coords": [
+                [
+                  48.9,
+                  86.9
+                ]
+              ],
+              "id": 13153,
+              "item": "Storm Crystal",
+              "name": "Commander Mulfort",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13154,
+              "item": "Storm Crystal",
+              "name": "Commander Louis Philips",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13176,
+              "item": "Storm Crystal",
+              "name": "Smith Regzar",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13179,
+              "item": "Storm Crystal",
+              "name": "Wing Commander Guse",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13180,
+              "item": "Storm Crystal",
+              "name": "Wing Commander Jeztor",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13181,
+              "item": "Storm Crystal",
+              "name": "Wing Commander Mulverick",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13216,
+              "item": "Storm Crystal",
+              "name": "Gaelden Hammersmith",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13218,
+              "item": "Storm Crystal",
+              "name": "Grunnda Wolfheart",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13236,
+              "item": "Storm Crystal",
+              "name": "Primalist Thurloga",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13256,
+              "item": "Storm Crystal",
+              "name": "Lokholar the Ice Lord",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13284,
+              "item": "Storm Crystal",
+              "name": "Frostwolf Shaman",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13319,
+              "item": "Storm Crystal",
+              "name": "Commander Duffy",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13320,
+              "item": "Storm Crystal",
+              "name": "Commander Karl Philips",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13328,
+              "item": "Storm Crystal",
+              "name": "Seasoned Guardian",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13329,
+              "item": "Storm Crystal",
+              "name": "Seasoned Legionnaire",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13330,
+              "item": "Storm Crystal",
+              "name": "Seasoned Warrior",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13332,
+              "item": "Storm Crystal",
+              "name": "Veteran Guardian",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13334,
+              "item": "Storm Crystal",
+              "name": "Veteran Legionnaire",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13337,
+              "item": "Storm Crystal",
+              "name": "Veteran Warrior",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13359,
+              "item": "Storm Crystal",
+              "name": "Frostwolf Bowman",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13419,
+              "item": "Storm Crystal",
+              "name": "Ivus the Forest Lord",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13421,
+              "item": "Storm Crystal",
+              "name": "Champion Guardian",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13425,
+              "item": "Storm Crystal",
+              "name": "Champion Legionnaire",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13428,
+              "item": "Storm Crystal",
+              "name": "Champion Warrior",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13437,
+              "item": "Storm Crystal",
+              "name": "Wing Commander Ichman",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13438,
+              "item": "Storm Crystal",
+              "name": "Wing Commander Slidore",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13439,
+              "item": "Storm Crystal",
+              "name": "Wing Commander Vipore",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13442,
+              "item": "Storm Crystal",
+              "name": "Arch Druid Renferal",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13448,
+              "item": "Storm Crystal",
+              "name": "Sergeant Yazra Bloodsnarl",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13797,
+              "item": "Storm Crystal",
+              "name": "Mountaineer Boombellow",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13798,
+              "item": "Storm Crystal",
+              "name": "Jotek",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 14185,
+              "item": "Storm Crystal",
+              "name": "Najak Hexxen",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 14186,
+              "item": "Storm Crystal",
+              "name": "Ravak Grimtotem",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 14764,
+              "item": "Storm Crystal",
+              "name": "Icewing Marshal",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 14768,
+              "item": "Storm Crystal",
+              "name": "East Frostwolf Marshal",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Alterac Valley"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        2597,
+        50
+      ]
+    ]
+  },
+  "minLevel": 51,
+  "pageInfo": {
+    "name": "Ivus the Forest Lord",
+    "type": 5,
+    "typeId": 6881
+  },
+  "pinCategory": "pvp",
+  "prerequisiteQuestIds": [],
+  "questId": 6881,
+  "races": [],
+  "startPins": []
+}

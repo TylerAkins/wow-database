@@ -1,74 +1,45 @@
 # WoW Database
 
-Published Forever quest data for other repositories to probe. [AllTheThings](https://github.com/ATTWoWAddon/AllTheThings) is the **only** source: a Go compiler reads ATT’s `.contrib/.db/forever` quest declarations and map constants. The daily workflow checks out upstream ATT, rebuilds `export/forever`, and opens an `att-update` pull request. You do not run a scraper or QuestieDB locally.
+Reusable World of Warcraft quest data gathered from Wowhead. The repository keeps canonical scrape artifacts separate from deterministic compiled outputs so consumers do not need to understand the scraper's storage layout.
 
-`schemaVersion` is 2. Legacy trees under `data/forever/*` are removed. Start at `export/forever/manifest.json`.
-
-**Consumer note:** The manifest no longer has `sources` or `merge` from the old QuestieDB + ATT merge. See [docs/MANIFEST.md](docs/MANIFEST.md) for field definitions and migration.
-
-## What is in the export
-
-- **Quest set:** Quests ATT catalogs for Forever (~2k ids), not the full in-game quest list (~5k+ on the old QuestieDB export).
-- **Names:** Mostly from ATT `q(id, { -- Title` comments (or rare `name =` overrides).
-- **Starters:** `startedBy` and `indexes/starters.json` use `npc`, `object`, or `item` when ATT sets `qg`, `provider`, etc. Item-start quests are included when ATT marks them; drop/vendor resolution is only what ATT encodes in objectives and places.
-- **Coordinates:** `[zoneId, x, y]` with zone ids mapped from ATT `MAP.*` constants where possible. Gaps are listed in `manifest.parse.issues`.
+The initial dataset contains the **Forever** game version and was migrated from [`TylerAkins/forever-quest-markers`](https://github.com/TylerAkins/forever-quest-markers) at commit `43f22e73ff3bf19f564d20d1e6846b0d57dbd3de`.
 
 ## Layout
 
 | Path | Purpose |
-| --- | --- |
-| `export/forever/manifest.json` | Probe: ATT `commit`, `questCount`, shards, sha256, optional `parse.issues` |
-| `export/forever/quests/` | Quest bodies, at most 500 quests per file |
-| `export/forever/indexes/zones.json` | `zoneOrSort` → quest ids |
-| `export/forever/indexes/starters.json` | `npc\|id`, `object\|id`, or `item\|id` → quests that start there |
-| `export/forever/indexes/finishers.json` | Same key shape for turn-in providers |
-| `export/forever/indexes/chains.json` | Prerequisite and follow-up ids |
+|------|---------|
+| `data/forever/raw/` | Canonical list snapshots, indexes, quest details, and object/item records |
+| `data/forever/compiled/zones/` | Consumer-ready quest bundles grouped by Wowhead zone catalog |
+| `tools/fetch_quest_pages.py` | Local/manual Wowhead ingestion and synchronization CLI |
+| `tools/compile_zone_files.py` | Deterministic zone compiler and drift checker |
+| `tools/quest_db/` | Parsing, classification, synchronization, and compilation modules |
 
-Each quest is stored once. `places` covers available, turn-in, and objective locations. `preQuestGroup` means every listed quest is required; `preQuestSingle` means any one is enough. `questType` carries repeatable, event, daily, weekly, monthly, raid, dungeon, battleground, profession, and sort.
+## Compiled zone files
 
-## Probe
+Generate every zone:
 
-Fetch the manifest first. Use its shard list and sha256 values to decide what else to download.
-
-Public checkout of the manifest and one shard:
-
-```yaml
-- uses: actions/checkout@v7.0.1
-  with:
-    repository: TylerAkins/wow-database
-    sparse-checkout: |
-      export/forever/manifest.json
-      export/forever/quests/0001.json
-    sparse-checkout-cone-mode: false
+```bash
+python3 tools/compile_zone_files.py
 ```
 
-Private checkout uses a fine-grained personal access token with contents read on this repository, stored as a secret in the consumer repository:
+Generate only Durotar while preserving the other compiled files:
 
-```yaml
-- uses: actions/checkout@v7.0.1
-  with:
-    repository: TylerAkins/wow-database
-    token: ${{ secrets.WOW_DATABASE_TOKEN }}
-    sparse-checkout: |
-      export/forever/manifest.json
-    sparse-checkout-cone-mode: false
+```bash
+python3 tools/compile_zone_files.py --zone durotar
 ```
 
-`raw.githubusercontent.com` does not serve a private repository without that token. This workflow does not change repository visibility.
+Verify that committed output is current without writing files:
 
-## Updates
+```bash
+python3 tools/compile_zone_files.py --check
+```
 
-[`.github/workflows/database-update.yml`](.github/workflows/database-update.yml) runs daily at 11:00 UTC and on `workflow_dispatch`. It checks out AllTheThings, runs `go run ./cmd/compile` with `--att-root`, runs `go test ./...`, and updates the `att-update` branch. The pull request records the ATT commit and any `parse.issues`. The workflow does not merge its pull request.
-
-Repository settings required before the first PR:
-
-1. Actions → General → Workflow permissions: **Read and write**
-2. Same page: **Allow GitHub Actions to create and approve pull requests**
+Each file contains source metadata and a `quests` object keyed by quest ID. Every quest retains its complete global `index` record and full `detail` record. Zone membership comes only from the corresponding Wowhead zone catalog, not from coordinate inference.
 
 ## Development
 
-See [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md) for local compile commands and ATT field mapping. See [docs/MANIFEST.md](docs/MANIFEST.md) for manifest and migration details.
+See [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md) for tests, refresh commands, invariants, and the known quest-detail gap.
 
 ## License and attribution
 
-The schema, compiler, and arrangement are proprietary. Quest and location data come from AllTheThings (MIT). See [LICENSE](LICENSE) and [ATTRIBUTION.md](ATTRIBUTION.md).
+Repository code is GPL-3.0. Wowhead and World of Warcraft data retain their respective ownership; see [ATTRIBUTION.md](ATTRIBUTION.md).

@@ -1,0 +1,169 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-24T23:12:52+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 22[/li][li]Requires level 17[/li][li]Type: Elite[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/object=256/wanted]WANTED[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1139/magistrate-bluntnose]Magistrate Bluntnose[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]17[/color][small] &nbsp;[/small][color=r1]18[/color][small] &nbsp;[/small][color=r2]20[/color][small] &nbsp;[/small][color=r3]25[/color][small] &nbsp;[/small][color=r4]29[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "38": {
+        "levels": [
+          [
+            {
+              "coord": [
+                37.2,
+                46.4
+              ],
+              "coords": [
+                [
+                  37.2,
+                  46.4
+                ],
+                [
+                  37.2,
+                  46.5
+                ]
+              ],
+              "id": 256,
+              "name": "WANTED",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                34.6,
+                44.6
+              ],
+              "coords": [
+                [
+                  34.6,
+                  43.2
+                ],
+                [
+                  34.6,
+                  44.4
+                ],
+                [
+                  34.6,
+                  44.6
+                ]
+              ],
+              "id": 1139,
+              "name": "Magistrate Bluntnose",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                79.6,
+                15
+              ],
+              "coords": [
+                [
+                  78.4,
+                  15.4
+                ],
+                [
+                  78.4,
+                  15.6
+                ],
+                [
+                  78.8,
+                  15.6
+                ],
+                [
+                  79.2,
+                  15.4
+                ],
+                [
+                  79.6,
+                  14.4
+                ],
+                [
+                  79.6,
+                  15
+                ],
+                [
+                  79.6,
+                  16
+                ]
+              ],
+              "id": 1210,
+              "item": "Chok'sul's Head",
+              "name": "Chok'sul",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Loch Modan"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        38,
+        3
+      ]
+    ]
+  },
+  "minLevel": 17,
+  "objectSpawns": [
+    {
+      "entityId": 256,
+      "entityKind": "object",
+      "entityName": "WANTED",
+      "uiMapId": 1432,
+      "uiMapName": "Loch Modan",
+      "x": 37.2,
+      "y": 46.4,
+      "zoneId": 38
+    },
+    {
+      "entityId": 256,
+      "entityKind": "object",
+      "entityName": "WANTED",
+      "uiMapId": 1432,
+      "uiMapName": "Loch Modan",
+      "x": 37.2,
+      "y": 46.5,
+      "zoneId": 38
+    }
+  ],
+  "pageInfo": {
+    "name": "WANTED: Chok'sul",
+    "type": 5,
+    "typeId": 256
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 256,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 256,
+      "npcName": "WANTED",
+      "x": 37.2,
+      "y": 46.4,
+      "zoneId": 38,
+      "zoneName": "Loch Modan"
+    }
+  ]
+}

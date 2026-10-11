@@ -1,0 +1,139 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-24T23:15:44+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 10[/li][li]Requires level 6[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/object=711/wanted]Wanted![/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1515/executor-zygand]Executor Zygand[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]6[/color][small] &nbsp;[/small][color=r2]8[/color][small] &nbsp;[/small][color=r3]13[/color][small] &nbsp;[/small][color=r4]16[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "85": {
+        "levels": [
+          [
+            {
+              "coord": [
+                60.7,
+                51.6
+              ],
+              "coords": [
+                [
+                  60.7,
+                  51.6
+                ]
+              ],
+              "id": 711,
+              "name": "Wanted!",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                60.6,
+                51.8
+              ],
+              "coords": [
+                [
+                  60.4,
+                  51.8
+                ],
+                [
+                  60.6,
+                  51.8
+                ]
+              ],
+              "id": 1515,
+              "name": "Executor Zygand",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                58.6,
+                31
+              ],
+              "coords": [
+                [
+                  58.4,
+                  31
+                ],
+                [
+                  58.4,
+                  31.6
+                ],
+                [
+                  58.6,
+                  31
+                ],
+                [
+                  58.6,
+                  31.6
+                ]
+              ],
+              "id": 1753,
+              "item": "Maggot Eye's Paw",
+              "name": "Maggot Eye",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Tirisfal Glades"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        85,
+        3
+      ]
+    ]
+  },
+  "minLevel": 6,
+  "objectSpawns": [
+    {
+      "entityId": 711,
+      "entityKind": "object",
+      "entityName": "Wanted!",
+      "uiMapId": 1420,
+      "uiMapName": "Tirisfal Glades",
+      "x": 60.7,
+      "y": 51.6,
+      "zoneId": 85
+    }
+  ],
+  "pageInfo": {
+    "name": "Wanted: Maggot Eye",
+    "type": 5,
+    "typeId": 398
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 398,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 711,
+      "npcName": "Wanted!",
+      "x": 60.7,
+      "y": 51.6,
+      "zoneId": 85,
+      "zoneName": "Tirisfal Glades"
+    }
+  ]
+}

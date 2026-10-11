@@ -1,0 +1,79 @@
+{
+  "classes": [
+    2
+  ],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T06:00:51+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 22[/li][li]Requires level 18[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Race: [race=5][/li][li]Class: [class=2][/li][li][icon name=quest-start]Start: [url=/forever/npc=259611/deathguard-baldren]Deathguard Baldren[/url][/icon][/li][li][icon name=quest-end]End: Object #566037[/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]18[/color][small] &nbsp;[/small][color=r2]20[/color][small] &nbsp;[/small][color=r3]25[/color][small] &nbsp;[/small][color=r4]29[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "130": {
+        "levels": [
+          [
+            {
+              "coord": [
+                45.8,
+                41.8
+              ],
+              "coords": [
+                [
+                  45.8,
+                  41.8
+                ]
+              ],
+              "id": 259611,
+              "name": "Deathguard Baldren",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Silverpine Forest"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        130,
+        1
+      ]
+    ]
+  },
+  "minLevel": 18,
+  "pageInfo": {
+    "name": "A Grim Fate",
+    "type": 5,
+    "typeId": 91860
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 91860,
+  "races": [
+    5
+  ],
+  "startPins": [
+    {
+      "npcId": 259611,
+      "npcName": "Deathguard Baldren",
+      "zoneId": 130,
+      "x": 45.8,
+      "y": 41.8,
+      "zoneName": "Silverpine Forest"
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T06:05:44+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 5[/li][li]Requires level 2[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=252095/hanaa-nightwind]Hanaa Nightwind[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=252095/hanaa-nightwind]Hanaa Nightwind[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]2[/color][small] &nbsp;[/small][color=r2]3[/color][small] &nbsp;[/small][color=r3]8[/color][small] &nbsp;[/small][color=r4]11[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "16593": {
+        "levels": [
+          [
+            {
+              "coord": [
+                38.2,
+                30.2
+              ],
+              "coords": [
+                [
+                  38.2,
+                  30.2
+                ]
+              ],
+              "id": 252095,
+              "name": "Hanaa Nightwind",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                38.2,
+                30.2
+              ],
+              "coords": [
+                [
+                  38.2,
+                  30.2
+                ]
+              ],
+              "id": 252095,
+              "name": "Hanaa Nightwind",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                37.6,
+                32
+              ],
+              "coords": [
+                [
+                  35.4,
+                  32.4
+                ],
+                [
+                  35.4,
+                  33.2
+                ],
+                [
+                  35.4,
+                  33.8
+                ],
+                [
+                  35.6,
+                  32.8
+                ],
+                [
+                  35.8,
+                  34.4
+                ],
+                [
+                  35.8,
+                  34.6
+                ],
+                [
+                  36.4,
+                  31.4
+                ],
+                [
+                  36.4,
+                  32
+                ],
+                [
+                  36.6,
+                  31.4
+                ],
+                [
+                  36.6,
+                  34.6
+                ],
+                [
+                  37.2,
+                  33.8
+                ],
+                [
+                  37.4,
+                  32.2
+                ],
+                [
+                  37.4,
+                  33
+                ],
+                [
+                  37.6,
+                  31.4
+                ],
+                [
+                  37.6,
+                  32
+                ],
+                [
+                  37.6,
+                  32.6
+                ],
+                [
+                  37.6,
+                  33.6
+                ],
+                [
+                  37.8,
+                  35
+                ]
+              ],
+              "id": 251145,
+              "name": "Al'Aketh Brute",
+              "objective": 251145,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                36.8,
+                33
+              ],
+              "coords": [
+                [
+                  35,
+                  33.6
+                ],
+                [
+                  35.4,
+                  31.8
+                ],
+                [
+                  35.4,
+                  33.2
+                ],
+                [
+                  36.4,
+                  31.4
+                ],
+                [
+                  36.4,
+                  31.6
+                ],
+                [
+                  36.4,
+                  33.2
+                ],
+                [
+                  36.8,
+                  33
+                ],
+                [
+                  37,
+                  31.4
+                ],
+                [
+                  37,
+                  34.8
+                ],
+                [
+                  37.4,
+                  32.4
+                ],
+                [
+                  37.4,
+                  33.8
+                ],
+                [
+                  37.6,
+                  32.6
+                ],
+                [
+                  37.6,
+                  33.6
+                ],
+                [
+                  37.6,
+                  34.6
+                ]
+              ],
+              "id": 251448,
+              "name": "Al'Aketh Neophyte",
+              "objective": 251448,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                36.4,
+                33.2
+              ],
+              "coords": [
+                [
+                  36,
+                  33.6
+                ],
+                [
+                  36.4,
+                  33.2
+                ],
+                [
+                  36.6,
+                  33.2
+                ]
+              ],
+              "id": 256935,
+              "name": "Malduko Cloudcrush",
+              "objective": 256935,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Zephras Isle"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16593,
+        4
+      ]
+    ]
+  },
+  "minLevel": 2,
+  "pageInfo": {
+    "name": "Al'Aketh Thugs",
+    "type": 5,
+    "typeId": 92544
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 92544,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 252095,
+      "npcName": "Hanaa Nightwind",
+      "zoneId": 16593,
+      "x": 38.2,
+      "y": 30.2,
+      "zoneName": "Zephras Isle"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T06:00:36+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 7[/li][li]Requires level 1[/li][li]Type: Elite[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=240/marshal-dughan]Marshal Dughan[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=951/brother-paxton]Brother Paxton[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]1[/color][small] &nbsp;[/small][color=r1]3[/color][small] &nbsp;[/small][color=r2]5[/color][small] &nbsp;[/small][color=r3]10[/color][small] &nbsp;[/small][color=r4]13[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "12": {
+        "levels": [
+          [
+            {
+              "coord": [
+                42.2,
+                65.8
+              ],
+              "coords": [
+                [
+                  42.2,
+                  65.8
+                ]
+              ],
+              "id": 240,
+              "name": "Marshal Dughan",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                49.4,
+                40.4
+              ],
+              "coords": [
+                [
+                  49.4,
+                  40.4
+                ],
+                [
+                  49.6,
+                  40.4
+                ]
+              ],
+              "id": 951,
+              "name": "Brother Paxton",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                61.8,
+                47.8
+              ],
+              "coords": [
+                [
+                  60.4,
+                  47
+                ],
+                [
+                  60.8,
+                  47
+                ],
+                [
+                  61.4,
+                  48
+                ],
+                [
+                  61.4,
+                  48.8
+                ],
+                [
+                  61.6,
+                  47.4
+                ],
+                [
+                  61.8,
+                  47.8
+                ]
+              ],
+              "id": 471,
+              "item": "Arcane Explainer: Magical Stuff in Simple Words",
+              "name": "Mother Fang",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                61.2,
+                49
+              ],
+              "coords": [
+                [
+                  60,
+                  49.4
+                ],
+                [
+                  60.4,
+                  49.8
+                ],
+                [
+                  60.6,
+                  49.8
+                ],
+                [
+                  61.2,
+                  49
+                ],
+                [
+                  61.2,
+                  51.4
+                ],
+                [
+                  61.2,
+                  51.6
+                ],
+                [
+                  61.4,
+                  48.2
+                ],
+                [
+                  61.8,
+                  54.2
+                ],
+                [
+                  62,
+                  55
+                ]
+              ],
+              "id": 248474,
+              "item": "Geomancy for Curious Young Wizards",
+              "name": "Geosculptor Yip",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Elwynn Forest"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        12,
+        4
+      ]
+    ]
+  },
+  "minLevel": 1,
+  "pageInfo": {
+    "name": "Rare Books",
+    "type": 5,
+    "typeId": 91777
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 91777,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 240,
+      "npcName": "Marshal Dughan",
+      "zoneId": 12,
+      "x": 42.2,
+      "y": 65.8,
+      "zoneName": "Elwynn Forest"
+    }
+  ]
+}

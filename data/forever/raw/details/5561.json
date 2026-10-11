@@ -1,0 +1,92 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T03:03:15+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 34[/li][li]Requires level 30[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=11596/smeed-scrabblescrew]Smeed Scrabblescrew[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=11596/smeed-scrabblescrew]Smeed Scrabblescrew[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]30[/color][small] &nbsp;[/small][color=r2]32[/color][small] &nbsp;[/small][color=r3]37[/color][small] &nbsp;[/small][color=r4]43[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "405": {
+        "levels": [
+          [
+            {
+              "coord": [
+                60.8,
+                61.8
+              ],
+              "coords": [
+                [
+                  60.8,
+                  61.8
+                ]
+              ],
+              "id": 11596,
+              "name": "Smeed Scrabblescrew",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                60.8,
+                61.8
+              ],
+              "coords": [
+                [
+                  60.8,
+                  61.8
+                ]
+              ],
+              "id": 11596,
+              "name": "Smeed Scrabblescrew",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Desolace"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        405,
+        1
+      ]
+    ]
+  },
+  "minLevel": 30,
+  "pageInfo": {
+    "name": "Kodo Roundup",
+    "type": 5,
+    "typeId": 5561
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 5561,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 11596,
+      "npcName": "Smeed Scrabblescrew",
+      "zoneId": 405,
+      "x": 60.8,
+      "y": 61.8,
+      "zoneName": "Desolace"
+    }
+  ]
+}

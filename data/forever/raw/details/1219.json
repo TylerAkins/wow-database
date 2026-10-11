@@ -1,0 +1,129 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T00:38:27+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 35[/li][li]Requires level 30[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/object=20985/loose-dirt]Loose Dirt[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=4947/theramore-lieutenant]Theramore Lieutenant[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]30[/color][small] &nbsp;[/small][color=r1]31[/color][small] &nbsp;[/small][color=r2]33[/color][small] &nbsp;[/small][color=r3]38[/color][small] &nbsp;[/small][color=r4]44[/color][/li][li]Added in patch [acronym=\"1.13.2.30682\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "15": {
+        "levels": [
+          [
+            {
+              "coord": [
+                55.4,
+                26
+              ],
+              "coords": [
+                [
+                  55.4,
+                  26
+                ],
+                [
+                  55.5,
+                  26
+                ]
+              ],
+              "id": 20985,
+              "name": "Loose Dirt",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                65,
+                47
+              ],
+              "coords": [
+                [
+                  65,
+                  47
+                ],
+                [
+                  67,
+                  53.2
+                ],
+                [
+                  67.2,
+                  51
+                ],
+                [
+                  68,
+                  48.2
+                ]
+              ],
+              "id": 4947,
+              "name": "Theramore Lieutenant",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Dustwallow Marsh"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        15,
+        2
+      ]
+    ]
+  },
+  "minLevel": 30,
+  "objectSpawns": [
+    {
+      "entityId": 20985,
+      "entityKind": "object",
+      "entityName": "Loose Dirt",
+      "uiMapId": 1445,
+      "uiMapName": "Dustwallow Marsh",
+      "x": 55.4,
+      "y": 26.0,
+      "zoneId": 15
+    },
+    {
+      "entityId": 20985,
+      "entityKind": "object",
+      "entityName": "Loose Dirt",
+      "uiMapId": 1445,
+      "uiMapName": "Dustwallow Marsh",
+      "x": 55.5,
+      "y": 26.0,
+      "zoneId": 15
+    }
+  ],
+  "pageInfo": {
+    "name": "The Orc Report",
+    "type": 5,
+    "typeId": 1219
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 1219,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 20985,
+      "npcName": "Loose Dirt",
+      "x": 55.4,
+      "y": 26.0,
+      "zoneId": 15,
+      "zoneName": "Dustwallow Marsh"
+    }
+  ]
+}

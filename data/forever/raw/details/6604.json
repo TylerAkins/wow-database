@@ -1,0 +1,95 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T03:32:37+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 59[/li][li]Requires level 53[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=11755/harlo-wigglesworth]Harlo Wigglesworth[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=10301/jaron-stoneshaper]Jaron Stoneshaper[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]53[/color][small] &nbsp;[/small][color=r1]55[/color][small] &nbsp;[/small][color=r2]57[/color][small] &nbsp;[/small][color=r3]62[/color][small] &nbsp;[/small][color=r4]71[/color][/li][li]Added in patch [acronym=\"1.13.2.30786\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "618": {
+        "levels": [
+          [
+            {
+              "coord": [
+                61,
+                38.4
+              ],
+              "coords": [
+                [
+                  61,
+                  38.4
+                ]
+              ],
+              "id": 11755,
+              "name": "Harlo Wigglesworth",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                52,
+                30.4
+              ],
+              "coords": [
+                [
+                  52,
+                  30.4
+                ]
+              ],
+              "id": 10301,
+              "name": "Jaron Stoneshaper",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Winterspring"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        618,
+        2
+      ]
+    ]
+  },
+  "minLevel": 53,
+  "pageInfo": {
+    "name": "Enraged Wildkin",
+    "type": 5,
+    "typeId": 6604
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    4861
+  ],
+  "questId": 6604,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 11755,
+      "npcName": "Harlo Wigglesworth",
+      "zoneId": 618,
+      "x": 61.0,
+      "y": 38.4,
+      "zoneName": "Winterspring"
+    }
+  ]
+}

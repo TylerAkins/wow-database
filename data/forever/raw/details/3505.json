@@ -1,0 +1,357 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T01:57:50+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 53[/li][li]Requires level 44[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=8576/agtor-bloodfist]Ag'tor Bloodfist[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=151286/kaldorei-tome-of-summoning]Kaldorei Tome of Summoning[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]44[/color][small] &nbsp;[/small][color=r1]49[/color][small] &nbsp;[/small][color=r2]51[/color][small] &nbsp;[/small][color=r3]56[/color][small] &nbsp;[/small][color=r4]64[/color][/li][li]Added in patch [acronym=\"1.13.2.31446\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 2,
+    "objectives": {
+      "16": {
+        "levels": [
+          [
+            {
+              "coord": [
+                22.2,
+                51.4
+              ],
+              "coords": [
+                [
+                  22.2,
+                  51.4
+                ],
+                [
+                  22.2,
+                  51.6
+                ]
+              ],
+              "id": 8576,
+              "name": "Ag'tor Bloodfist",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                59.5,
+                31.3
+              ],
+              "coords": [
+                [
+                  59.5,
+                  31.3
+                ]
+              ],
+              "id": 151286,
+              "name": "Kaldorei Tome of Summoning",
+              "point": "end",
+              "type": 2
+            },
+            {
+              "coord": [
+                55.4,
+                28.6
+              ],
+              "coords": [
+                [
+                  55.2,
+                  27.4
+                ],
+                [
+                  55.4,
+                  26.2
+                ],
+                [
+                  55.4,
+                  28.4
+                ],
+                [
+                  55.4,
+                  28.6
+                ],
+                [
+                  55.4,
+                  29.6
+                ],
+                [
+                  55.6,
+                  29.2
+                ],
+                [
+                  55.8,
+                  27
+                ],
+                [
+                  55.8,
+                  30.6
+                ],
+                [
+                  56.2,
+                  29.6
+                ],
+                [
+                  56.4,
+                  25.4
+                ],
+                [
+                  56.4,
+                  25.6
+                ],
+                [
+                  56.4,
+                  28.4
+                ],
+                [
+                  56.6,
+                  25.4
+                ],
+                [
+                  56.6,
+                  28.2
+                ],
+                [
+                  56.8,
+                  27.4
+                ],
+                [
+                  56.8,
+                  29
+                ],
+                [
+                  56.8,
+                  30.2
+                ],
+                [
+                  57,
+                  30.6
+                ],
+                [
+                  57.4,
+                  26.2
+                ],
+                [
+                  57.8,
+                  26.4
+                ],
+                [
+                  57.8,
+                  30.2
+                ],
+                [
+                  58,
+                  27.4
+                ],
+                [
+                  58,
+                  28.2
+                ],
+                [
+                  58.2,
+                  30.8
+                ],
+                [
+                  58.4,
+                  28.8
+                ],
+                [
+                  58.6,
+                  26.4
+                ],
+                [
+                  58.6,
+                  27.4
+                ],
+                [
+                  58.6,
+                  28.4
+                ],
+                [
+                  58.6,
+                  29
+                ],
+                [
+                  58.6,
+                  31
+                ],
+                [
+                  59,
+                  29.6
+                ]
+              ],
+              "id": 6198,
+              "name": "Blood Elf Surveyor",
+              "objective": 6198,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                56.4,
+                28.8
+              ],
+              "coords": [
+                [
+                  55.2,
+                  26.4
+                ],
+                [
+                  55.2,
+                  27.4
+                ],
+                [
+                  55.4,
+                  28.4
+                ],
+                [
+                  55.4,
+                  28.6
+                ],
+                [
+                  55.8,
+                  27.2
+                ],
+                [
+                  55.8,
+                  30.6
+                ],
+                [
+                  56,
+                  26.2
+                ],
+                [
+                  56.2,
+                  29.8
+                ],
+                [
+                  56.4,
+                  25.4
+                ],
+                [
+                  56.4,
+                  28.8
+                ],
+                [
+                  56.6,
+                  25.4
+                ],
+                [
+                  56.6,
+                  28
+                ],
+                [
+                  56.6,
+                  28.8
+                ],
+                [
+                  56.8,
+                  27.4
+                ],
+                [
+                  57,
+                  30.4
+                ],
+                [
+                  57,
+                  30.6
+                ],
+                [
+                  57.4,
+                  26.2
+                ],
+                [
+                  57.8,
+                  26.4
+                ],
+                [
+                  57.8,
+                  30.4
+                ],
+                [
+                  58,
+                  27.4
+                ],
+                [
+                  58,
+                  28.2
+                ],
+                [
+                  58.2,
+                  30.8
+                ],
+                [
+                  58.4,
+                  28.6
+                ],
+                [
+                  58.6,
+                  27.4
+                ],
+                [
+                  58.6,
+                  28.4
+                ],
+                [
+                  58.6,
+                  29
+                ],
+                [
+                  59.2,
+                  29.6
+                ]
+              ],
+              "id": 6199,
+              "name": "Blood Elf Reclaimer",
+              "objective": 6199,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Azshara"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16,
+        4
+      ]
+    ]
+  },
+  "minLevel": 44,
+  "pageInfo": {
+    "name": "Betrayed",
+    "type": 5,
+    "typeId": 3505
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 3505,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 8576,
+      "npcName": "Ag'tor Bloodfist",
+      "zoneId": 16,
+      "x": 22.2,
+      "y": 51.4,
+      "zoneName": "Azshara"
+    }
+  ]
+}

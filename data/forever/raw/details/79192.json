@@ -1,0 +1,307 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T05:31:35+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 24[/li][li]Requires level 14[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [span class=icon-alliance-padded][url=/forever/object=415106/burned-out-remains]Burned-Out Remains[/url][/span][/icon][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-horde][url=/forever/object=415107/burned-out-remains]Burned-Out Remains[/url][/span][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-alliance-padded][url=/forever/object=417072/nailed-plank]Nailed Plank[/url][/span][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-horde][url=/forever/object=424010/nailed-plank]Nailed Plank[/url][/span][/li][li][icon name=quest-end]End: [url=/forever/object=424005/pocket-litter]Pocket Litter[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]14[/color][small] &nbsp;[/small][color=r1]20[/color][small] &nbsp;[/small][color=r2]22[/color][small] &nbsp;[/small][color=r3]27[/color][small] &nbsp;[/small][color=r4]32[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "17": {
+        "levels": [
+          [
+            {
+              "coord": [
+                46.4,
+                73.9
+              ],
+              "coords": [
+                [
+                  46.4,
+                  73.9
+                ]
+              ],
+              "id": 415106,
+              "name": "Burned-Out Remains",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                46.4,
+                73.8
+              ],
+              "coords": [
+                [
+                  46.4,
+                  73.8
+                ]
+              ],
+              "id": 417072,
+              "name": "Nailed Plank",
+              "point": "start",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Barrens"
+      },
+      "40": {
+        "levels": [
+          [
+            {
+              "coord": [
+                37.5,
+                50.7
+              ],
+              "coords": [
+                [
+                  37.4,
+                  50.6
+                ],
+                [
+                  37.5,
+                  50.7
+                ]
+              ],
+              "id": 415106,
+              "name": "Burned-Out Remains",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                37.5,
+                50.7
+              ],
+              "coords": [
+                [
+                  37.4,
+                  50.6
+                ],
+                [
+                  37.5,
+                  50.7
+                ]
+              ],
+              "id": 415107,
+              "name": "Burned-Out Remains",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                37.5,
+                50.8
+              ],
+              "coords": [
+                [
+                  37.4,
+                  50.9
+                ],
+                [
+                  37.5,
+                  50.8
+                ]
+              ],
+              "id": 424010,
+              "name": "Nailed Plank",
+              "point": "start",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Westfall"
+      },
+      "406": {
+        "levels": [
+          [
+            {
+              "coord": [
+                40.8,
+                52.5
+              ],
+              "coords": [
+                [
+                  40.7,
+                  52.4
+                ],
+                [
+                  40.8,
+                  52.5
+                ]
+              ],
+              "id": 424005,
+              "name": "Pocket Litter",
+              "point": "end",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stonetalon Mountains"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        40,
+        3
+      ],
+      [
+        17,
+        2
+      ],
+      [
+        406,
+        1
+      ]
+    ]
+  },
+  "minLevel": 14,
+  "objectSpawns": [
+    {
+      "entityId": 415106,
+      "entityKind": "object",
+      "entityName": "Burned-Out Remains",
+      "uiMapId": 1413,
+      "uiMapName": "The Barrens",
+      "x": 46.4,
+      "y": 73.9,
+      "zoneId": 17
+    },
+    {
+      "entityId": 415106,
+      "entityKind": "object",
+      "entityName": "Burned-Out Remains",
+      "uiMapId": 1436,
+      "uiMapName": "Westfall",
+      "x": 37.4,
+      "y": 50.6,
+      "zoneId": 40
+    },
+    {
+      "entityId": 415106,
+      "entityKind": "object",
+      "entityName": "Burned-Out Remains",
+      "uiMapId": 1436,
+      "uiMapName": "Westfall",
+      "x": 37.5,
+      "y": 50.7,
+      "zoneId": 40
+    },
+    {
+      "entityId": 415107,
+      "entityKind": "object",
+      "entityName": "Burned-Out Remains",
+      "uiMapId": 1436,
+      "uiMapName": "Westfall",
+      "x": 37.4,
+      "y": 50.6,
+      "zoneId": 40
+    },
+    {
+      "entityId": 415107,
+      "entityKind": "object",
+      "entityName": "Burned-Out Remains",
+      "uiMapId": 1436,
+      "uiMapName": "Westfall",
+      "x": 37.5,
+      "y": 50.7,
+      "zoneId": 40
+    },
+    {
+      "entityId": 417072,
+      "entityKind": "object",
+      "entityName": "Nailed Plank",
+      "uiMapId": 1413,
+      "uiMapName": "The Barrens",
+      "x": 46.4,
+      "y": 73.8,
+      "zoneId": 17
+    },
+    {
+      "entityId": 424010,
+      "entityKind": "object",
+      "entityName": "Nailed Plank",
+      "uiMapId": 1436,
+      "uiMapName": "Westfall",
+      "x": 37.4,
+      "y": 50.9,
+      "zoneId": 40
+    },
+    {
+      "entityId": 424010,
+      "entityKind": "object",
+      "entityName": "Nailed Plank",
+      "uiMapId": 1436,
+      "uiMapName": "Westfall",
+      "x": 37.5,
+      "y": 50.8,
+      "zoneId": 40
+    }
+  ],
+  "pageInfo": {
+    "name": "Stepping Stones",
+    "type": 5,
+    "typeId": 79192
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 79192,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 415106,
+      "npcName": "Burned-Out Remains",
+      "x": 46.4,
+      "y": 73.9,
+      "zoneId": 17,
+      "zoneName": "The Barrens"
+    },
+    {
+      "npcId": 417072,
+      "npcName": "Nailed Plank",
+      "x": 46.4,
+      "y": 73.8,
+      "zoneId": 17,
+      "zoneName": "The Barrens"
+    },
+    {
+      "npcId": 415106,
+      "npcName": "Burned-Out Remains",
+      "x": 37.5,
+      "y": 50.7,
+      "zoneId": 40,
+      "zoneName": "Westfall"
+    },
+    {
+      "npcId": 415107,
+      "npcName": "Burned-Out Remains",
+      "x": 37.5,
+      "y": 50.7,
+      "zoneId": 40,
+      "zoneName": "Westfall"
+    },
+    {
+      "npcId": 424010,
+      "npcName": "Nailed Plank",
+      "x": 37.5,
+      "y": 50.8,
+      "zoneId": 40,
+      "zoneName": "Westfall"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T02:47:30+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 30[/li][li]Requires level 24[/li][li]Type: Elite[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=10941/wizlo-bearingshiner]Wizlo Bearingshiner[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=10941/wizlo-bearingshiner]Wizlo Bearingshiner[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]24[/color][small] &nbsp;[/small][color=r1]26[/color][small] &nbsp;[/small][color=r2]28[/color][small] &nbsp;[/small][color=r3]33[/color][small] &nbsp;[/small][color=r4]38[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "400": {
+        "levels": [
+          [
+            {
+              "coord": [
+                21.4,
+                32.4
+              ],
+              "coords": [
+                [
+                  21.4,
+                  32.4
+                ],
+                [
+                  21.4,
+                  32.6
+                ],
+                [
+                  21.6,
+                  32.4
+                ]
+              ],
+              "id": 10941,
+              "name": "Wizlo Bearingshiner",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                21.4,
+                32.4
+              ],
+              "coords": [
+                [
+                  21.4,
+                  32.4
+                ],
+                [
+                  21.4,
+                  32.6
+                ],
+                [
+                  21.6,
+                  32.4
+                ]
+              ],
+              "id": 10941,
+              "name": "Wizlo Bearingshiner",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                22.8,
+                24.4
+              ],
+              "coords": [
+                [
+                  22.4,
+                  23.2
+                ],
+                [
+                  22.4,
+                  24.4
+                ],
+                [
+                  22.8,
+                  24.4
+                ],
+                [
+                  22.8,
+                  24.6
+                ],
+                [
+                  23,
+                  23.4
+                ]
+              ],
+              "id": 10992,
+              "item": "Hypercapacitor Gizmo",
+              "name": "Enraged Panther",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Thousand Needles"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        400,
+        2
+      ]
+    ]
+  },
+  "minLevel": 24,
+  "pageInfo": {
+    "name": "Hypercapacitor Gizmo",
+    "type": 5,
+    "typeId": 5151
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 5151,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 10941,
+      "npcName": "Wizlo Bearingshiner",
+      "zoneId": 400,
+      "x": 21.4,
+      "y": 32.4,
+      "zoneName": "Thousand Needles"
+    }
+  ]
+}

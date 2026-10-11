@@ -1,0 +1,260 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T03:29:26+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 24[/li][li]Requires level 19[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=12867/kuraybin]Kuray'bin[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=12867/kuraybin]Kuray'bin[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]19[/color][small] &nbsp;[/small][color=r1]20[/color][small] &nbsp;[/small][color=r2]22[/color][small] &nbsp;[/small][color=r3]27[/color][small] &nbsp;[/small][color=r4]32[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "331": {
+        "levels": [
+          [
+            {
+              "coord": [
+                71,
+                68.2
+              ],
+              "coords": [
+                [
+                  71,
+                  68.2
+                ]
+              ],
+              "id": 12867,
+              "name": "Kuray'bin",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                71,
+                68.2
+              ],
+              "coords": [
+                [
+                  71,
+                  68.2
+                ]
+              ],
+              "id": 12867,
+              "name": "Kuray'bin",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                72.8,
+                70.2
+              ],
+              "coords": [
+                [
+                  68.2,
+                  73.2
+                ],
+                [
+                  69.8,
+                  74.4
+                ],
+                [
+                  69.8,
+                  74.6
+                ],
+                [
+                  69.8,
+                  76
+                ],
+                [
+                  70.8,
+                  76
+                ],
+                [
+                  71,
+                  72.4
+                ],
+                [
+                  71,
+                  72.6
+                ],
+                [
+                  71.8,
+                  73.8
+                ],
+                [
+                  71.8,
+                  74.6
+                ],
+                [
+                  72,
+                  70.2
+                ],
+                [
+                  72.2,
+                  76.2
+                ],
+                [
+                  72.4,
+                  69.4
+                ],
+                [
+                  72.4,
+                  72.4
+                ],
+                [
+                  72.4,
+                  72.6
+                ],
+                [
+                  72.6,
+                  69.4
+                ],
+                [
+                  72.6,
+                  72.4
+                ],
+                [
+                  72.6,
+                  72.6
+                ],
+                [
+                  72.8,
+                  70.2
+                ],
+                [
+                  73.4,
+                  70.6
+                ],
+                [
+                  73.4,
+                  74.4
+                ],
+                [
+                  73.4,
+                  74.6
+                ],
+                [
+                  73.6,
+                  70.8
+                ],
+                [
+                  73.8,
+                  75
+                ],
+                [
+                  74.4,
+                  69.4
+                ],
+                [
+                  74.4,
+                  69.6
+                ],
+                [
+                  74.4,
+                  72.4
+                ],
+                [
+                  74.4,
+                  72.6
+                ],
+                [
+                  74.6,
+                  72.4
+                ],
+                [
+                  74.6,
+                  72.6
+                ],
+                [
+                  75,
+                  70.6
+                ],
+                [
+                  75.4,
+                  70.2
+                ],
+                [
+                  75.6,
+                  70.4
+                ],
+                [
+                  75.6,
+                  71.6
+                ],
+                [
+                  76,
+                  69
+                ],
+                [
+                  76,
+                  73
+                ],
+                [
+                  76.2,
+                  67.4
+                ],
+                [
+                  76.2,
+                  67.6
+                ],
+                [
+                  76.2,
+                  70.6
+                ]
+              ],
+              "id": 12856,
+              "name": "Ashenvale Outrunner",
+              "objective": 12856,
+              "point": "requirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ashenvale"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        331,
+        2
+      ]
+    ]
+  },
+  "minLevel": 19,
+  "pageInfo": {
+    "name": "Ashenvale Outrunners",
+    "type": 5,
+    "typeId": 6503
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 6503,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 12867,
+      "npcName": "Kuray'bin",
+      "zoneId": 331,
+      "x": 71.0,
+      "y": 68.2,
+      "zoneName": "Ashenvale"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T04:18:25+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 34[/li][li]Requires level 25[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=15127/samuel-hawke]Samuel Hawke[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=15127/samuel-hawke]Samuel Hawke[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]25[/color][small] &nbsp;[/small][color=r1]30[/color][small] &nbsp;[/small][color=r2]32[/color][small] &nbsp;[/small][color=r3]37[/color][small] &nbsp;[/small][color=r4]43[/color][/li][li]Added in patch [acronym=\"1.13.4.33920\"]1.13.4[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "45": {
+        "levels": [
+          [
+            {
+              "coord": [
+                46,
+                45.2
+              ],
+              "coords": [
+                [
+                  46,
+                  45.2
+                ],
+                [
+                  46,
+                  45.6
+                ]
+              ],
+              "id": 15127,
+              "name": "Samuel Hawke",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                46,
+                45.2
+              ],
+              "coords": [
+                [
+                  46,
+                  45.2
+                ],
+                [
+                  46,
+                  45.6
+                ]
+              ],
+              "id": 15127,
+              "name": "Samuel Hawke",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Arathi Highlands"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        45,
+        1
+      ]
+    ]
+  },
+  "minLevel": 25,
+  "pageInfo": {
+    "name": "Arathor Basic Care Package",
+    "type": 5,
+    "typeId": 8260
+  },
+  "pinCategory": "pvp",
+  "prerequisiteQuestIds": [],
+  "questId": 8260,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 15127,
+      "npcName": "Samuel Hawke",
+      "zoneId": 45,
+      "x": 46.0,
+      "y": 45.2,
+      "zoneName": "Arathi Highlands"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "classes": [
+    5
+  ],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T03:05:47+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 20[/li][li]Requires level 20[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Race: [race=8][/li][li]Class: [class=5][/li][li][icon name=quest-start]Start: [url=/forever/npc=4606/aelthalyste]Aelthalyste[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=6018/urkyo]Ur'kyo[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]20[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.13.2.30786\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1497": {
+        "levels": [
+          [
+            {
+              "coord": [
+                49.2,
+                18.2
+              ],
+              "coords": [
+                [
+                  48.2,
+                  19.2
+                ],
+                [
+                  49,
+                  18.6
+                ],
+                [
+                  49.2,
+                  18.2
+                ],
+                [
+                  49.4,
+                  17
+                ],
+                [
+                  49.6,
+                  17.2
+                ]
+              ],
+              "id": 4606,
+              "name": "Aelthalyste",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Undercity"
+      },
+      "1637": {
+        "levels": [
+          [
+            {
+              "coord": [
+                35.6,
+                87.6
+              ],
+              "coords": [
+                [
+                  35.4,
+                  87.6
+                ],
+                [
+                  35.6,
+                  87.4
+                ],
+                [
+                  35.6,
+                  87.6
+                ]
+              ],
+              "id": 6018,
+              "name": "Ur'kyo",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Orgrimmar"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1497,
+        1
+      ],
+      [
+        1637,
+        1
+      ]
+    ]
+  },
+  "minLevel": 20,
+  "pageInfo": {
+    "name": "Shadowguard",
+    "type": 5,
+    "typeId": 5643
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 5643,
+  "races": [
+    8
+  ],
+  "startPins": [
+    {
+      "npcId": 4606,
+      "npcName": "Aelthalyste",
+      "zoneId": 1497,
+      "x": 49.2,
+      "y": 18.2,
+      "zoneName": "Undercity"
+    }
+  ]
+}

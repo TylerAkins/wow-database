@@ -1,0 +1,194 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T04:50:05+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 60[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-end]End: [url=/forever/npc=15444/arcanist-nozzlespring]Arcanist Nozzlespring[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]60[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.30786\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 2,
+    "objectives": {
+      "1377": {
+        "levels": [
+          [
+            {
+              "coord": [
+                32.6,
+                52
+              ],
+              "coords": [
+                [
+                  32.4,
+                  52
+                ],
+                [
+                  32.6,
+                  52
+                ],
+                [
+                  32.8,
+                  52.6
+                ]
+              ],
+              "id": 15444,
+              "name": "Arcanist Nozzlespring",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                51.6,
+                37.8
+              ],
+              "coords": [
+                [
+                  47.8,
+                  39.6
+                ],
+                [
+                  48.8,
+                  37.2
+                ],
+                [
+                  49.4,
+                  35
+                ],
+                [
+                  50,
+                  36.4
+                ],
+                [
+                  50.2,
+                  37.8
+                ],
+                [
+                  50.4,
+                  37
+                ],
+                [
+                  50.6,
+                  37.2
+                ],
+                [
+                  50.8,
+                  34.4
+                ],
+                [
+                  50.8,
+                  34.6
+                ],
+                [
+                  51.2,
+                  39.4
+                ],
+                [
+                  51.4,
+                  37.8
+                ],
+                [
+                  51.6,
+                  37.8
+                ],
+                [
+                  52,
+                  39.4
+                ],
+                [
+                  52,
+                  39.6
+                ],
+                [
+                  52.2,
+                  36.6
+                ]
+              ],
+              "id": 15184,
+              "item": "Oil of Immolation",
+              "name": "Cenarion Hold Infantry",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Silithus"
+      },
+      "1657": {
+        "levels": [
+          [
+            {
+              "coord": [
+                34.8,
+                8.8
+              ],
+              "coords": [
+                [
+                  34.4,
+                  8.4
+                ],
+                [
+                  34.4,
+                  8.6
+                ],
+                [
+                  34.6,
+                  8.4
+                ],
+                [
+                  34.8,
+                  8.8
+                ]
+              ],
+              "id": 3516,
+              "item": "Oil of Immolation",
+              "name": "Arch Druid Fandral Staghelm",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Darnassus"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1657,
+        1
+      ],
+      [
+        1377,
+        2
+      ]
+    ]
+  },
+  "minLevel": 60,
+  "pageInfo": {
+    "name": "The Ironforge Brigade Needs Explosives!",
+    "type": 5,
+    "typeId": 8778
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 8778,
+  "races": [],
+  "startPins": []
+}

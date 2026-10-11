@@ -1,0 +1,93 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T06:58:48+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 3[/li][li]Requires level 1[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1992/tarindrella]Tarindrella[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1992/tarindrella]Tarindrella[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]1[/color][small] &nbsp;[/small][color=r3]6[/color][small] &nbsp;[/small][color=r4]8[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "141": {
+        "levels": [
+          [
+            {
+              "coord": [
+                57.8,
+                45
+              ],
+              "coords": [
+                [
+                  57.8,
+                  45
+                ]
+              ],
+              "id": 1992,
+              "name": "Tarindrella",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                57.8,
+                45
+              ],
+              "coords": [
+                [
+                  57.8,
+                  45
+                ]
+              ],
+              "id": 1992,
+              "name": "Tarindrella",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Teldrassil"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        141,
+        1
+      ]
+    ]
+  },
+  "minLevel": 1,
+  "pageInfo": {
+    "name": "Nature's Call",
+    "type": 5,
+    "typeId": 97977
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 97977,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 1992,
+      "npcName": "Tarindrella",
+      "zoneId": 141,
+      "x": 57.8,
+      "y": 45.0,
+      "zoneName": "Teldrassil"
+    }
+  ]
+}

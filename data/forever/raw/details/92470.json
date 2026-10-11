@@ -1,0 +1,199 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T06:03:42+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 5[/li][li]Requires level 2[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=251366/aetheen-of-the-gales]Aetheen of the Gales[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=251366/aetheen-of-the-gales]Aetheen of the Gales[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]2[/color][small] &nbsp;[/small][color=r2]3[/color][small] &nbsp;[/small][color=r3]8[/color][small] &nbsp;[/small][color=r4]11[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "16593": {
+        "levels": [
+          [
+            {
+              "coord": [
+                42.6,
+                23.6
+              ],
+              "coords": [
+                [
+                  42.6,
+                  23.6
+                ]
+              ],
+              "id": 251366,
+              "name": "Aetheen of the Gales",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                42.6,
+                23.6
+              ],
+              "coords": [
+                [
+                  42.6,
+                  23.6
+                ]
+              ],
+              "id": 251366,
+              "name": "Aetheen of the Gales",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                35.6,
+                25.2
+              ],
+              "coords": [
+                [
+                  35.4,
+                  24.2
+                ],
+                [
+                  35.4,
+                  25
+                ],
+                [
+                  35.6,
+                  24.2
+                ],
+                [
+                  35.6,
+                  25.2
+                ],
+                [
+                  35.6,
+                  25.6
+                ],
+                [
+                  35.8,
+                  23.2
+                ],
+                [
+                  37,
+                  24.2
+                ],
+                [
+                  37.4,
+                  24.8
+                ],
+                [
+                  37.4,
+                  25.8
+                ],
+                [
+                  37.4,
+                  26.8
+                ],
+                [
+                  37.6,
+                  25.4
+                ],
+                [
+                  37.6,
+                  26
+                ],
+                [
+                  37.8,
+                  26.8
+                ],
+                [
+                  38.2,
+                  27.6
+                ],
+                [
+                  38.6,
+                  27.6
+                ]
+              ],
+              "id": 250937,
+              "name": "Ursera Scavenger",
+              "objective": 250937,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                35.6,
+                25.4
+              ],
+              "coords": [
+                [
+                  35.4,
+                  25.4
+                ],
+                [
+                  35.4,
+                  25.6
+                ],
+                [
+                  35.6,
+                  25.4
+                ],
+                [
+                  35.6,
+                  26
+                ]
+              ],
+              "id": 251115,
+              "item": "Head of Urs'anah",
+              "name": "Urs'anah",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Zephras Isle"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16593,
+        3
+      ]
+    ]
+  },
+  "minLevel": 2,
+  "pageInfo": {
+    "name": "Foul Matriarch",
+    "type": 5,
+    "typeId": 92470
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 92470,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 251366,
+      "npcName": "Aetheen of the Gales",
+      "zoneId": 16593,
+      "x": 42.6,
+      "y": 23.6,
+      "zoneName": "Zephras Isle"
+    }
+  ]
+}

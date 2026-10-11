@@ -1,0 +1,240 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T06:32:38+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 11[/li][li]Requires level 8[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=257944/elegael-thornpaw]Elegael Thornpaw[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=257944/elegael-thornpaw]Elegael Thornpaw[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]8[/color][small] &nbsp;[/small][color=r2]9[/color][small] &nbsp;[/small][color=r3]14[/color][small] &nbsp;[/small][color=r4]17[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "16593": {
+        "levels": [
+          [
+            {
+              "coord": [
+                61.6,
+                39.2
+              ],
+              "coords": [
+                [
+                  61.6,
+                  39.2
+                ]
+              ],
+              "id": 257944,
+              "name": "Elegael Thornpaw",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                61.6,
+                39.2
+              ],
+              "coords": [
+                [
+                  61.6,
+                  39.2
+                ]
+              ],
+              "id": 257944,
+              "name": "Elegael Thornpaw",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                63.8,
+                36.8
+              ],
+              "coords": [
+                [
+                  62,
+                  35.8
+                ],
+                [
+                  62.2,
+                  37.6
+                ],
+                [
+                  62.4,
+                  37.2
+                ],
+                [
+                  62.6,
+                  36.2
+                ],
+                [
+                  62.6,
+                  37.2
+                ],
+                [
+                  63,
+                  38.6
+                ],
+                [
+                  63.4,
+                  37.8
+                ],
+                [
+                  63.6,
+                  36.2
+                ],
+                [
+                  63.6,
+                  38
+                ],
+                [
+                  63.8,
+                  36.8
+                ],
+                [
+                  63.8,
+                  39
+                ],
+                [
+                  64.6,
+                  38.4
+                ],
+                [
+                  64.6,
+                  38.6
+                ],
+                [
+                  65,
+                  36.4
+                ],
+                [
+                  65.4,
+                  37
+                ]
+              ],
+              "id": 252664,
+              "item": "Bloody Heirloom",
+              "name": "Al'Aketh Stormchaser",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                65.6,
+                35.6
+              ],
+              "coords": [
+                [
+                  62.2,
+                  38.4
+                ],
+                [
+                  62.2,
+                  38.6
+                ],
+                [
+                  62.6,
+                  38.6
+                ],
+                [
+                  63,
+                  36.4
+                ],
+                [
+                  63.4,
+                  37.2
+                ],
+                [
+                  63.4,
+                  37.8
+                ],
+                [
+                  63.6,
+                  36.4
+                ],
+                [
+                  63.6,
+                  37.6
+                ],
+                [
+                  64.4,
+                  36.8
+                ],
+                [
+                  64.6,
+                  37.8
+                ],
+                [
+                  64.8,
+                  37
+                ],
+                [
+                  65.4,
+                  36
+                ],
+                [
+                  65.6,
+                  35.4
+                ],
+                [
+                  65.6,
+                  35.6
+                ]
+              ],
+              "id": 252665,
+              "item": "Bloody Heirloom",
+              "name": "Al'Aketh Footsoldier",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Zephras Isle"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16593,
+        3
+      ]
+    ]
+  },
+  "minLevel": 8,
+  "pageInfo": {
+    "name": "Unwanted and Unworthy",
+    "type": 5,
+    "typeId": 94487
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 94487,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 257944,
+      "npcName": "Elegael Thornpaw",
+      "zoneId": 16593,
+      "x": 61.6,
+      "y": 39.2,
+      "zoneName": "Zephras Isle"
+    }
+  ]
+}

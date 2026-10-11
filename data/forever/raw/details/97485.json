@@ -1,0 +1,133 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T06:51:34+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 10[/li][li]Requires level 3[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=269068/eylah-sunhorn]Eylah Sunhorn[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=269068/eylah-sunhorn]Eylah Sunhorn[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]3[/color][small] &nbsp;[/small][color=r1]6[/color][small] &nbsp;[/small][color=r2]8[/color][small] &nbsp;[/small][color=r3]13[/color][small] &nbsp;[/small][color=r4]16[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 2,
+    "objectives": {
+      "1638": {
+        "levels": [
+          [
+            {
+              "coord": [
+                38.2,
+                56.2
+              ],
+              "coords": [
+                [
+                  37,
+                  56.2
+                ],
+                [
+                  38.2,
+                  56.2
+                ],
+                [
+                  38.2,
+                  56.6
+                ],
+                [
+                  38.6,
+                  55.4
+                ],
+                [
+                  38.6,
+                  56.4
+                ],
+                [
+                  38.6,
+                  56.8
+                ]
+              ],
+              "id": 269068,
+              "name": "Eylah Sunhorn",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                38.2,
+                56.2
+              ],
+              "coords": [
+                [
+                  37,
+                  56.2
+                ],
+                [
+                  38.2,
+                  56.2
+                ],
+                [
+                  38.2,
+                  56.6
+                ],
+                [
+                  38.6,
+                  55.4
+                ],
+                [
+                  38.6,
+                  56.4
+                ],
+                [
+                  38.6,
+                  56.8
+                ]
+              ],
+              "id": 269068,
+              "name": "Eylah Sunhorn",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Thunder Bluff"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1638,
+        1
+      ]
+    ]
+  },
+  "minLevel": 3,
+  "pageInfo": {
+    "name": "Traditions of the Bluff",
+    "type": 5,
+    "typeId": 97485
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 97485,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 269068,
+      "npcName": "Eylah Sunhorn",
+      "zoneId": 1638,
+      "x": 38.2,
+      "y": 56.2,
+      "zoneName": "Thunder Bluff"
+    }
+  ]
+}

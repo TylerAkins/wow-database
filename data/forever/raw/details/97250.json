@@ -1,0 +1,190 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T06:49:53+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 23[/li][li]Requires level 18[/li][li]Type: Elite[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=5911/grunt-logmar]Grunt Logmar[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=5911/grunt-logmar]Grunt Logmar[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]18[/color][small] &nbsp;[/small][color=r1]19[/color][small] &nbsp;[/small][color=r2]21[/color][small] &nbsp;[/small][color=r3]26[/color][small] &nbsp;[/small][color=r4]31[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "15": {
+        "levels": [
+          [
+            {
+              "coord": [
+                29.8,
+                48.2
+              ],
+              "coords": [
+                [
+                  29.8,
+                  48.2
+                ]
+              ],
+              "id": 268622,
+              "name": "Encroaching Soldier",
+              "objective": 268622,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Dustwallow Marsh"
+      },
+      "17": {
+        "levels": [
+          [
+            {
+              "coord": [
+                44.6,
+                59.2
+              ],
+              "coords": [
+                [
+                  44.4,
+                  59.2
+                ],
+                [
+                  44.6,
+                  59.2
+                ]
+              ],
+              "id": 5911,
+              "name": "Grunt Logmar",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                44.6,
+                59.2
+              ],
+              "coords": [
+                [
+                  44.4,
+                  59.2
+                ],
+                [
+                  44.6,
+                  59.2
+                ]
+              ],
+              "id": 5911,
+              "name": "Grunt Logmar",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                49,
+                77
+              ],
+              "coords": [
+                [
+                  47.4,
+                  76
+                ],
+                [
+                  47.6,
+                  76.6
+                ],
+                [
+                  47.8,
+                  76.2
+                ],
+                [
+                  48.6,
+                  77.8
+                ],
+                [
+                  49,
+                  77
+                ],
+                [
+                  50,
+                  78.4
+                ]
+              ],
+              "id": 268622,
+              "name": "Encroaching Soldier",
+              "objective": 268622,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                49,
+                77
+              ],
+              "coords": [
+                [
+                  49,
+                  77
+                ]
+              ],
+              "id": 268623,
+              "name": "Outraged Pillager",
+              "objective": 268623,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Barrens"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        17,
+        3
+      ],
+      [
+        15,
+        1
+      ]
+    ]
+  },
+  "minLevel": 18,
+  "pageInfo": {
+    "name": "Wrongly Blamed, Justly Corrected",
+    "type": 5,
+    "typeId": 97250
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 97250,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 5911,
+      "npcName": "Grunt Logmar",
+      "zoneId": 17,
+      "x": 44.6,
+      "y": 59.2,
+      "zoneName": "The Barrens"
+    }
+  ]
+}

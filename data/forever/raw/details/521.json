@@ -1,0 +1,141 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-24T23:18:17+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 43[/li][li]Requires level 34[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=2278/melisara]Melisara[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2227/sharlindra]Sharlindra[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]34[/color][small] &nbsp;[/small][color=r1]39[/color][small] &nbsp;[/small][color=r2]41[/color][small] &nbsp;[/small][color=r3]46[/color][small] &nbsp;[/small][color=r4]53[/color][/li][li]Added in patch [acronym=\"1.13.2.30682\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1497": {
+        "levels": [
+          [
+            {
+              "coord": [
+                57.4,
+                93.6
+              ],
+              "coords": [
+                [
+                  56.8,
+                  94.6
+                ],
+                [
+                  57.4,
+                  92.4
+                ],
+                [
+                  57.4,
+                  93.4
+                ],
+                [
+                  57.4,
+                  93.6
+                ],
+                [
+                  57.6,
+                  92.4
+                ],
+                [
+                  57.6,
+                  93.4
+                ],
+                [
+                  57.6,
+                  93.6
+                ]
+              ],
+              "id": 2227,
+              "name": "Sharlindra",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Undercity"
+      },
+      "267": {
+        "levels": [
+          [
+            {
+              "coord": [
+                62.6,
+                20.6
+              ],
+              "coords": [
+                [
+                  62.4,
+                  20.4
+                ],
+                [
+                  62.4,
+                  20.6
+                ],
+                [
+                  62.6,
+                  20.4
+                ],
+                [
+                  62.6,
+                  20.6
+                ]
+              ],
+              "id": 2278,
+              "name": "Melisara",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Hillsbrad Foothills"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        267,
+        1
+      ],
+      [
+        1497,
+        1
+      ]
+    ]
+  },
+  "minLevel": 34,
+  "pageInfo": {
+    "name": "The Crown of Will",
+    "type": 5,
+    "typeId": 521
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 521,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 2278,
+      "npcName": "Melisara",
+      "zoneId": 267,
+      "x": 62.6,
+      "y": 20.6,
+      "zoneName": "Hillsbrad Foothills"
+    }
+  ]
+}

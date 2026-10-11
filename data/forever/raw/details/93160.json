@@ -1,0 +1,92 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T06:11:42+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 13[/li][li]Requires level 8[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=251684/strange-hermit]Strange Hermit[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=251684/strange-hermit]Strange Hermit[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]8[/color][small] &nbsp;[/small][color=r1]9[/color][small] &nbsp;[/small][color=r2]11[/color][small] &nbsp;[/small][color=r3]16[/color][small] &nbsp;[/small][color=r4]19[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "16593": {
+        "levels": [
+          [
+            {
+              "coord": [
+                54,
+                39
+              ],
+              "coords": [
+                [
+                  54,
+                  39
+                ]
+              ],
+              "id": 251684,
+              "name": "Strange Hermit",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                54,
+                39
+              ],
+              "coords": [
+                [
+                  54,
+                  39
+                ]
+              ],
+              "id": 251684,
+              "name": "Strange Hermit",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Zephras Isle"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16593,
+        1
+      ]
+    ]
+  },
+  "minLevel": 8,
+  "pageInfo": {
+    "name": "The Forest's Bounty",
+    "type": 5,
+    "typeId": 93160
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 93160,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 251684,
+      "npcName": "Strange Hermit",
+      "zoneId": 16593,
+      "x": 54.0,
+      "y": 39.0,
+      "zoneName": "Zephras Isle"
+    }
+  ]
+}

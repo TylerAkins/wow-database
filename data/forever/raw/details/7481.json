@@ -1,0 +1,101 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T03:46:50+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": true,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 54[/li][li]Type: Dungeon[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=14373/sage-korolusk]Sage Korolusk[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=14373/sage-korolusk]Sage Korolusk[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]54[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.32089\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "357": {
+        "levels": [
+          [
+            {
+              "coord": [
+                75,
+                43.8
+              ],
+              "coords": [
+                [
+                  74.4,
+                  44
+                ],
+                [
+                  75,
+                  43.8
+                ]
+              ],
+              "id": 14373,
+              "name": "Sage Korolusk",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                75,
+                43.8
+              ],
+              "coords": [
+                [
+                  74.4,
+                  44
+                ],
+                [
+                  75,
+                  43.8
+                ]
+              ],
+              "id": 14373,
+              "name": "Sage Korolusk",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Feralas"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        357,
+        1
+      ]
+    ]
+  },
+  "minLevel": 54,
+  "pageInfo": {
+    "name": "Elven Legends",
+    "type": 5,
+    "typeId": 7481
+  },
+  "pinCategory": "instance",
+  "prerequisiteQuestIds": [],
+  "questId": 7481,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 14373,
+      "npcName": "Sage Korolusk",
+      "zoneId": 357,
+      "x": 75.0,
+      "y": 43.8,
+      "zoneName": "Feralas"
+    }
+  ]
+}

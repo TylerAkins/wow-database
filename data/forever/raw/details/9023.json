@@ -1,0 +1,92 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T05:08:18+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": true,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 60[/li][li]Type: Raid[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=16091/dirk-thunderwood]Dirk Thunderwood[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=16091/dirk-thunderwood]Dirk Thunderwood[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]60[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.30786\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 2,
+    "objectives": {
+      "1377": {
+        "levels": [
+          [
+            {
+              "coord": [
+                52,
+                39
+              ],
+              "coords": [
+                [
+                  52,
+                  39
+                ]
+              ],
+              "id": 16091,
+              "name": "Dirk Thunderwood",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                52,
+                39
+              ],
+              "coords": [
+                [
+                  52,
+                  39
+                ]
+              ],
+              "id": 16091,
+              "name": "Dirk Thunderwood",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Silithus"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1377,
+        1
+      ]
+    ]
+  },
+  "minLevel": 60,
+  "pageInfo": {
+    "name": "The Perfect Poison",
+    "type": 5,
+    "typeId": 9023
+  },
+  "pinCategory": "raid",
+  "prerequisiteQuestIds": [],
+  "questId": 9023,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 16091,
+      "npcName": "Dirk Thunderwood",
+      "zoneId": 1377,
+      "x": 52.0,
+      "y": 39.0,
+      "zoneName": "Silithus"
+    }
+  ]
+}

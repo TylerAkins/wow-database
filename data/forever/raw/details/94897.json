@@ -1,0 +1,116 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T06:37:00+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 11[/li][li]Requires level 8[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=259012/ealaane-nimbuswalker]Ealaane Nimbuswalker[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=259012/ealaane-nimbuswalker]Ealaane Nimbuswalker[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]8[/color][small] &nbsp;[/small][color=r2]9[/color][small] &nbsp;[/small][color=r3]14[/color][small] &nbsp;[/small][color=r4]17[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "16593": {
+        "levels": [
+          [
+            {
+              "coord": [
+                65.8,
+                74.4
+              ],
+              "coords": [
+                [
+                  65.8,
+                  74.4
+                ]
+              ],
+              "id": 259012,
+              "name": "Ealaane Nimbuswalker",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                65.8,
+                74.4
+              ],
+              "coords": [
+                [
+                  65.8,
+                  74.4
+                ]
+              ],
+              "id": 259012,
+              "name": "Ealaane Nimbuswalker",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                57,
+                29.4
+              ],
+              "coords": [
+                [
+                  57,
+                  29.4
+                ],
+                [
+                  57,
+                  29.6
+                ]
+              ],
+              "id": 259013,
+              "item": "Resaan's Heirloom",
+              "name": "Resaan Nimbuswalker",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Zephras Isle"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16593,
+        2
+      ]
+    ]
+  },
+  "minLevel": 8,
+  "pageInfo": {
+    "name": "The Fate of a Loved One",
+    "type": 5,
+    "typeId": 94897
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 94897,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 259012,
+      "npcName": "Ealaane Nimbuswalker",
+      "zoneId": 16593,
+      "x": 65.8,
+      "y": 74.4,
+      "zoneName": "Zephras Isle"
+    }
+  ]
+}

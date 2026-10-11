@@ -1,0 +1,92 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T06:14:14+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 7[/li][li]Requires level 4[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=251991/taleen-shimmerthread]Taleen Shimmerthread[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=251991/taleen-shimmerthread]Taleen Shimmerthread[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]4[/color][small] &nbsp;[/small][color=r2]5[/color][small] &nbsp;[/small][color=r3]10[/color][small] &nbsp;[/small][color=r4]13[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "16593": {
+        "levels": [
+          [
+            {
+              "coord": [
+                44.8,
+                44.2
+              ],
+              "coords": [
+                [
+                  44.8,
+                  44.2
+                ]
+              ],
+              "id": 251991,
+              "name": "Taleen Shimmerthread",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                44.8,
+                44.2
+              ],
+              "coords": [
+                [
+                  44.8,
+                  44.2
+                ]
+              ],
+              "id": 251991,
+              "name": "Taleen Shimmerthread",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Zephras Isle"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16593,
+        1
+      ]
+    ]
+  },
+  "minLevel": 4,
+  "pageInfo": {
+    "name": "A Little Beauty",
+    "type": 5,
+    "typeId": 93951
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 93951,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 251991,
+      "npcName": "Taleen Shimmerthread",
+      "zoneId": 16593,
+      "x": 44.8,
+      "y": 44.2,
+      "zoneName": "Zephras Isle"
+    }
+  ]
+}

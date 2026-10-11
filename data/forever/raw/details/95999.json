@@ -1,0 +1,114 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T06:42:03+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 25[/li][li]Requires level 16[/li][li]Type: Elite[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: Object #649051[/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=344/magistrate-solomon]Magistrate Solomon[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]16[/color][small] &nbsp;[/small][color=r1]21[/color][small] &nbsp;[/small][color=r2]23[/color][small] &nbsp;[/small][color=r3]28[/color][small] &nbsp;[/small][color=r4]33[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "44": {
+        "levels": [
+          [
+            {
+              "coord": [
+                30,
+                44.2
+              ],
+              "coords": [
+                [
+                  24.8,
+                  44.2
+                ],
+                [
+                  29.8,
+                  44.6
+                ],
+                [
+                  30,
+                  44.2
+                ]
+              ],
+              "id": 344,
+              "name": "Magistrate Solomon",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                77.8,
+                86.2
+              ],
+              "coords": [
+                [
+                  76.2,
+                  84.2
+                ],
+                [
+                  76.6,
+                  84.2
+                ],
+                [
+                  77.4,
+                  85.4
+                ],
+                [
+                  77.4,
+                  85.8
+                ],
+                [
+                  77.8,
+                  86.2
+                ],
+                [
+                  77.8,
+                  86.6
+                ]
+              ],
+              "id": 214519,
+              "item": "Broken Staff of Incinerator Gar'im",
+              "name": "Incinerator Gar'im",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Redridge Mountains"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        44,
+        2
+      ]
+    ]
+  },
+  "minLevel": 16,
+  "pageInfo": {
+    "name": "WANTED: Incinerator Gar'im",
+    "type": 5,
+    "typeId": 95999
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 95999,
+  "races": [],
+  "startPins": []
+}

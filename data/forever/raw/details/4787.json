@@ -1,0 +1,162 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T02:34:08+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 50[/li][li]Requires level 40[/li][li]Type: Elite[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=8579/yehkinya]Yeh'kinya[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=8579/yehkinya]Yeh'kinya[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]40[/color][small] &nbsp;[/small][color=r1]46[/color][small] &nbsp;[/small][color=r2]48[/color][small] &nbsp;[/small][color=r3]53[/color][small] &nbsp;[/small][color=r4]61[/color][/li][li]Added in patch [acronym=\"1.13.2.30682\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "440": {
+        "levels": [
+          [
+            {
+              "coord": [
+                67,
+                22.4
+              ],
+              "coords": [
+                [
+                  67,
+                  22.4
+                ]
+              ],
+              "id": 8579,
+              "name": "Yeh'kinya",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                67,
+                22.4
+              ],
+              "coords": [
+                [
+                  67,
+                  22.4
+                ]
+              ],
+              "id": 8579,
+              "name": "Yeh'kinya",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Tanaris"
+      },
+      "47": {
+        "levels": [
+          [
+            {
+              "coord": [
+                57.4,
+                86.4
+              ],
+              "coords": [
+                [
+                  56.4,
+                  85.2
+                ],
+                [
+                  56.6,
+                  85.4
+                ],
+                [
+                  57.4,
+                  86.4
+                ],
+                [
+                  57.4,
+                  86.6
+                ],
+                [
+                  57.6,
+                  86.4
+                ],
+                [
+                  57.6,
+                  86.6
+                ]
+              ],
+              "id": 10802,
+              "item": "Ancient Egg",
+              "name": "Hitah'ya the Keeper",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                57.5,
+                86.7
+              ],
+              "coords": [
+                [
+                  57.5,
+                  86.7
+                ]
+              ],
+              "id": 175889,
+              "item": "Ancient Egg",
+              "name": "Ancient Egg",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Hinterlands"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        440,
+        1
+      ],
+      [
+        47,
+        2
+      ]
+    ]
+  },
+  "minLevel": 40,
+  "pageInfo": {
+    "name": "The Ancient Egg",
+    "type": 5,
+    "typeId": 4787
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 4787,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 8579,
+      "npcName": "Yeh'kinya",
+      "zoneId": 440,
+      "x": 67.0,
+      "y": 22.4,
+      "zoneName": "Tanaris"
+    }
+  ]
+}

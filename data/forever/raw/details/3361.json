@@ -1,0 +1,101 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T01:52:02+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 3[/li][li]Requires level 3[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=8416/felix-whindlebolt]Felix Whindlebolt[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=8416/felix-whindlebolt]Felix Whindlebolt[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]3[/color][small] &nbsp;[/small][color=r3]6[/color][small] &nbsp;[/small][color=r4]8[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 3,
+    "objectives": {
+      "1": {
+        "levels": [
+          [
+            {
+              "coord": [
+                28.4,
+                67.6
+              ],
+              "coords": [
+                [
+                  28.4,
+                  67.6
+                ],
+                [
+                  28.6,
+                  67.8
+                ]
+              ],
+              "id": 8416,
+              "name": "Felix Whindlebolt",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                28.4,
+                67.6
+              ],
+              "coords": [
+                [
+                  28.4,
+                  67.6
+                ],
+                [
+                  28.6,
+                  67.8
+                ]
+              ],
+              "id": 8416,
+              "name": "Felix Whindlebolt",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Dun Morogh"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  "minLevel": 3,
+  "pageInfo": {
+    "name": "A Refugee's Quandary",
+    "type": 5,
+    "typeId": 3361
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 3361,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 8416,
+      "npcName": "Felix Whindlebolt",
+      "zoneId": 1,
+      "x": 28.4,
+      "y": 67.6,
+      "zoneName": "Dun Morogh"
+    }
+  ]
+}

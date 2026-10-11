@@ -1,0 +1,1169 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T01:19:07+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 20[/li][li]Requires level 14[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=6667/gelkak-gyromast]Gelkak Gyromast[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=6667/gelkak-gyromast]Gelkak Gyromast[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]14[/color][small] &nbsp;[/small][color=r1]16[/color][small] &nbsp;[/small][color=r2]18[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "148": {
+        "levels": [
+          [
+            {
+              "coord": [
+                56.6,
+                13.4
+              ],
+              "coords": [
+                [
+                  56.6,
+                  13.4
+                ],
+                [
+                  56.6,
+                  13.6
+                ]
+              ],
+              "id": 6667,
+              "name": "Gelkak Gyromast",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                56.6,
+                13.4
+              ],
+              "coords": [
+                [
+                  56.6,
+                  13.4
+                ],
+                [
+                  56.6,
+                  13.6
+                ]
+              ],
+              "id": 6667,
+              "name": "Gelkak Gyromast",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                36.4,
+                50.8
+              ],
+              "coords": [
+                [
+                  36.4,
+                  50.4
+                ],
+                [
+                  36.4,
+                  50.8
+                ],
+                [
+                  36.4,
+                  51.6
+                ],
+                [
+                  36.6,
+                  50.4
+                ],
+                [
+                  36.6,
+                  50.8
+                ],
+                [
+                  36.6,
+                  51.6
+                ]
+              ],
+              "id": 2201,
+              "item": "Middle of Gelkak's Key",
+              "name": "Greymist Raider",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                36.4,
+                50.8
+              ],
+              "coords": [
+                [
+                  36.4,
+                  50.4
+                ],
+                [
+                  36.4,
+                  50.8
+                ],
+                [
+                  36.4,
+                  76.4
+                ],
+                [
+                  36.4,
+                  76.8
+                ],
+                [
+                  36.6,
+                  50.4
+                ],
+                [
+                  36.6,
+                  50.8
+                ],
+                [
+                  36.6,
+                  76.2
+                ],
+                [
+                  36.6,
+                  76.6
+                ],
+                [
+                  37.2,
+                  62.2
+                ],
+                [
+                  37.4,
+                  61.4
+                ],
+                [
+                  38.4,
+                  29
+                ],
+                [
+                  38.4,
+                  29.8
+                ],
+                [
+                  38.6,
+                  29.2
+                ],
+                [
+                  38.6,
+                  29.6
+                ],
+                [
+                  39.8,
+                  27.4
+                ],
+                [
+                  40.2,
+                  27.6
+                ],
+                [
+                  41.4,
+                  31.8
+                ],
+                [
+                  42,
+                  31.6
+                ],
+                [
+                  42.2,
+                  31.4
+                ]
+              ],
+              "id": 2202,
+              "item": "Middle of Gelkak's Key",
+              "name": "Greymist Coastrunner",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                39.8,
+                27.4
+              ],
+              "coords": [
+                [
+                  36.2,
+                  70.8
+                ],
+                [
+                  36.4,
+                  70.4
+                ],
+                [
+                  36.6,
+                  71
+                ],
+                [
+                  37.2,
+                  62.2
+                ],
+                [
+                  37.4,
+                  61.4
+                ],
+                [
+                  38.4,
+                  29
+                ],
+                [
+                  38.4,
+                  29.6
+                ],
+                [
+                  38.6,
+                  29.2
+                ],
+                [
+                  38.6,
+                  29.6
+                ],
+                [
+                  39.8,
+                  27.4
+                ],
+                [
+                  40.2,
+                  27.6
+                ],
+                [
+                  41.4,
+                  31.8
+                ],
+                [
+                  42,
+                  31.6
+                ],
+                [
+                  42.2,
+                  31.4
+                ]
+              ],
+              "id": 2203,
+              "item": "Middle of Gelkak's Key",
+              "name": "Greymist Seer",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                44.2,
+                20.8
+              ],
+              "coords": [
+                [
+                  36.2,
+                  70.8
+                ],
+                [
+                  36.4,
+                  70.4
+                ],
+                [
+                  36.4,
+                  71.6
+                ],
+                [
+                  36.6,
+                  70.4
+                ],
+                [
+                  36.6,
+                  70.8
+                ],
+                [
+                  43.4,
+                  21.2
+                ],
+                [
+                  44.2,
+                  20.4
+                ],
+                [
+                  44.2,
+                  20.8
+                ],
+                [
+                  44.2,
+                  21.6
+                ],
+                [
+                  44.6,
+                  20.6
+                ]
+              ],
+              "id": 2204,
+              "item": "Middle of Gelkak's Key",
+              "name": "Greymist Netter",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                44.2,
+                20.8
+              ],
+              "coords": [
+                [
+                  32.4,
+                  81
+                ],
+                [
+                  32.8,
+                  80.8
+                ],
+                [
+                  33,
+                  80.4
+                ],
+                [
+                  33.2,
+                  81.6
+                ],
+                [
+                  36.4,
+                  76.4
+                ],
+                [
+                  36.4,
+                  76.6
+                ],
+                [
+                  36.6,
+                  76.2
+                ],
+                [
+                  36.6,
+                  76.6
+                ],
+                [
+                  44.2,
+                  20.4
+                ],
+                [
+                  44.2,
+                  20.8
+                ],
+                [
+                  44.2,
+                  21.6
+                ],
+                [
+                  44.6,
+                  20.6
+                ]
+              ],
+              "id": 2205,
+              "item": "Middle of Gelkak's Key",
+              "name": "Greymist Warrior",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                36.4,
+                76.4
+              ],
+              "coords": [
+                [
+                  32.4,
+                  80.8
+                ],
+                [
+                  32.8,
+                  80.4
+                ],
+                [
+                  32.8,
+                  80.8
+                ],
+                [
+                  36.4,
+                  76.4
+                ],
+                [
+                  36.4,
+                  76.6
+                ],
+                [
+                  36.6,
+                  76.4
+                ],
+                [
+                  36.6,
+                  76.6
+                ]
+              ],
+              "id": 2206,
+              "item": "Middle of Gelkak's Key",
+              "name": "Greymist Hunter",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                31.8,
+                83.6
+              ],
+              "coords": [
+                [
+                  31.2,
+                  85.2
+                ],
+                [
+                  31.2,
+                  85.6
+                ],
+                [
+                  31.2,
+                  87.8
+                ],
+                [
+                  31.4,
+                  83.8
+                ],
+                [
+                  31.4,
+                  87
+                ],
+                [
+                  31.6,
+                  85.6
+                ],
+                [
+                  31.6,
+                  87.2
+                ],
+                [
+                  31.6,
+                  88
+                ],
+                [
+                  31.8,
+                  83.4
+                ],
+                [
+                  31.8,
+                  83.6
+                ],
+                [
+                  55.2,
+                  12.4
+                ],
+                [
+                  55.4,
+                  12.6
+                ],
+                [
+                  55.6,
+                  12.6
+                ]
+              ],
+              "id": 2207,
+              "item": "Middle of Gelkak's Key",
+              "name": "Greymist Oracle",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                32,
+                83.4
+              ],
+              "coords": [
+                [
+                  31.2,
+                  85.6
+                ],
+                [
+                  31.4,
+                  85.4
+                ],
+                [
+                  31.4,
+                  87
+                ],
+                [
+                  31.4,
+                  87.6
+                ],
+                [
+                  31.6,
+                  85.4
+                ],
+                [
+                  31.6,
+                  85.6
+                ],
+                [
+                  31.6,
+                  87.2
+                ],
+                [
+                  31.6,
+                  88
+                ],
+                [
+                  31.8,
+                  83.6
+                ],
+                [
+                  32,
+                  83.4
+                ],
+                [
+                  55.4,
+                  12.4
+                ],
+                [
+                  55.4,
+                  12.6
+                ],
+                [
+                  55.6,
+                  12.4
+                ],
+                [
+                  55.6,
+                  12.6
+                ]
+              ],
+              "id": 2208,
+              "item": "Middle of Gelkak's Key",
+              "name": "Greymist Tidehunter",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                53,
+                18.2
+              ],
+              "coords": [
+                [
+                  31.8,
+                  81.2
+                ],
+                [
+                  32,
+                  83.2
+                ],
+                [
+                  32.4,
+                  81.6
+                ],
+                [
+                  32.6,
+                  83.2
+                ],
+                [
+                  33,
+                  81.4
+                ],
+                [
+                  33.2,
+                  81.6
+                ],
+                [
+                  33.6,
+                  81.4
+                ],
+                [
+                  33.6,
+                  81.6
+                ],
+                [
+                  50.4,
+                  21.8
+                ],
+                [
+                  50.4,
+                  22.6
+                ],
+                [
+                  51,
+                  21.8
+                ],
+                [
+                  51,
+                  22.6
+                ],
+                [
+                  51,
+                  23.6
+                ],
+                [
+                  51.4,
+                  21.4
+                ],
+                [
+                  51.6,
+                  22
+                ],
+                [
+                  52,
+                  21.4
+                ],
+                [
+                  52.2,
+                  23.2
+                ],
+                [
+                  52.4,
+                  18.4
+                ],
+                [
+                  52.4,
+                  18.8
+                ],
+                [
+                  52.4,
+                  20.4
+                ],
+                [
+                  52.4,
+                  23.6
+                ],
+                [
+                  52.6,
+                  20.4
+                ],
+                [
+                  52.6,
+                  20.6
+                ],
+                [
+                  52.6,
+                  23.4
+                ],
+                [
+                  52.6,
+                  23.6
+                ],
+                [
+                  53,
+                  18.2
+                ],
+                [
+                  53,
+                  19
+                ],
+                [
+                  54.4,
+                  18.4
+                ],
+                [
+                  54.4,
+                  19
+                ],
+                [
+                  54.6,
+                  19
+                ]
+              ],
+              "id": 2233,
+              "item": "Bottom of Gelkak's Key",
+              "name": "Encrusted Tide Crawler",
+              "objective": 2,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                56.8,
+                13.2
+              ],
+              "coords": [
+                [
+                  54.4,
+                  18.4
+                ],
+                [
+                  54.4,
+                  18.6
+                ],
+                [
+                  54.6,
+                  18.4
+                ],
+                [
+                  54.6,
+                  18.6
+                ],
+                [
+                  55.4,
+                  17
+                ],
+                [
+                  55.6,
+                  16.8
+                ],
+                [
+                  56,
+                  14.4
+                ],
+                [
+                  56,
+                  17.6
+                ],
+                [
+                  56.2,
+                  15.4
+                ],
+                [
+                  56.2,
+                  15.6
+                ],
+                [
+                  56.4,
+                  12.4
+                ],
+                [
+                  56.4,
+                  12.6
+                ],
+                [
+                  56.6,
+                  11.4
+                ],
+                [
+                  56.6,
+                  11.6
+                ],
+                [
+                  56.6,
+                  16
+                ],
+                [
+                  56.6,
+                  16.8
+                ],
+                [
+                  56.8,
+                  13.2
+                ],
+                [
+                  57.4,
+                  14.2
+                ],
+                [
+                  57.6,
+                  14.4
+                ],
+                [
+                  57.6,
+                  14.6
+                ]
+              ],
+              "id": 2236,
+              "item": "Bottom of Gelkak's Key",
+              "name": "Raging Reef Crawler",
+              "objective": 2,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                59.2,
+                13
+              ],
+              "coords": [
+                [
+                  35,
+                  82.8
+                ],
+                [
+                  35.6,
+                  82.2
+                ],
+                [
+                  35.8,
+                  82.6
+                ],
+                [
+                  35.8,
+                  89.4
+                ],
+                [
+                  36,
+                  89.6
+                ],
+                [
+                  36.8,
+                  91.4
+                ],
+                [
+                  37,
+                  81.6
+                ],
+                [
+                  37.2,
+                  80.2
+                ],
+                [
+                  37.2,
+                  83.2
+                ],
+                [
+                  37.2,
+                  89.2
+                ],
+                [
+                  37.4,
+                  94.4
+                ],
+                [
+                  38,
+                  80.4
+                ],
+                [
+                  38,
+                  82.4
+                ],
+                [
+                  38,
+                  82.6
+                ],
+                [
+                  38.2,
+                  80.6
+                ],
+                [
+                  38.4,
+                  92.8
+                ],
+                [
+                  38.8,
+                  90
+                ],
+                [
+                  38.8,
+                  94.6
+                ],
+                [
+                  39,
+                  80.4
+                ],
+                [
+                  39,
+                  80.6
+                ],
+                [
+                  39,
+                  83.4
+                ],
+                [
+                  39.2,
+                  91
+                ],
+                [
+                  39.4,
+                  81.8
+                ],
+                [
+                  39.6,
+                  81.8
+                ],
+                [
+                  40.4,
+                  81
+                ],
+                [
+                  40.6,
+                  80.8
+                ],
+                [
+                  40.6,
+                  82.2
+                ],
+                [
+                  41,
+                  83.4
+                ],
+                [
+                  41,
+                  83.6
+                ],
+                [
+                  41.2,
+                  86.2
+                ],
+                [
+                  41.2,
+                  86.6
+                ],
+                [
+                  41.4,
+                  85
+                ],
+                [
+                  41.6,
+                  85
+                ],
+                [
+                  41.6,
+                  87.8
+                ],
+                [
+                  42.2,
+                  80.4
+                ],
+                [
+                  42.2,
+                  80.6
+                ],
+                [
+                  42.2,
+                  89.2
+                ],
+                [
+                  42.4,
+                  82.4
+                ],
+                [
+                  42.4,
+                  82.6
+                ],
+                [
+                  42.6,
+                  82.8
+                ],
+                [
+                  43,
+                  82
+                ],
+                [
+                  43.2,
+                  80
+                ],
+                [
+                  57.4,
+                  13.4
+                ],
+                [
+                  57.4,
+                  13.8
+                ],
+                [
+                  57.6,
+                  13.6
+                ],
+                [
+                  57.8,
+                  13.4
+                ],
+                [
+                  58.4,
+                  14.6
+                ],
+                [
+                  58.6,
+                  14.4
+                ],
+                [
+                  58.6,
+                  14.6
+                ],
+                [
+                  59.2,
+                  13
+                ],
+                [
+                  59.6,
+                  13
+                ],
+                [
+                  59.8,
+                  12.4
+                ],
+                [
+                  60.4,
+                  10.4
+                ],
+                [
+                  60.4,
+                  10.6
+                ],
+                [
+                  60.6,
+                  10.4
+                ],
+                [
+                  60.6,
+                  10.6
+                ],
+                [
+                  61.2,
+                  12.4
+                ],
+                [
+                  61.2,
+                  15.2
+                ],
+                [
+                  61.4,
+                  8.8
+                ],
+                [
+                  61.4,
+                  14.2
+                ],
+                [
+                  61.6,
+                  8.4
+                ],
+                [
+                  61.6,
+                  8.6
+                ],
+                [
+                  61.6,
+                  11.4
+                ],
+                [
+                  61.6,
+                  11.6
+                ],
+                [
+                  61.6,
+                  14.2
+                ],
+                [
+                  62.6,
+                  8.4
+                ],
+                [
+                  62.6,
+                  8.6
+                ]
+              ],
+              "id": 2323,
+              "item": "Top of Gelkak's Key",
+              "name": "Giant Foreststrider",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                36.2,
+                76.4
+              ],
+              "coords": [
+                [
+                  35.4,
+                  76.4
+                ],
+                [
+                  36.2,
+                  75
+                ],
+                [
+                  36.2,
+                  76.4
+                ],
+                [
+                  36.2,
+                  76.6
+                ],
+                [
+                  36.2,
+                  77.6
+                ],
+                [
+                  36.6,
+                  76.2
+                ],
+                [
+                  36.6,
+                  76.6
+                ]
+              ],
+              "id": 10323,
+              "item": "Middle of Gelkak's Key",
+              "name": "Murkdeep",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Darkshore"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        148,
+        13
+      ]
+    ]
+  },
+  "minLevel": 14,
+  "pageInfo": {
+    "name": "Gyromast's Retrieval",
+    "type": 5,
+    "typeId": 2098
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 2098,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 6667,
+      "npcName": "Gelkak Gyromast",
+      "zoneId": 148,
+      "x": 56.6,
+      "y": 13.4,
+      "zoneName": "Darkshore"
+    }
+  ]
+}

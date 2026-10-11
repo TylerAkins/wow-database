@@ -1,0 +1,249 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-24T23:24:25+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 15[/li][li]Requires level 11[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-end]End: [url=/forever/npc=3292/brewmaster-drohn]Brewmaster Drohn[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]11[/color][small] &nbsp;[/small][color=r2]13[/color][small] &nbsp;[/small][color=r3]18[/color][small] &nbsp;[/small][color=r4]22[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "17": {
+        "levels": [
+          [
+            {
+              "coord": [
+                62.2,
+                38.4
+              ],
+              "coords": [
+                [
+                  62.2,
+                  38.4
+                ]
+              ],
+              "id": 3292,
+              "name": "Brewmaster Drohn",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Barrens"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        17,
+        1
+      ]
+    ]
+  },
+  "minLevel": 11,
+  "objectSpawns": [
+    {
+      "entityId": 3238,
+      "entityKind": "object",
+      "entityName": null,
+      "uiMapId": 1413,
+      "uiMapName": "The Barrens",
+      "x": 37.9,
+      "y": 16.1,
+      "zoneId": 17
+    },
+    {
+      "entityId": 3238,
+      "entityKind": "object",
+      "entityName": null,
+      "uiMapId": 1413,
+      "uiMapName": "The Barrens",
+      "x": 41.8,
+      "y": 38.7,
+      "zoneId": 17
+    },
+    {
+      "entityId": 3238,
+      "entityKind": "object",
+      "entityName": null,
+      "uiMapId": 1413,
+      "uiMapName": "The Barrens",
+      "x": 43.8,
+      "y": 12.2,
+      "zoneId": 17
+    },
+    {
+      "entityId": 3238,
+      "entityKind": "object",
+      "entityName": null,
+      "uiMapId": 1413,
+      "uiMapName": "The Barrens",
+      "x": 45.0,
+      "y": 62.2,
+      "zoneId": 17
+    },
+    {
+      "entityId": 3238,
+      "entityKind": "object",
+      "entityName": null,
+      "uiMapId": 1413,
+      "uiMapName": "The Barrens",
+      "x": 54.7,
+      "y": 37.2,
+      "zoneId": 17
+    },
+    {
+      "entityId": 3238,
+      "entityKind": "object",
+      "entityName": null,
+      "uiMapId": 1413,
+      "uiMapName": "The Barrens",
+      "x": 55.7,
+      "y": 27.3,
+      "zoneId": 17
+    },
+    {
+      "entityId": 3238,
+      "entityKind": "object",
+      "entityName": null,
+      "uiMapId": 1413,
+      "uiMapName": "The Barrens",
+      "x": 55.8,
+      "y": 20.0,
+      "zoneId": 17
+    },
+    {
+      "entityId": 3238,
+      "entityKind": "object",
+      "entityName": null,
+      "uiMapId": 1413,
+      "uiMapName": "The Barrens",
+      "x": 56.5,
+      "y": 43.6,
+      "zoneId": 17
+    },
+    {
+      "entityId": 3238,
+      "entityKind": "object",
+      "entityName": null,
+      "uiMapId": 1413,
+      "uiMapName": "The Barrens",
+      "x": 57.1,
+      "y": 9.0,
+      "zoneId": 17
+    }
+  ],
+  "pageInfo": {
+    "name": "Chen's Empty Keg",
+    "type": 5,
+    "typeId": 819
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 819,
+  "races": [],
+  "startPins": [
+    {
+      "entityId": 3238,
+      "entityKind": "object",
+      "entityName": null,
+      "uiMapId": 1413,
+      "uiMapName": "The Barrens",
+      "x": 37.9,
+      "y": 16.1,
+      "zoneId": 17
+    },
+    {
+      "entityId": 3238,
+      "entityKind": "object",
+      "entityName": null,
+      "uiMapId": 1413,
+      "uiMapName": "The Barrens",
+      "x": 41.8,
+      "y": 38.7,
+      "zoneId": 17
+    },
+    {
+      "entityId": 3238,
+      "entityKind": "object",
+      "entityName": null,
+      "uiMapId": 1413,
+      "uiMapName": "The Barrens",
+      "x": 43.8,
+      "y": 12.2,
+      "zoneId": 17
+    },
+    {
+      "entityId": 3238,
+      "entityKind": "object",
+      "entityName": null,
+      "uiMapId": 1413,
+      "uiMapName": "The Barrens",
+      "x": 45.0,
+      "y": 62.2,
+      "zoneId": 17
+    },
+    {
+      "entityId": 3238,
+      "entityKind": "object",
+      "entityName": null,
+      "uiMapId": 1413,
+      "uiMapName": "The Barrens",
+      "x": 54.7,
+      "y": 37.2,
+      "zoneId": 17
+    },
+    {
+      "entityId": 3238,
+      "entityKind": "object",
+      "entityName": null,
+      "uiMapId": 1413,
+      "uiMapName": "The Barrens",
+      "x": 55.7,
+      "y": 27.3,
+      "zoneId": 17
+    },
+    {
+      "entityId": 3238,
+      "entityKind": "object",
+      "entityName": null,
+      "uiMapId": 1413,
+      "uiMapName": "The Barrens",
+      "x": 55.8,
+      "y": 20.0,
+      "zoneId": 17
+    },
+    {
+      "entityId": 3238,
+      "entityKind": "object",
+      "entityName": null,
+      "uiMapId": 1413,
+      "uiMapName": "The Barrens",
+      "x": 56.5,
+      "y": 43.6,
+      "zoneId": 17
+    },
+    {
+      "entityId": 3238,
+      "entityKind": "object",
+      "entityName": null,
+      "uiMapId": 1413,
+      "uiMapName": "The Barrens",
+      "x": 57.1,
+      "y": 9.0,
+      "zoneId": 17
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "classes": [
+    7
+  ],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T01:46:44+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 1[/li][li]Requires level 1[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Race: [race=2][/li][li]Class: [class=7][/li][li][icon name=quest-start]Start: [url=/forever/npc=3143/gornek]Gornek[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3157/shikrik]Shikrik[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]1[/color][small] &nbsp;[/small][color=r3]4[/color][small] &nbsp;[/small][color=r4]6[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "14": {
+        "levels": [
+          [
+            {
+              "coord": [
+                42,
+                68.4
+              ],
+              "coords": [
+                [
+                  42,
+                  68.4
+                ]
+              ],
+              "id": 3143,
+              "name": "Gornek",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                42.4,
+                69
+              ],
+              "coords": [
+                [
+                  42.4,
+                  69
+                ]
+              ],
+              "id": 3157,
+              "name": "Shikrik",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Durotar"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        14,
+        2
+      ]
+    ]
+  },
+  "minLevel": 1,
+  "pageInfo": {
+    "name": "Rune-Inscribed Parchment",
+    "type": 5,
+    "typeId": 3089
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 3089,
+  "races": [
+    2
+  ],
+  "startPins": [
+    {
+      "npcId": 3143,
+      "npcName": "Gornek",
+      "zoneId": 14,
+      "x": 42.0,
+      "y": 68.4,
+      "zoneName": "Durotar"
+    }
+  ]
+}

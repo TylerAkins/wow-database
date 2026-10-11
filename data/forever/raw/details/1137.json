@@ -1,0 +1,108 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T00:31:22+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 38[/li][li]Requires level 28[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=4618/martek-the-exiled]Martek the Exiled[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=4454/fizzle-brassbolts]Fizzle Brassbolts[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]28[/color][small] &nbsp;[/small][color=r1]34[/color][small] &nbsp;[/small][color=r2]36[/color][small] &nbsp;[/small][color=r3]41[/color][small] &nbsp;[/small][color=r4]47[/color][/li][li]Added in patch [acronym=\"1.13.2.30682\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "3": {
+        "levels": [
+          [
+            {
+              "coord": [
+                42.2,
+                52.6
+              ],
+              "coords": [
+                [
+                  42.2,
+                  52.4
+                ],
+                [
+                  42.2,
+                  52.6
+                ]
+              ],
+              "id": 4618,
+              "name": "Martek the Exiled",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Badlands"
+      },
+      "400": {
+        "levels": [
+          [
+            {
+              "coord": [
+                78,
+                77
+              ],
+              "coords": [
+                [
+                  78,
+                  77
+                ]
+              ],
+              "id": 4454,
+              "name": "Fizzle Brassbolts",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Thousand Needles"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        3,
+        1
+      ],
+      [
+        400,
+        1
+      ]
+    ]
+  },
+  "minLevel": 28,
+  "pageInfo": {
+    "name": "News for Fizzle",
+    "type": 5,
+    "typeId": 1137
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 1137,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 4618,
+      "npcName": "Martek the Exiled",
+      "zoneId": 3,
+      "x": 42.2,
+      "y": 52.6,
+      "zoneName": "Badlands"
+    }
+  ]
+}

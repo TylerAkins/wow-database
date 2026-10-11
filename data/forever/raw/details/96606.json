@@ -1,0 +1,101 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T06:45:09+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 6[/li][li]Requires level 4[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=265811/lyreena-duskblade]Lyreena Duskblade[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=265811/lyreena-duskblade]Lyreena Duskblade[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]4[/color][small] &nbsp;[/small][color=r3]9[/color][small] &nbsp;[/small][color=r4]12[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "141": {
+        "levels": [
+          [
+            {
+              "coord": [
+                57.6,
+                56.6
+              ],
+              "coords": [
+                [
+                  57.4,
+                  56.6
+                ],
+                [
+                  57.6,
+                  56.6
+                ]
+              ],
+              "id": 265811,
+              "name": "Lyreena Duskblade",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                57.6,
+                56.6
+              ],
+              "coords": [
+                [
+                  57.4,
+                  56.6
+                ],
+                [
+                  57.6,
+                  56.6
+                ]
+              ],
+              "id": 265811,
+              "name": "Lyreena Duskblade",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Teldrassil"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        141,
+        1
+      ]
+    ]
+  },
+  "minLevel": 4,
+  "pageInfo": {
+    "name": "The Great Outdoors",
+    "type": 5,
+    "typeId": 96606
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 96606,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 265811,
+      "npcName": "Lyreena Duskblade",
+      "zoneId": 141,
+      "x": 57.6,
+      "y": 56.6,
+      "zoneName": "Teldrassil"
+    }
+  ]
+}

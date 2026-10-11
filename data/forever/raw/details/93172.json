@@ -1,0 +1,163 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T06:11:57+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 13[/li][li]Requires level 8[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=251684/strange-hermit]Strange Hermit[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=251684/strange-hermit]Strange Hermit[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]8[/color][small] &nbsp;[/small][color=r1]9[/color][small] &nbsp;[/small][color=r2]11[/color][small] &nbsp;[/small][color=r3]16[/color][small] &nbsp;[/small][color=r4]19[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "16593": {
+        "levels": [
+          [
+            {
+              "coord": [
+                54,
+                39
+              ],
+              "coords": [
+                [
+                  54,
+                  39
+                ]
+              ],
+              "id": 251684,
+              "name": "Strange Hermit",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                54,
+                39
+              ],
+              "coords": [
+                [
+                  54,
+                  39
+                ]
+              ],
+              "id": 251684,
+              "name": "Strange Hermit",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                57,
+                29.4
+              ],
+              "coords": [
+                [
+                  57,
+                  29.4
+                ],
+                [
+                  57.2,
+                  29.6
+                ],
+                [
+                  57.2,
+                  33.4
+                ],
+                [
+                  57.2,
+                  33.6
+                ],
+                [
+                  57.4,
+                  32
+                ],
+                [
+                  57.6,
+                  31
+                ],
+                [
+                  57.6,
+                  32.2
+                ],
+                [
+                  57.6,
+                  33.8
+                ],
+                [
+                  57.8,
+                  30.4
+                ],
+                [
+                  58.4,
+                  32.6
+                ],
+                [
+                  58.6,
+                  32.2
+                ],
+                [
+                  58.8,
+                  31.2
+                ],
+                [
+                  58.8,
+                  32.6
+                ],
+                [
+                  59.2,
+                  34.2
+                ]
+              ],
+              "id": 251676,
+              "name": "Wind Hollow",
+              "objective": 251676,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Zephras Isle"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16593,
+        2
+      ]
+    ]
+  },
+  "minLevel": 8,
+  "pageInfo": {
+    "name": "Free the Hollows",
+    "type": 5,
+    "typeId": 93172
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 93172,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 251684,
+      "npcName": "Strange Hermit",
+      "zoneId": 16593,
+      "x": 54.0,
+      "y": 39.0,
+      "zoneName": "Zephras Isle"
+    }
+  ]
+}

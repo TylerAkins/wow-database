@@ -1,0 +1,114 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T05:33:59+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 24[/li][li]Requires level 14[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/object=424005/pocket-litter]Pocket Litter[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=424012/mound-of-dirt]Mound of Dirt[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]14[/color][small] &nbsp;[/small][color=r1]20[/color][small] &nbsp;[/small][color=r2]22[/color][small] &nbsp;[/small][color=r3]27[/color][small] &nbsp;[/small][color=r4]32[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "406": {
+        "levels": [
+          [
+            {
+              "coord": [
+                40.8,
+                52.5
+              ],
+              "coords": [
+                [
+                  40.7,
+                  52.4
+                ],
+                [
+                  40.8,
+                  52.5
+                ]
+              ],
+              "id": 424005,
+              "name": "Pocket Litter",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                39.6,
+                49.9
+              ],
+              "coords": [
+                [
+                  39.6,
+                  49.9
+                ]
+              ],
+              "id": 424012,
+              "name": "Mound of Dirt",
+              "point": "end",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stonetalon Mountains"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        406,
+        2
+      ]
+    ]
+  },
+  "minLevel": 14,
+  "objectSpawns": [
+    {
+      "entityId": 424005,
+      "entityKind": "object",
+      "entityName": "Pocket Litter",
+      "uiMapId": 1442,
+      "uiMapName": "Stonetalon Mountains",
+      "x": 40.7,
+      "y": 52.4,
+      "zoneId": 406
+    },
+    {
+      "entityId": 424005,
+      "entityKind": "object",
+      "entityName": "Pocket Litter",
+      "uiMapId": 1442,
+      "uiMapName": "Stonetalon Mountains",
+      "x": 40.8,
+      "y": 52.5,
+      "zoneId": 406
+    }
+  ],
+  "pageInfo": {
+    "name": "Scramble",
+    "type": 5,
+    "typeId": 79980
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 79980,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 424005,
+      "npcName": "Pocket Litter",
+      "x": 40.8,
+      "y": 52.5,
+      "zoneId": 406,
+      "zoneName": "Stonetalon Mountains"
+    }
+  ]
+}

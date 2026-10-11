@@ -1,0 +1,157 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T00:36:56+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 25[/li][li]Requires level 20[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=4721/zangen-stonehoof]Zangen Stonehoof[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=4721/zangen-stonehoof]Zangen Stonehoof[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]20[/color][small] &nbsp;[/small][color=r1]21[/color][small] &nbsp;[/small][color=r2]23[/color][small] &nbsp;[/small][color=r3]28[/color][small] &nbsp;[/small][color=r4]33[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 2,
+    "objectives": {
+      "1638": {
+        "levels": [
+          [
+            {
+              "coord": [
+                54.6,
+                51.2
+              ],
+              "coords": [
+                [
+                  54,
+                  51.6
+                ],
+                [
+                  54.4,
+                  50.4
+                ],
+                [
+                  54.4,
+                  51.2
+                ],
+                [
+                  54.6,
+                  51.2
+                ],
+                [
+                  55,
+                  51.6
+                ],
+                [
+                  55.4,
+                  50.2
+                ],
+                [
+                  55.6,
+                  50.4
+                ],
+                [
+                  55.6,
+                  50.6
+                ],
+                [
+                  55.6,
+                  52.2
+                ]
+              ],
+              "id": 4721,
+              "name": "Zangen Stonehoof",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                54.6,
+                51.2
+              ],
+              "coords": [
+                [
+                  54,
+                  51.6
+                ],
+                [
+                  54.4,
+                  50.4
+                ],
+                [
+                  54.4,
+                  51.2
+                ],
+                [
+                  54.6,
+                  51.2
+                ],
+                [
+                  55,
+                  51.6
+                ],
+                [
+                  55.4,
+                  50.2
+                ],
+                [
+                  55.6,
+                  50.4
+                ],
+                [
+                  55.6,
+                  50.6
+                ],
+                [
+                  55.6,
+                  52.2
+                ]
+              ],
+              "id": 4721,
+              "name": "Zangen Stonehoof",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Thunder Bluff"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1638,
+        1
+      ]
+    ]
+  },
+  "minLevel": 20,
+  "pageInfo": {
+    "name": "The Sacred Flame",
+    "type": 5,
+    "typeId": 1195
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 1195,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 4721,
+      "npcName": "Zangen Stonehoof",
+      "zoneId": 1638,
+      "x": 54.6,
+      "y": 51.2,
+      "zoneName": "Thunder Bluff"
+    }
+  ]
+}

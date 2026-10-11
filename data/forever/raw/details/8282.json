@@ -1,0 +1,174 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T04:20:26+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 58[/li][li]Requires level 54[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=15190/noggle-ficklespragg]Noggle Ficklespragg[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=15190/noggle-ficklespragg]Noggle Ficklespragg[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]54[/color][small] &nbsp;[/small][color=r2]56[/color][small] &nbsp;[/small][color=r3]61[/color][small] &nbsp;[/small][color=r4]69[/color][/li][li]Added in patch [acronym=\"1.13.4.33920\"]1.13.4[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1377": {
+        "levels": [
+          [
+            {
+              "coord": [
+                51.6,
+                38.6
+              ],
+              "coords": [
+                [
+                  51.6,
+                  38.4
+                ],
+                [
+                  51.6,
+                  38.6
+                ]
+              ],
+              "id": 15190,
+              "name": "Noggle Ficklespragg",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                51.6,
+                38.6
+              ],
+              "coords": [
+                [
+                  51.6,
+                  38.4
+                ],
+                [
+                  51.6,
+                  38.6
+                ]
+              ],
+              "id": 15190,
+              "name": "Noggle Ficklespragg",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                44.8,
+                90.8
+              ],
+              "coords": [
+                [
+                  42,
+                  90.6
+                ],
+                [
+                  43.4,
+                  90.2
+                ],
+                [
+                  44.2,
+                  90.4
+                ],
+                [
+                  44.4,
+                  90.6
+                ],
+                [
+                  44.6,
+                  90.4
+                ],
+                [
+                  44.8,
+                  90.8
+                ],
+                [
+                  45,
+                  92
+                ],
+                [
+                  45,
+                  92.6
+                ],
+                [
+                  45.6,
+                  90.8
+                ]
+              ],
+              "id": 15196,
+              "item": "Noggle's Satchel",
+              "name": "Deathclasp",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                44.6,
+                91.3
+              ],
+              "coords": [
+                [
+                  44.6,
+                  91.3
+                ],
+                [
+                  44.7,
+                  91.5
+                ]
+              ],
+              "id": 180435,
+              "item": "Noggle's Satchel",
+              "name": "Noggle's Satchel",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Silithus"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1377,
+        3
+      ]
+    ]
+  },
+  "minLevel": 54,
+  "pageInfo": {
+    "name": "Noggle's Lost Satchel",
+    "type": 5,
+    "typeId": 8282
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 8282,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 15190,
+      "npcName": "Noggle Ficklespragg",
+      "zoneId": 1377,
+      "x": 51.6,
+      "y": 38.6,
+      "zoneName": "Silithus"
+    }
+  ]
+}

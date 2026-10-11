@@ -1,96 +1,44 @@
 # Development
 
-Production refreshes run in [`.github/workflows/database-update.yml`](../.github/workflows/database-update.yml). Local commands are for debugging the compiler or validating an ATT revision before merge.
-
 ## Requirements
 
-- Go 1.22 or newer (see `go.mod`)
-- A checkout of [AllTheThings](https://github.com/ATTWoWAddon/AllTheThings) with `.contrib/.db/forever`
+- Python 3.12 or newer
+- No third-party packages for compilation or offline tests
+- Playwright and local Chrome only when using `fetch_quest_pages.py --browser`
 
-LuaJIT and QuestieDB are **not** used.
-
-## Repository layout
-
-| Path | Role |
-| --- | --- |
-| `cmd/compile` | CLI: read ATT (or a test JSONL dump) and write `export/forever` |
-| `internal/att` | Parse ATT Forever Lua (`q(...)`, coords, map constants) and build export rows |
-| `internal/compile` | Publish shards, indexes, and `manifest.json` (schema version 2) |
-| `export/forever` | Published tree consumed by other repos |
-
-## Compile from ATT
+## Tests and generated-data checks
 
 ```bash
-cd /path/to/wow-database
-ATT_COMMIT=$(git -C /path/to/AllTheThings rev-parse HEAD)
-GENERATED_AT=$(git -C /path/to/AllTheThings log -1 --format=%cI)
-
-go run ./cmd/compile \
-  --att-root /path/to/AllTheThings \
-  --att-commit "$ATT_COMMIT" \
-  --generated-at "$GENERATED_AT" \
-  --out export/forever
-
-go run ./cmd/compile \
-  --att-root /path/to/AllTheThings \
-  --att-commit "$ATT_COMMIT" \
-  --generated-at "$GENERATED_AT" \
-  --out export/forever \
-  --check
-
-go test ./...
-gofmt -l .
+python3 -m unittest discover -s tests -p 'test_*.py'
+python3 tools/compile_zone_files.py --check
 ```
 
-### Flags
+Regenerate all committed bundles after canonical data changes:
 
-| Flag | Required | Meaning |
-| --- | --- | --- |
-| `--att-root` | Yes (unless `--dump`) | ATT repo root |
-| `--att-commit` | With `--att-root` | SHA recorded in `manifest.json` as `commit` |
-| `--generated-at` | With `--att-root` | RFC3339 timestamp for `manifest.generatedAt` |
-| `--out` | No (default `export/forever`) | Output directory |
-| `--check` | No | Recompute export and byte-compare with `--out`; do not write |
-| `--dump` | Test only | JSONL intermediate format (see below); skips ATT |
-
-`--check` must match the published tree exactly, including stale-file detection (extra files under `export/forever` fail the check).
-
-## What the ATT reader extracts
-
-The exporter walks `.contrib/.db/forever` (skipping `zzOLD`) and parses literal `q(questId, { ... })` tables. It does **not** execute ATT’s Lua preprocessor.
-
-| ATT (examples) | Published quest / index |
-| --- | --- |
-| Comment on `q(id, { -- Name` or `name = "..."` | `name` |
-| `qg` / `qgs` / `provider` / `providers` | `startedBy`, `places` (`available`), usually same ids for `finishedBy` / `turnIn` |
-| `provider = { "i", itemId }` | `startedBy` / `places` with `type: "item"` |
-| `provider = { "o", objectId }` | `type: "object"` |
-| `coord` / `coords` | Spawn tuples `[zoneId, x, y]` on matching providers |
-| `sourceQuest` / `sourceQuests` | `preQuestSingle` / `preQuestGroup` |
-| `altQuests` | `exclusiveTo` |
-| `lvl` | `questLevel` |
-| `races` / `classes` | `requiredRaces` / `requiredClasses` |
-| `isDaily`, `isWeekly`, `repeatable`, … | `questType` flags |
-| `groups` → `objective(...)` with `cr` / `provider` | `objectives`, `places` (`objective`) |
-| `description` | `objectivesText` (single string in an array) |
-
-Quest names usually come from the `-- Title` comment on the `q(...)` line. ATT does not ship full client quest text for every id the way QuestieDB did.
-
-Non-literal coordinates (for example `coord = appendGroups(...)`) are skipped for that quest block instead of aborting the whole export. Unsupported syntax inside a literal coordinate table still fails with file and quest id.
-
-Unmapped `MAP.*` constants produce `manifest.parse.issues` and empty spawns for that NPC; they do not stop the run.
-
-## Test JSONL dump (`--dump`)
-
-Unit tests feed the publisher without cloning ATT. Each line is one JSON object; the last line must be a summary:
-
-```json
-{"id":1,"fields":{"name":"Example"},"startedBy":[{"type":"npc","id":2,"spawns":[]}],"places":[]}
-{"kind":"summary","questCount":1,"commit":"test","generatedAt":"2026-10-07T00:00:00Z"}
+```bash
+python3 tools/compile_zone_files.py
 ```
 
-This path exists only for `go test` and local publisher checks. Production exports always use `--att-root`.
+The compiler validates all selected inputs before replacing output. A full run replaces the complete zone directory, removing stale files. A targeted `--zone` run preserves bundles for other zones. `--check` never writes.
 
-## Determinism
+## Forever snapshot invariants
 
-Two runs with the same ATT commit, `generatedAt`, and compiler revision must produce identical bytes under `export/forever`.
+- 5,058 indexed quests
+- 5,057 quest detail records
+- 330 object records
+- One item record
+- 59 zone catalogs with complete detail coverage
+- Quest `7507` (`Nostro's Compendium`) is the documented non-zone gap because its old Wowhead name redirect-loops
+
+## Refreshing raw data
+
+The scraper defaults to `data/forever/raw/`. Network refreshes are intentionally local/manual and are not run by CI.
+
+```bash
+python3 tools/fetch_quest_pages.py ingest --browser --force \
+  --url 'https://www.wowhead.com/forever/quests/kalimdor/durotar'
+python3 tools/fetch_quest_pages.py sync-quests --browser --delay 5 \
+  --batch-size 10 --batch-pause 15
+```
+
+Run the offline tests and regenerate the compiled files after any refresh. See [quest-database.md](quest-database.md) for the complete source catalog and specialized sync commands.

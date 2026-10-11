@@ -1,0 +1,130 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T05:33:49+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 32[/li][li]Requires level 14[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/object=424007/carved-figurine]Carved Figurine[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=406918/messenger-bag]Messenger Bag[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]14[/color][small] &nbsp;[/small][color=r1]28[/color][small] &nbsp;[/small][color=r2]30[/color][small] &nbsp;[/small][color=r3]35[/color][small] &nbsp;[/small][color=r4]41[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "38": {
+        "levels": [
+          [
+            {
+              "coord": [
+                49.5,
+                12.8
+              ],
+              "coords": [
+                [
+                  49.4,
+                  12.9
+                ],
+                [
+                  49.5,
+                  12.8
+                ]
+              ],
+              "id": 424007,
+              "name": "Carved Figurine",
+              "point": "start",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Loch Modan"
+      },
+      "45": {
+        "levels": [
+          [
+            {
+              "coord": [
+                22.5,
+                24.2
+              ],
+              "coords": [
+                [
+                  22.4,
+                  24.2
+                ],
+                [
+                  22.5,
+                  24.2
+                ]
+              ],
+              "id": 406918,
+              "name": "Messenger Bag",
+              "point": "end",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Arathi Highlands"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        38,
+        1
+      ],
+      [
+        45,
+        1
+      ]
+    ]
+  },
+  "minLevel": 14,
+  "objectSpawns": [
+    {
+      "entityId": 424007,
+      "entityKind": "object",
+      "entityName": "Carved Figurine",
+      "uiMapId": 1432,
+      "uiMapName": "Loch Modan",
+      "x": 49.4,
+      "y": 12.9,
+      "zoneId": 38
+    },
+    {
+      "entityId": 424007,
+      "entityKind": "object",
+      "entityName": "Carved Figurine",
+      "uiMapId": 1432,
+      "uiMapName": "Loch Modan",
+      "x": 49.5,
+      "y": 12.8,
+      "zoneId": 38
+    }
+  ],
+  "pageInfo": {
+    "name": "Eagle's Fist",
+    "type": 5,
+    "typeId": 79975
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 79975,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 424007,
+      "npcName": "Carved Figurine",
+      "x": 49.5,
+      "y": 12.8,
+      "zoneId": 38,
+      "zoneName": "Loch Modan"
+    }
+  ]
+}

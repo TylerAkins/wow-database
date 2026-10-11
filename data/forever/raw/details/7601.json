@@ -1,0 +1,104 @@
+{
+  "classes": [
+    9
+  ],
+  "fetchedAt": "2026-09-25T03:50:17+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 50[/li][li]Requires level 50[/li][li]Side: Both[/li][li]Class: [class=9][/li][li][icon name=quest-start]Start: [url=/forever/npc=14469/niby-the-almighty]Niby the Almighty[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=14470/impsy]Impsy[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]50[/color][small] &nbsp;[/small][color=r3]53[/color][small] &nbsp;[/small][color=r4]61[/color][/li][li]Added in patch [acronym=\"1.13.2.31687\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "361": {
+        "levels": [
+          [
+            {
+              "coord": [
+                41.4,
+                44.8
+              ],
+              "coords": [
+                [
+                  41.4,
+                  44.8
+                ],
+                [
+                  41.6,
+                  44.8
+                ]
+              ],
+              "id": 14469,
+              "name": "Niby the Almighty",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                41.4,
+                44.8
+              ],
+              "coords": [
+                [
+                  41.4,
+                  44.8
+                ],
+                [
+                  41.6,
+                  44.8
+                ]
+              ],
+              "id": 14470,
+              "name": "Impsy",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Felwood"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        361,
+        2
+      ]
+    ]
+  },
+  "minLevel": 50,
+  "pageInfo": {
+    "name": "What Niby Commands",
+    "type": 5,
+    "typeId": 7601
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    7602
+  ],
+  "questId": 7601,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 14469,
+      "npcName": "Niby the Almighty",
+      "zoneId": 361,
+      "x": 41.4,
+      "y": 44.8,
+      "zoneName": "Felwood"
+    }
+  ]
+}

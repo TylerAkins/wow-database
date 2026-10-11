@@ -1,0 +1,119 @@
+{
+  "classes": [
+    8
+  ],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T05:30:45+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 20[/li][li]Requires level 1[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=211033/garion-wendell]Garion Wendell[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=211033/garion-wendell]Garion Wendell[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]1[/color][small] &nbsp;[/small][color=r1]16[/color][small] &nbsp;[/small][color=r2]18[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "1519": {
+        "levels": [
+          [
+            {
+              "coord": [
+                37.8,
+                80.2
+              ],
+              "coords": [
+                [
+                  37.6,
+                  80.8
+                ],
+                [
+                  37.8,
+                  80.2
+                ],
+                [
+                  48.8,
+                  86.6
+                ],
+                [
+                  49,
+                  86.4
+                ]
+              ],
+              "id": 211033,
+              "name": "Garion Wendell",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                37.8,
+                80.2
+              ],
+              "coords": [
+                [
+                  37.6,
+                  80.8
+                ],
+                [
+                  37.8,
+                  80.2
+                ],
+                [
+                  48.8,
+                  86.6
+                ],
+                [
+                  49,
+                  86.4
+                ]
+              ],
+              "id": 211033,
+              "name": "Garion Wendell",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stormwind City"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1519,
+        1
+      ]
+    ]
+  },
+  "minLevel": 1,
+  "pageInfo": {
+    "name": "Archmage Antonidas: The Unabridged Autobiography",
+    "type": 5,
+    "typeId": 79091
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 79091,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 211033,
+      "npcName": "Garion Wendell",
+      "zoneId": 1519,
+      "x": 37.8,
+      "y": 80.2,
+      "zoneName": "Stormwind City"
+    }
+  ]
+}

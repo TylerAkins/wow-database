@@ -1,0 +1,93 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-24T23:18:30+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 20[/li][li]Requires level 15[/li][li]Type: Elite[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1187/daryl-the-youngling]Daryl the Youngling[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1156/vyrin-swiftwind]Vyrin Swiftwind[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]15[/color][small] &nbsp;[/small][color=r1]16[/color][small] &nbsp;[/small][color=r2]18[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "38": {
+        "levels": [
+          [
+            {
+              "coord": [
+                83.4,
+                65.2
+              ],
+              "coords": [
+                [
+                  83.4,
+                  65.2
+                ]
+              ],
+              "id": 1187,
+              "name": "Daryl the Youngling",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                81.8,
+                64.2
+              ],
+              "coords": [
+                [
+                  81.8,
+                  64.2
+                ]
+              ],
+              "id": 1156,
+              "name": "Vyrin Swiftwind",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Loch Modan"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        38,
+        2
+      ]
+    ]
+  },
+  "minLevel": 15,
+  "pageInfo": {
+    "name": "Vyrin's Revenge",
+    "type": 5,
+    "typeId": 531
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 531,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 1187,
+      "npcName": "Daryl the Youngling",
+      "zoneId": 38,
+      "x": 83.4,
+      "y": 65.2,
+      "zoneName": "Loch Modan"
+    }
+  ]
+}

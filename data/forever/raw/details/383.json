@@ -1,0 +1,97 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-24T23:15:26+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 5[/li][li]Requires level 2[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1570/executor-arren]Executor Arren[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1515/executor-zygand]Executor Zygand[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]2[/color][small] &nbsp;[/small][color=r2]3[/color][small] &nbsp;[/small][color=r3]8[/color][small] &nbsp;[/small][color=r4]11[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "85": {
+        "levels": [
+          [
+            {
+              "coord": [
+                32,
+                66
+              ],
+              "coords": [
+                [
+                  32,
+                  66
+                ]
+              ],
+              "id": 1570,
+              "name": "Executor Arren",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                60.6,
+                51.8
+              ],
+              "coords": [
+                [
+                  60.4,
+                  51.8
+                ],
+                [
+                  60.6,
+                  51.8
+                ]
+              ],
+              "id": 1515,
+              "name": "Executor Zygand",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Tirisfal Glades"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        85,
+        2
+      ]
+    ]
+  },
+  "minLevel": 2,
+  "pageInfo": {
+    "name": "Vital Intelligence",
+    "type": 5,
+    "typeId": 383
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 383,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 1570,
+      "npcName": "Executor Arren",
+      "zoneId": 85,
+      "x": 32.0,
+      "y": 66.0,
+      "zoneName": "Tirisfal Glades"
+    }
+  ]
+}

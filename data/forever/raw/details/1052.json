@@ -1,0 +1,109 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T00:23:07+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 40[/li][li]Requires level 34[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1182/brother-anton]Brother Anton[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3980/raleigh-the-devout]Raleigh the Devout[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]34[/color][small] &nbsp;[/small][color=r1]36[/color][small] &nbsp;[/small][color=r2]38[/color][small] &nbsp;[/small][color=r3]43[/color][small] &nbsp;[/small][color=r4]49[/color][/li][li]Added in patch [acronym=\"1.13.2.30682\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "267": {
+        "levels": [
+          [
+            {
+              "coord": [
+                51.4,
+                58.4
+              ],
+              "coords": [
+                [
+                  51.4,
+                  58.4
+                ],
+                [
+                  51.4,
+                  58.6
+                ]
+              ],
+              "id": 3980,
+              "name": "Raleigh the Devout",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Hillsbrad Foothills"
+      },
+      "405": {
+        "levels": [
+          [
+            {
+              "coord": [
+                66.4,
+                7.8
+              ],
+              "coords": [
+                [
+                  66.4,
+                  7.8
+                ]
+              ],
+              "id": 1182,
+              "name": "Brother Anton",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Desolace"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        405,
+        1
+      ],
+      [
+        267,
+        1
+      ]
+    ]
+  },
+  "minLevel": 34,
+  "pageInfo": {
+    "name": "Down the Scarlet Path",
+    "type": 5,
+    "typeId": 1052
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 1052,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 1182,
+      "npcName": "Brother Anton",
+      "zoneId": 405,
+      "x": 66.4,
+      "y": 7.8,
+      "zoneName": "Desolace"
+    }
+  ]
+}

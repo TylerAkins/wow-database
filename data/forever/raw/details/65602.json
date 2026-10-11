@@ -1,0 +1,126 @@
+{
+  "classes": [
+    9
+  ],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T05:21:26+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 20[/li][li]Requires level 20[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=1], [race=7][/li][li]Class: [class=9][/li][li][icon name=quest-start]Start: [url=/forever/npc=6244/takar-the-seer]Takar the Seer[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=6122/gakin-the-darkbinder]Gakin the Darkbinder[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]20[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "1519": {
+        "levels": [
+          [
+            {
+              "coord": [
+                25.4,
+                78.4
+              ],
+              "coords": [
+                [
+                  25.4,
+                  78.4
+                ],
+                [
+                  25.4,
+                  78.6
+                ],
+                [
+                  25.6,
+                  77.8
+                ],
+                [
+                  25.6,
+                  78.6
+                ],
+                [
+                  39.2,
+                  85.2
+                ]
+              ],
+              "id": 6122,
+              "name": "Gakin the Darkbinder",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stormwind City"
+      },
+      "17": {
+        "levels": [
+          [
+            {
+              "coord": [
+                49.2,
+                57
+              ],
+              "coords": [
+                [
+                  49.2,
+                  57
+                ]
+              ],
+              "id": 6244,
+              "name": "Takar the Seer",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Barrens"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        17,
+        1
+      ],
+      [
+        1519,
+        1
+      ]
+    ]
+  },
+  "minLevel": 20,
+  "pageInfo": {
+    "name": "What Is Love?",
+    "type": 5,
+    "typeId": 65602
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 65602,
+  "races": [
+    1,
+    7
+  ],
+  "startPins": [
+    {
+      "npcId": 6244,
+      "npcName": "Takar the Seer",
+      "zoneId": 17,
+      "x": 49.2,
+      "y": 57.0,
+      "zoneName": "The Barrens"
+    }
+  ]
+}

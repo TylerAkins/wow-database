@@ -1,0 +1,96 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T04:24:35+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 60[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=15270/huum-wildmane]Huum Wildmane[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=15282/aurel-goldleaf]Aurel Goldleaf[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]60[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.4.33920\"]1.13.4[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1377": {
+        "levels": [
+          [
+            {
+              "coord": [
+                48.6,
+                37.6
+              ],
+              "coords": [
+                [
+                  48.6,
+                  37.4
+                ],
+                [
+                  48.6,
+                  37.6
+                ]
+              ],
+              "id": 15270,
+              "name": "Huum Wildmane",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                51.8,
+                38
+              ],
+              "coords": [
+                [
+                  51.8,
+                  38
+                ]
+              ],
+              "id": 15282,
+              "name": "Aurel Goldleaf",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Silithus"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1377,
+        2
+      ]
+    ]
+  },
+  "minLevel": 60,
+  "pageInfo": {
+    "name": "Goldleaf's Discovery",
+    "type": 5,
+    "typeId": 8343
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 8343,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 15270,
+      "npcName": "Huum Wildmane",
+      "zoneId": 1377,
+      "x": 48.6,
+      "y": 37.6,
+      "zoneName": "Silithus"
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T07:09:40+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 10[/li][li]Requires level 7[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=246389/hilda-the-breaker]Hilda the Breaker[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=246389/hilda-the-breaker]Hilda the Breaker[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]7[/color][small] &nbsp;[/small][color=r2]8[/color][small] &nbsp;[/small][color=r3]13[/color][small] &nbsp;[/small][color=r4]16[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "85": {
+        "levels": [
+          [
+            {
+              "coord": [
+                22,
+                47.2
+              ],
+              "coords": [
+                [
+                  22,
+                  47.2
+                ]
+              ],
+              "id": 246389,
+              "name": "Hilda the Breaker",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                22,
+                47.2
+              ],
+              "coords": [
+                [
+                  22,
+                  47.2
+                ]
+              ],
+              "id": 246389,
+              "name": "Hilda the Breaker",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                11.8,
+                65.8
+              ],
+              "coords": [
+                [
+                  8.4,
+                  65.6
+                ],
+                [
+                  8.4,
+                  67
+                ],
+                [
+                  8.6,
+                  65.6
+                ],
+                [
+                  8.6,
+                  67
+                ],
+                [
+                  9.4,
+                  65
+                ],
+                [
+                  9.4,
+                  68
+                ],
+                [
+                  9.8,
+                  68
+                ],
+                [
+                  10.2,
+                  66.2
+                ],
+                [
+                  10.2,
+                  66.8
+                ],
+                [
+                  10.4,
+                  65.4
+                ],
+                [
+                  10.6,
+                  65.2
+                ],
+                [
+                  10.6,
+                  66.8
+                ],
+                [
+                  11,
+                  66
+                ],
+                [
+                  11.8,
+                  65.8
+                ]
+              ],
+              "id": 260428,
+              "item": "Faintly Glowing Bone",
+              "name": "Shadowvale Lurcher",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                11.8,
+                65.8
+              ],
+              "coords": [
+                [
+                  8.4,
+                  67
+                ],
+                [
+                  8.6,
+                  67
+                ],
+                [
+                  9,
+                  66.2
+                ],
+                [
+                  9.4,
+                  64.8
+                ],
+                [
+                  9.4,
+                  68.2
+                ],
+                [
+                  9.6,
+                  65
+                ],
+                [
+                  9.8,
+                  66.8
+                ],
+                [
+                  10,
+                  68.2
+                ],
+                [
+                  10.2,
+                  66.4
+                ],
+                [
+                  10.6,
+                  65.2
+                ],
+                [
+                  10.6,
+                  66.6
+                ],
+                [
+                  11.4,
+                  65.8
+                ],
+                [
+                  11.8,
+                  65.8
+                ]
+              ],
+              "id": 260430,
+              "item": "Faintly Glowing Bone",
+              "name": "Shadowvale Mystic",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Tirisfal Glades"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        85,
+        3
+      ]
+    ]
+  },
+  "minLevel": 7,
+  "pageInfo": {
+    "name": "As Above, So Below",
+    "type": 5,
+    "typeId": 99152
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 99152,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 246389,
+      "npcName": "Hilda the Breaker",
+      "zoneId": 85,
+      "x": 22.0,
+      "y": 47.2,
+      "zoneName": "Tirisfal Glades"
+    }
+  ]
+}

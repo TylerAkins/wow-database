@@ -1,0 +1,268 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T07:10:05+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 8[/li][li]Requires level 5[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1253/father-gavin]Father Gavin[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1253/father-gavin]Father Gavin[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]5[/color][small] &nbsp;[/small][color=r2]6[/color][small] &nbsp;[/small][color=r3]11[/color][small] &nbsp;[/small][color=r4]14[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1": {
+        "levels": [
+          [
+            {
+              "coord": [
+                57.6,
+                44.8
+              ],
+              "coords": [
+                [
+                  57.4,
+                  44.8
+                ],
+                [
+                  57.6,
+                  44.8
+                ]
+              ],
+              "id": 1253,
+              "name": "Father Gavin",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                57.6,
+                44.8
+              ],
+              "coords": [
+                [
+                  57.4,
+                  44.8
+                ],
+                [
+                  57.6,
+                  44.8
+                ]
+              ],
+              "id": 1253,
+              "name": "Father Gavin",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                57,
+                45.2
+              ],
+              "coords": [
+                [
+                  49.4,
+                  45
+                ],
+                [
+                  51.6,
+                  42.2
+                ],
+                [
+                  52,
+                  44
+                ],
+                [
+                  52.2,
+                  43.4
+                ],
+                [
+                  52.4,
+                  44.8
+                ],
+                [
+                  53.2,
+                  43.2
+                ],
+                [
+                  53.2,
+                  43.8
+                ],
+                [
+                  53.2,
+                  44.8
+                ],
+                [
+                  53.6,
+                  43
+                ],
+                [
+                  53.6,
+                  47.4
+                ],
+                [
+                  53.8,
+                  44.4
+                ],
+                [
+                  53.8,
+                  44.6
+                ],
+                [
+                  53.8,
+                  47.8
+                ],
+                [
+                  54,
+                  45.8
+                ],
+                [
+                  54.8,
+                  44.6
+                ],
+                [
+                  55.2,
+                  43.4
+                ],
+                [
+                  55.2,
+                  45.8
+                ],
+                [
+                  55.2,
+                  46.6
+                ],
+                [
+                  55.4,
+                  44.4
+                ],
+                [
+                  55.6,
+                  44.6
+                ],
+                [
+                  55.8,
+                  44.2
+                ],
+                [
+                  56,
+                  43.4
+                ],
+                [
+                  56.2,
+                  46.2
+                ],
+                [
+                  56.2,
+                  46.6
+                ],
+                [
+                  56.4,
+                  47.6
+                ],
+                [
+                  56.4,
+                  49.4
+                ],
+                [
+                  56.6,
+                  46.6
+                ],
+                [
+                  56.8,
+                  44.4
+                ],
+                [
+                  57,
+                  45.2
+                ],
+                [
+                  57,
+                  45.6
+                ],
+                [
+                  57,
+                  49.6
+                ],
+                [
+                  57.2,
+                  49
+                ],
+                [
+                  57.4,
+                  43.4
+                ],
+                [
+                  57.4,
+                  47.8
+                ],
+                [
+                  57.6,
+                  43.2
+                ],
+                [
+                  57.6,
+                  44.8
+                ],
+                [
+                  57.6,
+                  45.8
+                ],
+                [
+                  57.8,
+                  42.2
+                ]
+              ],
+              "id": 276003,
+              "name": "Minor Ice Elemental",
+              "objective": 276003,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Dun Morogh"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  "minLevel": 5,
+  "pageInfo": {
+    "name": "Rime's Wrath",
+    "type": 5,
+    "typeId": 99160
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 99160,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 1253,
+      "npcName": "Father Gavin",
+      "zoneId": 1,
+      "x": 57.6,
+      "y": 44.8,
+      "zoneName": "Dun Morogh"
+    }
+  ]
+}

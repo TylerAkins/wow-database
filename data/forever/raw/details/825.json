@@ -1,0 +1,101 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-24T23:24:32+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 8[/li][li]Requires level 3[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3139/garthok]Gar'Thok[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3139/garthok]Gar'Thok[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]3[/color][small] &nbsp;[/small][color=r1]4[/color][small] &nbsp;[/small][color=r2]6[/color][small] &nbsp;[/small][color=r3]11[/color][small] &nbsp;[/small][color=r4]14[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "14": {
+        "levels": [
+          [
+            {
+              "coord": [
+                52,
+                43.4
+              ],
+              "coords": [
+                [
+                  52,
+                  43.4
+                ],
+                [
+                  52,
+                  43.6
+                ]
+              ],
+              "id": 3139,
+              "name": "Gar'Thok",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                52,
+                43.4
+              ],
+              "coords": [
+                [
+                  52,
+                  43.4
+                ],
+                [
+                  52,
+                  43.6
+                ]
+              ],
+              "id": 3139,
+              "name": "Gar'Thok",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Durotar"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        14,
+        1
+      ]
+    ]
+  },
+  "minLevel": 3,
+  "pageInfo": {
+    "name": "From The Wreckage....",
+    "type": 5,
+    "typeId": 825
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 825,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3139,
+      "npcName": "Gar'Thok",
+      "zoneId": 14,
+      "x": 52.0,
+      "y": 43.4,
+      "zoneName": "Durotar"
+    }
+  ]
+}

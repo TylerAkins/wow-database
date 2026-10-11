@@ -1,0 +1,146 @@
+{
+  "classes": [
+    9
+  ],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T05:21:01+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 20[/li][li]Requires level 20[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Races: [race=2], [race=5][/li][li]Class: [class=9][/li][li][icon name=quest-start]Start: [url=/forever/npc=5693/godrick-farsan]Godrick Farsan[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=5675/carendin-halgar]Carendin Halgar[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]20[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 2,
+    "objectives": {
+      "1497": {
+        "levels": [
+          [
+            {
+              "coord": [
+                85,
+                14.8
+              ],
+              "coords": [
+                [
+                  85,
+                  14.4
+                ],
+                [
+                  85,
+                  14.8
+                ],
+                [
+                  85,
+                  15.6
+                ],
+                [
+                  85.6,
+                  14.2
+                ],
+                [
+                  85.6,
+                  14.8
+                ]
+              ],
+              "id": 5693,
+              "name": "Godrick Farsan",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                85,
+                25.6
+              ],
+              "coords": [
+                [
+                  84,
+                  26.2
+                ],
+                [
+                  84.2,
+                  26.8
+                ],
+                [
+                  84.4,
+                  24.8
+                ],
+                [
+                  84.6,
+                  27.2
+                ],
+                [
+                  85,
+                  24.4
+                ],
+                [
+                  85,
+                  25.4
+                ],
+                [
+                  85,
+                  25.6
+                ],
+                [
+                  86,
+                  25.4
+                ],
+                [
+                  86,
+                  25.6
+                ]
+              ],
+              "id": 5675,
+              "name": "Carendin Halgar",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Undercity"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1497,
+        2
+      ]
+    ]
+  },
+  "minLevel": 20,
+  "pageInfo": {
+    "name": "Hearts of the Lovers",
+    "type": 5,
+    "typeId": 65593
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 65593,
+  "races": [
+    2,
+    5
+  ],
+  "startPins": [
+    {
+      "npcId": 5693,
+      "npcName": "Godrick Farsan",
+      "zoneId": 1497,
+      "x": 85.0,
+      "y": 14.8,
+      "zoneName": "Undercity"
+    }
+  ]
+}

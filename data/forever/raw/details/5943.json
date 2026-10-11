@@ -1,0 +1,119 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T03:15:47+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 38[/li][li]Requires level 32[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=11626/rigger-gizelton]Rigger Gizelton[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=11596/smeed-scrabblescrew]Smeed Scrabblescrew[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]32[/color][small] &nbsp;[/small][color=r1]34[/color][small] &nbsp;[/small][color=r2]36[/color][small] &nbsp;[/small][color=r3]41[/color][small] &nbsp;[/small][color=r4]47[/color][/li][li]Added in patch [acronym=\"1.13.2.30682\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "405": {
+        "levels": [
+          [
+            {
+              "coord": [
+                40.4,
+                79.4
+              ],
+              "coords": [
+                [
+                  40.4,
+                  79.4
+                ],
+                [
+                  40.6,
+                  79.4
+                ],
+                [
+                  45.4,
+                  75.2
+                ],
+                [
+                  45.6,
+                  75.2
+                ],
+                [
+                  46.8,
+                  75.2
+                ],
+                [
+                  47.8,
+                  75.4
+                ],
+                [
+                  60.2,
+                  38.2
+                ]
+              ],
+              "id": 11626,
+              "name": "Rigger Gizelton",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                60.8,
+                61.8
+              ],
+              "coords": [
+                [
+                  60.8,
+                  61.8
+                ]
+              ],
+              "id": 11596,
+              "name": "Smeed Scrabblescrew",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Desolace"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        405,
+        2
+      ]
+    ]
+  },
+  "minLevel": 32,
+  "pageInfo": {
+    "name": "Gizelton Caravan",
+    "type": 5,
+    "typeId": 5943
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    1466,
+    5821
+  ],
+  "questId": 5943,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 11626,
+      "npcName": "Rigger Gizelton",
+      "zoneId": 405,
+      "x": 40.4,
+      "y": 79.4,
+      "zoneName": "Desolace"
+    }
+  ]
+}

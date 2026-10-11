@@ -1,0 +1,116 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T03:26:54+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 10[/li][li]Requires level 10[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Races: [race=2], [race=8][/li][li][icon name=quest-start]Start: [url=/forever/npc=3615/devrak]Devrak[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=6929/innkeeper-gryshka]Innkeeper Gryshka[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]10[/color][small] &nbsp;[/small][color=r3]13[/color][small] &nbsp;[/small][color=r4]16[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1637": {
+        "levels": [
+          [
+            {
+              "coord": [
+                54.2,
+                68.4
+              ],
+              "coords": [
+                [
+                  54,
+                  68.6
+                ],
+                [
+                  54.2,
+                  68.4
+                ]
+              ],
+              "id": 6929,
+              "name": "Innkeeper Gryshka",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Orgrimmar"
+      },
+      "17": {
+        "levels": [
+          [
+            {
+              "coord": [
+                51.4,
+                30.2
+              ],
+              "coords": [
+                [
+                  51.4,
+                  30.2
+                ],
+                [
+                  51.6,
+                  30.4
+                ]
+              ],
+              "id": 3615,
+              "name": "Devrak",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Barrens"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        17,
+        1
+      ],
+      [
+        1637,
+        1
+      ]
+    ]
+  },
+  "minLevel": 10,
+  "pageInfo": {
+    "name": "Ride to Orgrimmar",
+    "type": 5,
+    "typeId": 6384
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 6384,
+  "races": [
+    2,
+    8
+  ],
+  "startPins": [
+    {
+      "npcId": 3615,
+      "npcName": "Devrak",
+      "zoneId": 17,
+      "x": 51.4,
+      "y": 30.2,
+      "zoneName": "The Barrens"
+    }
+  ]
+}

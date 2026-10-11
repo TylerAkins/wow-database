@@ -1,0 +1,101 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T05:19:22+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": true,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 1[/li][li]Type: PvP[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=17079/general-kirika]General Kirika[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=17079/general-kirika]General Kirika[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]1[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "1377": {
+        "levels": [
+          [
+            {
+              "coord": [
+                50.8,
+                69.6
+              ],
+              "coords": [
+                [
+                  50.8,
+                  69.4
+                ],
+                [
+                  50.8,
+                  69.6
+                ]
+              ],
+              "id": 17079,
+              "name": "General Kirika",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                50.8,
+                69.6
+              ],
+              "coords": [
+                [
+                  50.8,
+                  69.4
+                ],
+                [
+                  50.8,
+                  69.6
+                ]
+              ],
+              "id": 17079,
+              "name": "General Kirika",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Silithus"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1377,
+        1
+      ]
+    ]
+  },
+  "minLevel": 1,
+  "pageInfo": {
+    "name": "Scouring the Desert",
+    "type": 5,
+    "typeId": 9422
+  },
+  "pinCategory": "pvp",
+  "prerequisiteQuestIds": [],
+  "questId": 9422,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 17079,
+      "npcName": "General Kirika",
+      "zoneId": 1377,
+      "x": 50.8,
+      "y": 69.6,
+      "zoneName": "Silithus"
+    }
+  ]
+}

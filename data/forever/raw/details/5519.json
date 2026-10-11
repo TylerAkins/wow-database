@@ -1,0 +1,185 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T03:00:43+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": true,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 56[/li][li]Type: Dungeon[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=14338/knot-thimblejack]Knot Thimblejack[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=14338/knot-thimblejack]Knot Thimblejack[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.32089\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 2,
+    "objectives": {
+      "2557": {
+        "levels": [
+          [
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 14338,
+              "name": "Knot Thimblejack",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 14338,
+              "name": "Knot Thimblejack",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 11496,
+              "item": "Rugged Leather",
+              "name": "Immol'thar",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 13036,
+              "item": "Rugged Leather",
+              "name": "Gordok Mastiff",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 14308,
+              "item": "Rugged Leather",
+              "name": "Ferra",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 14323,
+              "item": "Rugged Leather",
+              "name": "Guard Slip'kik",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 14398,
+              "item": "Rugged Leather",
+              "name": "Eldreth Darter",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 179501,
+              "item": "Rugged Leather",
+              "name": "Knot Thimblejack's Cache",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Dire Maul"
+      },
+      "357": {
+        "levels": [
+          [
+            {
+              "coord": [
+                30.2,
+                43.2
+              ],
+              "coords": [
+                [
+                  30.2,
+                  43.2
+                ]
+              ],
+              "id": 8019,
+              "item": "Bolt of Runecloth",
+              "name": "Fyldren Moonfeather",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Feralas"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        2557,
+        7
+      ],
+      [
+        357,
+        1
+      ]
+    ]
+  },
+  "minLevel": 56,
+  "pageInfo": {
+    "name": "The Gordok Ogre Suit",
+    "type": 5,
+    "typeId": 5519
+  },
+  "pinCategory": "instance",
+  "prerequisiteQuestIds": [],
+  "questId": 5519,
+  "races": [],
+  "startPins": []
+}

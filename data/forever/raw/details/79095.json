@@ -1,0 +1,111 @@
+{
+  "classes": [
+    8
+  ],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T05:31:05+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 20[/li][li]Requires level 1[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=211022/owen-thadd]Owen Thadd[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=211022/owen-thadd]Owen Thadd[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]1[/color][small] &nbsp;[/small][color=r1]16[/color][small] &nbsp;[/small][color=r2]18[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "1497": {
+        "levels": [
+          [
+            {
+              "coord": [
+                73.6,
+                33
+              ],
+              "coords": [
+                [
+                  73.4,
+                  33
+                ],
+                [
+                  73.6,
+                  33
+                ],
+                [
+                  74,
+                  32.4
+                ]
+              ],
+              "id": 211022,
+              "name": "Owen Thadd",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                73.6,
+                33
+              ],
+              "coords": [
+                [
+                  73.4,
+                  33
+                ],
+                [
+                  73.6,
+                  33
+                ],
+                [
+                  74,
+                  32.4
+                ]
+              ],
+              "id": 211022,
+              "name": "Owen Thadd",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Undercity"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1497,
+        1
+      ]
+    ]
+  },
+  "minLevel": 1,
+  "pageInfo": {
+    "name": "The Apothecary's Metaphysical Primer",
+    "type": 5,
+    "typeId": 79095
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 79095,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 211022,
+      "npcName": "Owen Thadd",
+      "zoneId": 1497,
+      "x": 73.6,
+      "y": 33.0,
+      "zoneName": "Undercity"
+    }
+  ]
+}

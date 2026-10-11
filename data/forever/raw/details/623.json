@@ -1,0 +1,121 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-24T23:20:22+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 43[/li][li]Requires level 38[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=2494/privateer-bloads]Privateer Bloads[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2616/privateer-groy]Privateer Groy[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]38[/color][small] &nbsp;[/small][color=r1]39[/color][small] &nbsp;[/small][color=r2]41[/color][small] &nbsp;[/small][color=r3]46[/color][small] &nbsp;[/small][color=r4]53[/color][/li][li]Added in patch [acronym=\"1.13.2.30682\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "15": {
+        "levels": [
+          [
+            {
+              "coord": [
+                67.6,
+                51.6
+              ],
+              "coords": [
+                [
+                  67.6,
+                  51.4
+                ],
+                [
+                  67.6,
+                  51.6
+                ],
+                [
+                  68.6,
+                  52.4
+                ],
+                [
+                  68.8,
+                  53.2
+                ]
+              ],
+              "id": 2616,
+              "name": "Privateer Groy",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Dustwallow Marsh"
+      },
+      "33": {
+        "levels": [
+          [
+            {
+              "coord": [
+                26.8,
+                76.4
+              ],
+              "coords": [
+                [
+                  26.8,
+                  76.4
+                ],
+                [
+                  27.4,
+                  76.8
+                ]
+              ],
+              "id": 2494,
+              "name": "Privateer Bloads",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stranglethorn Vale"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        33,
+        1
+      ],
+      [
+        15,
+        1
+      ]
+    ]
+  },
+  "minLevel": 38,
+  "pageInfo": {
+    "name": "Akiris by the Bundle",
+    "type": 5,
+    "typeId": 623
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 623,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 2494,
+      "npcName": "Privateer Bloads",
+      "zoneId": 33,
+      "x": 26.8,
+      "y": 76.4,
+      "zoneName": "Stranglethorn Vale"
+    }
+  ]
+}

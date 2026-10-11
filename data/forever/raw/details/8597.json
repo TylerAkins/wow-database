@@ -1,0 +1,82 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T04:39:41+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 60[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=11811/narain-soothfancy]Narain Soothfancy[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=180652/freshly-dug-dirt]Freshly Dug Dirt[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]60[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.5.35186\"]1.13.5[/acronym] \"The Gates of Ahn'Qiraj\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "440": {
+        "levels": [
+          [
+            {
+              "coord": [
+                65.2,
+                18.6
+              ],
+              "coords": [
+                [
+                  65.2,
+                  18.4
+                ],
+                [
+                  65.2,
+                  18.6
+                ]
+              ],
+              "id": 11811,
+              "name": "Narain Soothfancy",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Tanaris"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        440,
+        1
+      ]
+    ]
+  },
+  "minLevel": 60,
+  "pageInfo": {
+    "name": "Draconic for Dummies",
+    "type": 5,
+    "typeId": 8597
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    8576,
+    8598,
+    8599
+  ],
+  "questId": 8597,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 11811,
+      "npcName": "Narain Soothfancy",
+      "zoneId": 440,
+      "x": 65.2,
+      "y": 18.6,
+      "zoneName": "Tanaris"
+    }
+  ]
+}

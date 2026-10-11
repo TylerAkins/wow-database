@@ -1,0 +1,309 @@
+{
+  "classes": [
+    8
+  ],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T04:17:25+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 52[/li][li]Requires level 50[/li][li]Side: Both[/li][li]Class: [class=8][/li][li][icon name=quest-start]Start: [span class=icon-alliance-padded][url=/forever/npc=331/maginor-dumas]Maginor Dumas[/url][/span][/icon][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-horde][url=/forever/npc=3047/archmage-shymm]Archmage Shymm[/url][/span][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-horde][url=/forever/npc=4567/pierce-shackleton]Pierce Shackleton[/url][/span][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-horde][url=/forever/npc=7311/uthelnay]Uthel'nay[/url][/span][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-alliance-padded][url=/forever/npc=7312/dink]Dink[/url][/span][/li][li][icon name=quest-end]End: [url=/forever/npc=8395/sanath-lim-yo]Sanath Lim-yo[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]50[/color][small] &nbsp;[/small][color=r3]55[/color][small] &nbsp;[/small][color=r4]63[/color][/li][li]Added in patch [acronym=\"1.13.3.33155\"]1.13.3[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1497": {
+        "levels": [
+          [
+            {
+              "coord": [
+                85.4,
+                13.8
+              ],
+              "coords": [
+                [
+                  85.2,
+                  14.6
+                ],
+                [
+                  85.4,
+                  13.8
+                ],
+                [
+                  85.6,
+                  14
+                ],
+                [
+                  85.6,
+                  14.6
+                ]
+              ],
+              "id": 4567,
+              "name": "Pierce Shackleton",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Undercity"
+      },
+      "1519": {
+        "levels": [
+          [
+            {
+              "coord": [
+                38,
+                81.6
+              ],
+              "coords": [
+                [
+                  37.4,
+                  81.6
+                ],
+                [
+                  38,
+                  81.6
+                ],
+                [
+                  38.2,
+                  81.4
+                ]
+              ],
+              "id": 331,
+              "name": "Maginor Dumas",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stormwind City"
+      },
+      "1537": {
+        "levels": [
+          [
+            {
+              "coord": [
+                26.8,
+                8.4
+              ],
+              "coords": [
+                [
+                  26.2,
+                  9.2
+                ],
+                [
+                  26.4,
+                  9.8
+                ],
+                [
+                  26.8,
+                  8.4
+                ],
+                [
+                  26.8,
+                  8.6
+                ]
+              ],
+              "id": 7312,
+              "name": "Dink",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ironforge"
+      },
+      "16": {
+        "levels": [
+          [
+            {
+              "coord": [
+                28,
+                50
+              ],
+              "coords": [
+                [
+                  28,
+                  50
+                ]
+              ],
+              "id": 8395,
+              "name": "Sanath Lim-yo",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Azshara"
+      },
+      "1637": {
+        "levels": [
+          [
+            {
+              "coord": [
+                39,
+                86
+              ],
+              "coords": [
+                [
+                  38.8,
+                  85.4
+                ],
+                [
+                  39,
+                  86
+                ]
+              ],
+              "id": 7311,
+              "name": "Uthel'nay",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Orgrimmar"
+      },
+      "1638": {
+        "levels": [
+          [
+            {
+              "coord": [
+                22.6,
+                14.8
+              ],
+              "coords": [
+                [
+                  22.4,
+                  15.4
+                ],
+                [
+                  22.4,
+                  15.6
+                ],
+                [
+                  22.6,
+                  14.8
+                ],
+                [
+                  22.6,
+                  15.8
+                ]
+              ],
+              "id": 3047,
+              "name": "Archmage Shymm",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Thunder Bluff"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1537,
+        1
+      ],
+      [
+        1519,
+        1
+      ],
+      [
+        1638,
+        1
+      ],
+      [
+        1497,
+        1
+      ],
+      [
+        1637,
+        1
+      ],
+      [
+        16,
+        1
+      ]
+    ]
+  },
+  "minLevel": 50,
+  "pageInfo": {
+    "name": "Magecraft",
+    "type": 5,
+    "typeId": 8250
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    8251
+  ],
+  "questId": 8250,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 331,
+      "npcName": "Maginor Dumas",
+      "zoneId": 1519,
+      "x": 38.0,
+      "y": 81.6,
+      "zoneName": "Stormwind City"
+    },
+    {
+      "npcId": 3047,
+      "npcName": "Archmage Shymm",
+      "zoneId": 1638,
+      "x": 22.6,
+      "y": 14.8,
+      "zoneName": "Thunder Bluff"
+    },
+    {
+      "npcId": 4567,
+      "npcName": "Pierce Shackleton",
+      "zoneId": 1497,
+      "x": 85.4,
+      "y": 13.8,
+      "zoneName": "Undercity"
+    },
+    {
+      "npcId": 7311,
+      "npcName": "Uthel'nay",
+      "zoneId": 1637,
+      "x": 39.0,
+      "y": 86.0,
+      "zoneName": "Orgrimmar"
+    },
+    {
+      "npcId": 7312,
+      "npcName": "Dink",
+      "zoneId": 1537,
+      "x": 26.8,
+      "y": 8.4,
+      "zoneName": "Ironforge"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T00:32:53+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 29[/li][li]Requires level 25[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3433/tatternack-steelforge]Tatternack Steelforge[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3433/tatternack-steelforge]Tatternack Steelforge[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]25[/color][small] &nbsp;[/small][color=r2]27[/color][small] &nbsp;[/small][color=r3]32[/color][small] &nbsp;[/small][color=r4]37[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "17": {
+        "levels": [
+          [
+            {
+              "coord": [
+                45,
+                57.6
+              ],
+              "coords": [
+                [
+                  45,
+                  57.6
+                ]
+              ],
+              "id": 3433,
+              "name": "Tatternack Steelforge",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                45,
+                57.6
+              ],
+              "coords": [
+                [
+                  45,
+                  57.6
+                ]
+              ],
+              "id": 3433,
+              "name": "Tatternack Steelforge",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Barrens"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        17,
+        1
+      ]
+    ]
+  },
+  "minLevel": 25,
+  "pageInfo": {
+    "name": "A New Ore Sample",
+    "type": 5,
+    "typeId": 1153
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 1153,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3433,
+      "npcName": "Tatternack Steelforge",
+      "zoneId": 17,
+      "x": 45.0,
+      "y": 57.6,
+      "zoneName": "The Barrens"
+    }
+  ]
+}

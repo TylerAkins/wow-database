@@ -1,0 +1,106 @@
+{
+  "classes": [
+    3
+  ],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T01:46:59+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 1[/li][li]Requires level 1[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Races: [race=2], [race=6][/li][li]Class: [class=3][/li][li][icon name=quest-start]Start: [url=/forever/npc=2980/grull-hawkwind]Grull Hawkwind[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3061/lanka-farshot]Lanka Farshot[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]1[/color][small] &nbsp;[/small][color=r3]4[/color][small] &nbsp;[/small][color=r4]6[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "215": {
+        "levels": [
+          [
+            {
+              "coord": [
+                44.8,
+                77.2
+              ],
+              "coords": [
+                [
+                  44.4,
+                  77.4
+                ],
+                [
+                  44.4,
+                  77.6
+                ],
+                [
+                  44.8,
+                  77.2
+                ]
+              ],
+              "id": 2980,
+              "name": "Grull Hawkwind",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                44.2,
+                75.8
+              ],
+              "coords": [
+                [
+                  44.2,
+                  75.8
+                ]
+              ],
+              "id": 3061,
+              "name": "Lanka Farshot",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Mulgore"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        215,
+        2
+      ]
+    ]
+  },
+  "minLevel": 1,
+  "pageInfo": {
+    "name": "Etched Note",
+    "type": 5,
+    "typeId": 3092
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 3092,
+  "races": [
+    2,
+    6
+  ],
+  "startPins": [
+    {
+      "npcId": 2980,
+      "npcName": "Grull Hawkwind",
+      "zoneId": 215,
+      "x": 44.8,
+      "y": 77.2,
+      "zoneName": "Mulgore"
+    }
+  ]
+}
