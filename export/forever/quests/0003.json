@@ -6085,6 +6085,13 @@
       ],
       "id": 3625,
       "name": "Enchanted Azsharite Fel Weaponry",
+      "objectives": {
+        "creature": [
+          {
+            "id": 7802
+          }
+        ]
+      },
       "places": [
         {
           "id": 7802,
@@ -6108,6 +6115,12 @@
               20.4
             ]
           ],
+          "type": "npc"
+        },
+        {
+          "id": 7802,
+          "role": "objective",
+          "spawns": [],
           "type": "npc"
         }
       ],
