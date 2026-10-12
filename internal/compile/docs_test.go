@@ -60,11 +60,14 @@ func TestClientExtractionDocsMatchCLIAndLimitations(t *testing.T) {
 		}
 	}
 	for _, needle := range []string{
-		"WDC5 only",
+		"Only WDC5 is supported",
 		"partial_encrypted",
-		"does not obtain TACT keys",
+		"Encrypted sections are skipped",
+		"`TactKey` contains",
+		"content-decryption keys and is excluded",
 		"server-side",
-		"starts again from the beginning",
+		"rerunning begins again",
+		"table-level resume is not implemented",
 	} {
 		if !strings.Contains(docs, needle) {
 			t.Errorf("client extraction docs omit limitation %q", needle)
