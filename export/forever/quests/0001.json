@@ -15973,8 +15973,47 @@
     },
     "286": {
       "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 259,
+          "spawns": [
+            [
+              11,
+              14,
+              34.8
+            ]
+          ],
+          "type": "object"
+        }
+      ],
       "id": 286,
-      "name": "Return the Statuette",
+      "name": "Return the Statuette (1/2)",
+      "places": [
+        {
+          "id": 259,
+          "role": "available",
+          "spawns": [
+            [
+              11,
+              14,
+              34.8
+            ]
+          ],
+          "type": "object"
+        },
+        {
+          "id": 259,
+          "role": "turnIn",
+          "spawns": [
+            [
+              11,
+              14,
+              34.8
+            ]
+          ],
+          "type": "object"
+        }
+      ],
       "preQuestSingle": [
         285
       ],
@@ -16002,7 +16041,22 @@
         4,
         7,
         95
-      ]
+      ],
+      "sourceItemId": 2625,
+      "startedBy": [
+        {
+          "id": 259,
+          "spawns": [
+            [
+              11,
+              14,
+              34.8
+            ]
+          ],
+          "type": "object"
+        }
+      ],
+      "zoneOrSort": 11
     },
     "287": {
       "faction": "Alliance",
@@ -17564,7 +17618,7 @@
           "type": "npc"
         }
       ],
-      "questLevel": 25,
+      "questLevel": 22,
       "questType": {
         "autoRewarded": false,
         "battleground": false,
@@ -44743,6 +44797,13 @@
       ],
       "id": 665,
       "name": "Sunken Treasure (1/5)",
+      "objectives": {
+        "creature": [
+          {
+            "id": 2768
+          }
+        ]
+      },
       "places": [
         {
           "id": 2768,
@@ -44766,6 +44827,12 @@
               80.6
             ]
           ],
+          "type": "npc"
+        },
+        {
+          "id": 2768,
+          "role": "objective",
+          "spawns": [],
           "type": "npc"
         }
       ],
@@ -44866,7 +44933,6 @@
         "stayAlive": false,
         "weekly": false
       },
-      "sourceItemId": 4491,
       "startedBy": [
         {
           "id": 2774,

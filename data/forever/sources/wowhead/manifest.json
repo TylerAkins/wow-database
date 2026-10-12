@@ -1,0 +1,17 @@
+{
+  "flavor": "forever",
+  "generatedAt": "2026-09-25T11:33:22+00:00",
+  "limitations": [
+    "This is the existing local Wowhead snapshot. The daily workflow does not fetch or refresh it.",
+    "1 indexed quest(s) have no validated detail page; those quests remain with detail=unavailable.",
+    "The raw manifest reports 1 quest detail fetch error(s)."
+  ],
+  "recordCount": 5506,
+  "recordsSha256": "c4e947d9ca0b9b6b9ca226fedae50385e927b563d0e94461a92bbf30e227105b",
+  "schemaVersion": 1,
+  "source": "wowhead",
+  "sourceRevision": "sha256:e121f7fd74e2427484fe484488ee8730c8d9ae287d5df6f7278d86cbd6ccb701",
+  "status": "partial",
+  "upstreamDataEnv": 16,
+  "upstreamProduct": "forever-quests"
+}
