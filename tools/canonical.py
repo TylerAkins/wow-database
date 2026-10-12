@@ -17,7 +17,7 @@ COMPRESSION_THRESHOLD = 50 * 1024 * 1024
 SOURCES = {"wowhead", "allthethings", "questiedb", "foreverclient", "compilation"}
 UPSTREAM_SOURCES = SOURCES - {"compilation"}
 FLAVORS = {"forever"}
-ENTITY_TYPES = {"quest", "npc", "item", "object", "zone", "map", "spell", "faction", "achievement", "profession", "relationship"}
+ENTITY_TYPES = {"quest", "npc", "item", "object", "zone", "map", "spell", "faction", "achievement", "profession", "relationship", "questmetadata"}
 FIELD_STATES = {"missing", "unsupported", "unavailable", "invalid", "empty", "conflicting"}
 
 

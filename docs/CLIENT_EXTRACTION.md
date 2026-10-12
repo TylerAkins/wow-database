@@ -89,10 +89,45 @@ partial because the client marked some sections encrypted. This is a sample
 run, not a guarantee that other client builds expose the same files or
 sections.
 
-## Importing data
+## Packaging and importing data
 
-Do not commit the local output automatically. Review its manifest and the
-applicable client-data redistribution terms before importing records into a
-published dataset. The extractor is intentionally local-only and is not part
-of GitHub Actions. See [SOURCES.md](SOURCES.md) and
-[INGESTION.md](INGESTION.md) for source policy and repository workflows.
+Acquisition remains local. Package the extracted tables as a checked, compressed
+snapshot, then import supported records and rebuild Forever:
+
+```sh
+python3 tools/client/package_snapshot.py --input .local/foreverclient \
+  --out data/forever/client-extract
+go run ./cmd/ingest-client --input data/forever/client-extract
+go run ./cmd/database validate --root data
+go run ./cmd/database compile --flavor forever
+```
+
+The packaged directory contains the original extraction manifest, one
+`<Table>.jsonl.gz` per included table, and `files.json` with checksums of the
+uncompressed bytes. Packaging validates headers, counts, and unique row IDs
+before replacing an existing snapshot. `TactKey` is excluded because it contains
+content-decryption keys; the index records that exclusion. No game executable,
+archive, or definition files are included. Dataset rights remain with their
+sources; the repository code license does not relicense client data.
+
+The importer reads the extractor's flat JSONL layout or the compressed snapshot.
+It verifies the snapshot index when present. Older inputs under `tables/` remain
+readable. Field provenance uses the logical uncompressed table filename.
+
+`QuestV2` maps row IDs to canonical quest IDs, so overlapping ATT and QuestieDB
+quests merge into one record. It provides only client UI metadata and unique
+bit flags. It does not provide titles, requirements, objectives, or rewards.
+Encrypted sections can hide additional quest IDs; partial status is retained.
+
+Quest-line, POI, objective, and package-item rows are preserved as relationship
+records with IDs prefixed by their table name. QuestInfo, QuestSort, QuestLabel,
+QuestLine, QuestXP, QuestMoneyReward, QuestFactionReward, and QuestFeedbackEffect
+are quest metadata records, also with table-prefixed IDs. Their row IDs are not
+quest IDs. POI points retain raw client coordinates; they are not NPC spawn
+positions or normalized map percentages. Reward lookup tables are not interpreted
+as per-quest rewards. Tables without a canonical mapping remain available in the
+compressed extraction snapshot.
+
+The extractor is not part of GitHub Actions. The daily compiler uses the
+committed canonical client snapshot alongside the other Forever sources. See
+[SOURCES.md](SOURCES.md) and [INGESTION.md](INGESTION.md).

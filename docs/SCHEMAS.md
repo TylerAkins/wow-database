@@ -47,3 +47,8 @@ decompress `records.jsonl.gz` when `records.jsonl` is absent.
 The only supported `flavor` is `forever`. Classic Era baseline quests and
 Forever additions use the same quest ID namespace. Source snapshots retain
 independent observations; compilation emits one record per entity type and ID.
+
+Client quest lookup tables use `entityType=questmetadata` with an ID such as
+`QuestInfo:1`. Quest-line and POI links use `relationship` with table-prefixed
+IDs. Only QuestV2 row IDs map directly to `quest` IDs. Raw client field names and
+values are preserved with provenance; support-table row IDs never become quests.

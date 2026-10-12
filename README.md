@@ -16,6 +16,7 @@ The initial Wowhead dataset contains the **Forever** game version and was migrat
 | `cmd/client-extract/` | Local-only Go extractor for client CASC and WDC5 DB2 data |
 | `cmd/ingest-client/` | Local adapter from supported client tables to canonical records |
 | `cmd/database/` | Canonical dataset validation, compilation, and comparison |
+| `data/forever/client-extract/` | Checked compressed client DB2 tables and checksum index |
 | `data/<flavor>/sources/` | Versioned canonical source snapshots |
 | `data/<flavor>/compilation/` | Multi-source merged datasets and conflict reports |
 | `cmd/compile/` | Go exporter for supported All The Things records |

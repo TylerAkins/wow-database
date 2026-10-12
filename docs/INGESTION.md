@@ -80,9 +80,12 @@ go run ./cmd/database validate --root data
 go run ./cmd/database compile --flavor forever
 ```
 
-The canonical adapter currently maps Achievement, AreaTable, Creature, Faction,
-ItemSparse, Map, and SpellName. Other extracted tables stay in the local
-extractor output and are listed as importer limitations. Partial encrypted
+The canonical adapter maps Achievement, AreaTable, Creature, Faction, ItemSparse,
+Map, SpellName, QuestV2, and selected quest support tables. QuestV2 contributes
+quest IDs and UI metadata; quest support rows retain table-prefixed identities.
+Other extracted tables remain in the packaged snapshot and are listed as importer
+limitations. See [CLIENT_EXTRACTION.md](CLIENT_EXTRACTION.md) for packaging and
+quest-table details. Partial encrypted
 tables are marked on imported entities. Do not publish local client output
 without reviewing the applicable redistribution terms. See
 [CLIENT_EXTRACTION.md](CLIENT_EXTRACTION.md) for build-specific limitations.
