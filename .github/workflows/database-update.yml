@@ -96,6 +96,11 @@ jobs:
               --comment "Closing automatically because the regenerated datasets now match main."
           fi
 
+      - name: Select changed generated paths
+        if: steps.changes.outputs.changed == 'true'
+        id: generated_paths
+        run: python3 tools/changed_generated_paths.py >> "$GITHUB_OUTPUT"
+
       - name: Create or update database pull request
         if: steps.changes.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v8.1.1
@@ -106,12 +111,7 @@ jobs:
           commit-message: "chore: refresh source datasets"
           title: "chore: refresh source datasets"
           assignees: TylerAkins
-          add-paths: |
-            data/era/sources
-            data/era/compilation
-            data/forever/sources
-            data/forever/compilation
-            export/forever
+          add-paths: ${{ steps.generated_paths.outputs.paths }}
           body: |
             Regenerates the canonical source snapshots and flavor compilations.
 
