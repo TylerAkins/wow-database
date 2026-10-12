@@ -4,9 +4,6 @@ Reusable WoW Forever data from All The Things, QuestieDB, Wowhead, and the local
 client. Quests, NPCs, items, objects, maps, spells, and other supported records
 keep source provenance and compile into one Forever database.
 
-The initial Wowhead dataset contains the **Forever** game version and was migrated from [`TylerAkins/forever-quest-markers`](https://github.com/TylerAkins/forever-quest-markers) at commit `43f22e73ff3bf19f564d20d1e6846b0d57dbd3de`. Independent source snapshots remain separate from generated exports and the
-combined compilation.
-
 ## Layout
 
 | Path | Purpose |
