@@ -62,13 +62,12 @@ jobs:
               --data-root data/forever/raw --out data/forever/sources/wowhead
           fi
 
-      - name: Validate and compile both flavors
+      - name: Validate and compile available flavors
         run: |
           set -euo pipefail
           python3 tools/coverage_guard.py --base origin/main
           go run ./cmd/database validate --root data
-          go run ./cmd/database compile --flavor era
-          go run ./cmd/database compile --flavor forever
+          python3 tools/compile_flavors.py --root data
           go run ./cmd/compile --att-root .cache/AllTheThings \
             --att-commit "${{ steps.sources.outputs.att }}" \
             --generated-at "${{ steps.sources.outputs.att_time }}" \
