@@ -1,7 +1,7 @@
-"""Fetch Source with the local Chrome window instead of Python's HTTP client.
+"""Fetch pages with the user's local Chrome window in explicit manual mode.
 
-Python and curl are rejected with 403 while a normal browser still loads the
-same page. This client drives Chrome on the machine where you run it.
+This mode does not automate challenge handling. Access-denied or challenge
+pages fail the run and leave the existing cache untouched.
 """
 
 from __future__ import annotations
@@ -13,6 +13,8 @@ import time
 from pathlib import Path
 
 from playwright.sync_api import sync_playwright
+
+from quest_db.http import _write_cache_atomically
 
 
 class BrowserPageClient:
@@ -56,7 +58,6 @@ class BrowserPageClient:
         if not force and path.is_file():
             return path.read_text(encoding="utf-8", errors="replace")
 
-        self._throttle()
         html = self._goto(url)
         if html is None:
             bare = _bare_page_url(url)
@@ -68,20 +69,25 @@ class BrowserPageClient:
                 raise RuntimeError(f"too many redirects loading {bare}")
         if _looks_blocked(html):
             raise RuntimeError(f"Chrome was blocked loading {url}")
-        path.write_text(html, encoding="utf-8")
-        self._network_fetches += 1
-        if self.batch_size > 0 and self.batch_pause_s > 0 and self._network_fetches % self.batch_size == 0:
-            time.sleep(self.batch_pause_s)
+        _write_cache_atomically(path, html)
         return html
 
     def _goto(self, url: str) -> str | None:
+        self._throttle()
         try:
             self._page.goto(url, wait_until="domcontentloaded", timeout=120_000)
         except Exception as exc:
             if "ERR_TOO_MANY_REDIRECTS" in str(exc):
+                self._note_network_fetch()
                 return None
             raise
+        self._note_network_fetch()
         return self._page.content()
+
+    def _note_network_fetch(self) -> None:
+        self._network_fetches += 1
+        if self.batch_size > 0 and self.batch_pause_s > 0 and self._network_fetches % self.batch_size == 0:
+            time.sleep(self.batch_pause_s)
 
     def _cache_path(self, url: str) -> Path:
         digest = hashlib.sha256(url.encode("utf-8")).hexdigest()[:32]

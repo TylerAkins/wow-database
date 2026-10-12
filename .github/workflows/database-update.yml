@@ -1,0 +1,123 @@
+name: Database update
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 11 * * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: database-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7.0.1
+        with:
+          fetch-depth: 0
+
+      - name: Set up Go
+        uses: actions/setup-go@v7.0.0
+        with:
+          go-version: '1.27.2'
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Check out AllTheThings
+        uses: actions/checkout@v7.0.1
+        with:
+          repository: ATTWoWAddon/AllTheThings
+          ref: master
+          path: .cache/AllTheThings
+          fetch-depth: 1
+
+      - name: Read ATT revision
+        id: sources
+        run: |
+          set -euo pipefail
+          att_sha=$(git -C .cache/AllTheThings rev-parse HEAD)
+          att_time=$(git -C .cache/AllTheThings log -1 --format=%cI)
+          printf 'att=%s\natt_time=%s\n' "$att_sha" "$att_time" >> "$GITHUB_OUTPUT"
+
+      - name: Import ATT and existing local snapshot
+        env:
+          ATT_SHA: ${{ steps.sources.outputs.att }}
+          ATT_TIME: ${{ steps.sources.outputs.att_time }}
+        run: |
+          set -euo pipefail
+          go run ./cmd/ingest-att --att-root .cache/AllTheThings \
+            --revision "$ATT_SHA" --generated-at "$ATT_TIME" \
+            --out data/forever/sources/allthethings
+          if [[ -f data/forever/raw/manifest.json ]]; then
+            python3 tools/wowhead/import_snapshot.py \
+              --data-root data/forever/raw --out data/forever/sources/wowhead
+          fi
+
+      - name: Validate and compile both flavors
+        run: |
+          set -euo pipefail
+          python3 tools/coverage_guard.py --base origin/main
+          go run ./cmd/database validate --root data
+          go run ./cmd/database compile --flavor era
+          go run ./cmd/database compile --flavor forever
+          go run ./cmd/compile --att-root .cache/AllTheThings \
+            --att-commit "${{ steps.sources.outputs.att }}" \
+            --generated-at "${{ steps.sources.outputs.att_time }}" \
+            --out export/forever
+          go test ./...
+          python3 -m unittest discover -s tests -p 'test_*.py'
+
+      - name: Detect generated changes
+        id: changes
+        run: |
+          set -euo pipefail
+          python3 tools/semantic_changes.py --base origin/main 2> /tmp/semantic-changes.log | tee /tmp/semantic-changes.out
+          grep '^changed=' /tmp/semantic-changes.out >> "$GITHUB_OUTPUT"
+          cat /tmp/semantic-changes.log >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Close stale database pull request
+        if: steps.changes.outputs.changed == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          pr_number=$(gh pr list --repo "$GITHUB_REPOSITORY" --base main \
+            --head takins/database-update --state open --limit 1 --json number --jq '.[0].number // empty')
+          if [[ -n "$pr_number" ]]; then
+            gh pr close "$pr_number" --repo "$GITHUB_REPOSITORY" --delete-branch \
+              --comment "Closing automatically because the regenerated datasets now match main."
+          fi
+
+      - name: Create or update database pull request
+        if: steps.changes.outputs.changed == 'true'
+        uses: peter-evans/create-pull-request@v8.1.1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: takins/database-update
+          delete-branch: true
+          commit-message: "chore: refresh source datasets"
+          title: "chore: refresh source datasets"
+          assignees: TylerAkins
+          add-paths: |
+            data/era/sources
+            data/era/compilation
+            data/forever/sources
+            data/forever/compilation
+            export/forever
+          body: |
+            Regenerates the canonical source snapshots and flavor compilations.
+
+            | Source | Revision |
+            |---|---|
+            | AllTheThings | `${{ steps.sources.outputs.att }}` |
+
+            The existing Wowhead snapshot is normalized offline when present. QuestieDB import remains local until its data redistribution terms are confirmed. The local client extractor is not run in CI. Revision-only changes do not open a pull request when canonical values are unchanged.

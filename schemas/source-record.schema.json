@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tylerakins.github.io/wow-database/source-record.schema.json",
+  "title": "WoW source record",
+  "description": "One normalized entity observation from one source and one game flavor.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "flavor", "entityType", "entityId", "source", "sourceRevision", "attributes"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "flavor": {"enum": ["era", "forever"]},
+    "entityType": {"enum": ["quest", "npc", "item", "object", "zone", "map", "spell", "faction", "achievement", "profession", "relationship"]},
+    "entityId": {"type": "string", "minLength": 1, "pattern": "^[^\\r\\n\\t]+$"},
+    "source": {"enum": ["wowhead", "allthethings", "questiedb", "foreverclient", "compilation"]},
+    "sourceRevision": {"type": "string", "minLength": 1},
+    "attributes": {"type": "object", "additionalProperties": true},
+    "fieldStates": {
+      "type": "object",
+      "additionalProperties": {"enum": ["missing", "unsupported", "unavailable", "invalid", "empty", "conflicting"]}
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "anyOf": [
+          {"required": ["source", "revision"]},
+          {"required": ["sources"], "properties": {"sources": {"minItems": 1}}}
+        ],
+        "properties": {
+          "source": {"enum": ["wowhead", "allthethings", "questiedb", "foreverclient"]},
+          "revision": {"type": "string", "minLength": 1},
+          "path": {"type": "string"},
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["source", "revision"],
+              "properties": {
+                "source": {"enum": ["wowhead", "allthethings", "questiedb", "foreverclient"]},
+                "revision": {"type": "string", "minLength": 1}
+              }
+            }
+          },
+          "selectionRule": {"type": "string"}
+        }
+      }
+    }
+  }
+}

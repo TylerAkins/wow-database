@@ -176,7 +176,7 @@ World objects that start a quest (a keg, a corpse, a plaque). This is a name lis
 You paste a link; **the agent** runs:
 
 ```bash
-python3 tools/fetch_quest_pages.py ingest --url '<pasted url>' --delay 1.5
+python3 tools/fetch_quest_pages.py ingest --url '<pasted url>' --delay 5
 ```
 
 **Objects:** [objects/quests](https://www.wowhead.com/forever/objects/quests) uses the JSON listview (not the quest Listview). Ingest writes `object_index.json`.

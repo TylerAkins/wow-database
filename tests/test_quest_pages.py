@@ -4,9 +4,13 @@
 from __future__ import annotations
 
 import json
+import ssl
 import sys
+import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
+from urllib.error import URLError
 
 ROOT = Path(__file__).resolve().parents[1]
 TOOLS = ROOT / "tools"
@@ -14,6 +18,7 @@ sys.path.insert(0, str(TOOLS))
 
 from quest_db.classify import classify_pin_category
 from quest_db.ingest import ingest_html
+from quest_db.http import PageClient, _ssl_context
 from quest_db.parse_list import parse_quest_list
 from quest_db.parse_page import (
     extract_g_mapper_spawns,
@@ -138,6 +143,44 @@ class IngestTests(unittest.TestCase):
             self.assertGreater(len(index), 100)
         finally:
             shutil.rmtree(tmp)
+
+
+class HttpClientTests(unittest.TestCase):
+    def test_tls_context_requires_certificate_verification(self) -> None:
+        context = _ssl_context()
+        self.assertEqual(ssl.CERT_REQUIRED, context.verify_mode)
+        self.assertTrue(context.check_hostname)
+
+    def test_block_page_preserves_cached_content_without_retry(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            client = PageClient(Path(temp_dir), min_interval_s=0)
+            url = "https://www.wowhead.com/forever/quest=123"
+            cache = client._cache_path(url)
+            cache.write_text("previous valid page", encoding="utf-8")
+            block_page = "Access denied wowhead.com " + ("challenge " * 100)
+
+            with mock.patch.object(client, "_fetch_urllib", return_value=block_page) as fetch:
+                with self.assertRaisesRegex(RuntimeError, "block/challenge"):
+                    client.get_html(url, force=True)
+
+            fetch.assert_called_once_with(url)
+            self.assertEqual("previous valid page", cache.read_text(encoding="utf-8"))
+
+    def test_certificate_error_fails_closed_and_preserves_cache(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            client = PageClient(Path(temp_dir), min_interval_s=0)
+            url = "https://www.wowhead.com/forever/quest=123"
+            cache = client._cache_path(url)
+            cache.write_text("previous valid page", encoding="utf-8")
+
+            with mock.patch.object(
+                client, "_fetch_urllib", side_effect=URLError(ssl.SSLCertVerificationError("verification failed"))
+            ) as fetch:
+                with self.assertRaisesRegex(RuntimeError, "certificate verification failed"):
+                    client.get_html(url, force=True)
+
+            fetch.assert_called_once_with(url)
+            self.assertEqual("previous valid page", cache.read_text(encoding="utf-8"))
 
 
 class EligibilityTests(unittest.TestCase):

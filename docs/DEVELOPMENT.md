@@ -3,6 +3,7 @@
 ## Requirements
 
 - Python 3.12 or newer
+- Go 1.27 or newer for canonical ingestion, compilation, and local client extraction
 - No third-party packages for compilation or offline tests
 - Playwright and local Chrome only when using `fetch_quest_pages.py --browser`
 
@@ -11,6 +12,8 @@
 ```bash
 python3 -m unittest discover -s tests -p 'test_*.py'
 python3 tools/compile_zone_files.py --check
+GOCACHE=/private/tmp/wow-database-go-cache go test ./...
+GOCACHE=/private/tmp/wow-database-go-cache go vet ./...
 ```
 
 Regenerate all committed bundles after canonical data changes:
@@ -42,3 +45,6 @@ python3 tools/fetch_quest_pages.py sync-quests --browser --delay 5 \
 ```
 
 Run the offline tests and regenerate the compiled files after any refresh. See [quest-database.md](quest-database.md) for the complete source catalog and specialized sync commands.
+
+The scheduled workflow uses Go 1.27.2. See [CLIENT_EXTRACTION.md](CLIENT_EXTRACTION.md)
+for the local client workflow and its current format limits.

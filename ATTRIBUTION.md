@@ -10,9 +10,26 @@ The canonical JSON snapshot was gathered from Wowhead Forever quest, zone, objec
 
 Wowhead is not bundled and is not required to read the committed raw or compiled JSON files.
 
+## All The Things
+
+- Source: https://github.com/ATTWoWAddon/AllTheThings
+- The upstream code license is retained at [licenses/AllTheThings-MIT.txt](licenses/AllTheThings-MIT.txt).
+
+ATT-derived records retain source revision and file provenance. This project
+does not claim ownership of the underlying game data.
+
 ## World of Warcraft
 
 World of Warcraft and related names and identifiers are trademarks or property of Blizzard Entertainment. This project is not affiliated with or endorsed by Blizzard Entertainment or Wowhead.
+
+## QuestieDB
+
+- Source: https://github.com/Questie/QuestieDB
+
+The public repository does not expose an explicit data license in its root
+files or GitHub license metadata at the revision reviewed for this work.
+QuestieDB ingestion is therefore local-only until its data redistribution
+terms are confirmed. This project does not claim ownership of QuestieDB data.
 
 ## License
 

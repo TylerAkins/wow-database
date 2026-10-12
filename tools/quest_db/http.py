@@ -3,14 +3,15 @@
 from __future__ import annotations
 
 import hashlib
+import os
 import re
 import ssl
+import tempfile
 
 try:
     import certifi
 except ImportError:
     certifi = None
-import subprocess
 import sys
 import time
 import urllib.error
@@ -52,7 +53,6 @@ class PageClient:
         self.batch_pause_s = batch_pause_s
         self._last_fetch_at = 0.0
         self._network_fetches = 0
-        self._unverified_ssl = False
         self.cache_dir.mkdir(parents=True, exist_ok=True)
 
     def _cache_path(self, url: str) -> Path:
@@ -71,7 +71,9 @@ class PageClient:
                 html = self._fetch_urllib(url)
             except urllib.error.HTTPError as exc:
                 last_error = exc
-                if exc.code in (403, 429, 503):
+                if exc.code == 403:
+                    raise RuntimeError(f"Source denied the request for {url}; cached data was preserved") from exc
+                if exc.code in (429, 503):
                     wait = min(60, 5 * (2**attempt))
                     print(f"  HTTP {exc.code}, retry in {wait}s", flush=True)
                     time.sleep(wait)
@@ -79,46 +81,26 @@ class PageClient:
                 raise
             except OSError as exc:
                 last_error = exc
-                if _is_cert_verify_failure(exc) and not self._unverified_ssl:
-                    print(
-                        "  Python has no CA certificates (common with python.org on Mac); "
-                        "continuing without certificate verification",
-                        flush=True,
-                    )
-                    self._unverified_ssl = True
-                    continue
+                if _is_cert_verify_failure(exc):
+                    raise RuntimeError(
+                        "TLS certificate verification failed; configure a trusted CA bundle. "
+                        "Certificate checks remain enabled and cached data was preserved."
+                    ) from exc
                 wait = min(30, 2 * (2**attempt))
                 print(f"  network error ({exc}); retry in {wait}s", flush=True)
                 time.sleep(wait)
                 continue
 
             if _looks_like_block_page(html):
-                last_error = RuntimeError("Source returned a block/challenge page")
-                time.sleep(min(60, 5 * (2**attempt)))
-                continue
+                raise RuntimeError(f"Source returned a block/challenge page for {url}; cached data was preserved")
 
-            path.write_text(html, encoding="utf-8")
+            _write_cache_atomically(path, html)
             self._note_network_fetch()
             return html
 
-        try:
-            html = self._fetch_curl(url)
-        except subprocess.CalledProcessError as exc:
-            detail = (exc.stderr or b"").decode("utf-8", errors="replace").strip()
-            if detail:
-                print(f"  curl failed: {detail}", flush=True)
-            if last_error is not None:
-                raise last_error from exc
-            raise
-
-        return self._store_html(url, path, html)
-
-    def _store_html(self, url: str, path: Path, html: str) -> str:
-        if _looks_like_block_page(html):
-            raise RuntimeError(f"Source blocked fetch for {url}")
-        path.write_text(html, encoding="utf-8")
-        self._note_network_fetch()
-        return html
+        if last_error is not None:
+            raise RuntimeError(f"failed to fetch {url}; cached data was preserved: {last_error}") from last_error
+        raise RuntimeError(f"failed to fetch {url}; cached data was preserved")
 
     def _note_network_fetch(self) -> None:
         self._network_fetches += 1
@@ -127,32 +109,10 @@ class PageClient:
 
     def _fetch_urllib(self, url: str) -> str:
         request = urllib.request.Request(url, headers=dict(_DEFAULT_HEADERS))
-        context = _ssl_context(unverified=self._unverified_ssl)
+        context = _ssl_context()
         with urllib.request.urlopen(request, timeout=120, context=context) as response:
             raw = response.read()
         return raw.decode("utf-8", errors="replace")
-
-    def _fetch_curl(self, url: str) -> str:
-        result = subprocess.run(
-            [
-                "curl",
-                "-fsSL",
-                "--http1.1",
-                "-A",
-                USER_AGENT,
-                "-H",
-                "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-                "-H",
-                "Accept-Language: en-US,en;q=0.9",
-                "-H",
-                "Referer: https://www.wowhead.com/forever",
-                url,
-            ],
-            check=True,
-            capture_output=True,
-            timeout=120,
-        )
-        return result.stdout.decode("utf-8", errors="replace")
 
     def _throttle(self) -> None:
         elapsed = time.monotonic() - self._last_fetch_at
@@ -189,15 +149,43 @@ def _entity_url(kind: str, entity_id: int, name: str | None) -> str:
     return f"https://www.wowhead.com/forever/{kind}={entity_id}"
 
 
-def _ssl_context(*, unverified: bool) -> ssl.SSLContext:
-    if unverified:
-        return ssl._create_unverified_context()
+def _ssl_context() -> ssl.SSLContext:
     if certifi is None:
         return ssl.create_default_context()
     return ssl.create_default_context(cafile=certifi.where())
 
 
+def _write_cache_atomically(path: Path, html: str) -> None:
+    """Replace one validated cache entry without exposing a partial write."""
+    temporary_path: str | None = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="w", encoding="utf-8", dir=path.parent, prefix=f".{path.name}.", delete=False
+        ) as temporary:
+            temporary_path = temporary.name
+            temporary.write(html)
+            temporary.flush()
+            os.fsync(temporary.fileno())
+        os.replace(temporary_path, path)
+    finally:
+        if temporary_path is not None:
+            try:
+                os.unlink(temporary_path)
+            except FileNotFoundError:
+                pass
+
+
 def _is_cert_verify_failure(exc: BaseException) -> bool:
+    current: BaseException | None = exc
+    seen: set[int] = set()
+    while current is not None and id(current) not in seen:
+        seen.add(id(current))
+        if isinstance(current, ssl.SSLCertVerificationError):
+            return True
+        if isinstance(current, urllib.error.URLError) and isinstance(current.reason, BaseException):
+            current = current.reason
+        else:
+            current = current.__cause__
     text = str(exc).lower()
     return "certificate_verify_failed" in text or "certificate verify failed" in text
 
