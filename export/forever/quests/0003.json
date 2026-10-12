@@ -13574,6 +13574,11 @@
       "faction": "Alliance",
       "finishedBy": [
         {
+          "id": 14305,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
           "id": 7228,
           "spawns": [],
           "type": "item"
@@ -13595,10 +13600,22 @@
       },
       "places": [
         {
+          "id": 14305,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
           "id": 7228,
           "role": "available",
           "spawns": [],
           "type": "item"
+        },
+        {
+          "id": 14305,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
         },
         {
           "id": 7228,
@@ -13662,7 +13679,13 @@
         7,
         95
       ],
+      "sourceItemId": 18598,
       "startedBy": [
+        {
+          "id": 14305,
+          "spawns": [],
+          "type": "npc"
+        },
         {
           "id": 7228,
           "spawns": [],
@@ -15727,8 +15750,47 @@
     },
     "5502": {
       "faction": "Horde",
+      "finishedBy": [
+        {
+          "id": 14444,
+          "spawns": [
+            [
+              1637,
+              70.8,
+              25.6
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "id": 5502,
       "name": "A Warden of the Horde [Horde - Orc - FINAL]",
+      "places": [
+        {
+          "id": 14444,
+          "role": "available",
+          "spawns": [
+            [
+              1637,
+              70.8,
+              25.6
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 14444,
+          "role": "turnIn",
+          "spawns": [
+            [
+              1637,
+              70.8,
+              25.6
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "preQuestGroup": [
         925,
         915
@@ -15758,7 +15820,22 @@
         8,
         9,
         96
-      ]
+      ],
+      "sourceItemId": 18597,
+      "startedBy": [
+        {
+          "id": 14444,
+          "spawns": [
+            [
+              1637,
+              70.8,
+              25.6
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 1637
     },
     "5541": {
       "faction": "Alliance",
@@ -23460,8 +23537,47 @@
     },
     "6181": {
       "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 491,
+          "spawns": [
+            [
+              40,
+              56.9,
+              47.2
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "id": 6181,
       "name": "A Swift Message",
+      "places": [
+        {
+          "id": 491,
+          "role": "available",
+          "spawns": [
+            [
+              40,
+              56.9,
+              47.2
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 491,
+          "role": "turnIn",
+          "spawns": [
+            [
+              40,
+              56.9,
+              47.2
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "questLevel": 10,
       "questType": {
         "autoRewarded": false,
@@ -23482,7 +23598,22 @@
       },
       "requiredRaces": [
         1
-      ]
+      ],
+      "sourceItemId": 15998,
+      "startedBy": [
+        {
+          "id": 491,
+          "spawns": [
+            [
+              40,
+              56.9,
+              47.2
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 40
     },
     "6182": {
       "faction": "Alliance",
@@ -23951,8 +24082,47 @@
     },
     "6281": {
       "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 523,
+          "spawns": [
+            [
+              40,
+              56.4,
+              52.6
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "id": 6281,
       "name": "Continue to Stormwind",
+      "places": [
+        {
+          "id": 523,
+          "role": "available",
+          "spawns": [
+            [
+              40,
+              56.4,
+              52.6
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 523,
+          "role": "turnIn",
+          "spawns": [
+            [
+              40,
+              56.4,
+              52.6
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "preQuestSingle": [
         6181
       ],
@@ -23976,7 +24146,22 @@
       },
       "requiredRaces": [
         1
-      ]
+      ],
+      "sourceItemId": 15998,
+      "startedBy": [
+        {
+          "id": 523,
+          "spawns": [
+            [
+              40,
+              56.4,
+              52.6
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 40
     },
     "6285": {
       "faction": "Alliance",

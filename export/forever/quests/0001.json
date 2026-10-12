@@ -6520,8 +6520,47 @@
     },
     "171": {
       "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 14305,
+          "spawns": [
+            [
+              1519,
+              56.3,
+              54
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "id": 171,
       "name": "A Warden of the Alliance [Alliance - Human - FINAL]",
+      "places": [
+        {
+          "id": 14305,
+          "role": "available",
+          "spawns": [
+            [
+              1519,
+              56.3,
+              54
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 14305,
+          "role": "turnIn",
+          "spawns": [
+            [
+              1519,
+              56.3,
+              54
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "preQuestGroup": [
         558,
         4822
@@ -6550,7 +6589,22 @@
         4,
         7,
         95
-      ]
+      ],
+      "sourceItemId": 18598,
+      "startedBy": [
+        {
+          "id": 14305,
+          "spawns": [
+            [
+              1519,
+              56.3,
+              54
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 1519
     },
     "172": {
       "faction": "Horde",
@@ -13070,7 +13124,8 @@
         4,
         7,
         95
-      ]
+      ],
+      "sourceItemId": 1083
     },
     "249": {
       "faction": "Alliance",
@@ -18470,6 +18525,11 @@
             ]
           ],
           "type": "npc"
+        },
+        {
+          "id": 270,
+          "spawns": [],
+          "type": "object"
         }
       ],
       "id": 308,
@@ -18488,6 +18548,12 @@
           "type": "npc"
         },
         {
+          "id": 270,
+          "role": "available",
+          "spawns": [],
+          "type": "object"
+        },
+        {
           "id": 1373,
           "role": "turnIn",
           "spawns": [
@@ -18498,6 +18564,12 @@
             ]
           ],
           "type": "npc"
+        },
+        {
+          "id": 270,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "object"
         }
       ],
       "preQuestSingle": [
@@ -18528,6 +18600,7 @@
         7,
         95
       ],
+      "sourceItemId": 2666,
       "startedBy": [
         {
           "id": 1373,
@@ -18539,6 +18612,11 @@
             ]
           ],
           "type": "npc"
+        },
+        {
+          "id": 270,
+          "spawns": [],
+          "type": "object"
         }
       ],
       "zoneOrSort": 1
@@ -18649,6 +18727,11 @@
           "type": "npc"
         },
         {
+          "id": 270,
+          "spawns": [],
+          "type": "object"
+        },
+        {
           "id": 269,
           "spawns": [],
           "type": "object"
@@ -18676,6 +18759,12 @@
           "type": "npc"
         },
         {
+          "id": 270,
+          "role": "available",
+          "spawns": [],
+          "type": "object"
+        },
+        {
           "id": 269,
           "role": "available",
           "spawns": [],
@@ -18698,6 +18787,12 @@
           "role": "turnIn",
           "spawns": [],
           "type": "npc"
+        },
+        {
+          "id": 270,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "object"
         },
         {
           "id": 269,
@@ -18753,6 +18848,11 @@
           "type": "npc"
         },
         {
+          "id": 270,
+          "spawns": [],
+          "type": "object"
+        },
+        {
           "id": 269,
           "spawns": [],
           "type": "object"
@@ -18762,8 +18862,47 @@
     },
     "311": {
       "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 270,
+          "spawns": [
+            [
+              1,
+              47.7,
+              52.7
+            ]
+          ],
+          "type": "object"
+        }
+      ],
       "id": 311,
       "name": "Return to Marleth",
+      "places": [
+        {
+          "id": 270,
+          "role": "available",
+          "spawns": [
+            [
+              1,
+              47.7,
+              52.7
+            ]
+          ],
+          "type": "object"
+        },
+        {
+          "id": 270,
+          "role": "turnIn",
+          "spawns": [
+            [
+              1,
+              47.7,
+              52.7
+            ]
+          ],
+          "type": "object"
+        }
+      ],
       "preQuestSingle": [
         310
       ],
@@ -18791,7 +18930,22 @@
         4,
         7,
         95
-      ]
+      ],
+      "sourceItemId": 2666,
+      "startedBy": [
+        {
+          "id": 270,
+          "spawns": [
+            [
+              1,
+              47.7,
+              52.7
+            ]
+          ],
+          "type": "object"
+        }
+      ],
+      "zoneOrSort": 1
     },
     "312": {
       "faction": "Alliance",
@@ -22362,8 +22516,47 @@
     },
     "36": {
       "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 238,
+          "spawns": [
+            [
+              40,
+              60,
+              19.4
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "id": 36,
       "name": "Westfall Stew (1/2)",
+      "places": [
+        {
+          "id": 238,
+          "role": "available",
+          "spawns": [
+            [
+              40,
+              60,
+              19.4
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 238,
+          "role": "turnIn",
+          "spawns": [
+            [
+              40,
+              60,
+              19.4
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "questLevel": 9,
       "questType": {
         "autoRewarded": false,
@@ -22388,7 +22581,22 @@
         4,
         7,
         95
-      ]
+      ],
+      "sourceItemId": 2832,
+      "startedBy": [
+        {
+          "id": 238,
+          "spawns": [
+            [
+              40,
+              60,
+              19.4
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 40
     },
     "37": {
       "faction": "Alliance",
@@ -25383,7 +25591,7 @@
       "faction": "Alliance",
       "finishedBy": [
         {
-          "id": 3183,
+          "id": 2059,
           "spawns": [
             [
               1,
@@ -25391,6 +25599,11 @@
               36.2
             ]
           ],
+          "type": "object"
+        },
+        {
+          "id": 3183,
+          "spawns": [],
           "type": "item"
         }
       ],
@@ -25410,7 +25623,7 @@
       },
       "places": [
         {
-          "id": 3183,
+          "id": 2059,
           "role": "available",
           "spawns": [
             [
@@ -25419,10 +25632,16 @@
               36.2
             ]
           ],
-          "type": "item"
+          "type": "object"
         },
         {
           "id": 3183,
+          "role": "available",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 2059,
           "role": "turnIn",
           "spawns": [
             [
@@ -25431,6 +25650,12 @@
               36.2
             ]
           ],
+          "type": "object"
+        },
+        {
+          "id": 3183,
+          "role": "turnIn",
+          "spawns": [],
           "type": "item"
         },
         {
@@ -25487,9 +25712,10 @@
         7,
         95
       ],
+      "sourceItemId": 3117,
       "startedBy": [
         {
-          "id": 3183,
+          "id": 2059,
           "spawns": [
             [
               1,
@@ -25497,6 +25723,11 @@
               36.2
             ]
           ],
+          "type": "object"
+        },
+        {
+          "id": 3183,
+          "spawns": [],
           "type": "item"
         }
       ],
@@ -33564,6 +33795,11 @@
       "faction": "Alliance",
       "finishedBy": [
         {
+          "id": 14305,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
           "id": 18642,
           "spawns": [],
           "type": "item"
@@ -33585,10 +33821,22 @@
       },
       "places": [
         {
+          "id": 14305,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
           "id": 18642,
           "role": "available",
           "spawns": [],
           "type": "item"
+        },
+        {
+          "id": 14305,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
         },
         {
           "id": 18642,
@@ -33652,7 +33900,13 @@
         7,
         95
       ],
+      "sourceItemId": 18598,
       "startedBy": [
+        {
+          "id": 14305,
+          "spawns": [],
+          "type": "npc"
+        },
         {
           "id": 18642,
           "spawns": [],
@@ -51283,8 +51537,47 @@
     },
     "723": {
       "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 2909,
+          "spawns": [
+            [
+              3,
+              37.94,
+              10.53
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "id": 723,
       "name": "Prospect of Faith (1/2)",
+      "places": [
+        {
+          "id": 2909,
+          "role": "available",
+          "spawns": [
+            [
+              3,
+              37.94,
+              10.53
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 2909,
+          "role": "turnIn",
+          "spawns": [
+            [
+              3,
+              37.94,
+              10.53
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "preQuestSingle": [
         722
       ],
@@ -51312,12 +51605,66 @@
         4,
         7,
         95
-      ]
+      ],
+      "sourceItemId": 4635,
+      "startedBy": [
+        {
+          "id": 2909,
+          "spawns": [
+            [
+              3,
+              37.94,
+              10.53
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 3
     },
     "724": {
       "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 2910,
+          "spawns": [
+            [
+              3,
+              53.4,
+              43.2
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "id": 724,
       "name": "Prospect of Faith (2/2)",
+      "places": [
+        {
+          "id": 2910,
+          "role": "available",
+          "spawns": [
+            [
+              3,
+              53.4,
+              43.2
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 2910,
+          "role": "turnIn",
+          "spawns": [
+            [
+              3,
+              53.4,
+              43.2
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "preQuestSingle": [
         723
       ],
@@ -51345,12 +51692,66 @@
         4,
         7,
         95
-      ]
+      ],
+      "sourceItemId": 4635,
+      "startedBy": [
+        {
+          "id": 2910,
+          "spawns": [
+            [
+              3,
+              53.4,
+              43.2
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 3
     },
     "725": {
       "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 2916,
+          "spawns": [
+            [
+              1537,
+              77.5,
+              11.8
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "id": 725,
       "name": "Passing Word of a Threat (1/2)",
+      "places": [
+        {
+          "id": 2916,
+          "role": "available",
+          "spawns": [
+            [
+              1537,
+              77.5,
+              11.8
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 2916,
+          "role": "turnIn",
+          "spawns": [
+            [
+              1537,
+              77.5,
+              11.8
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "preQuestSingle": [
         724
       ],
@@ -51378,7 +51779,22 @@
         4,
         7,
         95
-      ]
+      ],
+      "sourceItemId": 4622,
+      "startedBy": [
+        {
+          "id": 2916,
+          "spawns": [
+            [
+              1537,
+              77.5,
+              11.8
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 1537
     },
     "726": {
       "faction": "Alliance",
@@ -51468,8 +51884,47 @@
     },
     "727": {
       "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 2785,
+          "spawns": [
+            [
+              3,
+              51.4,
+              76.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "id": 727,
       "name": "To Ironforge for Yagyin's Digest",
+      "places": [
+        {
+          "id": 2785,
+          "role": "available",
+          "spawns": [
+            [
+              3,
+              51.4,
+              76.9
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 2785,
+          "role": "turnIn",
+          "spawns": [
+            [
+              3,
+              51.4,
+              76.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "preQuestSingle": [
         709
       ],
@@ -51497,12 +51952,66 @@
         4,
         7,
         95
-      ]
+      ],
+      "sourceItemId": 4648,
+      "startedBy": [
+        {
+          "id": 2785,
+          "spawns": [
+            [
+              3,
+              51.4,
+              76.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 3
     },
     "728": {
       "faction": "Horde",
+      "finishedBy": [
+        {
+          "id": 2785,
+          "spawns": [
+            [
+              3,
+              51.4,
+              76.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "id": 728,
       "name": "To the Undercity for Yagyin's Digest",
+      "places": [
+        {
+          "id": 2785,
+          "role": "available",
+          "spawns": [
+            [
+              3,
+              51.4,
+              76.9
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 2785,
+          "role": "turnIn",
+          "spawns": [
+            [
+              3,
+              51.4,
+              76.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "preQuestSingle": [
         709
       ],
@@ -51531,7 +52040,22 @@
         8,
         9,
         96
-      ]
+      ],
+      "sourceItemId": 4648,
+      "startedBy": [
+        {
+          "id": 2785,
+          "spawns": [
+            [
+              3,
+              51.4,
+              76.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 3
     },
     "729": {
       "faction": "Alliance",
@@ -52199,7 +52723,7 @@
       "faction": "Both",
       "finishedBy": [
         {
-          "id": 4646,
+          "id": 2786,
           "spawns": [
             [
               1537,
@@ -52207,6 +52731,11 @@
               5.6
             ]
           ],
+          "type": "npc"
+        },
+        {
+          "id": 4646,
+          "spawns": [],
           "type": "item"
         },
         {
@@ -52248,7 +52777,7 @@
       },
       "places": [
         {
-          "id": 4646,
+          "id": 2786,
           "role": "available",
           "spawns": [
             [
@@ -52257,6 +52786,12 @@
               5.6
             ]
           ],
+          "type": "npc"
+        },
+        {
+          "id": 4646,
+          "role": "available",
+          "spawns": [],
           "type": "item"
         },
         {
@@ -52272,7 +52807,7 @@
           "type": "item"
         },
         {
-          "id": 4646,
+          "id": 2786,
           "role": "turnIn",
           "spawns": [
             [
@@ -52281,6 +52816,12 @@
               5.6
             ]
           ],
+          "type": "npc"
+        },
+        {
+          "id": 4646,
+          "role": "turnIn",
+          "spawns": [],
           "type": "item"
         },
         {
@@ -52392,9 +52933,10 @@
         "stayAlive": false,
         "weekly": false
       },
+      "sourceItemId": 4649,
       "startedBy": [
         {
-          "id": 4646,
+          "id": 2786,
           "spawns": [
             [
               1537,
@@ -52402,6 +52944,11 @@
               5.6
             ]
           ],
+          "type": "npc"
+        },
+        {
+          "id": 4646,
+          "spawns": [],
           "type": "item"
         },
         {
@@ -52421,7 +52968,7 @@
       "faction": "Both",
       "finishedBy": [
         {
-          "id": 4646,
+          "id": 2934,
           "spawns": [
             [
               1497,
@@ -52429,6 +52976,11 @@
               54.5
             ]
           ],
+          "type": "npc"
+        },
+        {
+          "id": 4646,
+          "spawns": [],
           "type": "item"
         },
         {
@@ -52470,7 +53022,7 @@
       },
       "places": [
         {
-          "id": 4646,
+          "id": 2934,
           "role": "available",
           "spawns": [
             [
@@ -52479,6 +53031,12 @@
               54.5
             ]
           ],
+          "type": "npc"
+        },
+        {
+          "id": 4646,
+          "role": "available",
+          "spawns": [],
           "type": "item"
         },
         {
@@ -52494,7 +53052,7 @@
           "type": "item"
         },
         {
-          "id": 4646,
+          "id": 2934,
           "role": "turnIn",
           "spawns": [
             [
@@ -52503,6 +53061,12 @@
               54.5
             ]
           ],
+          "type": "npc"
+        },
+        {
+          "id": 4646,
+          "role": "turnIn",
+          "spawns": [],
           "type": "item"
         },
         {
@@ -52614,9 +53178,10 @@
         "stayAlive": false,
         "weekly": false
       },
+      "sourceItemId": 4650,
       "startedBy": [
         {
-          "id": 4646,
+          "id": 2934,
           "spawns": [
             [
               1497,
@@ -52624,6 +53189,11 @@
               54.5
             ]
           ],
+          "type": "npc"
+        },
+        {
+          "id": 4646,
+          "spawns": [],
           "type": "item"
         },
         {
@@ -52641,8 +53211,46 @@
     },
     "737": {
       "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 2786,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 2934,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
       "id": 737,
       "name": "Forbidden Knowledge",
+      "places": [
+        {
+          "id": 2786,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 2934,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 2786,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 2934,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
       "preQuestSingle": [
         735
       ],
@@ -52663,7 +53271,20 @@
         "sharable": false,
         "stayAlive": false,
         "weekly": false
-      }
+      },
+      "sourceItemId": 4647,
+      "startedBy": [
+        {
+          "id": 2786,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 2934,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
     },
     "738": {
       "faction": "Alliance",
@@ -52905,8 +53526,47 @@
     },
     "741": {
       "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 2913,
+          "spawns": [
+            [
+              148,
+              37.4,
+              41.8
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "id": 741,
       "name": "The Absent Minded Prospector (3/5)",
+      "places": [
+        {
+          "id": 2913,
+          "role": "available",
+          "spawns": [
+            [
+              148,
+              37.4,
+              41.8
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 2913,
+          "role": "turnIn",
+          "spawns": [
+            [
+              148,
+              37.4,
+              41.8
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "preQuestSingle": [
         731
       ],
@@ -52934,7 +53594,22 @@
         4,
         7,
         95
-      ]
+      ],
+      "sourceItemId": 4654,
+      "startedBy": [
+        {
+          "id": 2913,
+          "spawns": [
+            [
+              148,
+              37.4,
+              41.8
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 148
     },
     "743": {
       "faction": "Horde",

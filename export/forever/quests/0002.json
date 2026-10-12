@@ -5913,8 +5913,47 @@
     },
     "1420": {
       "faction": "Horde",
+      "finishedBy": [
+        {
+          "id": 5394,
+          "spawns": [
+            [
+              3,
+              6.5,
+              47.2
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "id": 1420,
       "name": "Report to Helgrum",
+      "places": [
+        {
+          "id": 5394,
+          "role": "available",
+          "spawns": [
+            [
+              3,
+              6.5,
+              47.2
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 5394,
+          "role": "turnIn",
+          "spawns": [
+            [
+              3,
+              6.5,
+              47.2
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "preQuestSingle": [
         1418
       ],
@@ -5943,7 +5982,22 @@
         8,
         9,
         96
-      ]
+      ],
+      "sourceItemId": 6167,
+      "startedBy": [
+        {
+          "id": 5394,
+          "spawns": [
+            [
+              3,
+              6.5,
+              47.2
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 3
     },
     "1442": {
       "faction": "Alliance",
@@ -6747,8 +6801,29 @@
     },
     "1479": {
       "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 14305,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
       "id": 1479,
       "name": "The Bough of the Eternals [Alliance - Human] (removed)",
+      "places": [
+        {
+          "id": 14305,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 14305,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
       "preQuestSingle": [
         1468
       ],
@@ -6776,6 +6851,14 @@
         4,
         7,
         95
+      ],
+      "sourceItemId": 18598,
+      "startedBy": [
+        {
+          "id": 14305,
+          "spawns": [],
+          "type": "npc"
+        }
       ]
     },
     "1485": {
@@ -7229,8 +7312,47 @@
     },
     "1489": {
       "faction": "Horde",
+      "finishedBy": [
+        {
+          "id": 3448,
+          "spawns": [
+            [
+              17,
+              52.3,
+              31.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "id": 1489,
       "name": "Hamuul Runetotem",
+      "places": [
+        {
+          "id": 3448,
+          "role": "available",
+          "spawns": [
+            [
+              17,
+              52.3,
+              31.9
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 3448,
+          "role": "turnIn",
+          "spawns": [
+            [
+              17,
+              52.3,
+              31.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "preQuestSingle": [
         880
       ],
@@ -7259,7 +7381,22 @@
         8,
         9,
         96
-      ]
+      ],
+      "sourceItemId": 10414,
+      "startedBy": [
+        {
+          "id": 3448,
+          "spawns": [
+            [
+              17,
+              52.3,
+              31.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 17
     },
     "1490": {
       "faction": "Horde",
@@ -10387,8 +10524,29 @@
     },
     "1558": {
       "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 14305,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
       "id": 1558,
       "name": "The Stonewrought Dam [Alliance - Human] (removed)",
+      "places": [
+        {
+          "id": 14305,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 14305,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
       "preQuestSingle": [
         1468
       ],
@@ -10416,6 +10574,14 @@
         4,
         7,
         95
+      ],
+      "sourceItemId": 18598,
+      "startedBy": [
+        {
+          "id": 14305,
+          "spawns": [],
+          "type": "npc"
+        }
       ]
     },
     "1559": {
@@ -14926,6 +15092,11 @@
       "faction": "Alliance",
       "finishedBy": [
         {
+          "id": 14305,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
           "id": 392,
           "spawns": [],
           "type": "npc"
@@ -14942,8 +15113,20 @@
       },
       "places": [
         {
+          "id": 14305,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
           "id": 392,
           "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 14305,
+          "role": "turnIn",
           "spawns": [],
           "type": "npc"
         },
@@ -14994,7 +15177,13 @@
         7,
         95
       ],
+      "sourceItemId": 18598,
       "startedBy": [
+        {
+          "id": 14305,
+          "spawns": [],
+          "type": "npc"
+        },
         {
           "id": 392,
           "spawns": [],
@@ -20578,8 +20767,29 @@
     },
     "1800": {
       "faction": "Horde",
+      "finishedBy": [
+        {
+          "id": 14444,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
       "id": 1800,
       "name": "Lordaeron Throne Room [Horde - Orc] (removed)",
+      "places": [
+        {
+          "id": 14444,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 14444,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
       "preQuestSingle": [
         172
       ],
@@ -20608,6 +20818,14 @@
         8,
         9,
         96
+      ],
+      "sourceItemId": 18597,
+      "startedBy": [
+        {
+          "id": 14444,
+          "spawns": [],
+          "type": "npc"
+        }
       ]
     },
     "1801": {
@@ -27437,7 +27655,7 @@
       "faction": "Alliance",
       "finishedBy": [
         {
-          "id": 7908,
+          "id": 7024,
           "spawns": [
             [
               40,
@@ -27445,6 +27663,11 @@
               70.2
             ]
           ],
+          "type": "npc"
+        },
+        {
+          "id": 7908,
+          "spawns": [],
           "type": "item"
         },
         {
@@ -27467,7 +27690,7 @@
       },
       "places": [
         {
-          "id": 7908,
+          "id": 7024,
           "role": "available",
           "spawns": [
             [
@@ -27476,6 +27699,12 @@
               70.2
             ]
           ],
+          "type": "npc"
+        },
+        {
+          "id": 7908,
+          "role": "available",
+          "spawns": [],
           "type": "item"
         },
         {
@@ -27485,7 +27714,7 @@
           "type": "item"
         },
         {
-          "id": 7908,
+          "id": 7024,
           "role": "turnIn",
           "spawns": [
             [
@@ -27494,6 +27723,12 @@
               70.2
             ]
           ],
+          "type": "npc"
+        },
+        {
+          "id": 7908,
+          "role": "turnIn",
+          "spawns": [],
           "type": "item"
         },
         {
@@ -27548,9 +27783,10 @@
         7,
         95
       ],
+      "sourceItemId": 8046,
       "startedBy": [
         {
-          "id": 7908,
+          "id": 7024,
           "spawns": [
             [
               40,
@@ -27558,6 +27794,11 @@
               70.2
             ]
           ],
+          "type": "npc"
+        },
+        {
+          "id": 7908,
+          "spawns": [],
           "type": "item"
         },
         {
@@ -35058,8 +35299,47 @@
     },
     "777": {
       "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 2920,
+          "spawns": [
+            [
+              3,
+              25.8,
+              44.4
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "id": 777,
       "name": "This Is Going to Be Hard (2/3)",
+      "places": [
+        {
+          "id": 2920,
+          "role": "available",
+          "spawns": [
+            [
+              3,
+              25.8,
+              44.4
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 2920,
+          "role": "turnIn",
+          "spawns": [
+            [
+              3,
+              25.8,
+              44.4
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "preQuestSingle": [
         734
       ],
@@ -35080,7 +35360,22 @@
         "sharable": false,
         "stayAlive": false,
         "weekly": false
-      }
+      },
+      "sourceItemId": 4846,
+      "startedBy": [
+        {
+          "id": 2920,
+          "spawns": [
+            [
+              3,
+              25.8,
+              44.4
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 3
     },
     "778": {
       "faction": "Both",
@@ -39992,8 +40287,8 @@
           "spawns": [
             [
               215,
-              59.8,
-              25.6
+              57,
+              34.6
             ]
           ],
           "type": "npc"
@@ -40020,8 +40315,8 @@
           "spawns": [
             [
               215,
-              59.8,
-              25.6
+              57,
+              34.6
             ]
           ],
           "type": "npc"
@@ -40038,8 +40333,8 @@
           "spawns": [
             [
               215,
-              59.8,
-              25.6
+              57,
+              34.6
             ]
           ],
           "type": "npc"
@@ -40053,7 +40348,13 @@
         {
           "id": 3232,
           "role": "objective",
-          "spawns": [],
+          "spawns": [
+            [
+              215,
+              58.8,
+              29.8
+            ]
+          ],
           "type": "npc"
         }
       ],
@@ -40089,8 +40390,8 @@
           "spawns": [
             [
               215,
-              59.8,
-              25.6
+              57,
+              34.6
             ]
           ],
           "type": "npc"
@@ -48696,6 +48997,11 @@
       "faction": "Horde",
       "finishedBy": [
         {
+          "id": 14444,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
           "id": 9558,
           "spawns": [],
           "type": "npc"
@@ -48712,8 +49018,20 @@
       },
       "places": [
         {
+          "id": 14444,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
           "id": 9558,
           "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 14444,
+          "role": "turnIn",
           "spawns": [],
           "type": "npc"
         },
@@ -48765,7 +49083,13 @@
         9,
         96
       ],
+      "sourceItemId": 18597,
       "startedBy": [
+        {
+          "id": 14444,
+          "spawns": [],
+          "type": "npc"
+        },
         {
           "id": 9558,
           "spawns": [],
@@ -48775,8 +49099,29 @@
     },
     "911": {
       "faction": "Horde",
+      "finishedBy": [
+        {
+          "id": 14444,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
       "id": 911,
       "name": "Gateway to the Frontier [Horde - Orc] (removed)",
+      "places": [
+        {
+          "id": 14444,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 14444,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
       "preQuestSingle": [
         172
       ],
@@ -48805,6 +49150,14 @@
         8,
         9,
         96
+      ],
+      "sourceItemId": 18597,
+      "startedBy": [
+        {
+          "id": 14444,
+          "spawns": [],
+          "type": "npc"
+        }
       ]
     },
     "913": {
@@ -49182,6 +49535,11 @@
       "faction": "Horde",
       "finishedBy": [
         {
+          "id": 14444,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
           "id": 7228,
           "spawns": [],
           "type": "item"
@@ -49203,10 +49561,22 @@
       },
       "places": [
         {
+          "id": 14444,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
           "id": 7228,
           "role": "available",
           "spawns": [],
           "type": "item"
+        },
+        {
+          "id": 14444,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
         },
         {
           "id": 7228,
@@ -49271,7 +49641,13 @@
         9,
         96
       ],
+      "sourceItemId": 18597,
       "startedBy": [
+        {
+          "id": 14444,
+          "spawns": [],
+          "type": "npc"
+        },
         {
           "id": 7228,
           "spawns": [],
@@ -50270,6 +50646,11 @@
       "faction": "Horde",
       "finishedBy": [
         {
+          "id": 14444,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
           "id": 18643,
           "spawns": [],
           "type": "item"
@@ -50291,10 +50672,22 @@
       },
       "places": [
         {
+          "id": 14444,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
           "id": 18643,
           "role": "available",
           "spawns": [],
           "type": "item"
+        },
+        {
+          "id": 14444,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
         },
         {
           "id": 18643,
@@ -50359,7 +50752,13 @@
         9,
         96
       ],
+      "sourceItemId": 18597,
       "startedBy": [
+        {
+          "id": 14444,
+          "spawns": [],
+          "type": "npc"
+        },
         {
           "id": 18643,
           "spawns": [],
@@ -51349,49 +51748,10 @@
     },
     "940": {
       "faction": "Alliance",
-      "finishedBy": [
-        {
-          "id": 3519,
-          "spawns": [
-            [
-              141,
-              38.2,
-              34.4
-            ]
-          ],
-          "type": "npc"
-        }
-      ],
       "id": 940,
       "name": "Teldrassil",
-      "places": [
-        {
-          "id": 3519,
-          "role": "available",
-          "spawns": [
-            [
-              141,
-              38.2,
-              34.4
-            ]
-          ],
-          "type": "npc"
-        },
-        {
-          "id": 3519,
-          "role": "turnIn",
-          "spawns": [
-            [
-              141,
-              38.2,
-              34.4
-            ]
-          ],
-          "type": "npc"
-        }
-      ],
       "preQuestSingle": [
-        937
+        98398
       ],
       "questLevel": 6,
       "questType": {
@@ -51418,21 +51778,7 @@
         7,
         95
       ],
-      "sourceItemId": 5219,
-      "startedBy": [
-        {
-          "id": 3519,
-          "spawns": [
-            [
-              141,
-              38.2,
-              34.4
-            ]
-          ],
-          "type": "npc"
-        }
-      ],
-      "zoneOrSort": 141
+      "sourceItemId": 5219
     },
     "941": {
       "faction": "Alliance",
@@ -53790,8 +54136,47 @@
     },
     "967": {
       "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 3661,
+          "spawns": [
+            [
+              148,
+              55,
+              24.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "id": 967,
       "name": "The Tower of Althalaxx (3/9)",
+      "places": [
+        {
+          "id": 3661,
+          "role": "available",
+          "spawns": [
+            [
+              148,
+              55,
+              24.9
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 3661,
+          "role": "turnIn",
+          "spawns": [
+            [
+              148,
+              55,
+              24.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "preQuestSingle": [
         966
       ],
@@ -53819,7 +54204,22 @@
         4,
         7,
         95
-      ]
+      ],
+      "sourceItemId": 5354,
+      "startedBy": [
+        {
+          "id": 3661,
+          "spawns": [
+            [
+              148,
+              55,
+              24.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 148
     },
     "968": {
       "faction": "Alliance",
@@ -54862,8 +55262,47 @@
     },
     "993": {
       "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 3693,
+          "spawns": [
+            [
+              148,
+              39.4,
+              43.5
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "id": 993,
       "name": "A Lost Master (2/2)",
+      "places": [
+        {
+          "id": 3693,
+          "role": "available",
+          "spawns": [
+            [
+              148,
+              39.4,
+              43.5
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 3693,
+          "role": "turnIn",
+          "spawns": [
+            [
+              148,
+              39.4,
+              43.5
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
       "preQuestSingle": [
         986
       ],
@@ -54891,7 +55330,22 @@
         4,
         7,
         95
-      ]
+      ],
+      "sourceItemId": 5387,
+      "startedBy": [
+        {
+          "id": 3693,
+          "spawns": [
+            [
+              148,
+              39.4,
+              43.5
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 148
     },
     "994": {
       "exclusiveTo": [
