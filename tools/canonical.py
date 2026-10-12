@@ -2,7 +2,9 @@
 
 from __future__ import annotations
 
+import gzip
 import hashlib
+import io
 import json
 import os
 import shutil
@@ -11,6 +13,7 @@ from pathlib import Path
 from typing import Any
 
 SCHEMA_VERSION = 1
+COMPRESSION_THRESHOLD = 50 * 1024 * 1024
 SOURCES = {"wowhead", "allthethings", "questiedb", "foreverclient", "compilation"}
 UPSTREAM_SOURCES = SOURCES - {"compilation"}
 FLAVORS = {"era", "forever"}
@@ -79,7 +82,13 @@ def atomic_write_dataset(output: Path, rows: list[dict[str, Any]], manifest: dic
     temp = Path(tempfile.mkdtemp(prefix=".dataset-", dir=parent))
     old = output.with_name(output.name + ".old")
     try:
-        (temp / "records.jsonl").write_bytes(content)
+        if len(content) >= COMPRESSION_THRESHOLD:
+            buffer = io.BytesIO()
+            with gzip.GzipFile(filename="", mode="wb", fileobj=buffer, mtime=0) as compressed:
+                compressed.write(content)
+            (temp / "records.jsonl.gz").write_bytes(buffer.getvalue())
+        else:
+            (temp / "records.jsonl").write_bytes(content)
         (temp / "manifest.json").write_text(json.dumps(result, ensure_ascii=False, sort_keys=True, indent=2) + "\n", encoding="utf-8")
         if old.exists():
             shutil.rmtree(old)

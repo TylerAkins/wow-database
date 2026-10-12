@@ -7,11 +7,10 @@ upstream Lua, download DB2 definitions, or scrape Wowhead in automation.
 ## Daily update
 
 `.github/workflows/database-update.yml` checks out AllTheThings, imports the
-supported Forever ATT records, and normalizes the existing Wowhead Forever
-cache when it is present. It validates canonical snapshots, compiles Era and
+supported Forever ATT records, imports QuestieDB Era and Forever, and normalizes
+the existing Wowhead Forever cache when it is present. It validates canonical snapshots, compiles Era and
 Forever, and refreshes the legacy ATT export. One pull request contains
-generated source snapshots and products. QuestieDB import remains local until
-its data redistribution terms are confirmed. The workflow does not run the
+generated source snapshots and products. The workflow does not run the
 client extractor or contact Wowhead.
 
 ## Wowhead Forever
@@ -48,7 +47,7 @@ detail pages remain explicit as unavailable.
 ## AllTheThings and QuestieDB
 
 The adapters accept local Git checkouts and record their exact revision. ATT
-is the only one currently run by public automation:
+and QuestieDB both run in public automation:
 
 ```sh
 go run ./cmd/ingest-att --att-root .cache/AllTheThings
@@ -63,11 +62,11 @@ item, object, and achievement entries. It retains source comments as labels,
 literal names/descriptions/levels/flags, quest relationships, and nested entity
 containment links. It does not evaluate arbitrary Lua or claim a complete ATT
 entity catalog. QuestieDB imports generated Quest, NPC, Item, and Object tables
-for Era and Forever. Applicable Era, Forever, and Shared static corrections are
+for Era and Forever. Era imports preserve Era and Shared static corrections.
+Forever imports preserve its owned corrections, including converted legacy copies. Corrections are
 preserved without applying them. Dynamic corrections, support data, and derived
 runtime passes are reported as limitations in each snapshot manifest. Run the
-QuestieDB adapter locally until the upstream terms for redistributing its data
-are confirmed.
+QuestieDB adapter locally to reproduce or inspect the scheduled snapshots.
 
 ## Local Forever client
 

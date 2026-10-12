@@ -80,12 +80,12 @@ def matching_brace(text: str, open_at: int) -> int:
     raise ImportErrorMessage("unterminated Lua table")
 
 
-def extract_table(text: str, start: int) -> Any:
+def extract_table(text: str, start: int, *, preserve_expressions: bool = False) -> Any:
     open_at = text.find("{", start)
     if open_at < 0:
         raise ImportErrorMessage("expected a returned Lua table")
     end = matching_brace(text, open_at)
-    value = parse(text[open_at:end])
+    value = parse(text[open_at:end], preserve_expressions=preserve_expressions)
     if not isinstance(value, dict):
         raise ImportErrorMessage("expected keyed Lua table")
     return value
@@ -130,7 +130,7 @@ def parse_entity_file(path: Path, entity_type: str, repo: Path) -> list[dict[str
                 states[name] = "missing"
                 continue
             value = values[index - 1]
-            attributes[name] = value
+            attributes[name] = json_value(value)
             if _is_empty(value):
                 states[name] = "empty"
         row = {
@@ -152,15 +152,28 @@ def parse_entity_file(path: Path, entity_type: str, repo: Path) -> list[dict[str
     return rows
 
 
+def json_value(value: Any) -> Any:
+    if isinstance(value, list):
+        return [json_value(item) for item in value]
+    if isinstance(value, dict):
+        result = {}
+        for key, item in value.items():
+            name = str(key)
+            if name in result:
+                raise ImportErrorMessage(f"Lua table keys collide in JSON: {name!r}")
+            result[name] = json_value(item)
+        return result
+    return value
+
+
 def _is_empty(value: Any) -> bool:
     return value is None or value == "" or value == [] or value == {}
 
 
 def parse_static_corrections(repo: Path, flavor: str, revision: str) -> tuple[list[dict[str, Any]], list[str]]:
-    # These are the static layers used by QuestieDB's Classic and Forever
-    # flavors. Do not infer applicability from every directory in the checkout:
-    # the repository also contains correction data for other game expansions.
-    folders = ["Era", "Shared"] if flavor == "era" else ["Era", "Forever", "Shared"]
+    # Forever owns its providers, including converted legacy copies beneath
+    # Forever/legacy; it no longer inherits the Era or Shared providers.
+    folders = ["Era", "Shared"] if flavor == "era" else ["Forever"]
     rows: list[dict[str, Any]] = []
     found_layers: set[str] = set()
     static_methods = re.compile(r"function\s+[A-Za-z_][A-Za-z0-9_]*:(Load|LoadAutomatics|LoadAutomaticQuestStarts)\s*\([^)]*\)")
@@ -182,7 +195,7 @@ def parse_static_corrections(repo: Path, flavor: str, revision: str) -> tuple[li
                 return_match = re.search(r"\breturn\s*\{", method_body)
                 if not return_match:
                     continue
-                table = extract_table(method_body, return_match.start())
+                table = extract_table(method_body, return_match.start(), preserve_expressions=True)
                 found_layers.add(folder)
                 for target_id, fields in table.items():
                     if not isinstance(target_id, int) or not isinstance(fields, dict):
@@ -191,7 +204,7 @@ def parse_static_corrections(repo: Path, flavor: str, revision: str) -> tuple[li
                         if not isinstance(raw_field, str) or not raw_field.startswith("$ref:"):
                             raise ImportErrorMessage(f"{path}: correction field key is not a QuestieDB literal reference")
                         field_name = raw_field.removeprefix("$ref:questKeys.").removeprefix("$ref:npcKeys.").removeprefix("$ref:itemKeys.").removeprefix("$ref:objectKeys.")
-                        correction_id = f"correction:{folder}:{entity_type}:{target_id}:{field_name}"
+                        correction_id = f"correction:{folder}:{path.relative_to(base).as_posix()}:{method_match.group(1)}:{entity_type}:{target_id}:{field_name}"
                         row = {
                             "schemaVersion": SCHEMA_VERSION,
                             "flavor": "forever" if flavor == "forever" else "era",
@@ -202,10 +215,11 @@ def parse_static_corrections(repo: Path, flavor: str, revision: str) -> tuple[li
                             "attributes": {
                                 "correction": {
                                     "layer": folder,
+                                    "method": method_match.group(1),
                                     "targetType": entity_type,
                                     "targetId": str(target_id),
                                     "field": field_name,
-                                    "value": value,
+                                    "value": json_value(value),
                                     "application": "not-evaluated",
                                 }
                             },

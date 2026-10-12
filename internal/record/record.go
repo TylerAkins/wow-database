@@ -2,6 +2,7 @@ package record
 
 import (
 	"bytes"
+	"compress/gzip"
 	"crypto/sha256"
 	"encoding/hex"
 	"encoding/json"
@@ -223,7 +224,11 @@ func WriteDataset(outputDir string, records []Record, manifest Manifest) error {
 		return err
 	}
 	defer os.RemoveAll(temp)
-	if err := os.WriteFile(filepath.Join(temp, "records.jsonl"), content.Bytes(), 0o644); err != nil {
+	name, stored, err := storedRecords(content.Bytes())
+	if err != nil {
+		return err
+	}
+	if err := os.WriteFile(filepath.Join(temp, name), stored, 0o644); err != nil {
 		return err
 	}
 	if err := os.WriteFile(filepath.Join(temp, "manifest.json"), manifestBytes, 0o644); err != nil {
@@ -256,6 +261,18 @@ func ReadDataset(dir string) ([]Record, Manifest, error) {
 		return nil, Manifest{}, fmt.Errorf("invalid dataset manifest")
 	}
 	content, err := os.ReadFile(filepath.Join(dir, "records.jsonl"))
+	if os.IsNotExist(err) {
+		compressed, readErr := os.ReadFile(filepath.Join(dir, "records.jsonl.gz"))
+		if readErr != nil {
+			return nil, Manifest{}, readErr
+		}
+		reader, gzipErr := gzip.NewReader(bytes.NewReader(compressed))
+		if gzipErr != nil {
+			return nil, Manifest{}, gzipErr
+		}
+		content, err = io.ReadAll(reader)
+		reader.Close()
+	}
 	if err != nil {
 		return nil, Manifest{}, err
 	}
@@ -268,4 +285,19 @@ func ReadDataset(dir string) ([]Record, Manifest, error) {
 		return nil, Manifest{}, fmt.Errorf("dataset manifest count or checksum does not match records.jsonl")
 	}
 	return records, manifest, nil
+}
+
+func storedRecords(content []byte) (string, []byte, error) {
+	if len(content) < 50*1024*1024 {
+		return "records.jsonl", content, nil
+	}
+	var buffer bytes.Buffer
+	writer := gzip.NewWriter(&buffer)
+	if _, err := writer.Write(content); err != nil {
+		return "", nil, err
+	}
+	if err := writer.Close(); err != nil {
+		return "", nil, err
+	}
+	return "records.jsonl.gz", buffer.Bytes(), nil
 }

@@ -22,8 +22,8 @@ The Wowhead scraper and zone compiler remain from the restored baseline. The
 offline adapter normalizes the existing cache. ATT exports supported Forever
 quest fields and relationships plus selected explicit entity declarations and
 containment links. QuestieDB imports generated entities for Era and Forever
-while preserving applicable unapplied corrections. Its data remains local
-pending confirmation of redistribution terms. The local client extractor and
+while preserving applicable unapplied corrections. Both flavors are imported
+by the daily workflow. The local client extractor and
 importer cover a supported table subset. Source outputs remain separate until
 the multi-source compiler merges them with provenance.
 

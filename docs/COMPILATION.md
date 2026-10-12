@@ -41,9 +41,9 @@ ATT ingestion normalizes supported Forever quest declarations and parsed
 links, plus selected explicit NPC, item, object, and achievement entries. It
 does not cover the complete ATT catalog or standalone map and zone definitions.
 QuestieDB's generated entity tables can be imported
-locally for Era and Forever, but its dynamic corrections, support bundles, and
-derived runtime passes are not evaluated. QuestieDB data is excluded from
-public automation pending confirmation of redistribution terms. The local
+daily or locally for Era and Forever, but its dynamic corrections, support
+bundles, and
+derived runtime passes are not evaluated. The local
 client adapter maps only the subset listed in [INGESTION.md](INGESTION.md).
 The compiled union is therefore a union of records supplied by these
 adapters, not a guarantee of complete game data.

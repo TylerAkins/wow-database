@@ -1,3 +1,4 @@
+import gzip
 import json
 import os
 import subprocess
@@ -5,6 +6,7 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools" / "questiedb"))
@@ -26,6 +28,12 @@ class LuaLiteralTests(unittest.TestCase):
         parsed = parse(f'return os.execute("touch {marker}")')
         self.assertEqual(parsed["$luaExpression"], "os.execute")
         self.assertFalse(marker.exists())
+
+    def test_preserves_symbolic_negation_without_evaluation(self):
+        self.assertEqual(
+            parse("return {-rankKeys.ARTISAN}", preserve_expressions=True),
+            [{"$luaExpression": "-", "arguments": [{"$luaExpression": "rankKeys.ARTISAN"}]}],
+        )
 
     def test_rejects_arithmetic_instead_of_evaluating_it(self):
         with self.assertRaises(LuaLiteralError):
@@ -50,7 +58,7 @@ class QuestieImporterTests(unittest.TestCase):
         corrections.mkdir(parents=True)
         (corrections / "foreverQuestFixes.lua").write_text(
             "function ForeverQuestFixes:Load()\n"
-            "  return { [42] = { [questKeys.level] = 10, [questKeys.name] = l10n('corrected') } }\n"
+            "  return { [42] = { [questKeys.level] = 10, [questKeys.extra] = {[1] = \"one\", [zoneIDs.STORMWIND] = \"city\"}, [questKeys.requiredClasses] = classIDs.WARRIOR + classIDs.PALADIN, [questKeys.name] = l10n('corrected') } }\n"
             "end\n"
             "function ForeverQuestFixes:LoadDynamic() return {} end\n",
             encoding="utf-8",
@@ -58,13 +66,24 @@ class QuestieImporterTests(unittest.TestCase):
         era_corrections = self.repo / "src" / "corrections" / "Era"
         era_corrections.mkdir(parents=True)
         (era_corrections / "classicQuestFixes.lua").write_text(
-            "function ClassicQuestFixes:Load() return { [42] = { [questKeys.level] = 9 } } end\n",
+            "function ClassicQuestFixes:Load() return { [42] = { [questKeys.level] = 9 } } end\n"
+            "function ClassicQuestFixes:LoadAutomatics() return { [42] = { [questKeys.level] = 8 } } end\n",
+            encoding="utf-8",
+        )
+        (era_corrections / "automaticQuestFixes.lua").write_text(
+            "function AutomaticQuestFixes:Load() return { [42] = { [questKeys.level] = 7 } } end\n",
             encoding="utf-8",
         )
         shared_corrections = self.repo / "src" / "corrections" / "Shared"
         shared_corrections.mkdir(parents=True)
         (shared_corrections / "itemStartFixes.lua").write_text(
             "function ItemStartFixes:LoadAutomaticQuestStarts() return { [42] = { [itemKeys.startQuest] = 12 } } end\n",
+            encoding="utf-8",
+        )
+        legacy = corrections / "legacy"
+        legacy.mkdir()
+        (legacy / "classicQuestFixes.lua").write_text(
+            "function LegacyQuestFixes:Load() return { [42] = { [questKeys.level] = 6 } } end\n",
             encoding="utf-8",
         )
         other_expansion = self.repo / "src" / "corrections" / "Cata"
@@ -101,11 +120,14 @@ class QuestieImporterTests(unittest.TestCase):
         correction = next(row for row in rows if row["entityId"].startswith("correction:Forever:") and row["entityId"].endswith(":42:level"))
         self.assertEqual(correction["attributes"]["correction"]["value"], 10)
         self.assertEqual(correction["attributes"]["correction"]["application"], "not-evaluated")
+        extra = next(row for row in rows if row["entityId"].endswith(":42:extra"))
+        self.assertEqual(extra["attributes"]["correction"]["value"], {"1": "one", "$ref:zoneIDs.STORMWIND": "city"})
+        classes = next(row for row in rows if row["entityId"] == "correction:Forever:foreverQuestFixes.lua:Load:quest:42:requiredClasses")
+        self.assertEqual(classes["attributes"]["correction"]["value"], {"$luaExpression": "+", "arguments": [{"$luaExpression": "classIDs.WARRIOR"}, {"$luaExpression": "classIDs.PALADIN"}]})
         dynamic = next(row for row in rows if row["entityId"].startswith("correction:Forever:") and row["entityId"].endswith(":42:name"))
         self.assertEqual(dynamic["attributes"]["correction"]["value"]["$luaExpression"], "l10n")
-        self.assertTrue(any(row["entityId"].startswith("correction:Era:") and row["attributes"]["correction"]["value"] == 9 for row in rows))
-        self.assertTrue(any(row["entityId"].startswith("correction:Shared:item:") and row["attributes"]["correction"]["value"] == 12 for row in rows))
-        self.assertFalse(any(row["attributes"]["correction"]["value"] == 99 for row in rows))
+        self.assertTrue(any(row["entityId"].startswith("correction:Forever:legacy/") and row["attributes"]["correction"]["value"] == 6 for row in rows))
+        self.assertFalse(any(row["entityId"].startswith(("correction:Era:", "correction:Shared:")) for row in rows))
         self.assertTrue(any("Dynamic correction" in limitation for limitation in limitations))
 
     def test_era_import_keeps_only_classic_and_shared_corrections(self):
@@ -115,6 +137,24 @@ class QuestieImporterTests(unittest.TestCase):
         self.assertTrue(any(row["entityId"].startswith("correction:Shared:") for row in rows))
         self.assertFalse(any(row["entityId"].startswith("correction:Forever:") for row in rows))
         self.assertFalse(any(row["attributes"]["correction"]["value"] == 99 for row in rows))
+        overlapping = [row for row in rows if row["entityId"].startswith("correction:Era:") and row["entityId"].endswith(":42:level")]
+        self.assertEqual({row["attributes"]["correction"]["method"] for row in overlapping}, {"Load", "LoadAutomatics"})
+        self.assertEqual(len({row["entityId"] for row in overlapping}), 3)
+
+    def test_compressed_snapshot_preserves_checksum_and_repeated_bytes(self):
+        import hashlib
+        out = Path(self.temp.name) / "compressed"
+        with patch("canonical.COMPRESSION_THRESHOLD", 1):
+            import_source(self.repo, "forever", out, None)
+            first = (out / "records.jsonl.gz").read_bytes()
+            manifest = json.loads((out / "manifest.json").read_text())
+            self.assertEqual(hashlib.sha256(gzip.decompress(first)).hexdigest(), manifest["recordsSha256"])
+            self.assertFalse((out / "records.jsonl").exists())
+            import_source(self.repo, "forever", out, None)
+            self.assertEqual(first, (out / "records.jsonl.gz").read_bytes())
+        import_source(self.repo, "forever", out, None)
+        self.assertTrue((out / "records.jsonl").exists())
+        self.assertFalse((out / "records.jsonl.gz").exists())
 
     def test_import_writes_both_flavors_separately_and_is_reproducible(self):
         revision = subprocess.run(["git", "-C", str(self.repo), "rev-parse", "HEAD"], check=True, capture_output=True, text=True).stdout.strip()

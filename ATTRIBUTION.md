@@ -26,10 +26,10 @@ World of Warcraft and related names and identifiers are trademarks or property o
 
 - Source: https://github.com/Questie/QuestieDB
 
-The public repository does not expose an explicit data license in its root
-files or GitHub license metadata at the revision reviewed for this work.
-QuestieDB ingestion is therefore local-only until its data redistribution
-terms are confirmed. This project does not claim ownership of QuestieDB data.
+The repository maintainer confirmed owner permission to proceed with
+QuestieDB imports and publication on 2026-10-11. Snapshots retain the upstream
+revision and file provenance. This permission does not relicense the upstream
+data, and this project does not claim ownership of QuestieDB data.
 
 ## License
 

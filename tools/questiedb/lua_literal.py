@@ -72,7 +72,7 @@ def _decode_string(raw: str) -> str:
     return "".join(chars)
 
 
-def tokenize(text: str) -> list[Token]:
+def tokenize(text: str, *, preserve_expressions: bool = False) -> list[Token]:
     tokens: list[Token] = []
     i = 0
     while i < len(text):
@@ -126,7 +126,7 @@ def tokenize(text: str) -> list[Token]:
             tokens.append(Token("identifier", identifier.group(0), i))
             i = identifier.end()
             continue
-        if char in "{}[]=,;()":
+        if char in "{}[]=,;()" or (preserve_expressions and char in "+-"):
             tokens.append(Token(char, char, i))
             i += 1
             continue
@@ -136,8 +136,8 @@ def tokenize(text: str) -> list[Token]:
 
 
 class Parser:
-    def __init__(self, text: str):
-        self.tokens = tokenize(text)
+    def __init__(self, text: str, *, preserve_expressions: bool = False):
+        self.tokens = tokenize(text, preserve_expressions=preserve_expressions)
         self.pos = 0
 
     @property
@@ -160,7 +160,17 @@ class Parser:
         return value
 
     def value(self) -> object:
+        value = self.primary()
+        while self.current.kind == "+":
+            self.pos += 1
+            value = {"$luaExpression": "+", "arguments": [value, self.primary()]}
+        return value
+
+    def primary(self) -> object:
         token = self.current
+        if token.kind == "-":
+            self.pos += 1
+            return {"$luaExpression": "-", "arguments": [self.primary()]}
         if token.kind == "value":
             self.pos += 1
             return token.value
@@ -230,5 +240,5 @@ def _key(value: object) -> object:
     raise LuaLiteralError(f"unsupported computed table key {value!r}")
 
 
-def parse(text: str) -> object:
-    return Parser(text).parse()
+def parse(text: str, *, preserve_expressions: bool = False) -> object:
+    return Parser(text, preserve_expressions=preserve_expressions).parse()
