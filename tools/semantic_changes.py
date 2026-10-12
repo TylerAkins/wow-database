@@ -12,6 +12,17 @@ from pathlib import Path
 from typing import Any
 
 
+def strip_provenance_revisions(provenance: Any) -> None:
+    if not isinstance(provenance, dict):
+        return
+    for observation in provenance.values():
+        if isinstance(observation, dict):
+            observation.pop("revision", None)
+            for source in observation.get("sources", []):
+                if isinstance(source, dict):
+                    source.pop("revision", None)
+
+
 def normalize_records(data: bytes) -> list[dict[str, Any]]:
     rows = []
     for line_number, raw in enumerate(data.splitlines(), 1):
@@ -21,16 +32,13 @@ def normalize_records(data: bytes) -> list[dict[str, Any]]:
         if not isinstance(row, dict):
             raise ValueError(f"records.jsonl line {line_number} is not an object")
         row.pop("sourceRevision", None)
-        provenance = row.get("provenance")
-        if isinstance(provenance, dict):
-            for observation in provenance.values():
-                if isinstance(observation, dict):
-                    observation.pop("revision", None)
-                    sources = observation.get("sources")
-                    if isinstance(sources, list):
-                        for source in sources:
-                            if isinstance(source, dict):
-                                source.pop("revision", None)
+        strip_provenance_revisions(row.get("provenance"))
+        audits = row.get("attributes", {}).get("sourceData", {})
+        if isinstance(audits, dict):
+            for audit in audits.values():
+                if isinstance(audit, dict):
+                    audit.pop("revision", None)
+                    strip_provenance_revisions(audit.get("provenance"))
         rows.append(row)
     rows.sort(key=lambda row: (row.get("flavor", ""), row.get("entityType", ""), row.get("entityId", "")))
     return rows
@@ -65,7 +73,7 @@ def normalized_product(path: str, data: bytes) -> Any:
         for conflict in value:
             if not isinstance(conflict, dict):
                 continue
-            for candidate in conflict.get("candidates", []):
+            for candidate in conflict.get("candidates", []) + conflict.get("observations", []):
                 if isinstance(candidate, dict):
                     candidate.pop("revision", None)
     return value

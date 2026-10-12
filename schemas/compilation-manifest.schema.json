@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WoW compilation manifest",
+  "type": "object",
+  "required": ["schemaVersion", "compilationFormatVersion", "flavor", "source", "sourceRevision", "recordCount", "recordsSha256"],
+  "properties": {
+    "schemaVersion": {"const": 1},
+    "compilationFormatVersion": {"const": 2},
+    "flavor": {"const": "forever"},
+    "source": {"const": "compilation"},
+    "sourceRevision": {"type": "string", "minLength": 1},
+    "recordCount": {"type": "integer", "minimum": 0},
+    "recordsSha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "generatedAt": {"type": "string"},
+    "status": {"type": "string"},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

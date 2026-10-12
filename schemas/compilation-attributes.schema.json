@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WoW compilation format 2 shared attributes",
+  "description": "Apply shared field definitions to the entity types documented in RECONCILIATION.md. Source-native fields remain allowed.",
+  "type": "object",
+  "required": ["sourceData"],
+  "properties": {
+    "sourceData": {
+      "type": "object", "minProperties": 1,
+      "propertyNames": {"enum": ["questiedb", "allthethings", "wowhead", "foreverclient"]},
+      "additionalProperties": {
+        "type": "object", "required": ["revision", "attributes"],
+        "properties": {
+          "revision": {"type": "string", "minLength": 1},
+          "attributes": {"type": "object"},
+          "fieldStates": {"type": "object"},
+          "provenance": {"type": "object"},
+          "normalizationIssues": {"type": "object", "additionalProperties": {"type": "string"}},
+          "excludedStates": {"type": "object", "additionalProperties": {"enum": ["invalid", "unsupported", "unavailable"]}}
+        },
+        "additionalProperties": false
+      }
+    },
+    "name": {"type": "string"},
+    "questLevel": {"type": "integer"},
+    "requiredLevel": {"type": "integer", "minimum": 0},
+    "requiredRaces": {"type": "integer", "minimum": 0},
+    "requiredClasses": {"type": "integer", "minimum": 0},
+    "zoneOrSort": {"type": "integer"},
+    "sourceItemId": {"type": "integer", "minimum": 1},
+    "nextQuestInChain": {"type": "integer", "minimum": 1},
+    "parentQuest": {"type": "integer", "minimum": 1},
+    "requiredMaxLevel": {"type": "integer", "minimum": 0},
+    "requiredSpell": {"type": "integer", "minimum": 1},
+    "requiredSpecialization": {"type": "integer", "minimum": 1},
+    "breadcrumbForQuestId": {"type": "integer", "minimum": 1},
+    "availableUntilCompleted": {"type": "integer", "minimum": 1},
+    "availableStartingWith": {"type": "integer", "minimum": 1},
+    "disabledByQuest": {"type": "integer", "minimum": 1},
+    "preQuestSingle": {"$ref": "#/$defs/idSet"},
+    "preQuestGroup": {"$ref": "#/$defs/idSet"},
+    "exclusiveTo": {"$ref": "#/$defs/idSet"},
+    "childQuests": {"$ref": "#/$defs/idSet"},
+    "inGroupWith": {"$ref": "#/$defs/idSet"},
+    "requiredSourceItems": {"$ref": "#/$defs/idSet"},
+    "breadcrumbs": {"$ref": "#/$defs/idSet"},
+    "questFlags": {"type": "integer", "minimum": 0},
+    "specialFlags": {"type": "integer", "minimum": 0},
+    "questUiThemeId": {"type": "integer", "minimum": 0},
+    "uniqueBitFlag": {"type": "integer", "minimum": 0},
+    "startedBy": {"$ref": "#/$defs/providers"},
+    "finishedBy": {"$ref": "#/$defs/providers"},
+    "spawns": {"type": "array", "uniqueItems": true, "items": {"type": "object", "required": ["zoneId", "x", "y"], "properties": {"zoneId": {"type": "integer", "minimum": 1}, "x": {"type": "number", "minimum": 0, "maximum": 100}, "y": {"type": "number", "minimum": 0, "maximum": 100}}, "additionalProperties": false}},
+    "spawnPresence": {"type": "array", "uniqueItems": true, "items": {"type": "integer", "minimum": 1}},
+    "objectives": {"type": "object", "properties": {"creature": {"$ref": "#/$defs/basicObjectives"}, "object": {"$ref": "#/$defs/basicObjectives"}, "item": {"$ref": "#/$defs/basicObjectives"}, "reputation": {"$ref": "#/$defs/reputationObjectives"}, "killCredit": {"$ref": "#/$defs/killCreditObjectives"}, "spell": {"$ref": "#/$defs/spellObjectives"}}, "additionalProperties": false}
+  },
+  "$defs": {
+    "providers": {"type": "array", "uniqueItems": true, "items": {"type": "object", "required": ["type", "id"], "properties": {"type": {"enum": ["npc", "object", "item"]}, "id": {"type": "integer", "minimum": 1}}, "additionalProperties": false}},
+    "idSet": {"type": "array", "uniqueItems": true, "items": {"type": "integer", "minimum": 1}},
+    "basicObjectives": {"type": "array", "items": {"type": "object", "required": ["id"], "properties": {"id": {"type": "integer", "minimum": 1}, "text": {"type": "string"}, "iconFile": {}}, "additionalProperties": true}},
+    "reputationObjectives": {"type": "array", "items": {"type": "object", "required": ["id", "value"], "properties": {"id": {"type": "integer", "minimum": 1}, "value": {"type": "number"}}, "additionalProperties": true}},
+    "killCreditObjectives": {"type": "array", "items": {"type": "object", "required": ["ids"], "properties": {"ids": {"$ref": "#/$defs/idSet"}, "baseId": {"type": "integer", "minimum": 1}, "text": {"type": "string"}, "iconFile": {}}, "additionalProperties": true}},
+    "spellObjectives": {"type": "array", "items": {"type": "object", "required": ["id"], "properties": {"id": {"type": "integer", "minimum": 1}, "text": {"type": "string"}, "itemId": {"type": "integer", "minimum": 1}}, "additionalProperties": true}}
+  },
+  "additionalProperties": true
+}

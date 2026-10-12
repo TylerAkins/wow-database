@@ -87,3 +87,10 @@ identities. Other tables remain in the compressed snapshot. Encrypted sections
 remain partial, and unresolved source conflicts are preserved. Only the temporary
 `.local/foreverclient/` export is purged after successful verification; retained
 snapshots and compiled data remain available.
+
+## Compilation normalization
+
+Source snapshots retain their source representations. Shared consumer fields are
+normalized during compilation, with every original observation retained in
+`attributes.sourceData`. Refreshing a source does not change the normalization
+contract. See [RECONCILIATION.md](RECONCILIATION.md) before consuming format 2.

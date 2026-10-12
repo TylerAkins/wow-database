@@ -63,3 +63,23 @@ class SemanticChangesTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+class AuditSemanticTests(unittest.TestCase):
+    def test_audit_revision_only_changes_are_ignored_but_original_values_are_not(self):
+        import json
+        before = {"entityType": "quest", "entityId": "1", "attributes": {"sourceData": {
+            "questiedb": {"revision": "old", "attributes": {"name": "A", "revision": "authored"},
+                          "provenance": {"name": {"source": "questiedb", "revision": "old", "path": "quests.lua"}}}}}}
+        after = json.loads(json.dumps(before))
+        after["attributes"]["sourceData"]["questiedb"]["revision"] = "new"
+        after["attributes"]["sourceData"]["questiedb"]["provenance"]["name"]["revision"] = "new"
+        encode = lambda row: (json.dumps(row) + "\n").encode()
+        self.assertTrue(semantic_records_equal(encode(before), encode(after)))
+        after["attributes"]["sourceData"]["questiedb"]["attributes"]["revision"] = "changed"
+        self.assertFalse(semantic_records_equal(encode(before), encode(after)))
+
+    def test_conflict_original_observation_revisions_are_ignored(self):
+        before = b'[{"field":"name","observations":[{"revision":"old","value":"A"}],"candidates":[{"revision":"old","value":"A"}]}]'
+        after = before.replace(b'old', b'new')
+        self.assertEqual(normalized_product("data/forever/compilation/conflicts.json", before),
+                         normalized_product("data/forever/compilation/conflicts.json", after))

@@ -1,6 +1,7 @@
 package database
 
 import (
+	"bytes"
 	"encoding/json"
 	"fmt"
 	"math"
@@ -121,9 +122,23 @@ func diffRecordsWithTolerance(left, right record.Record, coordinateTolerance flo
 	leftAttrs := map[string]json.RawMessage{}
 	rightAttrs := map[string]json.RawMessage{}
 	for k, v := range left.Attributes {
+		if k == "sourceData" {
+			var err error
+			v, err = withoutAuditRevisions(v)
+			if err != nil {
+				return nil, err
+			}
+		}
 		leftAttrs[k] = v
 	}
 	for k, v := range right.Attributes {
+		if k == "sourceData" {
+			var err error
+			v, err = withoutAuditRevisions(v)
+			if err != nil {
+				return nil, err
+			}
+		}
 		rightAttrs[k] = v
 	}
 	leftState, err := json.Marshal(left.FieldStates)
@@ -275,4 +290,32 @@ func WriteComparison(outDir string, comparison Comparison) error {
 		}
 	}
 	return os.WriteFile(filepath.Join(outDir, "comparison.md"), []byte(md.String()), 0o644)
+}
+
+func withoutAuditRevisions(raw json.RawMessage) (json.RawMessage, error) {
+	var audits map[string]map[string]any
+	d := json.NewDecoder(bytes.NewReader(raw))
+	d.UseNumber()
+	if err := d.Decode(&audits); err != nil {
+		return nil, err
+	}
+	for _, audit := range audits {
+		delete(audit, "revision")
+		if provenance, ok := audit["provenance"].(map[string]any); ok {
+			for _, p := range provenance {
+				if entry, ok := p.(map[string]any); ok {
+					delete(entry, "revision")
+					if sources, ok := entry["sources"].([]any); ok {
+						for _, source := range sources {
+							if observation, ok := source.(map[string]any); ok {
+								delete(observation, "revision")
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	out, err := json.Marshal(audits)
+	return out, err
 }

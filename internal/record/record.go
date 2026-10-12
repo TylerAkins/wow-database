@@ -53,15 +53,16 @@ type SourceObservation struct {
 }
 
 type Manifest struct {
-	SchemaVersion  int      `json:"schemaVersion"`
-	Flavor         string   `json:"flavor"`
-	Source         string   `json:"source"`
-	SourceRevision string   `json:"sourceRevision"`
-	RecordCount    int      `json:"recordCount"`
-	RecordsSHA256  string   `json:"recordsSha256"`
-	GeneratedAt    string   `json:"generatedAt,omitempty"`
-	Status         string   `json:"status,omitempty"`
-	Limitations    []string `json:"limitations,omitempty"`
+	SchemaVersion            int      `json:"schemaVersion"`
+	CompilationFormatVersion int      `json:"compilationFormatVersion,omitempty"`
+	Flavor                   string   `json:"flavor"`
+	Source                   string   `json:"source"`
+	SourceRevision           string   `json:"sourceRevision"`
+	RecordCount              int      `json:"recordCount"`
+	RecordsSHA256            string   `json:"recordsSha256"`
+	GeneratedAt              string   `json:"generatedAt,omitempty"`
+	Status                   string   `json:"status,omitempty"`
+	Limitations              []string `json:"limitations,omitempty"`
 }
 
 func (r Record) Key() string { return r.Flavor + "/" + r.EntityType + "/" + r.EntityID }
@@ -178,6 +179,9 @@ func WriteDataset(outputDir string, records []Record, manifest Manifest) error {
 	if !sources[manifest.Source] || !flavors[manifest.Flavor] || strings.TrimSpace(manifest.SourceRevision) == "" {
 		return fmt.Errorf("manifest source, flavor, and sourceRevision are required and must be supported")
 	}
+	if err := validateCompilationVersion(manifest); err != nil {
+		return err
+	}
 	ordered := append([]Record(nil), records...)
 	sort.Slice(ordered, func(i, j int) bool {
 		if ordered[i].EntityType != ordered[j].EntityType {
@@ -190,6 +194,11 @@ func WriteDataset(outputDir string, records []Record, manifest Manifest) error {
 	for i, r := range ordered {
 		if err := r.Validate(); err != nil {
 			return fmt.Errorf("record %d: %w", i+1, err)
+		}
+		if manifest.CompilationFormatVersion == 2 {
+			if err := ValidateCompiledAttributes(r); err != nil {
+				return fmt.Errorf("record %d: %w", i+1, err)
+			}
 		}
 		if r.Source != manifest.Source || r.Flavor != manifest.Flavor || r.SourceRevision != manifest.SourceRevision {
 			return fmt.Errorf("record %d does not match manifest source, flavor, and revision", i+1)
@@ -260,6 +269,9 @@ func ReadDataset(dir string) ([]Record, Manifest, error) {
 	if manifest.SchemaVersion != SchemaVersion || !flavors[manifest.Flavor] || !sources[manifest.Source] || manifest.SourceRevision == "" {
 		return nil, Manifest{}, fmt.Errorf("invalid dataset manifest")
 	}
+	if err := validateCompilationVersion(manifest); err != nil {
+		return nil, Manifest{}, err
+	}
 	content, err := os.ReadFile(filepath.Join(dir, "records.jsonl"))
 	if os.IsNotExist(err) {
 		compressed, readErr := os.ReadFile(filepath.Join(dir, "records.jsonl.gz"))
@@ -279,6 +291,13 @@ func ReadDataset(dir string) ([]Record, Manifest, error) {
 	records, err := ReadJSONL(bytes.NewReader(content), manifest.Source, manifest.Flavor, manifest.SourceRevision)
 	if err != nil {
 		return nil, Manifest{}, err
+	}
+	if manifest.CompilationFormatVersion == 2 {
+		for _, r := range records {
+			if err := ValidateCompiledAttributes(r); err != nil {
+				return nil, Manifest{}, fmt.Errorf("record %s: %w", r.Key(), err)
+			}
+		}
 	}
 	hash := sha256.Sum256(content)
 	if manifest.RecordCount != len(records) || manifest.RecordsSHA256 != hex.EncodeToString(hash[:]) {
@@ -300,4 +319,11 @@ func storedRecords(content []byte) (string, []byte, error) {
 		return "", nil, err
 	}
 	return "records.jsonl.gz", buffer.Bytes(), nil
+}
+
+func validateCompilationVersion(manifest Manifest) error {
+	if manifest.CompilationFormatVersion != 0 && (manifest.Source != "compilation" || manifest.CompilationFormatVersion != 2) {
+		return fmt.Errorf("unsupported compilation format version %d for %s", manifest.CompilationFormatVersion, manifest.Source)
+	}
+	return nil
 }

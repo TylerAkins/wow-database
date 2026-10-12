@@ -19,20 +19,24 @@ type ResolutionPolicy struct {
 }
 
 type Candidate struct {
-	Source   string          `json:"source"`
-	Revision string          `json:"revision"`
-	Value    json.RawMessage `json:"value,omitempty"`
-	State    string          `json:"state,omitempty"`
+	Source      string          `json:"source"`
+	Revision    string          `json:"revision"`
+	Value       json.RawMessage `json:"value,omitempty"`
+	State       string          `json:"state,omitempty"`
+	Path        string          `json:"path,omitempty"`
+	Reason      string          `json:"reason,omitempty"`
+	SourceField string          `json:"sourceField,omitempty"`
 }
 
 type Conflict struct {
-	Flavor     string      `json:"flavor"`
-	EntityType string      `json:"entityType"`
-	EntityID   string      `json:"entityId"`
-	Field      string      `json:"field"`
-	Selected   string      `json:"selectedSource,omitempty"`
-	Rule       string      `json:"selectionRule,omitempty"`
-	Candidates []Candidate `json:"candidates"`
+	Flavor       string      `json:"flavor"`
+	EntityType   string      `json:"entityType"`
+	EntityID     string      `json:"entityId"`
+	Field        string      `json:"field"`
+	Selected     string      `json:"selectedSource,omitempty"`
+	Rule         string      `json:"selectionRule,omitempty"`
+	Candidates   []Candidate `json:"candidates"`
+	Observations []Candidate `json:"observations,omitempty"`
 }
 
 type sourceData struct {
@@ -87,7 +91,7 @@ func Compile(flavor, sourcesRoot, outputDir, policyPath string) error {
 		}
 		seen := map[string]bool{}
 		for _, source := range priority {
-			if source == "" || source == "compilation" || seen[source] {
+			if (source != "questiedb" && source != "wowhead" && source != "allthethings" && source != "foreverclient") || seen[source] {
 				return fmt.Errorf("invalid or duplicate source %q in policy %s", source, field)
 			}
 			seen[source] = true
@@ -117,7 +121,11 @@ func Compile(flavor, sourcesRoot, outputDir, policyPath string) error {
 		compiled = append(compiled, merged)
 		conflicts = append(conflicts, found...)
 	}
-	inputBytes, err := json.Marshal(manifests)
+	inputBytes, err := json.Marshal(struct {
+		Manifests []record.Manifest `json:"manifests"`
+		Policy    ResolutionPolicy  `json:"policy"`
+		Version   int               `json:"normalizationVersion"`
+	}{manifests, policy, NormalizationVersion})
 	if err != nil {
 		return err
 	}
@@ -127,7 +135,7 @@ func Compile(flavor, sourcesRoot, outputDir, policyPath string) error {
 		compiled[i].SourceRevision = revision
 	}
 	return writeCompilation(outputDir, compiled, record.Manifest{
-		Source: "compilation", Flavor: flavor, SourceRevision: revision, Status: "generated",
+		Source: "compilation", Flavor: flavor, SourceRevision: revision, Status: "generated", CompilationFormatVersion: CompilationFormatVersion,
 	}, conflicts)
 }
 
@@ -136,6 +144,21 @@ func mergeRecords(rows []record.Record, policy ResolutionPolicy) (record.Record,
 		return record.Record{}, nil, fmt.Errorf("no source rows")
 	}
 	base := rows[0]
+	originals := rows
+	audit := map[string]sourceAudit{}
+	normalized := make([]record.Record, 0, len(rows))
+	for _, row := range rows {
+		n, a, err := normalizeRecord(row)
+		if err != nil {
+			return record.Record{}, nil, err
+		}
+		if _, exists := audit[row.Source]; exists {
+			return record.Record{}, nil, fmt.Errorf("duplicate source observation %s", row.Source)
+		}
+		audit[row.Source] = a
+		normalized = append(normalized, n)
+	}
+	rows = normalized
 	result := record.Record{SchemaVersion: record.SchemaVersion, Flavor: base.Flavor, EntityType: base.EntityType, EntityID: base.EntityID, Source: "compilation", SourceRevision: "pending", Attributes: map[string]json.RawMessage{}, FieldStates: map[string]string{}, Provenance: map[string]record.FieldProvenance{}}
 	fieldSet := map[string]bool{}
 	for _, row := range rows {
@@ -156,7 +179,7 @@ func mergeRecords(rows []record.Record, policy ResolutionPolicy) (record.Record,
 		values := map[string][]record.Record{}
 		states := map[string][]record.Record{}
 		for _, row := range rows {
-			if raw, ok := row.Attributes[field]; ok {
+			if raw, ok := row.Attributes[field]; ok && (row.FieldStates[field] == "" || row.FieldStates[field] == "empty") {
 				canonical, err := canonicalJSON(raw)
 				if err != nil {
 					return record.Record{}, nil, fmt.Errorf("%s: %w", field, err)
@@ -167,24 +190,19 @@ func mergeRecords(rows []record.Record, policy ResolutionPolicy) (record.Record,
 			}
 		}
 		if len(values) == 0 {
-			if len(states) == 0 {
-				result.FieldStates[field] = "missing"
-				continue
-			}
-			if len(states) == 1 {
-				for state, owners := range states {
-					result.FieldStates[field] = state
-					result.Provenance[field] = provenance(owners)
-				}
-				continue
-			}
-			result.FieldStates[field] = "conflicting"
+			result.FieldStates[field] = "missing"
 			allRows := []record.Record{}
 			for _, owners := range states {
 				allRows = append(allRows, owners...)
 			}
-			result.Provenance[field] = provenance(allRows)
-			conflicts = append(conflicts, Conflict{Flavor: result.Flavor, EntityType: result.EntityType, EntityID: result.EntityID, Field: field, Candidates: stateCandidates(states)})
+			for _, state := range []string{"missing", "unavailable", "unsupported", "conflicting", "invalid"} {
+				if len(states[state]) > 0 {
+					result.FieldStates[field] = state
+				}
+			}
+			if len(allRows) > 0 {
+				result.Provenance[field] = provenance(allRows)
+			}
 			continue
 		}
 		if len(values) == 1 {
@@ -197,7 +215,7 @@ func mergeRecords(rows []record.Record, policy ResolutionPolicy) (record.Record,
 			}
 			continue
 		}
-		found := Conflict{Flavor: result.Flavor, EntityType: result.EntityType, EntityID: result.EntityID, Field: field, Candidates: valueCandidates(values)}
+		found := Conflict{Flavor: result.Flavor, EntityType: result.EntityType, EntityID: result.EntityID, Field: field, Candidates: append(valueCandidates(values), stateCandidates(states)...), Observations: originalCandidates(originals, field, audit)}
 		found.Selected, found.Rule = selectSource(result.EntityType, field, values, policy)
 		conflicts = append(conflicts, found)
 		if found.Selected == "" {
@@ -233,6 +251,11 @@ func mergeRecords(rows []record.Record, policy ResolutionPolicy) (record.Record,
 	if len(result.Provenance) == 0 {
 		result.Provenance = nil
 	}
+	auditBytes, err := json.Marshal(audit)
+	if err != nil {
+		return record.Record{}, nil, err
+	}
+	result.Attributes["sourceData"] = auditBytes
 	return result, conflicts, nil
 }
 
@@ -248,7 +271,7 @@ func canonicalJSON(raw json.RawMessage) (string, error) {
 	if err := decoder.Decode(&value); err != nil {
 		return "", err
 	}
-	encoded, err := json.Marshal(value)
+	encoded, err := json.Marshal(canonicalNumbers(value))
 	return string(encoded), err
 }
 
@@ -344,8 +367,21 @@ func writeCompilation(outputDir string, rows []record.Record, manifest record.Ma
 	if err := os.WriteFile(filepath.Join(temp, "conflicts.md"), []byte(renderConflicts(conflicts)), 0o644); err != nil {
 		return err
 	}
+	if _, _, err := record.ReadDataset(temp); err != nil {
+		return fmt.Errorf("validate staged compilation: %w", err)
+	}
+	if _, err := validateReferences(rows); err != nil {
+		return fmt.Errorf("validate staged references: %w", err)
+	}
+	if err := writeJSON(filepath.Join(temp, "reconciliation.json"), reconciliationReport(rows, conflicts)); err != nil {
+		return err
+	}
 	old := outputDir + ".old"
-	_ = os.RemoveAll(old)
+	if _, err := os.Stat(old); err == nil {
+		return fmt.Errorf("backup already exists: %s", old)
+	} else if !os.IsNotExist(err) {
+		return err
+	}
 	if _, err := os.Stat(outputDir); err == nil {
 		if err := os.Rename(outputDir, old); err != nil {
 			return err
@@ -373,7 +409,13 @@ func renderConflicts(conflicts []Conflict) string {
 		out.WriteString("No conflicting values were found.\n")
 		return out.String()
 	}
-	fmt.Fprintf(&out, "%d field conflict(s). See `conflicts.json` for candidate values and provenance.\n\n", len(conflicts))
+	selected := 0
+	for _, c := range conflicts {
+		if c.Selected != "" {
+			selected++
+		}
+	}
+	fmt.Fprintf(&out, "%d field conflict(s): %d selected, %d unresolved. See `conflicts.json` for candidates and `reconciliation.json` for dispositions.\n\n", len(conflicts), selected, len(conflicts)-selected)
 	for _, row := range conflicts {
 		fmt.Fprintf(&out, "- `%s/%s/%s.%s`: ", row.Flavor, row.EntityType, row.EntityID, row.Field)
 		if row.Selected != "" {

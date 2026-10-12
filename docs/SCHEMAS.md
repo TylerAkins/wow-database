@@ -56,3 +56,10 @@ Client quest lookup tables use `entityType=questmetadata` with an ID such as
 `QuestInfo:1`. Quest-line and POI links use `relationship` with table-prefixed
 IDs. Only QuestV2 row IDs map directly to `quest` IDs. Raw client field names and
 values are preserved with provenance; support-table row IDs never become quests.
+
+## Compiled format 2
+
+Compilation manifests identify `compilationFormatVersion: 2` independently of
+record envelope version 1. Readers retain support for unmarked older compilations
+and reject unsupported explicit versions. Shared attributes, original observations,
+and migration instructions are in [RECONCILIATION.md](RECONCILIATION.md).
