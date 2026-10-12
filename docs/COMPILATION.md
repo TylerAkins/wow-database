@@ -52,3 +52,12 @@ Classic baseline; the importer verifies that all upstream Classic quest IDs are
 present. The compiler merges the union of source records by entity type and ID,
 so a shared Classic quest appears once alongside Forever additions. Multiple
 source observations and conflicting values remain in provenance and reports.
+
+## Field reconciliation
+
+The compiler normalizes shared fields, retains original observations in
+`attributes.sourceData`, and applies explicit field priorities. Compilation
+manifests now identify format 2. `reconciliation.json` reports equivalent, selected,
+unresolved, invalid, and unsupported observations separately. See
+[RECONCILIATION.md](RECONCILIATION.md) for field shapes, source semantics, migration,
+and remaining coverage limits.

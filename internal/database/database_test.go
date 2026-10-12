@@ -250,3 +250,25 @@ func TestForeverCompilationIncludesBaselineAndAdditionsWithoutDuplicateQuests(t 
 		t.Fatal("accepted separate Era compilation")
 	}
 }
+
+func TestCompareIgnoresOnlySourceAuditRevisionChurn(t *testing.T) {
+	l := record.Record{SchemaVersion: 1, Flavor: "forever", EntityType: "npc", EntityID: "5", Source: "compilation", SourceRevision: "compiled-old", Attributes: map[string]json.RawMessage{"name": json.RawMessage(`"A"`), "sourceData": json.RawMessage(`{"wowhead":{"revision":"revision-old","attributes":{"name":"A"},"provenance":{"name":{"source":"wowhead","revision":"revision-old","path":"npcs.lua"}}}}`)}}
+	r := l
+	r.SourceRevision = "compiled-new"
+	r.Attributes = map[string]json.RawMessage{"name": json.RawMessage(`"A"`), "sourceData": json.RawMessage(`{"wowhead":{"revision":"revision-new","attributes":{"name":"A"},"provenance":{"name":{"source":"wowhead","revision":"revision-new","path":"npcs.lua"}}}}`)}
+	differences, err := diffRecords(l, r)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(differences) != 0 {
+		t.Fatalf("revision churn changed semantics: %+v", differences)
+	}
+	r.Attributes["sourceData"] = json.RawMessage(`{"wowhead":{"revision":"revision-new","attributes":{"name":"B"},"provenance":{"name":{"source":"wowhead","revision":"revision-new","path":"npcs.lua"}}}}`)
+	differences, err = diffRecords(l, r)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(differences) == 0 {
+		t.Fatal("original source value change was ignored")
+	}
+}

@@ -81,3 +81,10 @@ See [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md) for tests, refresh commands, inva
 ## License and attribution
 
 Repository code is GPL-3.0. Wowhead and World of Warcraft data retain their respective ownership; see [ATTRIBUTION.md](ATTRIBUTION.md).
+
+## Reconciled consumer fields
+
+The Forever compilation uses format 2: consistent shared fields, explicit source
+priorities, and retained original observations. See the
+[consumer migration guide](docs/RECONCILIATION.md) for shapes, selected conflicts,
+and coverage limits.

@@ -27,6 +27,9 @@ def validate_rows(rows: list[dict[str, Any]], manifest: dict[str, Any]) -> None:
     revision = manifest.get("sourceRevision")
     if source not in SOURCES or flavor not in FLAVORS or not isinstance(revision, str) or not revision:
         raise ValueError("manifest requires a supported source, flavor, and sourceRevision")
+    version = manifest.get("compilationFormatVersion", 0)
+    if type(version) is not int or version not in (0, 2) or (version and source != "compilation"):
+        raise ValueError("unsupported compilation format version")
     seen: set[tuple[str, str, str]] = set()
     for number, row in enumerate(rows, 1):
         if row.get("schemaVersion") != SCHEMA_VERSION:
@@ -46,6 +49,8 @@ def validate_rows(rows: list[dict[str, Any]], manifest: dict[str, Any]) -> None:
         provenance = row.get("provenance", {})
         if not isinstance(attributes, dict) or not isinstance(states, dict) or not isinstance(provenance, dict):
             raise ValueError(f"record {number}: attributes, fieldStates, and provenance must be objects")
+        if version == 2:
+            validate_compiled_attributes(row)
         for field, state in states.items():
             if state not in FIELD_STATES:
                 raise ValueError(f"record {number}: unsupported state {state!r} for {field}")
@@ -58,8 +63,93 @@ def validate_rows(rows: list[dict[str, Any]], manifest: dict[str, Any]) -> None:
                 raise ValueError(f"record {number}: provenance for {field} has no field value or state")
             if not isinstance(value, dict):
                 raise ValueError(f"record {number}: provenance for {field} must be an object")
-            if value.get("source") != source or value.get("revision") != revision:
+            if source == "compilation":
+                observations = value.get("sources")
+                if not isinstance(observations, list) or not observations or any(
+                    not isinstance(item, dict) or item.get("source") not in UPSTREAM_SOURCES
+                    or not isinstance(item.get("revision"), str) or not item["revision"]
+                    for item in observations
+                ):
+                    raise ValueError(f"record {number}: invalid compiled provenance for {field}")
+            elif value.get("source") != source or value.get("revision") != revision:
                 raise ValueError(f"record {number}: provenance for {field} does not match manifest")
+
+
+def validate_compiled_attributes(row: dict[str, Any]) -> None:
+    attrs = row["attributes"]
+    audits = attrs.get("sourceData")
+    if not isinstance(audits, dict) or not audits:
+        raise ValueError("format 2 requires sourceData observations")
+    for source, audit in audits.items():
+        if source not in UPSTREAM_SOURCES or not isinstance(audit, dict):
+            raise ValueError("invalid original source observation")
+        original = dict(row, source=source, sourceRevision=audit.get("revision"),
+                        attributes=audit.get("attributes"), fieldStates=audit.get("fieldStates", {}),
+                        provenance=audit.get("provenance", {}))
+        validate_rows([original], {"source": source, "flavor": row["flavor"],
+                                  "sourceRevision": audit.get("revision")})
+    if "name" in attrs and not isinstance(attrs["name"], str):
+        raise ValueError("name must be text")
+    positive_id = lambda value: type(value) is int and value > 0
+    integer_fields = {
+        "quest": {"questLevel", "requiredLevel", "requiredRaces", "requiredClasses", "zoneOrSort",
+                  "sourceItemId", "questFlags", "uniqueBitFlag", "questUiThemeId", "specialFlags", "nextQuestInChain",
+                  "parentQuest", "requiredMaxLevel", "requiredSpell", "requiredSpecialization",
+                  "availableUntilCompleted", "availableStartingWith", "disabledByQuest", "breadcrumbForQuestId"},
+        "item": {"itemLevel", "requiredLevel", "class", "subClass", "ammoType", "flags", "startQuest"},
+        "npc": {"minLevel", "maxLevel", "minLevelHealth", "maxLevelHealth", "rank", "npcFlags", "factionID", "zoneID"},
+        "object": {"factionID", "zoneID"},
+    }.get(row["entityType"], set())
+    for field in integer_fields & attrs.keys():
+        value = attrs[field]
+        if type(value) is not int or (field not in {"questLevel", "zoneOrSort"} and value < 0):
+            raise ValueError(f"{field} must be an exact integer with a valid sign")
+    id_sets = {"preQuestSingle", "preQuestGroup", "exclusiveTo", "childQuests", "inGroupWith", "requiredSourceItems", "breadcrumbs"}
+    for field in id_sets & attrs.keys():
+        if not isinstance(attrs[field], list) or any(not positive_id(value) for value in attrs[field]):
+            raise ValueError(f"{field} must be a list of positive IDs")
+    if row["entityType"] == "quest":
+        for field in ("startedBy", "finishedBy"):
+            if field not in attrs:
+                continue
+            if not isinstance(attrs[field], list) or any(
+                not isinstance(entry, dict) or set(entry) != {"type", "id"}
+                or entry["type"] not in {"npc", "object", "item"} or not positive_id(entry["id"])
+                for entry in attrs[field]
+            ):
+                raise ValueError("invalid normalized provider list")
+        if "objectives" in attrs:
+            groups = attrs["objectives"]
+            if not isinstance(groups, dict) or set(groups) - {"creature", "object", "item", "reputation", "killCredit", "spell"}:
+                raise ValueError("invalid objective groups")
+            for kind, entries in groups.items():
+                if not isinstance(entries, list):
+                    raise ValueError("objective group must be an array")
+                for entry in entries:
+                    if not isinstance(entry, dict):
+                        raise ValueError("objective must be an object")
+                    if kind == "killCredit":
+                        if not isinstance(entry.get("ids"), list) or not all(positive_id(v) for v in entry["ids"]):
+                            raise ValueError("invalid kill credit IDs")
+                        if "baseId" in entry and not positive_id(entry["baseId"]):
+                            raise ValueError("invalid kill credit base ID")
+                    elif kind == "reputation":
+                        if not positive_id(entry.get("id")) or type(entry.get("value")) not in (int, float):
+                            raise ValueError("invalid reputation objective")
+                    elif not positive_id(entry.get("id")):
+                        raise ValueError("invalid objective ID")
+                    if "text" in entry and not isinstance(entry["text"], str):
+                        raise ValueError("objective text must be text")
+                    if kind == "spell" and "itemId" in entry and not positive_id(entry["itemId"]):
+                        raise ValueError("invalid spell objective item ID")
+    if row["entityType"] in {"npc", "object"} and "spawns" in attrs:
+        if not isinstance(attrs["spawns"], list) or any(
+            not isinstance(entry, dict) or set(entry) != {"zoneId", "x", "y"}
+            or not positive_id(entry["zoneId"])
+            or any(type(entry[axis]) not in (int, float) or not 0 <= entry[axis] <= 100 for axis in ("x", "y"))
+            for entry in attrs["spawns"]
+        ):
+            raise ValueError("invalid normalized spawns")
 
 
 def dataset_content(rows: list[dict[str, Any]], manifest: dict[str, Any]) -> bytes:
