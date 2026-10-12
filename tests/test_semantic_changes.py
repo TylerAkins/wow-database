@@ -28,11 +28,11 @@ class SemanticChangesTests(unittest.TestCase):
         data = b'{"entityType":"quest","entityId":"1","attributes":{"name":"A"}}\n'
         compressed = gzip.compress(data, mtime=0)
         self.assertEqual(
-            normalized_product("data/era/sources/questiedb/records.jsonl.gz", compressed),
-            normalized_product("data/era/sources/questiedb/records.jsonl", data),
+            normalized_product("data/forever/sources/questiedb/records.jsonl.gz", compressed),
+            normalized_product("data/forever/sources/questiedb/records.jsonl", data),
         )
         with self.assertRaises((EOFError, OSError)):
-            normalized_product("data/era/sources/questiedb/records.jsonl.gz", compressed[:-8])
+            normalized_product("data/forever/sources/questiedb/records.jsonl.gz", compressed[:-8])
 
     def test_storage_transition_does_not_create_semantic_change(self):
         original_cwd = Path.cwd()
@@ -40,7 +40,7 @@ class SemanticChangesTests(unittest.TestCase):
             try:
                 os.chdir(temp)
                 subprocess.run(["git", "init", "-q"], check=True)
-                path = Path("data/era/sources/questiedb/records.jsonl")
+                path = Path("data/forever/sources/questiedb/records.jsonl")
                 path.parent.mkdir(parents=True)
                 before = b'{"entityType":"quest","entityId":"1","sourceRevision":"old","attributes":{"name":"A"}}\n'
                 path.write_bytes(before)

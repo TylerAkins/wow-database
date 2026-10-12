@@ -11,7 +11,7 @@ from unittest.mock import patch
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools" / "questiedb"))
 
-from import_source import import_source, parse_entity_file, parse_static_corrections  # noqa: E402
+from import_source import ImportErrorMessage, import_source, parse_entity_file, parse_static_corrections  # noqa: E402
 from lua_literal import LuaLiteralError, parse  # noqa: E402
 
 
@@ -130,16 +130,11 @@ class QuestieImporterTests(unittest.TestCase):
         self.assertFalse(any(row["entityId"].startswith(("correction:Era:", "correction:Shared:")) for row in rows))
         self.assertTrue(any("Dynamic correction" in limitation for limitation in limitations))
 
-    def test_era_import_keeps_only_classic_and_shared_corrections(self):
-        revision = subprocess.run(["git", "-C", str(self.repo), "rev-parse", "HEAD"], check=True, capture_output=True, text=True).stdout.strip()
-        rows, _ = parse_static_corrections(self.repo, "era", revision)
-        self.assertTrue(any(row["entityId"].startswith("correction:Era:") for row in rows))
-        self.assertTrue(any(row["entityId"].startswith("correction:Shared:") for row in rows))
-        self.assertFalse(any(row["entityId"].startswith("correction:Forever:") for row in rows))
-        self.assertFalse(any(row["attributes"]["correction"]["value"] == 99 for row in rows))
-        overlapping = [row for row in rows if row["entityId"].startswith("correction:Era:") and row["entityId"].endswith(":42:level")]
-        self.assertEqual({row["attributes"]["correction"]["method"] for row in overlapping}, {"Load", "LoadAutomatics"})
-        self.assertEqual(len({row["entityId"] for row in overlapping}), 3)
+    def test_rejects_separate_era_flavor(self):
+        with self.assertRaisesRegex(ImportErrorMessage, "unsupported flavor"):
+            import_source(self.repo, "era", Path(self.temp.name) / "era", None)
+        with self.assertRaisesRegex(ImportErrorMessage, "unsupported flavor"):
+            parse_static_corrections(self.repo, "era", "revision")
 
     def test_compressed_snapshot_preserves_checksum_and_repeated_bytes(self):
         import hashlib
@@ -156,18 +151,23 @@ class QuestieImporterTests(unittest.TestCase):
         self.assertTrue((out / "records.jsonl").exists())
         self.assertFalse((out / "records.jsonl.gz").exists())
 
-    def test_import_writes_both_flavors_separately_and_is_reproducible(self):
-        revision = subprocess.run(["git", "-C", str(self.repo), "rev-parse", "HEAD"], check=True, capture_output=True, text=True).stdout.strip()
-        era_out = Path(self.temp.name) / "data" / "era" / "sources" / "questiedb"
+    def test_missing_classic_quest_fails_without_replacing_snapshot(self):
+        out = Path(self.temp.name) / "snapshot"
+        import_source(self.repo, "forever", out, None)
+        before = (out / "records.jsonl").read_bytes()
+        classic = self.repo / "data" / "Classic" / "classicQuestDB.lua"
+        classic.write_text(classic.read_text().replace("[43] = {nil, nil, nil}", '[43] = {nil, nil, nil}, [44] = {"Classic only"}'))
+        with self.assertRaisesRegex(ImportErrorMessage, "omit 1 Classic quest ID"):
+            import_source(self.repo, "forever", out, None)
+        self.assertEqual(before, (out / "records.jsonl").read_bytes())
+
+    def test_forever_import_is_reproducible(self):
         forever_out = Path(self.temp.name) / "data" / "forever" / "sources" / "questiedb"
-        import_source(self.repo, "era", era_out, revision)
-        import_source(self.repo, "forever", forever_out, revision)
-        era_manifest = json.loads((era_out / "manifest.json").read_text())
-        forever_manifest = json.loads((forever_out / "manifest.json").read_text())
-        self.assertEqual(era_manifest["flavor"], "era")
-        self.assertEqual(forever_manifest["flavor"], "forever")
+        import_source(self.repo, "forever", forever_out, None)
+        manifest = json.loads((forever_out / "manifest.json").read_text())
+        self.assertEqual(manifest["flavor"], "forever")
         first = (forever_out / "records.jsonl").read_bytes()
-        import_source(self.repo, "forever", forever_out, revision)
+        import_source(self.repo, "forever", forever_out, None)
         self.assertEqual(first, (forever_out / "records.jsonl").read_bytes())
 
 

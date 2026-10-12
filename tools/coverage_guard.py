@@ -19,7 +19,7 @@ def check_retention(previous: int, current: int, minimum: float) -> bool:
 
 def manifest_dirs(base: str) -> set[str]:
     paths = subprocess.run(
-        ["git", "ls-tree", "-r", "--name-only", base, "--", "data/era/sources", "data/forever/sources"],
+        ["git", "ls-tree", "-r", "--name-only", base, "--", "data/forever/sources"],
         check=True, capture_output=True, text=True,
     ).stdout.splitlines()
     return {str(Path(path).parent) for path in paths if path.endswith("/manifest.json")}

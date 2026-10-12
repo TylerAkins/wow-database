@@ -17,7 +17,7 @@ import (
 const SchemaVersion = 1
 
 var sources = map[string]bool{"wowhead": true, "allthethings": true, "questiedb": true, "foreverclient": true, "compilation": true}
-var flavors = map[string]bool{"era": true, "forever": true}
+var flavors = map[string]bool{"forever": true}
 var entityTypes = map[string]bool{
 	"quest": true, "npc": true, "item": true, "object": true, "zone": true,
 	"map": true, "spell": true, "faction": true, "achievement": true,

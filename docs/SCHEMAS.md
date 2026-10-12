@@ -43,3 +43,7 @@ stay below GitHub file limits. The manifest checksum always covers the
 uncompressed JSONL bytes. Validation, compilation, comparison, and semantic
 change detection read either form. Consumers reading files directly must
 decompress `records.jsonl.gz` when `records.jsonl` is absent.
+
+The only supported `flavor` is `forever`. Classic Era baseline quests and
+Forever additions use the same quest ID namespace. Source snapshots retain
+independent observations; compilation emits one record per entity type and ID.

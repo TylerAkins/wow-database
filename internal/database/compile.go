@@ -41,7 +41,7 @@ type sourceData struct {
 }
 
 func Compile(flavor, sourcesRoot, outputDir, policyPath string) error {
-	if flavor != "era" && flavor != "forever" {
+	if flavor != "forever" {
 		return fmt.Errorf("unsupported flavor %q", flavor)
 	}
 	entries, err := os.ReadDir(sourcesRoot)

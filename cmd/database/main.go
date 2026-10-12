@@ -40,7 +40,7 @@ func run(args []string) error {
 		return nil
 	case "compile":
 		flags := flag.NewFlagSet("compile", flag.ContinueOnError)
-		flavor := flags.String("flavor", "", "game flavor: era or forever")
+		flavor := flags.String("flavor", "", "game flavor: forever")
 		sources := flags.String("sources", "", "source snapshot directory")
 		out := flags.String("out", "", "compilation output directory")
 		policy := flags.String("policy", "schemas/field-resolution.json", "field-level selection policy")
@@ -62,7 +62,6 @@ func run(args []string) error {
 		left := flags.String("left", "", "left source or compilation dataset directory")
 		right := flags.String("right", "", "right source or compilation dataset directory")
 		out := flags.String("out", "", "comparison report directory")
-		crossFlavor := flags.Bool("cross-flavor", false, "match entity type and ID across Era and Forever")
 		coordinateTolerance := flags.Float64("coordinate-tolerance", 0, "ignore coordinate differences within this distance when map/zone matches")
 		if err := flags.Parse(args[1:]); err != nil {
 			return err
@@ -70,7 +69,7 @@ func run(args []string) error {
 		if *left == "" || *right == "" || *out == "" {
 			return fmt.Errorf("--left, --right, and --out are required")
 		}
-		comparison, err := database.CompareWithTolerance(*left, *right, *crossFlavor, *coordinateTolerance)
+		comparison, err := database.CompareWithTolerance(*left, *right, false, *coordinateTolerance)
 		if err != nil {
 			return err
 		}

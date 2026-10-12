@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Compile each game flavor that has canonical source snapshots."""
+"""Compile the Forever database from canonical source snapshots."""
 
 from __future__ import annotations
 
@@ -8,7 +8,7 @@ import subprocess
 from pathlib import Path
 
 
-FLAVORS = ("era", "forever")
+FLAVORS = ("forever",)
 
 
 def compile_flavors(data_root: Path) -> list[str]:

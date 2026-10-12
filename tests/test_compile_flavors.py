@@ -39,7 +39,7 @@ class CompileFlavorsTests(unittest.TestCase):
                 ],
             )
 
-    def test_compiles_both_flavors_when_both_source_directories_exist(self):
+    def test_compiles_only_forever_when_era_directory_exists(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp) / "data"
             (root / "era" / "sources").mkdir(parents=True)
@@ -69,7 +69,7 @@ class CompileFlavorsTests(unittest.TestCase):
             self.assertNotIn("Skipping", result.stdout)
             self.assertEqual(
                 [line.split("--flavor ", 1)[1].split()[0] for line in calls_file.read_text(encoding="utf-8").splitlines()],
-                ["era", "forever"],
+                ["forever"],
             )
 
 

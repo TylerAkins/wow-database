@@ -43,7 +43,7 @@ def semantic_records_equal(left: bytes, right: bytes) -> bool:
 def is_canonical_path(path: str) -> bool:
     return any(
         path.startswith(f"data/{flavor}/{kind}/")
-        for flavor in ("era", "forever")
+        for flavor in ("forever",)
         for kind in ("sources", "compilation")
     )
 

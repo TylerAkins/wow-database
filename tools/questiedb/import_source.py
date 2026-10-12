@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Safely import QuestieDB's generated entity literals and static corrections."""
+"""Safely import QuestieDB's Forever entities, including the Classic baseline."""
 
 from __future__ import annotations
 
@@ -23,7 +23,7 @@ ENTITY_TYPES = {
     "item": ("Item", "item"),
     "object": ("Object", "object"),
 }
-FLAVORS = {"era": "Classic", "forever": "Forever"}
+FLAVORS = {"forever": "Forever"}
 MAX_SOURCE_BYTES = 64 * 1024 * 1024
 SCHEMA_VERSION = 1
 
@@ -135,7 +135,7 @@ def parse_entity_file(path: Path, entity_type: str, repo: Path) -> list[dict[str
                 states[name] = "empty"
         row = {
             "schemaVersion": SCHEMA_VERSION,
-            "flavor": "forever" if path.parts[-2] == "Forever" else "era",
+            "flavor": "forever",
             "entityType": ENTITY_TYPES[entity_type][1],
             "entityId": str(raw_id),
             "source": "questiedb",
@@ -173,7 +173,9 @@ def _is_empty(value: Any) -> bool:
 def parse_static_corrections(repo: Path, flavor: str, revision: str) -> tuple[list[dict[str, Any]], list[str]]:
     # Forever owns its providers, including converted legacy copies beneath
     # Forever/legacy; it no longer inherits the Era or Shared providers.
-    folders = ["Era", "Shared"] if flavor == "era" else ["Forever"]
+    if flavor != "forever":
+        raise ImportErrorMessage(f"unsupported flavor {flavor!r}")
+    folders = ["Forever"]
     rows: list[dict[str, Any]] = []
     found_layers: set[str] = set()
     static_methods = re.compile(r"function\s+[A-Za-z_][A-Za-z0-9_]*:(Load|LoadAutomatics|LoadAutomaticQuestStarts)\s*\([^)]*\)")
@@ -207,7 +209,7 @@ def parse_static_corrections(repo: Path, flavor: str, revision: str) -> tuple[li
                         correction_id = f"correction:{folder}:{path.relative_to(base).as_posix()}:{method_match.group(1)}:{entity_type}:{target_id}:{field_name}"
                         row = {
                             "schemaVersion": SCHEMA_VERSION,
-                            "flavor": "forever" if flavor == "forever" else "era",
+                            "flavor": "forever",
                             "entityType": "relationship",
                             "entityId": correction_id,
                             "source": "questiedb",
@@ -261,6 +263,12 @@ def import_source(repo: Path, flavor: str, out: Path, revision: str | None) -> N
         if not path.is_file():
             raise ImportErrorMessage(f"required entity source is missing: {path}")
         rows.extend(parse_entity_file(path, entity_type, repo))
+    classic_path = repo / "data" / "Classic" / "classicQuestDB.lua"
+    classic_ids = {row["entityId"] for row in parse_entity_file(classic_path, "quest", repo)}
+    forever_ids = {row["entityId"] for row in rows if row["entityType"] == "quest"}
+    missing = sorted(classic_ids - forever_ids, key=int)
+    if missing:
+        raise ImportErrorMessage(f"Forever generated quests omit {len(missing)} Classic quest ID(s): {', '.join(missing[:20])}")
     corrections, limitations = parse_static_corrections(repo, flavor, revision)
     rows.extend(corrections)
     for row in rows:
