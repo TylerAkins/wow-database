@@ -22,6 +22,11 @@ does not claim ownership of the underlying game data.
 
 World of Warcraft and related names and identifiers are trademarks or property of Blizzard Entertainment. This project is not affiliated with or endorsed by Blizzard Entertainment or Wowhead.
 
+The client snapshot contains extracted DB2 table records from the local Forever
+installation, with client build and WoWDBDefs revision recorded in its manifest.
+Content-decryption keys are excluded. This repository does not claim ownership
+of Blizzard data or grant additional rights to it.
+
 ## QuestieDB
 
 - Source: https://github.com/Questie/QuestieDB

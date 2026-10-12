@@ -8,9 +8,9 @@ Compile source datasets for a flavor with:
 go run ./cmd/database compile --flavor forever
 ```
 
-The compiler reads `data/<flavor>/sources/*/`, merges complementary attributes,
+The compiler reads `data/forever/sources/*/`, merges complementary attributes,
 preserves source observations in provenance, and writes
-`data/<flavor>/compilation/`. Equal values combine provenance. Contradictory
+`data/forever/compilation/`. Equal values combine provenance. Contradictory
 values remain unresolved with a `conflicting` state unless
 `schemas/field-resolution.json` selects a source for that entity field. Every
 conflict is retained in `conflicts.json` and `conflicts.md`, including conflicts
@@ -39,11 +39,11 @@ canonical merged datasets.
 ATT ingestion normalizes supported Forever quest declarations and parsed
 links, plus selected explicit NPC, item, object, and achievement entries. It
 does not cover the complete ATT catalog or standalone map and zone definitions.
-QuestieDB's generated entity tables can be imported
-daily or locally for Forever, but its dynamic corrections, support
-bundles, and
-derived runtime passes are not evaluated. The local
-client adapter maps only the subset listed in [INGESTION.md](INGESTION.md).
+QuestieDB's generated entity tables can be imported daily or locally for Forever,
+but dynamic corrections, support bundles, and derived passes are not evaluated.
+The client adapter maps only the subset described in
+[CLIENT_EXTRACTION.md](CLIENT_EXTRACTION.md). QuestV2 contributes IDs and UI
+metadata, while quest support rows have separate table-prefixed identities.
 The compiled union is therefore a union of records supplied by these
 adapters, not a guarantee of complete game data.
 

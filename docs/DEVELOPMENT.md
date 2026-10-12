@@ -24,7 +24,7 @@ python3 tools/compile_zone_files.py
 
 The compiler validates all selected inputs before replacing output. A full run replaces the complete zone directory, removing stale files. A targeted `--zone` run preserves bundles for other zones. `--check` never writes.
 
-## Forever snapshot invariants
+## Wowhead snapshot invariants
 
 - 5,058 indexed quests
 - 5,057 quest detail records
@@ -48,3 +48,12 @@ Run the offline tests and regenerate the compiled files after any refresh. See [
 
 The scheduled workflow uses Go 1.27.2. See [CLIENT_EXTRACTION.md](CLIENT_EXTRACTION.md)
 for the local client workflow and its current format limits.
+
+## Local client workflow
+
+[CLIENT_EXTRACTION.md](CLIENT_EXTRACTION.md) covers definitions setup, extraction,
+packaging, import, validation, compilation, and purging the temporary export.
+Use the retained `data/forever/client-extract/` snapshot for offline rebuilds.
+The client packager and importer tests use small fixtures and do not require
+a game installation. Tables skipped because of encryption remain explicit
+coverage limits; source conflicts are preserved by compilation.

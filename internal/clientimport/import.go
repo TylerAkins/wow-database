@@ -3,6 +3,8 @@ package clientimport
 
 import (
 	"bufio"
+	"bytes"
+	"compress/gzip"
 	"crypto/sha256"
 	"encoding/hex"
 	"encoding/json"
@@ -48,19 +50,33 @@ type tableHeader struct {
 }
 
 type tableRow struct {
-	Kind   string         `json:"kind"`
-	ID     int32          `json:"id"`
-	Fields map[string]any `json:"fields"`
+	Kind   string                     `json:"kind"`
+	ID     int32                      `json:"id"`
+	Fields map[string]json.RawMessage `json:"fields"`
 }
 
 var tableTypes = map[string]string{
-	"Achievement": "achievement",
-	"AreaTable":   "zone",
-	"Creature":    "npc",
-	"Faction":     "faction",
-	"ItemSparse":  "item",
-	"Map":         "map",
-	"SpellName":   "spell",
+	"Achievement":         "achievement",
+	"AreaTable":           "zone",
+	"Creature":            "npc",
+	"Faction":             "faction",
+	"ItemSparse":          "item",
+	"Map":                 "map",
+	"SpellName":           "spell",
+	"QuestV2":             "quest",
+	"QuestInfo":           "questmetadata",
+	"QuestSort":           "questmetadata",
+	"QuestLabel":          "questmetadata",
+	"QuestLine":           "questmetadata",
+	"QuestXP":             "questmetadata",
+	"QuestMoneyReward":    "questmetadata",
+	"QuestFactionReward":  "questmetadata",
+	"QuestFeedbackEffect": "questmetadata",
+	"QuestLineXQuest":     "relationship",
+	"QuestPOIBlob":        "relationship",
+	"QuestPOIPoint":       "relationship",
+	"QuestObjective":      "relationship",
+	"QuestPackageItem":    "relationship",
 }
 
 // Import reads a completed local extraction and atomically writes its canonical dataset.
@@ -78,11 +94,31 @@ func Import(inputDir, outputDir string) error {
 	}
 	manifestHash := sha256.Sum256(data)
 	revision := fmt.Sprintf("client:%s/%d;dbd:%s;manifest:%s", input.Client.Version, input.Client.BuildNumber, input.Definitions.RepositoryRevision, hex.EncodeToString(manifestHash[:]))
+	var archive struct {
+		ManifestSHA256 string `json:"manifestSha256"`
+		Files          map[string]struct {
+			RecordsSHA256 string `json:"recordsSha256"`
+			RecordCount   int    `json:"recordCount"`
+		} `json:"files"`
+	}
+	indexBytes, indexErr := os.ReadFile(filepath.Join(inputDir, "files.json"))
+	if indexErr == nil {
+		if err := json.Unmarshal(indexBytes, &archive); err != nil {
+			return fmt.Errorf("decode snapshot index: %w", err)
+		}
+		if archive.ManifestSHA256 != hex.EncodeToString(manifestHash[:]) {
+			return fmt.Errorf("snapshot index manifest checksum differs")
+		}
+		indexHash := sha256.Sum256(indexBytes)
+		revision += ";tables:" + hex.EncodeToString(indexHash[:])
+	} else if !os.IsNotExist(indexErr) {
+		return indexErr
+	}
 	var rows []record.Record
 	var limitations []string
 	seenTables := map[string]bool{}
 	for _, table := range input.Tables {
-		if table.Name == "" || seenTables[table.Name] {
+		if !validTableName(table.Name) || seenTables[table.Name] {
 			return fmt.Errorf("manifest has empty or duplicate table name %q", table.Name)
 		}
 		seenTables[table.Name] = true
@@ -95,11 +131,12 @@ func Import(inputDir, outputDir string) error {
 			limitations = append(limitations, "DB2 table "+table.Name+" was not imported because its extraction status is "+table.Status+".")
 			continue
 		}
-		file, err := os.Open(filepath.Join(inputDir, "tables", table.Name+".jsonl"))
+		file, err := openTable(inputDir, table.Name)
 		if err != nil {
 			return fmt.Errorf("open extracted table %s: %w", table.Name, err)
 		}
-		parsed, err := readTable(file, table, input, entityType, revision)
+		digest := sha256.New()
+		parsed, err := readTable(io.TeeReader(file, digest), table, input, entityType, revision)
 		closeErr := file.Close()
 		if err != nil {
 			return fmt.Errorf("table %s: %w", table.Name, err)
@@ -107,7 +144,16 @@ func Import(inputDir, outputDir string) error {
 		if closeErr != nil {
 			return closeErr
 		}
+		if indexErr == nil {
+			expected, present := archive.Files[table.Name+".jsonl.gz"]
+			if !present || expected.RecordCount != table.RecordCount || expected.RecordsSHA256 != hex.EncodeToString(digest.Sum(nil)) {
+				return fmt.Errorf("table %s checksum or count differs from snapshot index", table.Name)
+			}
+		}
 		rows = append(rows, parsed...)
+		if table.Name == "QuestV2" {
+			limitations = append(limitations, "QuestV2 supplies quest IDs and client UI metadata, not quest titles, requirements, objectives, rewards, or server availability rules.")
+		}
 	}
 	if len(rows) == 0 {
 		return fmt.Errorf("client extraction contains no supported canonical rows")
@@ -152,7 +198,13 @@ func readTable(reader io.Reader, table struct {
 		if row.Kind != "record" || row.Fields == nil {
 			return nil, fmt.Errorf("line %d has invalid row shape", line)
 		}
+		if entityType == "quest" && row.ID <= 0 {
+			return nil, fmt.Errorf("line %d has invalid quest ID %d", line, row.ID)
+		}
 		id := strconv.FormatInt(int64(row.ID), 10)
+		if entityType == "questmetadata" || entityType == "relationship" {
+			id = table.Name + ":" + id
+		}
 		if seen[id] {
 			return nil, fmt.Errorf("line %d duplicates row id %s", line, id)
 		}
@@ -160,7 +212,7 @@ func readTable(reader io.Reader, table struct {
 		attrs := map[string]json.RawMessage{}
 		states := map[string]string{}
 		for name, value := range row.Fields {
-			if value == nil {
+			if bytes.Equal(bytes.TrimSpace(value), []byte("null")) {
 				states[name] = "unavailable"
 				continue
 			}
@@ -172,10 +224,10 @@ func readTable(reader io.Reader, table struct {
 		}
 		provenance := map[string]record.FieldProvenance{}
 		for name := range attrs {
-			provenance[name] = record.FieldProvenance{Source: "foreverclient", Revision: revision, Path: "tables/" + table.Name + ".jsonl"}
+			provenance[name] = record.FieldProvenance{Source: "foreverclient", Revision: revision, Path: table.Name + ".jsonl"}
 		}
 		for name := range states {
-			provenance[name] = record.FieldProvenance{Source: "foreverclient", Revision: revision, Path: "tables/" + table.Name + ".jsonl"}
+			provenance[name] = record.FieldProvenance{Source: "foreverclient", Revision: revision, Path: table.Name + ".jsonl"}
 		}
 		attrs["clientTable"] = json.RawMessage(strconv.Quote(table.Name))
 		provenance["clientTable"] = record.FieldProvenance{Source: "foreverclient", Revision: revision, Path: "manifest.json"}
@@ -195,4 +247,52 @@ func readTable(reader io.Reader, table struct {
 		return nil, fmt.Errorf("manifest says %d rows, file contains %d", table.RecordCount, len(rows))
 	}
 	return rows, nil
+}
+
+func validTableName(name string) bool {
+	if name == "" {
+		return false
+	}
+	for _, r := range name {
+		if !(r >= 'A' && r <= 'Z') && !(r >= 'a' && r <= 'z') && !(r >= '0' && r <= '9') && r != '_' && r != '-' {
+			return false
+		}
+	}
+	return true
+}
+
+type compressedTable struct {
+	*gzip.Reader
+	file *os.File
+}
+
+func (r *compressedTable) Close() error {
+	gzipErr := r.Reader.Close()
+	fileErr := r.file.Close()
+	if gzipErr != nil {
+		return gzipErr
+	}
+	return fileErr
+}
+
+func openTable(inputDir, name string) (io.ReadCloser, error) {
+	for _, relative := range []string{name + ".jsonl", name + ".jsonl.gz", filepath.Join("tables", name+".jsonl")} {
+		file, err := os.Open(filepath.Join(inputDir, relative))
+		if os.IsNotExist(err) {
+			continue
+		}
+		if err != nil {
+			return nil, err
+		}
+		if !strings.HasSuffix(relative, ".gz") {
+			return file, nil
+		}
+		reader, err := gzip.NewReader(file)
+		if err != nil {
+			file.Close()
+			return nil, err
+		}
+		return &compressedTable{Reader: reader, file: file}, nil
+	}
+	return nil, fmt.Errorf("extracted table %s is missing", name)
 }

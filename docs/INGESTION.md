@@ -1,6 +1,6 @@
 # Ingestion
 
-Every adapter writes one versioned snapshot beneath `data/<flavor>/sources/<source>/`.
+Every adapter writes one versioned snapshot beneath `data/forever/sources/<source>/`.
 Adapters run offline against a local checkout or cache. They do not execute
 upstream Lua, download DB2 definitions, or scrape Wowhead in automation.
 
@@ -68,21 +68,22 @@ QuestieDB adapter locally to reproduce or inspect the scheduled snapshots.
 
 ## Local Forever client
 
-The Go extractor reads a local client install and local WoWDBDefs checkout. It
-does not download either one and writes to `.local/` by default. Import the
-supported DB2 tables into a canonical Forever snapshot with:
+The client workflow is local acquisition followed by a retained compressed
+snapshot and canonical import. The complete sequence, installation/product
+selection, WoWDBDefs setup, output paths, verification, and temporary-export
+cleanup are documented in [CLIENT_EXTRACTION.md](CLIENT_EXTRACTION.md).
+
+Once the compressed snapshot exists, rebuild without extracting again:
 
 ```sh
-go run ./cmd/client-extract --dbd-dir .cache/WoWDBDefs
-go run ./cmd/ingest-client --input .local/foreverclient \
-  --out data/forever/sources/foreverclient
-go run ./cmd/database validate --root data
+go run ./cmd/ingest-client --input data/forever/client-extract
 go run ./cmd/database compile --flavor forever
+go run ./cmd/database validate --root data
 ```
 
-The canonical adapter currently maps Achievement, AreaTable, Creature, Faction,
-ItemSparse, Map, and SpellName. Other extracted tables stay in the local
-extractor output and are listed as importer limitations. Partial encrypted
-tables are marked on imported entities. Do not publish local client output
-without reviewing the applicable redistribution terms. See
-[CLIENT_EXTRACTION.md](CLIENT_EXTRACTION.md) for build-specific limitations.
+The canonical adapter maps selected entity and quest support tables. QuestV2
+supplies quest IDs and UI metadata; support row IDs retain separate table-prefixed
+identities. Other tables remain in the compressed snapshot. Encrypted sections
+remain partial, and unresolved source conflicts are preserved. Only the temporary
+`.local/foreverclient/` export is purged after successful verification; retained
+snapshots and compiled data remain available.

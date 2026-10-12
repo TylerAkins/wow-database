@@ -1,0 +1,4649 @@
+{
+  "excludedTables": {
+    "TactKey": "Contains content-decryption keys; retained only in the local extraction."
+  },
+  "files": {
+    "AccountStoreCategory.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a3148b32124d5e225e09823d8db05cc29d98b4789e13b19d8200a9dcc846210f"
+    },
+    "AccountStoreItem.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "317578c66627167c5b7371c39c5a8dbcdf63d1de254db65779b5b16aacd1a26d"
+    },
+    "Achievement.jsonl.gz": {
+      "recordCount": 436,
+      "recordsSha256": "0443cf7a2d1fe1a983fc53f6caf3efa6b4eea75fe7667b735ff3dc01c5da4306"
+    },
+    "Achievement_Category.jsonl.gz": {
+      "recordCount": 56,
+      "recordsSha256": "dfdb5edd713b6f510b3cd4bb36277846bcfc4c41cc7b95d07f1d8e5f2d1f833e"
+    },
+    "ActionBarGroup.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b9cc275f8bc9f83a9a59fc0356c98c68345cff0f2001ea0ebbf7a918d7b1fd91"
+    },
+    "ActionBarGroupEntry.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b3deef7bb75470ea08b18a0f2297345ddc7fa3ff2147c65298223145cc1c2ece"
+    },
+    "AdventureJournal.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "9e3ae6519bebc1eb2a140fb07c12e53e54d0fb6ab68e7e536db59f12c53ce9b5"
+    },
+    "AdventureJournalItem.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "0d0ba87ff7ffeeda4888c829b9d48c83b797d4f549f540049cf056db2838f7c8"
+    },
+    "AdventureMapPOI.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "8e93269d919aa2d67f435594fd05b7c626868b64c4b82fc47ab5029c9e2d8776"
+    },
+    "AlliedRace.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "1efa7e3af30a17b3ad42dd7aa796bab1809f20006485b37aa7d2c1b78749641e"
+    },
+    "AltMinimap.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b99b2e3f5901187c4fe1e3977f0d62ee7660fe4378332220fc50ad17f7a8471d"
+    },
+    "AltMinimapFiledata.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "167e2f9866aad514cd9cc7b3a6d8bd3f7fa698f78f59e6c5e5f8bbaf16ca5395"
+    },
+    "AltMinimapWMO.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "3b78aa1065ff2dadd078631c6b39120e2cbd0a487facf45c88ad0636449f7b2a"
+    },
+    "AnimKit.jsonl.gz": {
+      "recordCount": 796,
+      "recordsSha256": "7eb7ec5abb070d0e2ae2ffcb712cea7d14c2095723679cccc7ac29bedd6f73ff"
+    },
+    "AnimKitBoneSet.jsonl.gz": {
+      "recordCount": 18,
+      "recordsSha256": "1b9f2a85a22333632d42158233096bd99b43f2e4ebce6bbb64c483caf7e94428"
+    },
+    "AnimKitBoneSetAlias.jsonl.gz": {
+      "recordCount": 10,
+      "recordsSha256": "439f924cf1d36479b0e6c14bc5021fe909dc69e990931502b82e7f63b42b0746"
+    },
+    "AnimKitConfig.jsonl.gz": {
+      "recordCount": 205,
+      "recordsSha256": "6977bf12edb945d9c96b6f55d69703944b045dfdb586c86ceb0e53144cb3c948"
+    },
+    "AnimKitConfigBoneSet.jsonl.gz": {
+      "recordCount": 260,
+      "recordsSha256": "864b015bda7c1e15b12933b1fbc20427f18e96ca96914288e90bf24f0640961a"
+    },
+    "AnimKitPriority.jsonl.gz": {
+      "recordCount": 67,
+      "recordsSha256": "72a2a4b1f48d9b8f5e0b00c7869bdb567e26c931a6faf606b8da88867963e303"
+    },
+    "AnimKitReplacement.jsonl.gz": {
+      "recordCount": 10,
+      "recordsSha256": "2466b418e7cc28f88f03c2010b5ca44bd0b442a0ef9d35969d342fd38fa0b057"
+    },
+    "AnimKitSegment.jsonl.gz": {
+      "recordCount": 1062,
+      "recordsSha256": "b8cbe3f8392698bbbd77b714396f9514aa9949e334b302a676cdb9280dc374d1"
+    },
+    "AnimReplacement.jsonl.gz": {
+      "recordCount": 235,
+      "recordsSha256": "60359f4cb22670497e21d3386d79faf1f306b0920a08c5458409ee2bd81c5dec"
+    },
+    "AnimReplacementSet.jsonl.gz": {
+      "recordCount": 71,
+      "recordsSha256": "f692fbab80ff98917074f00ae3d1537698bcabb4a0ba92e68f34bf4c23248256"
+    },
+    "AnimaCable.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "916cd4ff9b0cd394b4d3f01d12be97c75031687d86b2b3c1344dc7fde4d0585f"
+    },
+    "AnimaCylinder.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "4d90f88591e6bbb460ed6c58c281714a8622e04c2e6e91edde369938a29cda96"
+    },
+    "AnimaMaterial.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "04874e0a5c7560a53769226679c8a46edc8d87d3ee9ff18fd19847fc7ad9cf2b"
+    },
+    "AnimationData.jsonl.gz": {
+      "recordCount": 1806,
+      "recordsSha256": "7222df560276489115a37604571ecc73774351e5523dacf2a92deafe4a8a1cec"
+    },
+    "AreaConditionalData.jsonl.gz": {
+      "recordCount": 2,
+      "recordsSha256": "58c31422aaf0a088477e5223e2c65eefde24c0545cbf175ee022f52bb20f39ac"
+    },
+    "AreaFarClipOverride.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "07aa1c9e7e09884294609587caa7d0bf1b3d6a1072c906c11cf2f0fcd94775cf"
+    },
+    "AreaGroupMember.jsonl.gz": {
+      "recordCount": 666,
+      "recordsSha256": "0ce60546f73c2b2e7483d8a19ed693185f7ac174d0b4695b21201ee833930098"
+    },
+    "AreaPOI.jsonl.gz": {
+      "recordCount": 372,
+      "recordsSha256": "556eb244d8d1e5f33564217d1194bc3046ee9cf17744680417fef108b30aac6c"
+    },
+    "AreaPOIState.jsonl.gz": {
+      "recordCount": 20,
+      "recordsSha256": "50d0dff00578743ae05058131f48d4650a8bf40241bdd4671cdadf8faad727d1"
+    },
+    "AreaPOIUiWidgetSet.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "bf06028b2036d0522eebcd73a92ab45d7c027f6b3e0e13aada94c131e96bc6cc"
+    },
+    "AreaTable.jsonl.gz": {
+      "recordCount": 1373,
+      "recordsSha256": "29391d66356ac34ff11aa789db5e483b262e9a5a6b89a5985d762578b04ccdc7"
+    },
+    "AreaTrigger.jsonl.gz": {
+      "recordCount": 343,
+      "recordsSha256": "2555beea5ce2856247df6dde24792652d6d8a0c7371d165e991d15ccd16fc613"
+    },
+    "AreaTriggerActionSet.jsonl.gz": {
+      "recordCount": 243,
+      "recordsSha256": "5dee7164097b58cf4471fb07f11821f000c9f3cb496e5b646dbc7069a76ef370"
+    },
+    "AreaTriggerBoundedPlane.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "832d70a0495b08c843ca494df02f5c1d3411787e3551c6d263bacd3b5b079740"
+    },
+    "AreaTriggerBox.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "7e1c773974dc90d5758ea0c4a2cbd91ffecf963c9f91efb37450fde40ae74111"
+    },
+    "AreaTriggerCreateProperties.jsonl.gz": {
+      "recordCount": 14,
+      "recordsSha256": "74ff814d41dde234bf16abb61bca51db27f7d46b4a58a8f0170f6135c03ecab1"
+    },
+    "AreaTriggerCylinder.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "05e4b5eec46695bc4aa8bc0e6475d5995f5b7788f8b33d0ac83e29c5364258fc"
+    },
+    "AreaTriggerDisk.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "f9bd4f822928617d6cadcbc9745ccf97657663f9ad41f734b0b0065d19732d39"
+    },
+    "AreaTriggerSphere.jsonl.gz": {
+      "recordCount": 8,
+      "recordsSha256": "c6ead42dda7e5c36b68ac1db5691c5aeeef67caddbd5b22ba5aa807fc5a5e81b"
+    },
+    "ArenaTrackedItem.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "d3b3e0317dc1ca19e9c812d42e166102cec6e1b5ebe2871d514b6b958c07a5bb"
+    },
+    "ArmorLocation.jsonl.gz": {
+      "recordCount": 23,
+      "recordsSha256": "f617b64c56844c65ade0be2f56a1db69bc827afd21763a01d34abbfcc0cd8640"
+    },
+    "Artifact.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "deb6fe230f566055b1cd1d3054be33a006471d93f3b8e83462b9bcffb08343fd"
+    },
+    "ArtifactAppearance.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "770938eb220d05441ca2941cd21607d652e6baad2b08d8227fd241a283bff5b1"
+    },
+    "ArtifactAppearanceSet.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "4d8d0d58e1ce5c69bf077ef520d7f136767ec10e87f718821540145dda60a84b"
+    },
+    "ArtifactCategory.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "03d28baf08bf0d6aa86ce51129df80d1a113d41ece1ed84410a3b2e16756129b"
+    },
+    "ArtifactItemToTransmog.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "4af46618766628eb9c6a31e77fa458f9a591f02b2dd5c72793ad6835710d9fd1"
+    },
+    "ArtifactPower.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "50caa34f92a7121eda265225c22e54d48739a4ee107414dc676572e6864fe697"
+    },
+    "ArtifactPowerLink.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "71d4c08a412a7713ad536a0433f6633c3c5a8642c66b1adc1db72b19be7de315"
+    },
+    "ArtifactPowerPicker.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "d9098c1e2a8737249e8c59643d4ba8d42b9cf20e0b0ac975a82bec8b04cfde52"
+    },
+    "ArtifactPowerRank.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "584365205d2f97b23fb4f9e35863ee43f4b467c31a4f00bd89b146ccf689c0c8"
+    },
+    "ArtifactQuestXP.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "431615567253a01eaac2a3bc7ced1351a93de3dbadba397898f176dfd30fb784"
+    },
+    "ArtifactTier.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "42d43bcb4ca6f87e910a01cacc0db8f1f843b14b49bc79d2c1faa05e265d1be6"
+    },
+    "ArtifactUnlock.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "70dbc1cb76560e7c98f17a911fd29392c75b0ed5833ee889f78845ebcfc5bffb"
+    },
+    "AssistedCombat.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "070c721b0462ea6a6da82121c739b2cd9a9976ce6243ca068ee4ed4cc9a03d86"
+    },
+    "AssistedCombatRule.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "afb1fdfdf00e93a67e2efa15a04c0b292fb61605320eb4215eb49fa1974a7f97"
+    },
+    "AssistedCombatStep.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "66622e8bc22f7e00d362eab07775af1756d2fae9d54062b79ee29b8487065b7a"
+    },
+    "AuctionHouse.jsonl.gz": {
+      "recordCount": 21,
+      "recordsSha256": "9a13cc00a20e74a86ecd547aed4a651d75fc8c605586ce8d36e6e708d0ea4be7"
+    },
+    "AuctionHouseCategory.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "4dde59fc3597109b309518a58fe67f2345dcaf0efe4240975abefdbbbc7e1918"
+    },
+    "AuctionHouseRedirect.jsonl.gz": {
+      "recordCount": 16,
+      "recordsSha256": "da989d2e5f5d598e4c9f5e26afa1613816901e43d1c80121f58a82c6ab437e5c"
+    },
+    "AvailableSuperDistrict.jsonl.gz": {
+      "recordCount": 5,
+      "recordsSha256": "0aed8a78a342d3ba3fcf79581ba39f8191bb2ab3cb9eb878ab56c7fdd4e6a988"
+    },
+    "AzeriteEmpoweredItem.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "dcd1299a095d607e4b1f4d3c8a28db9950decc207c5a3b8d63337f504708ff75"
+    },
+    "AzeriteEssence.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "e28b176c3076c0db7b4c0bcec9b5b1994a40f1c7fe66c365797253562bd92175"
+    },
+    "AzeriteEssencePower.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "546a98d1b8aa8ddff6624319d38c9eac9dd6749b15b8adbb2a6145c1cdac75c3"
+    },
+    "AzeriteItem.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "7cf003a77b5ecc31846acf159ab1a1ae6db309fcc22e10b6cf6590e488ca3829"
+    },
+    "AzeriteItemMilestonePower.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "4412f46fe8beebbb36db6bb727eba916f08b3445f06b3efe62196242d55b784a"
+    },
+    "AzeriteKnowledgeMultiplier.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "0e0c2baff3f3d5e251cdfa9be4cf68f6ee73545c58875a704950bdf216442f23"
+    },
+    "AzeriteLevelInfo.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "fc16dd9ee21f3ecbc453531d066b0d8897a7604f6061bd7bae51f5f0baeb8413"
+    },
+    "AzeritePower.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "eb42580bc54ff8b2535a37145d6ea085a0741f2ef4be05ba11fed2098a71d553"
+    },
+    "AzeritePowerSetMember.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "881be16a391ef0ebbbacdde314bc9f2c68c5ac03a7ed327b276f4c6092c2ab3d"
+    },
+    "AzeriteTierUnlock.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "84175c16ce4d53aa6bb88d64171d53286acaee3ba5d95d062d8c26ebb23d3e70"
+    },
+    "AzeriteTierUnlockSet.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "1496670b264dd013d9198d6ca41dfa21483322b743f2c9dd8673f3a11356fbfb"
+    },
+    "AzeriteUnlockMapping.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "2d00f1546b043b6e68abb81500e42d4d282c8b6e2964490c8c5a4f203da09ef5"
+    },
+    "BankBagSlotPrices.jsonl.gz": {
+      "recordCount": 12,
+      "recordsSha256": "af3bb09329e4f046e5a46d34711ff6002fa550db505c3027775d0b3777b11c63"
+    },
+    "BankTab.jsonl.gz": {
+      "recordCount": 24,
+      "recordsSha256": "cfb0f01c194ffeb9641235702a4d5c7d0315fbe1ec6309ea1f0e2d0d42fd32bb"
+    },
+    "BannedAddons.jsonl.gz": {
+      "recordCount": 243,
+      "recordsSha256": "4c1f405ae4aff091aad61783f9e195d3efc351b3f95b2627bf9df1901ab2e4b9"
+    },
+    "BarberShopStyle.jsonl.gz": {
+      "recordCount": 2824,
+      "recordsSha256": "d14ec9b6ff809fabbdf848f7109ccf851de3c8d82e9a9378d93f34d6b6275a5b"
+    },
+    "BarrageEffect.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "2a85155ef807d98f7dce5f7eb3b7812be5f3168d5fd9b000a2a4a8b2fdd5b1ff"
+    },
+    "BattlePetAbility.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "fe4e3c54cea276c2a8f4e10fb32fcc87c6e97211d1f4a03d52bad840bc6cb41c"
+    },
+    "BattlePetAbilityEffect.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "ce50308c4aa1fab3bf5015d380b02a65adc58517e930d2706c56fb061575c9cc"
+    },
+    "BattlePetAbilityState.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "ef896c2c871972ce7d0a8d9a8ba032bd11fdb316628d7431e00bcda07b85669c"
+    },
+    "BattlePetAbilityTurn.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "e74bc4f55cbd156fe1d49cda82944ee98056a9b1f936690ac6c5ea670158fabd"
+    },
+    "BattlePetBreedQuality.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "bde86f2fb9f2f449a48faa8c1de08459649faa513683daeb366569c9f3552d1b"
+    },
+    "BattlePetBreedState.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b2986fcd5b0969f547eae460d728f1e9330251284d64a2ab798c1698dbdeeb49"
+    },
+    "BattlePetDisplayOverride.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "bdb5931616b3b0d57818962ddf3d921f83df2667b899bc966cbef281e02dda0a"
+    },
+    "BattlePetEffectProperties.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "053d7246969833e2e70875fdec6d0c98a494b4577bb7078e094408a1ff09f2b0"
+    },
+    "BattlePetNPCTeamMember.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "4f597c154b38fa6a21ba42c931acd17743805a7cab1d240bd8256f4a3931bd66"
+    },
+    "BattlePetSpecies.jsonl.gz": {
+      "recordCount": 113,
+      "recordsSha256": "f8d9c8b6cecf89761e8c422d9da56f46dcb752147dfbb9544a8ebfe9aa37e914"
+    },
+    "BattlePetSpeciesState.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "d9601466101d676b23eeb42ce2f86a21ba2a78f293a167ff59f2edd7beaeefbb"
+    },
+    "BattlePetSpeciesXAbility.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "5c66d744d37965c1cce888c2b63071da01216c2b45f06c95cc47c85307d34a4b"
+    },
+    "BattlePetState.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b958de9cb6bad1e7e3b84f94a24c8e422f596b8c49471d3b62edbb338cacc131"
+    },
+    "BattlePetTypeModifier.jsonl.gz": {
+      "recordCount": 100,
+      "recordsSha256": "08893e58568cf582e8748210534f5ea1f29ae671c741039c26e270d4d77307b4"
+    },
+    "BattlePetVisual.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "998f56bf4d8d8df688e9cd9980381a4f4f9230e8ae8c55a700f3955d7277e983"
+    },
+    "BattlePetXP.jsonl.gz": {
+      "recordCount": 123,
+      "recordsSha256": "452a0f8561fbd2d36fa85096bb66bee6b5c956a2c1ce70a684ddc18947639440"
+    },
+    "BattlemasterList.jsonl.gz": {
+      "recordCount": 10,
+      "recordsSha256": "c820d2781981bc0627ad63776007f5409404aad3547c2002bd5f352792bd0451"
+    },
+    "BattlemasterListXMap.jsonl.gz": {
+      "recordCount": 11,
+      "recordsSha256": "6fe9c396bc94c082981648c38570719350594f1c340ecd7b69949d925ecb3209"
+    },
+    "BattlepayCurrency.jsonl.gz": {
+      "recordCount": 54,
+      "recordsSha256": "9cb65406040b74eef2f43d2999c4c587cacbcc52ed486fa8e60e14d7d6e10db8"
+    },
+    "BeamEffect.jsonl.gz": {
+      "recordCount": 130,
+      "recordsSha256": "e9487c1e4e699bf2ee27797b7b37df4c457eecbee82414a0a5b922b738b80f6e"
+    },
+    "BoneWindModifierModel.jsonl.gz": {
+      "recordCount": 279,
+      "recordsSha256": "bbf13652cec8ca2c48cbd99b552f4510eb0e3c2110706429c009e9451c537391"
+    },
+    "BoneWindModifiers.jsonl.gz": {
+      "recordCount": 54,
+      "recordsSha256": "7b65fa276e0fb84ff1f4ba3622b28b965bd3f5f1696d6ed47046ec2ecb17c84f"
+    },
+    "BonusRoll.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "5bbe6b942c2b3a42418ce6052d12663025b385f26d95679963b1617b284b126c"
+    },
+    "Bounty.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "191e4bc421e995b34b1659b4a9d05e2a5daf0d8af40d150f55e8e727e7a25ef1"
+    },
+    "BountySet.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "07ab3ed9f489e75b9f701df3a1d7afba1259b00eda26b8cab24bf33e81430b96"
+    },
+    "BroadcastText.jsonl.gz": {
+      "recordCount": 12,
+      "recordsSha256": "fb939e83c0cef8219d5af0251ca1f2f6309bb03c7a44c646364efc333b83e296"
+    },
+    "BroadcastTextDuration.jsonl.gz": {
+      "recordCount": 194,
+      "recordsSha256": "78cbb5a1b0196f741e80ea7735c50feb4cf0a61804c0b0135119ccc74c5cae7e"
+    },
+    "CameraEffect.jsonl.gz": {
+      "recordCount": 19,
+      "recordsSha256": "9484a98873278a5413cb2cf5fb875009a4b348b825d096053878fd12bf4667ca"
+    },
+    "CameraEffectEntry.jsonl.gz": {
+      "recordCount": 38,
+      "recordsSha256": "4af9fdc3142e813eb9b5f1b26f34e2f6a483cffd3dda458c450016a16883f7a9"
+    },
+    "CameraMode.jsonl.gz": {
+      "recordCount": 26,
+      "recordsSha256": "2fb3b8e8b854a01106e457b7383ba662175589171b520c5ef5746fa32f033682"
+    },
+    "Campaign.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "580c15d7b488715701a2d3a6525bf398967acdd9057ef12ca5a2867db1557c68"
+    },
+    "CampaignXCondition.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "5293198072bf7d22c1cc214df31cb41c62db48b2e2c7ea701da60438f9849401"
+    },
+    "CampaignXQuestLine.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "8308f8240fda740e8562be4e6c287a9bac9ae1b5ff6196bf3f4a6dfbc51acb52"
+    },
+    "CastableRaidBuffs.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "77996643a3cab6826aab32a140fbd50f3da303968cfc625a6474369e9a772331"
+    },
+    "CatalogShopGameTitleInfo.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "3f87aa282c4386c251329b896ae8c8532efa30fe5300e8a5e425f9112fcc1b32"
+    },
+    "CelestialBody.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a0378dfae76bbfe938217a61e69af10512f8b1d7fed35e12d8fa90de0d6c7c22"
+    },
+    "Cfg_Categories.jsonl.gz": {
+      "recordCount": 100,
+      "recordsSha256": "3fed45749e9d59b7c7156e814648c5a807c24c37b803a4e7981a5de9f7554f8a"
+    },
+    "Cfg_Configs.jsonl.gz": {
+      "recordCount": 14,
+      "recordsSha256": "b50042963cd92e261eeeca15800bc40af63df15ff61951aa238372bb1ddc8836"
+    },
+    "Cfg_DatacenterLocality.jsonl.gz": {
+      "recordCount": 9,
+      "recordsSha256": "f6adcc52c0a88fa4a1a09c990909e6df45d99d5d24ad989474cc4a5802295a68"
+    },
+    "Cfg_GameRules.jsonl.gz": {
+      "recordCount": 208,
+      "recordsSha256": "149bbca8ca7e7b89cca78865b5070b0ce870c288adbd961af4b53dd977865d74"
+    },
+    "Cfg_Regions.jsonl.gz": {
+      "recordCount": 244,
+      "recordsSha256": "674523fd965f5ad46656a47aaf8056bba89bc9d9edd7f7657f89b9e85a5adcd5"
+    },
+    "Cfg_SuperDistrict.jsonl.gz": {
+      "recordCount": 7,
+      "recordsSha256": "4bf4420f9c23b398dd34d50106225df5fe54e34e0b18840915b4a961bdee7fb7"
+    },
+    "Cfg_TimeEventRegionGroup.jsonl.gz": {
+      "recordCount": 21,
+      "recordsSha256": "8789693e28dd97183a8a5855335a0ffe2ca1b8fd90b69508ea987efb6367a3d5"
+    },
+    "ChallengeModeItemBonusOverride.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "104dfe42348b1bdf750390f80999ed32468d9651d907d246d959f9c44c5f8744"
+    },
+    "ChallengeModeReward.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "181fabb7babdb7ff439935f6e5c64be61fbec511460a8426ca9368baf1ab632e"
+    },
+    "ChallengeModeXReward.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b3911a826b6dc91c771b5e93688c4c26d92d5fbaf3611a55b8d7d14097f1f73c"
+    },
+    "CharBaseInfo.jsonl.gz": {
+      "recordCount": 56,
+      "recordsSha256": "9cd4ff909b7d0a55453979d4b6f0025c4c92194543b869238dbee473f42eac9b"
+    },
+    "CharBaseSection.jsonl.gz": {
+      "recordCount": 16,
+      "recordsSha256": "bd534d5243d7c2fe09e27de86b1bbb89adcad7db4d017eb933021e1cc4e36fc9"
+    },
+    "CharComponentTextureLayouts.jsonl.gz": {
+      "recordCount": 89,
+      "recordsSha256": "7daa0164eb389343d417d21a0530a919d279c21089b9c3ec18c24d126be9e59c"
+    },
+    "CharComponentTextureSections.jsonl.gz": {
+      "recordCount": 796,
+      "recordsSha256": "bc44dfcc033834c8003d1530249cb9e3097c57be0547df19b8e6872dccbecf91"
+    },
+    "CharHairGeosets.jsonl.gz": {
+      "recordCount": 389,
+      "recordsSha256": "1bfea29c930e2a0ad539de07a29b58578d1e7541b970e188735d0142b399c8b5"
+    },
+    "CharSectionCondition.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "30825eadf3a9c2acb1a6083f148c9223622678674a685a368bbb480839410905"
+    },
+    "CharShipment.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "719c51c9f0b53d65f72b1fdef6b93d2d2fb02813df4ab96a92e2a1e11ae32a7f"
+    },
+    "CharShipmentContainer.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "2d6414dc3b903943608c76ebe8e5724dd04356b6b60e0a58825c7cccb29f5f27"
+    },
+    "CharStartKit.jsonl.gz": {
+      "recordCount": 57,
+      "recordsSha256": "c8b7d86911a7b496609dbe58e0b2c69c2e6243902a7acebc323eda8e6037e88e"
+    },
+    "CharTitles.jsonl.gz": {
+      "recordCount": 41,
+      "recordsSha256": "461791293b706bb4e0152ad0b82e7a588e4ad019e80ccffa20e0b6cf1c66c632"
+    },
+    "CharacterFacialHairStyles.jsonl.gz": {
+      "recordCount": 186,
+      "recordsSha256": "3448b9ea1b6be1bb8a20a0fe0d0980536f0c98abbcb792897363368e2f6ac720"
+    },
+    "CharacterLoadout.jsonl.gz": {
+      "recordCount": 114,
+      "recordsSha256": "7b8353cbefe2effda9b74a54382d9bd6c274b9f417b093024132d0b8445a67b4"
+    },
+    "CharacterLoadoutItem.jsonl.gz": {
+      "recordCount": 846,
+      "recordsSha256": "34454992260aaca5bf5b39cbbd036c45f8802ac84791e5f467ea48851e0422ea"
+    },
+    "CharacterLoadoutPet.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "c3fb02821d39e8245c121595814b3c5c4ba57534b8c196a842de47704a04b389"
+    },
+    "CharacterServiceInfo.jsonl.gz": {
+      "recordCount": 9,
+      "recordsSha256": "0d7ed07789a6e911f787cab774c51643d04f8f74868f342ad62b8187854646d7"
+    },
+    "ChatChannels.jsonl.gz": {
+      "recordCount": 19,
+      "recordsSha256": "4cbef04aee50c6e1c38997c6de04826aede0eeec914650e96988aded6edd9696"
+    },
+    "ChatProfanity.jsonl.gz": {
+      "recordCount": 3748,
+      "recordsSha256": "bdf4f05426e4ac2ae8a6621e58edd7b6b3ee10bb5c359b7d6d20717e5fb1d67f"
+    },
+    "ChrClassRaceSex.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "acd6fcdb19168deac284249a07c93b53e47e41568493ce877c0f09c498d1e8fb"
+    },
+    "ChrClassTitle.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "33a80500355bd3e5594e4f50603dd00000862773a586b95ac37a039a4ab6f12a"
+    },
+    "ChrClassUIChrModelInfo.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "961f6995fb18e9c7140a85236e49a42bcd68ea5f05865c0b1551afd581ebadf4"
+    },
+    "ChrClassUIDisplay.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "72ee792e624fa3a4003a2e76828ea34678a2f23bda7303e63a6431e1f8111529"
+    },
+    "ChrClassVillain.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "c33ff2e65a59c927029384d76eb093a3a8a25c4547ed505bd6594ada2f9a5003"
+    },
+    "ChrClasses.jsonl.gz": {
+      "recordCount": 9,
+      "recordsSha256": "ab0b774e0035eb4c3db9746a5f2366690d3eac5383d3cc9f039272e086cffdd4"
+    },
+    "ChrClassesXPowerTypes.jsonl.gz": {
+      "recordCount": 15,
+      "recordsSha256": "f188c167f6a6c9f10cbfd57363b20d36633cd8dbbf0e91b281ae76c58753b9ef"
+    },
+    "ChrCreateClassAnimTarget.jsonl.gz": {
+      "recordCount": 48,
+      "recordsSha256": "6e79d314ad47b9c3fb05b97755dca4dc13bae7376f7444dedc67af548f63273e"
+    },
+    "ChrCreateClassAnimTargetInfo.jsonl.gz": {
+      "recordCount": 18,
+      "recordsSha256": "c083a0b3ad37c9cbb8958accdf0d7d21b5a63a42fafccbf889e7f081187b5377"
+    },
+    "ChrCustClientChoiceConversion.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "0518ac76826c3a391873270244b76a1f707c8fb0065e06a553324c844c89bda2"
+    },
+    "ChrCustGeoComponentLink.jsonl.gz": {
+      "recordCount": 5,
+      "recordsSha256": "15246ca736325d99bba0687f90a7ed46475da9b4626afc4164313979ab173ac4"
+    },
+    "ChrCustItemGeoModify.jsonl.gz": {
+      "recordCount": 37,
+      "recordsSha256": "af6fa4135ac52faa17f22dff73a546e3147eb2b3021456fecbb4247b8325ee6c"
+    },
+    "ChrCustomization.jsonl.gz": {
+      "recordCount": 76,
+      "recordsSha256": "0fdf3898a3bc6ddb668954a58e483ac3cdf8728cd6ea64779660e06c8243b9bf"
+    },
+    "ChrCustomizationBoneSet.jsonl.gz": {
+      "recordCount": 626,
+      "recordsSha256": "f705ddba20d05ce32936f6a528282b243db66e41aa4dc9b9e86a90f596866b8b"
+    },
+    "ChrCustomizationCategory.jsonl.gz": {
+      "recordCount": 62,
+      "recordsSha256": "1474851f998d2389466e42826efc552cbca271a6ea87c2e99626086e75ce073f"
+    },
+    "ChrCustomizationChoice.jsonl.gz": {
+      "recordCount": 10447,
+      "recordsSha256": "629844c565874f946b70cd343947b9312933d0d0633842b004d50fcadb7e1def"
+    },
+    "ChrCustomizationCondModel.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "e5ed12b823edaaf43d481faffcd7a7a7131fd18f08fff25a191669782eef5dc3"
+    },
+    "ChrCustomizationConversion.jsonl.gz": {
+      "recordCount": 2815,
+      "recordsSha256": "5c8aa5f979eedb90845f4e57a6e83b7594f066d5c130f69034515578d68e051e"
+    },
+    "ChrCustomizationDisplayInfo.jsonl.gz": {
+      "recordCount": 47,
+      "recordsSha256": "1a7a341f38e85049acfab749f1b848e755123093dd0eb15a136f4ca8c829cd1b"
+    },
+    "ChrCustomizationElement.jsonl.gz": {
+      "recordCount": 39109,
+      "recordsSha256": "0a2d19c8fa6bc11438fdb83c18f4793b4ff01f8a55236e5e7dbc52d86d500093"
+    },
+    "ChrCustomizationGeoset.jsonl.gz": {
+      "recordCount": 4832,
+      "recordsSha256": "36e1f1d37c515ec5e23e178acb6a238fc96d53b14376cb0a0c9231d02bdb5836"
+    },
+    "ChrCustomizationGlyphPet.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "ef2c1f79161739ffaada57616ed6b1e89c0f1cbe9f2c95131ec1229143ecd7bb"
+    },
+    "ChrCustomizationMaterial.jsonl.gz": {
+      "recordCount": 51686,
+      "recordsSha256": "45a112afd161e6d1cb57a1ecc0da31f5833f6c31ab770b36f3fe5697bdfe1506"
+    },
+    "ChrCustomizationOption.jsonl.gz": {
+      "recordCount": 1173,
+      "recordsSha256": "7e20682c90faff564731c3b3899bbf283602c7a71ada82173e19f19541074106"
+    },
+    "ChrCustomizationReq.jsonl.gz": {
+      "recordCount": 492,
+      "recordsSha256": "f05b4a3762f1c06cc4683d35c78bc0d262ba006e6f5413e904ed125f45ceb51f"
+    },
+    "ChrCustomizationReqChoice.jsonl.gz": {
+      "recordCount": 446,
+      "recordsSha256": "93b6846a7beb0b84863110a456a01d8daf1636be4528e575e9a497c4c6008d89"
+    },
+    "ChrCustomizationSkinnedModel.jsonl.gz": {
+      "recordCount": 1027,
+      "recordsSha256": "975e7ca25a9f55955c97c14d7267ebbc6eb477d9314a730df61ce370560214dd"
+    },
+    "ChrCustomizationVisReq.jsonl.gz": {
+      "recordCount": 4,
+      "recordsSha256": "466742af6020358f7070e7dbc2e956e69f8c1a430675f6e8cac2e383c1a61fb9"
+    },
+    "ChrCustomizationVoice.jsonl.gz": {
+      "recordCount": 3,
+      "recordsSha256": "342cf556f11de95e5d853f978bc18061e58f4eabdf66c0717d8d18ea5bec8b09"
+    },
+    "ChrModel.jsonl.gz": {
+      "recordCount": 127,
+      "recordsSha256": "bd657778d52b2539a3db53c31c19ab003e949237d8021cdcc04b9f4239fb22b1"
+    },
+    "ChrModelAltVariant.jsonl.gz": {
+      "recordCount": 18,
+      "recordsSha256": "3f4c9fe7bfad490623a69d9d82afa1f48be555df83e1668aba7ec70891288f17"
+    },
+    "ChrModelAltVariantChoice.jsonl.gz": {
+      "recordCount": 1136,
+      "recordsSha256": "d436b0535633f3bf698102fcc8427bdd4f22c7a888c1dc0c6fa5e856a16340dd"
+    },
+    "ChrModelAltVariantOption.jsonl.gz": {
+      "recordCount": 93,
+      "recordsSha256": "2f6f0e6274289b0be1ef3a38db39ebc1642ad016722acbf160c0309fd7ec9db6"
+    },
+    "ChrModelMaterial.jsonl.gz": {
+      "recordCount": 319,
+      "recordsSha256": "f44ecf1da6a11495408205a7c20d688f935b57476d2191e99480acd5a4418c20"
+    },
+    "ChrModelTextureLayer.jsonl.gz": {
+      "recordCount": 938,
+      "recordsSha256": "652e8df75a4b56c0cdf931eb149790a25778c0b7c35f21128fdc9ef717e44642"
+    },
+    "ChrRaceRacialAbility.jsonl.gz": {
+      "recordCount": 40,
+      "recordsSha256": "3985fe02134f310cba233c1e2975acdbc6db3e62ab8785bd99bcb4e22b381193"
+    },
+    "ChrRaceXChrModel.jsonl.gz": {
+      "recordCount": 116,
+      "recordsSha256": "41e1a78cca13849774b58ed288e5042b728f6eefb62469ab5dd0cd8ab072cab9"
+    },
+    "ChrRaces.jsonl.gz": {
+      "recordCount": 58,
+      "recordsSha256": "dcbc33ff3131b125b0f3049628088db7b49fdb1981ce9a0fca44a73e89dd3b15"
+    },
+    "ChrRacesCreateScreenIcon.jsonl.gz": {
+      "recordCount": 22,
+      "recordsSha256": "361dedfaacb4505c679a46bce42f47be52a911ae3d76c82c2eecf8671ed33f10"
+    },
+    "ChrRacesPing.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "64722a11833b58cf8b70f5732a6f9999809a734a0348fe352abb3ca11c3a648f"
+    },
+    "ChrSelectBackgroundCDI.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "f9f513418d27083851daa51184a23f359fe3b4cc086e7c54b7d7d90db7a965d7"
+    },
+    "ChrSpecialization.jsonl.gz": {
+      "recordCount": 10,
+      "recordsSha256": "9593d1ba91d0080e203da60c1a5099216a5c2eaef6e000527fd7e50281b625c1"
+    },
+    "ChrUpgradeBucket.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "236bae14af9ec77ca27d28e981e524690d0aa5c2637ca0e8d0e4a9683db99eea"
+    },
+    "ChrUpgradeBucketSpell.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "1cbc4474332c3fc4915605bfd3184e9f446f1fe4d8e39c55813f4009e270afad"
+    },
+    "ChrUpgradeTier.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "ae87ebfeea7f5701574c23904b6e59dcc2df3df6a7eef369491a397123b142b0"
+    },
+    "CinematicCamera.jsonl.gz": {
+      "recordCount": 10,
+      "recordsSha256": "814abddc956ed81153776df8b8f499cdc5072801f91db7e13dab30b0cbeddf63"
+    },
+    "CinematicSequences.jsonl.gz": {
+      "recordCount": 10,
+      "recordsSha256": "23ff5ec3f08bfff9c96162dd17c4276b6c53e834fe94a2d33488a2c4990d1711"
+    },
+    "ClientSceneEffect.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "f4a27333e90337979bce58db573d7240997caf0d5faa0b965ac2c452b510165d"
+    },
+    "ClientSettings.jsonl.gz": {
+      "recordCount": 5,
+      "recordsSha256": "2461da5c4f0729c95f0b0ce8c066f21690c648875d549e362b74824f584f89b4"
+    },
+    "CloakDampening.jsonl.gz": {
+      "recordCount": 140,
+      "recordsSha256": "edb55592a14a45226697da02344b32e5c403b3c9296b703c3de908ad6d0fef9e"
+    },
+    "CloneEffect.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b87f3dadd5e4a164aed82649737c1923279348402b214892516b0f92892b45cf"
+    },
+    "CollectableSourceEncounter.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "4d912ab346e46b76f38c7b4d852b05f38446564778716586ed1ea8b57d0d5166"
+    },
+    "CollectableSourceEncounterSparse.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "263207a63624ad53eef5792bd3d90995851c4ef44f7966bef7ae43f7c64d6aed"
+    },
+    "CollectableSourceInfo.jsonl.gz": {
+      "recordCount": 1281,
+      "recordsSha256": "0de7fe91c42e4a8da02bd6e8d41a42d6a14c664365443d02ca0cb5a442fa6ab9"
+    },
+    "CollectableSourceQuest.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "32d5f561050bb40907761bc298e8dddae85afc55fab7375982f54ef93ee0bb83"
+    },
+    "CollectableSourceQuestSparse.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "8594b252b7d63a4fb7f59d07c9044f73ad5a9611b18984f537a436c927743516"
+    },
+    "CollectableSourceVendor.jsonl.gz": {
+      "recordCount": 4415,
+      "recordsSha256": "ca3058a0b2261b9ab920f3574e3b525348f67e81e355cd743410d49d4a112bfa"
+    },
+    "CollectableSourceVendorSparse.jsonl.gz": {
+      "recordCount": 3560,
+      "recordsSha256": "5f69876c26978e3e76157c4d3a392b92c78f2153fd79ba292643411228914248"
+    },
+    "CombatCondition.jsonl.gz": {
+      "recordCount": 490,
+      "recordsSha256": "71464fbbff0477a66b25ffa177485ab36440cb05f5938d30b53bfbfe42312b45"
+    },
+    "CommentatorIndirectSpell.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "99285883d88313907a32de4e2d44772f2a61000c1c7b6e34c168e50af831e560"
+    },
+    "CommentatorStartLocation.jsonl.gz": {
+      "recordCount": 2,
+      "recordsSha256": "f6798f1d448ad08155a4abc49fc73f893b3e61ad92719893e3ebda8da63bbeaf"
+    },
+    "CommentatorTrackedCooldown.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a72b1d0d5eba143141c9d147c36922d17753f5ca7e999040e64e393d1248b482"
+    },
+    "CommunityIcon.jsonl.gz": {
+      "recordCount": 118,
+      "recordsSha256": "c6994b74e109d352bc5bba0faed786260ac08dbcdd3f2912d1c0c520145bb12f"
+    },
+    "ComponentModelFileData.jsonl.gz": {
+      "recordCount": 50245,
+      "recordsSha256": "9801e03e45afa7f13ff9d72546ddf45f374e4d920ae49d635d711174b51403e7"
+    },
+    "ComponentTextureFileData.jsonl.gz": {
+      "recordCount": 14370,
+      "recordsSha256": "46871c122fc6fee11f29256bc6a48a61551b418103984f0a0c83ef85b0fb2794"
+    },
+    "CompositeSpellsUIRedirect.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "cf88538a04b42c15c5bc2dbf434fd3aa4222b42d73417bc13c76fe2792b1e0e5"
+    },
+    "ConditionalChrModel.jsonl.gz": {
+      "recordCount": 5,
+      "recordsSha256": "0393893eec7fc89cbca05c2932ee83f4188154655443b355f72536dc11d853a7"
+    },
+    "ConditionalContentTuning.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "04519c549bd1f5e570868bc63bcf3c7fce15f357225c514f91fb9b201c631ada"
+    },
+    "ConditionalCreatureModelData.jsonl.gz": {
+      "recordCount": 1,
+      "recordsSha256": "52666f88fdb6eb3f6b40fd6d18dac98090967049c46afc906099d07dad14b105"
+    },
+    "ConditionalItemAppearance.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "c8f2aec370239e626c01032b80ce6da2044af4d6080f2c34697c75d3565dea67"
+    },
+    "ConfigurationWarning.jsonl.gz": {
+      "recordCount": 8,
+      "recordsSha256": "fd67164298e523a1197ae3bbd5c62e0f6d58c9d3043496fc8ee5ddb126b746ae"
+    },
+    "ContentPush.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "ee8bc27d33a7cf906e52b4aa7dfb5113a8235d49ab10c99dc596e03bb5b43ea2"
+    },
+    "ContentRestrictionRule.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "22e4a4d30b5046c7d32b1619f2991320c8ea6972eea3ba91336ca37762665d31"
+    },
+    "ContentRestrictionRuleSet.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "d4b0538d1b71f8193247e0f9e71d58bf64f61c90092f6f24879d113dbf47610c"
+    },
+    "ContentTuning.jsonl.gz": {
+      "recordCount": 100,
+      "recordsSha256": "ddaacac5d3a6ea1c2ebe3a7cd8c555311b97662cbd451b1a33d66b2f4168eb49"
+    },
+    "ContentTuningXDifficulty.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "bec2c30661b2372dd04ed8693de849fb42ead8f7e57c5be9135495542d734bd1"
+    },
+    "ContentTuningXExpected.jsonl.gz": {
+      "recordCount": 29,
+      "recordsSha256": "e1f7875904d06833b9ee29c479ed9813e5f7063bdf5f0298d0edc7a8b6dfe99c"
+    },
+    "ContentTuningXLabel.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "22f4cbcc98d29dde8059306cc0c79f2dd25bb8e32c5fe9f602c491d1565d0bd1"
+    },
+    "Contribution.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "2914d472f61f787b03b430cba34a79b1fe66d2e26da4061ab721f6016371f70f"
+    },
+    "ContributionStyle.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "07ac33ddc07a0f29f4be7fcce5fddb580398654bd7e130bd1960c286496df58c"
+    },
+    "ContributionStyleContainer.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "8077b02aecfde09e0e17f499e8a67281202f6ba0f5b80f3778c65f69f8a868d0"
+    },
+    "ConversationLine.jsonl.gz": {
+      "recordCount": 625,
+      "recordsSha256": "5b83a385bdc212f79ce5e78671df779172443e4baa696d9139ced5e3ad6144ba"
+    },
+    "CooldownSet.jsonl.gz": {
+      "recordCount": 31,
+      "recordsSha256": "4a57048ed7fd3ff6ba371d2e12e68ea0b8c73b4f34845b6c0bd77127ce454153"
+    },
+    "CooldownSetLinkedSpell.jsonl.gz": {
+      "recordCount": 1514,
+      "recordsSha256": "60c3efd1e5938c82fc47d2612c999a9f2740d3488ba3d6a46837383d50d1b461"
+    },
+    "CooldownSetSpell.jsonl.gz": {
+      "recordCount": 524,
+      "recordsSha256": "bea29faf3df00f34f29ae85cd7f72fd661c78a73debaf4c6c3155d31ac760a6e"
+    },
+    "CooldownViewerItemSpell.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "ba9ec25682b38b0e0ed6e6fd184a49d689e240348d5bc633a6c9098752121dda"
+    },
+    "CorruptionEffects.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a6492a99e25d4398d1a3d90737febf2639d59a266cfd0ed8dbb08e08426a3328"
+    },
+    "Covenant.jsonl.gz": {
+      "recordCount": 2,
+      "recordsSha256": "2ebbae8da0312dd3c70b21ba1d3b14a468ca9f41b48c00c9ac146dcedd8cf3d0"
+    },
+    "CraftingData.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "34a2a43a04f0ebb3614784d783a036837290acac2264ddd036ef414368ec5107"
+    },
+    "CraftingDataEnchantQuality.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "98b113311c300e335bccf2a88d96127c60461b2e7bbd38bed10840358f0a6414"
+    },
+    "CraftingDataItemQuality.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "4fc8f0fe088cc3d3a323165835825f59894e27610224951e15cde46e310d3c35"
+    },
+    "CraftingDifficulty.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "af1bd23e0c400621c0a3011118427060cae047cd32907395ec3bf7535876120f"
+    },
+    "CraftingDifficultyQuality.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "46787197b678aaaf21387da4da1c0176ec482731e27c196559600d90fae267a0"
+    },
+    "CraftingOrder.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "c4a76763f0c3dd266b0818e67dd0d003095ae546f8dd8769815df5223d4bf310"
+    },
+    "CraftingOrderHouse.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "e1c37821380b0ccce482f4d5665c836a8e337abbde9f2a9704b2567a41e70c11"
+    },
+    "CraftingOrderXLabel.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b5f76ac8a5d492ecef9ed10f3878a139599aa83d4f639f2cc7b7a6d86faec9a1"
+    },
+    "CraftingQuality.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "310016794ea85d8a23780738e0b4b2b17bff7e6d0f48babd767434abd9076d92"
+    },
+    "CraftingQualityAtlasSet.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "973c614ccc0f13bc38fffa0d4113b7d55ac9376661816205f7b49c7d22908edc"
+    },
+    "CraftingReagentEffect.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "8a2a21b94e01b405a4b80012bf5c9e5b5677ba3604e6d9e183005c9182e8369b"
+    },
+    "CraftingReagentQuality.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "39581ca5300880e0d7c81e01eaab675444194f3c3c67dd00f6b0be47bff8b807"
+    },
+    "CraftingReagentRequirement.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "6900118937331cc5c962664daa44b53ffbb5287007da9f2beffba5aefbcf91b4"
+    },
+    "Creature.jsonl.gz": {
+      "recordCount": 179,
+      "recordsSha256": "ab139b1cf60fe2739cae3b3449ce90a07950b88f09c72de47fa2d6d524f939f8"
+    },
+    "CreatureDifficulty.jsonl.gz": {
+      "recordCount": 179,
+      "recordsSha256": "17d668bd7728e0d2cae9f469c0ef05997b658ff07c6345df5e0f7de72c046ff8"
+    },
+    "CreatureDifficultyTreasure.jsonl.gz": {
+      "recordCount": 13992,
+      "recordsSha256": "1eebe11294bb9f6cd690a861f710d71718b06a6f553c5e6f7c6bd27261100988"
+    },
+    "CreatureDispXUiCamera.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "dbd18b9616a0e65041a6d94fdc568d06bd3b354b32c085d716e77b56b1aba282"
+    },
+    "CreatureDisplayInfo.jsonl.gz": {
+      "recordCount": 14189,
+      "recordsSha256": "b6a918898a1e17d476ce8af6ac46f1b3efad66b379c14cd031e35bf5c553d3d5"
+    },
+    "CreatureDisplayInfoCond.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a5af6aff63174e44eb8180b6b86a48465aa6cd07517320a74904d2bbf8954f49"
+    },
+    "CreatureDisplayInfoCondXChoice.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "9c6b23d555c20ca140357a3c56125e190f0b204f77c2b844dbed4ef2ef8ded8d"
+    },
+    "CreatureDisplayInfoEvt.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b2bde1bc1ff527c3ae8f4acf55919c0f96e030ac80e11b6998292ca8f6a27ed4"
+    },
+    "CreatureDisplayInfoExtra.jsonl.gz": {
+      "recordCount": 8989,
+      "recordsSha256": "be6777cb52c0c425354b009e1c3a8851796bb106411bc0b8c1d9570297601311"
+    },
+    "CreatureDisplayInfoGeosetData.jsonl.gz": {
+      "recordCount": 2,
+      "recordsSha256": "d0b12919586fed44e717d5287f19ac4a67373530e97c31a7de11d08ed9da9859"
+    },
+    "CreatureDisplayInfoOption.jsonl.gz": {
+      "recordCount": 87861,
+      "recordsSha256": "8abb02b4fe5554225b180a85edd56c7d82f49c79ad2feea78c2d5266d8087d89"
+    },
+    "CreatureDisplayInfoTrn.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "483f86a45878b57ddeec89aada26204a3c131b7a0ac71830ca88cc70840993fc"
+    },
+    "CreatureDisplayXUIModelScene.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "d5cd3e49fb898c6b08d1c8252bd26c7708394c3ab1edb6601d9b3d1e223463bf"
+    },
+    "CreatureFamily.jsonl.gz": {
+      "recordCount": 27,
+      "recordsSha256": "975068a899f7c356981668d6a9dafa7b79c88eac85421b93143cd26e0b61bf1f"
+    },
+    "CreatureFamilyXUIModelScene.jsonl.gz": {
+      "recordCount": 23,
+      "recordsSha256": "5be09368961ca79037b039f31ebcffe04651ceaa5c7af4e3f4d55f4bbf73a220"
+    },
+    "CreatureImmunities.jsonl.gz": {
+      "recordCount": 1,
+      "recordsSha256": "1fef63228d49c5de490b890d6231f7ec8645cb7d7b8e3e47ba1767ef2854dc55"
+    },
+    "CreatureLabel.jsonl.gz": {
+      "recordCount": 1646,
+      "recordsSha256": "f43ae6fc924cf27e21ba5229ab4fa5ecb7319396cc8f690b833866a226eb0293"
+    },
+    "CreatureModelData.jsonl.gz": {
+      "recordCount": 1178,
+      "recordsSha256": "4bfec896d96941727028b47dab0870bb9ebea894d2d035811154d38530caed5e"
+    },
+    "CreatureMovementInfo.jsonl.gz": {
+      "recordCount": 92,
+      "recordsSha256": "0b48dd618308fae1120133cddb1c98a49e4b12a24e52395e671675594c5428e5"
+    },
+    "CreatureSoundData.jsonl.gz": {
+      "recordCount": 613,
+      "recordsSha256": "752c3bc880d73ce6bb55514f5156a5f3b6a510f563ee979e21b423590cecd33a"
+    },
+    "CreatureSoundFidget.jsonl.gz": {
+      "recordCount": 250,
+      "recordsSha256": "1f1d5a898b4247cc9566d1a11b28ec07d8fc0dd828e16245b4c94f142ef38871"
+    },
+    "CreatureType.jsonl.gz": {
+      "recordCount": 13,
+      "recordsSha256": "b959842e4219718346d6a9ae455d4ad527c891bc1e763c1cd95ad6fb2bc3663f"
+    },
+    "CreatureXContribution.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a29d0d7b5c0913adb7b14bf060e8d06795f2bc9068454020fba4363db70a8556"
+    },
+    "CreatureXDisplayInfo.jsonl.gz": {
+      "recordCount": 185,
+      "recordsSha256": "f8ada2d6da582eee9630724593b45b5c212a978061f9b16831587169a2091759"
+    },
+    "CreatureXUiWidgetSet.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "aebc8aa0bd92b63e455b624d993fb78be87547ed50e9b3a35e62fbfa9733c797"
+    },
+    "Criteria.jsonl.gz": {
+      "recordCount": 3279,
+      "recordsSha256": "8063291fe538345b7d9a63ef9f8ef9f2a23e490af99789fa49286425b8765190"
+    },
+    "CriteriaTree.jsonl.gz": {
+      "recordCount": 6742,
+      "recordsSha256": "db329dda7235d6c8ad83018412fec638bfc36c3dc0af644c4ba5628bb2912d69"
+    },
+    "CriteriaTreeXEffect.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "bab8cd97ca2ea3ac317ccfcf234a66ffbc9aa7298f87f17a9a4191efdaaa51f3"
+    },
+    "CurrencyCategory.jsonl.gz": {
+      "recordCount": 6,
+      "recordsSha256": "361880fae8b76f24a9790c73b6475efec0d81ba067cfc1150fca2f1db312ed83"
+    },
+    "CurrencyContainer.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "db3419287995ef6ff9d0af9a18008be53bb49d60515a86467ba0f13e36c0412d"
+    },
+    "CurrencyTypes.jsonl.gz": {
+      "recordCount": 9,
+      "recordsSha256": "74cb31e9fea484bff3019cdc606b3e6284fac3ee5a6e0abfa6d9e25900a4f19e"
+    },
+    "Curve.jsonl.gz": {
+      "recordCount": 18205,
+      "recordsSha256": "8f7bc52c11ca8bc2fc87fb8e0e975506ead5cfce3ff222949956dfd6c6c83516"
+    },
+    "CurvePoint.jsonl.gz": {
+      "recordCount": 38956,
+      "recordsSha256": "93dd0d13467a24a0004fd85f8c5d4ec55429c34b50496caddbc9decb92651528"
+    },
+    "DBData_M2Light.jsonl.gz": {
+      "recordCount": 2522,
+      "recordsSha256": "3fca036b4b8dd5467f916672095a4dd675be170122307cc48c9835b9e7b6759c"
+    },
+    "DamageMeterOverride.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "f35a87434218995ae211c15ef0b8d507aac32dd6303d2aade43bdf43ad291b59"
+    },
+    "DataTagGroup.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "215b1858c19260e18747d9bb88dc629e34d8fc36306be829d07578931f4430ed"
+    },
+    "DataTagGroupXDataTag.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "5b78beac2bc4eff51e170fd45208244b051803d953272dd8a18847e499bd2b04"
+    },
+    "DataTagInfo.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "6d899d3147078b66fdeda4dc56165d82518d1cd96508a67c66a5938ca5e834dd"
+    },
+    "DataTagXHouseDecorRecord.jsonl.gz": {
+      "recordCount": 210,
+      "recordsSha256": "7944df7d66d55f01e4dc711870d9478965da22c2b554181d5f1b7defabe52603"
+    },
+    "DataTagXRecord.jsonl.gz": {
+      "recordCount": 210,
+      "recordsSha256": "7f200e5e3c0f510ed065cb87614a73ac43130ef5e6594eca275feebfbeb88cb2"
+    },
+    "DeathThudLookups.jsonl.gz": {
+      "recordCount": 45,
+      "recordsSha256": "133120e7e3d329b55fdec09934ea3d9c740312e35b7e61462df70d4b02f4e57e"
+    },
+    "DecalProperties.jsonl.gz": {
+      "recordCount": 19,
+      "recordsSha256": "0afc5e5e99ee22895bd749f81cc43c77656f9d68a75ca4622b1998229a429f9a"
+    },
+    "DeclinedWord.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "269a614d9350552cb1a1f9d28126cf65e06a3cf106acda0ab1d072dfa286b573"
+    },
+    "DeclinedWordCases.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b416a9027ed55e925b349d89a8955dbb868b25e7c7440331279c4d085e376f34"
+    },
+    "DecorCategory.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "68e7275e6703f13674c97c9473fdc91a3d3c8d18100da8187491eb4aa9bacc78"
+    },
+    "DecorDyeSlot.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "1e3787db5b0c64c2c82225c1796a84308ec3f78d7a7d6ed351a95f83b1555ec2"
+    },
+    "DecorSubcategory.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "dcdd110d5d86296aa470794ca16f4939bde923cb26a2ca08b2ee744c27994fb3"
+    },
+    "DecorXDecorSubcategory.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "543d1df9a6a64683201fa6e88140f6e4832becd8e48606ac1e3a315dc602cb2d"
+    },
+    "DelvesSeason.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "efc5c22dd1bbf9063bbc82d429dfd34e710eb3a0b69d52ed63abd4744cd86f4b"
+    },
+    "DelvesSeasonXSpell.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "d8196f67de626c6be1321688ab095ca174b6c01ff460cc38e9c075af19e0a044"
+    },
+    "DestructibleModelData.jsonl.gz": {
+      "recordCount": 1,
+      "recordsSha256": "2f2f03465ecc997dad6ffcc1be949b78f7cd6ea14f1a196213138cf97e600274"
+    },
+    "Difficulty.jsonl.gz": {
+      "recordCount": 22,
+      "recordsSha256": "c4567ba965e9083a3bc740f1ac33dffb77fca7829a56acd9ae8474dd961f9689"
+    },
+    "DisplaySeason.jsonl.gz": {
+      "recordCount": 2,
+      "recordsSha256": "2c7413a462c167de6844e77112b12b4d6831ff0ef8651a807922dcd39936715a"
+    },
+    "DissolveEffect.jsonl.gz": {
+      "recordCount": 22,
+      "recordsSha256": "eda937cc935ccd37920d39f11f59a9479e607912e2c4430fb792624c487e4615"
+    },
+    "DriveCapability.jsonl.gz": {
+      "recordCount": 1,
+      "recordsSha256": "e996325600a6d2e54eb7416bd517104ed65b5692d0b0a17448a979c4d91b9ebf"
+    },
+    "DriveCapabilityTier.jsonl.gz": {
+      "recordCount": 4,
+      "recordsSha256": "5206908c095e87124ed54d4684dc9272a94f1cb932e8fcd3aa2c64a2582c23d6"
+    },
+    "DungeonEncounter.jsonl.gz": {
+      "recordCount": 342,
+      "recordsSha256": "16cfd49eb59383099a1d41db2988967db32980593b290e2b140529a626a4b022"
+    },
+    "DurabilityCosts.jsonl.gz": {
+      "recordCount": 100,
+      "recordsSha256": "35697b4c589116e8c1feaf13501561ed21f2fd1e40e2cade87c45bd80c5b703e"
+    },
+    "DurabilityQuality.jsonl.gz": {
+      "recordCount": 18,
+      "recordsSha256": "3e0188913b63ecb0292cf810298daf3f3e2945e3af267998f04ae9db91248886"
+    },
+    "DyeColor.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b31aaa920079131019b69cb05b0fe0786bcc2e0e29824f8371723d48000ccd40"
+    },
+    "DyeColorCategory.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "29b1ecd29357a0b15bd4dffdaae97c0767d4c65968c66ac81e7e95855b572b28"
+    },
+    "EdgeGlowEffect.jsonl.gz": {
+      "recordCount": 21,
+      "recordsSha256": "653f3336271a57519dfc3a9cb3a415ed4d9708a905cc7bfe6ac2d044221d82bf"
+    },
+    "Emotes.jsonl.gz": {
+      "recordCount": 123,
+      "recordsSha256": "46a2ab7811d3a6a3eedfca7fcb3cc120d698e74cac4b99afc0b6598910c1b521"
+    },
+    "EmotesText.jsonl.gz": {
+      "recordCount": 255,
+      "recordsSha256": "ef90dad4fac2a08fc71c1318d6459813a04c9b33e978484b167bb977724a7fb6"
+    },
+    "EmotesTextData.jsonl.gz": {
+      "recordCount": 1350,
+      "recordsSha256": "9f7f99b8ecfc050520767f4e52abc89ae6362f2687325bd61e5356953965dfed"
+    },
+    "EmotesTextSound.jsonl.gz": {
+      "recordCount": 671,
+      "recordsSha256": "82cd128058e61c9d76f5165f4697499d4e67e763f779b2f4901aade0967be2e2"
+    },
+    "EncounterEvent.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "3fb59127ea6eb9db8b48cdd92c96d3df2997ba9c8cb9c3195f52d9c3c17c3bb1"
+    },
+    "EntryNode.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "5ecfe0ceebaa12811801f3ade34812c6abb44dfbf38b921860d7222bfc9b9508"
+    },
+    "EntryTemplate.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "f86087079e6b5daf8b331b61ff99171414ad7757cda9717329087cdc706d1c10"
+    },
+    "EnvironmentalDamage.jsonl.gz": {
+      "recordCount": 6,
+      "recordsSha256": "ce8d473f4497170f636832f6e47cc169d4ecce7070880a9cd7fcbc57dc0f371a"
+    },
+    "EventSchedulerCategory.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "008a82848b92a0e83896a1bddde636f621af0c4eb634268664e00fe74923031b"
+    },
+    "EventSchedulerEvent.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "99e240c9d6d74332c58b8c0cecc7326ca5662c6a374fc22d73a4db96fb37c36a"
+    },
+    "Exhaustion.jsonl.gz": {
+      "recordCount": 5,
+      "recordsSha256": "8a227d8b765c37f2c4f5c26b9495d7fc274124baa4ab8bacab17fc2611030331"
+    },
+    "ExpectedStat.jsonl.gz": {
+      "recordCount": 133,
+      "recordsSha256": "98a2b01b630c47482c96ed9be689d829eb7a4d5f9fe0f3e8e1454d6262570d35"
+    },
+    "ExpectedStatMod.jsonl.gz": {
+      "recordCount": 5,
+      "recordsSha256": "8f0c230c9fdbfe37b1afb3d530f235ac7ad338ac1748a631654f5095b3c4adc3"
+    },
+    "ExteriorComponent.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "f9ff25dfd72d6020b4c89f386dcb8bdee624bf9867a05149dbf67dcf01e46ad1"
+    },
+    "ExteriorComponentExitPoint.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "93b13ccd69ec30c144f8a72e7b0ec281e4bd5734c392a14f4210c5be9e594e94"
+    },
+    "ExteriorComponentGroup.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "e3ccde67976ccfe615ed97e51bf333016c1acdb990273a51e9a1f22e44abf64f"
+    },
+    "ExteriorComponentGroupXHook.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "736a9c1af39cfbbb72e64398d4a6e058125d3062730fd30c9aabddfa29f6c8d4"
+    },
+    "ExteriorComponentHook.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "1a2b642e0435d57f7d4f6130e7bb4cf14816ad0e1bcd62cd89884d168a0f23be"
+    },
+    "ExteriorComponentType.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "3d1cd64b18cf0fd7250084df7ba080158238cc00f9374f6af1e958d4e33886c0"
+    },
+    "ExteriorComponentXGroup.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "88da84559a5e6b4455fe0aefc18f5541eaf3998ddff04c9d303b68b1343c6fe2"
+    },
+    "ExtraAbilityInfo.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "3838a48101933676676dde2805371901ed54c2040cacfd66d38cdb8159b1322b"
+    },
+    "FFTTile.jsonl.gz": {
+      "recordCount": 23,
+      "recordsSha256": "eba175232b09f74a0cc0a24534bad5388b1bd3ad0df95c7a02a99f9d9fdd7d48"
+    },
+    "Faction.jsonl.gz": {
+      "recordCount": 253,
+      "recordsSha256": "488fd17fd074c2e2bdff363ca8b5270942542e2ce5334341b8a6a2f35594b7e7"
+    },
+    "FactionGroup.jsonl.gz": {
+      "recordCount": 4,
+      "recordsSha256": "17cc1a69aabaaaf69e57af9882d88b3646187484d8d4bc0632c257937c225b73"
+    },
+    "FactionTemplate.jsonl.gz": {
+      "recordCount": 453,
+      "recordsSha256": "abe93290a7120c78dedd588044a955ee62d4c9acf982e8fed8a23ad010c6e006"
+    },
+    "FlightCapability.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "ba4e3d967b1c107856e87c4c27e1e16f836ff2a2a727a5d38801363aefb280e2"
+    },
+    "FlightCapabilityXGlideEvent.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "3753196eb6d905cf5c2eba01321e6a65cb92d5e4366a1272be8641789df3658d"
+    },
+    "FootprintTextures.jsonl.gz": {
+      "recordCount": 16,
+      "recordsSha256": "3399ed3108a3f6302968f1a490ad933782ed1609f37998e04cce5ac80f99f3cd"
+    },
+    "FootstepTerrainLookup.jsonl.gz": {
+      "recordCount": 270,
+      "recordsSha256": "3f0a7bf0db722444343a0b08e3cfe76273bfbe2f547da331164bd0e4d29e522e"
+    },
+    "FriendshipRepReaction.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "eab8ef64eea7b9c829aa09df60ea967e86f799b066e5901c90e8d40542dcbb79"
+    },
+    "FriendshipReputation.jsonl.gz": {
+      "recordCount": 1,
+      "recordsSha256": "3fb2eaf08974dd76d05354a0516764fe49140ffba964b5170f02fda6f46b6ea2"
+    },
+    "FullScreenEffect.jsonl.gz": {
+      "recordCount": 4,
+      "recordsSha256": "79e4cd5449d80672a261850930c01fbf04d684a31b60f8b1e28e4600de5a2b69"
+    },
+    "GMSurveyAnswers.jsonl.gz": {
+      "recordCount": 113,
+      "recordsSha256": "646534f0530aa9475da860ccc93103a957f22d4db5df10fba595da8fcac0fd65"
+    },
+    "GMSurveyCurrentSurvey.jsonl.gz": {
+      "recordCount": 12,
+      "recordsSha256": "a0b4976335c0a475e26f8817b36a7ce32a5ec887ad1e439c936a1aca58477df1"
+    },
+    "GMSurveyQuestions.jsonl.gz": {
+      "recordCount": 25,
+      "recordsSha256": "000264b6bdc958cf07f96d7c0ded8116a6367193feb2bb8bb4149e1c5b6dd6f0"
+    },
+    "GMSurveySurveys.jsonl.gz": {
+      "recordCount": 5,
+      "recordsSha256": "8f73415d4eed4fbdb1427de65e61dc6f650df949b85510de043538a58dc775c3"
+    },
+    "GameClockDebug.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "060e98db4b0be58ff6c2302962c9e201f4447270f152e709985fb3b1880b1f4c"
+    },
+    "GameMode.jsonl.gz": {
+      "recordCount": 5,
+      "recordsSha256": "1e7dcab609e1c27077b86e166412fd216ffb387b80d47274400d2b047a045970"
+    },
+    "GameObjectAnimGroupMember.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "f14346bfe88bba58018742b9c7022729ca4bbf4e94f60fffe03585658ba7a79e"
+    },
+    "GameObjectArtKit.jsonl.gz": {
+      "recordCount": 15,
+      "recordsSha256": "9ed1e591f6aa23299e8a50f4525aeba241c329f7d8c8331d22288640ce5715e1"
+    },
+    "GameObjectDiffAnimMap.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "d2db9d105e8d80ba278a88f06bde11dec9c904acf59dbb8f40de2bef61630524"
+    },
+    "GameObjectDisplayCondition.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "fab9d8157a5cd9343a57c0f95f8572d282875bac4217c6b4cb283d8a8dea194f"
+    },
+    "GameObjectDisplayInfo.jsonl.gz": {
+      "recordCount": 3215,
+      "recordsSha256": "0e0d9a13d3d8f84833504aa1375ce7968eaebee7c339b7b835cb0321fea86512"
+    },
+    "GameObjectDisplayInfoXSoundKit.jsonl.gz": {
+      "recordCount": 344,
+      "recordsSha256": "0e00871ee187e39a8946d6ba2f706815468ebf5957934256d249332ffa988d69"
+    },
+    "GameObjectLabel.jsonl.gz": {
+      "recordCount": 1,
+      "recordsSha256": "1239ba15e90f6787c77e03a8b944875874bc9973615215fbb4c48353d1715831"
+    },
+    "GameObjects.jsonl.gz": {
+      "recordCount": 1520,
+      "recordsSha256": "60b7368b34d274721fd9e8e7e665828391dd733ef2d4bbc79e342bc499fc243c"
+    },
+    "GameParameter.jsonl.gz": {
+      "recordCount": 26,
+      "recordsSha256": "ca9a130c2ee7003ce108a9569ed39956504854fe3ac625e6ea1fb8c3a40d971a"
+    },
+    "GameTips.jsonl.gz": {
+      "recordCount": 72,
+      "recordsSha256": "6a64328ebc2bebdbf8997b0e18861e7426d39f29dfb091c373d4dd24d8950219"
+    },
+    "GarrAbility.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "fc2f90aab98281f6aa795c3065b8c37e9b29596d72e5a0dc8e097189aab48cad"
+    },
+    "GarrAbilityCategory.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "35c5dfffa35f53212c3edb463eb9a872d876d28e75a70e29afbe1a1e6cdd9ccc"
+    },
+    "GarrAbilityEffect.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "93401c496a69062f9d69843b7ac50312108899e3d0f67d9067837ba203f806af"
+    },
+    "GarrAutoCombatant.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "c6d6264eb0a603e875e854eabd9c662acf4d3f4ca9fcf2a4e2552af63593a52c"
+    },
+    "GarrAutoSpell.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "be5d1a0f188bda22a7278908b4046eb15852ca734a7c41a53fdc0d3ca543f448"
+    },
+    "GarrAutoSpellEffect.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "839f0ee229ebcb028b12a0c3a8bc360784facc4eaef1a5c9ee4b5ed6e8827ea0"
+    },
+    "GarrBuilding.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "89eba602b474182b29aa6f7e9dc10515e6a9f22ad2ff975422df57bf45dd1b39"
+    },
+    "GarrBuildingDoodadSet.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "04eb6529d7b25d487b5e3dddb7a11f00650d5c81024f649162d1c4cb2cf9ba1a"
+    },
+    "GarrBuildingPlotInst.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "443b84a5ba699e40e8966b1dd91f51db7f6117ed45a6f7e07612554267f21e20"
+    },
+    "GarrClassSpec.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "ecfe0a750bba1cbc5b784777baab372f9994104baf9832be46294c36a80523c1"
+    },
+    "GarrClassSpecPlayerCond.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "62ef2edb531023d9964106f1f2044eca79a09bda80e6423c9bf961a75bcc2584"
+    },
+    "GarrEncounter.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "bbb1d08184fd5b9b720a8d6984fe1e36b91c1cac7ee874238c86634116244ed0"
+    },
+    "GarrEncounterSetXEncounter.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "c6bee925f487fc9b9a68f2a3ebafad5d0494d56ff8962374dec0ecbe1bb12a7b"
+    },
+    "GarrEncounterXMechanic.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "c4300a6588dd5b84fa0f0ba2820954de9d128685f3cf1ebb22dbb2892b6ef331"
+    },
+    "GarrFollItemSetMember.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "c451565d8121469ce25375c9feb285dce3d98f60e5705b8138de6596b977677c"
+    },
+    "GarrFollSupportSpell.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "9609925fc651e7fa64339b3d74d82b0b821ae9bc81182d8207cdea2473c858e2"
+    },
+    "GarrFollower.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b7621a6687719f532ff57b461f8fe0d1ae3e44a2f60c098fa57a2d1641248365"
+    },
+    "GarrFollowerLevelXP.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "71786a2135aa44a6d282a6baed285585bd4e96b2a2d4f6bfc243b6d00a4c267d"
+    },
+    "GarrFollowerQuality.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "d488d01e97a48c3b9b1e775bc367dc90eeac7b1653d2a1ce7cb5e402f33f56b4"
+    },
+    "GarrFollowerSetXFollower.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a846c06b322aefdae658627dbe78e4f8d1e709307096a8bfb8f92d293509028b"
+    },
+    "GarrFollowerType.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "577eac4e9e911c1e13e0740d10879a0df0700f85c8edae81e88cacaf964d062b"
+    },
+    "GarrFollowerUICreature.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "34b017532634372ce204ca467df156563820308a47b6b945d4335f390b78c89d"
+    },
+    "GarrFollowerXAbility.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "ab6ca2e1f136f2bd6499c078dfb7ff013fa7f19c946da67b689a26ada2eac19d"
+    },
+    "GarrItemLevelUpgradeData.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "6346c4993ae458d3b8f2eca0a5e48c9705f4073537ae3376865ab1171138a4c2"
+    },
+    "GarrMechanic.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "3d2d9f1e1f71f114a936a70daf6c687fee359145c9abb269118d89462a1170b9"
+    },
+    "GarrMechanicSetXMechanic.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "8b2b419247b0b6ff952b3b27becc4407cd66c0bd00357beaeff6efed338bde14"
+    },
+    "GarrMechanicType.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "83748536c8b03e63525ed9de9d7ff19ba8892f7aaad0b9cf0393ac884a0d659c"
+    },
+    "GarrMission.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "c666ab85dd21ab7e64e48383074b4ea648ffdcfe71210b273220d1dd24f4cfba"
+    },
+    "GarrMissionSet.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "645179ce7bcb67c9a015f58290ddbded90e7527d475a16811205cde82d59de63"
+    },
+    "GarrMissionTexture.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "746e7a2d37fa216bd5c3b97153bf2b6193ee6e95c8145074de2901b2a7cbca0d"
+    },
+    "GarrMissionType.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "fb36a242a8f2bf4e64298ee0feeeb1b5d341112eda60bad5531460c1fce9eb6b"
+    },
+    "GarrMissionXEncounter.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b4164689831a2c7a7114a9973f1870d634045c0480d740b69bdfd39e2f314b7b"
+    },
+    "GarrMissionXFollower.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a59b574a33ddbcee58246ad23e4b2428f955add06ea3b9efe3fe480763ed8285"
+    },
+    "GarrMssnBonusAbility.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "38df6afa368a6d93e0b103fc14a2853dd8f7ceee7ad9f34f933e6043ed325b17"
+    },
+    "GarrPlot.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "f4bb40ff72c03949f4d8ebcc713791f0d4fe0ba35506cb404991c3afc121997f"
+    },
+    "GarrPlotBuilding.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "2164f235d1e80fe0b3f6b184b0883b63a1d0106afeaf2aabbdc38bb23d1b7795"
+    },
+    "GarrPlotInstance.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a6bf50ebea0352756a00a31b0a41f26bc060292f77a13abf0a2d0254dfcaac3b"
+    },
+    "GarrPlotUICategory.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "2de4df333785858d2cb151950f850da81f72317ece91c06cc3ccd29f5a0d5bd8"
+    },
+    "GarrSiteLevel.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "59e19d7680e473459050723f16149534d0ce4ee07032d554e2399c9964251007"
+    },
+    "GarrSiteLevelPlotInst.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "ed196c42253e804c18fa19ba59a787fcdc01586e8907c8a1a36141d751a506de"
+    },
+    "GarrSpecialization.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "8f77f82cc5e50b3916234921c16bff4dae37080f0ee6aaad70107b854f21ec78"
+    },
+    "GarrString.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "e850e4a6ccd413c55111e3bf644aa1a5f3f784f9c28859a7c79f093be79841ac"
+    },
+    "GarrTalTreeXGarrTalResearch.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "ad1019cb334b5deee15aa8428ef865638127dc05d1605f17962b3bf8b2a5abf9"
+    },
+    "GarrTalent.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "8b9ca6699dc65b5e0397be7160e27e62082b98eca9fb2a8ba686789a66333020"
+    },
+    "GarrTalentCost.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "d0a35eb40245c0451dd7d36917b112dcac0bf0aba7f2ae7376961124a46e8936"
+    },
+    "GarrTalentMapPOI.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "477faf1fc085b05eddc9fb0c52d6ba8237faf6c02df8a18c57732935da8996b8"
+    },
+    "GarrTalentRank.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a1556cc922a0c6257cc2ef7a802c27dfbe8a10d32c29de4838d6957371f7f149"
+    },
+    "GarrTalentRankGroupEntry.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b9f453fa2b359f3d099f671e6d7341d22b8c00a5dc2cdfb35ca14c0a06570dd1"
+    },
+    "GarrTalentRankGroupResearchMod.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "be12f3e7147856ee8965a313a843afaf8c8ece2dce2f763fe52f7ef96c8a66c4"
+    },
+    "GarrTalentResearch.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "8b3de3dca646ae364ecd53074fc81b92676a253de70d235ddce9fe2270252f87"
+    },
+    "GarrTalentSocketProperties.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "c88b7ba0c1804943d2b93654c0a225c765ebad0670a7f085184c1ea5dc2f415f"
+    },
+    "GarrTalentTree.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "82fd68625ad434a6cf422ccc5f560e6c1689d79358f559128112ca4553933d9c"
+    },
+    "GarrType.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "5b1a833e677fad16103efb3c8bf92f0b6276ae921a1d7465085d72c6e4864c64"
+    },
+    "GarrUiAnimClassInfo.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "ec1cea641e38df5b05e2fda6fe8b60414229c05a2266b0a04713cbca56c2f304"
+    },
+    "GarrUiAnimRaceInfo.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "323c1014d7d84601768c5dc37e69ee898f1b9eab60a9a8a1479a6d6a467f830d"
+    },
+    "GemProperties.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "52e9d1509743fa7d115e3efa3e409256da93059041684568242dffb4c01718ae"
+    },
+    "GlideEvent.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "0e6f921b57fae991f4578675a0eb3b7ed42a5e2d8d4b3d4c8adc1c1d1ce9b686"
+    },
+    "GlideEventBlendTimes.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "bbd9b11461d812e19a028498b602131893c83d9d3631b4bcf6df92ab5146c9b4"
+    },
+    "GlobalColor.jsonl.gz": {
+      "recordCount": 336,
+      "recordsSha256": "61a6168be2b86b5bb74408b8b6dc2728f7797cd58fc64cd75499075928394a19"
+    },
+    "GlobalCurve.jsonl.gz": {
+      "recordCount": 45,
+      "recordsSha256": "a64167b31c0e11f5ad2318a095edb10da89f8d2579ffd68a01154f95a156f48e"
+    },
+    "GlobalGameContentTuning.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "98c5d24a33691c94ed4c275f83dfa309569d9d0a05018f7cf35a7d1cddaaeadd"
+    },
+    "GlobalPlayerCondition.jsonl.gz": {
+      "recordCount": 9,
+      "recordsSha256": "f6a2a79476353639c5f7daf926367d6858e8cb09e24a959c88e0023d894637a6"
+    },
+    "GlobalPlayerConditionSet.jsonl.gz": {
+      "recordCount": 9,
+      "recordsSha256": "e9183dd63b159a72a35a26e008c1ec229218d8a22c0c769b3e56276f95ac36af"
+    },
+    "GlobalStrings.jsonl.gz": {
+      "recordCount": 27372,
+      "recordsSha256": "c114a34f9c13792ba29753d73945c7f0f84e952c008f1a73c335e8024be18222"
+    },
+    "GlyphBindableSpell.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "91b94406ff0e20e2ff112e617af5235213528e6a97fd01f94cfac5a1429fb6df"
+    },
+    "GlyphExclusiveCategory.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "1c155aedb18bfc31898aabf682d73c5da49675bdee07f1e889964e0eb09209dc"
+    },
+    "GlyphProperties.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "8db99620694841d060fd20c0e0dd76eefc36224edae1e7dac4258c9a70f86a2c"
+    },
+    "GlyphRequiredSpec.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "dae1b77295c181882e31fc0a26485d275a6a391324192cf3ed711e7e09c92105"
+    },
+    "GossipNPCOption.jsonl.gz": {
+      "recordCount": 1558,
+      "recordsSha256": "90d244baa447fbda8324440af7d3b6096e45bada7a57d7eef95a1cb22b7bd5ee"
+    },
+    "GossipNPCOptionDisplayInfo.jsonl.gz": {
+      "recordCount": 50,
+      "recordsSha256": "e919bf880dd938523259ebcf16ba44cbb65c8bb7d11083c6a6f8c30d9ae79be5"
+    },
+    "GossipOptionXUIWidgetSet.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "97325e622cd9e65cf607dd43198f4cd371d5c161ba4af1441360f5bb8b749b84"
+    },
+    "GossipUIDisplayInfoCondition.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a4051663802e7a30975da92c8e86fd261f6b1290315dad03da463a5943e08aee"
+    },
+    "GossipXGarrTalentTrees.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "e8b17ad368f7c2750ce4159d947e97bc6779ab111e1740857f2afdba61222c7a"
+    },
+    "GossipXUIDisplayInfo.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "c13ebfc4fb0f9ecb4babc0cf1402ee2e23a8ad9ae56d20ed0a74d134e8f7e286"
+    },
+    "GradientEffect.jsonl.gz": {
+      "recordCount": 38,
+      "recordsSha256": "988119affd64531df6607b2eb6c460e0ea5bfaed8908d79bca38a35148cb4abb"
+    },
+    "GroundEffectDoodad.jsonl.gz": {
+      "recordCount": 436,
+      "recordsSha256": "9bc13c92ad7160bd6ce5e97ce4fb4e1f825f93d1016977a36312d2db05a47e45"
+    },
+    "GroundEffectTexture.jsonl.gz": {
+      "recordCount": 2160,
+      "recordsSha256": "eaef7deb15af437e369e59b118778fc6785695559ad641704c62c4d29b76443c"
+    },
+    "GroupFinderActivity.jsonl.gz": {
+      "recordCount": 109,
+      "recordsSha256": "02cf033bda51ad49008c3e43af035ba36a680fc84939a0165fb0b0d40415a34b"
+    },
+    "GroupFinderActivityGrp.jsonl.gz": {
+      "recordCount": 7,
+      "recordsSha256": "2693a54bdd70746436b1a2f1d57e88c8c81803c29c06629ce2d680209c2534a1"
+    },
+    "GroupFinderActivityXPvpBracket.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "ffd3129d9281639bb2dea3fc1dad6d21fffe70b0aacd7eabe5317e524ea9813b"
+    },
+    "GroupFinderCategory.jsonl.gz": {
+      "recordCount": 5,
+      "recordsSha256": "e51ab29d8c501e3186c6e6e4e22cd199186ade45e2d6346cd2ae569ad5892bc0"
+    },
+    "GuildColorBackground.jsonl.gz": {
+      "recordCount": 51,
+      "recordsSha256": "cbb828833fc3645ef939ff51f4b2b2415dd585c5a6983978bbff63ae385fb661"
+    },
+    "GuildColorBorder.jsonl.gz": {
+      "recordCount": 17,
+      "recordsSha256": "342b5523515c3e165243c5e80dad1ba77ec5768e5ce79ea1cb09f4746bb83697"
+    },
+    "GuildColorEmblem.jsonl.gz": {
+      "recordCount": 17,
+      "recordsSha256": "93aff05dee494a71b09bc48f6e071d99575263c03890af070b756c748d6923b3"
+    },
+    "GuildEmblem.jsonl.gz": {
+      "recordCount": 196,
+      "recordsSha256": "adbe6bb7ca0cd19827a19a55f5db10c37318c89cd2922d82b272fd9c2b34e9d2"
+    },
+    "GuildPerkSpells.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "bd4978f5450354019f798d4d67710557602ca2e09c95c040270233714f6bd137"
+    },
+    "GuildShirtBackground.jsonl.gz": {
+      "recordCount": 459,
+      "recordsSha256": "d17c68e6eb55283664f0521d2cc0ec695b0d3caae21f265176902fd053119047"
+    },
+    "GuildShirtBorder.jsonl.gz": {
+      "recordCount": 459,
+      "recordsSha256": "62f85b29e0e5a1e81e9e3b257778171cf1393d867f8899c7b2f794df99fc50b5"
+    },
+    "GuildTabardBackground.jsonl.gz": {
+      "recordCount": 306,
+      "recordsSha256": "d995d5492ef9c0269f0015f8642399e170a4f35a9ad3f74ddeba8c692bc9c8cf"
+    },
+    "GuildTabardBorder.jsonl.gz": {
+      "recordCount": 916,
+      "recordsSha256": "20bc232583f60ba1e6a381e8251e98748d597bd1b0461901da515e9e61f52922"
+    },
+    "GuildTabardEmblem.jsonl.gz": {
+      "recordCount": 6664,
+      "recordsSha256": "3f3b1f8696f939d6db612dac1f77ccccc857c42a4370ae9d65d56ff68b8d84ff"
+    },
+    "Heirloom.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "63348465f5f08ebf6490a51e25a2823ac1dc5a989a38f9ba236acd01150391f4"
+    },
+    "HelmetAnimScaling.jsonl.gz": {
+      "recordCount": 140,
+      "recordsSha256": "6440ffb0a99195189536719a642eabf87ae378f1f03b3c771be1f69c6800e1d0"
+    },
+    "HelmetGeosetData.jsonl.gz": {
+      "recordCount": 16909,
+      "recordsSha256": "58cd3d7fb67257eb49f0a6d6346b009ee8e4b9711b7a43a7e6f292c14552816f"
+    },
+    "HighlightColor.jsonl.gz": {
+      "recordCount": 74,
+      "recordsSha256": "b9054f19c30f1d42c2a891f8b51c3a4ff53e199a5ed7c5b97e7380377390d22b"
+    },
+    "HolidayDescriptions.jsonl.gz": {
+      "recordCount": 17,
+      "recordsSha256": "8ae0914b02bdbbcf5193afbb25ba31052b4623b03c1afda71c5317f0752aca03"
+    },
+    "HolidayNames.jsonl.gz": {
+      "recordCount": 16,
+      "recordsSha256": "973f39b3cce2ce8d191bf65ad802e44800d41e5738f9ba070abbccc96e43e238"
+    },
+    "HolidayXTimeEvent.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "3a3230f69ecb2936b8b9968d5ae810fca7bab8472599ce0457ed24fbbf9daa26"
+    },
+    "Holidays.jsonl.gz": {
+      "recordCount": 22,
+      "recordsSha256": "a6b1c09e901465f6ad431e856d8188f6a55e8e08ca51c17591c49154a17cc125"
+    },
+    "Hotfixes.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "bedc9bfa9c9479362b2fec3efd82f6d74b63d8130d91bc3c7c99b74b9f101c28"
+    },
+    "House.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "5b3b01712415652f3241a9ff81e3ea42b58200be9d6b4b38fcc17904e4ac232f"
+    },
+    "HouseDecor.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a9c064189bc68a17dfef624991e4dabb4b98dfb099e3af7e74742b78c44e7cd6"
+    },
+    "HouseDecorMaterial.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b2d7c6584446647c6a8d93cac8f1dcc246d3c505c65fdc01b75a8d00dafc020f"
+    },
+    "HouseDecorThemeSet.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "5437dc6e7a8ee42bea01f09bbb6ee268500167ae199f69bec5c4feef0def633c"
+    },
+    "HouseExteriorWmoData.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "38cd838076320bce1252535036e7780f1984df87affdd97efeabe01edf18a346"
+    },
+    "HouseLevelData.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "d7a2a40ef73a1c3d1a44060f03b8450ca052fbbf119baf707776cd02df10a577"
+    },
+    "HouseLevelRewardInfo.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "30e628796111ab0e271943c672543312809830bcaa767026977574355e78ac10"
+    },
+    "HouseRoom.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b4c11d85042db16502be74ea730758f5e0a1035f96ce706dc6d93800f6485a50"
+    },
+    "HouseTheme.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "d1b1102016d04585fafb6a44ca96905223de223ebcb9cf37d2d8467050560c2d"
+    },
+    "ImportPriceArmor.jsonl.gz": {
+      "recordCount": 27,
+      "recordsSha256": "098a6eb1fe1b958504ac55a44a7900648709f33f9599d9279a4c0d6e799565fe"
+    },
+    "ImportPriceQuality.jsonl.gz": {
+      "recordCount": 9,
+      "recordsSha256": "8dea0e2f7afa3d4abb08fd636523617af8af0385ad6c577cfcc22d0603710dcc"
+    },
+    "ImportPriceShield.jsonl.gz": {
+      "recordCount": 2,
+      "recordsSha256": "64849cad45d31fd57bb240fbdff9f47d460eaf7268a726581fb22d8455f7cc4e"
+    },
+    "ImportPriceWeapon.jsonl.gz": {
+      "recordCount": 5,
+      "recordsSha256": "3ddaaca57c221c41efbf61245ee3fc8303eb2c438f7a885aaa0c6da507df3544"
+    },
+    "InitiativeCycle.jsonl.gz": {
+      "recordCount": 1,
+      "recordsSha256": "b9f37a4625de9c0d9559da44fc8a57f9ef5053bb8f51fd61f041fe4505924d89"
+    },
+    "InitiativeCyclePriority.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "5c9ffdde2484d87765083629a9526ad622de397348f2a564df8d41d79fe1127d"
+    },
+    "InitiativeMilestone.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "db31466e6fd7ff8973036300f85be13d4b9ae8151f4cb2711179e5f95fc996cb"
+    },
+    "InitiativeReward.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "f524cf254c6486a20bfcc967aaa7b5906ac67d51221cd6c3c1f131bec16552a4"
+    },
+    "InitiativeRewardXMilestone.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "1e3020ec86e3009f1cbf78aec2d0f0347872ce56141f2dfff8b2c6b27d901f57"
+    },
+    "InitiativeTask.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b8a06914486302651a35717a99859e0779b9411427522b17a48a02a1f673f1ea"
+    },
+    "InitiativeXTask.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "80a4f00ee5ff15a57d3757d6863ade05f9ee9b294a824fc7eeae851ef854b2a0"
+    },
+    "InvasionClientData.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "f17544d3c227e4322603d9c74a9ec29e5c546ab5d7c886adddddd796fcd4196a"
+    },
+    "Item.jsonl.gz": {
+      "recordCount": 31844,
+      "recordsSha256": "baf42982f0c36ebbf4368dd4edd2288d0190e173488513a7dac339d21d495d91"
+    },
+    "ItemAppearance.jsonl.gz": {
+      "recordCount": 9027,
+      "recordsSha256": "c1d3ac882c66e50239b3acac68297c6dcdc33e1d0798bcdbda05b78d1fe4e44c"
+    },
+    "ItemAppearanceXUiCamera.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "67aaf6cdae4d12b947a5babc290ac7487ab9e96ce958fae74a73d157e801cda1"
+    },
+    "ItemArmorQuality.jsonl.gz": {
+      "recordCount": 100,
+      "recordsSha256": "7642eb1ed4b2f999255ebde1e85402b9918c72fd5fef3b8c892e174ee1ddb37e"
+    },
+    "ItemArmorShield.jsonl.gz": {
+      "recordCount": 100,
+      "recordsSha256": "aff91a89d48678e2671f6e1e7ace26ae6c4d51872112e7bce1e52a152fdd7452"
+    },
+    "ItemArmorTotal.jsonl.gz": {
+      "recordCount": 100,
+      "recordsSha256": "55ba9d9875a0769321efd99e59570c08b6829bd73d9a03ea8189d1f63d891877"
+    },
+    "ItemBagFamily.jsonl.gz": {
+      "recordCount": 24,
+      "recordsSha256": "f902b06898d7ecddd9d863e4869ce56cddda00a7256cd8b019c89e6d72b7afa8"
+    },
+    "ItemBonus.jsonl.gz": {
+      "recordCount": 1124,
+      "recordsSha256": "b2d16a523579b5172cb5f8ed4b4c7662e19c5de05e798c16bc1b1033dac5a979"
+    },
+    "ItemBonusList.jsonl.gz": {
+      "recordCount": 365,
+      "recordsSha256": "3653ceddb16faaf1685639d7cf2263b4f47ee405e3e3a7daa31ed196157a8a49"
+    },
+    "ItemBonusListGroup.jsonl.gz": {
+      "recordCount": 4,
+      "recordsSha256": "c2bd0dec694a182d684274439bcdb795a74c43b8f414028c939d8d32e65f846a"
+    },
+    "ItemBonusListGroupEntry.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "cf2872bd0f46b071d1177818dcef359fbe91cce50063cdfc81dac4d60dd7f7a7"
+    },
+    "ItemBonusListLevelDelta.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "d8c98f3bd3e5fe067e31d498b32d35aa56e9c9ffcfcea3d5978fe7a5de49840c"
+    },
+    "ItemBonusListWarforgeLevelDelta.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "146150b5f9f980302c83d9676f75463e4fa460cbafcce2d5b8c614bb7ea68812"
+    },
+    "ItemBonusSeason.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "3c8b79126ac2729c1f12cb7a9d6f2fd312226c865574416d3a71babe9d3e2722"
+    },
+    "ItemBonusSeasonBonusListGroup.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a80d63be989f3e7cd59158ebfc5c346e1718039ba47c917ab7bbd4b351c855ca"
+    },
+    "ItemBonusSeasonUpgradeCost.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "ba43739b194aaa66993ff8bfc83981754c9ad679ddd3a1674b4a7d891fac4853"
+    },
+    "ItemBonusSequenceSpell.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "7c5c19484db1d2464aa3a14cf33717a50cbb51c42aa1029239b0990ceb3b3822"
+    },
+    "ItemBonusTree.jsonl.gz": {
+      "recordCount": 115,
+      "recordsSha256": "addeca86dfb808514d18cc1662f5e677726a61df5a8d9e18f12af884528b2675"
+    },
+    "ItemBonusTreeGroupEntry.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "e780a541d42735397ee23e85adf4ffb085a4f45370d148decd7e403bfe251a5a"
+    },
+    "ItemBonusTreeNode.jsonl.gz": {
+      "recordCount": 1936,
+      "recordsSha256": "68125551a225d4bdeb91635ed2b567183fdda325d7b685238938033fb256ed20"
+    },
+    "ItemChildEquipment.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "fe9f3e53812b772c8c41e8b1a01484aa733607406431ba4aa6f13cc3f870b2c5"
+    },
+    "ItemClass.jsonl.gz": {
+      "recordCount": 17,
+      "recordsSha256": "f3ceb067be67c774bca1e14290740e06465362626f7cba35a7d79fdb0fbf281a"
+    },
+    "ItemCondition.jsonl.gz": {
+      "recordCount": 43,
+      "recordsSha256": "8889dad740812f7fab2778d007372a8c8be7bb3074a8195b2658560aa1ac6531"
+    },
+    "ItemContextPickerEntry.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "dda8868099028f05f3e08240391d9cfc59654d8b2cd3f9a86cf9ddbdc1434636"
+    },
+    "ItemConversion.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "e1e93777a8e5ce466287d462521c188dfddd51b4580e7adf2c21cb0036ce18b3"
+    },
+    "ItemConversionEntry.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "fed94b9ecaacf0ccd868c113521bae4f5f79b11c12ba6e838bf8a15d94e6e39c"
+    },
+    "ItemCreationContext.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "7dc2f96f3828d3603af49d2e74c7dabb6f1c1f799643526afaf0e1c8293d785e"
+    },
+    "ItemCreationContextGroup.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "38808be9994f21f560bc774188dd472e127390235403fcca2f8df1d781e87121"
+    },
+    "ItemCurrencyCost.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "df674eeda6d4a79dc1c6d460d90f45c0f136dde02dd296930747fbb46b3e7d46"
+    },
+    "ItemCurrencyValue.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "8fbcbb80d654aba804e04c55f9cab243b7b40a524ab5af63941ea30b7182f252"
+    },
+    "ItemDamageAmmo.jsonl.gz": {
+      "recordCount": 1000,
+      "recordsSha256": "55b5cbea894f7ceb2d373cc4fbee70bfd7d1d09772e3adb314494ea891e70636"
+    },
+    "ItemDamageOneHand.jsonl.gz": {
+      "recordCount": 100,
+      "recordsSha256": "d336a612c4fec3af6e25ee251d8a04df3a9c293e5f8bb272f1bb17795099ee9d"
+    },
+    "ItemDamageOneHandCaster.jsonl.gz": {
+      "recordCount": 100,
+      "recordsSha256": "109ea70d79eca9fb621b565e2e317109a0c453d8c3e746791ce4b8d5f554cde2"
+    },
+    "ItemDamageRanged.jsonl.gz": {
+      "recordCount": 100,
+      "recordsSha256": "9ff3759f189ab5854a5931250b2184720e9550d07bf44b8e6658c0b51aa6e37d"
+    },
+    "ItemDamageThrown.jsonl.gz": {
+      "recordCount": 100,
+      "recordsSha256": "c788f5567e11b729dcb922feb745fb83c7f564328cfae535ab10c6138c4ba1e9"
+    },
+    "ItemDamageTwoHand.jsonl.gz": {
+      "recordCount": 100,
+      "recordsSha256": "65f9cd9ae4943cbbf48d5f946cd848e92091de72fdb0f419fca4912d6882a407"
+    },
+    "ItemDamageTwoHandCaster.jsonl.gz": {
+      "recordCount": 100,
+      "recordsSha256": "9e25975a93f6ff9e6fa0fa4ad5582b165e64f530356de28ddce1ebd0d65b0cc5"
+    },
+    "ItemDamageWand.jsonl.gz": {
+      "recordCount": 100,
+      "recordsSha256": "4099f9d3b0725ec6f0670813404e8e6c4398d31bb23c77b7ffbf607f15c0041b"
+    },
+    "ItemDisenchantLoot.jsonl.gz": {
+      "recordCount": 54,
+      "recordsSha256": "333fc484eebea149d03bf60fa75836fd35f5c098435496a6c330a498bd857f34"
+    },
+    "ItemDisplayInfo.jsonl.gz": {
+      "recordCount": 42453,
+      "recordsSha256": "61520862dace14344aba7576f962ee780bb76c8edecc2ecc06e46243a5a21d0b"
+    },
+    "ItemDisplayInfoMaterialRes.jsonl.gz": {
+      "recordCount": 55545,
+      "recordsSha256": "c61f58756e7800e22d6354a4cafaee42c6489c5495185a1b7032b473c64750a0"
+    },
+    "ItemDisplayInfoModelMatRes.jsonl.gz": {
+      "recordCount": 11093,
+      "recordsSha256": "65bc11a8361515b2356189a312cb7063bddc72595de7d921cac80ddb9077e0ba"
+    },
+    "ItemEffect.jsonl.gz": {
+      "recordCount": 12619,
+      "recordsSha256": "b648ca7d9efdd071b6f868d941bb4a3029460e4720736dc934bcf8012e2bf9e2"
+    },
+    "ItemExtendedCost.jsonl.gz": {
+      "recordCount": 1101,
+      "recordsSha256": "1eb50508da24ea0903ec663ba7afe94237146da968c1ee3cf9cb2987daf7f9c7"
+    },
+    "ItemFixup.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "8cd29723c82a0a3abb8a901fc57c4aebb48b0f28942d683d921fdbb5790fb48a"
+    },
+    "ItemFixupAction.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "7e024473aacd78b323e7b6b754344b196672bf366cf3d7d3471a026aebc4462f"
+    },
+    "ItemGroupIlvlScalingEntry.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "daac050dca0f1b9ea64e950925e3ae56aa2bded76034526ea94c5cee23bc098d"
+    },
+    "ItemGroupSounds.jsonl.gz": {
+      "recordCount": 24,
+      "recordsSha256": "93f706e6fad4ee97b071db192a46f98b5c7057e80c369e84c2fc3c192a39ebc7"
+    },
+    "ItemLevelSelector.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "f5a2a0d0f222786512d777601c557c188ffc805e75dae8c63691e589fa151577"
+    },
+    "ItemLevelSelectorQuality.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "27f1c4f0a7d29c330bb63a0d3ff4c60d5e8f923a6f575e7e468d19944fcb8451"
+    },
+    "ItemLevelSelectorQualitySet.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "ac9d337b9b462635bdf724e9ccb31d5cee3d49641411cbe5e02de006e7bf9f3b"
+    },
+    "ItemLevelWatermark.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "4dc650c628631ac1fe8273d0c4933042ecf0fb7974399c7e066fde40e7617138"
+    },
+    "ItemLimitCategory.jsonl.gz": {
+      "recordCount": 51,
+      "recordsSha256": "4271a8c728340c6275cac88f0a06ae52a39b16c9b93ee033ab4d1357496498e8"
+    },
+    "ItemLimitCategoryCondition.jsonl.gz": {
+      "recordCount": 1,
+      "recordsSha256": "db9e7167d9169287de09d9cd3cd2ffaec68515dff258a9bde9dd2265d43166aa"
+    },
+    "ItemLogicalCost.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "3f0a4b55e641a4d354ed2e8a67e3ff77a4bc0a4fe13d98998ca2bc12e9ebcc46"
+    },
+    "ItemLogicalCostGroup.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a9a88c19f8e21661a6d379ae6a5308a866de1960ded40b06dbeafa2b4f6c25a6"
+    },
+    "ItemModifiedAppearance.jsonl.gz": {
+      "recordCount": 16752,
+      "recordsSha256": "d349274ee11ecd2e03fe2cbf8a3083203ed58d14e32a1f3ee88cee17bcc77be4"
+    },
+    "ItemModifiedAppearanceExtra.jsonl.gz": {
+      "recordCount": 42,
+      "recordsSha256": "fba92f4855e1f2c8be9f2f6ac5246ae807a772b768b81f21cbcce6aff9707879"
+    },
+    "ItemNameDescription.jsonl.gz": {
+      "recordCount": 92,
+      "recordsSha256": "1d0493b8d5ffe1b94749721e5cda941ed45d497a244da17c83bcedcc470dc824"
+    },
+    "ItemNameSlotOverride.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "749f1d97d6e0634be352e0f7a021fd7d9e61c38c01c73e74c769c60063368ecf"
+    },
+    "ItemOffsetCurve.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "da4b94d22744a6f5c7a6f901796047ebbe8f1c67b49a96d075977a8ea777d8e1"
+    },
+    "ItemPetFood.jsonl.gz": {
+      "recordCount": 8,
+      "recordsSha256": "c4cc8fbe903454c8c46e9303c6f6affab3eeb73ac8cbfa1806cdcd71f015b7b5"
+    },
+    "ItemPriceBase.jsonl.gz": {
+      "recordCount": 1300,
+      "recordsSha256": "2251aeef9876be7041f38f0c4d590728cc26bd26eb9121f44bfb0fc8961851fa"
+    },
+    "ItemRangedDisplayInfo.jsonl.gz": {
+      "recordCount": 32,
+      "recordsSha256": "db4d2a071ba42f4660bcd8fcab50070e017367d64f1488279e00a3115bcf0109"
+    },
+    "ItemRecraft.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "0632448a9e4e694dde48d7ba4cd1f86219445cf084cd603b229b5fafe3ebc208"
+    },
+    "ItemReforge.jsonl.gz": {
+      "recordCount": 112,
+      "recordsSha256": "a8db209d0007f0964d203b08d573b94391c9efea11e602dc188434737f5f1836"
+    },
+    "ItemSalvage.jsonl.gz": {
+      "recordCount": 16,
+      "recordsSha256": "9be82200e80bcde3effc60d83fc1880ab0ccc6bbf96072bb2fc098b156d84131"
+    },
+    "ItemSalvageLoot.jsonl.gz": {
+      "recordCount": 524,
+      "recordsSha256": "35ef35230ec3db75ffeb7eb8f8047e00703f0898d01fadbb972fb7a0c27a0cad"
+    },
+    "ItemScalingConfig.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "8a9edd530d8e528b300eae133f9c63cb8c5ed9712520e1eaef270d12ac41a8f0"
+    },
+    "ItemSearchName.jsonl.gz": {
+      "recordCount": 6624,
+      "recordsSha256": "bd0fd267491b697b4e7c92999681c58fd0b22064dc838f0944770196ebe90176"
+    },
+    "ItemSet.jsonl.gz": {
+      "recordCount": 536,
+      "recordsSha256": "720136b03198c6a838fdc61b7905aa40fd13eb730df0dee3610fc51c0b489487"
+    },
+    "ItemSetSpell.jsonl.gz": {
+      "recordCount": 1477,
+      "recordsSha256": "7435c3c59f52afc68376d79d092965dbfb15e31f034ad0d4e493f4013ccb7fc0"
+    },
+    "ItemSparse.jsonl.gz": {
+      "recordCount": 19245,
+      "recordsSha256": "18f9f4e04688d2b834edd72e6600f71763a446ca0405fbd19ac414494fd193bf"
+    },
+    "ItemSpec.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "67f892fb79ba865c898d8d3d575d6550c8dc87df34545540ccbf9ffe9fc412dc"
+    },
+    "ItemSpecOverride.jsonl.gz": {
+      "recordCount": 9,
+      "recordsSha256": "c4c02454c472275cbcdbde0e4589b2430e9898f70f6bdf8828c9cc9344ea3ee4"
+    },
+    "ItemSquishEra.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "c884ef7de4dea21b53a3164727f189e556fe48ef235aa39c860e3923a9fafd53"
+    },
+    "ItemSubClass.jsonl.gz": {
+      "recordCount": 100,
+      "recordsSha256": "17f017d9f301bdaabfb17d855990496ef2295122feb5bcc2db291f3821dde681"
+    },
+    "ItemSubClassMask.jsonl.gz": {
+      "recordCount": 3,
+      "recordsSha256": "7985d82331a24d4320bbec3894c124c280e9662430842cff4f30cb1956870339"
+    },
+    "ItemVisuals.jsonl.gz": {
+      "recordCount": 130,
+      "recordsSha256": "dc7061bb19c4fd25a95dc8ea0bb4d4c2410e786c22d9dc2ac5474c9914bf26ab"
+    },
+    "ItemVisualsXEffect.jsonl.gz": {
+      "recordCount": 501,
+      "recordsSha256": "1f6769ac915c4e0ab0c99dc102cc2bb6540609306b850edb84792ee9db47d489"
+    },
+    "ItemXBonusTree.jsonl.gz": {
+      "recordCount": 2050,
+      "recordsSha256": "23d02585ba627c1fc136fd605be86ff7637390204a1ee6f542571b2c6034623b"
+    },
+    "ItemXItemEffect.jsonl.gz": {
+      "recordCount": 12611,
+      "recordsSha256": "594ecf8c87cd9a647ebe7b91eebf766c14bed831befcb5c09ecf6d30e79b9daf"
+    },
+    "ItemXTraitSystem.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "f70e1952b42f27023ce15c372978162e712d47b407d995b52ecf073305243863"
+    },
+    "JournalEncounter.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a833d9439872c54cbc4268d8c7b2586ea0a1bebe6d8874c3113cfdc84f749ac6"
+    },
+    "JournalEncounterCreature.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "59c67a4954fa956880c36568966a0f9f2928b863a98a8c52d48068f97798537b"
+    },
+    "JournalEncounterItem.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "2835d257d05bb5bc21d579f951a5c97faea0f02d96658f15ca9e776306b9712f"
+    },
+    "JournalEncounterSection.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "c1f298f4a61ae02a4ea4b44c455364f59f4d9bf5b9d73a8def71fb5253171e7e"
+    },
+    "JournalEncounterXDifficulty.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "867ee1712f5abbb32507fb7e1a4d9972f054304c5c24239729415e07aa72b8d4"
+    },
+    "JournalEncounterXMapLoc.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "054b20b4ffdae3f37e4b956f6bffaffb57e83138ce9d53974865f949f5a84858"
+    },
+    "JournalInstance.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "8c55d485b5659d4f83e72042f300326c2f6293c99bd4893bf86927043877390e"
+    },
+    "JournalInstanceEntrance.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "042e6c8b5974cc414677c1a3245f9394b423050e7684823f60df1281079e4666"
+    },
+    "JournalInstanceQueueLoc.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b21918af505659d2bcbfeb6631a839aba35939def7fb5a889b77daa5fbde1cb6"
+    },
+    "JournalItemXDifficulty.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "1072b6f88353d84818b79cddd905c7b91ea87e8c9409d8d26e602c81e0811098"
+    },
+    "JournalSectionXDifficulty.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "0e21369e49a50944228a7c405724b18a300c67d88b73234e67314f8acbe60225"
+    },
+    "JournalTier.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "8531260bf2132eedc0c0ad45e4994433b2a2a965499f0ca0026ee07033602ba7"
+    },
+    "JournalTierXInstance.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "6e1a5e9a911af7c7ede20cced333507fbfe14a7063bf64e23fbdf860c8dc8fed"
+    },
+    "Keychain.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "4721af0ca83fe4da2eeda8d0fea0c319f759e8d539bdfcac59682a6677970b19"
+    },
+    "KeystoneAffix.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a6e8998e9ad5fb2bd6d03d526932f455074be92a97c331efbc27a873ef65b52d"
+    },
+    "LFGDungeonGroup.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "0e013d0952141a56a570dd2133673422da2fe028efead6beb37e7ab79811561f"
+    },
+    "LFGDungeons.jsonl.gz": {
+      "recordCount": 71,
+      "recordsSha256": "d0c51078342fd70374d99fb56be463badeaf7d9af196cde2551f0a7f25e3e91c"
+    },
+    "LFGRoleRequirement.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "ab03f622772a7587a64bc36deac6386d4a41016ee24d77ee4738ca080432d0d7"
+    },
+    "LabelXContentRestrictRuleSet.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b309cbff55859c9e91fbfa2daf34d26e6801c31cb3b7cff9d58735727b9d4929"
+    },
+    "LanguageWords.jsonl.gz": {
+      "recordCount": 1583,
+      "recordsSha256": "6375911f54c762a4bab9c75c095dee02c9b89cffc56bf9871297ff4f8c33459d"
+    },
+    "Languages.jsonl.gz": {
+      "recordCount": 15,
+      "recordsSha256": "98706fcb6dc2b23e8be9da1941a3928169476ab7a54318285df3784c34f1cc19"
+    },
+    "LevelExperience.jsonl.gz": {
+      "recordCount": 123,
+      "recordsSha256": "97a2b4e7529cc4886142097b37c7552189417ebf73b7c401c4ed740206de916b"
+    },
+    "LfgDungeonsGroupingMap.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "9d37fca9ab2a467df311f468ab664241e32c0edbb150953321f291f31ccc126f"
+    },
+    "Light.jsonl.gz": {
+      "recordCount": 629,
+      "recordsSha256": "6bc7a5fd3d1c72a222a171a1dff44c411db38bfb54a8cdeead2ffecf1696ec75"
+    },
+    "LightData.jsonl.gz": {
+      "recordCount": 5607,
+      "recordsSha256": "1cb7bed73eae156a0b6ec03904bee594197b6969e1d35c891436945720791caf"
+    },
+    "LightDataGlobalVolumeFog.jsonl.gz": {
+      "recordCount": 10308,
+      "recordsSha256": "7bfffa1acc2b01a61b0033409a2468fbb17971f208b5e02721b6dd4ccf8d5d53"
+    },
+    "LightParams.jsonl.gz": {
+      "recordCount": 849,
+      "recordsSha256": "9fbd3b7a1276e6a2c2b86a7b9f76a867211d153ccfcda544481439b2a9af65b2"
+    },
+    "LightParamsLightShaft.jsonl.gz": {
+      "recordCount": 8,
+      "recordsSha256": "57c239b786641244f496e446f259ea88c7a0f81217d0df0e493b9528ba2f2b5b"
+    },
+    "LightShaft.jsonl.gz": {
+      "recordCount": 8,
+      "recordsSha256": "fe7be8d873162fec7b133aa7314a614c8d6f034c6e7c21a3c6e0db406d3ac42f"
+    },
+    "LightSkybox.jsonl.gz": {
+      "recordCount": 27,
+      "recordsSha256": "1133c428e8192696a0a0c6619f28ad18527aa89e822b88f7311d1dff357fff7a"
+    },
+    "LightWorldShadow.jsonl.gz": {
+      "recordCount": 7,
+      "recordsSha256": "3eff2b67bb9ccba7738dceed2003ed55e7c5c2f49a1303bc8096d77527d0e9e9"
+    },
+    "Lightning.jsonl.gz": {
+      "recordCount": 1,
+      "recordsSha256": "35c03c4669789a9860ad0c0b0b794ddba1baabf558c4eaa124e4923860b614dd"
+    },
+    "Link.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "55d9246d328194067766fec15f04991dcced1fd9c313e38d8fda5f3de7a6bac6"
+    },
+    "LiquidMaterial.jsonl.gz": {
+      "recordCount": 5,
+      "recordsSha256": "70c837b90562688fe148adfea2b2b5b39bc87237e484faeac7d1b06ef0d89f71"
+    },
+    "LiquidObject.jsonl.gz": {
+      "recordCount": 1270,
+      "recordsSha256": "f6a4e3395bb5ea2278e71efa642cb6662b01077c079d4555ea1a00eb38cffba4"
+    },
+    "LiquidType.jsonl.gz": {
+      "recordCount": 57,
+      "recordsSha256": "dbb3e3369a936966cf2e92a440e894a781fba1c593d566e0af79eb55360a8559"
+    },
+    "LiquidTypeXFFTTile.jsonl.gz": {
+      "recordCount": 65,
+      "recordsSha256": "9c33a397ec40aa246a0cd8fd59735867016194c84371920daeeb26821d9d101f"
+    },
+    "LiquidTypeXTexture.jsonl.gz": {
+      "recordCount": 1139,
+      "recordsSha256": "092b9dfabe9c10ffbe1b0a0c7e3cccd0e1ad17b3dff92a99ab8ad51d6ae443b4"
+    },
+    "LivingWorldObjectTemplate.jsonl.gz": {
+      "recordCount": 2,
+      "recordsSha256": "10bbe89cbe1f74e47769bf8cb06f37e2f497643a2c197ae801f7917f7711184b"
+    },
+    "LoadingScreenSkin.jsonl.gz": {
+      "recordCount": 1,
+      "recordsSha256": "94ba73ff366d25ba1567582488431583e743718e23ab02edb3c30fc2fc6a4847"
+    },
+    "LoadingScreenTaxiSplines.jsonl.gz": {
+      "recordCount": 18,
+      "recordsSha256": "8f318293147e752e19d231574e0977053b1cd9b83ee64e16026f9a3072f7a708"
+    },
+    "LoadingScreens.jsonl.gz": {
+      "recordCount": 55,
+      "recordsSha256": "9ffde5a9bb9992fbd6f074f6ea4ec33483839ce869a3d527602862e1c25637a2"
+    },
+    "Locale.jsonl.gz": {
+      "recordCount": 13,
+      "recordsSha256": "9052b4d6947e85caebfd152e74331408cf8c9e22dd57a4cbfa855039bc3f1bed"
+    },
+    "Location.jsonl.gz": {
+      "recordCount": 99,
+      "recordsSha256": "c65b52efab5e906f9d97c9a04da0d7bd243d1970315646b354e8bf9118a6fa67"
+    },
+    "Lock.jsonl.gz": {
+      "recordCount": 311,
+      "recordsSha256": "85fbf7c0926b03d6f931d2f556d65145093e3b6ad99fb2db9f9802acca4f5023"
+    },
+    "LockType.jsonl.gz": {
+      "recordCount": 23,
+      "recordsSha256": "0afce5c72a1a8cd2a407a0f593bbf25f9b7a25ddf1e05a3ff89a08fe383d7b68"
+    },
+    "LookAtController.jsonl.gz": {
+      "recordCount": 8,
+      "recordsSha256": "c1d04111f5d1411ea47b14c3e65ab2d7e9a90a9258ce94f2a3f9efbbd02aebe0"
+    },
+    "LoreText.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "0e7006b7508fde7691bab77445db38733ae9602604c58ce063cd73c7232a1124"
+    },
+    "LoreTextPublic.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "11cd834ea75cd192e56be44e58249704fa0a246e72a3a90c38dd2fb5bd3a3f8e"
+    },
+    "MCRCurrency.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "5d0d1fd2296d53f9af4a3e5272b5553a15d4a3d562ce2bb41993ac84db72adef"
+    },
+    "MCRSlotXMCRCategory.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "7171bd22e8b043fe6a4b9dd5e85726dfd93519df80d8042be36403b84d019637"
+    },
+    "MailTemplate.jsonl.gz": {
+      "recordCount": 111,
+      "recordsSha256": "9bdf80cbcefae4e79e78719f5a916bff9b19cbf510ac442ba4bef5c676497ef1"
+    },
+    "ManagedWorldState.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "dc0a6c7ec0a95cfee66b93a47b047273881e6f65ccd8c1da7928630611cac80b"
+    },
+    "ManagedWorldStateBuff.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "817205c59adf0afd696ac5cf4c286776af9be267416d569fc19ed7e9974e830b"
+    },
+    "ManagedWorldStateInput.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "1d7e32ed1eb68622eedc3b6825c3f8abf951cc2df6e4e70d06a329da5936f2ae"
+    },
+    "ManifestInterfaceActionIcon.jsonl.gz": {
+      "recordCount": 2688,
+      "recordsSha256": "49a471f1148e6742851d4e0a4c92064b83120383c55bfa7bd33c5634b9ef57db"
+    },
+    "ManifestInterfaceData.jsonl.gz": {
+      "recordCount": 134289,
+      "recordsSha256": "8984245794c544898a1ef4e0e20dc89eed5f781b8ee0a2609db6263a6761218d"
+    },
+    "ManifestInterfaceItemIcon.jsonl.gz": {
+      "recordCount": 25065,
+      "recordsSha256": "401be8ac765a734037ddd7789175de9445a593a22b3245f59ab988c591aa803e"
+    },
+    "Map.jsonl.gz": {
+      "recordCount": 71,
+      "recordsSha256": "981ee7dd906305a200a7e71a5263efacd00a01948310842097148c13b8313725"
+    },
+    "MapCelestialBody.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "551431de0b662ce76064fb3c5e110ed5ab0cae7a868fd9f6fa5b519a6141411b"
+    },
+    "MapChallengeMode.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "76c0fd7db8cdb220109b21f767e5480630eea68ed340d424f34d668f4b1203e5"
+    },
+    "MapChallengeModeAffixCriteria.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "efc25db9a70b510a2cf7de285394412e7c6904cb95eb3dafd4e47bf39b8662e9"
+    },
+    "MapDifficulty.jsonl.gz": {
+      "recordCount": 140,
+      "recordsSha256": "1495ca8b742d990cef31dbe560553dd21b00840d1728186260bc77d3ff58a399"
+    },
+    "MapDifficultyRedirect.jsonl.gz": {
+      "recordCount": 48,
+      "recordsSha256": "93ea57a9a29645ae6502a93758c08dfbf5b0f0e2f5823b9961df2ee41e7e9d7d"
+    },
+    "MapDifficultyXCondition.jsonl.gz": {
+      "recordCount": 231,
+      "recordsSha256": "d62f3fcaa6ad5525c4ed8de723fd6de76b8a05c6016e48fea6a42b0079d4d03d"
+    },
+    "MapLoadingScreen.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "13f21a2c43a698028b1eb087737b6a63c0d817e25323cfdd5819a645021fddb1"
+    },
+    "MapRenderScale.jsonl.gz": {
+      "recordCount": 3,
+      "recordsSha256": "e48bb6c1a983c0ae8cfce850579a5b0af776fd90f6533ac510e968a2615e0e5f"
+    },
+    "MarketingPromotionsXLocale.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b2ed1a044a138a29afef18299f295e1568d30d8dd130bf7ccaeab6d46a31750d"
+    },
+    "Material.jsonl.gz": {
+      "recordCount": 8,
+      "recordsSha256": "fbd28504fb6a7eae6568988b2449d866a14ff959f7c0b80f034ad9aa9c8243a2"
+    },
+    "MawPower.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "fb1483a9064f00d56df4e50d79a12037d4e4f47d5f652026bb122ba905c28254"
+    },
+    "MawPowerRarity.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "1a717c20a5bff2561e6cfd44c099485c3dbfb27f47f1a70a849b6df27ed8f29b"
+    },
+    "MinorTalent.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "57476ff5d20091036b84650b341435339f23a95e5ec54bc1a12111fb2b6c7aa8"
+    },
+    "MissileTargeting.jsonl.gz": {
+      "recordCount": 154,
+      "recordsSha256": "793895ccd70e30d6c51f1ba67ccd7881212500b0dbb3d0a2d2bd7e1e309fbc23"
+    },
+    "ModelAnimCloakDampening.jsonl.gz": {
+      "recordCount": 235,
+      "recordsSha256": "3480e53ff618c4bc708ed0e09ce1d87352d72317de45738f0d0a73ee7148506b"
+    },
+    "ModelFileData.jsonl.gz": {
+      "recordCount": 121106,
+      "recordsSha256": "7340de683e9705b6b37a2ccba9dbd93c1264f35b332f31bc46cc84d8095c69cc"
+    },
+    "ModelProperties.jsonl.gz": {
+      "recordCount": 1486,
+      "recordsSha256": "3d31e365be140560eebeae8cb2e1fd845d4d9176e99d95f034b6139aa51ae5ca"
+    },
+    "ModelRibbonQuality.jsonl.gz": {
+      "recordCount": 23,
+      "recordsSha256": "5c3a70195cf951b10908a8083afe4bedf23101de217ba25a2f7e392d1fc3f45a"
+    },
+    "ModelSound.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "fd8dbc266901e30c63b000e35b4d375e8db6427dc3e24829ea444f911fe46e05"
+    },
+    "ModelSoundAnimEntry.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "431bb52c6a7e9c0a569755f96e778924b71515cd7e53305b722ad1d769828e75"
+    },
+    "ModelSoundEntry.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "bf2775c0df9c621f0b77e6b14f6bda7d0ceac07be0a1cd85d1cd15f1ce6e1b56"
+    },
+    "ModelSoundOverride.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "aba772b171cc9a87ec7bbceb06a60dc194bcdbb40a69f7505d3845abc866007f"
+    },
+    "ModelSoundSettings.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "407b0774b515cd8d4f7ec3ef391b4209c3fbe958c691a7c07ebfcb152637b59d"
+    },
+    "ModelSoundTagEntry.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "d18a968e2c0656904833022cdb74922fd373c7f97d4d9ba7513b7f4b4eeaac9a"
+    },
+    "ModifiedCraftingCategory.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "91238db91110331b138a9db1e92b802242a375887bb8861024e1be1ff39d5a0e"
+    },
+    "ModifiedCraftingItem.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "22e008f8b4f2eca8e711bf914b5683b587971c67d71d637ecfb52f94b7376486"
+    },
+    "ModifiedCraftingReagentItem.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "50e8a4489ee9af1544bd1373354dd7804ff86108b185940aed00d838d3f2c85a"
+    },
+    "ModifiedCraftingReagentSlot.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "fa6ed166d430ed19401bd37596fe907035503bc4d1e6a38157c52152adb0a6df"
+    },
+    "ModifiedCraftingSpellSlot.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "ca8b453e3a7a13916229bdc3803cd8325ff48cd5b0a6c23035e458ae3999f0f1"
+    },
+    "ModifierTree.jsonl.gz": {
+      "recordCount": 2824,
+      "recordsSha256": "a860b155331c48d8f4a45213a3d5f65cca74935486c2d5871ef6294441badab5"
+    },
+    "Mount.jsonl.gz": {
+      "recordCount": 141,
+      "recordsSha256": "e58508ed1f84a9b547614d4f2a68ce97947147c26f7df74b4e68cfacc619b886"
+    },
+    "MountCapability.jsonl.gz": {
+      "recordCount": 26,
+      "recordsSha256": "c55bad31c5e11e4b68865ed3c8bbd173ca651fbc99583bc0476b3429cce6c199"
+    },
+    "MountEquipment.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "63612977f3dd8d96235056e339973d2a1ceadcd680cb46419767a3977780df05"
+    },
+    "MountType.jsonl.gz": {
+      "recordCount": 29,
+      "recordsSha256": "25a3ebbf5133b1fbc689f4791dfd4694a613e4e5c067e3d6584575ca75e4f733"
+    },
+    "MountTypeXCapability.jsonl.gz": {
+      "recordCount": 30,
+      "recordsSha256": "d6131c84e9090383c4afa9220f925f9b018a215bc762dc930c72b48ff7f0312e"
+    },
+    "MountXDisplay.jsonl.gz": {
+      "recordCount": 216,
+      "recordsSha256": "0f896dbb3feb6e3b7d8bdf9613605fce54453014ef20ad2917268d60ddcafeef"
+    },
+    "MountXSpellVisualKitPicker.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "4a189ce2df29e94d059db3445052556f3054cab4d910725dd534605669b15a9b"
+    },
+    "Movie.jsonl.gz": {
+      "recordCount": 3,
+      "recordsSha256": "c22388ac72c3c48bf094d7bde978ee99c4cce362db065a61482043c90da6499f"
+    },
+    "MovieFileData.jsonl.gz": {
+      "recordCount": 6,
+      "recordsSha256": "5cade49a0dcf0d4046105e541a8d19e8d0923a19f2573d9f5521291362e5b34a"
+    },
+    "MovieVariation.jsonl.gz": {
+      "recordCount": 6,
+      "recordsSha256": "b89df867f80b3ebcfca4855cb21de7c66fcba04251ce46f9abec3a9edc8c1cd4"
+    },
+    "MultiStateProperties.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "5fffd0ca103eab8c52bbf6bc7ed10d0a7c3b6e5b199c12ae759a0a40b2cd15bc"
+    },
+    "MultiTransitionProperties.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "d0d4cf1f3754553616311b7e2152f930bfa765457fda472bf9d6e7e0a5c73637"
+    },
+    "MusicOverride.jsonl.gz": {
+      "recordCount": 23,
+      "recordsSha256": "545a773c6334c4dae93fc9eeffd747f3e51d3266e1262e4c5a846f63496aeb10"
+    },
+    "MythicPlusSeason.jsonl.gz": {
+      "recordCount": 1,
+      "recordsSha256": "4f9753b628ed76afc318cb548534f2f37b9c4500dfd91925d88991714147d966"
+    },
+    "MythicPlusSeasonKeyFloor.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "4e1beaf3aa2dd5c64489bc2b15bd33b28f9bfdbddd9c9ff0fd18cf0a44567f9e"
+    },
+    "MythicPlusSeasonRewardLevels.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "87383dd94f03498dc9a5bb3379f959cae0e3a4506c9f10fb2c6a9f84e20b949d"
+    },
+    "MythicPlusSeasonTrackedAffix.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "1ee51ea36ff93ba7b5b108132278a69dfff90bcf8cc96f045c617ff9d3048aae"
+    },
+    "MythicPlusSeasonTrackedMap.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "14bdb02c277a6f4be9102afa1bf0ee13719b08573cca42da35569623654c9672"
+    },
+    "NPCCraftingOrderCustomer.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "2d2d6eab105633241dc552dc63543efb0125164e462ef66e9242ea210441d9bb"
+    },
+    "NPCCraftingOrderCustomerXLabel.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "1cf01276b588f0795cb3b149283b475e002816ca9353989679195a19e6cc4a83"
+    },
+    "NPCCraftingOrderSet.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "5d7c36c2c9338125aabae90392090634847e00513a08db1df731538ba35d7e4b"
+    },
+    "NPCCraftingOrderSetXCraftOrder.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "596b136443813a46857bc32eb315cf69a4e1e0da2e936f74acc1b85eba685b61"
+    },
+    "NPCCraftingOrderSetXCustomer.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "c27e3679a021936eeab63f3eaa5a3749d1b187f226339cc6beab092bfa59f6ca"
+    },
+    "NPCCraftingOrderSetXTreasure.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "763fc5b9f85c1cf4887c0058aa37e0bf75b6751598f013aa0689e1b4540c072a"
+    },
+    "NPCModelItemSlotDisplayInfo.jsonl.gz": {
+      "recordCount": 53089,
+      "recordsSha256": "fcafd9397f8c89584a3fbc61547f0aa16a4a61d17e85683cda4770a87b30173e"
+    },
+    "NPCSounds.jsonl.gz": {
+      "recordCount": 195,
+      "recordsSha256": "fc90011826f3b285e1636445205fe28a4aa7604b9c04336d97c9d0318423e8c4"
+    },
+    "NameGen.jsonl.gz": {
+      "recordCount": 2738,
+      "recordsSha256": "320fcafa2f8fc854915d418f18c72e5c828fa6149f86cfc4ea038ed76664281b"
+    },
+    "NamesProfanity.jsonl.gz": {
+      "recordCount": 6595,
+      "recordsSha256": "8af1ee7b2fbbb15c7fb6c7e75541230f85199517dd7388a779e7788098a4e0cb"
+    },
+    "NamesReserved.jsonl.gz": {
+      "recordCount": 2559,
+      "recordsSha256": "a125bd6d83ca40faccc68035ecce38abe182364875f96774c5c092b4466ad78b"
+    },
+    "NamesReservedLocale.jsonl.gz": {
+      "recordCount": 2,
+      "recordsSha256": "abd0c431f7c92732db95990df520723cb0c6ca7855f3848aab386c92d786b346"
+    },
+    "NeighborhoodInitiative.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "8746989d1c9ec54a7a19483dbb28ac52c1a7f1a7ef3abc2585e96b8ca404bbbd"
+    },
+    "NeighborhoodMap.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "aa93b818ca99c7b27ec4a92abc4b102992186facc091c2d4db50efe4c69a0785"
+    },
+    "NeighborhoodNameGen.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "e29559d28df4781280a28ad26b6abe99ec42e71dd42ba60dd076bdea9b17461c"
+    },
+    "NeighborhoodPlot.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "841c6e65d8e5dcb577994c366e5497f8b20ded8dd11b8dd4bafdbc38b17f9e81"
+    },
+    "Node.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "f71f6aa4040893c61d63182b7c303df10b0498d4110dbe0c58ab639bcebdd90c"
+    },
+    "NodeGraphParam.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "d4f6e6f3afa29a048e50db5787ba161d266f3c2e4fc0faa3fb6a8b3e822c57a5"
+    },
+    "NodeGraphParamValue.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "05d8aecbf6e1ac973db9e4a5625696bcc8ef9cdf822f030cd06208f9181d179f"
+    },
+    "NodeTemplate.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "0fdfc1b0132ca1b20be8787041dfc7ffced19b51f9fead7aaab31b0efb55df5b"
+    },
+    "NodeTemplateXPinTemplate.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "58cb65ac79dca5b6b1771c64c0c6d5e56294ae5b8044615cfff03f04a8e9259a"
+    },
+    "NumTalentsAtLevel.jsonl.gz": {
+      "recordCount": 80,
+      "recordsSha256": "abef582e41ca22f5afc21ad159b264b4da8083182c9a537e7c2ed84e7805c22a"
+    },
+    "ObjectEffect.jsonl.gz": {
+      "recordCount": 67,
+      "recordsSha256": "9d30a82d9fa09799428c968bebb3d2b76b9e9f470b5261594befbec1f494cb3c"
+    },
+    "ObjectEffectModifier.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "14940a8d50b8dfd1b7e0c89ea4138825395f2615e8facdf9193e0804ceeb15dd"
+    },
+    "ObjectEffectPackageElem.jsonl.gz": {
+      "recordCount": 59,
+      "recordsSha256": "73b0c595cbcce9bed130d7343ca444a11de0359e0e517a6be3db59bb5cc062b2"
+    },
+    "Occluder.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "5231d4f579df961b6a13d8e4e11d4fe0f2938ed27c6f3090c9361d16bbc0c3d9"
+    },
+    "OccluderCurtain.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "e92e596151ad3a913a98ee3362e671d17c4e3bd8588981fc00e74232f9073f44"
+    },
+    "OccluderLocation.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "00471012a4b8fb475219aad355a295b4257f1b60503d424f9c8f670666517296"
+    },
+    "OccluderNode.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "aba57248f57c3719320bcd0bdecff8e2d5f59452ed582c409b5e307cd27b741f"
+    },
+    "OutlineEffect.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "78eeb93af3d6dff5627600013a36325be02e5866ca7eaac9f23c6eb8426a834a"
+    },
+    "OverrideSpellData.jsonl.gz": {
+      "recordCount": 1,
+      "recordsSha256": "e6f67e6ad67c4b6d89aa77fedea7bc76d4f40d35748104885c2d80284cfb3a12"
+    },
+    "PVPBracketTypes.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "15ac6ac5a3712f8e5034b5a73eded88898b39980030cb0c8c28859f8170c6246"
+    },
+    "PVPDifficulty.jsonl.gz": {
+      "recordCount": 25,
+      "recordsSha256": "31357b7a25c4b963bb60b91f97e739ec3a20bcb9189e4fd07177302932997869"
+    },
+    "PVPScoreboardCellInfo.jsonl.gz": {
+      "recordCount": 5,
+      "recordsSha256": "4216c3111455036535418c5a201cb7fb7f436ed7cd6532bd601e9e9c2d6ef7eb"
+    },
+    "PVPScoreboardColumnHeader.jsonl.gz": {
+      "recordCount": 3,
+      "recordsSha256": "43c77e4f2c46c1915c8067e8622ae1f8e8b43a327e5aa4987a52591e2c1eb6e1"
+    },
+    "PVPScoreboardLayout.jsonl.gz": {
+      "recordCount": 3,
+      "recordsSha256": "93f0911698d944d7094df6557ca7574cf2d416b79d07c3d231c132580cb7a656"
+    },
+    "PVPStat.jsonl.gz": {
+      "recordCount": 12,
+      "recordsSha256": "e544b35898c6446e6d58dc734d37ecf1f674aa1b182f1880efbc324a78243c58"
+    },
+    "PageTextMaterial.jsonl.gz": {
+      "recordCount": 6,
+      "recordsSha256": "8b81ad689fc56c343ffdb8b59ccac85f7b3d573e7df92f0e8e98f4357e65fcd8"
+    },
+    "PaperDollItemFrame.jsonl.gz": {
+      "recordCount": 48,
+      "recordsSha256": "825520b2727959755fb0e0bedc0f7b9f13ee667a48cf82cf27433c03d07b133b"
+    },
+    "ParagonReputation.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "e295737ec0d91011742863f253499bbc95b41d235c9f2802e60ac6b2e126c893"
+    },
+    "ParticleColor.jsonl.gz": {
+      "recordCount": 1947,
+      "recordsSha256": "9f865478eb17d680f451168e5fdf18d39c9769156e5b82dd83fb3fd0599bdd8c"
+    },
+    "Particulate.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "e0a507df2ec02580fa379bbdd8e669ae8f0c68438e7640e85981a08abb422231"
+    },
+    "ParticulateSound.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "656e0fcb12c2ebd83f8db98f5c1defaa055e29831016a10e45c1100c6b9ff5c1"
+    },
+    "Path.jsonl.gz": {
+      "recordCount": 13,
+      "recordsSha256": "2c735df61114a62fc0f57d9ab31d248ee3ca133ef5a410f48389712394b23d8b"
+    },
+    "PathEdge.jsonl.gz": {
+      "recordCount": 98,
+      "recordsSha256": "da0039bd928bc827fca7c97311c7ca453ada861af18e8183ccd21867caa117c6"
+    },
+    "PathNode.jsonl.gz": {
+      "recordCount": 99,
+      "recordsSha256": "f9dad2da6ccc857dab03fef103ee59126250c0ee180f8d5bbc52f7b6187cdb99"
+    },
+    "PathNodeProperty.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "9e1a9ac8ddd26f0891621bcfc843abaa4066cb7de95f2b6f983bf84c96183531"
+    },
+    "PathProperty.jsonl.gz": {
+      "recordCount": 8,
+      "recordsSha256": "1650c8b0210ae1bfa84d89874e5ae742dce215fbc3f2442f472682589e3f1161"
+    },
+    "PerksActivity.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "446d3be5dec537804b2271605c042a5ee2f6eb7552576787ebce73f45ddef97f"
+    },
+    "PerksActivityCondition.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "6d0786f73e55ff5db685a0a7e022cf3c75ad0ce9ae416d188765fc777b36adb6"
+    },
+    "PerksActivityTag.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "6f3ab9f016ba22906121f8466d27358c80d12cd57536bced58c81442f318bc1a"
+    },
+    "PerksActivityThreshold.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "7d418a2a729247629747a5dc1912306cface1b5c2a70d712453b0b9744d4b392"
+    },
+    "PerksActivityThresholdGroup.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "0c612a049f27ad045e097f88dc99b71396c36834e1123925af403fbfb31af6ea"
+    },
+    "PerksActivityXHolidays.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "495106bd02c2ebd9ae4f4e49c5d8e2b224feed92aea83ce2a0edc21055fcf4ef"
+    },
+    "PerksActivityXInterval.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "fbf51e8b59fbf1af134d17b1cbd4156772b129eb7a11e8d74835de55e835ba4c"
+    },
+    "PerksActivityXTag.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b4dfa3ceea4b0929367bda69cd15ed4d3135f97ed249f07e2123887c9ebf1156"
+    },
+    "PerksUITheme.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "91f30405721317305f48df8140748106c30ae2b1a5503529572b85768e37b2ef"
+    },
+    "PerksVendorCategory.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "691266f9a9d05c436cc278929ef547e88bbf040cae0260698983cc4c3151789a"
+    },
+    "PerksVendorItem.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "eafce74e9030ac43acac9a99a8c2eabf8a1d904da7f2dec67e9a91f2754c0f39"
+    },
+    "PerksVendorItemUIGroup.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "c02446edc34a12bc78c11089589cafc4d5d9e719c5e8b4cb7fb8086c5328edd2"
+    },
+    "PerksVendorItemUIInfo.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "61823ca8e12adf8210dcd53f13a075d272097a45fb28e84c2521971f27e1d528"
+    },
+    "PerksVendorItemXInterval.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "69d8e7521a40b152097c45cc17ec26abb1365426c0a912ea74d1f8a3be0f7a12"
+    },
+    "PetLoyalty.jsonl.gz": {
+      "recordCount": 8,
+      "recordsSha256": "190b2c58e9cd5ffee7b65e39e7bc694f1df2131e404869240e323c93f9fdb2f8"
+    },
+    "PetPersonality.jsonl.gz": {
+      "recordCount": 2,
+      "recordsSha256": "386a365212aff97b5ed6faa2b2dc372fad4c2ac2e5f1b51af18567809fc6c903"
+    },
+    "Phase.jsonl.gz": {
+      "recordCount": 105,
+      "recordsSha256": "0c7c4d7b2a30102dcb8edf483244298afe23166136cedd855e53e93e9129175a"
+    },
+    "PhaseShiftZoneSounds.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a59ff18054062006196a12fc16a4725b0d3959d74603b1f1fc0f79e0114ab756"
+    },
+    "PhaseXPhaseGroup.jsonl.gz": {
+      "recordCount": 7,
+      "recordsSha256": "a25795230874b084ca4729ca4876066421d0e6288f1c14c3b3457312f45b725a"
+    },
+    "Pin.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "fee8bec6648826503672e5f616cba6e92d066c0a4413f77aac5737a789c2c151"
+    },
+    "PinTemplate.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "5d9098a1f22bec498625ecf04bc7e7afbe840ccb3f598ae94c91f706f3b5651e"
+    },
+    "PingType.jsonl.gz": {
+      "recordCount": 9,
+      "recordsSha256": "8e3db8de0f347a57214e208cd609f28fcc1cb3ac90599f28e21bc89a1d2b8941"
+    },
+    "PlayerCompanionInfo.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "3049c721ff141169ad8e37c94b9c27b39e50fe258ef00eafc699a057ca69333c"
+    },
+    "PlayerCondition.jsonl.gz": {
+      "recordCount": 1901,
+      "recordsSha256": "2e4b6c20d77318ce0b723983ad4ed8c59c7edafdb1dd5766259c3b4750190971"
+    },
+    "PlayerDataElementAccount.jsonl.gz": {
+      "recordCount": 3,
+      "recordsSha256": "3a0cb94224594dae02e030d14d6941795b8ce4fec1718ba6255a0d2ed6f79e03"
+    },
+    "PlayerDataElementCharacter.jsonl.gz": {
+      "recordCount": 8,
+      "recordsSha256": "aabe6f74699f7bda7f4de47e359da8900241e7f88f4a2a4ec55fe8576b45b56e"
+    },
+    "PlayerDataFlagAccount.jsonl.gz": {
+      "recordCount": 14,
+      "recordsSha256": "a571c724f1b7440742971e9b1c9105c88e1c82be003db8bcc32c8a29cecaa89a"
+    },
+    "PlayerDataFlagCharacter.jsonl.gz": {
+      "recordCount": 16,
+      "recordsSha256": "eb23bd2a040c07f171d1c21df245b01574c85355c4d5fbefc1b229b1feac541c"
+    },
+    "PlayerExpectedStat.jsonl.gz": {
+      "recordCount": 1107,
+      "recordsSha256": "ceb4184c0e5794d29ab8586514b613a00ef430e42bd6d792758a1eb75d29148f"
+    },
+    "PlayerInteractionInfo.jsonl.gz": {
+      "recordCount": 65,
+      "recordsSha256": "9624df4c058b2b763d32ef859ca699000c6ee0b7f77eb282a88744973bc9794b"
+    },
+    "PointLightConditionMap.jsonl.gz": {
+      "recordCount": 4,
+      "recordsSha256": "d2821787d2e7cc5a2148c946258d6761cdd3e26fdbab9a913e355cb4002ac905"
+    },
+    "Positioner.jsonl.gz": {
+      "recordCount": 179,
+      "recordsSha256": "44a4973ebc607a7b89b3f02e84aa1e5025f4a389a447c6c812a8c1cac8d23218"
+    },
+    "PositionerState.jsonl.gz": {
+      "recordCount": 181,
+      "recordsSha256": "75fb50883c9700fa61191bcee672dcdd47ce954718e27c2b65eb5bdd612bb6f3"
+    },
+    "PositionerStateEntry.jsonl.gz": {
+      "recordCount": 259,
+      "recordsSha256": "f85ccf49ff4cdb976b772713c848873f7c6a8a17491a14166e1280006a2b5990"
+    },
+    "PowerDisplay.jsonl.gz": {
+      "recordCount": 5,
+      "recordsSha256": "b2df9a25350c9b39fdf95b40090f7e6c5723c548c2f023ec18e800478b4a3055"
+    },
+    "PowerType.jsonl.gz": {
+      "recordCount": 6,
+      "recordsSha256": "759cf8cb1c6ec3cf1fe8786c0d637e2ac504f5ac1c0a6585f3d0786c392cc283"
+    },
+    "PrestigeLevelInfo.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "75bec70ca29d946efa93ef25f0bf1fa501c254c6bfa8f4258a03e15f9988bce8"
+    },
+    "ProfTraitPathNode.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "bcd78de2eb7627c4f0fed1779013eb7698e0942324249f5ef45fcabfd86f5ac6"
+    },
+    "ProfTraitPerkNode.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "ad54fa3b646665265e367447544128d4967a6678b04f05ee78ebea882328733c"
+    },
+    "ProfTraitTree.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "1a7378abc24b37630f12297d6507b27af8dd6579b41b9fd659e4c4e259cbb826"
+    },
+    "ProfTraitTreeHighlight.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "7a60e461a547e64b3a007b1658edd084d0d421247fdf96642039c8c68a77cebf"
+    },
+    "Profession.jsonl.gz": {
+      "recordCount": 12,
+      "recordsSha256": "18582d224bf5a5f446d8dfc879196866923a6730fa8023bb84bea59037145d57"
+    },
+    "ProfessionEffect.jsonl.gz": {
+      "recordCount": 1,
+      "recordsSha256": "9d41d813cbe5922bf19054908c4f0e8e71c39c689e7f8ff79f5f46c0c091dfa6"
+    },
+    "ProfessionEffectType.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "79fc9dcb77a98d8054db4ef8850bfab04680067d4ebc60800d0c1a12d04087c6"
+    },
+    "ProfessionExpansion.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "2e986398f8933dc8c4bbdc6186c4f114b2440ec9351c4ca6a0d0070c39c045a5"
+    },
+    "ProfessionPropPoints.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "e978e617eaa4f7ed580a353c07f8145fb1295c4057cc0a34b7f6a674151be27f"
+    },
+    "ProfessionRating.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "1b44bfeecbd17a47347c354cfafff74371438958afdd28647ab5cb87a69b2706"
+    },
+    "ProfessionTrait.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "cda39126580f20de3e151dd9a5822baf79795189cbe192d5f55623a1f9d40cd0"
+    },
+    "ProfessionTraitXEffect.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "3aee05663762862032fbb0fcb1aa03f3482599f53994329c3f56ab3f5f479e9f"
+    },
+    "ProfessionTraitXLabel.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "3c556db3b359d8298f762f0e109565fb90e0e9b819d1b8cb371567d714ba0760"
+    },
+    "ProfessionXRating.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "359ed027829d89e45977a64c823c8995e93b506c84f360f79732f970fb372ef6"
+    },
+    "PvpBrawl.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "193efea2b74a509c9a7b0f13d322a4996fbd2c371e7f7bd8c02052dbb8b29b73"
+    },
+    "PvpRating.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "87de7f85e1b605a4e12cfb04c02ae75122cb4ab317396e149d24ea93af11bcac"
+    },
+    "PvpScalingEffect.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "138f717392b4387cb44e897f6aa1b215bda292b90183e64e707f039c3556da9e"
+    },
+    "PvpScalingEffectType.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "bbc4664b7c06f29bfca0c7606710719b2a9a4c9eebede231c68deca05cbd9f99"
+    },
+    "PvpSeason.jsonl.gz": {
+      "recordCount": 1,
+      "recordsSha256": "95865ab1f74c197a6a4e11935fd3082ba101d30c1ebf1f1077a89e22a83c255f"
+    },
+    "PvpSeasonRewardLevels.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "f115a03cdaa61161e13d7a2ddc88b0af55797066a8672d08909f492c5e0872d8"
+    },
+    "PvpTalent.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "26d9dc96d0170da7323a210b10452bea055cab77d5b1e2eced8048cfd9e1ce33"
+    },
+    "PvpTalentCategory.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "017cd4ef45d203f62d1a370a59bbb6c3e16f65eeaec1e64805d5b4fbb4b4037b"
+    },
+    "PvpTalentSlotUnlock.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "32b59294f320ef06f99d34051d28a408910a50bb3b371abbcf0186a6a4e03c8a"
+    },
+    "PvpTier.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "c4fc3e1f473e14b30d1a9dc18fcba980c4bf6ef942917babc116b1707820f0d7"
+    },
+    "QuestDrivenScenario.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "1ef98fd157ed4702a6596041ab52391894f8cd2a39de0c01cf83117b9a6b3217"
+    },
+    "QuestFactionReward.jsonl.gz": {
+      "recordCount": 2,
+      "recordsSha256": "46988f8c3295991e9b82e18a953a6512e405af8ee3abc04c9851f97279b2670c"
+    },
+    "QuestFeedbackEffect.jsonl.gz": {
+      "recordCount": 256,
+      "recordsSha256": "83cea06da9b97c948656daa650ab6a72e67fb68d5df962728563bce76836a3be"
+    },
+    "QuestHub.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "72c278174a917c6bc60e5e5edc13700ed482b73c3e1a981ef9edb62f9b8b5a14"
+    },
+    "QuestInfo.jsonl.gz": {
+      "recordCount": 7,
+      "recordsSha256": "5d970e04cb34bec6098a32218d09755e6a0748b2a288281cb0ddf1bfd2737b3b"
+    },
+    "QuestLabel.jsonl.gz": {
+      "recordCount": 2,
+      "recordsSha256": "d1db707b32dd3c9df2f5a4d7ee3370d5f43154476f3a70e800ec2c52363f9ecf"
+    },
+    "QuestLine.jsonl.gz": {
+      "recordCount": 3,
+      "recordsSha256": "300388ad12906d42efd2568eb7b55eb9ebce2c74835aaf747ca6a7b3347a56b4"
+    },
+    "QuestLineXQuest.jsonl.gz": {
+      "recordCount": 22,
+      "recordsSha256": "8c418023f8c458a2679a61307388a1df71eabbe9fb2e2820b78668108e8b3662"
+    },
+    "QuestMoneyReward.jsonl.gz": {
+      "recordCount": 100,
+      "recordsSha256": "9e4ccd012c921ef2254012c8e9a53667a73d04cf065cfbf048b601a473a9b08b"
+    },
+    "QuestObjective.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "d0e08746df432003cf4daff8a175f7e8c925ba2a934b490e4bccdba43dea3ce4"
+    },
+    "QuestPOIBlob.jsonl.gz": {
+      "recordCount": 54,
+      "recordsSha256": "e46731f07655d5f6f444677ee47036ecc886c8cd5031471ced98d874be31c400"
+    },
+    "QuestPOIPoint.jsonl.gz": {
+      "recordCount": 99,
+      "recordsSha256": "0ccd2849682e1cb806fd488ec277fa8d87b8f19e27dea402faa5ef0f7e79c840"
+    },
+    "QuestPackageItem.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b7b0d65d7b85575e075c28d3a520618e1b954af6fa17a4cf08c06b59a18edbc1"
+    },
+    "QuestSort.jsonl.gz": {
+      "recordCount": 39,
+      "recordsSha256": "5fa5798daf71e7b7929cac5acf1592b0564b57c293b83e5e2493e33f12c637ba"
+    },
+    "QuestV2.jsonl.gz": {
+      "recordCount": 6610,
+      "recordsSha256": "0a2b2c5a17b90b617be3cef6aa5a640bf9ce26561071a6c10e2eb446b6d47087"
+    },
+    "QuestV2CliTask.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a1c06eac6202c18d39e2cd20147cdcf385fe2fe6ca34e52dcad64c437678833d"
+    },
+    "QuestXGroupActivity.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "4cc3ba77095c64a06874ee0401b2aad02723eda5d5913a7498b52260a3df42d6"
+    },
+    "QuestXP.jsonl.gz": {
+      "recordCount": 100,
+      "recordsSha256": "d9133897e723957457ab1170bfb21607a648f9a2f88d4fc623eefe62681e31c1"
+    },
+    "QuestXUIQuestDetailsTheme.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "319fa5856c510587ec65203ab74070928fa88cb5e2e3a2c5ee5bab0cbcc2ed3a"
+    },
+    "QuestXUiWidgetSet.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a5cfb94e743ccacd768e1b322f37576695851ae427df5d9d1c231bc75c2fc59b"
+    },
+    "RTPC.jsonl.gz": {
+      "recordCount": 609,
+      "recordsSha256": "31b68757e1ebeacb1bdc1df34a4ca2ee15970d3295ae0ec80593986da9cb892a"
+    },
+    "RTPCData.jsonl.gz": {
+      "recordCount": 389,
+      "recordsSha256": "a2d063c781fc3a3a333d6a4258c31b5204d3b13f2f60faf20d10a9bea542ab0d"
+    },
+    "RaceStat.jsonl.gz": {
+      "recordCount": 43,
+      "recordsSha256": "03c5232fe759b310235ed133a322dfa2c689a1725ab4bde66d59d18ad784daf0"
+    },
+    "RafActivity.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "2c6f731f06713d0be6e13538964ff41e287a571137b913d46c1bf264fd73d108"
+    },
+    "RandPropPoints.jsonl.gz": {
+      "recordCount": 300,
+      "recordsSha256": "43c96c28ae820e537e5ccb0f01b9f47a789803b01a81ed4d076aa0cd54c82e76"
+    },
+    "RecipeProgressionGroupEntry.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "62526e8fd9644ecb511d62fb3003d4d3153316dfb3ec8c0f0a547558ecd42053"
+    },
+    "RelicSlotTierRequirement.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "6603bb3e8eea6fbe848f9c26e7f43cfa37a80a614c39365abdc63df11071051e"
+    },
+    "RelicTalent.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "220adfd984ee0d636032c284e3b22949f6f170274331662eb885126042b2d973"
+    },
+    "RenownRewards.jsonl.gz": {
+      "recordCount": 22,
+      "recordsSha256": "dd202e1571085af36c36d9f3ccc6331cc8de5720c5c17947ad0a575eaf8d109a"
+    },
+    "RenownRewardsPlunderstorm.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "58fed7c4cf9e958d063a0a18d45f1e168394b1592fda1914a1fc47fbf623e979"
+    },
+    "ResearchBranch.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "6bcac88e4fa1c13eddc1718ca9d0c03a742e8ced4ecc0efcf9f5d267c7021ee9"
+    },
+    "ResearchField.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "ce3b5f52ca89a9db4e00b5f4cf0b9dd0251309a314d41273f54917bf43757919"
+    },
+    "ResearchProject.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "0db1584797c2efe127227d886a84d29d2df809ac342b8966cec1ffc90760d275"
+    },
+    "ResearchSite.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "0e7eebe02d4eadcf8c06969d37be15e4d230c7e265ca328312f326b4e32345cc"
+    },
+    "Resistances.jsonl.gz": {
+      "recordCount": 7,
+      "recordsSha256": "dc63f508d2cb58e6febb6a748507bef7d4f4f17a38de323e4b6cfce095489353"
+    },
+    "RetroactiveDecorReward.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "e5aa31b305b10963929752329bf8fb058716bb2a51068e185adbc670bc6a8c19"
+    },
+    "RetroactiveDecorRewardCriteria.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "883b96611dbf907976665455b7dd061fb196f7b5e7b72b1d0077a52640a2ddab"
+    },
+    "RewardPack.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "05e5a0a0db0b3543f02fabded49bc3cbed91f2ab616b41a1408395dd511c4c87"
+    },
+    "RewardPackXCurrencyType.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "8fea8704ccdf6630d7c97ab687a1db9b9910f7f3305ea1e595380370355b4138"
+    },
+    "RewardPackXItem.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a7f16eb434e0a216c2585b3d85c649e76375eff6963507571a0f485df2398b3a"
+    },
+    "RibbonQuality.jsonl.gz": {
+      "recordCount": 20,
+      "recordsSha256": "ec3ed502b5da63eaebe2fe9683463c0ce2f1fc97f8d734e1096f1e02fb0296ac"
+    },
+    "RolodexType.jsonl.gz": {
+      "recordCount": 21,
+      "recordsSha256": "8a2883b88d37a12e1b3cf127d990a8f51626bf29ef6e723544a13400e5dcdbf1"
+    },
+    "RoomComponent.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "f68f9fe465b5770dc532b160a5ee390890e96b882a07cfdf10539d179b2b483c"
+    },
+    "RoomComponentOption.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "d37a5cbeb8c11f1eec13773e9d14c3f12db8cb283081237c946fc12923797813"
+    },
+    "RoomComponentOptionTexture.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "c1c60b95d778fdbc9e42f2ead770de7b89587558fed16e3ae78f9c45ba22b627"
+    },
+    "RoomComponentTexture.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a0ab52a9cd0e5da566a576e9ddd081a0bb5475de77ae1717db67b835e15f70fc"
+    },
+    "RoomGridLine.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "0d9800074096639d9cb7d0c2bf3c5741806ed84deceb15fb83899c7119cc8f6e"
+    },
+    "RoomWmoData.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "87d8c739903f1fa5088858c5d406ae5bb63354523599bd689d9e8b87cee73231"
+    },
+    "RopeEffect.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "1b65686f4da000026f3f871caf3701b594c96b194479d6393e3612628ff73f3f"
+    },
+    "RuneforgeLegendaryAbility.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "26200a36eb00bfa9e4360bf88711f197bc3542e1eb27798eccd02c03af475c13"
+    },
+    "SDReplacementModel.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "c0a6fb928f28ea985ae0896f6df2b49985a3336775cf8cbd1d46d5e93b89f64b"
+    },
+    "SSAOSettings.jsonl.gz": {
+      "recordCount": 8,
+      "recordsSha256": "9f2d1ed5c8a9a7c4c77216afbe811dc80372214d0095877d7dac0d6338cf0236"
+    },
+    "Scenario.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "3761ae25a59168612001953d6bed3bef2a58e95ec737a22d9c30eca3cc32c89d"
+    },
+    "ScenarioEventEntry.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "cc262a0f5eb9b138a590dbc6a722b18e4390c9dfa887d3bdf016c53fad073308"
+    },
+    "ScenarioStep.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "266c694f7578a40d3ab00623abdcb89144de1db178d9fe73996f665a212209f0"
+    },
+    "SceneScript.jsonl.gz": {
+      "recordCount": 147,
+      "recordsSha256": "48eaa6187308fc28fc15d7b018f165c1af0b61a8eddcebef5e4ebda03df1a93e"
+    },
+    "SceneScriptGlobalText.jsonl.gz": {
+      "recordCount": 29,
+      "recordsSha256": "f7e2ce8eef1c34801e8879b3bf62d7b61280a35deb2c8bef933e75260a7d1702"
+    },
+    "SceneScriptPackage.jsonl.gz": {
+      "recordCount": 9,
+      "recordsSha256": "d6fbe8f75263d17ceda3f774df4ee25b20ae13a1fd7833d20b4d3b7e17243542"
+    },
+    "SceneScriptPackageMember.jsonl.gz": {
+      "recordCount": 69,
+      "recordsSha256": "4266870173e71781386c3eeb115b956cc051e421b94a49b965dfef3d22199a67"
+    },
+    "SceneScriptText.jsonl.gz": {
+      "recordCount": 147,
+      "recordsSha256": "e442cacfc0af06c4060e9e05ecf14eb13e653dcdf46c90ba032c10a8ccf5c535"
+    },
+    "ScheduledInterval.jsonl.gz": {
+      "recordCount": 36,
+      "recordsSha256": "3c25b34bb0e7d500b0ce403a12a63c0ecba6c3baae4ad693d992e33753a46aa0"
+    },
+    "ScreenEffect.jsonl.gz": {
+      "recordCount": 77,
+      "recordsSha256": "07e7fe6a8f2d00c61a295f8dc8b8d7bcebe1d886adf3f2a685cd577d6cfc2fd4"
+    },
+    "ScreenEffectType.jsonl.gz": {
+      "recordCount": 7,
+      "recordsSha256": "620d27d89471867cb138f7e975aca4f68096a72894fc3ca80468eb152089f2e3"
+    },
+    "ScreenLocation.jsonl.gz": {
+      "recordCount": 12,
+      "recordsSha256": "49d5a3c774a0db33ba3d31f954c3b2240a49c4f1fe1abc3c50d30fe1b3bd32b1"
+    },
+    "SeamlessSite.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b63e42592ee8575389c16a7b145dafa9bd7a70c547f28cf8416943c09811d627"
+    },
+    "ServerMessages.jsonl.gz": {
+      "recordCount": 15,
+      "recordsSha256": "8ced7686206be71f9194082e609b9c8c6562df1c152c4f53f0f968b38c4464e1"
+    },
+    "ShadowyEffect.jsonl.gz": {
+      "recordCount": 7,
+      "recordsSha256": "efd9c32c262883dcb8cde16b8d5b6bc374c8e30702b438e9e1e3389d3db0a78b"
+    },
+    "SharedString.jsonl.gz": {
+      "recordCount": 37,
+      "recordsSha256": "2e30fef2454a5ee86412534bfb9b526045660b5c9bc373559400c40aa0b3da0f"
+    },
+    "SiegeableProperties.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "1c7d389a71a5149db118e6654c04ded7d98524002851997a7381dd822a2bb7f3"
+    },
+    "SkillLine.jsonl.gz": {
+      "recordCount": 154,
+      "recordsSha256": "0ab40c1ac41c4c702cd46df43d7b20f0c2896eb04ce286356ba2e95e287361ab"
+    },
+    "SkillLineAbility.jsonl.gz": {
+      "recordCount": 7833,
+      "recordsSha256": "ae98060074ebb04592a779cc8f5b72ad863759f811c97d4572e78cff7102fb63"
+    },
+    "SkillLineCategory.jsonl.gz": {
+      "recordCount": 9,
+      "recordsSha256": "f6b5ee621bed7b03ffb6ec10b83e80b02e43dbdce029377bf2f07ad0fc4b7181"
+    },
+    "SkillLineXTraitTree.jsonl.gz": {
+      "recordCount": 9,
+      "recordsSha256": "f3079a8c9b12ab0a3c769cd982b0cb9be488364ec27318ad13b682104fd3c688"
+    },
+    "SkillRaceClassInfo.jsonl.gz": {
+      "recordCount": 186,
+      "recordsSha256": "7e68c87ae1900d176a72738833c311fd6f3463828bd62739df207b9688f1f7c5"
+    },
+    "SkySceneXPlayerCondition.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "7c1178b58d68677960113966c9e48761adbb64232066c0a0d289162766756e09"
+    },
+    "Soulbind.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "e03feeb4221a64904bfb8c591b06e51204b0890c70bd06f60b1dd3be8368223d"
+    },
+    "SoulbindConduit.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "1db5768887ccbf72ef3b94a3c3408305d8c064a0a91c345c2f263b5684b37efd"
+    },
+    "SoulbindConduitEnhancedSocket.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "6fe8558e46a81741976a505795943b3d25b7375962b1eed1a670ac3701bf58fd"
+    },
+    "SoulbindConduitItem.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a132f830c381a21250cb37a075d92d01baa53f2cbbcd363d2d7ffab92116ae55"
+    },
+    "SoulbindConduitRank.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "844029bde8e7160d3bcc5281cd69ebea40afdee97e3918a9d0918aa8a8c5ec54"
+    },
+    "SoulbindConduitRankProperties.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "0e1eb6dc5b9fe3d281be662f7de92a9f722073d77134882220a89eae03bfb3b3"
+    },
+    "SoulbindUIDisplayInfo.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "cac2cd2f8d3e57b4c156847f8f4cc35d0d0970804db3091e5f970caef76f2ca9"
+    },
+    "SoundAmbience.jsonl.gz": {
+      "recordCount": 302,
+      "recordsSha256": "351beb5d783d0cb4c08beeab7f2d482375a7aa7816f569123845a25da67f9e0f"
+    },
+    "SoundAmbienceFlavor.jsonl.gz": {
+      "recordCount": 1941,
+      "recordsSha256": "fae2635da8dae3f98b42cd0e5fa21b1b46cc839dd43ab72ef225ce940431bbfe"
+    },
+    "SoundBus.jsonl.gz": {
+      "recordCount": 84,
+      "recordsSha256": "77ba1c90c96abe625d0099e27f07d0c1fa204007e07c518c4cae9d7a220a4e8e"
+    },
+    "SoundBusOverride.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "be6ff4132c70f9faad0e6788260af13ddc7c68acec8d2f401b8071738cbcaf67"
+    },
+    "SoundEmitterPillPoints.jsonl.gz": {
+      "recordCount": 1720,
+      "recordsSha256": "a0715211d4abf40906c87773fa5f81f1b1ce71a9bef9a8cb3ce7ec3eb2da78a1"
+    },
+    "SoundEmitters.jsonl.gz": {
+      "recordCount": 1786,
+      "recordsSha256": "435510a5dd79a4734ac807be6abbef92d2893949bb9277d163079875d139fa45"
+    },
+    "SoundEnvelope.jsonl.gz": {
+      "recordCount": 247,
+      "recordsSha256": "f3d8a089d46173a2e650a02ae76b7999fab3dd72d89cf848e27d3095ad8d9d5e"
+    },
+    "SoundFilter.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "8efe733cf89be8c9ce1bfc451de1d768ca53c4d69a86f967b8b5a449f919b650"
+    },
+    "SoundFilterElem.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "86bf1352b1aa9974dcd3f7e3218a6233d5b83f9d6b96d0aa550cb49956243af2"
+    },
+    "SoundKit.jsonl.gz": {
+      "recordCount": 23331,
+      "recordsSha256": "418bbd98c55dff6a40d79acbd4d6fd9952167194a0a653ce3d39da8e3cbeb733"
+    },
+    "SoundKitAdvanced.jsonl.gz": {
+      "recordCount": 16392,
+      "recordsSha256": "7bfaaf288f2a683704ea4be40aa824031d3afd7327567038782f85cd34143bf2"
+    },
+    "SoundKitChild.jsonl.gz": {
+      "recordCount": 2935,
+      "recordsSha256": "b686033c3d22d094594a4319b47ff877fa4f379abb5f685b0ddf5c6c7ad9f238"
+    },
+    "SoundKitEntry.jsonl.gz": {
+      "recordCount": 90764,
+      "recordsSha256": "5b3ff580bf10928303c6ab7d2b3c9bcdafd59a2f3550f44492936874d8eadcb0"
+    },
+    "SoundKitFallback.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "05c34dff41f1a62786156047c8dd5bc15318b963e91c3f2a785fa01646bb3e68"
+    },
+    "SoundMixGroup.jsonl.gz": {
+      "recordCount": 210,
+      "recordsSha256": "60942b6d46d6686047faddb29b4edf52d5d81e73ead9b8851cdbb0cf4d9e684a"
+    },
+    "SoundOverride.jsonl.gz": {
+      "recordCount": 17,
+      "recordsSha256": "34fe81a72c15c3af939ded28d5c3c7bca01887025ba1083b8ced7d9de9a67f5f"
+    },
+    "SoundParameter.jsonl.gz": {
+      "recordCount": 15,
+      "recordsSha256": "ab82d965165e8eefe007851a5813d5a6f998fdfa9e6fd892f97f290c6468dfa7"
+    },
+    "SoundProviderPreferences.jsonl.gz": {
+      "recordCount": 41,
+      "recordsSha256": "03fdc3fb4d7b8cf23e2472672d8f8c4b477c883042be7fb25f729658709f37b1"
+    },
+    "SoundWaterfallEmitter.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "ed69cc7119867b7b94b6f925680101a5d206635a70ef00ad07968c97c04ab478"
+    },
+    "SourceInfo.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "22760b99153702e72bd92f06e2b30c2b85a116cde2aa4db8f1bad817d338379a"
+    },
+    "SpamMessages.jsonl.gz": {
+      "recordCount": 137,
+      "recordsSha256": "9ee5a42b9e9ae364fb902e2ef01a71aa0134a69bfa3479f72a5d18cecad7de3d"
+    },
+    "SpecSetMember.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "5fa54435292bf22165f055f67e9647c9419e3a149ef9a5155f2aa0885771fcb7"
+    },
+    "SpecializationSpells.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "698438df960edd56d2a0cecf2ebd334d0a6ee8708274dcbdd65707a4b7e6a48d"
+    },
+    "SpecializationSpellsDisplay.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "8acdb975363d673a802d54a0e51a62682af087816301d29866fe2dc440cfd64c"
+    },
+    "Spell.jsonl.gz": {
+      "recordCount": 31862,
+      "recordsSha256": "b375ef091770951fddda5f6d48352741048168595325d252c41fd2768779d1ea"
+    },
+    "SpellActionBarPref.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "f3dfe9ebe8337f36731d02cf205a283cdb22906f3c071bc568c13707a39846bd"
+    },
+    "SpellActivationOverlay.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "42bf9a00f015227d91f6a4953bb7a12521657f35eecf12d4029e4312847d4bb0"
+    },
+    "SpellAuraNames.jsonl.gz": {
+      "recordCount": 650,
+      "recordsSha256": "58855cd6a93a07ee0360b234dbc0eeb914b7458864a90f84f63f7d4bec716bb1"
+    },
+    "SpellAuraOptions.jsonl.gz": {
+      "recordCount": 12927,
+      "recordsSha256": "64471792d3ed56859d7ea33ff427e83b059c25e53750a19941f4c9c469e82a8e"
+    },
+    "SpellAuraRestrictions.jsonl.gz": {
+      "recordCount": 317,
+      "recordsSha256": "a5ca5c68ddc2557510b3702fe69e1f5fe8cd0430ecfa766d4095a8fb473c838c"
+    },
+    "SpellAuraVisXChrSpec.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "ee9304c30a41d92834f7183cefd24b01fd280aea6e116a96d873e5289cf856a9"
+    },
+    "SpellAuraVisibility.jsonl.gz": {
+      "recordCount": 186,
+      "recordsSha256": "be30cbd43b4d048b9fe0a862e3b9b6affda7faa566b82fbb069b09f71ed7531d"
+    },
+    "SpellCastTimes.jsonl.gz": {
+      "recordCount": 72,
+      "recordsSha256": "71fa927cbc6cd55dd0612b55135054dd0021e61714b70a599275998276de2622"
+    },
+    "SpellCastingRequirements.jsonl.gz": {
+      "recordCount": 3258,
+      "recordsSha256": "5e998e31731a1e0ffbb9ca87b51da75c2c35cbe95aa5099a9c45b5e0a74791a4"
+    },
+    "SpellCategories.jsonl.gz": {
+      "recordCount": 10621,
+      "recordsSha256": "c76924c14588aac81d7910532da70e06c52a3536777fcdad8e6cb7235711fed9"
+    },
+    "SpellCategory.jsonl.gz": {
+      "recordCount": 264,
+      "recordsSha256": "1002c383609543400d57acc73fa9178274783826b8d74ff3a2975f4432c7480d"
+    },
+    "SpellChainEffects.jsonl.gz": {
+      "recordCount": 133,
+      "recordsSha256": "3cdb813ff08127205cbd4603825ba2a836c19f2d935f1f74d74de61fc8a3294d"
+    },
+    "SpellClassOptions.jsonl.gz": {
+      "recordCount": 6062,
+      "recordsSha256": "a4736869b3d8c450dc114e9f04268f1221afb5a2c1afe73896090c5962a91b0f"
+    },
+    "SpellClutterAreaEffectCounts.jsonl.gz": {
+      "recordCount": 6,
+      "recordsSha256": "76888cf5d480dcee8e67af01788551e063eb2fb33f46b4d9251077a5aee6e127"
+    },
+    "SpellClutterFrameRates.jsonl.gz": {
+      "recordCount": 10,
+      "recordsSha256": "0516d348328186dcc107ab6b485cfd8571a9419c05583f8090737cdbbb771b83"
+    },
+    "SpellClutterImpactModelCounts.jsonl.gz": {
+      "recordCount": 6,
+      "recordsSha256": "72dd603421e16ae6f39b9fd4c748f01d3a40abf3809b7687737b00441b25805c"
+    },
+    "SpellClutterKitDistances.jsonl.gz": {
+      "recordCount": 6,
+      "recordsSha256": "07650276a9edbc892d519dc11f4498f4453a532d17b94ea66a36b83e202123e3"
+    },
+    "SpellClutterMissileDist.jsonl.gz": {
+      "recordCount": 6,
+      "recordsSha256": "9d7fdc009bc8c963666a63e932751e52ae86144bd946b5c61120fe4b8e7d3691"
+    },
+    "SpellClutterWeaponTrailDist.jsonl.gz": {
+      "recordCount": 6,
+      "recordsSha256": "50453400e5c21344a39eb05516e910d077f8babe431b98ecf921c1b9d5876fd9"
+    },
+    "SpellCooldowns.jsonl.gz": {
+      "recordCount": 4441,
+      "recordsSha256": "149f623a5ed75686a270e136cc17e3612ce5d2425b69d357870dfff8c21fe0e8"
+    },
+    "SpellDescriptionVariables.jsonl.gz": {
+      "recordCount": 43,
+      "recordsSha256": "5d89e7f2357ab718283c5c4a6d984a1dda19dc4142f62541adeb666a9709c183"
+    },
+    "SpellDiminish.jsonl.gz": {
+      "recordCount": 11,
+      "recordsSha256": "63ec59ad505eece2234e7ec2980f0ff1258ed262ea829bdedc99f233654a02bc"
+    },
+    "SpellDispelType.jsonl.gz": {
+      "recordCount": 11,
+      "recordsSha256": "f675cca84700d702c6355991aaefd7d93cd5911b56a757d7313eab74a5722c5b"
+    },
+    "SpellDuration.jsonl.gz": {
+      "recordCount": 134,
+      "recordsSha256": "4f74f3ca7bea932d1345e07aeacbb48aa8302f703974ed856326c6f5b640059d"
+    },
+    "SpellEffect.jsonl.gz": {
+      "recordCount": 42568,
+      "recordsSha256": "7d3b3cf964e56dde83b4fe97c7f81940b06afc41e53f273f33e3ad72f27b066d"
+    },
+    "SpellEffectAutoDescription.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "697d2ee35cc41d9843f23296052ab9398169f383d261db99394f90f936f31083"
+    },
+    "SpellEffectEmission.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "fe5dfbf7f4ef253391c7fcccc0ae481d1d217ba87fea0d5d3b24ca576b4183e3"
+    },
+    "SpellEffectNames.jsonl.gz": {
+      "recordCount": 342,
+      "recordsSha256": "3b877cfd5d5d7cc57ce7c4856e0381b1d57f44f48d2b7c9fef237f5d4ae709e3"
+    },
+    "SpellEmpower.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "54d8aedd7f4785ded6af0379f2e6c32c64a46b8317567b06e3a86891784b600f"
+    },
+    "SpellEmpowerStage.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "f9dd382ea13011627ca673b76c27d15b9e8cc7e6ab0f914a40ddeba5b29c0797"
+    },
+    "SpellEquippedItems.jsonl.gz": {
+      "recordCount": 1889,
+      "recordsSha256": "069824d1998680bc6a221944d03eeb8147742e1380b6819643e4c564ad36eeee"
+    },
+    "SpellFlyout.jsonl.gz": {
+      "recordCount": 19,
+      "recordsSha256": "bf2db73e132ef7b0d52c0744bbfd1b94275a86d46db88658b467230e5cd6ec2e"
+    },
+    "SpellFlyoutItem.jsonl.gz": {
+      "recordCount": 139,
+      "recordsSha256": "e77dc94b64c5f47bf150ff6fb15a967dd39074ff71b702c33364362cf395b959"
+    },
+    "SpellFocusObject.jsonl.gz": {
+      "recordCount": 243,
+      "recordsSha256": "d9190b2f892a494f61a6d4361acf11eed47a8743c68e549e930a82741b4f97cd"
+    },
+    "SpellInterrupts.jsonl.gz": {
+      "recordCount": 9871,
+      "recordsSha256": "5fe171da507e4712783d6d9157598f1c8b97e38e0379283f457cdb174deda5b3"
+    },
+    "SpellItemEnchantment.jsonl.gz": {
+      "recordCount": 2216,
+      "recordsSha256": "6292174394a53d1752ec8e4d6144ce9773a4fc558ecc9cf59b34b7d64bfc7427"
+    },
+    "SpellItemEnchantmentCondition.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "2556b96074695c49e80a9df4c15762b586c91513b3d816c97b03db729cc7f437"
+    },
+    "SpellKeyboundOverride.jsonl.gz": {
+      "recordCount": 1,
+      "recordsSha256": "4d7bea45d834ef33b6d30bc842469cdc331d3f0013faf9bd15136f1746478727"
+    },
+    "SpellLabel.jsonl.gz": {
+      "recordCount": 4634,
+      "recordsSha256": "d364e19076b399a9ccdd04bf8d35dde847345a4edbd10f436e8ac737ff23f5bb"
+    },
+    "SpellLearnSpell.jsonl.gz": {
+      "recordCount": 52,
+      "recordsSha256": "b91811a33d42bcb9b7b42fb6654efdfa8d82919cca5be09ceda4e75e3a9527ed"
+    },
+    "SpellLevels.jsonl.gz": {
+      "recordCount": 12911,
+      "recordsSha256": "90e2c7c72b9eb716e26762ed5514f1d2b2c12b5e1c7be85aa52a47ab94be0a57"
+    },
+    "SpellMechanic.jsonl.gz": {
+      "recordCount": 36,
+      "recordsSha256": "f5999865ff237f88661bd7009adaadf6fba4bd131bba964e299dc4a926d7266b"
+    },
+    "SpellMisc.jsonl.gz": {
+      "recordCount": 31842,
+      "recordsSha256": "66eea66f752ccc0f9b21fe2f4ed38c78c44307c92a275e6e32bc769f54e03c86"
+    },
+    "SpellMissile.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "d742e8578346ecc92a05215a5c95d9122ead149a6318ddcedfe4b6b95750f083"
+    },
+    "SpellMissileMotion.jsonl.gz": {
+      "recordCount": 66,
+      "recordsSha256": "f3012cd2201ebca7f64e4324a32989c3ed89d9b69efaf27903616ff1cdd7002f"
+    },
+    "SpellName.jsonl.gz": {
+      "recordCount": 31862,
+      "recordsSha256": "2535042e21a81d48b3362caec9ea60e9e30a2351748596317eaedf925618c636"
+    },
+    "SpellOverrideName.jsonl.gz": {
+      "recordCount": 1,
+      "recordsSha256": "dcd3dfc7c85f70da75a5802f79d2830887bc8fa49882a51afdb002e2f887a16a"
+    },
+    "SpellPower.jsonl.gz": {
+      "recordCount": 3435,
+      "recordsSha256": "3fcc95ff1851fad2b0ec0aa15087768edec1001f0c8be6c219571f22b662b0cc"
+    },
+    "SpellPowerDifficulty.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "1da13b4241144508697183c6523b27f235f1f2a6a5a74c562f55fcc4d2b336bb"
+    },
+    "SpellProceduralEffect.jsonl.gz": {
+      "recordCount": 982,
+      "recordsSha256": "3b43306b0e85342445e8ee0a53de3345d56687252082d56418b810396a2741cb"
+    },
+    "SpellProcsPerMinute.jsonl.gz": {
+      "recordCount": 11,
+      "recordsSha256": "8b9fdb808e2eef62901fcb42e337be68ef9678bfd321cf1372acdc33932283d6"
+    },
+    "SpellProcsPerMinuteMod.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "3dbae2fc19fc580bf2b3487b5c1421eda75e8a01590079f71fd4c49fd51e5087"
+    },
+    "SpellRadius.jsonl.gz": {
+      "recordCount": 53,
+      "recordsSha256": "75fd674dca2cec9dfa5a277f516d27a3e55f6aa2c839bf80f2021b84a0821aed"
+    },
+    "SpellRange.jsonl.gz": {
+      "recordCount": 61,
+      "recordsSha256": "d816c0e2da2e2bcf1d6bcf9136224a53f3630234e74e62e0424b7401cf1555ed"
+    },
+    "SpellReagents.jsonl.gz": {
+      "recordCount": 3300,
+      "recordsSha256": "5789425a31ac03cc09a5430a9542289258f2c23aac768749f4192ede8abf11d7"
+    },
+    "SpellReagentsCurrency.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "42d2146a7e93fc897901af845d03aec7ec976fd1be1a80f3881401adda5a036a"
+    },
+    "SpellReplacement.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "c28320d1afe3df8a6a5199fcdbe2bef07c8c8c5734fda245c2baa3866a5a970e"
+    },
+    "SpellScaling.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "dbf43ef2d9cae22de3686a9f2ff0c5e50a2e2423aa6a2745a7567a04b525512f"
+    },
+    "SpellScript.jsonl.gz": {
+      "recordCount": 1,
+      "recordsSha256": "3447705e164c954037cb4ed83b44fd1c5f398f6d1460b9bb9e692d7d27dbdf1d"
+    },
+    "SpellScriptText.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "71a79f69b0f79d9be910040bf538caa5834ad65f9078d96aa21fae707818af59"
+    },
+    "SpellShapeshift.jsonl.gz": {
+      "recordCount": 3467,
+      "recordsSha256": "7b24e4889cc4ee10fd4a442db62af0b4e98e4f12bb4bab909780345a4efec489"
+    },
+    "SpellShapeshiftForm.jsonl.gz": {
+      "recordCount": 32,
+      "recordsSha256": "ee9d0754efda2bf92002801c3795c16e974fb01dfc3851b118cde18c733a2b1c"
+    },
+    "SpellSpecialUnitEffect.jsonl.gz": {
+      "recordCount": 20,
+      "recordsSha256": "7f342289ee483e62d462d1614083ceee1fe0c04ca06f5f6b6569edad364f1387"
+    },
+    "SpellTargetRestrictions.jsonl.gz": {
+      "recordCount": 4447,
+      "recordsSha256": "6be3a2a911055a28668c775fb829df5eda660cea73e8f792eb2371fc1cd6c182"
+    },
+    "SpellTgtFilterRuleNode.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "712e626a9fff97454a8a51b3119c29b755c1156bfb53e2cab9ebdcc0d9939a79"
+    },
+    "SpellTgtFilterRuleSetNode.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "7acae185339399a7dd19cb7880495fdbb3ade2a69c5e84143cab7959d01f47f4"
+    },
+    "SpellTgtFilterRuleTemplate.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "bcbbef85a2fd049e3751c00ac6655f6aed30abee8b5d77556dba24caee661a72"
+    },
+    "SpellTgtGatherNode.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "9cda3f73c5d486de1bcc8845354338a431bfd7d521912981185d4a6e41d8179e"
+    },
+    "SpellTgtGatherTemplate.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "16cf3e3d2f150063eb950d661105bc6dc9d2365bc73601123e95abdeb5bb4c42"
+    },
+    "SpellTotems.jsonl.gz": {
+      "recordCount": 1120,
+      "recordsSha256": "a6d7f114435cdddfe016c57d300ec1647e20db4df326494765c880dd610d3017"
+    },
+    "SpellVisual.jsonl.gz": {
+      "recordCount": 6079,
+      "recordsSha256": "c8cf73526132aba236c3acced1c8010b852e59c0fff70dfb21d914943b67e3cc"
+    },
+    "SpellVisualAnim.jsonl.gz": {
+      "recordCount": 2778,
+      "recordsSha256": "8d439c13ee2652d24f7a6729423de0aa12824dbc889c089b0d2a87b9aa96f64d"
+    },
+    "SpellVisualColorEffect.jsonl.gz": {
+      "recordCount": 2,
+      "recordsSha256": "1a9e30d9aacae73a633146dfd359c947a8bbd44753daf0a03a36fdc17cc4e602"
+    },
+    "SpellVisualEffectName.jsonl.gz": {
+      "recordCount": 2950,
+      "recordsSha256": "3a0be6a0d44a84f5e345518cddcb90094443cf44ffd3ea9b4f81f647f0178a42"
+    },
+    "SpellVisualEvent.jsonl.gz": {
+      "recordCount": 15586,
+      "recordsSha256": "223c360714e9e44e1705cfeb0c5efb9feea6f3ee108fe4ba19bce09b73487dbc"
+    },
+    "SpellVisualKit.jsonl.gz": {
+      "recordCount": 7923,
+      "recordsSha256": "08208ca8dab10e5305631f347b51f2a0e290f3f350624d344ffe0417dcf7ce0a"
+    },
+    "SpellVisualKitAreaModel.jsonl.gz": {
+      "recordCount": 19,
+      "recordsSha256": "e6dab45d32f95e4827e832e8c5a6208b741cdd19e0315fec72d4d1131bfa1161"
+    },
+    "SpellVisualKitDecalAttach.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b345822d557d5f0437972c68382be5c9233af42ce2dbb0c6f6b7e3d9c7b6c1e3"
+    },
+    "SpellVisualKitEffect.jsonl.gz": {
+      "recordCount": 18126,
+      "recordsSha256": "43c12ad07aebe57e31f9d8332ba866ca16ef5bb03460946ad926545766bc029b"
+    },
+    "SpellVisualKitModelAttach.jsonl.gz": {
+      "recordCount": 8919,
+      "recordsSha256": "2b3270a8d0c1d1b2e42ebb6b5e9bc2d01e1af8a433e0a38e703289fc84174b2d"
+    },
+    "SpellVisualKitPicker.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a54f2876f1ddc952cbdd249e61a2ca2ef37f966818831914ebdc8c687b0bb51b"
+    },
+    "SpellVisualKitPickerEntry.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "fe70d1ad5a8704a20c28fc5ccca1dd3a1c2b50d7617d8924b3e9834ee5e9b7e2"
+    },
+    "SpellVisualMissile.jsonl.gz": {
+      "recordCount": 727,
+      "recordsSha256": "7d907ae2f7dc4d6a4fea2cfdcb3c2d965c9a771850f4e0f44e62c2ec8b9c759d"
+    },
+    "SpellVisualScreenEffect.jsonl.gz": {
+      "recordCount": 3,
+      "recordsSha256": "2d659d47adbef4e6a9eab2551fdbff182229e9da39f4a95e5c30de335bb2c95b"
+    },
+    "SpellXDescriptionVariables.jsonl.gz": {
+      "recordCount": 168,
+      "recordsSha256": "c6fe19dc7764fa79b3cc29e80936f1fa303c3fb6fd15b60a26e8b25ebd7ebc0e"
+    },
+    "SpellXSpellVisual.jsonl.gz": {
+      "recordCount": 20334,
+      "recordsSha256": "13e28cc2ef1203a4c3e0e0a75a1ec106c31a6c3663ca82b0d4f65d3161923371"
+    },
+    "SpotLightConditionMap.jsonl.gz": {
+      "recordCount": 1,
+      "recordsSha256": "b93d4ea5b1cf2a0e4244ab58c742d5acd213bdb1bceec8be1e49700d979ea065"
+    },
+    "StableSlotPrices.jsonl.gz": {
+      "recordCount": 2,
+      "recordsSha256": "222ef80c2fc7b2fc01e4da6dcc0dd7f7376fe4018bea807ee1e90da7f1d636d0"
+    },
+    "StartupFiles.jsonl.gz": {
+      "recordCount": 562,
+      "recordsSha256": "73e64c09b9896b8f5a50a82f445a3340cbff48848672ef8dbf80e775707e472e"
+    },
+    "Stationery.jsonl.gz": {
+      "recordCount": 6,
+      "recordsSha256": "b65ff9ca43fa96667a53d904a51ecdb441bb85b40f38bf375e34dad48d61e6ac"
+    },
+    "SubgraphNode.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "bda0295d6938b00618c1170e5583e5cc17e7973e7f1abfd45d528a3c963194eb"
+    },
+    "SummonProperties.jsonl.gz": {
+      "recordCount": 124,
+      "recordsSha256": "0856f8c8a3bf960e70c90b0d5f075781d797dc32870e834d6d6dd17329f9661e"
+    },
+    "SuperDistrictSet.jsonl.gz": {
+      "recordCount": 52,
+      "recordsSha256": "d645f65beb7a71223d4cfeb104a1ca14aeae9cb29e4ca6af66500a2ad2392a09"
+    },
+    "SuperDistrictSetCollection.jsonl.gz": {
+      "recordCount": 2,
+      "recordsSha256": "8c52436cc4c2dcfd98f5039224536aecf6e7c89fd703e52762fb21b978401cda"
+    },
+    "SuperDistrictSetXAvailableSD.jsonl.gz": {
+      "recordCount": 56,
+      "recordsSha256": "7cddd5813da1eaf28a9105e0d7fe2a3e75cdc6858e3e88463520284a35512f1e"
+    },
+    "SuperDistrictTransfer.jsonl.gz": {
+      "recordCount": 5,
+      "recordsSha256": "be924f72c9f5532f99d4e155d5c8a6a418c3aa9d28d4c68abc3a9ea0b48a181b"
+    },
+    "TactKeyLookup.jsonl.gz": {
+      "recordCount": 197,
+      "recordsSha256": "a0348307c1bb1c947c0a07ef69b9ff68e4f9ef99852f8108d277e885725bf3c5"
+    },
+    "Talent.jsonl.gz": {
+      "recordCount": 432,
+      "recordsSha256": "1ece0830de13abab9baad332c38a78fddccf2fe0806a91ad7fc58a6dfbb69901"
+    },
+    "TalentTab.jsonl.gz": {
+      "recordCount": 27,
+      "recordsSha256": "68cda301a915290dfaeaaab867fcd86647625b484f86e8ed66e254b8bbeb21a2"
+    },
+    "TalentTreePrimarySpells.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b915f56dc5bbebeb7fd04343af7256ef7d777527426ec51f6e069aff6ef4ed57"
+    },
+    "TaxiNodes.jsonl.gz": {
+      "recordCount": 100,
+      "recordsSha256": "372de01fb119a23646ee176cf527a7c0935f6400ff84d425a98fa1d0e899da6a"
+    },
+    "TaxiPath.jsonl.gz": {
+      "recordCount": 328,
+      "recordsSha256": "c6570b6d3ce8716011eab96a36a6b2091733c535e4c85c00befeb5b5ddf88028"
+    },
+    "TaxiPathNode.jsonl.gz": {
+      "recordCount": 10778,
+      "recordsSha256": "2897bbdf048c8e9938c5d5babf66c2822706fc19a94df70f5bb826de90154c7b"
+    },
+    "TerrainColorGradingRamp.jsonl.gz": {
+      "recordCount": 7,
+      "recordsSha256": "dfe776bb075a3dc5d53e6b223d7cb9b7cf988ca17b456ca779f8835d63e2ecff"
+    },
+    "TerrainMaterial.jsonl.gz": {
+      "recordCount": 33,
+      "recordsSha256": "7780ea2b72747957b98f38548237c8ec0eb8069ee155b5bd4ca5947cc78127f9"
+    },
+    "TerrainType.jsonl.gz": {
+      "recordCount": 23,
+      "recordsSha256": "2585e14df7ac9f9ffc5cf1f29cac72b13c1912ebbf291a867d56f99202baa974"
+    },
+    "TerrainTypeSounds.jsonl.gz": {
+      "recordCount": 20,
+      "recordsSha256": "ce45114acc33170254c006a06dd512303fc93158543ccd5370bc07c5bc49d031"
+    },
+    "TextureBlendSet.jsonl.gz": {
+      "recordCount": 47,
+      "recordsSha256": "b6e06a46199e308d6ee652fe4872766bc9e9f23f9db591e9671e523f9e2fdd07"
+    },
+    "TextureFileData.jsonl.gz": {
+      "recordCount": 58676,
+      "recordsSha256": "4b203d0cc954c738220527773fe26c4c3f0abda93e108aca012c8e0f968f2215"
+    },
+    "TierTransition.jsonl.gz": {
+      "recordCount": 11,
+      "recordsSha256": "24f904e3b2db1d57692d64b5a4b9bde91090ed2f465fcd71b1d73e13a9067271"
+    },
+    "TieredEntrance.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "e79238083b2dc682385e7323e6b888ef51a45e374e5cb31d3fa6afefdf9dbbf1"
+    },
+    "TimeEventData.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "f8274330694cf94e7464962f7993e2367492cc595f5c4b7aef438ede313728b6"
+    },
+    "TotemCategory.jsonl.gz": {
+      "recordCount": 28,
+      "recordsSha256": "234cdec7583cfd61d34debcc8d5548da6a9e34b26b14a4d049aa1156fc6e0eef"
+    },
+    "Toy.jsonl.gz": {
+      "recordCount": 20,
+      "recordsSha256": "014c424720d402133a045095644fbd6372005bb02db6115f999be6a33783bed4"
+    },
+    "TradeSkillCategory.jsonl.gz": {
+      "recordCount": 216,
+      "recordsSha256": "f0b70e24cec20f5066ce6d4a2c242fc4ceca2e78de5862fa93ea077ed3e14c18"
+    },
+    "TradeSkillItem.jsonl.gz": {
+      "recordCount": 3240,
+      "recordsSha256": "92d8f5bc5ee232a6d400a5054fe81548cf1a37ec8de54ee7c73051b93005c4a6"
+    },
+    "TraitCond.jsonl.gz": {
+      "recordCount": 172,
+      "recordsSha256": "9fcd57973aa82e7818ed9a5007895b1261d397efc3407b3c4ede5835feacfa0a"
+    },
+    "TraitCondAccountElement.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "064eeefad1892b6adbd0e10b740558800899681f5e9a0b469d32d68f8afbce95"
+    },
+    "TraitCost.jsonl.gz": {
+      "recordCount": 11,
+      "recordsSha256": "76345dbccd853bd40c33bdf6c50ca657c9e9df8f560121b58ba10e3dfb9f7a43"
+    },
+    "TraitCurrency.jsonl.gz": {
+      "recordCount": 2,
+      "recordsSha256": "cf18cfc3dbefc32413fb5b5f18b05f85a0ed6c663b22e0eea39e32a40aa18266"
+    },
+    "TraitCurrencySource.jsonl.gz": {
+      "recordCount": 187,
+      "recordsSha256": "dc0920b75bf117c004a73ad29985a0facb69cea429a6bbe84f8bd8229303c426"
+    },
+    "TraitDefinition.jsonl.gz": {
+      "recordCount": 658,
+      "recordsSha256": "cf3993e909fb34a3d41d101c4984f9869c9c1538cf64e13caea3dd193d1f77d6"
+    },
+    "TraitDefinitionEffectPoints.jsonl.gz": {
+      "recordCount": 644,
+      "recordsSha256": "5fc566dc9a9d36e8a00f2b3da91370978ef00094f4d61ad83d0210c42d67a877"
+    },
+    "TraitEdge.jsonl.gz": {
+      "recordCount": 98,
+      "recordsSha256": "7994affbcf0aec069476f2b62a8d6df735008c1b7167756c46214e2e8e348377"
+    },
+    "TraitNode.jsonl.gz": {
+      "recordCount": 558,
+      "recordsSha256": "2116c291c60e2cf6d9f39df304f12971faef6d3d571d649922dba0535e902b83"
+    },
+    "TraitNodeEntry.jsonl.gz": {
+      "recordCount": 659,
+      "recordsSha256": "81c4fc75be6dbce60e68ab8b0b9c915cca599c048d5c8b357992556a76fa65b3"
+    },
+    "TraitNodeEntryXTraitCond.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "54fb3f1b52c3c486d26fb5fb94fbbe8b2b3b90deab38804f0b7ad3a5a9e8c35c"
+    },
+    "TraitNodeEntryXTraitCost.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "0717237859f1f44251bd054cbd2411f5481087f56b9402145e139b939eb0f8dd"
+    },
+    "TraitNodeGroup.jsonl.gz": {
+      "recordCount": 368,
+      "recordsSha256": "132d12a8350892e7fe675fdd0dc976211ce86e0be1c0c3d9c7c9c58aad744722"
+    },
+    "TraitNodeGroupDisplayInfo.jsonl.gz": {
+      "recordCount": 27,
+      "recordsSha256": "ab7acd16bf960f55f69764179fc3dc403d04ef43cdee03b5d0fb0c95a1c8af75"
+    },
+    "TraitNodeGroupXTraitCond.jsonl.gz": {
+      "recordCount": 171,
+      "recordsSha256": "d8291b466dcb05a024fb0f1cd07094403745c7d7fce1c41cdca5f89bf168f73b"
+    },
+    "TraitNodeGroupXTraitCost.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "21f3b6c4dc5832d33a24b706a2436e42640653009c80e9dd56c463df70e52a36"
+    },
+    "TraitNodeGroupXTraitNode.jsonl.gz": {
+      "recordCount": 2150,
+      "recordsSha256": "7dd7245ba01f78db56829abea3b8f57f68060f87202cf9d16a65ecb23a2b19d6"
+    },
+    "TraitNodeXTraitCond.jsonl.gz": {
+      "recordCount": 1,
+      "recordsSha256": "6212ae15e2ad08426c51c55a480404842d9df20dc46bc9d55bbfd43c700cfcdc"
+    },
+    "TraitNodeXTraitCost.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "1d6787002681c3dc743a8b056b17b61ba2e4b7e7de8bb6d8193026c999782aeb"
+    },
+    "TraitNodeXTraitNodeEntry.jsonl.gz": {
+      "recordCount": 561,
+      "recordsSha256": "de2defdea510dcc4047c1f7806054c618287364371a3f4a022f16ed0f045a6ac"
+    },
+    "TraitSubTree.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "ebe34eb923f02a37211b121a6889fb3ecb537ffd19b08206fa440cba88e1248b"
+    },
+    "TraitSystem.jsonl.gz": {
+      "recordCount": 2,
+      "recordsSha256": "f3dd23dc722ade19221debfd7f48aa266180efc9f62a9ee994e1f00757a61ead"
+    },
+    "TraitTree.jsonl.gz": {
+      "recordCount": 17,
+      "recordsSha256": "c2fefe6bfc4d21ac60ef1b9b2c7ce3d6ddd0b5202467c1d14df1321d8b85edb9"
+    },
+    "TraitTreeLoadout.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b60408d0381c5e9894e438a86c7bca2c5e0526ca8fef0a587ad003d5c7cd3203"
+    },
+    "TraitTreeLoadoutEntry.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "95d0cc0378896c6d19ebfaa2ee7e36492f5da644bc7bd1cffd53f3f4814f51eb"
+    },
+    "TraitTreeXTraitCost.jsonl.gz": {
+      "recordCount": 13,
+      "recordsSha256": "ac9b502f945d73f1076e3f0889d62b7e8dcdf3cf7bb190f902c77ec7399c384e"
+    },
+    "TraitTreeXTraitCurrency.jsonl.gz": {
+      "recordCount": 13,
+      "recordsSha256": "3eab005dea5f5e751b856bdbeebd3006a65058b3cdc722838580f2d42f0cfbbd"
+    },
+    "TransformMatrix.jsonl.gz": {
+      "recordCount": 96,
+      "recordsSha256": "add9da5b5f0eb0e470cbed206dfc021ba2fedc31f60e3fe21ba2ad0a7dfe90e6"
+    },
+    "TransmogDefaultLevel.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "447fb1c9891fa3f32f0d16aff5b55085570551570d17a480416558de984b1e03"
+    },
+    "TransmogHoliday.jsonl.gz": {
+      "recordCount": 4,
+      "recordsSha256": "1cf13f3f640b4ce93e1eeeeca2f63d78ef9904a0b0338f49976ad55bb99c0f82"
+    },
+    "TransmogIllusion.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "7187835200a850dfd8c80f0119886672647379a0a0f5a859d869b31b88cdb178"
+    },
+    "TransmogOutfitEntry.jsonl.gz": {
+      "recordCount": 51,
+      "recordsSha256": "ebf42e8fe80fd645d8f734790addb44de5b8456366b753f96820aa2d6005eb7a"
+    },
+    "TransmogOutfitSlotInfo.jsonl.gz": {
+      "recordCount": 15,
+      "recordsSha256": "278b36a5d9d1e27ee28d9ec6fc272e0b09c07ee4e62c3e8519a2581db80feb06"
+    },
+    "TransmogOutfitSlotOption.jsonl.gz": {
+      "recordCount": 42,
+      "recordsSha256": "05bdb9378ed976ca90e65f7535aa0bfd424245010ac2aca59710edf861551e42"
+    },
+    "TransmogSet.jsonl.gz": {
+      "recordCount": 7,
+      "recordsSha256": "6a1e95c3a4433a622645d74c7aa8ffde4eb05734130937407516239d6d44917f"
+    },
+    "TransmogSetGroup.jsonl.gz": {
+      "recordCount": 2,
+      "recordsSha256": "3bae74297be0503fc62fd71175e45b7ebcb15cfdc59e2f9c06aff896fb2dd114"
+    },
+    "TransmogSetItem.jsonl.gz": {
+      "recordCount": 63,
+      "recordsSha256": "11f403bdfc5a496a2056f986d979632082aeee950ae573c7967d882dbd22550a"
+    },
+    "TransmogSituation.jsonl.gz": {
+      "recordCount": 30,
+      "recordsSha256": "5372b79223154d14bcbac4a9a59cafe13058b837e1448ece80824377e8f306b3"
+    },
+    "TransmogSituationGroup.jsonl.gz": {
+      "recordCount": 15,
+      "recordsSha256": "9ee07163fb61af49561f80abb3f296f818c695d91112c40d7d0af26cc7682c58"
+    },
+    "TransmogSituationTrigger.jsonl.gz": {
+      "recordCount": 11,
+      "recordsSha256": "53a59991d3279d5bb4307100d9614b594b84e477f61a20987c7a069be88f7865"
+    },
+    "TransportAnimation.jsonl.gz": {
+      "recordCount": 1016,
+      "recordsSha256": "bea9b3e56cc8206ffe9b24c7e476fd150e0bf9f5c9c483d191820c4ad97be3cf"
+    },
+    "TransportPhysics.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "4998b25954108d6d0d5423de0e89b277dc59c9ceb31b295d1e3174eef2f169d0"
+    },
+    "TransportRotation.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "531a0482790a47d704b3cbd1cc051e63831c4c7de9559d1e847cdadf360cc2dc"
+    },
+    "Trophy.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "520102a4372c485cdf0db85a174581f9daf81765aba59b897a67eb3d726b6537"
+    },
+    "UIArrowCallout.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "2c6a44d4c1fdc1b2b3ddf8ba1ae0fa6ab2b2e7dd73d0df6d50db3e4879f584b8"
+    },
+    "UIButton.jsonl.gz": {
+      "recordCount": 10,
+      "recordsSha256": "cfcc9071244e91024a8aed079393273a45f275bf524cdead6c5c85f8a76cf7b8"
+    },
+    "UIChromieTimeExpansionInfo.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "8a4cddf8b55e40e003e2bc2888d18219184452978fcbab179eb6f4b77ec97293"
+    },
+    "UICinematicIntroInfo.jsonl.gz": {
+      "recordCount": 1,
+      "recordsSha256": "659bb49baa7a7aecc5a90057be6332c9046e41b1224e30b24a1d72797528dd85"
+    },
+    "UICovenantAbility.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "febb865efe61fd8ebce37434f6e6087b74c08d0efeaa4917af0f9e993d691d93"
+    },
+    "UICovenantHighlight.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a98e8d8aa83d95cb1d8e97f1ebd2d8ac1b5c2c5e14a81871ad6862f6653867ea"
+    },
+    "UICovenantPreview.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "0f09e27b6e8c9d84043b5bb520059fcaa57331de5cebb4acb2c393fe733056d6"
+    },
+    "UIDeadlyDebuff.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a1b23c8b08fb38dab2e98aace97e39ea18a1da039e3f3920fd8e41f490903046"
+    },
+    "UIDungeonScoreRarity.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "0b39cd02b5982887fbf9205b2ef7ce70fefd600a903156023458e62f7783d8a4"
+    },
+    "UIEventToast.jsonl.gz": {
+      "recordCount": 3,
+      "recordsSha256": "9370d98772a8770ca2cb20932ab1edc3dcdc4fd942d03d0febaf18c068098fdd"
+    },
+    "UIExpansionDisplayInfo.jsonl.gz": {
+      "recordCount": 1,
+      "recordsSha256": "0cc06c919bcce62371035d96524aa048c8802fa267249e7bde7ee55255b863b3"
+    },
+    "UIExpansionDisplayInfoIcon.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "22eb91d9aad580d99ccb62c9ba9d1f8fd103e8869f7b548659adbe14da3cde5d"
+    },
+    "UIGenericWidgetDisplay.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "9ee2ad5f68b59eba6889aedc8bfd38b2f5d618f9a7b43f1e8e1a0a3b25b40f2c"
+    },
+    "UIMapPinInfo.jsonl.gz": {
+      "recordCount": 4,
+      "recordsSha256": "05406d8d2ef6032c8c07ba9b10a6526a040a91862f232b85e39b0c739b1b91ef"
+    },
+    "UIModifiedInstance.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "80315a0a590837db7e4fab1e1a2715588f1250b86caed5844ae821ed59761e73"
+    },
+    "UIScenarioDisplayInfo.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "2a18dfc2a7fef3c5f00b2b8552b386c9847cba489f70891950ad3e9465af6bff"
+    },
+    "UIScriptedAnimationEffect.jsonl.gz": {
+      "recordCount": 15,
+      "recordsSha256": "c59827746fbda5ce765d741ec3b8a5a33840f91f598a712d49221cc3e3d93d71"
+    },
+    "UISplashScreen.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "9bd9b8a82d19f9f4b1bf09c72d50bc0d92dfe162a3f55194e757e20c66e0b5d6"
+    },
+    "UiCamFbackTalkingHeadChrRace.jsonl.gz": {
+      "recordCount": 44,
+      "recordsSha256": "f183763da9dad17afa2c0d0d4a65d342a1664658461b97a9210129b1a88c77de"
+    },
+    "UiCamFbackTransmogChrRace.jsonl.gz": {
+      "recordCount": 374,
+      "recordsSha256": "bc69a688b4493715a53e650579b0ec06b53f1d8b7d80104e6fc8b231b26120e3"
+    },
+    "UiCamFbackTransmogWeapon.jsonl.gz": {
+      "recordCount": 19,
+      "recordsSha256": "b4a1e968f606f745287a8d34c1fd8811c0bcf3bb6f63a3420eb2a1b40dead177"
+    },
+    "UiCamera.jsonl.gz": {
+      "recordCount": 380,
+      "recordsSha256": "707ec1e9172ee5a2f63a3b77a8a0e9b64c0ddff5077e1d5b15daaeb5632af1bc"
+    },
+    "UiCameraType.jsonl.gz": {
+      "recordCount": 10,
+      "recordsSha256": "24ec563c20025267be9217fb2ab6a3bcdc16586d61dac4c2a578130e90a7a27a"
+    },
+    "UiCanvas.jsonl.gz": {
+      "recordCount": 2,
+      "recordsSha256": "154ed0a7d4ee5435f56517a76ce78c0fe0e62e94cb27f7cafe19a961e78ca508"
+    },
+    "UiCovenantDisplayInfo.jsonl.gz": {
+      "recordCount": 2,
+      "recordsSha256": "5644c22bf6dba41caef3663e75f9fc1b7a91a6fa21d015715703d20a4ab95a0e"
+    },
+    "UiItemInteraction.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "2b18232b014ab6aaa1cf59bb24b85fac3701a5c004ea54a0b97d745c90a5b67a"
+    },
+    "UiMap.jsonl.gz": {
+      "recordCount": 60,
+      "recordsSha256": "919b5bfb8cb122580b237e0b5337b3c0b7f65026f5d0ddfd60cf2c73cb6b6e3e"
+    },
+    "UiMapArt.jsonl.gz": {
+      "recordCount": 144,
+      "recordsSha256": "2ecbd07add0afdad255fb823d3b798f20329e1394409214c242276d9789e9dcf"
+    },
+    "UiMapArtStyleLayer.jsonl.gz": {
+      "recordCount": 6,
+      "recordsSha256": "2778a0090f0868531ce58ce96a0ba17047c50085633da5aefdf5eb1dcba41323"
+    },
+    "UiMapArtTile.jsonl.gz": {
+      "recordCount": 1672,
+      "recordsSha256": "a9426d36ce2e2ac3c46d8b009d772d1cbffc9b4d966567912ff16285cac25f02"
+    },
+    "UiMapAssignment.jsonl.gz": {
+      "recordCount": 61,
+      "recordsSha256": "e9557a246d2ef01a34f3ef5856e399538d83b3024cab06ebac3dac41203f70c1"
+    },
+    "UiMapFogOfWar.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b0488e668412f3f274641e08c1c210592ff04a4aed646202bb1c6f450d8b0a9c"
+    },
+    "UiMapFogOfWarVisualization.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "3209de424b20e90113fc7497bf786f39b594437a29004f2b04b9949e5d681d5c"
+    },
+    "UiMapGroup.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "58309767d52f0fc845c13732c2bddfa40faec4d13b8a9ffb2e5b8fe1d5110ccb"
+    },
+    "UiMapGroupMember.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "e36bd9e75a74c25fa63913fc379d2c3a9eb6cfc102bd653926011fee8b99c084"
+    },
+    "UiMapLink.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "c3adfab3c372afe9c893b53180c7f2247d5b30b21ef53dc9ace2723b7a4f05dc"
+    },
+    "UiMapXMapArt.jsonl.gz": {
+      "recordCount": 60,
+      "recordsSha256": "1f6021c389739559ee8d9092cf999bfc5d42357d469a29a94bc1602bac4f0766"
+    },
+    "UiModelScene.jsonl.gz": {
+      "recordCount": 303,
+      "recordsSha256": "3d82362b0049a643a9507082089865208e8d80fff44ec9fc8d90967579a060ee"
+    },
+    "UiModelSceneActor.jsonl.gz": {
+      "recordCount": 1008,
+      "recordsSha256": "6cfdf57c9b5c1f3e398216e51ceaf619c9f6a0ffd8613b5460d2be89cc59c9b4"
+    },
+    "UiModelSceneActorDisplay.jsonl.gz": {
+      "recordCount": 72,
+      "recordsSha256": "5cebe921b11897b7b362fe97f840b5abc499a16003e4524ffdfe924aec02f424"
+    },
+    "UiModelSceneCamera.jsonl.gz": {
+      "recordCount": 302,
+      "recordsSha256": "aa2c2d352d545a27ac5cc1380ee0740b1f8628aaf62ad43faa27c18890c08440"
+    },
+    "UiPartyPose.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "d059cbb61840716f5ec24a2729a3af7f862f2a9eb59573fb207fd051f0ab9817"
+    },
+    "UiQuestDetailsTheme.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "06543ad3cec8cb705fb50b4a634e2dba2c18dd3959a2a1b7e3443f5057e32f39"
+    },
+    "UiTextureAtlas.jsonl.gz": {
+      "recordCount": 2807,
+      "recordsSha256": "4400b8a931a92bc644c8172be9de872ea5f9423180836cbe38a6fbe2ac9a949c"
+    },
+    "UiTextureAtlasElement.jsonl.gz": {
+      "recordCount": 20752,
+      "recordsSha256": "59223303bbe74c8813fa86b31cab76df0fc4cfaa4d5780ba958ba27ba44a5e6a"
+    },
+    "UiTextureAtlasElementSliceData.jsonl.gz": {
+      "recordCount": 333,
+      "recordsSha256": "42b7ff8c22a321e35ab237f97b3df8d34c0cb7dd1520cfd9a98ed93c0b4a07f1"
+    },
+    "UiTextureAtlasMember.jsonl.gz": {
+      "recordCount": 20566,
+      "recordsSha256": "7732813553aab295c7b171cb9e6a9a021ef22cf09fbac17474ef72d252c710b6"
+    },
+    "UiTextureAtlasSet.jsonl.gz": {
+      "recordCount": 1,
+      "recordsSha256": "5e7af762950386aeebe3e3888d24f527987ab5f9ee7376780624e4644e3015e4"
+    },
+    "UiTextureKit.jsonl.gz": {
+      "recordCount": 852,
+      "recordsSha256": "25c938c75fdcb6efb8333e32e9b318e6830b61eeb649b76d6a7a0269b3b60a64"
+    },
+    "UiWeeklyReward.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "eb47959f04d672a451fe69952ea51762b892e5fde32db1283d85551eb2cd71ba"
+    },
+    "UiWidget.jsonl.gz": {
+      "recordCount": 31,
+      "recordsSha256": "f885e4045988aab4e4d8e642604eaf01576ff2a592efd1e565bb82397aedc371"
+    },
+    "UiWidgetConstantSource.jsonl.gz": {
+      "recordCount": 45,
+      "recordsSha256": "aa757ad83ddcfad548ea0bf42b4786088557f737b5d2a23dbd512ab5d7545d5d"
+    },
+    "UiWidgetDataSource.jsonl.gz": {
+      "recordCount": 59,
+      "recordsSha256": "b5c80f13782c892720e84201de93e8446ce4e13f34501dc93258c9d0ee2efad0"
+    },
+    "UiWidgetMap.jsonl.gz": {
+      "recordCount": 33,
+      "recordsSha256": "ea9eb38d75432fbfb2b69af9223f5d6895c1aaf8b0c53f7d8769accc36d349cb"
+    },
+    "UiWidgetSet.jsonl.gz": {
+      "recordCount": 62,
+      "recordsSha256": "bd7fee9d33c1ac783091b44b478bea3bcbaa5505660ecac9756f87234142c804"
+    },
+    "UiWidgetStringSource.jsonl.gz": {
+      "recordCount": 138,
+      "recordsSha256": "58404d964f4e638e7cda473c813400fbfbef0233c5d3d308d576bfadb5f0328d"
+    },
+    "UiWidgetVisTypeDataReq.jsonl.gz": {
+      "recordCount": 515,
+      "recordsSha256": "0f12748ea31f402b5e8bda43b2e7b1ff5095f6fb32e57704d6a7930d88bab9ad"
+    },
+    "UiWidgetVisualization.jsonl.gz": {
+      "recordCount": 648,
+      "recordsSha256": "9fd160398f26368072f1c2e1ad27b403f4ebb2553aab85c0aae74a8250b2cfd3"
+    },
+    "UiWidgetXWidgetSet.jsonl.gz": {
+      "recordCount": 13,
+      "recordsSha256": "69c9ff2dd517cfb8c314a83d325786bf6e4efb0f6510a9a3660190dcb145eaf4"
+    },
+    "UnitBlood.jsonl.gz": {
+      "recordCount": 21,
+      "recordsSha256": "7b42b07e09031a74817faf118208495bd95cb040f2604e32f2e7bc634523038d"
+    },
+    "UnitBloodLevels.jsonl.gz": {
+      "recordCount": 21,
+      "recordsSha256": "6a153edd8cce83ee17849fc76d476d118c51b90404c9e1cb385a58c74076dfe0"
+    },
+    "UnitCondition.jsonl.gz": {
+      "recordCount": 356,
+      "recordsSha256": "cb37a6a1c86361ebbbe09392624b26005a2ca500c65dc70b7bc3f8fe52531728"
+    },
+    "UnitPowerBar.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "6732b01d1eb8d7d119f218663d221da6b93cfb5a124554bf7481368f780c2f55"
+    },
+    "Vehicle.jsonl.gz": {
+      "recordCount": 55,
+      "recordsSha256": "bed40f94a67dcb0f62b870c3f7d3c27b5692a2678e503614fb170797da9f733f"
+    },
+    "VehiclePOIType.jsonl.gz": {
+      "recordCount": 1,
+      "recordsSha256": "c70045480d1719f92a01bf0f603f157392ac52107e7edeafc6e33973898766d3"
+    },
+    "VehicleSeat.jsonl.gz": {
+      "recordCount": 97,
+      "recordsSha256": "6f11e563d88c5dcd8208e333510ca606b957f51d336df998f38d75720c663f80"
+    },
+    "VehicleUIIndSeat.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "fee3bd029c0ade91de515518286b77aa84d4b6065bd62db2f8f93bc7eadfdff8"
+    },
+    "VehicleUIIndicator.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "6cd531cb83946e2eec35197f101162b30f102957be6bfe6fa80ffa645e5fe8f3"
+    },
+    "Vignette.jsonl.gz": {
+      "recordCount": 2,
+      "recordsSha256": "8d691d50273634f09f711e597939d736bfcb78d54d33028c7ce73b8bfc36387c"
+    },
+    "VignetteUiWidgetSet.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "4daea34c8228ec23f984f100a5974892d12bf0b5b2e862c07dc0781969641950"
+    },
+    "VirtualAttachment.jsonl.gz": {
+      "recordCount": 1,
+      "recordsSha256": "f12328e1a17dad4899986084e086a5cb5d4195a6c724807b117abfdd17f649f9"
+    },
+    "VirtualAttachmentCustomization.jsonl.gz": {
+      "recordCount": 12,
+      "recordsSha256": "caa8e863da3d7d4ced88976103ce919c6d7ba6ca8db977cb1a13d9dee4c01c4e"
+    },
+    "VocalUISounds.jsonl.gz": {
+      "recordCount": 631,
+      "recordsSha256": "fb9cbdab31cba5bbad1d5240b931c3d7d6762c1bb9e4ddecd4989cc6b08713b3"
+    },
+    "VoiceOverPriority.jsonl.gz": {
+      "recordCount": 19,
+      "recordsSha256": "3e6abe7ca14e6d67f84313026afc9dd6a631d210795fba0302c3d8378e76335d"
+    },
+    "VolumeFogCondition.jsonl.gz": {
+      "recordCount": 6,
+      "recordsSha256": "597585d210ce9ff04e666dcb68b4b4055014b013dd2b4a017b08e9129ffb34e4"
+    },
+    "WMOAreaTable.jsonl.gz": {
+      "recordCount": 52623,
+      "recordsSha256": "59bb4975e1167c4310781d99aad4c1287c40661f9eaa5869f207a9337c03e5da"
+    },
+    "WMOMinimapTexture.jsonl.gz": {
+      "recordCount": 156027,
+      "recordsSha256": "6c7932ec77aaf956b9681b7a87a029f0eddad484484944bae8c3810b89d4b357"
+    },
+    "WarbandPlacementDisplayInfo.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "5c5241a51d7231d0b20edbb82f274816fa32e1dc738d957a1a3e412b8ab0227d"
+    },
+    "WarbandScene.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "32a3c19f0e0570d142faa4a5920a77255490086e64da40c0a2c431abd49a7867"
+    },
+    "WarbandSceneAnimChrSpec.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "7733b299bc41ca377635ba50fd208cb4639573ddb22cb5619d68835714219202"
+    },
+    "WarbandSceneAnimation.jsonl.gz": {
+      "recordCount": 1,
+      "recordsSha256": "a6f4dce2af7cbd31d4fa0003fc164ea4a5aac26d49a62573e421f324e94bacdc"
+    },
+    "WarbandScenePlacement.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a81e5e5b8c8b2dc060440b9deeef3752d27a0f6a967aa4842520a33a7aa0de1b"
+    },
+    "WarbandScenePlacementFilterReq.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a6d6d7e4ac152289e46303a4bdd00949f0ba4d5c274a1eb9cb7a38f6812a5fda"
+    },
+    "WarbandScenePlacementOption.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "f491a7054a7b8b299a8af4df757ce7c5d667dd50e33383134b0cb6da8fc1a6f6"
+    },
+    "WarbandScenePlcmntAnimOverride.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "b7d31c373d2e71585b628dcfcc08c38100aa627e0f7afb18f3d5c773f6853760"
+    },
+    "WarbandSceneSourceInfo.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "ea90e42f5bb943290a03930db212c65e9ff8c2025ca3c81c00bd28dbfaa1ad45"
+    },
+    "WaterfallData.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "782be3e38999d20c439bbc98f9657b42c20c162430bfb7c9a0399b6105b2c6af"
+    },
+    "WaypointEdge.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "e784699bbe4e2fed9b83466ece8e7f7feb3562bc420a7455bd7075d535054734"
+    },
+    "WaypointMapVolume.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "28b8e5c9150069ce5e57a25bf1339fdb0cd2523da08a0958edd9dd45be549d4f"
+    },
+    "WaypointNode.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "205a64ec173af14e37ba070d4e55208f32dac4745bcc0f80b11a824fae07f91e"
+    },
+    "WaypointSafeLocs.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a2aa13c9a3b919b2adc1b3c1d7c3bc8059d00b98d2af3108b5bb422f57bc81bc"
+    },
+    "WbAccessControlList.jsonl.gz": {
+      "recordCount": 172,
+      "recordsSha256": "05b443a100b997c94cc8440e6018ec782540eee17c1a1feac27dc5dcc569c6cc"
+    },
+    "WeaponImpactSounds.jsonl.gz": {
+      "recordCount": 31,
+      "recordsSha256": "72c9d6dfd6e86ceedbbd1d96cf44571e180f8b61524239690d81f6e16b67e896"
+    },
+    "WeaponSwingSounds2.jsonl.gz": {
+      "recordCount": 6,
+      "recordsSha256": "4d3d4b3536509e56a4f5a88445f933e0f005681bf64b5055fc5fbd62ab266d3b"
+    },
+    "WeaponTrail.jsonl.gz": {
+      "recordCount": 2,
+      "recordsSha256": "ce2f4d4529c09628223ede0ca4b19fdc796e81d69ef7301373472bc5bba9471b"
+    },
+    "WeaponTrailModelDef.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "5e6690d55dfc272756fc62dc09811d42c178d8250e33a02bf16f6a96118e2d79"
+    },
+    "WeaponTrailParam.jsonl.gz": {
+      "recordCount": 2,
+      "recordsSha256": "54724835e63446138866e4fa98fd8dbf6d6a7e22d7e0aa5ad64dacec2359ed05"
+    },
+    "Weather.jsonl.gz": {
+      "recordCount": 72,
+      "recordsSha256": "065d5c86766cc3c9d5da7f7ff3ec5fb68c1e509ba80972f35738deeaf70cd62a"
+    },
+    "WeatherXParticulate.jsonl.gz": {
+      "recordCount": 51,
+      "recordsSha256": "c257f7d545ce40e4a7da2ec3b9d700dc8b2e699c61a17702a6fb00d148f5585f"
+    },
+    "WeeklyRewardChestActivityTier.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "dd0125a559b262562d814db8c62b4f8c2b719763151f74f6110eecbc437011ba"
+    },
+    "WeeklyRewardChestThreshold.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "191392adfefff56c3314b129a9dade2f918ca6285e64fdec29b60922db546c0d"
+    },
+    "WindSettings.jsonl.gz": {
+      "recordCount": 24,
+      "recordsSha256": "d1387f3f3f40c9064547073acd8cc8199966bfef13d0d17bcde35c3fa02fd095"
+    },
+    "WmoMaxScale.jsonl.gz": {
+      "recordCount": 1218,
+      "recordsSha256": "0c77158ee3c9732dd4260cbe02b5ecdb146181df143ec069693eca46dfd70867"
+    },
+    "WorldBossLockout.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "51cbb4390106be3005ed1c0a6abb687f4e4176b27a090a49f93cc86488b6941a"
+    },
+    "WorldChunkSounds.jsonl.gz": {
+      "recordCount": 16019,
+      "recordsSha256": "e5ff300170875f6e8c8ea7d09e61d3cd5fd6f8c971c6543cb502c36be90edca5"
+    },
+    "WorldEffect.jsonl.gz": {
+      "recordCount": 149,
+      "recordsSha256": "2d337540eecd878f50b07deab4e1849f2ce507dc6a9de7c645f7aaab5317ab8f"
+    },
+    "WorldElapsedTimer.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "dfadf79a1685a5220db65bacf3a2ae46a18a31986139b7e038343456bdda393b"
+    },
+    "WorldLayerMapSet.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "bc2502f9d8bce9e46537ab7aceda8809c5b57f7460db83074c3f8fe8fce0b18a"
+    },
+    "WorldMapOverlay.jsonl.gz": {
+      "recordCount": 1081,
+      "recordsSha256": "f7825310729691bd52a3b8be2fc23a02eb1ded4d589b5de23595cba745230769"
+    },
+    "WorldMapOverlayTile.jsonl.gz": {
+      "recordCount": 1739,
+      "recordsSha256": "bcfe659dc470b9e8f086f9e67d1badb8bd2f9e289fac81dfdf1d1760d02b544f"
+    },
+    "WorldShadow.jsonl.gz": {
+      "recordCount": 7,
+      "recordsSha256": "3768eb69d7c18251337f8e07b7faa65574a864782054c0bcb0b8ef246b7c2db6"
+    },
+    "WorldStateExpression.jsonl.gz": {
+      "recordCount": 3971,
+      "recordsSha256": "f891249c8e7ab4836f3c312a8b46602718fa84ad53048a2e97a0617e7f6ecd8e"
+    },
+    "WorldStateZoneSounds.jsonl.gz": {
+      "recordCount": 42,
+      "recordsSha256": "1fc543f6d027b0464af853edc668b91f9ee51c480060a6bc1758d35010209292"
+    },
+    "World_PVP_Area.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "a1ea18d6cdb4dd2c70d57439e7056b53f7ec8f39f866bb0898db1a55d5d8a4a5"
+    },
+    "ZoneIntroMusicTable.jsonl.gz": {
+      "recordCount": 54,
+      "recordsSha256": "3347b8e7222acf479b972251b4aa7a1db5019e7862a28bdbfb67a1e0f65d53ca"
+    },
+    "ZoneLight.jsonl.gz": {
+      "recordCount": 20,
+      "recordsSha256": "e46e563bd9080d4e8e3ab6a18a22fc6af66b5644514ef27ad4cac836297b8be4"
+    },
+    "ZoneLightPoint.jsonl.gz": {
+      "recordCount": 573,
+      "recordsSha256": "11c69636f98c72b70f519414a279107a391f02d7d339cb87d73edff6ce89a7d8"
+    },
+    "ZoneMusic.jsonl.gz": {
+      "recordCount": 165,
+      "recordsSha256": "f0e53353f3b4d8f79af79b6de5f83ffe9b10cfd469cac31144195103bed7f563"
+    },
+    "ZoneStory.jsonl.gz": {
+      "recordCount": 0,
+      "recordsSha256": "ed6977e6eb24fba52c2e55fbfe00c95f852e8aa83f73bfa15db9091c52fb8078"
+    }
+  },
+  "manifestSha256": "346c41046a0630dcbe64f37867d8407433a0d8d43f157aef79dffe9a975886e5",
+  "schemaVersion": 1
+}

@@ -12,7 +12,8 @@ Wowhead Forever --local Python scraper--> data/forever/raw/
 All The Things --Go adapter-------------> data/forever/sources/allthethings/
 QuestieDB ------Python adapter-----------> data/forever/sources/questiedb/
 Installed client + local WoWDBDefs ------> .local/foreverclient/
-                                          --Go adapter--> data/forever/sources/foreverclient/
+                 --Python packager-----> data/forever/client-extract/
+                 --Go adapter----------> data/forever/sources/foreverclient/
 
 data/forever/sources/* --Go compiler--> data/forever/compilation/
 All The Things -------------------------> export/forever/ (legacy product)
@@ -30,10 +31,10 @@ and Forever additions share one namespace; each compiled quest ID appears once.
 
 ## Restoration
 
-The development branch begins with a restoration commit whose tree matches
-`1f3ee24823421db94b1439478f3c503adcfccb61`. The current default branch's ATT
-exporter and workflow were then restored on top as new work. Git history was
-preserved; the default branch was not changed.
+The rebuild began with a restoration commit whose tree matches
+`1f3ee24823421db94b1439478f3c503adcfccb61`. The ATT exporter and workflow were
+restored on top as new work. The changes landed through pull requests while
+preserving Git history.
 
 ## Compilation status
 
@@ -54,6 +55,8 @@ deterministic and validated by Go tests.
 
 ## Licensing and source isolation
 
-Code licenses and third-party dataset rights are tracked separately. Local
-client extracts are ignored by Git and are not part of automation. See
+Code licenses and third-party dataset rights are tracked separately. Temporary client extracts are ignored by Git and purged after verification.
+The checked compressed snapshot and canonical client data are retained. Client
+acquisition is not part of automation; the daily compiler reads the retained
+canonical snapshot. See
 [SOURCES.md](SOURCES.md) and [ATTRIBUTION.md](../ATTRIBUTION.md).

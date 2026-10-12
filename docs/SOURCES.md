@@ -1,14 +1,14 @@
 # Data sources
 
 Source identity stays separate from game flavor. Canonical snapshots live at
-`data/<flavor>/sources/<source>/` and record their source revision and limits.
+`data/forever/sources/<source>/` and record their source revision and limits.
 
 | Source | Ingestion | Current supported data | Revision and limits |
 |---|---|---|---|
 | Wowhead Forever | Local, manual Python scraper plus offline adapter | Existing quest indexes/details, object and item details, zone-to-map crosswalks | The adapter is offline and preserves missing detail status. The scheduled job does not scrape Wowhead. |
 | All The Things | Daily workflow or local Go adapter | Supported Forever quest declarations plus explicit NPC, item, object, and achievement declarations, selected literal fields, quest providers/prerequisites/chains, and nested containment links | Records exact upstream commit. ATT is a nested catalog, not a complete entity database. Unrecognized fields/expressions, entity coordinates, standalone map/zone definitions, and unsupported quest-provider coordinates remain outside the adapter. |
 | QuestieDB | Daily workflow or local Python adapter | Generated Forever Quest, NPC, Item, and Object tables, including the converted Classic baseline; Forever-owned static correction entries are preserved | Forever is the only flavor; each compiled entity type and ID appears once. Corrections are not applied; dynamic corrections, support bundles, and derived passes are not imported. Owner permission to proceed was confirmed by the repository maintainer on 2026-10-11; daily automation imports Forever. |
-| Forever client | Local Go extractor and canonical adapter | Selected Achievement, AreaTable, Creature, Faction, ItemSparse, Map, and SpellName DB2 tables | Exact local client build and definition hashes are recorded. Encrypted sections are skipped or marked partial. Local outputs are not automatically published. |
+| Forever client | Local Go extractor and canonical adapter | Selected Achievement, AreaTable, Creature, Faction, ItemSparse, Map, SpellName, QuestV2, and quest support DB2 tables | Exact local client build and definition hashes are recorded. Encrypted sections are skipped or marked partial. Acquisition remains local; the checked compressed snapshot excludes content-decryption keys. QuestV2 contributes IDs and UI metadata; quest support row IDs are not quest IDs. |
 
 ## Client categories
 

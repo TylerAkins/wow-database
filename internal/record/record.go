@@ -21,7 +21,7 @@ var flavors = map[string]bool{"forever": true}
 var entityTypes = map[string]bool{
 	"quest": true, "npc": true, "item": true, "object": true, "zone": true,
 	"map": true, "spell": true, "faction": true, "achievement": true,
-	"profession": true, "relationship": true,
+	"profession": true, "relationship": true, "questmetadata": true,
 }
 var fieldStates = map[string]bool{"missing": true, "unsupported": true, "unavailable": true, "invalid": true, "empty": true, "conflicting": true}
 
