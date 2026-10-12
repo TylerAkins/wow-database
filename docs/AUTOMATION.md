@@ -3,10 +3,10 @@
 `.github/workflows/database-update.yml` is the single daily and manually
 dispatchable database workflow. It imports ATT Forever records and the
 existing Wowhead snapshot when that cache is present. It validates canonical
-data, compiles both flavors, and refreshes the legacy ATT export. QuestieDB
-remains available through local ingestion while its data redistribution terms
-are reviewed. The workflow never runs the Wowhead scraper or local client
-extractor.
+data, compiles each flavor that has a source directory, and refreshes the legacy
+ATT export. Flavors without source datasets are skipped. QuestieDB remains
+available through local ingestion while its data redistribution terms are
+reviewed. The workflow never runs the Wowhead scraper or local client extractor.
 
 One stable `takins/database-update` branch is reused for the generated pull
 request. Before opening or updating it, `tools/semantic_changes.py` compares
