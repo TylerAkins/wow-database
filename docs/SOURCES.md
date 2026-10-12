@@ -1,7 +1,7 @@
 # Data sources
 
 Source identity stays separate from game flavor. Canonical snapshots live at
-`data/<flavor>/sources/<source>/` and record their source revision and limits.
+`data/forever/sources/<source>/` and record their source revision and limits.
 
 | Source | Ingestion | Current supported data | Revision and limits |
 |---|---|---|---|
