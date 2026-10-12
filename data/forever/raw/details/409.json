@@ -1,0 +1,116 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-24T23:15:57+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 12[/li][li]Requires level 5[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1497/gunther-arcanus]Gunther Arcanus[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1497/gunther-arcanus]Gunther Arcanus[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]5[/color][small] &nbsp;[/small][color=r1]8[/color][small] &nbsp;[/small][color=r2]10[/color][small] &nbsp;[/small][color=r3]15[/color][small] &nbsp;[/small][color=r4]18[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "85": {
+        "levels": [
+          [
+            {
+              "coord": [
+                68.2,
+                42
+              ],
+              "coords": [
+                [
+                  68.2,
+                  42
+                ]
+              ],
+              "id": 1497,
+              "name": "Gunther Arcanus",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                68.2,
+                42
+              ],
+              "coords": [
+                [
+                  68.2,
+                  42
+                ]
+              ],
+              "id": 1497,
+              "name": "Gunther Arcanus",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                66.6,
+                44.8
+              ],
+              "coords": [
+                [
+                  66.4,
+                  44.8
+                ],
+                [
+                  66.6,
+                  44.8
+                ]
+              ],
+              "id": 1946,
+              "name": "Lillith Nefara",
+              "objective": 1946,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Tirisfal Glades"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        85,
+        2
+      ]
+    ]
+  },
+  "minLevel": 5,
+  "pageInfo": {
+    "name": "Proving Allegiance",
+    "type": 5,
+    "typeId": 409
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 409,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 1497,
+      "npcName": "Gunther Arcanus",
+      "zoneId": 85,
+      "x": 68.2,
+      "y": 42.0,
+      "zoneName": "Tirisfal Glades"
+    }
+  ]
+}

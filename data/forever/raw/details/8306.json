@@ -1,0 +1,215 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T04:22:13+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 58[/li][li]Type: Elite[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=15181/commander-maralith]Commander Mar'alith[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=15181/commander-maralith]Commander Mar'alith[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.4.33920\"]1.13.4[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1377": {
+        "levels": [
+          [
+            {
+              "coord": [
+                49.2,
+                34.2
+              ],
+              "coords": [
+                [
+                  49.2,
+                  34.2
+                ],
+                [
+                  49.2,
+                  34.6
+                ]
+              ],
+              "id": 15181,
+              "name": "Commander Mar'alith",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                49.2,
+                34.2
+              ],
+              "coords": [
+                [
+                  49.2,
+                  34.2
+                ],
+                [
+                  49.2,
+                  34.6
+                ]
+              ],
+              "id": 15181,
+              "name": "Commander Mar'alith",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                51.8,
+                99.4
+              ],
+              "coords": [
+                [
+                  50.2,
+                  93.2
+                ],
+                [
+                  50.8,
+                  92.6
+                ],
+                [
+                  51.4,
+                  99
+                ],
+                [
+                  51.8,
+                  99.4
+                ],
+                [
+                  52.2,
+                  89.8
+                ],
+                [
+                  52.4,
+                  90.6
+                ],
+                [
+                  52.4,
+                  98.4
+                ],
+                [
+                  52.6,
+                  91.6
+                ],
+                [
+                  52.6,
+                  98.6
+                ],
+                [
+                  52.8,
+                  97.8
+                ],
+                [
+                  53,
+                  93.2
+                ],
+                [
+                  53,
+                  97.2
+                ],
+                [
+                  53.4,
+                  89
+                ],
+                [
+                  53.4,
+                  93.8
+                ],
+                [
+                  53.4,
+                  94.6
+                ],
+                [
+                  53.4,
+                  96.4
+                ],
+                [
+                  53.6,
+                  86.6
+                ],
+                [
+                  53.6,
+                  97
+                ],
+                [
+                  53.6,
+                  98
+                ],
+                [
+                  53.8,
+                  88.2
+                ],
+                [
+                  53.8,
+                  95.2
+                ],
+                [
+                  53.8,
+                  95.6
+                ],
+                [
+                  55.2,
+                  97
+                ],
+                [
+                  55.8,
+                  87.2
+                ],
+                [
+                  56.6,
+                  83.6
+                ]
+              ],
+              "id": 15215,
+              "name": "Mistress Natalia Mar'alith",
+              "objective": 15215,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Silithus"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1377,
+        2
+      ]
+    ]
+  },
+  "minLevel": 58,
+  "pageInfo": {
+    "name": "Into The Maw of Madness",
+    "type": 5,
+    "typeId": 8306
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 8306,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 15181,
+      "npcName": "Commander Mar'alith",
+      "zoneId": 1377,
+      "x": 49.2,
+      "y": 34.2,
+      "zoneName": "Silithus"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T03:43:54+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 51[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=13841/lieutenant-haggerdin]Lieutenant Haggerdin[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=13841/lieutenant-haggerdin]Lieutenant Haggerdin[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]51[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.3.32790\"]1.13.3[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "36": {
+        "levels": [
+          [
+            {
+              "coord": [
+                39.6,
+                81.2
+              ],
+              "coords": [
+                [
+                  39.4,
+                  81.2
+                ],
+                [
+                  39.4,
+                  81.6
+                ],
+                [
+                  39.6,
+                  81.2
+                ]
+              ],
+              "id": 13841,
+              "name": "Lieutenant Haggerdin",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                39.6,
+                81.2
+              ],
+              "coords": [
+                [
+                  39.4,
+                  81.2
+                ],
+                [
+                  39.4,
+                  81.6
+                ],
+                [
+                  39.6,
+                  81.2
+                ]
+              ],
+              "id": 13841,
+              "name": "Lieutenant Haggerdin",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Alterac Mountains"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        36,
+        1
+      ]
+    ]
+  },
+  "minLevel": 51,
+  "pageInfo": {
+    "name": "Earned Reverence",
+    "type": 5,
+    "typeId": 7170
+  },
+  "pinCategory": "pvp",
+  "prerequisiteQuestIds": [],
+  "questId": 7170,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 13841,
+      "npcName": "Lieutenant Haggerdin",
+      "zoneId": 36,
+      "x": 39.6,
+      "y": 81.2,
+      "zoneName": "Alterac Mountains"
+    }
+  ]
+}

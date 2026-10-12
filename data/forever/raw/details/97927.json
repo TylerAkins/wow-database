@@ -1,0 +1,113 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T06:54:31+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 6[/li][li]Requires level 4[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=265810/kaga-wildhoof]Kaga Wildhoof[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=11047/kray]Kray[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]4[/color][small] &nbsp;[/small][color=r3]9[/color][small] &nbsp;[/small][color=r4]12[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1638": {
+        "levels": [
+          [
+            {
+              "coord": [
+                46.8,
+                34.2
+              ],
+              "coords": [
+                [
+                  46.8,
+                  33.4
+                ],
+                [
+                  46.8,
+                  34.2
+                ],
+                [
+                  47,
+                  34.6
+                ]
+              ],
+              "id": 11047,
+              "name": "Kray",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Thunder Bluff"
+      },
+      "215": {
+        "levels": [
+          [
+            {
+              "coord": [
+                46.2,
+                67.2
+              ],
+              "coords": [
+                [
+                  46.2,
+                  67.2
+                ]
+              ],
+              "id": 265810,
+              "name": "Kaga Wildhoof",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Mulgore"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        215,
+        1
+      ],
+      [
+        1638,
+        1
+      ]
+    ]
+  },
+  "minLevel": 4,
+  "pageInfo": {
+    "name": "Camping 101: Alchemy",
+    "type": 5,
+    "typeId": 97927
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 97927,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 265810,
+      "npcName": "Kaga Wildhoof",
+      "zoneId": 215,
+      "x": 46.2,
+      "y": 67.2,
+      "zoneName": "Mulgore"
+    }
+  ]
+}

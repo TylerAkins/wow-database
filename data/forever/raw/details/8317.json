@@ -1,0 +1,94 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T04:23:20+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 57[/li][li]Requires level 54[/li][li]Side: Both[/li][li]Profession: [url=/forever/skill=185/cooking]Cooking[/url][/li][li][icon name=quest-start]Start: [url=/forever/npc=15174/calandrath]Calandrath[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=15174/calandrath]Calandrath[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]54[/color][small] &nbsp;[/small][color=r2]55[/color][small] &nbsp;[/small][color=r3]60[/color][small] &nbsp;[/small][color=r4]68[/color][/li][li]Added in patch [acronym=\"1.13.4.33920\"]1.13.4[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "1377": {
+        "levels": [
+          [
+            {
+              "coord": [
+                51.8,
+                39
+              ],
+              "coords": [
+                [
+                  51.8,
+                  39
+                ]
+              ],
+              "id": 15174,
+              "name": "Calandrath",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                51.8,
+                39
+              ],
+              "coords": [
+                [
+                  51.8,
+                  39
+                ]
+              ],
+              "id": 15174,
+              "name": "Calandrath",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Silithus"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1377,
+        1
+      ]
+    ]
+  },
+  "minLevel": 54,
+  "pageInfo": {
+    "name": "Kitchen Assistance",
+    "type": 5,
+    "typeId": 8317
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    8280
+  ],
+  "questId": 8317,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 15174,
+      "npcName": "Calandrath",
+      "zoneId": 1377,
+      "x": 51.8,
+      "y": 39.0,
+      "zoneName": "Silithus"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T01:56:19+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 52[/li][li]Requires level 45[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=8507/tymor]Tymor[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=8392/pilot-xiggs-fuselighter]Pilot Xiggs Fuselighter[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]45[/color][small] &nbsp;[/small][color=r1]48[/color][small] &nbsp;[/small][color=r2]50[/color][small] &nbsp;[/small][color=r3]55[/color][small] &nbsp;[/small][color=r4]63[/color][/li][li]Added in patch [acronym=\"1.13.2.31687\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 4,
+    "objectives": {
+      "1537": {
+        "levels": [
+          [
+            {
+              "coord": [
+                31.2,
+                4.6
+              ],
+              "coords": [
+                [
+                  31.2,
+                  4.4
+                ],
+                [
+                  31.2,
+                  4.6
+                ],
+                [
+                  31.4,
+                  6.4
+                ]
+              ],
+              "id": 8507,
+              "name": "Tymor",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ironforge"
+      },
+      "16": {
+        "levels": [
+          [
+            {
+              "coord": [
+                77.8,
+                91.4
+              ],
+              "coords": [
+                [
+                  77.8,
+                  91.4
+                ]
+              ],
+              "id": 8392,
+              "name": "Pilot Xiggs Fuselighter",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Azshara"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1537,
+        1
+      ],
+      [
+        16,
+        1
+      ]
+    ]
+  },
+  "minLevel": 45,
+  "pageInfo": {
+    "name": "Arcane Runes",
+    "type": 5,
+    "typeId": 3449
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 3449,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 8507,
+      "npcName": "Tymor",
+      "zoneId": 1537,
+      "x": 31.2,
+      "y": 4.6,
+      "zoneName": "Ironforge"
+    }
+  ]
+}

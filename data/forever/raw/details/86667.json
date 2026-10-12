@@ -1,0 +1,97 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T05:57:08+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 20[/li][li]Requires level 10[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=49808/grenhild-darktalon]Grenhild Darktalon[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=258043/norric-lochthane]Norric Lochthane[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]10[/color][small] &nbsp;[/small][color=r1]16[/color][small] &nbsp;[/small][color=r2]18[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "38": {
+        "levels": [
+          [
+            {
+              "coord": [
+                36.4,
+                48.2
+              ],
+              "coords": [
+                [
+                  36.4,
+                  48.2
+                ],
+                [
+                  36.6,
+                  48.4
+                ]
+              ],
+              "id": 49808,
+              "name": "Grenhild Darktalon",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                41.8,
+                19
+              ],
+              "coords": [
+                [
+                  41.8,
+                  19
+                ]
+              ],
+              "id": 258043,
+              "name": "Norric Lochthane",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Loch Modan"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        38,
+        2
+      ]
+    ]
+  },
+  "minLevel": 10,
+  "pageInfo": {
+    "name": "Snowbound",
+    "type": 5,
+    "typeId": 86667
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 86667,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 49808,
+      "npcName": "Grenhild Darktalon",
+      "zoneId": 38,
+      "x": 36.4,
+      "y": 48.2,
+      "zoneName": "Loch Modan"
+    }
+  ]
+}

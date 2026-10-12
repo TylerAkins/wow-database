@@ -1,0 +1,101 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T05:08:37+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 1[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=6740/innkeeper-allison]Innkeeper Allison[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=16106/evert-sorisam]Evert Sorisam[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]1[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.3.33155\"]1.13.3[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1519": {
+        "levels": [
+          [
+            {
+              "coord": [
+                52.6,
+                65.6
+              ],
+              "coords": [
+                [
+                  52.4,
+                  65.6
+                ],
+                [
+                  52.6,
+                  65.6
+                ],
+                [
+                  52.8,
+                  65.4
+                ]
+              ],
+              "id": 6740,
+              "name": "Innkeeper Allison",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                39.8,
+                46.8
+              ],
+              "coords": [
+                [
+                  39.8,
+                  46.8
+                ]
+              ],
+              "id": 16106,
+              "name": "Evert Sorisam",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stormwind City"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1519,
+        2
+      ]
+    ]
+  },
+  "minLevel": 1,
+  "pageInfo": {
+    "name": "Tracing the Source",
+    "type": 5,
+    "typeId": 9027
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 9027,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 6740,
+      "npcName": "Innkeeper Allison",
+      "zoneId": 1519,
+      "x": 52.6,
+      "y": 65.6,
+      "zoneName": "Stormwind City"
+    }
+  ]
+}

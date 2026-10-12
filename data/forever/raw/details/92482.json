@@ -1,0 +1,106 @@
+{
+  "classes": [
+    3
+  ],
+  "fetchedAt": "2026-09-25T06:04:38+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 2[/li][li]Requires level 2[/li][li]Side: Both[/li][li]Class: [class=3][/li][li][icon name=quest-start]Start: [url=/forever/npc=251361/rorian-the-dayseeker]Rorian the Dayseeker[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=251376/tairee-farsight]Tai'ree Farsight[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]2[/color][small] &nbsp;[/small][color=r3]5[/color][small] &nbsp;[/small][color=r4]7[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "16593": {
+        "levels": [
+          [
+            {
+              "coord": [
+                42,
+                23.4
+              ],
+              "coords": [
+                [
+                  42,
+                  23.4
+                ]
+              ],
+              "id": 251361,
+              "name": "Rorian the Dayseeker",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                42.4,
+                23.6
+              ],
+              "coords": [
+                [
+                  42.4,
+                  23.4
+                ],
+                [
+                  42.4,
+                  23.6
+                ],
+                [
+                  42.6,
+                  23.4
+                ],
+                [
+                  42.6,
+                  23.6
+                ]
+              ],
+              "id": 251376,
+              "name": "Tai'ree Farsight",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Zephras Isle"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16593,
+        2
+      ]
+    ]
+  },
+  "minLevel": 2,
+  "pageInfo": {
+    "name": "The Way of the Hunter",
+    "type": 5,
+    "typeId": 92482
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 92482,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 251361,
+      "npcName": "Rorian the Dayseeker",
+      "zoneId": 16593,
+      "x": 42.0,
+      "y": 23.4,
+      "zoneName": "Zephras Isle"
+    }
+  ]
+}

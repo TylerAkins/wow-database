@@ -1,0 +1,237 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-24T23:26:24+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 4[/li][li]Requires level 3[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=2082/gilshalan-windwalker]Gilshalan Windwalker[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2082/gilshalan-windwalker]Gilshalan Windwalker[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]3[/color][small] &nbsp;[/small][color=r3]7[/color][small] &nbsp;[/small][color=r4]9[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "141": {
+        "levels": [
+          [
+            {
+              "coord": [
+                57.8,
+                41.6
+              ],
+              "coords": [
+                [
+                  57.8,
+                  41.6
+                ]
+              ],
+              "id": 2082,
+              "name": "Gilshalan Windwalker",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                57.8,
+                41.6
+              ],
+              "coords": [
+                [
+                  57.8,
+                  41.6
+                ]
+              ],
+              "id": 2082,
+              "name": "Gilshalan Windwalker",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                56.6,
+                31
+              ],
+              "coords": [
+                [
+                  55.4,
+                  28
+                ],
+                [
+                  55.4,
+                  32.8
+                ],
+                [
+                  55.6,
+                  27.8
+                ],
+                [
+                  56,
+                  29
+                ],
+                [
+                  56.2,
+                  24.8
+                ],
+                [
+                  56.2,
+                  26.4
+                ],
+                [
+                  56.4,
+                  26.6
+                ],
+                [
+                  56.4,
+                  30.2
+                ],
+                [
+                  56.4,
+                  30.6
+                ],
+                [
+                  56.4,
+                  32.2
+                ],
+                [
+                  56.4,
+                  33.2
+                ],
+                [
+                  56.4,
+                  34.4
+                ],
+                [
+                  56.4,
+                  34.6
+                ],
+                [
+                  56.6,
+                  25.4
+                ],
+                [
+                  56.6,
+                  25.6
+                ],
+                [
+                  56.6,
+                  29.6
+                ],
+                [
+                  56.6,
+                  31
+                ],
+                [
+                  56.6,
+                  32.6
+                ],
+                [
+                  56.6,
+                  33.6
+                ],
+                [
+                  56.6,
+                  34.6
+                ],
+                [
+                  56.8,
+                  27.4
+                ],
+                [
+                  56.8,
+                  28.4
+                ],
+                [
+                  56.8,
+                  29.2
+                ],
+                [
+                  56.8,
+                  31.6
+                ],
+                [
+                  57.6,
+                  27.8
+                ],
+                [
+                  57.6,
+                  29
+                ],
+                [
+                  57.6,
+                  32.4
+                ],
+                [
+                  57.6,
+                  32.6
+                ],
+                [
+                  57.6,
+                  34
+                ],
+                [
+                  57.8,
+                  26
+                ],
+                [
+                  57.8,
+                  26.6
+                ],
+                [
+                  58.6,
+                  33
+                ]
+              ],
+              "id": 1986,
+              "item": "Webwood Venom Sac",
+              "name": "Webwood Spider",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Teldrassil"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        141,
+        2
+      ]
+    ]
+  },
+  "minLevel": 3,
+  "pageInfo": {
+    "name": "Webwood Venom",
+    "type": 5,
+    "typeId": 916
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 916,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 2082,
+      "npcName": "Gilshalan Windwalker",
+      "zoneId": 141,
+      "x": 57.8,
+      "y": 41.6,
+      "zoneName": "Teldrassil"
+    }
+  ]
+}

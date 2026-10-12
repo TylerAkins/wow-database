@@ -1,0 +1,319 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-24T23:16:55+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 21[/li][li]Requires level 19[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1342/mountaineer-rockgar]Mountaineer Rockgar[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2086/valstag-ironjaw]Valstag Ironjaw[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]19[/color][small] &nbsp;[/small][color=r3]24[/color][small] &nbsp;[/small][color=r4]28[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 2,
+    "objectives": {
+      "11": {
+        "levels": [
+          [
+            {
+              "coord": [
+                10,
+                56.8
+              ],
+              "coords": [
+                [
+                  10,
+                  56.8
+                ]
+              ],
+              "id": 2086,
+              "name": "Valstag Ironjaw",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                50,
+                69.8
+              ],
+              "coords": [
+                [
+                  47.2,
+                  77
+                ],
+                [
+                  47.2,
+                  77.6
+                ],
+                [
+                  47.4,
+                  75.2
+                ],
+                [
+                  47.4,
+                  76.2
+                ],
+                [
+                  47.6,
+                  75.8
+                ],
+                [
+                  47.8,
+                  76.8
+                ],
+                [
+                  48,
+                  74
+                ],
+                [
+                  48,
+                  74.8
+                ],
+                [
+                  48,
+                  77.6
+                ],
+                [
+                  48.6,
+                  75.4
+                ],
+                [
+                  48.8,
+                  77.4
+                ],
+                [
+                  48.8,
+                  77.8
+                ],
+                [
+                  49.2,
+                  79.8
+                ],
+                [
+                  49.4,
+                  79.4
+                ],
+                [
+                  49.6,
+                  79.4
+                ],
+                [
+                  49.6,
+                  79.6
+                ],
+                [
+                  49.6,
+                  80.6
+                ],
+                [
+                  49.8,
+                  69.2
+                ],
+                [
+                  50,
+                  69.8
+                ],
+                [
+                  50,
+                  76.2
+                ],
+                [
+                  50.2,
+                  70.6
+                ],
+                [
+                  50.4,
+                  77
+                ],
+                [
+                  50.8,
+                  79.6
+                ],
+                [
+                  51,
+                  78.8
+                ],
+                [
+                  51.4,
+                  78.4
+                ]
+              ],
+              "id": 2102,
+              "name": "Dragonmaw Grunt",
+              "objective": 2102,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                50,
+                79.8
+              ],
+              "coords": [
+                [
+                  47.4,
+                  76.4
+                ],
+                [
+                  47.4,
+                  76.6
+                ],
+                [
+                  47.8,
+                  76.2
+                ],
+                [
+                  47.8,
+                  77
+                ],
+                [
+                  48,
+                  74
+                ],
+                [
+                  48,
+                  74.8
+                ],
+                [
+                  48.2,
+                  78.2
+                ],
+                [
+                  48.4,
+                  78.6
+                ],
+                [
+                  48.6,
+                  78.4
+                ],
+                [
+                  48.8,
+                  77.2
+                ],
+                [
+                  49,
+                  79
+                ],
+                [
+                  49.4,
+                  79.6
+                ],
+                [
+                  49.6,
+                  79.2
+                ],
+                [
+                  49.8,
+                  77
+                ],
+                [
+                  50,
+                  76.2
+                ],
+                [
+                  50,
+                  79.8
+                ],
+                [
+                  50.8,
+                  79.8
+                ],
+                [
+                  51.4,
+                  78.4
+                ]
+              ],
+              "id": 2103,
+              "name": "Dragonmaw Scout",
+              "objective": 2103,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Wetlands"
+      },
+      "38": {
+        "levels": [
+          [
+            {
+              "coord": [
+                25.4,
+                10.4
+              ],
+              "coords": [
+                [
+                  25.4,
+                  10.4
+                ],
+                [
+                  25.4,
+                  10.6
+                ],
+                [
+                  25.6,
+                  10.4
+                ],
+                [
+                  25.6,
+                  10.8
+                ]
+              ],
+              "id": 1342,
+              "name": "Mountaineer Rockgar",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Loch Modan"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        38,
+        1
+      ],
+      [
+        11,
+        3
+      ]
+    ]
+  },
+  "minLevel": 19,
+  "pageInfo": {
+    "name": "The Algaz Gauntlet",
+    "type": 5,
+    "typeId": 455
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 455,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 1342,
+      "npcName": "Mountaineer Rockgar",
+      "zoneId": 38,
+      "x": 25.4,
+      "y": 10.4,
+      "zoneName": "Loch Modan"
+    }
+  ]
+}

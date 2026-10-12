@@ -1,0 +1,326 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-24T23:23:42+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 7[/li][li]Requires level 3[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3139/garthok]Gar'Thok[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3139/garthok]Gar'Thok[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]3[/color][small] &nbsp;[/small][color=r2]5[/color][small] &nbsp;[/small][color=r3]10[/color][small] &nbsp;[/small][color=r4]13[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "14": {
+        "levels": [
+          [
+            {
+              "coord": [
+                52,
+                43.4
+              ],
+              "coords": [
+                [
+                  52,
+                  43.4
+                ],
+                [
+                  52,
+                  43.6
+                ]
+              ],
+              "id": 3139,
+              "name": "Gar'Thok",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                52,
+                43.4
+              ],
+              "coords": [
+                [
+                  52,
+                  43.4
+                ],
+                [
+                  52,
+                  43.6
+                ]
+              ],
+              "id": 3139,
+              "name": "Gar'Thok",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                59.4,
+                58.8
+              ],
+              "coords": [
+                [
+                  55.4,
+                  51.2
+                ],
+                [
+                  55.6,
+                  51.4
+                ],
+                [
+                  55.8,
+                  51.6
+                ],
+                [
+                  55.8,
+                  53.4
+                ],
+                [
+                  56.4,
+                  54.4
+                ],
+                [
+                  56.4,
+                  54.6
+                ],
+                [
+                  56.4,
+                  58.4
+                ],
+                [
+                  56.6,
+                  54.4
+                ],
+                [
+                  57,
+                  51.6
+                ],
+                [
+                  57,
+                  53
+                ],
+                [
+                  57,
+                  54.6
+                ],
+                [
+                  57.4,
+                  56.4
+                ],
+                [
+                  57.4,
+                  56.6
+                ],
+                [
+                  57.4,
+                  58
+                ],
+                [
+                  57.6,
+                  52.4
+                ],
+                [
+                  57.6,
+                  52.8
+                ],
+                [
+                  57.6,
+                  53.6
+                ],
+                [
+                  57.8,
+                  56.4
+                ],
+                [
+                  57.8,
+                  56.6
+                ],
+                [
+                  58.4,
+                  58.2
+                ],
+                [
+                  58.8,
+                  58.2
+                ],
+                [
+                  59,
+                  55.8
+                ],
+                [
+                  59.2,
+                  57.2
+                ],
+                [
+                  59.4,
+                  58.8
+                ],
+                [
+                  59.6,
+                  58.2
+                ],
+                [
+                  59.6,
+                  58.8
+                ]
+              ],
+              "id": 3128,
+              "name": "Kul Tiras Sailor",
+              "objective": 3128,
+              "point": "requirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                59.2,
+                57.8
+              ],
+              "coords": [
+                [
+                  57,
+                  51.6
+                ],
+                [
+                  57.2,
+                  57.6
+                ],
+                [
+                  57.4,
+                  55.2
+                ],
+                [
+                  57.4,
+                  57.4
+                ],
+                [
+                  57.6,
+                  52.8
+                ],
+                [
+                  57.6,
+                  55.2
+                ],
+                [
+                  57.8,
+                  56.2
+                ],
+                [
+                  58.4,
+                  57.4
+                ],
+                [
+                  58.4,
+                  58.2
+                ],
+                [
+                  59,
+                  55.8
+                ],
+                [
+                  59.2,
+                  55.4
+                ],
+                [
+                  59.2,
+                  56.8
+                ],
+                [
+                  59.2,
+                  57.8
+                ],
+                [
+                  59.4,
+                  58.8
+                ],
+                [
+                  59.6,
+                  56.2
+                ],
+                [
+                  59.6,
+                  58.8
+                ],
+                [
+                  59.8,
+                  57.6
+                ]
+              ],
+              "id": 3129,
+              "name": "Kul Tiras Marine",
+              "objective": 3129,
+              "point": "requirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                59.4,
+                58.2
+              ],
+              "coords": [
+                [
+                  59.4,
+                  58.2
+                ],
+                [
+                  59.6,
+                  58.2
+                ]
+              ],
+              "id": 3192,
+              "name": "Lieutenant Benedict",
+              "objective": 3192,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Durotar"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        14,
+        4
+      ]
+    ]
+  },
+  "minLevel": 3,
+  "pageInfo": {
+    "name": "Vanquish the Betrayers",
+    "type": 5,
+    "typeId": 784
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 784,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3139,
+      "npcName": "Gar'Thok",
+      "zoneId": 14,
+      "x": 52.0,
+      "y": 43.4,
+      "zoneName": "Durotar"
+    }
+  ]
+}

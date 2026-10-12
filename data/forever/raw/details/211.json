@@ -1,0 +1,179 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-24T23:11:57+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 50[/li][li]Type: Elite[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=10838/commander-ashlam-valorfist]Commander Ashlam Valorfist[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=10838/commander-ashlam-valorfist]Commander Ashlam Valorfist[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]50[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.31687\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "28": {
+        "levels": [
+          [
+            {
+              "coord": [
+                42.8,
+                84
+              ],
+              "coords": [
+                [
+                  42.8,
+                  84
+                ]
+              ],
+              "id": 10838,
+              "name": "Commander Ashlam Valorfist",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                42.8,
+                84
+              ],
+              "coords": [
+                [
+                  42.8,
+                  84
+                ]
+              ],
+              "id": 10838,
+              "name": "Commander Ashlam Valorfist",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                45.6,
+                69.2
+              ],
+              "coords": [
+                [
+                  45.2,
+                  68.2
+                ],
+                [
+                  45.4,
+                  69.2
+                ],
+                [
+                  45.4,
+                  69.6
+                ],
+                [
+                  45.6,
+                  69.2
+                ],
+                [
+                  45.6,
+                  69.6
+                ],
+                [
+                  46.6,
+                  69.4
+                ]
+              ],
+              "id": 1852,
+              "item": "Araj's Phylactery Shard",
+              "name": "Araj the Summoner",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                45.6,
+                69.3
+              ],
+              "coords": [
+                [
+                  45.2,
+                  68.4
+                ],
+                [
+                  45.4,
+                  68.8
+                ],
+                [
+                  45.4,
+                  69.5
+                ],
+                [
+                  45.5,
+                  68.3
+                ],
+                [
+                  45.6,
+                  69.3
+                ],
+                [
+                  45.6,
+                  69.5
+                ],
+                [
+                  46.5,
+                  69.4
+                ],
+                [
+                  46.5,
+                  69.5
+                ]
+              ],
+              "id": 177241,
+              "item": "Araj's Phylactery Shard",
+              "name": "Araj's Phylactery",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Western Plaguelands"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        28,
+        3
+      ]
+    ]
+  },
+  "minLevel": 50,
+  "pageInfo": {
+    "name": "Alas, Andorhal",
+    "type": 5,
+    "typeId": 211
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 211,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 10838,
+      "npcName": "Commander Ashlam Valorfist",
+      "zoneId": 28,
+      "x": 42.8,
+      "y": 84.0,
+      "zoneName": "Western Plaguelands"
+    }
+  ]
+}

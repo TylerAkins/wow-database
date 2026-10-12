@@ -1,0 +1,93 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T06:45:34+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 6[/li][li]Requires level 4[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=265813/eric-brighthammer]Eric Brighthammer[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1699/gremlock-pilsnor]Gremlock Pilsnor[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]4[/color][small] &nbsp;[/small][color=r3]9[/color][small] &nbsp;[/small][color=r4]12[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1": {
+        "levels": [
+          [
+            {
+              "coord": [
+                46.6,
+                53.8
+              ],
+              "coords": [
+                [
+                  46.6,
+                  53.8
+                ]
+              ],
+              "id": 265813,
+              "name": "Eric Brighthammer",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                47.6,
+                52.4
+              ],
+              "coords": [
+                [
+                  47.6,
+                  52.4
+                ]
+              ],
+              "id": 1699,
+              "name": "Gremlock Pilsnor",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Dun Morogh"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  "minLevel": 4,
+  "pageInfo": {
+    "name": "Camping 101: Cooking",
+    "type": 5,
+    "typeId": 96629
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 96629,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 265813,
+      "npcName": "Eric Brighthammer",
+      "zoneId": 1,
+      "x": 46.6,
+      "y": 53.8,
+      "zoneName": "Dun Morogh"
+    }
+  ]
+}

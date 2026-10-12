@@ -1,0 +1,149 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-24T23:27:43+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 57[/li][li]Requires level 52[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=7916/erelas-ambersky]Erelas Ambersky[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=10300/ranshalla]Ranshalla[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]52[/color][small] &nbsp;[/small][color=r1]53[/color][small] &nbsp;[/small][color=r2]55[/color][small] &nbsp;[/small][color=r3]60[/color][small] &nbsp;[/small][color=r4]68[/color][/li][li]Added in patch [acronym=\"1.13.2.31687\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "141": {
+        "levels": [
+          [
+            {
+              "coord": [
+                55.4,
+                92
+              ],
+              "coords": [
+                [
+                  55.4,
+                  92
+                ]
+              ],
+              "id": 7916,
+              "name": "Erelas Ambersky",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Teldrassil"
+      },
+      "618": {
+        "levels": [
+          [
+            {
+              "coord": [
+                63,
+                59.4
+              ],
+              "coords": [
+                [
+                  63,
+                  59.4
+                ],
+                [
+                  63.6,
+                  59.2
+                ],
+                [
+                  64.4,
+                  61.2
+                ],
+                [
+                  64.6,
+                  61
+                ],
+                [
+                  64.8,
+                  60.4
+                ],
+                [
+                  64.8,
+                  63.8
+                ],
+                [
+                  65.6,
+                  64.8
+                ],
+                [
+                  65.8,
+                  58.4
+                ],
+                [
+                  65.8,
+                  58.6
+                ],
+                [
+                  66.2,
+                  61.6
+                ],
+                [
+                  66.4,
+                  60
+                ],
+                [
+                  66.6,
+                  60
+                ]
+              ],
+              "id": 10300,
+              "name": "Ranshalla",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Winterspring"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        141,
+        1
+      ],
+      [
+        618,
+        1
+      ]
+    ]
+  },
+  "minLevel": 52,
+  "pageInfo": {
+    "name": "Find Ranshalla",
+    "type": 5,
+    "typeId": 979
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 979,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 7916,
+      "npcName": "Erelas Ambersky",
+      "zoneId": 141,
+      "x": 55.4,
+      "y": 92.0,
+      "zoneName": "Teldrassil"
+    }
+  ]
+}

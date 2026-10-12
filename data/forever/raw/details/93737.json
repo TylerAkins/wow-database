@@ -1,0 +1,112 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T06:12:53+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 9[/li][li]Requires level 4[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=256083/riaani-nightwind]Riaani Nightwind[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=256083/riaani-nightwind]Riaani Nightwind[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]4[/color][small] &nbsp;[/small][color=r1]5[/color][small] &nbsp;[/small][color=r2]7[/color][small] &nbsp;[/small][color=r3]12[/color][small] &nbsp;[/small][color=r4]15[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 3,
+    "objectives": {
+      "16593": {
+        "levels": [
+          [
+            {
+              "coord": [
+                59,
+                73
+              ],
+              "coords": [
+                [
+                  59,
+                  73
+                ]
+              ],
+              "id": 256083,
+              "name": "Riaani Nightwind",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                59,
+                73
+              ],
+              "coords": [
+                [
+                  59,
+                  73
+                ]
+              ],
+              "id": 256083,
+              "name": "Riaani Nightwind",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                59,
+                73
+              ],
+              "coords": [
+                [
+                  59,
+                  73
+                ]
+              ],
+              "id": 256083,
+              "name": "Riaani Nightwind",
+              "objective": 256083,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Zephras Isle"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16593,
+        1
+      ]
+    ]
+  },
+  "minLevel": 4,
+  "pageInfo": {
+    "name": "The Broken Construct",
+    "type": 5,
+    "typeId": 93737
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 93737,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 256083,
+      "npcName": "Riaani Nightwind",
+      "zoneId": 16593,
+      "x": 59.0,
+      "y": 73.0,
+      "zoneName": "Zephras Isle"
+    }
+  ]
+}

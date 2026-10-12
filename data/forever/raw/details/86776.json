@@ -1,0 +1,93 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T05:57:33+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 30[/li][li]Requires level 15[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=167/morhan-coppertongue]Morhan Coppertongue[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=167/morhan-coppertongue]Morhan Coppertongue[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]15[/color][small] &nbsp;[/small][color=r1]26[/color][small] &nbsp;[/small][color=r2]28[/color][small] &nbsp;[/small][color=r3]33[/color][small] &nbsp;[/small][color=r4]38[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "38": {
+        "levels": [
+          [
+            {
+              "coord": [
+                34,
+                46.6
+              ],
+              "coords": [
+                [
+                  34,
+                  46.6
+                ]
+              ],
+              "id": 167,
+              "name": "Morhan Coppertongue",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                34,
+                46.6
+              ],
+              "coords": [
+                [
+                  34,
+                  46.6
+                ]
+              ],
+              "id": 167,
+              "name": "Morhan Coppertongue",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Loch Modan"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        38,
+        1
+      ]
+    ]
+  },
+  "minLevel": 15,
+  "pageInfo": {
+    "name": "Ingredients for the Forge",
+    "type": 5,
+    "typeId": 86776
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 86776,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 167,
+      "npcName": "Morhan Coppertongue",
+      "zoneId": 38,
+      "x": 34.0,
+      "y": 46.6,
+      "zoneName": "Loch Modan"
+    }
+  ]
+}

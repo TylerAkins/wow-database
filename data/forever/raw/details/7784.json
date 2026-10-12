@@ -1,0 +1,187 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T03:59:18+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 60[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=4949/thrall]Thrall[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=14720/high-overlord-saurfang]High Overlord Saurfang[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]60[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.3.33155\"]1.13.3[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1377": {
+        "levels": [
+          [
+            {
+              "coord": [
+                49.4,
+                35.2
+              ],
+              "coords": [
+                [
+                  29,
+                  90.4
+                ],
+                [
+                  29,
+                  90.8
+                ],
+                [
+                  44.2,
+                  43.2
+                ],
+                [
+                  44.4,
+                  43.6
+                ],
+                [
+                  45.2,
+                  44.4
+                ],
+                [
+                  49.4,
+                  35.2
+                ],
+                [
+                  49.4,
+                  35.6
+                ],
+                [
+                  49.6,
+                  35.2
+                ]
+              ],
+              "id": 14720,
+              "name": "High Overlord Saurfang",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Silithus"
+      },
+      "1637": {
+        "levels": [
+          [
+            {
+              "coord": [
+                32,
+                37.8
+              ],
+              "coords": [
+                [
+                  32,
+                  37.8
+                ]
+              ],
+              "id": 4949,
+              "name": "Thrall",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                51,
+                75.8
+              ],
+              "coords": [
+                [
+                  50.4,
+                  76
+                ],
+                [
+                  51,
+                  75.4
+                ],
+                [
+                  51,
+                  75.8
+                ],
+                [
+                  51.2,
+                  76.6
+                ],
+                [
+                  51.6,
+                  75.4
+                ],
+                [
+                  51.6,
+                  76
+                ],
+                [
+                  52.4,
+                  78
+                ],
+                [
+                  52.6,
+                  78.8
+                ],
+                [
+                  53,
+                  77.2
+                ],
+                [
+                  53,
+                  78
+                ]
+              ],
+              "id": 14720,
+              "name": "High Overlord Saurfang",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Orgrimmar"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1637,
+        2
+      ],
+      [
+        1377,
+        1
+      ]
+    ]
+  },
+  "minLevel": 60,
+  "pageInfo": {
+    "name": "The Lord of Blackrock",
+    "type": 5,
+    "typeId": 7784
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 7784,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 4949,
+      "npcName": "Thrall",
+      "zoneId": 1637,
+      "x": 32.0,
+      "y": 37.8,
+      "zoneName": "Orgrimmar"
+    }
+  ]
+}

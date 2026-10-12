@@ -1,0 +1,95 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T06:06:19+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 4[/li][li]Requires level 2[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Race: [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=251371/falorne-fallwind]Falorne Fallwind[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=251371/falorne-fallwind]Falorne Fallwind[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]2[/color][small] &nbsp;[/small][color=r3]7[/color][small] &nbsp;[/small][color=r4]9[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "16593": {
+        "levels": [
+          [
+            {
+              "coord": [
+                43.2,
+                24.8
+              ],
+              "coords": [
+                [
+                  43.2,
+                  24.8
+                ]
+              ],
+              "id": 251371,
+              "name": "Falorne Fallwind",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                43.2,
+                24.8
+              ],
+              "coords": [
+                [
+                  43.2,
+                  24.8
+                ]
+              ],
+              "id": 251371,
+              "name": "Falorne Fallwind",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Zephras Isle"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16593,
+        1
+      ]
+    ]
+  },
+  "minLevel": 2,
+  "pageInfo": {
+    "name": "Reading the Ley Lines",
+    "type": 5,
+    "typeId": 92597
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 92597,
+  "races": [
+    95
+  ],
+  "startPins": [
+    {
+      "npcId": 251371,
+      "npcName": "Falorne Fallwind",
+      "zoneId": 16593,
+      "x": 43.2,
+      "y": 24.8,
+      "zoneName": "Zephras Isle"
+    }
+  ]
+}

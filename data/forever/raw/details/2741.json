@@ -1,0 +1,102 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T01:29:18+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 47[/li][li]Requires level 42[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/object=142071/egg-o-matic]Egg-O-Matic[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=142071/egg-o-matic]Egg-O-Matic[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]42[/color][small] &nbsp;[/small][color=r1]43[/color][small] &nbsp;[/small][color=r2]45[/color][small] &nbsp;[/small][color=r3]50[/color][small] &nbsp;[/small][color=r4]57[/color][/li][li]Added in patch [acronym=\"1.13.2.30786\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "440": {
+        "levels": [
+          [
+            {
+              "coord": [
+                52.4,
+                27
+              ],
+              "coords": [
+                [
+                  52.4,
+                  27
+                ]
+              ],
+              "id": 142071,
+              "name": "Egg-O-Matic",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                52.4,
+                27
+              ],
+              "coords": [
+                [
+                  52.4,
+                  27
+                ]
+              ],
+              "id": 142071,
+              "name": "Egg-O-Matic",
+              "point": "end",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Tanaris"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        440,
+        1
+      ]
+    ]
+  },
+  "minLevel": 42,
+  "objectSpawns": [
+    {
+      "entityId": 142071,
+      "entityKind": "object",
+      "entityName": "Egg-O-Matic",
+      "uiMapId": 1446,
+      "uiMapName": "Tanaris",
+      "x": 52.4,
+      "y": 27.0,
+      "zoneId": 440
+    }
+  ],
+  "pageInfo": {
+    "name": "The Super Egg-O-Matic",
+    "type": 5,
+    "typeId": 2741
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    2747
+  ],
+  "questId": 2741,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 142071,
+      "npcName": "Egg-O-Matic",
+      "x": 52.4,
+      "y": 27.0,
+      "zoneId": 440,
+      "zoneName": "Tanaris"
+    }
+  ]
+}

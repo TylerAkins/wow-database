@@ -1,0 +1,101 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-24T23:16:51+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 15[/li][li]Requires level 12[/li][li]Type: Elite[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=2058/deathstalker-faerleia]Deathstalker Faerleia[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2058/deathstalker-faerleia]Deathstalker Faerleia[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]12[/color][small] &nbsp;[/small][color=r2]13[/color][small] &nbsp;[/small][color=r3]18[/color][small] &nbsp;[/small][color=r4]22[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "130": {
+        "levels": [
+          [
+            {
+              "coord": [
+                46.4,
+                74.2
+              ],
+              "coords": [
+                [
+                  46.4,
+                  74.2
+                ],
+                [
+                  46.6,
+                  74.2
+                ]
+              ],
+              "id": 2058,
+              "name": "Deathstalker Faerleia",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                46.4,
+                74.2
+              ],
+              "coords": [
+                [
+                  46.4,
+                  74.2
+                ],
+                [
+                  46.6,
+                  74.2
+                ]
+              ],
+              "id": 2058,
+              "name": "Deathstalker Faerleia",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Silverpine Forest"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        130,
+        1
+      ]
+    ]
+  },
+  "minLevel": 12,
+  "pageInfo": {
+    "name": "Pyrewood Ambush",
+    "type": 5,
+    "typeId": 452
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 452,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 2058,
+      "npcName": "Deathstalker Faerleia",
+      "zoneId": 130,
+      "x": 46.4,
+      "y": 74.2,
+      "zoneName": "Silverpine Forest"
+    }
+  ]
+}

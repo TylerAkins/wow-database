@@ -1,13 +1,36 @@
 # Attribution
 
-## AllTheThings
+## Wowhead Forever
 
-Quest records, coordinates, prerequisites, and related Forever data published in `export/forever` come from [ATTWoWAddon/AllTheThings](https://github.com/ATTWoWAddon/AllTheThings). ATT is distributed under the MIT License, reproduced in [licenses/AllTheThings-MIT.txt](licenses/AllTheThings-MIT.txt). The manifest records the ATT commit used for the export.
+The canonical JSON snapshot was gathered from Wowhead Forever quest, zone, object, and item pages. Quest names, coordinates, NPC and object identifiers, classifications, and other game data belong to their respective sources. This repository stores converted records for programmatic use and does not claim ownership of that data.
+
+- Source: https://www.wowhead.com/forever
+- Initial migration source: https://github.com/TylerAkins/forever-quest-markers
+- Initial migration commit: `43f22e73ff3bf19f564d20d1e6846b0d57dbd3de`
+
+Wowhead is not bundled and is not required to read the committed raw or compiled JSON files.
+
+## All The Things
+
+- Source: https://github.com/ATTWoWAddon/AllTheThings
+- The upstream code license is retained at [licenses/AllTheThings-MIT.txt](licenses/AllTheThings-MIT.txt).
+
+ATT-derived records retain source revision and file provenance. This project
+does not claim ownership of the underlying game data.
 
 ## World of Warcraft
 
-World of Warcraft, its quests, and related names are trademarks and copyrights of Blizzard Entertainment, Inc. This database is an unofficial compilation.
+World of Warcraft and related names and identifiers are trademarks or property of Blizzard Entertainment. This project is not affiliated with or endorsed by Blizzard Entertainment or Wowhead.
+
+## QuestieDB
+
+- Source: https://github.com/Questie/QuestieDB
+
+The public repository does not expose an explicit data license in its root
+files or GitHub license metadata at the revision reviewed for this work.
+QuestieDB ingestion is therefore local-only until its data redistribution
+terms are confirmed. This project does not claim ownership of QuestieDB data.
 
 ## License
 
-The schema, compiler, exporter, and arrangement in this repository are covered by [LICENSE](LICENSE).
+The original repository code is licensed under GPL-3.0. Third-party game and website data retain their respective ownership and are provided with provenance rather than relicensed by this repository.

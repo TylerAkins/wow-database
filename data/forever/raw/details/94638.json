@@ -1,0 +1,132 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T06:34:29+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 10[/li][li]Requires level 10[/li][li]Side: Both[/li][li]Races: [race=95], [race=96][/li][li][icon name=quest-start]Start: [url=/forever/npc=255853/ursendris]Urs'endris[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=255853/ursendris]Urs'endris[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]10[/color][small] &nbsp;[/small][color=r3]13[/color][small] &nbsp;[/small][color=r4]16[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "16593": {
+        "levels": [
+          [
+            {
+              "coord": [
+                69.8,
+                61.6
+              ],
+              "coords": [
+                [
+                  69.8,
+                  61.4
+                ],
+                [
+                  69.8,
+                  61.6
+                ]
+              ],
+              "id": 255853,
+              "name": "Urs'endris",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                69.8,
+                61.6
+              ],
+              "coords": [
+                [
+                  69.8,
+                  61.4
+                ],
+                [
+                  69.8,
+                  61.6
+                ]
+              ],
+              "id": 255853,
+              "name": "Urs'endris",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                54,
+                65.4
+              ],
+              "coords": [
+                [
+                  53.4,
+                  64.8
+                ],
+                [
+                  54,
+                  65.4
+                ],
+                [
+                  54.2,
+                  65.6
+                ]
+              ],
+              "id": 258443,
+              "name": "Ur'endra",
+              "objective": 258443,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Zephras Isle"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16593,
+        2
+      ]
+    ]
+  },
+  "minLevel": 10,
+  "pageInfo": {
+    "name": "Strength and Mercy",
+    "type": 5,
+    "typeId": 94638
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    92840
+  ],
+  "questId": 94638,
+  "races": [
+    95,
+    96
+  ],
+  "startPins": [
+    {
+      "npcId": 255853,
+      "npcName": "Urs'endris",
+      "zoneId": 16593,
+      "x": 69.8,
+      "y": 61.6,
+      "zoneName": "Zephras Isle"
+    }
+  ]
+}

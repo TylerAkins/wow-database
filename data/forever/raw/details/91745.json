@@ -1,0 +1,101 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T05:59:46+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 3[/li][li]Requires level 1[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=951/brother-paxton]Brother Paxton[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=247226/kelsey-fargo]Kelsey Fargo[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]1[/color][small] &nbsp;[/small][color=r3]6[/color][small] &nbsp;[/small][color=r4]8[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "12": {
+        "levels": [
+          [
+            {
+              "coord": [
+                49.4,
+                40.4
+              ],
+              "coords": [
+                [
+                  49.4,
+                  40.4
+                ],
+                [
+                  49.6,
+                  40.4
+                ]
+              ],
+              "id": 951,
+              "name": "Brother Paxton",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                47.2,
+                32.2
+              ],
+              "coords": [
+                [
+                  47.2,
+                  32.2
+                ],
+                [
+                  47.2,
+                  32.6
+                ]
+              ],
+              "id": 247226,
+              "name": "Kelsey Fargo",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Elwynn Forest"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        12,
+        2
+      ]
+    ]
+  },
+  "minLevel": 1,
+  "pageInfo": {
+    "name": "Mining Consultant",
+    "type": 5,
+    "typeId": 91745
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 91745,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 951,
+      "npcName": "Brother Paxton",
+      "zoneId": 12,
+      "x": 49.4,
+      "y": 40.4,
+      "zoneName": "Elwynn Forest"
+    }
+  ]
+}

@@ -10,14 +10,14 @@ permissions:
   pull-requests: write
 
 concurrency:
-  group: forever-database-update
+  group: database-update
   cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-24.04
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v7.0.1
         with:
           fetch-depth: 0
@@ -25,9 +25,14 @@ jobs:
       - name: Set up Go
         uses: actions/setup-go@v7.0.0
         with:
-          go-version-file: go.mod
+          go-version: '1.27.2'
 
-      - name: Checkout AllTheThings
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Check out AllTheThings
         uses: actions/checkout@v7.0.1
         with:
           repository: ATTWoWAddon/AllTheThings
@@ -35,40 +40,49 @@ jobs:
           path: .cache/AllTheThings
           fetch-depth: 1
 
-      - name: Read source revision
+      - name: Read ATT revision
         id: sources
         run: |
           set -euo pipefail
-          if [[ -f export/forever/manifest.json ]]; then
-            old_att=$(jq -r '.commit // "none"' export/forever/manifest.json)
-          else
-            old_att=none
-          fi
           att_sha=$(git -C .cache/AllTheThings rev-parse HEAD)
-          generated_at=$(git -C .cache/AllTheThings log -1 --format=%cI)
-          printf 'old_att=%s\natt=%s\ngenerated_at=%s\n' \
-            "$old_att" "$att_sha" "$generated_at" >> "$GITHUB_OUTPUT"
+          att_time=$(git -C .cache/AllTheThings log -1 --format=%cI)
+          printf 'att=%s\natt_time=%s\n' "$att_sha" "$att_time" >> "$GITHUB_OUTPUT"
 
-      - name: Export ATT Forever quests
+      - name: Import ATT and existing local snapshot
+        env:
+          ATT_SHA: ${{ steps.sources.outputs.att }}
+          ATT_TIME: ${{ steps.sources.outputs.att_time }}
         run: |
           set -euo pipefail
-          go run ./cmd/compile \
-            --att-root .cache/AllTheThings \
+          go run ./cmd/ingest-att --att-root .cache/AllTheThings \
+            --revision "$ATT_SHA" --generated-at "$ATT_TIME" \
+            --out data/forever/sources/allthethings
+          if [[ -f data/forever/raw/manifest.json ]]; then
+            python3 tools/wowhead/import_snapshot.py \
+              --data-root data/forever/raw --out data/forever/sources/wowhead
+          fi
+
+      - name: Validate and compile both flavors
+        run: |
+          set -euo pipefail
+          python3 tools/coverage_guard.py --base origin/main
+          go run ./cmd/database validate --root data
+          go run ./cmd/database compile --flavor era
+          go run ./cmd/database compile --flavor forever
+          go run ./cmd/compile --att-root .cache/AllTheThings \
             --att-commit "${{ steps.sources.outputs.att }}" \
-            --generated-at "${{ steps.sources.outputs.generated_at }}" \
+            --generated-at "${{ steps.sources.outputs.att_time }}" \
             --out export/forever
           go test ./...
+          python3 -m unittest discover -s tests -p 'test_*.py'
 
-      - name: Detect export changes
+      - name: Detect generated changes
         id: changes
         run: |
           set -euo pipefail
-          if [[ -z "$(git status --porcelain -- export/forever)" ]]; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          fi
-          printf 'quests=%s\n' "$(jq -r '.questCount' export/forever/manifest.json)" >> "$GITHUB_OUTPUT"
+          python3 tools/semantic_changes.py --base origin/main 2> /tmp/semantic-changes.log | tee /tmp/semantic-changes.out
+          grep '^changed=' /tmp/semantic-changes.out >> "$GITHUB_OUTPUT"
+          cat /tmp/semantic-changes.log >> "$GITHUB_STEP_SUMMARY"
 
       - name: Close stale database pull request
         if: steps.changes.outputs.changed == 'false'
@@ -77,30 +91,33 @@ jobs:
         run: |
           set -euo pipefail
           pr_number=$(gh pr list --repo "$GITHUB_REPOSITORY" --base main \
-            --head att-update --state open --limit 1 --json number --jq '.[0].number // empty')
-          if [[ -z "$pr_number" ]]; then
-            echo "No stale Forever database pull request is open."
-            exit 0
+            --head takins/database-update --state open --limit 1 --json number --jq '.[0].number // empty')
+          if [[ -n "$pr_number" ]]; then
+            gh pr close "$pr_number" --repo "$GITHUB_REPOSITORY" --delete-branch \
+              --comment "Closing automatically because the regenerated datasets now match main."
           fi
-          gh pr close "$pr_number" --repo "$GITHUB_REPOSITORY" --delete-branch \
-            --comment "Closing automatically because the regenerated Forever export now matches main."
 
-      - name: Create or update pull request
+      - name: Create or update database pull request
         if: steps.changes.outputs.changed == 'true'
         uses: peter-evans/create-pull-request@v8.1.1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: att-update
+          branch: takins/database-update
           delete-branch: true
-          commit-message: "chore: refresh Forever quest export from ATT"
-          title: "chore: refresh Forever quest export from ATT"
+          commit-message: "chore: refresh source datasets"
+          title: "chore: refresh source datasets"
           assignees: TylerAkins
-          add-paths: export/forever
+          add-paths: |
+            data/era/sources
+            data/era/compilation
+            data/forever/sources
+            data/forever/compilation
+            export/forever
           body: |
-            Automated regeneration of `export/forever` from the Forever database in [AllTheThings](https://github.com/ATTWoWAddon/AllTheThings).
+            Regenerates the canonical source snapshots and flavor compilations.
 
-            | Source | Previous SHA | Updated SHA |
-            |---|---|---|
-            | AllTheThings | `${{ steps.sources.outputs.old_att }}` | `${{ steps.sources.outputs.att }}` |
+            | Source | Revision |
+            |---|---|
+            | AllTheThings | `${{ steps.sources.outputs.att }}` |
 
-            The Go compiler reads ATT `.contrib/.db/forever` quest declarations directly. The manifest records any unmapped coordinate issues.
+            The existing Wowhead snapshot is normalized offline when present. QuestieDB import remains local until its data redistribution terms are confirmed. The local client extractor is not run in CI. Revision-only changes do not open a pull request when canonical values are unchanged.

@@ -1,3 +1,3 @@
 module github.com/TylerAkins/wow-database
 
-go 1.22
+go 1.27.0

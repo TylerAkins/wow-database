@@ -1,0 +1,111 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T00:33:59+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 43[/li][li]Requires level 38[/li][li]Type: Elite[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=4500/overlord-mokmorokk]Overlord Mok'Morokk[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=4500/overlord-mokmorokk]Overlord Mok'Morokk[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]38[/color][small] &nbsp;[/small][color=r1]39[/color][small] &nbsp;[/small][color=r2]41[/color][small] &nbsp;[/small][color=r3]46[/color][small] &nbsp;[/small][color=r4]53[/color][/li][li]Added in patch [acronym=\"1.13.2.30682\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 3,
+    "objectives": {
+      "15": {
+        "levels": [
+          [
+            {
+              "coord": [
+                36.2,
+                31.4
+              ],
+              "coords": [
+                [
+                  36.2,
+                  31.4
+                ],
+                [
+                  36.4,
+                  31.6
+                ],
+                [
+                  36.6,
+                  31.4
+                ]
+              ],
+              "id": 4500,
+              "name": "Overlord Mok'Morokk",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                36.2,
+                31.4
+              ],
+              "coords": [
+                [
+                  36.2,
+                  31.4
+                ],
+                [
+                  36.4,
+                  31.6
+                ],
+                [
+                  36.6,
+                  31.4
+                ]
+              ],
+              "id": 4500,
+              "name": "Overlord Mok'Morokk",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Dustwallow Marsh"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        15,
+        1
+      ]
+    ]
+  },
+  "minLevel": 38,
+  "pageInfo": {
+    "name": "Overlord Mok'Morokk's Concern",
+    "type": 5,
+    "typeId": 1166
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    1172
+  ],
+  "questId": 1166,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 4500,
+      "npcName": "Overlord Mok'Morokk",
+      "zoneId": 15,
+      "x": 36.2,
+      "y": 31.4,
+      "zoneName": "Dustwallow Marsh"
+    }
+  ]
+}

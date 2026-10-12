@@ -1,0 +1,131 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T04:58:40+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 58[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=16012/mokvar]Mokvar[/url][/icon][br][span=invisible][icon name=quest-start]Start: [/icon][/span][url=/forever/npc=230317/mokvar]Mokvar[/url][/li][li][icon name=quest-end]End: [url=/forever/npc=16016/anthion-harmon]Anthion Harmon[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.5.34713\"]1.13.5[/acronym] \"The Gates of Ahn'Qiraj\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "1637": {
+        "levels": [
+          [
+            {
+              "coord": [
+                34.8,
+                38
+              ],
+              "coords": [
+                [
+                  34.4,
+                  37.4
+                ],
+                [
+                  34.4,
+                  37.6
+                ],
+                [
+                  34.8,
+                  38
+                ],
+                [
+                  35.2,
+                  37.4
+                ]
+              ],
+              "id": 16012,
+              "name": "Mokvar",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                35,
+                38
+              ],
+              "coords": [
+                [
+                  34.4,
+                  37.4
+                ],
+                [
+                  34.4,
+                  37.8
+                ],
+                [
+                  34.8,
+                  38.6
+                ],
+                [
+                  35,
+                  38
+                ],
+                [
+                  35.2,
+                  37.4
+                ]
+              ],
+              "id": 230317,
+              "name": "Mokvar",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Orgrimmar"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1637,
+        2
+      ]
+    ]
+  },
+  "minLevel": 58,
+  "pageInfo": {
+    "name": "In Search of Anthion",
+    "type": 5,
+    "typeId": 8930
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    8945
+  ],
+  "questId": 8930,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 16012,
+      "npcName": "Mokvar",
+      "zoneId": 1637,
+      "x": 34.8,
+      "y": 38.0,
+      "zoneName": "Orgrimmar"
+    },
+    {
+      "npcId": 230317,
+      "npcName": "Mokvar",
+      "zoneId": 1637,
+      "x": 35.0,
+      "y": 38.0,
+      "zoneName": "Orgrimmar"
+    }
+  ]
+}

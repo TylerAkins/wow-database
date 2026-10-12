@@ -1,0 +1,93 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-24T23:14:10+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 8[/li][li]Requires level 2[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1374/rejold-barleybrew]Rejold Barleybrew[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1378/pilot-bellowfiz]Pilot Bellowfiz[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]2[/color][small] &nbsp;[/small][color=r1]4[/color][small] &nbsp;[/small][color=r2]6[/color][small] &nbsp;[/small][color=r3]11[/color][small] &nbsp;[/small][color=r4]14[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1": {
+        "levels": [
+          [
+            {
+              "coord": [
+                30.2,
+                45.8
+              ],
+              "coords": [
+                [
+                  30.2,
+                  45.8
+                ]
+              ],
+              "id": 1374,
+              "name": "Rejold Barleybrew",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                49.4,
+                48.4
+              ],
+              "coords": [
+                [
+                  49.4,
+                  48.4
+                ]
+              ],
+              "id": 1378,
+              "name": "Pilot Bellowfiz",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Dun Morogh"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1,
+        2
+      ]
+    ]
+  },
+  "minLevel": 2,
+  "pageInfo": {
+    "name": "Return to Bellowfiz",
+    "type": 5,
+    "typeId": 320
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 320,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 1374,
+      "npcName": "Rejold Barleybrew",
+      "zoneId": 1,
+      "x": 30.2,
+      "y": 45.8,
+      "zoneName": "Dun Morogh"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-24T23:27:00+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 18[/li][li]Requires level 10[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3584/therylune]Therylune[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3585/therysil]Therysil[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]10[/color][small] &nbsp;[/small][color=r1]14[/color][small] &nbsp;[/small][color=r2]16[/color][small] &nbsp;[/small][color=r3]21[/color][small] &nbsp;[/small][color=r4]25[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "148": {
+        "levels": [
+          [
+            {
+              "coord": [
+                38.6,
+                87.2
+              ],
+              "coords": [
+                [
+                  38.4,
+                  87.2
+                ],
+                [
+                  38.6,
+                  87.2
+                ],
+                [
+                  38.8,
+                  87.6
+                ],
+                [
+                  39.4,
+                  85.4
+                ],
+                [
+                  39.4,
+                  85.6
+                ],
+                [
+                  39.8,
+                  86.4
+                ],
+                [
+                  40.4,
+                  87
+                ]
+              ],
+              "id": 3584,
+              "name": "Therylune",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Darkshore"
+      },
+      "331": {
+        "levels": [
+          [
+            {
+              "coord": [
+                22.6,
+                51.8
+              ],
+              "coords": [
+                [
+                  22.6,
+                  51.8
+                ]
+              ],
+              "id": 3585,
+              "name": "Therysil",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ashenvale"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        148,
+        1
+      ],
+      [
+        331,
+        1
+      ]
+    ]
+  },
+  "minLevel": 10,
+  "pageInfo": {
+    "name": "Therylune's Escape",
+    "type": 5,
+    "typeId": 945
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 945,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3584,
+      "npcName": "Therylune",
+      "zoneId": 148,
+      "x": 38.6,
+      "y": 87.2,
+      "zoneName": "Darkshore"
+    }
+  ]
+}

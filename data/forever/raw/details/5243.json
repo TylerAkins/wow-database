@@ -1,0 +1,92 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T02:53:29+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": true,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 55[/li][li]Type: Dungeon[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=11036/leonid-barthalomew-the-revered]Leonid Barthalomew the Revered[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=11036/leonid-barthalomew-the-revered]Leonid Barthalomew the Revered[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]55[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.30786\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "139": {
+        "levels": [
+          [
+            {
+              "coord": [
+                81.6,
+                57.8
+              ],
+              "coords": [
+                [
+                  81.6,
+                  57.8
+                ]
+              ],
+              "id": 11036,
+              "name": "Leonid Barthalomew the Revered",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                81.6,
+                57.8
+              ],
+              "coords": [
+                [
+                  81.6,
+                  57.8
+                ]
+              ],
+              "id": 11036,
+              "name": "Leonid Barthalomew the Revered",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Eastern Plaguelands"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        139,
+        1
+      ]
+    ]
+  },
+  "minLevel": 55,
+  "pageInfo": {
+    "name": "Houses of the Holy",
+    "type": 5,
+    "typeId": 5243
+  },
+  "pinCategory": "instance",
+  "prerequisiteQuestIds": [],
+  "questId": 5243,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 11036,
+      "npcName": "Leonid Barthalomew the Revered",
+      "zoneId": 139,
+      "x": 81.6,
+      "y": 57.8,
+      "zoneName": "Eastern Plaguelands"
+    }
+  ]
+}

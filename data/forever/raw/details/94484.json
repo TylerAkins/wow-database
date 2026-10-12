@@ -1,0 +1,92 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T06:32:23+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 11[/li][li]Requires level 8[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=252359/lotheluum-starbreeze]Lotheluum Starbreeze[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=257944/elegael-thornpaw]Elegael Thornpaw[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]8[/color][small] &nbsp;[/small][color=r2]9[/color][small] &nbsp;[/small][color=r3]14[/color][small] &nbsp;[/small][color=r4]17[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "16593": {
+        "levels": [
+          [
+            {
+              "coord": [
+                64,
+                75
+              ],
+              "coords": [
+                [
+                  64,
+                  75
+                ]
+              ],
+              "id": 252359,
+              "name": "Lotheluum Starbreeze",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                61.6,
+                39.2
+              ],
+              "coords": [
+                [
+                  61.6,
+                  39.2
+                ]
+              ],
+              "id": 257944,
+              "name": "Elegael Thornpaw",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Zephras Isle"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16593,
+        2
+      ]
+    ]
+  },
+  "minLevel": 8,
+  "pageInfo": {
+    "name": "Unnerving Silence",
+    "type": 5,
+    "typeId": 94484
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 94484,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 252359,
+      "npcName": "Lotheluum Starbreeze",
+      "zoneId": 16593,
+      "x": 64.0,
+      "y": 75.0,
+      "zoneName": "Zephras Isle"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T06:53:05+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 17[/li][li]Requires level 13[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3649/thundris-windweaver]Thundris Windweaver[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1646/baros-alexston]Baros Alexston[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]13[/color][small] &nbsp;[/small][color=r2]15[/color][small] &nbsp;[/small][color=r3]20[/color][small] &nbsp;[/small][color=r4]24[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "148": {
+        "levels": [
+          [
+            {
+              "coord": [
+                37.4,
+                40.2
+              ],
+              "coords": [
+                [
+                  37.4,
+                  40.2
+                ]
+              ],
+              "id": 3649,
+              "name": "Thundris Windweaver",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Darkshore"
+      },
+      "1519": {
+        "levels": [
+          [
+            {
+              "coord": [
+                49,
+                30.2
+              ],
+              "coords": [
+                [
+                  49,
+                  30.2
+                ],
+                [
+                  57.6,
+                  47.8
+                ]
+              ],
+              "id": 1646,
+              "name": "Baros Alexston",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stormwind City"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        148,
+        1
+      ],
+      [
+        1519,
+        1
+      ]
+    ]
+  },
+  "minLevel": 13,
+  "pageInfo": {
+    "name": "Expanding Horizons",
+    "type": 5,
+    "typeId": 97914
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 97914,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3649,
+      "npcName": "Thundris Windweaver",
+      "zoneId": 148,
+      "x": 37.4,
+      "y": 40.2,
+      "zoneName": "Darkshore"
+    }
+  ]
+}

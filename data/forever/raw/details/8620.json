@@ -1,0 +1,237 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T04:40:04+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": true,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 60[/li][li]Type: Raid[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=11811/narain-soothfancy]Narain Soothfancy[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=11811/narain-soothfancy]Narain Soothfancy[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]60[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.5.35186\"]1.13.5[/acronym] \"The Gates of Ahn'Qiraj\"[/li][/ul]",
+  "mapper": {
+    "missing": 7,
+    "objectives": {
+      "15": {
+        "levels": [
+          [
+            {
+              "coord": [
+                77.6,
+                17.2
+              ],
+              "coords": [
+                [
+                  76.4,
+                  17.8
+                ],
+                [
+                  76.6,
+                  18.8
+                ],
+                [
+                  77,
+                  17.6
+                ],
+                [
+                  77.2,
+                  17.4
+                ],
+                [
+                  77.6,
+                  16.4
+                ],
+                [
+                  77.6,
+                  17.2
+                ],
+                [
+                  77.8,
+                  17.6
+                ]
+              ],
+              "id": 15552,
+              "item": "Draconic for Dummies",
+              "name": "Doctor Weavil",
+              "objective": 4,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Dustwallow Marsh"
+      },
+      "2717": {
+        "levels": [
+          [
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 11502,
+              "item": "Draconic for Dummies",
+              "name": "Ragnaros",
+              "objective": 8,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 228438,
+              "item": "Draconic for Dummies",
+              "name": "Ragnaros",
+              "objective": 8,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Molten Core"
+      },
+      "440": {
+        "levels": [
+          [
+            {
+              "coord": [
+                65.2,
+                18.6
+              ],
+              "coords": [
+                [
+                  65.2,
+                  18.4
+                ],
+                [
+                  65.2,
+                  18.6
+                ]
+              ],
+              "id": 11811,
+              "name": "Narain Soothfancy",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                65.2,
+                18.6
+              ],
+              "coords": [
+                [
+                  65.2,
+                  18.4
+                ],
+                [
+                  65.2,
+                  18.6
+                ]
+              ],
+              "id": 11811,
+              "name": "Narain Soothfancy",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Tanaris"
+      },
+      "618": {
+        "levels": [
+          [
+            {
+              "coord": [
+                67.4,
+                72.8
+              ],
+              "coords": [
+                [
+                  67.4,
+                  72.8
+                ],
+                [
+                  67.6,
+                  72.8
+                ]
+              ],
+              "id": 15552,
+              "item": "Draconic for Dummies",
+              "name": "Doctor Weavil",
+              "objective": 4,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Winterspring"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        440,
+        1
+      ],
+      [
+        2717,
+        2
+      ],
+      [
+        15,
+        1
+      ],
+      [
+        618,
+        1
+      ]
+    ]
+  },
+  "minLevel": 60,
+  "pageInfo": {
+    "name": "The Only Prescription",
+    "type": 5,
+    "typeId": 8620
+  },
+  "pinCategory": "raid",
+  "prerequisiteQuestIds": [
+    8578,
+    8587,
+    8606,
+    8728
+  ],
+  "questId": 8620,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 11811,
+      "npcName": "Narain Soothfancy",
+      "zoneId": 440,
+      "x": 65.2,
+      "y": 18.6,
+      "zoneName": "Tanaris"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T06:12:12+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 11[/li][li]Requires level 6[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=252383/valennia-stormfist]Valennia Stormfist[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=252378/yorana-windyreed]Yorana Windyreed[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]6[/color][small] &nbsp;[/small][color=r1]7[/color][small] &nbsp;[/small][color=r2]9[/color][small] &nbsp;[/small][color=r3]14[/color][small] &nbsp;[/small][color=r4]17[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "16593": {
+        "levels": [
+          [
+            {
+              "coord": [
+                66.2,
+                76.6
+              ],
+              "coords": [
+                [
+                  66.2,
+                  76.6
+                ]
+              ],
+              "id": 252383,
+              "name": "Valennia Stormfist",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                69.6,
+                67
+              ],
+              "coords": [
+                [
+                  69.6,
+                  67
+                ]
+              ],
+              "id": 252378,
+              "name": "Yorana Windyreed",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Zephras Isle"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16593,
+        2
+      ]
+    ]
+  },
+  "minLevel": 6,
+  "pageInfo": {
+    "name": "Tower Defense",
+    "type": 5,
+    "typeId": 93320
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 93320,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 252383,
+      "npcName": "Valennia Stormfist",
+      "zoneId": 16593,
+      "x": 66.2,
+      "y": 76.6,
+      "zoneName": "Zephras Isle"
+    }
+  ]
+}

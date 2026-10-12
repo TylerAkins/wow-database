@@ -1,0 +1,118 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-24T23:20:17+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": true,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 52[/li][li]Requires level 1[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/object=2289/ruined-lifeboat]Ruined Lifeboat[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=2289/ruined-lifeboat]Ruined Lifeboat[/url][/icon][/li][li]Repeatable[/li][li]Sharable[/li][li]Difficulty: [color=q10]1[/color][small] &nbsp;[/small][color=r1]48[/color][small] &nbsp;[/small][color=r2]50[/color][small] &nbsp;[/small][color=r3]55[/color][small] &nbsp;[/small][color=r4]63[/color][/li][li]Added in patch [acronym=\"1.13.2.31687\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 2,
+    "objectives": {
+      "33": {
+        "levels": [
+          [
+            {
+              "coord": [
+                32.5,
+                81.9
+              ],
+              "coords": [
+                [
+                  32.4,
+                  81.9
+                ],
+                [
+                  32.5,
+                  81.9
+                ]
+              ],
+              "id": 2289,
+              "name": "Ruined Lifeboat",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                32.5,
+                81.9
+              ],
+              "coords": [
+                [
+                  32.4,
+                  81.9
+                ],
+                [
+                  32.5,
+                  81.9
+                ]
+              ],
+              "id": 2289,
+              "name": "Ruined Lifeboat",
+              "point": "end",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stranglethorn Vale"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        33,
+        1
+      ]
+    ]
+  },
+  "minLevel": 1,
+  "objectSpawns": [
+    {
+      "entityId": 2289,
+      "entityKind": "object",
+      "entityName": "Ruined Lifeboat",
+      "uiMapId": 1434,
+      "uiMapName": "Stranglethorn Vale",
+      "x": 32.4,
+      "y": 81.9,
+      "zoneId": 33
+    },
+    {
+      "entityId": 2289,
+      "entityKind": "object",
+      "entityName": "Ruined Lifeboat",
+      "uiMapId": 1434,
+      "uiMapName": "Stranglethorn Vale",
+      "x": 32.5,
+      "y": 81.9,
+      "zoneId": 33
+    }
+  ],
+  "pageInfo": {
+    "name": "Enticing Negolash",
+    "type": 5,
+    "typeId": 619
+  },
+  "pinCategory": "repeatable",
+  "prerequisiteQuestIds": [],
+  "questId": 619,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 2289,
+      "npcName": "Ruined Lifeboat",
+      "x": 32.5,
+      "y": 81.9,
+      "zoneId": 33,
+      "zoneName": "Stranglethorn Vale"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T00:23:08+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": true,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 40[/li][li]Requires level 34[/li][li]Type: Dungeon[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3980/raleigh-the-devout]Raleigh the Devout[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3980/raleigh-the-devout]Raleigh the Devout[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]34[/color][small] &nbsp;[/small][color=r1]36[/color][small] &nbsp;[/small][color=r2]38[/color][small] &nbsp;[/small][color=r3]43[/color][small] &nbsp;[/small][color=r4]49[/color][/li][li]Added in patch [acronym=\"1.13.2.30682\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "267": {
+        "levels": [
+          [
+            {
+              "coord": [
+                51.4,
+                58.4
+              ],
+              "coords": [
+                [
+                  51.4,
+                  58.4
+                ],
+                [
+                  51.4,
+                  58.6
+                ]
+              ],
+              "id": 3980,
+              "name": "Raleigh the Devout",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                51.4,
+                58.4
+              ],
+              "coords": [
+                [
+                  51.4,
+                  58.4
+                ],
+                [
+                  51.4,
+                  58.6
+                ]
+              ],
+              "id": 3980,
+              "name": "Raleigh the Devout",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Hillsbrad Foothills"
+      },
+      "796": {
+        "levels": [
+          [
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 3974,
+              "name": "Houndmaster Loksey",
+              "objective": 3974,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 3975,
+              "name": "Herod",
+              "objective": 3975,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 3976,
+              "name": "Scarlet Commander Mograine",
+              "objective": 3976,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 3977,
+              "name": "High Inquisitor Whitemane",
+              "objective": 3977,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Scarlet Monastery"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        267,
+        1
+      ],
+      [
+        796,
+        4
+      ]
+    ]
+  },
+  "minLevel": 34,
+  "pageInfo": {
+    "name": "In the Name of the Light",
+    "type": 5,
+    "typeId": 1053
+  },
+  "pinCategory": "instance",
+  "prerequisiteQuestIds": [
+    261,
+    1052,
+    6141
+  ],
+  "questId": 1053,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3980,
+      "npcName": "Raleigh the Devout",
+      "zoneId": 267,
+      "x": 51.4,
+      "y": 58.4,
+      "zoneName": "Hillsbrad Foothills"
+    }
+  ]
+}

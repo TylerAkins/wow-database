@@ -1,0 +1,152 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T06:51:54+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 16[/li][li]Requires level 9[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=7683/alessandro-luca]Alessandro Luca[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=11044/doctor-martin-felben]Doctor Martin Felben[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]9[/color][small] &nbsp;[/small][color=r1]12[/color][small] &nbsp;[/small][color=r2]14[/color][small] &nbsp;[/small][color=r3]19[/color][small] &nbsp;[/small][color=r4]23[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1497": {
+        "levels": [
+          [
+            {
+              "coord": [
+                58.2,
+                55.2
+              ],
+              "coords": [
+                [
+                  58.2,
+                  55.2
+                ],
+                [
+                  58.2,
+                  55.6
+                ],
+                [
+                  58.6,
+                  55.2
+                ]
+              ],
+              "id": 7683,
+              "name": "Alessandro Luca",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                46.6,
+                74.4
+              ],
+              "coords": [
+                [
+                  45.8,
+                  73.2
+                ],
+                [
+                  46.4,
+                  74.2
+                ],
+                [
+                  46.4,
+                  74.6
+                ],
+                [
+                  46.6,
+                  74.4
+                ],
+                [
+                  46.6,
+                  74.6
+                ]
+              ],
+              "id": 11044,
+              "name": "Doctor Martin Felben",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                46.6,
+                74.4
+              ],
+              "coords": [
+                [
+                  45.8,
+                  73.2
+                ],
+                [
+                  46.4,
+                  74.2
+                ],
+                [
+                  46.4,
+                  74.6
+                ],
+                [
+                  46.6,
+                  74.4
+                ],
+                [
+                  46.6,
+                  74.6
+                ]
+              ],
+              "id": 11044,
+              "name": "Doctor Martin Felben",
+              "objective": 11044,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Undercity"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1497,
+        2
+      ]
+    ]
+  },
+  "minLevel": 9,
+  "pageInfo": {
+    "name": "Prompt Potion Runner",
+    "type": 5,
+    "typeId": 97891
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 97891,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 7683,
+      "npcName": "Alessandro Luca",
+      "zoneId": 1497,
+      "x": 58.2,
+      "y": 55.2,
+      "zoneName": "Undercity"
+    }
+  ]
+}

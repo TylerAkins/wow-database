@@ -1,0 +1,116 @@
+{
+  "classes": [
+    8
+  ],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T01:17:42+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 16[/li][li]Requires level 15[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Races: [race=5], [race=8][/li][li]Class: [class=8][/li][li][icon name=quest-start]Start: [url=/forever/npc=4568/anastasia-hartwell]Anastasia Hartwell[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=4568/anastasia-hartwell]Anastasia Hartwell[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]15[/color][small] &nbsp;[/small][color=r3]19[/color][small] &nbsp;[/small][color=r4]23[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 3,
+    "objectives": {
+      "1497": {
+        "levels": [
+          [
+            {
+              "coord": [
+                85,
+                10.2
+              ],
+              "coords": [
+                [
+                  84.4,
+                  11
+                ],
+                [
+                  84.8,
+                  10.6
+                ],
+                [
+                  85,
+                  10.2
+                ]
+              ],
+              "id": 4568,
+              "name": "Anastasia Hartwell",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                85,
+                10.2
+              ],
+              "coords": [
+                [
+                  84.4,
+                  11
+                ],
+                [
+                  84.8,
+                  10.6
+                ],
+                [
+                  85,
+                  10.2
+                ]
+              ],
+              "id": 4568,
+              "name": "Anastasia Hartwell",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Undercity"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1497,
+        1
+      ]
+    ]
+  },
+  "minLevel": 15,
+  "pageInfo": {
+    "name": "Investigate the Alchemist Shop",
+    "type": 5,
+    "typeId": 1960
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    1959
+  ],
+  "questId": 1960,
+  "races": [
+    5,
+    8
+  ],
+  "startPins": [
+    {
+      "npcId": 4568,
+      "npcName": "Anastasia Hartwell",
+      "zoneId": 1497,
+      "x": 85.0,
+      "y": 10.2,
+      "zoneName": "Undercity"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T04:27:37+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": true,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 58[/li][li]Type: Raid[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=15183/geologist-larksbane]Geologist Larksbane[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=15183/geologist-larksbane]Geologist Larksbane[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.4.33920\"]1.13.4[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1377": {
+        "levels": [
+          [
+            {
+              "coord": [
+                49.6,
+                37.2
+              ],
+              "coords": [
+                [
+                  49.4,
+                  37.2
+                ],
+                [
+                  49.6,
+                  37.2
+                ]
+              ],
+              "id": 15183,
+              "name": "Geologist Larksbane",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                49.6,
+                37.2
+              ],
+              "coords": [
+                [
+                  49.4,
+                  37.2
+                ],
+                [
+                  49.6,
+                  37.2
+                ]
+              ],
+              "id": 15183,
+              "name": "Geologist Larksbane",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Silithus"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1377,
+        1
+      ]
+    ]
+  },
+  "minLevel": 58,
+  "pageInfo": {
+    "name": "Armaments of War",
+    "type": 5,
+    "typeId": 8379
+  },
+  "pinCategory": "raid",
+  "prerequisiteQuestIds": [],
+  "questId": 8379,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 15183,
+      "npcName": "Geologist Larksbane",
+      "zoneId": 1377,
+      "x": 49.6,
+      "y": 37.2,
+      "zoneName": "Silithus"
+    }
+  ]
+}

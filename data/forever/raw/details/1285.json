@@ -1,0 +1,116 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T00:42:59+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 38[/li][li]Requires level 30[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=4948/adjutant-tesoran]Adjutant Tesoran[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=4944/captain-garran-vimes]Captain Garran Vimes[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]30[/color][small] &nbsp;[/small][color=r1]34[/color][small] &nbsp;[/small][color=r2]36[/color][small] &nbsp;[/small][color=r3]41[/color][small] &nbsp;[/small][color=r4]47[/color][/li][li]Added in patch [acronym=\"1.13.2.30682\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "15": {
+        "levels": [
+          [
+            {
+              "coord": [
+                68,
+                48.2
+              ],
+              "coords": [
+                [
+                  68,
+                  48.2
+                ]
+              ],
+              "id": 4948,
+              "name": "Adjutant Tesoran",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                68.2,
+                48.6
+              ],
+              "coords": [
+                [
+                  68.2,
+                  48.4
+                ],
+                [
+                  68.2,
+                  48.6
+                ]
+              ],
+              "id": 4944,
+              "name": "Captain Garran Vimes",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Dustwallow Marsh"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        15,
+        2
+      ]
+    ]
+  },
+  "minLevel": 30,
+  "pageInfo": {
+    "name": "Daelin's Men",
+    "type": 5,
+    "typeId": 1285
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    1251,
+    1252,
+    1253,
+    1259,
+    1268,
+    1269,
+    1273,
+    1282,
+    1284,
+    1286,
+    1287,
+    1301,
+    1302,
+    1319,
+    1320,
+    1321,
+    1322,
+    1323
+  ],
+  "questId": 1285,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 4948,
+      "npcName": "Adjutant Tesoran",
+      "zoneId": 15,
+      "x": 68.0,
+      "y": 48.2,
+      "zoneName": "Dustwallow Marsh"
+    }
+  ]
+}

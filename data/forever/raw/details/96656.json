@@ -1,0 +1,97 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T06:46:20+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 6[/li][li]Requires level 4[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1570/executor-arren]Executor Arren[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=265812/eleanor-shackleton]Eleanor Shackleton[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]4[/color][small] &nbsp;[/small][color=r3]9[/color][small] &nbsp;[/small][color=r4]12[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "85": {
+        "levels": [
+          [
+            {
+              "coord": [
+                32,
+                66
+              ],
+              "coords": [
+                [
+                  32,
+                  66
+                ]
+              ],
+              "id": 1570,
+              "name": "Executor Arren",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                57.2,
+                55.4
+              ],
+              "coords": [
+                [
+                  57.2,
+                  55.4
+                ],
+                [
+                  57.2,
+                  55.6
+                ]
+              ],
+              "id": 265812,
+              "name": "Eleanor Shackleton",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Tirisfal Glades"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        85,
+        2
+      ]
+    ]
+  },
+  "minLevel": 4,
+  "pageInfo": {
+    "name": "The Adventurer",
+    "type": 5,
+    "typeId": 96656
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 96656,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 1570,
+      "npcName": "Executor Arren",
+      "zoneId": 85,
+      "x": 32.0,
+      "y": 66.0,
+      "zoneName": "Tirisfal Glades"
+    }
+  ]
+}

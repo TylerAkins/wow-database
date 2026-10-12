@@ -1,0 +1,145 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T03:39:31+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 10[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=13431/whulwert-copperpinch]Whulwert Copperpinch[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=13445/great-father-winter]Great-father Winter[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]10[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.3.32790\"]1.13.3[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1637": {
+        "levels": [
+          [
+            {
+              "coord": [
+                52.4,
+                68.8
+              ],
+              "coords": [
+                [
+                  52,
+                  69.6
+                ],
+                [
+                  52.4,
+                  68.2
+                ],
+                [
+                  52.4,
+                  68.8
+                ],
+                [
+                  52.6,
+                  68.2
+                ],
+                [
+                  52.6,
+                  69
+                ],
+                [
+                  52.6,
+                  69.6
+                ]
+              ],
+              "id": 13445,
+              "name": "Great-father Winter",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Orgrimmar"
+      },
+      "1638": {
+        "levels": [
+          [
+            {
+              "coord": [
+                43.8,
+                58.4
+              ],
+              "coords": [
+                [
+                  43.4,
+                  57.6
+                ],
+                [
+                  43.4,
+                  59.2
+                ],
+                [
+                  43.8,
+                  57.4
+                ],
+                [
+                  43.8,
+                  58.4
+                ],
+                [
+                  43.8,
+                  58.6
+                ],
+                [
+                  44.6,
+                  58.8
+                ]
+              ],
+              "id": 13431,
+              "name": "Whulwert Copperpinch",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Thunder Bluff"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1638,
+        1
+      ],
+      [
+        1637,
+        1
+      ]
+    ]
+  },
+  "minLevel": 10,
+  "pageInfo": {
+    "name": "Great-father Winter is Here!",
+    "type": 5,
+    "typeId": 7021
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 7021,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 13431,
+      "npcName": "Whulwert Copperpinch",
+      "zoneId": 1638,
+      "x": 43.8,
+      "y": 58.4,
+      "zoneName": "Thunder Bluff"
+    }
+  ]
+}

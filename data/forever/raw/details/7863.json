@@ -1,0 +1,101 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T04:05:52+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 34[/li][li]Requires level 25[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=14753/illiyana-moonblaze]Illiyana Moonblaze[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=14753/illiyana-moonblaze]Illiyana Moonblaze[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]25[/color][small] &nbsp;[/small][color=r1]30[/color][small] &nbsp;[/small][color=r2]32[/color][small] &nbsp;[/small][color=r3]37[/color][small] &nbsp;[/small][color=r4]43[/color][/li][li]Added in patch [acronym=\"1.13.3.32790\"]1.13.3[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "331": {
+        "levels": [
+          [
+            {
+              "coord": [
+                61.4,
+                83.8
+              ],
+              "coords": [
+                [
+                  61.4,
+                  83.8
+                ],
+                [
+                  61.6,
+                  83.8
+                ]
+              ],
+              "id": 14753,
+              "name": "Illiyana Moonblaze",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                61.4,
+                83.8
+              ],
+              "coords": [
+                [
+                  61.4,
+                  83.8
+                ],
+                [
+                  61.6,
+                  83.8
+                ]
+              ],
+              "id": 14753,
+              "name": "Illiyana Moonblaze",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ashenvale"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        331,
+        1
+      ]
+    ]
+  },
+  "minLevel": 25,
+  "pageInfo": {
+    "name": "Sentinel Basic Care Package",
+    "type": 5,
+    "typeId": 7863
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 7863,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 14753,
+      "npcName": "Illiyana Moonblaze",
+      "zoneId": 331,
+      "x": 61.4,
+      "y": 83.8,
+      "zoneName": "Ashenvale"
+    }
+  ]
+}

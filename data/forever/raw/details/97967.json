@@ -1,0 +1,92 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T06:58:03+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 6[/li][li]Requires level 4[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=263664/raan-wildwind]Raan Wildwind[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=251992/fenn-fairweather]Fenn Fairweather[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]4[/color][small] &nbsp;[/small][color=r3]9[/color][small] &nbsp;[/small][color=r4]12[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "16593": {
+        "levels": [
+          [
+            {
+              "coord": [
+                41.6,
+                44.8
+              ],
+              "coords": [
+                [
+                  41.6,
+                  44.8
+                ]
+              ],
+              "id": 263664,
+              "name": "Raan Wildwind",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                45,
+                48.4
+              ],
+              "coords": [
+                [
+                  45,
+                  48.4
+                ]
+              ],
+              "id": 251992,
+              "name": "Fenn Fairweather",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Zephras Isle"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16593,
+        2
+      ]
+    ]
+  },
+  "minLevel": 4,
+  "pageInfo": {
+    "name": "Camping 101: Fishing",
+    "type": 5,
+    "typeId": 97967
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 97967,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 263664,
+      "npcName": "Raan Wildwind",
+      "zoneId": 16593,
+      "x": 41.6,
+      "y": 44.8,
+      "zoneName": "Zephras Isle"
+    }
+  ]
+}

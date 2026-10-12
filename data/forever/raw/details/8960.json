@@ -1,0 +1,236 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T05:01:49+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 58[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [span class=icon-horde][url=/forever/npc=16012/mokvar]Mokvar[/url][/span][/icon][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-alliance-padded][url=/forever/npc=16013/deliana]Deliana[/url][/span][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-horde][url=/forever/npc=230317/mokvar]Mokvar[/url][/span][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-alliance-padded][url=/forever/npc=230319/deliana]Deliana[/url][/span][/li][li][icon name=quest-end]End: [url=/forever/npc=16033/bodley]Bodley[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.5.35186\"]1.13.5[/acronym] \"The Gates of Ahn'Qiraj\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "1537": {
+        "levels": [
+          [
+            {
+              "coord": [
+                43.4,
+                52.2
+              ],
+              "coords": [
+                [
+                  42.4,
+                  53.2
+                ],
+                [
+                  43.2,
+                  52.6
+                ],
+                [
+                  43.4,
+                  52.2
+                ],
+                [
+                  43.6,
+                  51.4
+                ],
+                [
+                  43.6,
+                  52
+                ]
+              ],
+              "id": 16013,
+              "name": "Deliana",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                43.4,
+                52.2
+              ],
+              "coords": [
+                [
+                  42.4,
+                  52.2
+                ],
+                [
+                  42.4,
+                  52.6
+                ],
+                [
+                  43.2,
+                  52.6
+                ],
+                [
+                  43.4,
+                  51
+                ],
+                [
+                  43.4,
+                  52.2
+                ],
+                [
+                  43.6,
+                  50.8
+                ],
+                [
+                  43.6,
+                  52
+                ]
+              ],
+              "id": 230319,
+              "name": "Deliana",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ironforge"
+      },
+      "1637": {
+        "levels": [
+          [
+            {
+              "coord": [
+                34.8,
+                38
+              ],
+              "coords": [
+                [
+                  34.4,
+                  37.4
+                ],
+                [
+                  34.4,
+                  37.6
+                ],
+                [
+                  34.8,
+                  38
+                ],
+                [
+                  35.2,
+                  37.4
+                ]
+              ],
+              "id": 16012,
+              "name": "Mokvar",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                35,
+                38
+              ],
+              "coords": [
+                [
+                  34.4,
+                  37.4
+                ],
+                [
+                  34.4,
+                  37.6
+                ],
+                [
+                  34.8,
+                  38.6
+                ],
+                [
+                  35,
+                  38
+                ],
+                [
+                  35.2,
+                  37.4
+                ]
+              ],
+              "id": 230317,
+              "name": "Mokvar",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Orgrimmar"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1537,
+        2
+      ],
+      [
+        1637,
+        2
+      ]
+    ]
+  },
+  "minLevel": 58,
+  "pageInfo": {
+    "name": "Bodley's Unfortunate Fate",
+    "type": 5,
+    "typeId": 8960
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    8961,
+    8970
+  ],
+  "questId": 8960,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 16012,
+      "npcName": "Mokvar",
+      "zoneId": 1637,
+      "x": 34.8,
+      "y": 38.0,
+      "zoneName": "Orgrimmar"
+    },
+    {
+      "npcId": 230317,
+      "npcName": "Mokvar",
+      "zoneId": 1637,
+      "x": 35.0,
+      "y": 38.0,
+      "zoneName": "Orgrimmar"
+    },
+    {
+      "npcId": 16013,
+      "npcName": "Deliana",
+      "zoneId": 1537,
+      "x": 43.4,
+      "y": 52.2,
+      "zoneName": "Ironforge"
+    },
+    {
+      "npcId": 230319,
+      "npcName": "Deliana",
+      "zoneId": 1537,
+      "x": 43.4,
+      "y": 52.2,
+      "zoneName": "Ironforge"
+    }
+  ]
+}

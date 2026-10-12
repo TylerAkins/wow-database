@@ -1,0 +1,161 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T03:38:30+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 10[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=13445/great-father-winter]Great-father Winter[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=13445/great-father-winter]Great-father Winter[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]10[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.3.32790\"]1.13.3[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "1637": {
+        "levels": [
+          [
+            {
+              "coord": [
+                52.4,
+                68.8
+              ],
+              "coords": [
+                [
+                  52,
+                  69.6
+                ],
+                [
+                  52.4,
+                  68.2
+                ],
+                [
+                  52.4,
+                  68.8
+                ],
+                [
+                  52.6,
+                  68.2
+                ],
+                [
+                  52.6,
+                  69
+                ],
+                [
+                  52.6,
+                  69.6
+                ]
+              ],
+              "id": 13445,
+              "name": "Great-father Winter",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                52.4,
+                68.8
+              ],
+              "coords": [
+                [
+                  52,
+                  69.6
+                ],
+                [
+                  52.4,
+                  68.2
+                ],
+                [
+                  52.4,
+                  68.8
+                ],
+                [
+                  52.6,
+                  68.2
+                ],
+                [
+                  52.6,
+                  69
+                ],
+                [
+                  52.6,
+                  69.6
+                ]
+              ],
+              "id": 13445,
+              "name": "Great-father Winter",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                54.2,
+                68.2
+              ],
+              "coords": [
+                [
+                  54,
+                  68.6
+                ],
+                [
+                  54.2,
+                  68.2
+                ],
+                [
+                  54.6,
+                  68
+                ]
+              ],
+              "id": 6466,
+              "item": "Ice Cold Milk",
+              "name": "Gamon",
+              "objective": 1,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Orgrimmar"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1637,
+        2
+      ]
+    ]
+  },
+  "minLevel": 10,
+  "pageInfo": {
+    "name": "Treats for Great-father Winter",
+    "type": 5,
+    "typeId": 6962
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 6962,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 13445,
+      "npcName": "Great-father Winter",
+      "zoneId": 1637,
+      "x": 52.4,
+      "y": 68.8,
+      "zoneName": "Orgrimmar"
+    }
+  ]
+}

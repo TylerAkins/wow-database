@@ -1,0 +1,116 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T04:22:48+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 57[/li][li]Requires level 54[/li][li]Side: Both[/li][li]Profession: [url=/forever/skill=185/cooking]Cooking[/url][/li][li][icon name=quest-start]Start: [url=/forever/object=180503/sandy-cookbook]Sandy Cookbook[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=15174/calandrath]Calandrath[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]54[/color][small] &nbsp;[/small][color=r2]55[/color][small] &nbsp;[/small][color=r3]60[/color][small] &nbsp;[/small][color=r4]68[/color][/li][li]Added in patch [acronym=\"1.13.4.33920\"]1.13.4[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1377": {
+        "levels": [
+          [
+            {
+              "coord": [
+                38,
+                45.3
+              ],
+              "coords": [
+                [
+                  37.9,
+                  45.5
+                ],
+                [
+                  38,
+                  45.3
+                ]
+              ],
+              "id": 180503,
+              "name": "Sandy Cookbook",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                51.8,
+                39
+              ],
+              "coords": [
+                [
+                  51.8,
+                  39
+                ]
+              ],
+              "id": 15174,
+              "name": "Calandrath",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Silithus"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1377,
+        2
+      ]
+    ]
+  },
+  "minLevel": 54,
+  "objectSpawns": [
+    {
+      "entityId": 180503,
+      "entityKind": "object",
+      "entityName": "Sandy Cookbook",
+      "uiMapId": 1451,
+      "uiMapName": "Silithus",
+      "x": 37.9,
+      "y": 45.5,
+      "zoneId": 1377
+    },
+    {
+      "entityId": 180503,
+      "entityKind": "object",
+      "entityName": "Sandy Cookbook",
+      "uiMapId": 1451,
+      "uiMapName": "Silithus",
+      "x": 38.0,
+      "y": 45.3,
+      "zoneId": 1377
+    }
+  ],
+  "pageInfo": {
+    "name": "Sharing the Knowledge",
+    "type": 5,
+    "typeId": 8313
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 8313,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 180503,
+      "npcName": "Sandy Cookbook",
+      "x": 38.0,
+      "y": 45.3,
+      "zoneId": 1377,
+      "zoneName": "Silithus"
+    }
+  ]
+}

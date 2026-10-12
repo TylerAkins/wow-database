@@ -1,0 +1,505 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T04:34:36+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 55[/li][li]Requires level 45[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=15395/nafien]Nafien[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=15395/nafien]Nafien[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]45[/color][small] &nbsp;[/small][color=r1]51[/color][small] &nbsp;[/small][color=r2]53[/color][small] &nbsp;[/small][color=r3]58[/color][small] &nbsp;[/small][color=r4]66[/color][/li][li]Added in patch [acronym=\"1.13.2.30786\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "361": {
+        "levels": [
+          [
+            {
+              "coord": [
+                64.8,
+                8.2
+              ],
+              "coords": [
+                [
+                  64.8,
+                  8.2
+                ]
+              ],
+              "id": 15395,
+              "name": "Nafien",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                64.8,
+                8.2
+              ],
+              "coords": [
+                [
+                  64.8,
+                  8.2
+                ]
+              ],
+              "id": 15395,
+              "name": "Nafien",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                62.6,
+                10.2
+              ],
+              "coords": [
+                [
+                  60,
+                  6.6
+                ],
+                [
+                  60.2,
+                  6
+                ],
+                [
+                  60.2,
+                  8.2
+                ],
+                [
+                  60.4,
+                  8.6
+                ],
+                [
+                  60.8,
+                  5.8
+                ],
+                [
+                  61,
+                  9
+                ],
+                [
+                  61.2,
+                  10.8
+                ],
+                [
+                  61.4,
+                  7.4
+                ],
+                [
+                  61.4,
+                  7.6
+                ],
+                [
+                  61.4,
+                  10
+                ],
+                [
+                  61.6,
+                  6.2
+                ],
+                [
+                  61.6,
+                  7.4
+                ],
+                [
+                  61.6,
+                  11
+                ],
+                [
+                  62.4,
+                  7.6
+                ],
+                [
+                  62.4,
+                  9
+                ],
+                [
+                  62.4,
+                  10.4
+                ],
+                [
+                  62.4,
+                  12.4
+                ],
+                [
+                  62.4,
+                  12.6
+                ],
+                [
+                  62.6,
+                  6.4
+                ],
+                [
+                  62.6,
+                  7.4
+                ],
+                [
+                  62.6,
+                  7.8
+                ],
+                [
+                  62.6,
+                  10.2
+                ],
+                [
+                  62.6,
+                  10.6
+                ],
+                [
+                  62.6,
+                  11.8
+                ],
+                [
+                  62.6,
+                  12.6
+                ],
+                [
+                  63,
+                  9
+                ],
+                [
+                  63.6,
+                  6
+                ],
+                [
+                  63.6,
+                  6.6
+                ],
+                [
+                  63.6,
+                  8.4
+                ],
+                [
+                  63.6,
+                  9
+                ],
+                [
+                  63.6,
+                  11.6
+                ]
+              ],
+              "id": 7156,
+              "name": "Deadwood Den Watcher",
+              "objective": 7156,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                62.6,
+                10.2
+              ],
+              "coords": [
+                [
+                  60,
+                  6.6
+                ],
+                [
+                  60.2,
+                  6
+                ],
+                [
+                  60.2,
+                  8.2
+                ],
+                [
+                  60.4,
+                  8.6
+                ],
+                [
+                  60.8,
+                  5.8
+                ],
+                [
+                  61,
+                  9
+                ],
+                [
+                  61.2,
+                  10.8
+                ],
+                [
+                  61.4,
+                  7.4
+                ],
+                [
+                  61.4,
+                  7.6
+                ],
+                [
+                  61.4,
+                  10
+                ],
+                [
+                  61.6,
+                  6.2
+                ],
+                [
+                  61.6,
+                  7.4
+                ],
+                [
+                  61.6,
+                  11
+                ],
+                [
+                  62.4,
+                  7.6
+                ],
+                [
+                  62.4,
+                  9
+                ],
+                [
+                  62.4,
+                  10.4
+                ],
+                [
+                  62.4,
+                  12.4
+                ],
+                [
+                  62.4,
+                  12.6
+                ],
+                [
+                  62.6,
+                  6.4
+                ],
+                [
+                  62.6,
+                  7.4
+                ],
+                [
+                  62.6,
+                  7.6
+                ],
+                [
+                  62.6,
+                  10.2
+                ],
+                [
+                  62.6,
+                  11.2
+                ],
+                [
+                  62.6,
+                  11.8
+                ],
+                [
+                  62.6,
+                  12.6
+                ],
+                [
+                  63,
+                  9
+                ],
+                [
+                  63.6,
+                  6.4
+                ],
+                [
+                  63.6,
+                  6.6
+                ],
+                [
+                  63.6,
+                  8.2
+                ],
+                [
+                  63.6,
+                  9
+                ],
+                [
+                  63.6,
+                  11.6
+                ]
+              ],
+              "id": 7157,
+              "name": "Deadwood Avenger",
+              "objective": 7157,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                62.6,
+                7.6
+              ],
+              "coords": [
+                [
+                  60.2,
+                  6
+                ],
+                [
+                  60.2,
+                  7.4
+                ],
+                [
+                  60.2,
+                  8.2
+                ],
+                [
+                  60.4,
+                  8.6
+                ],
+                [
+                  60.8,
+                  5.8
+                ],
+                [
+                  61,
+                  8.2
+                ],
+                [
+                  61,
+                  9
+                ],
+                [
+                  61.2,
+                  10.8
+                ],
+                [
+                  61.4,
+                  7.4
+                ],
+                [
+                  61.4,
+                  10
+                ],
+                [
+                  61.6,
+                  6.2
+                ],
+                [
+                  61.6,
+                  7.4
+                ],
+                [
+                  62.4,
+                  7.6
+                ],
+                [
+                  62.4,
+                  9.2
+                ],
+                [
+                  62.4,
+                  10.4
+                ],
+                [
+                  62.4,
+                  10.6
+                ],
+                [
+                  62.4,
+                  12.4
+                ],
+                [
+                  62.4,
+                  12.6
+                ],
+                [
+                  62.6,
+                  6.4
+                ],
+                [
+                  62.6,
+                  7.4
+                ],
+                [
+                  62.6,
+                  7.6
+                ],
+                [
+                  62.6,
+                  10.2
+                ],
+                [
+                  62.6,
+                  11.2
+                ],
+                [
+                  62.6,
+                  12.6
+                ],
+                [
+                  63,
+                  9
+                ],
+                [
+                  63.4,
+                  11.6
+                ],
+                [
+                  63.6,
+                  5.8
+                ],
+                [
+                  63.6,
+                  6.6
+                ],
+                [
+                  63.6,
+                  8.2
+                ],
+                [
+                  63.6,
+                  9
+                ]
+              ],
+              "id": 7158,
+              "name": "Deadwood Shaman",
+              "objective": 7158,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Felwood"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        361,
+        4
+      ]
+    ]
+  },
+  "minLevel": 45,
+  "pageInfo": {
+    "name": "Deadwood of the North",
+    "type": 5,
+    "typeId": 8461
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 8461,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 15395,
+      "npcName": "Nafien",
+      "zoneId": 361,
+      "x": 64.8,
+      "y": 8.2,
+      "zoneName": "Felwood"
+    }
+  ]
+}

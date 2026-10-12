@@ -1,0 +1,185 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T05:30:35+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 22[/li][li]Requires level 14[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/object=415106/burned-out-remains]Burned-Out Remains[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=415107/burned-out-remains]Burned-Out Remains[/url][/icon][br][span=invisible][icon name=quest-end]End: [/icon][/span][url=/forever/object=424010/nailed-plank]Nailed Plank[/url][/li][li]Not sharable[/li][li]Difficulty: [color=q10]14[/color][small] &nbsp;[/small][color=r1]18[/color][small] &nbsp;[/small][color=r2]20[/color][small] &nbsp;[/small][color=r3]25[/color][small] &nbsp;[/small][color=r4]29[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "17": {
+        "levels": [
+          [
+            {
+              "coord": [
+                46.4,
+                73.9
+              ],
+              "coords": [
+                [
+                  46.4,
+                  73.9
+                ]
+              ],
+              "id": 415106,
+              "name": "Burned-Out Remains",
+              "point": "start",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Barrens"
+      },
+      "40": {
+        "levels": [
+          [
+            {
+              "coord": [
+                37.5,
+                50.7
+              ],
+              "coords": [
+                [
+                  37.4,
+                  50.6
+                ],
+                [
+                  37.5,
+                  50.7
+                ]
+              ],
+              "id": 415106,
+              "name": "Burned-Out Remains",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                37.5,
+                50.7
+              ],
+              "coords": [
+                [
+                  37.4,
+                  50.6
+                ],
+                [
+                  37.5,
+                  50.7
+                ]
+              ],
+              "id": 415107,
+              "name": "Burned-Out Remains",
+              "point": "end",
+              "type": 2
+            },
+            {
+              "coord": [
+                37.5,
+                50.8
+              ],
+              "coords": [
+                [
+                  37.4,
+                  50.9
+                ],
+                [
+                  37.5,
+                  50.8
+                ]
+              ],
+              "id": 424010,
+              "name": "Nailed Plank",
+              "point": "end",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Westfall"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        40,
+        3
+      ],
+      [
+        17,
+        1
+      ]
+    ]
+  },
+  "minLevel": 14,
+  "objectSpawns": [
+    {
+      "entityId": 415106,
+      "entityKind": "object",
+      "entityName": "Burned-Out Remains",
+      "uiMapId": 1413,
+      "uiMapName": "The Barrens",
+      "x": 46.4,
+      "y": 73.9,
+      "zoneId": 17
+    },
+    {
+      "entityId": 415106,
+      "entityKind": "object",
+      "entityName": "Burned-Out Remains",
+      "uiMapId": 1436,
+      "uiMapName": "Westfall",
+      "x": 37.4,
+      "y": 50.6,
+      "zoneId": 40
+    },
+    {
+      "entityId": 415106,
+      "entityKind": "object",
+      "entityName": "Burned-Out Remains",
+      "uiMapId": 1436,
+      "uiMapName": "Westfall",
+      "x": 37.5,
+      "y": 50.7,
+      "zoneId": 40
+    }
+  ],
+  "pageInfo": {
+    "name": "... and that note you found",
+    "type": 5,
+    "typeId": 79007
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 79007,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 415106,
+      "npcName": "Burned-Out Remains",
+      "x": 46.4,
+      "y": 73.9,
+      "zoneId": 17,
+      "zoneName": "The Barrens"
+    },
+    {
+      "npcId": 415106,
+      "npcName": "Burned-Out Remains",
+      "x": 37.5,
+      "y": 50.7,
+      "zoneId": 40,
+      "zoneName": "Westfall"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T03:02:04+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": true,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 57[/li][li]Type: Dungeon[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=11036/leonid-barthalomew-the-revered]Leonid Barthalomew the Revered[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=11035/betina-bigglezink]Betina Bigglezink[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]57[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.31727\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "139": {
+        "levels": [
+          [
+            {
+              "coord": [
+                81.6,
+                57.8
+              ],
+              "coords": [
+                [
+                  81.6,
+                  57.8
+                ]
+              ],
+              "id": 11036,
+              "name": "Leonid Barthalomew the Revered",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                81.4,
+                59.6
+              ],
+              "coords": [
+                [
+                  81.4,
+                  59.4
+                ],
+                [
+                  81.4,
+                  59.6
+                ]
+              ],
+              "id": 11035,
+              "name": "Betina Bigglezink",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Eastern Plaguelands"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        139,
+        2
+      ]
+    ]
+  },
+  "minLevel": 57,
+  "pageInfo": {
+    "name": "Betina Bigglezink",
+    "type": 5,
+    "typeId": 5531
+  },
+  "pinCategory": "instance",
+  "prerequisiteQuestIds": [],
+  "questId": 5531,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 11036,
+      "npcName": "Leonid Barthalomew the Revered",
+      "zoneId": 139,
+      "x": 81.6,
+      "y": 57.8,
+      "zoneName": "Eastern Plaguelands"
+    }
+  ]
+}

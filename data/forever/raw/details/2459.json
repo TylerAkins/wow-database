@@ -1,0 +1,204 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T01:25:10+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 8[/li][li]Requires level 1[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3567/tallonkai-swiftroot]Tallonkai Swiftroot[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3567/tallonkai-swiftroot]Tallonkai Swiftroot[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]1[/color][small] &nbsp;[/small][color=r1]4[/color][small] &nbsp;[/small][color=r2]6[/color][small] &nbsp;[/small][color=r3]11[/color][small] &nbsp;[/small][color=r4]14[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "141": {
+        "levels": [
+          [
+            {
+              "coord": [
+                55.4,
+                56.8
+              ],
+              "coords": [
+                [
+                  55.4,
+                  56.8
+                ],
+                [
+                  55.6,
+                  56.8
+                ]
+              ],
+              "id": 3567,
+              "name": "Tallonkai Swiftroot",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                55.4,
+                56.8
+              ],
+              "coords": [
+                [
+                  55.4,
+                  56.8
+                ],
+                [
+                  55.6,
+                  56.8
+                ]
+              ],
+              "id": 3567,
+              "name": "Tallonkai Swiftroot",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                68.6,
+                53.4
+              ],
+              "coords": [
+                [
+                  68,
+                  51.4
+                ],
+                [
+                  68,
+                  52.6
+                ],
+                [
+                  68.4,
+                  52.2
+                ],
+                [
+                  68.6,
+                  52.4
+                ],
+                [
+                  68.6,
+                  53.4
+                ],
+                [
+                  68.6,
+                  53.6
+                ],
+                [
+                  69.4,
+                  55.2
+                ],
+                [
+                  69.6,
+                  52.8
+                ],
+                [
+                  69.6,
+                  53.8
+                ],
+                [
+                  69.6,
+                  55.2
+                ],
+                [
+                  70.4,
+                  52.4
+                ]
+              ],
+              "id": 7235,
+              "name": "Gnarlpine Mystic",
+              "objective": 7235,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                68.8,
+                53.6
+              ],
+              "coords": [
+                [
+                  68.4,
+                  53.4
+                ],
+                [
+                  68.4,
+                  53.6
+                ],
+                [
+                  68.8,
+                  53.6
+                ],
+                [
+                  69,
+                  52.4
+                ],
+                [
+                  69.2,
+                  53.4
+                ],
+                [
+                  69.6,
+                  53
+                ],
+                [
+                  69.6,
+                  54.2
+                ]
+              ],
+              "id": 7234,
+              "item": "Gnarlpine Necklace",
+              "name": "Ferocitas the Dream Eater",
+              "objective": 2,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Teldrassil"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        141,
+        3
+      ]
+    ]
+  },
+  "minLevel": 1,
+  "pageInfo": {
+    "name": "Ferocitas the Dream Eater",
+    "type": 5,
+    "typeId": 2459
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 2459,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3567,
+      "npcName": "Tallonkai Swiftroot",
+      "zoneId": 141,
+      "x": 55.4,
+      "y": 56.8,
+      "zoneName": "Teldrassil"
+    }
+  ]
+}

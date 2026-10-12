@@ -1,0 +1,205 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T05:57:13+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 16[/li][li]Requires level 12[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1154/marek-ironheart]Marek Ironheart[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1154/marek-ironheart]Marek Ironheart[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]12[/color][small] &nbsp;[/small][color=r2]14[/color][small] &nbsp;[/small][color=r3]19[/color][small] &nbsp;[/small][color=r4]23[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "38": {
+        "levels": [
+          [
+            {
+              "coord": [
+                81.8,
+                61.8
+              ],
+              "coords": [
+                [
+                  81.8,
+                  61.8
+                ]
+              ],
+              "id": 1154,
+              "name": "Marek Ironheart",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                81.8,
+                61.8
+              ],
+              "coords": [
+                [
+                  81.8,
+                  61.8
+                ]
+              ],
+              "id": 1154,
+              "name": "Marek Ironheart",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                63.4,
+                47.8
+              ],
+              "coords": [
+                [
+                  59,
+                  39
+                ],
+                [
+                  59.2,
+                  34.4
+                ],
+                [
+                  59.4,
+                  37.2
+                ],
+                [
+                  59.6,
+                  37
+                ],
+                [
+                  60,
+                  39
+                ],
+                [
+                  60.2,
+                  41.2
+                ],
+                [
+                  60.8,
+                  41.6
+                ],
+                [
+                  61.4,
+                  43.2
+                ],
+                [
+                  61.6,
+                  41.6
+                ],
+                [
+                  61.6,
+                  44.2
+                ],
+                [
+                  62.2,
+                  44.8
+                ],
+                [
+                  62.4,
+                  46.2
+                ],
+                [
+                  62.6,
+                  52.8
+                ],
+                [
+                  63,
+                  50.6
+                ],
+                [
+                  63,
+                  51.8
+                ],
+                [
+                  63.2,
+                  45.6
+                ],
+                [
+                  63.2,
+                  49.4
+                ],
+                [
+                  63.2,
+                  50.4
+                ],
+                [
+                  63.4,
+                  47.4
+                ],
+                [
+                  63.4,
+                  47.8
+                ],
+                [
+                  63.6,
+                  48
+                ],
+                [
+                  63.6,
+                  50
+                ],
+                [
+                  63.8,
+                  48.8
+                ],
+                [
+                  64,
+                  46.4
+                ]
+              ],
+              "id": 270693,
+              "item": "Marek's Croc-Hunting Knife",
+              "name": "Daggerfang",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Loch Modan"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        38,
+        2
+      ]
+    ]
+  },
+  "minLevel": 12,
+  "pageInfo": {
+    "name": "Twisting the Knife",
+    "type": 5,
+    "typeId": 86758
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 86758,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 1154,
+      "npcName": "Marek Ironheart",
+      "zoneId": 38,
+      "x": 81.8,
+      "y": 61.8,
+      "zoneName": "Loch Modan"
+    }
+  ]
+}

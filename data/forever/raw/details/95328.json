@@ -1,0 +1,130 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T06:40:07+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 10[/li][li]Requires level 7[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-end]End: [url=/forever/npc=4607/father-lankester]Father Lankester[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]7[/color][small] &nbsp;[/small][color=r2]8[/color][small] &nbsp;[/small][color=r3]13[/color][small] &nbsp;[/small][color=r4]16[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1497": {
+        "levels": [
+          [
+            {
+              "coord": [
+                49.6,
+                15.6
+              ],
+              "coords": [
+                [
+                  49.4,
+                  15.4
+                ],
+                [
+                  49.4,
+                  15.6
+                ],
+                [
+                  49.6,
+                  15.4
+                ],
+                [
+                  49.6,
+                  15.6
+                ]
+              ],
+              "id": 4607,
+              "name": "Father Lankester",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Undercity"
+      },
+      "85": {
+        "levels": [
+          [
+            {
+              "coord": [
+                8.6,
+                59.8
+              ],
+              "coords": [
+                [
+                  8.4,
+                  59.4
+                ],
+                [
+                  8.6,
+                  59.4
+                ],
+                [
+                  8.6,
+                  59.8
+                ],
+                [
+                  9.2,
+                  61
+                ],
+                [
+                  9.6,
+                  59.2
+                ],
+                [
+                  9.6,
+                  59.8
+                ]
+              ],
+              "id": 260396,
+              "item": "Whispering Horror Residue",
+              "name": "Whispering Horror",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Tirisfal Glades"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        85,
+        1
+      ],
+      [
+        1497,
+        1
+      ]
+    ]
+  },
+  "minLevel": 7,
+  "pageInfo": {
+    "name": "Whispering Horror Residue",
+    "type": 5,
+    "typeId": 95328
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 95328,
+  "races": [],
+  "startPins": []
+}

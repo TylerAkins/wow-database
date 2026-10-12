@@ -1,0 +1,145 @@
+{
+  "classes": [
+    11
+  ],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T07:04:01+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 20[/li][li]Requires level 20[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Race: [race=4][/li][li]Class: [class=11][/li][li][icon name=quest-start]Start: [url=/forever/npc=11957/great-cat-spirit]Great Cat Spirit[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=11957/great-cat-spirit]Great Cat Spirit[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]20[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 3,
+    "objectives": {
+      "493": {
+        "levels": [
+          [
+            {
+              "coord": [
+                54.6,
+                75
+              ],
+              "coords": [
+                [
+                  54.4,
+                  75
+                ],
+                [
+                  54.6,
+                  75
+                ],
+                [
+                  58.4,
+                  73.2
+                ],
+                [
+                  58.4,
+                  73.6
+                ],
+                [
+                  58.6,
+                  73.2
+                ],
+                [
+                  58.6,
+                  74.8
+                ],
+                [
+                  58.8,
+                  73.6
+                ]
+              ],
+              "id": 11957,
+              "name": "Great Cat Spirit",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                54.6,
+                75
+              ],
+              "coords": [
+                [
+                  54.4,
+                  75
+                ],
+                [
+                  54.6,
+                  75
+                ],
+                [
+                  58.4,
+                  73.2
+                ],
+                [
+                  58.4,
+                  73.6
+                ],
+                [
+                  58.6,
+                  73.2
+                ],
+                [
+                  58.6,
+                  74.8
+                ],
+                [
+                  58.8,
+                  73.6
+                ]
+              ],
+              "id": 11957,
+              "name": "Great Cat Spirit",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Moonglade"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        493,
+        1
+      ]
+    ]
+  },
+  "minLevel": 20,
+  "pageInfo": {
+    "name": "The Great Cat Spirit",
+    "type": 5,
+    "typeId": 98396
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 98396,
+  "races": [
+    4
+  ],
+  "startPins": [
+    {
+      "npcId": 11957,
+      "npcName": "Great Cat Spirit",
+      "zoneId": 493,
+      "x": 54.6,
+      "y": 75.0,
+      "zoneName": "Moonglade"
+    }
+  ]
+}

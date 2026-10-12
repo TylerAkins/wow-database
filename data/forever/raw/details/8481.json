@@ -1,0 +1,218 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T04:35:32+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 45[/li][li]Type: Elite[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=11555/gorn-one-eye]Gorn One Eye[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=11555/gorn-one-eye]Gorn One Eye[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]45[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.31882\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "361": {
+        "levels": [
+          [
+            {
+              "coord": [
+                65.2,
+                2.6
+              ],
+              "coords": [
+                [
+                  65.2,
+                  2.6
+                ],
+                [
+                  65.4,
+                  2.4
+                ]
+              ],
+              "id": 11555,
+              "name": "Gorn One Eye",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                65.2,
+                2.6
+              ],
+              "coords": [
+                [
+                  65.2,
+                  2.6
+                ],
+                [
+                  65.4,
+                  2.4
+                ]
+              ],
+              "id": 11555,
+              "name": "Gorn One Eye",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Felwood"
+      },
+      "618": {
+        "levels": [
+          [
+            {
+              "coord": [
+                68,
+                37.6
+              ],
+              "coords": [
+                [
+                  60.6,
+                  38.2
+                ],
+                [
+                  67.2,
+                  35.4
+                ],
+                [
+                  67.2,
+                  36.2
+                ],
+                [
+                  67.2,
+                  37.6
+                ],
+                [
+                  67.4,
+                  36.8
+                ],
+                [
+                  67.8,
+                  37.4
+                ],
+                [
+                  68,
+                  37.6
+                ],
+                [
+                  68.8,
+                  37.4
+                ],
+                [
+                  69.2,
+                  38.4
+                ]
+              ],
+              "id": 15623,
+              "item": "Essence of Xandivious",
+              "name": "Xandivious",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                67.6,
+                37
+              ],
+              "coords": [
+                [
+                  59.6,
+                  39
+                ],
+                [
+                  60.7,
+                  38.2
+                ],
+                [
+                  64.8,
+                  33.6
+                ],
+                [
+                  66.2,
+                  37.9
+                ],
+                [
+                  67,
+                  35.6
+                ],
+                [
+                  67.3,
+                  34.5
+                ],
+                [
+                  67.6,
+                  37
+                ],
+                [
+                  68.1,
+                  38
+                ],
+                [
+                  69.2,
+                  38.4
+                ],
+                [
+                  69.6,
+                  38.3
+                ]
+              ],
+              "id": 180671,
+              "item": "Essence of Xandivious",
+              "name": "Xandivious' Demon Bag",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Winterspring"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        361,
+        1
+      ],
+      [
+        618,
+        2
+      ]
+    ]
+  },
+  "minLevel": 45,
+  "pageInfo": {
+    "name": "The Root of All Evil",
+    "type": 5,
+    "typeId": 8481
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 8481,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 11555,
+      "npcName": "Gorn One Eye",
+      "zoneId": 361,
+      "x": 65.2,
+      "y": 2.6,
+      "zoneName": "Felwood"
+    }
+  ]
+}

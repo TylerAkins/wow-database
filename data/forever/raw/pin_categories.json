@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "description": "Map pin colors for Forever Quest Pins and future forever-guide-mate. PvP uses purple to stay distinct from repeatable (blue) and attunement/instance (orange).",
+  "categories": {
+    "normal": {
+      "atlas": "QuestNormal",
+      "fallbackTga": "QuestAvailable.tga",
+      "label": "Normal",
+      "tint": null
+    },
+    "repeatable": {
+      "atlas": "QuestNormal",
+      "fallbackTga": "QuestRepeatable.tga",
+      "label": "Repeatable",
+      "tint": [0.12, 0.72, 1.0]
+    },
+    "instance": {
+      "atlas": "QuestNormal",
+      "fallbackTga": "QuestAttunement.tga",
+      "label": "Dungeon / instance",
+      "tint": [1.0, 0.32, 0.08]
+    },
+    "attunement": {
+      "atlas": "QuestNormal",
+      "fallbackTga": "QuestAttunement.tga",
+      "label": "Attunement",
+      "tint": [1.0, 0.32, 0.08]
+    },
+    "pvp": {
+      "atlas": "QuestNormal",
+      "fallbackTga": "QuestPvP.tga",
+      "label": "PvP / battleground",
+      "tint": [0.78, 0.22, 0.95]
+    },
+    "raid": {
+      "atlas": "QuestNormal",
+      "fallbackTga": "QuestAttunement.tga",
+      "label": "Raid",
+      "note": "Reserved; only Onyxia's Lair is live in Forever today.",
+      "tint": [1.0, 0.32, 0.08]
+    }
+  }
+}

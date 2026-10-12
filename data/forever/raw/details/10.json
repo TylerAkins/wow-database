@@ -1,0 +1,94 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-24T23:07:51+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 48[/li][li]Requires level 39[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=7724/senior-surveyor-fizzledowser]Senior Surveyor Fizzledowser[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=7724/senior-surveyor-fizzledowser]Senior Surveyor Fizzledowser[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]39[/color][small] &nbsp;[/small][color=r1]44[/color][small] &nbsp;[/small][color=r2]46[/color][small] &nbsp;[/small][color=r3]51[/color][small] &nbsp;[/small][color=r4]58[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "440": {
+        "levels": [
+          [
+            {
+              "coord": [
+                50.2,
+                27.4
+              ],
+              "coords": [
+                [
+                  50.2,
+                  27.4
+                ]
+              ],
+              "id": 7724,
+              "name": "Senior Surveyor Fizzledowser",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                50.2,
+                27.4
+              ],
+              "coords": [
+                [
+                  50.2,
+                  27.4
+                ]
+              ],
+              "id": 7724,
+              "name": "Senior Surveyor Fizzledowser",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Tanaris"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        440,
+        1
+      ]
+    ]
+  },
+  "minLevel": 39,
+  "pageInfo": {
+    "name": "The Scrimshank Redemption",
+    "type": 5,
+    "typeId": 10
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    82
+  ],
+  "questId": 10,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 7724,
+      "npcName": "Senior Surveyor Fizzledowser",
+      "zoneId": 440,
+      "x": 50.2,
+      "y": 27.4,
+      "zoneName": "Tanaris"
+    }
+  ]
+}

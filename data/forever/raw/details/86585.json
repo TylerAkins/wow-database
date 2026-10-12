@@ -1,0 +1,120 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T05:56:53+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 17[/li][li]Requires level 10[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=269153/mountaineer-ylva]Mountaineer Ylva[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1092/captain-rugelfuss]Captain Rugelfuss[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]10[/color][small] &nbsp;[/small][color=r1]13[/color][small] &nbsp;[/small][color=r2]15[/color][small] &nbsp;[/small][color=r3]20[/color][small] &nbsp;[/small][color=r4]24[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "38": {
+        "levels": [
+          [
+            {
+              "coord": [
+                31.8,
+                86.2
+              ],
+              "coords": [
+                [
+                  31.8,
+                  86.2
+                ],
+                [
+                  32,
+                  86.6
+                ]
+              ],
+              "id": 269153,
+              "name": "Mountaineer Ylva",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                23.2,
+                73.8
+              ],
+              "coords": [
+                [
+                  23.2,
+                  73.8
+                ]
+              ],
+              "id": 1092,
+              "name": "Captain Rugelfuss",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                31.8,
+                86.2
+              ],
+              "coords": [
+                [
+                  31.8,
+                  86.2
+                ],
+                [
+                  31.8,
+                  86.8
+                ]
+              ],
+              "id": 269185,
+              "name": "Headsplitter",
+              "objective": 269185,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Loch Modan"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        38,
+        3
+      ]
+    ]
+  },
+  "minLevel": 10,
+  "pageInfo": {
+    "name": "Banner of the Fallen",
+    "type": 5,
+    "typeId": 86585
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 86585,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 269153,
+      "npcName": "Mountaineer Ylva",
+      "zoneId": 38,
+      "x": 31.8,
+      "y": 86.2,
+      "zoneName": "Loch Modan"
+    }
+  ]
+}

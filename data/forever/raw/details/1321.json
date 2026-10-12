@@ -1,0 +1,116 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T00:44:56+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 35[/li][li]Requires level 30[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=4926/krog]Krog[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=5087/dogol]Do'gol[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]30[/color][small] &nbsp;[/small][color=r1]31[/color][small] &nbsp;[/small][color=r2]33[/color][small] &nbsp;[/small][color=r3]38[/color][small] &nbsp;[/small][color=r4]44[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "15": {
+        "levels": [
+          [
+            {
+              "coord": [
+                36.4,
+                31.8
+              ],
+              "coords": [
+                [
+                  36.4,
+                  31.8
+                ]
+              ],
+              "id": 4926,
+              "name": "Krog",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                36.4,
+                30.8
+              ],
+              "coords": [
+                [
+                  36.4,
+                  30.8
+                ],
+                [
+                  36.6,
+                  30.8
+                ]
+              ],
+              "id": 5087,
+              "name": "Do'gol",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Dustwallow Marsh"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        15,
+        2
+      ]
+    ]
+  },
+  "minLevel": 30,
+  "pageInfo": {
+    "name": "The Black Shield",
+    "type": 5,
+    "typeId": 1321
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    1251,
+    1252,
+    1253,
+    1259,
+    1268,
+    1269,
+    1273,
+    1282,
+    1284,
+    1285,
+    1286,
+    1287,
+    1301,
+    1302,
+    1319,
+    1320,
+    1322,
+    1323
+  ],
+  "questId": 1321,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 4926,
+      "npcName": "Krog",
+      "zoneId": 15,
+      "x": 36.4,
+      "y": 31.8,
+      "zoneName": "Dustwallow Marsh"
+    }
+  ]
+}

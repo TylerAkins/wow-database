@@ -1,0 +1,235 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T06:02:47+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 1[/li][li]Requires level 1[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=251361/rorian-the-dayseeker]Rorian the Dayseeker[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=251361/rorian-the-dayseeker]Rorian the Dayseeker[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]1[/color][small] &nbsp;[/small][color=r3]4[/color][small] &nbsp;[/small][color=r4]6[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "16593": {
+        "levels": [
+          [
+            {
+              "coord": [
+                42,
+                23.4
+              ],
+              "coords": [
+                [
+                  42,
+                  23.4
+                ]
+              ],
+              "id": 251361,
+              "name": "Rorian the Dayseeker",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                42,
+                23.4
+              ],
+              "coords": [
+                [
+                  42,
+                  23.4
+                ]
+              ],
+              "id": 251361,
+              "name": "Rorian the Dayseeker",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                43.2,
+                25.6
+              ],
+              "coords": [
+                [
+                  42,
+                  28.2
+                ],
+                [
+                  43.2,
+                  25.4
+                ],
+                [
+                  43.2,
+                  25.6
+                ],
+                [
+                  43.2,
+                  26.6
+                ],
+                [
+                  43.2,
+                  28.2
+                ],
+                [
+                  43.4,
+                  22
+                ],
+                [
+                  43.6,
+                  22
+                ],
+                [
+                  43.8,
+                  25.4
+                ],
+                [
+                  43.8,
+                  28.6
+                ],
+                [
+                  44,
+                  25.8
+                ],
+                [
+                  44.2,
+                  26.6
+                ],
+                [
+                  44.2,
+                  27.8
+                ],
+                [
+                  44.4,
+                  22.6
+                ],
+                [
+                  44.6,
+                  22
+                ],
+                [
+                  44.6,
+                  25.6
+                ],
+                [
+                  44.6,
+                  27
+                ],
+                [
+                  44.8,
+                  21.2
+                ],
+                [
+                  44.8,
+                  23.2
+                ],
+                [
+                  44.8,
+                  27.6
+                ],
+                [
+                  45,
+                  24.2
+                ],
+                [
+                  45.2,
+                  25.2
+                ],
+                [
+                  45.2,
+                  28.6
+                ],
+                [
+                  45.6,
+                  22.6
+                ],
+                [
+                  45.6,
+                  24.6
+                ],
+                [
+                  45.6,
+                  26.6
+                ],
+                [
+                  45.6,
+                  28.2
+                ],
+                [
+                  45.6,
+                  28.8
+                ],
+                [
+                  45.8,
+                  21.6
+                ],
+                [
+                  45.8,
+                  26.4
+                ],
+                [
+                  46,
+                  24.2
+                ],
+                [
+                  46.6,
+                  22.2
+                ],
+                [
+                  46.8,
+                  25.4
+                ]
+              ],
+              "id": 250873,
+              "name": "Juvenile Vuldren",
+              "objective": 250873,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Zephras Isle"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16593,
+        2
+      ]
+    ]
+  },
+  "minLevel": 1,
+  "pageInfo": {
+    "name": "Harmony in Balance",
+    "type": 5,
+    "typeId": 92461
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 92461,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 251361,
+      "npcName": "Rorian the Dayseeker",
+      "zoneId": 16593,
+      "x": 42.0,
+      "y": 23.4,
+      "zoneName": "Zephras Isle"
+    }
+  ]
+}

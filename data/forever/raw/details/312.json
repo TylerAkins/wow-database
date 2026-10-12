@@ -1,0 +1,93 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-24T23:13:59+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 12[/li][li]Requires level 7[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1266/tundra-macgrann]Tundra MacGrann[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1266/tundra-macgrann]Tundra MacGrann[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]7[/color][small] &nbsp;[/small][color=r1]8[/color][small] &nbsp;[/small][color=r2]10[/color][small] &nbsp;[/small][color=r3]15[/color][small] &nbsp;[/small][color=r4]18[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "1": {
+        "levels": [
+          [
+            {
+              "coord": [
+                34.6,
+                51.6
+              ],
+              "coords": [
+                [
+                  34.6,
+                  51.6
+                ]
+              ],
+              "id": 1266,
+              "name": "Tundra MacGrann",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                34.6,
+                51.6
+              ],
+              "coords": [
+                [
+                  34.6,
+                  51.6
+                ]
+              ],
+              "id": 1266,
+              "name": "Tundra MacGrann",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Dun Morogh"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  "minLevel": 7,
+  "pageInfo": {
+    "name": "Tundra MacGrann's Stolen Stash",
+    "type": 5,
+    "typeId": 312
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 312,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 1266,
+      "npcName": "Tundra MacGrann",
+      "zoneId": 1,
+      "x": 34.6,
+      "y": 51.6,
+      "zoneName": "Dun Morogh"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T05:26:35+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 25[/li][li]Requires level 15[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=210995/alonso]Alonso[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=210995/alonso]Alonso[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]15[/color][small] &nbsp;[/small][color=r1]21[/color][small] &nbsp;[/small][color=r2]23[/color][small] &nbsp;[/small][color=r3]28[/color][small] &nbsp;[/small][color=r4]33[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "331": {
+        "levels": [
+          [
+            {
+              "coord": [
+                43.4,
+                70.4
+              ],
+              "coords": [
+                [
+                  42,
+                  69.2
+                ],
+                [
+                  42.4,
+                  70
+                ],
+                [
+                  43.4,
+                  70.4
+                ],
+                [
+                  43.4,
+                  70.6
+                ],
+                [
+                  43.6,
+                  70.4
+                ]
+              ],
+              "id": 210995,
+              "name": "Alonso",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                43.4,
+                70.4
+              ],
+              "coords": [
+                [
+                  42,
+                  69.2
+                ],
+                [
+                  42.4,
+                  70
+                ],
+                [
+                  43.4,
+                  70.4
+                ],
+                [
+                  43.4,
+                  70.6
+                ],
+                [
+                  43.6,
+                  70.4
+                ]
+              ],
+              "id": 210995,
+              "name": "Alonso",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ashenvale"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        331,
+        1
+      ]
+    ]
+  },
+  "minLevel": 15,
+  "pageInfo": {
+    "name": "Dragonslayer's Lance",
+    "type": 5,
+    "typeId": 78134
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 78134,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 210995,
+      "npcName": "Alonso",
+      "zoneId": 331,
+      "x": 43.4,
+      "y": 70.4,
+      "zoneName": "Ashenvale"
+    }
+  ]
+}

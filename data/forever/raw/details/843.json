@@ -1,0 +1,255 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-24T23:24:55+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 23[/li][li]Requires level 17[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3341/gann-stonespire]Gann Stonespire[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3341/gann-stonespire]Gann Stonespire[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]17[/color][small] &nbsp;[/small][color=r1]19[/color][small] &nbsp;[/small][color=r2]21[/color][small] &nbsp;[/small][color=r3]26[/color][small] &nbsp;[/small][color=r4]31[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "17": {
+        "levels": [
+          [
+            {
+              "coord": [
+                46,
+                75.4
+              ],
+              "coords": [
+                [
+                  45.8,
+                  77.2
+                ],
+                [
+                  45.8,
+                  77.6
+                ],
+                [
+                  45.8,
+                  78.6
+                ],
+                [
+                  46,
+                  75.4
+                ],
+                [
+                  46,
+                  76.2
+                ],
+                [
+                  46,
+                  80.4
+                ],
+                [
+                  46,
+                  81.2
+                ]
+              ],
+              "id": 3341,
+              "name": "Gann Stonespire",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                46,
+                75.4
+              ],
+              "coords": [
+                [
+                  45.8,
+                  77.2
+                ],
+                [
+                  45.8,
+                  77.6
+                ],
+                [
+                  45.8,
+                  78.6
+                ],
+                [
+                  46,
+                  75.4
+                ],
+                [
+                  46,
+                  76.2
+                ],
+                [
+                  46,
+                  80.4
+                ],
+                [
+                  46,
+                  81.2
+                ]
+              ],
+              "id": 3341,
+              "name": "Gann Stonespire",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                48,
+                85.8
+              ],
+              "coords": [
+                [
+                  46.8,
+                  83.4
+                ],
+                [
+                  46.8,
+                  85.4
+                ],
+                [
+                  46.8,
+                  85.6
+                ],
+                [
+                  47.2,
+                  84.4
+                ],
+                [
+                  47.6,
+                  84.4
+                ],
+                [
+                  47.6,
+                  85.2
+                ],
+                [
+                  48,
+                  85.8
+                ]
+              ],
+              "id": 3374,
+              "name": "Bael'dun Excavator",
+              "objective": 3374,
+              "point": "requirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                47.4,
+                85
+              ],
+              "coords": [
+                [
+                  47.2,
+                  84.4
+                ],
+                [
+                  47.4,
+                  85
+                ],
+                [
+                  47.4,
+                  85.6
+                ],
+                [
+                  47.6,
+                  85.2
+                ],
+                [
+                  48,
+                  85.6
+                ]
+              ],
+              "id": 3375,
+              "name": "Bael'dun Foreman",
+              "objective": 3375,
+              "point": "requirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                47.8,
+                85.6
+              ],
+              "coords": [
+                [
+                  47.2,
+                  84.4
+                ],
+                [
+                  47.4,
+                  85
+                ],
+                [
+                  47.4,
+                  85.6
+                ],
+                [
+                  47.8,
+                  85.4
+                ],
+                [
+                  47.8,
+                  85.6
+                ]
+              ],
+              "id": 3392,
+              "item": "Khazgorm's Journal",
+              "name": "Prospector Khazgorm",
+              "objective": 2,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Barrens"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        17,
+        4
+      ]
+    ]
+  },
+  "minLevel": 17,
+  "pageInfo": {
+    "name": "Gann's Reclamation",
+    "type": 5,
+    "typeId": 843
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 843,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3341,
+      "npcName": "Gann Stonespire",
+      "zoneId": 17,
+      "x": 46.0,
+      "y": 75.4,
+      "zoneName": "The Barrens"
+    }
+  ]
+}

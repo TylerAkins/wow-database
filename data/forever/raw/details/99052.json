@@ -1,0 +1,145 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T07:07:38+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 12[/li][li]Requires level 10[/li][li]Type: Elite[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3142/orgnil-soulscar]Orgnil Soulscar[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3142/orgnil-soulscar]Orgnil Soulscar[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]10[/color][small] &nbsp;[/small][color=r3]15[/color][small] &nbsp;[/small][color=r4]18[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "14": {
+        "levels": [
+          [
+            {
+              "coord": [
+                52.2,
+                43.2
+              ],
+              "coords": [
+                [
+                  52.2,
+                  43.2
+                ]
+              ],
+              "id": 3142,
+              "name": "Orgnil Soulscar",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                52.2,
+                43.2
+              ],
+              "coords": [
+                [
+                  52.2,
+                  43.2
+                ]
+              ],
+              "id": 3142,
+              "name": "Orgnil Soulscar",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                59,
+                17.4
+              ],
+              "coords": [
+                [
+                  55.6,
+                  14.2
+                ],
+                [
+                  56.6,
+                  18.2
+                ],
+                [
+                  57.4,
+                  15.2
+                ],
+                [
+                  57.4,
+                  16.6
+                ],
+                [
+                  58,
+                  16.2
+                ],
+                [
+                  58.6,
+                  16.2
+                ],
+                [
+                  59,
+                  17.4
+                ],
+                [
+                  59.2,
+                  17.6
+                ],
+                [
+                  59.6,
+                  17.6
+                ]
+              ],
+              "id": 275666,
+              "item": "Aggor's Belt",
+              "name": "Aggor the Young",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Durotar"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        14,
+        2
+      ]
+    ]
+  },
+  "minLevel": 10,
+  "pageInfo": {
+    "name": "Threat from Below",
+    "type": 5,
+    "typeId": 99052
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 99052,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3142,
+      "npcName": "Orgnil Soulscar",
+      "zoneId": 14,
+      "x": 52.2,
+      "y": 43.2,
+      "zoneName": "Durotar"
+    }
+  ]
+}

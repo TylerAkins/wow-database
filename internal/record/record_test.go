@@ -1,0 +1,89 @@
+package record
+
+import (
+	"encoding/json"
+	"os"
+	"path/filepath"
+	"strings"
+	"testing"
+)
+
+func validRecord() Record {
+	return Record{
+		SchemaVersion: SchemaVersion, Flavor: "forever", EntityType: "quest", EntityID: "10",
+		Source: "questiedb", SourceRevision: "abc123",
+		Attributes:  map[string]json.RawMessage{"requiredLevel": json.RawMessage("0"), "objectives": json.RawMessage("[]")},
+		FieldStates: map[string]string{"description": "unavailable", "objectives": "empty"},
+		Provenance:  map[string]FieldProvenance{"requiredLevel": {Source: "questiedb", Revision: "abc123"}},
+	}
+}
+
+func TestRecordValidatesZeroEmptyAndUnavailableSeparately(t *testing.T) {
+	if err := validRecord().Validate(); err != nil {
+		t.Fatal(err)
+	}
+}
+
+func TestRecordRejectsFalseEmptyAndContradictoryStates(t *testing.T) {
+	r := validRecord()
+	r.Attributes["objectives"] = json.RawMessage("[1]")
+	if err := r.Validate(); err == nil {
+		t.Fatal("nonempty value marked empty was accepted")
+	}
+	r = validRecord()
+	r.FieldStates["requiredLevel"] = "unavailable"
+	if err := r.Validate(); err == nil {
+		t.Fatal("value marked unavailable was accepted")
+	}
+}
+
+func TestReadJSONLRejectsDuplicateKeysAndManifestMismatch(t *testing.T) {
+	r := validRecord()
+	body, err := json.Marshal(r)
+	if err != nil {
+		t.Fatal(err)
+	}
+	input := string(body) + "\n" + string(body) + "\n"
+	if _, err := ReadJSONL(strings.NewReader(input), "questiedb", "forever", "abc123"); err == nil || !strings.Contains(err.Error(), "duplicate record") {
+		t.Fatalf("duplicate error = %v", err)
+	}
+	if _, err := ReadJSONL(strings.NewReader(string(body)), "questiedb", "era", "abc123"); err == nil {
+		t.Fatal("manifest flavor mismatch was accepted")
+	}
+}
+
+func TestDatasetRoundTripIsDeterministicAndChecksummed(t *testing.T) {
+	dir := filepath.Join(t.TempDir(), "snapshot")
+	records := []Record{validRecord()}
+	manifest := Manifest{Source: "questiedb", Flavor: "forever", SourceRevision: "abc123"}
+	if err := WriteDataset(dir, records, manifest); err != nil {
+		t.Fatal(err)
+	}
+	first, err := os.ReadFile(filepath.Join(dir, "records.jsonl"))
+	if err != nil {
+		t.Fatal(err)
+	}
+	loaded, gotManifest, err := ReadDataset(dir)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(loaded) != 1 || gotManifest.RecordCount != 1 || gotManifest.RecordsSHA256 == "" {
+		t.Fatalf("round-trip records=%d manifest=%+v", len(loaded), gotManifest)
+	}
+	if err := WriteDataset(dir, records, manifest); err != nil {
+		t.Fatal(err)
+	}
+	second, err := os.ReadFile(filepath.Join(dir, "records.jsonl"))
+	if err != nil {
+		t.Fatal(err)
+	}
+	if string(first) != string(second) {
+		t.Fatal("identical inputs produced different source records")
+	}
+	if err := os.WriteFile(filepath.Join(dir, "records.jsonl"), []byte("corrupt\n"), 0o644); err != nil {
+		t.Fatal(err)
+	}
+	if _, _, err := ReadDataset(dir); err == nil {
+		t.Fatal("checksum mismatch was accepted")
+	}
+}

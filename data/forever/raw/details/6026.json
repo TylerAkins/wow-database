@@ -1,0 +1,180 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-09-25T03:17:13+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 58[/li][li]Requires level 54[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=11033/smokey-larue]Smokey LaRue[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=11033/smokey-larue]Smokey LaRue[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]54[/color][small] &nbsp;[/small][color=r2]56[/color][small] &nbsp;[/small][color=r3]61[/color][small] &nbsp;[/small][color=r4]69[/color][/li][li]Added in patch [acronym=\"1.13.2.30786\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 3,
+    "objectives": {
+      "139": {
+        "levels": [
+          [
+            {
+              "coord": [
+                80.6,
+                58
+              ],
+              "coords": [
+                [
+                  80.4,
+                  58
+                ],
+                [
+                  80.6,
+                  58
+                ]
+              ],
+              "id": 11033,
+              "name": "Smokey LaRue",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                80.6,
+                58
+              ],
+              "coords": [
+                [
+                  80.4,
+                  58
+                ],
+                [
+                  80.6,
+                  58
+                ]
+              ],
+              "id": 11033,
+              "name": "Smokey LaRue",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                31.8,
+                30.6
+              ],
+              "coords": [
+                [
+                  24.8,
+                  20
+                ],
+                [
+                  28.8,
+                  44
+                ],
+                [
+                  31.6,
+                  30.4
+                ],
+                [
+                  31.8,
+                  30.6
+                ],
+                [
+                  38,
+                  16.4
+                ],
+                [
+                  82,
+                  36.4
+                ],
+                [
+                  82.4,
+                  36.8
+                ],
+                [
+                  82.6,
+                  37
+                ],
+                [
+                  82.8,
+                  40.4
+                ],
+                [
+                  82.8,
+                  40.6
+                ],
+                [
+                  83.4,
+                  46
+                ],
+                [
+                  83.4,
+                  46.6
+                ],
+                [
+                  83.6,
+                  46.2
+                ],
+                [
+                  84.2,
+                  43.2
+                ],
+                [
+                  87,
+                  42.4
+                ],
+                [
+                  87.2,
+                  42.8
+                ]
+              ],
+              "id": 230146,
+              "item": "Thorium Bar",
+              "name": "Fel Interloper",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Eastern Plaguelands"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        139,
+        2
+      ]
+    ]
+  },
+  "minLevel": 54,
+  "pageInfo": {
+    "name": "That's Asking A Lot",
+    "type": 5,
+    "typeId": 6026
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 6026,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 11033,
+      "npcName": "Smokey LaRue",
+      "zoneId": 139,
+      "x": 80.6,
+      "y": 58.0,
+      "zoneName": "Eastern Plaguelands"
+    }
+  ]
+}

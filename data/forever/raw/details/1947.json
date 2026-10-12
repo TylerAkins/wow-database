@@ -1,0 +1,329 @@
+{
+  "classes": [
+    8
+  ],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T01:16:26+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 38[/li][li]Requires level 30[/li][li]Side: Both[/li][li]Class: [class=8][/li][li][icon name=quest-start]Start: [span class=icon-horde][url=/forever/npc=3048/ursyn-ghull]Ursyn Ghull[/url][/span][/icon][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-horde][url=/forever/npc=4568/anastasia-hartwell]Anastasia Hartwell[/url][/span][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-alliance-padded][url=/forever/npc=5144/bink]Bink[/url][/span][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-alliance-padded][url=/forever/npc=5497/jennea-cannon]Jennea Cannon[/url][/span][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-horde][url=/forever/npc=5885/deino]Deino[/url][/span][/li][li][icon name=quest-end]End: [url=/forever/npc=6546/tabetha]Tabetha[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]30[/color][small] &nbsp;[/small][color=r1]34[/color][small] &nbsp;[/small][color=r2]36[/color][small] &nbsp;[/small][color=r3]41[/color][small] &nbsp;[/small][color=r4]47[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1497": {
+        "levels": [
+          [
+            {
+              "coord": [
+                85,
+                10.2
+              ],
+              "coords": [
+                [
+                  84.4,
+                  11
+                ],
+                [
+                  84.8,
+                  10.6
+                ],
+                [
+                  85,
+                  10.2
+                ]
+              ],
+              "id": 4568,
+              "name": "Anastasia Hartwell",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Undercity"
+      },
+      "15": {
+        "levels": [
+          [
+            {
+              "coord": [
+                46,
+                57
+              ],
+              "coords": [
+                [
+                  46,
+                  57
+                ]
+              ],
+              "id": 6546,
+              "name": "Tabetha",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Dustwallow Marsh"
+      },
+      "1519": {
+        "levels": [
+          [
+            {
+              "coord": [
+                38.6,
+                79.4
+              ],
+              "coords": [
+                [
+                  38.4,
+                  79.4
+                ],
+                [
+                  38.4,
+                  79.6
+                ],
+                [
+                  38.6,
+                  79.4
+                ],
+                [
+                  38.6,
+                  79.6
+                ]
+              ],
+              "id": 5497,
+              "name": "Jennea Cannon",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stormwind City"
+      },
+      "1537": {
+        "levels": [
+          [
+            {
+              "coord": [
+                27,
+                8.2
+              ],
+              "coords": [
+                [
+                  26.4,
+                  9.4
+                ],
+                [
+                  26.4,
+                  9.6
+                ],
+                [
+                  26.8,
+                  8.6
+                ],
+                [
+                  27,
+                  8.2
+                ]
+              ],
+              "id": 5144,
+              "name": "Bink",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ironforge"
+      },
+      "1637": {
+        "levels": [
+          [
+            {
+              "coord": [
+                38.4,
+                85.8
+              ],
+              "coords": [
+                [
+                  37.8,
+                  86.6
+                ],
+                [
+                  38.4,
+                  85.4
+                ],
+                [
+                  38.4,
+                  85.8
+                ],
+                [
+                  38.6,
+                  85.2
+                ],
+                [
+                  38.6,
+                  86
+                ]
+              ],
+              "id": 5885,
+              "name": "Deino",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Orgrimmar"
+      },
+      "1638": {
+        "levels": [
+          [
+            {
+              "coord": [
+                25.6,
+                14.6
+              ],
+              "coords": [
+                [
+                  25.4,
+                  14.4
+                ],
+                [
+                  25.4,
+                  14.6
+                ],
+                [
+                  25.6,
+                  14.4
+                ],
+                [
+                  25.6,
+                  14.6
+                ],
+                [
+                  25.6,
+                  15.6
+                ]
+              ],
+              "id": 3048,
+              "name": "Ursyn Ghull",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Thunder Bluff"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1637,
+        1
+      ],
+      [
+        1638,
+        1
+      ],
+      [
+        1497,
+        1
+      ],
+      [
+        1537,
+        1
+      ],
+      [
+        1519,
+        1
+      ],
+      [
+        15,
+        1
+      ]
+    ]
+  },
+  "minLevel": 30,
+  "pageInfo": {
+    "name": "Journey to the Marsh",
+    "type": 5,
+    "typeId": 1947
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    1948,
+    1949,
+    1950,
+    1951,
+    1952
+  ],
+  "questId": 1947,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3048,
+      "npcName": "Ursyn Ghull",
+      "zoneId": 1638,
+      "x": 25.6,
+      "y": 14.6,
+      "zoneName": "Thunder Bluff"
+    },
+    {
+      "npcId": 4568,
+      "npcName": "Anastasia Hartwell",
+      "zoneId": 1497,
+      "x": 85.0,
+      "y": 10.2,
+      "zoneName": "Undercity"
+    },
+    {
+      "npcId": 5144,
+      "npcName": "Bink",
+      "zoneId": 1537,
+      "x": 27.0,
+      "y": 8.2,
+      "zoneName": "Ironforge"
+    },
+    {
+      "npcId": 5497,
+      "npcName": "Jennea Cannon",
+      "zoneId": 1519,
+      "x": 38.6,
+      "y": 79.4,
+      "zoneName": "Stormwind City"
+    },
+    {
+      "npcId": 5885,
+      "npcName": "Deino",
+      "zoneId": 1637,
+      "x": 38.4,
+      "y": 85.8,
+      "zoneName": "Orgrimmar"
+    }
+  ]
+}

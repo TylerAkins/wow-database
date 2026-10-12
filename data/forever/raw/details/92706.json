@@ -1,0 +1,147 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-09-25T06:08:15+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 20[/li][li]Requires level 15[/li][li]Type: Elite[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/object=3972/wanted]WANTED[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3391/gazlowe]Gazlowe[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]15[/color][small] &nbsp;[/small][color=r1]16[/color][small] &nbsp;[/small][color=r2]18[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "17": {
+        "levels": [
+          [
+            {
+              "coord": [
+                62.6,
+                37.5
+              ],
+              "coords": [
+                [
+                  62.6,
+                  37.5
+                ]
+              ],
+              "id": 3972,
+              "name": "WANTED",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                62.6,
+                36.2
+              ],
+              "coords": [
+                [
+                  62.6,
+                  36.2
+                ]
+              ],
+              "id": 3391,
+              "name": "Gazlowe",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                65.2,
+                39.4
+              ],
+              "coords": [
+                [
+                  63.4,
+                  38.8
+                ],
+                [
+                  64.2,
+                  38.4
+                ],
+                [
+                  64.4,
+                  39
+                ],
+                [
+                  64.4,
+                  39.6
+                ],
+                [
+                  64.8,
+                  39.8
+                ],
+                [
+                  65.2,
+                  39.4
+                ],
+                [
+                  65.6,
+                  39.2
+                ]
+              ],
+              "id": 209797,
+              "item": "Bruuz's Dorsal Fin",
+              "name": "Bruuz",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Barrens"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        17,
+        3
+      ]
+    ]
+  },
+  "minLevel": 15,
+  "objectSpawns": [
+    {
+      "entityId": 3972,
+      "entityKind": "object",
+      "entityName": "WANTED",
+      "uiMapId": 1413,
+      "uiMapName": "The Barrens",
+      "x": 62.6,
+      "y": 37.5,
+      "zoneId": 17
+    }
+  ],
+  "pageInfo": {
+    "name": "WANTED: Bruuz",
+    "type": 5,
+    "typeId": 92706
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 92706,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 3972,
+      "npcName": "WANTED",
+      "x": 62.6,
+      "y": 37.5,
+      "zoneId": 17,
+      "zoneName": "The Barrens"
+    }
+  ]
+}

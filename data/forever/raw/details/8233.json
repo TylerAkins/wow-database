@@ -1,0 +1,333 @@
+{
+  "classes": [
+    4
+  ],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T04:16:24+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 52[/li][li]Requires level 50[/li][li]Side: Both[/li][li]Class: [class=4][/li][li][icon name=quest-start]Start: [span class=icon-alliance-padded][url=/forever/npc=918/osborne-the-night-man]Osborne the Night Man[/url][/span][/icon][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-horde][url=/forever/npc=3328/ormok]Ormok[/url][/span][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-alliance-padded][url=/forever/npc=4163/syurna]Syurna[/url][/span][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-horde][url=/forever/npc=4583/miles-dexter]Miles Dexter[/url][/span][br][span=invisible][icon name=quest-start]Start: [/icon][/span][span class=icon-alliance-padded][url=/forever/npc=5165/hulfdan-blackbeard]Hulfdan Blackbeard[/url][/span][/li][li][icon name=quest-end]End: [url=/forever/npc=6768/lord-jorach-ravenholdt]Lord Jorach Ravenholdt[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]50[/color][small] &nbsp;[/small][color=r3]55[/color][small] &nbsp;[/small][color=r4]63[/color][/li][li]Added in patch [acronym=\"1.13.3.33155\"]1.13.3[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1497": {
+        "levels": [
+          [
+            {
+              "coord": [
+                85,
+                71.2
+              ],
+              "coords": [
+                [
+                  84.2,
+                  71
+                ],
+                [
+                  84.2,
+                  71.6
+                ],
+                [
+                  84.8,
+                  71.6
+                ],
+                [
+                  85,
+                  70.2
+                ],
+                [
+                  85,
+                  71.2
+                ]
+              ],
+              "id": 4583,
+              "name": "Miles Dexter",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Undercity"
+      },
+      "1519": {
+        "levels": [
+          [
+            {
+              "coord": [
+                74.4,
+                52.8
+              ],
+              "coords": [
+                [
+                  74,
+                  52.4
+                ],
+                [
+                  74.4,
+                  52.8
+                ],
+                [
+                  74.6,
+                  52.8
+                ],
+                [
+                  74.8,
+                  53.8
+                ]
+              ],
+              "id": 918,
+              "name": "Osborne the Night Man",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stormwind City"
+      },
+      "1537": {
+        "levels": [
+          [
+            {
+              "coord": [
+                51.6,
+                14.8
+              ],
+              "coords": [
+                [
+                  51.2,
+                  16
+                ],
+                [
+                  51.4,
+                  14.4
+                ],
+                [
+                  51.4,
+                  14.6
+                ],
+                [
+                  51.6,
+                  14.4
+                ],
+                [
+                  51.6,
+                  14.8
+                ],
+                [
+                  51.8,
+                  16
+                ],
+                [
+                  52.4,
+                  13.4
+                ]
+              ],
+              "id": 5165,
+              "name": "Hulfdan Blackbeard",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ironforge"
+      },
+      "1637": {
+        "levels": [
+          [
+            {
+              "coord": [
+                44,
+                54.4
+              ],
+              "coords": [
+                [
+                  44,
+                  54.4
+                ],
+                [
+                  44,
+                  54.6
+                ]
+              ],
+              "id": 3328,
+              "name": "Ormok",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Orgrimmar"
+      },
+      "1657": {
+        "levels": [
+          [
+            {
+              "coord": [
+                36.8,
+                21.8
+              ],
+              "coords": [
+                [
+                  36.2,
+                  21.4
+                ],
+                [
+                  36.2,
+                  21.6
+                ],
+                [
+                  36.8,
+                  21.8
+                ]
+              ],
+              "id": 4163,
+              "name": "Syurna",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Darnassus"
+      },
+      "36": {
+        "levels": [
+          [
+            {
+              "coord": [
+                86,
+                79
+              ],
+              "coords": [
+                [
+                  86,
+                  79
+                ]
+              ],
+              "id": 6768,
+              "name": "Lord Jorach Ravenholdt",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Alterac Mountains"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1537,
+        1
+      ],
+      [
+        1519,
+        1
+      ],
+      [
+        1637,
+        1
+      ],
+      [
+        1657,
+        1
+      ],
+      [
+        1497,
+        1
+      ],
+      [
+        36,
+        1
+      ]
+    ]
+  },
+  "minLevel": 50,
+  "pageInfo": {
+    "name": "A Simple Request",
+    "type": 5,
+    "typeId": 8233
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [
+    8232,
+    8236,
+    8253,
+    8257,
+    8413,
+    8418,
+    8422,
+    8425,
+    9053
+  ],
+  "questId": 8233,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 918,
+      "npcName": "Osborne the Night Man",
+      "zoneId": 1519,
+      "x": 74.4,
+      "y": 52.8,
+      "zoneName": "Stormwind City"
+    },
+    {
+      "npcId": 3328,
+      "npcName": "Ormok",
+      "zoneId": 1637,
+      "x": 44.0,
+      "y": 54.4,
+      "zoneName": "Orgrimmar"
+    },
+    {
+      "npcId": 4163,
+      "npcName": "Syurna",
+      "zoneId": 1657,
+      "x": 36.8,
+      "y": 21.8,
+      "zoneName": "Darnassus"
+    },
+    {
+      "npcId": 4583,
+      "npcName": "Miles Dexter",
+      "zoneId": 1497,
+      "x": 85.0,
+      "y": 71.2,
+      "zoneName": "Undercity"
+    },
+    {
+      "npcId": 5165,
+      "npcName": "Hulfdan Blackbeard",
+      "zoneId": 1537,
+      "x": 51.6,
+      "y": 14.8,
+      "zoneName": "Ironforge"
+    }
+  ]
+}

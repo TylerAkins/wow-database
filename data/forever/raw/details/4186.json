@@ -1,0 +1,125 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-09-25T02:17:42+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 54[/li][li]Requires level 48[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1748/highlord-bolvar-fordragon]Highlord Bolvar Fordragon[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=344/magistrate-solomon]Magistrate Solomon[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]48[/color][small] &nbsp;[/small][color=r1]50[/color][small] &nbsp;[/small][color=r2]52[/color][small] &nbsp;[/small][color=r3]57[/color][small] &nbsp;[/small][color=r4]65[/color][/li][li]Added in patch [acronym=\"1.13.2.31687\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1519": {
+        "levels": [
+          [
+            {
+              "coord": [
+                78,
+                18
+              ],
+              "coords": [
+                [
+                  77.4,
+                  18.4
+                ],
+                [
+                  77.4,
+                  18.8
+                ],
+                [
+                  77.6,
+                  18.6
+                ],
+                [
+                  78,
+                  18
+                ],
+                [
+                  80,
+                  38.4
+                ]
+              ],
+              "id": 1748,
+              "name": "Highlord Bolvar Fordragon",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stormwind City"
+      },
+      "44": {
+        "levels": [
+          [
+            {
+              "coord": [
+                30,
+                44.2
+              ],
+              "coords": [
+                [
+                  29.8,
+                  44.6
+                ],
+                [
+                  30,
+                  44.2
+                ]
+              ],
+              "id": 344,
+              "name": "Magistrate Solomon",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Redridge Mountains"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1519,
+        1
+      ],
+      [
+        44,
+        1
+      ]
+    ]
+  },
+  "minLevel": 48,
+  "pageInfo": {
+    "name": "The True Masters",
+    "type": 5,
+    "typeId": 4186
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 4186,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 1748,
+      "npcName": "Highlord Bolvar Fordragon",
+      "zoneId": 1519,
+      "x": 78.0,
+      "y": 18.0,
+      "zoneName": "Stormwind City"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "classes": [
+    1,
+    2
+  ],
+  "fetchedAt": "2026-09-25T02:46:19+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": true,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 55[/li][li]Type: Dungeon[/li][li]Side: Both[/li][li]Classes: [class=1], [class=2][/li][li][icon name=quest-start]Start: [url=/forever/npc=10918/lorax]Lorax[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=10918/lorax]Lorax[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]55[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.2.31727\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "mapper": {
+    "missing": 2,
+    "objectives": {
+      "618": {
+        "levels": [
+          [
+            {
+              "coord": [
+                63.8,
+                73.8
+              ],
+              "coords": [
+                [
+                  63.8,
+                  73.8
+                ]
+              ],
+              "id": 10918,
+              "name": "Lorax",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                63.8,
+                73.8
+              ],
+              "coords": [
+                [
+                  63.8,
+                  73.8
+                ]
+              ],
+              "id": 10918,
+              "name": "Lorax",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Winterspring"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        618,
+        1
+      ]
+    ]
+  },
+  "minLevel": 55,
+  "pageInfo": {
+    "name": "The Demon Forge",
+    "type": 5,
+    "typeId": 5127
+  },
+  "pinCategory": "instance",
+  "prerequisiteQuestIds": [],
+  "questId": 5127,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 10918,
+      "npcName": "Lorax",
+      "zoneId": 618,
+      "x": 63.8,
+      "y": 73.8,
+      "zoneName": "Winterspring"
+    }
+  ]
+}
