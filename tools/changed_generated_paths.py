@@ -8,8 +8,6 @@ import sys
 
 
 GENERATED_PATHS = (
-    "data/era/sources",
-    "data/era/compilation",
     "data/forever/sources",
     "data/forever/compilation",
     "export/forever",

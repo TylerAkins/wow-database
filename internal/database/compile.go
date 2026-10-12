@@ -41,7 +41,7 @@ type sourceData struct {
 }
 
 func Compile(flavor, sourcesRoot, outputDir, policyPath string) error {
-	if flavor != "era" && flavor != "forever" {
+	if flavor != "forever" {
 		return fmt.Errorf("unsupported flavor %q", flavor)
 	}
 	entries, err := os.ReadDir(sourcesRoot)
@@ -325,7 +325,12 @@ func writeCompilation(outputDir string, rows []record.Record, manifest record.Ma
 	if err := record.WriteDataset(dataset, rows, manifest); err != nil {
 		return err
 	}
-	for _, name := range []string{"records.jsonl", "manifest.json"} {
+	entries, err := os.ReadDir(dataset)
+	if err != nil {
+		return err
+	}
+	for _, entry := range entries {
+		name := entry.Name()
 		if err := os.Rename(filepath.Join(dataset, name), filepath.Join(temp, name)); err != nil {
 			return err
 		}

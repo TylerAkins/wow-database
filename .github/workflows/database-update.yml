@@ -40,16 +40,27 @@ jobs:
           path: .cache/AllTheThings
           fetch-depth: 1
 
-      - name: Read ATT revision
+      - name: Check out QuestieDB
+        uses: actions/checkout@v7.0.1
+        with:
+          repository: Questie/QuestieDB
+          ref: master
+          path: .cache/QuestieDB
+          fetch-depth: 1
+
+      - name: Read source revisions
         id: sources
         run: |
           set -euo pipefail
           att_sha=$(git -C .cache/AllTheThings rev-parse HEAD)
+          questie_sha=$(git -C .cache/QuestieDB rev-parse HEAD)
+          printf 'questiedb=%s\n' "$questie_sha" >> "$GITHUB_OUTPUT"
           att_time=$(git -C .cache/AllTheThings log -1 --format=%cI)
           printf 'att=%s\natt_time=%s\n' "$att_sha" "$att_time" >> "$GITHUB_OUTPUT"
 
-      - name: Import ATT and existing local snapshot
+      - name: Import ATT, QuestieDB, and existing local snapshot
         env:
+          QUESTIEDB_SHA: ${{ steps.sources.outputs.questiedb }}
           ATT_SHA: ${{ steps.sources.outputs.att }}
           ATT_TIME: ${{ steps.sources.outputs.att_time }}
         run: |
@@ -57,12 +68,15 @@ jobs:
           go run ./cmd/ingest-att --att-root .cache/AllTheThings \
             --revision "$ATT_SHA" --generated-at "$ATT_TIME" \
             --out data/forever/sources/allthethings
+          python3 tools/questiedb/import_source.py --repo .cache/QuestieDB \
+            --revision "$QUESTIEDB_SHA" --flavor forever \
+            --out data/forever/sources/questiedb
           if [[ -f data/forever/raw/manifest.json ]]; then
             python3 tools/wowhead/import_snapshot.py \
               --data-root data/forever/raw --out data/forever/sources/wowhead
           fi
 
-      - name: Validate and compile available flavors
+      - name: Validate and compile Forever
         run: |
           set -euo pipefail
           python3 tools/coverage_guard.py --base origin/main
@@ -113,10 +127,11 @@ jobs:
           assignees: TylerAkins
           add-paths: ${{ steps.generated_paths.outputs.paths }}
           body: |
-            Regenerates the canonical source snapshots and flavor compilations.
+            Regenerates the canonical Forever source snapshots and compilation.
 
             | Source | Revision |
             |---|---|
             | AllTheThings | `${{ steps.sources.outputs.att }}` |
+            | QuestieDB (Forever, including Classic baseline) | `${{ steps.sources.outputs.questiedb }}` |
 
-            The existing Wowhead snapshot is normalized offline when present. QuestieDB import remains local until its data redistribution terms are confirmed. The local client extractor is not run in CI. Revision-only changes do not open a pull request when canonical values are unchanged.
+            The existing Wowhead snapshot is normalized offline when present. QuestieDB corrections are preserved without evaluating or applying them. The local client extractor is not run in CI. Revision-only changes do not open a pull request when canonical values are unchanged.

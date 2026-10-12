@@ -24,10 +24,12 @@ The initial Wowhead dataset contains the **Forever** game version and was migrat
 ## Sources and workflows
 
 Wowhead scraping is local and manual. Client extraction is local and manual.
-The scheduled workflow imports ATT, normalizes the existing Wowhead cache
-when present, validates canonical snapshots, compiles both flavors, and
-refreshes the legacy ATT export. QuestieDB import stays local until its data
-redistribution terms are confirmed. See
+Forever is the only game flavor. Its database includes the Classic Era baseline
+and Forever additions, merged by entity type and ID. The scheduled workflow
+imports ATT and QuestieDB Forever. It
+normalizes the existing Wowhead cache when present, validates canonical
+snapshots, compiles Forever, and
+refreshes the legacy ATT export. QuestieDB imports are also available locally. See
 [docs/INGESTION.md](docs/INGESTION.md) for commands and
 [docs/CLIENT_EXTRACTION.md](docs/CLIENT_EXTRACTION.md) for local DB2 use.
 

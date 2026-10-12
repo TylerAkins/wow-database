@@ -10,22 +10,23 @@ Wowhead Forever --local Python scraper--> data/forever/raw/
                  --offline adapter-------> data/forever/sources/wowhead/
 
 All The Things --Go adapter-------------> data/forever/sources/allthethings/
-QuestieDB ------Python adapter-----------> data/{era,forever}/sources/questiedb/
+QuestieDB ------Python adapter-----------> data/forever/sources/questiedb/
 Installed client + local WoWDBDefs ------> .local/foreverclient/
                                           --Go adapter--> data/forever/sources/foreverclient/
 
-data/<flavor>/sources/* --Go compiler--> data/<flavor>/compilation/
+data/forever/sources/* --Go compiler--> data/forever/compilation/
 All The Things -------------------------> export/forever/ (legacy product)
 ```
 
 The Wowhead scraper and zone compiler remain from the restored baseline. The
 offline adapter normalizes the existing cache. ATT exports supported Forever
 quest fields and relationships plus selected explicit entity declarations and
-containment links. QuestieDB imports generated entities for Era and Forever
-while preserving applicable unapplied corrections. Its data remains local
-pending confirmation of redistribution terms. The local client extractor and
+containment links. QuestieDB imports its Forever generated entities, including the converted
+Classic baseline, while preserving applicable unapplied corrections. Forever
+is the only flavor imported by the daily workflow. The local client extractor and
 importer cover a supported table subset. Source outputs remain separate until
-the multi-source compiler merges them with provenance.
+the multi-source compiler merges them with provenance. Classic baseline quests
+and Forever additions share one namespace; each compiled quest ID appears once.
 
 ## Restoration
 

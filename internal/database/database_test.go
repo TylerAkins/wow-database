@@ -222,3 +222,31 @@ func TestValidateTreeCountsDanglingReferencesWithoutRejectingSnapshot(t *testing
 		t.Fatalf("dataset path = %q", summary[0].Path)
 	}
 }
+
+func TestForeverCompilationIncludesBaselineAndAdditionsWithoutDuplicateQuests(t *testing.T) {
+	root := filepath.Join(t.TempDir(), "sources")
+	baseline := sourceRecord("questiedb", "rev-questiedb", map[string]string{"name": `"Classic baseline"`}, nil)
+	writeSource(t, root, "questiedb", baseline)
+	shared := sourceRecord("allthethings", "rev-allthethings", map[string]string{"name": `"Classic baseline"`}, nil)
+	addition := sourceRecord("allthethings", "rev-allthethings", map[string]string{"name": `"Forever addition"`}, nil)
+	addition.EntityID = "90001"
+	writeSource(t, root, "allthethings", shared, addition)
+	writeSource(t, root, "wowhead", sourceRecord("wowhead", "rev-wowhead", map[string]string{"name": `"Classic baseline"`}, nil))
+	out := filepath.Join(t.TempDir(), "compilation")
+	if err := Compile("forever", root, out, ""); err != nil {
+		t.Fatal(err)
+	}
+	rows, _, err := record.ReadDataset(out)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(rows) != 2 || rows[0].EntityID != "42" || rows[1].EntityID != "90001" {
+		t.Fatalf("expected one baseline and one addition: %+v", rows)
+	}
+	if len(rows[0].Provenance["name"].Sources) != 3 {
+		t.Fatalf("shared quest provenance lost: %+v", rows[0].Provenance)
+	}
+	if err := Compile("era", root, out, ""); err == nil {
+		t.Fatal("accepted separate Era compilation")
+	}
+}

@@ -8,7 +8,7 @@
   "required": ["schemaVersion", "flavor", "entityType", "entityId", "source", "sourceRevision", "attributes"],
   "properties": {
     "schemaVersion": {"const": 1},
-    "flavor": {"enum": ["era", "forever"]},
+    "flavor": {"enum": ["forever"]},
     "entityType": {"enum": ["quest", "npc", "item", "object", "zone", "map", "spell", "faction", "achievement", "profession", "relationship"]},
     "entityId": {"type": "string", "minLength": 1, "pattern": "^[^\\r\\n\\t]+$"},
     "source": {"enum": ["wowhead", "allthethings", "questiedb", "foreverclient", "compilation"]},

@@ -2,7 +2,8 @@
 
 ## Canonical source records
 
-Every source adapter writes `records.jsonl` and `manifest.json` to
+Every source adapter writes `records.jsonl` (or `records.jsonl.gz` for datasets
+at least 50 MiB) and `manifest.json` to
 `data/<flavor>/sources/<source>/`. The JSON Schema contract is in
 `schemas/source-record.schema.json`; `schemas/field-resolution.json` defines
 optional conflict priorities for compilation.
@@ -36,3 +37,13 @@ The Wowhead adapter normalizes an existing cache; it does not fetch data.
 The local client extractor writes one table JSONL file plus `manifest.json` to
 `.local/foreverclient/`. The local `cmd/ingest-client` adapter maps a supported
 subset of those tables into canonical records. It does not copy raw game assets.
+
+Large source and compilation datasets use deterministic gzip compression to
+stay below GitHub file limits. The manifest checksum always covers the
+uncompressed JSONL bytes. Validation, compilation, comparison, and semantic
+change detection read either form. Consumers reading files directly must
+decompress `records.jsonl.gz` when `records.jsonl` is absent.
+
+The only supported `flavor` is `forever`. Classic Era baseline quests and
+Forever additions use the same quest ID namespace. Source snapshots retain
+independent observations; compilation emits one record per entity type and ID.

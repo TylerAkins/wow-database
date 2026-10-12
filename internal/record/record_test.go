@@ -87,3 +87,45 @@ func TestDatasetRoundTripIsDeterministicAndChecksummed(t *testing.T) {
 		t.Fatal("checksum mismatch was accepted")
 	}
 }
+
+func TestLargeDatasetCompressedRoundTripAndReplacement(t *testing.T) {
+	dir := filepath.Join(t.TempDir(), "dataset")
+	r := validRecord()
+	r.Attributes["bulk"] = json.RawMessage(`"` + strings.Repeat("x", 50*1024*1024) + `"`)
+	manifest := Manifest{Source: r.Source, Flavor: r.Flavor, SourceRevision: r.SourceRevision}
+	if err := WriteDataset(dir, []Record{r}, manifest); err != nil {
+		t.Fatal(err)
+	}
+	compressedPath := filepath.Join(dir, "records.jsonl.gz")
+	first, err := os.ReadFile(compressedPath)
+	if err != nil {
+		t.Fatal(err)
+	}
+	rows, _, err := ReadDataset(dir)
+	if err != nil || len(rows) != 1 || string(rows[0].Attributes["bulk"]) != string(r.Attributes["bulk"]) {
+		t.Fatalf("compressed round trip failed: %v", err)
+	}
+	if err := WriteDataset(dir, []Record{r}, manifest); err != nil {
+		t.Fatal(err)
+	}
+	second, err := os.ReadFile(compressedPath)
+	if err != nil || string(first) != string(second) {
+		t.Fatalf("compressed output changed: %v", err)
+	}
+	if err := os.WriteFile(compressedPath, first[:len(first)-8], 0o644); err != nil {
+		t.Fatal(err)
+	}
+	if _, _, err := ReadDataset(dir); err == nil {
+		t.Fatal("accepted truncated gzip")
+	}
+	delete(r.Attributes, "bulk")
+	if err := WriteDataset(dir, []Record{r}, manifest); err != nil {
+		t.Fatal(err)
+	}
+	if _, err := os.Stat(compressedPath); !os.IsNotExist(err) {
+		t.Fatalf("stale compressed output retained: %v", err)
+	}
+	if _, _, err := ReadDataset(dir); err != nil {
+		t.Fatal(err)
+	}
+}

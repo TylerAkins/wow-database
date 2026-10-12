@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import gzip
 import json
 import subprocess
 import sys
@@ -42,12 +43,14 @@ def semantic_records_equal(left: bytes, right: bytes) -> bool:
 def is_canonical_path(path: str) -> bool:
     return any(
         path.startswith(f"data/{flavor}/{kind}/")
-        for flavor in ("era", "forever")
+        for flavor in ("forever",)
         for kind in ("sources", "compilation")
     )
 
 
 def normalized_product(path: str, data: bytes) -> Any:
+    if path.endswith("/records.jsonl.gz"):
+        return normalize_records(gzip.decompress(data))
     if path.endswith("/records.jsonl"):
         return normalize_records(data)
     value = json.loads(data)
@@ -77,7 +80,7 @@ def tracked_product_files(base: str) -> set[str]:
     ).stdout.splitlines()
     return {
         path for path in paths
-        if (path.endswith("/records.jsonl") and is_canonical_path(path))
+        if (path.endswith(("/records.jsonl", "/records.jsonl.gz")) and is_canonical_path(path))
         or (path.endswith(".json") and (is_canonical_path(path) or path.startswith("export/forever/")))
     }
 
@@ -86,23 +89,34 @@ def changed_products(base: str) -> list[str]:
     current = {
         path.as_posix() for path in Path("data").rglob("*")
         if path.is_file() and (
-            (path.name == "records.jsonl" and is_canonical_path(path.as_posix()))
+            (path.name in {"records.jsonl", "records.jsonl.gz"} and is_canonical_path(path.as_posix()))
             or (path.suffix == ".json" and is_canonical_path(path.as_posix()))
         )
     }
     current.update(path.as_posix() for path in Path("export/forever").rglob("*.json") if path.is_file())
     previous = tracked_product_files(base)
+
+    def logical_paths(paths: set[str]) -> dict[str, str]:
+        result = {}
+        for physical in paths:
+            logical = physical[:-3] if physical.endswith("/records.jsonl.gz") else physical
+            if logical in result:
+                raise ValueError(f"multiple records files for {logical}")
+            result[logical] = physical
+        return result
+
+    current_paths = logical_paths(current)
+    previous_paths = logical_paths(previous)
     changed = []
-    for path_text in sorted(current | previous):
-        path = Path(path_text)
-        exists_now = path.is_file()
-        exists_before = path_text in previous
-        if not exists_now or not exists_before:
-            changed.append(path_text)
+    for logical in sorted(current_paths.keys() | previous_paths.keys()):
+        now = current_paths.get(logical)
+        before = previous_paths.get(logical)
+        if now is None or before is None:
+            changed.append(now or before)
             continue
-        old = subprocess.run(["git", "show", f"{base}:{path_text}"], check=True, capture_output=True).stdout
-        if normalized_product(path_text, old) != normalized_product(path_text, path.read_bytes()):
-            changed.append(path_text)
+        old = subprocess.run(["git", "show", f"{base}:{before}"], check=True, capture_output=True).stdout
+        if normalized_product(before, old) != normalized_product(now, Path(now).read_bytes()):
+            changed.append(now)
     return changed
 
 
