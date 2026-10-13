@@ -75,3 +75,63 @@ func TestParsePointRejectsUnknownMapAndBadPercent(t *testing.T) {
 		t.Fatal("accepted out-of-range coordinates")
 	}
 }
+
+func TestLongCommentsHideQuestsAndPreserveTrailingCode(t *testing.T) {
+	for _, equals := range []string{"", "=", "==", "=========="} {
+		t.Run("level"+equals, func(t *testing.T) {
+			source := "--[" + equals + "[\n--[[ nested note ]]\nq(1, {})\n--]" + equals + "]\nq(2, {})"
+			rows, _, err := parseQuestFile("comments.lua", []byte(source), exportContext{})
+			if err != nil {
+				t.Fatal(err)
+			}
+			// At level zero the nested note closes the outer Lua comment.
+			want := []int{2}
+			if equals == "" {
+				want = []int{1, 2}
+			}
+			var ids []int
+			for _, row := range rows {
+				ids = append(ids, row["id"].(int))
+			}
+			if !reflect.DeepEqual(ids, want) {
+				t.Fatalf("quest IDs = %v, want %v", ids, want)
+			}
+			masked := maskLua(source)
+			if len(masked) != len(source) || strings.Count(masked, "\n") != strings.Count(source, "\n") {
+				t.Fatal("mask changed source offsets or line count")
+			}
+		})
+	}
+}
+
+func TestLongCommentsRequireMatchingClosers(t *testing.T) {
+	for _, source := range []string{
+		"--[=[\nq(1, {})\n--]]\nq(2, {})",
+		"--[=[\nq(1, {})\n--]==]\nq(2, {})",
+		"--[==[\nq(1, {})\n--]=]\nq(2, {})",
+		"--[=[\nq(1, {})",
+	} {
+		rows, _, err := parseQuestFile("comments.lua", []byte(source), exportContext{})
+		if err != nil || len(rows) != 0 {
+			t.Fatalf("source %q: rows=%v err=%v", source, rows, err)
+		}
+	}
+}
+
+func TestTableEndIgnoresLongCommentBraces(t *testing.T) {
+	for _, equals := range []string{"", "=", "==", "=========="} {
+		source := "{ --[" + equals + "[\n} { --[[ note ]]\n--]" + equals + "]\n}"
+		if equals == "" {
+			source = "{ --[[\n} {\n--]]\n}"
+		}
+		end, err := luaTableEnd(source, 0)
+		if err != nil || end != len(source)-1 {
+			t.Fatalf("source %q: end=%d err=%v", source, end, err)
+		}
+	}
+	for _, source := range []string{"{ --[=[\n--]]\n}", "{ --[=[\n}"} {
+		if _, err := luaTableEnd(source, 0); err == nil {
+			t.Fatalf("accepted unterminated comment in %q", source)
+		}
+	}
+}
