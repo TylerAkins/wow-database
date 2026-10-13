@@ -297,7 +297,8 @@ func isIdentifier(value string) bool {
 // luaTableEnd returns the byte offset of the matching closing brace, ignoring
 // braces inside Lua strings and comments.
 func luaTableEnd(text string, open int) (int, error) {
-	depth, quote, lineComment, longComment := 0, byte(0), false, false
+	depth, quote, lineComment := 0, byte(0), false
+	longCloser := ""
 	for i := open; i < len(text); i++ {
 		c := text[i]
 		if lineComment {
@@ -306,10 +307,10 @@ func luaTableEnd(text string, open int) (int, error) {
 			}
 			continue
 		}
-		if longComment {
-			if i+1 < len(text) && c == ']' && text[i+1] == ']' {
-				longComment = false
-				i++
+		if longCloser != "" {
+			if strings.HasPrefix(text[i:], longCloser) {
+				i += len(longCloser) - 1
+				longCloser = ""
 			}
 			continue
 		}
@@ -324,9 +325,9 @@ func luaTableEnd(text string, open int) (int, error) {
 			continue
 		}
 		if c == '-' && i+1 < len(text) && text[i+1] == '-' {
-			if i+3 < len(text) && text[i+2] == '[' && text[i+3] == '[' {
-				longComment = true
-				i += 3
+			if closer, width := luaLongComment(text, i); width != 0 {
+				longCloser = closer
+				i += width - 1
 			} else {
 				lineComment = true
 				i++
@@ -428,9 +429,25 @@ func topLevelSubmatches(re *regexp.Regexp, text string, depths []int) [][]string
 	return rows
 }
 
+// luaLongComment returns the matching closer and opener width at a comment start.
+func luaLongComment(text string, start int) (string, int) {
+	if !strings.HasPrefix(text[start:], "--[") {
+		return "", 0
+	}
+	end := start + 3
+	for end < len(text) && text[end] == '=' {
+		end++
+	}
+	if end >= len(text) || text[end] != '[' {
+		return "", 0
+	}
+	return "]" + text[start+3:end] + "]", end - start + 1
+}
+
 func maskLua(text string) string {
 	masked := []byte(text)
-	quote, lineComment, longComment := byte(0), false, false
+	quote, lineComment := byte(0), false
+	longCloser := ""
 	for i := 0; i < len(masked); i++ {
 		c := masked[i]
 		if lineComment {
@@ -441,11 +458,13 @@ func maskLua(text string) string {
 			}
 			continue
 		}
-		if longComment {
-			if c == ']' && i+1 < len(masked) && masked[i+1] == ']' {
-				masked[i], masked[i+1] = ' ', ' '
-				i++
-				longComment = false
+		if longCloser != "" {
+			if strings.HasPrefix(text[i:], longCloser) {
+				for j := 0; j < len(longCloser); j++ {
+					masked[i+j] = ' '
+				}
+				i += len(longCloser) - 1
+				longCloser = ""
 			} else if c != '\n' {
 				masked[i] = ' '
 			}
@@ -469,10 +488,12 @@ func maskLua(text string) string {
 		}
 		if c == '-' && i+1 < len(masked) && masked[i+1] == '-' {
 			masked[i], masked[i+1] = ' ', ' '
-			if i+3 < len(masked) && masked[i+2] == '[' && masked[i+3] == '[' {
-				masked[i+2], masked[i+3] = ' ', ' '
-				i += 3
-				longComment = true
+			if closer, width := luaLongComment(text, i); width != 0 {
+				for j := 2; j < width; j++ {
+					masked[i+j] = ' '
+				}
+				i += width - 1
+				longCloser = closer
 			} else {
 				i++
 				lineComment = true
