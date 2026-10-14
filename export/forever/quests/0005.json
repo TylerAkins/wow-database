@@ -1,5 +1,7358 @@
 {
   "quests": {
+    "92643": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 252476,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 92643,
+      "name": "The Turncoat",
+      "places": [
+        {
+          "id": 252476,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252476,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92881
+      ],
+      "questLevel": 6,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 252476,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "92644": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 253372,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 92644,
+      "name": "Unfortunate News",
+      "places": [
+        {
+          "id": 253372,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 253372,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92643
+      ],
+      "questLevel": 6,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "sourceItemId": 273852,
+      "startedBy": [
+        {
+          "id": 253372,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "92645": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 252378,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252666,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 92645,
+      "name": "Breaking the Breaker",
+      "objectives": {
+        "creature": [
+          {
+            "id": 252666
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 252378,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252666,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252378,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252666,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252666,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        93320
+      ],
+      "questLevel": 6,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 252378,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252666,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "92646": {
+      "faction": "Horde",
+      "finishedBy": [
+        {
+          "id": 252383,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 92646,
+      "name": "Confront Lorthuna",
+      "places": [
+        {
+          "id": 252383,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252383,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        93958
+      ],
+      "questLevel": 7,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        2,
+        5,
+        6,
+        8,
+        9,
+        96
+      ],
+      "startedBy": [
+        {
+          "id": 252383,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "92679": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 252448,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252800,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 92679,
+      "name": "Blood Tithe",
+      "objectives": {
+        "creature": [
+          {
+            "id": 252800
+          },
+          {
+            "id": 252448
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 252448,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252800,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252448,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252800,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252800,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252448,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "questLevel": 5,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 252448,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252800,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "92682": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 252800,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252802,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 92682,
+      "name": "Make Yourself Useful",
+      "objectives": {
+        "creature": [
+          {
+            "id": 252802
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 252800,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252802,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252800,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252802,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252802,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92679
+      ],
+      "questLevel": 5,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 252800,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252802,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "92683": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 252800,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 92683,
+      "name": "Flutterfly Dust",
+      "objectives": {
+        "creature": [
+          {
+            "id": 251622
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 252800,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252800,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 251622,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92679
+      ],
+      "questLevel": 5,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "sourceItemId": 253666,
+      "startedBy": [
+        {
+          "id": 252800,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "92684": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 252800,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 253597,
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "id": 92684,
+      "name": "Ornery Ornery Galestriders",
+      "objectives": {
+        "creature": [
+          {
+            "id": 251707
+          }
+        ],
+        "item": [
+          {
+            "id": 253597
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 252800,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 253597,
+          "role": "available",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 252800,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 253597,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 251707,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 253597,
+          "itemId": 253597,
+          "role": "objective",
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "preQuestSingle": [
+        92679
+      ],
+      "questLevel": 5,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 252800,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 253597,
+          "spawns": [],
+          "type": "item"
+        }
+      ]
+    },
+    "92685": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 252800,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 253596,
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "id": 92685,
+      "name": "The Hills Have Eyes",
+      "objectives": {
+        "creature": [
+          {
+            "id": 252820
+          }
+        ],
+        "item": [
+          {
+            "id": 253596
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 252800,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 253596,
+          "role": "available",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 252800,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 253596,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 252820,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 253596,
+          "itemId": 253596,
+          "role": "objective",
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "preQuestGroup": [
+        92682,
+        92683,
+        92684
+      ],
+      "questLevel": 5,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 252800,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 253596,
+          "spawns": [],
+          "type": "item"
+        }
+      ]
+    },
+    "92693": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 252800,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 92693,
+      "name": "Standing Our Ground",
+      "objectives": {
+        "creature": [
+          {
+            "id": 252800
+          },
+          {
+            "id": 252800
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 252800,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252800,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252800,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92685
+      ],
+      "questLevel": 5,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 252800,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "92698": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 250929,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 92698,
+      "name": "What Is My Purpose?",
+      "places": [
+        {
+          "id": 250929,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 250929,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92679
+      ],
+      "questLevel": 5,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 250929,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "92699": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 252383,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 92699,
+      "name": "The Supreme Magister",
+      "places": [
+        {
+          "id": 252383,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252383,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92701
+      ],
+      "questLevel": 4,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 252383,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "92700": {
+      "faction": "Horde",
+      "finishedBy": [
+        {
+          "id": 252383,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 92700,
+      "name": "The Grand Skyseer",
+      "places": [
+        {
+          "id": 252383,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252383,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92579
+      ],
+      "questLevel": 4,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        2,
+        5,
+        6,
+        8,
+        9,
+        96
+      ],
+      "startedBy": [
+        {
+          "id": 252383,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "92701": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 251523,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252383,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 92701,
+      "name": "To Valanaar",
+      "objectives": {
+        "creature": [
+          {
+            "id": 252383
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 251523,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252383,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 251523,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252383,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252383,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92550
+      ],
+      "questLevel": 6,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "sourceItemId": 253152,
+      "startedBy": [
+        {
+          "id": 251523,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252383,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "92703": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 252800,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 92703,
+      "name": "Deliver the News",
+      "places": [
+        {
+          "id": 252800,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252800,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92693
+      ],
+      "questLevel": 5,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 252800,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "92706": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 3972,
+          "spawns": [
+            [
+              17,
+              62.59,
+              37.47
+            ]
+          ],
+          "type": "object"
+        },
+        {
+          "id": 253710,
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "id": 92706,
+      "name": "WANTED: Bruuz",
+      "objectives": {
+        "creature": [
+          {
+            "id": 209797
+          }
+        ],
+        "item": [
+          {
+            "id": 253710
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 3972,
+          "role": "available",
+          "spawns": [
+            [
+              17,
+              62.59,
+              37.47
+            ]
+          ],
+          "type": "object"
+        },
+        {
+          "id": 253710,
+          "role": "available",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 3972,
+          "role": "turnIn",
+          "spawns": [
+            [
+              17,
+              62.59,
+              37.47
+            ]
+          ],
+          "type": "object"
+        },
+        {
+          "id": 253710,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 209797,
+          "role": "objective",
+          "spawns": [
+            [
+              17,
+              64.7,
+              39
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 253710,
+          "itemId": 253710,
+          "role": "objective",
+          "spawns": [
+            [
+              17,
+              64.7,
+              39
+            ]
+          ],
+          "type": "item"
+        }
+      ],
+      "questLevel": 15,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 3972,
+          "spawns": [
+            [
+              17,
+              62.59,
+              37.47
+            ]
+          ],
+          "type": "object"
+        },
+        {
+          "id": 253710,
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "zoneOrSort": 17
+    },
+    "92708": {
+      "faction": "Horde",
+      "finishedBy": [
+        {
+          "id": 251968,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 92708,
+      "name": "A Grand Adventure",
+      "places": [
+        {
+          "id": 251968,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 251968,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92700
+      ],
+      "questLevel": 7,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        2,
+        5,
+        6,
+        8,
+        9,
+        96
+      ],
+      "startedBy": [
+        {
+          "id": 251968,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "92709": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 252475,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 92709,
+      "name": "A Grand Adventure",
+      "objectives": {
+        "creature": [
+          {
+            "id": 252475
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 252475,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252475,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252475,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92699
+      ],
+      "questLevel": 7,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 252475,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "92727": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 253204,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 92727,
+      "name": "The Missing Scholar",
+      "places": [
+        {
+          "id": 253204,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 253204,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92699
+      ],
+      "questLevel": 4,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 253204,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "92741": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 253004,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 254378,
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "id": 92741,
+      "name": "Unwelcome Visitors",
+      "objectives": {
+        "creature": [
+          {
+            "id": 256092
+          },
+          {
+            "id": 251247
+          }
+        ],
+        "item": [
+          {
+            "id": 254378
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 253004,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 254378,
+          "role": "available",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 253004,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 254378,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 256092,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 251247,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 254378,
+          "itemId": 254378,
+          "role": "objective",
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "preQuestSingle": [
+        92699
+      ],
+      "questLevel": 8,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 253004,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 254378,
+          "spawns": [],
+          "type": "item"
+        }
+      ]
+    },
+    "92742": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 253092,
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 254546,
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 254547,
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "id": 92742,
+      "name": "Testing the Wells",
+      "objectives": {
+        "item": [
+          {
+            "id": 254546
+          },
+          {
+            "id": 254547
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 253092,
+          "role": "available",
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 254546,
+          "role": "available",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 254547,
+          "role": "available",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 253092,
+          "role": "turnIn",
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 254546,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 254547,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 254546,
+          "itemId": 254546,
+          "role": "objective",
+          "spawns": [
+            [
+              40,
+              56.7,
+              18.7
+            ]
+          ],
+          "type": "item"
+        },
+        {
+          "id": 254547,
+          "itemId": 254547,
+          "role": "objective",
+          "spawns": [
+            [
+              40,
+              46.2,
+              38.3
+            ]
+          ],
+          "type": "item"
+        }
+      ],
+      "questLevel": 9,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "sourceItemId": 254545,
+      "startedBy": [
+        {
+          "id": 253092,
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 254546,
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 254547,
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "zoneOrSort": 40
+    },
+    "92744": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 253092,
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 254548,
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "id": 92744,
+      "name": "Murloc Gills",
+      "objectives": {
+        "creature": [
+          {
+            "id": 126
+          },
+          {
+            "id": 458
+          },
+          {
+            "id": 456
+          },
+          {
+            "id": 513
+          },
+          {
+            "id": 517
+          },
+          {
+            "id": 515
+          },
+          {
+            "id": 127
+          },
+          {
+            "id": 171
+          }
+        ],
+        "item": [
+          {
+            "id": 254548
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 253092,
+          "role": "available",
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 254548,
+          "role": "available",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 253092,
+          "role": "turnIn",
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 254548,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 126,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 458,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 456,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 513,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 517,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 515,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 127,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 171,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 254548,
+          "itemId": 254548,
+          "role": "objective",
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "questLevel": 9,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 253092,
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 254548,
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "zoneOrSort": 40
+    },
+    "92745": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 253092,
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 1236,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 1426,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 92745,
+      "name": "The State of the Mines",
+      "objectives": {
+        "creature": [
+          {
+            "id": 1236
+          },
+          {
+            "id": 1426
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 253092,
+          "role": "available",
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 1236,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 1426,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 253092,
+          "role": "turnIn",
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 1236,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 1426,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 1236,
+          "role": "objective",
+          "spawns": [
+            [
+              40,
+              46,
+              18.6
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 1426,
+          "role": "objective",
+          "spawns": [
+            [
+              40,
+              30,
+              47.4
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "preQuestGroup": [
+        92744,
+        92742
+      ],
+      "questLevel": 9,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 253092,
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 1236,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 1426,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 40
+    },
+    "92747": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 253092,
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "id": 92747,
+      "name": "Moonbrook Espionage",
+      "places": [
+        {
+          "id": 253092,
+          "role": "available",
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 253092,
+          "role": "turnIn",
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92745
+      ],
+      "questLevel": 9,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 253092,
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 40
+    },
+    "92748": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 253092,
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "id": 92748,
+      "name": "Explosive Consultation (1/2)",
+      "places": [
+        {
+          "id": 253092,
+          "role": "available",
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 253092,
+          "role": "turnIn",
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92747
+      ],
+      "questLevel": 9,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 253092,
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 40
+    },
+    "92749": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 11026,
+          "spawns": [
+            [
+              1519,
+              61.8,
+              30.8
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "id": 92749,
+      "name": "A Dynamite Plan",
+      "places": [
+        {
+          "id": 11026,
+          "role": "available",
+          "spawns": [
+            [
+              1519,
+              61.8,
+              30.8
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 11026,
+          "role": "turnIn",
+          "spawns": [
+            [
+              1519,
+              61.8,
+              30.8
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92748
+      ],
+      "questLevel": 9,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 11026,
+          "spawns": [
+            [
+              1519,
+              61.8,
+              30.8
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 1519
+    },
+    "92750": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 11026,
+          "spawns": [
+            [
+              1519,
+              61.8,
+              30.8
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "id": 92750,
+      "name": "Detonation at a Distance (1/2)",
+      "places": [
+        {
+          "id": 11026,
+          "role": "available",
+          "spawns": [
+            [
+              1519,
+              61.8,
+              30.8
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 11026,
+          "role": "turnIn",
+          "spawns": [
+            [
+              1519,
+              61.8,
+              30.8
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92748
+      ],
+      "questLevel": 9,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 11026,
+          "spawns": [
+            [
+              1519,
+              61.8,
+              30.8
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 1519
+    },
+    "92751": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 1325,
+          "spawns": [
+            [
+              1519,
+              80,
+              70
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "id": 92751,
+      "name": "Detonation at a Distance (2/2)",
+      "places": [
+        {
+          "id": 1325,
+          "role": "available",
+          "spawns": [
+            [
+              1519,
+              80,
+              70
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 1325,
+          "role": "turnIn",
+          "spawns": [
+            [
+              1519,
+              80,
+              70
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92750
+      ],
+      "questLevel": 9,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "sourceItemId": 254552,
+      "startedBy": [
+        {
+          "id": 1325,
+          "spawns": [
+            [
+              1519,
+              80,
+              70
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 1519
+    },
+    "92752": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 11026,
+          "spawns": [
+            [
+              1519,
+              61.8,
+              30.8
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "id": 92752,
+      "name": "Explosive Consultation (2/2)",
+      "places": [
+        {
+          "id": 11026,
+          "role": "available",
+          "spawns": [
+            [
+              1519,
+              61.8,
+              30.8
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 11026,
+          "role": "turnIn",
+          "spawns": [
+            [
+              1519,
+              61.8,
+              30.8
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "preQuestGroup": [
+        92749,
+        92751
+      ],
+      "questLevel": 9,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "sourceItemId": 254553,
+      "startedBy": [
+        {
+          "id": 11026,
+          "spawns": [
+            [
+              1519,
+              61.8,
+              30.8
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 1519
+    },
+    "92753": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 253092,
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "id": 92753,
+      "name": "Destruction in Deadmines (1/2)",
+      "places": [
+        {
+          "id": 253092,
+          "role": "available",
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 253092,
+          "role": "turnIn",
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92752
+      ],
+      "questLevel": 9,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "sourceItemId": 254553,
+      "startedBy": [
+        {
+          "id": 253092,
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 40
+    },
+    "92819": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 253279,
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "id": 92819,
+      "name": "Destruction in Deadmines (2/2)",
+      "places": [
+        {
+          "id": 253279,
+          "role": "available",
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 253279,
+          "role": "turnIn",
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92753
+      ],
+      "questLevel": 9,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 253279,
+          "spawns": [
+            [
+              40,
+              52.5,
+              53
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 40
+    },
+    "92834": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 252475,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 255658,
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "id": 92834,
+      "name": "Avenged Tenfold",
+      "objectives": {
+        "creature": [
+          {
+            "id": 253511
+          },
+          {
+            "id": 253195
+          }
+        ],
+        "item": [
+          {
+            "id": 255658
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 252475,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 255658,
+          "role": "available",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 252475,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 255658,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 253511,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 253195,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 255658,
+          "itemId": 255658,
+          "role": "objective",
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "preQuestSingle": [
+        92840
+      ],
+      "questLevel": 6,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 252475,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 255658,
+          "spawns": [],
+          "type": "item"
+        }
+      ]
+    },
+    "92840": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 252475,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 697118,
+          "spawns": [],
+          "type": "object"
+        }
+      ],
+      "id": 92840,
+      "name": "Catching Wind",
+      "places": [
+        {
+          "id": 252475,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 697118,
+          "role": "available",
+          "spawns": [],
+          "type": "object"
+        },
+        {
+          "id": 252475,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 697118,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "object"
+        },
+        {
+          "id": 697118,
+          "role": "objective",
+          "spawns": [],
+          "type": "object"
+        }
+      ],
+      "preQuestSingle": [
+        99260
+      ],
+      "questLevel": 5,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "sourceItemId": 254584,
+      "startedBy": [
+        {
+          "id": 252475,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 697118,
+          "spawns": [],
+          "type": "object"
+        }
+      ]
+    },
+    "92849": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 581822,
+          "spawns": [],
+          "type": "object"
+        },
+        {
+          "id": 253284,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 92849,
+      "name": "The Missing Scholar",
+      "objectives": {
+        "creature": [
+          {
+            "id": 253284
+          },
+          {
+            "id": 253284
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 581822,
+          "role": "available",
+          "spawns": [],
+          "type": "object"
+        },
+        {
+          "id": 253284,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 581822,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "object"
+        },
+        {
+          "id": 253284,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 253284,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92727
+      ],
+      "questLevel": 4,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 581822,
+          "spawns": [],
+          "type": "object"
+        },
+        {
+          "id": 253284,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "92850": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 253284,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 257107,
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "id": 92850,
+      "name": "The Missing Scholar",
+      "objectives": {
+        "creature": [
+          {
+            "id": 253283
+          }
+        ],
+        "item": [
+          {
+            "id": 257107
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 253284,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 257107,
+          "role": "available",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 253284,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 257107,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 253283,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 257107,
+          "itemId": 257107,
+          "role": "objective",
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "preQuestSingle": [
+        92849
+      ],
+      "questLevel": 4,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 253284,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 257107,
+          "spawns": [],
+          "type": "item"
+        }
+      ]
+    },
+    "92860": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 252475,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 92860,
+      "name": "In Service of Zephras",
+      "places": [
+        {
+          "id": 252475,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252475,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92834
+      ],
+      "questLevel": 6,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 252475,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "92871": {
+      "faction": "Horde",
+      "finishedBy": [
+        {
+          "id": 251968,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 92871,
+      "name": "In Service of Zephras",
+      "places": [
+        {
+          "id": 251968,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 251968,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        93746
+      ],
+      "questLevel": 6,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        2,
+        5,
+        6,
+        8,
+        9,
+        96
+      ],
+      "startedBy": [
+        {
+          "id": 251968,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "92880": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 252378,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 92880,
+      "name": "Return to Valanaar",
+      "places": [
+        {
+          "id": 252378,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252378,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestGroup": [
+        92642,
+        92645
+      ],
+      "questLevel": 6,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 252378,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "92881": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 252383,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 92881,
+      "name": "The High Elder's Request",
+      "places": [
+        {
+          "id": 252383,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252383,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92880
+      ],
+      "questLevel": 6,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 252383,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "92909": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 253395,
+          "spawns": [
+            [
+              40,
+              51.6,
+              32.2
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 255007,
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 255010,
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "id": 92909,
+      "name": "Harvesting the Harvesters",
+      "objectives": {
+        "item": [
+          {
+            "id": 255007
+          },
+          {
+            "id": 255010
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 253395,
+          "role": "available",
+          "spawns": [
+            [
+              40,
+              51.6,
+              32.2
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 255007,
+          "role": "available",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 255010,
+          "role": "available",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 253395,
+          "role": "turnIn",
+          "spawns": [
+            [
+              40,
+              51.6,
+              32.2
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 255007,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 255010,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 255007,
+          "itemId": 255007,
+          "role": "objective",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 255010,
+          "itemId": 255010,
+          "role": "objective",
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "questLevel": 8,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 253395,
+          "spawns": [
+            [
+              40,
+              51.6,
+              32.2
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 255007,
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 255010,
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "zoneOrSort": 40
+    },
+    "92910": {
+      "faction": "Alliance",
+      "id": 92910,
+      "name": "Harvesting the Harvesters (Engineering 1/2)",
+      "questLevel": 8,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ]
+    },
+    "92911": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 253395,
+          "spawns": [
+            [
+              40,
+              51.6,
+              32.2
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "id": 92911,
+      "name": "Harvesting the Harvesters (Engineering 2/2)",
+      "places": [
+        {
+          "id": 253395,
+          "role": "available",
+          "spawns": [
+            [
+              40,
+              51.6,
+              32.2
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 253395,
+          "role": "turnIn",
+          "spawns": [
+            [
+              40,
+              51.6,
+              32.2
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92910
+      ],
+      "questLevel": 8,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 253395,
+          "spawns": [
+            [
+              40,
+              51.6,
+              32.2
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 40
+    },
+    "92947": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 252383,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 253844,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 92947,
+      "name": "Making Our Move",
+      "places": [
+        {
+          "id": 252383,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 253844,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252383,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 253844,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        93065
+      ],
+      "questLevel": 7,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 252383,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 253844,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93036": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 251523,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93036,
+      "name": "Infiltrating the Cult",
+      "places": [
+        {
+          "id": 251523,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 251523,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92517
+      ],
+      "questLevel": 5,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 251523,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93065": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 252383,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93065,
+      "name": "Prepare for Battle",
+      "places": [
+        {
+          "id": 252383,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252383,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92640
+      ],
+      "questLevel": 7,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 252383,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93089": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 252476,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93089,
+      "name": "What Comes Next",
+      "places": [
+        {
+          "id": 252476,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252476,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        94369
+      ],
+      "questLevel": 7,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 252476,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93090": {
+      "faction": "Horde",
+      "finishedBy": [
+        {
+          "id": 252476,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93090,
+      "name": "What Comes Next",
+      "places": [
+        {
+          "id": 252476,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252476,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        93836
+      ],
+      "questLevel": 7,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        2,
+        5,
+        6,
+        8,
+        9,
+        96
+      ],
+      "startedBy": [
+        {
+          "id": 252476,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93159": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 251684,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93159,
+      "name": "The Strange Hermit",
+      "places": [
+        {
+          "id": 251684,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 251684,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "questLevel": 8,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 251684,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93160": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 251684,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93160,
+      "name": "The Forest's Bounty",
+      "places": [
+        {
+          "id": 251684,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 251684,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        93159
+      ],
+      "questLevel": 8,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 251684,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93165": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 254151,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93165,
+      "name": "Mercy Falls on Deaf Ears",
+      "places": [
+        {
+          "id": 254151,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 254151,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        94484
+      ],
+      "questLevel": 8,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "sourceItemId": 258771,
+      "startedBy": [
+        {
+          "id": 254151,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93172": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 251684,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93172,
+      "name": "Free the Hollows",
+      "places": [
+        {
+          "id": 251684,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 251684,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        93159
+      ],
+      "questLevel": 8,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 251684,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93317": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 257006,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 257941,
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "id": 93317,
+      "name": "Crab Season",
+      "objectives": {
+        "creature": [
+          {
+            "id": 254588
+          }
+        ],
+        "item": [
+          {
+            "id": 257941
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 257006,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 257941,
+          "role": "available",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 257006,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 257941,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 254588,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 257941,
+          "itemId": 257941,
+          "role": "objective",
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "questLevel": 4,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 257006,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 257941,
+          "spawns": [],
+          "type": "item"
+        }
+      ]
+    },
+    "93318": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 610954,
+          "spawns": [],
+          "type": "object"
+        }
+      ],
+      "id": 93318,
+      "name": "WANTED: Vulgara the Insatiable",
+      "places": [
+        {
+          "id": 610954,
+          "role": "available",
+          "spawns": [],
+          "type": "object"
+        },
+        {
+          "id": 610954,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "object"
+        }
+      ],
+      "preQuestSingle": [
+        92514,
+        93461
+      ],
+      "questLevel": 4,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "sourceItemId": 257942,
+      "startedBy": [
+        {
+          "id": 610954,
+          "spawns": [],
+          "type": "object"
+        }
+      ]
+    },
+    "93319": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 251906,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93319,
+      "name": "Pilfered Windstones",
+      "places": [
+        {
+          "id": 251906,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 251906,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92514,
+        93461
+      ],
+      "questLevel": 4,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "sourceItemId": 257945,
+      "startedBy": [
+        {
+          "id": 251906,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93320": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 252383,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93320,
+      "name": "Tower Defense",
+      "places": [
+        {
+          "id": 252383,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252383,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92860,
+        92871
+      ],
+      "questLevel": 6,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 252383,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93459": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 254151,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93459,
+      "name": "More Al'Aketh Ears",
+      "places": [
+        {
+          "id": 254151,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 254151,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        93165
+      ],
+      "questLevel": 8,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": true,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "sourceItemId": 258771,
+      "startedBy": [
+        {
+          "id": 254151,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93461": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 251523,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93461,
+      "name": "Welcome to Shen'dar Village (A)",
+      "places": [
+        {
+          "id": 251523,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 251523,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "questLevel": 4,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 251523,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93463": {
+      "faction": "Both",
+      "id": 93463,
+      "name": "Triggered when turning in 'The High Order', likely a shared quest flag for either faction having completed their initial introduction quest.",
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      }
+    },
+    "93552": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 251363,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93552,
+      "name": "Harvesting Windstones",
+      "places": [
+        {
+          "id": 251363,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 251363,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92461
+      ],
+      "questLevel": 2,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 251363,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93680": {
+      "faction": "Horde",
+      "finishedBy": [
+        {
+          "id": 2410,
+          "spawns": [
+            [
+              267,
+              61.6,
+              20.85
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 279469,
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "id": 93680,
+      "name": "Key to the City",
+      "objectives": {
+        "item": [
+          {
+            "id": 279469
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 2410,
+          "role": "available",
+          "spawns": [
+            [
+              267,
+              61.6,
+              20.85
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 279469,
+          "role": "available",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 2410,
+          "role": "turnIn",
+          "spawns": [
+            [
+              267,
+              61.6,
+              20.85
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 279469,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 279469,
+          "itemId": 279469,
+          "role": "objective",
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "questLevel": 30,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        2,
+        5,
+        6,
+        8,
+        9,
+        96
+      ],
+      "startedBy": [
+        {
+          "id": 2410,
+          "spawns": [
+            [
+              267,
+              61.6,
+              20.85
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 279469,
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "zoneOrSort": 267
+    },
+    "93735": {
+      "faction": "Horde",
+      "finishedBy": [
+        {
+          "id": 251968,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93735,
+      "name": "The Broken Construct",
+      "places": [
+        {
+          "id": 251968,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 251968,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92700
+      ],
+      "questLevel": 4,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        2,
+        5,
+        6,
+        8,
+        9,
+        96
+      ],
+      "startedBy": [
+        {
+          "id": 251968,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93736": {
+      "faction": "Horde",
+      "finishedBy": [
+        {
+          "id": 254344,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93736,
+      "name": "Unwelcome Spirits",
+      "places": [
+        {
+          "id": 254344,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 254344,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92700
+      ],
+      "questLevel": 4,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        2,
+        5,
+        6,
+        8,
+        9,
+        96
+      ],
+      "startedBy": [
+        {
+          "id": 254344,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93737": {
+      "faction": "Horde",
+      "finishedBy": [
+        {
+          "id": 256083,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93737,
+      "name": "The Broken Construct",
+      "places": [
+        {
+          "id": 256083,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 256083,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        93735
+      ],
+      "questLevel": 4,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        2,
+        5,
+        6,
+        8,
+        9,
+        96
+      ],
+      "startedBy": [
+        {
+          "id": 256083,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93738": {
+      "faction": "Horde",
+      "finishedBy": [
+        {
+          "id": 256083,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93738,
+      "name": "The Broken Construct",
+      "places": [
+        {
+          "id": 256083,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 256083,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        93737
+      ],
+      "questLevel": 4,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        2,
+        5,
+        6,
+        8,
+        9,
+        96
+      ],
+      "startedBy": [
+        {
+          "id": 256083,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93739": {
+      "faction": "Horde",
+      "finishedBy": [
+        {
+          "id": 4949,
+          "spawns": [
+            [
+              1637,
+              32,
+              37.8
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "id": 93739,
+      "name": "Exploring the Horde",
+      "places": [
+        {
+          "id": 4949,
+          "role": "available",
+          "spawns": [
+            [
+              1637,
+              32,
+              37.8
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 4949,
+          "role": "turnIn",
+          "spawns": [
+            [
+              1637,
+              32,
+              37.8
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        95350
+      ],
+      "questLevel": 7,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        96
+      ],
+      "sourceItemId": 285357,
+      "startedBy": [
+        {
+          "id": 4949,
+          "spawns": [
+            [
+              1637,
+              32,
+              37.8
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 1637
+    },
+    "93740": {
+      "faction": "Horde",
+      "finishedBy": [
+        {
+          "id": 251968,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93740,
+      "name": "Blood for Blood",
+      "places": [
+        {
+          "id": 251968,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 251968,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        93746
+      ],
+      "questLevel": 6,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        2,
+        5,
+        6,
+        8,
+        9,
+        96
+      ],
+      "startedBy": [
+        {
+          "id": 251968,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93746": {
+      "faction": "Horde",
+      "finishedBy": [
+        {
+          "id": 251968,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93746,
+      "name": "A Firm Response",
+      "places": [
+        {
+          "id": 251968,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 251968,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        93738
+      ],
+      "questLevel": 4,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        2,
+        5,
+        6,
+        8,
+        9,
+        96
+      ],
+      "startedBy": [
+        {
+          "id": 251968,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93791": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 252373,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93791,
+      "name": "Speak with Belann",
+      "places": [
+        {
+          "id": 252373,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252373,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "questLevel": 10,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredClasses": [
+        8
+      ],
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 252373,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93797": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 256507,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93797,
+      "name": "Boughs in the Wind",
+      "places": [
+        {
+          "id": 256507,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 256507,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "questLevel": 10,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredClasses": [
+        8
+      ],
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 256507,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93835": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 252383,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 253590,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93835,
+      "name": "Confront Lorthuna",
+      "places": [
+        {
+          "id": 252383,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 253590,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252383,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 253590,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        93958
+      ],
+      "questLevel": 7,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 252383,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 253590,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93836": {
+      "faction": "Horde",
+      "finishedBy": [
+        {
+          "id": 251968,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93836,
+      "name": "The Fate of Zephras",
+      "places": [
+        {
+          "id": 251968,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 251968,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92646
+      ],
+      "questLevel": 7,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        2,
+        5,
+        6,
+        8,
+        9,
+        96
+      ],
+      "startedBy": [
+        {
+          "id": 251968,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93926": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 251523,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93926,
+      "name": "The Western Watch",
+      "places": [
+        {
+          "id": 251523,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 251523,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92528
+      ],
+      "questLevel": 5,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 251523,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93927": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 252155,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93927,
+      "name": "A Last Request",
+      "places": [
+        {
+          "id": 252155,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252155,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        93926
+      ],
+      "questLevel": 5,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 252155,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93948": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 251523,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252476,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93948,
+      "name": "Deliver the Signet",
+      "objectives": {
+        "creature": [
+          {
+            "id": 252476
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 251523,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252476,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 251523,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252476,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252476,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92550
+      ],
+      "questLevel": 6,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "sourceItemId": 263491,
+      "startedBy": [
+        {
+          "id": 251523,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252476,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93949": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 252383,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93949,
+      "name": "Bugged",
+      "places": [
+        {
+          "id": 252383,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252383,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        93948
+      ],
+      "questLevel": 6,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 252383,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93951": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 251991,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93951,
+      "name": "A Little Beauty",
+      "places": [
+        {
+          "id": 251991,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 251991,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92514,
+        93461
+      ],
+      "questLevel": 4,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 251991,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93958": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 253576,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93958,
+      "name": "The Inner Sanctum",
+      "places": [
+        {
+          "id": 253576,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 253576,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92947
+      ],
+      "questLevel": 7,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 253576,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "93963": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 1748,
+          "spawns": [
+            [
+              1519,
+              80.1,
+              38.4
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 285356,
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 7937,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 2784,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 7999,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 93963,
+      "name": "Exploring the Alliance",
+      "objectives": {
+        "creature": [
+          {
+            "id": 275491
+          },
+          {
+            "id": 7937
+          },
+          {
+            "id": 2784
+          },
+          {
+            "id": 7999
+          }
+        ],
+        "item": [
+          {
+            "id": 285356
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 1748,
+          "role": "available",
+          "spawns": [
+            [
+              1519,
+              80.1,
+              38.4
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 285356,
+          "role": "available",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 7937,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 2784,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 7999,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 1748,
+          "role": "turnIn",
+          "spawns": [
+            [
+              1519,
+              80.1,
+              38.4
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 285356,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 7937,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 2784,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 7999,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 275491,
+          "role": "objective",
+          "spawns": [
+            [
+              1519,
+              79,
+              44.8
+            ],
+            [
+              1519,
+              79.2,
+              44.2
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 285356,
+          "itemId": 285356,
+          "role": "objective",
+          "spawns": [
+            [
+              1519,
+              79,
+              44.8
+            ],
+            [
+              1519,
+              79.2,
+              44.2
+            ]
+          ],
+          "type": "item"
+        },
+        {
+          "id": 7937,
+          "role": "objective",
+          "spawns": [
+            [
+              1537,
+              69.2,
+              49.2
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 2784,
+          "role": "objective",
+          "spawns": [
+            [
+              1537,
+              39.4,
+              55.8
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 7999,
+          "role": "objective",
+          "spawns": [
+            [
+              1657,
+              43,
+              77.8
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        94947
+      ],
+      "questLevel": 7,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 1748,
+          "spawns": [
+            [
+              1519,
+              80.1,
+              38.4
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 285356,
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 7937,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 2784,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 7999,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 1519
+    },
+    "94003": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 252377,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 94003,
+      "name": "The Skybreaker Bulwark",
+      "places": [
+        {
+          "id": 252377,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252377,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "questLevel": 10,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredClasses": [
+        1
+      ],
+      "requiredRaces": [
+        95,
+        96
+      ],
+      "sourceItemId": 263993,
+      "startedBy": [
+        {
+          "id": 252377,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "94006": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 252359,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 94006,
+      "name": "The Great Ursera Spirit",
+      "places": [
+        {
+          "id": 252359,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252359,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "questLevel": 10,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredClasses": [
+        11
+      ],
+      "requiredRaces": [
+        95,
+        96
+      ],
+      "startedBy": [
+        {
+          "id": 252359,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "94007": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 254084,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 94007,
+      "name": "Taming the Beast",
+      "places": [
+        {
+          "id": 254084,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 254084,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "questLevel": 10,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredClasses": [
+        3
+      ],
+      "requiredRaces": [
+        95,
+        96
+      ],
+      "startedBy": [
+        {
+          "id": 254084,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "94013": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 252389,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 94013,
+      "name": "Taming the Beast",
+      "places": [
+        {
+          "id": 252389,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252389,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "questLevel": 10,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredClasses": [
+        3
+      ],
+      "requiredRaces": [
+        95,
+        96
+      ],
+      "startedBy": [
+        {
+          "id": 252389,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "94050": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 252389,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 94050,
+      "name": "Training the Beast",
+      "places": [
+        {
+          "id": 252389,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252389,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "questLevel": 10,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredClasses": [
+        3
+      ],
+      "requiredRaces": [
+        95,
+        96
+      ],
+      "startedBy": [
+        {
+          "id": 252389,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "94369": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 252475,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 94369,
+      "name": "The Fate of Zephras",
+      "places": [
+        {
+          "id": 252475,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252475,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        93835
+      ],
+      "questLevel": 7,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 252475,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "94373": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 257446,
+          "spawns": [
+            [
+              1,
+              28.8,
+              66.2
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 264356,
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "id": 94373,
+      "name": "Call of Earth (1/3)",
+      "objectives": {
+        "item": [
+          {
+            "id": 264356
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 257446,
+          "role": "available",
+          "spawns": [
+            [
+              1,
+              28.8,
+              66.2
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 264356,
+          "role": "available",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 257446,
+          "role": "turnIn",
+          "spawns": [
+            [
+              1,
+              28.8,
+              66.2
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 264356,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 264356,
+          "itemId": 264356,
+          "role": "objective",
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "preQuestSingle": [
+        98581
+      ],
+      "questLevel": 4,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredClasses": [
+        7
+      ],
+      "requiredRaces": [
+        3
+      ],
+      "startedBy": [
+        {
+          "id": 257446,
+          "spawns": [
+            [
+              1,
+              28.8,
+              66.2
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 264356,
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "zoneOrSort": 1
+    },
+    "94374": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 257446,
+          "spawns": [
+            [
+              1,
+              28.8,
+              66.2
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "id": 94374,
+      "name": "Call of Earth (2/3)",
+      "places": [
+        {
+          "id": 257446,
+          "role": "available",
+          "spawns": [
+            [
+              1,
+              28.8,
+              66.2
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 257446,
+          "role": "turnIn",
+          "spawns": [
+            [
+              1,
+              28.8,
+              66.2
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        94373
+      ],
+      "questLevel": 4,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredClasses": [
+        7
+      ],
+      "requiredRaces": [
+        3
+      ],
+      "sourceItemId": 6635,
+      "startedBy": [
+        {
+          "id": 257446,
+          "spawns": [
+            [
+              1,
+              28.8,
+              66.2
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 1
+    },
+    "94375": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 5891,
+          "spawns": [
+            [
+              1,
+              24.9,
+              61.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "id": 94375,
+      "name": "Call of Earth (3/3)",
+      "objectivesText": [
+        "You must keep this in your bags forever."
+      ],
+      "places": [
+        {
+          "id": 5891,
+          "role": "available",
+          "spawns": [
+            [
+              1,
+              24.9,
+              61.9
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 5891,
+          "role": "turnIn",
+          "spawns": [
+            [
+              1,
+              24.9,
+              61.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        94374
+      ],
+      "questLevel": 4,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredClasses": [
+        7
+      ],
+      "requiredRaces": [
+        3
+      ],
+      "sourceItemId": 6656,
+      "startedBy": [
+        {
+          "id": 5891,
+          "spawns": [
+            [
+              1,
+              24.9,
+              61.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 1
+    },
+    "94411": {
+      "faction": "Horde",
+      "finishedBy": [
+        {
+          "id": 251902,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 94411,
+      "name": "Meddlesome Mages",
+      "places": [
+        {
+          "id": 251902,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 251902,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92595
+      ],
+      "questLevel": 4,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        2,
+        5,
+        6,
+        8,
+        9,
+        96
+      ],
+      "startedBy": [
+        {
+          "id": 251902,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "94413": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 251903,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 257532,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 94413,
+      "name": "A Magical Affront",
+      "objectives": {
+        "creature": [
+          {
+            "id": 257532
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 251903,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 257532,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 251903,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 257532,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 257532,
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        92596
+      ],
+      "questLevel": 4,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 251903,
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 257532,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "94414": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 257554,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 94414,
+      "name": "The Anchors of Zephras",
+      "places": [
+        {
+          "id": 257554,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 257554,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "questLevel": 2,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 257554,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "94484": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 252359,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 94484,
+      "name": "Unnerving Silence",
+      "places": [
+        {
+          "id": 252359,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 252359,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "questLevel": 8,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 252359,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "94485": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 257944,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 94485,
+      "name": "Tears of the Lady",
+      "places": [
+        {
+          "id": 257944,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 257944,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        94484
+      ],
+      "questLevel": 8,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 257944,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "94486": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 257944,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 94486,
+      "name": "Feathers for Binding",
+      "places": [
+        {
+          "id": 257944,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 257944,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        94484
+      ],
+      "questLevel": 8,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "sourceItemId": 265140,
+      "startedBy": [
+        {
+          "id": 257944,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "94487": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 257944,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 94487,
+      "name": "Unwanted and Unworthy",
+      "places": [
+        {
+          "id": 257944,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 257944,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        94484
+      ],
+      "questLevel": 8,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "sourceItemId": 265141,
+      "startedBy": [
+        {
+          "id": 257944,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "94488": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 257944,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 94488,
+      "name": "The Ties That Bind",
+      "places": [
+        {
+          "id": 257944,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 257944,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "questLevel": 8,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "sourceItemId": 265475,
+      "startedBy": [
+        {
+          "id": 257944,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "94489": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 257944,
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "id": 94489,
+      "name": "The Wounds of Betrayal",
+      "places": [
+        {
+          "id": 257944,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 257944,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "questLevel": 8,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 257944,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
+    "94490": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 265476,
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "id": 94490,
+      "name": "Ripped Missive",
+      "places": [
+        {
+          "id": 265476,
+          "role": "available",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 265476,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "questLevel": 9,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "startedBy": [
+        {
+          "id": 265476,
+          "spawns": [],
+          "type": "item"
+        }
+      ]
+    },
     "94491": {
       "faction": "Both",
       "finishedBy": [
@@ -12175,6 +19528,83 @@
       ],
       "zoneOrSort": 14
     },
+    "97914": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 3649,
+          "spawns": [
+            [
+              148,
+              37.4,
+              40.2
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "id": 97914,
+      "name": "Expanding Horizons",
+      "places": [
+        {
+          "id": 3649,
+          "role": "available",
+          "spawns": [
+            [
+              148,
+              37.4,
+              40.2
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 3649,
+          "role": "turnIn",
+          "spawns": [
+            [
+              148,
+              37.4,
+              40.2
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "questLevel": 13,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "sourceItemId": 279045,
+      "startedBy": [
+        {
+          "id": 3649,
+          "spawns": [
+            [
+              148,
+              37.4,
+              40.2
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 148
+    },
     "97915": {
       "faction": "Alliance",
       "finishedBy": [
@@ -13120,6 +20550,86 @@
         }
       ],
       "zoneOrSort": 12
+    },
+    "97926": {
+      "faction": "Both",
+      "finishedBy": [
+        {
+          "id": 1646,
+          "spawns": [
+            [
+              1519,
+              57.7,
+              47.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "id": 97926,
+      "name": "Making Do",
+      "places": [
+        {
+          "id": 1646,
+          "role": "available",
+          "spawns": [
+            [
+              1519,
+              57.7,
+              47.9
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 1646,
+          "role": "turnIn",
+          "spawns": [
+            [
+              1519,
+              57.7,
+              47.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        97914
+      ],
+      "questLevel": 13,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "sourceItemId": 279048,
+      "startedBy": [
+        {
+          "id": 1646,
+          "spawns": [
+            [
+              1519,
+              57.7,
+              47.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 1519
     },
     "97927": {
       "faction": "Horde",
@@ -15823,6 +23333,148 @@
       ],
       "zoneOrSort": 1519
     },
+    "98025": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 175320,
+          "spawns": [
+            [
+              148,
+              37.2,
+              44.2
+            ]
+          ],
+          "type": "object"
+        },
+        {
+          "id": 281038,
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "id": 98025,
+      "name": "WANTED: Jai'vhanel",
+      "objectives": {
+        "creature": [
+          {
+            "id": 270196
+          }
+        ],
+        "item": [
+          {
+            "id": 281038
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 175320,
+          "role": "available",
+          "spawns": [
+            [
+              148,
+              37.2,
+              44.2
+            ]
+          ],
+          "type": "object"
+        },
+        {
+          "id": 281038,
+          "role": "available",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 175320,
+          "role": "turnIn",
+          "spawns": [
+            [
+              148,
+              37.2,
+              44.2
+            ]
+          ],
+          "type": "object"
+        },
+        {
+          "id": 281038,
+          "role": "turnIn",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 270196,
+          "role": "objective",
+          "spawns": [
+            [
+              148,
+              45.2,
+              58.4
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 281038,
+          "itemId": 281038,
+          "role": "objective",
+          "spawns": [
+            [
+              148,
+              45.2,
+              58.4
+            ]
+          ],
+          "type": "item"
+        }
+      ],
+      "questLevel": 15,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 175320,
+          "spawns": [
+            [
+              148,
+              37.2,
+              44.2
+            ]
+          ],
+          "type": "object"
+        },
+        {
+          "id": 281038,
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "zoneOrSort": 148
+    },
     "98046": {
       "faction": "Alliance",
       "finishedBy": [
@@ -15887,7 +23539,11 @@
         "weekly": false
       },
       "requiredRaces": [
-        4
+        1,
+        3,
+        4,
+        7,
+        95
       ],
       "sourceItemId": 279291,
       "startedBy": [
@@ -15969,7 +23625,11 @@
         "weekly": false
       },
       "requiredRaces": [
-        4
+        1,
+        3,
+        4,
+        7,
+        95
       ],
       "sourceItemId": 279331,
       "startedBy": [
@@ -19831,6 +27491,89 @@
         }
       ],
       "zoneOrSort": 44
+    },
+    "98391": {
+      "faction": "Alliance",
+      "finishedBy": [
+        {
+          "id": 3600,
+          "spawns": [
+            [
+              141,
+              55.6,
+              56.8
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "id": 98391,
+      "name": "The Sisterhood of Elune",
+      "places": [
+        {
+          "id": 3600,
+          "role": "available",
+          "spawns": [
+            [
+              141,
+              55.6,
+              56.8
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 3600,
+          "role": "turnIn",
+          "spawns": [
+            [
+              141,
+              55.6,
+              56.8
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "questLevel": 5,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 3600,
+          "spawns": [
+            [
+              141,
+              55.6,
+              56.8
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "zoneOrSort": 141
     },
     "98392": {
       "faction": "Alliance",
