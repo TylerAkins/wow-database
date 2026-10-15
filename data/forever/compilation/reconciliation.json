@@ -1,144 +1,158 @@
 {
   "compilationFormatVersion": 2,
   "totals": {
-    "equivalent": 45560,
-    "selected": 3172,
+    "equivalent": 68122,
+    "selected": 5089,
     "unresolved": 0,
-    "invalid": 0,
-    "unsupported": 11635
+    "invalid": 1,
+    "unsupported": 4397
   },
   "byEntity": {
     "item": {
-      "equivalent": 29768,
-      "selected": 457,
+      "equivalent": 44266,
+      "selected": 667,
       "unresolved": 0,
       "invalid": 0,
       "unsupported": 0
     },
     "npc": {
-      "equivalent": 85,
+      "equivalent": 175,
       "selected": 1,
       "unresolved": 0,
-      "invalid": 0,
+      "invalid": 1,
       "unsupported": 0
     },
     "object": {
-      "equivalent": 295,
-      "selected": 243,
+      "equivalent": 312,
+      "selected": 257,
       "unresolved": 0,
       "invalid": 0,
       "unsupported": 0
     },
     "quest": {
-      "equivalent": 15412,
-      "selected": 2471,
+      "equivalent": 23369,
+      "selected": 4164,
       "unresolved": 0,
       "invalid": 0,
-      "unsupported": 8371
-    },
-    "relationship": {
-      "equivalent": 0,
-      "selected": 0,
-      "unresolved": 0,
-      "invalid": 0,
-      "unsupported": 3264
+      "unsupported": 4397
     }
   },
   "byField": {
     "item.itemLevel": {
-      "equivalent": 9852,
-      "selected": 223,
+      "equivalent": 15448,
+      "selected": 177,
       "unresolved": 0,
       "invalid": 0,
       "unsupported": 0
     },
     "item.name": {
-      "equivalent": 9952,
-      "selected": 123,
+      "equivalent": 15526,
+      "selected": 134,
       "unresolved": 0,
       "invalid": 0,
       "unsupported": 0
     },
     "item.requiredLevel": {
-      "equivalent": 9964,
-      "selected": 111,
-      "unresolved": 0,
-      "invalid": 0,
-      "unsupported": 0
-    },
-    "npc.name": {
-      "equivalent": 85,
-      "selected": 1,
-      "unresolved": 0,
-      "invalid": 0,
-      "unsupported": 0
-    },
-    "object.name": {
-      "equivalent": 293,
-      "selected": 1,
-      "unresolved": 0,
-      "invalid": 0,
-      "unsupported": 0
-    },
-    "object.spawns": {
-      "equivalent": 2,
-      "selected": 242,
-      "unresolved": 0,
-      "invalid": 0,
-      "unsupported": 0
-    },
-    "quest.exclusiveTo": {
-      "equivalent": 33,
-      "selected": 35,
-      "unresolved": 0,
-      "invalid": 0,
-      "unsupported": 0
-    },
-    "quest.finishedBy": {
-      "equivalent": 0,
-      "selected": 0,
-      "unresolved": 0,
-      "invalid": 0,
-      "unsupported": 2245
-    },
-    "quest.name": {
-      "equivalent": 4087,
-      "selected": 768,
-      "unresolved": 0,
-      "invalid": 0,
-      "unsupported": 0
-    },
-    "quest.objectives": {
-      "equivalent": 187,
+      "equivalent": 13292,
       "selected": 356,
       "unresolved": 0,
       "invalid": 0,
       "unsupported": 0
     },
-    "quest.objectivesText": {
+    "npc.name": {
+      "equivalent": 175,
+      "selected": 1,
+      "unresolved": 0,
+      "invalid": 0,
+      "unsupported": 0
+    },
+    "npc.spawns": {
+      "equivalent": 0,
+      "selected": 0,
+      "unresolved": 0,
+      "invalid": 1,
+      "unsupported": 0
+    },
+    "object.name": {
+      "equivalent": 306,
+      "selected": 0,
+      "unresolved": 0,
+      "invalid": 0,
+      "unsupported": 0
+    },
+    "object.spawns": {
+      "equivalent": 6,
+      "selected": 257,
+      "unresolved": 0,
+      "invalid": 0,
+      "unsupported": 0
+    },
+    "quest.altQuests": {
       "equivalent": 0,
       "selected": 0,
       "unresolved": 0,
       "invalid": 0,
-      "unsupported": 104
+      "unsupported": 24
+    },
+    "quest.coordinates": {
+      "equivalent": 0,
+      "selected": 0,
+      "unresolved": 0,
+      "invalid": 0,
+      "unsupported": 2
+    },
+    "quest.coords": {
+      "equivalent": 0,
+      "selected": 0,
+      "unresolved": 0,
+      "invalid": 0,
+      "unsupported": 2
+    },
+    "quest.declaration": {
+      "equivalent": 0,
+      "selected": 0,
+      "unresolved": 0,
+      "invalid": 0,
+      "unsupported": 5
+    },
+    "quest.lockCriteria": {
+      "equivalent": 0,
+      "selected": 0,
+      "unresolved": 0,
+      "invalid": 0,
+      "unsupported": 1
+    },
+    "quest.name": {
+      "equivalent": 4616,
+      "selected": 1392,
+      "unresolved": 0,
+      "invalid": 0,
+      "unsupported": 0
+    },
+    "quest.objectives": {
+      "equivalent": 8,
+      "selected": 1509,
+      "unresolved": 0,
+      "invalid": 0,
+      "unsupported": 1
     },
     "quest.places": {
       "equivalent": 0,
       "selected": 0,
       "unresolved": 0,
       "invalid": 0,
-      "unsupported": 2245
+      "unsupported": 4202
     },
     "quest.preQuestGroup": {
-      "equivalent": 11,
-      "selected": 0,
+      "equivalent": 44,
+      "selected": 7,
       "unresolved": 0,
       "invalid": 0,
       "unsupported": 0
     },
     "quest.preQuestSingle": {
-      "equivalent": 857,
-      "selected": 30,
+      "equivalent": 1813,
+      "selected": 281,
       "unresolved": 0,
       "invalid": 0,
       "unsupported": 0
@@ -151,67 +165,67 @@
       "unsupported": 0
     },
     "quest.questLevel": {
-      "equivalent": 3749,
-      "selected": 41,
+      "equivalent": 4502,
+      "selected": 44,
       "unresolved": 0,
       "invalid": 0,
-      "unsupported": 1852
+      "unsupported": 0
     },
     "quest.requiredClasses": {
-      "equivalent": 337,
-      "selected": 1,
+      "equivalent": 666,
+      "selected": 0,
       "unresolved": 0,
       "invalid": 0,
-      "unsupported": 0
+      "unsupported": 28
     },
     "quest.requiredLevel": {
-      "equivalent": 3712,
-      "selected": 74,
+      "equivalent": 4553,
+      "selected": 140,
       "unresolved": 0,
       "invalid": 0,
-      "unsupported": 0
+      "unsupported": 116
     },
     "quest.requiredRaces": {
-      "equivalent": 906,
-      "selected": 511,
+      "equivalent": 2693,
+      "selected": 177,
+      "unresolved": 0,
+      "invalid": 0,
+      "unsupported": 1
+    },
+    "quest.requiredSkill": {
+      "equivalent": 91,
+      "selected": 120,
       "unresolved": 0,
       "invalid": 0,
       "unsupported": 0
     },
     "quest.sourceItemId": {
-      "equivalent": 248,
-      "selected": 1,
+      "equivalent": 411,
+      "selected": 9,
       "unresolved": 0,
       "invalid": 0,
       "unsupported": 0
     },
+    "quest.sourceQuests": {
+      "equivalent": 0,
+      "selected": 0,
+      "unresolved": 0,
+      "invalid": 0,
+      "unsupported": 4
+    },
     "quest.specialFlags": {
-      "equivalent": 133,
-      "selected": 22,
+      "equivalent": 379,
+      "selected": 14,
       "unresolved": 0,
       "invalid": 0,
       "unsupported": 0
     },
     "quest.startedBy": {
-      "equivalent": 1152,
-      "selected": 631,
+      "equivalent": 3593,
+      "selected": 470,
       "unresolved": 0,
       "invalid": 0,
-      "unsupported": 0
-    },
-    "quest.zoneOrSort": {
-      "equivalent": 0,
-      "selected": 0,
-      "unresolved": 0,
-      "invalid": 0,
-      "unsupported": 1925
-    },
-    "relationship.relationship": {
-      "equivalent": 0,
-      "selected": 0,
-      "unresolved": 0,
-      "invalid": 0,
-      "unsupported": 3264
+      "unsupported": 11
     }
   }
 }

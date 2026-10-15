@@ -4,10 +4,15 @@
 
 - Python 3.12 or newer
 - Go 1.27 or newer for canonical ingestion, compilation, and local client extraction
-- No third-party packages for compilation or offline tests
+- Lua 5.1 for QuestieDB static-provider import and integration tests (`lua5.1` on PATH, or `LUA51` set to its executable)
+- No third-party Python packages for compilation or offline tests
 - Playwright and local Chrome only when using `fetch_quest_pages.py --browser`
 
 ## Tests and generated-data checks
+
+The QuestieDB runtime integration test uses `.cache/QuestieDB` and skips when that
+checkout is absent. CI checks it out before running the suite. Local runs need Lua
+5.1 plus the checkout to exercise provider order, operations, and effective values.
 
 ```bash
 python3 -m unittest discover -s tests -p 'test_*.py'

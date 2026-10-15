@@ -28,6 +28,9 @@ func ValidateCompiledAttributes(r Record) error {
 		}
 	}
 	for field, raw := range r.Attributes {
+		if r.FieldStates[field] == "empty" && bytes.Equal(bytes.TrimSpace(raw), []byte("null")) {
+			continue
+		}
 		var value any
 		d := json.NewDecoder(bytes.NewReader(raw))
 		d.UseNumber()
@@ -40,7 +43,7 @@ func ValidateCompiledAttributes(r Record) error {
 				return fmt.Errorf("%s must be an integer", field)
 			}
 			v, ok := new(big.Int).SetString(string(n), 10)
-			if !ok || (field != "questLevel" && field != "zoneOrSort" && v.Sign() < 0) {
+			if !ok || (field != "questLevel" && field != "zoneOrSort" && field != "requiredSpell" && v.Sign() < 0) {
 				return fmt.Errorf("invalid integer %s", field)
 			}
 		}

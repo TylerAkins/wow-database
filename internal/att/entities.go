@@ -2,7 +2,6 @@ package att
 
 import (
 	"fmt"
-	"os"
 	"path/filepath"
 	"regexp"
 	"strconv"
@@ -52,7 +51,7 @@ func ReadEntityCatalog(root string) (EntityCatalog, error) {
 	}
 	var catalog EntityCatalog
 	for _, path := range ctx.files {
-		body, err := os.ReadFile(path)
+		body, err := readSource(path, ctx.config)
 		if err != nil {
 			return EntityCatalog{}, err
 		}
@@ -81,7 +80,7 @@ func ReadEntityCatalog(root string) (EntityCatalog, error) {
 					return EntityCatalog{}, fmt.Errorf("%s %d: %w", path, id, err)
 				}
 				declaration.End = end
-				declaration.Fields, err = parseEntityFields(text[open+1 : end-1])
+				declaration.Fields, err = parseEntityFields(text[open+1 : end])
 				if err != nil {
 					return EntityCatalog{}, fmt.Errorf("%s %d: %w", path, id, err)
 				}

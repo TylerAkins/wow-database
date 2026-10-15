@@ -16,7 +16,7 @@ import (
 
 const (
 	CompilationFormatVersion = 2
-	NormalizationVersion     = 1
+	NormalizationVersion     = 2
 )
 
 type sourceAudit struct {
@@ -46,6 +46,10 @@ func normalizeRecord(row record.Record) (record.Record, sourceAudit, error) {
 		}
 		if state := row.FieldStates[field]; state != "" && state != "empty" {
 			audit.Issues[field] = "source marks observation " + state
+			continue
+		}
+		if row.FieldStates[field] == "empty" && bytes.Equal(bytes.TrimSpace(raw), []byte("null")) {
+			out.Attributes[field] = raw
 			continue
 		}
 		value, state, reason := normalizeField(row, field, raw)
@@ -170,10 +174,12 @@ func normalizeField(row record.Record, field string, raw json.RawMessage) (any, 
 			n := new(big.Int)
 			if _, ok := n.SetString(string(number), 10); !ok {
 				err = fmt.Errorf("field must be an exact integer")
-			} else if field != "questLevel" && field != "zoneOrSort" && n.Sign() < 0 {
+			} else if field != "questLevel" && field != "zoneOrSort" && field != "requiredSpell" && n.Sign() < 0 {
 				err = fmt.Errorf("field must be nonnegative")
 			}
 		}
+	case row.EntityType == "quest" && field == "preQuestGroup":
+		value, err = normalizeIDSet(value, true)
 	case unorderedIDs(row.EntityType, field):
 		value, err = normalizeIDs(value)
 	case row.EntityType == "quest" && field == "objectivesText":
@@ -255,6 +261,10 @@ func positiveID(value any) (json.Number, error) {
 	return json.Number(n.String()), nil
 }
 func normalizeIDs(value any) (any, error) {
+	return normalizeIDSet(value, false)
+}
+
+func normalizeIDSet(value any, signed bool) (any, error) {
 	entries, ok := value.([]any)
 	if !ok {
 		return nil, fmt.Errorf("IDs must be an array")
@@ -262,6 +272,14 @@ func normalizeIDs(value any) (any, error) {
 	ids := []any{}
 	for _, v := range entries {
 		n, err := positiveID(v)
+		if signed {
+			if number, ok := v.(json.Number); ok {
+				integer, valid := new(big.Int).SetString(string(number), 10)
+				if valid && integer.Sign() != 0 {
+					n, err = json.Number(integer.String()), nil
+				}
+			}
+		}
 		if err != nil {
 			return nil, err
 		}

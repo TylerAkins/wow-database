@@ -19,8 +19,10 @@ func TestNormalizationFixtures(t *testing.T) {
 		{"objectives", "questiedb", "quest", "objectives", `[[[9,"Slay",123]],null,[[20]], [72,250], [[[9,3],9,"Credits",456]],[[10,"Cast",20]]]`, `{"creature":[{"iconFile":123,"id":9,"text":"Slay"}],"item":[{"id":20}],"killCredit":[{"baseId":9,"iconFile":456,"ids":[3,9],"text":"Credits"}],"reputation":[{"id":72,"value":250}],"spell":[{"id":10,"itemId":20,"text":"Cast"}]}`, ""},
 		{"empty ATT objectives", "allthethings", "quest", "objectives", `[]`, `{}`, ""},
 		{"negative sort", "questiedb", "quest", "zoneOrSort", "-82", "-82", ""},
+		{"signed spell lock", "questiedb", "quest", "requiredSpell", "-1229432", "-1229432", ""},
 		{"signed level", "questiedb", "quest", "questLevel", "-1", "-1", ""},
 		{"large mask", "questiedb", "quest", "requiredRaces", "18446744073709551615", "18446744073709551615", ""},
+		{"signed prerequisite group", "questiedb", "quest", "preQuestGroup", "[4976,-4962]", "[-4962,4976]", ""},
 		{"set ordering", "questiedb", "quest", "preQuestGroup", "[9,3,9]", "[3,9]", ""},
 		{"text ordering", "questiedb", "quest", "objectivesText", `["Z","A"]`, `["Z","A"]`, ""},
 		{"Unicode", "wowhead", "quest", "name", `"Cafe\u0301"`, `"Café"`, ""},
@@ -29,6 +31,7 @@ func TestNormalizationFixtures(t *testing.T) {
 		{"UI metadata separate", "wowhead", "object", "spawns", `[{"zoneId":130,"x":65.3,"y":24.8,"uiMapId":1421,"uiMapName":"Silverpine"}]`, `[{"x":65.3,"y":24.8,"zoneId":130}]`, ""},
 		{"bad providers", "questiedb", "quest", "startedBy", `[["9"]]`, "", "invalid"},
 		{"bad spawn", "questiedb", "npc", "spawns", `{"130":[[101,20]]}`, "", "invalid"},
+		{"unmarked null scalar", "questiedb", "quest", "requiredSpell", `null`, "", "invalid"},
 		{"breadcrumb ID", "questiedb", "quest", "breadcrumbForQuestId", `"7"`, "", "invalid"},
 		{"npc scalar", "questiedb", "npc", "npcFlags", `1.5`, "", "invalid"},
 		{"object scalar", "questiedb", "object", "factionID", `"7"`, "", "invalid"},
@@ -46,6 +49,9 @@ func TestNormalizationFixtures(t *testing.T) {
 					t.Fatalf("state/value/audit = %+v %+v", n, a)
 				}
 				return
+			}
+			if n.Attributes[tt.field] == nil {
+				t.Fatalf("expected %s = %s, got state %s", tt.field, tt.want, n.FieldStates[tt.field])
 			}
 			got, err := canonicalJSON(n.Attributes[tt.field])
 			if err != nil {
@@ -191,5 +197,36 @@ func TestClientQuestMetadataIntegers(t *testing.T) {
 	}
 	if n.Attributes["questUiThemeId"] != nil || n.FieldStates["questUiThemeId"] != "invalid" || audit.Issues["questUiThemeId"] == "" {
 		t.Fatalf("invalid quest UI metadata remained eligible: %+v %+v", n, audit)
+	}
+}
+
+func TestExplicitStaticClearRemainsEligibleDuringCompilation(t *testing.T) {
+	q := sourceRecord("questiedb", "q", map[string]string{"requiredSpell": "null"}, map[string]string{"requiredSpell": "empty"})
+	w := sourceRecord("wowhead", "w", map[string]string{"requiredSpell": "123"}, nil)
+	row, conflicts, err := mergeRecords([]record.Record{q, w}, ResolutionPolicy{Fields: map[string][]string{"quest.requiredSpell": {"questiedb", "wowhead"}}})
+	if err != nil {
+		t.Fatal(err)
+	}
+	if string(row.Attributes["requiredSpell"]) != "null" || row.FieldStates["requiredSpell"] != "empty" {
+		t.Fatalf("explicit clear lost to fallback: attributes=%s states=%v", row.Attributes["requiredSpell"], row.FieldStates)
+	}
+	if err := record.ValidateCompiledAttributes(row); err != nil {
+		t.Fatalf("compiled clear cannot be read: %v", err)
+	}
+	if len(conflicts) != 1 || conflicts[0].Selected != "questiedb" {
+		t.Fatalf("clear disagreement not retained: %+v", conflicts)
+	}
+}
+
+func TestSignedSpellLockSurvivesCompiledValidation(t *testing.T) {
+	row, _, err := mergeRecords([]record.Record{sourceRecord("questiedb", "q", map[string]string{"requiredSpell": "-1229432"}, nil)}, ResolutionPolicy{})
+	if err != nil {
+		t.Fatal(err)
+	}
+	if string(row.Attributes["requiredSpell"]) != "-1229432" {
+		t.Fatalf("spell lock omitted: %+v", row)
+	}
+	if err := record.ValidateCompiledAttributes(row); err != nil {
+		t.Fatal(err)
 	}
 }

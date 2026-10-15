@@ -1,14 +1,105 @@
 {
   "flavor": "forever",
-  "generatedAt": "2026-10-15T10:59:46+03:00",
+  "generatedAt": "2026-10-11T23:03:27+02:00",
   "limitations": [
-    "Static QuestieDB corrections are preserved as unevaluated literal/expression records; source entity attributes remain the raw generated data values.",
-    "Dynamic correction functions, derived passes, generated deltas, and support bundles are not evaluated or imported."
+    "Effective static data includes registered Static Corrections only. Dynamic Corrections, Derived Passes, localization, getter defaults and getter normalization are not evaluated."
   ],
-  "recordCount": 47922,
-  "recordsSha256": "ad63c1cd8dfc7ccfec81004a8719cc741ef987e3178ef7c90a5b229be00c1945",
+  "recordCount": 46831,
+  "recordsSha256": "0d90294020586a67a4e693dd36de334f8bdb7f814358137a9d258bf27d03aca5",
   "schemaVersion": 1,
   "source": "questiedb",
-  "sourceRevision": "49e7dbca1f18eb3b8e57ee5d9562ac3e5c9adcc4",
+  "sourceRevision": "cd4ac42468061cad65db3bf39163e5a2375e21f4",
+  "staticProviders": [
+    {
+      "datatype": "Quest",
+      "loadOrder": 2,
+      "name": "Forever/legacy/classicQuestReputationFixes.lua:Load"
+    },
+    {
+      "datatype": "Item",
+      "loadOrder": 2,
+      "name": "Forever/legacy/itemStartFixes.lua:LoadAutomaticQuestStarts"
+    },
+    {
+      "datatype": "Quest",
+      "loadOrder": 11,
+      "name": "Forever/legacy/classicQuestFixes.lua:Load"
+    },
+    {
+      "datatype": "Npc",
+      "loadOrder": 11,
+      "name": "Forever/legacy/classicNPCFixes.lua:Load"
+    },
+    {
+      "datatype": "Item",
+      "loadOrder": 11,
+      "name": "Forever/legacy/classicItemFixes.lua:Load"
+    },
+    {
+      "datatype": "Object",
+      "loadOrder": 11,
+      "name": "Forever/legacy/classicObjectFixes.lua:Load"
+    },
+    {
+      "datatype": "Npc",
+      "loadOrder": 1302,
+      "name": "Forever/generated/foreverBaseNpc.lua:Load"
+    },
+    {
+      "datatype": "Object",
+      "loadOrder": 1302,
+      "name": "Forever/generated/foreverBaseObject.lua:Load"
+    },
+    {
+      "datatype": "Quest",
+      "loadOrder": 1302,
+      "name": "Forever/generated/foreverBaseQuest.lua:Load"
+    },
+    {
+      "datatype": "Item",
+      "loadOrder": 1302,
+      "name": "Forever/generated/foreverBaseItem.lua:Load"
+    },
+    {
+      "datatype": "Quest",
+      "loadOrder": 1402,
+      "name": "Forever/traces/foreverQuestTraces.lua:Load"
+    },
+    {
+      "datatype": "Npc",
+      "loadOrder": 1402,
+      "name": "Forever/traces/foreverNpcTraces.lua:Load"
+    },
+    {
+      "datatype": "Item",
+      "loadOrder": 1402,
+      "name": "Forever/traces/foreverItemTraces.lua:Load"
+    },
+    {
+      "datatype": "Object",
+      "loadOrder": 1402,
+      "name": "Forever/traces/foreverObjectTraces.lua:Load"
+    },
+    {
+      "datatype": "Quest",
+      "loadOrder": 1411,
+      "name": "Forever/foreverQuestFixes.lua:Load"
+    },
+    {
+      "datatype": "Npc",
+      "loadOrder": 1411,
+      "name": "Forever/foreverNPCFixes.lua:Load"
+    },
+    {
+      "datatype": "Item",
+      "loadOrder": 1411,
+      "name": "Forever/foreverItemFixes.lua:Load"
+    },
+    {
+      "datatype": "Object",
+      "loadOrder": 1411,
+      "name": "Forever/foreverObjectFixes.lua:Load"
+    }
+  ],
   "status": "partial"
 }

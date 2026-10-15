@@ -22,6 +22,9 @@ including paths. `normalizationIssues` explains excluded interpretations;
 `excludedStates` records invalid, unsupported, or unavailable normalized fields.
 These observations remain present when sources agree after normalization.
 
+QuestieDB `preQuestGroup` members retain their signs from its signed storage type.
+They are not converted to ordinary positive completed-quest IDs.
+
 Source-native fields without a shared normalization rule retain their original
 shape. They are not interchangeable merely because their names resemble another
 field. Unrecognized disagreements have no default source priority.
@@ -39,7 +42,7 @@ Reverting the reconciliation change restores the previous compilation and reader
 | NPC/object `spawnPresence` | Area IDs where QuestieDB reports instance presence without a coordinate |
 | Quest prerequisite, alternative, group, and exclusion ID lists | Sorted unique IDs, retaining the separate field names and their distinct semantics |
 | `name` | Unicode NFC text, preserving case, punctuation, whitespace, and literal HTML-like text |
-| Levels, IDs, flags, race/class masks | Exact JSON integers; quest level and zone/sort may be signed |
+| Levels, IDs, flags, race/class masks | Exact JSON integers; quest level, zone/sort, and QuestieDB spell requirements may be signed |
 
 Provider arrays, ID sets, and spawn arrays are sorted by their canonical JSON
 representation and deduplicated exactly. Numeric representations such as `20`
@@ -80,17 +83,22 @@ spells, and factions; `Display_lang` for items; `AreaName_lang` for zones;
 `RequiredLevel` also map to the corresponding shared fields. Other DB2 fields
 remain literal client definitions, including QuestV2 UI metadata.
 
-ATT's current adapter copies starting providers to finishers, interprets `lvl`
-as quest level, uses containment location as quest area/sort, and presents catalog
-commentary as objective text. Format 2 excludes these interpretations as
-`unsupported`, including copied finisher relationships and the legacy `places`
-view. Original values and relationship identities remain in `sourceData`.
+ATT exports `lvl` as minimum `requiredLevel`, preserves profession gates and
+literal inherited restrictions, and separates item starters, provided items, and
+objective items. It retains `altQuests`, completion `lockCriteria`, and breadcrumb
+flags as source-native evidence rather than guessing equivalent Questie fields.
+Duplicate declarations retain source paths and observations; conflicting fields
+and unresolved expressions remain explicit. The adapter does not invent finishers,
+quest levels, quest area/sort, or objective text from catalog commentary. Format 2
+still excludes those interpretations in older snapshots as `unsupported`.
 Supported ATT starting providers, objectives, and prerequisites remain eligible.
 
 Only eligible values participate in selection. Missing, unsupported, unavailable,
 invalid, and conflicting source observations cannot win, even when they are the
 only observation. An eligible explicit empty value remains distinct from missing
-and can be selected by policy. No objectives or spawn sets are unioned across
+and can be selected by policy. A cleared scalar uses `null` with an `empty` field
+state; it remains eligible and prevents fallback to another source’s stale value.
+No objectives or spawn sets are unioned across
 disagreeing sources.
 
 For example, a QuestieDB starting-provider value `[[9]]` and an ATT value
@@ -121,7 +129,7 @@ field observations. These units differ and must not be added into a coverage
 percentage. Single-source fields are not counted as equivalent.
 
 The compilation revision includes input manifests, the effective selection
-policy, and normalization version 1. Policy or normalization version changes
+policy, and normalization version 2. Policy or normalization version changes
 therefore change the revision without requiring a source refresh. Semantic change detection ignores revision
 metadata in original observations, while retaining changes to original values,
 paths, states, normalization issues, and selection rules.
@@ -140,5 +148,5 @@ retrying. Only the compilation is replaced; source datasets are not regenerated.
 The frozen migration baseline is 104,840 records, including 7,410 quests, with
 7,814 original field conflicts. Identity preservation is required; a lower
 conflict count alone does not establish correctness or complete game coverage.
-Encrypted client sections, partial adapters, unevaluated QuestieDB corrections,
+Encrypted client sections, partial adapters, unevaluated QuestieDB runtime stages,
 and server-side availability rules remain coverage limits.

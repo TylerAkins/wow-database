@@ -63,3 +63,31 @@ func TestNormalizeRetainsUnlocatedQuestFieldsAndRelationships(t *testing.T) {
 		t.Fatal(err)
 	}
 }
+
+func TestNormalizeRetainsDeclarationAndUnresolvedEvidence(t *testing.T) {
+	rows := []map[string]any{{"id": 1, "fields": map[string]any{"requiredLevel": 5}, "fieldPaths": map[string]string{"requiredLevel": "forever/quests.lua:12"}, "declarations": []any{map[string]any{"path": "forever/quests.lua", "line": 12}, map[string]any{"path": "forever/zzOLD/quests.lua", "line": 2}}, "unresolved": []any{map[string]any{"field": "requireSkill", "expression": "Unknown()"}}}}
+	got, err := normalize(rows, nil, "0123456789abcdef0123456789abcdef01234567")
+	if err != nil {
+		t.Fatal(err)
+	}
+	if got[0].Attributes["declarations"] == nil || got[0].Attributes["unresolved"] == nil {
+		t.Fatalf("declaration evidence lost: %#v", got[0])
+	}
+	if got[0].Provenance["requiredLevel"].Path != "forever/quests.lua:12" {
+		t.Fatalf("field provenance = %#v", got[0].Provenance)
+	}
+}
+
+func TestNormalizeMarksConflictingFields(t *testing.T) {
+	rows := []map[string]any{{"id": 1, "fields": map[string]any{}, "fieldPaths": map[string]string{"requiredLevel": "quests.lua:1"}, "unresolved": []any{map[string]any{"field": "requiredLevel", "reason": "conflicting declarations", "values": []any{4, 5}}}}}
+	got, err := normalize(rows, nil, "0123456789abcdef0123456789abcdef01234567")
+	if err != nil {
+		t.Fatal(err)
+	}
+	if got[0].FieldStates["requiredLevel"] != "conflicting" {
+		t.Fatalf("conflict disappeared: %#v", got[0])
+	}
+	if err := got[0].Validate(); err != nil {
+		t.Fatal(err)
+	}
+}

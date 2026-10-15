@@ -82,9 +82,9 @@ func run(args []string) error {
 	}
 	records = append(records, catalogRecords...)
 	limitations := []string{
-		"Exports supported Forever quest declarations and explicit ATT NPC, item, object, and achievement declarations with literal labels, selected fields, source paths, and nested containment relationships.",
-		"ATT is a nested catalog, not a complete entity database. Unrecognized Lua expressions and fields, standalone map/zone definitions, and explicit NPC/item/object coordinates are not normalized.",
-		"Quest-provider coordinate expressions outside the supported literal grammar fail ingestion instead of being evaluated.",
+		"Exports static ATT declarations from shared definitions, Forever configuration and all Forever data files, including zzOLD, in loader order with Forever preprocessor branches applied. Repeated quest declarations retain their paths and normalized field observations.",
+		"Static declarations are source evidence, not execution of the ATT Lua parser, timeline filtering or symbolic group expansion. Unresolved expressions for supported quest fields are retained; other Lua fields, standalone map definitions and explicit NPC/item/object coordinates are not normalized.",
+		"Unsupported quest expressions and coordinate associations are retained as unresolved evidence. Parent restrictions and literal sharedData/bubbleDown helpers are supported; arbitrary Lua functions, symbolic group expansion, timeline filtering and ATT postprocessing are not executed.",
 	}
 	if len(meta.Unmapped) > 0 {
 		limitations = append(limitations, fmt.Sprintf("%d quest-provider coordinate association(s) could not be mapped and are included as issue records.", len(meta.Unmapped)))
@@ -119,6 +119,7 @@ func normalize(rows []map[string]any, unmapped []att.Report, revision string) ([
 		}
 		attributes := map[string]json.RawMessage{}
 		provenance := map[string]record.FieldProvenance{}
+		paths, _ := row["fieldPaths"].(map[string]string)
 		for name, value := range fields {
 			encoded, err := json.Marshal(value)
 			if err != nil {
@@ -126,8 +127,13 @@ func normalize(rows []map[string]any, unmapped []att.Report, revision string) ([
 			}
 			attributes[name] = encoded
 			provenance[name] = record.FieldProvenance{Source: "allthethings", Revision: revision, Path: "ATT .contrib/.db/forever"}
+			if path := paths[name]; path != "" {
+				p := provenance[name]
+				p.Path = path
+				provenance[name] = p
+			}
 		}
-		for _, name := range []string{"startedBy", "finishedBy", "places"} {
+		for _, name := range []string{"startedBy", "finishedBy", "places", "declarations", "unresolved"} {
 			if value, exists := row[name]; exists {
 				encoded, err := json.Marshal(value)
 				if err != nil {
@@ -137,7 +143,33 @@ func normalize(rows []map[string]any, unmapped []att.Report, revision string) ([
 				provenance[name] = record.FieldProvenance{Source: "allthethings", Revision: revision, Path: "ATT .contrib/.db/forever"}
 			}
 		}
-		out = append(out, record.Record{SchemaVersion: record.SchemaVersion, Flavor: "forever", EntityType: "quest", EntityID: strconv.Itoa(id), Source: "allthethings", SourceRevision: revision, Attributes: attributes, Provenance: provenance})
+		states := map[string]string{}
+		if unresolved, ok := row["unresolved"].([]any); ok {
+			mapping := map[string]string{"requireSkill": "requiredSkill", "races": "requiredRaces", "classes": "requiredClasses", "lvl": "requiredLevel", "qi": "providedItemId", "qis": "providedItemIds", "qg": "startedBy", "qgs": "startedBy", "provider": "startedBy", "providers": "startedBy"}
+			for _, value := range unresolved {
+				evidence, ok := value.(map[string]any)
+				if !ok {
+					continue
+				}
+				field, _ := evidence["field"].(string)
+				if mapped := mapping[field]; mapped != "" {
+					field = mapped
+				}
+				if field == "" {
+					continue
+				}
+				state := "unsupported"
+				if evidence["reason"] == "conflicting declarations" {
+					state = "conflicting"
+				}
+				if attributes[field] != nil && state != "conflicting" {
+					continue
+				}
+				states[field] = state
+				provenance[field] = record.FieldProvenance{Source: "allthethings", Revision: revision, Path: paths[field], SelectionRule: "Static declaration evidence retained in declarations and unresolved; no conflicting winner selected."}
+			}
+		}
+		out = append(out, record.Record{SchemaVersion: record.SchemaVersion, Flavor: "forever", EntityType: "quest", EntityID: strconv.Itoa(id), Source: "allthethings", SourceRevision: revision, Attributes: attributes, FieldStates: states, Provenance: provenance})
 		links, err := relationshipRows(id, row, fields, revision)
 		if err != nil {
 			return nil, err

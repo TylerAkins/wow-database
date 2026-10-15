@@ -88,6 +88,8 @@ def validate_compiled_attributes(row: dict[str, Any]) -> None:
                         provenance=audit.get("provenance", {}))
         validate_rows([original], {"source": source, "flavor": row["flavor"],
                                   "sourceRevision": audit.get("revision")})
+    attrs = {field: value for field, value in attrs.items()
+             if not (value is None and row.get("fieldStates", {}).get(field) == "empty")}
     if "name" in attrs and not isinstance(attrs["name"], str):
         raise ValueError("name must be text")
     positive_id = lambda value: type(value) is int and value > 0
@@ -102,12 +104,13 @@ def validate_compiled_attributes(row: dict[str, Any]) -> None:
     }.get(row["entityType"], set())
     for field in integer_fields & attrs.keys():
         value = attrs[field]
-        if type(value) is not int or (field not in {"questLevel", "zoneOrSort"} and value < 0):
+        if type(value) is not int or (field not in {"questLevel", "zoneOrSort", "requiredSpell"} and value < 0):
             raise ValueError(f"{field} must be an exact integer with a valid sign")
     id_sets = {"preQuestSingle", "preQuestGroup", "exclusiveTo", "childQuests", "inGroupWith", "requiredSourceItems", "breadcrumbs"}
     for field in id_sets & attrs.keys():
-        if not isinstance(attrs[field], list) or any(not positive_id(value) for value in attrs[field]):
-            raise ValueError(f"{field} must be a list of positive IDs")
+        valid_id = (lambda value: type(value) is int and value != 0) if field == "preQuestGroup" else positive_id
+        if not isinstance(attrs[field], list) or any(not valid_id(value) for value in attrs[field]):
+            raise ValueError(f"{field} must be a list of valid quest IDs")
     if row["entityType"] == "quest":
         for field in ("startedBy", "finishedBy"):
             if field not in attrs:

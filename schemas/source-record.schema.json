@@ -31,6 +31,7 @@
           "source": {"enum": ["wowhead", "allthethings", "questiedb", "foreverclient"]},
           "revision": {"type": "string", "minLength": 1},
           "path": {"type": "string"},
+          "provider": {"type": "string"},
           "sources": {
             "type": "array",
             "items": {

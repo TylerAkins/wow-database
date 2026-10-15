@@ -2,15 +2,15 @@
   "schemaVersion": 1,
   "flavor": "forever",
   "source": "allthethings",
-  "sourceRevision": "17fed0fa95912c2dc12579a942bdc68dec2770a6",
-  "recordCount": 24199,
-  "recordsSha256": "c35212f5b2e543c7461dd30dc222530fb4ceefc8951900e447045429ae0cbca7",
-  "generatedAt": "2026-10-15T10:25:49-05:00",
+  "sourceRevision": "649f90db430b7193389ead741c8b752c35372dcc",
+  "recordCount": 38000,
+  "recordsSha256": "9f5493c89d24af99fc49d90188d61a6bffb004434358d9c09cf3ca44f06abb79",
+  "generatedAt": "2026-10-15T11:16:00-05:00",
   "status": "partial",
   "limitations": [
-    "Exports supported Forever quest declarations and explicit ATT NPC, item, object, and achievement declarations with literal labels, selected fields, source paths, and nested containment relationships.",
-    "ATT is a nested catalog, not a complete entity database. Unrecognized Lua expressions and fields, standalone map/zone definitions, and explicit NPC/item/object coordinates are not normalized.",
-    "Quest-provider coordinate expressions outside the supported literal grammar fail ingestion instead of being evaluated.",
-    "196 quest-provider coordinate association(s) could not be mapped and are included as issue records."
+    "Exports static ATT declarations from shared definitions, Forever configuration and all Forever data files, including zzOLD, in loader order with Forever preprocessor branches applied. Repeated quest declarations retain their paths and normalized field observations.",
+    "Static declarations are source evidence, not execution of the ATT Lua parser, timeline filtering or symbolic group expansion. Unresolved expressions for supported quest fields are retained; other Lua fields, standalone map definitions and explicit NPC/item/object coordinates are not normalized.",
+    "Unsupported quest expressions and coordinate associations are retained as unresolved evidence. Parent restrictions and literal sharedData/bubbleDown helpers are supported; arbitrary Lua functions, symbolic group expansion, timeline filtering and ATT postprocessing are not executed.",
+    "174 quest-provider coordinate association(s) could not be mapped and are included as issue records."
   ]
 }

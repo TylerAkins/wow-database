@@ -129,3 +129,15 @@ func TestLargeDatasetCompressedRoundTripAndReplacement(t *testing.T) {
 		t.Fatal(err)
 	}
 }
+
+func TestReadJSONLPreservesStaticProviderProvenance(t *testing.T) {
+	input := `{"schemaVersion":1,"flavor":"forever","entityType":"quest","entityId":"10","source":"questiedb","sourceRevision":"abc123","attributes":{"requiredLevel":20},"provenance":{"requiredLevel":{"source":"questiedb","revision":"abc123","path":"src/corrections/Forever/quest.lua","provider":"Forever/quest.lua:Load"}}}`
+	rows, err := ReadJSONL(strings.NewReader(input), "questiedb", "forever", "abc123")
+	if err != nil {
+		t.Fatal(err)
+	}
+	encoded, err := json.Marshal(rows[0])
+	if err != nil || !strings.Contains(string(encoded), `"provider":"Forever/quest.lua:Load"`) {
+		t.Fatalf("provider lost in round trip: %s %v", encoded, err)
+	}
+}

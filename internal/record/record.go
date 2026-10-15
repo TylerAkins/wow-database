@@ -44,6 +44,7 @@ type FieldProvenance struct {
 	Revision      string              `json:"revision,omitempty"`
 	Sources       []SourceObservation `json:"sources,omitempty"`
 	Path          string              `json:"path,omitempty"`
+	Provider      string              `json:"provider,omitempty"`
 	SelectionRule string              `json:"selectionRule,omitempty"`
 }
 

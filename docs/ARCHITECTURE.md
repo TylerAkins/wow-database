@@ -23,7 +23,9 @@ The Wowhead scraper and zone compiler remain from the restored baseline. The
 offline adapter normalizes the existing cache. ATT exports supported Forever
 quest fields and relationships plus selected explicit entity declarations and
 containment links. QuestieDB imports its Forever generated entities, including the converted
-Classic baseline, while preserving applicable unapplied corrections. Forever
+Classic baseline, and applies registered static corrections in provider order.
+Dynamic Corrections, Derived Passes, localization, and getter defaults remain
+unevaluated. Forever
 is the only flavor imported by the daily workflow. The local client extractor and
 importer cover a supported table subset. Source outputs remain separate until
 the multi-source compiler merges them with provenance. Classic baseline quests
