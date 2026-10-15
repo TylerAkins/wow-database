@@ -39,8 +39,9 @@ canonical merged datasets.
 ATT ingestion normalizes supported Forever quest declarations and parsed
 links, plus selected explicit NPC, item, object, and achievement entries. It
 does not cover the complete ATT catalog or standalone map and zone definitions.
-QuestieDB's generated entity tables can be imported daily or locally for Forever,
-but dynamic corrections, support bundles, and derived passes are not evaluated.
+QuestieDB's generated entity tables and registered static providers can be imported
+daily or locally for Forever with Lua 5.1. Dynamic Corrections, Derived Passes,
+localization, and getter defaults are not evaluated.
 The client adapter maps only the subset described in
 [CLIENT_EXTRACTION.md](CLIENT_EXTRACTION.md). QuestV2 contributes IDs and UI
 metadata, while quest support rows have separate table-prefixed identities.

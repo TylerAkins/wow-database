@@ -11,7 +11,7 @@ from unittest.mock import patch
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "tools" / "questiedb"))
 
-from import_source import ImportErrorMessage, import_source, parse_entity_file, parse_static_corrections  # noqa: E402
+from import_source import ImportErrorMessage, import_source, parse_entity_file, structured_json_value  # noqa: E402
 from lua_literal import LuaLiteralError, parse  # noqa: E402
 
 
@@ -38,6 +38,28 @@ class LuaLiteralTests(unittest.TestCase):
     def test_rejects_arithmetic_instead_of_evaluating_it(self):
         with self.assertRaises(LuaLiteralError):
             parse("return { [1] = 1 + 2 }")
+
+
+class StructuredLuaTableTests(unittest.TestCase):
+    def test_schema_preserves_sparse_positional_tables_and_zone_maps(self):
+        self.assertEqual(structured_json_value({"3": [[750]]}, "objectives"), [None, None, [[750]]])
+        self.assertEqual(structured_json_value({"2": [123]}, "questgivers"), [None, [123]])
+        self.assertEqual(structured_json_value([[[10, 20]]], "spawnlist"), {"1": [[10, 20]]})
+        self.assertEqual(structured_json_value({"7": [[[1, 2], {"1": 3, "3": 4}]]}, "waypointlist"), {"7": [[[1, 2], [3, None, 4]]]})
+        self.assertEqual(structured_json_value({"2": [[[10, 20]]]}, "trigger"), [None, {"1": [[10, 20]]}])
+        self.assertEqual(structured_json_value({"2": 99}, "pair"), [None, 99])
+
+    def test_zone_maps_omit_serialized_nil_holes(self):
+        expected = {"3": [[10, 20, 7]]}
+        self.assertEqual(structured_json_value({"1": None, "2": None, "3": [[10, 20, 7]]}, "spawnlist"), expected)
+        self.assertEqual(structured_json_value([None, None, [[10, 20, 7]]], "spawnlist"), expected)
+        self.assertEqual(structured_json_value({"1": None, "3": [[[10, 20, 7]]]}, "waypointlist"), {"3": [[[10, 20, 7]]]})
+
+    def test_new_upstream_structures_are_not_silently_guessed(self):
+        with self.assertRaisesRegex(ImportErrorMessage, "unsupported QuestieDB structure"):
+            structured_json_value([], "futureStructure")
+        with self.assertRaisesRegex(ImportErrorMessage, "non-positional key"):
+            structured_json_value({"named": 1}, "pair")
 
 
 class QuestieImporterTests(unittest.TestCase):
@@ -92,6 +114,16 @@ class QuestieImporterTests(unittest.TestCase):
             "function CataQuestFixes:Load() return { [42] = { [questKeys.level] = 99 } } end\n",
             encoding="utf-8",
         )
+        (self.repo / "generator").mkdir()
+        (self.repo / "generator/runtime.lua").write_text("fixture")
+        def fixture_static(repo, revision, lua):
+            rows = []
+            for kind, prefix in (("quest", "Quest"), ("npc", "Npc"), ("item", "Item"), ("object", "Object")):
+                rows.extend(parse_entity_file(repo / "data/Forever" / f"forever{prefix}DB.lua", kind, repo))
+            return rows, {"staticProviders": []}
+        self.static_patch = patch("import_source.effective_static_rows", side_effect=fixture_static)
+        self.static_patch.start()
+        self.addCleanup(self.static_patch.stop)
         subprocess.run(["git", "init", "-q", str(self.repo)], check=True)
         subprocess.run(["git", "-C", str(self.repo), "add", "."], check=True)
         subprocess.run(
@@ -114,27 +146,70 @@ class QuestieImporterTests(unittest.TestCase):
         second = next(row for row in rows if row["entityId"] == "43")
         self.assertEqual(second["fieldStates"]["name"], "missing")
 
-    def test_static_corrections_are_preserved_as_unevaluated_records(self):
-        revision = subprocess.run(["git", "-C", str(self.repo), "rev-parse", "HEAD"], check=True, capture_output=True, text=True).stdout.strip()
-        rows, limitations = parse_static_corrections(self.repo, "forever", revision)
-        correction = next(row for row in rows if row["entityId"].startswith("correction:Forever:") and row["entityId"].endswith(":42:level"))
-        self.assertEqual(correction["attributes"]["correction"]["value"], 10)
-        self.assertEqual(correction["attributes"]["correction"]["application"], "not-evaluated")
-        extra = next(row for row in rows if row["entityId"].endswith(":42:extra"))
-        self.assertEqual(extra["attributes"]["correction"]["value"], {"1": "one", "$ref:zoneIDs.STORMWIND": "city"})
-        classes = next(row for row in rows if row["entityId"] == "correction:Forever:foreverQuestFixes.lua:Load:quest:42:requiredClasses")
-        self.assertEqual(classes["attributes"]["correction"]["value"], {"$luaExpression": "+", "arguments": [{"$luaExpression": "classIDs.WARRIOR"}, {"$luaExpression": "classIDs.PALADIN"}]})
-        dynamic = next(row for row in rows if row["entityId"].startswith("correction:Forever:") and row["entityId"].endswith(":42:name"))
-        self.assertEqual(dynamic["attributes"]["correction"]["value"]["$luaExpression"], "l10n")
-        self.assertTrue(any(row["entityId"].startswith("correction:Forever:legacy/") and row["attributes"]["correction"]["value"] == 6 for row in rows))
-        self.assertFalse(any(row["entityId"].startswith(("correction:Era:", "correction:Shared:")) for row in rows))
-        self.assertTrue(any("Dynamic correction" in limitation for limitation in limitations))
+    @unittest.skipUnless((ROOT / ".cache/QuestieDB/generator/runtime.lua").exists(), "cached upstream runtime unavailable")
+    def test_registered_static_runtime_exports_effective_values(self):
+        self.static_patch.stop()
+        upstream = ROOT / ".cache/QuestieDB"
+        repo = Path(self.temp.name) / "runtime"
+        repo.mkdir()
+        for path in upstream.iterdir():
+            if path.name != "src":
+                (repo / path.name).symlink_to(path, target_is_directory=path.is_dir())
+        (repo / "src/corrections").mkdir(parents=True)
+        for path in (upstream / "src").iterdir():
+            if path.name not in ("config.lua", "corrections"):
+                (repo / "src" / path.name).symlink_to(path, target_is_directory=path.is_dir())
+        for path in (upstream / "src/corrections").iterdir():
+            (repo / "src/corrections" / path.name).symlink_to(path, target_is_directory=path.is_dir())
+        config = (upstream / "src/config.lua").read_text()
+        specs = """
+config.ownedCorrections[#config.ownedCorrections + 1] = {owned='Forever',file='probe.lua',module='ImportProbe',datatype='Quest',static={'Later','First'},dynamic={'Dynamic'},window='Forever'}
+config.ownedCorrections[#config.ownedCorrections + 1] = {owned='Forever',file='probe.lua',module='ImportProbe',datatype='Quest',static={'Restricted'},window='Forever',sourceExpansionOrder=0,options={noOverwrites=true}}
+"""
+        (repo / "src/config.lua").write_text(config.replace("return config", specs + "return config"))
+        (repo / "src/corrections/probe.lua").write_text("""
+local module = QuestieLoader:CreateModule('ImportProbe')
+local keys = QuestieLoader:ImportModule('QuestieDB').questKeys
+function module:Later()
+ return {[33]={[keys.requiredLevel]={},[keys.preQuestSingle_add]={777},[keys.preQuestSingle_remove]={888}},[999999]={[keys.name]='new quest',[keys.exclusiveTo]={888,555}}}
+end
+function module:Restricted() return {[33]={[keys.requiredLevel]=99},[999998]={[keys.requiredLevel]=1},[999997]={[keys.name]='named inherited'}} end
+function module:Dynamic() return {[999999]={[keys.name]='dynamic name'}} end
+function module:First()
+ return {[33]={[keys.preQuestSingle]={777,999},[keys.startedBy]={[2]={123}},[keys.objectives]={[3]={{750,nil,7}}},[keys.triggerEnd]={[2]={[1]={{10,20}}}},[keys.extraObjectives]={{[1]={[1]={{3,4}}},[5]={{"item",750}}}},[keys.requiredSkill]={[2]=99}},[999999]={[keys.exclusiveTo_add]={777},[keys.exclusiveTo_remove]={888}}}
+end
+""")
+        out = Path(self.temp.name) / "effective"
+        import_source(repo, "forever", out, None)
+        path = out / "records.jsonl"
+        lines = path.read_text().splitlines() if path.exists() else gzip.decompress((out / "records.jsonl.gz").read_bytes()).decode().splitlines()
+        rows = [json.loads(line) for line in lines]
+        quest = next(row for row in rows if row["entityType"] == "quest" and row["entityId"] == "33")
+        self.assertNotEqual(quest["fieldStates"].get("effectiveValues"), "unavailable")
+        manifest = json.loads((out / "manifest.json").read_text())
+        self.assertIsNone(quest["attributes"]["requiredLevel"])
+        self.assertEqual(quest["fieldStates"]["requiredLevel"], "empty")
+        self.assertEqual(quest["attributes"]["objectives"], [None, None, [[750, None, 7]]])
+        self.assertEqual(quest["attributes"]["startedBy"], [None, [123]])
+        self.assertEqual(quest["attributes"]["triggerEnd"], [None, {"1": [[10, 20]]}])
+        self.assertEqual(quest["attributes"]["extraObjectives"], [[{"1": [[3, 4]]}, None, None, None, [["item", 750]]]])
+        self.assertEqual(quest["attributes"]["requiredSkill"], [None, 99])
+        self.assertEqual(quest["attributes"]["preQuestSingle"], [777, 999])
+        self.assertEqual(quest["provenance"]["preQuestSingle"]["provider"], "probe.lua:First")
+        self.assertEqual(quest["provenance"]["requiredLevel"]["provider"], "probe.lua:Later")
+        created = next(row for row in rows if row["entityType"] == "quest" and row["entityId"] == "999999")
+        self.assertEqual(created["attributes"]["exclusiveTo"], [555, 777])
+        self.assertEqual(created["attributes"]["name"], "new quest")
+        self.assertFalse(any(row["entityId"] == "999998" for row in rows))
+        self.assertTrue(any(row["entityId"] == "999997" for row in rows))
+        self.assertEqual(created["provenance"]["exclusiveTo"]["provider"], "probe.lua:First")
+        self.assertIn("staticProviders", manifest)
+        self.assertTrue(any("generated/foreverBaseQuest" in p["name"] for p in manifest["staticProviders"]))
+        self.assertTrue(any("traces/foreverQuestTraces" in p["name"] for p in manifest["staticProviders"]))
 
     def test_rejects_separate_era_flavor(self):
         with self.assertRaisesRegex(ImportErrorMessage, "unsupported flavor"):
             import_source(self.repo, "era", Path(self.temp.name) / "era", None)
-        with self.assertRaisesRegex(ImportErrorMessage, "unsupported flavor"):
-            parse_static_corrections(self.repo, "era", "revision")
 
     def test_compressed_snapshot_preserves_checksum_and_repeated_bytes(self):
         import hashlib

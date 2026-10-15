@@ -4,9 +4,8 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"io/fs"
-	"os"
 	"path/filepath"
+	"reflect"
 	"regexp"
 	"sort"
 	"strconv"
@@ -14,28 +13,29 @@ import (
 )
 
 var (
-	questNameRE      = regexp.MustCompile(`(?m)^\s*q\s*\(\s*(\d+)\s*,\s*\{[^\n]*--\s*(.+?)\s*$`)
-	sourceQuestRE    = regexp.MustCompile(`(?:\["sourceQuest"\]|\bsourceQuest)\s*=\s*(\d+)`)
-	sourceQuestsRE   = regexp.MustCompile(`(?:\["sourceQuests"\]|\bsourceQuests)\s*=\s*\{([^}]*)\}`)
-	sourceQuestNumRE = regexp.MustCompile(`(?:\["sourceQuestNumRequired"\]|\bsourceQuestNumRequired)\s*=\s*(\d+)`)
-	altQuestsRE      = regexp.MustCompile(`(?:\["altQuests"\]|\baltQuests)\s*=\s*\{([^}]*)\}`)
-	lvlRE            = regexp.MustCompile(`(?:\["lvl"\]|\blvl)\s*=\s*(\d+)`)
-	descRE           = regexp.MustCompile(`(?:\["description"\]|\bdescription)\s*=\s*"((?:\\.|[^"\\])*)"`)
-	nameFieldRE      = regexp.MustCompile(`(?:\["name"\]|\bname)\s*=\s*"((?:\\.|[^"\\])*)"`)
-	qiRE             = regexp.MustCompile(`(?:\["qi"\]|\bqi)\s*=\s*(\d+)`)
-	boolFieldRE      = regexp.MustCompile(`(?:\["(isBreadcrumb|isDaily|isWeekly|isMonthly|repeatable|isYearly)"\]|(isBreadcrumb|isDaily|isWeekly|isMonthly|repeatable|isYearly))\s*=\s*true`)
-	racesFieldRE     = regexp.MustCompile(`(?:\["races"\]|\braces)\s*=\s*(ALLIANCE_ONLY|HORDE_ONLY|\{([^}]*)\})`)
-	classesFieldRE   = regexp.MustCompile(`(?:\["classes"\]|\bclasses)\s*=\s*\{([^}]*)\}`)
-	providerSingleRE = regexp.MustCompile(`(?:\["provider"\]|\bprovider)\s*=\s*\{\s*"([noi])"\s*,\s*(\d+)\s*\}`)
-	providersMultiRE = regexp.MustCompile(`(?:\["providers"\]|\bproviders)\s*=\s*\{`)
-	objectiveCallRE  = regexp.MustCompile(`objective\s*\(\s*\d+\s*,\s*\{`)
-	objectiveTextRE  = regexp.MustCompile(`objective\s*\(\s*\d+\s*,\s*\{[^\n]*--\s*(.+?)\s*$`)
-	crRE             = regexp.MustCompile(`(?:\["cr"\]|\bcr)\s*=\s*(\d+)`)
-	crsRE            = regexp.MustCompile(`(?:\["crs"\]|\bcrs)\s*=\s*\{([^}]*)\}`)
+	questNameRE        = regexp.MustCompile(`(?m)^\s*q\s*\(\s*(\d+)\s*,\s*\{[^\n]*--\s*(.+?)\s*$`)
+	sourceQuestRE      = regexp.MustCompile(`(?:\["sourceQuest"\]|\bsourceQuest)\s*=\s*(\d+)`)
+	sourceQuestsRE     = regexp.MustCompile(`(?:\["sourceQuests"\]|\bsourceQuests)\s*=\s*\{([^}]*)\}`)
+	sourceQuestNumRE   = regexp.MustCompile(`(?:\["sourceQuestNumRequired"\]|\bsourceQuestNumRequired)\s*=\s*(\d+)`)
+	altQuestsRE        = regexp.MustCompile(`(?:\["altQuests"\]|\baltQuests)\s*=\s*\{([^}]*)\}`)
+	lvlRE              = regexp.MustCompile(`(?:\["lvl"\]|\blvl)\s*=\s*(\d+)`)
+	descRE             = regexp.MustCompile(`(?:\["description"\]|\bdescription)\s*=\s*"((?:\\.|[^"\\])*)"`)
+	nameFieldRE        = regexp.MustCompile(`(?:\["name"\]|\bname)\s*=\s*"((?:\\.|[^"\\])*)"`)
+	qiRE               = regexp.MustCompile(`(?:\["qi"\]|\bqi)\s*=\s*(\d+)`)
+	boolFieldRE        = regexp.MustCompile(`(?:\["(isBreadcrumb|isDaily|isWeekly|isMonthly|repeatable|isYearly)"\]|(isBreadcrumb|isDaily|isWeekly|isMonthly|repeatable|isYearly))\s*=\s*true`)
+	racesFieldRE       = regexp.MustCompile(`(?:\["races"\]|\braces)\s*=\s*(ALLIANCE_ONLY|HORDE_ONLY|\{([^}]*)\})`)
+	classesFieldRE     = regexp.MustCompile(`(?:\["classes"\]|\bclasses)\s*=\s*\{([^}]*)\}`)
+	providerSingleRE   = regexp.MustCompile(`(?:\["provider"\]|\bprovider)\s*=\s*\{\s*"([noi])"\s*,\s*(\d+)\s*\}`)
+	providersMultiRE   = regexp.MustCompile(`(?:\["providers"\]|\bproviders)\s*=\s*\{`)
+	questDeclarationRE = regexp.MustCompile(`\bq\s*\(\s*(\d+)\s*([,)])`)
+	objectiveCallRE    = regexp.MustCompile(`objective\s*\(\s*\d+\s*,\s*\{`)
+	objectiveTextRE    = regexp.MustCompile(`objective\s*\(\s*\d+\s*,\s*\{[^\n]*--\s*(.+?)\s*$`)
+	crRE               = regexp.MustCompile(`(?:\["cr"\]|\bcr)\s*=\s*(\d+)`)
+	crsRE              = regexp.MustCompile(`(?:\["crs"\]|\bcrs)\s*=\s*\{([^}]*)\}`)
 )
 
 var foreverAllianceRaces = []int{1, 3, 4, 7, 95}
-var foreverHordeRaces = []int{2, 5, 6, 8, 9, 96}
+var foreverHordeRaces = []int{2, 5, 6, 8, 96}
 
 var raceConstants = map[string]int{
 	"HUMAN": 1, "DWARF": 3, "NIGHTELF": 4, "GNOME": 7, "ORC": 2, "UNDEAD": 5,
@@ -59,8 +59,9 @@ func Export(root string) ([]map[string]any, ExportMeta, error) {
 		return nil, ExportMeta{}, err
 	}
 	byID := map[int]map[string]any{}
+	var objectiveRoutes []map[string]any
 	for _, path := range ctx.files {
-		body, readErr := os.ReadFile(path)
+		body, readErr := readSource(path, ctx.config)
 		if readErr != nil {
 			return nil, ExportMeta{}, readErr
 		}
@@ -70,6 +71,10 @@ func Export(root string) ([]map[string]any, ExportMeta, error) {
 		}
 		ctx.meta.Unmapped = append(ctx.meta.Unmapped, reports...)
 		for _, row := range rows {
+			if row["_objectiveRoute"] == true {
+				objectiveRoutes = append(objectiveRoutes, row)
+				continue
+			}
 			id, _ := row["id"].(int)
 			if existing, ok := byID[id]; ok {
 				mergeDumpRow(existing, row)
@@ -77,6 +82,9 @@ func Export(root string) ([]map[string]any, ExportMeta, error) {
 				byID[id] = row
 			}
 		}
+	}
+	for _, route := range objectiveRoutes {
+		mergeObjectiveRoute(byID, route)
 	}
 	ids := make([]int, 0, len(byID))
 	for id := range byID {
@@ -130,12 +138,16 @@ type exportContext struct {
 	mapAreas            map[int]int
 	coordinateConstants map[string][]Spawn
 	meta                ExportMeta
+	root                string
+	config              sourceConfig
+	constants           map[string]int
+	factions            map[string][]int
 }
 
 func loadExportContext(root string) (exportContext, error) {
 	const dataRoot = ".contrib/.db/forever"
 	mapPath := filepath.Join(root, dataRoot, ".config/constants/maps.lua")
-	mapBody, err := os.ReadFile(mapPath)
+	mapBody, err := readSource(mapPath, readSourceConfig(root))
 	if err != nil {
 		return exportContext{}, fmt.Errorf("ATT map constants %s: %w", mapPath, err)
 	}
@@ -150,47 +162,49 @@ func loadExportContext(root string) (exportContext, error) {
 	if len(maps) == 0 {
 		return exportContext{}, fmt.Errorf("ATT map constants contain no supported assignments")
 	}
-	var files []string
-	err = filepath.WalkDir(filepath.Join(root, dataRoot), func(path string, entry fs.DirEntry, walkErr error) error {
-		if walkErr != nil {
-			return walkErr
-		}
-		if entry.IsDir() {
-			if entry.Name() == "zzOLD" {
-				return filepath.SkipDir
-			}
-			return nil
-		}
-		if strings.HasSuffix(path, ".lua") && !strings.Contains(path, string(filepath.Separator)+".config"+string(filepath.Separator)) {
-			files = append(files, path)
-		}
-		return nil
-	})
+	files, err := sourceFiles(root)
 	if err != nil {
-		return exportContext{}, fmt.Errorf("walk ATT Forever data: %w", err)
+		return exportContext{}, err
 	}
-	sort.Strings(files)
+	config := readSourceConfig(root)
 	mapAreas := map[int]int{}
 	for mapID, areaID := range classicMapAreas {
 		mapAreas[mapID] = areaID
 	}
 	ctx := exportContext{
-		files:               files,
+		files: files, root: root, config: config, constants: map[string]int{}, factions: map[string][]int{},
 		maps:                maps,
 		mapAreas:            mapAreas,
 		coordinateConstants: map[string][]Spawn{},
 	}
 	for _, path := range files {
-		body, readErr := os.ReadFile(path)
+		body, readErr := readSource(path, ctx.config)
 		if readErr != nil {
 			return exportContext{}, readErr
+		}
+		if strings.Contains(filepath.ToSlash(path), "/shared/constants/") {
+			for _, match := range mapConstRE.FindAllSubmatch(body, -1) {
+				value, _ := strconv.Atoi(string(match[2]))
+				ctx.constants[string(match[1])] = value
+			}
+		}
+		if strings.HasSuffix(path, "raceIDs.lua") {
+			for _, name := range []string{"ALLIANCE_ONLY", "HORDE_ONLY"} {
+				re := regexp.MustCompile(name + `\s*=\s*\{([^}]*)\}`)
+				if match := re.FindSubmatch(body); match != nil {
+					ids, parseErr := parseSymbolList(stripLineComments(string(match[1])), ctx.constants)
+					if parseErr == nil {
+						ctx.factions[name] = ids
+					}
+				}
+			}
 		}
 		if err := readMapAreas(path, body, maps, mapAreas); err != nil {
 			return exportContext{}, err
 		}
 	}
 	for _, path := range files {
-		body, readErr := os.ReadFile(path)
+		body, readErr := readSource(path, ctx.config)
 		if readErr != nil {
 			return exportContext{}, readErr
 		}
@@ -204,55 +218,131 @@ func loadExportContext(root string) (exportContext, error) {
 func parseQuestFile(path string, body []byte, ctx exportContext) ([]map[string]any, []Report, error) {
 	text := string(body)
 	masked := maskLua(text)
-	matches := questCallRE.FindAllStringSubmatchIndex(masked, -1)
+	matches := questDeclarationRE.FindAllStringSubmatchIndex(masked, -1)
 	var rows []map[string]any
 	var reports []Report
 	for _, match := range matches {
 		id, _ := strconv.Atoi(text[match[2]:match[3]])
-		open := match[1] - 1
-		end, err := luaTableEnd(text, open)
-		if err != nil {
-			return nil, nil, fmt.Errorf("%s quest %d: %w", path, id, err)
+		open, end := match[1], match[1]
+		block, wrapper := "", ""
+		labelStart := match[1]
+		if masked[match[4]] == ',' {
+			for open < len(masked) && strings.ContainsRune(" \t\r\n", rune(masked[open])) {
+				open++
+			}
+			if open < len(masked) && masked[open] == '{' {
+				var err error
+				end, err = luaTableEnd(text, open)
+				if err != nil {
+					return nil, nil, fmt.Errorf("%s quest %d: %w", path, id, err)
+				}
+				block = text[open+1 : end]
+				labelStart = open + 1
+			} else {
+				close := open
+				depth := 1
+				for close < len(masked) {
+					if masked[close] == '(' {
+						depth++
+					}
+					if masked[close] == ')' {
+						depth--
+						if depth == 0 {
+							break
+						}
+					}
+					close++
+				}
+				if close >= len(masked) {
+					return nil, nil, fmt.Errorf("%s quest %d: unterminated quest expression", path, id)
+				}
+				wrapper = strings.TrimSpace(text[open:close])
+			}
 		}
-		block := text[open+1 : end]
+		own := topFields(block)
+		inherited := topFields(inheritedFieldBlock(text, match[0]))
+		for key, value := range inherited {
+			if _, exists := own[key]; !exists {
+				block += fmt.Sprintf("\n[\"%s\"] = %s,\n", key, value)
+			}
+		}
 		row, fileReports, err := buildDumpQuest(path, id, text, block, ctx)
 		if err != nil {
 			return nil, nil, err
 		}
+		if _, exists := own["name"]; !exists {
+			line := strings.SplitN(text[labelStart:], "\n", 2)[0]
+			if comment := strings.Index(line, "--"); comment >= 0 && strings.Trim(strings.TrimSpace(line[:comment]), ",") == "" {
+				row["fields"].(map[string]any)["name"] = strings.TrimSpace(line[comment+2:])
+			}
+		}
+		if wrapper != "" {
+			evidence, _ := row["unresolved"].([]any)
+			row["unresolved"] = append(evidence, map[string]any{"field": "declaration", "expression": wrapper, "reason": "quest wrapper expression was not evaluated"})
+		}
+		row["declarations"] = []any{map[string]any{"path": relativeATTPath(ctx.root, path), "line": strings.Count(text[:match[0]], "\n") + 1, "fields": copyFields(row["fields"].(map[string]any)), "rawFields": own, "inheritedFields": inherited, "expression": wrapper}}
+		row["fieldPaths"] = map[string]string{}
+		for key := range row["fields"].(map[string]any) {
+			row["fieldPaths"].(map[string]string)[key] = fmt.Sprintf("%s:%d", relativeATTPath(ctx.root, path), strings.Count(text[:match[0]], "\n")+1)
+		}
 		reports = append(reports, fileReports...)
 		rows = append(rows, row)
+	}
+	for _, indexes := range objectiveCallRE.FindAllStringIndex(masked, -1) {
+		open := indexes[1] - 1
+		end, err := luaTableEnd(text, open)
+		if err != nil {
+			continue
+		}
+		raw := topFields(text[open+1 : end])
+		explicit, exists := raw["questID"]
+		if !exists {
+			continue
+		}
+		owner, err := strconv.Atoi(explicit)
+		if err != nil || owner <= 0 {
+			continue
+		}
+		objectives, places, objectiveErr := parseObjectives(path, owner, text[indexes[0]:end+1], ctx)
+		route := map[string]any{"id": owner, "fields": map[string]any{}, "fieldPaths": map[string]string{}, "_objectiveRoute": true}
+		if len(objectives) > 0 {
+			route["fields"].(map[string]any)["objectives"] = objectives
+		}
+		if len(places) > 0 {
+			route["places"] = mapsToAny(places)
+		}
+		if objectiveErr != nil {
+			route["unresolved"] = []any{map[string]any{"field": "objectives", "reason": objectiveErr.Error()}}
+		}
+		line := strings.Count(text[:indexes[0]], "\n") + 1
+		route["declarations"] = []any{map[string]any{"path": relativeATTPath(ctx.root, path), "line": line, "kind": "objective", "questID": owner, "fields": copyFields(route["fields"].(map[string]any)), "rawFields": raw}}
+		route["fieldPaths"].(map[string]string)["objectives"] = fmt.Sprintf("%s:%d", relativeATTPath(ctx.root, path), line)
+		rows = append(rows, route)
 	}
 	return rows, reports, nil
 }
 
 func buildDumpQuest(path string, id int, fileText, block string, ctx exportContext) (map[string]any, []Report, error) {
 	fields := map[string]any{}
-	if name := questNameFromSource(fileText, id); name != "" {
-		fields["name"] = name
-	}
+	fullBlock := block
+	block = topFieldBlock(block)
 	if match := nameFieldRE.FindStringSubmatch(block); len(match) == 2 {
 		fields["name"] = unescapeLuaString(match[1])
 	}
 	if match := descRE.FindStringSubmatch(block); len(match) == 2 {
-		fields["objectivesText"] = []any{unescapeLuaString(match[1])}
+		fields["description"] = unescapeLuaString(match[1])
 	}
 	if match := lvlRE.FindStringSubmatch(block); len(match) == 2 {
 		level, _ := strconv.Atoi(match[1])
-		fields["questLevel"] = level
+		fields["requiredLevel"] = level
 	}
 	if match := qiRE.FindStringSubmatch(block); len(match) == 2 {
 		item, _ := strconv.Atoi(match[1])
-		fields["sourceItemId"] = item
+		fields["providedItemId"] = item
 	}
-	if err := applyPrereqs(fields, block); err != nil {
-		return nil, nil, fmt.Errorf("%s quest %d: %w", path, id, err)
-	}
-	if err := applyAltQuests(fields, block); err != nil {
-		return nil, nil, fmt.Errorf("%s quest %d: %w", path, id, err)
-	}
-	if err := applyRaceClass(fields, block); err != nil {
-		return nil, nil, fmt.Errorf("%s quest %d: %w", path, id, err)
-	}
+	_ = applyPrereqs(fields, block)
+	_ = applyAltQuests(fields, block)
+	_ = applyRaceClass(fields, block)
 	applyQuestFlags(fields, block)
 
 	providers, err := questProviders(block)
@@ -260,11 +350,12 @@ func buildDumpQuest(path string, id int, fileText, block string, ctx exportConte
 		return nil, nil, fmt.Errorf("%s quest %d: %w", path, id, err)
 	}
 	startedBy := providersToRows(providers)
-	finishedBy := startedBy
 
 	questCoords, reports, err := questLevelCoords(path, id, block, ctx)
+	var unresolved []any
 	if err != nil {
-		return nil, nil, err
+		unresolved = append(unresolved, map[string]any{"field": "coordinates", "expression": topFields(block)["coord"], "reason": err.Error()})
+		questCoords = map[string][]Spawn{}
 	}
 
 	var places []map[string]any
@@ -276,17 +367,10 @@ func buildDumpQuest(path string, id int, fileText, block string, ctx exportConte
 		}
 		places = addPlace(places, seen, place)
 	}
-	for _, provider := range providers {
-		spawns := questCoords[providerKey(provider)]
-		place := map[string]any{
-			"role": "turnIn", "type": provider.kind, "id": provider.id, "spawns": spawnsToAny(spawns),
-		}
-		places = addPlace(places, seen, place)
-	}
 
-	objectives, objectivePlaces, err := parseObjectives(path, id, block, ctx)
+	objectives, objectivePlaces, err := parseObjectives(path, id, fullBlock, ctx)
 	if err != nil {
-		return nil, nil, err
+		unresolved = append(unresolved, map[string]any{"field": "objectives", "reason": err.Error()})
 	}
 	if len(objectives) > 0 {
 		fields["objectives"] = objectives
@@ -305,31 +389,18 @@ func buildDumpQuest(path string, id int, fileText, block string, ctx exportConte
 			}
 		}
 	}
-	if len(finishedBy) > 0 {
-		for i, row := range finishedBy {
-			key := providerKey(providerRef{kind: row["type"].(string), id: row["id"].(int)})
-			if spawns, ok := questCoords[key]; ok {
-				finishedBy[i]["spawns"] = spawnsToAny(spawns)
-			} else {
-				finishedBy[i]["spawns"] = []any{}
-			}
-		}
-	}
-
-	if zone := inferZoneOrSort(places); zone != 0 {
-		fields["zoneOrSort"] = zone
-	}
 
 	row := map[string]any{"id": id, "fields": fields}
+	if len(unresolved) > 0 {
+		row["unresolved"] = unresolved
+	}
 	if len(startedBy) > 0 {
 		row["startedBy"] = mapsToAny(startedBy)
-	}
-	if len(finishedBy) > 0 {
-		row["finishedBy"] = mapsToAny(finishedBy)
 	}
 	if len(places) > 0 {
 		row["places"] = mapsToAny(places)
 	}
+	applyNormalizedEvidence(row, block, ctx)
 	return row, reports, nil
 }
 
@@ -354,7 +425,9 @@ func questNameFromSource(fileText string, id int) string {
 	for _, match := range questNameRE.FindAllStringSubmatch(fileText, -1) {
 		questID, _ := strconv.Atoi(match[1])
 		if questID == id {
-			return strings.TrimSpace(match[2])
+			if strings.TrimSpace(match[0][strings.Index(match[0], "{")+1:strings.Index(match[0], "--")]) == "" {
+				return strings.TrimSpace(match[2])
+			}
 		}
 	}
 	return ""
@@ -419,7 +492,7 @@ func applyAltQuests(fields map[string]any, block string) error {
 	for _, id := range ids {
 		list = append(list, id)
 	}
-	fields["exclusiveTo"] = list
+	fields["altQuests"] = list
 	return nil
 }
 
@@ -459,6 +532,8 @@ func applyQuestFlags(fields map[string]any, block string) {
 			name = match[2]
 		}
 		switch name {
+		case "isBreadcrumb":
+			fields["isBreadcrumb"] = true
 		case "isDaily":
 			questFlags |= 4096
 		case "isWeekly":
@@ -545,15 +620,45 @@ func parseIDList(body string) ([]int, error) {
 }
 
 func stripLineComments(text string) string {
-	var b strings.Builder
-	for _, line := range strings.Split(text, "\n") {
-		if idx := strings.Index(line, "--"); idx >= 0 {
-			line = line[:idx]
+	out := []byte(text)
+	quote := byte(0)
+	for i := 0; i < len(text); i++ {
+		if quote != 0 {
+			if text[i] == '\\' {
+				i++
+				continue
+			}
+			if text[i] == quote {
+				quote = 0
+			}
+			continue
 		}
-		b.WriteString(line)
-		b.WriteByte('\n')
+		if text[i] == '"' || text[i] == '\'' {
+			quote = text[i]
+			continue
+		}
+		if i+1 < len(text) && text[i:i+2] == "--" {
+			end := i + 2
+			if closer, width := luaLongComment(text, i); width > 0 {
+				if index := strings.Index(text[i+width:], closer); index >= 0 {
+					end = i + width + index + len(closer)
+				} else {
+					end = len(text)
+				}
+			} else {
+				for end < len(text) && text[end] != '\n' {
+					end++
+				}
+			}
+			for j := i; j < end; j++ {
+				if out[j] != '\n' && out[j] != '\r' {
+					out[j] = ' '
+				}
+			}
+			i = end - 1
+		}
 	}
-	return b.String()
+	return string(out)
 }
 
 func questProviders(block string) ([]providerRef, error) {
@@ -568,39 +673,39 @@ func questProviders(block string) ([]providerRef, error) {
 		seen[key] = true
 		refs = append(refs, ref)
 	}
-	for _, match := range providerRE.FindAllStringSubmatch(block, -1) {
-		id, _ := strconv.Atoi(match[1])
-		add("n", id)
+	raw := topFields(block)
+	if value, err := strconv.Atoi(raw["qg"]); err == nil && value > 0 {
+		add("n", value)
 	}
-	for _, match := range providersRE.FindAllStringSubmatch(block, -1) {
-		for _, idText := range idRE.FindAllString(match[1], -1) {
-			id, _ := strconv.Atoi(idText)
-			add("n", id)
+	if values, ok := literalLuaList(raw["qgs"], nil); ok {
+		for _, value := range values {
+			if id, ok := value.(int); ok && id > 0 {
+				add("n", id)
+			}
 		}
 	}
-	for _, match := range providerSingleRE.FindAllStringSubmatch(block, -1) {
-		id, _ := strconv.Atoi(match[2])
-		add(match[1], id)
-	}
-	masked := maskLua(block)
-	for _, indexes := range providersMultiRE.FindAllStringIndex(masked, -1) {
-		open := indexes[1]
-		for open < len(block) && block[open] != '{' {
-			open++
-		}
-		if open >= len(block) {
+	for _, name := range []string{"provider", "providers"} {
+		expression, exists := raw[name]
+		if !exists {
 			continue
 		}
-		end, err := luaTableEnd(block, open)
-		if err != nil {
-			return nil, err
+		rows := []string{expression}
+		if name == "providers" {
+			rows, _ = luaListExpressions(expression)
 		}
-		inner := block[open+1 : end]
-		for _, row := range regexp.MustCompile(`\{\s*"([noi])"\s*,\s*(\d+)\s*\}`).FindAllStringSubmatch(inner, -1) {
-			id, _ := strconv.Atoi(row[2])
-			add(row[1], id)
+		for _, row := range rows {
+			values, ok := literalLuaList(row, nil)
+			if !ok || len(values) != 2 {
+				continue
+			}
+			kind, kindOK := values[0].(string)
+			id, idOK := values[1].(int)
+			if kindOK && idOK && id > 0 && (kind == "i" || kind == "o" || kind == "n") {
+				add(kind, id)
+			}
 		}
 	}
+
 	return refs, nil
 }
 
@@ -626,7 +731,10 @@ func providersToRows(refs []providerRef) []map[string]any {
 func questLevelCoords(path string, id int, block string, ctx exportContext) (map[string][]Spawn, []Report, error) {
 	coordsByProvider := map[string][]Spawn{}
 	var reports []Report
-	coordRows := questCoordinateTables(block)
+	coordRows, err := coordinateTables(block)
+	if err != nil {
+		return nil, nil, err
+	}
 	spawns, badMap, err := resolveCoordRows(path, id, coordRows, ctx)
 	if err != nil {
 		return nil, nil, err
@@ -695,91 +803,176 @@ func parseObjectives(path string, id int, block string, ctx exportContext) (map[
 	objectives := map[string]any{}
 	places := []map[string]any{}
 	seen := map[string]bool{}
+	var unsupported []string
 	masked := maskLua(block)
 	for _, indexes := range objectiveCallRE.FindAllStringIndex(masked, -1) {
-		open := indexes[0]
-		for open < len(block) && block[open] != '{' {
-			open++
-		}
+		open := indexes[1] - 1
 		end, err := luaTableEnd(block, open)
 		if err != nil {
-			return nil, nil, fmt.Errorf("%s quest %d objective: %w", path, id, err)
+			unsupported = append(unsupported, err.Error())
+			continue
 		}
-		objBlock := block[open+1 : end]
-		text := ""
-		if match := objectiveTextRE.FindStringSubmatch(block[indexes[0]:]); len(match) == 2 {
-			text = strings.TrimSpace(match[1])
-		}
-		var itemID int
-		var creatureIDs []int
-		if match := providerSingleRE.FindStringSubmatch(objBlock); len(match) == 3 {
-			providerID, _ := strconv.Atoi(match[2])
-			switch match[1] {
-			case "i":
-				itemID = providerID
-			case "n":
-				creatureIDs = append(creatureIDs, providerID)
-			case "o":
-				spawns, _, err := resolveCoordRows(path, id, coordRowsFromBlock(objBlock), ctx)
-				if err != nil {
-					return nil, nil, err
-				}
-				place := map[string]any{
-					"role": "objective", "type": "object", "id": providerID, "spawns": spawnsToAny(spawns),
-				}
-				if text != "" {
-					place["name"] = text
-				}
-				places = addPlace(places, seen, place)
+		objBlock := topFieldBlock(block[open+1 : end])
+		raw := topFields(objBlock)
+		if explicit, exists := raw["questID"]; exists {
+			owner, err := strconv.Atoi(explicit)
+			if err != nil || owner <= 0 {
+				unsupported = append(unsupported, "unsupported objective questID = "+explicit)
+				continue
 			}
-		}
-		if match := crRE.FindStringSubmatch(objBlock); len(match) == 2 {
-			creatureID, _ := strconv.Atoi(match[1])
-			creatureIDs = append(creatureIDs, creatureID)
-		}
-		if match := crsRE.FindStringSubmatch(objBlock); len(match) == 2 {
-			for _, idText := range idRE.FindAllString(match[1], -1) {
-				creatureID, _ := strconv.Atoi(idText)
-				creatureIDs = append(creatureIDs, creatureID)
+			if owner != id {
+				continue
 			}
+		} else if owner, found := enclosingQuestID(block, indexes[0]); found && owner != id {
+			continue
 		}
-		spawns, _, err := resolveCoordRows(path, id, coordRowsFromBlock(objBlock), ctx)
+		label := ""
+		line := strings.SplitN(block[open+1:end], "\n", 2)[0]
+		if comment := strings.Index(line, "--"); comment >= 0 && strings.TrimSpace(line[:comment]) == "" {
+			label = strings.TrimSpace(line[comment+2:])
+		}
+		refs, err := questProviders(objBlock)
 		if err != nil {
-			return nil, nil, err
+			unsupported = append(unsupported, err.Error())
 		}
-		for _, creatureID := range unique(creatureIDs) {
-			entry := map[string]any{"id": creatureID}
-			if text != "" {
-				entry["text"] = text
+		for _, name := range []string{"provider", "providers"} {
+			expression, exists := raw[name]
+			if !exists {
+				continue
 			}
-			objectives["creature"] = appendSliceObjective(objectives["creature"], entry)
-			place := map[string]any{
-				"role": "objective", "type": "npc", "id": creatureID, "spawns": spawnsToAny(spawns),
+			rows := []string{expression}
+			if name == "providers" {
+				var ok bool
+				rows, ok = luaListExpressions(expression)
+				if !ok {
+					unsupported = append(unsupported, fmt.Sprintf("objective %s = %s: unsupported provider list", name, expression))
+					continue
+				}
 			}
-			if text != "" {
-				place["name"] = text
+			for _, row := range rows {
+				values, ok := literalLuaList(row, ctx.constants)
+				if !ok || len(values) != 2 {
+					unsupported = append(unsupported, fmt.Sprintf("objective %s = %s: unsupported provider expression", name, row))
+					continue
+				}
+				kind, kindOK := values[0].(string)
+				providerID, idOK := values[1].(int)
+				if !kindOK || !idOK || providerID <= 0 || (kind != "i" && kind != "o" && kind != "n") {
+					unsupported = append(unsupported, fmt.Sprintf("objective %s = %s: unsupported provider type or ID", name, row))
+				} else {
+					refs = append(refs, providerRef{kind: attProviderKind(kind), id: providerID})
+				}
 			}
-			places = addPlace(places, seen, place)
 		}
-		if itemID != 0 {
-			entry := map[string]any{"id": itemID}
-			if text != "" {
-				entry["text"] = text
+		for _, name := range []string{"cr", "crs"} {
+			expression, exists := raw[name]
+			if !exists {
+				continue
 			}
-			objectives["item"] = appendSliceObjective(objectives["item"], entry)
-			place := map[string]any{
-				"role": "objective", "type": "item", "id": itemID, "itemId": itemID, "spawns": spawnsToAny(spawns),
+			values := []any{}
+			if name == "cr" {
+				value, err := strconv.Atoi(expression)
+				if err != nil {
+					unsupported = append(unsupported, "objective cr = "+expression)
+					continue
+				}
+				values = append(values, value)
+			} else {
+				var ok bool
+				values, ok = literalLuaList(expression, ctx.constants)
+				if !ok {
+					unsupported = append(unsupported, "objective crs = "+expression)
+					continue
+				}
 			}
-			if text != "" {
-				place["name"] = text
+			for _, value := range values {
+				providerID, ok := value.(int)
+				if ok && providerID > 0 {
+					refs = append(refs, providerRef{kind: "npc", id: providerID})
+				} else {
+					unsupported = append(unsupported, "objective "+name+" = "+expression)
+				}
+			}
+		}
+		var spawns []Spawn
+		coordRows, err := coordinateTables(objBlock)
+		if err != nil {
+			unsupported = append(unsupported, err.Error())
+		} else {
+			var badMap string
+			spawns, badMap, err = resolveCoordRows(path, id, coordRows, ctx)
+			if err != nil {
+				unsupported = append(unsupported, err.Error())
+			}
+			if badMap != "" {
+				unsupported = append(unsupported, badMap)
+			}
+		}
+		objectiveSeen := map[string]bool{}
+		for _, ref := range refs {
+			if objectiveSeen[providerKey(ref)] {
+				continue
+			}
+			objectiveSeen[providerKey(ref)] = true
+			group := ref.kind
+			if group == "npc" {
+				group = "creature"
+			}
+			entry := map[string]any{"id": ref.id}
+			if label != "" {
+				entry["text"] = label
+			}
+			objectives[group] = appendSliceObjective(objectives[group], entry)
+			place := map[string]any{"role": "objective", "type": ref.kind, "id": ref.id, "spawns": spawnsToAny(spawns)}
+			if ref.kind == "item" {
+				place["itemId"] = ref.id
+			}
+			if label != "" {
+				place["name"] = label
 			}
 			places = addPlace(places, seen, place)
 		}
 	}
-	if len(objectives) == 0 {
-		return nil, places, nil
+	if len(unsupported) > 0 {
+		return objectives, places, fmt.Errorf("%s quest %d: %s", path, id, strings.Join(unsupported, "; "))
 	}
 	return objectives, places, nil
+}
+
+func luaListExpressions(expression string) ([]string, bool) {
+	expression = strings.TrimSpace(expression)
+	if !strings.HasPrefix(expression, "{") || !strings.HasSuffix(expression, "}") {
+		return nil, false
+	}
+	content := expression[1 : len(expression)-1]
+	masked := maskLua(content)
+	depth := 0
+	start := 0
+	var rows []string
+	for index := 0; index < len(masked); index++ {
+		switch masked[index] {
+		case '{', '(', '[':
+			depth++
+		case '}', ')', ']':
+			depth--
+		}
+		if masked[index] == ',' && depth == 0 {
+			if value := strings.TrimSpace(content[start:index]); value != "" {
+				rows = append(rows, value)
+			}
+			start = index + 1
+		}
+		if depth < 0 {
+			return nil, false
+		}
+	}
+	if depth != 0 {
+		return nil, false
+	}
+	if value := strings.TrimSpace(content[start:]); value != "" {
+		rows = append(rows, value)
+	}
+	return rows, true
 }
 
 func coordRowsFromBlock(block string) []string {
@@ -851,15 +1044,36 @@ func addPlace(places []map[string]any, seen map[string]bool, place map[string]an
 func mergeDumpRow(existing, incoming map[string]any) {
 	inFields, _ := incoming["fields"].(map[string]any)
 	exFields, _ := existing["fields"].(map[string]any)
+	for _, key := range []string{"declarations", "unresolved"} {
+		incomingRows, _ := incoming[key].([]any)
+		if len(incomingRows) > 0 {
+			existingRows, _ := existing[key].([]any)
+			existing[key] = append(existingRows, incomingRows...)
+		}
+	}
 	if inFields == nil {
 		return
 	}
 	if exFields == nil {
 		existing["fields"] = inFields
 	} else {
-		for key, value := range inFields {
-			if exFields[key] == nil || exFields[key] == "" || exFields[key] == 0 {
+		keys := make([]string, 0, len(inFields))
+		for key := range inFields {
+			keys = append(keys, key)
+		}
+		sort.Strings(keys)
+		for _, key := range keys {
+			value := inFields[key]
+			if existingValue, exists := exFields[key]; exists && !reflect.DeepEqual(existingValue, value) {
+				conflicts, _ := existing["unresolved"].([]any)
+				conflicts = append(conflicts, map[string]any{"field": key, "reason": "conflicting declarations", "values": []any{existingValue, value}})
+				existing["unresolved"] = conflicts
+				delete(exFields, key)
+			} else if !exists && !hasFieldConflict(existing, key) {
 				exFields[key] = value
+				if paths, ok := incoming["fieldPaths"].(map[string]string); ok {
+					existing["fieldPaths"].(map[string]string)[key] = paths[key]
+				}
 			}
 		}
 	}
@@ -935,4 +1149,78 @@ func mergePlaceList(existing, incoming map[string]any) {
 
 func placeKey(place map[string]any) string {
 	return fmt.Sprintf("%s\x00%s\x00%v\x00%v", place["role"], place["type"], place["id"], place["itemId"])
+}
+
+func enclosingQuestID(block string, position int) (int, bool) {
+	masked := maskLua(block)
+	owner := 0
+	found := false
+	for _, match := range questDeclarationRE.FindAllStringSubmatchIndex(masked[:position], -1) {
+		open := strings.Index(masked[match[0]:match[1]], "(") + match[0]
+		depth := 1
+		close := open + 1
+		for ; close < len(masked); close++ {
+			if masked[close] == '(' {
+				depth++
+			}
+			if masked[close] == ')' {
+				depth--
+				if depth == 0 {
+					break
+				}
+			}
+		}
+		if close > position {
+			owner, _ = strconv.Atoi(masked[match[2]:match[3]])
+			found = true
+		}
+	}
+	return owner, found
+}
+
+func mergeObjectiveRoute(byID map[int]map[string]any, route map[string]any) {
+	id := route["id"].(int)
+	target, exists := byID[id]
+	if !exists {
+		target = map[string]any{"id": id, "fields": map[string]any{}, "fieldPaths": map[string]string{}}
+		byID[id] = target
+	}
+	fields := target["fields"].(map[string]any)
+	routeFields := route["fields"].(map[string]any)
+	incoming, _ := routeFields["objectives"].(map[string]any)
+	if len(incoming) > 0 && !hasFieldConflict(target, "objectives") {
+		groups, _ := fields["objectives"].(map[string]any)
+		if groups == nil {
+			groups = map[string]any{}
+		}
+		for kind, raw := range incoming {
+			entries, _ := groups[kind].([]any)
+			for _, entry := range raw.([]any) {
+				duplicate := false
+				for _, existing := range entries {
+					if reflect.DeepEqual(existing, entry) {
+						duplicate = true
+						break
+					}
+				}
+				if !duplicate {
+					entries = append(entries, entry)
+				}
+			}
+			groups[kind] = entries
+		}
+		fields["objectives"] = groups
+		paths := target["fieldPaths"].(map[string]string)
+		if paths["objectives"] == "" {
+			paths["objectives"] = route["fieldPaths"].(map[string]string)["objectives"]
+		}
+	}
+	for _, key := range []string{"declarations", "unresolved"} {
+		incoming, _ := route[key].([]any)
+		existing, _ := target[key].([]any)
+		if len(incoming) > 0 {
+			target[key] = append(existing, incoming...)
+		}
+	}
+	mergePlaceList(target, route)
 }

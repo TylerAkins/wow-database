@@ -1,8 +1,9 @@
 # Ingestion
 
 Every adapter writes one versioned snapshot beneath `data/forever/sources/<source>/`.
-Adapters run offline against a local checkout or cache. They do not execute
-upstream Lua, download DB2 definitions, or scrape Wowhead in automation.
+Adapters run offline against a local checkout or cache. The QuestieDB adapter
+executes the checkout’s registered static providers with Lua 5.1. Adapters do not
+download DB2 definitions or scrape Wowhead in automation.
 
 ## Daily update
 
@@ -54,17 +55,27 @@ python3 tools/questiedb/import_source.py --repo .cache/QuestieDB \
   --flavor forever --out data/forever/sources/questiedb
 ```
 
-ATT imports supported Forever quest declarations and selected explicit NPC,
-item, object, and achievement entries. It retains source comments as labels,
+ATT follows the loader’s shared definitions, Forever configuration, and Forever
+data files, including `zzOLD`, with Forever preprocessor branches applied. It
+imports supported quest declarations and selected explicit NPC, item, object,
+and achievement entries. It retains source comments as labels,
 literal names/descriptions/levels/flags, quest relationships, and nested entity
 containment links. It does not evaluate arbitrary Lua or claim a complete ATT
-entity catalog. QuestieDB imports generated Quest, NPC, Item, and Object tables
+entity catalog. Repeated quest declarations retain paths, lines, and observations;
+unsupported expressions remain unresolved evidence. Literal ancestor restrictions
+are inherited. `lvl` maps to minimum `requiredLevel`, `requireSkill` to a profession
+gate, and `qi`/`qis` remain separate from item starters and objective items.
+QuestieDB imports generated Quest, NPC, Item, and Object tables
 for Forever. Its generated tables include the converted Classic baseline. The
-importer checks that every upstream Classic quest ID is retained. It preserves
-Forever-owned corrections, including converted legacy copies. Corrections are
-preserved without applying them. Dynamic corrections, support data, and derived
-runtime passes are reported as limitations in each snapshot manifest. Run the
-QuestieDB adapter locally to reproduce or inspect the scheduled snapshots.
+importer checks that every upstream Classic quest ID is retained. It applies
+registered static corrections in registry order, including generated Forever
+delta-base and trace providers and converted legacy copies. Field provenance
+identifies the provider that supplied the effective static value. Explicit clears
+remain distinct from missing fields. Dynamic Corrections, Derived Passes,
+localization, and getter defaults are not evaluated. These stages remain limitations
+in the snapshot manifest. Lua 5.1 must be available as `lua5.1` or through `LUA51`;
+other Lua versions are rejected. Run the adapter locally to reproduce the scheduled
+snapshot.
 
 ## Local Forever client
 

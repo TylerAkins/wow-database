@@ -3,8 +3,6 @@ package att
 
 import (
 	"fmt"
-	"io/fs"
-	"os"
 	"path/filepath"
 	"regexp"
 	"sort"
@@ -54,70 +52,14 @@ var (
 // Read loads the current ATT Forever database. It deliberately parses quest
 // declarations and literal quest-giver coordinates only, not arbitrary Lua.
 func Read(root string) (Result, error) {
-	const dataRoot = ".contrib/.db/forever"
-	mapPath := filepath.Join(root, dataRoot, ".config/constants/maps.lua")
-	mapBody, err := os.ReadFile(mapPath)
+	ctx, err := loadExportContext(root)
 	if err != nil {
-		return Result{}, fmt.Errorf("ATT map constants %s: %w", mapPath, err)
+		return Result{}, err
 	}
-	maps := map[string]int{}
-	for _, row := range mapConstRE.FindAllSubmatch(mapBody, -1) {
-		id, err := strconv.Atoi(string(row[2]))
-		if err != nil {
-			return Result{}, fmt.Errorf("ATT map constant %s: %w", row[1], err)
-		}
-		maps[string(row[1])] = id
-	}
-	if len(maps) == 0 {
-		return Result{}, fmt.Errorf("ATT map constants contain no supported assignments")
-	}
-
-	var files []string
-	err = filepath.WalkDir(filepath.Join(root, dataRoot), func(path string, entry fs.DirEntry, walkErr error) error {
-		if walkErr != nil {
-			return walkErr
-		}
-		if entry.IsDir() {
-			if entry.Name() == "zzOLD" {
-				return filepath.SkipDir
-			}
-			return nil
-		}
-		if strings.HasSuffix(path, ".lua") && !strings.Contains(path, string(filepath.Separator)+".config"+string(filepath.Separator)) {
-			files = append(files, path)
-		}
-		return nil
-	})
-	if err != nil {
-		return Result{}, fmt.Errorf("walk ATT Forever data: %w", err)
-	}
-	sort.Strings(files)
-	mapAreas := map[int]int{}
-	for mapID, areaID := range classicMapAreas {
-		mapAreas[mapID] = areaID
-	}
-	for _, path := range files {
-		body, readErr := os.ReadFile(path)
-		if readErr != nil {
-			return Result{}, readErr
-		}
-		if err := readMapAreas(path, body, maps, mapAreas); err != nil {
-			return Result{}, err
-		}
-	}
-	coordinateConstants := map[string][]Spawn{}
-	for _, path := range files {
-		body, readErr := os.ReadFile(path)
-		if readErr != nil {
-			return Result{}, readErr
-		}
-		if err := readCoordinateConstants(path, body, maps, mapAreas, coordinateConstants); err != nil {
-			return Result{}, err
-		}
-	}
+	files, maps, mapAreas, coordinateConstants := ctx.files, ctx.maps, ctx.mapAreas, ctx.coordinateConstants
 	var result Result
 	for _, path := range files {
-		body, err := os.ReadFile(path)
+		body, err := readSource(path, ctx.config)
 		if err != nil {
 			return Result{}, err
 		}

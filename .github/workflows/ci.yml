@@ -21,10 +21,25 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install Lua 5.1
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lua5.1
+          lua5.1 -e 'assert(_VERSION == "Lua 5.1")'
+
       - name: Set up Go
         uses: actions/setup-go@v7.0.0
         with:
           go-version: '1.27.2'
+
+      - name: Check out QuestieDB test runtime
+        uses: actions/checkout@v7.0.1
+        with:
+          repository: Questie/QuestieDB
+          ref: master
+          path: .cache/QuestieDB
+          fetch-depth: 1
+          persist-credentials: false
 
       - name: Offline tests
         run: python3 -m unittest discover -s tests -p 'test_*.py'

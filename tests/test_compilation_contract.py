@@ -14,8 +14,8 @@ class CompilationContractTests(unittest.TestCase):
         self.assertEqual(manifest_schema["properties"]["compilationFormatVersion"]["const"], 2)
 
         attributes = json.loads((root / "schemas/compilation-attributes.schema.json").read_text())
-        self.assertEqual(attributes["properties"]["questLevel"]["type"], "integer")
-        self.assertEqual(attributes["properties"]["zoneOrSort"]["type"], "integer")
+        self.assertEqual(attributes["properties"]["questLevel"]["type"], ["integer", "null"])
+        self.assertEqual(attributes["properties"]["zoneOrSort"]["type"], ["integer", "null"])
         self.assertIn("required", attributes["$defs"]["basicObjectives"]["items"])
         self.assertEqual(attributes["$defs"]["basicObjectives"]["items"]["required"], ["id"])
 
@@ -60,6 +60,28 @@ class CompilationContractTests(unittest.TestCase):
                 bad["attributes"]["sourceData"]["questiedb"]["revision"] = ""
             with self.subTest(mutation=mutation), self.assertRaises(ValueError):
                 validate_rows([bad], manifest)
+
+    def test_python_reader_preserves_signed_prerequisite_groups(self):
+        row, manifest = self.fixture()
+        row["attributes"]["preQuestGroup"] = [4976, -4962]
+        validate_rows([row], manifest)
+        row["attributes"]["preQuestGroup"] = [0]
+        with self.assertRaises(ValueError):
+            validate_rows([row], manifest)
+
+    def test_python_reader_preserves_signed_spell_lock(self):
+        row, manifest = self.fixture()
+        row["attributes"]["requiredSpell"] = -1229432
+        validate_rows([row], manifest)
+
+    def test_python_reader_preserves_explicit_scalar_clear(self):
+        row, manifest = self.fixture()
+        row["attributes"]["requiredSpell"] = None
+        row["fieldStates"] = {"requiredSpell": "empty"}
+        validate_rows([row], manifest)
+        row["fieldStates"] = {}
+        with self.assertRaises(ValueError):
+            validate_rows([row], manifest)
 
     def test_python_reader_rejects_malformed_format_two_shared_fields(self):
         row, manifest = self.fixture()

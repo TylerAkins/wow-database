@@ -18,6 +18,7 @@ var knownFields = map[string]bool{
 	"extraObjectives": true, "requiredSpell": true, "requiredSpecialization": true,
 	"requiredMaxLevel": true, "availableUntilCompleted": true, "availableStartingWith": true,
 	"requiredRanks": true, "disabledByQuest": true,
+	"isBreadcrumb": true, "providedItemId": true, "providedItemIds": true, "lockCriteria": true, "description": true, "altQuests": true, "sourceQuests": true, "sourceQuestNumRequired": true,
 }
 
 var placeRoles = map[string]bool{
@@ -35,6 +36,9 @@ func publishQuest(id int, row map[string]any) (map[string]any, error) {
 		}
 	}
 	quest := map[string]any{"id": id}
+	for _, field := range []string{"declarations", "unresolved"} {
+		copyValue(quest, field, row[field])
+	}
 	if text, ok := stringField(fields["name"]); ok {
 		quest["name"] = text
 	}
@@ -63,6 +67,9 @@ func publishQuest(id int, row map[string]any) (map[string]any, error) {
 		quest["requiredClasses"] = classes
 	}
 	quest["faction"] = factionFor(races)
+	for _, field := range []string{"isBreadcrumb", "providedItemId", "providedItemIds", "lockCriteria", "description", "altQuests", "sourceQuests", "sourceQuestNumRequired"} {
+		copyValue(quest, field, fields[field])
+	}
 	copyValue(quest, "objectivesText", fields["objectivesText"])
 	copyValue(quest, "objectives", fields["objectives"])
 	copyValue(quest, "triggerEnd", fields["triggerEnd"])
@@ -228,7 +235,8 @@ func professionName(skill []int, ranks [][]int) (string, error) {
 			continue
 		}
 		if _, ok := professionKeys[candidate]; !ok {
-			return "", fmt.Errorf("unknown profession skill %d", candidate)
+			// Preserve the gate even when its specialization has no optional sort label.
+			return "", nil
 		}
 	}
 	return professionKeys[id], nil

@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
-"""Safely import QuestieDB's Forever entities, including the Classic baseline."""
+"""Import QuestieDB Forever data after its registered Static Corrections."""
 
 from __future__ import annotations
 
 import argparse
 import json
+import os
+import shutil
+import tempfile
 import re
 import subprocess
 import sys
@@ -170,74 +173,90 @@ def _is_empty(value: Any) -> bool:
     return value is None or value == "" or value == [] or value == {}
 
 
-def parse_static_corrections(repo: Path, flavor: str, revision: str) -> tuple[list[dict[str, Any]], list[str]]:
-    # Forever owns its providers, including converted legacy copies beneath
-    # Forever/legacy; it no longer inherits the Era or Shared providers.
-    if flavor != "forever":
-        raise ImportErrorMessage(f"unsupported flavor {flavor!r}")
-    folders = ["Forever"]
-    rows: list[dict[str, Any]] = []
-    found_layers: set[str] = set()
-    static_methods = re.compile(r"function\s+[A-Za-z_][A-Za-z0-9_]*:(Load|LoadAutomatics|LoadAutomaticQuestStarts)\s*\([^)]*\)")
-    for folder in folders:
-        base = repo / "src" / "corrections" / folder
-        if not base.exists():
-            continue
-        for path in sorted(base.rglob("*.lua")):
-            kind_match = re.search(r"(Quest|NPC|Item|Object).*Fixes\.lua$", path.name, re.IGNORECASE)
-            if not kind_match:
-                continue
-            body = read_source(path)
-            entity_type = kind_match.group(1).lower()
-            for method_match in static_methods.finditer(body):
-                method_end = method_match.end()
-                next_method = re.search(r"\bfunction\s+[A-Za-z_][A-Za-z0-9_]*:", body[method_end:])
-                method_limit = method_end + next_method.start() if next_method else len(body)
-                method_body = body[method_end:method_limit]
-                return_match = re.search(r"\breturn\s*\{", method_body)
-                if not return_match:
-                    continue
-                table = extract_table(method_body, return_match.start(), preserve_expressions=True)
-                found_layers.add(folder)
-                for target_id, fields in table.items():
-                    if not isinstance(target_id, int) or not isinstance(fields, dict):
-                        raise ImportErrorMessage(f"{path}: invalid static correction for {target_id!r}")
-                    for raw_field, value in fields.items():
-                        if not isinstance(raw_field, str) or not raw_field.startswith("$ref:"):
-                            raise ImportErrorMessage(f"{path}: correction field key is not a QuestieDB literal reference")
-                        field_name = raw_field.removeprefix("$ref:questKeys.").removeprefix("$ref:npcKeys.").removeprefix("$ref:itemKeys.").removeprefix("$ref:objectKeys.")
-                        correction_id = f"correction:{folder}:{path.relative_to(base).as_posix()}:{method_match.group(1)}:{entity_type}:{target_id}:{field_name}"
-                        row = {
-                            "schemaVersion": SCHEMA_VERSION,
-                            "flavor": "forever",
-                            "entityType": "relationship",
-                            "entityId": correction_id,
-                            "source": "questiedb",
-                            "sourceRevision": revision,
-                            "attributes": {
-                                "correction": {
-                                    "layer": folder,
-                                    "method": method_match.group(1),
-                                    "targetType": entity_type,
-                                    "targetId": str(target_id),
-                                    "field": field_name,
-                                    "value": json_value(value),
-                                    "application": "not-evaluated",
-                                }
-                            },
-                            "fieldStates": {"effectiveValue": "unavailable"},
-                            "provenance": {
-                                "correction": {"source": "questiedb", "revision": revision, "path": path.relative_to(repo).as_posix()},
-                                "effectiveValue": {"source": "questiedb", "revision": revision, "path": path.relative_to(repo).as_posix()},
-                            },
-                        }
-                        rows.append(row)
-    rows.sort(key=lambda row: (row["entityType"], row["entityId"]))
-    limitations = []
-    if found_layers:
-        limitations.append("Static QuestieDB corrections are preserved as unevaluated literal/expression records; source entity attributes remain the raw generated data values.")
-    limitations.append("Dynamic correction functions, derived passes, generated deltas, and support bundles are not evaluated or imported.")
-    return rows, limitations
+# These are the nested structures declared by QuestieDB's table operation schema.
+TUPLE_SHAPES = {
+    "pair": ("integer", "integer"),
+    "coordinate": ("number", "number", "integer"),
+    "objective": ("integer", "string", "integer"),
+    "kill": ("idarray", "integer", "string", "integer"),
+    "reference": ("referenceKind", "integer"),
+    "extra": ("spawnlist", "integer", "string", "integer", "references"),
+    "trigger": ("string", "spawnlist"),
+    "questgivers": ("idarray", "idarray", "idarray"),
+    "objectives": ("objectiveList", "objectiveList", "objectiveList", "pair", "killList", "objectiveList"),
+}
+LIST_SHAPES = {
+    "idarray": "integer", "stringarray": "string", "pairs": "pair", "extraobjectives": "extra",
+    "objectiveList": "objective", "killList": "kill", "references": "reference", "path": "coordinate",
+}
+SCALAR_SHAPES = {"integer", "number", "string", "referenceKind"}
+
+
+def structured_json_value(value: Any, shape: str) -> Any:
+    """Keep schema maps keyed and retain nil holes in positional Lua tables."""
+    if value is None or shape in SCALAR_SHAPES:
+        return value
+    if shape in ("spawnlist", "waypointlist"):
+        if isinstance(value, list):
+            entries = ((str(index), child) for index, child in enumerate(value, 1) if child is not None)
+        elif isinstance(value, dict):
+            entries = value.items()
+        else:
+            raise ImportErrorMessage(f"expected {shape} map, got {value!r}")
+        child_shape = "coordinate" if shape == "spawnlist" else "path"
+        return {str(zone): structured_json_value(rows, "list:" + child_shape) for zone, rows in entries if rows is not None}
+    slots = TUPLE_SHAPES.get(shape)
+    element = LIST_SHAPES.get(shape)
+    if shape.startswith("list:"):
+        element = shape.removeprefix("list:")
+    if slots is None and element is None:
+        raise ImportErrorMessage(f"unsupported QuestieDB structure {shape!r}")
+    if isinstance(value, dict):
+        indices = {}
+        for key, child in value.items():
+            if not str(key).isdigit() or int(key) < 1:
+                raise ImportErrorMessage(f"non-positional key {key!r} in QuestieDB {shape}")
+            indices[int(key)] = child
+        value = [indices.get(index) for index in range(1, max(indices, default=0) + 1)]
+    if not isinstance(value, list):
+        raise ImportErrorMessage(f"expected positional QuestieDB {shape}, got {value!r}")
+    if slots is not None and len(value) > len(slots):
+        raise ImportErrorMessage(f"unknown tuple slot in QuestieDB {shape}")
+    return [structured_json_value(child, slots[index] if slots else element) for index, child in enumerate(value)]
+
+
+def effective_static_rows(repo: Path, revision: str, lua: str | None = None) -> tuple[list[dict[str, Any]], dict[str, Any]]:
+    interpreter = lua or os.environ.get("LUA51") or shutil.which("lua5.1") or shutil.which("lua-5.1")
+    if not interpreter:
+        raise ImportErrorMessage("Lua 5.1 is required for effective static data; set LUA51 or pass --lua")
+    version = subprocess.run([interpreter, "-e", "io.write(_VERSION)"], check=True, capture_output=True, text=True).stdout
+    if version != "Lua 5.1":
+        raise ImportErrorMessage(f"expected Lua 5.1, found {version!r}")
+    bridge = Path(__file__).with_name("effective_static.lua").resolve()
+    rows = []
+    with tempfile.TemporaryDirectory(prefix="questiedb-static-") as temporary:
+        result_path = Path(temporary) / "effective.lua"
+        result = subprocess.run([interpreter, str(bridge), str(result_path)], cwd=repo, capture_output=True, text=True)
+        if result.returncode:
+            raise ImportErrorMessage(f"registered static provider evaluation failed: {result.stderr.strip()}")
+        with result_path.open(encoding="utf-8") as stream:
+            metadata = json_value(parse(stream.readline()))
+            structures = metadata.pop("fieldStructures")
+            for line in stream:
+                row = json_value(parse(line))
+                for key in ("attributes", "fieldStates", "provenance"):
+                    if row[key] == []:
+                        row[key] = {}
+                for field, shape in structures[row["entityType"]].items():
+                    if field in row["attributes"]:
+                        row["attributes"][field] = structured_json_value(row["attributes"][field], shape)
+                for field in row.pop("scalarClears"):
+                    row["attributes"][field] = None
+                row.update(schemaVersion=SCHEMA_VERSION, flavor="forever", source="questiedb", sourceRevision=revision)
+                for provenance in row["provenance"].values():
+                    provenance.update(source="questiedb", revision=revision)
+                rows.append(row)
+    return rows, metadata
 
 
 def resolve_revision(repo: Path, supplied: str | None) -> str:
@@ -251,26 +270,20 @@ def resolve_revision(repo: Path, supplied: str | None) -> str:
     return revision
 
 
-def import_source(repo: Path, flavor: str, out: Path, revision: str | None) -> None:
+def import_source(repo: Path, flavor: str, out: Path, revision: str | None, lua: str | None = None) -> None:
     if flavor not in FLAVORS:
         raise ImportErrorMessage(f"unsupported flavor {flavor!r}")
     revision = resolve_revision(repo, revision)
-    data_dir = repo / "data" / FLAVORS[flavor]
-    rows: list[dict[str, Any]] = []
-    for entity_type, (prefix, _) in ENTITY_TYPES.items():
-        filename = f"{FLAVORS[flavor].lower()}{prefix}DB.lua"
-        path = data_dir / filename
-        if not path.is_file():
-            raise ImportErrorMessage(f"required entity source is missing: {path}")
-        rows.extend(parse_entity_file(path, entity_type, repo))
+    if not (repo / "generator" / "runtime.lua").is_file():
+        raise ImportErrorMessage("QuestieDB generator/runtime.lua is required to evaluate registered Static Corrections")
+    rows, metadata = effective_static_rows(repo, revision, lua)
     classic_path = repo / "data" / "Classic" / "classicQuestDB.lua"
     classic_ids = {row["entityId"] for row in parse_entity_file(classic_path, "quest", repo)}
     forever_ids = {row["entityId"] for row in rows if row["entityType"] == "quest"}
     missing = sorted(classic_ids - forever_ids, key=int)
     if missing:
         raise ImportErrorMessage(f"Forever generated quests omit {len(missing)} Classic quest ID(s): {', '.join(missing[:20])}")
-    corrections, limitations = parse_static_corrections(repo, flavor, revision)
-    rows.extend(corrections)
+    limitations = ["Effective static data includes registered Static Corrections only. Dynamic Corrections, Derived Passes, localization, getter defaults and getter normalization are not evaluated."]
     for row in rows:
         row["sourceRevision"] = revision
         for field, provenance in row["provenance"].items():
@@ -283,6 +296,7 @@ def import_source(repo: Path, flavor: str, out: Path, revision: str | None) -> N
         "generatedAt": commit_time or datetime.now(timezone.utc).isoformat(),
         "status": "partial" if limitations else "complete",
         "limitations": limitations,
+        **metadata,
     }
     atomic_write_dataset(out, rows, manifest)
     print(f"QuestieDB {flavor}: wrote {len(rows)} records from {revision}")
@@ -292,11 +306,12 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--repo", type=Path, required=True, help="local QuestieDB checkout")
     parser.add_argument("--flavor", choices=sorted(FLAVORS), required=True)
+    parser.add_argument("--lua", help="Lua 5.1 executable (or set LUA51)")
     parser.add_argument("--revision", help="full source SHA (defaults to local checkout HEAD)")
     parser.add_argument("--out", type=Path, required=True, help="canonical source dataset output directory")
     args = parser.parse_args(argv)
     try:
-        import_source(args.repo, args.flavor, args.out, args.revision)
+        import_source(args.repo, args.flavor, args.out, args.revision, args.lua)
     except (OSError, subprocess.CalledProcessError, LuaLiteralError, ImportErrorMessage) as exc:
         print(f"questiedb-import: {exc}", file=sys.stderr)
         return 1

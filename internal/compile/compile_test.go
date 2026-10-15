@@ -528,3 +528,45 @@ func sameFile(t *testing.T, left, right string) {
 		t.Fatalf("files differ\n%s\n%s", a, b)
 	}
 }
+
+func TestCompilePreservesATTItemAndCompletionSemantics(t *testing.T) {
+	dir := publish(t, dump(t, quest(10, map[string]any{
+		"sourceItemId": 1, "providedItemId": 2, "providedItemIds": []any{3, 4},
+		"isBreadcrumb": true, "lockCriteria": []any{1, "spellID", 5},
+		"description": "Catalog commentary", "altQuests": []any{11, 12},
+		"sourceQuests": []any{5, 6, 7}, "sourceQuestNumRequired": 2,
+	})))
+	body := readQuest(t, dir, 10)
+	for field, want := range map[string]string{"sourceItemId": "1", "providedItemId": "2", "providedItemIds": "[3,4]", "isBreadcrumb": "true", "lockCriteria": `[1,"spellID",5]`, "description": `"Catalog commentary"`, "altQuests": "[11,12]", "sourceQuests": "[5,6,7]", "sourceQuestNumRequired": "2"} {
+		encoded, err := json.Marshal(body[field])
+		if err != nil || string(encoded) != want {
+			t.Errorf("%s = %s, want %s: %v", field, encoded, want, err)
+		}
+	}
+}
+
+func TestCompilePreservesDeclarationAndUnresolvedEvidence(t *testing.T) {
+	declarations := []any{map[string]any{"path": "forever/zzOLD/quest.lua", "line": 7}}
+	unresolved := []any{map[string]any{"field": "races", "expression": "UnknownRaces()"}}
+	dir := publish(t, dump(t, quest(10, nil, map[string]any{"declarations": declarations, "unresolved": unresolved})))
+	body := readQuest(t, dir, 10)
+	for field, want := range map[string]any{"declarations": declarations, "unresolved": unresolved} {
+		gotJSON, _ := json.Marshal(body[field])
+		wantJSON, _ := json.Marshal(want)
+		if !bytes.Equal(gotJSON, wantJSON) {
+			t.Errorf("%s evidence lost: %s, want %s", field, gotJSON, wantJSON)
+		}
+	}
+}
+
+func TestCompileKeepsProfessionGateWithoutKnownSortLabel(t *testing.T) {
+	dir := publish(t, dump(t, quest(5124, map[string]any{"requiredSkill": []any{9788, 1}})))
+	body := readQuest(t, dir, 5124)
+	encoded, _ := json.Marshal(body["requiredSkill"])
+	if string(encoded) != `{"skillId":9788,"value":1}` {
+		t.Fatalf("profession gate lost: %s", encoded)
+	}
+	if body["questType"].(map[string]any)["profession"] != nil {
+		t.Fatal("unknown profession sort label invented")
+	}
+}
