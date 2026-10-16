@@ -7898,7 +7898,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1783,
+          "line": 1782,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/1 - stormwind city.lua",
           "rawFields": {
             "classes": "{ WARLOCK }",
@@ -8017,7 +8017,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/eastern kingdoms/1 - stormwind city.lua quest 65602: objective providers = { \"o\", createCustomObject({\t                                                                           \r\n\t\t\t\t\t\t\t\treadable = \"Archaeologist's Cart\",\r\n\t\t\t\t\t\t\t\ttext = {\r\n\t\t\t\t\t\t\t\t\ten = \"Archaeologist's Cart\",\r\n\t\t\t\t\t\t\t\t\t                 \r\n\t\t\t\t\t\t\t\t\t                 \r\n\t\t\t\t\t\t\t\t\t                 \r\n\t\t\t\t\t\t\t\t\t                 \r\n\t\t\t\t\t\t\t\t\t                 \r\n\t\t\t\t\t\t\t\t\t                 \r\n\t\t\t\t\t\t\t\t\t                 \r\n\t\t\t\t\t\t\t\t\t                 \r\n\t\t\t\t\t\t\t\t\tcn = \"考古学家的车\",\r\n\t\t\t\t\t\t\t\t\ttw = \"考古學家的推車\",\r\n\t\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\t}) }: unsupported provider expression"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/eastern kingdoms/1 - stormwind city.lua quest 65602: objective providers = { \"o\", createCustomObject({\t                                                                           \r\n\t\t\t\t\t\t\t\treadable = \"Archaeologist's Cart\",\r\n\t\t\t\t\t\t\t\ttext = {\r\n\t\t\t\t\t\t\t\t\ten = \"Archaeologist's Cart\",\r\n\t\t\t\t\t\t\t\t\t                 \r\n\t\t\t\t\t\t\t\t\t                 \r\n\t\t\t\t\t\t\t\t\t                 \r\n\t\t\t\t\t\t\t\t\t                 \r\n\t\t\t\t\t\t\t\t\t                 \r\n\t\t\t\t\t\t\t\t\t                 \r\n\t\t\t\t\t\t\t\t\t                 \r\n\t\t\t\t\t\t\t\t\t                 \r\n\t\t\t\t\t\t\t\t\tcn = \"考古学家的车\",\r\n\t\t\t\t\t\t\t\t\ttw = \"考古學家的推車\",\r\n\t\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\t}) }: unsupported provider expression"
         }
       ]
     },
@@ -8043,7 +8043,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1287,
+          "line": 1286,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/1 - stormwind city.lua",
           "rawFields": {
             "classes": "{ WARLOCK }",
@@ -8442,12 +8442,12 @@
             "requiredRaces": 162
           },
           "inheritedFields": {},
-          "line": 840,
+          "line": 940,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
             "classes": "{ WARRIOR, SHAMAN, DRUID }",
             "coord": "{ 39.6, 65.6, MAP.THUNDER_BLUFF }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                              \r\n\t\t\t\t\t\tprovider = { \"i\", 206157 },\t                          \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                              \r\n\t\t\t\t\t\tprovider = { \"i\", 206157 },\t                                \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "4",
             "qg": "205729",
             "qi": "206159",
@@ -8558,7 +8558,7 @@
             "requiredRaces": 162
           },
           "inheritedFields": {},
-          "line": 854,
+          "line": 954,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
             "coord": "{ 39.6, 65.6, MAP.THUNDER_BLUFF }",
@@ -8681,12 +8681,12 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 872,
+          "line": 972,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
             "classes": "{ SHAMAN }",
             "coord": "{ 39.6, 65.6, MAP.THUNDER_BLUFF }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                  \r\n\t\t\t\t\t\tprovider = { \"i\", 206345 },\t              \r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(277988),\t                       \r\n\t\t\t\t\ti(278002),\t              \r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                  \r\n\t\t\t\t\t\tprovider = { \"i\", 206345 },\t                    \r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(277988),\t                       \r\n\t\t\t\t\ti(278002),\t              \r\n\t\t\t\t}",
             "lvl": "4",
             "qg": "205729",
             "qi": "206344",
@@ -10478,7 +10478,7 @@
             "requiredLevel": 14
           },
           "inheritedFields": {},
-          "line": 310,
+          "line": 377,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/loch modan.lua",
           "rawFields": {
             "coord": "{ 49.5, 12.8, LOCH_MODAN }",
@@ -10641,11 +10641,11 @@
             "requiredLevel": 14
           },
           "inheritedFields": {},
-          "line": 34,
+          "line": 20,
           "path": ".contrib/.db/forever/zones/kalimdor/stonetalon mountains.lua",
           "rawFields": {
             "coord": "{ 40.8, 52.5, STONETALON_MOUNTAINS }",
-            "groups": "{\r\n\t\t\t\t\ti(216619, {\t                 \r\n\t\t\t\t\t\t[\"description\"] = \"This item gives you 4 bars of Rested Experience when consumed.\",\r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(217314),\t                  \r\n\t\t\t\t\ti(217315),\t                \r\n\t\t\t\t\ti(3463),\t              \r\n\t\t\t\t\ti(3464),\t                  \r\n\t\t\t\t\ti(3465),\t                 \r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\ti(216619, {\t                 \r\n\t\t\t\t\t\tdescription = \"This item gives you 4 bars of Rested Experience when consumed.\",\r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(217314),\t                  \r\n\t\t\t\t\ti(217315),\t                \r\n\t\t\t\t\ti(3463),\t              \r\n\t\t\t\t\ti(3464),\t                  \r\n\t\t\t\t\ti(3465),\t                 \r\n\t\t\t\t}",
             "lvl": "14",
             "provider": "{ \"o\", 424005 }",
             "sourceQuest": "79192",
@@ -10774,11 +10774,11 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 8,
+          "line": 37,
           "path": ".contrib/.db/forever/zones/kalimdor/stonetalon mountains.lua",
           "rawFields": {
             "coord": "{ 48.6, 39.8, MAP.STONETALON_MOUNTAINS }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                           \r\n\t\t\t\t\t\tprovider = { \"i\", 277917 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(281251),\t                        \r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                           \r\n\t\t\t\t\t\tprovider = { \"i\", 277917 },\t                                 \r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(281251),\t                        \r\n\t\t\t\t}",
             "lvl": "20",
             "qg": "268925",
             "qi": "277915",
@@ -10975,11 +10975,11 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 566,
+          "line": 645,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/loch modan.lua",
           "rawFields": {
             "coord": "{ 50.6, 53.4, MAP.LOCH_MODAN }",
-            "groups": "{\r\n\t\t\t\t\ti(281256),\t                       \r\n\t\t\t\t}",
+            "groups": "{ i(281256) }",
             "lvl": "13",
             "provider": "{ \"o\", 665289 }",
             "qi": "278051",
@@ -11067,7 +11067,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 577,
+          "line": 654,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/loch modan.lua",
           "rawFields": {
             "coord": "{ 36.4, 48.2, LOCH_MODAN }",
@@ -11199,7 +11199,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 654,
+          "line": 731,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/loch modan.lua",
           "rawFields": {
             "coord": "{ 81.8, 61.8, MAP.LOCH_MODAN }",
@@ -11318,7 +11318,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 453,
+          "line": 532,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/loch modan.lua",
           "rawFields": {
             "coord": "{ 34.0, 46.6, LOCH_MODAN }",
@@ -11419,11 +11419,11 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 534,
+          "line": 634,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 58.3, 50.4, MAP.TIRISFAL_GLADES }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t             \r\n\t\t\t\t\t\t[\"providers\"] = {\r\n\t\t\t\t\t\t\t{ \"i\", 279991 },\t             \r\n\t\t\t\t\t\t\t{ \"o\", 671154 },\t             \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                                             \r\n\t\t\t\t\t\t[\"provider\"] = { \"n\", 265812 },\t                     \r\n\t\t\t\t\t\t[\"coord\"] = { 57.3, 55.5, MAP.TIRISFAL_GLADES },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(279939),\t                    \r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t             \r\n\t\t\t\t\t\tproviders = {\r\n\t\t\t\t\t\t\t{ \"i\", 279991 },\t                   \r\n\t\t\t\t\t\t\t{ \"o\", 671154 },\t             \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                                             \r\n\t\t\t\t\t\tprovider = { \"n\", 265812 },\t                                  \r\n\t\t\t\t\t\tcoord = { 57.3, 55.5, MAP.TIRISFAL_GLADES },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(279939),\t                    \r\n\t\t\t\t}",
             "lvl": "4",
             "qg": "1742",
             "qi": "279937",
@@ -11561,7 +11561,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 986,
+          "line": 1078,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
             "coord": "{ 55.4, 57.2, MAP.TELDRASSIL }",
@@ -11668,7 +11668,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 621,
+          "line": 681,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 45.7, 16.6, MAP.WETLANDS }",
@@ -11753,11 +11753,11 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1009,
+          "line": 552,
           "path": ".contrib/.db/forever/zones/kalimdor/darkshore.lua",
           "rawFields": {
             "coord": "{ 36.62, 45.59, MAP.DARKSHORE }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                       \r\n\t\t\t\t\t\tprovider = { \"i\", 280686 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(5996),\t                            \r\n\t\t\t\t\ti(6372),\t                    \r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                       \r\n\t\t\t\t\t\tprovider = { \"i\", 280686 },\t                             \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "15",
             "qg": "10219",
             "races": "ALLIANCE_ONLY",
@@ -11861,7 +11861,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 189,
+          "line": 197,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 50.0, 18.2, MAP.WETLANDS }",
@@ -18824,7 +18824,7 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 45,
+          "line": 57,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "classes": "{ PALADIN }",
@@ -18902,7 +18902,7 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 53,
+          "line": 35,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "classes": "{ PALADIN }",
@@ -18988,12 +18988,12 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 61,
+          "line": 43,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "classes": "{ PALADIN }",
             "coord": "{ 31.0, 66.2, MAP.TIRISFAL_GLADES }",
-            "groups": "{\r\n\t\t\t\t\t\t\tobjective(1, {\t                           \r\n\t\t\t\t\t\t\t\t[\"provider\"] = { \"n\", 246152 },\t                 \r\n\t\t\t\t\t\t\t\t[\"coord\"] = { 60.3, 52.7, MAP.TIRISFAL_GLADES },\r\n\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\t\t\tobjective(1, {\t                           \r\n\t\t\t\t\t\t\t\tprovider = { \"n\", 246152 },\t                                   \r\n\t\t\t\t\t\t\t\tcoord = { 60.3, 52.7, MAP.TIRISFAL_GLADES },\r\n\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t}",
             "lvl": "4",
             "qg": "244808",
             "races": "{ UNDEAD }",
@@ -19451,7 +19451,7 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 86,
+          "line": 136,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "classes": "{ PALADIN }",
@@ -19541,12 +19541,12 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 94,
+          "line": 536,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "classes": "{ PALADIN }",
             "coord": "{ 21.85, 45.31, MAP.TIRISFAL_GLADES }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                    \r\n\t\t\t\t\t\tprovider = { \"n\", 250283 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                \r\n\t\t\t\t\t\tprovider = { \"n\", 250282 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(246164),\t               \r\n\t\t\t\t\ti(246165),\t                    \r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                    \r\n\t\t\t\t\t\tprovider = { \"n\", 250283 },\t                    \r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                \r\n\t\t\t\t\t\tprovider = { \"n\", 250282 },\t                \r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(246164),\t               \r\n\t\t\t\t\ti(246165),\t                    \r\n\t\t\t\t}",
             "lvl": "7",
             "qg": "246349",
             "races": "{ UNDEAD }",
@@ -19801,12 +19801,12 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 113,
+          "line": 522,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "classes": "{ PALADIN }",
             "coord": "{ 22.65, 44.77, MAP.TIRISFAL_GLADES }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                \r\n\t\t\t\t\t\tprovider = { \"i\", 246213 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(246265),\t                               \r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                \r\n\t\t\t\t\t\tprovider = { \"i\", 246213 },\t                      \r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(246265),\t                               \r\n\t\t\t\t}",
             "lvl": "8",
             "qg": "246393",
             "races": "{ UNDEAD }",
@@ -19914,12 +19914,12 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 127,
+          "line": 726,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "classes": "{ PALADIN }",
             "coord": "{ 22.05, 44.7, MAP.TIRISFAL_GLADES }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                   \r\n\t\t\t\t\t\tprovider = { \"n\", 259434 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                   \r\n\t\t\t\t\t\tprovider = { \"n\", 259433 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(3, {\t                          \r\n\t\t\t\t\t\tprovider = { \"i\", 270435 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                   \r\n\t\t\t\t\t\tprovider = { \"n\", 259434 },\t                   \r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                   \r\n\t\t\t\t\t\tprovider = { \"n\", 259433 },\t                   \r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(3, {\t                          \r\n\t\t\t\t\t\tprovider = { \"i\", 270435 },\t                                \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "9",
             "qg": "246378",
             "races": "{ UNDEAD }",
@@ -20509,7 +20509,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 863,
+          "line": 956,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
             "coord": "{ 65.0, 69.8, MAP.ELWYNN_FOREST }",
@@ -20619,7 +20619,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 876,
+          "line": 969,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
             "coord": "{ 65.0, 69.8, MAP.ELWYNN_FOREST }",
@@ -20736,7 +20736,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1329,
+          "line": 1430,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
             "coord": "{ 63.2, 72.6, MAP.ELWYNN_FOREST }",
@@ -20869,7 +20869,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1045,
+          "line": 1146,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
             "coord": "{ 82.6, 63.8, MAP.ELWYNN_FOREST }",
@@ -21018,7 +21018,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 925,
+          "line": 1026,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
             "coord": "{ 76.6, 72.0, MAP.ELWYNN_FOREST }",
@@ -21208,7 +21208,7 @@
             "specialFlags": 1
           },
           "inheritedFields": {},
-          "line": 550,
+          "line": 556,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
             "coord": "{ 24.6, 58.0, MAP.ELWYNN_FOREST }",
@@ -21291,7 +21291,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 493,
+          "line": 499,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
             "coord": "{ 24.0, 73.0, MAP.ELWYNN_FOREST }",
@@ -21373,7 +21373,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 834,
+          "line": 927,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
             "lvl": "7",
@@ -21696,7 +21696,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 955,
+          "line": 1056,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
             "lvl": "7",
@@ -21767,7 +21767,7 @@
             ]
           },
           "inheritedFields": {},
-          "line": 1246,
+          "line": 1347,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
             "coord": "{ 46.2, 62.2, MAP.ELWYNN_FOREST }",
@@ -21907,7 +21907,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 297,
+          "line": 303,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
             "coord": "{ 47.2, 32.17, MAP.ELWYNN_FOREST }",
@@ -22040,7 +22040,7 @@
             ]
           },
           "inheritedFields": {},
-          "line": 502,
+          "line": 508,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
             "coord": "{ 64.8, 70.6, MAP.ELWYNN_FOREST }",
@@ -22358,7 +22358,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 578,
+          "line": 584,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
             "coord": "{ 42.2, 65.8, MAP.ELWYNN_FOREST }",
@@ -22572,7 +22572,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1151,
+          "line": 1252,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
             "coord": "{ 42.2, 65.8, MAP.ELWYNN_FOREST }",
@@ -22729,7 +22729,7 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 146,
+          "line": 436,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "classes": "{ PALADIN }",
@@ -22893,12 +22893,12 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 16,
+          "line": 48,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/silverpine forest.lua",
           "rawFields": {
             "classes": "{ PALADIN }",
             "coord": "{ 64.0, 34.0, MAP.SILVERPINE_FOREST }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                  \r\n\t\t\t\t\t\tprovider = { \"i\", 267412 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                  \r\n\t\t\t\t\t\tprovider = { \"i\", 267412 },\t                        \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "18",
             "qg": "248755",
             "races": "{ UNDEAD }",
@@ -22994,13 +22994,13 @@
             "requiredLevel": 1
           },
           "inheritedFields": {},
-          "line": 722,
+          "line": 90,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/redridge mountains.lua",
           "rawFields": {
-            "coords": "{ { 9.75, 71.02, MAP.REDRIDGE_MOUNTAINS }, { 50.15, 29.35, MAP.THE_BARRENS } }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                          \r\n\t\t\t\t\t\tprovider = { \"i\", 248765 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "coords": "{\r\n\t\t\t\t\t{ 9.75, 71.02, MAP.REDRIDGE_MOUNTAINS },\r\n\t\t\t\t\t{ 50.15, 29.35, MAP.THE_BARRENS },\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                          \r\n\t\t\t\t\t\tprovider = { \"i\", 248765 },\t                                \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "1",
-            "qgs": "{ 256390, 256386 }",
+            "qgs": "{\r\n\t\t\t\t\t256390,\t                                 \r\n\t\t\t\t\t256386,\t                            \r\n\t\t\t\t}",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
           }
         }
@@ -23108,11 +23108,11 @@
             "requiredLevel": 1
           },
           "inheritedFields": {},
-          "line": 733,
+          "line": 107,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/redridge mountains.lua",
           "rawFields": {
             "coord": "{ 9.75, 71.02, MAP.REDRIDGE_MOUNTAINS }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                          \r\n\t\t\t\t\t\tprovider = { \"i\", 248766 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                          \r\n\t\t\t\t\t\tprovider = { \"i\", 248766 },\t                                \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "1",
             "qg": "256390",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
@@ -23202,14 +23202,14 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 29,
+          "line": 112,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/silverpine forest.lua",
           "rawFields": {
             "coord": "{ 53.43, 12.59, MAP.SILVERPINE_FOREST }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t             \r\n\t\t\t\t\t\tprovider = { \"i\", 730 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(4597),\t                                    \r\n\t\t\t\t\ti(4596),\t                            \r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t             \r\n\t\t\t\t\t\tprovider = { \"i\", 730 },\t             \r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(4597),\t                                              \r\n\t\t\t\t}",
             "lvl": "10",
             "qg": "1951",
-            "races": "{ ORC, UNDEAD, TAUREN, TROLL, SKYBORNE_HORDE }",
+            "races": "HORDE_ONLY",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
           }
         }
@@ -23297,14 +23297,14 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 43,
+          "line": 61,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/silverpine forest.lua",
           "rawFields": {
             "coord": "{ 42.8, 40.86, MAP.SILVERPINE_FOREST }",
             "lvl": "10",
             "qg": "1937",
             "qi": "248930",
-            "races": "{ ORC, UNDEAD, TAUREN, TROLL, SKYBORNE_HORDE }",
+            "races": "HORDE_ONLY",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
           }
         }
@@ -25219,7 +25219,7 @@
             "name": "Coming of Age"
           },
           "inheritedFields": {},
-          "line": 522,
+          "line": 629,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 42.8, 23.4, MAP.ZEPHRAS_ISLE }",
@@ -25283,7 +25283,7 @@
             ]
           },
           "inheritedFields": {},
-          "line": 760,
+          "line": 866,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 42.1, 23.5, MAP.ZEPHRAS_ISLE }",
@@ -25366,7 +25366,7 @@
             ]
           },
           "inheritedFields": {},
-          "line": 829,
+          "line": 935,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 43.4, 24.8, MAP.ZEPHRAS_ISLE }",
@@ -25450,7 +25450,7 @@
             "requiredLevel": 2
           },
           "inheritedFields": {},
-          "line": 1116,
+          "line": 1232,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 43.4, 24.8, MAP.ZEPHRAS_ISLE }",
@@ -25518,7 +25518,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92463: unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92463: unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -25535,13 +25535,12 @@
             "requiredLevel": 2
           },
           "inheritedFields": {},
-          "line": 624,
+          "line": 731,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 42.1, 23.5, MAP.ZEPHRAS_ISLE }",
             "isBreadcrumb": "true",
             "lvl": "2",
-            "nextQuests": "{ 92465 }",
             "qg": "251361",
             "sourceQuest": "92461"
           }
@@ -25606,6 +25605,9 @@
                 }
               ]
             },
+            "preQuestSingle": [
+              92464
+            ],
             "requiredLevel": 2
           },
           "inheritedFields": {},
@@ -25615,7 +25617,8 @@
             "coord": "{ 47.3, 21.9, MAP.ZEPHRAS_ISLE }",
             "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                       \r\n\t\t\t\t\t\tprovider = { \"n\", 251160 },\t                   \r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                    \r\n\t\t\t\t\t\tprovider = { \"n\", 251143 },\t                \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "2",
-            "qg": "249363"
+            "qg": "249363",
+            "sourceQuest": "92464"
           }
         }
       ],
@@ -25655,6 +25658,9 @@
           "spawns": [],
           "type": "npc"
         }
+      ],
+      "preQuestSingle": [
+        92464
       ],
       "questType": {
         "autoRewarded": false,
@@ -25701,10 +25707,10 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 300,
+          "line": 301,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
-            "altQuests": "{ 1516, 1519 }",
+            "altQuests": "{\r\n\t\t\t\t\t1516,\t                      \r\n\t\t\t\t\t1519,\t                      \r\n\t\t\t\t}",
             "classes": "{ SHAMAN }",
             "coord": "{ 42.8, 23.6, MAP.ZEPHRAS_ISLE }",
             "lvl": "3",
@@ -25774,7 +25780,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 308,
+          "line": 312,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "classes": "{ SHAMAN }",
@@ -25850,7 +25856,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 316,
+          "line": 320,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "classes": "{ SHAMAN }",
@@ -25925,7 +25931,7 @@
             "requiredLevel": 3
           },
           "inheritedFields": {},
-          "line": 960,
+          "line": 1066,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 47.2, 21.8, MAP.ZEPHRAS_ISLE }",
@@ -26006,7 +26012,7 @@
             "requiredLevel": 2
           },
           "inheritedFields": {},
-          "line": 727,
+          "line": 833,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 42.8, 23.7, MAP.ZEPHRAS_ISLE }",
@@ -26099,7 +26105,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92470: unmapped ATT map constant ZEPHRAS_ISLE; unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92470: unmapped ATT map constant ZEPHRAS_ISLE; unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -26170,7 +26176,7 @@
             "requiredLevel": 3
           },
           "inheritedFields": {},
-          "line": 1319,
+          "line": 1442,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 42.6, 23.6, MAP.ZEPHRAS_ISLE }",
@@ -26328,7 +26334,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92473: unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92473: unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -26342,7 +26348,7 @@
             "requiredRaces": 12884901888
           },
           "inheritedFields": {},
-          "line": 688,
+          "line": 794,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 43.6, 24.0, MAP.ZEPHRAS_ISLE }",
@@ -26553,7 +26559,7 @@
             "requiredLevel": 2
           },
           "inheritedFields": {},
-          "line": 1382,
+          "line": 1509,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "classes": "{ HUNTER }",
@@ -26620,7 +26626,7 @@
             "requiredLevel": 2
           },
           "inheritedFields": {},
-          "line": 206,
+          "line": 207,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "classes": "{ ROGUE }",
@@ -26688,7 +26694,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 632,
+          "line": 738,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "classes": "{ SHAMAN }",
@@ -27009,7 +27015,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1545,
+          "line": 1676,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 45.6, 45.4, MAP.ZEPHRAS_ISLE }",
@@ -27078,7 +27084,7 @@
             "sourceQuestNumRequired": 1
           },
           "inheritedFields": {},
-          "line": 1325,
+          "line": 1448,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 44.6, 44.4, MAP.ZEPHRAS_ISLE }",
@@ -27148,7 +27154,7 @@
             "sourceQuestNumRequired": 1
           },
           "inheritedFields": {},
-          "line": 805,
+          "line": 911,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 44.4, 45.0, MAP.ZEPHRAS_ISLE }",
@@ -27226,7 +27232,7 @@
             "requiredLevel": 4
           },
           "inheritedFields": {},
-          "line": 1131,
+          "line": 1247,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 45.6, 45.4, MAP.ZEPHRAS_ISLE }",
@@ -27306,7 +27312,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92517: unmapped ATT map constant ZEPHRAS_ISLE; unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92517: unmapped ATT map constant ZEPHRAS_ISLE; unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -27322,7 +27328,7 @@
             "requiredLevel": 5
           },
           "inheritedFields": {},
-          "line": 195,
+          "line": 196,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 46.8, 56.2, MAP.ZEPHRAS_ISLE }",
@@ -27385,7 +27391,7 @@
             "requiredLevel": 5
           },
           "inheritedFields": {},
-          "line": 682,
+          "line": 788,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 44.8, 45.4, MAP.ZEPHRAS_ISLE }",
@@ -27448,7 +27454,7 @@
             "requiredLevel": 2
           },
           "inheritedFields": {},
-          "line": 1375,
+          "line": 1502,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "classes": "{ WARRIOR }",
@@ -27527,7 +27533,7 @@
             "requiredLevel": 2
           },
           "inheritedFields": {},
-          "line": 178,
+          "line": 179,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 38.2, 30.2, MAP.ZEPHRAS_ISLE }",
@@ -27613,7 +27619,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92544: unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92544: unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -27630,7 +27636,7 @@
             "requiredLevel": 5
           },
           "inheritedFields": {},
-          "line": 793,
+          "line": 899,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 45.6, 45.4, MAP.ZEPHRAS_ISLE }",
@@ -27695,7 +27701,7 @@
             "requiredLevel": 5
           },
           "inheritedFields": {},
-          "line": 1015,
+          "line": 1125,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 45.2, 45.2, MAP.ZEPHRAS_ISLE }",
@@ -27760,7 +27766,7 @@
             "sourceQuestNumRequired": 1
           },
           "inheritedFields": {},
-          "line": 946,
+          "line": 1052,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 43.8, 43.8, MAP.ZEPHRAS_ISLE }",
@@ -27829,7 +27835,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1407,
+          "line": 1538,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 45.6, 45.4, MAP.ZEPHRAS_ISLE }",
@@ -27972,7 +27978,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1395,
+          "line": 1522,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 43.6, 44.8, MAP.ZEPHRAS_ISLE }",
@@ -28039,7 +28045,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1243,
+          "line": 1366,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 45.0, 46.4, MAP.ZEPHRAS_ISLE }",
@@ -28110,7 +28116,7 @@
             "requiredRaces": 4294967296
           },
           "inheritedFields": {},
-          "line": 939,
+          "line": 1045,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 43.3, 24.9, MAP.ZEPHRAS_ISLE }",
@@ -28174,7 +28180,7 @@
             "requiredRaces": 8589934592
           },
           "inheritedFields": {},
-          "line": 1210,
+          "line": 1326,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 42.6, 24.4, MAP.ZEPHRAS_ISLE }",
@@ -28236,7 +28242,7 @@
             "requiredLevel": 6
           },
           "inheritedFields": {},
-          "line": 597,
+          "line": 704,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 66.2, 76.6, MAP.ZEPHRAS_ISLE }",
@@ -28311,7 +28317,7 @@
             "requiredLevel": 6
           },
           "inheritedFields": {},
-          "line": 608,
+          "line": 715,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 69.6, 67.0, MAP.ZEPHRAS_ISLE }",
@@ -28390,7 +28396,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92642: unmapped ATT map constant ZEPHRAS_ISLE; unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92642: unmapped ATT map constant ZEPHRAS_ISLE; unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -28406,7 +28412,7 @@
             "requiredLevel": 6
           },
           "inheritedFields": {},
-          "line": 1369,
+          "line": 1496,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 66.2, 76.6, MAP.ZEPHRAS_ISLE }",
@@ -28469,7 +28475,7 @@
             "requiredLevel": 6
           },
           "inheritedFields": {},
-          "line": 1459,
+          "line": 1590,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 56.0, 58.8, MAP.ZEPHRAS_ISLE }",
@@ -28542,7 +28548,7 @@
             "requiredLevel": 6
           },
           "inheritedFields": {},
-          "line": 270,
+          "line": 271,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 69.6, 67.0, MAP.ZEPHRAS_ISLE }",
@@ -28610,7 +28616,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92645: unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92645: unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -28627,7 +28633,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 529,
+          "line": 636,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 65.2, 50.4, MAP.ZEPHRAS_ISLE }",
@@ -28856,7 +28862,7 @@
             "requiredLevel": 5
           },
           "inheritedFields": {},
-          "line": 243,
+          "line": 244,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 62.0, 73.2, MAP.ZEPHRAS_ISLE }",
@@ -28931,7 +28937,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92679: unmapped ATT map constant ZEPHRAS_ISLE; unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92679: unmapped ATT map constant ZEPHRAS_ISLE; unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -29038,7 +29044,7 @@
             "requiredLevel": 5
           },
           "inheritedFields": {},
-          "line": 845,
+          "line": 951,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 46.6, 81.8, MAP.ZEPHRAS_ISLE }",
@@ -29133,7 +29139,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92682: unmapped ATT map constant ZEPHRAS_ISLE; unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92682: unmapped ATT map constant ZEPHRAS_ISLE; unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -29170,7 +29176,7 @@
             "requiredLevel": 5
           },
           "inheritedFields": {},
-          "line": 708,
+          "line": 814,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 46.6, 81.8, MAP.ZEPHRAS_ISLE }",
@@ -29267,7 +29273,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92683: unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92683: unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -29297,7 +29303,7 @@
             "requiredLevel": 5
           },
           "inheritedFields": {},
-          "line": 905,
+          "line": 1011,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 46.6, 81.8, MAP.ZEPHRAS_ISLE }",
@@ -29379,7 +29385,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92684: unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92684: unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -29411,7 +29417,7 @@
             "requiredLevel": 5
           },
           "inheritedFields": {},
-          "line": 1250,
+          "line": 1373,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 46.6, 81.8, MAP.ZEPHRAS_ISLE }",
@@ -29495,7 +29501,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92685: unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92685: unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -29523,7 +29529,7 @@
             "requiredLevel": 5
           },
           "inheritedFields": {},
-          "line": 998,
+          "line": 1108,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 46.6, 81.8, MAP.ZEPHRAS_ISLE }",
@@ -29595,7 +29601,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92693: unmapped ATT map constant ZEPHRAS_ISLE; unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92693: unmapped ATT map constant ZEPHRAS_ISLE; unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -29611,7 +29617,7 @@
             "requiredLevel": 5
           },
           "inheritedFields": {},
-          "line": 1565,
+          "line": 1696,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 48.6, 78.2, MAP.ZEPHRAS_ISLE }",
@@ -29674,7 +29680,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1355,
+          "line": 1478,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 66.2, 76.6, MAP.ZEPHRAS_ISLE }",
@@ -29745,7 +29751,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1216,
+          "line": 1332,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 66.2, 76.6, MAP.ZEPHRAS_ISLE }",
@@ -29826,11 +29832,11 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1421,
+          "line": 1552,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 45.6, 45.4, MAP.ZEPHRAS_ISLE }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                                                                    \r\n\t\t\t\t\t\tprovider = { \"n\", 252383 },\t                     \r\n\t\t\t\t\t\tcoord = { 66.2, 76.6, MAP.ZEPHRAS_ISLE },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                                                                    \r\n\t\t\t\t\t\tprovider = { \"n\", 252383 },\t                                           \r\n\t\t\t\t\t\tcoord = { 66.2, 76.6, MAP.ZEPHRAS_ISLE },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "6",
             "qg": "251523",
             "qi": "253152",
@@ -29905,7 +29911,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92701: unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92701: unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -29921,7 +29927,7 @@
             "requiredLevel": 5
           },
           "inheritedFields": {},
-          "line": 572,
+          "line": 679,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 46.6, 81.8, MAP.ZEPHRAS_ISLE }",
@@ -29995,7 +30001,7 @@
             "requiredLevel": 15
           },
           "inheritedFields": {},
-          "line": 2669,
+          "line": 2741,
           "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
           "rawFields": {
             "coord": "{ 62.59, 37.47, MAP.THE_BARRENS }",
@@ -30264,7 +30270,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92709: unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92709: unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -30355,7 +30361,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1281,
+          "line": 1404,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 66.2, 79.8, MAP.ZEPHRAS_ISLE }",
@@ -30444,7 +30450,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1491,
+          "line": 1622,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 66.2, 79.6, MAP.ZEPHRAS_ISLE }",
@@ -30545,7 +30551,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92741: unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92741: unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -31368,7 +31374,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 522,
+          "line": 521,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/1 - stormwind city.lua",
           "rawFields": {
             "coord": "{ 61.8, 30.8, MAP.STORMWIND_CITY }",
@@ -31453,7 +31459,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 530,
+          "line": 529,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/1 - stormwind city.lua",
           "rawFields": {
             "coord": "{ 80.0, 70.0, MAP.STORMWIND_CITY }",
@@ -31541,7 +31547,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 576,
+          "line": 575,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/1 - stormwind city.lua",
           "rawFields": {
             "coord": "{ 61.8, 30.8, MAP.STORMWIND_CITY }",
@@ -31822,7 +31828,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 213,
+          "line": 214,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 66.6, 79.8, MAP.ZEPHRAS_ISLE }",
@@ -31923,7 +31929,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92834: unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92834: unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -31949,7 +31955,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 506,
+          "line": 613,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 66.6, 79.8, MAP.ZEPHRAS_ISLE }",
@@ -32027,7 +32033,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92840: unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92840: unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -32056,7 +32062,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1288,
+          "line": 1411,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 53.3, 72.1, MAP.ZEPHRAS_ISLE }",
@@ -32136,7 +32142,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92849: unmapped ATT map constant ZEPHRAS_ISLE; unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92849: unmapped ATT map constant ZEPHRAS_ISLE; unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -32167,7 +32173,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1305,
+          "line": 1428,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 52.0, 69.4, MAP.ZEPHRAS_ISLE }",
@@ -32257,7 +32263,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92850: unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 92850: unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -32274,7 +32280,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 815,
+          "line": 921,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 66.6, 79.8, MAP.ZEPHRAS_ISLE }",
@@ -32345,7 +32351,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 822,
+          "line": 928,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 59.0, 79.6, MAP.ZEPHRAS_ISLE }",
@@ -32416,7 +32422,7 @@
             "requiredLevel": 6
           },
           "inheritedFields": {},
-          "line": 970,
+          "line": 1076,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 69.6, 67.0, MAP.ZEPHRAS_ISLE }",
@@ -32480,7 +32486,7 @@
             "requiredLevel": 6
           },
           "inheritedFields": {},
-          "line": 1237,
+          "line": 1360,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 66.2, 76.6, MAP.ZEPHRAS_ISLE }",
@@ -32815,7 +32821,7 @@
             "requiredLevel": 7
           },
           "inheritedFields": {},
-          "line": 865,
+          "line": 971,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 61.2, 71.0, MAP.ZEPHRAS_ISLE }",
@@ -32888,7 +32894,7 @@
             "requiredLevel": 5
           },
           "inheritedFields": {},
-          "line": 839,
+          "line": 945,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 45.6, 45.4, MAP.ZEPHRAS_ISLE }",
@@ -32950,7 +32956,7 @@
             "requiredLevel": 7
           },
           "inheritedFields": {},
-          "line": 933,
+          "line": 1039,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 66.2, 76.6, MAP.ZEPHRAS_ISLE }",
@@ -33013,7 +33019,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1551,
+          "line": 1682,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 66.2, 76.6, MAP.ZEPHRAS_ISLE }",
@@ -33084,7 +33090,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1558,
+          "line": 1689,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 66.2, 76.6, MAP.ZEPHRAS_ISLE }",
@@ -33151,7 +33157,7 @@
             "requiredLevel": 8
           },
           "inheritedFields": {},
-          "line": 1350,
+          "line": 1473,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 54.0, 39.0, MAP.ZEPHRAS_ISLE }",
@@ -33209,7 +33215,7 @@
             "requiredLevel": 8
           },
           "inheritedFields": {},
-          "line": 1199,
+          "line": 1315,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 54.0, 39.0, MAP.ZEPHRAS_ISLE }",
@@ -33273,7 +33279,7 @@
             "requiredLevel": 8
           },
           "inheritedFields": {},
-          "line": 885,
+          "line": 991,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 63.8, 36.0, MAP.ZEPHRAS_ISLE }",
@@ -33338,7 +33344,7 @@
             "requiredLevel": 8
           },
           "inheritedFields": {},
-          "line": 749,
+          "line": 855,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 54.0, 39.0, MAP.ZEPHRAS_ISLE }",
@@ -34046,7 +34052,7 @@
             "requiredLevel": 4
           },
           "inheritedFields": {},
-          "line": 558,
+          "line": 665,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 60.6, 72.6, MAP.ZEPHRAS_ISLE }",
@@ -34124,7 +34130,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 93317: unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 93317: unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -34143,7 +34149,7 @@
             "sourceQuestNumRequired": 1
           },
           "inheritedFields": {},
-          "line": 1510,
+          "line": 1641,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 43.4, 45.9, MAP.ZEPHRAS_ISLE }",
@@ -34214,7 +34220,7 @@
             "sourceQuestNumRequired": 1
           },
           "inheritedFields": {},
-          "line": 922,
+          "line": 1028,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 44.4, 45.0, MAP.ZEPHRAS_ISLE }",
@@ -34381,7 +34387,7 @@
             "sourceQuestNumRequired": 1
           },
           "inheritedFields": {},
-          "line": 1436,
+          "line": 1567,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 66.2, 76.6, MAP.ZEPHRAS_ISLE }",
@@ -34590,7 +34596,7 @@
             "specialFlags": 1
           },
           "inheritedFields": {},
-          "line": 897,
+          "line": 1003,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 63.8, 36.0, MAP.ZEPHRAS_ISLE }",
@@ -34653,7 +34659,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1539,
+          "line": 1670,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 45.6, 45.4, MAP.ZEPHRAS_ISLE }",
@@ -34715,7 +34721,7 @@
             "name": "Triggered when turning in 'The High Order', likely a shared quest flag for either faction having completed their initial introduction quest."
           },
           "inheritedFields": {},
-          "line": 1947,
+          "line": 2078,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
@@ -34769,7 +34775,7 @@
             "requiredLevel": 2
           },
           "inheritedFields": {},
-          "line": 772,
+          "line": 878,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 43.4, 24.0, MAP.ZEPHRAS_ISLE }",
@@ -34851,7 +34857,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 93552: unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 93552: unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -35620,7 +35626,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1095,
+          "line": 1211,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 59.0, 79.6, MAP.ZEPHRAS_ISLE }",
@@ -35691,7 +35697,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1484,
+          "line": 1615,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 58.2, 78.2, MAP.ZEPHRAS_ISLE }",
@@ -35762,7 +35768,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1102,
+          "line": 1218,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 59.0, 73.0, MAP.ZEPHRAS_ISLE }",
@@ -35833,7 +35839,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1109,
+          "line": 1225,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 59.0, 73.0, MAP.ZEPHRAS_ISLE }",
@@ -35905,7 +35911,7 @@
             "requiredRaces": 8589934592
           },
           "inheritedFields": {},
-          "line": 671,
+          "line": 777,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 32.0, 37.8, MAP.ORGRIMMAR }",
@@ -35987,7 +35993,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 236,
+          "line": 237,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 59.0, 79.6, MAP.ZEPHRAS_ISLE }",
@@ -36128,7 +36134,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 991,
+          "line": 1101,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "classes": "{ MAGE }",
@@ -36200,7 +36206,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 258,
+          "line": 259,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "classes": "{ MAGE }",
@@ -36276,7 +36282,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 542,
+          "line": 649,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 65.2, 50.4, MAP.ZEPHRAS_ISLE }",
@@ -36359,7 +36365,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1185,
+          "line": 1301,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 59.0, 79.6, MAP.ZEPHRAS_ISLE }",
@@ -36601,7 +36607,7 @@
             "requiredLevel": 5
           },
           "inheritedFields": {},
-          "line": 1389,
+          "line": 1516,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 45.6, 45.4, MAP.ZEPHRAS_ISLE }",
@@ -36736,11 +36742,11 @@
             "requiredLevel": 6
           },
           "inheritedFields": {},
-          "line": 583,
+          "line": 690,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 45.6, 45.4, MAP.ZEPHRAS_ISLE }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                                                                           \r\n\t\t\t\t\t\tprovider = { \"n\", 252476 },\t                      \r\n\t\t\t\t\t\tcoord = { 66.2, 76.6, MAP.ZEPHRAS_ISLE },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                                                                           \r\n\t\t\t\t\t\tprovider = { \"n\", 252476 },\t                                                   \r\n\t\t\t\t\t\tcoord = { 66.2, 76.6, MAP.ZEPHRAS_ISLE },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "6",
             "qg": "251523",
             "qi": "263491",
@@ -36807,7 +36813,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 93948: unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 93948: unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -36831,7 +36837,7 @@
             "requiredLevel": 6
           },
           "inheritedFields": {},
-          "line": 285,
+          "line": 286,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 66.2, 76.6, MAP.ZEPHRAS_ISLE }",
@@ -36899,7 +36905,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 93949: unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 93949: unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -36983,7 +36989,7 @@
             "requiredLevel": 7
           },
           "inheritedFields": {},
-          "line": 1268,
+          "line": 1391,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 63.8, 50.4, MAP.ZEPHRAS_ISLE }",
@@ -37072,7 +37078,7 @@
             "requiredRaces": 4294967296
           },
           "inheritedFields": {},
-          "line": 640,
+          "line": 746,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 80.1, 38.4, MAP.STORMWIND_CITY }",
@@ -37254,7 +37260,7 @@
             "requiredRaces": 12884901888
           },
           "inheritedFields": {},
-          "line": 1339,
+          "line": 1462,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "classes": "{ WARRIOR }",
@@ -37323,7 +37329,7 @@
             "requiredRaces": 12884901888
           },
           "inheritedFields": {},
-          "line": 1230,
+          "line": 1353,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "classes": "{ DRUID }",
@@ -37389,7 +37395,7 @@
             "requiredRaces": 12884901888
           },
           "inheritedFields": {},
-          "line": 1040,
+          "line": 1150,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "classes": "{ HUNTER }",
@@ -37458,7 +37464,7 @@
             "requiredRaces": 12884901888
           },
           "inheritedFields": {},
-          "line": 1047,
+          "line": 1157,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "classes": "{ HUNTER }",
@@ -37531,7 +37537,7 @@
             "requiredRaces": 12884901888
           },
           "inheritedFields": {},
-          "line": 1451,
+          "line": 1582,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "classes": "{ HUNTER }",
@@ -38335,7 +38341,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1192,
+          "line": 1308,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 66.6, 79.8, MAP.ZEPHRAS_ISLE }",
@@ -39058,7 +39064,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 874,
+          "line": 980,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 43.6, 44.8, MAP.ZEPHRAS_ISLE }",
@@ -39221,7 +39227,7 @@
             "requiredLevel": 2
           },
           "inheritedFields": {},
-          "line": 1090,
+          "line": 1206,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 43.8, 24.0, MAP.ZEPHRAS_ISLE }",
@@ -39278,7 +39284,7 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 154,
+          "line": 91,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "classes": "{ PALADIN }",
@@ -39488,7 +39494,7 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 162,
+          "line": 99,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "classes": "{ PALADIN }",
@@ -39688,12 +39694,12 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 170,
+          "line": 107,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "classes": "{ PALADIN }",
             "coord": "{ 86.64, 47.63, MAP.TIRISFAL_GLADES }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                               \r\n\t\t\t\t\t\tprovider = { \"i\", 264693 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                               \r\n\t\t\t\t\t\tprovider = { \"i\", 264693 },\t                                     \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "12",
             "qg": "257663",
             "races": "{ UNDEAD }",
@@ -39783,7 +39789,7 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 183,
+          "line": 120,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "classes": "{ PALADIN }",
@@ -39861,13 +39867,13 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1567,
+          "line": 1554,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "classes": "{ SHAMAN }",
-            "coords": "{ { 47.14, 13.52, MAP.IRONFORGE }, { 47.58, 51.95, MAP.DUN_MOROGH } }",
+            "coords": "{\r\n\t\t\t\t\t{ 47.14, 13.52, MAP.IRONFORGE },\r\n\t\t\t\t\t{ 47.58, 51.95, MAP.DUN_MOROGH },\r\n\t\t\t\t}",
             "lvl": "10",
-            "qgs": "{ 258098, 258113 }",
+            "qgs": "{\r\n\t\t\t\t\t258098,\t                                       \r\n\t\t\t\t\t258113,\t                                  \r\n\t\t\t\t}",
             "races": "ALLIANCE_ONLY",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
           }
@@ -39965,7 +39971,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1540,
+          "line": 1568,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "classes": "{ SHAMAN }",
@@ -40064,12 +40070,12 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 741,
+          "line": 285,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/loch modan.lua",
           "rawFields": {
             "classes": "{ SHAMAN }",
             "coord": "{ 32.17, 65.97, MAP.LOCH_MODAN }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t           \r\n\t\t\t\t\t\tprovider = { \"i\", 5026 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                \r\n\t\t\t\t\t\tprovider = { \"i\", 6652 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(6636),\t             \r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t           \r\n\t\t\t\t\t\tprovider = { \"i\", 5026 },\t                 \r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                \r\n\t\t\t\t\t\tprovider = { \"i\", 6652 },\t                      \r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(6636),\t                   \r\n\t\t\t\t}",
             "lvl": "10",
             "qg": "257808",
             "races": "ALLIANCE_ONLY",
@@ -40191,12 +40197,12 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 759,
+          "line": 303,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/loch modan.lua",
           "rawFields": {
             "classes": "{ SHAMAN }",
             "coord": "{ 32.17, 65.97, MAP.LOCH_MODAN }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                \r\n\t\t\t\t\t\tprovider = { \"i\", 6655 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(6654),\t                             \r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                \r\n\t\t\t\t\t\tprovider = { \"i\", 6655 },\t                      \r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(6654),\t                                   \r\n\t\t\t\t}",
             "lvl": "10",
             "qg": "257808",
             "qi": "6653",
@@ -40300,12 +40306,12 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 775,
+          "line": 319,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/loch modan.lua",
           "rawFields": {
             "classes": "{ SHAMAN }",
             "coord": "{ 31.79, 64.52, MAP.LOCH_MODAN }",
-            "groups": "{\r\n\t\t\t\t\ti(5176),\t             \r\n\t\t\t\t}",
+            "groups": "{ i(5176) }",
             "lvl": "10",
             "provider": "{ \"o\", 61934 }",
             "qi": "6654",
@@ -40398,12 +40404,12 @@
             "specialFlags": 1
           },
           "inheritedFields": {},
-          "line": 1575,
+          "line": 189,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "classes": "{ SHAMAN }",
             "coord": "{ 28.79, 66.18, MAP.DUN_MOROGH }",
-            "groups": "{\r\n\t\t\t\t\ti(6635),\t              \r\n\t\t\t\t}",
+            "groups": "{ i(6635) }",
             "lockCriteria": "{ 1, \"questID\", 94374 }",
             "lvl": "4",
             "qg": "257446",
@@ -40501,12 +40507,12 @@
             "specialFlags": 1
           },
           "inheritedFields": {},
-          "line": 802,
+          "line": 421,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/loch modan.lua",
           "rawFields": {
             "classes": "{ SHAMAN }",
             "coord": "{ 32.17, 65.97, MAP.LOCH_MODAN }",
-            "groups": "{\r\n\t\t\t\t\ti(6636),\t             \r\n\t\t\t\t}",
+            "groups": "{ i(6636) }",
             "lockCriteria": "{ 1, \"questID\", 94467 }",
             "lvl": "10",
             "qg": "257808",
@@ -40699,7 +40705,7 @@
             "requiredLevel": 8
           },
           "inheritedFields": {},
-          "line": 1471,
+          "line": 1602,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "altQuests": "{ 94493 }",
@@ -40758,7 +40764,7 @@
             "requiredLevel": 8
           },
           "inheritedFields": {},
-          "line": 1070,
+          "line": 1180,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 61.6, 39.2, MAP.ZEPHRAS_ISLE }",
@@ -40822,7 +40828,7 @@
             "requiredLevel": 8
           },
           "inheritedFields": {},
-          "line": 694,
+          "line": 800,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 61.6, 39.2, MAP.ZEPHRAS_ISLE }",
@@ -40887,7 +40893,7 @@
             "requiredLevel": 8
           },
           "inheritedFields": {},
-          "line": 1477,
+          "line": 1608,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 61.6, 39.2, MAP.ZEPHRAS_ISLE }",
@@ -40954,14 +40960,14 @@
             "requiredLevel": 8
           },
           "inheritedFields": {},
-          "line": 1362,
+          "line": 1485,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 61.6, 39.2, MAP.ZEPHRAS_ISLE }",
             "lvl": "8",
             "qg": "257944",
             "qi": "265475",
-            "sourceQuests": "{ 94485, 94486, 94487 }"
+            "sourceQuests": "{\r\n\t\t\t\t\t94485,\t                    \r\n\t\t\t\t\t94486,\t                       \r\n\t\t\t\t\t94487,\t                        \r\n\t\t\t\t}"
           }
         }
       ],
@@ -41022,13 +41028,13 @@
             "requiredLevel": 8
           },
           "inheritedFields": {},
-          "line": 1401,
+          "line": 1528,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 61.6, 39.2, MAP.ZEPHRAS_ISLE }",
             "lvl": "8",
             "qg": "257944",
-            "sourceQuests": "{ 94485, 94486, 94487 }"
+            "sourceQuests": "{\r\n\t\t\t\t\t94485,\t                    \r\n\t\t\t\t\t94486,\t                       \r\n\t\t\t\t\t94487,\t                        \r\n\t\t\t\t}"
           }
         }
       ],
@@ -41089,14 +41095,14 @@
             "sourceItemId": 265476
           },
           "inheritedFields": {},
-          "line": 984,
+          "line": 1090,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 65.4, 36.2, MAP.ZEPHRAS_ISLE }",
             "cr": "253622",
             "lvl": "9",
             "provider": "{ \"i\", 265476 }",
-            "sourceQuests": "{ 94485, 94486, 94487 }"
+            "sourceQuests": "{\r\n\t\t\t\t\t94485,\t                    \r\n\t\t\t\t\t94486,\t                       \r\n\t\t\t\t\t94487,\t                        \r\n\t\t\t\t}"
           }
         }
       ],
@@ -41156,7 +41162,7 @@
             "requiredLevel": 8
           },
           "inheritedFields": {},
-          "line": 1178,
+          "line": 1294,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 61.6, 39.2, MAP.ZEPHRAS_ISLE }",
@@ -41281,7 +41287,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 733,
+          "line": 330,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/loch modan.lua",
           "rawFields": {
             "classes": "{ SHAMAN }",
@@ -41372,12 +41378,12 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 989,
+          "line": 214,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "classes": "{ SHAMAN }",
             "coord": "{ 65.73, 76.43, MAP.WETLANDS }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                       \r\n\t\t\t\t\t\tprovider = { \"i\", 265734 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                       \r\n\t\t\t\t\t\tprovider = { \"i\", 265734 },\t                             \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "20",
             "qg": "258203",
             "qi": "265732",
@@ -41482,12 +41488,12 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1003,
+          "line": 228,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "classes": "{ SHAMAN }",
             "coord": "{ 65.73, 76.43, MAP.WETLANDS }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                     \r\n\t\t\t\t\t\tprovider = { \"i\", 265748 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                     \r\n\t\t\t\t\t\tprovider = { \"i\", 265748 },\t                           \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "20",
             "qg": "258203",
             "qi": "265747",
@@ -41592,12 +41598,12 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1017,
+          "line": 242,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "classes": "{ SHAMAN }",
             "coord": "{ 65.73, 76.43, MAP.WETLANDS }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                      \r\n\t\t\t\t\t\tprovider = { \"i\", 265773 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                      \r\n\t\t\t\t\t\tprovider = { \"i\", 265773 },\t                            \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "20",
             "qg": "258203",
             "qi": "265772",
@@ -41694,12 +41700,12 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1031,
+          "line": 256,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "classes": "{ SHAMAN }",
             "coord": "{ 65.73, 76.43, MAP.WETLANDS }",
-            "groups": "{\r\n\t\t\t\t\ti(6637),\t              \r\n\t\t\t\t}",
+            "groups": "{ i(6637) }",
             "lvl": "20",
             "qg": "258203",
             "qi": "7810",
@@ -41788,12 +41794,12 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 788,
+          "line": 338,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/loch modan.lua",
           "rawFields": {
             "classes": "{ SHAMAN }",
             "coord": "{ 41.78, 18.9, MAP.LOCH_MODAN }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                                  \r\n\t\t\t\t\t\tprovider = { \"i\", 7812 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                                  \r\n\t\t\t\t\t\tprovider = { \"i\", 7812 },\t                                        \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "20",
             "qg": "258043",
             "qi": "7811",
@@ -41890,12 +41896,12 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 51,
+          "line": 38,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/silverpine forest.lua",
           "rawFields": {
             "classes": "{ SHAMAN }",
             "coord": "{ 38.65, 44.58, MAP.SILVERPINE_FOREST }",
-            "groups": "{\r\n\t\t\t\t\ti(5177),\t              \r\n\t\t\t\t}",
+            "groups": "{ i(5177) }",
             "lvl": "20",
             "qg": "5895",
             "qi": "7813",
@@ -41976,7 +41982,7 @@
             "requiredLevel": 6
           },
           "inheritedFields": {},
-          "line": 1153,
+          "line": 1269,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 66.2, 76.6, MAP.ZEPHRAS_ISLE }",
@@ -42048,7 +42054,7 @@
             "requiredRaces": 12884901888
           },
           "inheritedFields": {},
-          "line": 1026,
+          "line": 1136,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "classes": "{ DRUID }",
@@ -42125,7 +42131,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 94638: unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 94638: unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -42865,7 +42871,7 @@
             "requiredRaces": 1
           },
           "inheritedFields": {},
-          "line": 1419,
+          "line": 1018,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
             "classes": "{ PRIEST }",
@@ -42952,12 +42958,12 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1427,
+          "line": 1446,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
             "classes": "{ HUNTER }",
             "coord": "{ 41.14, 66.32, MAP.ELWYNN_FOREST }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                \r\n\t\t\t\t\t\tprovider = { \"n\", 524 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                \r\n\t\t\t\t\t\tprovider = { \"n\", 524 },\t                \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "10",
             "qg": "251507",
             "qi": "266158",
@@ -43055,7 +43061,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1471,
+          "line": 1533,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
             "classes": "{ HUNTER }",
@@ -43141,7 +43147,7 @@
             "requiredRaces": 64
           },
           "inheritedFields": {},
-          "line": 1549,
+          "line": 1577,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "classes": "{ PRIEST }",
@@ -43231,12 +43237,12 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1441,
+          "line": 1460,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
             "classes": "{ HUNTER }",
             "coord": "{ 41.14, 66.32, MAP.ELWYNN_FOREST }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                   \r\n\t\t\t\t\t\tprovider = { \"n\", 1922 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                   \r\n\t\t\t\t\t\tprovider = { \"n\", 1922 },\t                   \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "10",
             "qg": "251507",
             "qi": "266253",
@@ -43347,12 +43353,12 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1456,
+          "line": 1475,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
             "classes": "{ HUNTER }",
             "coord": "{ 41.14, 66.32, MAP.ELWYNN_FOREST }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                    \r\n\t\t\t\t\t\tprovider = { \"n\", 822 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                    \r\n\t\t\t\t\t\tprovider = { \"n\", 822 },\t                    \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "10",
             "qg": "251507",
             "qi": "266254",
@@ -43463,7 +43469,7 @@
             "requiredLevel": 8
           },
           "inheritedFields": {},
-          "line": 159,
+          "line": 160,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 65.8, 74.4, MAP.ZEPHRAS_ISLE }",
@@ -43541,7 +43547,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 94896: unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 94896: unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -43568,7 +43574,7 @@
             "requiredLevel": 8
           },
           "inheritedFields": {},
-          "line": 1166,
+          "line": 1282,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 65.8, 74.4, MAP.ZEPHRAS_ISLE }",
@@ -43646,7 +43652,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 94897: unmapped ATT map constant ZEPHRAS_ISLE"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/zephras isle.lua quest 94897: unmapped ATT map constant ZEPHRAS_ISLE"
         }
       ]
     },
@@ -43661,7 +43667,7 @@
             "requiredRaces": 8589934592
           },
           "inheritedFields": {},
-          "line": 1344,
+          "line": 637,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
             "classes": "{ DRUID }",
@@ -43819,7 +43825,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1274,
+          "line": 1397,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 66.6, 79.9, MAP.ZEPHRAS_ISLE }",
@@ -43887,7 +43893,7 @@
             "requiredRaces": 4294967296
           },
           "inheritedFields": {},
-          "line": 1525,
+          "line": 1656,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 12.3, 56.4, MAP.ALTERAC_MOUNTAINS }",
@@ -43960,7 +43966,7 @@
             "requiredRaces": 12884901888
           },
           "inheritedFields": {},
-          "line": 1055,
+          "line": 1165,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "classes": "{ HUNTER }",
@@ -44029,7 +44035,7 @@
             "requiredRaces": 12884901888
           },
           "inheritedFields": {},
-          "line": 1062,
+          "line": 1172,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "classes": "{ HUNTER }",
@@ -44246,10 +44252,10 @@
           "rawFields": {
             "classes": "{ PALADIN }",
             "coord": "{ 11.8, 34.4, MAP.ASHENVALE }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                    \r\n\t\t\t\t\t\tprovider = { \"i\", 6995 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(272448),\t                   \r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                    \r\n\t\t\t\t\t\tprovider = { \"i\", 6995 },\t                          \r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(272448),\t                         \r\n\t\t\t\t}",
             "lvl": "20",
             "qg": "259649",
-            "races": "{ ORC, UNDEAD, TAUREN, TROLL, SKYBORNE_HORDE }",
+            "races": "HORDE_ONLY",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
           }
         }
@@ -44339,7 +44345,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 639,
+          "line": 638,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/1 - stormwind city.lua",
           "rawFields": {
             "coord": "{ 26.2, 47.0, MAP.STORMWIND_CITY }",
@@ -44420,7 +44426,7 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 63,
+          "line": 16,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/silverpine forest.lua",
           "rawFields": {
             "classes": "{ PALADIN }",

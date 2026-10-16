@@ -295,7 +295,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 897,
+          "line": 1010,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "coord": "{ 63.1, 49.9, MAP.DUN_MOROGH }",
@@ -402,7 +402,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1145,
+          "line": 1258,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "lvl": "7",
@@ -469,7 +469,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1151,
+          "line": 1264,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "coord": "{ 69.0, 54.8, MAP.DUN_MOROGH }",
@@ -750,7 +750,7 @@
             ]
           },
           "inheritedFields": {},
-          "line": 1333,
+          "line": 1453,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "classes": "{ WARRIOR, PALADIN, SHAMAN }",
@@ -1018,11 +1018,11 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 555,
+          "line": 655,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 59.4, 52.3, MAP.TIRISFAL_GLADES }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                              \r\n\t\t\t\t\t\t[\"providers\"] = {\r\n\t\t\t\t\t\t\t{ \"i\", 268801 },\t                              \r\n\t\t\t\t\t\t\t{ \"o\", 630871 },\t         \r\n\t\t\t\t\t\t\t{ \"o\", 630885 },\t         \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                              \r\n\t\t\t\t\t\tproviders = {\r\n\t\t\t\t\t\t\t{ \"i\", 268801 },\t                                    \r\n\t\t\t\t\t\t\t{ \"o\", 630871 },\t         \r\n\t\t\t\t\t\t\t{ \"o\", 630885 },\t         \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "7",
             "qg": "2132",
             "races": "HORDE_ONLY",
@@ -1137,7 +1137,7 @@
             "sourceItemId": 268812
           },
           "inheritedFields": {},
-          "line": 659,
+          "line": 757,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 8.6, 60.2, MAP.TIRISFAL_GLADES }",
@@ -1219,7 +1219,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1159,
+          "line": 1275,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 59.0, 79.6, MAP.ZEPHRAS_ISLE }",
@@ -1290,7 +1290,7 @@
             "requiredRaces": 8589934592
           },
           "inheritedFields": {},
-          "line": 1532,
+          "line": 1663,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 33.4, 22.4, MAP.MULGORE }",
@@ -1374,14 +1374,14 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 2744,
+          "line": 2567,
           "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
           "rawFields": {
             "coord": "{ 43.8, 12.21, MAP.THE_BARRENS }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                     \r\n\t\t\t\t\t\tprovider = { \"i\", 269715 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                     \r\n\t\t\t\t\t\tprovider = { \"i\", 269715 },\t                           \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "14",
             "qg": "3682",
-            "races": "{ ORC, UNDEAD, TAUREN, TROLL, SKYBORNE_HORDE }",
+            "races": "HORDE_ONLY",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
           }
         }
@@ -1469,14 +1469,14 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 2756,
+          "line": 2607,
           "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
           "rawFields": {
             "coord": "{ 43.8, 12.21, MAP.THE_BARRENS }",
             "lvl": "14",
             "qg": "3682",
             "qi": "269718",
-            "races": "{ ORC, UNDEAD, TAUREN, TROLL, SKYBORNE_HORDE }",
+            "races": "HORDE_ONLY",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
           }
         }
@@ -1556,14 +1556,14 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 2764,
+          "line": 2717,
           "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
           "rawFields": {
             "coord": "{ 43.8, 12.21, MAP.THE_BARRENS }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t               \r\n\t\t\t\t\t\tprovider = { \"i\", 269719 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t               \r\n\t\t\t\t\t\tprovider = { \"i\", 269719 },\t                     \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "14",
             "qg": "3682",
-            "races": "{ ORC, UNDEAD, TAUREN, TROLL, SKYBORNE_HORDE }",
+            "races": "HORDE_ONLY",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
           }
         }
@@ -1658,14 +1658,14 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 2776,
+          "line": 2666,
           "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
           "rawFields": {
             "coord": "{ 42.01, 11.44, MAP.THE_BARRENS }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                    \r\n\t\t\t\t\t\tprovider = { \"i\", 270151 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                    \r\n\t\t\t\t\t\tprovider = { \"i\", 270151 },\t                          \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "14",
             "qg": "261366",
-            "races": "{ ORC, UNDEAD, TAUREN, TROLL, SKYBORNE_HORDE }",
+            "races": "HORDE_ONLY",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
           }
         }
@@ -2475,14 +2475,14 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 2788,
+          "line": 2579,
           "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
           "rawFields": {
             "coord": "{ 51.95, 31.58, MAP.THE_BARRENS }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                     \r\n\t\t\t\t\t\tprovider = { \"i\", 277277 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                     \r\n\t\t\t\t\t\tprovider = { \"i\", 277277 },\t                           \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "14",
             "qg": "3432",
-            "races": "{ ORC, UNDEAD, TAUREN, TROLL, SKYBORNE_HORDE }",
+            "races": "HORDE_ONLY",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
           }
         }
@@ -2644,7 +2644,7 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 191,
+          "line": 144,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "classes": "{ PALADIN }",
@@ -2989,14 +2989,14 @@
             "sourceItemId": 271343
           },
           "inheritedFields": {},
-          "line": 116,
+          "line": 84,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/silverpine forest.lua",
           "rawFields": {
             "coord": "{ 57.12, 71.02, MAP.SILVERPINE_FOREST }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t             \r\n\t\t\t\t\t\tprovider = { \"i\", 271343 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t             \r\n\t\t\t\t\t\tprovider = { \"i\", 271343 },\t                   \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "20",
             "provider": "{ \"i\", 271343 }",
-            "races": "{ ORC, UNDEAD, TAUREN, TROLL, SKYBORNE_HORDE }",
+            "races": "HORDE_ONLY",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
           }
         }
@@ -3096,14 +3096,14 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 72,
+          "line": 96,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/silverpine forest.lua",
           "rawFields": {
             "coord": "{ 43.98, 40.93, MAP.SILVERPINE_FOREST }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                  \r\n\t\t\t\t\t\tprovider = { \"n\", 1888 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                 \r\n\t\t\t\t\t\tprovider = { \"n\", 1889 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(281265),\t                           \r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                  \r\n\t\t\t\t\t\tprovider = { \"n\", 1888 },\t                  \r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                 \r\n\t\t\t\t\t\tprovider = { \"n\", 1889 },\t                 \r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(281265),\t                           \r\n\t\t\t\t}",
             "lvl": "10",
             "qg": "2121",
-            "races": "{ ORC, UNDEAD, TAUREN, TROLL, SKYBORNE_HORDE }",
+            "races": "HORDE_ONLY",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
           }
         }
@@ -3219,10 +3219,10 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1365,
+          "line": 1510,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
-            "altQuests": "{ 96101, 96604, 96605, 96606, 96607, 96608 }",
+            "altQuests": "{\r\n\t\t\t\t\t96101,\t                                    \r\n\t\t\t\t\t96604,\t                               \r\n\t\t\t\t\t96605,\t                               \r\n\t\t\t\t\t96606,\t                                  \r\n\t\t\t\t\t96607,\t                                       \r\n\t\t\t\t\t96608,\t                                  \r\n\t\t\t\t}",
             "coord": "{ 44.91, 63.34, MAP.ELWYNN_FOREST }",
             "lvl": "4",
             "qg": "263399",
@@ -3315,7 +3315,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 678,
+          "line": 706,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/redridge mountains.lua",
           "rawFields": {
             "coord": "{ 24.3, 46.2, MAP.REDRIDGE_MOUNTAINS }",
@@ -3462,10 +3462,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 697,
+          "line": 782,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
-            "altQuests": "{ 97906, 97922, 97934, 97946, 97958, 97969 }",
+            "altQuests": "{\r\n\t\t\t\t\t97906,\t                                        \r\n\t\t\t\t\t97922,\t                                              \r\n\t\t\t\t\t97934,\t                                        \r\n\t\t\t\t\t97946,\t                                           \r\n\t\t\t\t\t97958,\t                                                \r\n\t\t\t\t\t97969,\t                              \r\n\t\t\t\t}",
             "coord": "{ 46.7, 53.9, MAP.DUN_MOROGH }",
             "groups": "{\r\n\t\t\t\t\trecipe(1229432),\t                            \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229432 }",
@@ -3586,10 +3586,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 603,
+          "line": 637,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
-            "altQuests": "{ 97900, 97916, 97928, 97939, 97952, 97964 }",
+            "altQuests": "{\r\n\t\t\t\t\t97900,\t                                       \r\n\t\t\t\t\t97916,\t                                             \r\n\t\t\t\t\t97928,\t                                       \r\n\t\t\t\t\t97939,\t                                          \r\n\t\t\t\t\t97952,\t                                               \r\n\t\t\t\t\t97964,\t                             \r\n\t\t\t\t}",
             "coord": "{ 46.7, 53.9, MAP.DUN_MOROGH }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230171),\t                                  \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230171 }",
@@ -3709,10 +3709,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 588,
+          "line": 615,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
-            "altQuests": "{ 97899, 97915, 97927, 97938, 97951, 97963 }",
+            "altQuests": "{\r\n\t\t\t\t\t97899,\t                                 \r\n\t\t\t\t\t97915,\t                                       \r\n\t\t\t\t\t97927,\t                                 \r\n\t\t\t\t\t97938,\t                                    \r\n\t\t\t\t\t97951,\t                                         \r\n\t\t\t\t\t97963,\t                       \r\n\t\t\t\t}",
             "coord": "{ 46.7, 53.9, MAP.DUN_MOROGH }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230564),\t                     \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230564 }",
@@ -3833,10 +3833,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 712,
+          "line": 804,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
-            "altQuests": "{ 97907, 97923, 97935, 97948, 97959, 97970 }",
+            "altQuests": "{\r\n\t\t\t\t\t97907,\t                                \r\n\t\t\t\t\t97923,\t                                      \r\n\t\t\t\t\t97935,\t                                \r\n\t\t\t\t\t97948,\t                                   \r\n\t\t\t\t\t97959,\t                                        \r\n\t\t\t\t\t97970,\t                      \r\n\t\t\t\t}",
             "coord": "{ 46.7, 53.9, MAP.DUN_MOROGH }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230161),\t                    \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230161 }",
@@ -3956,10 +3956,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 654,
+          "line": 718,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
-            "altQuests": "{ 97903, 97919, 97931, 97942, 97955, 97965 }",
+            "altQuests": "{\r\n\t\t\t\t\t97903,\t                                   \r\n\t\t\t\t\t97919,\t                                         \r\n\t\t\t\t\t97931,\t                                   \r\n\t\t\t\t\t97942,\t                                      \r\n\t\t\t\t\t97955,\t                                           \r\n\t\t\t\t\t97965,\t                         \r\n\t\t\t\t}",
             "coord": "{ 46.7, 53.9, MAP.DUN_MOROGH }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230117),\t                           \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230117 }",
@@ -4079,10 +4079,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 668,
+          "line": 739,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
-            "altQuests": "{ 97904, 97920, 97932, 97943, 97956, 97967 }",
+            "altQuests": "{\r\n\t\t\t\t\t97904,\t                                 \r\n\t\t\t\t\t97920,\t                                       \r\n\t\t\t\t\t97932,\t                                 \r\n\t\t\t\t\t97943,\t                                    \r\n\t\t\t\t\t97956,\t                                         \r\n\t\t\t\t\t97967,\t                       \r\n\t\t\t\t}",
             "coord": "{ 46.7, 53.9, MAP.DUN_MOROGH }",
             "groups": "{\r\n\t\t\t\t\trecipe(1229745),\t                     \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229745 }",
@@ -4202,10 +4202,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 682,
+          "line": 760,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
-            "altQuests": "{ 97905, 97921, 97933, 97944, 97957, 97968 }",
+            "altQuests": "{\r\n\t\t\t\t\t97905,\t                                   \r\n\t\t\t\t\t97921,\t                                         \r\n\t\t\t\t\t97933,\t                                   \r\n\t\t\t\t\t97944,\t                                      \r\n\t\t\t\t\t97957,\t                                           \r\n\t\t\t\t\t97968,\t                         \r\n\t\t\t\t}",
             "coord": "{ 46.7, 53.9, MAP.DUN_MOROGH }",
             "groups": "{\r\n\t\t\t\t\trecipe(1229705),\t                            \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229705 }",
@@ -4326,10 +4326,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 726,
+          "line": 825,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
-            "altQuests": "{ 97908, 97924, 97936, 97949, 97960, 97971 }",
+            "altQuests": "{\r\n\t\t\t\t\t97908,\t                                  \r\n\t\t\t\t\t97924,\t                                        \r\n\t\t\t\t\t97936,\t                                  \r\n\t\t\t\t\t97949,\t                                     \r\n\t\t\t\t\t97960,\t                                          \r\n\t\t\t\t\t97971,\t                        \r\n\t\t\t\t}",
             "coord": "{ 46.7, 53.9, MAP.DUN_MOROGH }",
             "groups": "{\r\n\t\t\t\t\trecipe(1229517),\t                       \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229517 }",
@@ -4452,10 +4452,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 741,
+          "line": 847,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
-            "altQuests": "{ 96102, 97925, 97937, 97950, 97961, 97972, 97973 }",
+            "altQuests": "{\r\n\t\t\t\t\t96102,\t                                   \r\n\t\t\t\t\t97925,\t                                         \r\n\t\t\t\t\t97937,\t                                   \r\n\t\t\t\t\t97950,\t                                      \r\n\t\t\t\t\t97961,\t                                           \r\n\t\t\t\t\t97972,\t                         \r\n\t\t\t\t\t97973,\t                         \r\n\t\t\t\t}",
             "coord": "{ 46.7, 53.9, MAP.DUN_MOROGH }",
             "groups": "{\r\n\t\t\t\t\trecipe(1263425),\t                        \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229504 }",
@@ -4578,10 +4578,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 640,
+          "line": 696,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
-            "altQuests": "{ 97902, 97918, 97930, 97941, 97954, 98285, 98287 }",
+            "altQuests": "{\r\n\t\t\t\t\t97902,\t                                     \r\n\t\t\t\t\t97918,\t                                           \r\n\t\t\t\t\t97930,\t                                     \r\n\t\t\t\t\t97941,\t                                        \r\n\t\t\t\t\t97954,\t                                             \r\n\t\t\t\t\t98285,\t                           \r\n\t\t\t\t\t98287,\r\n\t\t\t\t}",
             "coord": "{ 46.7, 53.9, MAP.DUN_MOROGH }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230656),\t                           \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230656 }",
@@ -4703,10 +4703,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 626,
+          "line": 674,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
-            "altQuests": "{ 97901, 97917, 97929, 97940, 97953, 98284, 98286 }",
+            "altQuests": "{\r\n\t\t\t\t\t97901,\t                                    \r\n\t\t\t\t\t97917,\t                                          \r\n\t\t\t\t\t97929,\t                                    \r\n\t\t\t\t\t97940,\t                                       \r\n\t\t\t\t\t97953,\t                                            \r\n\t\t\t\t\t98284,\t                          \r\n\t\t\t\t\t98286,\t                          \r\n\t\t\t\t}",
             "coord": "{ 46.7, 53.9, MAP.DUN_MOROGH }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230643),\t                             \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230643 }",
@@ -4816,10 +4816,10 @@
             "requiredLevel": 4
           },
           "inheritedFields": {},
-          "line": 1223,
+          "line": 1339,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
-            "altQuests": "{ 95998, 96604, 96605, 96606, 96607, 96608 }",
+            "altQuests": "{\r\n\t\t\t\t\t95998,\t                                     \r\n\t\t\t\t\t96604,\t                               \r\n\t\t\t\t\t96605,\t                               \r\n\t\t\t\t\t96606,\t                                  \r\n\t\t\t\t\t96607,\t                                       \r\n\t\t\t\t\t96608,\t                                  \r\n\t\t\t\t}",
             "coord": "{ 41.6, 44.8, MAP.ZEPHRAS_ISLE }",
             "lvl": "4",
             "qg": "263664",
@@ -4907,10 +4907,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 712,
+          "line": 814,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
-            "altQuests": "{ 96057, 97925, 97937, 97950, 97961, 97972, 97973 }",
+            "altQuests": "{\r\n\t\t\t\t\t96057,\t                                      \r\n\t\t\t\t\t97925,\t                                         \r\n\t\t\t\t\t97937,\t                                   \r\n\t\t\t\t\t97950,\t                                      \r\n\t\t\t\t\t97961,\t                                           \r\n\t\t\t\t\t97972,\t                         \r\n\t\t\t\t\t97973,\t                         \r\n\t\t\t\t}",
             "coord": "{ 52.0, 47.4, MAP.DUROTAR }",
             "groups": "{\r\n\t\t\t\t\trecipe(1263425),\t                        \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229504 }",
@@ -5017,7 +5017,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1237,
+          "line": 1344,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
             "coord": "{ 46.9, 59.6, MAP.MULGORE }",
@@ -5450,7 +5450,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 936,
+          "line": 1036,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
             "coord": "{ 32.4, 20.6, MAP.MULGORE }",
@@ -5571,7 +5571,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 560,
+          "line": 660,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
             "coord": "{ 33.4, 22.4, MAP.MULGORE }",
@@ -5689,7 +5689,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 889,
+          "line": 989,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
             "coord": "{ 32.4, 20.0, MAP.MULGORE }",
@@ -5804,7 +5804,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1006,
+          "line": 1106,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
             "coord": "{ 33.4, 22.4, MAP.MULGORE }",
@@ -5917,7 +5917,7 @@
             "sourceItemId": 273658
           },
           "inheritedFields": {},
-          "line": 318,
+          "line": 323,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
             "coord": "{ 33.4, 22.4, MAP.MULGORE }",
@@ -6173,7 +6173,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 910,
+          "line": 1023,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "coord": "{ 64.8, 58.4, MAP.DUN_MOROGH }",
@@ -6270,7 +6270,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1533,
+          "line": 1684,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "coord": "{ 77.4, 61.4, MAP.DUN_MOROGH }",
@@ -6323,7 +6323,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 793,
+          "line": 906,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "coord": "{ 64.8, 58.4, MAP.DUN_MOROGH }",
@@ -6862,13 +6862,12 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 502,
+          "line": 530,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "coord": "{ 50.4, 49.1, MAP.DUN_MOROGH }",
             "isBreadcrumb": "true",
             "lvl": "10",
-            "nextQuests": "{ 96392 }",
             "qg": "1376",
             "races": "ALLIANCE_ONLY",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
@@ -6961,10 +6960,10 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1250,
+          "line": 1360,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
-            "altQuests": "{ 95998, 96101, 96605, 96606, 96607, 96608 }",
+            "altQuests": "{\r\n\t\t\t\t\t95998,\t                                     \r\n\t\t\t\t\t96101,\t                                    \r\n\t\t\t\t\t96605,\t                               \r\n\t\t\t\t\t96606,\t                                  \r\n\t\t\t\t\t96607,\t                                       \r\n\t\t\t\t\t96608,\t                                  \r\n\t\t\t\t}",
             "coord": "{ 52.0, 47.4, MAP.DUROTAR }",
             "lvl": "4",
             "qg": "265809",
@@ -7062,10 +7061,10 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1032,
+          "line": 1132,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
-            "altQuests": "{ 95998, 96101, 96604, 96606, 96607, 96608 }",
+            "altQuests": "{\r\n\t\t\t\t\t95998,\t                                     \r\n\t\t\t\t\t96101,\t                                    \r\n\t\t\t\t\t96604,\t                               \r\n\t\t\t\t\t96606,\t                                  \r\n\t\t\t\t\t96607,\t                                       \r\n\t\t\t\t\t96608,\t                                  \r\n\t\t\t\t}",
             "coord": "{ 46.2, 67.2, MAP.MULGORE }",
             "lvl": "4",
             "qg": "265810",
@@ -7163,10 +7162,10 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1145,
+          "line": 1237,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
-            "altQuests": "{ 95998, 96101, 96604, 96605, 96607, 96608 }",
+            "altQuests": "{\r\n\t\t\t\t\t95998,\t                                     \r\n\t\t\t\t\t96101,\t                                    \r\n\t\t\t\t\t96604,\t                               \r\n\t\t\t\t\t96605,\t                               \r\n\t\t\t\t\t96607,\t                                       \r\n\t\t\t\t\t96608,\t                                  \r\n\t\t\t\t}",
             "coord": "{ 57.6, 56.6, MAP.TELDRASSIL }",
             "lvl": "4",
             "qg": "265811",
@@ -7264,10 +7263,10 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 525,
+          "line": 695,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
-            "altQuests": "{ 95998, 96101, 96604, 96605, 96606, 96608 }",
+            "altQuests": "{\r\n\t\t\t\t\t95998,\t                                     \r\n\t\t\t\t\t96101,\t                                    \r\n\t\t\t\t\t96604,\t                               \r\n\t\t\t\t\t96605,\t                               \r\n\t\t\t\t\t96606,\t                                  \r\n\t\t\t\t\t96608,\t                                  \r\n\t\t\t\t}",
             "coord": "{ 57.3, 55.5, MAP.TIRISFAL_GLADES }",
             "lvl": "4",
             "qg": "265812",
@@ -7365,10 +7364,10 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1241,
+          "line": 1354,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
-            "altQuests": "{ 95998, 96101, 96604, 96605, 96606, 96607 }",
+            "altQuests": "{\r\n\t\t\t\t\t95998,\t                                     \r\n\t\t\t\t\t96101,\t                                    \r\n\t\t\t\t\t96604,\t                               \r\n\t\t\t\t\t96605,\t                               \r\n\t\t\t\t\t96606,\t                                  \r\n\t\t\t\t\t96607,\t                                       \r\n\t\t\t\t}",
             "coord": "{ 46.7, 53.9, MAP.DUN_MOROGH }",
             "lvl": "4",
             "qg": "265813",
@@ -7466,10 +7465,10 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 671,
+          "line": 691,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
-            "altQuests": "{ 96629, 96634, 96646, 96655, 96658, 96661 }",
+            "altQuests": "{\r\n\t\t\t\t\t96629,\t                                    \r\n\t\t\t\t\t96634,\t                                    \r\n\t\t\t\t\t96646,\t                       \r\n\t\t\t\t\t96655,\t                                 \r\n\t\t\t\t\t96658,\t                                         \r\n\t\t\t\t\t96661,\t                                 \r\n\t\t\t\t}",
             "coord": "{ 44.91, 63.34, MAP.ELWYNN_FOREST }",
             "lvl": "4",
             "qg": "263399",
@@ -7571,11 +7570,10 @@
           "line": 286,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
-            "altQuests": "{ 96628, 96630, 96638, 96652, 96656, 96659 }",
+            "altQuests": "{\r\n\t\t\t\t\t\t\t96628,\t                              \r\n\t\t\t\t\t\t\t96630,\t                              \r\n\t\t\t\t\t\t\t96638,\t                                \r\n\t\t\t\t\t\t\t96652,\t                           \r\n\t\t\t\t\t\t\t96656,\t                                   \r\n\t\t\t\t\t\t\t96659,\t                           \r\n\t\t\t\t\t\t}",
             "coord": "{ 48.9, 41.6, MAP.ELWYNN_FOREST }",
             "isBreadcrumb": "true",
             "lvl": "4",
-            "nextQuests": "{ 95998 }",
             "qg": "197",
             "races": "ALLIANCE_ONLY",
             "sourceQuest": "21",
@@ -7674,14 +7672,13 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 305,
+          "line": 327,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
-            "altQuests": "{ 96627, 96630, 96638, 96652, 96656, 96659 }",
+            "altQuests": "{\r\n\t\t\t\t\t\t\t96627,\t                                 \r\n\t\t\t\t\t\t\t96630,\t                              \r\n\t\t\t\t\t\t\t96638,\t                                \r\n\t\t\t\t\t\t\t96652,\t                           \r\n\t\t\t\t\t\t\t96656,\t                                   \r\n\t\t\t\t\t\t\t96659,\t                           \r\n\t\t\t\t\t\t}",
             "coord": "{ 33.4, 71.8, MAP.DUN_MOROGH }",
             "isBreadcrumb": "true",
             "lvl": "4",
-            "nextQuests": "{ 96608 }",
             "qg": "1965",
             "qi": "275019",
             "races": "ALLIANCE_ONLY",
@@ -7780,10 +7777,10 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 617,
+          "line": 658,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
-            "altQuests": "{ 96626, 96634, 96646, 96655, 96658, 96661 }",
+            "altQuests": "{\r\n\t\t\t\t\t96626,\t                                       \r\n\t\t\t\t\t96634,\t                                    \r\n\t\t\t\t\t96646,\t                       \r\n\t\t\t\t\t96655,\t                                 \r\n\t\t\t\t\t96658,\t                                         \r\n\t\t\t\t\t96661,\t                                 \r\n\t\t\t\t}",
             "coord": "{ 46.7, 53.9, MAP.DUN_MOROGH }",
             "lvl": "4",
             "qg": "265813",
@@ -7886,11 +7883,10 @@
           "line": 191,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
-            "altQuests": "{ 96627, 96628, 96638, 96652, 96656, 96659 }",
+            "altQuests": "{\r\n\t\t\t\t\t\t\t96627,\t                                 \r\n\t\t\t\t\t\t\t96628,\t                              \r\n\t\t\t\t\t\t\t96638,\t                                \r\n\t\t\t\t\t\t\t96652,\t                           \r\n\t\t\t\t\t\t\t96656,\t                                   \r\n\t\t\t\t\t\t\t96659,\t                           \r\n\t\t\t\t\t\t}",
             "coord": "{ 59.1, 39.49, MAP.TELDRASSIL }",
             "isBreadcrumb": "true",
             "lvl": "4",
-            "nextQuests": "{ 96606 }",
             "provider": "{ \"o\", 654846 }",
             "qi": "275022",
             "races": "ALLIANCE_ONLY",
@@ -7989,10 +7985,10 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 464,
+          "line": 483,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
-            "altQuests": "{ 96626, 96629, 96646, 96655, 96658, 96661 }",
+            "altQuests": "{\r\n\t\t\t\t\t96626,\t                                       \r\n\t\t\t\t\t96629,\t                                    \r\n\t\t\t\t\t96646,\t                       \r\n\t\t\t\t\t96655,\t                                 \r\n\t\t\t\t\t96658,\t                                         \r\n\t\t\t\t\t96661,\t                                 \r\n\t\t\t\t}",
             "coord": "{ 57.6, 56.6, MAP.TELDRASSIL }",
             "lvl": "4",
             "qg": "265811",
@@ -8090,14 +8086,13 @@
             "requiredLevel": 4
           },
           "inheritedFields": {},
-          "line": 1081,
+          "line": 1191,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
-            "altQuests": "{ 96627, 96628, 96630, 96652, 96656, 96659 }",
+            "altQuests": "{\r\n\t\t\t\t\t96627,\t                                 \r\n\t\t\t\t\t96628,\t                              \r\n\t\t\t\t\t96630,\t                              \r\n\t\t\t\t\t96652,\t                           \r\n\t\t\t\t\t96656,\t                                   \r\n\t\t\t\t\t96659,\t                           \r\n\t\t\t\t}",
             "coord": "{ 42.6, 23.6, MAP.ZEPHRAS_ISLE }",
             "isBreadcrumb": "true",
             "lvl": "4",
-            "nextQuests": "{ 96101 }",
             "qg": "251366",
             "sourceQuest": "92470"
           }
@@ -8172,10 +8167,10 @@
             "requiredLevel": 4
           },
           "inheritedFields": {},
-          "line": 381,
+          "line": 399,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
-            "altQuests": "{ 96626, 96629, 96634, 96655, 96658, 96661 }",
+            "altQuests": "{\r\n\t\t\t\t\t96626,\t                                       \r\n\t\t\t\t\t96629,\t                                    \r\n\t\t\t\t\t96634,\t                                    \r\n\t\t\t\t\t96655,\t                                 \r\n\t\t\t\t\t96658,\t                                         \r\n\t\t\t\t\t96661,\t                                 \r\n\t\t\t\t}",
             "coord": "{ 41.6, 44.8, MAP.ZEPHRAS_ISLE }",
             "lvl": "4",
             "qg": "263664",
@@ -8254,14 +8249,13 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 289,
+          "line": 307,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
-            "altQuests": "{ 96627, 96628, 96630, 96638, 96656, 96659 }",
+            "altQuests": "{\r\n\t\t\t\t\t\t\t96627,\t                                 \r\n\t\t\t\t\t\t\t96628,\t                              \r\n\t\t\t\t\t\t\t96630,\t                              \r\n\t\t\t\t\t\t\t96638,\t                                \r\n\t\t\t\t\t\t\t96656,\t                                   \r\n\t\t\t\t\t\t\t96659,\t                           \r\n\t\t\t\t\t\t}",
             "coord": "{ 42.82, 69.14, MAP.DUROTAR }",
             "isBreadcrumb": "true",
             "lvl": "4",
-            "nextQuests": "{ 96604 }",
             "provider": "{ \"o\", 654925 }",
             "qi": "275022",
             "races": "HORDE_ONLY",
@@ -8360,10 +8354,10 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 587,
+          "line": 624,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
-            "altQuests": "{ 96626, 96629, 96634, 96646, 96658, 96661 }",
+            "altQuests": "{\r\n\t\t\t\t\t96626,\t                                       \r\n\t\t\t\t\t96629,\t                                    \r\n\t\t\t\t\t96634,\t                                    \r\n\t\t\t\t\t96646,\t                       \r\n\t\t\t\t\t96658,\t                                         \r\n\t\t\t\t\t96661,\t                                 \r\n\t\t\t\t}",
             "coord": "{ 52.0, 47.4, MAP.DUROTAR }",
             "lvl": "4",
             "qg": "265809",
@@ -8467,15 +8461,14 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 15,
+          "line": 65,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
-            "altQuests": "{ 96627, 96628, 96630, 96638, 96652, 96659 }",
+            "altQuests": "{\r\n\t\t\t\t\t\t\t96627,\t                                 \r\n\t\t\t\t\t\t\t96628,\t                              \r\n\t\t\t\t\t\t\t96630,\t                              \r\n\t\t\t\t\t\t\t96638,\t                                \r\n\t\t\t\t\t\t\t96652,\t                           \r\n\t\t\t\t\t\t\t96659,\t                           \r\n\t\t\t\t\t\t}",
             "coord": "{ 32.0, 66.0, MAP.TIRISFAL_GLADES }",
-            "groups": "{\r\n\t\t\t\t\t\t\tobjective(1, {\t                              \r\n\t\t\t\t\t\t\t\t[\"provider\"] = { \"n\", 265812 },\t                     \r\n\t\t\t\t\t\t\t\t[\"coord\"] = { 57.3, 55.5, MAP.TIRISFAL_GLADES },\r\n\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\t\t\tobjective(1, {\t                              \r\n\t\t\t\t\t\t\t\tprovider = { \"n\", 265812 },\t                                  \r\n\t\t\t\t\t\t\t\tcoord = { 57.3, 55.5, MAP.TIRISFAL_GLADES },\r\n\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t}",
             "isBreadcrumb": "true",
             "lvl": "4",
-            "nextQuests": "{ 96607 }",
             "qg": "1570",
             "races": "HORDE_ONLY",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
@@ -8597,12 +8590,12 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 261,
+          "line": 220,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
-            "altQuests": "{ 96626, 96629, 96634, 96646, 96655, 96661 }",
+            "altQuests": "{\r\n\t\t\t\t\t96626,\t                                       \r\n\t\t\t\t\t96629,\t                                    \r\n\t\t\t\t\t96634,\t                                    \r\n\t\t\t\t\t96646,\t                       \r\n\t\t\t\t\t96655,\t                                 \r\n\t\t\t\t\t96661,\t                                 \r\n\t\t\t\t}",
             "coord": "{ 57.3, 55.5, MAP.TIRISFAL_GLADES }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                                     \r\n\t\t\t\t\t\tprovider = { \"n\", 265944 },\t                  \r\n\t\t\t\t\t\tcoord = { 61.8, 51.5, MAP.TIRISFAL_GLADES },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                                     \r\n\t\t\t\t\t\tprovider = { \"n\", 265944 },\t                                    \r\n\t\t\t\t\t\tcoord = { 61.8, 51.5, MAP.TIRISFAL_GLADES },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "4",
             "qg": "265812",
             "races": "HORDE_ONLY",
@@ -8722,11 +8715,10 @@
           "line": 198,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
-            "altQuests": "{ 96627, 96628, 96630, 96638, 96652, 96656 }",
+            "altQuests": "{\r\n\t\t\t\t\t\t\t96627,\t                                 \r\n\t\t\t\t\t\t\t96628,\t                              \r\n\t\t\t\t\t\t\t96630,\t                              \r\n\t\t\t\t\t\t\t96638,\t                                \r\n\t\t\t\t\t\t\t96652,\t                           \r\n\t\t\t\t\t\t\t96656,\t                                   \r\n\t\t\t\t\t\t}",
             "coord": "{ 44.2, 76.0, MAP.MULGORE }",
             "isBreadcrumb": "true",
             "lvl": "4",
-            "nextQuests": "{ 96605 }",
             "qg": "2981",
             "qi": "275019",
             "races": "HORDE_ONLY",
@@ -8821,10 +8813,10 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 391,
+          "line": 410,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
-            "altQuests": "{ 96626, 96629, 96634, 96646, 96655, 96658 }",
+            "altQuests": "{\r\n\t\t\t\t\t96626,\t                                       \r\n\t\t\t\t\t96629,\t                                    \r\n\t\t\t\t\t96634,\t                                    \r\n\t\t\t\t\t96646,\t                       \r\n\t\t\t\t\t96655,\t                                 \r\n\t\t\t\t\t96658,\t                                         \r\n\t\t\t\t}",
             "coord": "{ 46.2, 67.2, MAP.MULGORE }",
             "lvl": "4",
             "qg": "265810",
@@ -8914,7 +8906,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 932,
+          "line": 1042,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
             "coord": "{ 55.95, 73.92, MAP.DUROTAR }",
@@ -9058,7 +9050,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 811,
+          "line": 921,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
             "coord": "{ 54.0, 42.6, MAP.DUROTAR }",
@@ -9225,7 +9217,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1291,
+          "line": 1408,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
             "coords": "{\r\n\t\t\t\t\t{ 51.11, 42.45, MAP.DUROTAR },\r\n\t\t\t\t\t{ 51.2, 42.6, MAP.DUROTAR },\r\n\t\t\t\t}",
@@ -9365,7 +9357,7 @@
             ]
           },
           "inheritedFields": {},
-          "line": 426,
+          "line": 449,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
             "coord": "{ 56.6, 73.6, MAP.DUROTAR }",
@@ -9491,7 +9483,7 @@
             ]
           },
           "inheritedFields": {},
-          "line": 1312,
+          "line": 1429,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
             "coord": "{ 80.6, 23.4, MAP.ORGRIMMAR }",
@@ -9653,7 +9645,7 @@
             ]
           },
           "inheritedFields": {},
-          "line": 489,
+          "line": 512,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
             "coord": "{ 63.0, 45.0, MAP.ORGRIMMAR }",
@@ -9857,7 +9849,7 @@
             "sourceItemId": 275722
           },
           "inheritedFields": {},
-          "line": 1449,
+          "line": 1566,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
             "cr": "266851",
@@ -9924,7 +9916,7 @@
             "sourceItemId": 275723
           },
           "inheritedFields": {},
-          "line": 891,
+          "line": 1001,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
             "cr": "266852",
@@ -9990,7 +9982,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 501,
+          "line": 671,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 61.4, 53.4, MAP.TIRISFAL_GLADES }",
@@ -10070,7 +10062,7 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 200,
+          "line": 128,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 22.0, 44.8, MAP.TIRISFAL_GLADES }",
@@ -10159,11 +10151,11 @@
             "requiredRaces": 146
           },
           "inheritedFields": {},
-          "line": 508,
+          "line": 678,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 65.8, 61.0, MAP.TIRISFAL_GLADES }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                          \r\n\t\t\t\t\t\t[\"provider\"] = { \"n\", 267006 },\t                \r\n\t\t\t\t\t\t[\"coord\"] = { 68.8, 64.6, MAP.TIRISFAL_GLADES },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                          \r\n\t\t\t\t\t\t[\"provider\"] = { \"n\", 275437 },\t                \r\n\t\t\t\t\t\t[\"coord\"] = { 68.0, 64.6, MAP.TIRISFAL_GLADES },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                          \r\n\t\t\t\t\t\tprovider = { \"n\", 267006 },\t                                     \r\n\t\t\t\t\t\tcoord = { 68.8, 64.6, MAP.TIRISFAL_GLADES },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                          \r\n\t\t\t\t\t\tprovider = { \"n\", 275437 },\t                                     \r\n\t\t\t\t\t\tcoord = { 68.0, 64.6, MAP.TIRISFAL_GLADES },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "10",
             "qg": "267009",
             "races": "{ ORC, UNDEAD, TROLL }",
@@ -10297,11 +10289,11 @@
             "requiredRaces": 146
           },
           "inheritedFields": {},
-          "line": 469,
+          "line": 602,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 65.8, 61.0, MAP.TIRISFAL_GLADES }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                                 \r\n\t\t\t\t\t\t[\"providers\"] = {\r\n\t\t\t\t\t\t\t{ \"i\", 275851 },\t                            \r\n\t\t\t\t\t\t\t{ \"o\", 656366 },\t                             \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t[\"coord\"] = { 69.2, 66.0, MAP.TIRISFAL_GLADES },\r\n\t\t\t\t\t\t[\"crs\"] = {\r\n\t\t\t\t\t\t\t267006,\t                \r\n\t\t\t\t\t\t\t275437,\t                \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                                 \r\n\t\t\t\t\t\tproviders = {\r\n\t\t\t\t\t\t\t{ \"i\", 275851 },\t                                  \r\n\t\t\t\t\t\t\t{ \"o\", 656366 },\t                             \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\tcoord = { 69.2, 66.0, MAP.TIRISFAL_GLADES },\r\n\t\t\t\t\t\tcrs = {\r\n\t\t\t\t\t\t\t267006,\t                \r\n\t\t\t\t\t\t\t275437,\t                \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "10",
             "qg": "267009",
             "races": "{ ORC, UNDEAD, TROLL }",
@@ -10450,7 +10442,7 @@
             "requiredRaces": 18
           },
           "inheritedFields": {},
-          "line": 225,
+          "line": 170,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 65.8, 61.0, MAP.TIRISFAL_GLADES }",
@@ -11233,7 +11225,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1061,
+          "line": 1060,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/1 - stormwind city.lua",
           "rawFields": {
             "coord": "{ 30.4, 29.0, MAP.STORMWIND_CITY }",
@@ -11323,7 +11315,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 698,
+          "line": 697,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/1 - stormwind city.lua",
           "rawFields": {
             "coord": "{ 60.4, 63.4, MAP.STORMWIND_CITY }",
@@ -11441,7 +11433,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 510,
+          "line": 533,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
             "coord": "{ 55.2, 75.4, MAP.DUROTAR }",
@@ -11574,7 +11566,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 838,
+          "line": 948,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
             "coord": "{ 55.8, 74.4, MAP.DUROTAR }",
@@ -11682,7 +11674,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1087,
+          "line": 1086,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/1 - stormwind city.lua",
           "rawFields": {
             "coord": "{ 38.6, 62.0, MAP.STORMWIND_CITY }",
@@ -11866,7 +11858,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1172,
+          "line": 1171,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/1 - stormwind city.lua",
           "rawFields": {
             "coord": "{ 75.2, 30.2, MAP.STORMWIND_CITY }",
@@ -12095,7 +12087,7 @@
             "requiredRaces": 8589934592
           },
           "inheritedFields": {},
-          "line": 327,
+          "line": 331,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "classes": "{ SHAMAN }",
@@ -12163,7 +12155,7 @@
             "requiredRaces": 8589934592
           },
           "inheritedFields": {},
-          "line": 334,
+          "line": 338,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "classes": "{ SHAMAN }",
@@ -12235,7 +12227,7 @@
             "requiredRaces": 8589934592
           },
           "inheritedFields": {},
-          "line": 342,
+          "line": 346,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "classes": "{ SHAMAN }",
@@ -12315,14 +12307,14 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 2800,
+          "line": 2816,
           "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
           "rawFields": {
             "coord": "{ 44.62, 59.27, MAP.THE_BARRENS }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                      \r\n\t\t\t\t\t\tprovider = { \"n\", 268622 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                    \r\n\t\t\t\t\t\tprovider = { \"n\", 268623 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(277286),\t                     \r\n\t\t\t\t\ti(277288),\t                        \r\n\t\t\t\t\ti(277289),\t                   \r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                      \r\n\t\t\t\t\t\tprovider = { \"n\", 268622 },\t                      \r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                    \r\n\t\t\t\t\t\tprovider = { \"n\", 268623 },\t                    \r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(277286),\t                     \r\n\t\t\t\t\ti(277288),\t                        \r\n\t\t\t\t\ti(277289),\t                   \r\n\t\t\t\t}",
             "lvl": "18",
             "qg": "5911",
-            "races": "{ ORC, UNDEAD, TAUREN, TROLL, SKYBORNE_HORDE }",
+            "races": "HORDE_ONLY",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
           }
         }
@@ -12547,7 +12539,7 @@
             "requiredRaces": 8589934592
           },
           "inheritedFields": {},
-          "line": 350,
+          "line": 354,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "classes": "{ SHAMAN }",
@@ -12713,7 +12705,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 221,
+          "line": 233,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "coord": "{ 28.7, 67.5, MAP.DUN_MOROGH }",
@@ -12864,7 +12856,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 345,
+          "line": 368,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
             "coord": "{ 42.0, 68.4, MAP.DUROTAR }",
@@ -12970,7 +12962,7 @@
             "sourceItemId": 277661
           },
           "inheritedFields": {},
-          "line": 445,
+          "line": 468,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
             "crs": "{\r\n\t\t\t\t\t3118,\t                       \r\n\t\t\t\t\t276194,\t                     \r\n\t\t\t\t}",
@@ -13057,7 +13049,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1145,
+          "line": 1255,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
             "coord": "{ 46.4, 23.0, MAP.DUROTAR }",
@@ -13839,14 +13831,14 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 22,
+          "line": 8,
           "path": ".contrib/.db/forever/zones/kalimdor/stonetalon mountains.lua",
           "rawFields": {
             "coord": "{ 54.14, 47.05, MAP.THUNDER_BLUFF }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                \r\n\t\t\t\t\t\tprovider = { \"i\", 278201 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                \r\n\t\t\t\t\t\tprovider = { \"i\", 278201 },\t                      \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "20",
             "qg": "3024",
-            "races": "{ ORC, UNDEAD, TAUREN, TROLL, SKYBORNE_HORDE }",
+            "races": "HORDE_ONLY",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
           }
         }
@@ -13975,11 +13967,11 @@
             "requiredRaces": 18
           },
           "inheritedFields": {},
-          "line": 404,
+          "line": 475,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 65.4, 60.0, MAP.TIRISFAL_GLADES }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                            \r\n\t\t\t\t\t\t[\"provider\"] = { \"i\", 278242 },\t                        \r\n\t\t\t\t\t\t[\"crs\"] = {\r\n\t\t\t\t\t\t\t1553,\t                  \r\n\t\t\t\t\t\t\t1554,\t                   \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                     \r\n\t\t\t\t\t\t[\"provider\"] = { \"i\", 278243 },\t                 \r\n\t\t\t\t\t\t[\"crs\"] = {\r\n\t\t\t\t\t\t\t1547,\t                     \r\n\t\t\t\t\t\t\t1548,\t                   \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(3, {\t                           \r\n\t\t\t\t\t\t[\"provider\"] = { \"i\", 278244 },\t                       \r\n\t\t\t\t\t\t[\"crs\"] = {\r\n\t\t\t\t\t\t\t1544,\t                        \r\n\t\t\t\t\t\t\t1545,\t                       \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(281283),\t                  \r\n\t\t\t\t\ti(281284),\t                \r\n\t\t\t\t\ti(281285),\t                 \r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                            \r\n\t\t\t\t\t\tprovider = { \"i\", 278242 },\t                              \r\n\t\t\t\t\t\tcrs = {\r\n\t\t\t\t\t\t\t1553,\t                  \r\n\t\t\t\t\t\t\t1554,\t                   \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                     \r\n\t\t\t\t\t\tprovider = { \"i\", 278243 },\t                       \r\n\t\t\t\t\t\tcrs = {\r\n\t\t\t\t\t\t\t1547,\t                     \r\n\t\t\t\t\t\t\t1548,\t                   \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(3, {\t                           \r\n\t\t\t\t\t\tprovider = { \"i\", 278244 },\t                             \r\n\t\t\t\t\t\tcrs = {\r\n\t\t\t\t\t\t\t1544,\t                        \r\n\t\t\t\t\t\t\t1545,\t                       \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(281283),\t                  \r\n\t\t\t\t\ti(281284),\t                \r\n\t\t\t\t\ti(281285),\t                 \r\n\t\t\t\t}",
             "lvl": "6",
             "qg": "3549",
             "races": "{ ORC, UNDEAD }",
@@ -14285,7 +14277,6 @@
             "isBreadcrumb": "true",
             "lvl": "13",
             "maps": "{ MAP.DARKSHORE }",
-            "nextQuests": "{ 982 }",
             "qg": "7232",
             "races": "ALLIANCE_ONLY",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
@@ -14387,10 +14378,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 558,
+          "line": 581,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
-            "altQuests": "{ 96045, 97915, 97927, 97938, 97951, 97963 }",
+            "altQuests": "{\r\n\t\t\t\t\t96045,\t                                    \r\n\t\t\t\t\t97915,\t                                       \r\n\t\t\t\t\t97927,\t                                 \r\n\t\t\t\t\t97938,\t                                    \r\n\t\t\t\t\t97951,\t                                         \r\n\t\t\t\t\t97963,\t                       \r\n\t\t\t\t}",
             "coord": "{ 52.0, 47.4, MAP.DUROTAR }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230564),\t                     \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230564 }",
@@ -14511,10 +14502,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 573,
+          "line": 603,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
-            "altQuests": "{ 96044, 97916, 97928, 97939, 97952, 97964 }",
+            "altQuests": "{\r\n\t\t\t\t\t96044,\t                                          \r\n\t\t\t\t\t97916,\t                                             \r\n\t\t\t\t\t97928,\t                                       \r\n\t\t\t\t\t97939,\t                                          \r\n\t\t\t\t\t97952,\t                                               \r\n\t\t\t\t\t97964,\t                             \r\n\t\t\t\t}",
             "coord": "{ 52.0, 47.4, MAP.DUROTAR }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230171),\t                                  \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230171 }",
@@ -14636,10 +14627,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 596,
+          "line": 640,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
-            "altQuests": "{ 96059, 97917, 97929, 97940, 97953, 98284, 98286 }",
+            "altQuests": "{\r\n\t\t\t\t\t96059,\t                                       \r\n\t\t\t\t\t97917,\t                                          \r\n\t\t\t\t\t97929,\t                                    \r\n\t\t\t\t\t97940,\t                                       \r\n\t\t\t\t\t97953,\t                                            \r\n\t\t\t\t\t98284,\t                          \r\n\t\t\t\t\t98286,\t                          \r\n\t\t\t\t}",
             "coord": "{ 52.0, 47.4, MAP.DUROTAR }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230643),\t                             \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230643 }",
@@ -14762,10 +14753,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 611,
+          "line": 663,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
-            "altQuests": "{ 96058, 97918, 97930, 97941, 97954, 98285, 98287 }",
+            "altQuests": "{\r\n\t\t\t\t\t96058,\t                                        \r\n\t\t\t\t\t97918,\t                                           \r\n\t\t\t\t\t97930,\t                                     \r\n\t\t\t\t\t97941,\t                                        \r\n\t\t\t\t\t97954,\t                                             \r\n\t\t\t\t\t98285,\t                           \r\n\t\t\t\t\t98287,\r\n\t\t\t\t}",
             "coord": "{ 52.0, 47.4, MAP.DUROTAR }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230656),\t                           \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230656 }",
@@ -14885,10 +14876,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 625,
+          "line": 685,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
-            "altQuests": "{ 96047, 97919, 97931, 97942, 97955, 97965 }",
+            "altQuests": "{\r\n\t\t\t\t\t96047,\t                                      \r\n\t\t\t\t\t97919,\t                                         \r\n\t\t\t\t\t97931,\t                                   \r\n\t\t\t\t\t97942,\t                                      \r\n\t\t\t\t\t97955,\t                                           \r\n\t\t\t\t\t97965,\t                         \r\n\t\t\t\t}",
             "coord": "{ 52.0, 47.4, MAP.DUROTAR }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230117),\t                           \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230117 }",
@@ -15008,10 +14999,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 639,
+          "line": 706,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
-            "altQuests": "{ 96050, 97920, 97932, 97943, 97956, 97967 }",
+            "altQuests": "{\r\n\t\t\t\t\t96050,\t                                    \r\n\t\t\t\t\t97920,\t                                       \r\n\t\t\t\t\t97932,\t                                 \r\n\t\t\t\t\t97943,\t                                    \r\n\t\t\t\t\t97956,\t                                         \r\n\t\t\t\t\t97967,\t                       \r\n\t\t\t\t}",
             "coord": "{ 52.0, 47.4, MAP.DUROTAR }",
             "groups": "{\r\n\t\t\t\t\trecipe(1229745),\t                     \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229745 }",
@@ -15131,10 +15122,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 653,
+          "line": 727,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
-            "altQuests": "{ 96055, 97921, 97933, 97944, 97957, 97968 }",
+            "altQuests": "{\r\n\t\t\t\t\t96055,\t                                      \r\n\t\t\t\t\t97921,\t                                         \r\n\t\t\t\t\t97933,\t                                   \r\n\t\t\t\t\t97944,\t                                      \r\n\t\t\t\t\t97957,\t                                           \r\n\t\t\t\t\t97968,\t                         \r\n\t\t\t\t}",
             "coord": "{ 52.0, 47.4, MAP.DUROTAR }",
             "groups": "{\r\n\t\t\t\t\trecipe(1229705),\t                            \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229705 }",
@@ -15255,10 +15246,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 668,
+          "line": 749,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
-            "altQuests": "{ 96031, 97922, 97934, 97946, 97958, 97969 }",
+            "altQuests": "{\r\n\t\t\t\t\t96031,\t                                           \r\n\t\t\t\t\t97922,\t                                              \r\n\t\t\t\t\t97934,\t                                        \r\n\t\t\t\t\t97946,\t                                           \r\n\t\t\t\t\t97958,\t                                                \r\n\t\t\t\t\t97969,\t                              \r\n\t\t\t\t}",
             "coord": "{ 52.0, 47.4, MAP.DUROTAR }",
             "groups": "{\r\n\t\t\t\t\trecipe(1229432),\t                            \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229432 }",
@@ -15379,10 +15370,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 683,
+          "line": 771,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
-            "altQuests": "{ 96046, 97923, 97935, 97948, 97959, 97970 }",
+            "altQuests": "{\r\n\t\t\t\t\t96046,\t                                   \r\n\t\t\t\t\t97923,\t                                      \r\n\t\t\t\t\t97935,\t                                \r\n\t\t\t\t\t97948,\t                                   \r\n\t\t\t\t\t97959,\t                                        \r\n\t\t\t\t\t97970,\t                      \r\n\t\t\t\t}",
             "coord": "{ 52.0, 47.4, MAP.DUROTAR }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230161),\t                    \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230161 }",
@@ -15502,10 +15493,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 697,
+          "line": 792,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
-            "altQuests": "{ 96056, 97924, 97936, 97949, 97960, 97971 }",
+            "altQuests": "{\r\n\t\t\t\t\t96056,\t                                     \r\n\t\t\t\t\t97924,\t                                        \r\n\t\t\t\t\t97936,\t                                  \r\n\t\t\t\t\t97949,\t                                     \r\n\t\t\t\t\t97960,\t                                          \r\n\t\t\t\t\t97971,\t                        \r\n\t\t\t\t}",
             "coord": "{ 52.0, 47.4, MAP.DUROTAR }",
             "groups": "{\r\n\t\t\t\t\trecipe(1229517),\t                       \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229517 }",
@@ -15598,7 +15589,7 @@
             "requiredLevel": 13
           },
           "inheritedFields": {},
-          "line": 419,
+          "line": 432,
           "path": ".contrib/.db/forever/zones/kalimdor/darkshore.lua",
           "rawFields": {
             "coord": "{ 37.4, 40.2, MAP.DARKSHORE }",
@@ -15698,10 +15689,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 643,
+          "line": 649,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
-            "altQuests": "{ 96045, 97899, 97927, 97938, 97951, 97963 }",
+            "altQuests": "{\r\n\t\t\t\t\t96045,\t                                    \r\n\t\t\t\t\t97899,\t                                 \r\n\t\t\t\t\t97927,\t                                 \r\n\t\t\t\t\t97938,\t                                    \r\n\t\t\t\t\t97951,\t                                         \r\n\t\t\t\t\t97963,\t                       \r\n\t\t\t\t}",
             "coord": "{ 44.91, 63.34, MAP.ELWYNN_FOREST }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230564),\t                     \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230564 }",
@@ -15821,10 +15812,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 657,
+          "line": 670,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
-            "altQuests": "{ 96044, 97900, 97928, 97939, 97952, 97964 }",
+            "altQuests": "{\r\n\t\t\t\t\t96044,\t                                          \r\n\t\t\t\t\t97900,\t                                       \r\n\t\t\t\t\t97928,\t                                       \r\n\t\t\t\t\t97939,\t                                          \r\n\t\t\t\t\t97952,\t                                               \r\n\t\t\t\t\t97964,\t                             \r\n\t\t\t\t}",
             "coord": "{ 44.91, 63.34, MAP.ELWYNN_FOREST }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230171),\t                                  \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230171 }",
@@ -15946,10 +15937,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 680,
+          "line": 707,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
-            "altQuests": "{ 96059, 97901, 97929, 97940, 97953, 98284, 98286 }",
+            "altQuests": "{\r\n\t\t\t\t\t96059,\t                                       \r\n\t\t\t\t\t97901,\t                                    \r\n\t\t\t\t\t97929,\t                                    \r\n\t\t\t\t\t97940,\t                                       \r\n\t\t\t\t\t97953,\t                                            \r\n\t\t\t\t\t98284,\t                          \r\n\t\t\t\t\t98286,\t                          \r\n\t\t\t\t}",
             "coord": "{ 44.91, 63.34, MAP.ELWYNN_FOREST }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230643),\t                             \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230643 }",
@@ -16071,10 +16062,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 694,
+          "line": 729,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
-            "altQuests": "{ 96058, 97902, 97930, 97941, 97954, 98285, 98287 }",
+            "altQuests": "{\r\n\t\t\t\t\t96058,\t                                        \r\n\t\t\t\t\t97902,\t                                     \r\n\t\t\t\t\t97930,\t                                     \r\n\t\t\t\t\t97941,\t                                        \r\n\t\t\t\t\t97954,\t                                             \r\n\t\t\t\t\t98285,\t                           \r\n\t\t\t\t\t98287,\r\n\t\t\t\t}",
             "coord": "{ 44.91, 63.34, MAP.ELWYNN_FOREST }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230656),\t                           \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230656 }",
@@ -16194,10 +16185,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 708,
+          "line": 751,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
-            "altQuests": "{ 96047, 97903, 97931, 97942, 97955, 97965 }",
+            "altQuests": "{\r\n\t\t\t\t\t96047,\t                                      \r\n\t\t\t\t\t97903,\t                                   \r\n\t\t\t\t\t97931,\t                                   \r\n\t\t\t\t\t97942,\t                                      \r\n\t\t\t\t\t97955,\t                                           \r\n\t\t\t\t\t97965,\t                         \r\n\t\t\t\t}",
             "coord": "{ 44.91, 63.34, MAP.ELWYNN_FOREST }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230117),\t                           \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230117 }",
@@ -16317,10 +16308,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 722,
+          "line": 772,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
-            "altQuests": "{ 96050, 97904, 97932, 97943, 97956, 97967 }",
+            "altQuests": "{\r\n\t\t\t\t\t96050,\t                                    \r\n\t\t\t\t\t97904,\t                                 \r\n\t\t\t\t\t97932,\t                                 \r\n\t\t\t\t\t97943,\t                                    \r\n\t\t\t\t\t97956,\t                                         \r\n\t\t\t\t\t97967,\t                       \r\n\t\t\t\t}",
             "coord": "{ 44.91, 63.34, MAP.ELWYNN_FOREST }",
             "groups": "{\r\n\t\t\t\t\trecipe(1229745),\t                     \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229745 }",
@@ -16440,10 +16431,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 736,
+          "line": 793,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
-            "altQuests": "{ 96055, 97905, 97933, 97944, 97957, 97968 }",
+            "altQuests": "{\r\n\t\t\t\t\t96055,\t                                      \r\n\t\t\t\t\t97905,\t                                   \r\n\t\t\t\t\t97933,\t                                   \r\n\t\t\t\t\t97944,\t                                      \r\n\t\t\t\t\t97957,\t                                           \r\n\t\t\t\t\t97968,\t                         \r\n\t\t\t\t}",
             "coord": "{ 44.91, 63.34, MAP.ELWYNN_FOREST }",
             "groups": "{\r\n\t\t\t\t\trecipe(1229705),\t                            \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229705 }",
@@ -16563,10 +16554,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 750,
+          "line": 814,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
-            "altQuests": "{ 96031, 97906, 97934, 97946, 97958, 97969 }",
+            "altQuests": "{\r\n\t\t\t\t\t96031,\t                                           \r\n\t\t\t\t\t97906,\t                                        \r\n\t\t\t\t\t97934,\t                                        \r\n\t\t\t\t\t97946,\t                                           \r\n\t\t\t\t\t97958,\t                                                \r\n\t\t\t\t\t97969,\t                              \r\n\t\t\t\t}",
             "coord": "{ 44.91, 63.34, MAP.ELWYNN_FOREST }",
             "groups": "{\r\n\t\t\t\t\trecipe(1229432),\t                            \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229432 }",
@@ -16686,10 +16677,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 764,
+          "line": 835,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
-            "altQuests": "{ 96046, 97907, 97935, 97948, 97959, 97970 }",
+            "altQuests": "{\r\n\t\t\t\t\t96046,\t                                   \r\n\t\t\t\t\t97907,\t                                \r\n\t\t\t\t\t97935,\t                                \r\n\t\t\t\t\t97948,\t                                   \r\n\t\t\t\t\t97959,\t                                        \r\n\t\t\t\t\t97970,\t                      \r\n\t\t\t\t}",
             "coord": "{ 44.91, 63.34, MAP.ELWYNN_FOREST }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230161),\t                    \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230161 }",
@@ -16809,10 +16800,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 778,
+          "line": 856,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
-            "altQuests": "{ 96056, 97908, 97936, 97949, 97960, 97971 }",
+            "altQuests": "{\r\n\t\t\t\t\t96056,\t                                     \r\n\t\t\t\t\t97908,\t                                  \r\n\t\t\t\t\t97936,\t                                  \r\n\t\t\t\t\t97949,\t                                     \r\n\t\t\t\t\t97960,\t                                          \r\n\t\t\t\t\t97971,\t                        \r\n\t\t\t\t}",
             "coord": "{ 44.91, 63.34, MAP.ELWYNN_FOREST }",
             "groups": "{\r\n\t\t\t\t\trecipe(1229517),\t                       \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229517 }",
@@ -16934,10 +16925,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 792,
+          "line": 877,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
-            "altQuests": "{ 96057, 96102, 97937, 97950, 97961, 97972, 97973 }",
+            "altQuests": "{\r\n\t\t\t\t\t96057,\t                                      \r\n\t\t\t\t\t96102,\t                                   \r\n\t\t\t\t\t97937,\t                                   \r\n\t\t\t\t\t97950,\t                                      \r\n\t\t\t\t\t97961,\t                                           \r\n\t\t\t\t\t97972,\t                         \r\n\t\t\t\t\t97973,\t                         \r\n\t\t\t\t}",
             "coord": "{ 44.91, 63.34, MAP.ELWYNN_FOREST }",
             "groups": "{\r\n\t\t\t\t\trecipe(1263425),\t                        \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229504 }",
@@ -17032,7 +17023,7 @@
             "requiredLevel": 13
           },
           "inheritedFields": {},
-          "line": 560,
+          "line": 597,
           "path": ".contrib/.db/forever/zones/kalimdor/darkshore.lua",
           "rawFields": {
             "coord": "{ 57.7, 47.9, MAP.STORMWIND_CITY }",
@@ -17136,10 +17127,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 361,
+          "line": 366,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
-            "altQuests": "{ 96045, 97899, 97915, 97938, 97951, 97963 }",
+            "altQuests": "{\r\n\t\t\t\t\t96045,\t                                    \r\n\t\t\t\t\t97899,\t                                 \r\n\t\t\t\t\t97915,\t                                       \r\n\t\t\t\t\t97938,\t                                    \r\n\t\t\t\t\t97951,\t                                         \r\n\t\t\t\t\t97963,\t                       \r\n\t\t\t\t}",
             "coord": "{ 46.2, 67.2, MAP.MULGORE }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230564),\t                     \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230564 }",
@@ -17260,10 +17251,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 376,
+          "line": 388,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
-            "altQuests": "{ 96044, 97900, 97916, 97939, 97952, 97964 }",
+            "altQuests": "{\r\n\t\t\t\t\t96044,\t                                          \r\n\t\t\t\t\t97900,\t                                       \r\n\t\t\t\t\t97916,\t                                             \r\n\t\t\t\t\t97939,\t                                          \r\n\t\t\t\t\t97952,\t                                               \r\n\t\t\t\t\t97964,\t                             \r\n\t\t\t\t}",
             "coord": "{ 46.2, 67.2, MAP.MULGORE }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230171),\t                                  \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230171 }",
@@ -17386,10 +17377,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 400,
+          "line": 426,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
-            "altQuests": "{ 96059, 97901, 97917, 97940, 97953, 98284, 98286 }",
+            "altQuests": "{\r\n\t\t\t\t\t96059,\t                                       \r\n\t\t\t\t\t97901,\t                                    \r\n\t\t\t\t\t97917,\t                                          \r\n\t\t\t\t\t97940,\t                                       \r\n\t\t\t\t\t97953,\t                                            \r\n\t\t\t\t\t98284,\t                          \r\n\t\t\t\t\t98286,\t                          \r\n\t\t\t\t}",
             "coord": "{ 46.2, 67.2, MAP.MULGORE }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230643),\t                             \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230643 }",
@@ -17511,10 +17502,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 414,
+          "line": 448,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
-            "altQuests": "{ 96058, 97902, 97918, 97941, 97954, 98285, 98287 }",
+            "altQuests": "{\r\n\t\t\t\t\t96058,\t                                        \r\n\t\t\t\t\t97902,\t                                     \r\n\t\t\t\t\t97918,\t                                           \r\n\t\t\t\t\t97941,\t                                        \r\n\t\t\t\t\t97954,\t                                             \r\n\t\t\t\t\t98285,\t                           \r\n\t\t\t\t\t98287,\r\n\t\t\t\t}",
             "coord": "{ 46.2, 67.2, MAP.MULGORE }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230656),\t                           \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230656 }",
@@ -17634,10 +17625,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 428,
+          "line": 470,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
-            "altQuests": "{ 96047, 97903, 97919, 97942, 97955, 97965 }",
+            "altQuests": "{\r\n\t\t\t\t\t96047,\t                                      \r\n\t\t\t\t\t97903,\t                                   \r\n\t\t\t\t\t97919,\t                                         \r\n\t\t\t\t\t97942,\t                                      \r\n\t\t\t\t\t97955,\t                                           \r\n\t\t\t\t\t97965,\t                         \r\n\t\t\t\t}",
             "coord": "{ 46.2, 67.2, MAP.MULGORE }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230117),\t                           \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230117 }",
@@ -17757,10 +17748,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 442,
+          "line": 491,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
-            "altQuests": "{ 96050, 97904, 97920, 97943, 97956, 97967 }",
+            "altQuests": "{\r\n\t\t\t\t\t96050,\t                                    \r\n\t\t\t\t\t97904,\t                                 \r\n\t\t\t\t\t97920,\t                                       \r\n\t\t\t\t\t97943,\t                                    \r\n\t\t\t\t\t97956,\t                                         \r\n\t\t\t\t\t97967,\t                       \r\n\t\t\t\t}",
             "coord": "{ 46.2, 67.2, MAP.MULGORE }",
             "groups": "{\r\n\t\t\t\t\trecipe(1229745),\t                     \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229745 }",
@@ -17880,10 +17871,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 456,
+          "line": 512,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
-            "altQuests": "{ 96055, 97905, 97921, 97944, 97957, 97968 }",
+            "altQuests": "{\r\n\t\t\t\t\t96055,\t                                      \r\n\t\t\t\t\t97905,\t                                   \r\n\t\t\t\t\t97921,\t                                         \r\n\t\t\t\t\t97944,\t                                      \r\n\t\t\t\t\t97957,\t                                           \r\n\t\t\t\t\t97968,\t                         \r\n\t\t\t\t}",
             "coord": "{ 46.2, 67.2, MAP.MULGORE }",
             "groups": "{\r\n\t\t\t\t\trecipe(1229705),\t                            \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229705 }",
@@ -18004,10 +17995,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 471,
+          "line": 534,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
-            "altQuests": "{ 96031, 97906, 97922, 97946, 97958, 97969 }",
+            "altQuests": "{\r\n\t\t\t\t\t96031,\t                                           \r\n\t\t\t\t\t97906,\t                                        \r\n\t\t\t\t\t97922,\t                                              \r\n\t\t\t\t\t97946,\t                                           \r\n\t\t\t\t\t97958,\t                                                \r\n\t\t\t\t\t97969,\t                              \r\n\t\t\t\t}",
             "coord": "{ 46.2, 67.2, MAP.MULGORE }",
             "groups": "{\r\n\t\t\t\t\trecipe(1229432),\t                            \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229432 }",
@@ -18127,10 +18118,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 485,
+          "line": 555,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
-            "altQuests": "{ 96046, 97907, 97923, 97948, 97959, 97970 }",
+            "altQuests": "{\r\n\t\t\t\t\t96046,\t                                   \r\n\t\t\t\t\t97907,\t                                \r\n\t\t\t\t\t97923,\t                                      \r\n\t\t\t\t\t97948,\t                                   \r\n\t\t\t\t\t97959,\t                                        \r\n\t\t\t\t\t97970,\t                      \r\n\t\t\t\t}",
             "coord": "{ 46.2, 67.2, MAP.MULGORE }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230161),\t                    \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230161 }",
@@ -18251,10 +18242,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 500,
+          "line": 577,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
-            "altQuests": "{ 96056, 97908, 97924, 97949, 97960, 97971 }",
+            "altQuests": "{\r\n\t\t\t\t\t96056,\t                                     \r\n\t\t\t\t\t97908,\t                                  \r\n\t\t\t\t\t97924,\t                                        \r\n\t\t\t\t\t97949,\t                                     \r\n\t\t\t\t\t97960,\t                                          \r\n\t\t\t\t\t97971,\t                        \r\n\t\t\t\t}",
             "coord": "{ 46.2, 67.2, MAP.MULGORE }",
             "groups": "{\r\n\t\t\t\t\trecipe(1229517),\t                       \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229517 }",
@@ -18376,10 +18367,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 514,
+          "line": 598,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
-            "altQuests": "{ 96057, 96102, 97925, 97950, 97961, 97972, 97973 }",
+            "altQuests": "{\r\n\t\t\t\t\t96057,\t                                      \r\n\t\t\t\t\t96102,\t                                   \r\n\t\t\t\t\t97925,\t                                         \r\n\t\t\t\t\t97950,\t                                      \r\n\t\t\t\t\t97961,\t                                           \r\n\t\t\t\t\t97972,\t                         \r\n\t\t\t\t\t97973,\t                         \r\n\t\t\t\t}",
             "coord": "{ 46.2, 67.2, MAP.MULGORE }",
             "groups": "{\r\n\t\t\t\t\trecipe(1263425),\t                        \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229504 }",
@@ -18499,10 +18490,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 435,
+          "line": 440,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
-            "altQuests": "{ 96045, 97899, 97915, 97927, 97951, 97963 }",
+            "altQuests": "{\r\n\t\t\t\t\t96045,\t                                    \r\n\t\t\t\t\t97899,\t                                 \r\n\t\t\t\t\t97915,\t                                       \r\n\t\t\t\t\t97927,\t                                 \r\n\t\t\t\t\t97951,\t                                         \r\n\t\t\t\t\t97963,\t                       \r\n\t\t\t\t}",
             "coord": "{ 57.6, 56.6, MAP.TELDRASSIL }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230564),\t                     \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230564 }",
@@ -18622,10 +18613,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 449,
+          "line": 461,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
-            "altQuests": "{ 96044, 97900, 97916, 97928, 97952, 97964 }",
+            "altQuests": "{\r\n\t\t\t\t\t96044,\t                                          \r\n\t\t\t\t\t97900,\t                                       \r\n\t\t\t\t\t97916,\t                                             \r\n\t\t\t\t\t97928,\t                                       \r\n\t\t\t\t\t97952,\t                                               \r\n\t\t\t\t\t97964,\t                             \r\n\t\t\t\t}",
             "coord": "{ 57.6, 56.6, MAP.TELDRASSIL }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230171),\t                                  \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230171 }",
@@ -18748,10 +18739,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 473,
+          "line": 499,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
-            "altQuests": "{ 96059, 97901, 97917, 97929, 97953, 98284, 98286 }",
+            "altQuests": "{\r\n\t\t\t\t\t96059,\t                                       \r\n\t\t\t\t\t97901,\t                                    \r\n\t\t\t\t\t97917,\t                                          \r\n\t\t\t\t\t97929,\t                                    \r\n\t\t\t\t\t97953,\t                                            \r\n\t\t\t\t\t98284,\t                          \r\n\t\t\t\t\t98286,\t                          \r\n\t\t\t\t}",
             "coord": "{ 57.6, 56.6, MAP.TELDRASSIL }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230643),\t                             \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230643 }",
@@ -18873,10 +18864,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 487,
+          "line": 521,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
-            "altQuests": "{ 96058, 97902, 97918, 97930, 97954, 98285, 98287 }",
+            "altQuests": "{\r\n\t\t\t\t\t96058,\t                                        \r\n\t\t\t\t\t97902,\t                                     \r\n\t\t\t\t\t97918,\t                                           \r\n\t\t\t\t\t97930,\t                                     \r\n\t\t\t\t\t97954,\t                                             \r\n\t\t\t\t\t98285,\t                           \r\n\t\t\t\t\t98287,\r\n\t\t\t\t}",
             "coord": "{ 57.6, 56.6, MAP.TELDRASSIL }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230656),\t                           \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230656 }",
@@ -18997,10 +18988,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 502,
+          "line": 544,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
-            "altQuests": "{ 96047, 97903, 97919, 97931, 97955, 97965 }",
+            "altQuests": "{\r\n\t\t\t\t\t96047,\t                                      \r\n\t\t\t\t\t97903,\t                                   \r\n\t\t\t\t\t97919,\t                                         \r\n\t\t\t\t\t97931,\t                                   \r\n\t\t\t\t\t97955,\t                                           \r\n\t\t\t\t\t97965,\t                         \r\n\t\t\t\t}",
             "coord": "{ 57.6, 56.6, MAP.TELDRASSIL }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230117),\t                           \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230117 }",
@@ -19120,10 +19111,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 516,
+          "line": 565,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
-            "altQuests": "{ 96050, 97904, 97920, 97932, 97956, 97967 }",
+            "altQuests": "{\r\n\t\t\t\t\t96050,\t                                    \r\n\t\t\t\t\t97904,\t                                 \r\n\t\t\t\t\t97920,\t                                       \r\n\t\t\t\t\t97932,\t                                 \r\n\t\t\t\t\t97956,\t                                         \r\n\t\t\t\t\t97967,\t                       \r\n\t\t\t\t}",
             "coord": "{ 57.6, 56.6, MAP.TELDRASSIL }",
             "groups": "{\r\n\t\t\t\t\trecipe(1229745),\t                     \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229745 }",
@@ -19244,10 +19235,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 531,
+          "line": 587,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
-            "altQuests": "{ 96055, 97905, 97921, 97933, 97957, 97968 }",
+            "altQuests": "{\r\n\t\t\t\t\t96055,\t                                      \r\n\t\t\t\t\t97905,\t                                   \r\n\t\t\t\t\t97921,\t                                         \r\n\t\t\t\t\t97933,\t                                   \r\n\t\t\t\t\t97957,\t                                           \r\n\t\t\t\t\t97968,\t                         \r\n\t\t\t\t}",
             "coord": "{ 57.6, 56.6, MAP.TELDRASSIL }",
             "groups": "{\r\n\t\t\t\t\trecipe(1229705),\t                            \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229705 }",
@@ -19367,10 +19358,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 545,
+          "line": 608,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
-            "altQuests": "{ 96031, 97906, 97922, 97934, 97958, 97969 }",
+            "altQuests": "{\r\n\t\t\t\t\t96031,\t                                           \r\n\t\t\t\t\t97906,\t                                        \r\n\t\t\t\t\t97922,\t                                              \r\n\t\t\t\t\t97934,\t                                        \r\n\t\t\t\t\t97958,\t                                                \r\n\t\t\t\t\t97969,\t                              \r\n\t\t\t\t}",
             "coord": "{ 57.6, 56.6, MAP.TELDRASSIL }",
             "groups": "{\r\n\t\t\t\t\trecipe(1229432),\t                            \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229432 }",
@@ -19490,10 +19481,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 559,
+          "line": 629,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
-            "altQuests": "{ 96046, 97907, 97923, 97935, 97959, 97970 }",
+            "altQuests": "{\r\n\t\t\t\t\t96046,\t                                   \r\n\t\t\t\t\t97907,\t                                \r\n\t\t\t\t\t97923,\t                                      \r\n\t\t\t\t\t97935,\t                                \r\n\t\t\t\t\t97959,\t                                        \r\n\t\t\t\t\t97970,\t                      \r\n\t\t\t\t}",
             "coord": "{ 57.6, 56.6, MAP.TELDRASSIL }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230161),\t                    \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230161 }",
@@ -19614,10 +19605,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 574,
+          "line": 651,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
-            "altQuests": "{ 96056, 97908, 97924, 97936, 97960, 97971 }",
+            "altQuests": "{\r\n\t\t\t\t\t96056,\t                                     \r\n\t\t\t\t\t97908,\t                                  \r\n\t\t\t\t\t97924,\t                                        \r\n\t\t\t\t\t97936,\t                                  \r\n\t\t\t\t\t97960,\t                                          \r\n\t\t\t\t\t97971,\t                        \r\n\t\t\t\t}",
             "coord": "{ 57.6, 56.6, MAP.TELDRASSIL }",
             "groups": "{\r\n\t\t\t\t\trecipe(1229517),\t                       \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229517 }",
@@ -19739,10 +19730,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 588,
+          "line": 672,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
-            "altQuests": "{ 96057, 96102, 97925, 97937, 97961, 97972, 97973 }",
+            "altQuests": "{\r\n\t\t\t\t\t96057,\t                                      \r\n\t\t\t\t\t96102,\t                                   \r\n\t\t\t\t\t97925,\t                                         \r\n\t\t\t\t\t97937,\t                                   \r\n\t\t\t\t\t97961,\t                                           \r\n\t\t\t\t\t97972,\t                         \r\n\t\t\t\t\t97973,\t                         \r\n\t\t\t\t}",
             "coord": "{ 57.6, 56.6, MAP.TELDRASSIL }",
             "groups": "{\r\n\t\t\t\t\trecipe(1263425),\t                        \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229504 }",
@@ -19863,10 +19854,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 232,
+          "line": 177,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
-            "altQuests": "{ 96045, 97899, 97915, 97927, 97938, 97963 }",
+            "altQuests": "{\r\n\t\t\t\t\t96045,\t                                    \r\n\t\t\t\t\t97899,\t                                 \r\n\t\t\t\t\t97915,\t                                       \r\n\t\t\t\t\t97927,\t                                 \r\n\t\t\t\t\t97938,\t                                    \r\n\t\t\t\t\t97963,\t                       \r\n\t\t\t\t}",
             "coord": "{ 57.2, 55.6, MAP.TIRISFAL_GLADES }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230564),\t                     \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230564 }",
@@ -19986,10 +19977,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 246,
+          "line": 198,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
-            "altQuests": "{ 96044, 97900, 97916, 97928, 97939, 97964 }",
+            "altQuests": "{\r\n\t\t\t\t\t96044,\t                                          \r\n\t\t\t\t\t97900,\t                                       \r\n\t\t\t\t\t97916,\t                                             \r\n\t\t\t\t\t97928,\t                                       \r\n\t\t\t\t\t97939,\t                                          \r\n\t\t\t\t\t97964,\t                             \r\n\t\t\t\t}",
             "coord": "{ 57.2, 55.6, MAP.TIRISFAL_GLADES }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230171),\t                                  \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230171 }",
@@ -20112,10 +20103,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 276,
+          "line": 242,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
-            "altQuests": "{ 96059, 97901, 97917, 97929, 97940, 98284, 98286 }",
+            "altQuests": "{\r\n\t\t\t\t\t96059,\t                                       \r\n\t\t\t\t\t97901,\t                                    \r\n\t\t\t\t\t97917,\t                                          \r\n\t\t\t\t\t97929,\t                                    \r\n\t\t\t\t\t97940,\t                                       \r\n\t\t\t\t\t98284,\t                          \r\n\t\t\t\t\t98286,\t                          \r\n\t\t\t\t}",
             "coord": "{ 57.2, 55.6, MAP.TIRISFAL_GLADES }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230643),\t                             \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230643 }",
@@ -20237,10 +20228,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 290,
+          "line": 264,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
-            "altQuests": "{ 96058, 97902, 97918, 97930, 97941, 98285, 98287 }",
+            "altQuests": "{\r\n\t\t\t\t\t96058,\t                                        \r\n\t\t\t\t\t97902,\t                                     \r\n\t\t\t\t\t97918,\t                                           \r\n\t\t\t\t\t97930,\t                                     \r\n\t\t\t\t\t97941,\t                                        \r\n\t\t\t\t\t98285,\t                           \r\n\t\t\t\t\t98287,\r\n\t\t\t\t}",
             "coord": "{ 57.2, 55.6, MAP.TIRISFAL_GLADES }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230656),\t                           \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230656 }",
@@ -20361,10 +20352,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 305,
+          "line": 287,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
-            "altQuests": "{ 96047, 97903, 97919, 97931, 97942, 97965 }",
+            "altQuests": "{\r\n\t\t\t\t\t96047,\t                                      \r\n\t\t\t\t\t97903,\t                                   \r\n\t\t\t\t\t97919,\t                                         \r\n\t\t\t\t\t97931,\t                                   \r\n\t\t\t\t\t97942,\t                                      \r\n\t\t\t\t\t97965,\t                         \r\n\t\t\t\t}",
             "coord": "{ 57.2, 55.6, MAP.TIRISFAL_GLADES }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230117),\t                           \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230117 }",
@@ -20484,10 +20475,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 319,
+          "line": 308,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
-            "altQuests": "{ 96050, 97904, 97920, 97932, 97943, 97967 }",
+            "altQuests": "{\r\n\t\t\t\t\t96050,\t                                    \r\n\t\t\t\t\t97904,\t                                 \r\n\t\t\t\t\t97920,\t                                       \r\n\t\t\t\t\t97932,\t                                 \r\n\t\t\t\t\t97943,\t                                    \r\n\t\t\t\t\t97967,\t                       \r\n\t\t\t\t}",
             "coord": "{ 57.2, 55.6, MAP.TIRISFAL_GLADES }",
             "groups": "{\r\n\t\t\t\t\trecipe(1229745),\t                     \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229745 }",
@@ -20607,10 +20598,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 333,
+          "line": 329,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
-            "altQuests": "{ 96055, 97905, 97921, 97933, 97944, 97968 }",
+            "altQuests": "{\r\n\t\t\t\t\t96055,\t                                      \r\n\t\t\t\t\t97905,\t                                   \r\n\t\t\t\t\t97921,\t                                         \r\n\t\t\t\t\t97933,\t                                   \r\n\t\t\t\t\t97944,\t                                      \r\n\t\t\t\t\t97968,\t                         \r\n\t\t\t\t}",
             "coord": "{ 57.2, 55.6, MAP.TIRISFAL_GLADES }",
             "groups": "{\r\n\t\t\t\t\trecipe(1229705),\t                            \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229705 }",
@@ -20730,10 +20721,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 347,
+          "line": 350,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
-            "altQuests": "{ 96031, 97906, 97922, 97934, 97946, 97969 }",
+            "altQuests": "{\r\n\t\t\t\t\t96031,\t                                           \r\n\t\t\t\t\t97906,\t                                        \r\n\t\t\t\t\t97922,\t                                              \r\n\t\t\t\t\t97934,\t                                        \r\n\t\t\t\t\t97946,\t                                           \r\n\t\t\t\t\t97969,\t                              \r\n\t\t\t\t}",
             "coord": "{ 57.2, 55.6, MAP.TIRISFAL_GLADES }",
             "groups": "{\r\n\t\t\t\t\trecipe(1229432),\t                            \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229432 }",
@@ -20853,10 +20844,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 361,
+          "line": 371,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
-            "altQuests": "{ 96046, 97907, 97923, 97935, 97948, 97970 }",
+            "altQuests": "{\r\n\t\t\t\t\t96046,\t                                   \r\n\t\t\t\t\t97907,\t                                \r\n\t\t\t\t\t97923,\t                                      \r\n\t\t\t\t\t97935,\t                                \r\n\t\t\t\t\t97948,\t                                   \r\n\t\t\t\t\t97970,\t                      \r\n\t\t\t\t}",
             "coord": "{ 57.2, 55.6, MAP.TIRISFAL_GLADES }",
             "groups": "{\r\n\t\t\t\t\trecipe(1230161),\t                    \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1230161 }",
@@ -20977,10 +20968,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 376,
+          "line": 393,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
-            "altQuests": "{ 96056, 97908, 97924, 97936, 97949, 97971 }",
+            "altQuests": "{\r\n\t\t\t\t\t96056,\t                                     \r\n\t\t\t\t\t97908,\t                                  \r\n\t\t\t\t\t97924,\t                                        \r\n\t\t\t\t\t97936,\t                                  \r\n\t\t\t\t\t97949,\t                                     \r\n\t\t\t\t\t97971,\t                        \r\n\t\t\t\t}",
             "coord": "{ 57.2, 55.6, MAP.TIRISFAL_GLADES }",
             "groups": "{\r\n\t\t\t\t\trecipe(1229517),\t                       \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229517 }",
@@ -21102,10 +21093,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 390,
+          "line": 414,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
-            "altQuests": "{ 96057, 96102, 97925, 97937, 97950, 97972, 97973 }",
+            "altQuests": "{\r\n\t\t\t\t\t96057,\t                                      \r\n\t\t\t\t\t96102,\t                                   \r\n\t\t\t\t\t97925,\t                                         \r\n\t\t\t\t\t97937,\t                                   \r\n\t\t\t\t\t97950,\t                                      \r\n\t\t\t\t\t97972,\t                         \r\n\t\t\t\t\t97973,\t                         \r\n\t\t\t\t}",
             "coord": "{ 57.2, 55.6, MAP.TIRISFAL_GLADES }",
             "groups": "{\r\n\t\t\t\t\trecipe(1263425),\t                        \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229504 }",
@@ -21224,10 +21215,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 361,
+          "line": 365,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
-            "altQuests": "{ 96045, 97899, 97915, 97927, 97938, 97951 }",
+            "altQuests": "{\r\n\t\t\t\t\t96045,\t                                    \r\n\t\t\t\t\t97899,\t                                 \r\n\t\t\t\t\t97915,\t                                       \r\n\t\t\t\t\t97927,\t                                 \r\n\t\t\t\t\t97938,\t                                    \r\n\t\t\t\t\t97951,\t                                         \r\n\t\t\t\t}",
             "coord": "{ 41.6, 44.8, MAP.ZEPHRAS_ISLE }",
             "groups": "{ recipe(1230564), }",
             "lockCriteria": "{ 1, \"spellID\", 1230564 }",
@@ -21325,10 +21316,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 371,
+          "line": 382,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
-            "altQuests": "{ 96044, 97900, 97916, 97928, 97939, 97952 }",
+            "altQuests": "{\r\n\t\t\t\t\t96044,\t                                          \r\n\t\t\t\t\t97900,\t                                       \r\n\t\t\t\t\t97916,\t                                             \r\n\t\t\t\t\t97928,\t                                       \r\n\t\t\t\t\t97939,\t                                          \r\n\t\t\t\t\t97952,\t                                               \r\n\t\t\t\t}",
             "coord": "{ 41.6, 44.8, MAP.ZEPHRAS_ISLE }",
             "groups": "{ recipe(1230171), }",
             "lockCriteria": "{ 1, \"spellID\", 1230171 }",
@@ -21426,10 +21417,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 420,
+          "line": 469,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
-            "altQuests": "{ 96047, 97903, 97919, 97931, 97942, 97955 }",
+            "altQuests": "{\r\n\t\t\t\t\t96047,\t                                      \r\n\t\t\t\t\t97903,\t                                   \r\n\t\t\t\t\t97919,\t                                         \r\n\t\t\t\t\t97931,\t                                   \r\n\t\t\t\t\t97942,\t                                      \r\n\t\t\t\t\t97955,\t                                           \r\n\t\t\t\t}",
             "coord": "{ 41.6, 44.8, MAP.ZEPHRAS_ISLE }",
             "groups": "{ recipe(1230117), }",
             "lockCriteria": "{ 1, \"spellID\", 1230117 }",
@@ -21527,10 +21518,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 430,
+          "line": 486,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
-            "altQuests": "{ 96050, 97904, 97920, 97932, 97943, 97956 }",
+            "altQuests": "{\r\n\t\t\t\t\t96050,\t                                    \r\n\t\t\t\t\t97904,\t                                 \r\n\t\t\t\t\t97920,\t                                       \r\n\t\t\t\t\t97932,\t                                 \r\n\t\t\t\t\t97943,\t                                    \r\n\t\t\t\t\t97956,\t                                         \r\n\t\t\t\t}",
             "coord": "{ 41.6, 44.8, MAP.ZEPHRAS_ISLE }",
             "groups": "{ recipe(1229745), }",
             "lockCriteria": "{ 1, \"spellID\", 1229745 }",
@@ -21628,10 +21619,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 440,
+          "line": 503,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
-            "altQuests": "{ 96055, 97905, 97921, 97933, 97944, 97957 }",
+            "altQuests": "{\r\n\t\t\t\t\t96055,\t                                      \r\n\t\t\t\t\t97905,\t                                   \r\n\t\t\t\t\t97921,\t                                         \r\n\t\t\t\t\t97933,\t                                   \r\n\t\t\t\t\t97944,\t                                      \r\n\t\t\t\t\t97957,\t                                           \r\n\t\t\t\t}",
             "coord": "{ 41.6, 44.8, MAP.ZEPHRAS_ISLE }",
             "groups": "{ recipe(1229705), }",
             "lockCriteria": "{ 1, \"spellID\", 1229705 }",
@@ -21729,10 +21720,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 450,
+          "line": 520,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
-            "altQuests": "{ 96031, 97906, 97922, 97934, 97946, 97958 }",
+            "altQuests": "{\r\n\t\t\t\t\t96031,\t                                           \r\n\t\t\t\t\t97906,\t                                        \r\n\t\t\t\t\t97922,\t                                              \r\n\t\t\t\t\t97934,\t                                        \r\n\t\t\t\t\t97946,\t                                           \r\n\t\t\t\t\t97958,\t                                                \r\n\t\t\t\t}",
             "coord": "{ 41.6, 44.8, MAP.ZEPHRAS_ISLE }",
             "groups": "{ recipe(1229432), }",
             "lockCriteria": "{ 1, \"spellID\", 1229432 }",
@@ -21830,10 +21821,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 460,
+          "line": 537,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
-            "altQuests": "{ 96046, 97907, 97923, 97935, 97948, 97959 }",
+            "altQuests": "{\r\n\t\t\t\t\t96046,\t                                   \r\n\t\t\t\t\t97907,\t                                \r\n\t\t\t\t\t97923,\t                                      \r\n\t\t\t\t\t97935,\t                                \r\n\t\t\t\t\t97948,\t                                   \r\n\t\t\t\t\t97959,\t                                        \r\n\t\t\t\t}",
             "coord": "{ 41.6, 44.8, MAP.ZEPHRAS_ISLE }",
             "groups": "{ recipe(1230161), }",
             "lockCriteria": "{ 1, \"spellID\", 1230161 }",
@@ -21931,10 +21922,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 470,
+          "line": 554,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
-            "altQuests": "{ 96056, 97908, 97924, 97936, 97949, 97960 }",
+            "altQuests": "{\r\n\t\t\t\t\t96056,\t                                     \r\n\t\t\t\t\t97908,\t                                  \r\n\t\t\t\t\t97924,\t                                        \r\n\t\t\t\t\t97936,\t                                  \r\n\t\t\t\t\t97949,\t                                     \r\n\t\t\t\t\t97960,\t                                          \r\n\t\t\t\t}",
             "coord": "{ 41.6, 44.8, MAP.ZEPHRAS_ISLE }",
             "groups": "{ recipe(1229517), }",
             "lockCriteria": "{ 1, \"spellID\", 1229517 }",
@@ -22035,10 +22026,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 480,
+          "line": 571,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
-            "altQuests": "{ 96057, 96102, 97925, 97937, 97950, 97961, 97973 }",
+            "altQuests": "{\r\n\t\t\t\t\t96057,\t                                      \r\n\t\t\t\t\t96102,\t                                   \r\n\t\t\t\t\t97925,\t                                         \r\n\t\t\t\t\t97937,\t                                   \r\n\t\t\t\t\t97950,\t                                      \r\n\t\t\t\t\t97961,\t                                           \r\n\t\t\t\t\t97973,\t                         \r\n\t\t\t\t}",
             "coord": "{ 41.6, 44.8, MAP.ZEPHRAS_ISLE }",
             "groups": "{\r\n\t\t\t\t\trecipe(1229504),\t                         \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1229504 }",
@@ -22147,10 +22138,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 493,
+          "line": 592,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
-            "altQuests": "{ 96057, 96102, 97925, 97937, 97950, 97961, 97972 }",
+            "altQuests": "{\r\n\t\t\t\t\t96057,\t                                      \r\n\t\t\t\t\t96102,\t                                   \r\n\t\t\t\t\t97925,\t                                         \r\n\t\t\t\t\t97937,\t                                   \r\n\t\t\t\t\t97950,\t                                      \r\n\t\t\t\t\t97961,\t                                           \r\n\t\t\t\t\t97972,\t                         \r\n\t\t\t\t}",
             "coord": "{ 41.6, 44.8, MAP.ZEPHRAS_ISLE }",
             "groups": "{\r\n\t\t\t\t\trecipe(1263425),\t                            \r\n\t\t\t\t}",
             "lockCriteria": "{ 1, \"spellID\", 1263425 }",
@@ -22253,7 +22244,7 @@
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
             "coord": "{ 57.8, 45.0, MAP.TELDRASSIL }",
-            "groups": "{\r\n\t\t\t\t\t\t\tobjective(1, {\t                      \r\n\t\t\t\t\t\t\t\tproviders = {\r\n\t\t\t\t\t\t\t\t\t{ \"i\", 279082 },\t                  \r\n\t\t\t\t\t\t\t\t\t{ \"o\", 668482 },\t                   \r\n\t\t\t\t\t\t\t\t\t{ \"o\", 668493 },\t                                               \r\n\t\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\t\t\tobjective(1, {\t                      \r\n\t\t\t\t\t\t\t\tproviders = {\r\n\t\t\t\t\t\t\t\t\t{ \"i\", 279082 },\t                        \r\n\t\t\t\t\t\t\t\t\t{ \"o\", 668482 },\t                  \r\n\t\t\t\t\t\t\t\t\t{ \"o\", 668493 },\t                  \r\n\t\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t}",
             "qg": "1992",
             "races": "ALLIANCE_ONLY",
             "sourceQuest": "458",
@@ -22371,7 +22362,7 @@
             "requiredRaces": 8
           },
           "inheritedFields": {},
-          "line": 235,
+          "line": 240,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
             "coord": "{ 59.2, 40.4, MAP.TELDRASSIL }",
@@ -22462,11 +22453,11 @@
             "requiredRaces": 4294967372
           },
           "inheritedFields": {},
-          "line": 1023,
+          "line": 696,
           "path": ".contrib/.db/forever/zones/kalimdor/darkshore.lua",
           "rawFields": {
             "coord": "{ 43.71, 76.51, MAP.DARKSHORE }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                      \r\n\t\t\t\t\t\tprovider = { \"n\", 2181 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                       \r\n\t\t\t\t\t\tprovider = { \"n\", 2182 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(3, {\t                     \r\n\t\t\t\t\t\tprovider = { \"n\", 2183 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                      \r\n\t\t\t\t\t\tprovider = { \"n\", 2181 },\t                      \r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                       \r\n\t\t\t\t\t\tprovider = { \"n\", 2182 },\t                       \r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(3, {\t                     \r\n\t\t\t\t\t\tprovider = { \"n\", 2183 },\t                     \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "12",
             "qg": "270269",
             "races": "{ DWARF, NIGHTELF, GNOME, SKYBORNE_ALLIANCE }",
@@ -22579,7 +22570,7 @@
             "requiredRaces": 4294967296
           },
           "inheritedFields": {},
-          "line": 654,
+          "line": 653,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/1 - stormwind city.lua",
           "rawFields": {
             "coord": "{ 80.1, 38.4, MAP.STORMWIND_CITY }",
@@ -22660,7 +22651,7 @@
             "requiredRaces": 8589934592
           },
           "inheritedFields": {},
-          "line": 2818,
+          "line": 2591,
           "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
           "rawFields": {
             "coord": "{ 31.73, 37.82, MAP.ORGRIMMAR }",
@@ -22751,7 +22742,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 960,
+          "line": 1015,
           "path": ".contrib/.db/forever/zones/kalimdor/darkshore.lua",
           "rawFields": {
             "coord": "{ 37.2, 44.2, MAP.DARKSHORE }",
@@ -22872,7 +22863,7 @@
             "sourceItemId": 279275
           },
           "inheritedFields": {},
-          "line": 1041,
+          "line": 76,
           "path": ".contrib/.db/forever/zones/kalimdor/darkshore.lua",
           "rawFields": {
             "coord": "{ 59.01, 22.91, MAP.DARKSHORE }",
@@ -22961,11 +22952,11 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1053,
+          "line": 585,
           "path": ".contrib/.db/forever/zones/kalimdor/darkshore.lua",
           "rawFields": {
             "coord": "{ 38.54, 86.05, MAP.DARKSHORE }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t               \r\n\t\t\t\t\t\tprovider = { \"i\", 279279 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t               \r\n\t\t\t\t\t\tprovider = { \"i\", 279279 },\t                     \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "12",
             "provider": "{ \"o\", 12666 }",
             "races": "ALLIANCE_ONLY",
@@ -23058,7 +23049,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 603,
+          "line": 695,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
             "coord": "{ 34.8, 8.8, MAP.DARNASSUS }",
@@ -23142,7 +23133,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 611,
+          "line": 703,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
             "coord": "{ 40.2, 88.2, MAP.DARNASSUS }",
@@ -23382,7 +23373,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 233,
+          "line": 293,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 8.5, 55.7, MAP.WETLANDS }",
@@ -23607,14 +23598,14 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 2826,
+          "line": 2599,
           "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
           "rawFields": {
             "coord": "{ 62.33, 20.45, MAP.HILLSBRAD_FOOTHILLS }",
             "lvl": "19",
             "qg": "2215",
             "qi": "279394",
-            "races": "{ ORC, UNDEAD, TAUREN, TROLL, SKYBORNE_HORDE }",
+            "races": "HORDE_ONLY",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
           }
         }
@@ -23690,7 +23681,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 605,
+          "line": 665,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 8.4, 58.6, MAP.WETLANDS }",
@@ -23971,7 +23962,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 628,
+          "line": 688,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 10.1, 56.8, MAP.WETLANDS }",
@@ -24138,7 +24129,7 @@
             "requiredLevel": 22
           },
           "inheritedFields": {},
-          "line": 164,
+          "line": 172,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 8.0, 55.9, MAP.WETLANDS }",
@@ -24252,7 +24243,7 @@
             "requiredLevel": 22
           },
           "inheritedFields": {},
-          "line": 180,
+          "line": 188,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 8.0, 55.9, MAP.WETLANDS }",
@@ -24346,7 +24337,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 928,
+          "line": 988,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 38.8, 52.2, MAP.WETLANDS }",
@@ -24474,7 +24465,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 800,
+          "line": 860,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 48.6, 50.0, MAP.STORMWIND_CITY }",
@@ -24576,7 +24567,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 373,
+          "line": 433,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 9.9, 57.4, MAP.WETLANDS }",
@@ -24727,7 +24718,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 492,
+          "line": 552,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 53.5, 54.5, MAP.WETLANDS }",
@@ -24810,7 +24801,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 854,
+          "line": 914,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 9.8, 57.4, MAP.WETLANDS }",
@@ -24909,7 +24900,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 561,
+          "line": 621,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 49.3, 42.1, MAP.WETLANDS }",
@@ -25063,7 +25054,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 877,
+          "line": 937,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 49.3, 42.1, MAP.WETLANDS }",
@@ -25200,7 +25191,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 507,
+          "line": 535,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/redridge mountains.lua",
           "rawFields": {
             "coord": "{ 9.6, 71.0, MAP.REDRIDGE_MOUNTAINS }",
@@ -25381,7 +25372,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 115,
+          "line": 123,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 11.9, 58.8, MAP.WETLANDS }",
@@ -25562,10 +25553,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 388,
+          "line": 413,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
-            "altQuests": "{ 96059, 97901, 97917, 97929, 97940, 97953, 98286 }",
+            "altQuests": "{\r\n\t\t\t\t\t96059,\t                                       \r\n\t\t\t\t\t97901,\t                                    \r\n\t\t\t\t\t97917,\t                                          \r\n\t\t\t\t\t97929,\t                                    \r\n\t\t\t\t\t97940,\t                                       \r\n\t\t\t\t\t97953,\t                                            \r\n\t\t\t\t\t98286,\t                          \r\n\t\t\t\t}",
             "coord": "{ 41.6, 44.8, MAP.ZEPHRAS_ISLE }",
             "groups": "{ recipe(1230643), }",
             "lockCriteria": "{ 1, \"spellID\", 1230643 }",
@@ -25673,10 +25664,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 410,
+          "line": 451,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
-            "altQuests": "{ 96058, 97902, 97918, 97930, 97941, 97954, 98287 }",
+            "altQuests": "{\r\n\t\t\t\t\t96058,\t                                        \r\n\t\t\t\t\t97902,\t                                     \r\n\t\t\t\t\t97918,\t                                           \r\n\t\t\t\t\t97930,\t                                     \r\n\t\t\t\t\t97941,\t                                        \r\n\t\t\t\t\t97954,\t                                             \r\n\t\t\t\t\t98287,\r\n\t\t\t\t}",
             "coord": "{ 41.6, 44.8, MAP.ZEPHRAS_ISLE }",
             "groups": "{ recipe(1230656), }",
             "lockCriteria": "{ 1, \"spellID\", 1230656 }",
@@ -25777,10 +25768,10 @@
             ]
           },
           "inheritedFields": {},
-          "line": 399,
+          "line": 432,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
-            "altQuests": "{ 96059, 97901, 97917, 97929, 97940, 97953, 98284 }",
+            "altQuests": "{\r\n\t\t\t\t\t96059,\t                                       \r\n\t\t\t\t\t97901,\t                                    \r\n\t\t\t\t\t97917,\t                                          \r\n\t\t\t\t\t97929,\t                                    \r\n\t\t\t\t\t97940,\t                                       \r\n\t\t\t\t\t97953,\t                                            \r\n\t\t\t\t\t98284,\t                          \r\n\t\t\t\t}",
             "coord": "{ 41.6, 44.8, MAP.ZEPHRAS_ISLE }",
             "groups": "{ recipe(1230643), }",
             "lockCriteria": "{ 1, \"spellID\", 1230643 }",
@@ -25911,7 +25902,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 264,
+          "line": 324,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 49.3, 42.1, MAP.WETLANDS }",
@@ -26066,7 +26057,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 355,
+          "line": 415,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 58.8, 45.1, MAP.WETLANDS }",
@@ -26217,7 +26208,7 @@
             "name": "Forced Disarmament? (Triggered shortly after I picked up the Dragonmaw Armaments)"
           },
           "inheritedFields": {},
-          "line": 1478,
+          "line": 1476,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
@@ -26266,7 +26257,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 651,
+          "line": 711,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 49.3, 42.1, MAP.WETLANDS }",
@@ -26377,14 +26368,14 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 88,
+          "line": 25,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/silverpine forest.lua",
           "rawFields": {
             "coord": "{ 44.2, 39.81, MAP.SILVERPINE_FOREST }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t              \r\n\t\t\t\t\t\tprovider = { \"i\", 280375 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(281315),\t                 \r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t              \r\n\t\t\t\t\t\tprovider = { \"i\", 280375 },\t                    \r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(281315),\t                 \r\n\t\t\t\t}",
             "lvl": "9",
             "qg": "1938",
-            "races": "{ ORC, UNDEAD, TAUREN, TROLL, SKYBORNE_HORDE }",
+            "races": "HORDE_ONLY",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
           }
         }
@@ -26483,14 +26474,14 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 101,
+          "line": 69,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/silverpine forest.lua",
           "rawFields": {
             "coord": "{ 44.2, 39.81, MAP.SILVERPINE_FOREST }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                  \r\n\t\t\t\t\t\tprovider = { \"n\", 2053 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                 \r\n\t\t\t\t\t\tprovider = { \"n\", 2054 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                  \r\n\t\t\t\t\t\tprovider = { \"n\", 2053 },\t                  \r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                 \r\n\t\t\t\t\t\tprovider = { \"n\", 2054 },\t                 \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "9",
             "qg": "1938",
-            "races": "{ ORC, UNDEAD, TAUREN, TROLL, SKYBORNE_HORDE }",
+            "races": "HORDE_ONLY",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
           }
         }
@@ -26591,7 +26582,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 967,
+          "line": 1035,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 49.3, 42.1, MAP.WETLANDS }",
@@ -26717,7 +26708,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 398,
+          "line": 458,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 38.8, 52.2, MAP.WETLANDS }",
@@ -26951,7 +26942,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 345,
+          "line": 405,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 38.8, 52.2, MAP.WETLANDS }",
@@ -27038,7 +27029,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1081,
+          "line": 1194,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "coord": "{ 44.1, 57.1, MAP.DUN_MOROGH }",
@@ -27133,7 +27124,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 817,
+          "line": 930,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "coord": "{ 45.3, 51.9, MAP.DUN_MOROGH }",
@@ -27243,7 +27234,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1073,
+          "line": 1186,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "coord": "{ 46.8, 53.8, MAP.DUN_MOROGH }",
@@ -27327,7 +27318,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1089,
+          "line": 1202,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "coord": "{ 44.1, 57.1, MAP.DUN_MOROGH }",
@@ -27423,7 +27414,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 832,
+          "line": 945,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "coord": "{ 31.5, 44.6, MAP.DUN_MOROGH }",
@@ -27559,12 +27550,12 @@
             "requiredRaces": 32
           },
           "inheritedFields": {},
-          "line": 8,
+          "line": 16,
           "path": ".contrib/.db/forever/zones/kalimdor/moonglade.lua",
           "rawFields": {
             "classes": "{ DRUID }",
             "coord": "{ 58.39, 73.52, MAP.MOONGLADE }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                    \r\n\t\t\t\t\t\tprovider = { \"i\", 280502 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                    \r\n\t\t\t\t\t\tprovider = { \"i\", 280679 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(3, {\t                             \r\n\t\t\t\t\t\tprovider = { \"i\", 280680 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                    \r\n\t\t\t\t\t\tprovider = { \"i\", 280502 },\t                          \r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                    \r\n\t\t\t\t\t\tprovider = { \"i\", 280679 },\t                          \r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(3, {\t                             \r\n\t\t\t\t\t\tprovider = { \"i\", 280680 },\t                                   \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "20",
             "qg": "11957",
             "races": "{ TAUREN }",
@@ -27678,7 +27669,7 @@
             "requiredRaces": 8589934624
           },
           "inheritedFields": {},
-          "line": 27,
+          "line": 96,
           "path": ".contrib/.db/forever/zones/kalimdor/moonglade.lua",
           "rawFields": {
             "classes": "{ DRUID }",
@@ -27901,7 +27892,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 114,
+          "line": 142,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/redridge mountains.lua",
           "rawFields": {
             "coord": "{ 27.0, 48.6, MAP.REDRIDGE_MOUNTAINS }",
@@ -28108,7 +28099,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 168,
+          "line": 196,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/redridge mountains.lua",
           "rawFields": {
             "coord": "{ 28.4, 49.0, MAP.REDRIDGE_MOUNTAINS }",
@@ -28330,7 +28321,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 75,
+          "line": 28,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 31.0, 66.2, MAP.TIRISFAL_GLADES }",
@@ -28408,7 +28399,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1306,
+          "line": 1405,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
             "coord": "{ 55.6, 56.8, MAP.TELDRASSIL }",
@@ -28521,7 +28512,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 675,
+          "line": 767,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
             "coord": "{ 38.2, 34.4, MAP.TELDRASSIL }",
@@ -28814,7 +28805,7 @@
           "rawFields": {
             "classes": "{ DRUID }",
             "coord": "{ 58.39, 73.52, MAP.MOONGLADE }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                    \r\n\t\t\t\t\t\tprovider = { \"i\", 280502 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                    \r\n\t\t\t\t\t\tprovider = { \"i\", 280679 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(3, {\t                             \r\n\t\t\t\t\t\tprovider = { \"i\", 280680 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                    \r\n\t\t\t\t\t\tprovider = { \"i\", 280502 },\t                          \r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                    \r\n\t\t\t\t\t\tprovider = { \"i\", 280679 },\t                          \r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(3, {\t                             \r\n\t\t\t\t\t\tprovider = { \"i\", 280680 },\t                                   \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "20",
             "qg": "11957",
             "races": "{ NIGHTELF }",
@@ -28928,7 +28919,7 @@
             "requiredRaces": 4294967304
           },
           "inheritedFields": {},
-          "line": 62,
+          "line": 88,
           "path": ".contrib/.db/forever/zones/kalimdor/moonglade.lua",
           "rawFields": {
             "classes": "{ DRUID }",
@@ -29017,7 +29008,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1233,
+          "line": 1332,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
             "coord": "{ 38.2, 34.4, MAP.TELDRASSIL }",
@@ -29141,7 +29132,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1415,
+          "line": 1514,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
             "coord": "{ 55.4, 56.8, MAP.TELDRASSIL }",
@@ -29301,7 +29292,7 @@
           "path": ".contrib/.db/forever/zones/kalimdor/moonglade.lua",
           "rawFields": {
             "coord": "{ 44.0, 73.4, MAP.MOONGLADE }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                    \r\n\t\t\t\t\t\tprovider = { \"i\", 280502 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                    \r\n\t\t\t\t\t\tprovider = { \"i\", 280679 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(3, {\t                             \r\n\t\t\t\t\t\tprovider = { \"i\", 280680 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                    \r\n\t\t\t\t\t\tprovider = { \"i\", 280502 },\t                          \r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                    \r\n\t\t\t\t\t\tprovider = { \"i\", 280679 },\t                          \r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(3, {\t                             \r\n\t\t\t\t\t\tprovider = { \"i\", 280680 },\t                                   \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "20",
             "qg": "272054",
             "races": "{ SKYBORNE_ALLIANCE, SKYBORNE_HORDE }",
@@ -29413,7 +29404,7 @@
             "requiredRaces": 32
           },
           "inheritedFields": {},
-          "line": 88,
+          "line": 62,
           "path": ".contrib/.db/forever/zones/kalimdor/moonglade.lua",
           "rawFields": {
             "classes": "{ DRUID }",
@@ -29504,7 +29495,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 490,
+          "line": 518,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/redridge mountains.lua",
           "rawFields": {
             "coord": "{ 25.6, 60.0, MAP.REDRIDGE_MOUNTAINS }",
@@ -29750,7 +29741,7 @@
             "sourceItemId": 281031
           },
           "inheritedFields": {},
-          "line": 594,
+          "line": 694,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
             "coord": "{ 64.4, 43.6, MAP.MULGORE }",
@@ -29934,7 +29925,7 @@
             "requiredRaces": 48
           },
           "inheritedFields": {},
-          "line": 528,
+          "line": 620,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
             "coord": "{ 54.4, 60.4, MAP.MULGORE }",
@@ -30061,7 +30052,7 @@
             "requiredRaces": 48
           },
           "inheritedFields": {},
-          "line": 1081,
+          "line": 1188,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
             "coord": "{ 33.0, 65.8, MAP.MULGORE }",
@@ -30153,7 +30144,7 @@
             "requiredRaces": 48
           },
           "inheritedFields": {},
-          "line": 1152,
+          "line": 1259,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
             "coord": "{ 48.5, 60.4, MAP.MULGORE }",
@@ -30358,7 +30349,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1043,
+          "line": 115,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 50.53, 70.01, MAP.HILLSBRAD_FOOTHILLS }",
@@ -30438,7 +30429,7 @@
             "requiredRaces": 4294967372
           },
           "inheritedFields": {},
-          "line": 1051,
+          "line": 1006,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 37.44, 41.84, MAP.DARKSHORE }",
@@ -30515,7 +30506,7 @@
             "requiredLevel": 6
           },
           "inheritedFields": {},
-          "line": 173,
+          "line": 174,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 56.8, 61.0, MAP.ZEPHRAS_ISLE }",
@@ -30575,7 +30566,7 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 437,
+          "line": 508,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 22.0, 44.8, MAP.TIRISFAL_GLADES }",
@@ -30660,7 +30651,7 @@
             "requiredRaces": 64
           },
           "inheritedFields": {},
-          "line": 1557,
+          "line": 254,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "classes": "{ PRIEST }",
@@ -30745,7 +30736,7 @@
             "requiredRaces": 128
           },
           "inheritedFields": {},
-          "line": 1509,
+          "line": 282,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
             "classes": "{ WARLOCK }",
@@ -30826,7 +30817,7 @@
             "requiredRaces": 2
           },
           "inheritedFields": {},
-          "line": 1518,
+          "line": 153,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
             "classes": "{ MAGE }",
@@ -30995,7 +30986,7 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 32,
+          "line": 15,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "classes": "{ PALADIN }",
@@ -31076,7 +31067,7 @@
             "requiredRaces": 32
           },
           "inheritedFields": {},
-          "line": 96,
+          "line": 8,
           "path": ".contrib/.db/forever/zones/kalimdor/moonglade.lua",
           "rawFields": {
             "classes": "{ DRUID }",
@@ -31755,7 +31746,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1218,
+          "line": 1317,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
             "coord": "{ 56.0, 59.4, MAP.TELDRASSIL }",
@@ -31837,7 +31828,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 902,
+          "line": 994,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
             "coord": "{ 37.6, 36.8, MAP.TELDRASSIL }",
@@ -31918,7 +31909,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 419,
+          "line": 442,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
             "coord": "{ 52.2, 43.2, MAP.DUROTAR }",
@@ -32028,7 +32019,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1333,
+          "line": 1450,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
             "coord": "{ 58.6, 45.6, MAP.DUROTAR }",
@@ -32218,7 +32209,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1154,
+          "line": 1253,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
             "coord": "{ 55.2, 56.8, MAP.TELDRASSIL }",
@@ -32396,7 +32387,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1361,
+          "line": 1478,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
             "coord": "{ 52.2, 43.2, MAP.DUROTAR }",
@@ -32535,7 +32526,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1378,
+          "line": 1495,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
             "coord": "{ 52.2, 43.2, MAP.DUROTAR }",
@@ -32666,7 +32657,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 805,
+          "line": 897,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
             "coord": "{ 44.6, 58.9, MAP.TELDRASSIL }",
@@ -32763,7 +32754,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 752,
+          "line": 844,
           "path": ".contrib/.db/forever/zones/kalimdor/teldrassil.lua",
           "rawFields": {
             "coord": "{ 55.2, 56.8, MAP.TELDRASSIL }",
@@ -32854,7 +32845,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1251,
+          "line": 1358,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
             "coord": "{ 46.6, 63.0, MAP.MULGORE }",
@@ -32978,7 +32969,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1264,
+          "line": 1371,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
             "coord": "{ 47.4, 60.2, MAP.MULGORE }",
@@ -33139,7 +33130,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1289,
+          "line": 1396,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
             "coord": "{ 57.6, 63.2, MAP.MULGORE }",
@@ -33225,7 +33216,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1300,
+          "line": 1407,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
             "coord": "{ 47.4, 60.2, MAP.MULGORE }",
@@ -33319,7 +33310,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1314,
+          "line": 1421,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
             "coord": "{ 46.6, 63.0, MAP.MULGORE }",
@@ -33432,7 +33423,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1331,
+          "line": 1438,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
             "coord": "{ 49.4, 60.4, MAP.MULGORE }",
@@ -33539,7 +33530,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 964,
+          "line": 1074,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
             "coord": "{ 46.2, 78.6, MAP.DUROTAR }",
@@ -33646,7 +33637,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 477,
+          "line": 483,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
             "coord": "{ 47.4, 62.2, MAP.ELWYNN_FOREST }",
@@ -33768,7 +33759,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1295,
+          "line": 1396,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
             "coord": "{ 47.4, 62.2, MAP.ELWYNN_FOREST }",
@@ -33842,7 +33833,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua quest 99128: objective providers = \"n\": unsupported provider expression; objective providers = 735: unsupported provider expression; objective providers = \"n\": unsupported provider expression; objective providers = 285: unsupported provider expression"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua quest 99128: objective providers = \"n\": unsupported provider expression; objective providers = 735: unsupported provider expression; objective providers = \"n\": unsupported provider expression; objective providers = 285: unsupported provider expression"
         }
       ]
     },
@@ -33859,7 +33850,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 469,
+          "line": 475,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
             "coord": "{ 47.4, 62.2, MAP.ELWYNN_FOREST }",
@@ -33967,7 +33958,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 516,
+          "line": 522,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
             "coord": "{ 42.2, 67.2, MAP.ELWYNN_FOREST }",
@@ -34158,7 +34149,7 @@
       "unresolved": [
         {
           "field": "objectives",
-          "reason": "/Users/tylerakins/Documents/GitHub/AllTheThings/.contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua quest 99130: objective providers = \"i\": unsupported provider expression; objective providers = 286215: unsupported provider expression"
+          "reason": ".cache/AllTheThings/.contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua quest 99130: objective providers = \"i\": unsupported provider expression; objective providers = 286215: unsupported provider expression"
         }
       ]
     },
@@ -34175,7 +34166,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 570,
+          "line": 576,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
             "coord": "{ 42.2, 67.2, MAP.ELWYNN_FOREST }",
@@ -34295,11 +34286,11 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 571,
+          "line": 444,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 60.6, 51.7, MAP.TIRISFAL_GLADES }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                        \r\n\t\t\t\t\t\t[\"providers\"] = {\r\n\t\t\t\t\t\t\t{ \"i\", 286176 },\t                       \r\n\t\t\t\t\t\t\t{ \"n\", 257655 },\t                      \r\n\t\t\t\t\t\t\t{ \"n\", 1737 },\t                    \r\n\t\t\t\t\t\t\t{ \"n\", 275103 },\t                     \r\n\t\t\t\t\t\t\t{ \"n\", 1519 },\t                    \r\n\t\t\t\t\t\t\t{ \"n\", 5725 },\t                      \r\n\t\t\t\t\t\t\t{ \"n\", 1742 },\t                         \r\n\t\t\t\t\t\t\t{ \"n\", 1738 },\t                      \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t[\"coords\"] = {\r\n\t\t\t\t\t\t\t{ 22.0, 44.4, MAP.TIRISFAL_GLADES },\t                      \r\n\t\t\t\t\t\t\t{ 30.9, 66.6, MAP.TIRISFAL_GLADES },\t                    \r\n\t\t\t\t\t\t\t{ 38.6, 55.6, MAP.TIRISFAL_GLADES },\t                     \r\n\t\t\t\t\t\t\t{ 40.8, 54.2, MAP.TIRISFAL_GLADES },\t                    \r\n\t\t\t\t\t\t\t{ 52.9, 55.7, MAP.TIRISFAL_GLADES },\t                      \r\n\t\t\t\t\t\t\t{ 57.4, 49.2, MAP.TIRISFAL_GLADES },\t                         \r\n\t\t\t\t\t\t\t{ 61.4, 53.4, MAP.TIRISFAL_GLADES },\t                      \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                        \r\n\t\t\t\t\t\tproviders = {\r\n\t\t\t\t\t\t\t{ \"i\", 286176 },\t                             \r\n\t\t\t\t\t\t\t{ \"n\", 257655 },\t                      \r\n\t\t\t\t\t\t\t{ \"n\", 1737 },\t                    \r\n\t\t\t\t\t\t\t{ \"n\", 275103 },\t                     \r\n\t\t\t\t\t\t\t{ \"n\", 1519 },\t                    \r\n\t\t\t\t\t\t\t{ \"n\", 5725 },\t                      \r\n\t\t\t\t\t\t\t{ \"n\", 1742 },\t                         \r\n\t\t\t\t\t\t\t{ \"n\", 1738 },\t                      \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\tcoords = {\r\n\t\t\t\t\t\t\t{ 22.0, 44.4, MAP.TIRISFAL_GLADES },\t                      \r\n\t\t\t\t\t\t\t{ 30.9, 66.6, MAP.TIRISFAL_GLADES },\t                    \r\n\t\t\t\t\t\t\t{ 38.6, 55.6, MAP.TIRISFAL_GLADES },\t                     \r\n\t\t\t\t\t\t\t{ 40.8, 54.2, MAP.TIRISFAL_GLADES },\t                    \r\n\t\t\t\t\t\t\t{ 52.9, 55.7, MAP.TIRISFAL_GLADES },\t                      \r\n\t\t\t\t\t\t\t{ 57.4, 49.2, MAP.TIRISFAL_GLADES },\t                         \r\n\t\t\t\t\t\t\t{ 61.4, 53.4, MAP.TIRISFAL_GLADES },\t                      \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "4",
             "qg": "1515",
             "qi": "286176",
@@ -34788,11 +34779,11 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 602,
+          "line": 554,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 60.6, 51.7, MAP.TIRISFAL_GLADES }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                     \r\n\t\t\t\t\t\t[\"providers\"] = {\r\n\t\t\t\t\t\t\t{ \"i\", 286200 },\t                     \r\n\t\t\t\t\t\t\t{ \"n\", 1496 },\t                       \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t[\"coord\"] = { 58.2, 51.5, MAP.TIRISFAL_GLADES },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                   \r\n\t\t\t\t\t\t[\"providers\"] = {\r\n\t\t\t\t\t\t\t{ \"i\", 286201 },\t                   \r\n\t\t\t\t\t\t\t{ \"n\", 251001 },\t                     \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t[\"coord\"] = { 65.2, 60.2, MAP.TIRISFAL_GLADES },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(3, {\t                 \r\n\t\t\t\t\t\t[\"providers\"] = {\r\n\t\t\t\t\t\t\t{ \"i\", 286202 },\t                 \r\n\t\t\t\t\t\t\t{ \"n\", 10666 },\t        \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t[\"coord\"] = { 48.0, 55.4, MAP.TIRISFAL_GLADES },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                     \r\n\t\t\t\t\t\tproviders = {\r\n\t\t\t\t\t\t\t{ \"i\", 286200 },\t                           \r\n\t\t\t\t\t\t\t{ \"n\", 1496 },\t                       \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\tcoord = { 58.2, 51.5, MAP.TIRISFAL_GLADES },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                   \r\n\t\t\t\t\t\tproviders = {\r\n\t\t\t\t\t\t\t{ \"i\", 286201 },\t                         \r\n\t\t\t\t\t\t\t{ \"n\", 251001 },\t                     \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\tcoord = { 65.2, 60.2, MAP.TIRISFAL_GLADES },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(3, {\t                 \r\n\t\t\t\t\t\tproviders = {\r\n\t\t\t\t\t\t\t{ \"i\", 286202 },\t                       \r\n\t\t\t\t\t\t\t{ \"n\", 10666 },\t        \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\tcoord = { 48.0, 55.4, MAP.TIRISFAL_GLADES },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "4",
             "qg": "1515",
             "races": "HORDE_ONLY",
@@ -34985,11 +34976,11 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 647,
+          "line": 745,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 57.5, 49.0, MAP.TIRISFAL_GLADES }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                \r\n\t\t\t\t\t\t[\"provider\"] = { \"i\", 286204 },\t            \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                \r\n\t\t\t\t\t\tprovider = { \"i\", 286204 },\t                  \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "5",
             "qg": "10665",
             "races": "{ UNDEAD }",
@@ -35089,7 +35080,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 605,
+          "line": 611,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/elwynn forest.lua",
           "rawFields": {
             "coord": "{ 47.6, 62.2, MAP.ELWYNN_FOREST }",
@@ -35216,11 +35207,11 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 489,
+          "line": 622,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 32.0, 46.2, MAP.TIRISFAL_GLADES }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                                                    \r\n\t\t\t\t\t\t[\"provider\"] = { \"n\", 275954 },\t                   \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                                                    \r\n\t\t\t\t\t\tprovider = { \"n\", 275954 },\t                   \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "5",
             "qg": "275954",
             "races": "{ UNDEAD }",
@@ -35327,11 +35318,11 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 208,
+          "line": 153,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 22.0, 47.2, MAP.TIRISFAL_GLADES }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                           \r\n\t\t\t\t\t\t[\"provider\"] = { \"i\", 286259 },\t                       \r\n\t\t\t\t\t\t[\"crs\"] = {\r\n\t\t\t\t\t\t\t260428,\t                     \r\n\t\t\t\t\t\t\t260430,\t                    \r\n\t\t\t\t\t\t\t260432,\t                    \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                           \r\n\t\t\t\t\t\tprovider = { \"i\", 286259 },\t                             \r\n\t\t\t\t\t\tcrs = {\r\n\t\t\t\t\t\t\t260428,\t                     \r\n\t\t\t\t\t\t\t260430,\t                    \r\n\t\t\t\t\t\t\t260432,\t                    \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "10",
             "qg": "246389",
             "races": "{ UNDEAD }",
@@ -35466,11 +35457,11 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 632,
+          "line": 711,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 20.2, 46.4, MAP.TIRISFAL_GLADES }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                               \r\n\t\t\t\t\t\t[\"providers\"] = {\r\n\t\t\t\t\t\t\t{ \"i\", 286269 },\t                           \r\n\t\t\t\t\t\t\t{ \"o\", 694895 },\t                           \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                               \r\n\t\t\t\t\t\tproviders = {\r\n\t\t\t\t\t\t\t{ \"i\", 286269 },\t                                 \r\n\t\t\t\t\t\t\t{ \"o\", 694895 },\t                           \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "10",
             "qg": "259190",
             "races": "{ UNDEAD }",
@@ -35586,11 +35577,11 @@
             "requiredRaces": 18
           },
           "inheritedFields": {},
-          "line": 451,
+          "line": 584,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 65.4, 60.2, MAP.TIRISFAL_GLADES }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                      \r\n\t\t\t\t\t\t[\"provider\"] = { \"i\", 286326 },\t                  \r\n\t\t\t\t\t\t[\"coord\"] = { 83.9, 44.0, MAP.TIRISFAL_GLADES },\r\n\t\t\t\t\t\t[\"cr\"] = 276020,\t          \r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(286742),\t                    \r\n\t\t\t\t\ti(286743),\t                      \r\n\t\t\t\t\ti(286744),\t                        \r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                      \r\n\t\t\t\t\t\tprovider = { \"i\", 286326 },\t                        \r\n\t\t\t\t\t\tcoord = { 83.9, 44.0, MAP.TIRISFAL_GLADES },\r\n\t\t\t\t\t\tcr = 276020,\t          \r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(286742),\t                    \r\n\t\t\t\t\ti(286743),\t                      \r\n\t\t\t\t\ti(286744),\t                        \r\n\t\t\t\t}",
             "lvl": "6",
             "qg": "1495",
             "races": "{ ORC, UNDEAD }",
@@ -35708,13 +35699,12 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 756,
+          "line": 870,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "coord": "{ 47.3, 52.2, MAP.DUN_MOROGH }",
             "isBreadcrumb": "true",
             "lvl": "5",
-            "nextQuests": "{ 99159 }",
             "qg": "1226",
             "qi": "286355",
             "races": "ALLIANCE_ONLY",
@@ -35807,7 +35797,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 801,
+          "line": 914,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "coord": "{ 57.7, 44.9, MAP.DUN_MOROGH }",
@@ -35929,7 +35919,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1025,
+          "line": 1138,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "coord": "{ 57.7, 44.9, MAP.DUN_MOROGH }",
@@ -36043,7 +36033,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1038,
+          "line": 1151,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "coord": "{ 57.7, 44.9, MAP.DUN_MOROGH }",
@@ -36199,7 +36189,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1485,
+          "line": 1636,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "coord": "{ 57.7, 44.9, MAP.DUN_MOROGH }",
@@ -36502,7 +36492,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 331,
+          "line": 336,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
             "coord": "{ 34.2, 22.4, MAP.MULGORE }",
@@ -36599,7 +36589,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 701,
+          "line": 807,
           "path": ".contrib/.db/forever/zones/zephras isle.lua",
           "rawFields": {
             "coord": "{ 66.2, 79.9, MAP.ZEPHRAS_ISLE }",
@@ -36811,7 +36801,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 652,
+          "line": 752,
           "path": ".contrib/.db/forever/zones/kalimdor/mulgore.lua",
           "rawFields": {
             "coord": "{ 47.2, 57.6, MAP.MULGORE }",
