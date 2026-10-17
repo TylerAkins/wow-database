@@ -5,7 +5,7 @@
     "slug": "the-hinterlands",
     "sourceSlug": "ek/the-hinterlands",
     "sourceUrl": "https://www.wowhead.com/forever/quests/eastern-kingdoms/the-hinterlands",
-    "sourceFetchedAt": "2026-09-24T23:19:10+00:00",
+    "sourceFetchedAt": "2026-10-17T11:20:42+00:00",
     "zoneId": 47
   },
   "questCount": 45,
@@ -14,7 +14,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 77,
         "list": {
           "category": 47,
@@ -50,6 +50,15 @@
         },
         "minLevel": 42,
         "name": "A Sticky Situation",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 7801,
+          "npcName": "Gilveradin Sunchaser",
+          "x": 26.6,
+          "y": 48.4,
+          "zoneId": 47,
+          "zoneName": "The Hinterlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -60,13 +69,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/the-hinterlands"
         ],
+        "startPinCount": 1,
         "zoneId": 47,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:09:09+00:00",
+        "fetchedAt": "2026-10-16T19:48:25+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -157,9 +167,9 @@
           {
             "npcId": 7801,
             "npcName": "Gilveradin Sunchaser",
-            "zoneId": 47,
             "x": 26.6,
             "y": 48.4,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -168,7 +178,7 @@
     "485": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 485,
         "list": {
           "category": 47,
@@ -208,6 +218,7 @@
         },
         "minLevel": 43,
         "name": "Find OOX-09/HL!",
+        "pinCategory": "normal",
         "races": [],
         "sourceKinds": [
           "zone"
@@ -218,12 +229,13 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/the-hinterlands"
         ],
+        "startPinCount": 0,
         "zoneId": 47,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:17:32+00:00",
+        "fetchedAt": "2026-10-16T20:28:58+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -321,7 +333,7 @@
     "836": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 836,
         "list": {
           "category": 47,
@@ -370,6 +382,15 @@
         },
         "minLevel": 43,
         "name": "Rescue OOX-09/HL!",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 7806,
+          "npcName": "Homing Robot OOX-09/HL",
+          "x": 49.4,
+          "y": 37.6,
+          "zoneId": 47,
+          "zoneName": "The Hinterlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -380,12 +401,13 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/the-hinterlands"
         ],
+        "startPinCount": 1,
         "zoneId": 47,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:24:46+00:00",
+        "fetchedAt": "2026-10-16T21:04:09+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -511,9 +533,9 @@
           {
             "npcId": 7806,
             "npcName": "Homing Robot OOX-09/HL",
-            "zoneId": 47,
             "x": 49.4,
             "y": 37.6,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -585,7 +607,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T00:51:41+00:00",
+        "fetchedAt": "2026-10-16T21:54:31+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -680,9 +702,9 @@
           {
             "npcId": 5598,
             "npcName": "Atal'ai Exile",
-            "zoneId": 47,
             "x": 33.6,
             "y": 75.2,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -749,7 +771,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:52:10+00:00",
+        "fetchedAt": "2026-10-16T21:55:12+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -836,9 +858,9 @@
           {
             "npcId": 5635,
             "npcName": "Falstad Wildhammer",
-            "zoneId": 47,
             "x": 11.8,
             "y": 46.8,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -905,7 +927,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:52:16+00:00",
+        "fetchedAt": "2026-10-16T21:55:17+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -996,9 +1018,9 @@
           {
             "npcId": 5636,
             "npcName": "Gryphon Master Talonaxe",
-            "zoneId": 47,
             "x": 9.8,
             "y": 44.4,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -1070,7 +1092,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:52:21+00:00",
+        "fetchedAt": "2026-10-16T21:55:22+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -1164,9 +1186,9 @@
           {
             "npcId": 5634,
             "npcName": "Rhapsody Shindigger",
-            "zoneId": 47,
             "x": 26.8,
             "y": 48.4,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -1238,7 +1260,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:54:07+00:00",
+        "fetchedAt": "2026-10-16T21:57:08+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -1341,9 +1363,9 @@
           {
             "npcId": 5634,
             "npcName": "Rhapsody Shindigger",
-            "zoneId": 47,
             "x": 26.8,
             "y": 48.4,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -1415,7 +1437,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T11:21:08+00:00",
+        "fetchedAt": "2026-10-16T22:32:30+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -1532,9 +1554,9 @@
           {
             "npcId": 7780,
             "npcName": "Rin'ji",
-            "zoneId": 47,
             "x": 30.6,
             "y": 47.0,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -1607,7 +1629,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T01:32:40+00:00",
+        "fetchedAt": "2026-10-16T22:35:43+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -1699,18 +1721,6 @@
           ]
         },
         "minLevel": 42,
-        "objectSpawns": [
-          {
-            "entityId": 142127,
-            "entityKind": "object",
-            "entityName": "Rin'ji's Secret",
-            "uiMapId": 1425,
-            "uiMapName": "The Hinterlands",
-            "x": 86.3,
-            "y": 59.1,
-            "zoneId": 47
-          }
-        ],
         "pageInfo": {
           "name": "Rin'ji's Secret",
           "type": 5,
@@ -1801,7 +1811,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:36:52+00:00",
+        "fetchedAt": "2026-10-16T22:39:56+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -2446,9 +2456,9 @@
           {
             "npcId": 7884,
             "npcName": "Fraggar Thundermantle",
-            "zoneId": 47,
             "x": 14.8,
             "y": 44.4,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -2520,7 +2530,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:37:08+00:00",
+        "fetchedAt": "2026-10-16T22:40:11+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -6007,9 +6017,9 @@
           {
             "npcId": 7884,
             "npcName": "Fraggar Thundermantle",
-            "zoneId": 47,
             "x": 14.8,
             "y": 44.4,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -6081,7 +6091,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:37:28+00:00",
+        "fetchedAt": "2026-10-16T22:40:16+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -9568,9 +9578,9 @@
           {
             "npcId": 7884,
             "npcName": "Fraggar Thundermantle",
-            "zoneId": 47,
             "x": 14.8,
             "y": 44.4,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -9642,7 +9652,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T01:38:49+00:00",
+        "fetchedAt": "2026-10-16T22:41:52+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -9725,9 +9735,9 @@
           {
             "npcId": 2497,
             "npcName": "Nimboya",
-            "zoneId": 33,
             "x": 32.2,
             "y": 27.8,
+            "zoneId": 33,
             "zoneName": "Stranglethorn Vale"
           }
         ]
@@ -9773,7 +9783,7 @@
         },
         "minLevel": 40,
         "name": "Venom Bottles",
-        "objectSpawnCount": 13,
+        "objectSpawnCount": 9,
         "pinCategory": "normal",
         "primaryStart": {
           "npcId": 142702,
@@ -9800,7 +9810,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T01:38:54+00:00",
+        "fetchedAt": "2026-10-16T22:41:57+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -10102,26 +10112,6 @@
             "zoneId": 47
           },
           {
-            "entityId": 142706,
-            "entityKind": "object",
-            "entityName": "Venom Bottle",
-            "uiMapId": 1425,
-            "uiMapName": "The Hinterlands",
-            "x": 23.4,
-            "y": 58.8,
-            "zoneId": 47
-          },
-          {
-            "entityId": 142706,
-            "entityKind": "object",
-            "entityName": "Venom Bottle",
-            "uiMapId": 1425,
-            "uiMapName": "The Hinterlands",
-            "x": 23.5,
-            "y": 58.7,
-            "zoneId": 47
-          },
-          {
             "entityId": 142707,
             "entityKind": "object",
             "entityName": "Venom Bottle",
@@ -10139,16 +10129,6 @@
             "uiMapName": "The Hinterlands",
             "x": 31.6,
             "y": 57.8,
-            "zoneId": 47
-          },
-          {
-            "entityId": 142710,
-            "entityKind": "object",
-            "entityName": "Venom Bottle",
-            "uiMapId": 1425,
-            "uiMapName": "The Hinterlands",
-            "x": 31.6,
-            "y": 57.7,
             "zoneId": 47
           },
           {
@@ -10179,16 +10159,6 @@
             "uiMapName": "The Hinterlands",
             "x": 23.1,
             "y": 57.7,
-            "zoneId": 47
-          },
-          {
-            "entityId": 142714,
-            "entityKind": "object",
-            "entityName": "Venom Bottle",
-            "uiMapId": 1425,
-            "uiMapName": "The Hinterlands",
-            "x": 23.0,
-            "y": 57.8,
             "zoneId": 47
           }
         ],
@@ -10367,7 +10337,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T01:38:59+00:00",
+        "fetchedAt": "2026-10-16T22:42:02+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -10450,9 +10420,9 @@
           {
             "npcId": 2216,
             "npcName": "Apothecary Lydon",
-            "zoneId": 267,
             "x": 61.4,
             "y": 19.2,
+            "zoneId": 267,
             "zoneName": "Hillsbrad Foothills"
           }
         ]
@@ -10524,7 +10494,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T01:39:04+00:00",
+        "fetchedAt": "2026-10-16T22:42:07+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -10623,9 +10593,9 @@
           {
             "npcId": 2216,
             "npcName": "Apothecary Lydon",
-            "zoneId": 267,
             "x": 61.4,
             "y": 19.2,
+            "zoneId": 267,
             "zoneName": "Hillsbrad Foothills"
           }
         ]
@@ -10697,7 +10667,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T01:39:29+00:00",
+        "fetchedAt": "2026-10-16T22:42:17+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -10796,9 +10766,9 @@
           {
             "npcId": 3188,
             "npcName": "Master Gadrin",
-            "zoneId": 14,
             "x": 56.0,
             "y": 74.6,
+            "zoneId": 14,
             "zoneName": "Durotar"
           }
         ]
@@ -10883,7 +10853,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T01:39:29+00:00",
+        "fetchedAt": "2026-10-16T22:42:37+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -10996,9 +10966,9 @@
           {
             "npcId": 2216,
             "npcName": "Apothecary Lydon",
-            "zoneId": 267,
             "x": 61.4,
             "y": 19.2,
+            "zoneId": 267,
             "zoneName": "Hillsbrad Foothills"
           }
         ]
@@ -11070,7 +11040,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:43:47+00:00",
+        "fetchedAt": "2026-10-16T22:46:50+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -11212,9 +11182,9 @@
           {
             "npcId": 5636,
             "npcName": "Gryphon Master Talonaxe",
-            "zoneId": 47,
             "x": 9.8,
             "y": 44.4,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -11286,7 +11256,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:43:52+00:00",
+        "fetchedAt": "2026-10-16T22:46:55+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -11377,9 +11347,9 @@
           {
             "npcId": 5636,
             "npcName": "Gryphon Master Talonaxe",
-            "zoneId": 47,
             "x": 9.8,
             "y": 44.4,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -11455,7 +11425,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:43:57+00:00",
+        "fetchedAt": "2026-10-16T22:47:00+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -11554,9 +11524,9 @@
           {
             "npcId": 5636,
             "npcName": "Gryphon Master Talonaxe",
-            "zoneId": 47,
             "x": 9.8,
             "y": 44.4,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -11632,7 +11602,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:44:07+00:00",
+        "fetchedAt": "2026-10-16T22:47:10+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -11715,9 +11685,9 @@
           {
             "npcId": 8022,
             "npcName": "Thadius Grimshade",
-            "zoneId": 4,
             "x": 67.0,
             "y": 19.4,
+            "zoneId": 4,
             "zoneName": "Blasted Lands"
           }
         ]
@@ -11789,7 +11759,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:44:12+00:00",
+        "fetchedAt": "2026-10-16T22:47:15+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -11888,9 +11858,9 @@
           {
             "npcId": 8022,
             "npcName": "Thadius Grimshade",
-            "zoneId": 4,
             "x": 67.0,
             "y": 19.4,
+            "zoneId": 4,
             "zoneName": "Blasted Lands"
           }
         ]
@@ -11971,7 +11941,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:44:17+00:00",
+        "fetchedAt": "2026-10-16T22:47:20+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12114,9 +12084,9 @@
           {
             "npcId": 5636,
             "npcName": "Gryphon Master Talonaxe",
-            "zoneId": 47,
             "x": 9.8,
             "y": 44.4,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -12181,7 +12151,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:34:08+00:00",
+        "fetchedAt": "2026-10-16T23:37:20+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12213,7 +12183,7 @@
                     "id": 8579,
                     "name": "Yeh'kinya",
                     "point": "start",
-                    "reactalliance": 1,
+                    "reactalliance": 0,
                     "reacthorde": 1,
                     "type": 1
                   },
@@ -12231,7 +12201,7 @@
                     "id": 8579,
                     "name": "Yeh'kinya",
                     "point": "end",
-                    "reactalliance": 1,
+                    "reactalliance": 0,
                     "reacthorde": 1,
                     "type": 1
                   }
@@ -12334,9 +12304,9 @@
           {
             "npcId": 8579,
             "npcName": "Yeh'kinya",
-            "zoneId": 440,
             "x": 67.0,
             "y": 22.4,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -12413,7 +12383,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:02:04+00:00",
+        "fetchedAt": "2026-10-17T01:05:18+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12839,9 +12809,9 @@
           {
             "npcId": 14740,
             "npcName": "Katoom the Angler",
-            "zoneId": 47,
             "x": 80.2,
             "y": 81.4,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -12913,7 +12883,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:02:10+00:00",
+        "fetchedAt": "2026-10-17T01:05:23+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -13330,9 +13300,9 @@
           {
             "npcId": 14740,
             "npcName": "Katoom the Angler",
-            "zoneId": 47,
             "x": 80.2,
             "y": 81.4,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -13404,7 +13374,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:03:21+00:00",
+        "fetchedAt": "2026-10-17T01:06:33+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -15009,9 +14979,9 @@
           {
             "npcId": 14741,
             "npcName": "Huntsman Markhor",
-            "zoneId": 47,
             "x": 79.0,
             "y": 79.4,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -15083,7 +15053,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:03:25+00:00",
+        "fetchedAt": "2026-10-17T01:06:39+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -15865,9 +15835,9 @@
           {
             "npcId": 14741,
             "npcName": "Huntsman Markhor",
-            "zoneId": 47,
             "x": 79.0,
             "y": 79.4,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -15939,7 +15909,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:03:30+00:00",
+        "fetchedAt": "2026-10-17T01:06:44+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -16946,9 +16916,9 @@
           {
             "npcId": 14741,
             "npcName": "Huntsman Markhor",
-            "zoneId": 47,
             "x": 79.0,
             "y": 79.4,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -17020,7 +16990,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:04:26+00:00",
+        "fetchedAt": "2026-10-17T01:07:40+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -17111,9 +17081,9 @@
           {
             "npcId": 14737,
             "npcName": "Smith Slagtree",
-            "zoneId": 47,
             "x": 77.6,
             "y": 80.2,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -17190,7 +17160,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:04:31+00:00",
+        "fetchedAt": "2026-10-17T01:07:46+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -17305,9 +17275,9 @@
           {
             "npcId": 14731,
             "npcName": "Lard",
-            "zoneId": 47,
             "x": 78.2,
             "y": 81.2,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -17379,7 +17349,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:04:51+00:00",
+        "fetchedAt": "2026-10-17T01:08:05+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -17886,9 +17856,9 @@
           {
             "npcId": 14738,
             "npcName": "Otho Moji'ko",
-            "zoneId": 47,
             "x": 79.2,
             "y": 79.0,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -17960,7 +17930,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:04:52+00:00",
+        "fetchedAt": "2026-10-17T01:08:06+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -22623,9 +22593,9 @@
           {
             "npcId": 14738,
             "npcName": "Otho Moji'ko",
-            "zoneId": 47,
             "x": 79.2,
             "y": 79.0,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -22702,7 +22672,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:04:57+00:00",
+        "fetchedAt": "2026-10-17T01:08:10+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -22785,9 +22755,9 @@
           {
             "npcId": 14738,
             "npcName": "Otho Moji'ko",
-            "zoneId": 47,
             "x": 79.2,
             "y": 79.0,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -22859,7 +22829,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:05:02+00:00",
+        "fetchedAt": "2026-10-17T01:08:16+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -23344,9 +23314,9 @@
           {
             "npcId": 14739,
             "npcName": "Mystic Yayo'jin",
-            "zoneId": 47,
             "x": 78.8,
             "y": 78.4,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -23418,7 +23388,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:05:06+00:00",
+        "fetchedAt": "2026-10-17T01:08:21+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -23509,9 +23479,9 @@
           {
             "npcId": 14736,
             "npcName": "Primal Torntusk",
-            "zoneId": 47,
             "x": 78.2,
             "y": 81.2,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -23583,7 +23553,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:05:12+00:00",
+        "fetchedAt": "2026-10-17T01:08:26+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -23722,9 +23692,9 @@
           {
             "npcId": 14757,
             "npcName": "Elder Torntusk",
-            "zoneId": 47,
             "x": 59.6,
             "y": 77.8,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -23805,7 +23775,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:05:17+00:00",
+        "fetchedAt": "2026-10-17T01:08:31+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -23896,9 +23866,9 @@
           {
             "npcId": 14757,
             "npcName": "Elder Torntusk",
-            "zoneId": 47,
             "x": 59.6,
             "y": 77.8,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -23979,7 +23949,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:05:22+00:00",
+        "fetchedAt": "2026-10-17T01:08:35+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -24070,9 +24040,9 @@
           {
             "npcId": 14741,
             "npcName": "Huntsman Markhor",
-            "zoneId": 47,
             "x": 79.0,
             "y": 79.4,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -24703,7 +24673,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:05:52+00:00",
+        "fetchedAt": "2026-10-17T01:09:06+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -25523,7 +25493,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:19:31+00:00",
+        "fetchedAt": "2026-10-17T01:22:47+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -25630,9 +25600,9 @@
           {
             "npcId": 7825,
             "npcName": "Oran Snakewrithe",
-            "zoneId": 1497,
             "x": 73.4,
             "y": 32.4,
+            "zoneId": 1497,
             "zoneName": "Undercity"
           }
         ]

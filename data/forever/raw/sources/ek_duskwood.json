@@ -1,8 +1,40 @@
 {
-  "fetchedAt": "2026-09-24T23:19:10+00:00",
+  "fetchedAt": "2026-10-17T11:19:11+00:00",
   "kind": "zone",
-  "questCount": 98,
+  "questCount": 100,
   "quests": [
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 96139,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          281149,
+          1
+        ]
+      ],
+      "level": 22,
+      "money": 0,
+      "name": "The Valor Family",
+      "popularity": 529,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 18,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1750
+    },
     {
       "category": 10,
       "category2": 0,
@@ -13,45 +45,74 @@
           "rewards_changed"
         ],
         "lines": [
-          "Rewards: adds Choice of Darkshire Shoulderguards, Choice of Mantle of Honor",
-          "Rewards: no longer Mantle of Honor"
+          "Rewards: adds Choice of Ring of Ruin"
         ],
         "notShown": [
-          "Rewards: adds Choice of Darkshire Shoulderguards, Choice of Mantle of Honor",
-          "Rewards: no longer Mantle of Honor"
+          "Rewards: adds Choice of Ring of Ruin"
         ],
         "status": "updated"
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 253,
-      "itemchoices": [],
-      "itemrewards": [
+      "id": 98,
+      "itemchoices": [
         [
-          3560,
+          2044,
           1
         ],
         [
-          6223,
+          2043,
+          1
+        ],
+        [
+          270053,
           1
         ]
       ],
-      "level": 30,
+      "itemrewards": [],
+      "level": 35,
       "money": 0,
-      "name": "Bride of the Embalmer",
-      "popularity": 538,
+      "name": "The Legend of Stalvan",
+      "popularity": 522,
       "reprewards": [
         [
-          469,
+          72,
           200
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 20,
+      "reqlevel": 22,
       "side": 1,
       "titlereward": 0,
-      "type": 1,
-      "xp": 3650
+      "type": 0,
+      "xp": 4100
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 96138,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 28,
+      "money": 0,
+      "name": "Merrick's Bow",
+      "popularity": 368,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 18,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2300
     },
     {
       "category": 10,
@@ -60,44 +121,51 @@
       "currencyrewards": [],
       "envChange": {
         "labels": [
-          "renamed"
+          "level_changed",
+          "required_level_changed",
+          "rewards_changed",
+          "objectives_changed",
+          "faction_changed",
+          "quest_giver_changed",
+          "renamed",
+          "reworded"
         ],
         "lines": [
-          "Renamed from Look To The Stars"
+          "Renamed from Power of da Earth",
+          "Level 25 instead of 38",
+          "Requires level 18 instead of 30",
+          "Side none instead of Horde",
+          "Quest givers: adds Ends at Sirra Von'Indi",
+          "Objectives: adds Grant's Mace, Grant's Shield",
+          "Objectives: no longer Rumbling Essence x5",
+          "Objective text changed",
+          "Description reworded",
+          "Experience 2000 instead of none"
         ],
-        "notShown": [],
+        "notShown": [
+          "Side none instead of Horde",
+          "Quest givers: adds Ends at Sirra Von'Indi",
+          "Description reworded",
+          "Experience 2000 instead of none"
+        ],
         "status": "updated"
       },
-      "firstseenpatch": 11302,
+      "firstseenpatch": 16001,
       "icon": "quest-start",
-      "id": 181,
-      "itemchoices": [
-        [
-          7106,
-          1
-        ],
-        [
-          7107,
-          1
-        ]
-      ],
+      "id": 79362,
+      "itemchoices": [],
       "itemrewards": [],
-      "level": 30,
+      "level": 25,
       "money": 0,
-      "name": "Look To The Stars",
-      "popularity": 363,
-      "reprewards": [
-        [
-          72,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
+      "name": "Grant's Shield",
+      "popularity": 354,
+      "reprewards": [],
+      "reqclass": 64,
+      "reqlevel": 18,
+      "side": 3,
       "titlereward": 0,
       "type": 0,
-      "xp": 2450
+      "xp": 2000
     },
     {
       "category": 10,
@@ -135,7 +203,7 @@
       "level": 32,
       "money": 0,
       "name": "Morbent Fel",
-      "popularity": 288,
+      "popularity": 350,
       "reprewards": [
         [
           72,
@@ -167,7 +235,7 @@
       "level": 24,
       "money": 0,
       "name": "Ira's Dagger",
-      "popularity": 267,
+      "popularity": 347,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 18,
@@ -182,31 +250,129 @@
       "currencychoicerewards": [],
       "currencyrewards": [],
       "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "new"
+        "labels": [
+          "rewards_changed"
+        ],
+        "lines": [
+          "Rewards: adds Ladimore Heirloom Ring"
+        ],
+        "notShown": [
+          "Rewards: adds Ladimore Heirloom Ring"
+        ],
+        "status": "updated"
       },
-      "firstseenpatch": 16001,
+      "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 96139,
+      "id": 231,
       "itemchoices": [],
       "itemrewards": [
         [
-          281149,
+          2000,
+          1
+        ],
+        [
+          270051,
           1
         ]
       ],
-      "level": 22,
+      "level": 35,
       "money": 0,
-      "name": "The Valor Family",
-      "popularity": 237,
+      "name": "A Daughter's Love",
+      "popularity": 335,
       "reprewards": [],
       "reqclass": 0,
-      "reqlevel": 18,
+      "reqlevel": 28,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 1750
+      "xp": 1350
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "rewards_changed"
+        ],
+        "lines": [
+          "Rewards: adds Choice of Darkshire Shoulderguards, Choice of Mantle of Honor",
+          "Rewards: no longer Mantle of Honor"
+        ],
+        "notShown": [
+          "Rewards: adds Choice of Darkshire Shoulderguards, Choice of Mantle of Honor",
+          "Rewards: no longer Mantle of Honor"
+        ],
+        "status": "updated"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 253,
+      "itemchoices": [
+        [
+          3560,
+          1
+        ],
+        [
+          270044,
+          1
+        ]
+      ],
+      "itemrewards": [
+        [
+          6223,
+          1
+        ]
+      ],
+      "level": 30,
+      "money": 0,
+      "name": "Bride of the Embalmer",
+      "popularity": 316,
+      "reprewards": [
+        [
+          469,
+          200
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 3650
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 228,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 35,
+      "money": 3500,
+      "name": "Mor'Ladim",
+      "popularity": 293,
+      "reprewards": [
+        [
+          72,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 28,
+      "side": 1,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 2050
     },
     {
       "category": 10,
@@ -226,7 +392,7 @@
       "level": 27,
       "money": 0,
       "name": "The Valor Family",
-      "popularity": 236,
+      "popularity": 292,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 18,
@@ -241,26 +407,199 @@
       "currencychoicerewards": [],
       "currencyrewards": [],
       "envChange": {
+        "labels": [
+          "renamed"
+        ],
+        "lines": [
+          "Renamed from Look To The Stars"
+        ],
+        "notShown": [],
+        "status": "updated"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 174,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 25,
+      "money": 0,
+      "name": "Look to the Stars",
+      "popularity": 270,
+      "reprewards": [
+        [
+          72,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2000
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "renamed"
+        ],
+        "lines": [
+          "Renamed from Look To The Stars"
+        ],
+        "notShown": [],
+        "status": "updated"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 181,
+      "itemchoices": [
+        [
+          7106,
+          1
+        ],
+        [
+          7107,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 30,
+      "money": 0,
+      "name": "Look to the Stars",
+      "popularity": 263,
+      "reprewards": [
+        [
+          72,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2450
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
         "labels": [],
         "lines": [],
-        "status": "new"
+        "status": "unchanged"
       },
-      "firstseenpatch": 16001,
+      "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 96138,
+      "id": 225,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 35,
+      "money": 0,
+      "name": "The Weathered Grave",
+      "popularity": 245,
+      "reprewards": [
+        [
+          72,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 28,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 690
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 70,
       "itemchoices": [],
       "itemrewards": [],
       "level": 28,
       "money": 0,
-      "name": "Merrick's Bow",
-      "popularity": 190,
-      "reprewards": [],
+      "name": "The Legend of Stalvan",
+      "popularity": 213,
+      "reprewards": [
+        [
+          72,
+          75
+        ]
+      ],
       "reqclass": 0,
-      "reqlevel": 18,
+      "reqlevel": 22,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 2300
+      "xp": 1700
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "level_changed",
+          "required_level_changed",
+          "rewards_changed",
+          "objectives_changed",
+          "faction_changed",
+          "quest_giver_changed",
+          "renamed",
+          "reworded"
+        ],
+        "lines": [
+          "Renamed from Power of da Water",
+          "Level 26 instead of 36",
+          "Requires level 18 instead of 30",
+          "Side none instead of Horde",
+          "Quest givers: adds Ends at Sirra Von'Indi",
+          "Objectives: adds Defias Enchanter x2, Defias Night Blade x7, Silvia's Sword",
+          "Objectives: no longer Rushing Essence x5",
+          "Objective text changed",
+          "Description reworded",
+          "Experience 2100 instead of none"
+        ],
+        "notShown": [
+          "Side none instead of Horde",
+          "Quest givers: adds Ends at Sirra Von'Indi",
+          "Description reworded",
+          "Experience 2100 instead of none"
+        ],
+        "status": "updated"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 79363,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 26,
+      "money": 0,
+      "name": "Silvia's Sword",
+      "popularity": 204,
+      "reprewards": [],
+      "reqclass": 64,
+      "reqlevel": 18,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2100
     },
     {
       "category": 10,
@@ -293,7 +632,7 @@
       "level": 30,
       "money": 2500,
       "name": "The Night Watch",
-      "popularity": 185,
+      "popularity": 204,
       "reprewards": [
         [
           72,
@@ -319,25 +658,25 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 165,
+      "id": 97,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 25,
+      "level": 28,
       "money": 0,
-      "name": "The Hermit",
-      "popularity": 153,
+      "name": "The Legend of Stalvan",
+      "popularity": 202,
       "reprewards": [
         [
           72,
-          50
+          25
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 17,
+      "reqlevel": 22,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 1000
+      "xp": 230
     },
     {
       "category": 10,
@@ -351,18 +690,13 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 93,
+      "id": 67,
       "itemchoices": [],
-      "itemrewards": [
-        [
-          3683,
-          1
-        ]
-      ],
-      "level": 20,
+      "itemrewards": [],
+      "level": 28,
       "money": 0,
-      "name": "Dusky Crab Cakes",
-      "popularity": 142,
+      "name": "The Legend of Stalvan",
+      "popularity": 201,
       "reprewards": [
         [
           72,
@@ -370,48 +704,11 @@
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 17,
+      "reqlevel": 22,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 780
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [
-          "renamed"
-        ],
-        "lines": [
-          "Renamed from Look To The Stars"
-        ],
-        "notShown": [],
-        "status": "updated"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 174,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 25,
-      "money": 0,
-      "name": "Look To The Stars",
-      "popularity": 137,
-      "reprewards": [
-        [
-          72,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 2000
+      "xp": 1150
     },
     {
       "category": 10,
@@ -450,7 +747,7 @@
       "level": 25,
       "money": 1800,
       "name": "Seasoned Wolf Kabobs",
-      "popularity": 132,
+      "popularity": 200,
       "reprewards": [
         [
           72,
@@ -476,1031 +773,18 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 95,
+      "id": 93,
       "itemchoices": [],
-      "itemrewards": [],
-      "level": 25,
-      "money": 0,
-      "name": "Sven's Revenge",
-      "popularity": 130,
-      "reprewards": [
+      "itemrewards": [
         [
-          72,
-          50
+          3683,
+          1
         ]
       ],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1000
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 337,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 25,
-      "money": 1400,
-      "name": "An Old History Book",
-      "popularity": 126,
-      "reprewards": [
-        [
-          72,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1500
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 56,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 24,
-      "money": 1700,
-      "name": "The Night Watch",
-      "popularity": 125,
-      "reprewards": [
-        [
-          72,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 18,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1450
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 228,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 35,
-      "money": 3500,
-      "name": "Mor'Ladim",
-      "popularity": 118,
-      "reprewards": [
-        [
-          72,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 28,
-      "side": 1,
-      "titlereward": 0,
-      "type": 1,
-      "xp": 2050
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 262,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 25,
-      "money": 0,
-      "name": "The Shadowy Figure",
-      "popularity": 98,
-      "reprewards": [
-        [
-          72,
-          25
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 510
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [
-          "renamed"
-        ],
-        "lines": [
-          "Renamed from Look To The Stars"
-        ],
-        "notShown": [],
-        "status": "updated"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 175,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 25,
-      "money": 0,
-      "name": "Look To The Stars",
-      "popularity": 97,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1000
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 323,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 28,
-      "money": 1800,
-      "name": "Proving Your Worth",
-      "popularity": 93,
-      "reprewards": [
-        [
-          72,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 2300
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 230,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 25,
-      "money": 0,
-      "name": "Sven's Camp",
-      "popularity": 93,
-      "reprewards": [
-        [
-          72,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1000
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 163,
-      "itemchoices": [],
-      "itemrewards": [],
       "level": 20,
       "money": 0,
-      "name": "Raven Hill",
-      "popularity": 92,
-      "reprewards": [
-        [
-          72,
-          25
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 17,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 390
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 57,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 26,
-      "money": 2000,
-      "name": "The Night Watch",
-      "popularity": 90,
-      "reprewards": [
-        [
-          72,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 18,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 2100
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 5,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 20,
-      "money": 0,
-      "name": "Jitters' Growling Gut",
-      "popularity": 89,
-      "reprewards": [
-        [
-          72,
-          25
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 17,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 390
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 231,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          2000,
-          1
-        ]
-      ],
-      "level": 35,
-      "money": 0,
-      "name": "A Daughter's Love",
-      "popularity": 89,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 28,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1350
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [
-          "renamed"
-        ],
-        "lines": [
-          "Renamed from Look To The Stars"
-        ],
-        "notShown": [],
-        "status": "updated"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 177,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 25,
-      "money": 0,
-      "name": "Look To The Stars",
-      "popularity": 88,
-      "reprewards": [
-        [
-          72,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1500
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 66,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 28,
-      "money": 0,
-      "name": "The Legend of Stalvan",
-      "popularity": 87,
-      "reprewards": [
-        [
-          72,
-          25
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 22,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 230
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 270,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 29,
-      "money": 0,
-      "name": "The Doomed Fleet",
-      "popularity": 86,
-      "reprewards": [
-        [
-          72,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1200
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 98,
-      "itemchoices": [
-        [
-          2044,
-          1
-        ],
-        [
-          2043,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 35,
-      "money": 0,
-      "name": "The Legend of Stalvan",
-      "popularity": 85,
-      "reprewards": [
-        [
-          72,
-          200
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 22,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 4100
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 226,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          1127,
-          5
-        ]
-      ],
-      "level": 21,
-      "money": 0,
-      "name": "Wolves at Our Heels",
-      "popularity": 84,
-      "reprewards": [
-        [
-          72,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 19,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1250
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 325,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 29,
-      "money": 0,
-      "name": "Armed and Ready",
-      "popularity": 84,
-      "reprewards": [
-        [
-          72,
-          25
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 590
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 266,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 25,
-      "money": 0,
-      "name": "Inquire at the Inn",
-      "popularity": 83,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 200
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 157,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 24,
-      "money": 1300,
-      "name": "Deliver the Thread",
-      "popularity": 82,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1450
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 322,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 29,
-      "money": 0,
-      "name": "Blessed Arm",
-      "popularity": 81,
-      "reprewards": [
-        [
-          47,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1200
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 251,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 30,
-      "money": 0,
-      "name": "Translate Abercrombie's Note",
-      "popularity": 80,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 245
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 154,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 24,
-      "money": 175,
-      "name": "Return the Comb",
-      "popularity": 80,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 195
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 453,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 25,
-      "money": 0,
-      "name": "Finding the Shadowy Figure",
-      "popularity": 79,
-      "reprewards": [
-        [
-          72,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1000
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 252,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          3248,
-          1
-        ]
-      ],
-      "level": 30,
-      "money": 0,
-      "name": "Translation to Ello",
-      "popularity": 78,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 245
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 526,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 29,
-      "money": 0,
-      "name": "Lightforge Ingots",
-      "popularity": 78,
-      "reprewards": [
-        [
-          47,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1750
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 101,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          1131,
-          1
-        ]
-      ],
-      "level": 25,
-      "money": 0,
-      "name": "The Totem of Infliction",
-      "popularity": 76,
-      "reprewards": [
-        [
-          72,
-          150
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 18,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 2550
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 324,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 29,
-      "money": 0,
-      "name": "The Lost Ingots",
-      "popularity": 75,
-      "reprewards": [
-        [
-          47,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1750
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 268,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 25,
-      "money": 0,
-      "name": "Return to Sven",
-      "popularity": 74,
-      "reprewards": [
-        [
-          72,
-          25
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 510
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 225,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 35,
-      "money": 0,
-      "name": "The Weathered Grave",
-      "popularity": 74,
-      "reprewards": [
-        [
-          72,
-          25
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 28,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 690
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 149,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 24,
-      "money": 0,
-      "name": "Ghost Hair Thread",
-      "popularity": 74,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 485
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 148,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 24,
-      "money": 0,
-      "name": "Supplies from Darkshire",
-      "popularity": 73,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 485
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 240,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 20,
-      "money": 1200,
-      "name": "Return to Jitters",
-      "popularity": 72,
+      "name": "Dusky Crab Cakes",
+      "popularity": 183,
       "reprewards": [
         [
           72,
@@ -1526,47 +810,25 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 158,
+      "id": 66,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 24,
+      "level": 28,
       "money": 0,
-      "name": "Zombie Juice",
-      "popularity": 71,
-      "reprewards": [],
+      "name": "The Legend of Stalvan",
+      "popularity": 183,
+      "reprewards": [
+        [
+          72,
+          25
+        ]
+      ],
       "reqclass": 0,
-      "reqlevel": 20,
+      "reqlevel": 22,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 485
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 265,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 25,
-      "money": 0,
-      "name": "The Shadowy Search Continues",
-      "popularity": 71,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 200
+      "xp": 230
     },
     {
       "category": 10,
@@ -1586,7 +848,7 @@
       "level": 35,
       "money": 0,
       "name": "The Daughter Who Lived",
-      "popularity": 71,
+      "popularity": 177,
       "reprewards": [
         [
           72,
@@ -1599,338 +861,6 @@
       "titlereward": 0,
       "type": 0,
       "xp": 275
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 245,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          3559,
-          1
-        ]
-      ],
-      "level": 21,
-      "money": 0,
-      "name": "Eight-Legged Menaces",
-      "popularity": 71,
-      "reprewards": [
-        [
-          72,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 17,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1250
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 156,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 24,
-      "money": 0,
-      "name": "Gather Rot Blossoms",
-      "popularity": 70,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 970
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 133,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 27,
-      "money": 2200,
-      "name": "Ghoulish Effigy",
-      "popularity": 69,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1650
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 134,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 30,
-      "money": 1400,
-      "name": "Ogre Thieves",
-      "popularity": 68,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1200
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 159,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 24,
-      "money": 1700,
-      "name": "Juice Delivery",
-      "popularity": 67,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 970
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 67,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 28,
-      "money": 0,
-      "name": "The Legend of Stalvan",
-      "popularity": 66,
-      "reprewards": [
-        [
-          72,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 22,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1150
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 401,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 30,
-      "money": 0,
-      "name": "Wait for Sirra to Finish",
-      "popularity": 66,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1850
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 269,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 29,
-      "money": 0,
-      "name": "Seeking Wisdom",
-      "popularity": 64,
-      "reprewards": [
-        [
-          72,
-          25
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 590
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 321,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          2702,
-          1
-        ]
-      ],
-      "level": 29,
-      "money": 0,
-      "name": "Lightforge Iron",
-      "popularity": 64,
-      "reprewards": [
-        [
-          72,
-          25
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 590
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 74,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 28,
-      "money": 0,
-      "name": "The Legend of Stalvan",
-      "popularity": 62,
-      "reprewards": [
-        [
-          72,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 22,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1150
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 160,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 30,
-      "money": 0,
-      "name": "Note to the Mayor",
-      "popularity": 62,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 610
     },
     {
       "category": 10,
@@ -1964,7 +894,7 @@
       "level": 31,
       "money": 0,
       "name": "Worgen in the Woods",
-      "popularity": 61,
+      "popularity": 173,
       "reprewards": [
         [
           72,
@@ -1990,20 +920,345 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 72,
+      "id": 337,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 25,
+      "money": 1400,
+      "name": "An Old History Book",
+      "popularity": 171,
+      "reprewards": [
+        [
+          72,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1500
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 74,
       "itemchoices": [],
       "itemrewards": [],
       "level": 28,
       "money": 0,
       "name": "The Legend of Stalvan",
-      "popularity": 60,
-      "reprewards": [],
+      "popularity": 170,
+      "reprewards": [
+        [
+          72,
+          50
+        ]
+      ],
       "reqclass": 0,
       "reqlevel": 22,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 230
+      "xp": 1150
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 245,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          3559,
+          1
+        ]
+      ],
+      "level": 21,
+      "money": 0,
+      "name": "Eight-Legged Menaces",
+      "popularity": 169,
+      "reprewards": [
+        [
+          72,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 17,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1250
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 78,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 28,
+      "money": 0,
+      "name": "The Legend of Stalvan",
+      "popularity": 168,
+      "reprewards": [
+        [
+          72,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 22,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 570
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "renamed"
+        ],
+        "lines": [
+          "Renamed from Look To The Stars"
+        ],
+        "notShown": [],
+        "status": "updated"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 175,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 25,
+      "money": 0,
+      "name": "Look to the Stars",
+      "popularity": 164,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1000
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 325,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 29,
+      "money": 0,
+      "name": "Armed and Ready",
+      "popularity": 163,
+      "reprewards": [
+        [
+          72,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 590
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 156,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 24,
+      "money": 0,
+      "name": "Gather Rot Blossoms",
+      "popularity": 163,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 970
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "renamed"
+        ],
+        "lines": [
+          "Renamed from Look To The Stars"
+        ],
+        "notShown": [],
+        "status": "updated"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 177,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 25,
+      "money": 0,
+      "name": "Look to the Stars",
+      "popularity": 161,
+      "reprewards": [
+        [
+          72,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1500
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 75,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 28,
+      "money": 0,
+      "name": "The Legend of Stalvan",
+      "popularity": 159,
+      "reprewards": [
+        [
+          72,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 22,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1150
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 133,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 27,
+      "money": 2200,
+      "name": "Ghoulish Effigy",
+      "popularity": 155,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1650
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 95,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 25,
+      "money": 0,
+      "name": "Sven's Revenge",
+      "popularity": 153,
+      "reprewards": [
+        [
+          72,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1000
     },
     {
       "category": 10,
@@ -2028,7 +1283,7 @@
       "level": 35,
       "money": 0,
       "name": "Morgan Ladimore",
-      "popularity": 60,
+      "popularity": 153,
       "reprewards": [
         [
           72,
@@ -2054,13 +1309,72 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
+      "id": 72,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 28,
+      "money": 0,
+      "name": "The Legend of Stalvan",
+      "popularity": 150,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 22,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 230
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 69,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 28,
+      "money": 0,
+      "name": "The Legend of Stalvan",
+      "popularity": 148,
+      "reprewards": [
+        [
+          72,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 22,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 570
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
       "id": 80,
       "itemchoices": [],
       "itemrewards": [],
       "level": 28,
       "money": 0,
       "name": "The Legend of Stalvan",
-      "popularity": 60,
+      "popularity": 143,
       "reprewards": [
         [
           72,
@@ -2086,17 +1400,17 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 78,
+      "id": 68,
       "itemchoices": [],
       "itemrewards": [],
       "level": 28,
       "money": 0,
       "name": "The Legend of Stalvan",
-      "popularity": 60,
+      "popularity": 142,
       "reprewards": [
         [
           72,
-          25
+          75
         ]
       ],
       "reqclass": 0,
@@ -2104,7 +1418,7 @@
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 570
+      "xp": 1700
     },
     {
       "category": 10,
@@ -2118,25 +1432,30 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 69,
+      "id": 101,
       "itemchoices": [],
-      "itemrewards": [],
-      "level": 28,
+      "itemrewards": [
+        [
+          1131,
+          1
+        ]
+      ],
+      "level": 25,
       "money": 0,
-      "name": "The Legend of Stalvan",
-      "popularity": 57,
+      "name": "The Totem of Infliction",
+      "popularity": 142,
       "reprewards": [
         [
           72,
-          25
+          150
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 22,
+      "reqlevel": 18,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 570
+      "xp": 2550
     },
     {
       "category": 10,
@@ -2150,13 +1469,146 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 164,
+      "id": 322,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 23,
-      "money": 800,
-      "name": "Deliveries to Sven",
-      "popularity": 56,
+      "level": 29,
+      "money": 0,
+      "name": "Blessed Arm",
+      "popularity": 141,
+      "reprewards": [
+        [
+          47,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1200
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 79,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          939,
+          1
+        ]
+      ],
+      "level": 28,
+      "money": 0,
+      "name": "The Legend of Stalvan",
+      "popularity": 141,
+      "reprewards": [
+        [
+          72,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 22,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 230
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 323,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 28,
+      "money": 1800,
+      "name": "Proving Your Worth",
+      "popularity": 139,
+      "reprewards": [
+        [
+          72,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2300
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 222,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 31,
+      "money": 2200,
+      "name": "Worgen in the Woods",
+      "popularity": 136,
+      "reprewards": [
+        [
+          72,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 23,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1900
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 165,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 25,
+      "money": 0,
+      "name": "The Hermit",
+      "popularity": 135,
       "reprewards": [
         [
           72,
@@ -2168,44 +1620,7 @@
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 920
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start-daily",
-      "id": 81734,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          219526,
-          1
-        ]
-      ],
-      "level": 27,
-      "money": 1700,
-      "name": "Duskwood Mission V: Worgen Intelligence",
-      "popularity": 55,
-      "reprewards": [
-        [
-          2641,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 23,
-      "side": 3,
-      "titlereward": 0,
-      "type": 1,
-      "xp": 1650
+      "xp": 1000
     },
     {
       "category": 10,
@@ -2219,13 +1634,146 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 75,
+      "id": 324,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 28,
+      "level": 29,
       "money": 0,
-      "name": "The Legend of Stalvan",
-      "popularity": 55,
+      "name": "The Lost Ingots",
+      "popularity": 135,
+      "reprewards": [
+        [
+          47,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1750
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 321,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          2702,
+          1
+        ]
+      ],
+      "level": 29,
+      "money": 0,
+      "name": "Lightforge Iron",
+      "popularity": 132,
+      "reprewards": [
+        [
+          72,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 590
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 56,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 24,
+      "money": 1700,
+      "name": "The Night Watch",
+      "popularity": 132,
+      "reprewards": [
+        [
+          72,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 18,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1450
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 57,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 26,
+      "money": 2000,
+      "name": "The Night Watch",
+      "popularity": 131,
+      "reprewards": [
+        [
+          72,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 18,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2100
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 270,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 29,
+      "money": 0,
+      "name": "The Doomed Fleet",
+      "popularity": 131,
       "reprewards": [
         [
           72,
@@ -2233,11 +1781,11 @@
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 22,
+      "reqlevel": 20,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 1150
+      "xp": 1200
     },
     {
       "category": 10,
@@ -2251,25 +1799,20 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 68,
+      "id": 134,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 28,
-      "money": 0,
-      "name": "The Legend of Stalvan",
-      "popularity": 54,
-      "reprewards": [
-        [
-          72,
-          75
-        ]
-      ],
+      "level": 30,
+      "money": 1400,
+      "name": "Ogre Thieves",
+      "popularity": 130,
+      "reprewards": [],
       "reqclass": 0,
-      "reqlevel": 22,
+      "reqlevel": 20,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 1700
+      "xp": 1200
     },
     {
       "category": 10,
@@ -2283,13 +1826,227 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 70,
+      "id": 160,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 28,
+      "level": 30,
       "money": 0,
-      "name": "The Legend of Stalvan",
-      "popularity": 54,
+      "name": "Note to the Mayor",
+      "popularity": 129,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 610
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 251,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 30,
+      "money": 0,
+      "name": "Translate Abercrombie's Note",
+      "popularity": 127,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 245
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 252,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          3248,
+          1
+        ]
+      ],
+      "level": 30,
+      "money": 0,
+      "name": "Translation to Ello",
+      "popularity": 125,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 245
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 269,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 29,
+      "money": 0,
+      "name": "Seeking Wisdom",
+      "popularity": 124,
+      "reprewards": [
+        [
+          72,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 590
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 262,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 25,
+      "money": 0,
+      "name": "The Shadowy Figure",
+      "popularity": 121,
+      "reprewards": [
+        [
+          72,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 510
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 5,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 20,
+      "money": 0,
+      "name": "Jitters' Growling Gut",
+      "popularity": 120,
+      "reprewards": [
+        [
+          72,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 17,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 390
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 401,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 30,
+      "money": 0,
+      "name": "Wait for Sirra to Finish",
+      "popularity": 120,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1850
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 226,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          1127,
+          5
+        ]
+      ],
+      "level": 21,
+      "money": 0,
+      "name": "Wolves at Our Heels",
+      "popularity": 118,
       "reprewards": [
         [
           72,
@@ -2297,11 +2054,188 @@
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 22,
+      "reqlevel": 19,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 1700
+      "xp": 1250
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 163,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 20,
+      "money": 0,
+      "name": "Raven Hill",
+      "popularity": 117,
+      "reprewards": [
+        [
+          72,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 17,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 390
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 148,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 24,
+      "money": 0,
+      "name": "Supplies from Darkshire",
+      "popularity": 116,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 485
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 158,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 24,
+      "money": 0,
+      "name": "Zombie Juice",
+      "popularity": 116,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 485
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 526,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 29,
+      "money": 0,
+      "name": "Lightforge Ingots",
+      "popularity": 114,
+      "reprewards": [
+        [
+          47,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1750
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 230,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 25,
+      "money": 0,
+      "name": "Sven's Camp",
+      "popularity": 114,
+      "reprewards": [
+        [
+          72,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1000
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 159,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 24,
+      "money": 1700,
+      "name": "Juice Delivery",
+      "popularity": 112,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 970
     },
     {
       "category": 10,
@@ -2321,7 +2255,7 @@
       "level": 29,
       "money": 1900,
       "name": "Worgen in the Woods",
-      "popularity": 52,
+      "popularity": 110,
       "reprewards": [
         [
           72,
@@ -2347,13 +2281,104 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
+      "id": 164,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 23,
+      "money": 800,
+      "name": "Deliveries to Sven",
+      "popularity": 107,
+      "reprewards": [
+        [
+          72,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 17,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 920
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 240,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 20,
+      "money": 1200,
+      "name": "Return to Jitters",
+      "popularity": 106,
+      "reprewards": [
+        [
+          72,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 17,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 780
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 149,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 24,
+      "money": 0,
+      "name": "Ghost Hair Thread",
+      "popularity": 104,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 485
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
       "id": 173,
       "itemchoices": [],
       "itemrewards": [],
       "level": 28,
       "money": 1800,
       "name": "Worgen in the Woods",
-      "popularity": 51,
+      "popularity": 103,
       "reprewards": [
         [
           72,
@@ -2366,6 +2391,38 @@
       "titlereward": 0,
       "type": 0,
       "xp": 1150
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 453,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 25,
+      "money": 0,
+      "name": "Finding the Shadowy Figure",
+      "popularity": 98,
+      "reprewards": [
+        [
+          72,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1000
     },
     {
       "category": 10,
@@ -2394,7 +2451,7 @@
       "level": 42,
       "money": 0,
       "name": "Nothing But The Truth",
-      "popularity": 51,
+      "popularity": 97,
       "reprewards": [
         [
           68,
@@ -2420,25 +2477,20 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 97,
+      "id": 157,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 28,
-      "money": 0,
-      "name": "The Legend of Stalvan",
-      "popularity": 51,
-      "reprewards": [
-        [
-          72,
-          25
-        ]
-      ],
+      "level": 24,
+      "money": 1300,
+      "name": "Deliver the Thread",
+      "popularity": 96,
+      "reprewards": [],
       "reqclass": 0,
-      "reqlevel": 22,
+      "reqlevel": 20,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 230
+      "xp": 1450
     },
     {
       "category": 10,
@@ -2452,25 +2504,20 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 222,
+      "id": 154,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 31,
-      "money": 2200,
-      "name": "Worgen in the Woods",
-      "popularity": 50,
-      "reprewards": [
-        [
-          72,
-          75
-        ]
-      ],
+      "level": 24,
+      "money": 175,
+      "name": "Return the Comb",
+      "popularity": 92,
+      "reprewards": [],
       "reqclass": 0,
-      "reqlevel": 23,
+      "reqlevel": 20,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 1900
+      "xp": 195
     },
     {
       "category": 10,
@@ -2484,30 +2531,20 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 79,
+      "id": 266,
       "itemchoices": [],
-      "itemrewards": [
-        [
-          939,
-          1
-        ]
-      ],
-      "level": 28,
+      "itemrewards": [],
+      "level": 25,
       "money": 0,
-      "name": "The Legend of Stalvan",
-      "popularity": 49,
-      "reprewards": [
-        [
-          72,
-          25
-        ]
-      ],
+      "name": "Inquire at the Inn",
+      "popularity": 88,
+      "reprewards": [],
       "reqclass": 0,
-      "reqlevel": 22,
+      "reqlevel": 20,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 230
+      "xp": 200
     },
     {
       "category": 10,
@@ -2517,11 +2554,70 @@
       "envChange": {
         "labels": [],
         "lines": [],
-        "status": "unconfirmed"
+        "status": "unchanged"
       },
-      "firstseenpatch": 20000,
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 268,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 25,
+      "money": 0,
+      "name": "Return to Sven",
+      "popularity": 87,
+      "reprewards": [
+        [
+          72,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 510
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 265,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 25,
+      "money": 0,
+      "name": "The Shadowy Search Continues",
+      "popularity": 87,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 200
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 16001,
       "icon": "quest-start-daily",
-      "id": 81738,
+      "id": 81730,
       "itemchoices": [],
       "itemrewards": [
         [
@@ -2531,8 +2627,109 @@
       ],
       "level": 27,
       "money": 1700,
-      "name": "Duskwood Mission IX: Recover Dragon Egg",
-      "popularity": 38,
+      "name": "Duskwood Mission I: Defeat Worgen",
+      "popularity": 79,
+      "reprewards": [
+        [
+          2641,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 23,
+      "side": 3,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 2200
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 254,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 35,
+      "money": 0,
+      "name": "Digging Through the Dirt",
+      "popularity": 77,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 0
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start-daily",
+      "id": 81731,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          219526,
+          1
+        ]
+      ],
+      "level": 27,
+      "money": 1700,
+      "name": "Duskwood Mission II: Defeat Ogres",
+      "popularity": 59,
+      "reprewards": [
+        [
+          2641,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 23,
+      "side": 3,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 2200
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start-daily",
+      "id": 81734,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          219526,
+          1
+        ]
+      ],
+      "level": 27,
+      "money": 1700,
+      "name": "Duskwood Mission V: Worgen Intelligence",
+      "popularity": 57,
       "reprewards": [
         [
           2641,
@@ -2564,7 +2761,7 @@
       "level": 42,
       "money": 0,
       "name": "Nothing But The Truth",
-      "popularity": 37,
+      "popularity": 57,
       "reprewards": [
         [
           68,
@@ -2586,11 +2783,11 @@
       "envChange": {
         "labels": [],
         "lines": [],
-        "status": "unconfirmed"
+        "status": "unchanged"
       },
-      "firstseenpatch": 20000,
+      "firstseenpatch": 16001,
       "icon": "quest-start-daily",
-      "id": 81740,
+      "id": 81733,
       "itemchoices": [],
       "itemrewards": [
         [
@@ -2600,415 +2797,8 @@
       ],
       "level": 27,
       "money": 1700,
-      "name": "Duskwood Mission XI: Cold Iron Ore",
-      "popularity": 37,
-      "reprewards": [
-        [
-          2641,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 23,
-      "side": 3,
-      "titlereward": 0,
-      "type": 1,
-      "xp": 2200
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start-daily",
-      "id": 81737,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          219526,
-          1
-        ]
-      ],
-      "level": 27,
-      "money": 1700,
-      "name": "Duskwood Mission VIII: Recover Ogre Magi text",
-      "popularity": 37,
-      "reprewards": [
-        [
-          2641,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 23,
-      "side": 3,
-      "titlereward": 0,
-      "type": 1,
-      "xp": 1650
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start-daily",
-      "id": 81732,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          219526,
-          1
-        ]
-      ],
-      "level": 27,
-      "money": 1700,
-      "name": "Duskwood Mission III: Defeat Dragonkin",
-      "popularity": 36,
-      "reprewards": [
-        [
-          2641,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 23,
-      "side": 3,
-      "titlereward": 0,
-      "type": 1,
-      "xp": 2200
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start-daily",
-      "id": 81747,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          219526,
-          1
-        ]
-      ],
-      "level": 27,
-      "money": 1700,
-      "name": "Duskwood Mission XVIII: Rescue Elenora Marshwalker",
-      "popularity": 36,
-      "reprewards": [
-        [
-          2641,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 23,
-      "side": 3,
-      "titlereward": 0,
-      "type": 1,
-      "xp": 1650
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start-daily",
-      "id": 81730,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          219526,
-          1
-        ]
-      ],
-      "level": 27,
-      "money": 1700,
-      "name": "Duskwood Mission I: Defeat Worgen",
-      "popularity": 35,
-      "reprewards": [
-        [
-          2641,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 23,
-      "side": 3,
-      "titlereward": 0,
-      "type": 1,
-      "xp": 2200
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start-daily",
-      "id": 81741,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          219526,
-          1
-        ]
-      ],
-      "level": 27,
-      "money": 1700,
-      "name": "Duskwood Mission XII: Dream-Touched Dragonscale",
-      "popularity": 34,
-      "reprewards": [
-        [
-          2641,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 23,
-      "side": 3,
-      "titlereward": 0,
-      "type": 1,
-      "xp": 2200
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start-daily",
-      "id": 81742,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          219526,
-          1
-        ]
-      ],
-      "level": 27,
-      "money": 3400,
-      "name": "Duskwood Mission XIII: Defeat Ylanthrius",
-      "popularity": 34,
-      "reprewards": [
-        [
-          2641,
-          200
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 23,
-      "side": 3,
-      "titlereward": 0,
-      "type": 1,
-      "xp": 2200
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start-daily",
-      "id": 81744,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          219526,
-          1
-        ]
-      ],
-      "level": 27,
-      "money": 1700,
-      "name": "Duskwood Mission XV: Defeat Amokarok",
-      "popularity": 34,
-      "reprewards": [
-        [
-          2641,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 23,
-      "side": 3,
-      "titlereward": 0,
-      "type": 1,
-      "xp": 2200
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start-daily",
-      "id": 81745,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          219526,
-          1
-        ]
-      ],
-      "level": 27,
-      "money": 1700,
-      "name": "Duskwood Mission XVI: Rescue Kroll Mountainshade",
-      "popularity": 34,
-      "reprewards": [
-        [
-          2641,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 23,
-      "side": 3,
-      "titlereward": 0,
-      "type": 1,
-      "xp": 1650
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start-daily",
-      "id": 81739,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          219526,
-          1
-        ]
-      ],
-      "level": 27,
-      "money": 1700,
-      "name": "Duskwood Mission X: Nightmare Moss",
-      "popularity": 33,
-      "reprewards": [
-        [
-          2641,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 23,
-      "side": 3,
-      "titlereward": 0,
-      "type": 1,
-      "xp": 2200
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start-daily",
-      "id": 81743,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          219526,
-          1
-        ]
-      ],
-      "level": 27,
-      "money": 1700,
-      "name": "Duskwood Mission XIV: Defeat Vvarc'zul",
-      "popularity": 33,
-      "reprewards": [
-        [
-          2641,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 23,
-      "side": 3,
-      "titlereward": 0,
-      "type": 1,
-      "xp": 2200
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start-daily",
-      "id": 81746,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          219526,
-          1
-        ]
-      ],
-      "level": 27,
-      "money": 1700,
-      "name": "Duskwood Mission XVII: Rescue Alara Grovemender",
-      "popularity": 33,
+      "name": "Duskwood Mission IV: Ogre Intelligence",
+      "popularity": 56,
       "reprewards": [
         [
           2641,
@@ -3032,41 +2822,9 @@
         "lines": [],
         "status": "unchanged"
       },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1391,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 42,
-      "money": 0,
-      "name": "Nothing But The Truth",
-      "popularity": 33,
-      "reprewards": [
-        [
-          68,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 37,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 2550
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
+      "firstseenpatch": 16001,
       "icon": "quest-start-daily",
-      "id": 81731,
+      "id": 81736,
       "itemchoices": [],
       "itemrewards": [
         [
@@ -3076,8 +2834,82 @@
       ],
       "level": 27,
       "money": 1700,
-      "name": "Duskwood Mission II: Defeat Ogres",
-      "popularity": 33,
+      "name": "Duskwood Mission VII: Recover Shadowscythe",
+      "popularity": 56,
+      "reprewards": [
+        [
+          2641,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 23,
+      "side": 3,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 1650
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start-daily",
+      "id": 81738,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          219526,
+          1
+        ]
+      ],
+      "level": 27,
+      "money": 1700,
+      "name": "Duskwood Mission IX: Recover Dragon Egg",
+      "popularity": 56,
+      "reprewards": [
+        [
+          2641,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 23,
+      "side": 3,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 1650
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start-daily",
+      "id": 81740,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          219526,
+          1
+        ]
+      ],
+      "level": 27,
+      "money": 1700,
+      "name": "Duskwood Mission XI: Cold Iron Ore",
+      "popularity": 55,
       "reprewards": [
         [
           2641,
@@ -3099,11 +2931,11 @@
       "envChange": {
         "labels": [],
         "lines": [],
-        "status": "unconfirmed"
+        "status": "unchanged"
       },
-      "firstseenpatch": 20000,
+      "firstseenpatch": 16001,
       "icon": "quest-start-daily",
-      "id": 81736,
+      "id": 81743,
       "itemchoices": [],
       "itemrewards": [
         [
@@ -3113,8 +2945,8 @@
       ],
       "level": 27,
       "money": 1700,
-      "name": "Duskwood Mission VII: Recover Shadowscythe",
-      "popularity": 32,
+      "name": "Duskwood Mission XIV: Defeat Vvarc'zul",
+      "popularity": 55,
       "reprewards": [
         [
           2641,
@@ -3126,7 +2958,7 @@
       "side": 3,
       "titlereward": 0,
       "type": 1,
-      "xp": 1650
+      "xp": 2200
     },
     {
       "category": 10,
@@ -3136,9 +2968,83 @@
       "envChange": {
         "labels": [],
         "lines": [],
-        "status": "unconfirmed"
+        "status": "unchanged"
       },
-      "firstseenpatch": 20000,
+      "firstseenpatch": 16001,
+      "icon": "quest-start-daily",
+      "id": 81742,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          219526,
+          1
+        ]
+      ],
+      "level": 27,
+      "money": 3400,
+      "name": "Duskwood Mission XIII: Defeat Ylanthrius",
+      "popularity": 55,
+      "reprewards": [
+        [
+          2641,
+          200
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 23,
+      "side": 3,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 2200
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start-daily",
+      "id": 81739,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          219526,
+          1
+        ]
+      ],
+      "level": 27,
+      "money": 1700,
+      "name": "Duskwood Mission X: Nightmare Moss",
+      "popularity": 55,
+      "reprewards": [
+        [
+          2641,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 23,
+      "side": 3,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 2200
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 16001,
       "icon": "quest-start-daily",
       "id": 81735,
       "itemchoices": [],
@@ -3151,7 +3057,7 @@
       "level": 27,
       "money": 1700,
       "name": "Duskwood Mission VI: Dragon Intelligence",
-      "popularity": 32,
+      "popularity": 55,
       "reprewards": [
         [
           2641,
@@ -3173,11 +3079,11 @@
       "envChange": {
         "labels": [],
         "lines": [],
-        "status": "unconfirmed"
+        "status": "unchanged"
       },
-      "firstseenpatch": 20000,
+      "firstseenpatch": 16001,
       "icon": "quest-start-daily",
-      "id": 81733,
+      "id": 81745,
       "itemchoices": [],
       "itemrewards": [
         [
@@ -3187,8 +3093,262 @@
       ],
       "level": 27,
       "money": 1700,
-      "name": "Duskwood Mission IV: Ogre Intelligence",
-      "popularity": 32,
+      "name": "Duskwood Mission XVI: Rescue Kroll Mountainshade",
+      "popularity": 54,
+      "reprewards": [
+        [
+          2641,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 23,
+      "side": 3,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 1650
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start-daily",
+      "id": 81732,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          219526,
+          1
+        ]
+      ],
+      "level": 27,
+      "money": 1700,
+      "name": "Duskwood Mission III: Defeat Dragonkin",
+      "popularity": 52,
+      "reprewards": [
+        [
+          2641,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 23,
+      "side": 3,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 2200
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start-daily",
+      "id": 81746,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          219526,
+          1
+        ]
+      ],
+      "level": 27,
+      "money": 1700,
+      "name": "Duskwood Mission XVII: Rescue Alara Grovemender",
+      "popularity": 51,
+      "reprewards": [
+        [
+          2641,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 23,
+      "side": 3,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 1650
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start-daily",
+      "id": 81747,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          219526,
+          1
+        ]
+      ],
+      "level": 27,
+      "money": 1700,
+      "name": "Duskwood Mission XVIII: Rescue Elenora Marshwalker",
+      "popularity": 51,
+      "reprewards": [
+        [
+          2641,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 23,
+      "side": 3,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 1650
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start-daily",
+      "id": 81744,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          219526,
+          1
+        ]
+      ],
+      "level": 27,
+      "money": 1700,
+      "name": "Duskwood Mission XV: Defeat Amokarok",
+      "popularity": 50,
+      "reprewards": [
+        [
+          2641,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 23,
+      "side": 3,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 2200
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 1395,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 45,
+      "money": 5000,
+      "name": "Supplies for Nethergarde",
+      "popularity": 48,
+      "reprewards": [
+        [
+          72,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 40,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2900
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start-daily",
+      "id": 81741,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          219526,
+          1
+        ]
+      ],
+      "level": 27,
+      "money": 1700,
+      "name": "Duskwood Mission XII: Dream-Touched Dragonscale",
+      "popularity": 48,
+      "reprewards": [
+        [
+          2641,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 23,
+      "side": 3,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 2200
+    },
+    {
+      "category": 10,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start-daily",
+      "id": 81737,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          219526,
+          1
+        ]
+      ],
+      "level": 27,
+      "money": 1700,
+      "name": "Duskwood Mission VIII: Recover Ogre Magi text",
+      "popularity": 48,
       "reprewards": [
         [
           2641,
@@ -3220,7 +3380,7 @@
       "level": 42,
       "money": 0,
       "name": "Nothing But The Truth",
-      "popularity": 29,
+      "popularity": 41,
       "reprewards": [
         [
           68,
@@ -3246,52 +3406,25 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 1395,
+      "id": 1391,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 45,
-      "money": 5000,
-      "name": "Supplies for Nethergarde",
-      "popularity": 26,
+      "level": 42,
+      "money": 0,
+      "name": "Nothing But The Truth",
+      "popularity": 38,
       "reprewards": [
         [
-          72,
+          68,
           75
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 40,
-      "side": 1,
+      "reqlevel": 37,
+      "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 2900
-    },
-    {
-      "category": 10,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 254,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 35,
-      "money": 0,
-      "name": "Digging Through the Dirt",
-      "popularity": 25,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 0
+      "xp": 2550
     }
   ],
   "slug": "ek/duskwood",

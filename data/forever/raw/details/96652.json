@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-25T06:46:00+00:00",
+  "fetchedAt": "2026-10-17T03:49:03+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,26 +12,38 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 6[/li][li]Requires level 4[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: Object #654925[/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=265809/brakk]Brakk[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]4[/color][small] &nbsp;[/small][color=r3]9[/color][small] &nbsp;[/small][color=r4]12[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 6[/li][li]Requires level 4[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/object=654925/lost-journal]Lost Journal[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=265809/brakk]Brakk[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]4[/color][small] &nbsp;[/small][color=r3]9[/color][small] &nbsp;[/small][color=r4]12[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
-    "missing": 1,
+    "missing": 0,
     "objectives": {
       "14": {
         "levels": [
           [
             {
               "coord": [
+                42.8,
+                69.1
+              ],
+              "coords": [
+                [
+                  42.8,
+                  69.1
+                ]
+              ],
+              "id": 654925,
+              "name": "Lost Journal",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
                 52,
-                47.4
+                47.2
               ],
               "coords": [
                 [
                   52,
-                  47.4
-                ],
-                [
-                  52,
-                  47.6
+                  47.2
                 ]
               ],
               "id": 265809,
@@ -52,11 +64,23 @@
     "zones": [
       [
         14,
-        1
+        2
       ]
     ]
   },
   "minLevel": 4,
+  "objectSpawns": [
+    {
+      "entityId": 654925,
+      "entityKind": "object",
+      "entityName": "Lost Journal",
+      "uiMapId": 1411,
+      "uiMapName": "Durotar",
+      "x": 42.8,
+      "y": 69.1,
+      "zoneId": 14
+    }
+  ],
   "pageInfo": {
     "name": "The Adventurer",
     "type": 5,
@@ -66,5 +90,14 @@
   "prerequisiteQuestIds": [],
   "questId": 96652,
   "races": [],
-  "startPins": []
+  "startPins": [
+    {
+      "npcId": 654925,
+      "npcName": "Lost Journal",
+      "x": 42.8,
+      "y": 69.1,
+      "zoneId": 14,
+      "zoneName": "Durotar"
+    }
+  ]
 }

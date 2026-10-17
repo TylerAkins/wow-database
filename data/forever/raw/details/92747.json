@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-25T06:09:06+00:00",
+  "fetchedAt": "2026-10-17T03:12:09+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +12,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 16[/li][li]Requires level 9[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=253092/alba-fairmoon]Alba Fairmoon[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=253092/alba-fairmoon]Alba Fairmoon[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]9[/color][small] &nbsp;[/small][color=r1]12[/color][small] &nbsp;[/small][color=r2]14[/color][small] &nbsp;[/small][color=r3]19[/color][small] &nbsp;[/small][color=r4]23[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 15[/li][li]Requires level 9[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=3], [race=4], [br][race=7], [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=253092/alba-fairmoon]Alba Fairmoon[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=253092/alba-fairmoon]Alba Fairmoon[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]9[/color][small] &nbsp;[/small][color=r1]11[/color][small] &nbsp;[/small][color=r2]13[/color][small] &nbsp;[/small][color=r3]18[/color][small] &nbsp;[/small][color=r4]22[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 1,
     "objectives": {
@@ -85,16 +85,23 @@
     "typeId": 92747
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    13
+  ],
   "questId": 92747,
-  "races": [],
+  "races": [
+    3,
+    4,
+    7,
+    95
+  ],
   "startPins": [
     {
       "npcId": 253092,
       "npcName": "Alba Fairmoon",
-      "zoneId": 40,
       "x": 52.4,
       "y": 53.0,
+      "zoneId": 40,
       "zoneName": "Westfall"
     }
   ]

@@ -1,0 +1,271 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-10-17T12:04:18+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 40[/li][li]Requires level 35[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=253136/orgrul]Orgrul[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=253136/orgrul]Orgrul[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]35[/color][small] &nbsp;[/small][color=r1]36[/color][small] &nbsp;[/small][color=r2]38[/color][small] &nbsp;[/small][color=r3]43[/color][small] &nbsp;[/small][color=r4]49[/color][/li][li]Added in patch [acronym=\"1.60.1.70205\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "16651": {
+        "levels": [
+          [
+            {
+              "coord": [
+                35.6,
+                12
+              ],
+              "coords": [
+                [
+                  35.6,
+                  12
+                ],
+                [
+                  35.8,
+                  13
+                ]
+              ],
+              "id": 253136,
+              "name": "Orgrul",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                35.6,
+                12
+              ],
+              "coords": [
+                [
+                  35.6,
+                  12
+                ],
+                [
+                  35.8,
+                  13
+                ]
+              ],
+              "id": 253136,
+              "name": "Orgrul",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                34.2,
+                16.5
+              ],
+              "coords": [
+                [
+                  22.6,
+                  26.2
+                ],
+                [
+                  22.8,
+                  27.4
+                ],
+                [
+                  22.8,
+                  27.8
+                ],
+                [
+                  24,
+                  25.8
+                ],
+                [
+                  25.4,
+                  26.6
+                ],
+                [
+                  25.6,
+                  26.4
+                ],
+                [
+                  27,
+                  27.4
+                ],
+                [
+                  28.6,
+                  27.2
+                ],
+                [
+                  29.6,
+                  29.4
+                ],
+                [
+                  34.2,
+                  16.5
+                ]
+              ],
+              "id": 11559,
+              "name": "Outcast Necromancer",
+              "objective": 11559,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Shen'dralas"
+      },
+      "405": {
+        "levels": [
+          [
+            {
+              "coord": [
+                63.8,
+                90.4
+              ],
+              "coords": [
+                [
+                  59.2,
+                  89.4
+                ],
+                [
+                  59.4,
+                  89.6
+                ],
+                [
+                  60,
+                  90
+                ],
+                [
+                  60.8,
+                  90.4
+                ],
+                [
+                  61,
+                  90.6
+                ],
+                [
+                  62.4,
+                  91.2
+                ],
+                [
+                  62.6,
+                  91.2
+                ],
+                [
+                  63.4,
+                  89.4
+                ],
+                [
+                  63.4,
+                  89.6
+                ],
+                [
+                  63.6,
+                  89.2
+                ],
+                [
+                  63.8,
+                  90.4
+                ],
+                [
+                  63.8,
+                  90.6
+                ],
+                [
+                  64.4,
+                  92
+                ],
+                [
+                  64.6,
+                  91.8
+                ],
+                [
+                  64.8,
+                  84.2
+                ],
+                [
+                  64.8,
+                  89.4
+                ],
+                [
+                  64.8,
+                  89.8
+                ],
+                [
+                  64.8,
+                  91
+                ],
+                [
+                  65,
+                  85.4
+                ],
+                [
+                  65,
+                  87.6
+                ],
+                [
+                  65.2,
+                  86
+                ],
+                [
+                  65.2,
+                  86.6
+                ]
+              ],
+              "id": 11559,
+              "name": "Outcast Necromancer",
+              "objective": 11559,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Desolace"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16651,
+        2
+      ],
+      [
+        405,
+        1
+      ]
+    ]
+  },
+  "minLevel": 35,
+  "pageInfo": {
+    "name": "Outcast Necromancers",
+    "type": 5,
+    "typeId": 92846
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 92846,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 253136,
+      "npcName": "Orgrul",
+      "x": 35.6,
+      "y": 12.0,
+      "zoneId": 16651,
+      "zoneName": "Shen'dralas"
+    }
+  ]
+}

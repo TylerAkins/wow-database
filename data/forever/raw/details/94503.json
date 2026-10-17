@@ -3,7 +3,7 @@
     7
   ],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-25T06:34:04+00:00",
+  "fetchedAt": "2026-10-17T03:36:47+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -14,9 +14,9 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 23[/li][li]Requires level 20[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Class: [class=7][/li][li][icon name=quest-start]Start: Object #619896[/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=5895/minor-manifestation-of-water]Minor Manifestation of Water[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]20[/color][small] &nbsp;[/small][color=r2]21[/color][small] &nbsp;[/small][color=r3]26[/color][small] &nbsp;[/small][color=r4]31[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 23[/li][li]Requires level 20[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=3], [race=7][/li][li]Class: [class=7][/li][li][icon name=quest-start]Start: [url=/forever/object=619896/forgotten-shrine]Forgotten Shrine[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=5895/minor-manifestation-of-water]Minor Manifestation of Water[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]20[/color][small] &nbsp;[/small][color=r2]21[/color][small] &nbsp;[/small][color=r3]26[/color][small] &nbsp;[/small][color=r4]31[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
-    "missing": 1,
+    "missing": 0,
     "objectives": {
       "130": {
         "levels": [
@@ -55,11 +55,43 @@
         ],
         "mappable": 1,
         "zone": "Silverpine Forest"
+      },
+      "40": {
+        "levels": [
+          [
+            {
+              "coord": [
+                45.6,
+                59.9
+              ],
+              "coords": [
+                [
+                  45.4,
+                  60.1
+                ],
+                [
+                  45.6,
+                  59.9
+                ]
+              ],
+              "id": 619896,
+              "name": "Forgotten Shrine",
+              "point": "start",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Westfall"
       }
     },
     "parent": "fweiuasf",
     "zoneparent": "lksjdowlha",
     "zones": [
+      [
+        40,
+        1
+      ],
       [
         130,
         1
@@ -67,6 +99,28 @@
     ]
   },
   "minLevel": 20,
+  "objectSpawns": [
+    {
+      "entityId": 619896,
+      "entityKind": "object",
+      "entityName": "Forgotten Shrine",
+      "uiMapId": 1436,
+      "uiMapName": "Westfall",
+      "x": 45.4,
+      "y": 60.1,
+      "zoneId": 40
+    },
+    {
+      "entityId": 619896,
+      "entityKind": "object",
+      "entityName": "Forgotten Shrine",
+      "uiMapId": 1436,
+      "uiMapName": "Westfall",
+      "x": 45.6,
+      "y": 59.9,
+      "zoneId": 40
+    }
+  ],
   "pageInfo": {
     "name": "Call of Water",
     "type": 5,
@@ -75,6 +129,18 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 94503,
-  "races": [],
-  "startPins": []
+  "races": [
+    3,
+    7
+  ],
+  "startPins": [
+    {
+      "npcId": 619896,
+      "npcName": "Forgotten Shrine",
+      "x": 45.6,
+      "y": 59.9,
+      "zoneId": 40,
+      "zoneName": "Westfall"
+    }
+  ]
 }

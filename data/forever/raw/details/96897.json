@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-25T06:47:45+00:00",
+  "fetchedAt": "2026-10-17T03:50:51+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +12,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 13[/li][li]Requires level 10[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=267009/hadric-harlson]Hadric Harlson[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=267009/hadric-harlson]Hadric Harlson[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]10[/color][small] &nbsp;[/small][color=r2]11[/color][small] &nbsp;[/small][color=r3]16[/color][small] &nbsp;[/small][color=r4]19[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 12[/li][li]Requires level 10[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Races: [race=2], [race=5], [br][race=8][/li][li][icon name=quest-start]Start: [url=/forever/npc=267009/hadric-harlson]Hadric Harlson[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=267009/hadric-harlson]Hadric Harlson[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]10[/color][small] &nbsp;[/small][color=r3]15[/color][small] &nbsp;[/small][color=r4]18[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -57,8 +57,8 @@
             },
             {
               "coord": [
-                66.6,
-                65.4
+                68.8,
+                64.6
               ],
               "coords": [
                 [
@@ -66,16 +66,12 @@
                   63.4
                 ],
                 [
-                  66.2,
-                  63.6
-                ],
-                [
                   66.6,
                   65.4
                 ],
                 [
                   66.6,
-                  65.6
+                  65.5
                 ],
                 [
                   67,
@@ -90,24 +86,24 @@
                   67
                 ],
                 [
-                  67.6,
-                  65.4
-                ],
-                [
-                  67.6,
-                  66.8
-                ],
-                [
                   67.8,
                   66.2
                 ],
                 [
-                  68.2,
+                  68.1,
                   64.2
                 ],
                 [
+                  68.2,
+                  64.8
+                ],
+                [
                   68.6,
-                  62.8
+                  62.9
+                ],
+                [
+                  68.8,
+                  64.6
                 ],
                 [
                   69,
@@ -118,19 +114,15 @@
                   65.6
                 ],
                 [
-                  69.4,
-                  64.8
-                ],
-                [
                   69.8,
                   64.4
                 ],
                 [
                   69.8,
-                  64.6
+                  64.5
                 ],
                 [
-                  70.4,
+                  70.3,
                   65.8
                 ]
               ],
@@ -138,23 +130,27 @@
               "name": "Dark Neophyte",
               "objective": 267006,
               "point": "requirement",
-              "reactalliance": 0,
+              "reactalliance": -1,
               "reacthorde": -1,
               "type": 1
             },
             {
               "coord": [
-                66.6,
-                65.4
+                67.1,
+                64.2
               ],
               "coords": [
                 [
-                  66.2,
-                  63.4
+                  66.1,
+                  65.5
                 ],
                 [
-                  66.4,
-                  63.6
+                  66.3,
+                  63.3
+                ],
+                [
+                  66.6,
+                  63
                 ],
                 [
                   66.6,
@@ -162,15 +158,11 @@
                 ],
                 [
                   67,
-                  63.4
+                  62
                 ],
                 [
-                  67.2,
-                  64.4
-                ],
-                [
-                  67.4,
-                  65.6
+                  67.1,
+                  64.2
                 ],
                 [
                   67.4,
@@ -178,35 +170,39 @@
                 ],
                 [
                   67.6,
-                  66.8
+                  65.5
+                ],
+                [
+                  67.7,
+                  66.5
                 ],
                 [
                   67.8,
-                  66.2
-                ],
-                [
-                  68.2,
                   64.2
                 ],
                 [
-                  68.2,
-                  64.8
+                  68,
+                  64.6
                 ],
                 [
-                  68.6,
+                  68.2,
                   63
                 ],
                 [
-                  69,
-                  63.8
+                  68.5,
+                  65
+                ],
+                [
+                  68.6,
+                  62.9
                 ],
                 [
                   69,
-                  65.6
+                  63.7
                 ],
                 [
-                  69.4,
-                  64.8
+                  69.3,
+                  65.9
                 ],
                 [
                   69.6,
@@ -214,18 +210,18 @@
                 ],
                 [
                   69.8,
-                  64.4
+                  64.2
                 ],
                 [
-                  70.2,
-                  65.6
+                  69.9,
+                  65.9
                 ]
               ],
               "id": 275437,
               "name": "Dark Enforcer",
               "objective": 275437,
               "point": "requirement",
-              "reactalliance": 0,
+              "reactalliance": -1,
               "reacthorde": -1,
               "type": 1
             }
@@ -253,14 +249,18 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 96897,
-  "races": [],
+  "races": [
+    2,
+    5,
+    8
+  ],
   "startPins": [
     {
       "npcId": 267009,
       "npcName": "Hadric Harlson",
-      "zoneId": 85,
       "x": 65.8,
       "y": 61.0,
+      "zoneId": 85,
       "zoneName": "Tirisfal Glades"
     }
   ]

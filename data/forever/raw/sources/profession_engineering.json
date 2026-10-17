@@ -1,8 +1,35 @@
 {
-  "fetchedAt": "2026-09-24T23:19:11+00:00",
+  "fetchedAt": "2026-10-17T11:28:12+00:00",
   "kind": "profession",
   "questCount": 20,
   "quests": [
+    {
+      "category": -201,
+      "category2": 5,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 3633,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 47,
+      "money": 0,
+      "name": "Goblin Engineering",
+      "popularity": 174,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 30,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 420
+    },
     {
       "category": -201,
       "category2": 5,
@@ -21,34 +48,7 @@
       "level": 47,
       "money": 0,
       "name": "Goblin Engineering",
-      "popularity": 50,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 30,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 420
-    },
-    {
-      "category": -201,
-      "category2": 5,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 3637,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 47,
-      "money": 0,
-      "name": "Gnome Engineering",
-      "popularity": 47,
+      "popularity": 145,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 30,
@@ -80,7 +80,7 @@
       "level": 47,
       "money": 0,
       "name": "Show Your Work",
-      "popularity": 42,
+      "popularity": 129,
       "reprewards": [
         [
           550,
@@ -106,17 +106,17 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 3634,
+      "id": 3637,
       "itemchoices": [],
       "itemrewards": [],
       "level": 47,
       "money": 0,
       "name": "Gnome Engineering",
-      "popularity": 42,
+      "popularity": 118,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 30,
-      "side": 1,
+      "side": 2,
       "titlereward": 0,
       "type": 0,
       "xp": 420
@@ -144,7 +144,7 @@
       "level": 37,
       "money": 0,
       "name": "Flash Bomb Recipe",
-      "popularity": 41,
+      "popularity": 94,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 30,
@@ -152,247 +152,6 @@
       "titlereward": 0,
       "type": 0,
       "xp": 0
-    },
-    {
-      "category": -201,
-      "category2": 5,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 3645,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          10790,
-          1
-        ]
-      ],
-      "level": 47,
-      "money": -20000,
-      "name": "Membership Card Renewal",
-      "popularity": 41,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 30,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 0
-    },
-    {
-      "category": -201,
-      "category2": 5,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 3646,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          10791,
-          1
-        ]
-      ],
-      "level": 47,
-      "money": -20000,
-      "name": "Membership Card Renewal",
-      "popularity": 38,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 30,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 0
-    },
-    {
-      "category": -201,
-      "category2": 5,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 3635,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 47,
-      "money": 0,
-      "name": "Gnome Engineering",
-      "popularity": 35,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 30,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 420
-    },
-    {
-      "category": -201,
-      "category2": 5,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 3632,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 47,
-      "money": 0,
-      "name": "Gnome Engineering",
-      "popularity": 32,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 30,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 420
-    },
-    {
-      "category": -201,
-      "category2": 5,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 3633,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 47,
-      "money": 0,
-      "name": "Goblin Engineering",
-      "popularity": 31,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 30,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 420
-    },
-    {
-      "category": -201,
-      "category2": 5,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 3641,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          10790,
-          1
-        ]
-      ],
-      "level": 47,
-      "money": 0,
-      "name": "Show Your Work",
-      "popularity": 31,
-      "reprewards": [
-        [
-          551,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 30,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 3150
-    },
-    {
-      "category": -201,
-      "category2": 5,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 3644,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          10791,
-          1
-        ]
-      ],
-      "level": 47,
-      "money": -20000,
-      "name": "Membership Card Renewal",
-      "popularity": 31,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 30,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 0
-    },
-    {
-      "category": -201,
-      "category2": 5,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 3638,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 47,
-      "money": 0,
-      "name": "The Pledge of Secrecy",
-      "popularity": 30,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 30,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 420
     },
     {
       "category": -201,
@@ -417,7 +176,7 @@
       "level": 47,
       "money": 0,
       "name": "Show Your Work",
-      "popularity": 29,
+      "popularity": 94,
       "reprewards": [
         [
           551,
@@ -449,11 +208,156 @@
       "level": 47,
       "money": 0,
       "name": "Goblin Engineering",
-      "popularity": 28,
+      "popularity": 86,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 30,
       "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 420
+    },
+    {
+      "category": -201,
+      "category2": 5,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 3638,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 47,
+      "money": 0,
+      "name": "The Pledge of Secrecy",
+      "popularity": 85,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 30,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 420
+    },
+    {
+      "category": -201,
+      "category2": 5,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 3632,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 47,
+      "money": 0,
+      "name": "Gnome Engineering",
+      "popularity": 82,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 30,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 420
+    },
+    {
+      "category": -201,
+      "category2": 5,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 3641,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          10790,
+          1
+        ]
+      ],
+      "level": 47,
+      "money": 0,
+      "name": "Show Your Work",
+      "popularity": 81,
+      "reprewards": [
+        [
+          551,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 30,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 3150
+    },
+    {
+      "category": -201,
+      "category2": 5,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 3630,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 47,
+      "money": 0,
+      "name": "Gnome Engineering",
+      "popularity": 78,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 30,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 420
+    },
+    {
+      "category": -201,
+      "category2": 5,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 3635,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 47,
+      "money": 0,
+      "name": "Gnome Engineering",
+      "popularity": 75,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 30,
+      "side": 2,
       "titlereward": 0,
       "type": 0,
       "xp": 420
@@ -476,7 +380,7 @@
       "level": 47,
       "money": 0,
       "name": "The Pledge of Secrecy",
-      "popularity": 28,
+      "popularity": 75,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 30,
@@ -497,13 +401,13 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 3630,
+      "id": 3634,
       "itemchoices": [],
       "itemrewards": [],
       "level": 47,
       "money": 0,
       "name": "Gnome Engineering",
-      "popularity": 27,
+      "popularity": 70,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 30,
@@ -530,34 +434,7 @@
       "level": 47,
       "money": 0,
       "name": "The Pledge of Secrecy",
-      "popularity": 25,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 30,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 420
-    },
-    {
-      "category": -201,
-      "category2": 5,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 4181,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 47,
-      "money": 0,
-      "name": "Goblin Engineering",
-      "popularity": 23,
+      "popularity": 68,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 30,
@@ -589,11 +466,134 @@
       "level": 47,
       "money": -20000,
       "name": "Membership Card Renewal",
-      "popularity": 21,
+      "popularity": 59,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 30,
       "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 0
+    },
+    {
+      "category": -201,
+      "category2": 5,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 4181,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 47,
+      "money": 0,
+      "name": "Goblin Engineering",
+      "popularity": 59,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 30,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 420
+    },
+    {
+      "category": -201,
+      "category2": 5,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 3644,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          10791,
+          1
+        ]
+      ],
+      "level": 47,
+      "money": -20000,
+      "name": "Membership Card Renewal",
+      "popularity": 57,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 30,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 0
+    },
+    {
+      "category": -201,
+      "category2": 5,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 3646,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          10791,
+          1
+        ]
+      ],
+      "level": 47,
+      "money": -20000,
+      "name": "Membership Card Renewal",
+      "popularity": 56,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 30,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 0
+    },
+    {
+      "category": -201,
+      "category2": 5,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 3645,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          10790,
+          1
+        ]
+      ],
+      "level": 47,
+      "money": -20000,
+      "name": "Membership Card Renewal",
+      "popularity": 51,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 30,
+      "side": 3,
       "titlereward": 0,
       "type": 0,
       "xp": 0

@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-25T06:59:44+00:00",
+  "fetchedAt": "2026-10-17T04:02:58+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +12,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 11[/li][li]Requires level 1[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=4092/lariia]Lariia[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=7999/tyrande-whisperwind]Tyrande Whisperwind[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]1[/color][small] &nbsp;[/small][color=r1]7[/color][small] &nbsp;[/small][color=r2]9[/color][small] &nbsp;[/small][color=r3]14[/color][small] &nbsp;[/small][color=r4]17[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 11[/li][li]Requires level 1[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Race: [race=4][/li][li][icon name=quest-start]Start: [url=/forever/npc=4092/lariia]Lariia[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=7999/tyrande-whisperwind]Tyrande Whisperwind[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]1[/color][small] &nbsp;[/small][color=r1]7[/color][small] &nbsp;[/small][color=r2]9[/color][small] &nbsp;[/small][color=r3]14[/color][small] &nbsp;[/small][color=r4]17[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -22,24 +22,16 @@
             {
               "coord": [
                 40.2,
-                88.4
+                88.2
               ],
               "coords": [
-                [
-                  39.4,
-                  88.4
-                ],
-                [
-                  39.4,
-                  88.8
-                ],
                 [
                   40,
                   87.4
                 ],
                 [
                   40.2,
-                  88.4
+                  88.2
                 ],
                 [
                   40.2,
@@ -127,14 +119,16 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 98065,
-  "races": [],
+  "races": [
+    4
+  ],
   "startPins": [
     {
       "npcId": 4092,
       "npcName": "Lariia",
-      "zoneId": 1657,
       "x": 40.2,
-      "y": 88.4,
+      "y": 88.2,
+      "zoneId": 1657,
       "zoneName": "Darnassus"
     }
   ]

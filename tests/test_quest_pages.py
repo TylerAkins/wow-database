@@ -34,6 +34,7 @@ from quest_db.parse_quest import (
     parse_quest_detail,
     quest_ids_from_markup,
 )
+from quest_db.sync import sync_zone_starters
 
 FIXTURES = ROOT / "tests" / "fixtures" / "quest-pages"
 
@@ -143,6 +144,28 @@ class IngestTests(unittest.TestCase):
             self.assertGreater(len(index), 100)
         finally:
             shutil.rmtree(tmp)
+
+    def test_zone_starter_sync_updates_object_index_manifest_count(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            root = Path(temp_dir)
+            (root / "quest_index.json").write_text("{}", encoding="utf-8")
+            (root / "object_index.json").write_text(
+                json.dumps({"1": {"id": 1}}), encoding="utf-8"
+            )
+            (root / "manifest.json").write_text(
+                json.dumps({"sources": {}, "stats": {"objectIndexCount": 1}}), encoding="utf-8"
+            )
+
+            class Client:
+                def get_html(self, url: str, *, force: bool = False) -> str:
+                    return "new Listview({template:'item',id:'starts-quest',data:[{" \
+                        '"id":4926,"name":"Keg","sourcemore":[{"t":2,"ti":3238,"n":"Empty Keg","z":17}]}]});'
+
+            result = sync_zone_starters(root, Client(), zone_ids=[17])
+
+            self.assertEqual(2, result["stats"]["objectIndexCount"])
+            index = json.loads((root / "object_index.json").read_text(encoding="utf-8"))
+            self.assertIn("3238", index)
 
 
 class HttpClientTests(unittest.TestCase):

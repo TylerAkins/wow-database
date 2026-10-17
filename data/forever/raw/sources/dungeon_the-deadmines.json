@@ -1,8 +1,40 @@
 {
-  "fetchedAt": "2026-09-24T23:19:11+00:00",
+  "fetchedAt": "2026-10-17T11:26:20+00:00",
   "kind": "dungeon",
-  "questCount": 5,
+  "questCount": 6,
   "quests": [
+    {
+      "category": 1581,
+      "category2": 2,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 92753,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 18,
+      "money": 1000,
+      "name": "Destruction in Deadmines",
+      "popularity": 1446,
+      "reprewards": [
+        [
+          72,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 9,
+      "side": 1,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 1350
+    },
     {
       "category": 1581,
       "category2": 2,
@@ -34,7 +66,7 @@
       "level": 22,
       "money": 0,
       "name": "The Defias Brotherhood",
-      "popularity": 2580,
+      "popularity": 1350,
       "reprewards": [
         [
           72,
@@ -80,13 +112,17 @@
         [
           6094,
           1
+        ],
+        [
+          270005,
+          1
         ]
       ],
       "itemrewards": [],
       "level": 17,
       "money": 0,
       "name": "Red Silk Bandanas",
-      "popularity": 2083,
+      "popularity": 1066,
       "reprewards": [
         [
           72,
@@ -99,6 +135,62 @@
       "titlereward": 0,
       "type": 81,
       "xp": 1250
+    },
+    {
+      "category": 1581,
+      "category2": 2,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "rewards_changed",
+          "renamed"
+        ],
+        "lines": [
+          "Renamed from Oh Brother. . .",
+          "Rewards: adds Choice of Miner's Revenge, Choice of Miner's Workboots, Choice of Miner's Workgloves",
+          "Rewards: no longer Miner's Revenge"
+        ],
+        "notShown": [
+          "Rewards: adds Choice of Miner's Revenge, Choice of Miner's Workboots, Choice of Miner's Workgloves",
+          "Rewards: no longer Miner's Revenge"
+        ],
+        "status": "updated"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 167,
+      "itemchoices": [
+        [
+          1893,
+          1
+        ],
+        [
+          270012,
+          1
+        ],
+        [
+          270013,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 20,
+      "money": 0,
+      "name": "Oh Brother...",
+      "popularity": 699,
+      "reprewards": [
+        [
+          47,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 15,
+      "side": 1,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 1550
     },
     {
       "category": 1581,
@@ -128,13 +220,21 @@
         [
           7607,
           1
+        ],
+        [
+          270015,
+          1
+        ],
+        [
+          270016,
+          1
         ]
       ],
       "itemrewards": [],
       "level": 20,
       "money": 0,
       "name": "Underground Assault",
-      "popularity": 1761,
+      "popularity": 596,
       "reprewards": [
         [
           72,
@@ -142,54 +242,6 @@
         ],
         [
           54,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 15,
-      "side": 1,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 1550
-    },
-    {
-      "category": 1581,
-      "category2": 2,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [
-          "rewards_changed",
-          "renamed"
-        ],
-        "lines": [
-          "Renamed from Oh Brother. . .",
-          "Rewards: adds Choice of Miner's Revenge, Choice of Miner's Workboots, Choice of Miner's Workgloves",
-          "Rewards: no longer Miner's Revenge"
-        ],
-        "notShown": [
-          "Rewards: adds Choice of Miner's Revenge, Choice of Miner's Workboots, Choice of Miner's Workgloves",
-          "Rewards: no longer Miner's Revenge"
-        ],
-        "status": "updated"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 167,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          1893,
-          1
-        ]
-      ],
-      "level": 20,
-      "money": 0,
-      "name": "Oh Brother. . .",
-      "popularity": 1447,
-      "reprewards": [
-        [
-          47,
           100
         ]
       ],
@@ -228,13 +280,17 @@
         [
           2036,
           1
+        ],
+        [
+          270007,
+          1
         ]
       ],
       "itemrewards": [],
       "level": 18,
       "money": 0,
       "name": "Collecting Memories",
-      "popularity": 1366,
+      "popularity": 574,
       "reprewards": [
         [
           47,

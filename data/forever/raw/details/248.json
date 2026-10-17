@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-24T23:12:42+00:00",
+  "fetchedAt": "2026-10-16T20:05:35+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -26,6 +26,10 @@
               ],
               "coords": [
                 [
+                  79.2,
+                  46.6
+                ],
+                [
                   84.3,
                   46.9
                 ],
@@ -45,6 +49,10 @@
                 49.7
               ],
               "coords": [
+                [
+                  58.2,
+                  49.6
+                ],
                 [
                   63.2,
                   49.7
@@ -72,6 +80,16 @@
   },
   "minLevel": 20,
   "objectSpawns": [
+    {
+      "entityId": 31,
+      "entityKind": "object",
+      "entityName": "Old Lion Statue",
+      "uiMapId": 1433,
+      "uiMapName": "Redridge Mountains",
+      "x": 79.2,
+      "y": 46.6,
+      "zoneId": 44
+    },
     {
       "entityId": 31,
       "entityKind": "object",

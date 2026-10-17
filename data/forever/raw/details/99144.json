@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-25T07:09:19+00:00",
+  "fetchedAt": "2026-10-17T04:12:34+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +12,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 7[/li][li]Requires level 5[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=275954/bareth-dawnstone]Bareth Dawnstone[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=246152/shari-stilwell]Shari Stilwell[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]5[/color][small] &nbsp;[/small][color=r3]10[/color][small] &nbsp;[/small][color=r4]13[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 7[/li][li]Requires level 5[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Races: [race=2], [race=5][/li][li][icon name=quest-start]Start: [url=/forever/npc=275954/bareth-dawnstone]Bareth Dawnstone[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=246152/shari-stilwell]Shari Stilwell[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]5[/color][small] &nbsp;[/small][color=r3]10[/color][small] &nbsp;[/small][color=r4]13[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 1,
     "objectives": {
@@ -30,44 +30,40 @@
                   46.2
                 ],
                 [
-                  32.2,
-                  47.2
+                  32.1,
+                  46.8
                 ],
                 [
                   32.4,
                   47.6
                 ],
                 [
-                  33.2,
-                  47.6
+                  33.3,
+                  47.7
                 ],
                 [
-                  33.8,
-                  47.8
-                ],
-                [
-                  34.6,
+                  34.1,
                   48
+                ],
+                [
+                  35.4,
+                  48.2
                 ],
                 [
                   36.2,
                   48.2
                 ],
                 [
-                  37,
-                  48.2
+                  37.4,
+                  48.1
                 ],
                 [
                   37.8,
                   48.2
                 ],
                 [
-                  38.6,
-                  48.4
-                ],
-                [
                   39,
-                  48.8
+                  48.6
                 ]
               ],
               "id": 275954,
@@ -123,14 +119,17 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 99144,
-  "races": [],
+  "races": [
+    2,
+    5
+  ],
   "startPins": [
     {
       "npcId": 275954,
       "npcName": "Bareth Dawnstone",
-      "zoneId": 85,
       "x": 32.0,
       "y": 46.2,
+      "zoneId": 85,
       "zoneName": "Tirisfal Glades"
     }
   ]

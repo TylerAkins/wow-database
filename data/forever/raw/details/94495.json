@@ -3,7 +3,7 @@
     7
   ],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-25T06:33:23+00:00",
+  "fetchedAt": "2026-10-17T03:36:22+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -14,7 +14,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 22[/li][li]Requires level 20[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Class: [class=7][/li][li][icon name=quest-start]Start: [url=/forever/npc=258043/norric-lochthane]Norric Lochthane[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=258203/hervdana-saegrund]Hervdana Saegrund[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]20[/color][small] &nbsp;[/small][color=r3]25[/color][small] &nbsp;[/small][color=r4]29[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 22[/li][li]Requires level 20[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=3], [race=7][/li][li]Class: [class=7][/li][li][icon name=quest-start]Start: [url=/forever/npc=258043/norric-lochthane]Norric Lochthane[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=258203/hervdana-saegrund]Hervdana Saegrund[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]20[/color][small] &nbsp;[/small][color=r3]25[/color][small] &nbsp;[/small][color=r4]29[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -66,7 +66,7 @@
               "name": "Norric Lochthane",
               "point": "start",
               "reactalliance": 1,
-              "reacthorde": 0,
+              "reacthorde": -1,
               "type": 1
             }
           ]
@@ -97,14 +97,17 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 94495,
-  "races": [],
+  "races": [
+    3,
+    7
+  ],
   "startPins": [
     {
       "npcId": 258043,
       "npcName": "Norric Lochthane",
-      "zoneId": 38,
       "x": 41.8,
       "y": 19.0,
+      "zoneId": 38,
       "zoneName": "Loch Modan"
     }
   ]

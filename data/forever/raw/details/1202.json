@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-25T00:37:42+00:00",
+  "fetchedAt": "2026-10-16T21:40:34+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -541,6 +541,32 @@
         ],
         "mappable": 1,
         "zone": "Dustwallow Marsh"
+      },
+      "40": {
+        "levels": [
+          [
+            {
+              "coord": [
+                26,
+                47.8
+              ],
+              "coords": [
+                [
+                  26,
+                  47.8
+                ]
+              ],
+              "id": 20925,
+              "item": "Captain's Documents",
+              "name": "Captain's Footlocker",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Westfall"
       }
     },
     "parent": "fweiuasf",
@@ -549,6 +575,10 @@
       [
         15,
         3
+      ],
+      [
+        40,
+        1
       ]
     ]
   },
@@ -566,9 +596,9 @@
     {
       "npcId": 4791,
       "npcName": "Nazeer Bloodpike",
-      "zoneId": 15,
       "x": 35.2,
       "y": 30.6,
+      "zoneId": 15,
       "zoneName": "Dustwallow Marsh"
     }
   ]

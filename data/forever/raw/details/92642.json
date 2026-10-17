@@ -1,6 +1,6 @@
 {
   "classes": [],
-  "fetchedAt": "2026-09-25T06:06:45+00:00",
+  "fetchedAt": "2026-10-17T03:09:33+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -11,7 +11,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 11[/li][li]Requires level 6[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=252378/yorana-windyreed]Yorana Windyreed[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=252378/yorana-windyreed]Yorana Windyreed[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]6[/color][small] &nbsp;[/small][color=r1]7[/color][small] &nbsp;[/small][color=r2]9[/color][small] &nbsp;[/small][color=r3]14[/color][small] &nbsp;[/small][color=r4]17[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 11[/li][li]Requires level 6[/li][li]Side: Both[/li][li]Race: [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=252378/yorana-windyreed]Yorana Windyreed[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=252378/yorana-windyreed]Yorana Windyreed[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]6[/color][small] &nbsp;[/small][color=r1]7[/color][small] &nbsp;[/small][color=r2]9[/color][small] &nbsp;[/small][color=r3]14[/color][small] &nbsp;[/small][color=r4]17[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -24,6 +24,10 @@
                 67
               ],
               "coords": [
+                [
+                  69.4,
+                  67.2
+                ],
                 [
                   69.6,
                   67
@@ -43,6 +47,10 @@
               ],
               "coords": [
                 [
+                  69.4,
+                  67.2
+                ],
+                [
                   69.6,
                   67
                 ]
@@ -56,21 +64,25 @@
             },
             {
               "coord": [
-                65.8,
-                65.4
+                65.4,
+                65.6
               ],
               "coords": [
                 [
-                  65,
-                  66.6
+                  63.7,
+                  68.7
                 ],
                 [
-                  65.2,
-                  65.4
+                  65,
+                  66.7
+                ],
+                [
+                  65.3,
+                  65.2
                 ],
                 [
                   65.4,
-                  65.8
+                  65.6
                 ],
                 [
                   65.4,
@@ -81,16 +93,16 @@
                   68.8
                 ],
                 [
-                  65.4,
-                  69.6
-                ],
-                [
-                  65.6,
+                  65.5,
                   65.6
                 ],
                 [
-                  65.6,
-                  68.6
+                  65.5,
+                  68.1
+                ],
+                [
+                  65.5,
+                  69.3
                 ],
                 [
                   65.8,
@@ -101,20 +113,12 @@
                   65.4
                 ],
                 [
-                  65.8,
-                  67
-                ],
-                [
-                  66.4,
-                  67.6
+                  66.1,
+                  67.3
                 ],
                 [
                   66.6,
-                  67.6
-                ],
-                [
-                  67,
-                  67
+                  68.3
                 ]
               ],
               "id": 254596,
@@ -128,76 +132,40 @@
             {
               "coord": [
                 65.2,
-                65.8
+                66
               ],
               "coords": [
                 [
-                  64.4,
-                  66.2
+                  64.8,
+                  66.5
                 ],
                 [
                   65,
-                  65.4
-                ],
-                [
-                  65,
-                  66.6
-                ],
-                [
-                  65,
-                  67.6
+                  67.9
                 ],
                 [
                   65.2,
-                  65.8
+                  65.3
                 ],
                 [
-                  65.4,
-                  64.4
-                ],
-                [
-                  65.4,
-                  69.4
+                  65.2,
+                  66
                 ],
                 [
                   65.4,
                   69.6
                 ],
                 [
-                  65.6,
-                  64.4
-                ],
-                [
-                  65.6,
-                  64.6
-                ],
-                [
-                  65.6,
-                  66.4
-                ],
-                [
-                  65.6,
-                  69.6
-                ],
-                [
-                  66,
-                  67.2
+                  65.5,
+                  65.6
                 ],
                 [
                   66.2,
-                  67.8
+                  67.2
                 ],
                 [
-                  66.6,
-                  67.8
-                ],
-                [
-                  66.8,
-                  67.4
-                ],
-                [
-                  68.6,
-                  67.4
+                  66.9,
+                  67.7
                 ]
               ],
               "id": 270201,
@@ -232,14 +200,16 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 92642,
-  "races": [],
+  "races": [
+    95
+  ],
   "startPins": [
     {
       "npcId": 252378,
       "npcName": "Yorana Windyreed",
-      "zoneId": 16593,
       "x": 69.6,
       "y": 67.0,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

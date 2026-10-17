@@ -1,6 +1,6 @@
 {
   "classes": [],
-  "fetchedAt": "2026-09-25T06:07:40+00:00",
+  "fetchedAt": "2026-10-17T03:10:29+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -11,7 +11,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 9[/li][li]Requires level 5[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=252800/aamelia-windfield]Aamelia Windfield[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=252800/aamelia-windfield]Aamelia Windfield[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]5[/color][small] &nbsp;[/small][color=r2]7[/color][small] &nbsp;[/small][color=r3]12[/color][small] &nbsp;[/small][color=r4]15[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 9[/li][li]Requires level 5[/li][li]Side: Both[/li][li]Race: [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=252800/aamelia-windfield]Aamelia Windfield[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=252800/aamelia-windfield]Aamelia Windfield[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]5[/color][small] &nbsp;[/small][color=r2]7[/color][small] &nbsp;[/small][color=r3]12[/color][small] &nbsp;[/small][color=r4]15[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -104,18 +104,10 @@
             },
             {
               "coord": [
-                44,
-                74.2
+                51.8,
+                76.4
               ],
               "coords": [
-                [
-                  43.4,
-                  74.4
-                ],
-                [
-                  43.4,
-                  74.8
-                ],
                 [
                   43.8,
                   74.6
@@ -125,12 +117,8 @@
                   74.2
                 ],
                 [
-                  44.8,
-                  73.4
-                ],
-                [
-                  44.8,
-                  73.6
+                  44.6,
+                  74
                 ],
                 [
                   44.8,
@@ -142,31 +130,23 @@
                 ],
                 [
                   45,
-                  76.4
+                  76.2
+                ],
+                [
+                  45,
+                  77.2
                 ],
                 [
                   45.2,
-                  76.8
+                  73.2
+                ],
+                [
+                  45.3,
+                  78.9
                 ],
                 [
                   45.4,
-                  78
-                ],
-                [
-                  45.4,
-                  78.8
-                ],
-                [
-                  45.6,
-                  72.4
-                ],
-                [
-                  45.6,
-                  77.6
-                ],
-                [
-                  45.6,
-                  79
+                  78.1
                 ],
                 [
                   45.8,
@@ -177,12 +157,12 @@
                   77.4
                 ],
                 [
-                  47.2,
-                  74.4
+                  46,
+                  77.5
                 ],
                 [
                   47.4,
-                  75
+                  74.9
                 ],
                 [
                   47.4,
@@ -190,95 +170,71 @@
                 ],
                 [
                   47.6,
-                  75.4
+                  74.8
                 ],
                 [
-                  47.6,
-                  75.6
+                  47.9,
+                  75.7
                 ],
                 [
                   48.2,
+                  73.9
+                ],
+                [
+                  48.7,
                   73.6
                 ],
                 [
-                  48.8,
-                  73.6
-                ],
-                [
-                  49,
-                  73.4
-                ],
-                [
-                  50,
-                  76.4
-                ],
-                [
-                  50.2,
+                  49.8,
                   76.8
                 ],
                 [
-                  50.4,
-                  71.4
-                ],
-                [
-                  50.4,
-                  72.2
-                ],
-                [
-                  50.4,
-                  72.6
-                ],
-                [
                   50.6,
-                  72
-                ],
-                [
-                  50.8,
-                  71
-                ],
-                [
-                  50.8,
-                  72.8
+                  71.6
                 ],
                 [
                   51,
+                  71.2
+                ],
+                [
+                  51.2,
                   74.4
                 ],
                 [
-                  51,
-                  74.6
+                  51.2,
+                  74.5
                 ],
                 [
-                  51.4,
-                  75.8
+                  51.2,
+                  76.4
                 ],
                 [
-                  51.6,
-                  75.4
+                  51.5,
+                  76.8
+                ],
+                [
+                  51.7,
+                  75.2
                 ],
                 [
                   51.8,
-                  75.6
-                ],
-                [
-                  51.8,
-                  76.6
+                  76.4
                 ],
                 [
                   52.2,
                   73.8
                 ],
                 [
-                  52.4,
+                  52.3,
+                  73.1
+                ],
+                [
+                  52.5,
                   73.2
                 ],
                 [
-                  52.6,
-                  73.4
-                ],
-                [
-                  52.6,
-                  74.4
+                  52.5,
+                  74
                 ]
               ],
               "id": 252820,
@@ -314,14 +270,16 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 92685,
-  "races": [],
+  "races": [
+    95
+  ],
   "startPins": [
     {
       "npcId": 252800,
       "npcName": "Aamelia Windfield",
-      "zoneId": 16593,
       "x": 46.6,
       "y": 81.8,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

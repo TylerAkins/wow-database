@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-25T07:10:05+00:00",
+  "fetchedAt": "2026-10-17T04:13:22+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +12,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 8[/li][li]Requires level 5[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1253/father-gavin]Father Gavin[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1253/father-gavin]Father Gavin[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]5[/color][small] &nbsp;[/small][color=r2]6[/color][small] &nbsp;[/small][color=r3]11[/color][small] &nbsp;[/small][color=r4]14[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 8[/li][li]Requires level 5[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=3], [race=4], [br][race=7], [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=1253/father-gavin]Father Gavin[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1253/father-gavin]Father Gavin[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]5[/color][small] &nbsp;[/small][color=r2]6[/color][small] &nbsp;[/small][color=r3]11[/color][small] &nbsp;[/small][color=r4]14[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -37,7 +37,7 @@
               "id": 1253,
               "name": "Father Gavin",
               "point": "start",
-              "reactalliance": 1,
+              "reactalliance": 0,
               "reacthorde": 0,
               "type": 1
             },
@@ -59,47 +59,31 @@
               "id": 1253,
               "name": "Father Gavin",
               "point": "end",
-              "reactalliance": 1,
+              "reactalliance": 0,
               "reacthorde": 0,
               "type": 1
             },
             {
               "coord": [
-                57,
-                45.2
+                54.2,
+                45.3
               ],
               "coords": [
-                [
-                  49.4,
-                  45
-                ],
-                [
-                  51.6,
-                  42.2
-                ],
                 [
                   52,
                   44
                 ],
                 [
-                  52.2,
-                  43.4
+                  52.6,
+                  44
                 ],
                 [
-                  52.4,
-                  44.8
+                  52.9,
+                  44.5
                 ],
                 [
-                  53.2,
-                  43.2
-                ],
-                [
-                  53.2,
-                  43.8
-                ],
-                [
-                  53.2,
-                  44.8
+                  53,
+                  43
                 ],
                 [
                   53.6,
@@ -107,103 +91,63 @@
                 ],
                 [
                   53.6,
-                  47.4
-                ],
-                [
-                  53.8,
-                  44.4
-                ],
-                [
-                  53.8,
-                  44.6
-                ],
-                [
-                  53.8,
-                  47.8
+                  44.2
                 ],
                 [
                   54,
-                  45.8
+                  45.6
                 ],
                 [
-                  54.8,
-                  44.6
+                  54.2,
+                  45.3
                 ],
                 [
-                  55.2,
-                  43.4
-                ],
-                [
-                  55.2,
-                  45.8
-                ],
-                [
-                  55.2,
-                  46.6
+                  55,
+                  45.6
                 ],
                 [
                   55.4,
                   44.4
                 ],
                 [
-                  55.6,
-                  44.6
-                ],
-                [
-                  55.8,
-                  44.2
+                  55.4,
+                  44.5
                 ],
                 [
                   56,
                   43.4
                 ],
                 [
-                  56.2,
-                  46.2
+                  56.1,
+                  44.8
                 ],
                 [
                   56.2,
-                  46.6
+                  46
                 ],
                 [
-                  56.4,
-                  47.6
+                  56.3,
+                  43.9
                 ],
                 [
-                  56.4,
-                  49.4
+                  56.9,
+                  45.8
                 ],
                 [
-                  56.6,
-                  46.6
-                ],
-                [
-                  56.8,
+                  57,
                   44.4
                 ],
                 [
-                  57,
-                  45.2
-                ],
-                [
-                  57,
-                  45.6
-                ],
-                [
-                  57,
-                  49.6
-                ],
-                [
-                  57.2,
-                  49
+                  57.1,
+                  44.9
                 ],
                 [
                   57.4,
                   43.4
                 ],
                 [
-                  57.4,
-                  47.8
+                  57.5,
+                  44.3
                 ],
                 [
                   57.6,
@@ -212,14 +156,6 @@
                 [
                   57.6,
                   44.8
-                ],
-                [
-                  57.6,
-                  45.8
-                ],
-                [
-                  57.8,
-                  42.2
                 ]
               ],
               "id": 276003,
@@ -254,14 +190,19 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 99160,
-  "races": [],
+  "races": [
+    3,
+    4,
+    7,
+    95
+  ],
   "startPins": [
     {
       "npcId": 1253,
       "npcName": "Father Gavin",
-      "zoneId": 1,
       "x": 57.6,
       "y": 44.8,
+      "zoneId": 1,
       "zoneName": "Dun Morogh"
     }
   ]

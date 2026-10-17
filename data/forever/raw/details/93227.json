@@ -1,0 +1,97 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-10-17T12:07:15+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 45[/li][li]Requires level 30[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=5396/captain-pentigast]Captain Pentigast[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=253140/molkar]Molkar[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]30[/color][small] &nbsp;[/small][color=r1]41[/color][small] &nbsp;[/small][color=r2]43[/color][small] &nbsp;[/small][color=r3]48[/color][small] &nbsp;[/small][color=r4]55[/color][/li][li]Added in patch [acronym=\"1.60.1.70205\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "405": {
+        "levels": [
+          [
+            {
+              "coord": [
+                66.6,
+                11
+              ],
+              "coords": [
+                [
+                  66.4,
+                  10.8
+                ],
+                [
+                  66.6,
+                  11
+                ]
+              ],
+              "id": 5396,
+              "name": "Captain Pentigast",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                35.6,
+                92
+              ],
+              "coords": [
+                [
+                  35.6,
+                  92
+                ]
+              ],
+              "id": 253140,
+              "name": "Molkar",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Desolace"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        405,
+        2
+      ]
+    ]
+  },
+  "minLevel": 30,
+  "pageInfo": {
+    "name": "Buying Friendship: Gelkis",
+    "type": 5,
+    "typeId": 93227
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 93227,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 5396,
+      "npcName": "Captain Pentigast",
+      "x": 66.6,
+      "y": 11.0,
+      "zoneId": 405,
+      "zoneName": "Desolace"
+    }
+  ]
+}

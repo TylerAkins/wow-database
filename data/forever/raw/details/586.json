@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-24T23:19:37+00:00",
+  "fetchedAt": "2026-10-16T20:39:04+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -16,6 +16,102 @@
   "mapper": {
     "missing": 0,
     "objectives": {
+      "14": {
+        "levels": [
+          [
+            {
+              "coord": [
+                51.1,
+                42.4
+              ],
+              "coords": [
+                [
+                  51.1,
+                  42.4
+                ],
+                [
+                  51.1,
+                  42.5
+                ],
+                [
+                  67.5,
+                  87.9
+                ]
+              ],
+              "id": 2076,
+              "name": "Bubbling Cauldron",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                51.1,
+                42.4
+              ],
+              "coords": [
+                [
+                  51.1,
+                  42.4
+                ],
+                [
+                  51.1,
+                  42.5
+                ],
+                [
+                  67.5,
+                  87.9
+                ]
+              ],
+              "id": 2076,
+              "name": "Bubbling Cauldron",
+              "point": "end",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Durotar"
+      },
+      "215": {
+        "levels": [
+          [
+            {
+              "coord": [
+                60.6,
+                78.3
+              ],
+              "coords": [
+                [
+                  60.6,
+                  78.3
+                ]
+              ],
+              "id": 2076,
+              "name": "Bubbling Cauldron",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                60.6,
+                78.3
+              ],
+              "coords": [
+                [
+                  60.6,
+                  78.3
+                ]
+              ],
+              "id": 2076,
+              "name": "Bubbling Cauldron",
+              "point": "end",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Mulgore"
+      },
       "33": {
         "levels": [
           [
@@ -356,14 +452,138 @@
         ],
         "mappable": 1,
         "zone": "Stranglethorn Vale"
+      },
+      "38": {
+        "levels": [
+          [
+            {
+              "coord": [
+                26.5,
+                43.5
+              ],
+              "coords": [
+                [
+                  25.8,
+                  43.2
+                ],
+                [
+                  26.2,
+                  42.4
+                ],
+                [
+                  26.5,
+                  42.8
+                ],
+                [
+                  26.5,
+                  43.5
+                ],
+                [
+                  26.6,
+                  42.2
+                ],
+                [
+                  27,
+                  45.3
+                ],
+                [
+                  35.9,
+                  83.3
+                ],
+                [
+                  36,
+                  82.3
+                ],
+                [
+                  36,
+                  84
+                ],
+                [
+                  36.1,
+                  85.3
+                ]
+              ],
+              "id": 2076,
+              "name": "Bubbling Cauldron",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                26.5,
+                43.5
+              ],
+              "coords": [
+                [
+                  25.8,
+                  43.2
+                ],
+                [
+                  26.2,
+                  42.4
+                ],
+                [
+                  26.5,
+                  42.8
+                ],
+                [
+                  26.5,
+                  43.5
+                ],
+                [
+                  26.6,
+                  42.2
+                ],
+                [
+                  27,
+                  45.3
+                ],
+                [
+                  35.9,
+                  83.3
+                ],
+                [
+                  36,
+                  82.3
+                ],
+                [
+                  36,
+                  84
+                ],
+                [
+                  36.1,
+                  85.3
+                ]
+              ],
+              "id": 2076,
+              "name": "Bubbling Cauldron",
+              "point": "end",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Loch Modan"
       }
     },
     "parent": "fweiuasf",
     "zoneparent": "lksjdowlha",
     "zones": [
       [
+        215,
+        1
+      ],
+      [
         33,
         5
+      ],
+      [
+        14,
+        1
+      ],
+      [
+        38,
+        1
       ]
     ]
   },
@@ -395,36 +615,6 @@
       "entityName": "Bubbling Cauldron",
       "uiMapId": 1411,
       "uiMapName": "Durotar",
-      "x": 66.7,
-      "y": 87.6,
-      "zoneId": 14
-    },
-    {
-      "entityId": 2076,
-      "entityKind": "object",
-      "entityName": "Bubbling Cauldron",
-      "uiMapId": 1411,
-      "uiMapName": "Durotar",
-      "x": 67.4,
-      "y": 86.8,
-      "zoneId": 14
-    },
-    {
-      "entityId": 2076,
-      "entityKind": "object",
-      "entityName": "Bubbling Cauldron",
-      "uiMapId": 1411,
-      "uiMapName": "Durotar",
-      "x": 67.5,
-      "y": 87.4,
-      "zoneId": 14
-    },
-    {
-      "entityId": 2076,
-      "entityKind": "object",
-      "entityName": "Bubbling Cauldron",
-      "uiMapId": 1411,
-      "uiMapName": "Durotar",
       "x": 67.5,
       "y": 87.9,
       "zoneId": 14
@@ -438,6 +628,116 @@
       "x": 32.2,
       "y": 27.7,
       "zoneId": 33
+    },
+    {
+      "entityId": 2076,
+      "entityKind": "object",
+      "entityName": "Bubbling Cauldron",
+      "uiMapId": 1432,
+      "uiMapName": "Loch Modan",
+      "x": 25.8,
+      "y": 43.2,
+      "zoneId": 38
+    },
+    {
+      "entityId": 2076,
+      "entityKind": "object",
+      "entityName": "Bubbling Cauldron",
+      "uiMapId": 1432,
+      "uiMapName": "Loch Modan",
+      "x": 26.2,
+      "y": 42.4,
+      "zoneId": 38
+    },
+    {
+      "entityId": 2076,
+      "entityKind": "object",
+      "entityName": "Bubbling Cauldron",
+      "uiMapId": 1432,
+      "uiMapName": "Loch Modan",
+      "x": 26.5,
+      "y": 42.8,
+      "zoneId": 38
+    },
+    {
+      "entityId": 2076,
+      "entityKind": "object",
+      "entityName": "Bubbling Cauldron",
+      "uiMapId": 1432,
+      "uiMapName": "Loch Modan",
+      "x": 26.5,
+      "y": 43.5,
+      "zoneId": 38
+    },
+    {
+      "entityId": 2076,
+      "entityKind": "object",
+      "entityName": "Bubbling Cauldron",
+      "uiMapId": 1432,
+      "uiMapName": "Loch Modan",
+      "x": 26.6,
+      "y": 42.2,
+      "zoneId": 38
+    },
+    {
+      "entityId": 2076,
+      "entityKind": "object",
+      "entityName": "Bubbling Cauldron",
+      "uiMapId": 1432,
+      "uiMapName": "Loch Modan",
+      "x": 27.0,
+      "y": 45.3,
+      "zoneId": 38
+    },
+    {
+      "entityId": 2076,
+      "entityKind": "object",
+      "entityName": "Bubbling Cauldron",
+      "uiMapId": 1432,
+      "uiMapName": "Loch Modan",
+      "x": 35.9,
+      "y": 83.3,
+      "zoneId": 38
+    },
+    {
+      "entityId": 2076,
+      "entityKind": "object",
+      "entityName": "Bubbling Cauldron",
+      "uiMapId": 1432,
+      "uiMapName": "Loch Modan",
+      "x": 36.0,
+      "y": 82.3,
+      "zoneId": 38
+    },
+    {
+      "entityId": 2076,
+      "entityKind": "object",
+      "entityName": "Bubbling Cauldron",
+      "uiMapId": 1432,
+      "uiMapName": "Loch Modan",
+      "x": 36.0,
+      "y": 84.0,
+      "zoneId": 38
+    },
+    {
+      "entityId": 2076,
+      "entityKind": "object",
+      "entityName": "Bubbling Cauldron",
+      "uiMapId": 1432,
+      "uiMapName": "Loch Modan",
+      "x": 36.1,
+      "y": 85.3,
+      "zoneId": 38
+    },
+    {
+      "entityId": 2076,
+      "entityKind": "object",
+      "entityName": "Bubbling Cauldron",
+      "uiMapId": 1412,
+      "uiMapName": "Mulgore",
+      "x": 60.6,
+      "y": 78.3,
+      "zoneId": 215
     }
   ],
   "pageInfo": {
@@ -453,10 +753,34 @@
     {
       "npcId": 2076,
       "npcName": "Bubbling Cauldron",
+      "x": 51.1,
+      "y": 42.4,
+      "zoneId": 14,
+      "zoneName": "Durotar"
+    },
+    {
+      "npcId": 2076,
+      "npcName": "Bubbling Cauldron",
       "x": 32.2,
       "y": 27.7,
       "zoneId": 33,
       "zoneName": "Stranglethorn Vale"
+    },
+    {
+      "npcId": 2076,
+      "npcName": "Bubbling Cauldron",
+      "x": 26.5,
+      "y": 43.5,
+      "zoneId": 38,
+      "zoneName": "Loch Modan"
+    },
+    {
+      "npcId": 2076,
+      "npcName": "Bubbling Cauldron",
+      "x": 60.6,
+      "y": 78.3,
+      "zoneId": 215,
+      "zoneName": "Mulgore"
     }
   ]
 }

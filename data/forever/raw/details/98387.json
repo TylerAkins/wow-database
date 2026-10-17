@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-25T07:03:35+00:00",
+  "fetchedAt": "2026-10-17T04:06:34+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +12,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 21[/li][li]Requires level 18[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=382/marshal-marris]Marshal Marris[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=382/marshal-marris]Marshal Marris[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]18[/color][small] &nbsp;[/small][color=r2]19[/color][small] &nbsp;[/small][color=r3]24[/color][small] &nbsp;[/small][color=r4]28[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 21[/li][li]Requires level 18[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=3], [race=4], [br][race=7], [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=382/marshal-marris]Marshal Marris[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=382/marshal-marris]Marshal Marris[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]18[/color][small] &nbsp;[/small][color=r2]19[/color][small] &nbsp;[/small][color=r3]24[/color][small] &nbsp;[/small][color=r4]28[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 2,
     "objectives": {
@@ -25,6 +25,10 @@
                 48.8
               ],
               "coords": [
+                [
+                  28.2,
+                  49
+                ],
                 [
                   33.4,
                   48.8
@@ -51,6 +55,10 @@
                 48.8
               ],
               "coords": [
+                [
+                  28.2,
+                  49
+                ],
                 [
                   33.4,
                   48.8
@@ -93,16 +101,24 @@
     "typeId": 98387
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    20,
+    95999
+  ],
   "questId": 98387,
-  "races": [],
+  "races": [
+    3,
+    4,
+    7,
+    95
+  ],
   "startPins": [
     {
       "npcId": 382,
       "npcName": "Marshal Marris",
-      "zoneId": 44,
       "x": 33.4,
       "y": 48.8,
+      "zoneId": 44,
       "zoneName": "Redridge Mountains"
     }
   ]

@@ -3,7 +3,7 @@
     2
   ],
   "faction": "Horde",
-  "fetchedAt": "2026-09-25T06:38:21+00:00",
+  "fetchedAt": "2026-10-17T03:41:04+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -14,7 +14,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 25[/li][li]Requires level 20[/li][li]Type: Elite[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Class: [class=2][/li][li][icon name=quest-start]Start: [url=/forever/npc=259649/ulric-frostveil]Ulric Frostveil[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=259649/ulric-frostveil]Ulric Frostveil[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]20[/color][small] &nbsp;[/small][color=r1]21[/color][small] &nbsp;[/small][color=r2]23[/color][small] &nbsp;[/small][color=r3]28[/color][small] &nbsp;[/small][color=r4]33[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 25[/li][li]Requires level 20[/li][li]Type: Elite[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Race: [race=5][/li][li]Class: [class=2][/li][li][icon name=quest-start]Start: [url=/forever/npc=259649/ulric-frostveil]Ulric Frostveil[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=259649/ulric-frostveil]Ulric Frostveil[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]20[/color][small] &nbsp;[/small][color=r1]21[/color][small] &nbsp;[/small][color=r2]23[/color][small] &nbsp;[/small][color=r3]28[/color][small] &nbsp;[/small][color=r4]33[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -30,13 +30,17 @@
                 [
                   11.8,
                   34.4
+                ],
+                [
+                  11.8,
+                  34.6
                 ]
               ],
               "id": 259649,
               "name": "Ulric Frostveil",
               "point": "start",
               "reactalliance": 0,
-              "reacthorde": 0,
+              "reacthorde": 1,
               "type": 1
             },
             {
@@ -48,13 +52,17 @@
                 [
                   11.8,
                   34.4
+                ],
+                [
+                  11.8,
+                  34.6
                 ]
               ],
               "id": 259649,
               "name": "Ulric Frostveil",
               "point": "end",
               "reactalliance": 0,
-              "reacthorde": 0,
+              "reacthorde": 1,
               "type": 1
             },
             {
@@ -341,14 +349,16 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 95042,
-  "races": [],
+  "races": [
+    5
+  ],
   "startPins": [
     {
       "npcId": 259649,
       "npcName": "Ulric Frostveil",
-      "zoneId": 331,
       "x": 11.8,
       "y": 34.4,
+      "zoneId": 331,
       "zoneName": "Ashenvale"
     }
   ]

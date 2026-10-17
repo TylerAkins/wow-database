@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-25T05:57:38+00:00",
+  "fetchedAt": "2026-10-17T03:00:29+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +12,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 7[/li][li]Requires level 4[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3608/aldia]Aldia[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3608/aldia]Aldia[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]4[/color][small] &nbsp;[/small][color=r2]5[/color][small] &nbsp;[/small][color=r3]10[/color][small] &nbsp;[/small][color=r4]13[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 7[/li][li]Requires level 4[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=4], [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=3608/aldia]Aldia[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3608/aldia]Aldia[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]4[/color][small] &nbsp;[/small][color=r2]5[/color][small] &nbsp;[/small][color=r3]10[/color][small] &nbsp;[/small][color=r4]13[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -115,39 +115,27 @@
                 ],
                 [
                   49.6,
-                  55.4
+                  55.6
                 ],
                 [
-                  49.6,
-                  55.6
+                  49.8,
+                  55.4
                 ],
                 [
                   50.4,
                   57.4
-                ],
-                [
-                  50.4,
-                  57.6
                 ],
                 [
                   50.6,
                   61.6
                 ],
                 [
-                  50.8,
-                  57.6
-                ],
-                [
-                  50.8,
-                  61.2
-                ],
-                [
-                  51,
-                  56.4
-                ],
-                [
                   51,
                   57.4
+                ],
+                [
+                  51,
+                  57.6
                 ],
                 [
                   51.2,
@@ -156,6 +144,10 @@
                 [
                   51.4,
                   59.4
+                ],
+                [
+                  51.4,
+                  60.6
                 ],
                 [
                   51.6,
@@ -182,20 +174,20 @@
                   58
                 ],
                 [
-                  53,
-                  62.4
+                  53.2,
+                  56.4
                 ],
                 [
                   53.2,
                   58.8
                 ],
                 [
-                  53.4,
-                  55.2
+                  53.2,
+                  61.6
                 ],
                 [
                   53.4,
-                  55.6
+                  55.2
                 ],
                 [
                   53.4,
@@ -215,7 +207,7 @@
                 ],
                 [
                   53.6,
-                  61.4
+                  61.2
                 ],
                 [
                   53.6,
@@ -226,20 +218,8 @@
                   62.8
                 ],
                 [
-                  54,
-                  56.6
-                ],
-                [
-                  54,
-                  63.6
-                ],
-                [
-                  54.4,
-                  64.6
-                ],
-                [
-                  54.4,
-                  65.8
+                  53.8,
+                  56.5
                 ],
                 [
                   54.8,
@@ -278,10 +258,6 @@
                   57.8
                 ],
                 [
-                  58.4,
-                  61.4
-                ],
-                [
                   58.6,
                   57.4
                 ],
@@ -308,14 +284,6 @@
                 [
                   59.4,
                   62.6
-                ],
-                [
-                  59.6,
-                  57.4
-                ],
-                [
-                  59.6,
-                  60.4
                 ],
                 [
                   59.6,
@@ -347,10 +315,6 @@
                 ],
                 [
                   61.6,
-                  58.4
-                ],
-                [
-                  61.6,
                   59
                 ],
                 [
@@ -374,12 +338,8 @@
                   59.8
                 ],
                 [
-                  62.6,
-                  60.6
-                ],
-                [
-                  63.6,
-                  59.8
+                  62.8,
+                  61
                 ],
                 [
                   64.2,
@@ -418,16 +378,16 @@
                   53.4
                 ],
                 [
-                  66,
-                  51.6
-                ],
-                [
-                  66.2,
-                  51.4
+                  65.9,
+                  51.5
                 ],
                 [
                   66.2,
                   54
+                ],
+                [
+                  66.4,
+                  51.2
                 ],
                 [
                   66.6,
@@ -442,16 +402,12 @@
                   51.6
                 ],
                 [
-                  67.4,
-                  53.4
-                ],
-                [
-                  67.4,
+                  67.2,
                   54.6
                 ],
                 [
-                  68,
-                  53.4
+                  67.5,
+                  53.2
                 ],
                 [
                   68,
@@ -511,14 +467,17 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 87288,
-  "races": [],
+  "races": [
+    4,
+    95
+  ],
   "startPins": [
     {
       "npcId": 3608,
       "npcName": "Aldia",
-      "zoneId": 141,
       "x": 55.4,
       "y": 57.2,
+      "zoneId": 141,
       "zoneName": "Teldrassil"
     }
   ]

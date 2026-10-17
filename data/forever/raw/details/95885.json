@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-25T06:41:37+00:00",
+  "fetchedAt": "2026-10-17T03:44:33+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,13 +12,45 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 23[/li][li]Requires level 20[/li][li]Type: Elite[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: Object #645153[/icon][/li][li][icon name=quest-end]End: Object #645153[/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]20[/color][small] &nbsp;[/small][color=r2]21[/color][small] &nbsp;[/small][color=r3]26[/color][small] &nbsp;[/small][color=r4]31[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 23[/li][li]Requires level 20[/li][li]Type: Elite[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/object=645153/offering-stone]Offering Stone[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=645153/offering-stone]Offering Stone[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]20[/color][small] &nbsp;[/small][color=r2]21[/color][small] &nbsp;[/small][color=r3]26[/color][small] &nbsp;[/small][color=r4]31[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
-    "missing": 2,
+    "missing": 0,
     "objectives": {
       "130": {
         "levels": [
           [
+            {
+              "coord": [
+                58.1,
+                69.8
+              ],
+              "coords": [
+                [
+                  58.1,
+                  69.8
+                ]
+              ],
+              "id": 645153,
+              "name": "Offering Stone",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                58.1,
+                69.8
+              ],
+              "coords": [
+                [
+                  58.1,
+                  69.8
+                ]
+              ],
+              "id": 645153,
+              "name": "Offering Stone",
+              "point": "end",
+              "type": 2
+            },
             {
               "coord": [
                 58,
@@ -26,132 +58,8 @@
               ],
               "coords": [
                 [
-                  44.2,
-                  40.2
-                ],
-                [
-                  44.4,
-                  42
-                ],
-                [
-                  44.4,
-                  44
-                ],
-                [
-                  44.8,
-                  42.4
-                ],
-                [
-                  45,
-                  40.6
-                ],
-                [
-                  46,
-                  39.6
-                ],
-                [
-                  46.4,
-                  83.8
-                ],
-                [
-                  47.4,
-                  83.8
-                ],
-                [
-                  49,
-                  38.2
-                ],
-                [
-                  52.6,
-                  55
-                ],
-                [
-                  53.8,
-                  71.6
-                ],
-                [
-                  54.8,
-                  70
-                ],
-                [
-                  57.2,
-                  71
-                ],
-                [
-                  57.6,
-                  71.4
-                ],
-                [
                   58,
                   69.8
-                ],
-                [
-                  58.4,
-                  72
-                ],
-                [
-                  58.6,
-                  72
-                ],
-                [
-                  59,
-                  70.8
-                ],
-                [
-                  59.4,
-                  70.2
-                ],
-                [
-                  59.6,
-                  70
-                ],
-                [
-                  59.8,
-                  71
-                ],
-                [
-                  59.8,
-                  75.4
-                ],
-                [
-                  60,
-                  72
-                ],
-                [
-                  60.2,
-                  74
-                ],
-                [
-                  60.4,
-                  73.4
-                ],
-                [
-                  60.6,
-                  72.4
-                ],
-                [
-                  60.6,
-                  72.6
-                ],
-                [
-                  61,
-                  74.8
-                ],
-                [
-                  62,
-                  72.6
-                ],
-                [
-                  62.6,
-                  73.8
-                ],
-                [
-                  63.6,
-                  75.2
-                ],
-                [
-                  65.8,
-                  80
                 ]
               ],
               "id": 212753,
@@ -173,11 +81,23 @@
     "zones": [
       [
         130,
-        1
+        2
       ]
     ]
   },
   "minLevel": 20,
+  "objectSpawns": [
+    {
+      "entityId": 645153,
+      "entityKind": "object",
+      "entityName": "Offering Stone",
+      "uiMapId": 1421,
+      "uiMapName": "Silverpine Forest",
+      "x": 58.1,
+      "y": 69.8,
+      "zoneId": 130
+    }
+  ],
   "pageInfo": {
     "name": "The Offering of Blood",
     "type": 5,
@@ -187,5 +107,14 @@
   "prerequisiteQuestIds": [],
   "questId": 95885,
   "races": [],
-  "startPins": []
+  "startPins": [
+    {
+      "npcId": 645153,
+      "npcName": "Offering Stone",
+      "x": 58.1,
+      "y": 69.8,
+      "zoneId": 130,
+      "zoneName": "Silverpine Forest"
+    }
+  ]
 }

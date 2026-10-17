@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-25T07:07:39+00:00",
+  "fetchedAt": "2026-10-17T04:10:43+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +12,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 9[/li][li]Requires level 4[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=275744/sentinel-lynessa-duskblossom]Sentinel Lynessa Duskblossom[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2081/sentinel-kyra-starsong]Sentinel Kyra Starsong[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]4[/color][small] &nbsp;[/small][color=r1]5[/color][small] &nbsp;[/small][color=r2]7[/color][small] &nbsp;[/small][color=r3]12[/color][small] &nbsp;[/small][color=r4]15[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 9[/li][li]Requires level 4[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=4], [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=275744/sentinel-lynessa-duskblossom]Sentinel Lynessa Duskblossom[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2081/sentinel-kyra-starsong]Sentinel Kyra Starsong[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]4[/color][small] &nbsp;[/small][color=r1]5[/color][small] &nbsp;[/small][color=r2]7[/color][small] &nbsp;[/small][color=r3]12[/color][small] &nbsp;[/small][color=r4]15[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 1,
     "objectives": {
@@ -22,48 +22,68 @@
             {
               "coord": [
                 44.6,
-                58.8
+                58.9
               ],
               "coords": [
                 [
                   43,
-                  51.8
+                  58.9
                 ],
                 [
-                  43,
-                  59.2
-                ],
-                [
-                  43.8,
-                  61.6
-                ],
-                [
-                  44,
-                  59.4
-                ],
-                [
-                  44,
+                  43.3,
                   59.8
                 ],
                 [
+                  43.4,
+                  61.8
+                ],
+                [
+                  43.6,
+                  54.2
+                ],
+                [
+                  43.6,
+                  58.5
+                ],
+                [
+                  43.9,
+                  58.2
+                ],
+                [
+                  43.9,
+                  61.5
+                ],
+                [
                   44,
-                  61.2
+                  59.6
                 ],
                 [
-                  44.4,
-                  57.4
-                ],
-                [
-                  44.4,
-                  57.6
+                  44.2,
+                  60.7
                 ],
                 [
                   44.6,
-                  58.8
+                  55.8
                 ],
                 [
-                  45.4,
-                  59.8
+                  44.6,
+                  56.9
+                ],
+                [
+                  44.6,
+                  58.9
+                ],
+                [
+                  44.9,
+                  60
+                ],
+                [
+                  45.5,
+                  59.1
+                ],
+                [
+                  45.5,
+                  59.7
                 ]
               ],
               "id": 275744,
@@ -117,16 +137,23 @@
     "typeId": 99053
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    483,
+    2541,
+    2561
+  ],
   "questId": 99053,
-  "races": [],
+  "races": [
+    4,
+    95
+  ],
   "startPins": [
     {
       "npcId": 275744,
       "npcName": "Sentinel Lynessa Duskblossom",
-      "zoneId": 141,
       "x": 44.6,
-      "y": 58.8,
+      "y": 58.9,
+      "zoneId": 141,
       "zoneName": "Teldrassil"
     }
   ]

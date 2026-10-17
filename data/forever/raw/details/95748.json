@@ -1,0 +1,75 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-10-17T12:08:40+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 40[/li][li]Requires level 30[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=2519/kinweelay]Kin'weelay[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]30[/color][small] &nbsp;[/small][color=r1]36[/color][small] &nbsp;[/small][color=r2]38[/color][small] &nbsp;[/small][color=r3]43[/color][small] &nbsp;[/small][color=r4]49[/color][/li][li]Added in patch [acronym=\"1.60.1.70205\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "33": {
+        "levels": [
+          [
+            {
+              "coord": [
+                32.2,
+                27.8
+              ],
+              "coords": [
+                [
+                  32.2,
+                  27.8
+                ]
+              ],
+              "id": 2519,
+              "name": "Kin'weelay",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stranglethorn Vale"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        33,
+        1
+      ]
+    ]
+  },
+  "minLevel": 30,
+  "pageInfo": {
+    "name": "The Gurubashi Legends of Old",
+    "type": 5,
+    "typeId": 95748
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 95748,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 2519,
+      "npcName": "Kin'weelay",
+      "x": 32.2,
+      "y": 27.8,
+      "zoneId": 33,
+      "zoneName": "Stranglethorn Vale"
+    }
+  ]
+}

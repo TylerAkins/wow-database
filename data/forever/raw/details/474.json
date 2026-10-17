@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-24T23:17:18+00:00",
+  "fetchedAt": "2026-10-16T20:27:52+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +12,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 32[/li][li]Requires level 23[/li][li]Type: Elite[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/object=1609/dragonmaw-catapult]Dragonmaw Catapult[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2104/captain-stoutfist]Captain Stoutfist[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]23[/color][small] &nbsp;[/small][color=r1]28[/color][small] &nbsp;[/small][color=r2]30[/color][small] &nbsp;[/small][color=r3]35[/color][small] &nbsp;[/small][color=r4]41[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 32[/li][li]Requires level 23[/li][li]Type: Elite[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/object=1609/dragonmaw-catapult]Dragonmaw Catapult[/url][/icon][br][span=invisible][icon name=quest-start]Start: [/icon][/span][url=/forever/object=630696/dragonmaw-catapult]Dragonmaw Catapult[/url][/li][li][icon name=quest-end]End: [url=/forever/npc=2104/captain-stoutfist]Captain Stoutfist[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]23[/color][small] &nbsp;[/small][color=r1]28[/color][small] &nbsp;[/small][color=r2]30[/color][small] &nbsp;[/small][color=r3]35[/color][small] &nbsp;[/small][color=r4]41[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -35,6 +35,26 @@
                 ]
               ],
               "id": 1609,
+              "name": "Dragonmaw Catapult",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                47.5,
+                46.7
+              ],
+              "coords": [
+                [
+                  47.4,
+                  46.7
+                ],
+                [
+                  47.5,
+                  46.7
+                ]
+              ],
+              "id": 630696,
               "name": "Dragonmaw Catapult",
               "point": "start",
               "type": 2
@@ -64,16 +84,16 @@
               ],
               "coords": [
                 [
-                  51.2,
-                  52
+                  50.3,
+                  50.9
                 ],
                 [
-                  52.4,
-                  53.2
+                  52.2,
+                  53.9
                 ],
                 [
-                  52.4,
-                  54
+                  52.3,
+                  53.4
                 ],
                 [
                   52.6,
@@ -84,6 +104,10 @@
                   56
                 ],
                 [
+                  53.2,
+                  57.3
+                ],
+                [
                   53.4,
                   54.4
                 ],
@@ -92,16 +116,28 @@
                   54.6
                 ],
                 [
-                  53.6,
-                  55.8
+                  53.4,
+                  57.5
                 ],
                 [
-                  54,
-                  55.2
+                  53.5,
+                  54.5
                 ],
                 [
                   54.2,
                   54.2
+                ],
+                [
+                  54.2,
+                  57.9
+                ],
+                [
+                  54.6,
+                  57.3
+                ],
+                [
+                  55.5,
+                  56.9
                 ]
               ],
               "id": 2091,
@@ -124,7 +160,7 @@
     "zones": [
       [
         11,
-        3
+        4
       ]
     ]
   },
@@ -149,6 +185,26 @@
       "x": 47.5,
       "y": 46.9,
       "zoneId": 11
+    },
+    {
+      "entityId": 630696,
+      "entityKind": "object",
+      "entityName": "Dragonmaw Catapult",
+      "uiMapId": 1437,
+      "uiMapName": "Wetlands",
+      "x": 47.4,
+      "y": 46.7,
+      "zoneId": 11
+    },
+    {
+      "entityId": 630696,
+      "entityKind": "object",
+      "entityName": "Dragonmaw Catapult",
+      "uiMapId": 1437,
+      "uiMapName": "Wetlands",
+      "x": 47.5,
+      "y": 46.7,
+      "zoneId": 11
     }
   ],
   "pageInfo": {
@@ -166,6 +222,14 @@
       "npcName": "Dragonmaw Catapult",
       "x": 47.5,
       "y": 46.9,
+      "zoneId": 11,
+      "zoneName": "Wetlands"
+    },
+    {
+      "npcId": 630696,
+      "npcName": "Dragonmaw Catapult",
+      "x": 47.5,
+      "y": 46.7,
       "zoneId": 11,
       "zoneName": "Wetlands"
     }

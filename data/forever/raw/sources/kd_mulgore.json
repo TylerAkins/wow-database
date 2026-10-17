@@ -1,8 +1,40 @@
 {
-  "fetchedAt": "2026-09-24T23:19:10+00:00",
+  "fetchedAt": "2026-10-17T11:22:43+00:00",
   "kind": "zone",
-  "questCount": 54,
+  "questCount": 61,
   "quests": [
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 96261,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          276895,
+          1
+        ]
+      ],
+      "level": 31,
+      "money": 3000,
+      "name": "The Broodmother",
+      "popularity": 1098,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 23,
+      "side": 2,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 2500
+    },
     {
       "category": 215,
       "category2": 1,
@@ -30,7 +62,7 @@
       "level": 12,
       "money": 0,
       "name": "Ceasing Operations",
-      "popularity": 1248,
+      "popularity": 792,
       "reprewards": [
         [
           81,
@@ -56,13 +88,63 @@
       },
       "firstseenpatch": 16001,
       "icon": "quest-start",
+      "id": 96260,
+      "itemchoices": [
+        [
+          276892,
+          1
+        ],
+        [
+          276891,
+          1
+        ]
+      ],
+      "itemrewards": [
+        [
+          273654,
+          1
+        ]
+      ],
+      "level": 30,
+      "money": 2500,
+      "name": "Stronger than Steel",
+      "popularity": 484,
+      "reprewards": [
+        [
+          2787,
+          100
+        ],
+        [
+          81,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 23,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2450
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
       "id": 98424,
       "itemchoices": [],
       "itemrewards": [],
       "level": 10,
       "money": 0,
       "name": "Fizsprocket's Notes",
-      "popularity": 389,
+      "popularity": 307,
       "reprewards": [
         [
           81,
@@ -88,22 +170,17 @@
       },
       "firstseenpatch": 16001,
       "icon": "quest-start",
-      "id": 96130,
+      "id": 99411,
       "itemchoices": [],
-      "itemrewards": [
-        [
-          281266,
-          1
-        ]
-      ],
-      "level": 8,
-      "money": 110,
-      "name": "Chakuyak",
-      "popularity": 248,
+      "itemrewards": [],
+      "level": 7,
+      "money": 175,
+      "name": "Kyle's Gone Missing!",
+      "popularity": 275,
       "reprewards": [
         [
           81,
-          50
+          100
         ]
       ],
       "reqclass": 0,
@@ -111,47 +188,7 @@
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 350
-    },
-    {
-      "category": 215,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [
-          "level_changed",
-          "rewards_changed"
-        ],
-        "lines": [
-          "Level 11 instead of 6",
-          "Experience 880 instead of 540",
-          "Rewards: adds Choice of Hoof-Holstered Blade, Choice of Valley Cosh",
-          "Rewards: no longer Dual Wield"
-        ],
-        "notShown": [
-          "Experience 880 instead of 540",
-          "Rewards: adds Choice of Hoof-Holstered Blade, Choice of Valley Cosh",
-          "Rewards: no longer Dual Wield"
-        ],
-        "status": "updated"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 76240,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 6,
-      "money": 0,
-      "name": "Stalk With The Earthmother",
-      "popularity": 235,
-      "reprewards": [],
-      "reqclass": 64,
-      "reqlevel": 4,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 540
+      "xp": 630
     },
     {
       "category": 215,
@@ -176,7 +213,7 @@
       "level": 14,
       "money": 0,
       "name": "Rites of the Earthmother",
-      "popularity": 223,
+      "popularity": 243,
       "reprewards": [
         [
           81,
@@ -202,6 +239,134 @@
       },
       "firstseenpatch": 16001,
       "icon": "quest-start",
+      "id": 96259,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 30,
+      "money": 2500,
+      "name": "Defending the Dead",
+      "popularity": 227,
+      "reprewards": [
+        [
+          2787,
+          150
+        ],
+        [
+          81,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 23,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2450
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 96294,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 30,
+      "money": 2500,
+      "name": "A Darker Truth",
+      "popularity": 221,
+      "reprewards": [
+        [
+          76,
+          100
+        ],
+        [
+          2787,
+          100
+        ],
+        [
+          81,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 23,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1850
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "level_changed",
+          "requirements_changed",
+          "rewards_changed"
+        ],
+        "lines": [
+          "Level 11 instead of 6",
+          "Classes none instead of Shaman",
+          "Experience 880 instead of 540",
+          "Rewards: adds Choice of Hoof-Holstered Blade, Choice of Valley Cosh",
+          "Rewards: no longer Dual Wield"
+        ],
+        "notShown": [
+          "Classes none instead of Shaman",
+          "Experience 880 instead of 540",
+          "Rewards: adds Choice of Hoof-Holstered Blade, Choice of Valley Cosh",
+          "Rewards: no longer Dual Wield"
+        ],
+        "status": "updated"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 76240,
+      "itemchoices": [
+        [
+          277988,
+          1
+        ],
+        [
+          278002,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 11,
+      "money": 0,
+      "name": "Stalk With The Earthmother",
+      "popularity": 195,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 4,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 880
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
       "id": 95805,
       "itemchoices": [],
       "itemrewards": [
@@ -213,7 +378,7 @@
       "level": 4,
       "money": 0,
       "name": "Grace of An'she and Mu'sha",
-      "popularity": 191,
+      "popularity": 179,
       "reprewards": [
         [
           81,
@@ -235,38 +400,33 @@
       "envChange": {
         "labels": [],
         "lines": [],
-        "status": "unchanged"
+        "status": "new"
       },
-      "firstseenpatch": 11302,
+      "firstseenpatch": 16001,
       "icon": "quest-start",
-      "id": 746,
-      "itemchoices": [
+      "id": 96241,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 30,
+      "money": 2500,
+      "name": "Talkin' bout Toxins, Mon",
+      "popularity": 175,
+      "reprewards": [
         [
-          4969,
-          1
+          530,
+          100
         ],
         [
-          4970,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 8,
-      "money": 0,
-      "name": "Dwarven Digging",
-      "popularity": 176,
-      "reprewards": [
-        [
-          81,
+          2787,
           100
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 6,
+      "reqlevel": 23,
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 700
+      "xp": 2450
     },
     {
       "category": 215,
@@ -280,17 +440,22 @@
       },
       "firstseenpatch": 16001,
       "icon": "quest-start",
-      "id": 99079,
+      "id": 96130,
       "itemchoices": [],
-      "itemrewards": [],
-      "level": 9,
-      "money": 0,
-      "name": "Longwalker Malah",
-      "popularity": 171,
+      "itemrewards": [
+        [
+          281266,
+          1
+        ]
+      ],
+      "level": 5,
+      "money": 50,
+      "name": "Chakuyak",
+      "popularity": 172,
       "reprewards": [
         [
           81,
-          10
+          50
         ]
       ],
       "reqclass": 0,
@@ -298,217 +463,7 @@
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 80
-    },
-    {
-      "category": 215,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 99080,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 9,
-      "money": 0,
-      "name": "Drive Them Out",
-      "popularity": 155,
-      "reprewards": [
-        [
-          81,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 4,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 780
-    },
-    {
-      "category": 215,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 749,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 8,
-      "money": 0,
-      "name": "The Ravaged Caravan",
-      "popularity": 153,
-      "reprewards": [
-        [
-          81,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 5,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 530
-    },
-    {
-      "category": 215,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 770,
-      "itemchoices": [
-        [
-          4971,
-          1
-        ],
-        [
-          3079,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 12,
-      "money": 0,
-      "name": "The Demon Scarred Cloak",
-      "popularity": 148,
-      "reprewards": [
-        [
-          81,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 6,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 910
-    },
-    {
-      "category": 215,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 99081,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 9,
-      "money": 0,
-      "name": "Grim Tidings",
-      "popularity": 147,
-      "reprewards": [
-        [
-          81,
-          10
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 4,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 80
-    },
-    {
-      "category": 215,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 765,
-      "itemchoices": [
-        [
-          4974,
-          1
-        ],
-        [
-          4964,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 12,
-      "money": 0,
-      "name": "Supervisor Fizsprocket",
-      "popularity": 141,
-      "reprewards": [
-        [
-          81,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 5,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 910
-    },
-    {
-      "category": 215,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 99082,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 9,
-      "money": 0,
-      "name": "The High Chieftain",
-      "popularity": 137,
-      "reprewards": [
-        [
-          81,
-          10
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 4,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 80
+      "xp": 225
     },
     {
       "category": 215,
@@ -537,7 +492,7 @@
       "level": 10,
       "money": 0,
       "name": "Thunderhorn's Report",
-      "popularity": 137,
+      "popularity": 167,
       "reprewards": [
         [
           81,
@@ -559,6 +514,89 @@
       "envChange": {
         "labels": [],
         "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 770,
+      "itemchoices": [
+        [
+          4971,
+          1
+        ],
+        [
+          3079,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 12,
+      "money": 0,
+      "name": "The Demon Scarred Cloak",
+      "popularity": 158,
+      "reprewards": [
+        [
+          81,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 6,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 910
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "level_changed",
+          "requirements_changed",
+          "rewards_changed",
+          "reworded"
+        ],
+        "lines": [
+          "Level 10 instead of 6",
+          "Classes none instead of Warrior, Shaman",
+          "Description reworded",
+          "Experience 630 instead of 405"
+        ],
+        "notShown": [
+          "Classes none instead of Warrior, Shaman",
+          "Description reworded",
+          "Experience 630 instead of 405"
+        ],
+        "status": "updated"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 76156,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 10,
+      "money": 0,
+      "name": "Stalk With The Earthmother",
+      "popularity": 157,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 4,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 630
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
         "status": "new"
       },
       "firstseenpatch": 16001,
@@ -569,7 +607,7 @@
       "level": 8,
       "money": 0,
       "name": "The Longwalkers",
-      "popularity": 137,
+      "popularity": 143,
       "reprewards": [
         [
           81,
@@ -610,7 +648,7 @@
       "level": 7,
       "money": 0,
       "name": "Rite of Vision",
-      "popularity": 136,
+      "popularity": 141,
       "reprewards": [
         [
           81,
@@ -632,17 +670,116 @@
       "envChange": {
         "labels": [],
         "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 746,
+      "itemchoices": [
+        [
+          4969,
+          1
+        ],
+        [
+          4970,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 8,
+      "money": 0,
+      "name": "Dwarven Digging",
+      "popularity": 139,
+      "reprewards": [
+        [
+          81,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 6,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 700
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "level_changed",
+          "requirements_changed",
+          "rewards_changed",
+          "objectives_changed",
+          "reworded"
+        ],
+        "lines": [
+          "Level 11 instead of 6",
+          "Classes none instead of Shaman",
+          "Objectives: adds Windfury Cone x8",
+          "Description reworded",
+          "Experience 660 instead of 405"
+        ],
+        "notShown": [
+          "Classes none instead of Shaman",
+          "Description reworded",
+          "Experience 660 instead of 405"
+        ],
+        "status": "updated"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 76160,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          206177,
+          1
+        ]
+      ],
+      "level": 11,
+      "money": 0,
+      "name": "Stalk With The Earthmother",
+      "popularity": 137,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 4,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 660
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
         "status": "new"
       },
       "firstseenpatch": 16001,
       "icon": "quest-start",
-      "id": 99101,
-      "itemchoices": [],
+      "id": 99082,
+      "itemchoices": [
+        [
+          286740,
+          1
+        ],
+        [
+          286741,
+          1
+        ]
+      ],
       "itemrewards": [],
       "level": 9,
       "money": 0,
-      "name": "Our Ancient Enemy",
-      "popularity": 133,
+      "name": "The High Chieftain",
+      "popularity": 135,
       "reprewards": [
         [
           81,
@@ -662,40 +799,31 @@
       "currencychoicerewards": [],
       "currencyrewards": [],
       "envChange": {
-        "labels": [
-          "rewards_changed"
-        ],
-        "lines": [
-          "Money none instead of 17c",
-          "Rewards: adds Choice of Mining for Dummies, Choice of Pelt Collecting for Beginners, Choice of Wild Harvest"
-        ],
-        "notShown": [
-          "Money none instead of 17c",
-          "Rewards: adds Choice of Mining for Dummies, Choice of Pelt Collecting for Beginners, Choice of Wild Harvest"
-        ],
-        "status": "updated"
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 752,
+      "id": 749,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 2,
-      "money": 17,
-      "name": "A Humble Task",
-      "popularity": 111,
+      "level": 8,
+      "money": 0,
+      "name": "The Ravaged Caravan",
+      "popularity": 133,
       "reprewards": [
         [
           81,
-          50
+          75
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 1,
+      "reqlevel": 5,
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 85
+      "xp": 530
     },
     {
       "category": 215,
@@ -703,41 +831,63 @@
       "currencychoicerewards": [],
       "currencyrewards": [],
       "envChange": {
-        "labels": [
-          "level_changed",
-          "requirements_changed",
-          "rewards_changed",
-          "reworded"
-        ],
-        "lines": [
-          "Level 10 instead of 6",
-          "Classes Warrior, Shaman, Druid instead of Warrior, Shaman",
-          "Description reworded",
-          "Experience 630 instead of 405"
-        ],
-        "notShown": [
-          "Classes Warrior, Shaman, Druid instead of Warrior, Shaman",
-          "Description reworded",
-          "Experience 630 instead of 405"
-        ],
-        "status": "updated"
+        "labels": [],
+        "lines": [],
+        "status": "new"
       },
       "firstseenpatch": 16001,
       "icon": "quest-start",
-      "id": 76156,
+      "id": 99080,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 6,
+      "level": 9,
       "money": 0,
-      "name": "Stalk With The Earthmother",
-      "popularity": 108,
-      "reprewards": [],
-      "reqclass": 65,
+      "name": "Drive Them Out",
+      "popularity": 132,
+      "reprewards": [
+        [
+          81,
+          100
+        ]
+      ],
+      "reqclass": 0,
       "reqlevel": 4,
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 405
+      "xp": 780
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 99079,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 9,
+      "money": 0,
+      "name": "Longwalker Malah",
+      "popularity": 132,
+      "reprewards": [
+        [
+          81,
+          10
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 4,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 80
     },
     {
       "category": 215,
@@ -766,7 +916,7 @@
       "level": 10,
       "money": 0,
       "name": "Wildmane Cleansing",
-      "popularity": 107,
+      "popularity": 129,
       "reprewards": [
         [
           81,
@@ -779,6 +929,120 @@
       "titlereward": 0,
       "type": 0,
       "xp": 1050
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 765,
+      "itemchoices": [
+        [
+          4974,
+          1
+        ],
+        [
+          4964,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 12,
+      "money": 0,
+      "name": "Supervisor Fizsprocket",
+      "popularity": 128,
+      "reprewards": [
+        [
+          81,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 5,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 910
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 99081,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 9,
+      "money": 0,
+      "name": "Grim Tidings",
+      "popularity": 119,
+      "reprewards": [
+        [
+          81,
+          10
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 4,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 80
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 3376,
+      "itemchoices": [
+        [
+          10635,
+          1
+        ],
+        [
+          10636,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 5,
+      "money": 0,
+      "name": "Break Sharptusk!",
+      "popularity": 118,
+      "reprewards": [
+        [
+          81,
+          200
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 3,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 670
     },
     {
       "category": 215,
@@ -807,7 +1071,7 @@
       "level": 6,
       "money": 0,
       "name": "Sparring Match",
-      "popularity": 107,
+      "popularity": 111,
       "reprewards": [
         [
           81,
@@ -820,166 +1084,6 @@
       "titlereward": 0,
       "type": 0,
       "xp": 540
-    },
-    {
-      "category": 215,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 773,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 10,
-      "money": 0,
-      "name": "Rite of Wisdom",
-      "popularity": 104,
-      "reprewards": [
-        [
-          81,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 3,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 840
-    },
-    {
-      "category": 215,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 854,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 12,
-      "money": 0,
-      "name": "Journey to the Crossroads",
-      "popularity": 103,
-      "reprewards": [
-        [
-          81,
-          25
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 9,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 225
-    },
-    {
-      "category": 215,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 861,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 10,
-      "money": 0,
-      "name": "The Hunter's Way",
-      "popularity": 85,
-      "reprewards": [
-        [
-          81,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 10,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 840
-    },
-    {
-      "category": 215,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 763,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 5,
-      "money": 0,
-      "name": "Rites of the Earthmother",
-      "popularity": 82,
-      "reprewards": [
-        [
-          81,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 1,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 335
-    },
-    {
-      "category": 215,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 775,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 10,
-      "money": 0,
-      "name": "Journey into Thunder Bluff",
-      "popularity": 77,
-      "reprewards": [
-        [
-          81,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 3,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 420
     },
     {
       "category": 215,
@@ -1020,7 +1124,7 @@
       "level": 4,
       "money": 0,
       "name": "Rite of Strength",
-      "popularity": 77,
+      "popularity": 111,
       "reprewards": [
         [
           81,
@@ -1040,24 +1144,137 @@
       "currencychoicerewards": [],
       "currencyrewards": [],
       "envChange": {
+        "labels": [
+          "rewards_changed"
+        ],
+        "lines": [
+          "Money none instead of 17c",
+          "Rewards: adds Choice of Mining for Dummies, Choice of Pelt Collecting for Beginners, Choice of Wild Harvest"
+        ],
+        "notShown": [
+          "Money none instead of 17c",
+          "Rewards: adds Choice of Mining for Dummies, Choice of Pelt Collecting for Beginners, Choice of Wild Harvest"
+        ],
+        "status": "updated"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 752,
+      "itemchoices": [
+        [
+          247840,
+          1
+        ],
+        [
+          247841,
+          1
+        ],
+        [
+          247846,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 2,
+      "money": 0,
+      "name": "A Humble Task",
+      "popularity": 109,
+      "reprewards": [
+        [
+          81,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 1,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 85
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
         "labels": [],
         "lines": [],
         "status": "unchanged"
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 781,
+      "id": 764,
       "itemchoices": [],
-      "itemrewards": [
+      "itemrewards": [],
+      "level": 10,
+      "money": 250,
+      "name": "The Venture Co.",
+      "popularity": 109,
+      "reprewards": [
         [
-          4911,
-          1
+          81,
+          75
         ]
       ],
-      "level": 4,
+      "reqclass": 0,
+      "reqlevel": 5,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 630
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 99101,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 9,
       "money": 0,
-      "name": "Attack on Camp Narache",
-      "popularity": 77,
+      "name": "Our Ancient Enemy",
+      "popularity": 105,
+      "reprewards": [
+        [
+          81,
+          10
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 4,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 80
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 755,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 3,
+      "money": 0,
+      "name": "Rites of the Earthmother",
+      "popularity": 104,
       "reprewards": [
         [
           81,
@@ -1069,56 +1286,7 @@
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 355
-    },
-    {
-      "category": 215,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [
-          "level_changed",
-          "requirements_changed",
-          "rewards_changed",
-          "objectives_changed",
-          "reworded"
-        ],
-        "lines": [
-          "Level 11 instead of 6",
-          "Classes Shaman, Druid instead of Shaman",
-          "Objectives: adds Windfury Cone x8",
-          "Description reworded",
-          "Experience 660 instead of 405"
-        ],
-        "notShown": [
-          "Classes Shaman, Druid instead of Shaman",
-          "Description reworded",
-          "Experience 660 instead of 405"
-        ],
-        "status": "updated"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 76160,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          206177,
-          1
-        ]
-      ],
-      "level": 6,
-      "money": 0,
-      "name": "Stalk With The Earthmother",
-      "popularity": 76,
-      "reprewards": [],
-      "reqclass": 64,
-      "reqlevel": 4,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 405
+      "xp": 250
     },
     {
       "category": 215,
@@ -1132,34 +1300,25 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 780,
+      "id": 773,
       "itemchoices": [],
-      "itemrewards": [
-        [
-          6059,
-          1
-        ],
-        [
-          4540,
-          10
-        ]
-      ],
-      "level": 4,
+      "itemrewards": [],
+      "level": 10,
       "money": 0,
-      "name": "The Battleboars",
-      "popularity": 74,
+      "name": "Rite of Wisdom",
+      "popularity": 102,
       "reprewards": [
         [
           81,
-          150
+          100
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 1,
+      "reqlevel": 3,
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 445
+      "xp": 840
     },
     {
       "category": 215,
@@ -1179,7 +1338,7 @@
       "level": 8,
       "money": 0,
       "name": "The Ravaged Caravan",
-      "popularity": 74,
+      "popularity": 102,
       "reprewards": [
         [
           81,
@@ -1205,22 +1364,13 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 766,
-      "itemchoices": [
-        [
-          4972,
-          1
-        ],
-        [
-          4973,
-          1
-        ]
-      ],
+      "id": 753,
+      "itemchoices": [],
       "itemrewards": [],
-      "level": 8,
-      "money": 0,
-      "name": "Mazzranache",
-      "popularity": 73,
+      "level": 3,
+      "money": 40,
+      "name": "A Humble Task",
+      "popularity": 100,
       "reprewards": [
         [
           81,
@@ -1228,11 +1378,107 @@
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 5,
+      "reqlevel": 1,
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 700
+      "xp": 250
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 861,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 10,
+      "money": 0,
+      "name": "The Hunter's Way",
+      "popularity": 100,
+      "reprewards": [
+        [
+          81,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 10,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 840
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 775,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 10,
+      "money": 0,
+      "name": "Journey into Thunder Bluff",
+      "popularity": 95,
+      "reprewards": [
+        [
+          81,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 3,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 420
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 854,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 12,
+      "money": 0,
+      "name": "Journey to the Crossroads",
+      "popularity": 95,
+      "reprewards": [
+        [
+          81,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 9,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 225
     },
     {
       "category": 215,
@@ -1252,7 +1498,7 @@
       "level": 60,
       "money": 0,
       "name": "A Donation of Wool",
-      "popularity": 73,
+      "popularity": 94,
       "reprewards": [
         [
           2778,
@@ -1278,13 +1524,13 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 753,
+      "id": 759,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 3,
-      "money": 40,
-      "name": "A Humble Task",
-      "popularity": 72,
+      "level": 10,
+      "money": 0,
+      "name": "Wildmane Totem",
+      "popularity": 92,
       "reprewards": [
         [
           81,
@@ -1292,11 +1538,75 @@
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 1,
+      "reqlevel": 4,
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 250
+      "xp": 840
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 771,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 7,
+      "money": 0,
+      "name": "Rite of Vision",
+      "popularity": 90,
+      "reprewards": [
+        [
+          81,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 3,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 630
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 767,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 6,
+      "money": 0,
+      "name": "Rite of Vision",
+      "popularity": 90,
+      "reprewards": [
+        [
+          81,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 3,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 55
     },
     {
       "category": 215,
@@ -1329,10 +1639,10 @@
           25
         ]
       ],
-      "level": 6,
-      "money": 125,
+      "level": 8,
+      "money": 225,
       "name": "Sharing the Land",
-      "popularity": 70,
+      "popularity": 88,
       "reprewards": [
         [
           81,
@@ -1344,7 +1654,7 @@
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 540
+      "xp": 700
     },
     {
       "category": 215,
@@ -1358,113 +1668,22 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 755,
+      "id": 758,
       "itemchoices": [],
-      "itemrewards": [],
-      "level": 3,
+      "itemrewards": [
+        [
+          4963,
+          1
+        ]
+      ],
+      "level": 8,
       "money": 0,
-      "name": "Rites of the Earthmother",
-      "popularity": 69,
+      "name": "Thunderhorn Cleansing",
+      "popularity": 87,
       "reprewards": [
         [
           81,
           100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 1,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 250
-    },
-    {
-      "category": 215,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 764,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 10,
-      "money": 250,
-      "name": "The Venture Co.",
-      "popularity": 69,
-      "reprewards": [
-        [
-          81,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 5,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 630
-    },
-    {
-      "category": 215,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 771,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 7,
-      "money": 0,
-      "name": "Rite of Vision",
-      "popularity": 63,
-      "reprewards": [
-        [
-          81,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 3,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 630
-    },
-    {
-      "category": 215,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 761,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 6,
-      "money": 250,
-      "name": "Swoop Hunting",
-      "popularity": 62,
-      "reprewards": [
-        [
-          81,
-          150
         ]
       ],
       "reqclass": 0,
@@ -1472,7 +1691,7 @@
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 680
+      "xp": 700
     },
     {
       "category": 215,
@@ -1486,13 +1705,132 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 743,
+      "id": 780,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          6059,
+          1
+        ],
+        [
+          4540,
+          10
+        ]
+      ],
+      "level": 4,
+      "money": 0,
+      "name": "The Battleboars",
+      "popularity": 86,
+      "reprewards": [
+        [
+          81,
+          150
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 1,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 445
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 763,
       "itemchoices": [],
       "itemrewards": [],
+      "level": 5,
+      "money": 0,
+      "name": "Rites of the Earthmother",
+      "popularity": 85,
+      "reprewards": [
+        [
+          81,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 1,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 335
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 781,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          4911,
+          1
+        ]
+      ],
+      "level": 4,
+      "money": 0,
+      "name": "Attack on Camp Narache",
+      "popularity": 83,
+      "reprewards": [
+        [
+          81,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 1,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 355
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 766,
+      "itemchoices": [
+        [
+          4972,
+          1
+        ],
+        [
+          4973,
+          1
+        ]
+      ],
+      "itemrewards": [],
       "level": 8,
-      "money": 225,
-      "name": "Dangers of the Windfury",
-      "popularity": 59,
+      "money": 0,
+      "name": "Mazzranache",
+      "popularity": 83,
       "reprewards": [
         [
           81,
@@ -1518,13 +1856,13 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 759,
+      "id": 743,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 10,
-      "money": 0,
-      "name": "Wildmane Totem",
-      "popularity": 57,
+      "level": 8,
+      "money": 225,
+      "name": "Dangers of the Windfury",
+      "popularity": 82,
       "reprewards": [
         [
           81,
@@ -1532,43 +1870,11 @@
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 4,
+      "reqlevel": 5,
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 840
-    },
-    {
-      "category": 215,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 767,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 6,
-      "money": 0,
-      "name": "Rite of Vision",
-      "popularity": 57,
-      "reprewards": [
-        [
-          81,
-          25
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 3,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 55
+      "xp": 700
     },
     {
       "category": 215,
@@ -1588,7 +1894,7 @@
       "level": 7,
       "money": 0,
       "name": "Thunderhorn Totem",
-      "popularity": 56,
+      "popularity": 82,
       "reprewards": [
         [
           81,
@@ -1610,70 +1916,29 @@
       "envChange": {
         "labels": [],
         "lines": [],
-        "status": "unchanged"
+        "status": "new"
       },
-      "firstseenpatch": 11302,
+      "firstseenpatch": 16001,
       "icon": "quest-start",
-      "id": 748,
+      "id": 99197,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 5,
+      "level": 60,
       "money": 0,
-      "name": "Poison Water",
-      "popularity": 54,
+      "name": "A Donation of Silk",
+      "popularity": 81,
       "reprewards": [
         [
-          81,
-          100
+          2778,
+          150
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 4,
+      "reqlevel": 26,
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 450
-    },
-    {
-      "category": 215,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 3376,
-      "itemchoices": [
-        [
-          10635,
-          1
-        ],
-        [
-          10636,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 5,
-      "money": 0,
-      "name": "Break Sharptusk!",
-      "popularity": 53,
-      "reprewards": [
-        [
-          81,
-          200
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 3,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 670
+      "xp": 1650
     },
     {
       "category": 215,
@@ -1702,7 +1967,7 @@
       "level": 2,
       "money": 0,
       "name": "The Hunt Begins",
-      "popularity": 53,
+      "popularity": 81,
       "reprewards": [
         [
           81,
@@ -1728,25 +1993,25 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 833,
+      "id": 748,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 10,
-      "money": 250,
-      "name": "A Sacred Burial",
-      "popularity": 51,
+      "level": 5,
+      "money": 0,
+      "name": "Poison Water",
+      "popularity": 80,
       "reprewards": [
         [
           81,
-          75
+          100
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 7,
+      "reqlevel": 4,
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 630
+      "xp": 450
     },
     {
       "category": 215,
@@ -1775,7 +2040,7 @@
       "level": 3,
       "money": 0,
       "name": "The Hunt Continues",
-      "popularity": 49,
+      "popularity": 80,
       "reprewards": [
         [
           81,
@@ -1788,6 +2053,143 @@
       "titlereward": 0,
       "type": 0,
       "xp": 250
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 754,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 6,
+      "money": 0,
+      "name": "Winterhoof Cleansing",
+      "popularity": 79,
+      "reprewards": [
+        [
+          81,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 4,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 540
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 1656,
+      "itemchoices": [
+        [
+          4540,
+          5
+        ],
+        [
+          159,
+          5
+        ]
+      ],
+      "itemrewards": [],
+      "level": 5,
+      "money": 0,
+      "name": "A Task Unfinished",
+      "popularity": 74,
+      "reprewards": [
+        [
+          81,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 1,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 110
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 761,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 6,
+      "money": 250,
+      "name": "Swoop Hunting",
+      "popularity": 73,
+      "reprewards": [
+        [
+          81,
+          150
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 4,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 680
+    },
+    {
+      "category": 215,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 833,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 10,
+      "money": 250,
+      "name": "A Sacred Burial",
+      "popularity": 68,
+      "reprewards": [
+        [
+          81,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 7,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 630
     },
     {
       "category": 215,
@@ -1820,7 +2222,7 @@
       "level": 1,
       "money": 0,
       "name": "Welcome!",
-      "popularity": 48,
+      "popularity": 53,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 1,
@@ -1828,75 +2230,6 @@
       "titlereward": 0,
       "type": 0,
       "xp": 0
-    },
-    {
-      "category": 215,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 758,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          4963,
-          1
-        ]
-      ],
-      "level": 8,
-      "money": 0,
-      "name": "Thunderhorn Cleansing",
-      "popularity": 41,
-      "reprewards": [
-        [
-          81,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 4,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 700
-    },
-    {
-      "category": 215,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 754,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 6,
-      "money": 0,
-      "name": "Winterhoof Cleansing",
-      "popularity": 39,
-      "reprewards": [
-        [
-          81,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 4,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 540
     },
     {
       "category": 215,
@@ -1916,55 +2249,14 @@
       "level": 4,
       "money": 0,
       "name": "<UNUSED>",
-      "popularity": 37,
+      "popularity": 32,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 1,
-      "side": 3,
+      "side": 0,
       "titlereward": 0,
       "type": 0,
       "xp": 0
-    },
-    {
-      "category": 215,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1656,
-      "itemchoices": [
-        [
-          4540,
-          5
-        ],
-        [
-          159,
-          5
-        ]
-      ],
-      "itemrewards": [],
-      "level": 5,
-      "money": 0,
-      "name": "A Task Unfinished",
-      "popularity": 33,
-      "reprewards": [
-        [
-          81,
-          25
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 1,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 110
     }
   ],
   "slug": "kd/mulgore",

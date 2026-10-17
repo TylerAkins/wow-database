@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-25T07:04:56+00:00",
+  "fetchedAt": "2026-10-17T04:08:10+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +12,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 12[/li][li]Requires level 5[/li][li]Type: Elite[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=2988/morin-cloudstalker]Morin Cloudstalker[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2988/morin-cloudstalker]Morin Cloudstalker[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]5[/color][small] &nbsp;[/small][color=r1]8[/color][small] &nbsp;[/small][color=r2]10[/color][small] &nbsp;[/small][color=r3]15[/color][small] &nbsp;[/small][color=r4]18[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 12[/li][li]Requires level 5[/li][li]Type: Elite[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Races: [race=5], [race=6][/li][li][icon name=quest-start]Start: [url=/forever/npc=2988/morin-cloudstalker]Morin Cloudstalker[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2988/morin-cloudstalker]Morin Cloudstalker[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]5[/color][small] &nbsp;[/small][color=r1]8[/color][small] &nbsp;[/small][color=r2]10[/color][small] &nbsp;[/small][color=r3]15[/color][small] &nbsp;[/small][color=r4]18[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -30,6 +30,10 @@
                   62.6
                 ],
                 [
+                  50.8,
+                  63.2
+                ],
+                [
                   51.4,
                   59.2
                 ],
@@ -38,8 +42,16 @@
                   59.4
                 ],
                 [
+                  51.8,
+                  63.6
+                ],
+                [
                   52,
                   59.6
+                ],
+                [
+                  52.6,
+                  63.6
                 ],
                 [
                   53,
@@ -54,6 +66,10 @@
                   60.6
                 ],
                 [
+                  54.4,
+                  64.2
+                ],
+                [
                   54.6,
                   60.4
                 ],
@@ -62,8 +78,16 @@
                   60.6
                 ],
                 [
+                  55.2,
+                  64.4
+                ],
+                [
                   55.6,
                   60.8
+                ],
+                [
+                  56,
+                  64.8
                 ],
                 [
                   57.4,
@@ -104,6 +128,10 @@
                   62.6
                 ],
                 [
+                  50.8,
+                  63.2
+                ],
+                [
                   51.4,
                   59.2
                 ],
@@ -112,8 +140,16 @@
                   59.4
                 ],
                 [
+                  51.8,
+                  63.6
+                ],
+                [
                   52,
                   59.6
+                ],
+                [
+                  52.6,
+                  63.6
                 ],
                 [
                   53,
@@ -128,6 +164,10 @@
                   60.6
                 ],
                 [
+                  54.4,
+                  64.2
+                ],
+                [
                   54.6,
                   60.4
                 ],
@@ -136,8 +176,16 @@
                   60.6
                 ],
                 [
+                  55.2,
+                  64.4
+                ],
+                [
                   55.6,
                   60.8
+                ],
+                [
+                  56,
+                  64.8
                 ],
                 [
                   57.4,
@@ -169,17 +217,17 @@
             },
             {
               "coord": [
-                56.8,
-                43
+                56.9,
+                42.9
               ],
               "coords": [
                 [
-                  56.2,
-                  43.4
+                  56.9,
+                  42.9
                 ],
                 [
-                  56.8,
-                  43
+                  57.7,
+                  43.7
                 ]
               ],
               "id": 272173,
@@ -215,14 +263,17 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 98427,
-  "races": [],
+  "races": [
+    5,
+    6
+  ],
   "startPins": [
     {
       "npcId": 2988,
       "npcName": "Morin Cloudstalker",
-      "zoneId": 215,
       "x": 53.0,
       "y": 60.2,
+      "zoneId": 215,
       "zoneName": "Mulgore"
     }
   ]

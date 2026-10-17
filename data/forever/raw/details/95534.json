@@ -1,0 +1,139 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-10-17T12:08:35+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 36[/li][li]Requires level 25[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-end]End: [url=/forever/npc=2378/kundric-zanden]Kundric Zanden[/url][/icon][br][span=invisible][icon name=quest-end]End: [/icon][/span][url=/forever/npc=2402/shara-blazen]Shara Blazen[/url][/li][li]Not sharable[/li][li]Difficulty: [color=q10]25[/color][small] &nbsp;[/small][color=r1]32[/color][small] &nbsp;[/small][color=r2]34[/color][small] &nbsp;[/small][color=r3]39[/color][small] &nbsp;[/small][color=r4]45[/color][/li][li]Added in patch [acronym=\"1.60.1.70205\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "267": {
+        "levels": [
+          [
+            {
+              "coord": [
+                48.6,
+                59
+              ],
+              "coords": [
+                [
+                  48.6,
+                  59
+                ],
+                [
+                  48.6,
+                  59.6
+                ]
+              ],
+              "id": 2378,
+              "name": "Kundric Zanden",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                63.6,
+                21
+              ],
+              "coords": [
+                [
+                  63.4,
+                  20.8
+                ],
+                [
+                  63.6,
+                  21
+                ]
+              ],
+              "id": 2402,
+              "name": "Shara Blazen",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Hillsbrad Foothills"
+      },
+      "36": {
+        "levels": [
+          [
+            {
+              "coord": [
+                60,
+                45.6
+              ],
+              "coords": [
+                [
+                  59.4,
+                  46.4
+                ],
+                [
+                  60,
+                  45.4
+                ],
+                [
+                  60,
+                  45.6
+                ],
+                [
+                  60,
+                  46.6
+                ],
+                [
+                  61.4,
+                  46.4
+                ]
+              ],
+              "id": 217305,
+              "name": "Ancient Fire Elemental",
+              "objective": 217305,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Alterac Mountains"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        36,
+        1
+      ],
+      [
+        267,
+        2
+      ]
+    ]
+  },
+  "minLevel": 25,
+  "pageInfo": {
+    "name": "Strahnbrad Mystery",
+    "type": 5,
+    "typeId": 95534
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 95534,
+  "races": [],
+  "startPins": []
+}

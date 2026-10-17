@@ -5,15 +5,15 @@
     "slug": "stormwind-city",
     "sourceSlug": "ek/stormwind-city",
     "sourceUrl": "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city",
-    "sourceFetchedAt": "2026-09-24T23:19:10+00:00",
+    "sourceFetchedAt": "2026-10-17T11:20:21+00:00",
     "zoneId": 1519
   },
-  "questCount": 96,
+  "questCount": 88,
   "quests": {
     "137": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 137,
         "list": {
           "category": 1519,
@@ -44,6 +44,7 @@
         },
         "minLevel": 5,
         "name": "<NYI> <TXT> Stormwind Commendation",
+        "pinCategory": "normal",
         "races": [],
         "sourceKinds": [
           "zone"
@@ -54,12 +55,13 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 0,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:10:24+00:00",
+        "fetchedAt": "2026-10-16T19:54:28+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -70,7 +72,7 @@
           "sharable": true,
           "weekly": false
         },
-        "infoboxMarkup": "[ul][li]Level: 8[/li][li]Requires level 5[/li][li]Side: Both[/li][li]Sharable[/li][li]Difficulty: [color=r1]5[/color][small] &nbsp;[/small][color=r2]6[/color][small] &nbsp;[/small][color=r3]11[/color][small] &nbsp;[/small][color=r4]14[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+        "infoboxMarkup": "[ul][li]Level: 8[/li][li]Requires level 5[/li][li]Side: None[/li][li]Sharable[/li][li]Difficulty: [color=r1]5[/color][small] &nbsp;[/small][color=r2]6[/color][small] &nbsp;[/small][color=r3]11[/color][small] &nbsp;[/small][color=r4]14[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
         "mapper": null,
         "minLevel": 5,
         "pageInfo": {
@@ -89,7 +91,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 212,
         "list": {
           "category": 1519,
@@ -125,6 +127,15 @@
         },
         "minLevel": 35,
         "name": "A Meal Served Cold",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 1141,
+          "npcName": "Angus Stern",
+          "x": 41.4,
+          "y": 89.2,
+          "zoneId": 1519,
+          "zoneName": "Stormwind City"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -135,13 +146,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:11:58+00:00",
+        "fetchedAt": "2026-10-16T20:01:58+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -176,6 +188,10 @@
                       [
                         41.4,
                         89.2
+                      ],
+                      [
+                        51.6,
+                        93.4
                       ]
                     ],
                     "id": 1141,
@@ -202,6 +218,10 @@
                       [
                         41.4,
                         89.2
+                      ],
+                      [
+                        51.6,
+                        93.4
                       ]
                     ],
                     "id": 1141,
@@ -242,9 +262,9 @@
           {
             "npcId": 1141,
             "npcName": "Angus Stern",
-            "zoneId": 1519,
             "x": 41.4,
             "y": 89.2,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -254,7 +274,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 332,
         "list": {
           "category": 1519,
@@ -295,6 +315,15 @@
         },
         "minLevel": 1,
         "name": "Wine Shop Advert",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 1432,
+          "npcName": "Renato Gallina",
+          "x": 57.0,
+          "y": 63.4,
+          "zoneId": 1519,
+          "zoneName": "Stormwind City"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -305,13 +334,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:14:22+00:00",
+        "fetchedAt": "2026-10-16T20:13:39+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -350,6 +380,14 @@
                       [
                         57.6,
                         63.8
+                      ],
+                      [
+                        63.8,
+                        73.4
+                      ],
+                      [
+                        63.8,
+                        73.6
                       ]
                     ],
                     "id": 1432,
@@ -410,9 +448,9 @@
           {
             "npcId": 1432,
             "npcName": "Renato Gallina",
-            "zoneId": 1519,
             "x": 57.0,
             "y": 63.4,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -422,7 +460,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 333,
         "list": {
           "category": 1519,
@@ -458,6 +496,15 @@
         },
         "minLevel": 1,
         "name": "Harlan Needs a Resupply",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 1427,
+          "npcName": "Harlan Bagley",
+          "x": 55.0,
+          "y": 56.0,
+          "zoneId": 1519,
+          "zoneName": "Stormwind City"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -468,13 +515,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:14:23+00:00",
+        "fetchedAt": "2026-10-16T20:13:44+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -501,6 +549,10 @@
                       [
                         55,
                         56
+                      ],
+                      [
+                        62.2,
+                        67.8
                       ]
                     ],
                     "id": 1427,
@@ -573,9 +625,9 @@
           {
             "npcId": 1427,
             "npcName": "Harlan Bagley",
-            "zoneId": 1519,
             "x": 55.0,
             "y": 56.0,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -585,7 +637,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 334,
         "list": {
           "category": 1519,
@@ -621,6 +673,15 @@
         },
         "minLevel": 1,
         "name": "Package for Thurman",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 1428,
+          "npcName": "Rema Schneider",
+          "x": 49.6,
+          "y": 55.4,
+          "zoneId": 1519,
+          "zoneName": "Stormwind City"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -631,13 +692,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:14:24+00:00",
+        "fetchedAt": "2026-10-16T20:13:50+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -702,6 +764,14 @@
                       [
                         42.4,
                         76.4
+                      ],
+                      [
+                        52.4,
+                        83.4
+                      ],
+                      [
+                        52.4,
+                        83.6
                       ]
                     ],
                     "id": 1429,
@@ -740,9 +810,9 @@
           {
             "npcId": 1428,
             "npcName": "Rema Schneider",
-            "zoneId": 1519,
             "x": 49.6,
             "y": 55.4,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -752,7 +822,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 335,
         "list": {
           "category": 1519,
@@ -783,6 +853,15 @@
         },
         "minLevel": 25,
         "name": "A Noble Brew",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 1435,
+          "npcName": "Zardeth of the Black Claw",
+          "x": 26.4,
+          "y": 78.4,
+          "zoneId": 1519,
+          "zoneName": "Stormwind City"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -793,13 +872,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:14:26+00:00",
+        "fetchedAt": "2026-10-16T20:13:54+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -834,6 +914,10 @@
                       [
                         26.6,
                         77.6
+                      ],
+                      [
+                        40,
+                        85
                       ]
                     ],
                     "id": 1435,
@@ -860,6 +944,10 @@
                       [
                         26.6,
                         77.6
+                      ],
+                      [
+                        40,
+                        85
                       ]
                     ],
                     "id": 1435,
@@ -898,9 +986,9 @@
           {
             "npcId": 1435,
             "npcName": "Zardeth of the Black Claw",
-            "zoneId": 1519,
             "x": 26.4,
             "y": 78.4,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -910,7 +998,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 336,
         "list": {
           "category": 1519,
@@ -941,6 +1029,15 @@
         },
         "minLevel": 25,
         "name": "A Noble Brew",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 1435,
+          "npcName": "Zardeth of the Black Claw",
+          "x": 26.4,
+          "y": 78.4,
+          "zoneId": 1519,
+          "zoneName": "Stormwind City"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -951,13 +1048,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:14:27+00:00",
+        "fetchedAt": "2026-10-16T20:13:59+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -992,6 +1090,10 @@
                       [
                         26.6,
                         77.6
+                      ],
+                      [
+                        40,
+                        85
                       ]
                     ],
                     "id": 1435,
@@ -1054,9 +1156,9 @@
           {
             "npcId": 1435,
             "npcName": "Zardeth of the Black Claw",
-            "zoneId": 1519,
             "x": 26.4,
             "y": 78.4,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -1066,7 +1168,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 343,
         "list": {
           "category": 1519,
@@ -1102,6 +1204,15 @@
         },
         "minLevel": 20,
         "name": "Speaking of Fortitude",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 1444,
+          "npcName": "Brother Kristoff",
+          "x": 45.8,
+          "y": 38.6,
+          "zoneId": 1519,
+          "zoneName": "Stormwind City"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -1112,13 +1223,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:14:36+00:00",
+        "fetchedAt": "2026-10-16T20:14:45+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -1161,6 +1273,10 @@
                       [
                         45.8,
                         38.6
+                      ],
+                      [
+                        55,
+                        54.2
                       ]
                     ],
                     "id": 1444,
@@ -1183,6 +1299,10 @@
                       [
                         74,
                         7.6
+                      ],
+                      [
+                        77,
+                        30.4
                       ]
                     ],
                     "id": 1440,
@@ -1221,9 +1341,9 @@
           {
             "npcId": 1444,
             "npcName": "Brother Kristoff",
-            "zoneId": 1519,
             "x": 45.8,
             "y": 38.6,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -1233,7 +1353,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 344,
         "list": {
           "category": 1519,
@@ -1269,6 +1389,15 @@
         },
         "minLevel": 20,
         "name": "Brother Paxton",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 1440,
+          "npcName": "Milton Sheaf",
+          "x": 74.0,
+          "y": 7.6,
+          "zoneId": 1519,
+          "zoneName": "Stormwind City"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -1279,13 +1408,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:14:37+00:00",
+        "fetchedAt": "2026-10-16T20:14:50+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -1346,6 +1476,10 @@
                       [
                         74,
                         7.6
+                      ],
+                      [
+                        77,
+                        30.4
                       ]
                     ],
                     "id": 1440,
@@ -1388,9 +1522,9 @@
           {
             "npcId": 1440,
             "npcName": "Milton Sheaf",
-            "zoneId": 1519,
             "x": 74.0,
             "y": 7.6,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -1400,7 +1534,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 345,
         "list": {
           "category": 1519,
@@ -1436,6 +1570,15 @@
         },
         "minLevel": 20,
         "name": "Ink Supplies",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 951,
+          "npcName": "Brother Paxton",
+          "x": 49.4,
+          "y": 40.4,
+          "zoneId": 12,
+          "zoneName": "Elwynn Forest"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -1446,13 +1589,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:14:38+00:00",
+        "fetchedAt": "2026-10-16T20:14:55+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -1507,15 +1651,19 @@
                     ],
                     "coords": [
                       [
+                        27,
+                        48.4
+                      ],
+                      [
+                        27,
+                        48.6
+                      ],
+                      [
                         32,
                         48.4
                       ],
                       [
                         32.2,
-                        48.6
-                      ],
-                      [
-                        32.6,
                         48.6
                       ]
                     ],
@@ -1559,9 +1707,9 @@
           {
             "npcId": 951,
             "npcName": "Brother Paxton",
-            "zoneId": 12,
             "x": 49.4,
             "y": 40.4,
+            "zoneId": 12,
             "zoneName": "Elwynn Forest"
           }
         ]
@@ -1571,7 +1719,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 346,
         "list": {
           "category": 1519,
@@ -1612,6 +1760,15 @@
         },
         "minLevel": 20,
         "name": "Return to Kristoff",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 951,
+          "npcName": "Brother Paxton",
+          "x": 49.4,
+          "y": 40.4,
+          "zoneId": 12,
+          "zoneName": "Elwynn Forest"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -1622,13 +1779,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:14:39+00:00",
+        "fetchedAt": "2026-10-16T20:15:00+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -1701,6 +1859,10 @@
                       [
                         45.8,
                         38.6
+                      ],
+                      [
+                        55,
+                        54.2
                       ]
                     ],
                     "id": 1444,
@@ -1743,9 +1905,9 @@
           {
             "npcId": 951,
             "npcName": "Brother Paxton",
-            "zoneId": 12,
             "x": 49.4,
             "y": 40.4,
+            "zoneId": 12,
             "zoneName": "Elwynn Forest"
           }
         ]
@@ -1755,7 +1917,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 347,
         "list": {
           "category": 1519,
@@ -1791,6 +1953,15 @@
         },
         "minLevel": 20,
         "name": "Rethban Ore",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 341,
+          "npcName": "Foreman Oslow",
+          "x": 32.2,
+          "y": 48.6,
+          "zoneId": 44,
+          "zoneName": "Redridge Mountains"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -1801,13 +1972,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:14:41+00:00",
+        "fetchedAt": "2026-10-16T20:15:05+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -1862,15 +2034,19 @@
                     ],
                     "coords": [
                       [
+                        27,
+                        48.4
+                      ],
+                      [
+                        27,
+                        48.6
+                      ],
+                      [
                         32,
                         48.4
                       ],
                       [
                         32.2,
-                        48.6
-                      ],
-                      [
-                        32.6,
                         48.6
                       ]
                     ],
@@ -1887,6 +2063,78 @@
                       27.8
                     ],
                     "coords": [
+                      [
+                        10.4,
+                        20.2
+                      ],
+                      [
+                        10.6,
+                        20.1
+                      ],
+                      [
+                        10.6,
+                        20.5
+                      ],
+                      [
+                        11.3,
+                        22.1
+                      ],
+                      [
+                        11.5,
+                        21.9
+                      ],
+                      [
+                        11.6,
+                        18.5
+                      ],
+                      [
+                        12.4,
+                        19.5
+                      ],
+                      [
+                        12.8,
+                        19.8
+                      ],
+                      [
+                        13.3,
+                        15.3
+                      ],
+                      [
+                        13.3,
+                        23.3
+                      ],
+                      [
+                        13.3,
+                        23.7
+                      ],
+                      [
+                        13.7,
+                        24.3
+                      ],
+                      [
+                        13.9,
+                        25.1
+                      ],
+                      [
+                        14.5,
+                        24
+                      ],
+                      [
+                        14.8,
+                        27.4
+                      ],
+                      [
+                        15,
+                        20.6
+                      ],
+                      [
+                        15.6,
+                        28.4
+                      ],
+                      [
+                        15.6,
+                        28.8
+                      ],
                       [
                         15.8,
                         19.4
@@ -1912,16 +2160,36 @@
                         21.6
                       ],
                       [
+                        16.2,
+                        23.7
+                      ],
+                      [
+                        16.7,
+                        14.6
+                      ],
+                      [
+                        16.8,
+                        14.4
+                      ],
+                      [
+                        16.9,
+                        16.5
+                      ],
+                      [
                         17,
                         22.2
                       ],
                       [
                         17.2,
-                        17.4
+                        17.6
                       ],
                       [
                         17.2,
-                        17.6
+                        19.4
+                      ],
+                      [
+                        17.2,
+                        20.7
                       ],
                       [
                         17.4,
@@ -2082,9 +2350,9 @@
           {
             "npcId": 341,
             "npcName": "Foreman Oslow",
-            "zoneId": 44,
             "x": 32.2,
             "y": 48.6,
+            "zoneId": 44,
             "zoneName": "Redridge Mountains"
           }
         ]
@@ -2094,7 +2362,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 350,
         "list": {
           "category": 1519,
@@ -2125,6 +2393,15 @@
         },
         "minLevel": 16,
         "name": "Look to an Old Friend",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 332,
+          "npcName": "Master Mathias Shaw",
+          "x": 75.8,
+          "y": 59.8,
+          "zoneId": 1519,
+          "zoneName": "Stormwind City"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -2135,13 +2412,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:14:44+00:00",
+        "fetchedAt": "2026-10-16T20:15:20+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -2168,6 +2446,14 @@
                       [
                         75.8,
                         59.8
+                      ],
+                      [
+                        78.4,
+                        70.6
+                      ],
+                      [
+                        78.6,
+                        70.6
                       ]
                     ],
                     "id": 332,
@@ -2190,6 +2476,10 @@
                       [
                         60.2,
                         64.6
+                      ],
+                      [
+                        66.2,
+                        74.2
                       ]
                     ],
                     "id": 482,
@@ -2240,9 +2530,9 @@
           {
             "npcId": 332,
             "npcName": "Master Mathias Shaw",
-            "zoneId": 1519,
             "x": 75.8,
             "y": 59.8,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -2252,7 +2542,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 353,
         "list": {
           "category": 1519,
@@ -2288,6 +2578,15 @@
         },
         "minLevel": 9,
         "name": "Stormpike's Delivery",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 1416,
+          "npcName": "Grimand Elmore",
+          "x": 51.6,
+          "y": 12.2,
+          "zoneId": 1519,
+          "zoneName": "Stormwind City"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -2298,13 +2597,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:14:48+00:00",
+        "fetchedAt": "2026-10-16T20:15:46+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -2410,9 +2710,9 @@
           {
             "npcId": 1416,
             "npcName": "Grimand Elmore",
-            "zoneId": 1519,
             "x": 51.6,
             "y": 12.2,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -2422,7 +2722,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 373,
         "list": {
           "category": 1519,
@@ -2458,6 +2758,7 @@
         },
         "minLevel": 16,
         "name": "The Unsent Letter",
+        "pinCategory": "instance",
         "races": [],
         "sourceKinds": [
           "zone"
@@ -2468,16 +2769,17 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 0,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:15:13+00:00",
+        "fetchedAt": "2026-10-16T20:17:47+00:00",
         "infoboxFlags": {
           "daily": false,
-          "dungeon": false,
+          "dungeon": true,
           "monthly": false,
           "pvp": false,
           "raid": false,
@@ -2485,7 +2787,7 @@
           "sharable": true,
           "weekly": false
         },
-        "infoboxMarkup": "[ul][li]Level: 22[/li][li]Requires level 16[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-end]End: [url=/forever/npc=1646/baros-alexston]Baros Alexston[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]16[/color][small] &nbsp;[/small][color=r1]18[/color][small] &nbsp;[/small][color=r2]20[/color][small] &nbsp;[/small][color=r3]25[/color][small] &nbsp;[/small][color=r4]29[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+        "infoboxMarkup": "[ul][li]Level: 22[/li][li]Requires level 16[/li][li]Type: Dungeon[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-end]End: [url=/forever/npc=1646/baros-alexston]Baros Alexston[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]16[/color][small] &nbsp;[/small][color=r1]18[/color][small] &nbsp;[/small][color=r2]20[/color][small] &nbsp;[/small][color=r3]25[/color][small] &nbsp;[/small][color=r4]29[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
         "mapper": {
           "missing": 0,
           "objectives": {
@@ -2501,6 +2803,14 @@
                       [
                         49,
                         30.2
+                      ],
+                      [
+                        57.4,
+                        47.8
+                      ],
+                      [
+                        57.6,
+                        47.8
                       ]
                     ],
                     "id": 1646,
@@ -2531,7 +2841,7 @@
           "type": 5,
           "typeId": 373
         },
-        "pinCategory": "normal",
+        "pinCategory": "instance",
         "prerequisiteQuestIds": [
           350,
           389,
@@ -2554,7 +2864,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 389,
         "list": {
           "category": 1519,
@@ -2585,6 +2895,15 @@
         },
         "minLevel": 16,
         "name": "Bazil Thredd",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 1646,
+          "npcName": "Baros Alexston",
+          "x": 49.0,
+          "y": 30.2,
+          "zoneId": 1519,
+          "zoneName": "Stormwind City"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -2595,13 +2914,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:15:33+00:00",
+        "fetchedAt": "2026-10-16T20:19:17+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -2628,6 +2948,14 @@
                       [
                         49,
                         30.2
+                      ],
+                      [
+                        57.4,
+                        47.8
+                      ],
+                      [
+                        57.6,
+                        47.8
                       ]
                     ],
                     "id": 1646,
@@ -2654,6 +2982,14 @@
                       [
                         41.6,
                         58.2
+                      ],
+                      [
+                        51.4,
+                        69.2
+                      ],
+                      [
+                        51.6,
+                        69.4
                       ]
                     ],
                     "id": 1719,
@@ -2704,9 +3040,9 @@
           {
             "npcId": 1646,
             "npcName": "Baros Alexston",
-            "zoneId": 1519,
             "x": 49.0,
             "y": 30.2,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -2716,7 +3052,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 392,
         "list": {
           "category": 1519,
@@ -2752,6 +3088,15 @@
         },
         "minLevel": 16,
         "name": "The Curious Visitor",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 1719,
+          "npcName": "Warden Thelwater",
+          "x": 41.2,
+          "y": 58.0,
+          "zoneId": 1519,
+          "zoneName": "Stormwind City"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -2762,13 +3107,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:15:37+00:00",
+        "fetchedAt": "2026-10-16T20:19:43+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -2803,6 +3149,14 @@
                       [
                         41.6,
                         58.2
+                      ],
+                      [
+                        51.4,
+                        69.2
+                      ],
+                      [
+                        51.6,
+                        69.4
                       ]
                     ],
                     "id": 1719,
@@ -2821,6 +3175,14 @@
                       [
                         49,
                         30.2
+                      ],
+                      [
+                        57.4,
+                        47.8
+                      ],
+                      [
+                        57.6,
+                        47.8
                       ]
                     ],
                     "id": 1646,
@@ -2871,9 +3233,9 @@
           {
             "npcId": 1719,
             "npcName": "Warden Thelwater",
-            "zoneId": 1519,
             "x": 41.2,
             "y": 58.0,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -2883,7 +3245,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 393,
         "list": {
           "category": 1519,
@@ -2919,6 +3281,15 @@
         },
         "minLevel": 16,
         "name": "Shadow of the Past",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 1646,
+          "npcName": "Baros Alexston",
+          "x": 49.0,
+          "y": 30.2,
+          "zoneId": 1519,
+          "zoneName": "Stormwind City"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -2929,13 +3300,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:15:38+00:00",
+        "fetchedAt": "2026-10-16T20:19:48+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -2962,6 +3334,14 @@
                       [
                         49,
                         30.2
+                      ],
+                      [
+                        57.4,
+                        47.8
+                      ],
+                      [
+                        57.6,
+                        47.8
                       ]
                     ],
                     "id": 1646,
@@ -2980,6 +3360,14 @@
                       [
                         75.8,
                         59.8
+                      ],
+                      [
+                        78.4,
+                        70.6
+                      ],
+                      [
+                        78.6,
+                        70.6
                       ]
                     ],
                     "id": 332,
@@ -3030,9 +3418,9 @@
           {
             "npcId": 1646,
             "npcName": "Baros Alexston",
-            "zoneId": 1519,
             "x": 49.0,
             "y": 30.2,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -3042,7 +3430,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 394,
         "list": {
           "category": 1519,
@@ -3073,6 +3461,15 @@
         },
         "minLevel": 16,
         "name": "The Head of the Beast",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 482,
+          "npcName": "Elling Trias",
+          "x": 60.0,
+          "y": 64.4,
+          "zoneId": 1519,
+          "zoneName": "Stormwind City"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -3083,13 +3480,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:15:39+00:00",
+        "fetchedAt": "2026-10-16T20:19:53+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -3120,6 +3518,10 @@
                       [
                         60.2,
                         64.6
+                      ],
+                      [
+                        66.2,
+                        74.2
                       ]
                     ],
                     "id": 482,
@@ -3138,6 +3540,14 @@
                       [
                         75.8,
                         59.8
+                      ],
+                      [
+                        78.4,
+                        70.6
+                      ],
+                      [
+                        78.6,
+                        70.6
                       ]
                     ],
                     "id": 332,
@@ -3188,9 +3598,9 @@
           {
             "npcId": 482,
             "npcName": "Elling Trias",
-            "zoneId": 1519,
             "x": 60.0,
             "y": 64.4,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -3200,7 +3610,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 395,
         "list": {
           "category": 1519,
@@ -3236,6 +3646,15 @@
         },
         "minLevel": 16,
         "name": "Brotherhood's End",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 332,
+          "npcName": "Master Mathias Shaw",
+          "x": 75.8,
+          "y": 59.8,
+          "zoneId": 1519,
+          "zoneName": "Stormwind City"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -3246,13 +3665,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:15:41+00:00",
+        "fetchedAt": "2026-10-16T20:19:58+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -3279,6 +3699,14 @@
                       [
                         75.8,
                         59.8
+                      ],
+                      [
+                        78.4,
+                        70.6
+                      ],
+                      [
+                        78.6,
+                        70.6
                       ]
                     ],
                     "id": 332,
@@ -3297,6 +3725,14 @@
                       [
                         49,
                         30.2
+                      ],
+                      [
+                        57.4,
+                        47.8
+                      ],
+                      [
+                        57.6,
+                        47.8
                       ]
                     ],
                     "id": 1646,
@@ -3347,9 +3783,9 @@
           {
             "npcId": 332,
             "npcName": "Master Mathias Shaw",
-            "zoneId": 1519,
             "x": 75.8,
             "y": 59.8,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -3359,7 +3795,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 396,
         "list": {
           "category": 1519,
@@ -3400,6 +3836,15 @@
         },
         "minLevel": 16,
         "name": "An Audience with the King",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 1646,
+          "npcName": "Baros Alexston",
+          "x": 49.0,
+          "y": 30.2,
+          "zoneId": 1519,
+          "zoneName": "Stormwind City"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -3410,13 +3855,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:15:42+00:00",
+        "fetchedAt": "2026-10-16T20:20:03+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -3443,6 +3889,14 @@
                       [
                         49,
                         30.2
+                      ],
+                      [
+                        57.4,
+                        47.8
+                      ],
+                      [
+                        57.6,
+                        47.8
                       ]
                     ],
                     "id": 1646,
@@ -3458,10 +3912,6 @@
                       17.8
                     ],
                     "coords": [
-                      [
-                        77.4,
-                        17.4
-                      ],
                       [
                         77.4,
                         18.2
@@ -3481,6 +3931,10 @@
                       [
                         78.6,
                         17.2
+                      ],
+                      [
+                        80,
+                        38.4
                       ]
                     ],
                     "id": 1749,
@@ -3532,9 +3986,9 @@
           {
             "npcId": 1646,
             "npcName": "Baros Alexston",
-            "zoneId": 1519,
             "x": 49.0,
             "y": 30.2,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -3546,7 +4000,7 @@
           9
         ],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 397,
         "list": {
           "category": 1519,
@@ -3582,6 +4036,15 @@
         },
         "minLevel": 25,
         "name": "You Have Served Us Well",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 1435,
+          "npcName": "Zardeth of the Black Claw",
+          "x": 26.4,
+          "y": 78.4,
+          "zoneId": 1519,
+          "zoneName": "Stormwind City"
+        },
         "races": [
           1,
           7
@@ -3595,6 +4058,7 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
@@ -3603,7 +4067,7 @@
           9
         ],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:15:43+00:00",
+        "fetchedAt": "2026-10-16T20:20:08+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -3638,6 +4102,10 @@
                       [
                         26.6,
                         77.6
+                      ],
+                      [
+                        40,
+                        85
                       ]
                     ],
                     "id": 1435,
@@ -3668,6 +4136,10 @@
                       [
                         26.6,
                         78.6
+                      ],
+                      [
+                        40.2,
+                        85
                       ]
                     ],
                     "id": 1733,
@@ -3709,9 +4181,9 @@
           {
             "npcId": 1435,
             "npcName": "Zardeth of the Black Claw",
-            "zoneId": 1519,
             "x": 26.4,
             "y": 78.4,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -3721,7 +4193,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 399,
         "list": {
           "category": 1519,
@@ -3757,6 +4229,15 @@
         },
         "minLevel": 10,
         "name": "Humble Beginnings",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 1646,
+          "npcName": "Baros Alexston",
+          "x": 49.0,
+          "y": 30.2,
+          "zoneId": 1519,
+          "zoneName": "Stormwind City"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -3767,13 +4248,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:15:46+00:00",
+        "fetchedAt": "2026-10-16T20:20:18+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -3800,6 +4282,14 @@
                       [
                         49,
                         30.2
+                      ],
+                      [
+                        57.4,
+                        47.8
+                      ],
+                      [
+                        57.6,
+                        47.8
                       ]
                     ],
                     "id": 1646,
@@ -3818,6 +4308,14 @@
                       [
                         49,
                         30.2
+                      ],
+                      [
+                        57.4,
+                        47.8
+                      ],
+                      [
+                        57.6,
+                        47.8
                       ]
                     ],
                     "id": 1646,
@@ -3856,9 +4354,9 @@
           {
             "npcId": 1646,
             "npcName": "Baros Alexston",
-            "zoneId": 1519,
             "x": 49.0,
             "y": 30.2,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -3868,7 +4366,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 434,
         "list": {
           "category": 1519,
@@ -3904,6 +4402,15 @@
         },
         "minLevel": 16,
         "name": "The Attack!",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 7766,
+          "npcName": "Tyrion",
+          "x": 69.2,
+          "y": 14.6,
+          "zoneId": 1519,
+          "zoneName": "Stormwind City"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -3914,13 +4421,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:16:28+00:00",
+        "fetchedAt": "2026-10-16T20:23:50+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -3931,7 +4439,7 @@
           "sharable": true,
           "weekly": false
         },
-        "infoboxMarkup": "[ul][li]Level: 31[/li][li]Requires level 16[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=7766/tyrion]Tyrion[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=482/elling-trias]Elling Trias[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]16[/color][small] &nbsp;[/small][color=r1]27[/color][small] &nbsp;[/small][color=r2]29[/color][small] &nbsp;[/small][color=r3]34[/color][small] &nbsp;[/small][color=r4]39[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+        "infoboxMarkup": "[ul][li]Level: 31[/li][li]Requires level 16[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=7766/tyrion]Tyrion[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=482/elling-trias]Elling Trias[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]16[/color][small] &nbsp;[/small][color=r1]27[/color][small] &nbsp;[/small][color=r2]29[/color][small] &nbsp;[/small][color=r3]34[/color][small] &nbsp;[/small][color=r4]39[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
         "mapper": {
           "missing": 1,
           "objectives": {
@@ -3963,6 +4471,10 @@
                       [
                         69.2,
                         14.6
+                      ],
+                      [
+                        73.2,
+                        35.6
                       ]
                     ],
                     "id": 7766,
@@ -3985,6 +4497,10 @@
                       [
                         60.2,
                         64.6
+                      ],
+                      [
+                        66.2,
+                        74.2
                       ]
                     ],
                     "id": 482,
@@ -4000,10 +4516,6 @@
                       14.6
                     ],
                     "coords": [
-                      [
-                        67.4,
-                        14.4
-                      ],
                       [
                         68,
                         14.2
@@ -4031,6 +4543,10 @@
                       [
                         68.8,
                         15.6
+                      ],
+                      [
+                        72.3,
+                        35.1
                       ],
                       [
                         72.8,
@@ -4098,6 +4614,18 @@
                       [
                         69.4,
                         12.4
+                      ],
+                      [
+                        72.2,
+                        35.2
+                      ],
+                      [
+                        72.5,
+                        35.8
+                      ],
+                      [
+                        73,
+                        36.8
                       ]
                     ],
                     "id": 1755,
@@ -4149,9 +4677,9 @@
           {
             "npcId": 7766,
             "npcName": "Tyrion",
-            "zoneId": 1519,
             "x": 69.2,
             "y": 14.6,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -4161,7 +4689,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 538,
         "list": {
           "category": 1519,
@@ -4197,6 +4725,15 @@
         },
         "minLevel": 20,
         "name": "Southshore",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 1440,
+          "npcName": "Milton Sheaf",
+          "x": 74.0,
+          "y": 7.6,
+          "zoneId": 1519,
+          "zoneName": "Stormwind City"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -4207,13 +4744,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:18:37+00:00",
+        "fetchedAt": "2026-10-16T20:34:11+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -4244,6 +4782,10 @@
                       [
                         74,
                         7.6
+                      ],
+                      [
+                        77,
+                        30.4
                       ]
                     ],
                     "id": 1440,
@@ -4316,247 +4858,10 @@
           {
             "npcId": 1440,
             "npcName": "Milton Sheaf",
-            "zoneId": 1519,
             "x": 74.0,
             "y": 7.6,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
-          }
-        ]
-      }
-    },
-    "540": {
-      "index": {
-        "classes": [],
-        "faction": "Alliance",
-        "hasDetail": false,
-        "id": 540,
-        "list": {
-          "category": 1519,
-          "category2": 0,
-          "currencychoicerewards": [],
-          "currencyrewards": [],
-          "envChange": {
-            "labels": [],
-            "lines": [],
-            "status": "unchanged"
-          },
-          "firstseenpatch": 11302,
-          "icon": "quest-start",
-          "id": 540,
-          "itemchoices": [],
-          "itemrewards": [],
-          "level": 38,
-          "money": 0,
-          "name": "Preserving Knowledge",
-          "popularity": 90,
-          "reprewards": [
-            [
-              72,
-              150
-            ]
-          ],
-          "reqclass": 0,
-          "reqlevel": 20,
-          "side": 1,
-          "titlereward": 0,
-          "type": 1,
-          "xp": 3550
-        },
-        "minLevel": 20,
-        "name": "Preserving Knowledge",
-        "races": [],
-        "sourceKinds": [
-          "zone"
-        ],
-        "sourceSlugs": [
-          "ek/stormwind-city"
-        ],
-        "sourceUrls": [
-          "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
-        ],
-        "zoneId": 1519,
-        "zoneId2": 0
-      },
-      "detail": {
-        "classes": [],
-        "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:18:40+00:00",
-        "infoboxFlags": {
-          "daily": false,
-          "dungeon": false,
-          "monthly": false,
-          "pvp": false,
-          "raid": false,
-          "repeatable": false,
-          "sharable": true,
-          "weekly": false
-        },
-        "infoboxMarkup": "[ul][li]Level: 38[/li][li]Requires level 20[/li][li]Type: Elite[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=2277/loremaster-dibbs]Loremaster Dibbs[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2277/loremaster-dibbs]Loremaster Dibbs[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]20[/color][small] &nbsp;[/small][color=r1]34[/color][small] &nbsp;[/small][color=r2]36[/color][small] &nbsp;[/small][color=r3]41[/color][small] &nbsp;[/small][color=r4]47[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
-        "mapper": {
-          "missing": 1,
-          "objectives": {
-            "267": {
-              "levels": [
-                [
-                  {
-                    "coord": [
-                      50.4,
-                      57
-                    ],
-                    "coords": [
-                      [
-                        50.4,
-                        57
-                      ],
-                      [
-                        50.6,
-                        57
-                      ]
-                    ],
-                    "id": 2277,
-                    "name": "Loremaster Dibbs",
-                    "point": "start",
-                    "reactalliance": 1,
-                    "reacthorde": -1,
-                    "type": 1
-                  },
-                  {
-                    "coord": [
-                      50.4,
-                      57
-                    ],
-                    "coords": [
-                      [
-                        50.4,
-                        57
-                      ],
-                      [
-                        50.6,
-                        57
-                      ]
-                    ],
-                    "id": 2277,
-                    "name": "Loremaster Dibbs",
-                    "point": "end",
-                    "reactalliance": 1,
-                    "reacthorde": -1,
-                    "type": 1
-                  }
-                ]
-              ],
-              "mappable": 1,
-              "zone": "Hillsbrad Foothills"
-            },
-            "36": {
-              "levels": [
-                [
-                  {
-                    "coord": [
-                      38.8,
-                      47.2
-                    ],
-                    "coords": [
-                      [
-                        38.4,
-                        46.4
-                      ],
-                      [
-                        38.6,
-                        46.4
-                      ],
-                      [
-                        38.6,
-                        47.6
-                      ],
-                      [
-                        38.8,
-                        47.2
-                      ],
-                      [
-                        40,
-                        46.6
-                      ],
-                      [
-                        40.2,
-                        46.4
-                      ]
-                    ],
-                    "id": 2421,
-                    "item": "Worn Leather Book",
-                    "name": "Muckrake",
-                    "objective": 1,
-                    "point": "sourcerequirement",
-                    "reactalliance": -1,
-                    "reacthorde": -1,
-                    "type": 1
-                  },
-                  {
-                    "coord": [
-                      38.5,
-                      46.4
-                    ],
-                    "coords": [
-                      [
-                        38.4,
-                        46.2
-                      ],
-                      [
-                        38.4,
-                        46.6
-                      ],
-                      [
-                        38.5,
-                        46.4
-                      ],
-                      [
-                        38.5,
-                        46.5
-                      ]
-                    ],
-                    "id": 1760,
-                    "item": "Worn Leather Book",
-                    "name": "Weathered Bookcase",
-                    "objective": 1,
-                    "point": "sourcerequirement",
-                    "type": 2
-                  }
-                ]
-              ],
-              "mappable": 1,
-              "zone": "Alterac Mountains"
-            }
-          },
-          "parent": "fweiuasf",
-          "zoneparent": "lksjdowlha",
-          "zones": [
-            [
-              267,
-              1
-            ],
-            [
-              36,
-              2
-            ]
-          ]
-        },
-        "minLevel": 20,
-        "pageInfo": {
-          "name": "Preserving Knowledge",
-          "type": 5,
-          "typeId": 540
-        },
-        "pinCategory": "normal",
-        "prerequisiteQuestIds": [],
-        "questId": 540,
-        "races": [],
-        "startPins": [
-          {
-            "npcId": 2277,
-            "npcName": "Loremaster Dibbs",
-            "zoneId": 267,
-            "x": 50.4,
-            "y": 57.0,
-            "zoneName": "Hillsbrad Foothills"
           }
         ]
       }
@@ -4565,7 +4870,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 542,
         "list": {
           "category": 1519,
@@ -4601,6 +4906,15 @@
         },
         "minLevel": 20,
         "name": "Return to Milton",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2277,
+          "npcName": "Loremaster Dibbs",
+          "x": 50.4,
+          "y": 57.0,
+          "zoneId": 267,
+          "zoneName": "Hillsbrad Foothills"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -4611,13 +4925,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:18:42+00:00",
+        "fetchedAt": "2026-10-16T20:34:31+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -4648,6 +4963,10 @@
                       [
                         74,
                         7.6
+                      ],
+                      [
+                        77,
+                        30.4
                       ]
                     ],
                     "id": 1440,
@@ -4720,9 +5039,9 @@
           {
             "npcId": 2277,
             "npcName": "Loremaster Dibbs",
-            "zoneId": 267,
             "x": 50.4,
             "y": 57.0,
+            "zoneId": 267,
             "zoneName": "Hillsbrad Foothills"
           }
         ]
@@ -4732,7 +5051,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 543,
         "list": {
           "category": 1519,
@@ -4768,6 +5087,15 @@
         },
         "minLevel": 30,
         "name": "The Perenolde Tiara",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2285,
+          "npcName": "Count Remington Ridgewell",
+          "x": 74.0,
+          "y": 30.0,
+          "zoneId": 1519,
+          "zoneName": "Stormwind City"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -4778,13 +5106,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:18:43+00:00",
+        "fetchedAt": "2026-10-16T20:34:51+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -4875,9 +5204,9 @@
           {
             "npcId": 2285,
             "npcName": "Count Remington Ridgewell",
-            "zoneId": 1519,
             "x": 74.0,
             "y": 30.0,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -4887,7 +5216,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 579,
         "list": {
           "category": 1519,
@@ -4927,6 +5256,15 @@
         },
         "minLevel": 1,
         "name": "Stormwind Library",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2504,
+          "npcName": "Donyal Tovald",
+          "x": 71.6,
+          "y": 7.4,
+          "zoneId": 1519,
+          "zoneName": "Stormwind City"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -4937,13 +5275,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:19:28+00:00",
+        "fetchedAt": "2026-10-16T20:38:18+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -4974,6 +5313,18 @@
                       [
                         71.6,
                         7.6
+                      ],
+                      [
+                        75.2,
+                        30.2
+                      ],
+                      [
+                        75.2,
+                        30.8
+                      ],
+                      [
+                        75.6,
+                        29.8
                       ]
                     ],
                     "id": 2504,
@@ -4996,6 +5347,18 @@
                       [
                         71.6,
                         7.6
+                      ],
+                      [
+                        75.2,
+                        30.2
+                      ],
+                      [
+                        75.2,
+                        30.8
+                      ],
+                      [
+                        75.6,
+                        29.8
                       ]
                     ],
                     "id": 2504,
@@ -5034,9 +5397,9 @@
           {
             "npcId": 2504,
             "npcName": "Donyal Tovald",
-            "zoneId": 1519,
             "x": 71.6,
             "y": 7.4,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -5046,7 +5409,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 690,
         "list": {
           "category": 1519,
@@ -5082,6 +5445,15 @@
         },
         "minLevel": 30,
         "name": "Malin's Request",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2708,
+          "npcName": "Archmage Malin",
+          "x": 39.8,
+          "y": 81.2,
+          "zoneId": 1519,
+          "zoneName": "Stormwind City"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -5092,13 +5464,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:21:46+00:00",
+        "fetchedAt": "2026-10-16T20:49:25+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -5141,6 +5514,14 @@
                       [
                         39.8,
                         81.6
+                      ],
+                      [
+                        50.4,
+                        87.2
+                      ],
+                      [
+                        50.6,
+                        87.2
                       ]
                     ],
                     "id": 2708,
@@ -5213,9 +5594,9 @@
           {
             "npcId": 2708,
             "npcName": "Archmage Malin",
-            "zoneId": 1519,
             "x": 39.8,
             "y": 81.2,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -5225,7 +5606,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 1015,
         "list": {
           "category": 1519,
@@ -5256,6 +5637,15 @@
         },
         "minLevel": 54,
         "name": "The New Frontier",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2198,
+          "npcName": "Crier Goodman",
+          "x": 55.0,
+          "y": 62.8,
+          "zoneId": 1519,
+          "zoneName": "Stormwind City"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -5266,13 +5656,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:28:25+00:00",
+        "fetchedAt": "2026-10-16T21:21:58+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -5679,9 +6070,9 @@
           {
             "npcId": 2198,
             "npcName": "Crier Goodman",
-            "zoneId": 1519,
             "x": 55.0,
             "y": 62.8,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -5748,7 +6139,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:27:30+00:00",
+        "fetchedAt": "2026-10-16T21:30:22+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -5837,6 +6228,10 @@
                     ],
                     "coords": [
                       [
+                        26,
+                        47.4
+                      ],
+                      [
                         31,
                         47.4
                       ],
@@ -5891,17 +6286,17 @@
           {
             "npcId": 415,
             "npcName": "Verner Osgood",
-            "zoneId": 44,
             "x": 31.0,
             "y": 47.4,
+            "zoneId": 44,
             "zoneName": "Redridge Mountains"
           },
           {
             "npcId": 514,
             "npcName": "Smith Argus",
-            "zoneId": 12,
             "x": 41.6,
             "y": 65.6,
+            "zoneId": 12,
             "zoneName": "Elwynn Forest"
           }
         ]
@@ -5968,7 +6363,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:38:57+00:00",
+        "fetchedAt": "2026-10-16T21:42:00+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -6003,6 +6398,10 @@
                       [
                         78.2,
                         25.6
+                      ],
+                      [
+                        80,
+                        43.8
                       ]
                     ],
                     "id": 4960,
@@ -6025,6 +6424,10 @@
                       [
                         73,
                         78.6
+                      ],
+                      [
+                        76.2,
+                        85.2
                       ]
                     ],
                     "id": 4959,
@@ -6063,9 +6466,9 @@
           {
             "npcId": 4960,
             "npcName": "Bishop DeLavey",
-            "zoneId": 1519,
             "x": 78.2,
             "y": 25.2,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -6132,7 +6535,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:39:02+00:00",
+        "fetchedAt": "2026-10-16T21:42:05+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -6163,6 +6566,10 @@
                       [
                         73,
                         78.6
+                      ],
+                      [
+                        76.2,
+                        85.2
                       ]
                     ],
                     "id": 4959,
@@ -6185,6 +6592,10 @@
                       [
                         60.2,
                         64.6
+                      ],
+                      [
+                        66.2,
+                        74.2
                       ]
                     ],
                     "id": 482,
@@ -6223,9 +6634,9 @@
           {
             "npcId": 4959,
             "npcName": "Jorgen",
-            "zoneId": 1519,
             "x": 73.0,
             "y": 78.6,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -6292,7 +6703,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:39:07+00:00",
+        "fetchedAt": "2026-10-16T21:42:10+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -6409,6 +6820,10 @@
                       [
                         60.2,
                         64.6
+                      ],
+                      [
+                        66.2,
+                        74.2
                       ]
                     ],
                     "id": 482,
@@ -6451,9 +6866,9 @@
           {
             "npcId": 482,
             "npcName": "Elling Trias",
-            "zoneId": 1519,
             "x": 60.0,
             "y": 64.4,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -6520,7 +6935,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:39:27+00:00",
+        "fetchedAt": "2026-10-16T21:42:15+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -6723,9 +7138,9 @@
           {
             "npcId": 840,
             "npcName": "Watcher Backus",
-            "zoneId": 10,
             "x": 74.4,
             "y": 40.8,
+            "zoneId": 10,
             "zoneName": "Duskwood"
           }
         ]
@@ -6792,7 +7207,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:39:28+00:00",
+        "fetchedAt": "2026-10-16T21:42:20+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -6909,6 +7324,10 @@
                       [
                         60.2,
                         64.6
+                      ],
+                      [
+                        66.2,
+                        74.2
                       ]
                     ],
                     "id": 482,
@@ -6951,9 +7370,9 @@
           {
             "npcId": 840,
             "npcName": "Watcher Backus",
-            "zoneId": 10,
             "x": 74.4,
             "y": 40.8,
+            "zoneId": 10,
             "zoneName": "Duskwood"
           }
         ]
@@ -7020,7 +7439,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:39:33+00:00",
+        "fetchedAt": "2026-10-16T21:42:25+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7051,6 +7470,10 @@
                       [
                         60.2,
                         64.6
+                      ],
+                      [
+                        66.2,
+                        74.2
                       ]
                     ],
                     "id": 482,
@@ -7067,16 +7490,20 @@
                     ],
                     "coords": [
                       [
-                        69.8,
-                        44.4
-                      ],
-                      [
                         70.2,
                         44.8
                       ],
                       [
                         70.6,
                         44.8
+                      ],
+                      [
+                        73.7,
+                        59.6
+                      ],
+                      [
+                        74.2,
+                        59.1
                       ]
                     ],
                     "id": 4961,
@@ -7115,9 +7542,9 @@
           {
             "npcId": 482,
             "npcName": "Elling Trias",
-            "zoneId": 1519,
             "x": 60.0,
             "y": 64.4,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -7184,7 +7611,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:39:38+00:00",
+        "fetchedAt": "2026-10-16T21:42:30+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7209,16 +7636,20 @@
                     ],
                     "coords": [
                       [
-                        69.8,
-                        44.4
-                      ],
-                      [
                         70.2,
                         44.8
                       ],
                       [
                         70.6,
                         44.8
+                      ],
+                      [
+                        73.7,
+                        59.6
+                      ],
+                      [
+                        74.2,
+                        59.1
                       ]
                     ],
                     "id": 4961,
@@ -7241,6 +7672,10 @@
                       [
                         60.2,
                         64.6
+                      ],
+                      [
+                        66.2,
+                        74.2
                       ]
                     ],
                     "id": 482,
@@ -7279,9 +7714,9 @@
           {
             "npcId": 4961,
             "npcName": "Dashel Stonefist",
-            "zoneId": 1519,
             "x": 70.2,
             "y": 44.8,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -7353,7 +7788,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:39:43+00:00",
+        "fetchedAt": "2026-10-16T21:42:35+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7414,6 +7849,10 @@
                       [
                         60.2,
                         64.6
+                      ],
+                      [
+                        66.2,
+                        74.2
                       ]
                     ],
                     "id": 482,
@@ -7456,9 +7895,9 @@
           {
             "npcId": 482,
             "npcName": "Elling Trias",
-            "zoneId": 1519,
             "x": 60.0,
             "y": 64.4,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -7530,7 +7969,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:39:48+00:00",
+        "fetchedAt": "2026-10-16T21:42:40+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7621,9 +8060,9 @@
           {
             "npcId": 4963,
             "npcName": "Mikhail",
-            "zoneId": 11,
             "x": 10.6,
             "y": 60.6,
+            "zoneId": 11,
             "zoneName": "Wetlands"
           }
         ]
@@ -7690,7 +8129,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:39:53+00:00",
+        "fetchedAt": "2026-10-16T21:43:00+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7795,9 +8234,9 @@
           {
             "npcId": 4962,
             "npcName": "Tapoke \"Slim\" Jahn",
-            "zoneId": 11,
             "x": 10.6,
             "y": 60.2,
+            "zoneId": 11,
             "zoneName": "Wetlands"
           }
         ]
@@ -7869,7 +8308,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:40:54+00:00",
+        "fetchedAt": "2026-10-16T21:44:00+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7972,9 +8411,9 @@
           {
             "npcId": 4963,
             "npcName": "Mikhail",
-            "zoneId": 11,
             "x": 10.6,
             "y": 60.6,
+            "zoneId": 11,
             "zoneName": "Wetlands"
           }
         ]
@@ -8041,7 +8480,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:40:59+00:00",
+        "fetchedAt": "2026-10-16T21:44:01+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -8136,9 +8575,9 @@
           {
             "npcId": 4964,
             "npcName": "Commander Samaul",
-            "zoneId": 15,
             "x": 68.0,
             "y": 48.6,
+            "zoneId": 15,
             "zoneName": "Dustwallow Marsh"
           }
         ]
@@ -8210,7 +8649,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:41:04+00:00",
+        "fetchedAt": "2026-10-16T21:44:06+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -8309,9 +8748,9 @@
           {
             "npcId": 4967,
             "npcName": "Archmage Tervosh",
-            "zoneId": 15,
             "x": 66.4,
             "y": 49.2,
+            "zoneId": 15,
             "zoneName": "Dustwallow Marsh"
           }
         ]
@@ -8388,7 +8827,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:41:09+00:00",
+        "fetchedAt": "2026-10-16T21:44:11+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -8481,9 +8920,9 @@
           {
             "npcId": 4968,
             "npcName": "Lady Jaina Proudmoore",
-            "zoneId": 15,
             "x": 45.2,
             "y": 24.2,
+            "zoneId": 15,
             "zoneName": "Dustwallow Marsh"
           }
         ]
@@ -8550,7 +8989,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:41:54+00:00",
+        "fetchedAt": "2026-10-16T21:45:01+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -8605,6 +9044,10 @@
                       [
                         41.2,
                         30.6
+                      ],
+                      [
+                        51.6,
+                        48.4
                       ]
                     ],
                     "id": 4982,
@@ -8631,6 +9074,10 @@
                       [
                         78.2,
                         25.6
+                      ],
+                      [
+                        80,
+                        43.8
                       ]
                     ],
                     "id": 4960,
@@ -8669,9 +9116,9 @@
           {
             "npcId": 4982,
             "npcName": "Thomas",
-            "zoneId": 1519,
             "x": 41.2,
             "y": 30.6,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -8738,7 +9185,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:44:35+00:00",
+        "fetchedAt": "2026-10-16T21:47:22+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -8807,6 +9254,10 @@
                       [
                         40.6,
                         91.6
+                      ],
+                      [
+                        51,
+                        95.4
                       ]
                     ],
                     "id": 5081,
@@ -8868,9 +9319,9 @@
           {
             "npcId": 5081,
             "npcName": "Connor Rivers",
-            "zoneId": 1519,
             "x": 40.4,
             "y": 91.6,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -8942,7 +9393,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:45:11+00:00",
+        "fetchedAt": "2026-10-16T21:48:13+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -9043,9 +9494,9 @@
           {
             "npcId": 4966,
             "npcName": "Private Hendel",
-            "zoneId": 15,
             "x": 45.2,
             "y": 24.6,
+            "zoneId": 15,
             "zoneName": "Dustwallow Marsh"
           }
         ]
@@ -9117,7 +9568,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:46:02+00:00",
+        "fetchedAt": "2026-10-16T21:49:03+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -9216,9 +9667,9 @@
           {
             "npcId": 338,
             "npcName": "Mazen Mac'Nadir",
-            "zoneId": 1519,
             "x": 41.4,
             "y": 64.2,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -9299,7 +9750,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:46:07+00:00",
+        "fetchedAt": "2026-10-16T21:49:08+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -9402,9 +9853,9 @@
           {
             "npcId": 5386,
             "npcName": "Acolyte Dellis",
-            "zoneId": 1519,
             "x": 40.8,
             "y": 64.0,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -9476,7 +9927,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:51:56+00:00",
+        "fetchedAt": "2026-10-16T21:54:47+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -9501,16 +9952,20 @@
                     ],
                     "coords": [
                       [
-                        69.8,
-                        44.4
-                      ],
-                      [
                         70.2,
                         44.8
                       ],
                       [
                         70.6,
                         44.8
+                      ],
+                      [
+                        73.7,
+                        59.6
+                      ],
+                      [
+                        74.2,
+                        59.1
                       ]
                     ],
                     "id": 4961,
@@ -9527,16 +9982,20 @@
                     ],
                     "coords": [
                       [
-                        69.8,
-                        44.4
-                      ],
-                      [
                         70.2,
                         44.8
                       ],
                       [
                         70.6,
                         44.8
+                      ],
+                      [
+                        73.7,
+                        59.6
+                      ],
+                      [
+                        74.2,
+                        59.1
                       ]
                     ],
                     "id": 4961,
@@ -9575,9 +10034,9 @@
           {
             "npcId": 4961,
             "npcName": "Dashel Stonefist",
-            "zoneId": 1519,
             "x": 70.2,
             "y": 44.8,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -9649,7 +10108,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:52:01+00:00",
+        "fetchedAt": "2026-10-16T21:55:07+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -9740,9 +10199,9 @@
           {
             "npcId": 5384,
             "npcName": "Brohann Caskbelly",
-            "zoneId": 1519,
             "x": 64.2,
             "y": 20.8,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -9809,7 +10268,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:52:06+00:00",
+        "fetchedAt": "2026-10-16T21:55:07+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -9908,9 +10367,9 @@
           {
             "npcId": 5384,
             "npcName": "Brohann Caskbelly",
-            "zoneId": 1519,
             "x": 64.2,
             "y": 20.8,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -9982,7 +10441,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:54:57+00:00",
+        "fetchedAt": "2026-10-16T21:57:48+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -10042,10 +10501,6 @@
                     "coords": [
                       [
                         37.4,
-                        81.4
-                      ],
-                      [
-                        37.4,
                         81.8
                       ],
                       [
@@ -10055,6 +10510,10 @@
                       [
                         37.6,
                         81.6
+                      ],
+                      [
+                        48.8,
+                        87.6
                       ]
                     ],
                     "id": 5694,
@@ -10099,9 +10558,9 @@
           {
             "npcId": 5694,
             "npcName": "High Sorcerer Andromath",
-            "zoneId": 1519,
             "x": 37.6,
             "y": 81.6,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -10168,7 +10627,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:29:38+00:00",
+        "fetchedAt": "2026-10-16T22:32:41+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -10199,6 +10658,10 @@
                       [
                         60.2,
                         64.6
+                      ],
+                      [
+                        66.2,
+                        74.2
                       ]
                     ],
                     "id": 482,
@@ -10233,6 +10696,10 @@
                       [
                         69.2,
                         14.6
+                      ],
+                      [
+                        73.2,
+                        35.6
                       ]
                     ],
                     "id": 7766,
@@ -10283,9 +10750,9 @@
           {
             "npcId": 482,
             "npcName": "Elling Trias",
-            "zoneId": 1519,
             "x": 60.0,
             "y": 64.4,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -10357,7 +10824,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:29:43+00:00",
+        "fetchedAt": "2026-10-16T22:32:46+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -10400,6 +10867,10 @@
                       [
                         69.2,
                         14.6
+                      ],
+                      [
+                        73.2,
+                        35.6
                       ]
                     ],
                     "id": 7766,
@@ -10434,6 +10905,10 @@
                       [
                         69.2,
                         14.6
+                      ],
+                      [
+                        73.2,
+                        35.6
                       ]
                     ],
                     "id": 7766,
@@ -10449,10 +10924,6 @@
                       14.6
                     ],
                     "coords": [
-                      [
-                        67.4,
-                        14.4
-                      ],
                       [
                         68,
                         14.2
@@ -10480,6 +10951,10 @@
                       [
                         68.8,
                         15.6
+                      ],
+                      [
+                        72.3,
+                        35.1
                       ],
                       [
                         72.8,
@@ -10548,6 +11023,18 @@
                       [
                         69.4,
                         12.4
+                      ],
+                      [
+                        72.2,
+                        35.2
+                      ],
+                      [
+                        72.5,
+                        35.8
+                      ],
+                      [
+                        73,
+                        36.8
                       ]
                     ],
                     "id": 1755,
@@ -10592,6 +11079,18 @@
                       [
                         31,
                         60.4
+                      ],
+                      [
+                        42.4,
+                        73
+                      ],
+                      [
+                        42.5,
+                        72.5
+                      ],
+                      [
+                        42.6,
+                        72.4
                       ]
                     ],
                     "id": 2044,
@@ -10609,6 +11108,30 @@
                       45
                     ],
                     "coords": [
+                      [
+                        61,
+                        70.3
+                      ],
+                      [
+                        64.4,
+                        66.9
+                      ],
+                      [
+                        64.7,
+                        67.9
+                      ],
+                      [
+                        64.9,
+                        65.6
+                      ],
+                      [
+                        64.9,
+                        68.9
+                      ],
+                      [
+                        65.3,
+                        64.9
+                      ],
                       [
                         69.4,
                         43.2
@@ -10636,6 +11159,26 @@
                       [
                         70.6,
                         44.8
+                      ],
+                      [
+                        73.3,
+                        58.3
+                      ],
+                      [
+                        73.4,
+                        59.4
+                      ],
+                      [
+                        73.6,
+                        59.5
+                      ],
+                      [
+                        73.8,
+                        57.3
+                      ],
+                      [
+                        73.8,
+                        59.3
                       ]
                     ],
                     "id": 4969,
@@ -10688,9 +11231,9 @@
           {
             "npcId": 7766,
             "npcName": "Tyrion",
-            "zoneId": 1519,
             "x": 69.2,
             "y": 14.6,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -10762,7 +11305,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:05:20+00:00",
+        "fetchedAt": "2026-10-16T23:08:22+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -10827,6 +11370,10 @@
                       [
                         22,
                         55.2
+                      ],
+                      [
+                        36.4,
+                        67.4
                       ]
                     ],
                     "id": 4984,
@@ -10871,9 +11418,9 @@
           {
             "npcId": 4984,
             "npcName": "Argos Nightwhisper",
-            "zoneId": 1519,
             "x": 21.4,
             "y": 55.6,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -10945,7 +11492,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:05:55+00:00",
+        "fetchedAt": "2026-10-16T23:09:08+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -10984,6 +11531,10 @@
                       [
                         45,
                         76.2
+                      ],
+                      [
+                        54.4,
+                        84
                       ]
                     ],
                     "id": 5566,
@@ -11052,9 +11603,9 @@
           {
             "npcId": 5566,
             "npcName": "Tannysa",
-            "zoneId": 1519,
             "x": 44.8,
             "y": 77.0,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -11126,7 +11677,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:06:20+00:00",
+        "fetchedAt": "2026-10-16T23:09:18+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -11161,6 +11712,10 @@
                       [
                         52.8,
                         65.4
+                      ],
+                      [
+                        60.4,
+                        75.2
                       ]
                     ],
                     "id": 6740,
@@ -11241,9 +11796,9 @@
           {
             "npcId": 6740,
             "npcName": "Innkeeper Allison",
-            "zoneId": 1519,
             "x": 52.6,
             "y": 65.6,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -11315,7 +11870,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:41:26+00:00",
+        "fetchedAt": "2026-10-16T23:44:39+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -11350,6 +11905,10 @@
                       [
                         48.6,
                         30.6
+                      ],
+                      [
+                        57.2,
+                        48.2
                       ]
                     ],
                     "id": 10782,
@@ -11420,9 +11979,9 @@
           {
             "npcId": 10782,
             "npcName": "Royal Factor Bathrilor",
-            "zoneId": 1519,
             "x": 48.6,
             "y": 30.6,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -11494,7 +12053,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:43:17+00:00",
+        "fetchedAt": "2026-10-16T23:46:30+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -11891,9 +12450,9 @@
           {
             "npcId": 2198,
             "npcName": "Crier Goodman",
-            "zoneId": 1519,
             "x": 55.0,
             "y": 62.8,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -11960,7 +12519,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:23:47+00:00",
+        "fetchedAt": "2026-10-17T00:27:00+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12003,6 +12562,10 @@
                       [
                         80,
                         38.4
+                      ],
+                      [
+                        80,
+                        38.6
                       ]
                     ],
                     "id": 1748,
@@ -12021,6 +12584,14 @@
                       [
                         75.8,
                         59.8
+                      ],
+                      [
+                        78.4,
+                        70.6
+                      ],
+                      [
+                        78.6,
+                        70.6
                       ]
                     ],
                     "id": 332,
@@ -12059,9 +12630,9 @@
           {
             "npcId": 1748,
             "npcName": "Highlord Bolvar Fordragon",
-            "zoneId": 1519,
             "x": 78.0,
             "y": 18.0,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -12128,7 +12699,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:23:52+00:00",
+        "fetchedAt": "2026-10-17T00:27:05+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12159,6 +12730,10 @@
                       [
                         78.4,
                         70.6
+                      ],
+                      [
+                        78.6,
+                        70.6
                       ]
                     ],
                     "id": 332,
@@ -12180,6 +12755,10 @@
                       ],
                       [
                         78.4,
+                        70.6
+                      ],
+                      [
+                        78.6,
                         70.6
                       ]
                     ],
@@ -12219,9 +12798,9 @@
           {
             "npcId": 332,
             "npcName": "Master Mathias Shaw",
-            "zoneId": 1519,
             "x": 75.8,
             "y": 59.8,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -12288,7 +12867,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:24:22+00:00",
+        "fetchedAt": "2026-10-17T00:27:20+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12331,6 +12910,10 @@
                       [
                         80,
                         38.4
+                      ],
+                      [
+                        80,
+                        38.6
                       ]
                     ],
                     "id": 1748,
@@ -12403,9 +12986,9 @@
           {
             "npcId": 12425,
             "npcName": "Flint Shadowmore",
-            "zoneId": 28,
             "x": 43.6,
             "y": 84.4,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -12472,7 +13055,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:28:24+00:00",
+        "fetchedAt": "2026-10-17T00:31:23+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12716,9 +13299,9 @@
           {
             "npcId": 9560,
             "npcName": "Marshal Maxwell",
-            "zoneId": 46,
             "x": 84.6,
             "y": 68.8,
+            "zoneId": 46,
             "zoneName": "Burning Steppes"
           }
         ]
@@ -12790,7 +13373,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:28:25+00:00",
+        "fetchedAt": "2026-10-17T00:31:43+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12993,6 +13576,10 @@
                       [
                         80,
                         38.4
+                      ],
+                      [
+                        80,
+                        38.6
                       ]
                     ],
                     "id": 1748,
@@ -13035,17 +13622,17 @@
           {
             "npcId": 12580,
             "npcName": "Reginald Windsor",
-            "zoneId": 12,
             "x": 32.0,
             "y": 49.2,
+            "zoneId": 12,
             "zoneName": "Elwynn Forest"
           },
           {
             "npcId": 12580,
             "npcName": "Reginald Windsor",
-            "zoneId": 1519,
             "x": 68.0,
             "y": 29.8,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -13112,7 +13699,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:29:06+00:00",
+        "fetchedAt": "2026-10-17T00:32:18+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -13155,6 +13742,10 @@
                       [
                         80,
                         38.4
+                      ],
+                      [
+                        80,
+                        38.6
                       ]
                     ],
                     "id": 1748,
@@ -13227,9 +13818,9 @@
           {
             "npcId": 1748,
             "npcName": "Highlord Bolvar Fordragon",
-            "zoneId": 1519,
             "x": 78.0,
             "y": 18.0,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -13293,7 +13884,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:48:07+00:00",
+        "fetchedAt": "2026-10-17T00:51:20+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -13336,6 +13927,10 @@
                       [
                         80,
                         38.4
+                      ],
+                      [
+                        80,
+                        38.6
                       ]
                     ],
                     "id": 1748,
@@ -13456,7 +14051,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:48:11+00:00",
+        "fetchedAt": "2026-10-17T00:51:25+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -13499,6 +14094,10 @@
                       [
                         80,
                         38.4
+                      ],
+                      [
+                        80,
+                        38.6
                       ]
                     ],
                     "id": 1748,
@@ -13571,9 +14170,9 @@
           {
             "npcId": 1748,
             "npcName": "Highlord Bolvar Fordragon",
-            "zoneId": 1519,
             "x": 78.0,
             "y": 18.0,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -13640,7 +14239,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:48:16+00:00",
+        "fetchedAt": "2026-10-17T00:51:30+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -13747,9 +14346,9 @@
           {
             "npcId": 14394,
             "npcName": "Major Mattingly",
-            "zoneId": 1519,
             "x": 61.4,
             "y": 78.6,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -13825,7 +14424,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:59:03+00:00",
+        "fetchedAt": "2026-10-17T01:02:16+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -13868,6 +14467,10 @@
                       [
                         80,
                         38.4
+                      ],
+                      [
+                        80,
+                        38.6
                       ]
                     ],
                     "id": 1748,
@@ -14006,7 +14609,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:59:08+00:00",
+        "fetchedAt": "2026-10-17T01:02:21+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -14049,6 +14652,10 @@
                       [
                         80,
                         38.4
+                      ],
+                      [
+                        80,
+                        38.6
                       ]
                     ],
                     "id": 1748,
@@ -14117,9 +14724,9 @@
           {
             "npcId": 1748,
             "npcName": "Highlord Bolvar Fordragon",
-            "zoneId": 1519,
             "x": 78.0,
             "y": 18.0,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -14191,7 +14798,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:59:49+00:00",
+        "fetchedAt": "2026-10-17T01:03:02+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -14226,6 +14833,10 @@
                       [
                         53.8,
                         81.4
+                      ],
+                      [
+                        53.8,
+                        81.6
                       ]
                     ],
                     "id": 14722,
@@ -14252,6 +14863,10 @@
                       [
                         53.8,
                         81.4
+                      ],
+                      [
+                        53.8,
+                        81.6
                       ]
                     ],
                     "id": 14722,
@@ -14267,10 +14882,6 @@
                       14.6
                     ],
                     "coords": [
-                      [
-                        67.4,
-                        14.4
-                      ],
                       [
                         68,
                         14.2
@@ -14298,6 +14909,10 @@
                       [
                         68.8,
                         15.6
+                      ],
+                      [
+                        72.3,
+                        35.1
                       ],
                       [
                         72.8,
@@ -14366,6 +14981,18 @@
                       [
                         69.4,
                         12.4
+                      ],
+                      [
+                        72.2,
+                        35.2
+                      ],
+                      [
+                        72.5,
+                        35.8
+                      ],
+                      [
+                        73,
+                        36.8
                       ]
                     ],
                     "id": 1755,
@@ -14410,6 +15037,18 @@
                       [
                         31,
                         60.4
+                      ],
+                      [
+                        42.4,
+                        73
+                      ],
+                      [
+                        42.5,
+                        72.5
+                      ],
+                      [
+                        42.6,
+                        72.4
                       ]
                     ],
                     "id": 2044,
@@ -14427,6 +15066,30 @@
                       45
                     ],
                     "coords": [
+                      [
+                        61,
+                        70.3
+                      ],
+                      [
+                        64.4,
+                        66.9
+                      ],
+                      [
+                        64.7,
+                        67.9
+                      ],
+                      [
+                        64.9,
+                        65.6
+                      ],
+                      [
+                        64.9,
+                        68.9
+                      ],
+                      [
+                        65.3,
+                        64.9
+                      ],
                       [
                         69.4,
                         43.2
@@ -14454,6 +15117,26 @@
                       [
                         70.6,
                         44.8
+                      ],
+                      [
+                        73.3,
+                        58.3
+                      ],
+                      [
+                        73.4,
+                        59.4
+                      ],
+                      [
+                        73.6,
+                        59.5
+                      ],
+                      [
+                        73.8,
+                        57.3
+                      ],
+                      [
+                        73.8,
+                        59.3
                       ]
                     ],
                     "id": 4969,
@@ -14494,9 +15177,9 @@
           {
             "npcId": 14722,
             "npcName": "Clavicus Knavingham",
-            "zoneId": 1519,
             "x": 44.2,
             "y": 73.6,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -14568,7 +15251,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:59:59+00:00",
+        "fetchedAt": "2026-10-17T01:03:13+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -14603,6 +15286,10 @@
                       [
                         53.8,
                         81.4
+                      ],
+                      [
+                        53.8,
+                        81.6
                       ]
                     ],
                     "id": 14722,
@@ -14629,6 +15316,10 @@
                       [
                         53.8,
                         81.4
+                      ],
+                      [
+                        53.8,
+                        81.6
                       ]
                     ],
                     "id": 14722,
@@ -14644,10 +15335,6 @@
                       14.6
                     ],
                     "coords": [
-                      [
-                        67.4,
-                        14.4
-                      ],
                       [
                         68,
                         14.2
@@ -14675,6 +15362,10 @@
                       [
                         68.8,
                         15.6
+                      ],
+                      [
+                        72.3,
+                        35.1
                       ],
                       [
                         72.8,
@@ -14743,6 +15434,18 @@
                       [
                         69.4,
                         12.4
+                      ],
+                      [
+                        72.2,
+                        35.2
+                      ],
+                      [
+                        72.5,
+                        35.8
+                      ],
+                      [
+                        73,
+                        36.8
                       ]
                     ],
                     "id": 1755,
@@ -14787,6 +15490,18 @@
                       [
                         31,
                         60.4
+                      ],
+                      [
+                        42.4,
+                        73
+                      ],
+                      [
+                        42.5,
+                        72.5
+                      ],
+                      [
+                        42.6,
+                        72.4
                       ]
                     ],
                     "id": 2044,
@@ -14804,6 +15519,30 @@
                       45
                     ],
                     "coords": [
+                      [
+                        61,
+                        70.3
+                      ],
+                      [
+                        64.4,
+                        66.9
+                      ],
+                      [
+                        64.7,
+                        67.9
+                      ],
+                      [
+                        64.9,
+                        65.6
+                      ],
+                      [
+                        64.9,
+                        68.9
+                      ],
+                      [
+                        65.3,
+                        64.9
+                      ],
                       [
                         69.4,
                         43.2
@@ -14831,6 +15570,26 @@
                       [
                         70.6,
                         44.8
+                      ],
+                      [
+                        73.3,
+                        58.3
+                      ],
+                      [
+                        73.4,
+                        59.4
+                      ],
+                      [
+                        73.6,
+                        59.5
+                      ],
+                      [
+                        73.8,
+                        57.3
+                      ],
+                      [
+                        73.8,
+                        59.3
                       ]
                     ],
                     "id": 4969,
@@ -14871,9 +15630,9 @@
           {
             "npcId": 14722,
             "npcName": "Clavicus Knavingham",
-            "zoneId": 1519,
             "x": 44.2,
             "y": 73.6,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -14945,7 +15704,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:00:04+00:00",
+        "fetchedAt": "2026-10-17T01:03:17+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -14980,6 +15739,10 @@
                       [
                         53.8,
                         81.4
+                      ],
+                      [
+                        53.8,
+                        81.6
                       ]
                     ],
                     "id": 14722,
@@ -15006,6 +15769,10 @@
                       [
                         53.8,
                         81.4
+                      ],
+                      [
+                        53.8,
+                        81.6
                       ]
                     ],
                     "id": 14722,
@@ -15044,9 +15811,9 @@
           {
             "npcId": 14722,
             "npcName": "Clavicus Knavingham",
-            "zoneId": 1519,
             "x": 44.2,
             "y": 73.6,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -15118,7 +15885,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:00:09+00:00",
+        "fetchedAt": "2026-10-17T01:03:23+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -15153,6 +15920,10 @@
                       [
                         53.8,
                         81.4
+                      ],
+                      [
+                        53.8,
+                        81.6
                       ]
                     ],
                     "id": 14722,
@@ -15179,6 +15950,10 @@
                       [
                         53.8,
                         81.4
+                      ],
+                      [
+                        53.8,
+                        81.6
                       ]
                     ],
                     "id": 14722,
@@ -15437,9 +16212,9 @@
           {
             "npcId": 14722,
             "npcName": "Clavicus Knavingham",
-            "zoneId": 1519,
             "x": 44.2,
             "y": 73.6,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -15511,7 +16286,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:00:14+00:00",
+        "fetchedAt": "2026-10-17T01:03:28+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -15546,6 +16321,10 @@
                       [
                         53.8,
                         81.4
+                      ],
+                      [
+                        53.8,
+                        81.6
                       ]
                     ],
                     "id": 14722,
@@ -15572,6 +16351,10 @@
                       [
                         53.8,
                         81.4
+                      ],
+                      [
+                        53.8,
+                        81.6
                       ]
                     ],
                     "id": 14722,
@@ -15832,527 +16615,12 @@
           {
             "npcId": 14722,
             "npcName": "Clavicus Knavingham",
-            "zoneId": 1519,
             "x": 44.2,
             "y": 73.6,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
-      }
-    },
-    "79945": {
-      "index": {
-        "classes": [],
-        "faction": "Alliance",
-        "hasDetail": true,
-        "id": 79945,
-        "list": {
-          "category": 1519,
-          "category2": 0,
-          "currencychoicerewards": [],
-          "currencyrewards": [],
-          "envChange": {
-            "labels": [],
-            "lines": [],
-            "status": "unconfirmed"
-          },
-          "firstseenpatch": 20000,
-          "icon": "quest-start",
-          "id": 79945,
-          "itemchoices": [],
-          "itemrewards": [],
-          "level": 35,
-          "money": 0,
-          "name": "Orders from the Grand Crusader",
-          "popularity": 30,
-          "reprewards": [],
-          "reqclass": 0,
-          "reqlevel": 26,
-          "side": 1,
-          "titlereward": 0,
-          "type": 0,
-          "xp": 2050
-        },
-        "minLevel": 26,
-        "name": "Orders from the Grand Crusader",
-        "pinCategory": "normal",
-        "races": [],
-        "sourceKinds": [
-          "zone"
-        ],
-        "sourceSlugs": [
-          "ek/stormwind-city"
-        ],
-        "sourceUrls": [
-          "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
-        ],
-        "startPinCount": 0,
-        "zoneId": 1519,
-        "zoneId2": 0
-      },
-      "detail": {
-        "classes": [],
-        "faction": "Alliance",
-        "fetchedAt": "2026-09-25T05:32:56+00:00",
-        "infoboxFlags": {},
-        "infoboxMarkup": null,
-        "mapper": null,
-        "minLevel": 26,
-        "pageInfo": null,
-        "pinCategory": "normal",
-        "prerequisiteQuestIds": [],
-        "questId": 79945,
-        "races": [],
-        "startPins": []
-      }
-    },
-    "84377": {
-      "index": {
-        "classes": [],
-        "faction": "Alliance",
-        "hasDetail": true,
-        "id": 84377,
-        "list": {
-          "category": 1519,
-          "category2": 0,
-          "currencychoicerewards": [],
-          "currencyrewards": [],
-          "envChange": {
-            "labels": [],
-            "lines": [],
-            "status": "unconfirmed"
-          },
-          "firstseenpatch": 20000,
-          "icon": "quest-start",
-          "id": 84377,
-          "itemchoices": [],
-          "itemrewards": [],
-          "level": 60,
-          "money": 0,
-          "name": "End of the Dark Horde",
-          "popularity": 56,
-          "reprewards": [
-            [
-              72,
-              200
-            ]
-          ],
-          "reqclass": 0,
-          "reqlevel": 60,
-          "side": 1,
-          "titlereward": 0,
-          "type": 0,
-          "xp": 0
-        },
-        "minLevel": 60,
-        "name": "End of the Dark Horde",
-        "pinCategory": "normal",
-        "races": [],
-        "sourceKinds": [
-          "zone"
-        ],
-        "sourceSlugs": [
-          "ek/stormwind-city"
-        ],
-        "sourceUrls": [
-          "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
-        ],
-        "startPinCount": 0,
-        "zoneId": 1519,
-        "zoneId2": 0
-      },
-      "detail": {
-        "classes": [],
-        "faction": "Alliance",
-        "fetchedAt": "2026-09-25T05:49:32+00:00",
-        "infoboxFlags": {},
-        "infoboxMarkup": null,
-        "mapper": null,
-        "minLevel": 60,
-        "pageInfo": null,
-        "pinCategory": "normal",
-        "prerequisiteQuestIds": [],
-        "questId": 84377,
-        "races": [],
-        "startPins": []
-      }
-    },
-    "84560": {
-      "index": {
-        "classes": [],
-        "faction": "Alliance",
-        "hasDetail": true,
-        "id": 84560,
-        "list": {
-          "category": 1519,
-          "category2": 0,
-          "currencychoicerewards": [],
-          "currencyrewards": [],
-          "envChange": {
-            "labels": [],
-            "lines": [],
-            "status": "unconfirmed"
-          },
-          "firstseenpatch": 20000,
-          "icon": "quest-start",
-          "id": 84560,
-          "itemchoices": [
-            [
-              228686,
-              1
-            ],
-            [
-              228687,
-              1
-            ],
-            [
-              228685,
-              1
-            ]
-          ],
-          "itemrewards": [],
-          "level": 60,
-          "money": 0,
-          "name": "Celebrating Good Times",
-          "popularity": 56,
-          "reprewards": [
-            [
-              72,
-              200
-            ]
-          ],
-          "reqclass": 0,
-          "reqlevel": 60,
-          "side": 1,
-          "titlereward": 0,
-          "type": 0,
-          "xp": 9950
-        },
-        "minLevel": 60,
-        "name": "Celebrating Good Times",
-        "pinCategory": "normal",
-        "races": [],
-        "sourceKinds": [
-          "zone"
-        ],
-        "sourceSlugs": [
-          "ek/stormwind-city"
-        ],
-        "sourceUrls": [
-          "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
-        ],
-        "startPinCount": 0,
-        "zoneId": 1519,
-        "zoneId2": 0
-      },
-      "detail": {
-        "classes": [],
-        "faction": "Alliance",
-        "fetchedAt": "2026-09-25T05:50:48+00:00",
-        "infoboxFlags": {},
-        "infoboxMarkup": null,
-        "mapper": null,
-        "minLevel": 60,
-        "pageInfo": null,
-        "pinCategory": "normal",
-        "prerequisiteQuestIds": [],
-        "questId": 84560,
-        "races": [],
-        "startPins": []
-      }
-    },
-    "85643": {
-      "index": {
-        "classes": [],
-        "faction": "Alliance",
-        "hasDetail": true,
-        "id": 85643,
-        "list": {
-          "category": 1519,
-          "category2": 0,
-          "currencychoicerewards": [],
-          "currencyrewards": [],
-          "envChange": {
-            "labels": [],
-            "lines": [],
-            "status": "unconfirmed"
-          },
-          "firstseenpatch": 20000,
-          "icon": "quest-start",
-          "id": 85643,
-          "itemchoices": [
-            [
-              230840,
-              1
-            ],
-            [
-              230841,
-              1
-            ],
-            [
-              230839,
-              1
-            ]
-          ],
-          "itemrewards": [],
-          "level": 60,
-          "money": 0,
-          "name": "The Lord of Blackrock",
-          "popularity": 29,
-          "reprewards": [
-            [
-              72,
-              200
-            ],
-            [
-              47,
-              200
-            ],
-            [
-              69,
-              200
-            ],
-            [
-              54,
-              200
-            ]
-          ],
-          "reqclass": 0,
-          "reqlevel": 60,
-          "side": 1,
-          "titlereward": 0,
-          "type": 0,
-          "xp": 9950
-        },
-        "minLevel": 60,
-        "name": "The Lord of Blackrock",
-        "pinCategory": "normal",
-        "races": [],
-        "sourceKinds": [
-          "zone"
-        ],
-        "sourceSlugs": [
-          "ek/stormwind-city"
-        ],
-        "sourceUrls": [
-          "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
-        ],
-        "startPinCount": 0,
-        "zoneId": 1519,
-        "zoneId2": 0
-      },
-      "detail": {
-        "classes": [],
-        "faction": "Alliance",
-        "fetchedAt": "2026-09-25T05:56:13+00:00",
-        "infoboxFlags": {},
-        "infoboxMarkup": null,
-        "mapper": null,
-        "minLevel": 60,
-        "pageInfo": null,
-        "pinCategory": "normal",
-        "prerequisiteQuestIds": [],
-        "questId": 85643,
-        "races": [],
-        "startPins": []
-      }
-    },
-    "85659": {
-      "index": {
-        "classes": [],
-        "faction": "Alliance",
-        "hasDetail": true,
-        "id": 85659,
-        "list": {
-          "category": 1519,
-          "category2": 0,
-          "currencychoicerewards": [],
-          "currencyrewards": [],
-          "envChange": {
-            "labels": [],
-            "lines": [],
-            "status": "unconfirmed"
-          },
-          "firstseenpatch": 20000,
-          "icon": "quest-start",
-          "id": 85659,
-          "itemchoices": [],
-          "itemrewards": [],
-          "level": 60,
-          "money": 0,
-          "name": "Celebrating Good Times",
-          "popularity": 34,
-          "reprewards": [],
-          "reqclass": 0,
-          "reqlevel": 60,
-          "side": 1,
-          "titlereward": 0,
-          "type": 0,
-          "xp": 9950
-        },
-        "minLevel": 60,
-        "name": "Celebrating Good Times",
-        "pinCategory": "normal",
-        "races": [],
-        "sourceKinds": [
-          "zone"
-        ],
-        "sourceSlugs": [
-          "ek/stormwind-city"
-        ],
-        "sourceUrls": [
-          "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
-        ],
-        "startPinCount": 0,
-        "zoneId": 1519,
-        "zoneId2": 0
-      },
-      "detail": {
-        "classes": [],
-        "faction": "Alliance",
-        "fetchedAt": "2026-09-25T05:56:32+00:00",
-        "infoboxFlags": {},
-        "infoboxMarkup": null,
-        "mapper": null,
-        "minLevel": 60,
-        "pageInfo": null,
-        "pinCategory": "normal",
-        "prerequisiteQuestIds": [],
-        "questId": 85659,
-        "races": [],
-        "startPins": []
-      }
-    },
-    "85882": {
-      "index": {
-        "classes": [],
-        "faction": "Alliance",
-        "hasDetail": true,
-        "id": 85882,
-        "list": {
-          "category": 1519,
-          "category2": 0,
-          "currencychoicerewards": [],
-          "currencyrewards": [],
-          "envChange": {
-            "labels": [],
-            "lines": [],
-            "status": "unconfirmed"
-          },
-          "firstseenpatch": 20000,
-          "icon": "quest-start",
-          "id": 85882,
-          "itemchoices": [],
-          "itemrewards": [],
-          "level": 60,
-          "money": 0,
-          "name": "End of the Dark Horde",
-          "popularity": 30,
-          "reprewards": [],
-          "reqclass": 0,
-          "reqlevel": 60,
-          "side": 1,
-          "titlereward": 0,
-          "type": 0,
-          "xp": 0
-        },
-        "minLevel": 60,
-        "name": "End of the Dark Horde",
-        "pinCategory": "normal",
-        "races": [],
-        "sourceKinds": [
-          "zone"
-        ],
-        "sourceSlugs": [
-          "ek/stormwind-city"
-        ],
-        "sourceUrls": [
-          "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
-        ],
-        "startPinCount": 0,
-        "zoneId": 1519,
-        "zoneId2": 0
-      },
-      "detail": {
-        "classes": [],
-        "faction": "Alliance",
-        "fetchedAt": "2026-09-25T05:56:39+00:00",
-        "infoboxFlags": {},
-        "infoboxMarkup": null,
-        "mapper": null,
-        "minLevel": 60,
-        "pageInfo": null,
-        "pinCategory": "normal",
-        "prerequisiteQuestIds": [],
-        "questId": 85882,
-        "races": [],
-        "startPins": []
-      }
-    },
-    "88969": {
-      "index": {
-        "classes": [],
-        "faction": "Alliance",
-        "hasDetail": true,
-        "id": 88969,
-        "list": {
-          "category": 1519,
-          "category2": 0,
-          "currencychoicerewards": [],
-          "currencyrewards": [],
-          "envChange": {
-            "labels": [],
-            "lines": [],
-            "status": "unconfirmed"
-          },
-          "firstseenpatch": 20000,
-          "icon": "quest-start",
-          "id": 88969,
-          "itemchoices": [],
-          "itemrewards": [],
-          "level": 60,
-          "money": 0,
-          "name": "The Lord of Blackrock",
-          "popularity": 32,
-          "reprewards": [],
-          "reqclass": 0,
-          "reqlevel": 60,
-          "side": 1,
-          "titlereward": 0,
-          "type": 0,
-          "xp": 9950
-        },
-        "minLevel": 60,
-        "name": "The Lord of Blackrock",
-        "pinCategory": "normal",
-        "races": [],
-        "sourceKinds": [
-          "zone"
-        ],
-        "sourceSlugs": [
-          "ek/stormwind-city"
-        ],
-        "sourceUrls": [
-          "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
-        ],
-        "startPinCount": 0,
-        "zoneId": 1519,
-        "zoneId2": 0
-      },
-      "detail": {
-        "classes": [],
-        "faction": "Alliance",
-        "fetchedAt": "2026-09-25T05:57:49+00:00",
-        "infoboxFlags": {},
-        "infoboxMarkup": null,
-        "mapper": null,
-        "minLevel": 60,
-        "pageInfo": null,
-        "pinCategory": "normal",
-        "prerequisiteQuestIds": [],
-        "questId": 88969,
-        "races": [],
-        "startPins": []
       }
     },
     "93963": {
@@ -16444,7 +16712,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T06:14:24+00:00",
+        "fetchedAt": "2026-10-17T03:17:23+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -16487,6 +16755,10 @@
                       [
                         80,
                         38.4
+                      ],
+                      [
+                        80,
+                        38.6
                       ]
                     ],
                     "id": 1748,
@@ -16521,6 +16793,10 @@
                       [
                         80,
                         38.4
+                      ],
+                      [
+                        80,
+                        38.6
                       ]
                     ],
                     "id": 1748,
@@ -16701,9 +16977,9 @@
           {
             "npcId": 1748,
             "npcName": "Highlord Bolvar Fordragon",
-            "zoneId": 1519,
             "x": 78.0,
             "y": 18.0,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -16777,7 +17053,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T06:37:41+00:00",
+        "fetchedAt": "2026-10-17T03:40:34+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -16820,6 +17096,10 @@
                       [
                         80,
                         38.4
+                      ],
+                      [
+                        80,
+                        38.6
                       ]
                     ],
                     "id": 1748,
@@ -16898,9 +17178,9 @@
           {
             "npcId": 259084,
             "npcName": "Denaaris Stargale",
-            "zoneId": 36,
             "x": 12.4,
             "y": 56.2,
+            "zoneId": 36,
             "zoneName": "Alterac Mountains"
           }
         ]
@@ -16959,7 +17239,12 @@
           "zoneId": 1519,
           "zoneName": "Stormwind City"
         },
-        "races": [],
+        "races": [
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -16976,7 +17261,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T06:38:26+00:00",
+        "fetchedAt": "2026-10-17T03:41:24+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -16987,7 +17272,7 @@
           "sharable": true,
           "weekly": false
         },
-        "infoboxMarkup": "[ul][li]Level: 12[/li][li]Requires level 7[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=267118/gilbert-gray]Gilbert Gray[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=267118/gilbert-gray]Gilbert Gray[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]7[/color][small] &nbsp;[/small][color=r1]8[/color][small] &nbsp;[/small][color=r2]10[/color][small] &nbsp;[/small][color=r3]15[/color][small] &nbsp;[/small][color=r4]18[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+        "infoboxMarkup": "[ul][li]Level: 12[/li][li]Requires level 7[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=3], [race=4], [br][race=7], [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=267118/gilbert-gray]Gilbert Gray[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=267118/gilbert-gray]Gilbert Gray[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]7[/color][small] &nbsp;[/small][color=r1]8[/color][small] &nbsp;[/small][color=r2]10[/color][small] &nbsp;[/small][color=r3]15[/color][small] &nbsp;[/small][color=r4]18[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
         "mapper": {
           "missing": 2,
           "objectives": {
@@ -17068,16 +17353,23 @@
           "typeId": 95065
         },
         "pinCategory": "normal",
-        "prerequisiteQuestIds": [],
+        "prerequisiteQuestIds": [
+          97220
+        ],
         "questId": 95065,
-        "races": [],
+        "races": [
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 267118,
             "npcName": "Gilbert Gray",
-            "zoneId": 1519,
             "x": 26.2,
             "y": 47.0,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -17144,7 +17436,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T06:48:38+00:00",
+        "fetchedAt": "2026-10-17T03:51:40+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -17168,6 +17460,10 @@
                       29
                     ],
                     "coords": [
+                      [
+                        30,
+                        28.4
+                      ],
                       [
                         30.4,
                         29
@@ -17201,6 +17497,14 @@
                       [
                         60.6,
                         63.6
+                      ],
+                      [
+                        66.4,
+                        73.4
+                      ],
+                      [
+                        66.4,
+                        73.6
                       ]
                     ],
                     "id": 483,
@@ -17232,16 +17536,18 @@
           "typeId": 97220
         },
         "pinCategory": "normal",
-        "prerequisiteQuestIds": [],
+        "prerequisiteQuestIds": [
+          95065
+        ],
         "questId": 97220,
         "races": [],
         "startPins": [
           {
             "npcId": 268511,
             "npcName": "Manifest Clerk Philmor",
-            "zoneId": 1519,
             "x": 30.4,
             "y": 29.0,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -17296,7 +17602,12 @@
           "zoneId": 1519,
           "zoneName": "Stormwind City"
         },
-        "races": [],
+        "races": [
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -17313,7 +17624,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T06:48:43+00:00",
+        "fetchedAt": "2026-10-17T03:51:45+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -17324,7 +17635,7 @@
           "sharable": true,
           "weekly": false
         },
-        "infoboxMarkup": "[ul][li]Level: 15[/li][li]Requires level 9[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=483/elaine-trias]Elaine Trias[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=483/elaine-trias]Elaine Trias[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]9[/color][small] &nbsp;[/small][color=r1]11[/color][small] &nbsp;[/small][color=r2]13[/color][small] &nbsp;[/small][color=r3]18[/color][small] &nbsp;[/small][color=r4]22[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+        "infoboxMarkup": "[ul][li]Level: 15[/li][li]Requires level 9[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=3], [race=4], [br][race=7], [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=483/elaine-trias]Elaine Trias[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=483/elaine-trias]Elaine Trias[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]9[/color][small] &nbsp;[/small][color=r1]11[/color][small] &nbsp;[/small][color=r2]13[/color][small] &nbsp;[/small][color=r3]18[/color][small] &nbsp;[/small][color=r4]22[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
         "mapper": {
           "missing": 1,
           "objectives": {
@@ -17352,6 +17663,14 @@
                       [
                         60.6,
                         63.6
+                      ],
+                      [
+                        66.4,
+                        73.4
+                      ],
+                      [
+                        66.4,
+                        73.6
                       ]
                     ],
                     "id": 483,
@@ -17382,6 +17701,14 @@
                       [
                         60.6,
                         63.6
+                      ],
+                      [
+                        66.4,
+                        73.4
+                      ],
+                      [
+                        66.4,
+                        73.6
                       ]
                     ],
                     "id": 483,
@@ -17415,14 +17742,19 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 97222,
-        "races": [],
+        "races": [
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 483,
             "npcName": "Elaine Trias",
-            "zoneId": 1519,
             "x": 60.4,
             "y": 63.4,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -17472,7 +17804,12 @@
           "zoneId": 1519,
           "zoneName": "Stormwind City"
         },
-        "races": [],
+        "races": [
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -17489,7 +17826,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T06:48:58+00:00",
+        "fetchedAt": "2026-10-17T03:52:01+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -17500,7 +17837,7 @@
           "sharable": true,
           "weekly": false
         },
-        "infoboxMarkup": "[ul][li]Level: 18[/li][li]Requires level 13[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=268568/roy-lewells]Roy Lewells[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2504/donyal-tovald]Donyal Tovald[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]13[/color][small] &nbsp;[/small][color=r1]14[/color][small] &nbsp;[/small][color=r2]16[/color][small] &nbsp;[/small][color=r3]21[/color][small] &nbsp;[/small][color=r4]25[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+        "infoboxMarkup": "[ul][li]Level: 18[/li][li]Requires level 13[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=3], [race=4], [br][race=7], [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=268568/roy-lewells]Roy Lewells[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2504/donyal-tovald]Donyal Tovald[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]13[/color][small] &nbsp;[/small][color=r1]14[/color][small] &nbsp;[/small][color=r2]16[/color][small] &nbsp;[/small][color=r3]21[/color][small] &nbsp;[/small][color=r4]25[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
         "mapper": {
           "missing": 0,
           "objectives": {
@@ -17513,6 +17850,10 @@
                       62
                     ],
                     "coords": [
+                      [
+                        38.4,
+                        62
+                      ],
                       [
                         38.6,
                         62
@@ -17542,6 +17883,14 @@
                       [
                         75.2,
                         30.2
+                      ],
+                      [
+                        75.2,
+                        30.6
+                      ],
+                      [
+                        75.6,
+                        29.8
                       ]
                     ],
                     "id": 2504,
@@ -17575,14 +17924,19 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 97234,
-        "races": [],
+        "races": [
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 268568,
             "npcName": "Roy Lewells",
-            "zoneId": 1519,
             "x": 38.6,
             "y": 62.0,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -17641,7 +17995,12 @@
           "zoneId": 1519,
           "zoneName": "Stormwind City"
         },
-        "races": [],
+        "races": [
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -17658,7 +18017,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T06:49:08+00:00",
+        "fetchedAt": "2026-10-17T03:52:12+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -17669,7 +18028,7 @@
           "sharable": true,
           "weekly": false
         },
-        "infoboxMarkup": "[ul][li]Level: 18[/li][li]Requires level 13[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=2504/donyal-tovald]Donyal Tovald[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=268568/roy-lewells]Roy Lewells[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]13[/color][small] &nbsp;[/small][color=r1]14[/color][small] &nbsp;[/small][color=r2]16[/color][small] &nbsp;[/small][color=r3]21[/color][small] &nbsp;[/small][color=r4]25[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+        "infoboxMarkup": "[ul][li]Level: 18[/li][li]Requires level 13[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=3], [race=4], [br][race=7], [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=2504/donyal-tovald]Donyal Tovald[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=268568/roy-lewells]Roy Lewells[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]13[/color][small] &nbsp;[/small][color=r1]14[/color][small] &nbsp;[/small][color=r2]16[/color][small] &nbsp;[/small][color=r3]21[/color][small] &nbsp;[/small][color=r4]25[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
         "mapper": {
           "missing": 4,
           "objectives": {
@@ -17693,6 +18052,14 @@
                       [
                         75.2,
                         30.2
+                      ],
+                      [
+                        75.2,
+                        30.6
+                      ],
+                      [
+                        75.6,
+                        29.8
                       ]
                     ],
                     "id": 2504,
@@ -17708,6 +18075,10 @@
                       62
                     ],
                     "coords": [
+                      [
+                        38.4,
+                        62
+                      ],
                       [
                         38.6,
                         62
@@ -17744,14 +18115,19 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 97237,
-        "races": [],
+        "races": [
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 2504,
             "npcName": "Donyal Tovald",
-            "zoneId": 1519,
             "x": 71.6,
             "y": 7.4,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -17801,7 +18177,12 @@
           "zoneId": 148,
           "zoneName": "Darkshore"
         },
-        "races": [],
+        "races": [
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -17818,7 +18199,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T06:53:05+00:00",
+        "fetchedAt": "2026-10-17T03:56:19+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -17829,7 +18210,7 @@
           "sharable": true,
           "weekly": false
         },
-        "infoboxMarkup": "[ul][li]Level: 17[/li][li]Requires level 13[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3649/thundris-windweaver]Thundris Windweaver[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1646/baros-alexston]Baros Alexston[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]13[/color][small] &nbsp;[/small][color=r2]15[/color][small] &nbsp;[/small][color=r3]20[/color][small] &nbsp;[/small][color=r4]24[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+        "infoboxMarkup": "[ul][li]Level: 17[/li][li]Requires level 13[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=3], [race=4], [br][race=7], [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=3649/thundris-windweaver]Thundris Windweaver[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1646/baros-alexston]Baros Alexston[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]13[/color][small] &nbsp;[/small][color=r2]15[/color][small] &nbsp;[/small][color=r3]20[/color][small] &nbsp;[/small][color=r4]24[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
         "mapper": {
           "missing": 0,
           "objectives": {
@@ -17873,6 +18254,10 @@
                         30.2
                       ],
                       [
+                        57.4,
+                        47.8
+                      ],
+                      [
                         57.6,
                         47.8
                       ]
@@ -17910,16 +18295,31 @@
           "typeId": 97914
         },
         "pinCategory": "normal",
-        "prerequisiteQuestIds": [],
+        "prerequisiteQuestIds": [
+          332,
+          333,
+          334,
+          7791,
+          95065,
+          97220,
+          97222,
+          97234,
+          97237
+        ],
         "questId": 97914,
-        "races": [],
+        "races": [
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 3649,
             "npcName": "Thundris Windweaver",
-            "zoneId": 148,
             "x": 37.4,
             "y": 40.2,
+            "zoneId": 148,
             "zoneName": "Darkshore"
           }
         ]
@@ -17961,7 +18361,20 @@
         "minLevel": 20,
         "name": "A Friend of the Family",
         "pinCategory": "normal",
-        "races": [],
+        "primaryStart": {
+          "npcId": 2104,
+          "npcName": "Captain Stoutfist",
+          "x": 9.8,
+          "y": 57.4,
+          "zoneId": 11,
+          "zoneName": "Wetlands"
+        },
+        "races": [
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -17971,14 +18384,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
-        "startPinCount": 0,
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T07:00:34+00:00",
+        "fetchedAt": "2026-10-17T04:03:33+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -17989,8 +18402,96 @@
           "sharable": true,
           "weekly": false
         },
-        "infoboxMarkup": "[ul][li]Level: 25[/li][li]Requires level 20[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Not sharable[/li][li]Difficulty: [color=q10]20[/color][small] &nbsp;[/small][color=r1]21[/color][small] &nbsp;[/small][color=r2]23[/color][small] &nbsp;[/small][color=r3]28[/color][small] &nbsp;[/small][color=r4]33[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
-        "mapper": null,
+        "infoboxMarkup": "[ul][li]Level: 25[/li][li]Requires level 20[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=3], [race=4], [br][race=7], [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=2104/captain-stoutfist]Captain Stoutfist[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1748/highlord-bolvar-fordragon]Highlord Bolvar Fordragon[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]20[/color][small] &nbsp;[/small][color=r1]21[/color][small] &nbsp;[/small][color=r2]23[/color][small] &nbsp;[/small][color=r3]28[/color][small] &nbsp;[/small][color=r4]33[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+        "mapper": {
+          "missing": 0,
+          "objectives": {
+            "11": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      9.8,
+                      57.4
+                    ],
+                    "coords": [
+                      [
+                        9.8,
+                        57.4
+                      ]
+                    ],
+                    "id": 2104,
+                    "name": "Captain Stoutfist",
+                    "point": "start",
+                    "reactalliance": 1,
+                    "reacthorde": 0,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Wetlands"
+            },
+            "1519": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      78,
+                      18
+                    ],
+                    "coords": [
+                      [
+                        77.4,
+                        18.4
+                      ],
+                      [
+                        77.4,
+                        18.8
+                      ],
+                      [
+                        77.6,
+                        18.6
+                      ],
+                      [
+                        78,
+                        18
+                      ],
+                      [
+                        80,
+                        38.4
+                      ],
+                      [
+                        80,
+                        38.6
+                      ]
+                    ],
+                    "id": 1748,
+                    "name": "Highlord Bolvar Fordragon",
+                    "point": "end",
+                    "reactalliance": 1,
+                    "reacthorde": -1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Stormwind City"
+            }
+          },
+          "parent": "fweiuasf",
+          "zoneparent": "lksjdowlha",
+          "zones": [
+            [
+              11,
+              1
+            ],
+            [
+              1519,
+              1
+            ]
+          ]
+        },
         "minLevel": 20,
         "pageInfo": {
           "name": "A Friend of the Family",
@@ -18000,8 +18501,22 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 98190,
-        "races": [],
-        "startPins": []
+        "races": [
+          3,
+          4,
+          7,
+          95
+        ],
+        "startPins": [
+          {
+            "npcId": 2104,
+            "npcName": "Captain Stoutfist",
+            "x": 9.8,
+            "y": 57.4,
+            "zoneId": 11,
+            "zoneName": "Wetlands"
+          }
+        ]
       }
     },
     "98191": {
@@ -18049,6 +18564,14 @@
         "minLevel": 20,
         "name": "A Friend of the Family",
         "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 1748,
+          "npcName": "Highlord Bolvar Fordragon",
+          "x": 78.0,
+          "y": 18.0,
+          "zoneId": 1519,
+          "zoneName": "Stormwind City"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -18059,14 +18582,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
-        "startPinCount": 0,
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T07:00:34+00:00",
+        "fetchedAt": "2026-10-17T04:03:38+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -18077,8 +18600,96 @@
           "sharable": true,
           "weekly": false
         },
-        "infoboxMarkup": "[ul][li]Level: 25[/li][li]Requires level 20[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Not sharable[/li][li]Difficulty: [color=q10]20[/color][small] &nbsp;[/small][color=r1]21[/color][small] &nbsp;[/small][color=r2]23[/color][small] &nbsp;[/small][color=r3]28[/color][small] &nbsp;[/small][color=r4]33[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
-        "mapper": null,
+        "infoboxMarkup": "[ul][li]Level: 25[/li][li]Requires level 20[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1748/highlord-bolvar-fordragon]Highlord Bolvar Fordragon[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=928/lord-grayson-shadowbreaker]Lord Grayson Shadowbreaker[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]20[/color][small] &nbsp;[/small][color=r1]21[/color][small] &nbsp;[/small][color=r2]23[/color][small] &nbsp;[/small][color=r3]28[/color][small] &nbsp;[/small][color=r4]33[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+        "mapper": {
+          "missing": 0,
+          "objectives": {
+            "1519": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      78,
+                      18
+                    ],
+                    "coords": [
+                      [
+                        77.4,
+                        18.4
+                      ],
+                      [
+                        77.4,
+                        18.8
+                      ],
+                      [
+                        77.6,
+                        18.6
+                      ],
+                      [
+                        78,
+                        18
+                      ],
+                      [
+                        80,
+                        38.4
+                      ],
+                      [
+                        80,
+                        38.6
+                      ]
+                    ],
+                    "id": 1748,
+                    "name": "Highlord Bolvar Fordragon",
+                    "point": "start",
+                    "reactalliance": 1,
+                    "reacthorde": -1,
+                    "type": 1
+                  },
+                  {
+                    "coord": [
+                      37.2,
+                      33
+                    ],
+                    "coords": [
+                      [
+                        37.2,
+                        33
+                      ],
+                      [
+                        37.6,
+                        32.6
+                      ],
+                      [
+                        48.4,
+                        50
+                      ],
+                      [
+                        48.6,
+                        50
+                      ]
+                    ],
+                    "id": 928,
+                    "name": "Lord Grayson Shadowbreaker",
+                    "point": "end",
+                    "reactalliance": 1,
+                    "reacthorde": 0,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Stormwind City"
+            }
+          },
+          "parent": "fweiuasf",
+          "zoneparent": "lksjdowlha",
+          "zones": [
+            [
+              1519,
+              2
+            ]
+          ]
+        },
         "minLevel": 20,
         "pageInfo": {
           "name": "A Friend of the Family",
@@ -18089,7 +18700,16 @@
         "prerequisiteQuestIds": [],
         "questId": 98191,
         "races": [],
-        "startPins": []
+        "startPins": [
+          {
+            "npcId": 1748,
+            "npcName": "Highlord Bolvar Fordragon",
+            "x": 78.0,
+            "y": 18.0,
+            "zoneId": 1519,
+            "zoneName": "Stormwind City"
+          }
+        ]
       }
     },
     "98219": {
@@ -18128,7 +18748,20 @@
         "minLevel": 20,
         "name": "The Shamed Lieutenant",
         "pinCategory": "normal",
-        "races": [],
+        "primaryStart": {
+          "npcId": 928,
+          "npcName": "Lord Grayson Shadowbreaker",
+          "x": 37.2,
+          "y": 33.0,
+          "zoneId": 1519,
+          "zoneName": "Stormwind City"
+        },
+        "races": [
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -18138,14 +18771,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/stormwind-city"
         ],
-        "startPinCount": 0,
+        "startPinCount": 1,
         "zoneId": 1519,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T07:00:49+00:00",
+        "fetchedAt": "2026-10-17T04:04:03+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -18156,8 +18789,92 @@
           "sharable": true,
           "weekly": false
         },
-        "infoboxMarkup": "[ul][li]Level: 30[/li][li]Requires level 20[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Sharable[/li][li]Difficulty: [color=q10]20[/color][small] &nbsp;[/small][color=r1]26[/color][small] &nbsp;[/small][color=r2]28[/color][small] &nbsp;[/small][color=r3]33[/color][small] &nbsp;[/small][color=r4]38[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
-        "mapper": null,
+        "infoboxMarkup": "[ul][li]Level: 30[/li][li]Requires level 20[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=3], [race=4], [br][race=7], [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=928/lord-grayson-shadowbreaker]Lord Grayson Shadowbreaker[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2228/lieutenant-farren-orinelle]Lieutenant Farren Orinelle[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]20[/color][small] &nbsp;[/small][color=r1]26[/color][small] &nbsp;[/small][color=r2]28[/color][small] &nbsp;[/small][color=r3]33[/color][small] &nbsp;[/small][color=r4]38[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+        "mapper": {
+          "missing": 0,
+          "objectives": {
+            "1519": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      37.2,
+                      33
+                    ],
+                    "coords": [
+                      [
+                        37.2,
+                        33
+                      ],
+                      [
+                        37.6,
+                        32.6
+                      ],
+                      [
+                        48.4,
+                        50
+                      ],
+                      [
+                        48.6,
+                        50
+                      ]
+                    ],
+                    "id": 928,
+                    "name": "Lord Grayson Shadowbreaker",
+                    "point": "start",
+                    "reactalliance": 1,
+                    "reacthorde": 0,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Stormwind City"
+            },
+            "267": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      51.4,
+                      58.4
+                    ],
+                    "coords": [
+                      [
+                        51.4,
+                        58.4
+                      ],
+                      [
+                        51.4,
+                        58.6
+                      ]
+                    ],
+                    "id": 2228,
+                    "name": "Lieutenant Farren Orinelle",
+                    "point": "end",
+                    "reactalliance": 1,
+                    "reacthorde": -1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Hillsbrad Foothills"
+            }
+          },
+          "parent": "fweiuasf",
+          "zoneparent": "lksjdowlha",
+          "zones": [
+            [
+              1519,
+              1
+            ],
+            [
+              267,
+              1
+            ]
+          ]
+        },
         "minLevel": 20,
         "pageInfo": {
           "name": "The Shamed Lieutenant",
@@ -18167,8 +18884,22 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 98219,
-        "races": [],
-        "startPins": []
+        "races": [
+          3,
+          4,
+          7,
+          95
+        ],
+        "startPins": [
+          {
+            "npcId": 928,
+            "npcName": "Lord Grayson Shadowbreaker",
+            "x": 37.2,
+            "y": 33.0,
+            "zoneId": 1519,
+            "zoneName": "Stormwind City"
+          }
+        ]
       }
     }
   }

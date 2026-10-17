@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-25T06:49:53+00:00",
+  "fetchedAt": "2026-10-17T03:52:58+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -16,33 +16,6 @@
   "mapper": {
     "missing": 0,
     "objectives": {
-      "15": {
-        "levels": [
-          [
-            {
-              "coord": [
-                29.8,
-                48.2
-              ],
-              "coords": [
-                [
-                  29.8,
-                  48.2
-                ]
-              ],
-              "id": 268622,
-              "name": "Encroaching Soldier",
-              "objective": 268622,
-              "point": "requirement",
-              "reactalliance": 0,
-              "reacthorde": -1,
-              "type": 1
-            }
-          ]
-        ],
-        "mappable": 1,
-        "zone": "Dustwallow Marsh"
-      },
       "17": {
         "levels": [
           [
@@ -52,10 +25,6 @@
                 59.2
               ],
               "coords": [
-                [
-                  44.4,
-                  59.2
-                ],
                 [
                   44.6,
                   59.2
@@ -75,10 +44,6 @@
               ],
               "coords": [
                 [
-                  44.4,
-                  59.2
-                ],
-                [
                   44.6,
                   59.2
                 ]
@@ -97,28 +62,16 @@
               ],
               "coords": [
                 [
-                  47.4,
-                  76
-                ],
-                [
-                  47.6,
-                  76.6
-                ],
-                [
-                  47.8,
-                  76.2
-                ],
-                [
-                  48.6,
-                  77.8
+                  48.3,
+                  77.7
                 ],
                 [
                   49,
                   77
                 ],
                 [
-                  50,
-                  78.4
+                  49.1,
+                  77.9
                 ]
               ],
               "id": 268622,
@@ -131,20 +84,28 @@
             },
             {
               "coord": [
-                49,
-                77
+                48.6,
+                77.4
               ],
               "coords": [
                 [
+                  48.4,
+                  77.6
+                ],
+                [
+                  48.6,
+                  77.4
+                ],
+                [
                   49,
-                  77
+                  77.8
                 ]
               ],
               "id": 268623,
               "name": "Outraged Pillager",
               "objective": 268623,
               "point": "requirement",
-              "reactalliance": 0,
+              "reactalliance": 1,
               "reacthorde": -1,
               "type": 1
             }
@@ -160,10 +121,6 @@
       [
         17,
         3
-      ],
-      [
-        15,
-        1
       ]
     ]
   },
@@ -181,9 +138,9 @@
     {
       "npcId": 5911,
       "npcName": "Grunt Logmar",
-      "zoneId": 17,
       "x": 44.6,
       "y": 59.2,
+      "zoneId": 17,
       "zoneName": "The Barrens"
     }
   ]

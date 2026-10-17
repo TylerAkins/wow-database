@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-25T06:49:28+00:00",
+  "fetchedAt": "2026-10-17T03:52:20+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +12,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 10[/li][li]Requires level 10[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Race: [race=96][/li][li][icon name=quest-start]Start: [url=/forever/npc=252382/sessaria-skystride]Sessaria Skystride[/url][/icon][br][span=invisible][icon name=quest-start]Start: [/icon][/span][url=/forever/npc=254082/aarnor-galestrike]Aarnor Galestrike[/url][/li][li][icon name=quest-end]End: [url=/forever/npc=268592/olariaan-swiftburn]Olariaan Swiftburn[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]10[/color][small] &nbsp;[/small][color=r3]13[/color][small] &nbsp;[/small][color=r4]16[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 10[/li][li]Requires level 10[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=252382/sessaria-skystride]Sessaria Skystride[/url][/icon][br][span=invisible][icon name=quest-start]Start: [/icon][/span][url=/forever/npc=254082/aarnor-galestrike]Aarnor Galestrike[/url][/li][li][icon name=quest-end]End: [url=/forever/npc=268592/olariaan-swiftburn]Olariaan Swiftburn[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]10[/color][small] &nbsp;[/small][color=r3]13[/color][small] &nbsp;[/small][color=r4]16[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -37,7 +37,7 @@
               "id": 252382,
               "name": "Sessaria Skystride",
               "point": "start",
-              "reactalliance": 0,
+              "reactalliance": -1,
               "reacthorde": 1,
               "type": 1
             },
@@ -105,24 +105,22 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 97243,
-  "races": [
-    96
-  ],
+  "races": [],
   "startPins": [
     {
       "npcId": 252382,
       "npcName": "Sessaria Skystride",
-      "zoneId": 16593,
       "x": 58.2,
       "y": 78.4,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     },
     {
       "npcId": 254082,
       "npcName": "Aarnor Galestrike",
-      "zoneId": 16593,
       "x": 43.4,
       "y": 44.8,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

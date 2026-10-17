@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-24T23:23:38+00:00",
+  "fetchedAt": "2026-10-16T20:58:30+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -57,6 +57,28 @@
     ]
   },
   "minLevel": 1,
+  "objectSpawns": [
+    {
+      "entityId": 3076,
+      "entityKind": "object",
+      "entityName": "Dirt-stained Map",
+      "uiMapId": 1412,
+      "uiMapName": "Mulgore",
+      "x": 59.8,
+      "y": 82.2,
+      "zoneId": 215
+    },
+    {
+      "entityId": 3076,
+      "entityKind": "object",
+      "entityName": "Dirt-stained Map",
+      "uiMapId": 1412,
+      "uiMapName": "Mulgore",
+      "x": 63.3,
+      "y": 82.6,
+      "zoneId": 215
+    }
+  ],
   "pageInfo": {
     "name": "Attack on Camp Narache",
     "type": 5,
@@ -66,5 +88,26 @@
   "prerequisiteQuestIds": [],
   "questId": 781,
   "races": [],
-  "startPins": []
+  "startPins": [
+    {
+      "entityId": 3076,
+      "entityKind": "object",
+      "entityName": "Dirt-stained Map",
+      "uiMapId": 1412,
+      "uiMapName": "Mulgore",
+      "x": 59.8,
+      "y": 82.2,
+      "zoneId": 215
+    },
+    {
+      "entityId": 3076,
+      "entityKind": "object",
+      "entityName": "Dirt-stained Map",
+      "uiMapId": 1412,
+      "uiMapName": "Mulgore",
+      "x": 63.3,
+      "y": 82.6,
+      "zoneId": 215
+    }
+  ]
 }

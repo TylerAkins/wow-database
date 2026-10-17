@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-09-24T23:19:10+00:00",
+  "fetchedAt": "2026-10-17T11:18:25+00:00",
   "kind": "zone",
-  "questCount": 42,
+  "questCount": 44,
   "quests": [
     {
       "category": 3,
@@ -26,7 +26,7 @@
       "level": 42,
       "money": 0,
       "name": "Murdaloc",
-      "popularity": 84,
+      "popularity": 416,
       "reprewards": [
         [
           47,
@@ -39,6 +39,132 @@
       "titlereward": 0,
       "type": 0,
       "xp": 3450
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 737,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          4984,
+          1
+        ]
+      ],
+      "level": 40,
+      "money": 0,
+      "name": "Forbidden Knowledge",
+      "popularity": 313,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 30,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2350
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "rewards_changed"
+        ],
+        "lines": [
+          "Experience 3900 instead of 3150",
+          "Money 1g instead of 50s",
+          "Rewards: adds Choice of Ponderous Loop, Choice of Well-Weathered Cloak"
+        ],
+        "notShown": [
+          "Experience 3900 instead of 3150",
+          "Money 1g instead of 50s",
+          "Rewards: adds Choice of Ponderous Loop, Choice of Well-Weathered Cloak"
+        ],
+        "status": "updated"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 78830,
+      "itemchoices": [
+        [
+          277207,
+          1
+        ],
+        [
+          277209,
+          1
+        ]
+      ],
+      "itemrewards": [
+        [
+          211301,
+          1
+        ]
+      ],
+      "level": 40,
+      "money": 10000,
+      "name": "Terror of the Desert Skies",
+      "popularity": 292,
+      "reprewards": [],
+      "reqclass": 4,
+      "reqlevel": 26,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 3900
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "requirements_changed",
+          "rewards_changed",
+          "objectives_changed",
+          "text_changed"
+        ],
+        "lines": [
+          "Classes none instead of Hunter",
+          "Objectives: adds Primitive Drawing",
+          "Progress text added",
+          "Money 25s instead of none"
+        ],
+        "notShown": [
+          "Classes none instead of Hunter",
+          "Progress text added",
+          "Money 25s instead of none"
+        ],
+        "status": "updated"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 78823,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 40,
+      "money": 2500,
+      "name": "Terror of the Desert Skies",
+      "popularity": 190,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 26,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1550
     },
     {
       "category": 3,
@@ -71,7 +197,7 @@
       "level": 38,
       "money": 400,
       "name": "Find Agmond",
-      "popularity": 57,
+      "popularity": 177,
       "reprewards": [
         [
           47,
@@ -117,7 +243,7 @@
       "level": 37,
       "money": 0,
       "name": "Pearl Diving",
-      "popularity": 54,
+      "popularity": 153,
       "reprewards": [
         [
           21,
@@ -147,22 +273,245 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 2258,
+      "id": 728,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 39,
-      "money": 4500,
-      "name": "Badlands Reagent Run",
-      "popularity": 54,
+      "level": 40,
+      "money": 0,
+      "name": "To the Undercity for Yagyin's Digest",
+      "popularity": 145,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 30,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 780
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 735,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 44,
+      "money": 0,
+      "name": "The Star, the Hand and the Heart",
+      "popularity": 141,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 30,
+      "side": 1,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 5600
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "rewards_changed"
+        ],
+        "lines": [
+          "Money 55s instead of none"
+        ],
+        "notShown": [
+          "Money 55s instead of none"
+        ],
+        "status": "updated"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 692,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 41,
+      "money": 5500,
+      "name": "The Lost Fragments",
+      "popularity": 116,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 30,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 3300
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 778,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          2820,
+          1
+        ]
+      ],
+      "level": 45,
+      "money": 0,
+      "name": "This Is Going to Be Hard",
+      "popularity": 101,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 35,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 4850
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 703,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          4457,
+          2
+        ],
+        [
+          4609,
+          1
+        ]
+      ],
+      "level": 40,
+      "money": 0,
+      "name": "Barbecued Buzzard Wings",
+      "popularity": 97,
       "reprewards": [
         [
-          530,
-          100
+          21,
+          75
+        ],
+        [
+          87,
+          -375
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 36,
-      "side": 2,
+      "reqlevel": 33,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2350
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 715,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          4624,
+          1
+        ],
+        [
+          4623,
+          2
+        ]
+      ],
+      "level": 37,
+      "money": 0,
+      "name": "Liquid Stone",
+      "popularity": 96,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 35,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2100
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 727,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 40,
+      "money": 0,
+      "name": "To Ironforge for Yagyin's Digest",
+      "popularity": 91,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 30,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 780
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 711,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 39,
+      "money": 0,
+      "name": "Study of the Elements: Rock",
+      "popularity": 90,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 35,
+      "side": 3,
       "titlereward": 0,
       "type": 0,
       "xp": 3000
@@ -185,7 +534,7 @@
       "level": 35,
       "money": 0,
       "name": "A Sign of Hope",
-      "popularity": 54,
+      "popularity": 85,
       "reprewards": [
         [
           47,
@@ -211,239 +560,20 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 762,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          4987,
-          1
-        ]
-      ],
-      "level": 44,
-      "money": 12500,
-      "name": "An Ambassador of Evil",
-      "popularity": 52,
-      "reprewards": [
-        [
-          47,
-          150
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 35,
-      "side": 1,
-      "titlereward": 0,
-      "type": 1,
-      "xp": 4650
-    },
-    {
-      "category": 3,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 726,
+      "id": 714,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 40,
+      "level": 37,
       "money": 0,
-      "name": "Passing Word of a Threat",
-      "popularity": 50,
-      "reprewards": [
-        [
-          47,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 35,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 2350
-    },
-    {
-      "category": 3,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 692,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 41,
-      "money": 0,
-      "name": "The Lost Fragments",
-      "popularity": 49,
+      "name": "Gyro... What?",
+      "popularity": 85,
       "reprewards": [],
       "reqclass": 0,
-      "reqlevel": 30,
+      "reqlevel": 35,
       "side": 3,
       "titlereward": 0,
       "type": 0,
-      "xp": 3300
-    },
-    {
-      "category": 3,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 718,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 38,
-      "money": 0,
-      "name": "Mirages",
-      "popularity": 46,
-      "reprewards": [
-        [
-          47,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 35,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 2150
-    },
-    {
-      "category": 3,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 4062,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 54,
-      "money": 0,
-      "name": "The Rise of the Machines",
-      "popularity": 45,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 52,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1350
-    },
-    {
-      "category": 3,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 737,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          4984,
-          1
-        ]
-      ],
-      "level": 40,
-      "money": 0,
-      "name": "Forbidden Knowledge",
-      "popularity": 45,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 30,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 2350
-    },
-    {
-      "category": 3,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 735,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 44,
-      "money": 0,
-      "name": "The Star, the Hand and the Heart",
-      "popularity": 44,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 30,
-      "side": 1,
-      "titlereward": 0,
-      "type": 1,
-      "xp": 5600
-    },
-    {
-      "category": 3,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 725,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 40,
-      "money": 0,
-      "name": "Passing Word of a Threat",
-      "popularity": 42,
-      "reprewards": [
-        [
-          47,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 35,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1550
+      "xp": 2850
     },
     {
       "category": 3,
@@ -480,7 +610,7 @@
       "level": 50,
       "money": 0,
       "name": "Tremors of the Earth",
-      "popularity": 41,
+      "popularity": 84,
       "reprewards": [
         [
           72,
@@ -493,6 +623,380 @@
       "titlereward": 0,
       "type": 1,
       "xp": 5900
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 713,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 37,
+      "money": 0,
+      "name": "Coolant Heads Prevail",
+      "popularity": 84,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 35,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2850
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 716,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          4979,
+          1
+        ]
+      ],
+      "level": 42,
+      "money": 0,
+      "name": "Stone Is Better than Cloth",
+      "popularity": 81,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 35,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2550
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 762,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          4987,
+          1
+        ]
+      ],
+      "level": 44,
+      "money": 12500,
+      "name": "An Ambassador of Evil",
+      "popularity": 80,
+      "reprewards": [
+        [
+          47,
+          150
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 35,
+      "side": 1,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 4650
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 712,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 42,
+      "money": 0,
+      "name": "Study of the Elements: Rock",
+      "popularity": 78,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 35,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 3450
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 710,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 37,
+      "money": 0,
+      "name": "Study of the Elements: Rock",
+      "popularity": 78,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 35,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2850
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 726,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 40,
+      "money": 0,
+      "name": "Passing Word of a Threat",
+      "popularity": 77,
+      "reprewards": [
+        [
+          47,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 35,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2350
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 734,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 42,
+      "money": 0,
+      "name": "This Is Going to Be Hard",
+      "popularity": 74,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 35,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 0
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 725,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 40,
+      "money": 0,
+      "name": "Passing Word of a Threat",
+      "popularity": 74,
+      "reprewards": [
+        [
+          47,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 35,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1550
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 724,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 40,
+      "money": 0,
+      "name": "Prospect of Faith",
+      "popularity": 74,
+      "reprewards": [
+        [
+          47,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 35,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 3150
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 719,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          4978,
+          1
+        ]
+      ],
+      "level": 35,
+      "money": 0,
+      "name": "A Dwarf and His Tools",
+      "popularity": 74,
+      "reprewards": [
+        [
+          47,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 35,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2750
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 2258,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 39,
+      "money": 4500,
+      "name": "Badlands Reagent Run",
+      "popularity": 72,
+      "reprewards": [
+        [
+          530,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 36,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 3000
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 723,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 40,
+      "money": 0,
+      "name": "Prospect of Faith",
+      "popularity": 71,
+      "reprewards": [
+        [
+          47,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 35,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2350
     },
     {
       "category": 3,
@@ -521,7 +1025,7 @@
       "level": 40,
       "money": 0,
       "name": "Scrounging",
-      "popularity": 40,
+      "popularity": 70,
       "reprewards": [
         [
           47,
@@ -534,166 +1038,6 @@
       "titlereward": 0,
       "type": 0,
       "xp": 3150
-    },
-    {
-      "category": 3,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 732,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 43,
-      "money": 0,
-      "name": "Tremors of the Earth",
-      "popularity": 38,
-      "reprewards": [
-        [
-          72,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 40,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 3600
-    },
-    {
-      "category": 3,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 719,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          4978,
-          1
-        ]
-      ],
-      "level": 35,
-      "money": 0,
-      "name": "A Dwarf and His Tools",
-      "popularity": 38,
-      "reprewards": [
-        [
-          47,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 35,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 2750
-    },
-    {
-      "category": 3,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 723,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 40,
-      "money": 0,
-      "name": "Prospect of Faith",
-      "popularity": 37,
-      "reprewards": [
-        [
-          47,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 35,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 2350
-    },
-    {
-      "category": 3,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 724,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 40,
-      "money": 0,
-      "name": "Prospect of Faith",
-      "popularity": 37,
-      "reprewards": [
-        [
-          47,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 35,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 3150
-    },
-    {
-      "category": 3,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 727,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 40,
-      "money": 0,
-      "name": "To Ironforge for Yagyin's Digest",
-      "popularity": 36,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 30,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 780
     },
     {
       "category": 3,
@@ -713,7 +1057,7 @@
       "level": 42,
       "money": 0,
       "name": "This Is Going to Be Hard",
-      "popularity": 35,
+      "popularity": 70,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 35,
@@ -734,20 +1078,25 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 728,
+      "id": 1420,
       "itemchoices": [],
       "itemrewards": [],
       "level": 40,
       "money": 0,
-      "name": "To the Undercity for Yagyin's Digest",
-      "popularity": 35,
-      "reprewards": [],
+      "name": "Report to Helgrum",
+      "popularity": 69,
+      "reprewards": [
+        [
+          76,
+          75
+        ]
+      ],
       "reqclass": 0,
       "reqlevel": 30,
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 780
+      "xp": 2350
     },
     {
       "category": 3,
@@ -761,224 +1110,128 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 716,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          4979,
-          1
-        ]
-      ],
-      "level": 42,
-      "money": 0,
-      "name": "Stone Is Better than Cloth",
-      "popularity": 35,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 35,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 2550
-    },
-    {
-      "category": 3,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 714,
+      "id": 718,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 37,
+      "level": 38,
       "money": 0,
-      "name": "Gyro... What?",
-      "popularity": 34,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 35,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 2850
-    },
-    {
-      "category": 3,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 712,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 42,
-      "money": 0,
-      "name": "Study of the Elements: Rock",
-      "popularity": 34,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 35,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 3450
-    },
-    {
-      "category": 3,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 713,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 37,
-      "money": 0,
-      "name": "Coolant Heads Prevail",
-      "popularity": 33,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 35,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 2850
-    },
-    {
-      "category": 3,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 778,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          2820,
-          1
-        ]
-      ],
-      "level": 45,
-      "money": 0,
-      "name": "This Is Going to Be Hard",
-      "popularity": 33,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 35,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 4850
-    },
-    {
-      "category": 3,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 711,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 39,
-      "money": 0,
-      "name": "Study of the Elements: Rock",
-      "popularity": 32,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 35,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 3000
-    },
-    {
-      "category": 3,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 734,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 42,
-      "money": 0,
-      "name": "This Is Going to Be Hard",
-      "popularity": 31,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 35,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 0
-    },
-    {
-      "category": 3,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 2203,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 44,
-      "money": 0,
-      "name": "Badlands Reagent Run II",
-      "popularity": 31,
+      "name": "Mirages",
+      "popularity": 68,
       "reprewards": [
         [
-          530,
+          47,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 35,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2150
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 732,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 43,
+      "money": 0,
+      "name": "Tremors of the Earth",
+      "popularity": 67,
+      "reprewards": [
+        [
+          72,
           100
         ]
       ],
       "reqclass": 0,
       "reqlevel": 40,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 3600
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "faction_changed"
+        ],
+        "lines": [
+          "Side Alliance instead of none"
+        ],
+        "notShown": [
+          "Side Alliance instead of none"
+        ],
+        "status": "updated"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 708,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 40,
+      "money": 5000,
+      "name": "The Black Box",
+      "popularity": 63,
+      "reprewards": [
+        [
+          47,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 30,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2350
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 1419,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 40,
+      "money": 0,
+      "name": "Coyote Thieves",
+      "popularity": 63,
+      "reprewards": [
+        [
+          76,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 30,
       "side": 2,
       "titlereward": 0,
-      "type": 1,
-      "xp": 3750
+      "type": 0,
+      "xp": 3150
     },
     {
       "category": 3,
@@ -1015,7 +1268,7 @@
       "level": 50,
       "money": 0,
       "name": "Broken Alliances",
-      "popularity": 31,
+      "popularity": 62,
       "reprewards": [
         [
           76,
@@ -1041,25 +1294,20 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 1419,
+      "id": 4062,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 40,
+      "level": 54,
       "money": 0,
-      "name": "Coyote Thieves",
-      "popularity": 31,
-      "reprewards": [
-        [
-          76,
-          100
-        ]
-      ],
+      "name": "The Rise of the Machines",
+      "popularity": 62,
+      "reprewards": [],
       "reqclass": 0,
-      "reqlevel": 30,
+      "reqlevel": 52,
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 3150
+      "xp": 1350
     },
     {
       "category": 3,
@@ -1073,85 +1321,13 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 710,
+      "id": 2203,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 37,
+      "level": 44,
       "money": 0,
-      "name": "Study of the Elements: Rock",
-      "popularity": 30,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 35,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 2850
-    },
-    {
-      "category": 3,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 703,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          4457,
-          2
-        ],
-        [
-          4609,
-          1
-        ]
-      ],
-      "level": 40,
-      "money": 0,
-      "name": "Barbecued Buzzard Wings",
-      "popularity": 29,
-      "reprewards": [
-        [
-          21,
-          75
-        ],
-        [
-          87,
-          -375
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 33,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 2350
-    },
-    {
-      "category": 3,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 3821,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 52,
-      "money": 0,
-      "name": "Dreadmaul Rock",
-      "popularity": 29,
+      "name": "Badlands Reagent Run II",
+      "popularity": 62,
       "reprewards": [
         [
           530,
@@ -1159,177 +1335,11 @@
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 48,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 5100
-    },
-    {
-      "category": 3,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 715,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          4624,
-          1
-        ],
-        [
-          4623,
-          2
-        ]
-      ],
-      "level": 37,
-      "money": 0,
-      "name": "Liquid Stone",
-      "popularity": 27,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 35,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 2100
-    },
-    {
-      "category": 3,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1420,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 40,
-      "money": 0,
-      "name": "Report to Helgrum",
-      "popularity": 27,
-      "reprewards": [
-        [
-          76,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 30,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 2350
-    },
-    {
-      "category": 3,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [
-          "faction_changed"
-        ],
-        "lines": [
-          "Side Alliance instead of none"
-        ],
-        "notShown": [
-          "Side Alliance instead of none"
-        ],
-        "status": "updated"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 708,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 40,
-      "money": 5000,
-      "name": "The Black Box",
-      "popularity": 27,
-      "reprewards": [
-        [
-          47,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 30,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 2350
-    },
-    {
-      "category": 3,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 782,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 43,
-      "money": 0,
-      "name": "Broken Alliances",
-      "popularity": 26,
-      "reprewards": [
-        [
-          76,
-          100
-        ]
-      ],
-      "reqclass": 0,
       "reqlevel": 40,
       "side": 2,
       "titlereward": 0,
-      "type": 0,
-      "xp": 3600
-    },
-    {
-      "category": 3,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 795,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 50,
-      "money": 0,
-      "name": "Seal of the Earth",
-      "popularity": 25,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 40,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 0
+      "type": 1,
+      "xp": 3750
     },
     {
       "category": 3,
@@ -1354,7 +1364,7 @@
       "level": 45,
       "money": 0,
       "name": "Fiery Blaze Enchantments",
-      "popularity": 25,
+      "popularity": 61,
       "reprewards": [
         [
           47,
@@ -1380,17 +1390,108 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
+      "id": 782,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 43,
+      "money": 0,
+      "name": "Broken Alliances",
+      "popularity": 60,
+      "reprewards": [
+        [
+          76,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 40,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 3600
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 3821,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 52,
+      "money": 0,
+      "name": "Dreadmaul Rock",
+      "popularity": 51,
+      "reprewards": [
+        [
+          530,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 48,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 5100
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
       "id": 779,
       "itemchoices": [],
       "itemrewards": [],
       "level": 50,
       "money": 0,
       "name": "Seal of the Earth",
-      "popularity": 21,
+      "popularity": 45,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 40,
       "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 0
+    },
+    {
+      "category": 3,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 795,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 50,
+      "money": 0,
+      "name": "Seal of the Earth",
+      "popularity": 42,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 40,
+      "side": 2,
       "titlereward": 0,
       "type": 0,
       "xp": 0

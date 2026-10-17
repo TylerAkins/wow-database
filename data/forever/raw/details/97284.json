@@ -1,0 +1,445 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-10-17T12:12:17+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 33[/li][li]Requires level 30[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=5642/vahlarriel-demonslayer]Vahlarriel Demonslayer[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=5642/vahlarriel-demonslayer]Vahlarriel Demonslayer[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]30[/color][small] &nbsp;[/small][color=r2]31[/color][small] &nbsp;[/small][color=r3]36[/color][small] &nbsp;[/small][color=r4]42[/color][/li][li]Added in patch [acronym=\"1.60.1.70205\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "405": {
+        "levels": [
+          [
+            {
+              "coord": [
+                66.4,
+                11.8
+              ],
+              "coords": [
+                [
+                  66.4,
+                  11.4
+                ],
+                [
+                  66.4,
+                  11.8
+                ],
+                [
+                  66.6,
+                  11.8
+                ]
+              ],
+              "id": 5642,
+              "name": "Vahlarriel Demonslayer",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                66.4,
+                11.8
+              ],
+              "coords": [
+                [
+                  66.4,
+                  11.4
+                ],
+                [
+                  66.4,
+                  11.8
+                ],
+                [
+                  66.6,
+                  11.8
+                ]
+              ],
+              "id": 5642,
+              "name": "Vahlarriel Demonslayer",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                55.2,
+                30
+              ],
+              "coords": [
+                [
+                  53,
+                  32.4
+                ],
+                [
+                  53.4,
+                  29.2
+                ],
+                [
+                  54.2,
+                  28
+                ],
+                [
+                  54.4,
+                  27.2
+                ],
+                [
+                  54.4,
+                  33.2
+                ],
+                [
+                  55.2,
+                  27.4
+                ],
+                [
+                  55.2,
+                  28.6
+                ],
+                [
+                  55.2,
+                  30
+                ],
+                [
+                  55.4,
+                  26.2
+                ],
+                [
+                  55.4,
+                  27.6
+                ],
+                [
+                  55.6,
+                  26.2
+                ],
+                [
+                  56,
+                  27.4
+                ],
+                [
+                  56,
+                  27.6
+                ],
+                [
+                  56,
+                  31.2
+                ],
+                [
+                  56.2,
+                  22
+                ],
+                [
+                  56.6,
+                  30
+                ],
+                [
+                  57,
+                  22.8
+                ],
+                [
+                  57.2,
+                  22.2
+                ]
+              ],
+              "id": 4663,
+              "name": "Burning Blade Augur",
+              "objective": 4663,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                56,
+                29.6
+              ],
+              "coords": [
+                [
+                  52.4,
+                  32.2
+                ],
+                [
+                  53.4,
+                  29.2
+                ],
+                [
+                  54.2,
+                  30.4
+                ],
+                [
+                  54.4,
+                  27.2
+                ],
+                [
+                  54.6,
+                  29.8
+                ],
+                [
+                  55.2,
+                  27.4
+                ],
+                [
+                  55.2,
+                  28.8
+                ],
+                [
+                  55.4,
+                  26.2
+                ],
+                [
+                  55.4,
+                  27.6
+                ],
+                [
+                  55.6,
+                  26.2
+                ],
+                [
+                  55.6,
+                  26.8
+                ],
+                [
+                  55.8,
+                  28.4
+                ],
+                [
+                  56,
+                  29.4
+                ],
+                [
+                  56,
+                  29.6
+                ],
+                [
+                  56,
+                  30.6
+                ],
+                [
+                  56.4,
+                  21.2
+                ],
+                [
+                  56.6,
+                  21.6
+                ],
+                [
+                  56.6,
+                  29.8
+                ],
+                [
+                  57.4,
+                  26.2
+                ],
+                [
+                  57.6,
+                  26.4
+                ]
+              ],
+              "id": 4664,
+              "name": "Burning Blade Reaver",
+              "objective": 4664,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                55,
+                26.2
+              ],
+              "coords": [
+                [
+                  52.4,
+                  28.8
+                ],
+                [
+                  52.6,
+                  29.4
+                ],
+                [
+                  52.8,
+                  28.2
+                ],
+                [
+                  53.4,
+                  26.4
+                ],
+                [
+                  54.4,
+                  27.2
+                ],
+                [
+                  54.4,
+                  29.8
+                ],
+                [
+                  54.4,
+                  33.2
+                ],
+                [
+                  54.6,
+                  29.8
+                ],
+                [
+                  55,
+                  26.2
+                ],
+                [
+                  55,
+                  28.6
+                ],
+                [
+                  55.2,
+                  26.8
+                ],
+                [
+                  55.4,
+                  27.6
+                ],
+                [
+                  55.6,
+                  26.2
+                ],
+                [
+                  55.8,
+                  31.4
+                ],
+                [
+                  56.6,
+                  30
+                ],
+                [
+                  56.8,
+                  25.6
+                ],
+                [
+                  57.2,
+                  27.8
+                ]
+              ],
+              "id": 4665,
+              "name": "Burning Blade Adept",
+              "objective": 4665,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                55.2,
+                30.2
+              ],
+              "coords": [
+                [
+                  52.4,
+                  28.6
+                ],
+                [
+                  53,
+                  28.4
+                ],
+                [
+                  53,
+                  29.4
+                ],
+                [
+                  54,
+                  29.4
+                ],
+                [
+                  54.4,
+                  27.4
+                ],
+                [
+                  55.2,
+                  25.6
+                ],
+                [
+                  55.2,
+                  30.2
+                ],
+                [
+                  55.4,
+                  27.2
+                ],
+                [
+                  55.4,
+                  27.8
+                ],
+                [
+                  55.4,
+                  28.8
+                ],
+                [
+                  55.6,
+                  26.4
+                ],
+                [
+                  55.6,
+                  26.8
+                ],
+                [
+                  55.6,
+                  28
+                ],
+                [
+                  55.6,
+                  28.6
+                ]
+              ],
+              "id": 4666,
+              "name": "Burning Blade Felsworn",
+              "objective": 4666,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Desolace"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        405,
+        5
+      ]
+    ]
+  },
+  "minLevel": 30,
+  "pageInfo": {
+    "name": "Vahlarriel's Vengeance",
+    "type": 5,
+    "typeId": 97284
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 97284,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 5642,
+      "npcName": "Vahlarriel Demonslayer",
+      "x": 66.4,
+      "y": 11.8,
+      "zoneId": 405,
+      "zoneName": "Desolace"
+    }
+  ]
+}

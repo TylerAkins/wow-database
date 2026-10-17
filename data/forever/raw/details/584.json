@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-24T23:19:35+00:00",
+  "fetchedAt": "2026-10-16T20:38:54+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -16,6 +16,62 @@
   "mapper": {
     "missing": 0,
     "objectives": {
+      "14": {
+        "levels": [
+          [
+            {
+              "coord": [
+                51.1,
+                42.4
+              ],
+              "coords": [
+                [
+                  51.1,
+                  42.4
+                ],
+                [
+                  51.1,
+                  42.5
+                ],
+                [
+                  67.5,
+                  87.9
+                ]
+              ],
+              "id": 2076,
+              "name": "Bubbling Cauldron",
+              "point": "end",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Durotar"
+      },
+      "215": {
+        "levels": [
+          [
+            {
+              "coord": [
+                60.6,
+                78.3
+              ],
+              "coords": [
+                [
+                  60.6,
+                  78.3
+                ]
+              ],
+              "id": 2076,
+              "name": "Bubbling Cauldron",
+              "point": "end",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Mulgore"
+      },
       "33": {
         "levels": [
           [
@@ -125,6 +181,66 @@
         ],
         "mappable": 1,
         "zone": "Stranglethorn Vale"
+      },
+      "38": {
+        "levels": [
+          [
+            {
+              "coord": [
+                26.5,
+                43.5
+              ],
+              "coords": [
+                [
+                  25.8,
+                  43.2
+                ],
+                [
+                  26.2,
+                  42.4
+                ],
+                [
+                  26.5,
+                  42.8
+                ],
+                [
+                  26.5,
+                  43.5
+                ],
+                [
+                  26.6,
+                  42.2
+                ],
+                [
+                  27,
+                  45.3
+                ],
+                [
+                  35.9,
+                  83.3
+                ],
+                [
+                  36,
+                  82.3
+                ],
+                [
+                  36,
+                  84
+                ],
+                [
+                  36.1,
+                  85.3
+                ]
+              ],
+              "id": 2076,
+              "name": "Bubbling Cauldron",
+              "point": "end",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Loch Modan"
       }
     },
     "parent": "fweiuasf",
@@ -133,6 +249,18 @@
       [
         33,
         4
+      ],
+      [
+        14,
+        1
+      ],
+      [
+        38,
+        1
+      ],
+      [
+        215,
+        1
       ]
     ]
   },
@@ -150,9 +278,9 @@
     {
       "npcId": 2497,
       "npcName": "Nimboya",
-      "zoneId": 33,
       "x": 32.2,
       "y": 27.8,
+      "zoneId": 33,
       "zoneName": "Stranglethorn Vale"
     }
   ]

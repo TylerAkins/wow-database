@@ -3,7 +3,7 @@
     3
   ],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-25T06:35:21+00:00",
+  "fetchedAt": "2026-10-17T03:38:03+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -14,7 +14,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 10[/li][li]Requires level 10[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Class: [class=3][/li][li][icon name=quest-start]Start: [url=/forever/npc=251507/josephine-carson]Josephine Carson[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=251507/josephine-carson]Josephine Carson[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]10[/color][small] &nbsp;[/small][color=r3]13[/color][small] &nbsp;[/small][color=r4]16[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 10[/li][li]Requires level 10[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=3], [race=4][/li][li]Class: [class=3][/li][li][icon name=quest-start]Start: [url=/forever/npc=251507/josephine-carson]Josephine Carson[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=251507/josephine-carson]Josephine Carson[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]10[/color][small] &nbsp;[/small][color=r3]13[/color][small] &nbsp;[/small][color=r4]16[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 1,
     "objectives": {
@@ -81,14 +81,17 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 94792,
-  "races": [],
+  "races": [
+    3,
+    4
+  ],
   "startPins": [
     {
       "npcId": 251507,
       "npcName": "Josephine Carson",
-      "zoneId": 12,
       "x": 41.2,
       "y": 66.2,
+      "zoneId": 12,
       "zoneName": "Elwynn Forest"
     }
   ]

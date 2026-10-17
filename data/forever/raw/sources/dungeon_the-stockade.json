@@ -1,40 +1,8 @@
 {
-  "fetchedAt": "2026-09-24T23:19:11+00:00",
+  "fetchedAt": "2026-10-17T11:26:30+00:00",
   "kind": "dungeon",
   "questCount": 6,
   "quests": [
-    {
-      "category": 717,
-      "category2": 2,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 391,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 29,
-      "money": 2500,
-      "name": "The Stockade Riots",
-      "popularity": 543,
-      "reprewards": [
-        [
-          72,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 16,
-      "side": 1,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 2350
-    },
     {
       "category": 717,
       "category2": 2,
@@ -45,53 +13,12 @@
           "rewards_changed"
         ],
         "lines": [
-          "Rewards: adds Choice of Ursine Hammer"
+          "Rewards: adds Choice of Magistrate's Pantaloons"
         ],
         "notShown": [
-          "Rewards: adds Choice of Ursine Hammer"
+          "Rewards: adds Choice of Magistrate's Pantaloons"
         ],
         "status": "updated"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 386,
-      "itemchoices": [
-        [
-          3400,
-          1
-        ],
-        [
-          1317,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 25,
-      "money": 0,
-      "name": "What Comes Around...",
-      "popularity": 243,
-      "reprewards": [
-        [
-          72,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 22,
-      "side": 1,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 2000
-    },
-    {
-      "category": 717,
-      "category2": 2,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
@@ -104,13 +31,17 @@
         [
           1264,
           1
+        ],
+        [
+          270036,
+          1
         ]
       ],
       "itemrewards": [],
       "level": 27,
       "money": 0,
       "name": "The Fury Runs Deep",
-      "popularity": 239,
+      "popularity": 1014,
       "reprewards": [
         [
           47,
@@ -152,13 +83,17 @@
         [
           2906,
           1
+        ],
+        [
+          270029,
+          1
         ]
       ],
       "itemrewards": [],
       "level": 26,
       "money": 0,
       "name": "Crime and Punishment",
-      "popularity": 238,
+      "popularity": 546,
       "reprewards": [
         [
           72,
@@ -171,6 +106,122 @@
       "titlereward": 0,
       "type": 81,
       "xp": 2100
+    },
+    {
+      "category": 717,
+      "category2": 2,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 391,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 29,
+      "money": 2500,
+      "name": "The Stockade Riots",
+      "popularity": 528,
+      "reprewards": [
+        [
+          72,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 16,
+      "side": 1,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 2350
+    },
+    {
+      "category": 717,
+      "category2": 2,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 388,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 26,
+      "money": 4000,
+      "name": "The Color of Blood",
+      "popularity": 515,
+      "reprewards": [
+        [
+          72,
+          150
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 22,
+      "side": 1,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 2650
+    },
+    {
+      "category": 717,
+      "category2": 2,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "rewards_changed"
+        ],
+        "lines": [
+          "Rewards: adds Choice of Ursine Hammer"
+        ],
+        "notShown": [
+          "Rewards: adds Choice of Ursine Hammer"
+        ],
+        "status": "updated"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 386,
+      "itemchoices": [
+        [
+          3400,
+          1
+        ],
+        [
+          1317,
+          1
+        ],
+        [
+          270027,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 25,
+      "money": 0,
+      "name": "What Comes Around...",
+      "popularity": 453,
+      "reprewards": [
+        [
+          72,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 22,
+      "side": 1,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 2000
     },
     {
       "category": 717,
@@ -194,40 +245,8 @@
       "itemrewards": [],
       "level": 26,
       "money": 4000,
-      "name": "Quell The Uprising",
-      "popularity": 166,
-      "reprewards": [
-        [
-          72,
-          150
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 22,
-      "side": 1,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 2650
-    },
-    {
-      "category": 717,
-      "category2": 2,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 388,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 26,
-      "money": 4000,
-      "name": "The Color of Blood",
-      "popularity": 161,
+      "name": "Quell the Uprising",
+      "popularity": 406,
       "reprewards": [
         [
           72,

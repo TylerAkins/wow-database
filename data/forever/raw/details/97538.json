@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-25T06:51:39+00:00",
+  "fetchedAt": "2026-10-17T03:54:53+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +12,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 26[/li][li]Requires level 20[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3024/tah-winterhoof]Tah Winterhoof[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]20[/color][small] &nbsp;[/small][color=r1]22[/color][small] &nbsp;[/small][color=r2]24[/color][small] &nbsp;[/small][color=r3]29[/color][small] &nbsp;[/small][color=r4]34[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 26[/li][li]Requires level 20[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3024/tah-winterhoof]Tah Winterhoof[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3024/tah-winterhoof]Tah Winterhoof[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]20[/color][small] &nbsp;[/small][color=r1]22[/color][small] &nbsp;[/small][color=r2]24[/color][small] &nbsp;[/small][color=r3]29[/color][small] &nbsp;[/small][color=r4]34[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 1,
     "objectives": {
@@ -21,7 +21,7 @@
           [
             {
               "coord": [
-                54,
+                54.2,
                 47.4
               ],
               "coords": [
@@ -30,7 +30,7 @@
                   47.8
                 ],
                 [
-                  54,
+                  54.2,
                   47.4
                 ],
                 [
@@ -49,6 +49,40 @@
               "id": 3024,
               "name": "Tah Winterhoof",
               "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                54.2,
+                47.4
+              ],
+              "coords": [
+                [
+                  53.4,
+                  47.8
+                ],
+                [
+                  54.2,
+                  47.4
+                ],
+                [
+                  54.2,
+                  47.6
+                ],
+                [
+                  54.8,
+                  47.6
+                ],
+                [
+                  55,
+                  47.4
+                ]
+              ],
+              "id": 3024,
+              "name": "Tah Winterhoof",
+              "point": "end",
               "reactalliance": 0,
               "reacthorde": 1,
               "type": 1
@@ -75,16 +109,18 @@
     "typeId": 97538
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    6301
+  ],
   "questId": 97538,
   "races": [],
   "startPins": [
     {
       "npcId": 3024,
       "npcName": "Tah Winterhoof",
-      "zoneId": 1638,
-      "x": 54.0,
+      "x": 54.2,
       "y": 47.4,
+      "zoneId": 1638,
       "zoneName": "Thunder Bluff"
     }
   ]

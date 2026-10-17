@@ -5,7 +5,7 @@
     "slug": "western-plaguelands",
     "sourceSlug": "ek/western-plaguelands",
     "sourceUrl": "https://www.wowhead.com/forever/quests/eastern-kingdoms/western-plaguelands",
-    "sourceFetchedAt": "2026-09-24T23:19:10+00:00",
+    "sourceFetchedAt": "2026-10-17T11:21:12+00:00",
     "zoneId": 28
   },
   "questCount": 92,
@@ -14,7 +14,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 105,
         "list": {
           "category": 28,
@@ -59,6 +59,15 @@
         },
         "minLevel": 50,
         "name": "Alas, Andorhal",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 10837,
+          "npcName": "High Executor Derrington",
+          "x": 83.0,
+          "y": 69.0,
+          "zoneId": 85,
+          "zoneName": "Tirisfal Glades"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -69,13 +78,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/western-plaguelands"
         ],
+        "startPinCount": 1,
         "zoneId": 28,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:09:44+00:00",
+        "fetchedAt": "2026-10-16T19:51:06+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -140,7 +150,7 @@
                     ],
                     "coords": [
                       [
-                        45.2,
+                        45.4,
                         68.4
                       ],
                       [
@@ -256,9 +266,9 @@
           {
             "npcId": 10837,
             "npcName": "High Executor Derrington",
-            "zoneId": 85,
             "x": 83.0,
             "y": 69.0,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -268,7 +278,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 211,
         "list": {
           "category": 28,
@@ -313,6 +323,15 @@
         },
         "minLevel": 50,
         "name": "Alas, Andorhal",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 10838,
+          "npcName": "Commander Ashlam Valorfist",
+          "x": 42.8,
+          "y": 84.0,
+          "zoneId": 28,
+          "zoneName": "Western Plaguelands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -323,13 +342,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/western-plaguelands"
         ],
+        "startPinCount": 1,
         "zoneId": 28,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:11:57+00:00",
+        "fetchedAt": "2026-10-16T20:01:52+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -430,7 +450,7 @@
                     ],
                     "coords": [
                       [
-                        45.2,
+                        45.4,
                         68.4
                       ],
                       [
@@ -498,9 +518,9 @@
           {
             "npcId": 10838,
             "npcName": "Commander Ashlam Valorfist",
-            "zoneId": 28,
             "x": 42.8,
             "y": 84.0,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -510,7 +530,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 838,
         "list": {
           "category": 28,
@@ -541,6 +561,15 @@
         },
         "minLevel": 55,
         "name": "Scholomance",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 10837,
+          "npcName": "High Executor Derrington",
+          "x": 83.0,
+          "y": 69.0,
+          "zoneId": 85,
+          "zoneName": "Tirisfal Glades"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -551,13 +580,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/western-plaguelands"
         ],
+        "startPinCount": 1,
         "zoneId": 28,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:24:48+00:00",
+        "fetchedAt": "2026-10-16T21:04:14+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -642,9 +672,9 @@
           {
             "npcId": 10837,
             "npcName": "High Executor Derrington",
-            "zoneId": 85,
             "x": 83.0,
             "y": 69.0,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -654,7 +684,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 964,
         "list": {
           "category": 28,
@@ -685,6 +715,15 @@
         },
         "minLevel": 55,
         "name": "Skeletal Fragments",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 11057,
+          "npcName": "Apothecary Dithers",
+          "x": 83.2,
+          "y": 69.2,
+          "zoneId": 85,
+          "zoneName": "Tirisfal Glades"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -695,13 +734,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/western-plaguelands"
         ],
+        "startPinCount": 1,
         "zoneId": 28,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:27:24+00:00",
+        "fetchedAt": "2026-10-16T21:16:52+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -784,9 +824,9 @@
           {
             "npcId": 11057,
             "npcName": "Apothecary Dithers",
-            "zoneId": 85,
             "x": 83.2,
             "y": 69.2,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -860,7 +900,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:39:01+00:00",
+        "fetchedAt": "2026-10-16T23:42:13+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -1054,9 +1094,9 @@
           {
             "npcId": 10667,
             "npcName": "Chromie",
-            "zoneId": 28,
             "x": 39.4,
             "y": 66.8,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -1126,7 +1166,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:39:05+00:00",
+        "fetchedAt": "2026-10-16T23:42:18+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -1209,9 +1249,9 @@
           {
             "npcId": 10667,
             "npcName": "Chromie",
-            "zoneId": 28,
             "x": 39.4,
             "y": 66.8,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -1281,7 +1321,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:39:10+00:00",
+        "fetchedAt": "2026-10-16T23:42:23+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -1364,9 +1404,9 @@
           {
             "npcId": 10667,
             "npcName": "Chromie",
-            "zoneId": 28,
             "x": 39.4,
             "y": 66.8,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -1436,7 +1476,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:39:56+00:00",
+        "fetchedAt": "2026-10-16T23:43:13+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -2222,9 +2262,9 @@
           {
             "npcId": 10739,
             "npcName": "Mulgris Deepriver",
-            "zoneId": 28,
             "x": 53.6,
             "y": 64.6,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -2294,7 +2334,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:40:01+00:00",
+        "fetchedAt": "2026-10-16T23:43:13+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -3060,9 +3100,9 @@
           {
             "npcId": 10739,
             "npcName": "Mulgris Deepriver",
-            "zoneId": 28,
             "x": 53.6,
             "y": 64.6,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -3139,7 +3179,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:40:06+00:00",
+        "fetchedAt": "2026-10-16T23:43:18+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -3242,9 +3282,9 @@
           {
             "npcId": 10739,
             "npcName": "Mulgris Deepriver",
-            "zoneId": 28,
             "x": 53.6,
             "y": 64.6,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -3321,7 +3361,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:40:11+00:00",
+        "fetchedAt": "2026-10-16T23:43:23+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -3434,9 +3474,9 @@
           {
             "npcId": 10739,
             "npcName": "Mulgris Deepriver",
-            "zoneId": 28,
             "x": 53.6,
             "y": 64.6,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -3501,7 +3541,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:40:26+00:00",
+        "fetchedAt": "2026-10-16T23:43:38+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -3582,9 +3622,9 @@
           {
             "npcId": 10778,
             "npcName": "Janice Felstone",
-            "zoneId": 28,
             "x": 38.4,
             "y": 54.0,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -3657,7 +3697,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:40:31+00:00",
+        "fetchedAt": "2026-10-16T23:43:43+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -3692,6 +3732,10 @@
                       [
                         48.6,
                         30.6
+                      ],
+                      [
+                        57.2,
+                        48.2
                       ]
                     ],
                     "id": 10782,
@@ -3840,7 +3884,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:40:51+00:00",
+        "fetchedAt": "2026-10-16T23:43:48+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -4026,7 +4070,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:41:51+00:00",
+        "fetchedAt": "2026-10-16T23:44:49+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -4187,17 +4231,17 @@
           {
             "npcId": 3520,
             "npcName": "Ol' Emma",
-            "zoneId": 1519,
             "x": 52.4,
             "y": 41.8,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           },
           {
             "npcId": 8403,
             "npcName": "Jeremiah Payson",
-            "zoneId": 1497,
             "x": 67.4,
             "y": 43.8,
+            "zoneId": 1497,
             "zoneName": "Undercity"
           }
         ]
@@ -4267,7 +4311,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:41:52+00:00",
+        "fetchedAt": "2026-10-16T23:44:54+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -4426,9 +4470,9 @@
           {
             "npcId": 10778,
             "npcName": "Janice Felstone",
-            "zoneId": 28,
             "x": 38.4,
             "y": 54.0,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -4494,7 +4538,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:42:27+00:00",
+        "fetchedAt": "2026-10-16T23:45:41+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -4653,7 +4697,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:42:32+00:00",
+        "fetchedAt": "2026-10-16T23:45:45+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -4891,7 +4935,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:42:52+00:00",
+        "fetchedAt": "2026-10-16T23:45:51+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -5102,7 +5146,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:44:53+00:00",
+        "fetchedAt": "2026-10-16T23:47:51+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -5519,9 +5563,9 @@
           {
             "npcId": 10838,
             "npcName": "Commander Ashlam Valorfist",
-            "zoneId": 28,
             "x": 42.8,
             "y": 84.0,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -5593,7 +5637,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:44:54+00:00",
+        "fetchedAt": "2026-10-16T23:47:56+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -5622,10 +5666,6 @@
                         74.6
                       ],
                       [
-                        38.8,
-                        52.8
-                      ],
-                      [
                         39,
                         51.8
                       ],
@@ -5634,16 +5674,8 @@
                         51.2
                       ],
                       [
-                        39.4,
-                        50.2
-                      ],
-                      [
                         39.8,
                         72
-                      ],
-                      [
-                        40.4,
-                        71.2
                       ],
                       [
                         40.8,
@@ -5718,7 +5750,7 @@
                         65.8
                       ],
                       [
-                        49.2,
+                        48.8,
                         65.8
                       ],
                       [
@@ -5740,10 +5772,6 @@
                       [
                         50.2,
                         62.6
-                      ],
-                      [
-                        50.4,
-                        64
                       ],
                       [
                         50.6,
@@ -5782,16 +5810,12 @@
                         68.2
                       ],
                       [
-                        51.4,
-                        73
-                      ],
-                      [
                         51.6,
                         64.2
                       ],
                       [
                         51.6,
-                        68.2
+                        68
                       ],
                       [
                         51.6,
@@ -5800,10 +5824,6 @@
                       [
                         51.8,
                         65.4
-                      ],
-                      [
-                        51.8,
-                        74.2
                       ],
                       [
                         52,
@@ -5858,28 +5878,12 @@
                         57.4
                       ],
                       [
-                        55.4,
-                        57.6
-                      ],
-                      [
-                        55.8,
+                        56,
                         57.6
                       ],
                       [
                         56.6,
                         58
-                      ],
-                      [
-                        57.4,
-                        57.4
-                      ],
-                      [
-                        57.6,
-                        57.6
-                      ],
-                      [
-                        57.8,
-                        38.2
                       ],
                       [
                         58,
@@ -5962,9 +5966,9 @@
           {
             "npcId": 10880,
             "npcName": "Warcaller Gorlach",
-            "zoneId": 1637,
             "x": 46.6,
             "y": 64.6,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -6036,7 +6040,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:44:59+00:00",
+        "fetchedAt": "2026-10-16T23:48:16+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -6086,11 +6090,7 @@
                       ],
                       [
                         59,
-                        45.6
-                      ],
-                      [
-                        59.2,
-                        41
+                        46.4
                       ],
                       [
                         59.2,
@@ -6107,6 +6107,10 @@
                       [
                         59.4,
                         40.4
+                      ],
+                      [
+                        59.4,
+                        40.6
                       ],
                       [
                         59.4,
@@ -6266,6 +6270,10 @@
                       ],
                       [
                         63.6,
+                        34
+                      ],
+                      [
+                        63.6,
                         53.4
                       ],
                       [
@@ -6282,10 +6290,6 @@
                       ],
                       [
                         64,
-                        33.8
-                      ],
-                      [
-                        64,
                         34.6
                       ],
                       [
@@ -6298,11 +6302,11 @@
                       ],
                       [
                         64.2,
-                        44
+                        33.4
                       ],
                       [
-                        64.4,
-                        33.4
+                        64.2,
+                        44
                       ],
                       [
                         64.4,
@@ -6325,6 +6329,10 @@
                         45.4
                       ],
                       [
+                        64.6,
+                        53.2
+                      ],
+                      [
                         64.8,
                         41.8
                       ],
@@ -6334,7 +6342,11 @@
                       ],
                       [
                         64.8,
-                        46.2
+                        46.4
+                      ],
+                      [
+                        64.8,
+                        54.4
                       ],
                       [
                         65,
@@ -6347,10 +6359,6 @@
                       [
                         65.2,
                         33.6
-                      ],
-                      [
-                        65.2,
-                        54.2
                       ],
                       [
                         65.4,
@@ -6434,6 +6442,10 @@
                       ],
                       [
                         66.6,
+                        41.4
+                      ],
+                      [
+                        66.6,
                         47.6
                       ],
                       [
@@ -6443,10 +6455,6 @@
                       [
                         67,
                         33.8
-                      ],
-                      [
-                        67,
-                        41.4
                       ],
                       [
                         67,
@@ -6462,7 +6470,11 @@
                       ],
                       [
                         67.2,
-                        54.4
+                        46.6
+                      ],
+                      [
+                        67.2,
+                        54.2
                       ],
                       [
                         67.4,
@@ -6481,16 +6493,16 @@
                         46.4
                       ],
                       [
-                        67.4,
-                        47
-                      ],
-                      [
                         67.6,
                         33.4
                       ],
                       [
                         67.6,
                         42
+                      ],
+                      [
+                        67.8,
+                        34
                       ],
                       [
                         67.8,
@@ -6519,10 +6531,6 @@
                       [
                         68,
                         54.6
-                      ],
-                      [
-                        68.2,
-                        34
                       ],
                       [
                         68.2,
@@ -6598,7 +6606,7 @@
                       ],
                       [
                         69.8,
-                        52.8
+                        52.6
                       ],
                       [
                         70,
@@ -6626,19 +6634,15 @@
                       ],
                       [
                         70.6,
-                        50.2
-                      ],
-                      [
-                        70.6,
                         52.6
                       ],
                       [
                         70.8,
-                        36.8
+                        51.6
                       ],
                       [
-                        70.8,
-                        51.6
+                        71,
+                        36.8
                       ],
                       [
                         71,
@@ -6659,6 +6663,10 @@
                       [
                         71.4,
                         49.2
+                      ],
+                      [
+                        71.4,
+                        50.4
                       ],
                       [
                         71.6,
@@ -6706,7 +6714,7 @@
                       ],
                       [
                         72.4,
-                        47
+                        47.4
                       ],
                       [
                         72.4,
@@ -6714,7 +6722,7 @@
                       ],
                       [
                         72.6,
-                        40.4
+                        40.2
                       ],
                       [
                         72.6,
@@ -6835,9 +6843,9 @@
           {
             "npcId": 10879,
             "npcName": "Harbinger Balthazad",
-            "zoneId": 1497,
             "x": 68.2,
             "y": 47.6,
+            "zoneId": 1497,
             "zoneName": "Undercity"
           }
         ]
@@ -6909,7 +6917,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:45:04+00:00",
+        "fetchedAt": "2026-10-16T23:48:16+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -6943,15 +6951,19 @@
                       ],
                       [
                         36.6,
-                        53.2
-                      ],
-                      [
-                        36.6,
                         55.2
                       ],
                       [
                         36.6,
                         55.8
+                      ],
+                      [
+                        36.8,
+                        52.8
+                      ],
+                      [
+                        37,
+                        51.4
                       ],
                       [
                         37,
@@ -6978,8 +6990,12 @@
                         60.6
                       ],
                       [
-                        37.6,
-                        60.4
+                        37.8,
+                        59.8
+                      ],
+                      [
+                        37.8,
+                        60.6
                       ],
                       [
                         38.2,
@@ -6988,10 +7004,6 @@
                       [
                         38.2,
                         51.6
-                      ],
-                      [
-                        38.2,
-                        61.2
                       ],
                       [
                         38.2,
@@ -7063,7 +7075,7 @@
                       ],
                       [
                         41.4,
-                        54.8
+                        54.6
                       ],
                       [
                         41.4,
@@ -7090,8 +7102,8 @@
                         60
                       ],
                       [
-                        42.4,
-                        56
+                        42.2,
+                        55.6
                       ],
                       [
                         42.4,
@@ -7147,7 +7159,7 @@
                       ],
                       [
                         43.6,
-                        57.2
+                        57.4
                       ],
                       [
                         43.6,
@@ -7170,7 +7182,7 @@
                         58
                       ],
                       [
-                        44.2,
+                        44,
                         58.6
                       ],
                       [
@@ -7186,8 +7198,16 @@
                         61.6
                       ],
                       [
+                        52.8,
+                        52.4
+                      ],
+                      [
                         53,
                         51
+                      ],
+                      [
+                        53.4,
+                        50
                       ],
                       [
                         53.4,
@@ -7223,15 +7243,15 @@
                       ],
                       [
                         55.8,
-                        48.2
-                      ],
-                      [
-                        55.8,
                         54.2
                       ],
                       [
                         55.8,
                         55
+                      ],
+                      [
+                        56.2,
+                        48
                       ],
                       [
                         56.2,
@@ -7242,8 +7262,12 @@
                         56.2
                       ],
                       [
-                        56.8,
+                        56.6,
                         48
+                      ],
+                      [
+                        56.8,
+                        57.2
                       ],
                       [
                         56.8,
@@ -7256,6 +7280,10 @@
                       [
                         57.8,
                         48.4
+                      ],
+                      [
+                        58,
+                        54
                       ],
                       [
                         58.4,
@@ -7328,9 +7356,9 @@
           {
             "npcId": 10881,
             "npcName": "Bluff Runner Windstrider",
-            "zoneId": 1638,
             "x": 42.6,
             "y": 56.2,
+            "zoneId": 1638,
             "zoneName": "Thunder Bluff"
           }
         ]
@@ -7402,7 +7430,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:45:09+00:00",
+        "fetchedAt": "2026-10-16T23:48:22+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7527,9 +7555,9 @@
           {
             "npcId": 10837,
             "npcName": "High Executor Derrington",
-            "zoneId": 85,
             "x": 83.0,
             "y": 69.0,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -7601,7 +7629,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:45:14+00:00",
+        "fetchedAt": "2026-10-16T23:48:27+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7684,9 +7712,9 @@
           {
             "npcId": 10838,
             "npcName": "Commander Ashlam Valorfist",
-            "zoneId": 28,
             "x": 42.8,
             "y": 84.0,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -7758,7 +7786,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:45:19+00:00",
+        "fetchedAt": "2026-10-16T23:48:32+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7841,9 +7869,9 @@
           {
             "npcId": 10837,
             "npcName": "High Executor Derrington",
-            "zoneId": 85,
             "x": 83.0,
             "y": 69.0,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -7908,7 +7936,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:47:56+00:00",
+        "fetchedAt": "2026-10-16T23:50:58+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7991,9 +8019,9 @@
           {
             "npcId": 10667,
             "npcName": "Chromie",
-            "zoneId": 28,
             "x": 39.4,
             "y": 66.8,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -8224,7 +8252,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:48:56+00:00",
+        "fetchedAt": "2026-10-16T23:51:59+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -8307,9 +8335,9 @@
           {
             "npcId": 10976,
             "npcName": "Jeziba",
-            "zoneId": 28,
             "x": 39.4,
             "y": 66.8,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -8389,7 +8417,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:49:07+00:00",
+        "fetchedAt": "2026-10-16T23:52:19+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -9363,7 +9391,7 @@
                       ],
                       [
                         34.4,
-                        76.8
+                        76.9
                       ],
                       [
                         34.5,
@@ -9559,7 +9587,7 @@
                       ],
                       [
                         58.5,
-                        64.8
+                        64.9
                       ],
                       [
                         58.5,
@@ -9683,7 +9711,7 @@
                       ],
                       [
                         73.3,
-                        70.1
+                        69.9
                       ],
                       [
                         73.3,
@@ -10359,7 +10387,7 @@
                       ],
                       [
                         44.5,
-                        53.4
+                        53.3
                       ],
                       [
                         44.5,
@@ -10588,32 +10616,12 @@
                     ],
                     "coords": [
                       [
-                        79.8,
-                        69.6
-                      ],
-                      [
-                        80.8,
-                        70
-                      ],
-                      [
-                        80.8,
-                        71.2
-                      ],
-                      [
                         82,
                         72
                       ],
                       [
-                        82.2,
-                        72.8
-                      ],
-                      [
                         82.4,
                         71
-                      ],
-                      [
-                        82.8,
-                        70.4
                       ],
                       [
                         82.8,
@@ -10626,18 +10634,6 @@
                       [
                         83,
                         71.6
-                      ],
-                      [
-                        83.2,
-                        69.4
-                      ],
-                      [
-                        83.8,
-                        70.6
-                      ],
-                      [
-                        84.2,
-                        70.4
                       ]
                     ],
                     "id": 10996,
@@ -10810,7 +10806,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:49:11+00:00",
+        "fetchedAt": "2026-10-16T23:52:24+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -11784,7 +11780,7 @@
                       ],
                       [
                         34.4,
-                        76.8
+                        76.9
                       ],
                       [
                         34.5,
@@ -11980,7 +11976,7 @@
                       ],
                       [
                         58.5,
-                        64.8
+                        64.9
                       ],
                       [
                         58.5,
@@ -12104,7 +12100,7 @@
                       ],
                       [
                         73.3,
-                        70.1
+                        69.9
                       ],
                       [
                         73.3,
@@ -12780,7 +12776,7 @@
                       ],
                       [
                         44.5,
-                        53.4
+                        53.3
                       ],
                       [
                         44.5,
@@ -13009,32 +13005,12 @@
                     ],
                     "coords": [
                       [
-                        79.8,
-                        69.6
-                      ],
-                      [
-                        80.8,
-                        70
-                      ],
-                      [
-                        80.8,
-                        71.2
-                      ],
-                      [
                         82,
                         72
                       ],
                       [
-                        82.2,
-                        72.8
-                      ],
-                      [
                         82.4,
                         71
-                      ],
-                      [
-                        82.8,
-                        70.4
                       ],
                       [
                         82.8,
@@ -13047,18 +13023,6 @@
                       [
                         83,
                         71.6
-                      ],
-                      [
-                        83.2,
-                        69.4
-                      ],
-                      [
-                        83.8,
-                        70.6
-                      ],
-                      [
-                        84.2,
-                        70.4
                       ]
                     ],
                     "id": 10996,
@@ -13219,7 +13183,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:50:58+00:00",
+        "fetchedAt": "2026-10-16T23:54:00+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -13306,9 +13270,9 @@
           {
             "npcId": 10838,
             "npcName": "Commander Ashlam Valorfist",
-            "zoneId": 28,
             "x": 42.8,
             "y": 84.0,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -13384,7 +13348,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:51:03+00:00",
+        "fetchedAt": "2026-10-16T23:54:20+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -13513,9 +13477,9 @@
           {
             "npcId": 11053,
             "npcName": "High Priestess MacDonnell",
-            "zoneId": 28,
             "x": 42.8,
             "y": 84.4,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -13592,7 +13556,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:51:08+00:00",
+        "fetchedAt": "2026-10-16T23:54:21+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -13762,7 +13726,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:51:13+00:00",
+        "fetchedAt": "2026-10-16T23:54:26+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -20787,7 +20751,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:51:18+00:00",
+        "fetchedAt": "2026-10-16T23:54:30+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -20896,9 +20860,9 @@
           {
             "npcId": 11053,
             "npcName": "High Priestess MacDonnell",
-            "zoneId": 28,
             "x": 42.8,
             "y": 84.4,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -20975,7 +20939,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:51:23+00:00",
+        "fetchedAt": "2026-10-16T23:54:36+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -21145,7 +21109,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:51:28+00:00",
+        "fetchedAt": "2026-10-16T23:54:41+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -28194,7 +28158,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:51:33+00:00",
+        "fetchedAt": "2026-10-16T23:54:46+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -28303,9 +28267,9 @@
           {
             "npcId": 11053,
             "npcName": "High Priestess MacDonnell",
-            "zoneId": 28,
             "x": 42.8,
             "y": 84.4,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -28382,7 +28346,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:51:38+00:00",
+        "fetchedAt": "2026-10-16T23:54:50+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -28552,7 +28516,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:51:58+00:00",
+        "fetchedAt": "2026-10-16T23:54:56+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -35601,7 +35565,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:51:58+00:00",
+        "fetchedAt": "2026-10-16T23:55:01+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -35738,9 +35702,9 @@
           {
             "npcId": 11053,
             "npcName": "High Priestess MacDonnell",
-            "zoneId": 28,
             "x": 42.8,
             "y": 84.4,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -35817,7 +35781,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:52:03+00:00",
+        "fetchedAt": "2026-10-16T23:55:21+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -36003,7 +35967,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:52:08+00:00",
+        "fetchedAt": "2026-10-16T23:55:21+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -43038,7 +43002,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:52:15+00:00",
+        "fetchedAt": "2026-10-16T23:55:26+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -43121,9 +43085,9 @@
           {
             "npcId": 10837,
             "npcName": "High Executor Derrington",
-            "zoneId": 85,
             "x": 83.0,
             "y": 69.0,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -43199,7 +43163,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:52:18+00:00",
+        "fetchedAt": "2026-10-16T23:55:31+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -43292,9 +43256,9 @@
           {
             "npcId": 11055,
             "npcName": "Shadow Priestess Vandis",
-            "zoneId": 85,
             "x": 83.0,
             "y": 71.8,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -43371,7 +43335,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:52:23+00:00",
+        "fetchedAt": "2026-10-16T23:55:36+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -43554,7 +43518,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:52:28+00:00",
+        "fetchedAt": "2026-10-16T23:55:41+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -43647,9 +43611,9 @@
           {
             "npcId": 11055,
             "npcName": "Shadow Priestess Vandis",
-            "zoneId": 85,
             "x": 83.0,
             "y": 71.8,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -43726,7 +43690,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:52:33+00:00",
+        "fetchedAt": "2026-10-16T23:55:46+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -43909,7 +43873,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:52:38+00:00",
+        "fetchedAt": "2026-10-16T23:55:51+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -44002,9 +43966,9 @@
           {
             "npcId": 11055,
             "npcName": "Shadow Priestess Vandis",
-            "zoneId": 85,
             "x": 83.0,
             "y": 71.8,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -44081,7 +44045,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:52:58+00:00",
+        "fetchedAt": "2026-10-16T23:55:56+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -44264,7 +44228,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:52:59+00:00",
+        "fetchedAt": "2026-10-16T23:56:01+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -44361,9 +44325,9 @@
           {
             "npcId": 11055,
             "npcName": "Shadow Priestess Vandis",
-            "zoneId": 85,
             "x": 83.0,
             "y": 71.8,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -44440,7 +44404,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:53:04+00:00",
+        "fetchedAt": "2026-10-16T23:56:21+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -44651,7 +44615,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:53:09+00:00",
+        "fetchedAt": "2026-10-16T23:56:22+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -44736,9 +44700,9 @@
           {
             "npcId": 10838,
             "npcName": "Commander Ashlam Valorfist",
-            "zoneId": 28,
             "x": 42.8,
             "y": 84.0,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -44828,7 +44792,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:53:14+00:00",
+        "fetchedAt": "2026-10-16T23:56:27+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -44911,9 +44875,9 @@
           {
             "npcId": 10837,
             "npcName": "High Executor Derrington",
-            "zoneId": 85,
             "x": 83.0,
             "y": 69.0,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -44992,7 +44956,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:56:16+00:00",
+        "fetchedAt": "2026-10-16T23:59:29+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -45083,9 +45047,9 @@
           {
             "npcId": 11022,
             "npcName": "Alexi Barov",
-            "zoneId": 85,
             "x": 83.0,
             "y": 71.4,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -45164,7 +45128,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:56:26+00:00",
+        "fetchedAt": "2026-10-16T23:59:39+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -45271,9 +45235,9 @@
           {
             "npcId": 11023,
             "npcName": "Weldon Barov",
-            "zoneId": 28,
             "x": 43.4,
             "y": 83.6,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -45350,7 +45314,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:57:11+00:00",
+        "fetchedAt": "2026-10-17T00:00:24+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -45386,7 +45350,7 @@
                     "id": 10840,
                     "name": "Argent Officer Pureheart",
                     "point": "start",
-                    "reactalliance": 1,
+                    "reactalliance": 0,
                     "reacthorde": 1,
                     "type": 1
                   },
@@ -45408,7 +45372,7 @@
                     "id": 10840,
                     "name": "Argent Officer Pureheart",
                     "point": "end",
-                    "reactalliance": 1,
+                    "reactalliance": 0,
                     "reacthorde": 1,
                     "type": 1
                   }
@@ -45441,9 +45405,9 @@
           {
             "npcId": 10840,
             "npcName": "Argent Officer Pureheart",
-            "zoneId": 28,
             "x": 43.0,
             "y": 83.6,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -45520,7 +45484,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:57:16+00:00",
+        "fetchedAt": "2026-10-17T00:00:29+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -45556,7 +45520,7 @@
                     "id": 10840,
                     "name": "Argent Officer Pureheart",
                     "point": "start",
-                    "reactalliance": 1,
+                    "reactalliance": 0,
                     "reacthorde": 1,
                     "type": 1
                   },
@@ -45578,7 +45542,7 @@
                     "id": 10840,
                     "name": "Argent Officer Pureheart",
                     "point": "end",
-                    "reactalliance": 1,
+                    "reactalliance": 0,
                     "reacthorde": 1,
                     "type": 1
                   },
@@ -48727,9 +48691,9 @@
           {
             "npcId": 10840,
             "npcName": "Argent Officer Pureheart",
-            "zoneId": 28,
             "x": 43.0,
             "y": 83.6,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -48806,7 +48770,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:57:21+00:00",
+        "fetchedAt": "2026-10-17T00:00:34+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -48842,7 +48806,7 @@
                     "id": 10840,
                     "name": "Argent Officer Pureheart",
                     "point": "start",
-                    "reactalliance": 1,
+                    "reactalliance": 0,
                     "reacthorde": 1,
                     "type": 1
                   },
@@ -48864,7 +48828,7 @@
                     "id": 10840,
                     "name": "Argent Officer Pureheart",
                     "point": "end",
-                    "reactalliance": 1,
+                    "reactalliance": 0,
                     "reacthorde": 1,
                     "type": 1
                   },
@@ -49393,9 +49357,9 @@
           {
             "npcId": 10840,
             "npcName": "Argent Officer Pureheart",
-            "zoneId": 28,
             "x": 43.0,
             "y": 83.6,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -49472,7 +49436,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:57:26+00:00",
+        "fetchedAt": "2026-10-17T00:00:39+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -49508,7 +49472,7 @@
                     "id": 10840,
                     "name": "Argent Officer Pureheart",
                     "point": "start",
-                    "reactalliance": 1,
+                    "reactalliance": 0,
                     "reacthorde": 1,
                     "type": 1
                   },
@@ -49530,7 +49494,7 @@
                     "id": 10840,
                     "name": "Argent Officer Pureheart",
                     "point": "end",
-                    "reactalliance": 1,
+                    "reactalliance": 0,
                     "reacthorde": 1,
                     "type": 1
                   },
@@ -49911,9 +49875,9 @@
           {
             "npcId": 10840,
             "npcName": "Argent Officer Pureheart",
-            "zoneId": 28,
             "x": 43.0,
             "y": 83.6,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -49990,7 +49954,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:57:31+00:00",
+        "fetchedAt": "2026-10-17T00:00:44+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -50081,9 +50045,9 @@
           {
             "npcId": 10839,
             "npcName": "Argent Officer Garush",
-            "zoneId": 85,
             "x": 83.2,
             "y": 68.4,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -50160,7 +50124,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:57:36+00:00",
+        "fetchedAt": "2026-10-17T00:00:49+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -50251,9 +50215,9 @@
           {
             "npcId": 10839,
             "npcName": "Argent Officer Garush",
-            "zoneId": 85,
             "x": 83.2,
             "y": 68.4,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -50330,7 +50294,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:57:41+00:00",
+        "fetchedAt": "2026-10-17T00:00:54+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -50421,9 +50385,9 @@
           {
             "npcId": 10839,
             "npcName": "Argent Officer Garush",
-            "zoneId": 85,
             "x": 83.2,
             "y": 68.4,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -50500,7 +50464,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:58:01+00:00",
+        "fetchedAt": "2026-10-17T00:00:59+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -50591,9 +50555,9 @@
           {
             "npcId": 10839,
             "npcName": "Argent Officer Garush",
-            "zoneId": 85,
             "x": 83.2,
             "y": 68.4,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -50658,7 +50622,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:58:12+00:00",
+        "fetchedAt": "2026-10-17T00:01:25+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -50749,9 +50713,9 @@
           {
             "npcId": 11286,
             "npcName": "Magistrate Marduke",
-            "zoneId": 28,
             "x": 70.4,
             "y": 74.0,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -50816,7 +50780,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:58:17+00:00",
+        "fetchedAt": "2026-10-17T00:01:30+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -50915,9 +50879,9 @@
           {
             "npcId": 11286,
             "npcName": "Magistrate Marduke",
-            "zoneId": 28,
             "x": 70.4,
             "y": 74.0,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -50982,7 +50946,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:58:32+00:00",
+        "fetchedAt": "2026-10-17T00:01:45+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -51081,9 +51045,9 @@
           {
             "npcId": 11036,
             "npcName": "Leonid Barthalomew the Revered",
-            "zoneId": 139,
             "x": 81.6,
             "y": 57.8,
+            "zoneId": 139,
             "zoneName": "Eastern Plaguelands"
           }
         ]
@@ -51155,7 +51119,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:59:18+00:00",
+        "fetchedAt": "2026-10-17T00:02:31+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -51238,9 +51202,9 @@
           {
             "npcId": 10856,
             "npcName": "Argent Quartermaster Hasana",
-            "zoneId": 85,
             "x": 83.2,
             "y": 68.2,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -51317,7 +51281,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:59:22+00:00",
+        "fetchedAt": "2026-10-17T00:02:36+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -51402,9 +51366,9 @@
           {
             "npcId": 11056,
             "npcName": "Alchemist Arbington",
-            "zoneId": 28,
             "x": 42.6,
             "y": 83.8,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -51476,7 +51440,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:59:33+00:00",
+        "fetchedAt": "2026-10-17T00:02:46+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -51508,7 +51472,7 @@
                     "id": 10857,
                     "name": "Argent Quartermaster Lightspark",
                     "point": "start",
-                    "reactalliance": 1,
+                    "reactalliance": 0,
                     "reacthorde": 1,
                     "type": 1
                   },
@@ -51526,7 +51490,7 @@
                     "id": 10857,
                     "name": "Argent Quartermaster Lightspark",
                     "point": "end",
-                    "reactalliance": 1,
+                    "reactalliance": 0,
                     "reacthorde": 1,
                     "type": 1
                   }
@@ -51559,9 +51523,9 @@
           {
             "npcId": 10857,
             "npcName": "Argent Quartermaster Lightspark",
-            "zoneId": 28,
             "x": 42.8,
             "y": 83.8,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -51638,7 +51602,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T03:00:03+00:00",
+        "fetchedAt": "2026-10-17T00:03:06+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -51723,9 +51687,9 @@
           {
             "npcId": 11057,
             "npcName": "Apothecary Dithers",
-            "zoneId": 85,
             "x": 83.2,
             "y": 69.2,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -51792,7 +51756,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T03:00:18+00:00",
+        "fetchedAt": "2026-10-17T00:03:31+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -51829,7 +51793,7 @@
                     "name": "Krinkle Goodsteel",
                     "point": "end",
                     "reactalliance": 1,
-                    "reacthorde": 1,
+                    "reacthorde": 0,
                     "type": 1
                   }
                 ]
@@ -51893,9 +51857,9 @@
           {
             "npcId": 11057,
             "npcName": "Apothecary Dithers",
-            "zoneId": 85,
             "x": 83.2,
             "y": 69.2,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -51972,7 +51936,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:01:04+00:00",
+        "fetchedAt": "2026-10-17T00:04:06+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -52004,7 +51968,7 @@
                     "id": 10857,
                     "name": "Argent Quartermaster Lightspark",
                     "point": "start",
-                    "reactalliance": 1,
+                    "reactalliance": 0,
                     "reacthorde": 1,
                     "type": 1
                   },
@@ -52022,7 +51986,7 @@
                     "id": 10857,
                     "name": "Argent Quartermaster Lightspark",
                     "point": "end",
-                    "reactalliance": 1,
+                    "reactalliance": 0,
                     "reacthorde": 1,
                     "type": 1
                   }
@@ -52055,9 +52019,9 @@
           {
             "npcId": 10857,
             "npcName": "Argent Quartermaster Lightspark",
-            "zoneId": 28,
             "x": 42.8,
             "y": 83.8,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -52134,7 +52098,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T03:01:19+00:00",
+        "fetchedAt": "2026-10-17T00:04:32+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -52217,9 +52181,9 @@
           {
             "npcId": 10856,
             "npcName": "Argent Quartermaster Hasana",
-            "zoneId": 85,
             "x": 83.2,
             "y": 68.2,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -52286,7 +52250,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:02:09+00:00",
+        "fetchedAt": "2026-10-17T00:05:27+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -52369,9 +52333,9 @@
           {
             "npcId": 10838,
             "npcName": "Commander Ashlam Valorfist",
-            "zoneId": 28,
             "x": 42.8,
             "y": 84.0,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -52438,7 +52402,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:02:29+00:00",
+        "fetchedAt": "2026-10-17T00:05:42+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -53837,9 +53801,9 @@
           {
             "npcId": 11056,
             "npcName": "Alchemist Arbington",
-            "zoneId": 28,
             "x": 42.6,
             "y": 83.8,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -53906,7 +53870,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:02:34+00:00",
+        "fetchedAt": "2026-10-17T00:05:48+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -53969,7 +53933,7 @@
                     "name": "Krinkle Goodsteel",
                     "point": "end",
                     "reactalliance": 1,
-                    "reacthorde": 1,
+                    "reacthorde": 0,
                     "type": 1
                   }
                 ]
@@ -54005,9 +53969,9 @@
           {
             "npcId": 11056,
             "npcName": "Alchemist Arbington",
-            "zoneId": 28,
             "x": 42.6,
             "y": 83.8,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -54074,7 +54038,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:11:15+00:00",
+        "fetchedAt": "2026-10-17T00:14:33+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -54157,9 +54121,9 @@
           {
             "npcId": 11056,
             "npcName": "Alchemist Arbington",
-            "zoneId": 28,
             "x": 42.6,
             "y": 83.8,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -54226,7 +54190,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T03:11:20+00:00",
+        "fetchedAt": "2026-10-17T00:14:33+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -54311,9 +54275,9 @@
           {
             "npcId": 11057,
             "npcName": "Apothecary Dithers",
-            "zoneId": 85,
             "x": 83.2,
             "y": 69.2,
+            "zoneId": 85,
             "zoneName": "Tirisfal Glades"
           }
         ]
@@ -54378,7 +54342,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T03:12:25+00:00",
+        "fetchedAt": "2026-10-17T00:15:39+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -54481,9 +54445,9 @@
           {
             "npcId": 1855,
             "npcName": "Tirion Fordring",
-            "zoneId": 139,
             "x": 7.4,
             "y": 43.6,
+            "zoneId": 139,
             "zoneName": "Eastern Plaguelands"
           }
         ]
@@ -54548,7 +54512,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T03:12:31+00:00",
+        "fetchedAt": "2026-10-17T00:15:44+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -54702,9 +54666,9 @@
           {
             "npcId": 11872,
             "npcName": "Myranda the Hag",
-            "zoneId": 28,
             "x": 50.8,
             "y": 77.8,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -54771,7 +54735,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:14:17+00:00",
+        "fetchedAt": "2026-10-17T00:17:34+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -55114,6 +55078,10 @@
                       [
                         26.4,
                         15.6
+                      ],
+                      [
+                        26.6,
+                        19
                       ],
                       [
                         26.8,
@@ -57030,9 +56998,9 @@
           {
             "npcId": 11616,
             "npcName": "Nathaniel Dumah",
-            "zoneId": 28,
             "x": 43.4,
             "y": 84.8,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -57099,7 +57067,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:14:22+00:00",
+        "fetchedAt": "2026-10-17T00:17:35+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -57188,9 +57156,9 @@
           {
             "npcId": 11616,
             "npcName": "Nathaniel Dumah",
-            "zoneId": 28,
             "x": 43.4,
             "y": 84.8,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -57283,7 +57251,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T03:15:52+00:00",
+        "fetchedAt": "2026-10-17T00:19:06+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -57438,9 +57406,9 @@
           {
             "npcId": 1842,
             "npcName": "Highlord Taelan Fordring",
-            "zoneId": 28,
             "x": 42.0,
             "y": 14.8,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -57505,7 +57473,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T03:16:28+00:00",
+        "fetchedAt": "2026-10-17T00:19:41+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -58132,9 +58100,9 @@
           {
             "npcId": 11610,
             "npcName": "Kirsta Deepshadow",
-            "zoneId": 28,
             "x": 52.0,
             "y": 28.0,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -58199,7 +58167,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T03:16:43+00:00",
+        "fetchedAt": "2026-10-17T00:19:56+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -58340,9 +58308,9 @@
           {
             "npcId": 11610,
             "npcName": "Kirsta Deepshadow",
-            "zoneId": 28,
             "x": 52.0,
             "y": 28.0,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -58407,7 +58375,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T03:16:53+00:00",
+        "fetchedAt": "2026-10-17T00:20:06+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -58492,9 +58460,9 @@
           {
             "npcId": 11610,
             "npcName": "Kirsta Deepshadow",
-            "zoneId": 28,
             "x": 52.0,
             "y": 28.0,
+            "zoneId": 28,
             "zoneName": "Western Plaguelands"
           }
         ]
@@ -58551,7 +58519,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T03:23:37+00:00",
+        "fetchedAt": "2026-10-17T00:26:50+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -58638,7 +58606,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:23:57+00:00",
+        "fetchedAt": "2026-10-17T00:27:10+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -58665,6 +58633,14 @@
                       [
                         75.8,
                         59.8
+                      ],
+                      [
+                        78.4,
+                        70.6
+                      ],
+                      [
+                        78.6,
+                        70.6
                       ]
                     ],
                     "id": 332,
@@ -58737,9 +58713,9 @@
           {
             "npcId": 332,
             "npcName": "Master Mathias Shaw",
-            "zoneId": 1519,
             "x": 75.8,
             "y": 59.8,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]
@@ -58807,7 +58783,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:27:29+00:00",
+        "fetchedAt": "2026-10-17T00:30:42+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -58988,7 +58964,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T03:27:34+00:00",
+        "fetchedAt": "2026-10-17T00:30:47+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,

@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-24T23:19:11+00:00",
+  "fetchedAt": "2026-10-17T11:26:10+00:00",
   "kind": "dungeon",
   "questCount": 3,
   "quests": [
@@ -13,27 +13,37 @@
           "rewards_changed"
         ],
         "lines": [
-          "Rewards: adds Bronzed Shoulderguards, Tanned Shoulderpads"
+          "Rewards: adds Choice of Bronzed Shoulderguards, Choice of Ghostly Mantle, Choice of Tanned Shoulderpads",
+          "Rewards: no longer Ghostly Mantle"
         ],
         "notShown": [
-          "Rewards: adds Bronzed Shoulderguards, Tanned Shoulderpads"
+          "Rewards: adds Choice of Bronzed Shoulderguards, Choice of Ghostly Mantle, Choice of Tanned Shoulderpads",
+          "Rewards: no longer Ghostly Mantle"
         ],
         "status": "updated"
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
       "id": 1098,
-      "itemchoices": [],
-      "itemrewards": [
+      "itemchoices": [
         [
           3324,
           1
+        ],
+        [
+          270023,
+          1
+        ],
+        [
+          270024,
+          1
         ]
       ],
+      "itemrewards": [],
       "level": 25,
       "money": 1800,
       "name": "Deathstalkers in Shadowfang",
-      "popularity": 1352,
+      "popularity": 722,
       "reprewards": [
         [
           68,
@@ -46,43 +56,6 @@
       "titlereward": 0,
       "type": 81,
       "xp": 2000
-    },
-    {
-      "category": 209,
-      "category2": 2,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1014,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          6414,
-          1
-        ]
-      ],
-      "level": 27,
-      "money": 0,
-      "name": "Arugal Must Die",
-      "popularity": 1113,
-      "reprewards": [
-        [
-          68,
-          200
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 18,
-      "side": 2,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 3300
     },
     {
       "category": 209,
@@ -112,13 +85,17 @@
         [
           4534,
           1
+        ],
+        [
+          270030,
+          1
         ]
       ],
       "itemrewards": [],
       "level": 26,
       "money": 0,
       "name": "The Book of Ur",
-      "popularity": 806,
+      "popularity": 588,
       "reprewards": [
         [
           68,
@@ -131,6 +108,43 @@
       "titlereward": 0,
       "type": 81,
       "xp": 2100
+    },
+    {
+      "category": 209,
+      "category2": 2,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 1014,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          6414,
+          1
+        ]
+      ],
+      "level": 27,
+      "money": 0,
+      "name": "Arugal Must Die",
+      "popularity": 572,
+      "reprewards": [
+        [
+          68,
+          200
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 18,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 3300
     }
   ],
   "slug": "dungeon/shadowfang-keep",

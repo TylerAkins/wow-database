@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-24T23:24:38+00:00",
+  "fetchedAt": "2026-10-16T21:03:23+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -57,6 +57,18 @@
     ]
   },
   "minLevel": 1,
+  "objectSpawns": [
+    {
+      "entityId": 3239,
+      "entityKind": "object",
+      "entityName": "Benedict's Chest",
+      "uiMapId": 1411,
+      "uiMapName": "Durotar",
+      "x": 59.3,
+      "y": 57.7,
+      "zoneId": 14
+    }
+  ],
   "pageInfo": {
     "name": "The Admiral's Orders",
     "type": 5,
@@ -66,5 +78,16 @@
   "prerequisiteQuestIds": [],
   "questId": 830,
   "races": [],
-  "startPins": []
+  "startPins": [
+    {
+      "entityId": 3239,
+      "entityKind": "object",
+      "entityName": "Benedict's Chest",
+      "uiMapId": 1411,
+      "uiMapName": "Durotar",
+      "x": 59.3,
+      "y": 57.7,
+      "zoneId": 14
+    }
+  ]
 }

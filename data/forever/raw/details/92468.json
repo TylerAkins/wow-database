@@ -1,7 +1,10 @@
 {
-  "classes": [],
+  "classes": [
+    7,
+    11
+  ],
   "faction": "Horde",
-  "fetchedAt": "2026-09-25T06:03:37+00:00",
+  "fetchedAt": "2026-10-17T03:06:21+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +15,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 4[/li][li]Requires level 3[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=251166/minor-manifestation-of-earth]Minor Manifestation of Earth[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=251374/windshaper-boro]Windshaper Boro[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]3[/color][small] &nbsp;[/small][color=r3]7[/color][small] &nbsp;[/small][color=r4]9[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 4[/li][li]Requires level 3[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Race: [race=6][/li][li]Classes: [class=7], [class=11][/li][li][icon name=quest-start]Start: [url=/forever/npc=251166/minor-manifestation-of-earth]Minor Manifestation of Earth[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=251374/windshaper-boro]Windshaper Boro[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]3[/color][small] &nbsp;[/small][color=r3]7[/color][small] &nbsp;[/small][color=r4]9[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -83,14 +86,16 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 92468,
-  "races": [],
+  "races": [
+    6
+  ],
   "startPins": [
     {
       "npcId": 251166,
       "npcName": "Minor Manifestation of Earth",
-      "zoneId": 16593,
       "x": 49.6,
       "y": 24.0,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

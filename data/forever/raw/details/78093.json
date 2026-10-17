@@ -3,15 +3,124 @@
     2
   ],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-25T05:25:52+00:00",
-  "infoboxFlags": {},
-  "infoboxMarkup": null,
-  "mapper": null,
-  "minLevel": 1,
-  "pageInfo": null,
+  "fetchedAt": "2026-10-17T02:28:46+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 30[/li][li]Requires level 22[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=1], [race=3][/li][li]Class: [class=2][/li][li][icon name=quest-start]Start: [url=/forever/object=409315/shattered-orb]Shattered Orb[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3663/delgren-the-purifier]Delgren the Purifier[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]22[/color][small] &nbsp;[/small][color=r1]26[/color][small] &nbsp;[/small][color=r2]28[/color][small] &nbsp;[/small][color=r3]33[/color][small] &nbsp;[/small][color=r4]38[/color][/li][li]Added in patch [acronym=\"1.60.1.70205\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "331": {
+        "levels": [
+          [
+            {
+              "coord": [
+                89.4,
+                77
+              ],
+              "coords": [
+                [
+                  89.4,
+                  77
+                ],
+                [
+                  89.5,
+                  77
+                ]
+              ],
+              "id": 409315,
+              "name": "Shattered Orb",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                26.2,
+                38.6
+              ],
+              "coords": [
+                [
+                  26.2,
+                  38.4
+                ],
+                [
+                  26.2,
+                  38.6
+                ]
+              ],
+              "id": 3663,
+              "name": "Delgren the Purifier",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ashenvale"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        331,
+        2
+      ]
+    ]
+  },
+  "minLevel": 22,
+  "objectSpawns": [
+    {
+      "entityId": 409315,
+      "entityKind": "object",
+      "entityName": "Shattered Orb",
+      "uiMapId": 1440,
+      "uiMapName": "Ashenvale",
+      "x": 89.4,
+      "y": 77.0,
+      "zoneId": 331
+    },
+    {
+      "entityId": 409315,
+      "entityKind": "object",
+      "entityName": "Shattered Orb",
+      "uiMapId": 1440,
+      "uiMapName": "Ashenvale",
+      "x": 89.5,
+      "y": 77.0,
+      "zoneId": 331
+    }
+  ],
+  "pageInfo": {
+    "name": "Return to Delgren",
+    "type": 5,
+    "typeId": 78093
+  },
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 78093,
-  "races": [],
-  "startPins": []
+  "races": [
+    1,
+    3
+  ],
+  "startPins": [
+    {
+      "npcId": 409315,
+      "npcName": "Shattered Orb",
+      "x": 89.4,
+      "y": 77.0,
+      "zoneId": 331,
+      "zoneName": "Ashenvale"
+    }
+  ]
 }

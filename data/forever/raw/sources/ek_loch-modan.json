@@ -1,93 +1,8 @@
 {
-  "fetchedAt": "2026-09-24T23:19:10+00:00",
+  "fetchedAt": "2026-10-17T11:19:41+00:00",
   "kind": "zone",
   "questCount": 47,
   "quests": [
-    {
-      "category": 38,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 86667,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 20,
-      "money": 1200,
-      "name": "Snowbound",
-      "popularity": 1670,
-      "reprewards": [
-        [
-          47,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 10,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1550
-    },
-    {
-      "category": 38,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [
-          "rewards_changed"
-        ],
-        "lines": [
-          "Rewards: adds Choice of Loch Walkers"
-        ],
-        "notShown": [
-          "Rewards: adds Choice of Loch Walkers"
-        ],
-        "status": "updated"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 256,
-      "itemchoices": [
-        [
-          6189,
-          1
-        ],
-        [
-          6191,
-          1
-        ]
-      ],
-      "itemrewards": [
-        [
-          1449,
-          1
-        ]
-      ],
-      "level": 22,
-      "money": 0,
-      "name": "WANTED: Chok'sul",
-      "popularity": 960,
-      "reprewards": [
-        [
-          47,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 17,
-      "side": 1,
-      "titlereward": 0,
-      "type": 1,
-      "xp": 1750
-    },
     {
       "category": 38,
       "category2": 0,
@@ -111,7 +26,7 @@
       "level": 20,
       "money": 1200,
       "name": "Silver of the Waves",
-      "popularity": 708,
+      "popularity": 895,
       "reprewards": [
         [
           47,
@@ -152,7 +67,7 @@
       "level": 17,
       "money": 900,
       "name": "Banner of the Fallen",
-      "popularity": 664,
+      "popularity": 453,
       "reprewards": [
         [
           47,
@@ -165,6 +80,123 @@
       "titlereward": 0,
       "type": 0,
       "xp": 1250
+    },
+    {
+      "category": 38,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 86667,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 10,
+      "money": 0,
+      "name": "Snowbound",
+      "popularity": 355,
+      "reprewards": [
+        [
+          47,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 10,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 420
+    },
+    {
+      "category": 38,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 86758,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          281257,
+          1
+        ]
+      ],
+      "level": 16,
+      "money": 800,
+      "name": "Twisting the Knife",
+      "popularity": 269,
+      "reprewards": [
+        [
+          47,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 12,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1150
+    },
+    {
+      "category": 38,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "rewards_changed"
+        ],
+        "lines": [
+          "Rewards: adds Hunting Satchel"
+        ],
+        "notShown": [
+          "Rewards: adds Hunting Satchel"
+        ],
+        "status": "updated"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 531,
+      "itemchoices": [
+        [
+          3574,
+          1
+        ],
+        [
+          3573,
+          1
+        ]
+      ],
+      "itemrewards": [
+        [
+          270017,
+          1
+        ]
+      ],
+      "level": 20,
+      "money": 0,
+      "name": "Vyrin's Revenge",
+      "popularity": 234,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 15,
+      "side": 1,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 1550
     },
     {
       "category": 38,
@@ -197,7 +229,7 @@
       "level": 17,
       "money": 0,
       "name": "In Defense of the King's Lands",
-      "popularity": 365,
+      "popularity": 233,
       "reprewards": [
         [
           47,
@@ -210,615 +242,6 @@
       "titlereward": 0,
       "type": 0,
       "xp": 1600
-    },
-    {
-      "category": 38,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [
-          "rewards_changed"
-        ],
-        "lines": [
-          "Rewards: adds Hunting Satchel"
-        ],
-        "notShown": [
-          "Rewards: adds Hunting Satchel"
-        ],
-        "status": "updated"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 531,
-      "itemchoices": [
-        [
-          3574,
-          1
-        ],
-        [
-          3573,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 20,
-      "money": 0,
-      "name": "Vyrin's Revenge",
-      "popularity": 264,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 15,
-      "side": 1,
-      "titlereward": 0,
-      "type": 1,
-      "xp": 1550
-    },
-    {
-      "category": 38,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 283,
-      "itemchoices": [
-        [
-          2907,
-          1
-        ],
-        [
-          2908,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 20,
-      "money": 0,
-      "name": "A Dark Threat Looms",
-      "popularity": 241,
-      "reprewards": [
-        [
-          47,
-          150
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 16,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1950
-    },
-    {
-      "category": 38,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 86776,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          3576,
-          10
-        ]
-      ],
-      "level": 30,
-      "money": 2500,
-      "name": "Ingredients for the Forge",
-      "popularity": 211,
-      "reprewards": [
-        [
-          47,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 15,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 2450
-    },
-    {
-      "category": 38,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 86758,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          281257,
-          1
-        ]
-      ],
-      "level": 16,
-      "money": 800,
-      "name": "Twisting the Knife",
-      "popularity": 199,
-      "reprewards": [
-        [
-          47,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 12,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1150
-    },
-    {
-      "category": 38,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 297,
-      "itemchoices": [
-        [
-          5241,
-          1
-        ],
-        [
-          6186,
-          1
-        ],
-        [
-          3154,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 18,
-      "money": 0,
-      "name": "Gathering Idols",
-      "popularity": 192,
-      "reprewards": [
-        [
-          47,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 13,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1350
-    },
-    {
-      "category": 38,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 257,
-      "itemchoices": [
-        [
-          2903,
-          1
-        ],
-        [
-          2904,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 16,
-      "money": 0,
-      "name": "A Hunter's Boast",
-      "popularity": 189,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 11,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 880
-    },
-    {
-      "category": 38,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 271,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 20,
-      "money": 0,
-      "name": "Vyrin's Revenge",
-      "popularity": 173,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 15,
-      "side": 1,
-      "titlereward": 0,
-      "type": 1,
-      "xp": 780
-    },
-    {
-      "category": 38,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 418,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          3220,
-          5
-        ],
-        [
-          3679,
-          1
-        ]
-      ],
-      "level": 11,
-      "money": 400,
-      "name": "Thelsamar Blood Sausages",
-      "popularity": 165,
-      "reprewards": [
-        [
-          47,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 7,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 880
-    },
-    {
-      "category": 38,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 454,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 15,
-      "money": 0,
-      "name": "After the Ambush",
-      "popularity": 159,
-      "reprewards": [
-        [
-          47,
-          10
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 10,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 105
-    },
-    {
-      "category": 38,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 309,
-      "itemchoices": [
-        [
-          3217,
-          1
-        ],
-        [
-          6188,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 15,
-      "money": 0,
-      "name": "Protecting the Shipment",
-      "popularity": 155,
-      "reprewards": [
-        [
-          47,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 10,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1050
-    },
-    {
-      "category": 38,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 250,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 18,
-      "money": 0,
-      "name": "A Dark Threat Looms",
-      "popularity": 151,
-      "reprewards": [
-        [
-          47,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 16,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 680
-    },
-    {
-      "category": 38,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 255,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 19,
-      "money": 2000,
-      "name": "Mercenaries",
-      "popularity": 142,
-      "reprewards": [
-        [
-          47,
-          150
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 15,
-      "side": 1,
-      "titlereward": 0,
-      "type": 1,
-      "xp": 1800
-    },
-    {
-      "category": 38,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 278,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 18,
-      "money": 0,
-      "name": "A Dark Threat Looms",
-      "popularity": 142,
-      "reprewards": [
-        [
-          47,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 16,
-      "side": 1,
-      "titlereward": 0,
-      "type": 1,
-      "xp": 1350
-    },
-    {
-      "category": 38,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 280,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 18,
-      "money": 0,
-      "name": "A Dark Threat Looms",
-      "popularity": 133,
-      "reprewards": [
-        [
-          47,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 16,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 680
-    },
-    {
-      "category": 38,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 86613,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 18,
-      "money": 1000,
-      "name": "Excavation Tools",
-      "popularity": 129,
-      "reprewards": [
-        [
-          47,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 13,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1350
-    },
-    {
-      "category": 38,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 273,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 15,
-      "money": 0,
-      "name": "Resupplying the Excavation",
-      "popularity": 127,
-      "reprewards": [
-        [
-          47,
-          25
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 10,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 270
-    },
-    {
-      "category": 38,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 2038,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          12522,
-          1
-        ]
-      ],
-      "level": 15,
-      "money": 700,
-      "name": "Bingles' Missing Supplies",
-      "popularity": 125,
-      "reprewards": [
-        [
-          54,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 12,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1050
     },
     {
       "category": 38,
@@ -851,7 +274,7 @@
       "level": 15,
       "money": 0,
       "name": "Filthy Paws",
-      "popularity": 123,
+      "popularity": 193,
       "reprewards": [
         [
           47,
@@ -871,19 +294,44 @@
       "currencychoicerewards": [],
       "currencyrewards": [],
       "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
+        "labels": [
+          "rewards_changed"
+        ],
+        "lines": [
+          "Rewards: adds Choice of Loch Walkers"
+        ],
+        "notShown": [
+          "Rewards: adds Choice of Loch Walkers"
+        ],
+        "status": "updated"
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 161,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 18,
+      "id": 256,
+      "itemchoices": [
+        [
+          6189,
+          1
+        ],
+        [
+          6191,
+          1
+        ],
+        [
+          270019,
+          1
+        ]
+      ],
+      "itemrewards": [
+        [
+          1449,
+          1
+        ]
+      ],
+      "level": 22,
       "money": 0,
-      "name": "A Dark Threat Looms",
-      "popularity": 122,
+      "name": "WANTED: Chok'sul",
+      "popularity": 190,
       "reprewards": [
         [
           47,
@@ -891,7 +339,80 @@
         ]
       ],
       "reqclass": 0,
+      "reqlevel": 17,
+      "side": 1,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 1750
+    },
+    {
+      "category": 38,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 283,
+      "itemchoices": [
+        [
+          2907,
+          1
+        ],
+        [
+          2908,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 20,
+      "money": 0,
+      "name": "A Dark Threat Looms",
+      "popularity": 187,
+      "reprewards": [
+        [
+          47,
+          150
+        ]
+      ],
+      "reqclass": 0,
       "reqlevel": 16,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1950
+    },
+    {
+      "category": 38,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 86613,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 18,
+      "money": 1000,
+      "name": "Excavation Tools",
+      "popularity": 173,
+      "reprewards": [
+        [
+          47,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 13,
       "side": 1,
       "titlereward": 0,
       "type": 0,
@@ -905,33 +426,34 @@
       "envChange": {
         "labels": [],
         "lines": [],
-        "status": "unchanged"
+        "status": "new"
       },
-      "firstseenpatch": 11302,
+      "firstseenpatch": 16001,
       "icon": "quest-start",
-      "id": 258,
+      "id": 86776,
       "itemchoices": [],
       "itemrewards": [
         [
-          859,
-          1
-        ],
-        [
-          3572,
-          1
+          3576,
+          10
         ]
       ],
-      "level": 17,
-      "money": 0,
-      "name": "A Hunter's Challenge",
-      "popularity": 121,
-      "reprewards": [],
+      "level": 30,
+      "money": 2500,
+      "name": "Ingredients for the Forge",
+      "popularity": 172,
+      "reprewards": [
+        [
+          47,
+          100
+        ]
+      ],
       "reqclass": 0,
-      "reqlevel": 11,
+      "reqlevel": 15,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 950
+      "xp": 2450
     },
     {
       "category": 38,
@@ -945,22 +467,17 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 263,
+      "id": 273,
       "itemchoices": [],
-      "itemrewards": [
-        [
-          2863,
-          3
-        ]
-      ],
+      "itemrewards": [],
       "level": 15,
-      "money": 700,
-      "name": "In Defense of the King's Lands",
-      "popularity": 121,
+      "money": 0,
+      "name": "Resupplying the Excavation",
+      "popularity": 170,
       "reprewards": [
         [
           47,
-          100
+          25
         ]
       ],
       "reqclass": 0,
@@ -968,7 +485,7 @@
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 1050
+      "xp": 270
     },
     {
       "category": 38,
@@ -982,54 +499,22 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 1338,
+      "id": 418,
       "itemchoices": [],
-      "itemrewards": [],
-      "level": 14,
-      "money": 600,
-      "name": "Stormpike's Order",
-      "popularity": 117,
-      "reprewards": [
+      "itemrewards": [
         [
-          47,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 9,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 980
-    },
-    {
-      "category": 38,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 416,
-      "itemchoices": [
-        [
-          3158,
-          1
+          3220,
+          5
         ],
         [
-          860,
+          3679,
           1
         ]
       ],
-      "itemrewards": [],
       "level": 11,
       "money": 400,
-      "name": "Rat Catching",
-      "popularity": 117,
+      "name": "Thelsamar Blood Sausages",
+      "popularity": 153,
       "reprewards": [
         [
           47,
@@ -1037,7 +522,7 @@
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 10,
+      "reqlevel": 7,
       "side": 1,
       "titlereward": 0,
       "type": 0,
@@ -1055,22 +540,114 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 385,
+      "id": 271,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 20,
+      "money": 0,
+      "name": "Vyrin's Revenge",
+      "popularity": 151,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 15,
+      "side": 1,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 780
+    },
+    {
+      "category": 38,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 454,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 15,
+      "money": 0,
+      "name": "After the Ambush",
+      "popularity": 149,
+      "reprewards": [
+        [
+          47,
+          10
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 10,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 105
+    },
+    {
+      "category": 38,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 2038,
       "itemchoices": [],
       "itemrewards": [
         [
-          3678,
-          1
-        ],
-        [
-          2240,
+          12522,
           1
         ]
       ],
       "level": 15,
-      "money": 0,
-      "name": "Crocolisk Hunting",
-      "popularity": 111,
+      "money": 700,
+      "name": "Bingles' Missing Supplies",
+      "popularity": 140,
+      "reprewards": [
+        [
+          54,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 12,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1050
+    },
+    {
+      "category": 38,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 237,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          858,
+          3
+        ]
+      ],
+      "level": 15,
+      "money": 700,
+      "name": "In Defense of the King's Lands",
+      "popularity": 140,
       "reprewards": [
         [
           47,
@@ -1107,7 +684,7 @@
       "level": 12,
       "money": 500,
       "name": "In Defense of the King's Lands",
-      "popularity": 109,
+      "popularity": 137,
       "reprewards": [
         [
           47,
@@ -1133,17 +710,26 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 302,
-      "itemchoices": [],
+      "id": 309,
+      "itemchoices": [
+        [
+          3217,
+          1
+        ],
+        [
+          6188,
+          1
+        ]
+      ],
       "itemrewards": [],
       "level": 15,
       "money": 0,
-      "name": "Powder to Ironband",
-      "popularity": 108,
+      "name": "Protecting the Shipment",
+      "popularity": 135,
       "reprewards": [
         [
           47,
-          25
+          100
         ]
       ],
       "reqclass": 0,
@@ -1151,7 +737,7 @@
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 270
+      "xp": 1050
     },
     {
       "category": 38,
@@ -1165,17 +751,194 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 274,
+      "id": 258,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          859,
+          1
+        ],
+        [
+          3572,
+          1
+        ]
+      ],
+      "level": 17,
+      "money": 0,
+      "name": "A Hunter's Challenge",
+      "popularity": 132,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 11,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 950
+    },
+    {
+      "category": 38,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 1338,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 14,
+      "money": 600,
+      "name": "Stormpike's Order",
+      "popularity": 132,
+      "reprewards": [
+        [
+          47,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 9,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 980
+    },
+    {
+      "category": 38,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 278,
       "itemchoices": [],
       "itemrewards": [],
       "level": 18,
       "money": 0,
       "name": "A Dark Threat Looms",
-      "popularity": 108,
+      "popularity": 129,
       "reprewards": [
         [
           47,
-          25
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 16,
+      "side": 1,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 1350
+    },
+    {
+      "category": 38,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 257,
+      "itemchoices": [
+        [
+          2903,
+          1
+        ],
+        [
+          2904,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 16,
+      "money": 0,
+      "name": "A Hunter's Boast",
+      "popularity": 127,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 11,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 880
+    },
+    {
+      "category": 38,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 416,
+      "itemchoices": [
+        [
+          3158,
+          1
+        ],
+        [
+          860,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 11,
+      "money": 400,
+      "name": "Rat Catching",
+      "popularity": 125,
+      "reprewards": [
+        [
+          47,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 10,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 880
+    },
+    {
+      "category": 38,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 161,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 18,
+      "money": 0,
+      "name": "A Dark Threat Looms",
+      "popularity": 118,
+      "reprewards": [
+        [
+          47,
+          100
         ]
       ],
       "reqclass": 0,
@@ -1183,7 +946,7 @@
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 340
+      "xp": 1350
     },
     {
       "category": 38,
@@ -1197,18 +960,155 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 237,
+      "id": 1339,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 15,
+      "money": 0,
+      "name": "Mountaineer Stormpike's Task",
+      "popularity": 118,
+      "reprewards": [
+        [
+          47,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 9,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 540
+    },
+    {
+      "category": 38,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 263,
       "itemchoices": [],
       "itemrewards": [
         [
-          858,
+          2863,
           3
         ]
       ],
       "level": 15,
       "money": 700,
       "name": "In Defense of the King's Lands",
-      "popularity": 102,
+      "popularity": 118,
+      "reprewards": [
+        [
+          47,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 10,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1050
+    },
+    {
+      "category": 38,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 250,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 18,
+      "money": 0,
+      "name": "A Dark Threat Looms",
+      "popularity": 110,
+      "reprewards": [
+        [
+          47,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 16,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 680
+    },
+    {
+      "category": 38,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 301,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 15,
+      "money": 175,
+      "name": "Report to Ironforge",
+      "popularity": 108,
+      "reprewards": [
+        [
+          47,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 10,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 540
+    },
+    {
+      "category": 38,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 385,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          3678,
+          1
+        ],
+        [
+          2240,
+          1
+        ]
+      ],
+      "level": 15,
+      "money": 0,
+      "name": "Crocolisk Hunting",
+      "popularity": 108,
       "reprewards": [
         [
           47,
@@ -1240,7 +1140,7 @@
       "level": 15,
       "money": 0,
       "name": "Excavation Progress Report",
-      "popularity": 100,
+      "popularity": 105,
       "reprewards": [
         [
           47,
@@ -1266,13 +1166,90 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
+      "id": 297,
+      "itemchoices": [
+        [
+          5241,
+          1
+        ],
+        [
+          6186,
+          1
+        ],
+        [
+          3154,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 18,
+      "money": 0,
+      "name": "Gathering Idols",
+      "popularity": 105,
+      "reprewards": [
+        [
+          47,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 13,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1350
+    },
+    {
+      "category": 38,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 255,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 19,
+      "money": 2000,
+      "name": "Mercenaries",
+      "popularity": 100,
+      "reprewards": [
+        [
+          47,
+          150
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 15,
+      "side": 1,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 1800
+    },
+    {
+      "category": 38,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
       "id": 199,
       "itemchoices": [],
       "itemrewards": [],
       "level": 18,
       "money": 0,
       "name": "A Dark Threat Looms",
-      "popularity": 96,
+      "popularity": 98,
       "reprewards": [
         [
           47,
@@ -1298,125 +1275,57 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 6392,
+      "id": 274,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 10,
-      "money": 350,
-      "name": "Return to Brock",
+      "level": 18,
+      "money": 0,
+      "name": "A Dark Threat Looms",
+      "popularity": 98,
+      "reprewards": [
+        [
+          47,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 16,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 340
+    },
+    {
+      "category": 38,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 280,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 18,
+      "money": 0,
+      "name": "A Dark Threat Looms",
       "popularity": 95,
       "reprewards": [
         [
           47,
-          150
-        ],
-        [
-          54,
-          150
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 10,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1050
-    },
-    {
-      "category": 38,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 301,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 15,
-      "money": 175,
-      "name": "Report to Ironforge",
-      "popularity": 90,
-      "reprewards": [
-        [
-          47,
           50
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 10,
+      "reqlevel": 16,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 540
-    },
-    {
-      "category": 38,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 267,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 12,
-      "money": 500,
-      "name": "The Trogg Threat",
-      "popularity": 86,
-      "reprewards": [
-        [
-          47,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 10,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 910
-    },
-    {
-      "category": 38,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1339,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 15,
-      "money": 0,
-      "name": "Mountaineer Stormpike's Task",
-      "popularity": 86,
-      "reprewards": [
-        [
-          47,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 9,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 540
+      "xp": 680
     },
     {
       "category": 38,
@@ -1436,7 +1345,7 @@
       "level": 18,
       "money": 0,
       "name": "Ironband's Excavation",
-      "popularity": 86,
+      "popularity": 94,
       "reprewards": [
         [
           47,
@@ -1462,20 +1371,48 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 6388,
+      "id": 267,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 10,
-      "money": 0,
-      "name": "Gryth Thurden",
-      "popularity": 80,
+      "level": 12,
+      "money": 500,
+      "name": "The Trogg Threat",
+      "popularity": 92,
       "reprewards": [
         [
           47,
-          25
-        ],
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 10,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 910
+    },
+    {
+      "category": 38,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 302,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 15,
+      "money": 0,
+      "name": "Powder to Ironband",
+      "popularity": 85,
+      "reprewards": [
         [
-          54,
+          47,
           25
         ]
       ],
@@ -1484,7 +1421,7 @@
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 210
+      "xp": 270
     },
     {
       "category": 38,
@@ -1504,7 +1441,7 @@
       "level": 10,
       "money": 0,
       "name": "Honor Students",
-      "popularity": 80,
+      "popularity": 82,
       "reprewards": [
         [
           47,
@@ -1534,13 +1471,45 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
+      "id": 2500,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 39,
+      "money": 4500,
+      "name": "Badlands Reagent Run",
+      "popularity": 78,
+      "reprewards": [
+        [
+          47,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 36,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 3000
+    },
+    {
+      "category": 38,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
       "id": 6391,
       "itemchoices": [],
       "itemrewards": [],
       "level": 10,
       "money": 175,
       "name": "Ride to Ironforge",
-      "popularity": 71,
+      "popularity": 74,
       "reprewards": [
         [
           47,
@@ -1570,6 +1539,42 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
+      "id": 6392,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 10,
+      "money": 350,
+      "name": "Return to Brock",
+      "popularity": 74,
+      "reprewards": [
+        [
+          47,
+          150
+        ],
+        [
+          54,
+          150
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 10,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1050
+    },
+    {
+      "category": 38,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
       "id": 912,
       "itemchoices": [],
       "itemrewards": [
@@ -1581,7 +1586,7 @@
       "level": 12,
       "money": 0,
       "name": "Stonesplinter Trogg Disguise",
-      "popularity": 55,
+      "popularity": 70,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 10,
@@ -1602,57 +1607,29 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 3182,
+      "id": 6388,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 48,
-      "money": 14000,
-      "name": "Proof of Deed",
-      "popularity": 33,
+      "level": 10,
+      "money": 0,
+      "name": "Gryth Thurden",
+      "popularity": 69,
       "reprewards": [
         [
           47,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 40,
-      "side": 1,
-      "titlereward": 0,
-      "type": 1,
-      "xp": 4400
-    },
-    {
-      "category": 38,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 2500,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 39,
-      "money": 4500,
-      "name": "Badlands Reagent Run",
-      "popularity": 33,
-      "reprewards": [
+          25
+        ],
         [
-          47,
-          100
+          54,
+          25
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 36,
+      "reqlevel": 10,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 3000
+      "xp": 210
     },
     {
       "category": 38,
@@ -1672,7 +1649,7 @@
       "level": 44,
       "money": 0,
       "name": "Badlands Reagent Run II",
-      "popularity": 31,
+      "popularity": 58,
       "reprewards": [
         [
           47,
@@ -1685,6 +1662,38 @@
       "titlereward": 0,
       "type": 1,
       "xp": 3750
+    },
+    {
+      "category": 38,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 3182,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 48,
+      "money": 14000,
+      "name": "Proof of Deed",
+      "popularity": 48,
+      "reprewards": [
+        [
+          47,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 40,
+      "side": 1,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 4400
     }
   ],
   "slug": "ek/loch-modan",

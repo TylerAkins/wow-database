@@ -1,6 +1,6 @@
 {
   "classes": [],
-  "fetchedAt": "2026-09-25T06:03:58+00:00",
+  "fetchedAt": "2026-10-17T03:06:46+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -11,7 +11,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 4[/li][li]Requires level 3[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=257551/valreaa-valewind]Valreaa Valewind[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=257551/valreaa-valewind]Valreaa Valewind[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]3[/color][small] &nbsp;[/small][color=r3]7[/color][small] &nbsp;[/small][color=r4]9[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 4[/li][li]Requires level 3[/li][li]Side: Both[/li][li]Race: [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=257551/valreaa-valewind]Valreaa Valewind[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=257551/valreaa-valewind]Valreaa Valewind[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]3[/color][small] &nbsp;[/small][color=r3]7[/color][small] &nbsp;[/small][color=r4]9[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -61,20 +61,16 @@
               ],
               "coords": [
                 [
-                  36.8,
-                  24.4
-                ],
-                [
                   37,
                   24.6
                 ],
                 [
-                  37,
-                  29.8
-                ],
-                [
                   37.2,
                   26.4
+                ],
+                [
+                  37.4,
+                  26.6
                 ],
                 [
                   37.6,
@@ -83,6 +79,10 @@
                 [
                   37.8,
                   26.8
+                ],
+                [
+                  37.8,
+                  29
                 ],
                 [
                   38,
@@ -94,51 +94,35 @@
                 ],
                 [
                   38,
-                  28.6
-                ],
-                [
-                  38,
                   30.2
                 ],
                 [
-                  38.6,
+                  38.8,
+                  27.4
+                ],
+                [
+                  39,
                   27.6
                 ],
                 [
-                  39.2,
-                  30.2
-                ],
-                [
-                  39.4,
-                  26.6
-                ],
-                [
-                  39.4,
-                  28.8
-                ],
-                [
-                  39.6,
+                  39.8,
                   27.6
                 ],
                 [
-                  40,
-                  27.2
-                ],
-                [
-                  40,
-                  29.4
-                ],
-                [
-                  40.4,
+                  40.2,
                   26.4
                 ],
                 [
-                  40.8,
-                  26.8
+                  40.4,
+                  27
+                ],
+                [
+                  41.1,
+                  26.5
                 ],
                 [
                   41.2,
-                  26.2
+                  27.6
                 ],
                 [
                   41.4,
@@ -146,23 +130,23 @@
                 ],
                 [
                   41.4,
-                  27.6
+                  26.4
                 ],
                 [
                   41.6,
-                  25.4
+                  25.2
                 ],
                 [
                   41.6,
-                  25.8
+                  26.2
                 ],
                 [
                   41.6,
                   27
                 ],
                 [
-                  41.8,
-                  27.6
+                  41.6,
+                  27.8
                 ]
               ],
               "id": 250926,
@@ -198,14 +182,16 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 92473,
-  "races": [],
+  "races": [
+    95
+  ],
   "startPins": [
     {
       "npcId": 257551,
       "npcName": "Valreaa Valewind",
-      "zoneId": 16593,
       "x": 42.4,
       "y": 25.0,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

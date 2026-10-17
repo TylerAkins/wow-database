@@ -5,7 +5,7 @@
     "slug": "riverglades",
     "sourceSlug": "ek/riverglades",
     "sourceUrl": "https://www.wowhead.com/forever/quests/eastern-kingdoms/riverglades",
-    "sourceFetchedAt": "2026-09-24T23:19:10+00:00",
+    "sourceFetchedAt": "2026-10-17T11:20:01+00:00",
     "zoneId": 16591
   },
   "questCount": 1,
@@ -59,7 +59,12 @@
           "zoneId": 1519,
           "zoneName": "Stormwind City"
         },
-        "races": [],
+        "races": [
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -76,7 +81,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T06:39:01+00:00",
+        "fetchedAt": "2026-10-17T03:41:45+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -87,7 +92,7 @@
           "sharable": true,
           "weekly": false
         },
-        "infoboxMarkup": "[ul][li]Level: 22[/li][li]Requires level 15[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=14450/orphan-matron-nightingale]Orphan Matron Nightingale[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=228/avette-fellwood]Avette Fellwood[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]15[/color][small] &nbsp;[/small][color=r1]18[/color][small] &nbsp;[/small][color=r2]20[/color][small] &nbsp;[/small][color=r3]25[/color][small] &nbsp;[/small][color=r4]29[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+        "infoboxMarkup": "[ul][li]Level: 22[/li][li]Requires level 15[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=3], [race=4], [br][race=7], [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=14450/orphan-matron-nightingale]Orphan Matron Nightingale[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=228/avette-fellwood]Avette Fellwood[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]15[/color][small] &nbsp;[/small][color=r1]18[/color][small] &nbsp;[/small][color=r2]20[/color][small] &nbsp;[/small][color=r3]25[/color][small] &nbsp;[/small][color=r4]29[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
         "mapper": {
           "missing": 0,
           "objectives": {
@@ -145,6 +150,10 @@
                       [
                         56.2,
                         54.2
+                      ],
+                      [
+                        56.2,
+                        54.8
                       ]
                     ],
                     "id": 14450,
@@ -182,14 +191,19 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 95161,
-        "races": [],
+        "races": [
+          3,
+          4,
+          7,
+          95
+        ],
         "startPins": [
           {
             "npcId": 14450,
             "npcName": "Orphan Matron Nightingale",
-            "zoneId": 1519,
             "x": 47.2,
             "y": 38.4,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           }
         ]

@@ -1,0 +1,113 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-10-17T12:15:20+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 33[/li][li]Requires level 28[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=2366/barkeep-kelly]Barkeep Kelly[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2832/nixxrax-fillamug]Nixxrax Fillamug[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]28[/color][small] &nbsp;[/small][color=r1]29[/color][small] &nbsp;[/small][color=r2]31[/color][small] &nbsp;[/small][color=r3]36[/color][small] &nbsp;[/small][color=r4]42[/color][/li][li]Added in patch [acronym=\"1.60.1.70170\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "267": {
+        "levels": [
+          [
+            {
+              "coord": [
+                51.4,
+                58.6
+              ],
+              "coords": [
+                [
+                  51.4,
+                  58.4
+                ],
+                [
+                  51.4,
+                  58.6
+                ],
+                [
+                  51.6,
+                  58.6
+                ]
+              ],
+              "id": 2366,
+              "name": "Barkeep Kelly",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Hillsbrad Foothills"
+      },
+      "33": {
+        "levels": [
+          [
+            {
+              "coord": [
+                27,
+                77.2
+              ],
+              "coords": [
+                [
+                  27,
+                  77.2
+                ]
+              ],
+              "id": 2832,
+              "name": "Nixxrax Fillamug",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stranglethorn Vale"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        267,
+        1
+      ],
+      [
+        33,
+        1
+      ]
+    ]
+  },
+  "minLevel": 28,
+  "pageInfo": {
+    "name": "Talk of the Town",
+    "type": 5,
+    "typeId": 98463
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 98463,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 2366,
+      "npcName": "Barkeep Kelly",
+      "x": 51.4,
+      "y": 58.6,
+      "zoneId": 267,
+      "zoneName": "Hillsbrad Foothills"
+    }
+  ]
+}

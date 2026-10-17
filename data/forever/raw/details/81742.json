@@ -1,14 +1,419 @@
 {
   "classes": [],
-  "fetchedAt": "2026-09-25T05:39:13+00:00",
-  "infoboxFlags": {},
-  "infoboxMarkup": null,
-  "mapper": null,
+  "fetchedAt": "2026-10-17T02:42:10+00:00",
+  "infoboxFlags": {
+    "daily": true,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 27[/li][li]Requires level 23[/li][li]Type: Daily Elite[/li][li]Side: Both[/li][li][icon name=quest-start-daily]Start: [url=/forever/npc=221471/field-captain-palandar]Field Captain Palandar[/url][/icon][/li][li][icon name=quest-end-daily]End: [url=/forever/npc=221471/field-captain-palandar]Field Captain Palandar[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]23[/color][small] &nbsp;[/small][color=r2]25[/color][small] &nbsp;[/small][color=r3]30[/color][small] &nbsp;[/small][color=r4]35[/color][/li][li]Added in patch [acronym=\"1.60.1.70170\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "10": {
+        "levels": [
+          [
+            {
+              "coord": [
+                45.6,
+                51.2
+              ],
+              "coords": [
+                [
+                  45.4,
+                  51.2
+                ],
+                [
+                  45.6,
+                  51.2
+                ],
+                [
+                  46.4,
+                  47.6
+                ],
+                [
+                  46.6,
+                  47.6
+                ]
+              ],
+              "id": 221471,
+              "name": "Field Captain Palandar",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                45.6,
+                51.2
+              ],
+              "coords": [
+                [
+                  45.4,
+                  51.2
+                ],
+                [
+                  45.6,
+                  51.2
+                ],
+                [
+                  46.4,
+                  47.6
+                ],
+                [
+                  46.6,
+                  47.6
+                ]
+              ],
+              "id": 221471,
+              "name": "Field Captain Palandar",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                49,
+                74.4
+              ],
+              "coords": [
+                [
+                  44.2,
+                  68.2
+                ],
+                [
+                  44.2,
+                  71.2
+                ],
+                [
+                  44.2,
+                  75.6
+                ],
+                [
+                  44.4,
+                  71.6
+                ],
+                [
+                  44.8,
+                  73.4
+                ],
+                [
+                  45,
+                  69.2
+                ],
+                [
+                  45,
+                  70.4
+                ],
+                [
+                  45.2,
+                  64.6
+                ],
+                [
+                  45.2,
+                  66
+                ],
+                [
+                  46,
+                  70.2
+                ],
+                [
+                  46,
+                  73.8
+                ],
+                [
+                  46.2,
+                  73.2
+                ],
+                [
+                  46.2,
+                  75
+                ],
+                [
+                  46.4,
+                  71.2
+                ],
+                [
+                  46.4,
+                  72.2
+                ],
+                [
+                  46.6,
+                  72.2
+                ],
+                [
+                  47,
+                  76.4
+                ],
+                [
+                  47.2,
+                  69.4
+                ],
+                [
+                  47.2,
+                  69.8
+                ],
+                [
+                  47.2,
+                  70.6
+                ],
+                [
+                  47.2,
+                  74
+                ],
+                [
+                  47.2,
+                  74.6
+                ],
+                [
+                  47.4,
+                  73.2
+                ],
+                [
+                  47.4,
+                  76.6
+                ],
+                [
+                  47.6,
+                  75.8
+                ],
+                [
+                  47.6,
+                  77.6
+                ],
+                [
+                  47.8,
+                  69.6
+                ],
+                [
+                  47.8,
+                  70.6
+                ],
+                [
+                  47.8,
+                  76.6
+                ],
+                [
+                  48.2,
+                  64.2
+                ],
+                [
+                  48.2,
+                  73.4
+                ],
+                [
+                  48.2,
+                  78.6
+                ],
+                [
+                  48.4,
+                  72.4
+                ],
+                [
+                  48.4,
+                  74
+                ],
+                [
+                  48.4,
+                  74.8
+                ],
+                [
+                  48.8,
+                  70.2
+                ],
+                [
+                  48.8,
+                  71.2
+                ],
+                [
+                  48.8,
+                  72
+                ],
+                [
+                  48.8,
+                  73.4
+                ],
+                [
+                  48.8,
+                  74.6
+                ],
+                [
+                  48.8,
+                  75.6
+                ],
+                [
+                  48.8,
+                  76.6
+                ],
+                [
+                  49,
+                  74.4
+                ],
+                [
+                  49.6,
+                  71.4
+                ],
+                [
+                  49.6,
+                  75.2
+                ],
+                [
+                  49.6,
+                  75.6
+                ],
+                [
+                  49.8,
+                  73
+                ],
+                [
+                  49.8,
+                  74.4
+                ],
+                [
+                  50,
+                  69.4
+                ],
+                [
+                  50,
+                  77.6
+                ],
+                [
+                  50.4,
+                  70.4
+                ],
+                [
+                  50.4,
+                  72
+                ],
+                [
+                  50.4,
+                  76.6
+                ],
+                [
+                  50.6,
+                  73.4
+                ],
+                [
+                  50.6,
+                  73.6
+                ],
+                [
+                  50.6,
+                  76.8
+                ],
+                [
+                  50.8,
+                  76.4
+                ],
+                [
+                  51,
+                  70.8
+                ],
+                [
+                  51.2,
+                  75.4
+                ],
+                [
+                  51.6,
+                  74.8
+                ],
+                [
+                  51.8,
+                  74
+                ],
+                [
+                  52.4,
+                  72.6
+                ],
+                [
+                  52.4,
+                  76.4
+                ],
+                [
+                  52.8,
+                  76.2
+                ],
+                [
+                  53,
+                  72.8
+                ],
+                [
+                  53.4,
+                  74.2
+                ],
+                [
+                  53.4,
+                  74.6
+                ],
+                [
+                  53.6,
+                  72
+                ],
+                [
+                  56.8,
+                  73.6
+                ],
+                [
+                  57.2,
+                  71.6
+                ],
+                [
+                  58,
+                  71
+                ],
+                [
+                  61.4,
+                  73
+                ]
+              ],
+              "id": 221204,
+              "name": "Ylanthrius",
+              "objective": 221204,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Duskwood"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        10,
+        2
+      ]
+    ]
+  },
   "minLevel": 23,
-  "pageInfo": null,
-  "pinCategory": "normal",
+  "pageInfo": {
+    "name": "Duskwood Mission XIII: Defeat Ylanthrius",
+    "type": 5,
+    "typeId": 81742
+  },
+  "pinCategory": "repeatable",
   "prerequisiteQuestIds": [],
   "questId": 81742,
   "races": [],
-  "startPins": []
+  "startPins": [
+    {
+      "npcId": 221471,
+      "npcName": "Field Captain Palandar",
+      "x": 45.6,
+      "y": 51.2,
+      "zoneId": 10,
+      "zoneName": "Duskwood"
+    }
+  ]
 }

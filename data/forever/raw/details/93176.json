@@ -1,0 +1,108 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-10-17T12:06:34+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 35[/li][li]Requires level 25[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=217412/amaryllis-webb]Amaryllis Webb[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=217412/amaryllis-webb]Amaryllis Webb[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]25[/color][small] &nbsp;[/small][color=r1]31[/color][small] &nbsp;[/small][color=r2]33[/color][small] &nbsp;[/small][color=r3]38[/color][small] &nbsp;[/small][color=r4]44[/color][/li][li]Added in patch [acronym=\"1.60.1.70170\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 3,
+    "objectives": {
+      "8": {
+        "levels": [
+          [
+            {
+              "coord": [
+                25,
+                54.2
+              ],
+              "coords": [
+                [
+                  25,
+                  53.4
+                ],
+                [
+                  25,
+                  54.2
+                ],
+                [
+                  25.2,
+                  54.6
+                ]
+              ],
+              "id": 217412,
+              "name": "Amaryllis Webb",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                25,
+                54.2
+              ],
+              "coords": [
+                [
+                  25,
+                  53.4
+                ],
+                [
+                  25,
+                  54.2
+                ],
+                [
+                  25.2,
+                  54.6
+                ]
+              ],
+              "id": 217412,
+              "name": "Amaryllis Webb",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Swamp of Sorrows"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        8,
+        1
+      ]
+    ]
+  },
+  "minLevel": 25,
+  "pageInfo": {
+    "name": "My Little Friends",
+    "type": 5,
+    "typeId": 93176
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 93176,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 217412,
+      "npcName": "Amaryllis Webb",
+      "x": 25.0,
+      "y": 54.2,
+      "zoneId": 8,
+      "zoneName": "Swamp of Sorrows"
+    }
+  ]
+}

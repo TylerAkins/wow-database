@@ -15,34 +15,127 @@ client extractor or contact Wowhead.
 
 ## Wowhead Forever
 
-Wowhead fetching remains local and manual. Conservative request pacing is the
-default expectation for detail refreshes:
+Run these steps from the repository root. Python, Go, and browser prerequisites
+are listed in [DEVELOPMENT.md](DEVELOPMENT.md). Fetching is local and manual;
+the scheduled workflow only imports the existing cache. Leave the Chrome window
+alone while a browser command runs, and wait for each command to finish before
+starting the next.
+
+Check the current snapshot limitations in
+[DEVELOPMENT.md](DEVELOPMENT.md#wowhead-snapshot-invariants). A successful fetch
+can still return the wrong catalog. If zone compilation reports multiple zone
+IDs for a single-zone source, inspect the fetched page's title and canonical URL
+before replacing the previous snapshot or changing compiler expectations.
+
+### 1. Refresh catalogs, then quest details
+
+For a fresh download of the configured source catalogs and all indexed quest
+pages, run:
 
 ```sh
-python3 tools/fetch_quest_pages.py sync-quests --browser \
+python3 tools/fetch_quest_pages.py sync-sources --browser --force \
+  --delay 5 --batch-size 10 --batch-pause 15
+python3 tools/fetch_quest_pages.py sync-quests --browser --force \
   --delay 5 --batch-size 10 --batch-pause 15
 ```
 
-Refresh a selected page with force enabled only when replacing its cached copy
-is intentional:
+`sync-sources` refreshes the configured list pages and merges their quest and
+object IDs into the indexes. It does not remove IDs absent from a refreshed page.
+`sync-quests` fetches details for the resulting quest index; it does not refresh
+the catalogs itself. `--force` replaces cached pages. Omit it from `sync-quests`
+when you only want to fill missing detail files.
+
+After refreshing catalogs alone, run `sync-quests` without `--force` to fill
+details for newly discovered IDs before rebuilding. The zone compiler rejects
+missing details for quests in zone catalogs.
+
+For a single catalog, use `ingest --browser --force --url '<catalog URL>'`
+instead of `sync-sources`, then continue with quest details and the steps below.
+
+Zone starters and object spawn pages are separate inputs. If those also need a
+refresh, run these after quest details and before rebuilding:
 
 ```sh
-python3 tools/fetch_quest_pages.py ingest --browser --force \
-  --url 'https://www.wowhead.com/forever/quests/kalimdor/durotar'
+python3 tools/fetch_quest_pages.py sync-zones --browser --force \
+  --delay 5 --batch-size 10 --batch-pause 15
+python3 tools/fetch_quest_pages.py sync-objects --browser --force \
+  --delay 5 --batch-size 10 --batch-pause 15
 ```
 
-After ingestion, normalize the local snapshot, validate it, and compile:
+Run `sync-zones` before `sync-objects` because zone starters can add object IDs.
+Object synchronization attaches spawn information to quest detail files.
+Standalone item pages require explicit `--item ID` arguments to `sync-objects`.
+See [quest-database.md](quest-database.md#run-it-again) for targeted commands.
+
+### 2. Check failures and retry affected pages
+
+A catalog fetch failure stops `sync-sources`; earlier pages may already have been
+updated. Detail synchronization logs fetch failures and continues, so a zero exit
+status does not guarantee that every detail page refreshed.
+
+Inspect the command output and `data/forever/raw/fetch_errors.jsonl`. The error
+log is append-only and can include failures from earlier runs. For quest details,
+`stats.questDetailFetchErrors` in `data/forever/raw/manifest.json` counts failures
+from the latest `sync-quests` invocation, including a targeted retry. Existing
+quest detail files survive failed fetches, so file counts alone do not prove a
+successful refresh. Compare their `fetchedAt` values when needed.
+
+Retry failed quest IDs with repeated `--quest` arguments, for example:
+
+```sh
+python3 tools/fetch_quest_pages.py sync-quests --browser --force \
+  --quest 81738 --quest 95189 \
+  --delay 5 --batch-size 10 --batch-pause 15
+```
+
+Use the IDs from your failed run. Retain `--force` when retrying a failed refresh
+of an existing file. For blocked browser access, restore access and rerun the
+failed command; the scraper stops rather than saving challenge pages.
+
+### 3. Import and rebuild both products
+
+After fetching and retries finish, run:
 
 ```sh
 python3 tools/wowhead/import_snapshot.py
 go run ./cmd/database validate --root data
 go run ./cmd/database compile --flavor forever
+go run ./cmd/database validate --root data
+python3 tools/compile_zone_files.py
 ```
 
-The importer reads `data/forever/raw/` only and makes no network requests. Its
-canonical dataset may contain the same licensed content as the input cache;
-review source terms and repository data policy before publishing it. Missing
-detail pages remain explicit as unavailable.
+The importer reads `data/forever/raw/` without network requests. The Go compiler
+writes the merged database to `data/forever/compilation/`. The Python compiler
+separately writes Wowhead zone bundles to `data/forever/compiled/zones/`; both
+products need rebuilding after a raw refresh. The legacy ATT export does not
+need rebuilding for a Wowhead-only change.
+
+### 4. Verify and review the refresh
+
+```sh
+python3 -m unittest discover -s tests -p 'test_*.py'
+python3 tools/compile_zone_files.py --check
+python3 tools/coverage_guard.py --base origin/main
+GOCACHE=/private/tmp/wow-database-go-cache go test ./...
+GOCACHE=/private/tmp/wow-database-go-cache go vet ./...
+git diff --check
+git diff --stat
+```
+
+The coverage guard compares source record counts with the local `origin/main`
+reference. The QuestieDB runtime test needs Lua 5.1 and `.cache/QuestieDB`, as
+explained in [DEVELOPMENT.md](DEVELOPMENT.md).
+
+Review changes to the raw cache, canonical Wowhead snapshot, zone bundles, and
+merged compilation together. Inspect `data/forever/compilation/conflicts.md` and
+`reconciliation.json` for unexpected changes. If verified coverage changes, update
+the snapshot expectations in `tests/test_compile_zones.py` and the invariants in
+[DEVELOPMENT.md](DEVELOPMENT.md#wowhead-snapshot-invariants), then rerun the tests.
+Investigate count changes before changing expectations.
+
+Missing detail pages remain explicit as unavailable. Canonical snapshots can
+contain the same licensed content as the input cache; review source terms and
+repository data policy before publishing.
 
 ## AllTheThings and QuestieDB
 

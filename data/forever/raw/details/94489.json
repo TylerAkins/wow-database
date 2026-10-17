@@ -1,6 +1,6 @@
 {
   "classes": [],
-  "fetchedAt": "2026-09-25T06:32:59+00:00",
+  "fetchedAt": "2026-10-17T03:35:42+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -11,7 +11,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 12[/li][li]Requires level 8[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=257944/elegael-thornpaw]Elegael Thornpaw[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=257944/elegael-thornpaw]Elegael Thornpaw[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]8[/color][small] &nbsp;[/small][color=r2]10[/color][small] &nbsp;[/small][color=r3]15[/color][small] &nbsp;[/small][color=r4]18[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 12[/li][li]Requires level 8[/li][li]Side: Both[/li][li]Race: [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=257944/elegael-thornpaw]Elegael Thornpaw[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=257944/elegael-thornpaw]Elegael Thornpaw[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]8[/color][small] &nbsp;[/small][color=r2]10[/color][small] &nbsp;[/small][color=r3]15[/color][small] &nbsp;[/small][color=r4]18[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 1,
     "objectives": {
@@ -112,7 +112,7 @@
                 ]
               ],
               "id": 258137,
-              "name": "Telenos \nLeafwhisper",
+              "name": "Telenos Leafwhisper",
               "objective": 258137,
               "point": "requirement",
               "reactalliance": 0,
@@ -242,14 +242,16 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 94489,
-  "races": [],
+  "races": [
+    95
+  ],
   "startPins": [
     {
       "npcId": 257944,
       "npcName": "Elegael Thornpaw",
-      "zoneId": 16593,
       "x": 61.6,
       "y": 39.2,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

@@ -183,11 +183,13 @@ class ForeverSnapshotTests(unittest.TestCase):
         raw_root = ROOT / "data" / "forever" / "raw"
         quest_index = json.loads((raw_root / "quest_index.json").read_text(encoding="utf-8"))
 
-        self.assertEqual(5058, len(quest_index))
-        self.assertEqual(5057, len(list((raw_root / "details").glob("*.json"))))
-        self.assertEqual(330, len(list((raw_root / "object").glob("*.json"))))
+        self.assertEqual(5223, len(quest_index))
+        self.assertEqual(5223, len(list((raw_root / "details").glob("*.json"))))
+        self.assertEqual(410, len(list((raw_root / "object").glob("*.json"))))
         self.assertEqual(1, len(list((raw_root / "item").glob("*.json"))))
-        self.assertFalse((raw_root / "details" / "7507.json").exists())
+        detail = json.loads((raw_root / "details" / "7507.json").read_text(encoding="utf-8"))
+        self.assertEqual(7507, detail["questId"])
+        self.assertEqual("Foror's Compendium", detail["pageInfo"]["name"])
 
         rendered = build_zone_bundles(raw_root, "forever")
         self.assertEqual(59, len(rendered))

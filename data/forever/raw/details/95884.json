@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-25T06:41:32+00:00",
+  "fetchedAt": "2026-10-17T03:44:28+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,13 +12,29 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 23[/li][li]Requires level 20[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-end]End: Object #645153[/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]20[/color][small] &nbsp;[/small][color=r2]21[/color][small] &nbsp;[/small][color=r3]26[/color][small] &nbsp;[/small][color=r4]31[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 23[/li][li]Requires level 20[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-end]End: [url=/forever/object=645153/offering-stone]Offering Stone[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]20[/color][small] &nbsp;[/small][color=r2]21[/color][small] &nbsp;[/small][color=r3]26[/color][small] &nbsp;[/small][color=r4]31[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
-    "missing": 1,
+    "missing": 0,
     "objectives": {
       "130": {
         "levels": [
           [
+            {
+              "coord": [
+                58.1,
+                69.8
+              ],
+              "coords": [
+                [
+                  58.1,
+                  69.8
+                ]
+              ],
+              "id": 645153,
+              "name": "Offering Stone",
+              "point": "end",
+              "type": 2
+            },
             {
               "coord": [
                 59,
@@ -42,8 +58,12 @@
                   71.6
                 ],
                 [
+                  58,
+                  69.8
+                ],
+                [
                   58.6,
-                  71.6
+                  71.8
                 ],
                 [
                   59,
@@ -90,8 +110,8 @@
               ],
               "coords": [
                 [
-                  57.4,
-                  69.8
+                  57.2,
+                  70.2
                 ],
                 [
                   57.4,
@@ -102,7 +122,7 @@
                   71.4
                 ],
                 [
-                  57.8,
+                  58,
                   69.8
                 ],
                 [
@@ -123,7 +143,7 @@
                 ],
                 [
                   59.8,
-                  71.4
+                  71.2
                 ],
                 [
                   60.2,
@@ -174,7 +194,7 @@
     "zones": [
       [
         130,
-        2
+        3
       ]
     ]
   },

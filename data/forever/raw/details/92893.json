@@ -1,0 +1,140 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-10-17T12:04:43+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 42[/li][li]Requires level 35[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=253136/orgrul]Orgrul[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=253136/orgrul]Orgrul[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]35[/color][small] &nbsp;[/small][color=r1]38[/color][small] &nbsp;[/small][color=r2]40[/color][small] &nbsp;[/small][color=r3]45[/color][small] &nbsp;[/small][color=r4]52[/color][/li][li]Added in patch [acronym=\"1.60.1.70205\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "16651": {
+        "levels": [
+          [
+            {
+              "coord": [
+                35.6,
+                12
+              ],
+              "coords": [
+                [
+                  35.6,
+                  12
+                ],
+                [
+                  35.8,
+                  13
+                ]
+              ],
+              "id": 253136,
+              "name": "Orgrul",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                35.6,
+                12
+              ],
+              "coords": [
+                [
+                  35.6,
+                  12
+                ],
+                [
+                  35.8,
+                  13
+                ]
+              ],
+              "id": 253136,
+              "name": "Orgrul",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                60.8,
+                26.8
+              ],
+              "coords": [
+                [
+                  45.4,
+                  30.2
+                ],
+                [
+                  45.6,
+                  30.4
+                ],
+                [
+                  46.8,
+                  27.4
+                ],
+                [
+                  49.2,
+                  28.6
+                ],
+                [
+                  49.6,
+                  33.8
+                ],
+                [
+                  60.8,
+                  26.8
+                ]
+              ],
+              "id": 253431,
+              "name": "Gelkis Captive",
+              "objective": 253431,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Shen'dralas"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16651,
+        2
+      ]
+    ]
+  },
+  "minLevel": 35,
+  "pageInfo": {
+    "name": "No Mercy for the Weak",
+    "type": 5,
+    "typeId": 92893
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 92893,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 253136,
+      "npcName": "Orgrul",
+      "x": 35.6,
+      "y": 12.0,
+      "zoneId": 16651,
+      "zoneName": "Shen'dralas"
+    }
+  ]
+}

@@ -1,40 +1,8 @@
 {
-  "fetchedAt": "2026-09-24T23:19:11+00:00",
+  "fetchedAt": "2026-10-17T11:27:11+00:00",
   "kind": "world_event",
   "questCount": 14,
   "quests": [
-    {
-      "category": -1002,
-      "category2": 9,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11304,
-      "icon": "quest-start",
-      "id": 1800,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 0,
-      "name": "Lordaeron Throne Room",
-      "popularity": 72,
-      "reprewards": [
-        [
-          67,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 10,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 660
-    },
     {
       "category": -1002,
       "category2": 9,
@@ -70,7 +38,7 @@
       "level": 60,
       "money": 0,
       "name": "A Warden of the Alliance",
-      "popularity": 67,
+      "popularity": 73,
       "reprewards": [
         [
           469,
@@ -94,19 +62,19 @@
         "lines": [],
         "status": "unchanged"
       },
-      "firstseenpatch": 11304,
+      "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 910,
+      "id": 172,
       "itemchoices": [],
       "itemrewards": [],
       "level": 60,
       "money": 0,
-      "name": "Down at the Docks",
-      "popularity": 66,
+      "name": "Children's Week",
+      "popularity": 58,
       "reprewards": [
         [
           67,
-          50
+          10
         ]
       ],
       "reqclass": 0,
@@ -114,7 +82,39 @@
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 660
+      "xp": 0
+    },
+    {
+      "category": -1002,
+      "category2": 9,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 1468,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 60,
+      "money": 0,
+      "name": "Children's Week",
+      "popularity": 57,
+      "reprewards": [
+        [
+          469,
+          10
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 10,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 0
     },
     {
       "category": -1002,
@@ -151,7 +151,7 @@
       "level": 60,
       "money": 0,
       "name": "A Warden of the Horde",
-      "popularity": 64,
+      "popularity": 57,
       "reprewards": [
         [
           67,
@@ -177,13 +177,141 @@
       },
       "firstseenpatch": 11304,
       "icon": "quest-start",
+      "id": 558,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 60,
+      "money": 0,
+      "name": "Jaina's Autograph",
+      "popularity": 56,
+      "reprewards": [
+        [
+          469,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 10,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 660
+    },
+    {
+      "category": -1002,
+      "category2": 9,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11304,
+      "icon": "quest-start",
       "id": 1479,
       "itemchoices": [],
       "itemrewards": [],
       "level": 60,
       "money": 0,
       "name": "The Bough of the Eternals",
-      "popularity": 59,
+      "popularity": 49,
+      "reprewards": [
+        [
+          469,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 10,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 660
+    },
+    {
+      "category": -1002,
+      "category2": 9,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11304,
+      "icon": "quest-start",
+      "id": 925,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 60,
+      "money": 0,
+      "name": "Cairne's Hoofprint",
+      "popularity": 48,
+      "reprewards": [
+        [
+          67,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 10,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 660
+    },
+    {
+      "category": -1002,
+      "category2": 9,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11304,
+      "icon": "quest-start",
+      "id": 1558,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 60,
+      "money": 0,
+      "name": "The Stonewrought Dam",
+      "popularity": 47,
+      "reprewards": [
+        [
+          469,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 10,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 660
+    },
+    {
+      "category": -1002,
+      "category2": 9,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11304,
+      "icon": "quest-start",
+      "id": 1687,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 60,
+      "money": 0,
+      "name": "Spooky Lighthouse",
+      "popularity": 43,
       "reprewards": [
         [
           469,
@@ -215,7 +343,7 @@
       "level": 60,
       "money": 0,
       "name": "Gateway to the Frontier",
-      "popularity": 57,
+      "popularity": 42,
       "reprewards": [
         [
           67,
@@ -225,174 +353,6 @@
       "reqclass": 0,
       "reqlevel": 10,
       "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 660
-    },
-    {
-      "category": -1002,
-      "category2": 9,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1468,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 0,
-      "name": "Children's Week",
-      "popularity": 56,
-      "reprewards": [
-        [
-          469,
-          10
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 10,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 0
-    },
-    {
-      "category": -1002,
-      "category2": 9,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11304,
-      "icon": "quest-start",
-      "id": 1558,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 0,
-      "name": "The Stonewrought Dam",
-      "popularity": 55,
-      "reprewards": [
-        [
-          469,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 10,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 660
-    },
-    {
-      "category": -1002,
-      "category2": 9,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [
-          "reworded"
-        ],
-        "lines": [
-          "Objective text reworded",
-          "Description reworded"
-        ],
-        "notShown": [
-          "Description reworded"
-        ],
-        "status": "updated"
-      },
-      "firstseenpatch": 11304,
-      "icon": "quest-start",
-      "id": 4822,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 0,
-      "name": "You Scream, I Scream...",
-      "popularity": 50,
-      "reprewards": [
-        [
-          469,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 10,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 660
-    },
-    {
-      "category": -1002,
-      "category2": 9,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11304,
-      "icon": "quest-start",
-      "id": 925,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 0,
-      "name": "Cairne's Hoofprint",
-      "popularity": 49,
-      "reprewards": [
-        [
-          67,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 10,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 660
-    },
-    {
-      "category": -1002,
-      "category2": 9,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11304,
-      "icon": "quest-start",
-      "id": 1687,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 0,
-      "name": "Spooky Lighthouse",
-      "popularity": 47,
-      "reprewards": [
-        [
-          469,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 10,
-      "side": 1,
       "titlereward": 0,
       "type": 0,
       "xp": 660
@@ -423,7 +383,7 @@
       "level": 60,
       "money": 0,
       "name": "You Scream, I Scream...",
-      "popularity": 45,
+      "popularity": 42,
       "reprewards": [
         [
           67,
@@ -449,22 +409,22 @@
       },
       "firstseenpatch": 11304,
       "icon": "quest-start",
-      "id": 558,
+      "id": 910,
       "itemchoices": [],
       "itemrewards": [],
       "level": 60,
       "money": 0,
-      "name": "Jaina's Autograph",
-      "popularity": 40,
+      "name": "Down at the Docks",
+      "popularity": 41,
       "reprewards": [
         [
-          469,
-          75
+          67,
+          50
         ]
       ],
       "reqclass": 0,
       "reqlevel": 10,
-      "side": 1,
+      "side": 2,
       "titlereward": 0,
       "type": 0,
       "xp": 660
@@ -479,19 +439,19 @@
         "lines": [],
         "status": "unchanged"
       },
-      "firstseenpatch": 11302,
+      "firstseenpatch": 11304,
       "icon": "quest-start",
-      "id": 172,
+      "id": 1800,
       "itemchoices": [],
       "itemrewards": [],
       "level": 60,
       "money": 0,
-      "name": "Children's Week",
-      "popularity": 28,
+      "name": "Lordaeron Throne Room",
+      "popularity": 40,
       "reprewards": [
         [
           67,
-          10
+          50
         ]
       ],
       "reqclass": 0,
@@ -499,7 +459,47 @@
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 0
+      "xp": 660
+    },
+    {
+      "category": -1002,
+      "category2": 9,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "reworded"
+        ],
+        "lines": [
+          "Objective text reworded",
+          "Description reworded"
+        ],
+        "notShown": [
+          "Description reworded"
+        ],
+        "status": "updated"
+      },
+      "firstseenpatch": 11304,
+      "icon": "quest-start",
+      "id": 4822,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 60,
+      "money": 0,
+      "name": "You Scream, I Scream...",
+      "popularity": 36,
+      "reprewards": [
+        [
+          469,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 10,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 660
     }
   ],
   "slug": "event/childrens-week",

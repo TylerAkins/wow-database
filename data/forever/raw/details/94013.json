@@ -1,6 +1,6 @@
 {
   "classes": [],
-  "fetchedAt": "2026-09-25T06:14:59+00:00",
+  "fetchedAt": "2026-10-17T03:17:48+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -11,7 +11,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 10[/li][li]Requires level 10[/li][li]Side: Both[/li][li]Races: [race=95], [race=96][/li][li][icon name=quest-start]Start: [url=/forever/npc=252389/quelana-quickgale]Quel'ana Quickgale[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=252389/quelana-quickgale]Quel'ana Quickgale[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]10[/color][small] &nbsp;[/small][color=r3]13[/color][small] &nbsp;[/small][color=r4]16[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 10[/li][li]Requires level 10[/li][li]Side: Both[/li][li]Race: [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=252389/quelana-quickgale]Quel'ana Quickgale[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=252389/quelana-quickgale]Quel'ana Quickgale[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]10[/color][small] &nbsp;[/small][color=r3]13[/color][small] &nbsp;[/small][color=r4]16[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 1,
     "objectives": {
@@ -79,16 +79,15 @@
   "prerequisiteQuestIds": [],
   "questId": 94013,
   "races": [
-    95,
-    96
+    95
   ],
   "startPins": [
     {
       "npcId": 252389,
       "npcName": "Quel'ana Quickgale",
-      "zoneId": 16593,
       "x": 59.6,
       "y": 72.6,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

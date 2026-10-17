@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-24T23:19:11+00:00",
+  "fetchedAt": "2026-10-17T11:26:45+00:00",
   "kind": "dungeon",
   "questCount": 12,
   "quests": [
@@ -31,13 +31,17 @@
         [
           6504,
           1
+        ],
+        [
+          270018,
+          1
         ]
       ],
       "itemrewards": [],
       "level": 22,
       "money": 0,
       "name": "Leaders of the Fang",
-      "popularity": 2563,
+      "popularity": 1198,
       "reprewards": [
         [
           81,
@@ -63,13 +67,72 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
+      "id": 6981,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 26,
+      "money": 0,
+      "name": "The Glowing Shard",
+      "popularity": 921,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 15,
+      "side": 3,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 2650
+    },
+    {
+      "category": 718,
+      "category2": 2,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 1491,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 18,
+      "money": 1000,
+      "name": "Smart Drinks",
+      "popularity": 717,
+      "reprewards": [
+        [
+          470,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 13,
+      "side": 3,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 1350
+    },
+    {
+      "category": 718,
+      "category2": 2,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
       "id": 1489,
       "itemchoices": [],
       "itemrewards": [],
       "level": 16,
       "money": 0,
       "name": "Hamuul Runetotem",
-      "popularity": 2227,
+      "popularity": 716,
       "reprewards": [
         [
           81,
@@ -114,7 +177,7 @@
       "level": 21,
       "money": 2500,
       "name": "Deviate Eradication",
-      "popularity": 1827,
+      "popularity": 639,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 15,
@@ -135,40 +198,13 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 6981,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 26,
-      "money": 0,
-      "name": "The Glowing Shard",
-      "popularity": 1767,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 15,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 2650
-    },
-    {
-      "category": 718,
-      "category2": 2,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1491,
+      "id": 959,
       "itemchoices": [],
       "itemrewards": [],
       "level": 18,
       "money": 1000,
-      "name": "Smart Drinks",
-      "popularity": 1730,
+      "name": "Trouble at the Docks",
+      "popularity": 601,
       "reprewards": [
         [
           470,
@@ -176,43 +212,11 @@
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 13,
+      "reqlevel": 14,
       "side": 3,
       "titlereward": 0,
       "type": 81,
       "xp": 1350
-    },
-    {
-      "category": 718,
-      "category2": 2,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1490,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 16,
-      "money": 0,
-      "name": "Nara Wildmane",
-      "popularity": 1576,
-      "reprewards": [
-        [
-          81,
-          10
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 10,
-      "side": 2,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 115
     },
     {
       "category": 718,
@@ -238,19 +242,28 @@
       "id": 1486,
       "itemchoices": [
         [
-          6480,
+          918,
           1
         ],
         [
-          918,
+          6480,
           1
         ]
       ],
-      "itemrewards": [],
+      "itemrewards": [
+        [
+          918,
+          1
+        ],
+        [
+          6480,
+          1
+        ]
+      ],
       "level": 17,
       "money": 1800,
       "name": "Deviate Hides",
-      "popularity": 1394,
+      "popularity": 561,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 13,
@@ -258,65 +271,6 @@
       "titlereward": 0,
       "type": 81,
       "xp": 1600
-    },
-    {
-      "category": 718,
-      "category2": 2,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 959,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 18,
-      "money": 1000,
-      "name": "Trouble at the Docks",
-      "popularity": 1256,
-      "reprewards": [
-        [
-          470,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 14,
-      "side": 3,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 1350
-    },
-    {
-      "category": 718,
-      "category2": 2,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 3366,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 25,
-      "money": 0,
-      "name": "The Glowing Shard",
-      "popularity": 1131,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 15,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 2550
     },
     {
       "category": 718,
@@ -338,7 +292,20 @@
       "firstseenpatch": 11302,
       "icon": "quest-start",
       "id": 962,
-      "itemchoices": [],
+      "itemchoices": [
+        [
+          10919,
+          1
+        ],
+        [
+          270008,
+          1
+        ],
+        [
+          270009,
+          1
+        ]
+      ],
       "itemrewards": [
         [
           10919,
@@ -348,7 +315,7 @@
       "level": 18,
       "money": 2000,
       "name": "Serpentbloom",
-      "popularity": 1069,
+      "popularity": 463,
       "reprewards": [
         [
           68,
@@ -374,13 +341,72 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
+      "id": 1490,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 16,
+      "money": 0,
+      "name": "Nara Wildmane",
+      "popularity": 461,
+      "reprewards": [
+        [
+          81,
+          10
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 10,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 115
+    },
+    {
+      "category": 718,
+      "category2": 2,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 3366,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 25,
+      "money": 0,
+      "name": "The Glowing Shard",
+      "popularity": 282,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 15,
+      "side": 0,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2550
+    },
+    {
+      "category": 718,
+      "category2": 2,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
       "id": 999,
       "itemchoices": [],
       "itemrewards": [],
       "level": 25,
       "money": 0,
       "name": "When Dreams Turn to Nightmares",
-      "popularity": 919,
+      "popularity": 205,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 10,
@@ -407,7 +433,7 @@
       "level": 25,
       "money": 0,
       "name": "Waking Naralex",
-      "popularity": 880,
+      "popularity": 177,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 10,

@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-25T05:59:15+00:00",
+  "fetchedAt": "2026-10-17T03:02:15+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -77,16 +77,18 @@
     "typeId": 91738
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    91736
+  ],
   "questId": 91738,
   "races": [],
   "startPins": [
     {
       "npcId": 955,
       "npcName": "Sergeant De Vries",
-      "zoneId": 12,
       "x": 24.0,
       "y": 73.0,
+      "zoneId": 12,
       "zoneName": "Elwynn Forest"
     }
   ]

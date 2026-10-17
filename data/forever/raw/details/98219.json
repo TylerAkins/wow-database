@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-25T07:00:49+00:00",
+  "fetchedAt": "2026-10-17T04:04:03+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,8 +12,92 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 30[/li][li]Requires level 20[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Sharable[/li][li]Difficulty: [color=q10]20[/color][small] &nbsp;[/small][color=r1]26[/color][small] &nbsp;[/small][color=r2]28[/color][small] &nbsp;[/small][color=r3]33[/color][small] &nbsp;[/small][color=r4]38[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
-  "mapper": null,
+  "infoboxMarkup": "[ul][li]Level: 30[/li][li]Requires level 20[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=3], [race=4], [br][race=7], [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=928/lord-grayson-shadowbreaker]Lord Grayson Shadowbreaker[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2228/lieutenant-farren-orinelle]Lieutenant Farren Orinelle[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]20[/color][small] &nbsp;[/small][color=r1]26[/color][small] &nbsp;[/small][color=r2]28[/color][small] &nbsp;[/small][color=r3]33[/color][small] &nbsp;[/small][color=r4]38[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1519": {
+        "levels": [
+          [
+            {
+              "coord": [
+                37.2,
+                33
+              ],
+              "coords": [
+                [
+                  37.2,
+                  33
+                ],
+                [
+                  37.6,
+                  32.6
+                ],
+                [
+                  48.4,
+                  50
+                ],
+                [
+                  48.6,
+                  50
+                ]
+              ],
+              "id": 928,
+              "name": "Lord Grayson Shadowbreaker",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stormwind City"
+      },
+      "267": {
+        "levels": [
+          [
+            {
+              "coord": [
+                51.4,
+                58.4
+              ],
+              "coords": [
+                [
+                  51.4,
+                  58.4
+                ],
+                [
+                  51.4,
+                  58.6
+                ]
+              ],
+              "id": 2228,
+              "name": "Lieutenant Farren Orinelle",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Hillsbrad Foothills"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1519,
+        1
+      ],
+      [
+        267,
+        1
+      ]
+    ]
+  },
   "minLevel": 20,
   "pageInfo": {
     "name": "The Shamed Lieutenant",
@@ -23,6 +107,20 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 98219,
-  "races": [],
-  "startPins": []
+  "races": [
+    3,
+    4,
+    7,
+    95
+  ],
+  "startPins": [
+    {
+      "npcId": 928,
+      "npcName": "Lord Grayson Shadowbreaker",
+      "x": 37.2,
+      "y": 33.0,
+      "zoneId": 1519,
+      "zoneName": "Stormwind City"
+    }
+  ]
 }

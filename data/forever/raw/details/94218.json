@@ -1,6 +1,7 @@
 {
   "classes": [],
-  "fetchedAt": "2026-09-25T06:15:49+00:00",
+  "faction": "Horde",
+  "fetchedAt": "2026-10-17T03:18:38+00:00",
   "infoboxFlags": {
     "daily": true,
     "dungeon": false,
@@ -11,8 +12,54 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 1[/li][li]Type: Daily[/li][li]Side: None[/li][li]Not sharable[/li][li]Difficulty: [color=q10]1[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
-  "mapper": null,
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 1[/li][li]Type: Daily[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-end-daily]End: [url=/forever/npc=4720/rizzle-brassbolts]Rizzle Brassbolts[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]1[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 2,
+    "objectives": {
+      "400": {
+        "levels": [
+          [
+            {
+              "coord": [
+                77.2,
+                77.4
+              ],
+              "coords": [
+                [
+                  77.2,
+                  77.4
+                ],
+                [
+                  77.4,
+                  77.6
+                ],
+                [
+                  77.6,
+                  77.6
+                ]
+              ],
+              "id": 4720,
+              "name": "Rizzle Brassbolts",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Thousand Needles"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        400,
+        1
+      ]
+    ]
+  },
   "minLevel": 1,
   "pageInfo": {
     "name": "Craftsman's Writ: Elixir of Defense",

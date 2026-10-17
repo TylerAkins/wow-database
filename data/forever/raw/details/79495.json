@@ -1,0 +1,175 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-10-17T12:01:41+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": true,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 25[/li][li]Type: Raid[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=216924/kaymard-copperpinch]Kaymard Copperpinch[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=216924/kaymard-copperpinch]Kaymard Copperpinch[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]25[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.60.1.70205\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "1637": {
+        "levels": [
+          [
+            {
+              "coord": [
+                53.2,
+                66.6
+              ],
+              "coords": [
+                [
+                  53.2,
+                  66.4
+                ],
+                [
+                  53.2,
+                  66.6
+                ]
+              ],
+              "id": 216924,
+              "name": "Kaymard Copperpinch",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                53.2,
+                66.6
+              ],
+              "coords": [
+                [
+                  53.2,
+                  66.4
+                ],
+                [
+                  53.2,
+                  66.6
+                ]
+              ],
+              "id": 216924,
+              "name": "Kaymard Copperpinch",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Orgrimmar"
+      },
+      "440": {
+        "levels": [
+          [
+            {
+              "coord": [
+                73.2,
+                48
+              ],
+              "coords": [
+                [
+                  73.2,
+                  48
+                ]
+              ],
+              "id": 15664,
+              "name": "Metzen the Reindeer",
+              "objective": 15664,
+              "point": "requirement",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Tanaris"
+      },
+      "51": {
+        "levels": [
+          [
+            {
+              "coord": [
+                68.6,
+                34.4
+              ],
+              "coords": [
+                [
+                  68.4,
+                  34.4
+                ],
+                [
+                  68.4,
+                  34.6
+                ],
+                [
+                  68.6,
+                  34.4
+                ],
+                [
+                  68.6,
+                  34.8
+                ]
+              ],
+              "id": 15664,
+              "name": "Metzen the Reindeer",
+              "objective": 15664,
+              "point": "requirement",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Searing Gorge"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1637,
+        1
+      ],
+      [
+        51,
+        1
+      ],
+      [
+        440,
+        1
+      ]
+    ]
+  },
+  "minLevel": 25,
+  "pageInfo": {
+    "name": "Metzen the Reindeer",
+    "type": 5,
+    "typeId": 79495
+  },
+  "pinCategory": "raid",
+  "prerequisiteQuestIds": [],
+  "questId": 79495,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 216924,
+      "npcName": "Kaymard Copperpinch",
+      "x": 53.2,
+      "y": 66.6,
+      "zoneId": 1637,
+      "zoneName": "Orgrimmar"
+    }
+  ]
+}

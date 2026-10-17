@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-24T23:19:11+00:00",
+  "fetchedAt": "2026-10-17T11:23:24+00:00",
   "kind": "zone",
   "questCount": 62,
   "quests": [
@@ -21,7 +21,7 @@
       "level": 10,
       "money": 85,
       "name": "The Great Tree Provides",
-      "popularity": 573,
+      "popularity": 283,
       "reprewards": [
         [
           69,
@@ -48,12 +48,21 @@
       "firstseenpatch": 16001,
       "icon": "quest-start",
       "id": 99053,
-      "itemchoices": [],
+      "itemchoices": [
+        [
+          286734,
+          1
+        ],
+        [
+          286735,
+          1
+        ]
+      ],
       "itemrewards": [],
       "level": 9,
       "money": 0,
       "name": "Escaping Ban'ethil",
-      "popularity": 335,
+      "popularity": 238,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 4,
@@ -74,13 +83,50 @@
       },
       "firstseenpatch": 16001,
       "icon": "quest-start",
-      "id": 97977,
+      "id": 98403,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          282284,
+          1
+        ]
+      ],
+      "level": 12,
+      "money": 0,
+      "name": "Twisted Hatred",
+      "popularity": 196,
+      "reprewards": [
+        [
+          69,
+          150
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 4,
+      "side": 1,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 910
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 2541,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 3,
-      "money": 50,
-      "name": "Nature's Call",
-      "popularity": 258,
+      "level": 8,
+      "money": 0,
+      "name": "The Sleeping Druid",
+      "popularity": 191,
       "reprewards": [
         [
           69,
@@ -88,11 +134,38 @@
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 1,
-      "side": 0,
+      "reqlevel": 3,
+      "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 250
+      "xp": 700
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 99073,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 10,
+      "money": 0,
+      "name": "Easing Suffering",
+      "popularity": 185,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 4,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 85
     },
     {
       "category": 141,
@@ -127,10 +200,10 @@
         ]
       ],
       "itemrewards": [],
-      "level": 7,
+      "level": 8,
       "money": 0,
       "name": "Twisted Hatred",
-      "popularity": 252,
+      "popularity": 169,
       "reprewards": [
         [
           69,
@@ -142,98 +215,7 @@
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 630
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 98403,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          282284,
-          1
-        ]
-      ],
-      "level": 12,
-      "money": 1000,
-      "name": "Twisted Hatred",
-      "popularity": 249,
-      "reprewards": [
-        [
-          69,
-          150
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 4,
-      "side": 0,
-      "titlereward": 0,
-      "type": 1,
-      "xp": 1150
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 99073,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 10,
-      "money": 0,
-      "name": "Easing Suffering",
-      "popularity": 235,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 4,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 85
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 98392,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 12,
-      "money": 0,
-      "name": "Darkness in the Glade",
-      "popularity": 201,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 6,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 910
+      "xp": 700
     },
     {
       "category": 141,
@@ -242,144 +224,63 @@
       "currencyrewards": [],
       "envChange": {
         "labels": [
+          "level_changed",
           "rewards_changed",
+          "objectives_changed",
+          "faction_changed",
+          "quest_giver_changed",
+          "renamed",
+          "text_changed",
           "reworded"
         ],
         "lines": [
-          "Objective text reworded",
-          "Rewards: adds Forest Oracle's Cloak"
+          "Renamed from <UNUSED>",
+          "Level 8 instead of 7",
+          "Side Alliance instead of none",
+          "Quest givers: adds Ends at Sentinel Shayla Nightbreeze, Starts at Sentinel Shayla Nightbreeze",
+          "Objectives: adds Gnarlpine Fang x15",
+          "Objectives: no longer Gnarlpine Fang x20",
+          "Objective text: 15 instead of 20",
+          "Description reworded",
+          "Progress text added",
+          "Completion text added",
+          "Experience 700 instead of 630",
+          "Money 2s 25c instead of none",
+          "Rewards: adds Darnassus +100 reputation"
         ],
         "notShown": [
-          "Rewards: adds Forest Oracle's Cloak"
+          "Side Alliance instead of none",
+          "Quest givers: adds Ends at Sentinel Shayla Nightbreeze, Starts at Sentinel Shayla Nightbreeze",
+          "Description reworded",
+          "Progress text added",
+          "Completion text added",
+          "Experience 700 instead of 630",
+          "Money 2s 25c instead of none",
+          "Rewards: adds Darnassus +100 reputation"
         ],
         "status": "updated"
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 940,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 11,
-      "money": 0,
-      "name": "Teldrassil",
-      "popularity": 190,
-      "reprewards": [
-        [
-          69,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 6,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 440
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 2459,
+      "id": 490,
       "itemchoices": [],
       "itemrewards": [],
       "level": 8,
-      "money": 450,
-      "name": "Ferocitas the Dream Eater",
-      "popularity": 176,
+      "money": 225,
+      "name": "Bounty: Gnarlpine Furbolg",
+      "popularity": 165,
       "reprewards": [
         [
           69,
-          150
+          100
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 1,
+      "reqlevel": 5,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 880
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 2561,
-      "itemchoices": [
-        [
-          9598,
-          1
-        ],
-        [
-          18957,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 10,
-      "money": 0,
-      "name": "Druid of the Claw",
-      "popularity": 174,
-      "reprewards": [
-        [
-          69,
-          150
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 3,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1050
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 99046,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 9,
-      "money": 0,
-      "name": "The Lost Runner",
-      "popularity": 171,
-      "reprewards": [
-        [
-          69,
-          10
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 4,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 80
+      "xp": 700
     },
     {
       "category": 141,
@@ -408,7 +309,7 @@
       "level": 9,
       "money": 600,
       "name": "Oakenscowl",
-      "popularity": 167,
+      "popularity": 160,
       "reprewards": [
         [
           69,
@@ -421,79 +322,6 @@
       "titlereward": 0,
       "type": 1,
       "xp": 980
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 97236,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 5,
-      "money": 100,
-      "name": "Fang of Githyiss",
-      "popularity": 159,
-      "reprewards": [
-        [
-          69,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 1,
-      "side": 0,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 450
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 483,
-      "itemchoices": [
-        [
-          9599,
-          1
-        ],
-        [
-          9603,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 9,
-      "money": 300,
-      "name": "The Relics of Wakening",
-      "popularity": 158,
-      "reprewards": [
-        [
-          69,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 4,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 780
     },
     {
       "category": 141,
@@ -540,70 +368,6 @@
       "envChange": {
         "labels": [],
         "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 99047,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 9,
-      "money": 0,
-      "name": "Not Dead Yet",
-      "popularity": 152,
-      "reprewards": [
-        [
-          69,
-          10
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 4,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 80
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 2498,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 9,
-      "money": 0,
-      "name": "Return to Denalan",
-      "popularity": 145,
-      "reprewards": [
-        [
-          69,
-          10
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 4,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 80
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
         "status": "unchanged"
       },
       "firstseenpatch": 11302,
@@ -623,7 +387,7 @@
       "level": 11,
       "money": 0,
       "name": "Crown of the Earth",
-      "popularity": 137,
+      "popularity": 150,
       "reprewards": [
         [
           69,
@@ -645,24 +409,110 @@
       "envChange": {
         "labels": [],
         "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 2459,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 8,
+      "money": 450,
+      "name": "Ferocitas the Dream Eater",
+      "popularity": 142,
+      "reprewards": [
+        [
+          69,
+          150
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 1,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 880
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
         "status": "new"
       },
       "firstseenpatch": 16001,
       "icon": "quest-start",
-      "id": 98398,
+      "id": 97977,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 12,
+      "level": 3,
+      "money": 50,
+      "name": "Nature's Call",
+      "popularity": 139,
+      "reprewards": [
+        [
+          69,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 1,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 250
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "rewards_changed",
+          "quest_giver_changed",
+          "reworded"
+        ],
+        "lines": [
+          "Quest givers: adds Starts at Oracle Tree Bark",
+          "Objective text reworded",
+          "Rewards: adds Forest Oracle's Cloak"
+        ],
+        "notShown": [
+          "Quest givers: adds Starts at Oracle Tree Bark",
+          "Rewards: adds Forest Oracle's Cloak"
+        ],
+        "status": "updated"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 940,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          281250,
+          1
+        ]
+      ],
+      "level": 11,
       "money": 0,
-      "name": "The Oracle Tree",
-      "popularity": 124,
-      "reprewards": [],
+      "name": "Teldrassil",
+      "popularity": 136,
+      "reprewards": [
+        [
+          69,
+          50
+        ]
+      ],
       "reqclass": 0,
       "reqlevel": 6,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 90
+      "xp": 440
     },
     {
       "category": 141,
@@ -676,17 +526,58 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 2541,
+      "id": 920,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 8,
+      "level": 5,
       "money": 0,
-      "name": "The Sleeping Druid",
-      "popularity": 120,
+      "name": "Tenaron's Summons",
+      "popularity": 133,
       "reprewards": [
         [
           69,
-          100
+          10
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 1,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 45
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 2561,
+      "itemchoices": [
+        [
+          9598,
+          1
+        ],
+        [
+          18957,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 10,
+      "money": 0,
+      "name": "Druid of the Claw",
+      "popularity": 129,
+      "reprewards": [
+        [
+          69,
+          150
         ]
       ],
       "reqclass": 0,
@@ -694,7 +585,319 @@
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 700
+      "xp": 1050
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 2498,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 9,
+      "money": 0,
+      "name": "Return to Denalan",
+      "popularity": 129,
+      "reprewards": [
+        [
+          69,
+          10
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 4,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 80
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 98392,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 12,
+      "money": 0,
+      "name": "Darkness in the Glade",
+      "popularity": 128,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 6,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 910
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "rewards_changed"
+        ],
+        "lines": [
+          "Rewards: adds Choice of Mining for Dummies, Choice of Pelt Collecting for Beginners, Choice of Wild Harvest"
+        ],
+        "notShown": [
+          "Rewards: adds Choice of Mining for Dummies, Choice of Pelt Collecting for Beginners, Choice of Wild Harvest"
+        ],
+        "status": "updated"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 458,
+      "itemchoices": [
+        [
+          247840,
+          1
+        ],
+        [
+          247841,
+          1
+        ],
+        [
+          247846,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 1,
+      "money": 0,
+      "name": "The Woodland Protector",
+      "popularity": 127,
+      "reprewards": [
+        [
+          69,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 1,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 40
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 921,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 5,
+      "money": 0,
+      "name": "Crown of the Earth",
+      "popularity": 127,
+      "reprewards": [
+        [
+          69,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 1,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 335
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 98065,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 11,
+      "money": 0,
+      "name": "Crown of the Earth",
+      "popularity": 127,
+      "reprewards": [
+        [
+          69,
+          150
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 1,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 90
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 97236,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 5,
+      "money": 100,
+      "name": "Fang of Githyiss",
+      "popularity": 126,
+      "reprewards": [
+        [
+          69,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 1,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 450
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 483,
+      "itemchoices": [
+        [
+          9599,
+          1
+        ],
+        [
+          9603,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 9,
+      "money": 300,
+      "name": "The Relics of Wakening",
+      "popularity": 125,
+      "reprewards": [
+        [
+          69,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 4,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 780
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 99047,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 9,
+      "money": 0,
+      "name": "Not Dead Yet",
+      "popularity": 124,
+      "reprewards": [
+        [
+          69,
+          10
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 4,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 80
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 99046,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 9,
+      "money": 0,
+      "name": "The Lost Runner",
+      "popularity": 124,
+      "reprewards": [
+        [
+          69,
+          10
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 4,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 80
     },
     {
       "category": 141,
@@ -714,7 +917,7 @@
       "level": 11,
       "money": 0,
       "name": "Crown of the Earth",
-      "popularity": 117,
+      "popularity": 120,
       "reprewards": [
         [
           69,
@@ -723,7 +926,66 @@
       ],
       "reqclass": 0,
       "reqlevel": 1,
-      "side": 0,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 90
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 927,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 12,
+      "money": 0,
+      "name": "The Moss-twined Heart",
+      "popularity": 120,
+      "reprewards": [
+        [
+          69,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 5,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 455
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 98398,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 12,
+      "money": 0,
+      "name": "The Oracle Tree",
+      "popularity": 119,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 6,
+      "side": 1,
       "titlereward": 0,
       "type": 0,
       "xp": 90
@@ -755,7 +1017,7 @@
       "level": 12,
       "money": 0,
       "name": "Ursal the Mauler",
-      "popularity": 117,
+      "popularity": 114,
       "reprewards": [
         [
           69,
@@ -777,21 +1039,188 @@
       "envChange": {
         "labels": [],
         "lines": [],
-        "status": "new"
+        "status": "unchanged"
       },
-      "firstseenpatch": 16001,
+      "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 98065,
+      "id": 456,
+      "itemchoices": [
+        [
+          5394,
+          1
+        ],
+        [
+          11187,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 2,
+      "money": 35,
+      "name": "The Balance of Nature",
+      "popularity": 113,
+      "reprewards": [
+        [
+          69,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 1,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 170
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 916,
+      "itemchoices": [
+        [
+          10544,
+          1
+        ],
+        [
+          5392,
+          1
+        ],
+        [
+          5393,
+          1
+        ],
+        [
+          5586,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 4,
+      "money": 0,
+      "name": "Webwood Venom",
+      "popularity": 113,
+      "reprewards": [
+        [
+          69,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 3,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 355
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 933,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 9,
+      "money": 0,
+      "name": "Crown of the Earth",
+      "popularity": 111,
+      "reprewards": [
+        [
+          69,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 1,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 780
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 938,
+      "itemchoices": [
+        [
+          5590,
+          1
+        ],
+        [
+          5593,
+          1
+        ],
+        [
+          5618,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 12,
+      "money": 0,
+      "name": "Mist",
+      "popularity": 108,
+      "reprewards": [
+        [
+          69,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 7,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 910
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 934,
       "itemchoices": [],
       "itemrewards": [],
       "level": 11,
       "money": 0,
       "name": "Crown of the Earth",
-      "popularity": 115,
+      "popularity": 108,
       "reprewards": [
         [
           69,
-          150
+          75
         ]
       ],
       "reqclass": 0,
@@ -799,7 +1228,39 @@
       "side": 0,
       "titlereward": 0,
       "type": 0,
-      "xp": 90
+      "xp": 660
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 929,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 5,
+      "money": 0,
+      "name": "Crown of the Earth",
+      "popularity": 106,
+      "reprewards": [
+        [
+          69,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 1,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 335
     },
     {
       "category": 141,
@@ -837,7 +1298,7 @@
       "level": 3,
       "money": 0,
       "name": "The Woodland Protector",
-      "popularity": 110,
+      "popularity": 104,
       "reprewards": [
         [
           69,
@@ -863,45 +1324,13 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 489,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 7,
-      "money": 175,
-      "name": "Seek Redemption!",
-      "popularity": 100,
-      "reprewards": [
-        [
-          69,
-          200
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 4,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 630
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
       "id": 487,
       "itemchoices": [],
       "itemrewards": [],
       "level": 8,
       "money": 225,
       "name": "The Road to Darnassus",
-      "popularity": 96,
+      "popularity": 103,
       "reprewards": [
         [
           69,
@@ -927,107 +1356,13 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 923,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          5605,
-          1
-        ]
-      ],
-      "level": 9,
-      "money": 600,
-      "name": "Tumors",
-      "popularity": 96,
-      "reprewards": [
-        [
-          69,
-          150
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 4,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 980
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [
-          "level_changed",
-          "rewards_changed",
-          "faction_changed",
-          "quest_giver_changed",
-          "renamed",
-          "text_changed",
-          "reworded"
-        ],
-        "lines": [
-          "Renamed from <UNUSED>",
-          "Level 8 instead of 7",
-          "Side Alliance instead of none",
-          "Quest givers: adds Ends at Sentinel Shayla Nightbreeze, Starts at Sentinel Shayla Nightbreeze",
-          "Objective text reworded",
-          "Description reworded",
-          "Progress text added",
-          "Completion text added",
-          "Experience 700 instead of 630",
-          "Money 2s 25c instead of none",
-          "Rewards: adds Darnassus +100 reputation"
-        ],
-        "notShown": [
-          "Side Alliance instead of none",
-          "Quest givers: adds Ends at Sentinel Shayla Nightbreeze, Starts at Sentinel Shayla Nightbreeze",
-          "Description reworded",
-          "Progress text added",
-          "Completion text added",
-          "Experience 700 instead of 630",
-          "Money 2s 25c instead of none",
-          "Rewards: adds Darnassus +100 reputation"
-        ],
-        "status": "updated"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 490,
+      "id": 928,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 7,
+      "level": 5,
       "money": 0,
-      "name": "<UNUSED>",
-      "popularity": 95,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 5,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 630
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 922,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 7,
-      "money": 0,
-      "name": "Rellian Greenspyre",
-      "popularity": 92,
+      "name": "Crown of the Earth",
+      "popularity": 103,
       "reprewards": [
         [
           69,
@@ -1035,43 +1370,11 @@
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 4,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 315
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 921,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 5,
-      "money": 0,
-      "name": "Crown of the Earth",
-      "popularity": 90,
-      "reprewards": [
-        [
-          69,
-          75
-        ]
-      ],
-      "reqclass": 0,
       "reqlevel": 1,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 335
+      "xp": 225
     },
     {
       "category": 141,
@@ -1085,86 +1388,17 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 933,
+      "id": 489,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 9,
-      "money": 0,
-      "name": "Crown of the Earth",
-      "popularity": 87,
-      "reprewards": [
-        [
-          69,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 1,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 780
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 930,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 10,
-      "money": 350,
-      "name": "The Glowing Fruit",
-      "popularity": 87,
-      "reprewards": [
-        [
-          69,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 4,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 840
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 918,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          4604,
-          10
-        ]
-      ],
       "level": 7,
-      "money": 0,
-      "name": "Timberling Seeds",
-      "popularity": 87,
+      "money": 175,
+      "name": "Seek Redemption!",
+      "popularity": 103,
       "reprewards": [
         [
           69,
-          100
+          200
         ]
       ],
       "reqclass": 0,
@@ -1186,191 +1420,13 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 476,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 6,
-      "money": 125,
-      "name": "Gnarlpine Corruption",
-      "popularity": 85,
-      "reprewards": [
-        [
-          69,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 4,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 540
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 929,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 5,
-      "money": 0,
-      "name": "Crown of the Earth",
-      "popularity": 84,
-      "reprewards": [
-        [
-          69,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 1,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 335
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 456,
-      "itemchoices": [
-        [
-          5394,
-          1
-        ],
-        [
-          11187,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 2,
-      "money": 35,
-      "name": "The Balance of Nature",
-      "popularity": 84,
-      "reprewards": [
-        [
-          69,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 1,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 170
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 457,
-      "itemchoices": [
-        [
-          5405,
-          1
-        ],
-        [
-          6058,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 3,
-      "money": 50,
-      "name": "The Balance of Nature",
-      "popularity": 83,
-      "reprewards": [
-        [
-          69,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 1,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 250
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 3521,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 4,
-      "money": 0,
-      "name": "Iverron's Antidote",
-      "popularity": 82,
-      "reprewards": [
-        [
-          69,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 2,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 355
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 934,
+      "id": 7383,
       "itemchoices": [],
       "itemrewards": [],
       "level": 11,
       "money": 0,
       "name": "Crown of the Earth",
-      "popularity": 82,
+      "popularity": 101,
       "reprewards": [
         [
           69,
@@ -1379,7 +1435,7 @@
       ],
       "reqclass": 0,
       "reqlevel": 1,
-      "side": 3,
+      "side": 1,
       "titlereward": 0,
       "type": 0,
       "xp": 660
@@ -1396,145 +1452,30 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 916,
-      "itemchoices": [
-        [
-          10544,
-          1
-        ],
-        [
-          5392,
-          1
-        ],
-        [
-          5393,
-          1
-        ],
-        [
-          5586,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 4,
-      "money": 0,
-      "name": "Webwood Venom",
-      "popularity": 81,
-      "reprewards": [
-        [
-          69,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 3,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 355
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 920,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 5,
-      "money": 0,
-      "name": "Tenaron's Summons",
-      "popularity": 81,
-      "reprewards": [
-        [
-          69,
-          10
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 1,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 45
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [
-          "rewards_changed"
-        ],
-        "lines": [
-          "Rewards: adds Choice of Mining for Dummies, Choice of Pelt Collecting for Beginners, Choice of Wild Harvest"
-        ],
-        "notShown": [
-          "Rewards: adds Choice of Mining for Dummies, Choice of Pelt Collecting for Beginners, Choice of Wild Harvest"
-        ],
-        "status": "updated"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 458,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 1,
-      "money": 0,
-      "name": "The Woodland Protector",
-      "popularity": 79,
-      "reprewards": [
-        [
-          69,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 1,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 40
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 488,
+      "id": 923,
       "itemchoices": [],
       "itemrewards": [
         [
-          5457,
-          5
+          5605,
+          1
         ]
       ],
-      "level": 5,
-      "money": 100,
-      "name": "Zenn's Bidding",
-      "popularity": 78,
-      "reprewards": [],
+      "level": 9,
+      "money": 600,
+      "name": "Tumors",
+      "popularity": 100,
+      "reprewards": [
+        [
+          69,
+          150
+        ]
+      ],
       "reqclass": 0,
       "reqlevel": 4,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 450
+      "xp": 980
     },
     {
       "category": 141,
@@ -1567,7 +1508,7 @@
       "level": 5,
       "money": 0,
       "name": "Webwood Egg",
-      "popularity": 78,
+      "popularity": 98,
       "reprewards": [
         [
           69,
@@ -1593,195 +1534,13 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 937,
-      "itemchoices": [
-        [
-          5592,
-          1
-        ],
-        [
-          5591,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 11,
-      "money": 0,
-      "name": "The Enchanted Glade",
-      "popularity": 78,
-      "reprewards": [
-        [
-          69,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 6,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 440
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 7383,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 11,
-      "money": 0,
-      "name": "Crown of the Earth",
-      "popularity": 77,
-      "reprewards": [
-        [
-          69,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 1,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 660
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 927,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 12,
-      "money": 0,
-      "name": "The Moss-twined Heart",
-      "popularity": 77,
-      "reprewards": [
-        [
-          69,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 5,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 455
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 4495,
+      "id": 3521,
       "itemchoices": [],
       "itemrewards": [],
       "level": 4,
       "money": 0,
-      "name": "A Good Friend",
-      "popularity": 75,
-      "reprewards": [
-        [
-          69,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 2,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 270
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 475,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 6,
-      "money": 0,
-      "name": "A Troubling Breeze",
-      "popularity": 74,
-      "reprewards": [
-        [
-          69,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 4,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 270
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 938,
-      "itemchoices": [
-        [
-          5590,
-          1
-        ],
-        [
-          5593,
-          1
-        ],
-        [
-          5618,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 12,
-      "money": 0,
-      "name": "Mist",
-      "popularity": 74,
+      "name": "Iverron's Antidote",
+      "popularity": 98,
       "reprewards": [
         [
           69,
@@ -1789,11 +1548,11 @@
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 7,
+      "reqlevel": 2,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 910
+      "xp": 355
     },
     {
       "category": 141,
@@ -1807,17 +1566,26 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 928,
-      "itemchoices": [],
+      "id": 457,
+      "itemchoices": [
+        [
+          5405,
+          1
+        ],
+        [
+          6058,
+          1
+        ]
+      ],
       "itemrewards": [],
-      "level": 5,
-      "money": 0,
-      "name": "Crown of the Earth",
-      "popularity": 71,
+      "level": 3,
+      "money": 50,
+      "name": "The Balance of Nature",
+      "popularity": 98,
       "reprewards": [
         [
           69,
-          50
+          100
         ]
       ],
       "reqclass": 0,
@@ -1825,7 +1593,76 @@
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 225
+      "xp": 250
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 3519,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 4,
+      "money": 0,
+      "name": "A Friend in Need",
+      "popularity": 96,
+      "reprewards": [
+        [
+          69,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 2,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 90
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 2399,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          5205,
+          5
+        ]
+      ],
+      "level": 10,
+      "money": 0,
+      "name": "The Sprouted Fronds",
+      "popularity": 94,
+      "reprewards": [
+        [
+          69,
+          10
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 4,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 85
     },
     {
       "category": 141,
@@ -1845,7 +1682,7 @@
       "level": 6,
       "money": 100,
       "name": "The Emerald Dreamcatcher",
-      "popularity": 67,
+      "popularity": 91,
       "reprewards": [
         [
           69,
@@ -1877,7 +1714,7 @@
       "level": 10,
       "money": 350,
       "name": "The Shimmering Frond",
-      "popularity": 64,
+      "popularity": 91,
       "reprewards": [
         [
           69,
@@ -1903,6 +1740,326 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
+      "id": 2159,
+      "itemchoices": [
+        [
+          2070,
+          5
+        ],
+        [
+          159,
+          5
+        ]
+      ],
+      "itemrewards": [],
+      "level": 5,
+      "money": 0,
+      "name": "Dolanaar Delivery",
+      "popularity": 90,
+      "reprewards": [
+        [
+          69,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 1,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 110
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 488,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          5457,
+          5
+        ]
+      ],
+      "level": 5,
+      "money": 100,
+      "name": "Zenn's Bidding",
+      "popularity": 88,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 4,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 450
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 4495,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 4,
+      "money": 0,
+      "name": "A Good Friend",
+      "popularity": 88,
+      "reprewards": [
+        [
+          69,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 2,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 270
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 937,
+      "itemchoices": [
+        [
+          5592,
+          1
+        ],
+        [
+          5591,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 11,
+      "money": 0,
+      "name": "The Enchanted Glade",
+      "popularity": 88,
+      "reprewards": [
+        [
+          69,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 6,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 440
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 3522,
+      "itemchoices": [
+        [
+          10655,
+          1
+        ],
+        [
+          10656,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 4,
+      "money": 0,
+      "name": "Iverron's Antidote",
+      "popularity": 85,
+      "reprewards": [
+        [
+          69,
+          150
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 2,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 445
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 475,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 6,
+      "money": 0,
+      "name": "A Troubling Breeze",
+      "popularity": 85,
+      "reprewards": [
+        [
+          69,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 4,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 270
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 930,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 10,
+      "money": 350,
+      "name": "The Glowing Fruit",
+      "popularity": 84,
+      "reprewards": [
+        [
+          69,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 4,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 840
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 476,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 6,
+      "money": 125,
+      "name": "Gnarlpine Corruption",
+      "popularity": 82,
+      "reprewards": [
+        [
+          69,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 4,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 540
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 918,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          4604,
+          10
+        ]
+      ],
+      "level": 7,
+      "money": 0,
+      "name": "Timberling Seeds",
+      "popularity": 78,
+      "reprewards": [
+        [
+          69,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 4,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 630
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
       "id": 941,
       "itemchoices": [],
       "itemrewards": [
@@ -1914,7 +2071,7 @@
       "level": 12,
       "money": 0,
       "name": "Planting the Heart",
-      "popularity": 64,
+      "popularity": 77,
       "reprewards": [
         [
           69,
@@ -1955,7 +2112,7 @@
       "level": 7,
       "money": 350,
       "name": "Timberling Sprouts",
-      "popularity": 60,
+      "popularity": 77,
       "reprewards": [
         [
           69,
@@ -1987,7 +2144,7 @@
       "level": 5,
       "money": 50,
       "name": "Denalan's Earth",
-      "popularity": 59,
+      "popularity": 73,
       "reprewards": [
         [
           69,
@@ -2000,6 +2157,81 @@
       "titlereward": 0,
       "type": 0,
       "xp": 225
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "reworded"
+        ],
+        "lines": [
+          "Description reworded"
+        ],
+        "notShown": [
+          "Description reworded"
+        ],
+        "status": "updated"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 922,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 7,
+      "money": 0,
+      "name": "Rellian Greenspyre",
+      "popularity": 66,
+      "reprewards": [
+        [
+          69,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 4,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 315
+    },
+    {
+      "category": 141,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11305,
+      "icon": "quest-start",
+      "id": 8734,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 60,
+      "money": 0,
+      "name": "Tyrande and Remulos",
+      "popularity": 64,
+      "reprewards": [
+        [
+          910,
+          10
+        ],
+        [
+          609,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 60,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1650
     },
     {
       "category": 141,
@@ -2032,7 +2264,7 @@
       "level": 1,
       "money": 0,
       "name": "Welcome!",
-      "popularity": 59,
+      "popularity": 58,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 1,
@@ -2040,193 +2272,6 @@
       "titlereward": 0,
       "type": 0,
       "xp": 0
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 2399,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          5205,
-          5
-        ]
-      ],
-      "level": 10,
-      "money": 0,
-      "name": "The Sprouted Fronds",
-      "popularity": 56,
-      "reprewards": [
-        [
-          69,
-          10
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 4,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 85
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 3519,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 4,
-      "money": 0,
-      "name": "A Friend in Need",
-      "popularity": 53,
-      "reprewards": [
-        [
-          69,
-          25
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 2,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 90
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 3522,
-      "itemchoices": [
-        [
-          10655,
-          1
-        ],
-        [
-          10656,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 4,
-      "money": 0,
-      "name": "Iverron's Antidote",
-      "popularity": 49,
-      "reprewards": [
-        [
-          69,
-          150
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 2,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 445
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 2159,
-      "itemchoices": [
-        [
-          2070,
-          5
-        ],
-        [
-          159,
-          5
-        ]
-      ],
-      "itemrewards": [],
-      "level": 5,
-      "money": 0,
-      "name": "Dolanaar Delivery",
-      "popularity": 48,
-      "reprewards": [
-        [
-          69,
-          25
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 1,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 110
-    },
-    {
-      "category": 141,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11305,
-      "icon": "quest-start",
-      "id": 8734,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 0,
-      "name": "Tyrande and Remulos",
-      "popularity": 46,
-      "reprewards": [
-        [
-          910,
-          10
-        ],
-        [
-          609,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 60,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1650
     }
   ],
   "slug": "kd/teldrassil",

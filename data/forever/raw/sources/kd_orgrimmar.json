@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-24T23:19:10+00:00",
+  "fetchedAt": "2026-10-17T11:23:03+00:00",
   "kind": "zone",
   "questCount": 92,
   "quests": [
@@ -38,7 +38,7 @@
       "level": 16,
       "money": 0,
       "name": "Hidden Enemies",
-      "popularity": 1905,
+      "popularity": 907,
       "reprewards": [
         [
           76,
@@ -58,9 +58,14 @@
       "currencychoicerewards": [],
       "currencyrewards": [],
       "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
+        "labels": [
+          "objectives_changed"
+        ],
+        "lines": [
+          "Objectives: adds Neeru Fireblade"
+        ],
+        "notShown": [],
+        "status": "updated"
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
@@ -70,7 +75,7 @@
       "level": 12,
       "money": 0,
       "name": "Hidden Enemies",
-      "popularity": 1815,
+      "popularity": 628,
       "reprewards": [
         [
           76,
@@ -83,6 +88,102 @@
       "titlereward": 0,
       "type": 0,
       "xp": 455
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 5726,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 12,
+      "money": 250,
+      "name": "Hidden Enemies",
+      "popularity": 516,
+      "reprewards": [
+        [
+          76,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 9,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 910
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 2950,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          9588,
+          1
+        ]
+      ],
+      "level": 35,
+      "money": -3000,
+      "name": "Nogg's Ring Redo",
+      "popularity": 348,
+      "reprewards": [
+        [
+          76,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 28,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2750
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 5729,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 15,
+      "money": 0,
+      "name": "Hidden Enemies",
+      "popularity": 343,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 9,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 105
     },
     {
       "category": 1637,
@@ -107,7 +208,7 @@
       "level": 13,
       "money": 600,
       "name": "Exploring the Horde",
-      "popularity": 1397,
+      "popularity": 237,
       "reprewards": [
         [
           76,
@@ -145,24 +246,24 @@
       "envChange": {
         "labels": [],
         "lines": [],
-        "status": "unchanged"
+        "status": "new"
       },
-      "firstseenpatch": 11302,
+      "firstseenpatch": 16001,
       "icon": "quest-start",
-      "id": 5729,
+      "id": 97249,
       "itemchoices": [],
       "itemrewards": [],
       "level": 15,
       "money": 0,
-      "name": "Hidden Enemies",
-      "popularity": 981,
+      "name": "Favorite Food",
+      "popularity": 231,
       "reprewards": [],
       "reqclass": 0,
-      "reqlevel": 9,
+      "reqlevel": 5,
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 105
+      "xp": 1050
     },
     {
       "category": 1637,
@@ -172,29 +273,51 @@
       "envChange": {
         "labels": [],
         "lines": [],
-        "status": "unchanged"
+        "status": "new"
       },
-      "firstseenpatch": 11302,
+      "firstseenpatch": 16001,
       "icon": "quest-start",
-      "id": 5726,
+      "id": 97246,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 12,
-      "money": 250,
-      "name": "Hidden Enemies",
-      "popularity": 963,
-      "reprewards": [
-        [
-          76,
-          100
-        ]
-      ],
+      "level": 15,
+      "money": 0,
+      "name": "Meal Appeal",
+      "popularity": 230,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 5,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 800
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 97242,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 15,
+      "money": 0,
+      "name": "Yelmak's Medley",
+      "popularity": 204,
+      "reprewards": [],
       "reqclass": 0,
       "reqlevel": 9,
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 910
+      "xp": 800
     },
     {
       "category": 1637,
@@ -235,7 +358,7 @@
       "level": 15,
       "money": 0,
       "name": "Rocks to Rests",
-      "popularity": 791,
+      "popularity": 203,
       "reprewards": [
         [
           76,
@@ -248,968 +371,6 @@
       "titlereward": 0,
       "type": 0,
       "xp": 800
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 97249,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 15,
-      "money": 0,
-      "name": "Favorite Food",
-      "popularity": 346,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 5,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1050
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 97242,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 15,
-      "money": 0,
-      "name": "Yelmak's Medley",
-      "popularity": 314,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 9,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 800
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 95350,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 13,
-      "money": 0,
-      "name": "Welcome to Azeroth",
-      "popularity": 296,
-      "reprewards": [
-        [
-          2778,
-          25
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 7,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 680
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 97246,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 15,
-      "money": 0,
-      "name": "Meal Appeal",
-      "popularity": 275,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 5,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 800
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 97275,
-      "itemchoices": [
-        [
-          3385,
-          2
-        ],
-        [
-          929,
-          2
-        ]
-      ],
-      "itemrewards": [],
-      "level": 15,
-      "money": 0,
-      "name": "Whuut's the Rush",
-      "popularity": 113,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 9,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 800
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 8916,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          22079,
-          1
-        ]
-      ],
-      "level": 60,
-      "money": -200000,
-      "name": "An Earnest Proposition",
-      "popularity": 67,
-      "reprewards": [],
-      "reqclass": 16,
-      "reqlevel": 58,
-      "side": 2,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 6600
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 235,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 20,
-      "money": 0,
-      "name": "The Ashenvale Hunt",
-      "popularity": 66,
-      "reprewards": [
-        [
-          81,
-          10
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 155
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 7826,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 0,
-      "name": "A Donation of Wool",
-      "popularity": 57,
-      "reprewards": [
-        [
-          76,
-          150
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 12,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 660
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 6567,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 0,
-      "name": "The Champion of the Horde",
-      "popularity": 54,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 55,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 3300
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [
-          "reworded"
-        ],
-        "lines": [
-          "Description reworded"
-        ],
-        "notShown": [
-          "Description reworded"
-        ],
-        "status": "updated"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 3504,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 53,
-      "money": 0,
-      "name": "Betrayed",
-      "popularity": 52,
-      "reprewards": [
-        [
-          76,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 44,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 2650
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 3506,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 56,
-      "money": 0,
-      "name": "Betrayed",
-      "popularity": 51,
-      "reprewards": [
-        [
-          76,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 44,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 4350
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11305,
-      "icon": "quest-start",
-      "id": 9013,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          21999,
-          1
-        ],
-        [
-          21997,
-          1
-        ]
-      ],
-      "level": 60,
-      "money": 0,
-      "name": "Saving the Best for Last",
-      "popularity": 50,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 58,
-      "side": 2,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 1650
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 3507,
-      "itemchoices": [
-        [
-          10709,
-          1
-        ],
-        [
-          11120,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 56,
-      "money": 0,
-      "name": "Betrayed",
-      "popularity": 49,
-      "reprewards": [
-        [
-          76,
-          150
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 44,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 7300
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 7827,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 0,
-      "name": "A Donation of Silk",
-      "popularity": 49,
-      "reprewards": [
-        [
-          76,
-          150
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 26,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1650
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11304,
-      "icon": "quest-start",
-      "id": 8388,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 9000,
-      "name": "For Great Honor",
-      "popularity": 47,
-      "reprewards": [
-        [
-          729,
-          150
-        ],
-        [
-          889,
-          100
-        ],
-        [
-          510,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 51,
-      "side": 2,
-      "titlereward": 0,
-      "type": 41,
-      "xp": 6600
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [
-          "rewards_changed"
-        ],
-        "lines": [
-          "Rewards: no longer Nogg's Gold Ring"
-        ],
-        "notShown": [
-          "Rewards: no longer Nogg's Gold Ring"
-        ],
-        "status": "updated"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 2950,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          9588,
-          1
-        ]
-      ],
-      "level": 35,
-      "money": -3000,
-      "name": "Nogg's Ring Redo",
-      "popularity": 46,
-      "reprewards": [
-        [
-          76,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 28,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 2750
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [
-          "rewards_changed"
-        ],
-        "lines": [
-          "Rewards: adds Darkmoon Prize Ticket x5",
-          "Rewards: no longer Darkmoon Faire Prize Ticket x5"
-        ],
-        "notShown": [
-          "Rewards: adds Darkmoon Prize Ticket x5",
-          "Rewards: no longer Darkmoon Faire Prize Ticket x5"
-        ],
-        "status": "updated"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 7926,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          19182,
-          5
-        ]
-      ],
-      "level": 60,
-      "money": 0,
-      "name": "The Darkmoon Faire",
-      "popularity": 46,
-      "reprewards": [
-        [
-          909,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 6,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 660
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11305,
-      "icon": "quest-start",
-      "id": 9011,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          22097,
-          1
-        ],
-        [
-          22102,
-          1
-        ]
-      ],
-      "level": 60,
-      "money": 0,
-      "name": "Saving the Best for Last",
-      "popularity": 45,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 58,
-      "side": 2,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 1650
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11305,
-      "icon": "quest-start",
-      "id": 8941,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          22006,
-          1
-        ],
-        [
-          22002,
-          1
-        ]
-      ],
-      "level": 60,
-      "money": 0,
-      "name": "Just Compensation",
-      "popularity": 45,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 58,
-      "side": 2,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 9950
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 7836,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 0,
-      "name": "A Donation of Runecloth",
-      "popularity": 44,
-      "reprewards": [
-        [
-          530,
-          150
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 50,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 6600
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 8913,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          22108,
-          1
-        ]
-      ],
-      "level": 60,
-      "money": -200000,
-      "name": "An Earnest Proposition",
-      "popularity": 42,
-      "reprewards": [],
-      "reqclass": 1024,
-      "reqlevel": 58,
-      "side": 2,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 6600
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11305,
-      "icon": "quest-start",
-      "id": 9010,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          22005,
-          1
-        ],
-        [
-          22009,
-          1
-        ]
-      ],
-      "level": 60,
-      "money": 0,
-      "name": "Saving the Best for Last",
-      "popularity": 40,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 58,
-      "side": 2,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 1650
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 3505,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 53,
-      "money": 0,
-      "name": "Betrayed",
-      "popularity": 39,
-      "reprewards": [
-        [
-          76,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 44,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 3950
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11305,
-      "icon": "quest-start",
-      "id": 9007,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          22109,
-          1
-        ],
-        [
-          22113,
-          1
-        ]
-      ],
-      "level": 60,
-      "money": 0,
-      "name": "Saving the Best for Last",
-      "popularity": 37,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 58,
-      "side": 2,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 1650
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 8914,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          22011,
-          1
-        ]
-      ],
-      "level": 60,
-      "money": -200000,
-      "name": "An Earnest Proposition",
-      "popularity": 37,
-      "reprewards": [],
-      "reqclass": 4,
-      "reqlevel": 58,
-      "side": 2,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 6600
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 81,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 48,
-      "money": 14000,
-      "name": "Ripple Delivery",
-      "popularity": 37,
-      "reprewards": [
-        [
-          76,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 42,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 4400
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11305,
-      "icon": "quest-start",
-      "id": 9017,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          22061,
-          1
-        ],
-        [
-          22017,
-          1
-        ],
-        [
-          22016,
-          1
-        ]
-      ],
-      "level": 60,
-      "money": 0,
-      "name": "Anthion's Parting Words",
-      "popularity": 36,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 58,
-      "side": 2,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 9950
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11305,
-      "icon": "quest-start",
-      "id": 8940,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          22078,
-          1
-        ],
-        [
-          22081,
-          1
-        ]
-      ],
-      "level": 60,
-      "money": 0,
-      "name": "Just Compensation",
-      "popularity": 36,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 58,
-      "side": 2,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 9950
     },
     {
       "category": 1637,
@@ -1238,7 +399,7 @@
       "level": 33,
       "money": 0,
       "name": "Alliance Relations",
-      "popularity": 35,
+      "popularity": 189,
       "reprewards": [
         [
           76,
@@ -1260,30 +421,317 @@
       "envChange": {
         "labels": [],
         "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 95350,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 13,
+      "money": 0,
+      "name": "Welcome to Azeroth",
+      "popularity": 182,
+      "reprewards": [
+        [
+          2778,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 7,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 680
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 97275,
+      "itemchoices": [
+        [
+          3385,
+          2
+        ],
+        [
+          929,
+          2
+        ]
+      ],
+      "itemrewards": [],
+      "level": 15,
+      "money": 0,
+      "name": "Whuut's the Rush",
+      "popularity": 151,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 9,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 800
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 1432,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 30,
+      "money": 0,
+      "name": "Alliance Relations",
+      "popularity": 116,
+      "reprewards": [
+        [
+          76,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 30,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1200
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 1433,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 33,
+      "money": 0,
+      "name": "Alliance Relations",
+      "popularity": 116,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 30,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 265
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 1435,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 33,
+      "money": 0,
+      "name": "The Burning of Spirits",
+      "popularity": 115,
+      "reprewards": [
+        [
+          68,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 25,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2650
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 1146,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 33,
+      "money": 0,
+      "name": "The Swarm Grows",
+      "popularity": 112,
+      "reprewards": [
+        [
+          76,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 29,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1950
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 235,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 20,
+      "money": 0,
+      "name": "The Ashenvale Hunt",
+      "popularity": 108,
+      "reprewards": [
+        [
+          81,
+          10
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 155
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 1431,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 30,
+      "money": 0,
+      "name": "Alliance Relations",
+      "popularity": 107,
+      "reprewards": [
+        [
+          76,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 30,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 610
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 8916,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          22079,
+          1
+        ]
+      ],
+      "level": 60,
+      "money": -200000,
+      "name": "An Earnest Proposition",
+      "popularity": 89,
+      "reprewards": [],
+      "reqclass": 16,
+      "reqlevel": 58,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 6600
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
         "status": "unchanged"
       },
       "firstseenpatch": 11305,
       "icon": "quest-start",
-      "id": 9018,
+      "id": 8957,
       "itemchoices": [],
       "itemrewards": [
         [
-          22064,
+          22096,
           1
         ],
         [
-          22067,
+          22100,
           1
         ],
         [
-          22068,
+          22101,
           1
         ]
       ],
       "level": 60,
       "money": 0,
       "name": "Anthion's Parting Words",
-      "popularity": 35,
+      "popularity": 88,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 58,
@@ -1304,22 +752,22 @@
       },
       "firstseenpatch": 11305,
       "icon": "quest-start",
-      "id": 9012,
+      "id": 9011,
       "itemchoices": [],
       "itemrewards": [
         [
-          22074,
+          22097,
           1
         ],
         [
-          22075,
+          22102,
           1
         ]
       ],
       "level": 60,
       "money": 0,
       "name": "Saving the Best for Last",
-      "popularity": 35,
+      "popularity": 85,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 58,
@@ -1346,7 +794,7 @@
       "level": 33,
       "money": 0,
       "name": "Befouled by Satyr",
-      "popularity": 35,
+      "popularity": 85,
       "reprewards": [
         [
           68,
@@ -1370,199 +818,35 @@
         "lines": [],
         "status": "unchanged"
       },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 2981,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 43,
-      "money": 0,
-      "name": "A Threat in Feralas",
-      "popularity": 34,
-      "reprewards": [
-        [
-          76,
-          25
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 38,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 890
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
       "firstseenpatch": 11305,
       "icon": "quest-start",
-      "id": 8939,
+      "id": 9019,
       "itemchoices": [],
       "itemrewards": [
         [
-          22062,
+          22084,
           1
         ],
         [
-          22066,
-          1
-        ]
-      ],
-      "level": 60,
-      "money": 0,
-      "name": "Just Compensation",
-      "popularity": 33,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 58,
-      "side": 2,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 9950
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11305,
-      "icon": "quest-start",
-      "id": 8938,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          22010,
+          22085,
           1
         ],
         [
-          22015,
+          22082,
           1
         ]
       ],
       "level": 60,
       "money": 0,
-      "name": "Just Compensation",
-      "popularity": 32,
+      "name": "Anthion's Parting Words",
+      "popularity": 82,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 58,
-      "side": 2,
+      "side": 3,
       "titlereward": 0,
       "type": 81,
       "xp": 9950
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 4941,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 0,
-      "name": "Eitrigg's Wisdom",
-      "popularity": 32,
-      "reprewards": [
-        [
-          76,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 55,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 6600
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11305,
-      "icon": "quest-start",
-      "id": 8942,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          22098,
-          1
-        ],
-        [
-          22099,
-          1
-        ]
-      ],
-      "level": 60,
-      "money": 0,
-      "name": "Just Compensation",
-      "popularity": 32,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 58,
-      "side": 2,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 9950
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1146,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 33,
-      "money": 0,
-      "name": "The Swarm Grows",
-      "popularity": 32,
-      "reprewards": [
-        [
-          76,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 29,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1950
     },
     {
       "category": 1637,
@@ -1595,7 +879,7 @@
       "level": 60,
       "money": 0,
       "name": "Anthion's Parting Words",
-      "popularity": 32,
+      "popularity": 81,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 58,
@@ -1603,6 +887,549 @@
       "titlereward": 0,
       "type": 81,
       "xp": 9950
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11305,
+      "icon": "quest-start",
+      "id": 9016,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          22107,
+          1
+        ],
+        [
+          22111,
+          1
+        ],
+        [
+          22112,
+          1
+        ]
+      ],
+      "level": 60,
+      "money": 0,
+      "name": "Anthion's Parting Words",
+      "popularity": 80,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 58,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 9950
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 4941,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 60,
+      "money": 0,
+      "name": "Eitrigg's Wisdom",
+      "popularity": 75,
+      "reprewards": [
+        [
+          76,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 55,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 6600
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [
+        [
+          515,
+          5
+        ]
+      ],
+      "envChange": {
+        "labels": [
+          "rewards_changed"
+        ],
+        "lines": [
+          "Rewards: adds Darkmoon Prize Ticket x5",
+          "Rewards: no longer Darkmoon Faire Prize Ticket x5"
+        ],
+        "notShown": [
+          "Rewards: adds Darkmoon Prize Ticket x5",
+          "Rewards: no longer Darkmoon Faire Prize Ticket x5"
+        ],
+        "status": "updated"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 7926,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          19182,
+          1
+        ]
+      ],
+      "level": 60,
+      "money": 0,
+      "name": "The Darkmoon Faire",
+      "popularity": 71,
+      "reprewards": [
+        [
+          909,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 6,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 660
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11305,
+      "icon": "quest-start",
+      "id": 9017,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          22061,
+          1
+        ],
+        [
+          22017,
+          1
+        ],
+        [
+          22016,
+          1
+        ]
+      ],
+      "level": 60,
+      "money": 0,
+      "name": "Anthion's Parting Words",
+      "popularity": 71,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 58,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 9950
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11305,
+      "icon": "quest-start",
+      "id": 9020,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          22003,
+          1
+        ],
+        [
+          22007,
+          1
+        ],
+        [
+          22008,
+          1
+        ]
+      ],
+      "level": 60,
+      "money": 0,
+      "name": "Anthion's Parting Words",
+      "popularity": 70,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 58,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 9950
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11305,
+      "icon": "quest-start",
+      "id": 9021,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          22076,
+          1
+        ],
+        [
+          22072,
+          1
+        ],
+        [
+          22073,
+          1
+        ]
+      ],
+      "level": 60,
+      "money": 0,
+      "name": "Anthion's Parting Words",
+      "popularity": 68,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 58,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 9950
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 8920,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          21996,
+          1
+        ]
+      ],
+      "level": 60,
+      "money": -200000,
+      "name": "An Earnest Proposition",
+      "popularity": 67,
+      "reprewards": [],
+      "reqclass": 1,
+      "reqlevel": 58,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 6600
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 3507,
+      "itemchoices": [
+        [
+          10709,
+          1
+        ],
+        [
+          11120,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 56,
+      "money": 0,
+      "name": "Betrayed",
+      "popularity": 67,
+      "reprewards": [
+        [
+          76,
+          150
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 44,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 7300
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11305,
+      "icon": "quest-start",
+      "id": 8927,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          22106,
+          1
+        ],
+        [
+          22110,
+          1
+        ]
+      ],
+      "level": 60,
+      "money": 0,
+      "name": "Just Compensation",
+      "popularity": 66,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 58,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 9950
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 8919,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          22071,
+          1
+        ]
+      ],
+      "level": 60,
+      "money": -200000,
+      "name": "An Earnest Proposition",
+      "popularity": 65,
+      "reprewards": [],
+      "reqclass": 256,
+      "reqlevel": 58,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 6600
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 81,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 48,
+      "money": 14000,
+      "name": "Ripple Delivery",
+      "popularity": 65,
+      "reprewards": [
+        [
+          76,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 42,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 4400
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11305,
+      "icon": "quest-start",
+      "id": 9013,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          21999,
+          1
+        ],
+        [
+          21997,
+          1
+        ]
+      ],
+      "level": 60,
+      "money": 0,
+      "name": "Saving the Best for Last",
+      "popularity": 63,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 58,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 1650
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 8913,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          22108,
+          1
+        ]
+      ],
+      "level": 60,
+      "money": -200000,
+      "name": "An Earnest Proposition",
+      "popularity": 63,
+      "reprewards": [],
+      "reqclass": 1024,
+      "reqlevel": 58,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 6600
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 8918,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          22095,
+          1
+        ]
+      ],
+      "level": 60,
+      "money": -200000,
+      "name": "An Earnest Proposition",
+      "popularity": 62,
+      "reprewards": [],
+      "reqclass": 64,
+      "reqlevel": 58,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 6600
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 6566,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 60,
+      "money": 0,
+      "name": "What the Wind Carries",
+      "popularity": 62,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 55,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 660
     },
     {
       "category": 1637,
@@ -1631,7 +1458,7 @@
       "level": 60,
       "money": 0,
       "name": "Just Compensation",
-      "popularity": 32,
+      "popularity": 62,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 58,
@@ -1652,16 +1479,214 @@
       },
       "firstseenpatch": 11305,
       "icon": "quest-start",
-      "id": 8998,
+      "id": 9009,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          22080,
+          1
+        ],
+        [
+          22083,
+          1
+        ]
+      ],
+      "level": 60,
+      "money": 0,
+      "name": "Saving the Best for Last",
+      "popularity": 61,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 58,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 1650
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11305,
+      "icon": "quest-start",
+      "id": 9018,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          22064,
+          1
+        ],
+        [
+          22067,
+          1
+        ],
+        [
+          22068,
+          1
+        ]
+      ],
+      "level": 60,
+      "money": 0,
+      "name": "Anthion's Parting Words",
+      "popularity": 61,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 58,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 9950
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11305,
+      "icon": "quest-start",
+      "id": 9010,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          22005,
+          1
+        ],
+        [
+          22009,
+          1
+        ]
+      ],
+      "level": 60,
+      "money": 0,
+      "name": "Saving the Best for Last",
+      "popularity": 61,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 58,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 1650
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 4511,
+      "itemchoices": [
+        [
+          11870,
+          1
+        ],
+        [
+          11871,
+          1
+        ],
+        [
+          11872,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 54,
+      "money": 0,
+      "name": "Calm Before the Storm",
+      "popularity": 61,
+      "reprewards": [
+        [
+          67,
+          200
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 50,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 8150
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11305,
+      "icon": "quest-start",
+      "id": 8942,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          22098,
+          1
+        ],
+        [
+          22099,
+          1
+        ]
+      ],
+      "level": 60,
+      "money": 0,
+      "name": "Just Compensation",
+      "popularity": 61,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 58,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 9950
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 7833,
       "itemchoices": [],
       "itemrewards": [],
       "level": 60,
       "money": 0,
-      "name": "Back to the Beginning",
-      "popularity": 32,
-      "reprewards": [],
+      "name": "A Donation of Wool",
+      "popularity": 60,
+      "reprewards": [
+        [
+          530,
+          150
+        ]
+      ],
       "reqclass": 0,
-      "reqlevel": 58,
+      "reqlevel": 12,
       "side": 2,
       "titlereward": 0,
       "type": 0,
@@ -1679,25 +1704,38 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 7824,
-      "itemchoices": [],
+      "id": 4300,
+      "itemchoices": [
+        [
+          11862,
+          1
+        ],
+        [
+          11863,
+          1
+        ],
+        [
+          11864,
+          1
+        ]
+      ],
       "itemrewards": [],
-      "level": 60,
-      "money": 0,
-      "name": "A Donation of Runecloth",
-      "popularity": 32,
+      "level": 52,
+      "money": 4000,
+      "name": "Bone-Bladed Weapons",
+      "popularity": 60,
       "reprewards": [
         [
-          76,
-          150
+          530,
+          100
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 50,
+      "reqlevel": 48,
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 6600
+      "xp": 5100
     },
     {
       "category": 1637,
@@ -1711,28 +1749,16 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 7783,
+      "id": 7490,
       "itemchoices": [],
       "itemrewards": [],
       "level": 60,
       "money": 0,
-      "name": "The Lord of Blackrock",
-      "popularity": 32,
+      "name": "Victory for the Horde",
+      "popularity": 60,
       "reprewards": [
         [
           76,
-          200
-        ],
-        [
-          530,
-          200
-        ],
-        [
-          81,
-          200
-        ],
-        [
-          68,
           200
         ]
       ],
@@ -1749,31 +1775,38 @@
       "currencychoicerewards": [],
       "currencyrewards": [],
       "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
+        "labels": [
+          "reworded"
+        ],
+        "lines": [
+          "Description reworded"
+        ],
+        "notShown": [
+          "Description reworded"
+        ],
+        "status": "updated"
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 8276,
+      "id": 3504,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 55,
+      "level": 53,
       "money": 0,
-      "name": "Taking Back Silithus",
-      "popularity": 31,
+      "name": "Betrayed",
+      "popularity": 60,
       "reprewards": [
         [
-          609,
-          10
+          76,
+          50
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 54,
+      "reqlevel": 44,
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 2800
+      "xp": 2650
     },
     {
       "category": 1637,
@@ -1809,7 +1842,7 @@
       "level": 60,
       "money": 0,
       "name": "Saving the Best for Last",
-      "popularity": 31,
+      "popularity": 59,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 58,
@@ -1830,721 +1863,20 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 803,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 1,
-      "money": 0,
-      "name": "<UNUSED>",
-      "popularity": 31,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 1,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 0
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 649,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 48,
-      "money": 0,
-      "name": "Ripple Recovery",
-      "popularity": 31,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 42,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 440
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 7831,
+      "id": 6567,
       "itemchoices": [],
       "itemrewards": [],
       "level": 60,
       "money": 0,
-      "name": "A Donation of Mageweave",
-      "popularity": 31,
-      "reprewards": [
-        [
-          76,
-          150
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 40,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 3300
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 6566,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 0,
-      "name": "What the Wind Carries",
-      "popularity": 31,
+      "name": "The Champion of the Horde",
+      "popularity": 59,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 55,
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 660
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11305,
-      "icon": "quest-start",
-      "id": 8943,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          22070,
-          1
-        ],
-        [
-          22077,
-          1
-        ]
-      ],
-      "level": 60,
-      "money": 0,
-      "name": "Just Compensation",
-      "popularity": 30,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 58,
-      "side": 2,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 9950
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 7491,
-      "itemchoices": [
-        [
-          18406,
-          1
-        ],
-        [
-          18403,
-          1
-        ],
-        [
-          18404,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 60,
-      "money": 0,
-      "name": "For All To See",
-      "popularity": 30,
-      "reprewards": [
-        [
-          76,
-          200
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 60,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 9950
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11305,
-      "icon": "quest-start",
-      "id": 9021,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          22076,
-          1
-        ],
-        [
-          22072,
-          1
-        ],
-        [
-          22073,
-          1
-        ]
-      ],
-      "level": 60,
-      "money": 0,
-      "name": "Anthion's Parting Words",
-      "popularity": 30,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 58,
-      "side": 2,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 9950
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 936,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 50,
-      "money": 0,
-      "name": "Assisting Arch Druid Runetotem",
-      "popularity": 30,
-      "reprewards": [
-        [
-          81,
-          10
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 47,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 470
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 8917,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          22004,
-          1
-        ]
-      ],
-      "level": 60,
-      "money": -200000,
-      "name": "An Earnest Proposition",
-      "popularity": 30,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 58,
-      "side": 2,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 6600
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11305,
-      "icon": "quest-start",
-      "id": 9019,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          22084,
-          1
-        ],
-        [
-          22085,
-          1
-        ],
-        [
-          22082,
-          1
-        ]
-      ],
-      "level": 60,
-      "money": 0,
-      "name": "Anthion's Parting Words",
-      "popularity": 29,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 58,
-      "side": 3,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 9950
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1432,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 30,
-      "money": 0,
-      "name": "Alliance Relations",
-      "popularity": 29,
-      "reprewards": [
-        [
-          76,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 30,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1200
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11304,
-      "icon": "quest-start",
-      "id": 8367,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 27000,
-      "name": "For Great Honor",
-      "popularity": 29,
-      "reprewards": [
-        [
-          729,
-          200
-        ],
-        [
-          889,
-          150
-        ],
-        [
-          510,
-          150
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 51,
-      "side": 2,
-      "titlereward": 0,
-      "type": 41,
-      "xp": 8300
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 4494,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 53,
-      "money": 0,
-      "name": "March of the Silithid",
-      "popularity": 29,
-      "reprewards": [
-        [
-          76,
-          10
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 50,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 530
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11305,
-      "icon": "quest-start",
-      "id": 9009,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          22080,
-          1
-        ],
-        [
-          22083,
-          1
-        ]
-      ],
-      "level": 60,
-      "money": 0,
-      "name": "Saving the Best for Last",
-      "popularity": 29,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 58,
-      "side": 2,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 1650
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 7490,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 0,
-      "name": "Victory for the Horde",
-      "popularity": 28,
-      "reprewards": [
-        [
-          76,
-          200
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 60,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 9950
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11305,
-      "icon": "quest-start",
-      "id": 8927,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          22106,
-          1
-        ],
-        [
-          22110,
-          1
-        ]
-      ],
-      "level": 60,
-      "money": 0,
-      "name": "Just Compensation",
-      "popularity": 28,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 58,
-      "side": 2,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 9950
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1018,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 55,
-      "money": 0,
-      "name": "The New Frontier",
-      "popularity": 28,
-      "reprewards": [
-        [
-          81,
-          10
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 54,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 560
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 802,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 1,
-      "money": 0,
-      "name": "<UNUSED>",
-      "popularity": 28,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 1,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 0
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 8918,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          22095,
-          1
-        ]
-      ],
-      "level": 60,
-      "money": -200000,
-      "name": "An Earnest Proposition",
-      "popularity": 28,
-      "reprewards": [],
-      "reqclass": 64,
-      "reqlevel": 58,
-      "side": 2,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 6600
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 8919,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          22071,
-          1
-        ]
-      ],
-      "level": 60,
-      "money": -200000,
-      "name": "An Earnest Proposition",
-      "popularity": 28,
-      "reprewards": [],
-      "reqclass": 256,
-      "reqlevel": 58,
-      "side": 2,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 6600
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11305,
-      "icon": "quest-start",
-      "id": 8978,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 0,
-      "name": "Return to Mokvar",
-      "popularity": 27,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 58,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 6600
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 7833,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 0,
-      "name": "A Donation of Wool",
-      "popularity": 27,
-      "reprewards": [
-        [
-          530,
-          150
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 12,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 660
+      "xp": 3300
     },
     {
       "category": 1637,
@@ -2564,7 +1896,7 @@
       "level": 48,
       "money": 0,
       "name": "Ripple Recovery",
-      "popularity": 27,
+      "popularity": 59,
       "reprewards": [
         [
           76,
@@ -2590,25 +1922,25 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 7341,
+      "id": 7826,
       "itemchoices": [],
-      "itemrewards": [
-        [
-          18042,
-          200
-        ]
-      ],
+      "itemrewards": [],
       "level": 60,
       "money": 0,
-      "name": "A Fair Trade",
-      "popularity": 27,
-      "reprewards": [],
+      "name": "A Donation of Wool",
+      "popularity": 58,
+      "reprewards": [
+        [
+          76,
+          150
+        ]
+      ],
       "reqclass": 0,
-      "reqlevel": 52,
+      "reqlevel": 12,
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 0
+      "xp": 660
     },
     {
       "category": 1637,
@@ -2622,38 +1954,57 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 4300,
-      "itemchoices": [
-        [
-          11862,
-          1
-        ],
-        [
-          11863,
-          1
-        ],
-        [
-          11864,
-          1
-        ]
-      ],
+      "id": 3505,
+      "itemchoices": [],
       "itemrewards": [],
-      "level": 52,
-      "money": 4000,
-      "name": "Bone-Bladed Weapons",
-      "popularity": 27,
+      "level": 53,
+      "money": 0,
+      "name": "Betrayed",
+      "popularity": 58,
       "reprewards": [
         [
-          530,
-          100
+          76,
+          75
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 48,
+      "reqlevel": 44,
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 5100
+      "xp": 3950
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 7341,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          18042,
+          200
+        ]
+      ],
+      "level": 60,
+      "money": 0,
+      "name": "A Fair Trade",
+      "popularity": 57,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 52,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 0
     },
     {
       "category": 1637,
@@ -2686,7 +2037,7 @@
       "level": 60,
       "money": 0,
       "name": "The Lord of Blackrock",
-      "popularity": 27,
+      "popularity": 56,
       "reprewards": [
         [
           76,
@@ -2722,28 +2073,255 @@
         "lines": [],
         "status": "unchanged"
       },
-      "firstseenpatch": 11305,
+      "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 9020,
+      "id": 8914,
       "itemchoices": [],
       "itemrewards": [
         [
-          22003,
+          22011,
+          1
+        ]
+      ],
+      "level": 60,
+      "money": -200000,
+      "name": "An Earnest Proposition",
+      "popularity": 56,
+      "reprewards": [],
+      "reqclass": 4,
+      "reqlevel": 58,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 6600
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 8915,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          22063,
+          1
+        ]
+      ],
+      "level": 60,
+      "money": -200000,
+      "name": "An Earnest Proposition",
+      "popularity": 56,
+      "reprewards": [],
+      "reqclass": 128,
+      "reqlevel": 58,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 6600
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 7491,
+      "itemchoices": [
+        [
+          18406,
           1
         ],
         [
-          22007,
+          18403,
           1
         ],
         [
-          22008,
+          18404,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 60,
+      "money": 0,
+      "name": "For All To See",
+      "popularity": 56,
+      "reprewards": [
+        [
+          76,
+          200
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 60,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 9950
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11305,
+      "icon": "quest-start",
+      "id": 8978,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 60,
+      "money": 0,
+      "name": "Return to Mokvar",
+      "popularity": 56,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 58,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 6600
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 649,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 48,
+      "money": 0,
+      "name": "Ripple Recovery",
+      "popularity": 56,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 42,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 440
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 7835,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 60,
+      "money": 0,
+      "name": "A Donation of Mageweave",
+      "popularity": 55,
+      "reprewards": [
+        [
+          530,
+          150
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 40,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 3300
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11305,
+      "icon": "quest-start",
+      "id": 8940,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          22078,
+          1
+        ],
+        [
+          22081,
           1
         ]
       ],
       "level": 60,
       "money": 0,
-      "name": "Anthion's Parting Words",
-      "popularity": 27,
+      "name": "Just Compensation",
+      "popularity": 54,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 58,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 9950
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11305,
+      "icon": "quest-start",
+      "id": 8943,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          22070,
+          1
+        ],
+        [
+          22077,
+          1
+        ]
+      ],
+      "level": 60,
+      "money": 0,
+      "name": "Just Compensation",
+      "popularity": 54,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 58,
@@ -2764,25 +2342,25 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 1435,
+      "id": 8917,
       "itemchoices": [],
-      "itemrewards": [],
-      "level": 33,
-      "money": 0,
-      "name": "The Burning of Spirits",
-      "popularity": 26,
-      "reprewards": [
+      "itemrewards": [
         [
-          68,
-          100
+          22004,
+          1
         ]
       ],
-      "reqclass": 0,
-      "reqlevel": 25,
+      "level": 60,
+      "money": -200000,
+      "name": "An Earnest Proposition",
+      "popularity": 53,
+      "reprewards": [],
+      "reqclass": 8,
+      "reqlevel": 58,
       "side": 2,
       "titlereward": 0,
-      "type": 0,
-      "xp": 2650
+      "type": 81,
+      "xp": 6600
     },
     {
       "category": 1637,
@@ -2796,25 +2374,25 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 1431,
+      "id": 3506,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 30,
+      "level": 56,
       "money": 0,
-      "name": "Alliance Relations",
-      "popularity": 26,
+      "name": "Betrayed",
+      "popularity": 52,
       "reprewards": [
         [
           76,
-          25
+          75
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 30,
+      "reqlevel": 44,
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 610
+      "xp": 4350
     },
     {
       "category": 1637,
@@ -2828,20 +2406,20 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 1433,
+      "id": 7493,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 33,
+      "level": 60,
       "money": 0,
-      "name": "Alliance Relations",
-      "popularity": 25,
+      "name": "The Journey Has Just Begun",
+      "popularity": 52,
       "reprewards": [],
       "reqclass": 0,
-      "reqlevel": 30,
+      "reqlevel": 60,
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 265
+      "xp": 0
     },
     {
       "category": 1637,
@@ -2855,26 +2433,22 @@
       },
       "firstseenpatch": 11305,
       "icon": "quest-start",
-      "id": 9016,
+      "id": 8939,
       "itemchoices": [],
       "itemrewards": [
         [
-          22107,
+          22062,
           1
         ],
         [
-          22111,
-          1
-        ],
-        [
-          22112,
+          22066,
           1
         ]
       ],
       "level": 60,
       "money": 0,
-      "name": "Anthion's Parting Words",
-      "popularity": 25,
+      "name": "Just Compensation",
+      "popularity": 51,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 58,
@@ -2910,7 +2484,7 @@
       "level": 60,
       "money": 0,
       "name": "Saving the Best for Last",
-      "popularity": 25,
+      "popularity": 51,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 58,
@@ -2931,26 +2505,308 @@
       },
       "firstseenpatch": 11305,
       "icon": "quest-start",
-      "id": 8957,
+      "id": 8941,
       "itemchoices": [],
       "itemrewards": [
         [
-          22096,
+          22006,
           1
         ],
         [
-          22100,
-          1
-        ],
-        [
-          22101,
+          22002,
           1
         ]
       ],
       "level": 60,
       "money": 0,
-      "name": "Anthion's Parting Words",
-      "popularity": 25,
+      "name": "Just Compensation",
+      "popularity": 51,
+      "reprewards": [],
+      "reqclass": 8,
+      "reqlevel": 58,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 9950
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11305,
+      "icon": "quest-start",
+      "id": 9007,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          22109,
+          1
+        ],
+        [
+          22113,
+          1
+        ]
+      ],
+      "level": 60,
+      "money": 0,
+      "name": "Saving the Best for Last",
+      "popularity": 50,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 58,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 1650
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11304,
+      "icon": "quest-start",
+      "id": 8388,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 60,
+      "money": 9000,
+      "name": "For Great Honor",
+      "popularity": 50,
+      "reprewards": [
+        [
+          729,
+          150
+        ],
+        [
+          889,
+          100
+        ],
+        [
+          510,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 51,
+      "side": 2,
+      "titlereward": 0,
+      "type": 41,
+      "xp": 6600
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11304,
+      "icon": "quest-start",
+      "id": 8367,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 60,
+      "money": 27000,
+      "name": "For Great Honor",
+      "popularity": 50,
+      "reprewards": [
+        [
+          729,
+          200
+        ],
+        [
+          889,
+          150
+        ],
+        [
+          510,
+          150
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 51,
+      "side": 2,
+      "titlereward": 0,
+      "type": 41,
+      "xp": 8300
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 802,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 1,
+      "money": 0,
+      "name": "<UNUSED>",
+      "popularity": 50,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 1,
+      "side": 0,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 0
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 803,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 1,
+      "money": 0,
+      "name": "<UNUSED>",
+      "popularity": 50,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 1,
+      "side": 0,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 0
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 7783,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 60,
+      "money": 0,
+      "name": "The Lord of Blackrock",
+      "popularity": 50,
+      "reprewards": [
+        [
+          76,
+          200
+        ],
+        [
+          530,
+          200
+        ],
+        [
+          81,
+          200
+        ],
+        [
+          68,
+          200
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 60,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 9950
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11305,
+      "icon": "quest-start",
+      "id": 9012,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          22074,
+          1
+        ],
+        [
+          22075,
+          1
+        ]
+      ],
+      "level": 60,
+      "money": 0,
+      "name": "Saving the Best for Last",
+      "popularity": 49,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 58,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 1650
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11305,
+      "icon": "quest-start",
+      "id": 8938,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          22010,
+          1
+        ],
+        [
+          22015,
+          1
+        ]
+      ],
+      "level": 60,
+      "money": 0,
+      "name": "Just Compensation",
+      "popularity": 49,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 58,
@@ -2969,67 +2825,22 @@
         "lines": [],
         "status": "unchanged"
       },
-      "firstseenpatch": 11302,
+      "firstseenpatch": 11305,
       "icon": "quest-start",
-      "id": 4511,
-      "itemchoices": [
-        [
-          11870,
-          1
-        ],
-        [
-          11871,
-          1
-        ],
-        [
-          11872,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 54,
-      "money": 0,
-      "name": "Calm Before the Storm",
-      "popularity": 23,
-      "reprewards": [
-        [
-          67,
-          200
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 50,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 8150
-    },
-    {
-      "category": 1637,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 7493,
+      "id": 8998,
       "itemchoices": [],
       "itemrewards": [],
       "level": 60,
       "money": 0,
-      "name": "The Journey Has Just Begun",
-      "popularity": 22,
+      "name": "Back to the Beginning",
+      "popularity": 48,
       "reprewards": [],
       "reqclass": 0,
-      "reqlevel": 60,
+      "reqlevel": 58,
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 0
+      "xp": 660
     },
     {
       "category": 1637,
@@ -3043,16 +2854,16 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 7835,
+      "id": 7831,
       "itemchoices": [],
       "itemrewards": [],
       "level": 60,
       "money": 0,
       "name": "A Donation of Mageweave",
-      "popularity": 22,
+      "popularity": 48,
       "reprewards": [
         [
-          530,
+          76,
           150
         ]
       ],
@@ -3075,13 +2886,45 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
+      "id": 7827,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 60,
+      "money": 0,
+      "name": "A Donation of Silk",
+      "popularity": 47,
+      "reprewards": [
+        [
+          76,
+          150
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 26,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1650
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
       "id": 7832,
       "itemchoices": [],
       "itemrewards": [],
       "level": 60,
       "money": 0,
       "name": "Additional Runecloth",
-      "popularity": 22,
+      "popularity": 46,
       "reprewards": [
         [
           76,
@@ -3107,25 +2950,57 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 8915,
+      "id": 1018,
       "itemchoices": [],
-      "itemrewards": [
+      "itemrewards": [],
+      "level": 55,
+      "money": 0,
+      "name": "The New Frontier",
+      "popularity": 46,
+      "reprewards": [
         [
-          22063,
-          1
+          81,
+          10
         ]
       ],
-      "level": 60,
-      "money": -200000,
-      "name": "An Earnest Proposition",
-      "popularity": 21,
-      "reprewards": [],
-      "reqclass": 128,
-      "reqlevel": 58,
+      "reqclass": 0,
+      "reqlevel": 54,
       "side": 2,
       "titlereward": 0,
-      "type": 81,
-      "xp": 6600
+      "type": 0,
+      "xp": 560
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 2981,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 43,
+      "money": 0,
+      "name": "A Threat in Feralas",
+      "popularity": 46,
+      "reprewards": [
+        [
+          76,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 38,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 890
     },
     {
       "category": 1637,
@@ -3145,7 +3020,7 @@
       "level": 60,
       "money": 0,
       "name": "A Donation of Silk",
-      "popularity": 20,
+      "popularity": 45,
       "reprewards": [
         [
           530,
@@ -3171,24 +3046,120 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 8920,
+      "id": 7837,
       "itemchoices": [],
-      "itemrewards": [
+      "itemrewards": [],
+      "level": 60,
+      "money": 0,
+      "name": "Additional Runecloth",
+      "popularity": 44,
+      "reprewards": [
         [
-          21996,
-          1
+          530,
+          50
         ]
       ],
-      "level": 60,
-      "money": -200000,
-      "name": "An Earnest Proposition",
-      "popularity": 20,
-      "reprewards": [],
-      "reqclass": 1,
-      "reqlevel": 58,
+      "reqclass": 0,
+      "reqlevel": 50,
       "side": 2,
       "titlereward": 0,
-      "type": 81,
+      "type": 0,
+      "xp": 0
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 8276,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 55,
+      "money": 0,
+      "name": "Taking Back Silithus",
+      "popularity": 43,
+      "reprewards": [
+        [
+          609,
+          10
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 54,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2800
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 4494,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 53,
+      "money": 0,
+      "name": "March of the Silithid",
+      "popularity": 42,
+      "reprewards": [
+        [
+          76,
+          10
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 50,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 530
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 7836,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 60,
+      "money": 0,
+      "name": "A Donation of Runecloth",
+      "popularity": 41,
+      "reprewards": [
+        [
+          530,
+          150
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 50,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
       "xp": 6600
     },
     {
@@ -3203,17 +3174,49 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 7837,
+      "id": 936,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 50,
+      "money": 0,
+      "name": "Assisting Arch Druid Runetotem",
+      "popularity": 40,
+      "reprewards": [
+        [
+          81,
+          10
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 47,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 470
+    },
+    {
+      "category": 1637,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 7824,
       "itemchoices": [],
       "itemrewards": [],
       "level": 60,
       "money": 0,
-      "name": "Additional Runecloth",
-      "popularity": 19,
+      "name": "A Donation of Runecloth",
+      "popularity": 35,
       "reprewards": [
         [
-          530,
-          50
+          76,
+          150
         ]
       ],
       "reqclass": 0,
@@ -3221,7 +3224,7 @@
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 0
+      "xp": 6600
     }
   ],
   "slug": "kd/orgrimmar",

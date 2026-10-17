@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-25T00:22:07+00:00",
+  "fetchedAt": "2026-10-16T21:24:54+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -65,13 +65,17 @@
             },
             {
               "coord": [
-                73.6,
-                79.2
+                73.8,
+                79.4
               ],
               "coords": [
                 [
-                  73.6,
-                  79.2
+                  73.8,
+                  79.4
+                ],
+                [
+                  74,
+                  79.5
                 ]
               ],
               "id": 19030,
@@ -84,6 +88,35 @@
         ],
         "mappable": 1,
         "zone": "Duskwood"
+      },
+      "406": {
+        "levels": [
+          [
+            {
+              "coord": [
+                39.6,
+                49.9
+              ],
+              "coords": [
+                [
+                  38.1,
+                  53.2
+                ],
+                [
+                  39.6,
+                  49.9
+                ]
+              ],
+              "id": 19030,
+              "name": "Mound of Dirt",
+              "objective": 0,
+              "point": "requirement",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stonetalon Mountains"
       }
     },
     "parent": "fweiuasf",
@@ -92,6 +125,10 @@
       [
         10,
         2
+      ],
+      [
+        406,
+        1
       ]
     ]
   },
@@ -109,9 +146,9 @@
     {
       "npcId": 661,
       "npcName": "Jonathan Carevin",
-      "zoneId": 10,
       "x": 75.2,
       "y": 48.8,
+      "zoneId": 10,
       "zoneName": "Duskwood"
     }
   ]

@@ -5,7 +5,7 @@
     "slug": "ruttheran-village",
     "sourceSlug": "kd/ruttheran-village",
     "sourceUrl": "https://www.wowhead.com/forever/quests/kalimdor/ruttheran-village",
-    "sourceFetchedAt": "2026-09-24T23:19:10+00:00",
+    "sourceFetchedAt": "2026-10-17T11:23:04+00:00",
     "zoneId": 702
   },
   "questCount": 4,
@@ -14,7 +14,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 978,
         "list": {
           "category": 702,
@@ -50,6 +50,15 @@
         },
         "minLevel": 52,
         "name": "Moontouched Wildkin",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 7916,
+          "npcName": "Erelas Ambersky",
+          "x": 55.4,
+          "y": 92.0,
+          "zoneId": 141,
+          "zoneName": "Teldrassil"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -60,13 +69,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/kalimdor/ruttheran-village"
         ],
+        "startPinCount": 1,
         "zoneId": 702,
         "zoneId2": 1
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:27:41+00:00",
+        "fetchedAt": "2026-10-16T21:18:29+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -149,9 +159,9 @@
           {
             "npcId": 7916,
             "npcName": "Erelas Ambersky",
-            "zoneId": 141,
             "x": 55.4,
             "y": 92.0,
+            "zoneId": 141,
             "zoneName": "Teldrassil"
           }
         ]
@@ -161,7 +171,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 979,
         "list": {
           "category": 702,
@@ -197,23 +207,35 @@
         },
         "minLevel": 52,
         "name": "Find Ranshalla",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 7916,
+          "npcName": "Erelas Ambersky",
+          "x": 55.4,
+          "y": 92.0,
+          "zoneId": 141,
+          "zoneName": "Teldrassil"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/ruttheran-village"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/ruttheran-village"
         ],
+        "startPinCount": 1,
         "zoneId": 702,
         "zoneId2": 1
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:27:43+00:00",
+        "fetchedAt": "2026-10-16T21:18:31+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -352,9 +374,9 @@
           {
             "npcId": 7916,
             "npcName": "Erelas Ambersky",
-            "zoneId": 141,
             "x": 55.4,
             "y": 92.0,
+            "zoneId": 141,
             "zoneName": "Teldrassil"
           }
         ]
@@ -426,7 +448,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:04:19+00:00",
+        "fetchedAt": "2026-10-16T23:07:22+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -509,9 +531,9 @@
           {
             "npcId": 7916,
             "npcName": "Erelas Ambersky",
-            "zoneId": 141,
             "x": 55.4,
             "y": 92.0,
+            "zoneId": 141,
             "zoneName": "Teldrassil"
           }
         ]
@@ -583,7 +605,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:54:14+00:00",
+        "fetchedAt": "2026-10-16T23:57:27+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -678,9 +700,9 @@
           {
             "npcId": 7907,
             "npcName": "Daryn Lightwind",
-            "zoneId": 141,
             "x": 55.4,
             "y": 92.2,
+            "zoneId": 141,
             "zoneName": "Teldrassil"
           }
         ]

@@ -5,16 +5,16 @@
     "slug": "ironforge",
     "sourceSlug": "ek/ironforge",
     "sourceUrl": "https://www.wowhead.com/forever/quests/eastern-kingdoms/ironforge",
-    "sourceFetchedAt": "2026-09-24T23:19:10+00:00",
+    "sourceFetchedAt": "2026-10-17T11:19:31+00:00",
     "zoneId": 1537
   },
-  "questCount": 80,
+  "questCount": 84,
   "quests": {
     "637": {
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 637,
         "list": {
           "category": 1537,
@@ -50,6 +50,18 @@
         },
         "minLevel": 25,
         "name": "Sully Balloo's Letter",
+        "objectSpawnCount": 1,
+        "pinCategory": "normal",
+        "primaryStart": {
+          "entityId": 2656,
+          "entityKind": "object",
+          "entityName": "Waterlogged Letter",
+          "uiMapId": 1417,
+          "uiMapName": "Arathi Highlands",
+          "x": 44.3,
+          "y": 92.9,
+          "zoneId": 45
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -60,13 +72,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/ironforge"
         ],
+        "startPinCount": 1,
         "zoneId": 1537,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:20:40+00:00",
+        "fetchedAt": "2026-10-16T20:44:07+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -138,6 +151,18 @@
           ]
         },
         "minLevel": 25,
+        "objectSpawns": [
+          {
+            "entityId": 2656,
+            "entityKind": "object",
+            "entityName": "Waterlogged Letter",
+            "uiMapId": 1417,
+            "uiMapName": "Arathi Highlands",
+            "x": 44.3,
+            "y": 92.9,
+            "zoneId": 45
+          }
+        ],
         "pageInfo": {
           "name": "Sully Balloo's Letter",
           "type": 5,
@@ -147,14 +172,25 @@
         "prerequisiteQuestIds": [],
         "questId": 637,
         "races": [],
-        "startPins": []
+        "startPins": [
+          {
+            "entityId": 2656,
+            "entityKind": "object",
+            "entityName": "Waterlogged Letter",
+            "uiMapId": 1417,
+            "uiMapName": "Arathi Highlands",
+            "x": 44.3,
+            "y": 92.9,
+            "zoneId": 45
+          }
+        ]
       }
     },
     "683": {
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 683,
         "list": {
           "category": 1537,
@@ -190,6 +226,15 @@
         },
         "minLevel": 25,
         "name": "Sara Balloo's Plea",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2695,
+          "npcName": "Sara Balloo",
+          "x": 63.8,
+          "y": 67.6,
+          "zoneId": 1537,
+          "zoneName": "Ironforge"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -200,13 +245,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/ironforge"
         ],
+        "startPinCount": 1,
         "zoneId": 1537,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:21:37+00:00",
+        "fetchedAt": "2026-10-16T20:48:39+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -321,9 +367,9 @@
           {
             "npcId": 2695,
             "npcName": "Sara Balloo",
-            "zoneId": 1537,
             "x": 63.8,
             "y": 67.6,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -333,7 +379,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 686,
         "list": {
           "category": 1537,
@@ -369,6 +415,15 @@
         },
         "minLevel": 25,
         "name": "A King's Tribute",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2784,
+          "npcName": "King Magni Bronzebeard",
+          "x": 39.4,
+          "y": 55.8,
+          "zoneId": 1537,
+          "zoneName": "Ironforge"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -379,13 +434,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/ironforge"
         ],
+        "startPinCount": 1,
         "zoneId": 1537,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:21:41+00:00",
+        "fetchedAt": "2026-10-16T20:49:05+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -496,9 +552,9 @@
           {
             "npcId": 2784,
             "npcName": "King Magni Bronzebeard",
-            "zoneId": 1537,
             "x": 39.4,
             "y": 55.8,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -508,7 +564,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 689,
         "list": {
           "category": 1537,
@@ -544,6 +600,15 @@
         },
         "minLevel": 25,
         "name": "A King's Tribute",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2790,
+          "npcName": "Grand Mason Marblesten",
+          "x": 38.6,
+          "y": 87.0,
+          "zoneId": 1537,
+          "zoneName": "Ironforge"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -554,13 +619,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/ironforge"
         ],
+        "startPinCount": 1,
         "zoneId": 1537,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:21:45+00:00",
+        "fetchedAt": "2026-10-16T20:49:20+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -675,9 +741,9 @@
           {
             "npcId": 2790,
             "npcName": "Grand Mason Marblesten",
-            "zoneId": 1537,
             "x": 38.6,
             "y": 87.0,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -687,7 +753,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 700,
         "list": {
           "category": 1537,
@@ -728,6 +794,15 @@
         },
         "minLevel": 25,
         "name": "A King's Tribute",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2790,
+          "npcName": "Grand Mason Marblesten",
+          "x": 38.6,
+          "y": 87.0,
+          "zoneId": 1537,
+          "zoneName": "Ironforge"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -738,13 +813,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/ironforge"
         ],
+        "startPinCount": 1,
         "zoneId": 1537,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:21:58+00:00",
+        "fetchedAt": "2026-10-16T20:50:26+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -855,9 +931,9 @@
           {
             "npcId": 2790,
             "npcName": "Grand Mason Marblesten",
-            "zoneId": 1537,
             "x": 38.6,
             "y": 87.0,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -867,7 +943,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 707,
         "list": {
           "category": 1537,
@@ -903,6 +979,15 @@
         },
         "minLevel": 30,
         "name": "Ironband Wants You!",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 1356,
+          "npcName": "Prospector Stormpike",
+          "x": 74.4,
+          "y": 12.0,
+          "zoneId": 1537,
+          "zoneName": "Ironforge"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -913,13 +998,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/ironforge"
         ],
+        "startPinCount": 1,
         "zoneId": 1537,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:22:07+00:00",
+        "fetchedAt": "2026-10-16T20:51:11+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -1038,9 +1124,9 @@
           {
             "npcId": 1356,
             "npcName": "Prospector Stormpike",
-            "zoneId": 1537,
             "x": 74.4,
             "y": 12.0,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -1107,7 +1193,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:19:51+00:00",
+        "fetchedAt": "2026-10-16T21:22:18+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -1205,7 +1291,7 @@
                       ],
                       [
                         21.6,
-                        40.2
+                        40
                       ],
                       [
                         21.6,
@@ -1357,7 +1443,7 @@
                       ],
                       [
                         23.2,
-                        33
+                        33.2
                       ],
                       [
                         23.2,
@@ -2216,10 +2302,6 @@
                         37.4
                       ],
                       [
-                        38.8,
-                        78.4
-                      ],
-                      [
                         39,
                         12.4
                       ],
@@ -2230,6 +2312,10 @@
                       [
                         39.2,
                         41.6
+                      ],
+                      [
+                        39.2,
+                        78.4
                       ],
                       [
                         39.2,
@@ -2254,10 +2340,6 @@
                       [
                         39.6,
                         37.4
-                      ],
-                      [
-                        39.6,
-                        38.2
                       ],
                       [
                         39.6,
@@ -2298,6 +2380,10 @@
                       [
                         40.2,
                         44.6
+                      ],
+                      [
+                        40.4,
+                        37.6
                       ],
                       [
                         40.4,
@@ -2693,6 +2779,10 @@
                       ],
                       [
                         47.6,
+                        54.2
+                      ],
+                      [
+                        47.6,
                         55
                       ],
                       [
@@ -2706,10 +2796,6 @@
                       [
                         47.8,
                         12.2
-                      ],
-                      [
-                        47.8,
-                        53.8
                       ],
                       [
                         47.8,
@@ -2760,12 +2846,12 @@
                         80.4
                       ],
                       [
-                        48.8,
-                        10.8
+                        48.6,
+                        81
                       ],
                       [
                         48.8,
-                        81
+                        10.8
                       ],
                       [
                         49,
@@ -2817,6 +2903,10 @@
                       ],
                       [
                         50,
+                        57.6
+                      ],
+                      [
+                        50,
                         80.8
                       ],
                       [
@@ -2826,10 +2916,6 @@
                       [
                         50.2,
                         31
-                      ],
-                      [
-                        50.2,
-                        57.8
                       ],
                       [
                         50.2,
@@ -2957,15 +3043,15 @@
                       ],
                       [
                         52.6,
-                        55.8
-                      ],
-                      [
-                        52.6,
                         56.8
                       ],
                       [
                         52.8,
                         32.8
+                      ],
+                      [
+                        52.8,
+                        55.6
                       ],
                       [
                         52.8,
@@ -3905,10 +3991,6 @@
                       ],
                       [
                         70,
-                        33.2
-                      ],
-                      [
-                        70,
                         50.2
                       ],
                       [
@@ -3926,6 +4008,10 @@
                       [
                         70.4,
                         29.2
+                      ],
+                      [
+                        70.4,
+                        33.2
                       ],
                       [
                         70.4,
@@ -4049,7 +4135,7 @@
                       ],
                       [
                         71.6,
-                        49
+                        48.6
                       ],
                       [
                         72,
@@ -4134,9 +4220,9 @@
           {
             "npcId": 10877,
             "npcName": "Courier Hammerfall",
-            "zoneId": 1537,
             "x": 31.6,
             "y": 67.0,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -4208,7 +4294,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:52:41+00:00",
+        "fetchedAt": "2026-10-16T21:55:27+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -4339,9 +4425,9 @@
           {
             "npcId": 5637,
             "npcName": "Roetten Stonehammer",
-            "zoneId": 1537,
             "x": 69.6,
             "y": 21.0,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -4413,7 +4499,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:18:37+00:00",
+        "fetchedAt": "2026-10-16T22:21:37+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -4528,9 +4614,9 @@
           {
             "npcId": 6569,
             "npcName": "Gnoarn",
-            "zoneId": 1537,
             "x": 69.4,
             "y": 50.6,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -4602,7 +4688,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:18:47+00:00",
+        "fetchedAt": "2026-10-16T22:21:47+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -4641,6 +4727,14 @@
                       [
                         55.6,
                         12.6
+                      ],
+                      [
+                        62.4,
+                        34.2
+                      ],
+                      [
+                        62.6,
+                        34.2
                       ]
                     ],
                     "id": 6579,
@@ -4721,9 +4815,9 @@
           {
             "npcId": 6569,
             "npcName": "Gnoarn",
-            "zoneId": 1537,
             "x": 69.4,
             "y": 50.6,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -4804,7 +4898,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:24:40+00:00",
+        "fetchedAt": "2026-10-16T22:27:41+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -4933,9 +5027,9 @@
           {
             "npcId": 5387,
             "npcName": "High Explorer Magellas",
-            "zoneId": 1537,
             "x": 69.6,
             "y": 18.6,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -5007,7 +5101,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:40:09+00:00",
+        "fetchedAt": "2026-10-16T22:43:13+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -5116,9 +5210,9 @@
           {
             "npcId": 2916,
             "npcName": "Historian Karnik",
-            "zoneId": 1537,
             "x": 77.2,
             "y": 11.8,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -5199,7 +5293,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:40:34+00:00",
+        "fetchedAt": "2026-10-16T22:43:38+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -5298,9 +5392,9 @@
           {
             "npcId": 6826,
             "npcName": "Talvash del Kissel",
-            "zoneId": 1537,
             "x": 36.0,
             "y": 4.0,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -5372,7 +5466,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:41:10+00:00",
+        "fetchedAt": "2026-10-16T22:44:14+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -5495,9 +5589,9 @@
           {
             "npcId": 5387,
             "npcName": "High Explorer Magellas",
-            "zoneId": 1537,
             "x": 69.6,
             "y": 18.6,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -5569,7 +5663,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:41:16+00:00",
+        "fetchedAt": "2026-10-16T22:44:19+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -5692,9 +5786,9 @@
           {
             "npcId": 2916,
             "npcName": "Historian Karnik",
-            "zoneId": 1537,
             "x": 77.2,
             "y": 11.8,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -5767,7 +5861,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:42:41+00:00",
+        "fetchedAt": "2026-10-16T22:45:45+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -5863,28 +5957,6 @@
           ]
         },
         "minLevel": 45,
-        "objectSpawns": [
-          {
-            "entityId": 142343,
-            "entityKind": "object",
-            "entityName": "Uldum Pedestal",
-            "uiMapId": 1446,
-            "uiMapName": "Tanaris",
-            "x": 37.7,
-            "y": 81.4,
-            "zoneId": 440
-          },
-          {
-            "entityId": 142343,
-            "entityKind": "object",
-            "entityName": "Uldum Pedestal",
-            "uiMapId": 1446,
-            "uiMapName": "Tanaris",
-            "x": 37.7,
-            "y": 81.5,
-            "zoneId": 440
-          }
-        ],
         "pageInfo": {
           "name": "Return to Ironforge",
           "type": 5,
@@ -5979,7 +6051,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:51:11+00:00",
+        "fetchedAt": "2026-10-16T22:54:14+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -6174,9 +6246,9 @@
           {
             "npcId": 8256,
             "npcName": "Curator Thorius",
-            "zoneId": 1537,
             "x": 71.4,
             "y": 16.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -6248,7 +6320,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:53:07+00:00",
+        "fetchedAt": "2026-10-16T22:56:05+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -6443,9 +6515,9 @@
           {
             "npcId": 8256,
             "npcName": "Curator Thorius",
-            "zoneId": 1537,
             "x": 71.4,
             "y": 16.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -6512,7 +6584,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:56:14+00:00",
+        "fetchedAt": "2026-10-16T22:59:17+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -6615,9 +6687,9 @@
           {
             "npcId": 2916,
             "npcName": "Historian Karnik",
-            "zoneId": 1537,
             "x": 77.2,
             "y": 11.8,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -6689,7 +6761,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:56:19+00:00",
+        "fetchedAt": "2026-10-16T22:59:22+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -6792,9 +6864,9 @@
           {
             "npcId": 8507,
             "npcName": "Tymor",
-            "zoneId": 1537,
             "x": 31.2,
             "y": 4.6,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -6861,7 +6933,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:56:24+00:00",
+        "fetchedAt": "2026-10-16T22:59:27+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -6972,9 +7044,9 @@
           {
             "npcId": 8507,
             "npcName": "Tymor",
-            "zoneId": 1537,
             "x": 31.2,
             "y": 4.6,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -7046,7 +7118,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:56:29+00:00",
+        "fetchedAt": "2026-10-16T22:59:47+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7169,9 +7241,9 @@
           {
             "npcId": 8517,
             "npcName": "Xiggs Fuselighter",
-            "zoneId": 1537,
             "x": 71.0,
             "y": 94.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -7252,7 +7324,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:56:49+00:00",
+        "fetchedAt": "2026-10-16T23:00:03+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7355,9 +7427,9 @@
           {
             "npcId": 8392,
             "npcName": "Pilot Xiggs Fuselighter",
-            "zoneId": 16,
             "x": 77.8,
             "y": 91.4,
+            "zoneId": 16,
             "zoneName": "Azshara"
           }
         ]
@@ -7429,7 +7501,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:57:25+00:00",
+        "fetchedAt": "2026-10-16T23:00:27+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7552,9 +7624,9 @@
           {
             "npcId": 8517,
             "npcName": "Xiggs Fuselighter",
-            "zoneId": 1537,
             "x": 71.0,
             "y": 94.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -7631,7 +7703,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:04:30+00:00",
+        "fetchedAt": "2026-10-16T23:07:32+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7733,11 +7805,11 @@
                     "coords": [
                       [
                         54.2,
-                        38.4
+                        38.3
                       ],
                       [
-                        55.3,
-                        37.3
+                        55.4,
+                        37.2
                       ],
                       [
                         57.4,
@@ -7757,7 +7829,7 @@
                       ],
                       [
                         60.3,
-                        35.2
+                        35.1
                       ],
                       [
                         61.6,
@@ -7765,7 +7837,7 @@
                       ],
                       [
                         61.9,
-                        36.8
+                        36.6
                       ],
                       [
                         62.6,
@@ -7788,8 +7860,8 @@
                         34.7
                       ],
                       [
-                        65.5,
-                        44.1
+                        65.6,
+                        43.9
                       ],
                       [
                         66.1,
@@ -7843,9 +7915,9 @@
           {
             "npcId": 8879,
             "npcName": "Royal Historian Archesonus",
-            "zoneId": 1537,
             "x": 38.6,
             "y": 55.4,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -7917,7 +7989,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:04:34+00:00",
+        "fetchedAt": "2026-10-16T23:07:52+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -8032,9 +8104,9 @@
           {
             "npcId": 8879,
             "npcName": "Royal Historian Archesonus",
-            "zoneId": 1537,
             "x": 38.6,
             "y": 55.4,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -8106,7 +8178,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:06:21+00:00",
+        "fetchedAt": "2026-10-16T23:09:23+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -8225,9 +8297,9 @@
           {
             "npcId": 5111,
             "npcName": "Innkeeper Firebrew",
-            "zoneId": 1537,
             "x": 18.6,
             "y": 51.4,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -8299,7 +8371,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:28:09+00:00",
+        "fetchedAt": "2026-10-16T23:31:21+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -8424,9 +8496,9 @@
           {
             "npcId": 9616,
             "npcName": "Laris Geardawdle",
-            "zoneId": 1537,
             "x": 75.4,
             "y": 23.0,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -8507,7 +8579,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:28:14+00:00",
+        "fetchedAt": "2026-10-16T23:31:27+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -8630,9 +8702,9 @@
           {
             "npcId": 9616,
             "npcName": "Laris Geardawdle",
-            "zoneId": 1537,
             "x": 75.4,
             "y": 23.0,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -8704,7 +8776,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:44:28+00:00",
+        "fetchedAt": "2026-10-16T23:47:41+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -8802,7 +8874,7 @@
                       ],
                       [
                         21.6,
-                        40.2
+                        40
                       ],
                       [
                         21.6,
@@ -8954,7 +9026,7 @@
                       ],
                       [
                         23.2,
-                        33
+                        33.2
                       ],
                       [
                         23.2,
@@ -9813,10 +9885,6 @@
                         37.4
                       ],
                       [
-                        38.8,
-                        78.4
-                      ],
-                      [
                         39,
                         12.4
                       ],
@@ -9827,6 +9895,10 @@
                       [
                         39.2,
                         41.6
+                      ],
+                      [
+                        39.2,
+                        78.4
                       ],
                       [
                         39.2,
@@ -9851,10 +9923,6 @@
                       [
                         39.6,
                         37.4
-                      ],
-                      [
-                        39.6,
-                        38.2
                       ],
                       [
                         39.6,
@@ -9895,6 +9963,10 @@
                       [
                         40.2,
                         44.6
+                      ],
+                      [
+                        40.4,
+                        37.6
                       ],
                       [
                         40.4,
@@ -10290,6 +10362,10 @@
                       ],
                       [
                         47.6,
+                        54.2
+                      ],
+                      [
+                        47.6,
                         55
                       ],
                       [
@@ -10303,10 +10379,6 @@
                       [
                         47.8,
                         12.2
-                      ],
-                      [
-                        47.8,
-                        53.8
                       ],
                       [
                         47.8,
@@ -10357,12 +10429,12 @@
                         80.4
                       ],
                       [
-                        48.8,
-                        10.8
+                        48.6,
+                        81
                       ],
                       [
                         48.8,
-                        81
+                        10.8
                       ],
                       [
                         49,
@@ -10414,6 +10486,10 @@
                       ],
                       [
                         50,
+                        57.6
+                      ],
+                      [
+                        50,
                         80.8
                       ],
                       [
@@ -10423,10 +10499,6 @@
                       [
                         50.2,
                         31
-                      ],
-                      [
-                        50.2,
-                        57.8
                       ],
                       [
                         50.2,
@@ -10554,15 +10626,15 @@
                       ],
                       [
                         52.6,
-                        55.8
-                      ],
-                      [
-                        52.6,
                         56.8
                       ],
                       [
                         52.8,
                         32.8
+                      ],
+                      [
+                        52.8,
+                        55.6
                       ],
                       [
                         52.8,
@@ -11502,10 +11574,6 @@
                       ],
                       [
                         70,
-                        33.2
-                      ],
-                      [
-                        70,
                         50.2
                       ],
                       [
@@ -11523,6 +11591,10 @@
                       [
                         70.4,
                         29.2
+                      ],
+                      [
+                        70.4,
+                        33.2
                       ],
                       [
                         70.4,
@@ -11646,7 +11718,7 @@
                       ],
                       [
                         71.6,
-                        49
+                        48.6
                       ],
                       [
                         72,
@@ -11719,9 +11791,9 @@
           {
             "npcId": 10877,
             "npcName": "Courier Hammerfall",
-            "zoneId": 1537,
             "x": 31.6,
             "y": 67.0,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -11790,7 +11862,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:34:53+00:00",
+        "fetchedAt": "2026-10-17T00:38:06+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -11907,9 +11979,9 @@
           {
             "npcId": 5116,
             "npcName": "Olmin Burningbeard",
-            "zoneId": 1537,
             "x": 70.6,
             "y": 83.8,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -11981,7 +12053,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:45:45+00:00",
+        "fetchedAt": "2026-10-17T00:48:58+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12090,9 +12162,9 @@
           {
             "npcId": 14183,
             "npcName": "Artilleryman Sheldonore",
-            "zoneId": 1537,
             "x": 19.6,
             "y": 52.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -12164,7 +12236,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:00:49+00:00",
+        "fetchedAt": "2026-10-17T01:04:02+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12287,9 +12359,9 @@
           {
             "npcId": 14723,
             "npcName": "Mistina Steelshield",
-            "zoneId": 1537,
             "x": 43.2,
             "y": 32.0,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -12361,7 +12433,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:00:54+00:00",
+        "fetchedAt": "2026-10-17T01:04:07+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12484,9 +12556,9 @@
           {
             "npcId": 14723,
             "npcName": "Mistina Steelshield",
-            "zoneId": 1537,
             "x": 43.2,
             "y": 32.0,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -12558,7 +12630,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:00:59+00:00",
+        "fetchedAt": "2026-10-17T01:04:12+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12681,9 +12753,9 @@
           {
             "npcId": 14723,
             "npcName": "Mistina Steelshield",
-            "zoneId": 1537,
             "x": 43.2,
             "y": 32.0,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -12755,7 +12827,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:01:04+00:00",
+        "fetchedAt": "2026-10-17T01:04:17+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12878,9 +12950,9 @@
           {
             "npcId": 14723,
             "npcName": "Mistina Steelshield",
-            "zoneId": 1537,
             "x": 43.2,
             "y": 32.0,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -12952,7 +13024,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:01:09+00:00",
+        "fetchedAt": "2026-10-17T01:04:22+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -13075,9 +13147,9 @@
           {
             "npcId": 14723,
             "npcName": "Mistina Steelshield",
-            "zoneId": 1537,
             "x": 43.2,
             "y": 32.0,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -13149,7 +13221,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:01:14+00:00",
+        "fetchedAt": "2026-10-17T01:04:27+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -13256,9 +13328,9 @@
           {
             "npcId": 14724,
             "npcName": "Bubulo Acerbus",
-            "zoneId": 1537,
             "x": 73.8,
             "y": 47.8,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -13330,7 +13402,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:01:19+00:00",
+        "fetchedAt": "2026-10-17T01:04:32+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -13437,9 +13509,9 @@
           {
             "npcId": 14724,
             "npcName": "Bubulo Acerbus",
-            "zoneId": 1537,
             "x": 73.8,
             "y": 47.8,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -13511,7 +13583,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:01:24+00:00",
+        "fetchedAt": "2026-10-17T01:04:37+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -13618,9 +13690,9 @@
           {
             "npcId": 14724,
             "npcName": "Bubulo Acerbus",
-            "zoneId": 1537,
             "x": 73.8,
             "y": 47.8,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -13692,7 +13764,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:01:49+00:00",
+        "fetchedAt": "2026-10-17T01:05:02+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -13799,9 +13871,9 @@
           {
             "npcId": 14724,
             "npcName": "Bubulo Acerbus",
-            "zoneId": 1537,
             "x": 73.8,
             "y": 47.8,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -13873,7 +13945,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:01:49+00:00",
+        "fetchedAt": "2026-10-17T01:05:03+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -13980,9 +14052,9 @@
           {
             "npcId": 14724,
             "npcName": "Bubulo Acerbus",
-            "zoneId": 1537,
             "x": 73.8,
             "y": 47.8,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -14068,7 +14140,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:09:26+00:00",
+        "fetchedAt": "2026-10-17T01:12:39+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -15377,9 +15449,9 @@
           {
             "npcId": 14842,
             "npcName": "Melnan Darkstone",
-            "zoneId": 1537,
             "x": 27.2,
             "y": 70.8,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -15451,7 +15523,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:19:41+00:00",
+        "fetchedAt": "2026-10-17T01:22:57+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -15537,7 +15609,7 @@
                     "id": 15187,
                     "name": "Cenarion Emissary Jademoon",
                     "point": "start",
-                    "reactalliance": 1,
+                    "reactalliance": 0,
                     "reacthorde": 0,
                     "type": 1
                   }
@@ -15574,9 +15646,9 @@
           {
             "npcId": 15187,
             "npcName": "Cenarion Emissary Jademoon",
-            "zoneId": 1537,
             "x": 58.2,
             "y": 47.4,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -15656,7 +15728,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:28:18+00:00",
+        "fetchedAt": "2026-10-17T01:31:34+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -16101,49 +16173,49 @@
           {
             "npcId": 15351,
             "npcName": "Alliance Brigadier General",
-            "zoneId": 36,
             "x": 39.4,
             "y": 82.2,
+            "zoneId": 36,
             "zoneName": "Alterac Mountains"
           },
           {
             "npcId": 15351,
             "npcName": "Alliance Brigadier General",
-            "zoneId": 45,
             "x": 45.6,
             "y": 45.8,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           },
           {
             "npcId": 15351,
             "npcName": "Alliance Brigadier General",
-            "zoneId": 331,
             "x": 61.8,
             "y": 83.8,
+            "zoneId": 331,
             "zoneName": "Ashenvale"
           },
           {
             "npcId": 15351,
             "npcName": "Alliance Brigadier General",
-            "zoneId": 1519,
             "x": 79.4,
             "y": 18.0,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           },
           {
             "npcId": 15351,
             "npcName": "Alliance Brigadier General",
-            "zoneId": 1537,
             "x": 69.8,
             "y": 90.0,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           },
           {
             "npcId": 15351,
             "npcName": "Alliance Brigadier General",
-            "zoneId": 1657,
             "x": 58.0,
             "y": 34.4,
+            "zoneId": 1657,
             "zoneName": "Darnassus"
           }
         ]
@@ -16221,7 +16293,7 @@
           11
         ],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:56:04+00:00",
+        "fetchedAt": "2026-10-17T01:59:24+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -16363,9 +16435,9 @@
           {
             "npcId": 16013,
             "npcName": "Deliana",
-            "zoneId": 1537,
             "x": 43.4,
             "y": 52.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -16441,7 +16513,7 @@
           3
         ],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:56:09+00:00",
+        "fetchedAt": "2026-10-17T01:59:44+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -16556,9 +16628,9 @@
           {
             "npcId": 16013,
             "npcName": "Deliana",
-            "zoneId": 1537,
             "x": 43.4,
             "y": 52.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -16637,7 +16709,7 @@
           8
         ],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:56:14+00:00",
+        "fetchedAt": "2026-10-17T01:59:44+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -16759,9 +16831,9 @@
           {
             "npcId": 16013,
             "npcName": "Deliana",
-            "zoneId": 1537,
             "x": 43.4,
             "y": 52.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -16837,7 +16909,7 @@
           2
         ],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:56:34+00:00",
+        "fetchedAt": "2026-10-17T01:59:49+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -16952,9 +17024,9 @@
           {
             "npcId": 16013,
             "npcName": "Deliana",
-            "zoneId": 1537,
             "x": 43.4,
             "y": 52.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -17030,7 +17102,7 @@
           5
         ],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:56:34+00:00",
+        "fetchedAt": "2026-10-17T01:59:54+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -17145,9 +17217,9 @@
           {
             "npcId": 16013,
             "npcName": "Deliana",
-            "zoneId": 1537,
             "x": 43.4,
             "y": 52.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -17223,7 +17295,7 @@
           4
         ],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:56:39+00:00",
+        "fetchedAt": "2026-10-17T01:59:59+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -17338,9 +17410,9 @@
           {
             "npcId": 16013,
             "npcName": "Deliana",
-            "zoneId": 1537,
             "x": 43.4,
             "y": 52.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -17416,7 +17488,7 @@
           9
         ],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:56:45+00:00",
+        "fetchedAt": "2026-10-17T02:00:04+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -17533,9 +17605,9 @@
           {
             "npcId": 16013,
             "npcName": "Deliana",
-            "zoneId": 1537,
             "x": 43.4,
             "y": 52.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -17611,7 +17683,7 @@
           1
         ],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T11:22:44+00:00",
+        "fetchedAt": "2026-10-17T02:00:09+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -17726,9 +17798,9 @@
           {
             "npcId": 16013,
             "npcName": "Deliana",
-            "zoneId": 1537,
             "x": 43.4,
             "y": 52.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -17804,7 +17876,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:58:10+00:00",
+        "fetchedAt": "2026-10-17T02:01:45+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -17919,9 +17991,9 @@
           {
             "npcId": 16013,
             "npcName": "Deliana",
-            "zoneId": 1537,
             "x": 43.4,
             "y": 52.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -17997,7 +18069,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:58:45+00:00",
+        "fetchedAt": "2026-10-17T02:02:06+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -18112,9 +18184,9 @@
           {
             "npcId": 16013,
             "npcName": "Deliana",
-            "zoneId": 1537,
             "x": 43.4,
             "y": 52.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -18190,7 +18262,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:58:50+00:00",
+        "fetchedAt": "2026-10-17T02:02:11+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -18305,9 +18377,9 @@
           {
             "npcId": 16013,
             "npcName": "Deliana",
-            "zoneId": 1537,
             "x": 43.4,
             "y": 52.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -18383,7 +18455,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:58:55+00:00",
+        "fetchedAt": "2026-10-17T02:02:16+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -18500,9 +18572,9 @@
           {
             "npcId": 16013,
             "npcName": "Deliana",
-            "zoneId": 1537,
             "x": 43.4,
             "y": 52.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -18578,7 +18650,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:59:00+00:00",
+        "fetchedAt": "2026-10-17T02:02:21+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -18693,9 +18765,9 @@
           {
             "npcId": 16013,
             "npcName": "Deliana",
-            "zoneId": 1537,
             "x": 43.4,
             "y": 52.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -18775,7 +18847,7 @@
           4
         ],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:59:05+00:00",
+        "fetchedAt": "2026-10-17T02:02:26+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -18890,9 +18962,9 @@
           {
             "npcId": 16013,
             "npcName": "Deliana",
-            "zoneId": 1537,
             "x": 43.4,
             "y": 52.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -18968,7 +19040,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:59:10+00:00",
+        "fetchedAt": "2026-10-17T02:02:46+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -19083,9 +19155,9 @@
           {
             "npcId": 16013,
             "npcName": "Deliana",
-            "zoneId": 1537,
             "x": 43.4,
             "y": 52.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -19165,7 +19237,7 @@
           1
         ],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:59:15+00:00",
+        "fetchedAt": "2026-10-17T02:02:47+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -19283,9 +19355,9 @@
           {
             "npcId": 16013,
             "npcName": "Deliana",
-            "zoneId": 1537,
             "x": 43.4,
             "y": 52.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -19357,7 +19429,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T05:00:52+00:00",
+        "fetchedAt": "2026-10-17T02:04:07+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -19503,7 +19575,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T05:00:53+00:00",
+        "fetchedAt": "2026-10-17T02:04:12+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -19647,7 +19719,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T05:01:03+00:00",
+        "fetchedAt": "2026-10-17T02:04:17+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -19793,7 +19865,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T05:01:04+00:00",
+        "fetchedAt": "2026-10-17T02:04:22+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -19941,7 +20013,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T05:01:09+00:00",
+        "fetchedAt": "2026-10-17T02:04:27+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -20087,7 +20159,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T05:01:15+00:00",
+        "fetchedAt": "2026-10-17T02:04:47+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -20235,7 +20307,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T05:01:25+00:00",
+        "fetchedAt": "2026-10-17T02:04:53+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -20381,7 +20453,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T05:01:46+00:00",
+        "fetchedAt": "2026-10-17T02:04:58+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -20522,7 +20594,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T05:03:23+00:00",
+        "fetchedAt": "2026-10-17T02:06:49+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -20581,12 +20653,12 @@
                     ],
                     "coords": [
                       [
-                        42.4,
-                        52.2
+                        42.2,
+                        52.6
                       ],
                       [
                         42.4,
-                        52.6
+                        52.2
                       ],
                       [
                         43.2,
@@ -20594,7 +20666,7 @@
                       ],
                       [
                         43.4,
-                        51
+                        51.2
                       ],
                       [
                         43.4,
@@ -20675,9 +20747,9 @@
           {
             "npcId": 16014,
             "npcName": "Mux Manascrambler",
-            "zoneId": 440,
             "x": 52.4,
             "y": 27.2,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -20736,7 +20808,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T05:05:29+00:00",
+        "fetchedAt": "2026-10-17T02:08:50+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -20795,12 +20867,12 @@
                     ],
                     "coords": [
                       [
-                        42.4,
-                        52.2
+                        42.2,
+                        52.6
                       ],
                       [
                         42.4,
-                        52.6
+                        52.2
                       ],
                       [
                         43.2,
@@ -20808,7 +20880,7 @@
                       ],
                       [
                         43.4,
-                        51
+                        51.2
                       ],
                       [
                         43.4,
@@ -20930,7 +21002,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T05:05:54+00:00",
+        "fetchedAt": "2026-10-17T02:09:00+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -21045,9 +21117,9 @@
           {
             "npcId": 16013,
             "npcName": "Deliana",
-            "zoneId": 1537,
             "x": 43.4,
             "y": 52.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -21122,7 +21194,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T05:05:54+00:00",
+        "fetchedAt": "2026-10-17T02:09:05+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -21218,7 +21290,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T05:06:00+00:00",
+        "fetchedAt": "2026-10-17T02:09:10+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -21333,9 +21405,9 @@
           {
             "npcId": 16013,
             "npcName": "Deliana",
-            "zoneId": 1537,
             "x": 43.4,
             "y": 52.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -21411,7 +21483,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T05:06:04+00:00",
+        "fetchedAt": "2026-10-17T02:09:15+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -21526,9 +21598,9 @@
           {
             "npcId": 16013,
             "npcName": "Deliana",
-            "zoneId": 1537,
             "x": 43.4,
             "y": 52.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -21604,7 +21676,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T05:06:09+00:00",
+        "fetchedAt": "2026-10-17T02:09:20+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -21719,9 +21791,9 @@
           {
             "npcId": 16013,
             "npcName": "Deliana",
-            "zoneId": 1537,
             "x": 43.4,
             "y": 52.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -21797,7 +21869,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T05:06:14+00:00",
+        "fetchedAt": "2026-10-17T02:09:25+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -21914,9 +21986,9 @@
           {
             "npcId": 16013,
             "npcName": "Deliana",
-            "zoneId": 1537,
             "x": 43.4,
             "y": 52.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -21992,7 +22064,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T05:06:19+00:00",
+        "fetchedAt": "2026-10-17T02:09:30+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -22107,9 +22179,9 @@
           {
             "npcId": 16013,
             "npcName": "Deliana",
-            "zoneId": 1537,
             "x": 43.4,
             "y": 52.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -22185,7 +22257,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T05:06:24+00:00",
+        "fetchedAt": "2026-10-17T02:09:50+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -22300,12 +22372,196 @@
           {
             "npcId": 16013,
             "npcName": "Deliana",
-            "zoneId": 1537,
             "x": 43.4,
             "y": 52.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
+      }
+    },
+    "95817": {
+      "index": {
+        "classes": [],
+        "hasDetail": true,
+        "id": 95817,
+        "list": {
+          "category": 1537,
+          "category2": 0,
+          "currencychoicerewards": [],
+          "currencyrewards": [],
+          "envChange": {
+            "labels": [],
+            "lines": [],
+            "status": "new"
+          },
+          "firstseenpatch": 16001,
+          "icon": "quest-start",
+          "id": 95817,
+          "itemchoices": [],
+          "itemrewards": [],
+          "level": 60,
+          "money": 900,
+          "name": "Rotgath Stonebeard",
+          "popularity": 160,
+          "reprewards": [],
+          "reqclass": 0,
+          "reqlevel": 1,
+          "side": 0,
+          "titlereward": 0,
+          "type": 0,
+          "xp": 660
+        },
+        "minLevel": 1,
+        "name": "Rotgath Stonebeard",
+        "pinCategory": "normal",
+        "races": [],
+        "sourceKinds": [
+          "zone"
+        ],
+        "sourceSlugs": [
+          "ek/ironforge"
+        ],
+        "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/eastern-kingdoms/ironforge"
+        ],
+        "startPinCount": 0,
+        "zoneId": 1537,
+        "zoneId2": 0
+      },
+      "detail": {
+        "classes": [],
+        "fetchedAt": "2026-10-17T12:09:31+00:00",
+        "infoboxFlags": {
+          "daily": false,
+          "dungeon": false,
+          "monthly": false,
+          "pvp": false,
+          "raid": false,
+          "repeatable": false,
+          "sharable": true,
+          "weekly": false
+        },
+        "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 1[/li][li]Side: None[/li][li]Not sharable[/li][li]Difficulty: [color=q10]1[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.60.1.70291\"]1.60.1[/acronym][/li][/ul]",
+        "mapper": null,
+        "minLevel": 1,
+        "pageInfo": {
+          "name": "Rotgath Stonebeard",
+          "type": 5,
+          "typeId": 95817
+        },
+        "pinCategory": "normal",
+        "prerequisiteQuestIds": [],
+        "questId": 95817,
+        "races": [],
+        "startPins": []
+      }
+    },
+    "95818": {
+      "index": {
+        "classes": [],
+        "hasDetail": true,
+        "id": 95818,
+        "list": {
+          "category": 1537,
+          "category2": 0,
+          "currencychoicerewards": [],
+          "currencyrewards": [],
+          "envChange": {
+            "labels": [],
+            "lines": [],
+            "status": "new"
+          },
+          "firstseenpatch": 16001,
+          "icon": "quest-start",
+          "id": 95818,
+          "itemchoices": [
+            [
+              270877,
+              1
+            ],
+            [
+              270878,
+              1
+            ],
+            [
+              270880,
+              1
+            ],
+            [
+              270881,
+              1
+            ],
+            [
+              270882,
+              1
+            ],
+            [
+              270883,
+              1
+            ]
+          ],
+          "itemrewards": [
+            [
+              270868,
+              1
+            ]
+          ],
+          "level": 60,
+          "money": 9000,
+          "name": "A Quick Craft",
+          "popularity": 234,
+          "reprewards": [],
+          "reqclass": 0,
+          "reqlevel": 1,
+          "side": 0,
+          "titlereward": 0,
+          "type": 0,
+          "xp": 6600
+        },
+        "minLevel": 1,
+        "name": "A Quick Craft",
+        "pinCategory": "normal",
+        "races": [],
+        "sourceKinds": [
+          "zone"
+        ],
+        "sourceSlugs": [
+          "ek/ironforge"
+        ],
+        "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/eastern-kingdoms/ironforge"
+        ],
+        "startPinCount": 0,
+        "zoneId": 1537,
+        "zoneId2": 0
+      },
+      "detail": {
+        "classes": [],
+        "fetchedAt": "2026-10-17T12:09:36+00:00",
+        "infoboxFlags": {
+          "daily": false,
+          "dungeon": false,
+          "monthly": false,
+          "pvp": false,
+          "raid": false,
+          "repeatable": false,
+          "sharable": true,
+          "weekly": false
+        },
+        "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 1[/li][li]Side: None[/li][li]Not sharable[/li][li]Difficulty: [color=q10]1[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.60.1.70338\"]1.60.1[/acronym][/li][/ul]",
+        "mapper": null,
+        "minLevel": 1,
+        "pageInfo": {
+          "name": "A Quick Craft",
+          "type": 5,
+          "typeId": 95818
+        },
+        "pinCategory": "normal",
+        "prerequisiteQuestIds": [],
+        "questId": 95818,
+        "races": [],
+        "startPins": []
       }
     },
     "97263": {
@@ -22343,8 +22599,22 @@
         },
         "minLevel": 1,
         "name": "Your Package Has Arrived",
+        "objectSpawnCount": 8,
         "pinCategory": "normal",
-        "races": [],
+        "primaryStart": {
+          "npcId": 660964,
+          "npcName": "Misplaced Packages",
+          "x": 72.4,
+          "y": 48.5,
+          "zoneId": 1537,
+          "zoneName": "Ironforge"
+        },
+        "races": [
+          3,
+          4,
+          7,
+          95
+        ],
         "sourceKinds": [
           "zone"
         ],
@@ -22354,14 +22624,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/ironforge"
         ],
-        "startPinCount": 0,
+        "startPinCount": 1,
         "zoneId": 1537,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T06:50:09+00:00",
+        "fetchedAt": "2026-10-17T03:53:11+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -22372,13 +22642,57 @@
           "sharable": true,
           "weekly": false
         },
-        "infoboxMarkup": "[ul][li]Level: 2[/li][li]Requires level 1[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: Object #660964[/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=258098/eldrun-stormbreaker]Eldrun Stormbreaker[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]1[/color][small] &nbsp;[/small][color=r3]5[/color][small] &nbsp;[/small][color=r4]7[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+        "infoboxMarkup": "[ul][li]Level: 2[/li][li]Requires level 1[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=3], [race=4], [br][race=7], [race=95][/li][li][icon name=quest-start]Start: [url=/forever/object=660964/misplaced-packages]Misplaced Packages[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=258098/eldrun-stormbreaker]Eldrun Stormbreaker[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]1[/color][small] &nbsp;[/small][color=r3]5[/color][small] &nbsp;[/small][color=r4]7[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
         "mapper": {
-          "missing": 1,
+          "missing": 0,
           "objectives": {
             "1537": {
               "levels": [
                 [
+                  {
+                    "coord": [
+                      72.4,
+                      48.5
+                    ],
+                    "coords": [
+                      [
+                        71.9,
+                        47.2
+                      ],
+                      [
+                        72.2,
+                        50.3
+                      ],
+                      [
+                        72.4,
+                        48.4
+                      ],
+                      [
+                        72.4,
+                        48.5
+                      ],
+                      [
+                        72.5,
+                        48.3
+                      ],
+                      [
+                        72.5,
+                        48.5
+                      ],
+                      [
+                        74,
+                        50.6
+                      ],
+                      [
+                        74.1,
+                        50.3
+                      ]
+                    ],
+                    "id": 660964,
+                    "name": "Misplaced Packages",
+                    "point": "start",
+                    "type": 2
+                  },
                   {
                     "coord": [
                       47.4,
@@ -22390,16 +22704,12 @@
                         13
                       ],
                       [
-                        46.4,
-                        12.4
-                      ],
-                      [
-                        47,
-                        13.4
-                      ],
-                      [
                         47.2,
                         12.2
+                      ],
+                      [
+                        47.4,
+                        13.4
                       ],
                       [
                         47.4,
@@ -22412,10 +22722,6 @@
                       [
                         47.6,
                         13.6
-                      ],
-                      [
-                        47.6,
-                        14.8
                       ],
                       [
                         47.8,
@@ -22440,11 +22746,93 @@
           "zones": [
             [
               1537,
-              1
+              2
             ]
           ]
         },
         "minLevel": 1,
+        "objectSpawns": [
+          {
+            "entityId": 660964,
+            "entityKind": "object",
+            "entityName": "Misplaced Packages",
+            "uiMapId": 1455,
+            "uiMapName": "Ironforge",
+            "x": 71.9,
+            "y": 47.2,
+            "zoneId": 1537
+          },
+          {
+            "entityId": 660964,
+            "entityKind": "object",
+            "entityName": "Misplaced Packages",
+            "uiMapId": 1455,
+            "uiMapName": "Ironforge",
+            "x": 72.2,
+            "y": 50.3,
+            "zoneId": 1537
+          },
+          {
+            "entityId": 660964,
+            "entityKind": "object",
+            "entityName": "Misplaced Packages",
+            "uiMapId": 1455,
+            "uiMapName": "Ironforge",
+            "x": 72.4,
+            "y": 48.4,
+            "zoneId": 1537
+          },
+          {
+            "entityId": 660964,
+            "entityKind": "object",
+            "entityName": "Misplaced Packages",
+            "uiMapId": 1455,
+            "uiMapName": "Ironforge",
+            "x": 72.4,
+            "y": 48.5,
+            "zoneId": 1537
+          },
+          {
+            "entityId": 660964,
+            "entityKind": "object",
+            "entityName": "Misplaced Packages",
+            "uiMapId": 1455,
+            "uiMapName": "Ironforge",
+            "x": 72.5,
+            "y": 48.3,
+            "zoneId": 1537
+          },
+          {
+            "entityId": 660964,
+            "entityKind": "object",
+            "entityName": "Misplaced Packages",
+            "uiMapId": 1455,
+            "uiMapName": "Ironforge",
+            "x": 72.5,
+            "y": 48.5,
+            "zoneId": 1537
+          },
+          {
+            "entityId": 660964,
+            "entityKind": "object",
+            "entityName": "Misplaced Packages",
+            "uiMapId": 1455,
+            "uiMapName": "Ironforge",
+            "x": 74.0,
+            "y": 50.6,
+            "zoneId": 1537
+          },
+          {
+            "entityId": 660964,
+            "entityKind": "object",
+            "entityName": "Misplaced Packages",
+            "uiMapId": 1455,
+            "uiMapName": "Ironforge",
+            "x": 74.1,
+            "y": 50.3,
+            "zoneId": 1537
+          }
+        ],
         "pageInfo": {
           "name": "Your Package Has Arrived",
           "type": 5,
@@ -22453,8 +22841,383 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 97263,
+        "races": [
+          3,
+          4,
+          7,
+          95
+        ],
+        "startPins": [
+          {
+            "npcId": 660964,
+            "npcName": "Misplaced Packages",
+            "x": 72.4,
+            "y": 48.5,
+            "zoneId": 1537,
+            "zoneName": "Ironforge"
+          }
+        ]
+      }
+    },
+    "98300": {
+      "index": {
+        "classes": [],
+        "faction": "Alliance",
+        "hasDetail": true,
+        "id": 98300,
+        "list": {
+          "category": 1537,
+          "category2": 0,
+          "currencychoicerewards": [],
+          "currencyrewards": [],
+          "envChange": {
+            "labels": [],
+            "lines": [],
+            "status": "new"
+          },
+          "firstseenpatch": 16001,
+          "icon": "quest-start",
+          "id": 98300,
+          "itemchoices": [],
+          "itemrewards": [],
+          "level": 34,
+          "money": 1700,
+          "name": "Word to Ironforge",
+          "popularity": 184,
+          "reprewards": [
+            [
+              47,
+              10
+            ]
+          ],
+          "reqclass": 0,
+          "reqlevel": 24,
+          "side": 1,
+          "titlereward": 0,
+          "type": 0,
+          "xp": 2700
+        },
+        "minLevel": 24,
+        "name": "Word to Ironforge",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 270637,
+          "npcName": "Howin Kindfeather",
+          "x": 49.4,
+          "y": 42.0,
+          "zoneId": 11,
+          "zoneName": "Wetlands"
+        },
         "races": [],
-        "startPins": []
+        "sourceKinds": [
+          "zone"
+        ],
+        "sourceSlugs": [
+          "ek/ironforge"
+        ],
+        "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/eastern-kingdoms/ironforge"
+        ],
+        "startPinCount": 1,
+        "zoneId": 1537,
+        "zoneId2": 0
+      },
+      "detail": {
+        "classes": [],
+        "faction": "Alliance",
+        "fetchedAt": "2026-10-17T12:14:30+00:00",
+        "infoboxFlags": {
+          "daily": false,
+          "dungeon": false,
+          "monthly": false,
+          "pvp": false,
+          "raid": false,
+          "repeatable": false,
+          "sharable": true,
+          "weekly": false
+        },
+        "infoboxMarkup": "[ul][li]Level: 34[/li][li]Requires level 24[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=270637/howin-kindfeather]Howin Kindfeather[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2784/king-magni-bronzebeard]King Magni Bronzebeard[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]24[/color][small] &nbsp;[/small][color=r1]30[/color][small] &nbsp;[/small][color=r2]32[/color][small] &nbsp;[/small][color=r3]37[/color][small] &nbsp;[/small][color=r4]43[/color][/li][li]Added in patch [acronym=\"1.60.1.70205\"]1.60.1[/acronym][/li][/ul]",
+        "mapper": {
+          "missing": 0,
+          "objectives": {
+            "11": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      49.4,
+                      42
+                    ],
+                    "coords": [
+                      [
+                        49.4,
+                        42
+                      ],
+                      [
+                        49.6,
+                        42
+                      ]
+                    ],
+                    "id": 270637,
+                    "name": "Howin Kindfeather",
+                    "point": "start",
+                    "reactalliance": 0,
+                    "reacthorde": -1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Wetlands"
+            },
+            "1537": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      39.4,
+                      55.8
+                    ],
+                    "coords": [
+                      [
+                        39.4,
+                        55.4
+                      ],
+                      [
+                        39.4,
+                        55.8
+                      ],
+                      [
+                        39.6,
+                        55.6
+                      ],
+                      [
+                        40,
+                        55.2
+                      ]
+                    ],
+                    "id": 2784,
+                    "name": "King Magni Bronzebeard",
+                    "point": "end",
+                    "reactalliance": 1,
+                    "reacthorde": -1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Ironforge"
+            }
+          },
+          "parent": "fweiuasf",
+          "zoneparent": "lksjdowlha",
+          "zones": [
+            [
+              11,
+              1
+            ],
+            [
+              1537,
+              1
+            ]
+          ]
+        },
+        "minLevel": 24,
+        "pageInfo": {
+          "name": "Word to Ironforge",
+          "type": 5,
+          "typeId": 98300
+        },
+        "pinCategory": "normal",
+        "prerequisiteQuestIds": [],
+        "questId": 98300,
+        "races": [],
+        "startPins": [
+          {
+            "npcId": 270637,
+            "npcName": "Howin Kindfeather",
+            "x": 49.4,
+            "y": 42.0,
+            "zoneId": 11,
+            "zoneName": "Wetlands"
+          }
+        ]
+      }
+    },
+    "98313": {
+      "index": {
+        "classes": [],
+        "faction": "Alliance",
+        "hasDetail": true,
+        "id": 98313,
+        "list": {
+          "category": 1537,
+          "category2": 0,
+          "currencychoicerewards": [],
+          "currencyrewards": [],
+          "envChange": {
+            "labels": [],
+            "lines": [],
+            "status": "new"
+          },
+          "firstseenpatch": 16001,
+          "icon": "quest-start",
+          "id": 98313,
+          "itemchoices": [],
+          "itemrewards": [],
+          "level": 32,
+          "money": 0,
+          "name": "For Further Study",
+          "popularity": 342,
+          "reprewards": [],
+          "reqclass": 0,
+          "reqlevel": 24,
+          "side": 1,
+          "titlereward": 0,
+          "type": 0,
+          "xp": 0
+        },
+        "minLevel": 24,
+        "name": "For Further Study",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 1077,
+          "npcName": "Prospector Whelgar",
+          "x": 38.8,
+          "y": 52.2,
+          "zoneId": 11,
+          "zoneName": "Wetlands"
+        },
+        "races": [],
+        "sourceKinds": [
+          "zone"
+        ],
+        "sourceSlugs": [
+          "ek/ironforge"
+        ],
+        "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/eastern-kingdoms/ironforge"
+        ],
+        "startPinCount": 1,
+        "zoneId": 1537,
+        "zoneId2": 0
+      },
+      "detail": {
+        "classes": [],
+        "faction": "Alliance",
+        "fetchedAt": "2026-10-17T12:14:40+00:00",
+        "infoboxFlags": {
+          "daily": false,
+          "dungeon": false,
+          "monthly": false,
+          "pvp": false,
+          "raid": false,
+          "repeatable": false,
+          "sharable": true,
+          "weekly": false
+        },
+        "infoboxMarkup": "[ul][li]Level: 32[/li][li]Requires level 24[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1077/prospector-whelgar]Prospector Whelgar[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2916/historian-karnik]Historian Karnik[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]24[/color][small] &nbsp;[/small][color=r1]28[/color][small] &nbsp;[/small][color=r2]30[/color][small] &nbsp;[/small][color=r3]35[/color][small] &nbsp;[/small][color=r4]41[/color][/li][li]Added in patch [acronym=\"1.60.1.70170\"]1.60.1[/acronym][/li][/ul]",
+        "mapper": {
+          "missing": 0,
+          "objectives": {
+            "11": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      38.8,
+                      52.2
+                    ],
+                    "coords": [
+                      [
+                        38.8,
+                        52.2
+                      ]
+                    ],
+                    "id": 1077,
+                    "name": "Prospector Whelgar",
+                    "point": "start",
+                    "reactalliance": 1,
+                    "reacthorde": 0,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Wetlands"
+            },
+            "1537": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      77.2,
+                      11.8
+                    ],
+                    "coords": [
+                      [
+                        76.4,
+                        11.4
+                      ],
+                      [
+                        76.4,
+                        12.2
+                      ],
+                      [
+                        77.2,
+                        11.4
+                      ],
+                      [
+                        77.2,
+                        11.8
+                      ]
+                    ],
+                    "id": 2916,
+                    "name": "Historian Karnik",
+                    "point": "end",
+                    "reactalliance": 1,
+                    "reacthorde": 0,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Ironforge"
+            }
+          },
+          "parent": "fweiuasf",
+          "zoneparent": "lksjdowlha",
+          "zones": [
+            [
+              11,
+              1
+            ],
+            [
+              1537,
+              1
+            ]
+          ]
+        },
+        "minLevel": 24,
+        "pageInfo": {
+          "name": "For Further Study",
+          "type": 5,
+          "typeId": 98313
+        },
+        "pinCategory": "normal",
+        "prerequisiteQuestIds": [],
+        "questId": 98313,
+        "races": [],
+        "startPins": [
+          {
+            "npcId": 1077,
+            "npcName": "Prospector Whelgar",
+            "x": 38.8,
+            "y": 52.2,
+            "zoneId": 11,
+            "zoneName": "Wetlands"
+          }
+        ]
       }
     }
   }

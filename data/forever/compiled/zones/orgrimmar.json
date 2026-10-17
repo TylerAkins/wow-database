@@ -5,7 +5,7 @@
     "slug": "orgrimmar",
     "sourceSlug": "kd/orgrimmar",
     "sourceUrl": "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar",
-    "sourceFetchedAt": "2026-09-24T23:19:10+00:00",
+    "sourceFetchedAt": "2026-10-17T11:23:03+00:00",
     "zoneId": 1637
   },
   "questCount": 92,
@@ -14,7 +14,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 81,
         "list": {
           "category": 1637,
@@ -50,23 +50,35 @@
         },
         "minLevel": 42,
         "name": "Ripple Delivery",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 7801,
+          "npcName": "Gilveradin Sunchaser",
+          "x": 26.6,
+          "y": 48.4,
+          "zoneId": 47,
+          "zoneName": "The Hinterlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
+        "startPinCount": 1,
         "zoneId": 1637,
         "zoneId2": 1
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:09:14+00:00",
+        "fetchedAt": "2026-10-16T19:48:45+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -169,9 +181,9 @@
           {
             "npcId": 7801,
             "npcName": "Gilveradin Sunchaser",
-            "zoneId": 47,
             "x": 26.6,
             "y": 48.4,
+            "zoneId": 47,
             "zoneName": "The Hinterlands"
           }
         ]
@@ -181,7 +193,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 235,
         "list": {
           "category": 1637,
@@ -217,23 +229,35 @@
         },
         "minLevel": 20,
         "name": "The Ashenvale Hunt",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 10880,
+          "npcName": "Warcaller Gorlach",
+          "x": 46.6,
+          "y": 64.6,
+          "zoneId": 1637,
+          "zoneName": "Orgrimmar"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
+        "startPinCount": 1,
         "zoneId": 1637,
         "zoneId2": 1
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:12:27+00:00",
+        "fetchedAt": "2026-10-16T20:04:14+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -262,10 +286,6 @@
                         74.6
                       ],
                       [
-                        38.8,
-                        52.8
-                      ],
-                      [
                         39,
                         51.8
                       ],
@@ -274,16 +294,8 @@
                         51.2
                       ],
                       [
-                        39.4,
-                        50.2
-                      ],
-                      [
                         39.8,
                         72
-                      ],
-                      [
-                        40.4,
-                        71.2
                       ],
                       [
                         40.8,
@@ -358,7 +370,7 @@
                         65.8
                       ],
                       [
-                        49.2,
+                        48.8,
                         65.8
                       ],
                       [
@@ -380,10 +392,6 @@
                       [
                         50.2,
                         62.6
-                      ],
-                      [
-                        50.4,
-                        64
                       ],
                       [
                         50.6,
@@ -422,16 +430,12 @@
                         68.2
                       ],
                       [
-                        51.4,
-                        73
-                      ],
-                      [
                         51.6,
                         64.2
                       ],
                       [
                         51.6,
-                        68.2
+                        68
                       ],
                       [
                         51.6,
@@ -440,10 +444,6 @@
                       [
                         51.8,
                         65.4
-                      ],
-                      [
-                        51.8,
-                        74.2
                       ],
                       [
                         52,
@@ -498,28 +498,12 @@
                         57.4
                       ],
                       [
-                        55.4,
-                        57.6
-                      ],
-                      [
-                        55.8,
+                        56,
                         57.6
                       ],
                       [
                         56.6,
                         58
-                      ],
-                      [
-                        57.4,
-                        57.4
-                      ],
-                      [
-                        57.6,
-                        57.6
-                      ],
-                      [
-                        57.8,
-                        38.2
                       ],
                       [
                         58,
@@ -604,9 +588,9 @@
           {
             "npcId": 10880,
             "npcName": "Warcaller Gorlach",
-            "zoneId": 1637,
             "x": 46.6,
             "y": 64.6,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -616,7 +600,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 649,
         "list": {
           "category": 1637,
@@ -647,23 +631,35 @@
         },
         "minLevel": 42,
         "name": "Ripple Recovery",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 6986,
+          "npcName": "Dran Droffers",
+          "x": 59.4,
+          "y": 36.8,
+          "zoneId": 1637,
+          "zoneName": "Orgrimmar"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
+        "startPinCount": 1,
         "zoneId": 1637,
         "zoneId2": 1
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:20:54+00:00",
+        "fetchedAt": "2026-10-16T20:45:17+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -754,9 +750,9 @@
           {
             "npcId": 6986,
             "npcName": "Dran Droffers",
-            "zoneId": 1637,
             "x": 59.4,
             "y": 36.8,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -766,7 +762,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 650,
         "list": {
           "category": 1637,
@@ -802,23 +798,35 @@
         },
         "minLevel": 42,
         "name": "Ripple Recovery",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 6987,
+          "npcName": "Malton Droffers",
+          "x": 59.4,
+          "y": 36.8,
+          "zoneId": 1637,
+          "zoneName": "Orgrimmar"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
+        "startPinCount": 1,
         "zoneId": 1637,
         "zoneId2": 1
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:20:56+00:00",
+        "fetchedAt": "2026-10-16T20:45:22+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -921,9 +929,9 @@
           {
             "npcId": 6987,
             "npcName": "Malton Droffers",
-            "zoneId": 1637,
             "x": 59.4,
             "y": 36.8,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -932,7 +940,7 @@
     "802": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 802,
         "list": {
           "category": 1637,
@@ -963,6 +971,7 @@
         },
         "minLevel": 1,
         "name": "<UNUSED>",
+        "pinCategory": "normal",
         "races": [],
         "sourceKinds": [
           "zone"
@@ -973,12 +982,13 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
+        "startPinCount": 0,
         "zoneId": 1637,
         "zoneId2": 1
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:24:05+00:00",
+        "fetchedAt": "2026-10-16T21:00:36+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -989,7 +999,7 @@
           "sharable": true,
           "weekly": false
         },
-        "infoboxMarkup": "[ul][li]Level: 1[/li][li]Requires level 1[/li][li]Side: Both[/li][li]Sharable[/li][li]Difficulty: [color=r2]1[/color][small] &nbsp;[/small][color=r3]4[/color][small] &nbsp;[/small][color=r4]6[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+        "infoboxMarkup": "[ul][li]Level: 1[/li][li]Requires level 1[/li][li]Side: None[/li][li]Sharable[/li][li]Difficulty: [color=r2]1[/color][small] &nbsp;[/small][color=r3]4[/color][small] &nbsp;[/small][color=r4]6[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
         "mapper": null,
         "minLevel": 1,
         "pageInfo": {
@@ -1007,7 +1017,7 @@
     "803": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 803,
         "list": {
           "category": 1637,
@@ -1038,6 +1048,7 @@
         },
         "minLevel": 1,
         "name": "<UNUSED>",
+        "pinCategory": "normal",
         "races": [],
         "sourceKinds": [
           "zone"
@@ -1048,12 +1059,13 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
+        "startPinCount": 0,
         "zoneId": 1637,
         "zoneId2": 1
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:24:06+00:00",
+        "fetchedAt": "2026-10-16T21:00:41+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -1064,7 +1076,7 @@
           "sharable": true,
           "weekly": false
         },
-        "infoboxMarkup": "[ul][li]Level: 1[/li][li]Requires level 1[/li][li]Side: Both[/li][li]Sharable[/li][li]Difficulty: [color=r2]1[/color][small] &nbsp;[/small][color=r3]4[/color][small] &nbsp;[/small][color=r4]6[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+        "infoboxMarkup": "[ul][li]Level: 1[/li][li]Requires level 1[/li][li]Side: None[/li][li]Sharable[/li][li]Difficulty: [color=r2]1[/color][small] &nbsp;[/small][color=r3]4[/color][small] &nbsp;[/small][color=r4]6[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
         "mapper": null,
         "minLevel": 1,
         "pageInfo": {
@@ -1083,7 +1095,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 936,
         "list": {
           "category": 1637,
@@ -1119,6 +1131,15 @@
         },
         "minLevel": 47,
         "name": "Assisting Arch Druid Runetotem",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 6929,
+          "npcName": "Innkeeper Gryshka",
+          "x": 54.2,
+          "y": 68.4,
+          "zoneId": 1637,
+          "zoneName": "Orgrimmar"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -1129,13 +1150,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
+        "startPinCount": 1,
         "zoneId": 1637,
         "zoneId2": 1
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:26:49+00:00",
+        "fetchedAt": "2026-10-16T21:13:57+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -1185,16 +1207,16 @@
                 [
                   {
                     "coord": [
-                      78.4,
+                      78.2,
                       28.4
                     ],
                     "coords": [
                       [
-                        78.4,
+                        78.2,
                         28.4
                       ],
                       [
-                        78.4,
+                        78.2,
                         28.6
                       ],
                       [
@@ -1246,9 +1268,9 @@
           {
             "npcId": 6929,
             "npcName": "Innkeeper Gryshka",
-            "zoneId": 1637,
             "x": 54.2,
             "y": 68.4,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -1258,7 +1280,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 1018,
         "list": {
           "category": 1637,
@@ -1294,6 +1316,15 @@
         },
         "minLevel": 54,
         "name": "The New Frontier",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 10880,
+          "npcName": "Warcaller Gorlach",
+          "x": 46.6,
+          "y": 64.6,
+          "zoneId": 1637,
+          "zoneName": "Orgrimmar"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -1304,13 +1335,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
+        "startPinCount": 1,
         "zoneId": 1637,
         "zoneId2": 1
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:28:29+00:00",
+        "fetchedAt": "2026-10-16T21:22:13+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -1339,10 +1371,6 @@
                         74.6
                       ],
                       [
-                        38.8,
-                        52.8
-                      ],
-                      [
                         39,
                         51.8
                       ],
@@ -1351,16 +1379,8 @@
                         51.2
                       ],
                       [
-                        39.4,
-                        50.2
-                      ],
-                      [
                         39.8,
                         72
-                      ],
-                      [
-                        40.4,
-                        71.2
                       ],
                       [
                         40.8,
@@ -1435,7 +1455,7 @@
                         65.8
                       ],
                       [
-                        49.2,
+                        48.8,
                         65.8
                       ],
                       [
@@ -1457,10 +1477,6 @@
                       [
                         50.2,
                         62.6
-                      ],
-                      [
-                        50.4,
-                        64
                       ],
                       [
                         50.6,
@@ -1499,16 +1515,12 @@
                         68.2
                       ],
                       [
-                        51.4,
-                        73
-                      ],
-                      [
                         51.6,
                         64.2
                       ],
                       [
                         51.6,
-                        68.2
+                        68
                       ],
                       [
                         51.6,
@@ -1517,10 +1529,6 @@
                       [
                         51.8,
                         65.4
-                      ],
-                      [
-                        51.8,
-                        74.2
                       ],
                       [
                         52,
@@ -1575,28 +1583,12 @@
                         57.4
                       ],
                       [
-                        55.4,
-                        57.6
-                      ],
-                      [
-                        55.8,
+                        56,
                         57.6
                       ],
                       [
                         56.6,
                         58
-                      ],
-                      [
-                        57.4,
-                        57.4
-                      ],
-                      [
-                        57.6,
-                        57.6
-                      ],
-                      [
-                        57.8,
-                        38.2
                       ],
                       [
                         58,
@@ -1628,16 +1620,16 @@
                 [
                   {
                     "coord": [
-                      78.4,
+                      78.2,
                       28.4
                     ],
                     "coords": [
                       [
-                        78.4,
+                        78.2,
                         28.4
                       ],
                       [
-                        78.4,
+                        78.2,
                         28.6
                       ],
                       [
@@ -1689,9 +1681,9 @@
           {
             "npcId": 10880,
             "npcName": "Warcaller Gorlach",
-            "zoneId": 1637,
             "x": 46.6,
             "y": 64.6,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -1751,9 +1743,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -1763,7 +1757,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T00:32:23+00:00",
+        "fetchedAt": "2026-10-16T21:35:11+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -1874,9 +1868,9 @@
           {
             "npcId": 4485,
             "npcName": "Belgrom Rockmaul",
-            "zoneId": 1637,
             "x": 75.0,
             "y": 34.2,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -1936,9 +1930,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -1948,7 +1944,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T00:50:19+00:00",
+        "fetchedAt": "2026-10-16T21:53:21+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -2155,9 +2151,9 @@
           {
             "npcId": 5639,
             "npcName": "Craven Drok",
-            "zoneId": 1637,
             "x": 49.4,
             "y": 48.2,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -2217,9 +2213,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -2229,7 +2227,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T00:50:40+00:00",
+        "fetchedAt": "2026-10-16T21:53:26+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -2347,9 +2345,9 @@
           {
             "npcId": 5640,
             "npcName": "Keldran",
-            "zoneId": 1637,
             "x": 22.4,
             "y": 52.8,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -2404,9 +2402,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -2416,7 +2416,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T00:50:40+00:00",
+        "fetchedAt": "2026-10-16T21:53:31+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -2507,9 +2507,9 @@
           {
             "npcId": 5641,
             "npcName": "Takata Steelblade",
-            "zoneId": 405,
             "x": 52.6,
             "y": 54.2,
+            "zoneId": 405,
             "zoneName": "Desolace"
           }
         ]
@@ -2569,9 +2569,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -2581,7 +2583,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T00:50:45+00:00",
+        "fetchedAt": "2026-10-16T21:53:36+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -2645,7 +2647,7 @@
                   },
                   {
                     "coord": [
-                      71.6,
+                      71.4,
                       17.8
                     ],
                     "coords": [
@@ -4520,9 +4522,9 @@
           {
             "npcId": 5641,
             "npcName": "Takata Steelblade",
-            "zoneId": 405,
             "x": 52.6,
             "y": 54.2,
+            "zoneId": 405,
             "zoneName": "Desolace"
           }
         ]
@@ -4582,9 +4584,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -4594,7 +4598,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T00:50:51+00:00",
+        "fetchedAt": "2026-10-16T21:53:41+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -4685,9 +4689,9 @@
           {
             "npcId": 4498,
             "npcName": "Maurin Bonesplitter",
-            "zoneId": 405,
             "x": 52.2,
             "y": 53.4,
+            "zoneId": 405,
             "zoneName": "Desolace"
           }
         ]
@@ -4756,9 +4760,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -4768,7 +4774,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T00:50:55+00:00",
+        "fetchedAt": "2026-10-16T21:53:46+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -4886,9 +4892,9 @@
           {
             "npcId": 5641,
             "npcName": "Takata Steelblade",
-            "zoneId": 405,
             "x": 52.6,
             "y": 54.2,
+            "zoneId": 405,
             "zoneName": "Desolace"
           }
         ]
@@ -4960,9 +4966,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -4972,7 +4980,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T01:40:40+00:00",
+        "fetchedAt": "2026-10-16T22:43:44+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -5095,9 +5103,9 @@
           {
             "npcId": 3412,
             "npcName": "Nogg",
-            "zoneId": 1637,
             "x": 75.8,
             "y": 25.2,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -5169,7 +5177,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T01:43:01+00:00",
+        "fetchedAt": "2026-10-16T22:46:05+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -5308,9 +5316,9 @@
           {
             "npcId": 4485,
             "npcName": "Belgrom Rockmaul",
-            "zoneId": 1637,
             "x": 75.0,
             "y": 34.2,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -5377,9 +5385,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -5389,7 +5399,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T01:57:45+00:00",
+        "fetchedAt": "2026-10-16T23:00:58+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -5500,9 +5510,9 @@
           {
             "npcId": 4485,
             "npcName": "Belgrom Rockmaul",
-            "zoneId": 1637,
             "x": 75.0,
             "y": 34.2,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -5562,9 +5572,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -5574,7 +5586,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T01:57:50+00:00",
+        "fetchedAt": "2026-10-16T23:01:03+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -5921,9 +5933,9 @@
           {
             "npcId": 8576,
             "npcName": "Ag'tor Bloodfist",
-            "zoneId": 16,
             "x": 22.2,
             "y": 51.4,
+            "zoneId": 16,
             "zoneName": "Azshara"
           }
         ]
@@ -5996,7 +6008,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T01:58:10+00:00",
+        "fetchedAt": "2026-10-16T23:01:08+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -6092,18 +6104,6 @@
           ]
         },
         "minLevel": 44,
-        "objectSpawns": [
-          {
-            "entityId": 151286,
-            "entityKind": "object",
-            "entityName": "Kaldorei Tome of Summoning",
-            "uiMapId": 1447,
-            "uiMapName": "Azshara",
-            "x": 59.5,
-            "y": 31.3,
-            "zoneId": 16
-          }
-        ],
         "pageInfo": {
           "name": "Betrayed",
           "type": 5,
@@ -6188,9 +6188,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -6200,7 +6202,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T01:58:10+00:00",
+        "fetchedAt": "2026-10-16T23:01:13+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -6311,9 +6313,9 @@
           {
             "npcId": 8576,
             "npcName": "Ag'tor Bloodfist",
-            "zoneId": 16,
             "x": 22.2,
             "y": 51.4,
+            "zoneId": 16,
             "zoneName": "Azshara"
           }
         ]
@@ -6386,9 +6388,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -6398,7 +6402,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:21:19+00:00",
+        "fetchedAt": "2026-10-16T23:24:32+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -6489,9 +6493,9 @@
           {
             "npcId": 8659,
             "npcName": "Jes'rimon",
-            "zoneId": 1637,
             "x": 55.6,
             "y": 34.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -6563,7 +6567,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:26:48+00:00",
+        "fetchedAt": "2026-10-16T23:30:05+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -6629,8 +6633,8 @@
                     "id": 5594,
                     "name": "Alchemist Pestlezugg",
                     "point": "end",
-                    "reactalliance": 1,
-                    "reacthorde": 1,
+                    "reactalliance": 0,
+                    "reacthorde": 0,
                     "type": 1
                   }
                 ]
@@ -6669,9 +6673,9 @@
           {
             "npcId": 7010,
             "npcName": "Zilzibin Drumlore",
-            "zoneId": 1637,
             "x": 56.4,
             "y": 46.4,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -6744,9 +6748,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -6756,7 +6762,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:28:04+00:00",
+        "fetchedAt": "2026-10-16T23:31:16+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -6855,9 +6861,9 @@
           {
             "npcId": 7010,
             "npcName": "Zilzibin Drumlore",
-            "zoneId": 1637,
             "x": 56.4,
             "y": 46.4,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -6917,9 +6923,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -6929,7 +6937,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:37:55+00:00",
+        "fetchedAt": "2026-10-16T23:41:11+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7032,9 +7040,9 @@
           {
             "npcId": 9077,
             "npcName": "Warlord Goretooth",
-            "zoneId": 3,
             "x": 5.8,
             "y": 47.4,
+            "zoneId": 3,
             "zoneName": "Badlands"
           }
         ]
@@ -7094,9 +7102,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -7106,7 +7116,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T03:09:48+00:00",
+        "fetchedAt": "2026-10-17T00:13:02+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7389,9 +7399,9 @@
           {
             "npcId": 4949,
             "npcName": "Thrall",
-            "zoneId": 1637,
             "x": 32.0,
             "y": 37.8,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -7451,9 +7461,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -7463,7 +7475,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T03:10:08+00:00",
+        "fetchedAt": "2026-10-17T00:13:07+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7516,6 +7528,45 @@
                     "reactalliance": -1,
                     "reacthorde": 1,
                     "type": 1
+                  },
+                  {
+                    "coord": [
+                      49.6,
+                      50.4
+                    ],
+                    "coords": [
+                      [
+                        49.4,
+                        50.4
+                      ],
+                      [
+                        49.4,
+                        50.6
+                      ],
+                      [
+                        49.4,
+                        51.6
+                      ],
+                      [
+                        49.6,
+                        50.4
+                      ],
+                      [
+                        49.6,
+                        50.6
+                      ],
+                      [
+                        49.6,
+                        51.6
+                      ]
+                    ],
+                    "id": 3216,
+                    "name": "Neeru Fireblade",
+                    "objective": 3216,
+                    "point": "requirement",
+                    "reactalliance": -1,
+                    "reacthorde": 1,
+                    "type": 1
                   }
                 ]
               ],
@@ -7528,7 +7579,7 @@
           "zones": [
             [
               1637,
-              1
+              2
             ]
           ]
         },
@@ -7546,9 +7597,9 @@
           {
             "npcId": 4949,
             "npcName": "Thrall",
-            "zoneId": 1637,
             "x": 32.0,
             "y": 37.8,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -7603,9 +7654,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -7615,7 +7668,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T03:10:14+00:00",
+        "fetchedAt": "2026-10-17T00:13:32+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7718,9 +7771,9 @@
           {
             "npcId": 4949,
             "npcName": "Thrall",
-            "zoneId": 1637,
             "x": 32.0,
             "y": 37.8,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -7797,9 +7850,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -7809,7 +7864,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T03:10:19+00:00",
+        "fetchedAt": "2026-10-17T00:13:32+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7912,9 +7967,9 @@
           {
             "npcId": 3216,
             "npcName": "Neeru Fireblade",
-            "zoneId": 1637,
             "x": 49.6,
             "y": 50.4,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -7969,9 +8024,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -7981,7 +8038,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T03:31:06+00:00",
+        "fetchedAt": "2026-10-17T00:34:19+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -8064,9 +8121,9 @@
           {
             "npcId": 4949,
             "npcName": "Thrall",
-            "zoneId": 1637,
             "x": 32.0,
             "y": 37.8,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -8121,9 +8178,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -8133,7 +8192,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T03:31:26+00:00",
+        "fetchedAt": "2026-10-17T00:34:24+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -8374,16 +8433,16 @@
                         91.2
                       ],
                       [
-                        41,
-                        91.6
-                      ],
-                      [
                         41.2,
                         84.4
                       ],
                       [
                         41.2,
                         87.6
+                      ],
+                      [
+                        41.2,
+                        92.4
                       ],
                       [
                         41.4,
@@ -8814,8 +8873,8 @@
                         36.6
                       ],
                       [
-                        61,
-                        35.8
+                        60.8,
+                        36
                       ],
                       [
                         61.2,
@@ -8984,9 +9043,9 @@
           {
             "npcId": 4949,
             "npcName": "Thrall",
-            "zoneId": 1637,
             "x": 32.0,
             "y": 37.8,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -9046,9 +9105,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -9058,7 +9119,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T03:45:40+00:00",
+        "fetchedAt": "2026-10-17T00:48:53+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -9172,7 +9233,7 @@
                       ],
                       [
                         72.8,
-                        30
+                        29.6
                       ],
                       [
                         73,
@@ -9342,7 +9403,7 @@
                       ],
                       [
                         72.8,
-                        30
+                        29.6
                       ],
                       [
                         73,
@@ -9447,9 +9508,9 @@
           {
             "npcId": 14182,
             "npcName": "Bounty Hunter Kolark",
-            "zoneId": 1637,
             "x": 74.4,
             "y": 25.2,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -9501,9 +9562,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 0,
@@ -9513,7 +9576,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T03:47:41+00:00",
+        "fetchedAt": "2026-10-17T00:50:54+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -9648,9 +9711,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -9660,7 +9725,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T03:47:46+00:00",
+        "fetchedAt": "2026-10-17T00:51:00+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -9699,7 +9764,7 @@
                   {
                     "coord": [
                       51.6,
-                      78
+                      75.6
                     ],
                     "coords": [
                       [
@@ -9791,9 +9856,9 @@
           {
             "npcId": 4949,
             "npcName": "Thrall",
-            "zoneId": 1637,
             "x": 32.0,
             "y": 37.8,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -9839,7 +9904,7 @@
           "npcId": 14392,
           "npcName": "Overlord Runthak",
           "x": 51.6,
-          "y": 78.0,
+          "y": 75.6,
           "zoneId": 1637,
           "zoneName": "Orgrimmar"
         },
@@ -9860,7 +9925,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T03:47:56+00:00",
+        "fetchedAt": "2026-10-17T00:51:10+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -9881,7 +9946,7 @@
                   {
                     "coord": [
                       51.6,
-                      78
+                      75.6
                     ],
                     "coords": [
                       [
@@ -9943,7 +10008,7 @@
                   {
                     "coord": [
                       51.6,
-                      78
+                      75.6
                     ],
                     "coords": [
                       [
@@ -10034,9 +10099,9 @@
           {
             "npcId": 14392,
             "npcName": "Overlord Runthak",
-            "zoneId": 1637,
             "x": 51.6,
-            "y": 78.0,
+            "y": 75.6,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -10112,7 +10177,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T03:59:13+00:00",
+        "fetchedAt": "2026-10-17T01:02:26+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -10255,9 +10320,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -10267,7 +10334,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T03:59:18+00:00",
+        "fetchedAt": "2026-10-17T01:02:31+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -10444,9 +10511,9 @@
           {
             "npcId": 4949,
             "npcName": "Thrall",
-            "zoneId": 1637,
             "x": 32.0,
             "y": 37.8,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -10518,7 +10585,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:03:00+00:00",
+        "fetchedAt": "2026-10-17T01:06:13+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -10609,9 +10676,9 @@
           {
             "npcId": 14726,
             "npcName": "Rashona Straglash",
-            "zoneId": 1637,
             "x": 63.4,
             "y": 51.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -10671,9 +10738,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -10683,7 +10752,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:03:10+00:00",
+        "fetchedAt": "2026-10-17T01:06:23+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -10774,9 +10843,9 @@
           {
             "npcId": 14726,
             "npcName": "Rashona Straglash",
-            "zoneId": 1637,
             "x": 63.4,
             "y": 51.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -10848,7 +10917,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:03:15+00:00",
+        "fetchedAt": "2026-10-17T01:06:28+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -10939,9 +11008,9 @@
           {
             "npcId": 14726,
             "npcName": "Rashona Straglash",
-            "zoneId": 1637,
             "x": 63.4,
             "y": 51.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -11013,7 +11082,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:03:50+00:00",
+        "fetchedAt": "2026-10-17T01:07:04+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -11104,9 +11173,9 @@
           {
             "npcId": 14726,
             "npcName": "Rashona Straglash",
-            "zoneId": 1637,
             "x": 63.4,
             "y": 51.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -11178,7 +11247,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:03:51+00:00",
+        "fetchedAt": "2026-10-17T01:07:04+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -11269,9 +11338,9 @@
           {
             "npcId": 14726,
             "npcName": "Rashona Straglash",
-            "zoneId": 1637,
             "x": 63.4,
             "y": 51.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -11331,9 +11400,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -11343,7 +11414,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:03:56+00:00",
+        "fetchedAt": "2026-10-17T01:07:09+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -11434,9 +11505,9 @@
           {
             "npcId": 14727,
             "npcName": "Vehena",
-            "zoneId": 1637,
             "x": 37.8,
             "y": 87.6,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -11508,7 +11579,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:04:01+00:00",
+        "fetchedAt": "2026-10-17T01:07:14+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -11599,9 +11670,9 @@
           {
             "npcId": 14727,
             "npcName": "Vehena",
-            "zoneId": 1637,
             "x": 37.8,
             "y": 87.6,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -11661,9 +11732,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -11673,7 +11746,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:04:06+00:00",
+        "fetchedAt": "2026-10-17T01:07:19+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -11764,9 +11837,9 @@
           {
             "npcId": 14727,
             "npcName": "Vehena",
-            "zoneId": 1637,
             "x": 37.8,
             "y": 87.6,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -11838,7 +11911,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:04:11+00:00",
+        "fetchedAt": "2026-10-17T01:07:24+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -11929,9 +12002,9 @@
           {
             "npcId": 14727,
             "npcName": "Vehena",
-            "zoneId": 1637,
             "x": 37.8,
             "y": 87.6,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -12003,7 +12076,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:04:17+00:00",
+        "fetchedAt": "2026-10-17T01:07:29+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12094,9 +12167,9 @@
           {
             "npcId": 14727,
             "npcName": "Vehena",
-            "zoneId": 1637,
             "x": 37.8,
             "y": 87.6,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -12170,9 +12243,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -12182,7 +12257,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:09:56+00:00",
+        "fetchedAt": "2026-10-17T01:13:10+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12507,9 +12582,9 @@
           {
             "npcId": 14843,
             "npcName": "Kruban Darkblade",
-            "zoneId": 1637,
             "x": 52.0,
             "y": 65.4,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -12581,7 +12656,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:19:46+00:00",
+        "fetchedAt": "2026-10-17T01:23:17+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12684,9 +12759,9 @@
           {
             "npcId": 15188,
             "npcName": "Cenarion Emissary Blackhoof",
-            "zoneId": 1637,
             "x": 47.8,
             "y": 65.6,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -12766,7 +12841,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:26:31+00:00",
+        "fetchedAt": "2026-10-17T01:29:47+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -13033,6 +13108,10 @@
                       [
                         46.6,
                         8.6
+                      ],
+                      [
+                        64.8,
+                        35
                       ]
                     ],
                     "id": 15350,
@@ -13055,6 +13134,10 @@
                       [
                         46.6,
                         8.6
+                      ],
+                      [
+                        64.8,
+                        35
                       ]
                     ],
                     "id": 15350,
@@ -13209,49 +13292,49 @@
           {
             "npcId": 15350,
             "npcName": "Horde Warbringer",
-            "zoneId": 17,
             "x": 46.6,
             "y": 8.6,
+            "zoneId": 17,
             "zoneName": "The Barrens"
           },
           {
             "npcId": 15350,
             "npcName": "Horde Warbringer",
-            "zoneId": 36,
             "x": 63.0,
             "y": 59.8,
+            "zoneId": 36,
             "zoneName": "Alterac Mountains"
           },
           {
             "npcId": 15350,
             "npcName": "Horde Warbringer",
-            "zoneId": 45,
             "x": 73.6,
             "y": 29.2,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           },
           {
             "npcId": 15350,
             "npcName": "Horde Warbringer",
-            "zoneId": 1497,
             "x": 58.2,
             "y": 97.6,
+            "zoneId": 1497,
             "zoneName": "Undercity"
           },
           {
             "npcId": 15350,
             "npcName": "Horde Warbringer",
-            "zoneId": 1637,
             "x": 80.4,
             "y": 30.4,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           },
           {
             "npcId": 15350,
             "npcName": "Horde Warbringer",
-            "zoneId": 1638,
             "x": 57.8,
             "y": 76.8,
+            "zoneId": 1638,
             "zoneName": "Thunder Bluff"
           }
         ]
@@ -13331,7 +13414,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:28:32+00:00",
+        "fetchedAt": "2026-10-17T01:31:49+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -13598,6 +13681,10 @@
                       [
                         46.6,
                         8.6
+                      ],
+                      [
+                        64.8,
+                        35
                       ]
                     ],
                     "id": 15350,
@@ -13620,6 +13707,10 @@
                       [
                         46.6,
                         8.6
+                      ],
+                      [
+                        64.8,
+                        35
                       ]
                     ],
                     "id": 15350,
@@ -13774,49 +13865,49 @@
           {
             "npcId": 15350,
             "npcName": "Horde Warbringer",
-            "zoneId": 17,
             "x": 46.6,
             "y": 8.6,
+            "zoneId": 17,
             "zoneName": "The Barrens"
           },
           {
             "npcId": 15350,
             "npcName": "Horde Warbringer",
-            "zoneId": 36,
             "x": 63.0,
             "y": 59.8,
+            "zoneId": 36,
             "zoneName": "Alterac Mountains"
           },
           {
             "npcId": 15350,
             "npcName": "Horde Warbringer",
-            "zoneId": 45,
             "x": 73.6,
             "y": 29.2,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           },
           {
             "npcId": 15350,
             "npcName": "Horde Warbringer",
-            "zoneId": 1497,
             "x": 58.2,
             "y": 97.6,
+            "zoneId": 1497,
             "zoneName": "Undercity"
           },
           {
             "npcId": 15350,
             "npcName": "Horde Warbringer",
-            "zoneId": 1637,
             "x": 80.4,
             "y": 30.4,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           },
           {
             "npcId": 15350,
             "npcName": "Horde Warbringer",
-            "zoneId": 1638,
             "x": 57.8,
             "y": 76.8,
+            "zoneId": 1638,
             "zoneName": "Thunder Bluff"
           }
         ]
@@ -13878,9 +13969,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -13892,7 +13985,7 @@
           11
         ],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:56:54+00:00",
+        "fetchedAt": "2026-10-17T02:00:14+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -13999,9 +14092,9 @@
           {
             "npcId": 16012,
             "npcName": "Mokvar",
-            "zoneId": 1637,
             "x": 34.8,
             "y": 38.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -14063,9 +14156,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -14077,7 +14172,7 @@
           3
         ],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:56:59+00:00",
+        "fetchedAt": "2026-10-17T02:00:19+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -14184,9 +14279,9 @@
           {
             "npcId": 16012,
             "npcName": "Mokvar",
-            "zoneId": 1637,
             "x": 34.8,
             "y": 38.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -14251,9 +14346,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -14265,7 +14362,7 @@
           8
         ],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:57:04+00:00",
+        "fetchedAt": "2026-10-17T02:00:24+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -14375,9 +14472,9 @@
           {
             "npcId": 16012,
             "npcName": "Mokvar",
-            "zoneId": 1637,
             "x": 34.8,
             "y": 38.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -14439,9 +14536,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -14453,7 +14552,7 @@
           5
         ],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:57:09+00:00",
+        "fetchedAt": "2026-10-17T02:00:44+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -14560,9 +14659,9 @@
           {
             "npcId": 16012,
             "npcName": "Mokvar",
-            "zoneId": 1637,
             "x": 34.8,
             "y": 38.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -14624,9 +14723,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -14638,7 +14739,7 @@
           4
         ],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:57:14+00:00",
+        "fetchedAt": "2026-10-17T02:00:45+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -14745,9 +14846,9 @@
           {
             "npcId": 16012,
             "npcName": "Mokvar",
-            "zoneId": 1637,
             "x": 34.8,
             "y": 38.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -14809,9 +14910,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -14823,7 +14926,7 @@
           7
         ],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:57:19+00:00",
+        "fetchedAt": "2026-10-17T02:00:50+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -14930,9 +15033,9 @@
           {
             "npcId": 16012,
             "npcName": "Mokvar",
-            "zoneId": 1637,
             "x": 34.8,
             "y": 38.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -14994,9 +15097,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -15008,7 +15113,7 @@
           9
         ],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:57:39+00:00",
+        "fetchedAt": "2026-10-17T02:00:55+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -15115,9 +15220,9 @@
           {
             "npcId": 16012,
             "npcName": "Mokvar",
-            "zoneId": 1637,
             "x": 34.8,
             "y": 38.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -15179,9 +15284,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -15193,7 +15300,7 @@
           1
         ],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:57:39+00:00",
+        "fetchedAt": "2026-10-17T02:01:00+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -15302,9 +15409,9 @@
           {
             "npcId": 16012,
             "npcName": "Mokvar",
-            "zoneId": 1637,
             "x": 34.8,
             "y": 38.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -15368,9 +15475,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -15380,7 +15489,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:58:15+00:00",
+        "fetchedAt": "2026-10-17T02:01:46+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -15487,9 +15596,9 @@
           {
             "npcId": 16012,
             "npcName": "Mokvar",
-            "zoneId": 1637,
             "x": 34.8,
             "y": 38.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -15565,7 +15674,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:59:20+00:00",
+        "fetchedAt": "2026-10-17T02:02:51+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -15672,9 +15781,9 @@
           {
             "npcId": 16012,
             "npcName": "Mokvar",
-            "zoneId": 1637,
             "x": 34.8,
             "y": 38.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -15750,7 +15859,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:59:40+00:00",
+        "fetchedAt": "2026-10-17T02:02:57+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -15857,9 +15966,9 @@
           {
             "npcId": 16012,
             "npcName": "Mokvar",
-            "zoneId": 1637,
             "x": 34.8,
             "y": 38.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -15923,9 +16032,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -15935,7 +16046,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:59:41+00:00",
+        "fetchedAt": "2026-10-17T02:03:01+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -16044,9 +16155,9 @@
           {
             "npcId": 16012,
             "npcName": "Mokvar",
-            "zoneId": 1637,
             "x": 34.8,
             "y": 38.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -16126,7 +16237,7 @@
           4
         ],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:59:46+00:00",
+        "fetchedAt": "2026-10-17T02:03:06+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -16235,9 +16346,9 @@
           {
             "npcId": 16012,
             "npcName": "Mokvar",
-            "zoneId": 1637,
             "x": 34.8,
             "y": 38.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -16301,9 +16412,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -16313,7 +16426,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:59:51+00:00",
+        "fetchedAt": "2026-10-17T02:03:12+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -16420,9 +16533,9 @@
           {
             "npcId": 16012,
             "npcName": "Mokvar",
-            "zoneId": 1637,
             "x": 34.8,
             "y": 38.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -16486,9 +16599,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -16498,7 +16613,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:59:56+00:00",
+        "fetchedAt": "2026-10-17T02:03:16+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -16605,9 +16720,9 @@
           {
             "npcId": 16012,
             "npcName": "Mokvar",
-            "zoneId": 1637,
             "x": 34.8,
             "y": 38.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -16671,9 +16786,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -16683,7 +16800,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T05:00:01+00:00",
+        "fetchedAt": "2026-10-17T02:03:21+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -16794,9 +16911,9 @@
           {
             "npcId": 16012,
             "npcName": "Mokvar",
-            "zoneId": 1637,
             "x": 34.8,
             "y": 38.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -16856,9 +16973,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 0,
@@ -16868,7 +16987,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T05:01:19+00:00",
+        "fetchedAt": "2026-10-17T02:04:48+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -16993,9 +17112,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -17005,7 +17126,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T05:03:28+00:00",
+        "fetchedAt": "2026-10-17T02:06:54+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -17084,7 +17205,7 @@
                     "name": "Mokvar",
                     "point": "end",
                     "reactalliance": 0,
-                    "reacthorde": 1,
+                    "reacthorde": 0,
                     "type": 1
                   }
                 ]
@@ -17148,9 +17269,9 @@
           {
             "npcId": 16014,
             "npcName": "Mux Manascrambler",
-            "zoneId": 440,
             "x": 52.4,
             "y": 27.2,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -17209,7 +17330,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T05:05:34+00:00",
+        "fetchedAt": "2026-10-17T02:08:55+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -17288,7 +17409,7 @@
                     "name": "Mokvar",
                     "point": "end",
                     "reactalliance": 0,
-                    "reacthorde": 1,
+                    "reacthorde": 0,
                     "type": 1
                   }
                 ]
@@ -17389,7 +17510,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T05:06:31+00:00",
+        "fetchedAt": "2026-10-17T02:09:51+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -17496,9 +17617,9 @@
           {
             "npcId": 16012,
             "npcName": "Mokvar",
-            "zoneId": 1637,
             "x": 34.8,
             "y": 38.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -17574,7 +17695,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T05:06:39+00:00",
+        "fetchedAt": "2026-10-17T02:09:56+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -17681,9 +17802,9 @@
           {
             "npcId": 16012,
             "npcName": "Mokvar",
-            "zoneId": 1637,
             "x": 34.8,
             "y": 38.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -17747,9 +17868,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -17759,7 +17882,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T05:06:59+00:00",
+        "fetchedAt": "2026-10-17T02:10:01+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -17866,9 +17989,9 @@
           {
             "npcId": 16012,
             "npcName": "Mokvar",
-            "zoneId": 1637,
             "x": 34.8,
             "y": 38.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -17932,9 +18055,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -17944,7 +18069,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T05:06:59+00:00",
+        "fetchedAt": "2026-10-17T02:10:06+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -18051,9 +18176,9 @@
           {
             "npcId": 16012,
             "npcName": "Mokvar",
-            "zoneId": 1637,
             "x": 34.8,
             "y": 38.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -18117,9 +18242,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -18129,7 +18256,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T05:07:05+00:00",
+        "fetchedAt": "2026-10-17T02:10:11+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -18236,9 +18363,9 @@
           {
             "npcId": 16012,
             "npcName": "Mokvar",
-            "zoneId": 1637,
             "x": 34.8,
             "y": 38.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -18306,7 +18433,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T05:07:12+00:00",
+        "fetchedAt": "2026-10-17T02:10:16+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -18440,9 +18567,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -18624,9 +18753,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 0,
@@ -18636,7 +18767,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T05:07:20+00:00",
+        "fetchedAt": "2026-10-17T02:10:26+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -18716,9 +18847,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 0,
@@ -18728,7 +18861,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T05:07:30+00:00",
+        "fetchedAt": "2026-10-17T02:10:51+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -18858,9 +18991,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 0,
@@ -18870,7 +19005,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T05:07:34+00:00",
+        "fetchedAt": "2026-10-17T02:10:51+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -19000,9 +19135,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 0,
@@ -19012,7 +19149,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T05:07:42+00:00",
+        "fetchedAt": "2026-10-17T02:10:56+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -19141,9 +19278,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 0,
@@ -19152,7 +19291,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T05:08:02+00:00",
+        "fetchedAt": "2026-10-17T02:11:02+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -19282,9 +19421,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 0,
@@ -19294,7 +19435,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T05:08:04+00:00",
+        "fetchedAt": "2026-10-17T02:11:06+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -19424,9 +19565,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 0,
@@ -19436,7 +19579,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T05:08:11+00:00",
+        "fetchedAt": "2026-10-17T02:11:12+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -19566,9 +19709,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 0,
@@ -19578,7 +19723,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T05:08:13+00:00",
+        "fetchedAt": "2026-10-17T02:11:17+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": true,
@@ -19724,16 +19869,16 @@
           "zoneId": 1637,
           "zoneName": "Orgrimmar"
         },
-        "races": [
-          96
-        ],
+        "races": [],
         "sourceKinds": [
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -19743,7 +19888,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T06:13:03+00:00",
+        "fetchedAt": "2026-10-17T03:15:51+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -19754,7 +19899,7 @@
           "sharable": true,
           "weekly": false
         },
-        "infoboxMarkup": "[ul][li]Level: 13[/li][li]Requires level 7[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Race: [race=96][/li][li][icon name=quest-start]Start: [url=/forever/npc=4949/thrall]Thrall[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]7[/color][small] &nbsp;[/small][color=r1]9[/color][small] &nbsp;[/small][color=r2]11[/color][small] &nbsp;[/small][color=r3]16[/color][small] &nbsp;[/small][color=r4]19[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+        "infoboxMarkup": "[ul][li]Level: 13[/li][li]Requires level 7[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=4949/thrall]Thrall[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=4949/thrall]Thrall[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]7[/color][small] &nbsp;[/small][color=r1]9[/color][small] &nbsp;[/small][color=r2]11[/color][small] &nbsp;[/small][color=r3]16[/color][small] &nbsp;[/small][color=r4]19[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
         "mapper": {
           "missing": 0,
           "objectives": {
@@ -19770,10 +19915,6 @@
                       [
                         57.2,
                         92.6
-                      ],
-                      [
-                        57.4,
-                        90.4
                       ],
                       [
                         57.4,
@@ -19836,6 +19977,24 @@
                   },
                   {
                     "coord": [
+                      32,
+                      37.8
+                    ],
+                    "coords": [
+                      [
+                        32,
+                        37.8
+                      ]
+                    ],
+                    "id": 4949,
+                    "name": "Thrall",
+                    "point": "end",
+                    "reactalliance": -1,
+                    "reacthorde": 1,
+                    "type": 1
+                  },
+                  {
+                    "coord": [
                       32.4,
                       36
                     ],
@@ -19868,7 +20027,7 @@
                   {
                     "coord": [
                       34.2,
-                      36.6
+                      36.4
                     ],
                     "coords": [
                       [
@@ -19965,16 +20124,14 @@
           5725
         ],
         "questId": 93739,
-        "races": [
-          96
-        ],
+        "races": [],
         "startPins": [
           {
             "npcId": 4949,
             "npcName": "Thrall",
-            "zoneId": 1637,
             "x": 32.0,
             "y": 37.8,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -20029,16 +20186,16 @@
           "zoneId": 215,
           "zoneName": "Mulgore"
         },
-        "races": [
-          96
-        ],
+        "races": [],
         "sourceKinds": [
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -20048,7 +20205,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T06:40:17+00:00",
+        "fetchedAt": "2026-10-17T03:43:00+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -20059,7 +20216,7 @@
           "sharable": true,
           "weekly": false
         },
-        "infoboxMarkup": "[ul][li]Level: 13[/li][li]Requires level 7[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Race: [race=96][/li][li][icon name=quest-start]Start: [url=/forever/npc=259119/alaana-stormwalker]Alaana Stormwalker[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=4949/thrall]Thrall[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]7[/color][small] &nbsp;[/small][color=r1]9[/color][small] &nbsp;[/small][color=r2]11[/color][small] &nbsp;[/small][color=r3]16[/color][small] &nbsp;[/small][color=r4]19[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+        "infoboxMarkup": "[ul][li]Level: 13[/li][li]Requires level 7[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=259119/alaana-stormwalker]Alaana Stormwalker[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=4949/thrall]Thrall[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]7[/color][small] &nbsp;[/small][color=r1]9[/color][small] &nbsp;[/small][color=r2]11[/color][small] &nbsp;[/small][color=r3]16[/color][small] &nbsp;[/small][color=r4]19[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
         "mapper": {
           "missing": 0,
           "objectives": {
@@ -20142,16 +20299,14 @@
         "pinCategory": "normal",
         "prerequisiteQuestIds": [],
         "questId": 95350,
-        "races": [
-          96
-        ],
+        "races": [],
         "startPins": [
           {
             "npcId": 259119,
             "npcName": "Alaana Stormwalker",
-            "zoneId": 215,
             "x": 33.4,
             "y": 22.4,
+            "zoneId": 215,
             "zoneName": "Mulgore"
           }
         ]
@@ -20206,9 +20361,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -20218,7 +20375,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T06:49:28+00:00",
+        "fetchedAt": "2026-10-17T03:52:16+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -20309,9 +20466,9 @@
           {
             "npcId": 3348,
             "npcName": "Kor'geld",
-            "zoneId": 1637,
             "x": 56.2,
             "y": 34.2,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -20366,9 +20523,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -20378,7 +20537,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T06:49:43+00:00",
+        "fetchedAt": "2026-10-17T03:52:46+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -20409,6 +20568,10 @@
                       [
                         55.6,
                         72
+                      ],
+                      [
+                        56,
+                        72.8
                       ]
                     ],
                     "id": 268701,
@@ -20473,9 +20636,9 @@
           {
             "npcId": 268701,
             "npcName": "Thatog",
-            "zoneId": 1637,
             "x": 55.6,
             "y": 72.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -20530,9 +20693,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -20542,7 +20707,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T06:49:48+00:00",
+        "fetchedAt": "2026-10-17T03:52:52+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -20637,9 +20802,9 @@
           {
             "npcId": 3368,
             "npcName": "Borstan",
-            "zoneId": 1637,
             "x": 57.4,
             "y": 53.4,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -20703,9 +20868,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -20715,7 +20882,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T06:50:29+00:00",
+        "fetchedAt": "2026-10-17T03:53:17+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -20814,9 +20981,9 @@
           {
             "npcId": 3347,
             "npcName": "Yelmak",
-            "zoneId": 1637,
             "x": 56.6,
             "y": 33.2,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -20897,9 +21064,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/orgrimmar"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/orgrimmar"
         ],
         "startPinCount": 1,
@@ -20909,7 +21078,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T06:51:29+00:00",
+        "fetchedAt": "2026-10-17T03:54:28+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -20943,7 +21112,7 @@
                       ],
                       [
                         36.4,
-                        28.8
+                        28.6
                       ],
                       [
                         36.8,
@@ -20951,11 +21120,11 @@
                       ],
                       [
                         37,
-                        28.4
+                        29.6
                       ],
                       [
-                        37,
-                        29.6
+                        37.2,
+                        28.4
                       ],
                       [
                         37.8,
@@ -20966,12 +21135,8 @@
                         29
                       ],
                       [
-                        38.4,
-                        27.2
-                      ],
-                      [
                         38.6,
-                        29
+                        28.8
                       ],
                       [
                         38.8,
@@ -21001,7 +21166,7 @@
                       ],
                       [
                         36.4,
-                        28.8
+                        28.6
                       ],
                       [
                         36.8,
@@ -21009,11 +21174,11 @@
                       ],
                       [
                         37,
-                        28.4
+                        29.6
                       ],
                       [
-                        37,
-                        29.6
+                        37.2,
+                        28.4
                       ],
                       [
                         37.8,
@@ -21024,12 +21189,8 @@
                         29
                       ],
                       [
-                        38.4,
-                        27.2
-                      ],
-                      [
                         38.6,
-                        29
+                        28.8
                       ],
                       [
                         38.8,
@@ -21072,9 +21233,9 @@
           {
             "npcId": 268684,
             "npcName": "Thra",
-            "zoneId": 1637,
             "x": 36.8,
             "y": 29.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]

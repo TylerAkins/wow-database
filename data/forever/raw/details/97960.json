@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-25T06:57:38+00:00",
+  "fetchedAt": "2026-10-17T04:00:56+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +12,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 6[/li][li]Requires level 4[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=265812/eleanor-shackleton]Eleanor Shackleton[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=6289/rand-rhobart]Rand Rhobart[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]4[/color][small] &nbsp;[/small][color=r3]9[/color][small] &nbsp;[/small][color=r4]12[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 6[/li][li]Requires level 4[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Race: [race=5][/li][li][icon name=quest-start]Start: [url=/forever/npc=265812/eleanor-shackleton]Eleanor Shackleton[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=6289/rand-rhobart]Rand Rhobart[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]4[/color][small] &nbsp;[/small][color=r3]9[/color][small] &nbsp;[/small][color=r4]12[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -87,14 +87,16 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 97960,
-  "races": [],
+  "races": [
+    5
+  ],
   "startPins": [
     {
       "npcId": 265812,
       "npcName": "Eleanor Shackleton",
-      "zoneId": 85,
       "x": 57.2,
       "y": 55.4,
+      "zoneId": 85,
       "zoneName": "Tirisfal Glades"
     }
   ]

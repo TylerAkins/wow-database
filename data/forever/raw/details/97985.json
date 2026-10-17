@@ -1,0 +1,201 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-10-17T12:12:47+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 33[/li][li]Requires level 25[/li][li]Type: Elite[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=270038/calder-gray]Calder Gray[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=270038/calder-gray]Calder Gray[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]25[/color][small] &nbsp;[/small][color=r1]29[/color][small] &nbsp;[/small][color=r2]31[/color][small] &nbsp;[/small][color=r3]36[/color][small] &nbsp;[/small][color=r4]42[/color][/li][li]Added in patch [acronym=\"1.60.1.70170\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "1497": {
+        "levels": [
+          [
+            {
+              "coord": [
+                49.2,
+                70.4
+              ],
+              "coords": [
+                [
+                  48,
+                  69.8
+                ],
+                [
+                  48.4,
+                  70.8
+                ],
+                [
+                  49,
+                  69.4
+                ],
+                [
+                  49,
+                  70.6
+                ],
+                [
+                  49,
+                  71.6
+                ],
+                [
+                  49.2,
+                  70.4
+                ],
+                [
+                  50,
+                  70.4
+                ]
+              ],
+              "id": 270038,
+              "name": "Calder Gray",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                49.2,
+                70.4
+              ],
+              "coords": [
+                [
+                  48,
+                  69.8
+                ],
+                [
+                  48.4,
+                  70.8
+                ],
+                [
+                  49,
+                  69.4
+                ],
+                [
+                  49,
+                  70.6
+                ],
+                [
+                  49,
+                  71.6
+                ],
+                [
+                  49.2,
+                  70.4
+                ],
+                [
+                  50,
+                  70.4
+                ]
+              ],
+              "id": 270038,
+              "name": "Calder Gray",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Undercity"
+      },
+      "400": {
+        "levels": [
+          [
+            {
+              "coord": [
+                56.9,
+                56.2
+              ],
+              "coords": [
+                [
+                  50.4,
+                  46.3
+                ],
+                [
+                  51.4,
+                  48.3
+                ],
+                [
+                  51.5,
+                  48.4
+                ],
+                [
+                  51.5,
+                  48.5
+                ],
+                [
+                  56.9,
+                  56.2
+                ],
+                [
+                  57.9,
+                  56.3
+                ],
+                [
+                  59.1,
+                  56.6
+                ],
+                [
+                  64.2,
+                  53.4
+                ]
+              ],
+              "id": 270094,
+              "item": "Stormheart's Still-beating Heart",
+              "name": "Stormheart",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Thousand Needles"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1497,
+        1
+      ],
+      [
+        400,
+        1
+      ]
+    ]
+  },
+  "minLevel": 25,
+  "pageInfo": {
+    "name": "Thundering Hearts",
+    "type": 5,
+    "typeId": 97985
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 97985,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 270038,
+      "npcName": "Calder Gray",
+      "x": 49.2,
+      "y": 70.4,
+      "zoneId": 1497,
+      "zoneName": "Undercity"
+    }
+  ]
+}
