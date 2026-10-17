@@ -5824,17 +5824,16 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {
-            "lvl": "lvlsquish(25, 23, 10)"
+            "lvl": "25"
           },
-          "line": 859,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Scarlet Monastery.lua",
+          "line": 121,
+          "path": ".contrib/.db/forever/dungeons & raids/scarlet monastery.lua",
           "rawFields": {
             "coord": "{ 56.3, 92.2, MAP.UNDERCITY }",
-            "groups": "{\r\n\t\t\t\t\t\t\tobjective(1, {\t                                      \r\n\t\t\t\t\t\t\t\t[\"provider\"] = { \"n\", 3977 },\t                            \r\n\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t\tobjective(2, {\t                                       \r\n\t\t\t\t\t\t\t\t[\"provider\"] = { \"n\", 3976 },\t                             \r\n\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t\tobjective(3, {\t                  \r\n\t\t\t\t\t\t\t\t[\"provider\"] = { \"n\", 3975 },\t                               \r\n\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t\tobjective(4, {\t                               \r\n\t\t\t\t\t\t\t\t[\"provider\"] = { \"n\", 3974 },\t                     \r\n\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t\ti(6802, {\t                \r\n\t\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t\ti(6803, {\t                 \r\n\t\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t\ti(10711, {\t                          \r\n\t\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\t\tobjective(1, {\t                                      \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"n\", 3977 },\t                            \r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\tobjective(2, {\t                                       \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"n\", 3976 },\t                             \r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\tobjective(3, {\t                  \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"n\", 3975 },\t                               \r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\tobjective(4, {\t                               \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"n\", 3974 },\t                     \r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(6802),\t                \r\n\t\t\t\t\t\ti(6803),\t                 \r\n\t\t\t\t\t\ti(10711),\t                          \r\n\t\t\t\t\t}",
             "lvl": "33",
             "qg": "2425",
-            "races": "HORDE_ONLY",
-            "timeline": "{ REMOVED_3_3_0 }"
+            "races": "HORDE_ONLY"
           }
         }
       ],
@@ -5967,15 +5966,14 @@
           "inheritedFields": {
             "lvl": "28"
           },
-          "line": 305,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Scarlet Monastery.lua",
+          "line": 227,
+          "path": ".contrib/.db/forever/dungeons & raids/scarlet monastery.lua",
           "rawFields": {
             "coord": "{ 34.6, 47.2, MAP.THUNDER_BLUFF }",
-            "groups": "{\r\n\t\t\t\t\t\t\t\t\t\tobjective(1, {\t                               \r\n\t\t\t\t\t\t\t\t\t\t\t[\"providers\"] = {\r\n\t\t\t\t\t\t\t\t\t\t\t\t{ \"i\", 5535 },\t                           \r\n\t\t\t\t\t\t\t\t\t\t\t\t{ \"o\", 19283 },\t                           \r\n\t\t\t\t\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\t\t\t\t\t[\"description\"] = \"On one of the shelves on the left as you enter the final hallway leading to Doan.\",\r\n\t\t\t\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t\t\t\t\ti(17508, {\t                     \r\n\t\t\t\t\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t\t\t\t\ti(7749, {\t            \r\n\t\t\t\t\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t\t\t\t\ti(7747, {\t                 \r\n\t\t\t\t\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\t\t\t\tobjective(1, {\t                               \r\n\t\t\t\t\t\t\t\t\t[\"providers\"] = {\r\n\t\t\t\t\t\t\t\t\t\t{ \"i\", 5535 },\t                           \r\n\t\t\t\t\t\t\t\t\t\t{ \"o\", 19283 },\t                           \r\n\t\t\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\t\t\t[\"description\"] = \"On one of the shelves on the left as you enter the final hallway leading to Doan.\",\r\n\t\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t\t\ti(17508),\t                     \r\n\t\t\t\t\t\t\t\ti(7749),\t            \r\n\t\t\t\t\t\t\t\ti(7747),\t                 \r\n\t\t\t\t\t\t\t}",
             "lvl": "28",
             "qg": "3978",
-            "races": "exclude(UNDEAD, HORDE_ONLY)",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "races": "exclude(UNDEAD, HORDE_ONLY)"
           }
         }
       ],
@@ -6090,15 +6088,14 @@
           "inheritedFields": {
             "lvl": "28"
           },
-          "line": 330,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Scarlet Monastery.lua",
+          "line": 245,
+          "path": ".contrib/.db/forever/dungeons & raids/scarlet monastery.lua",
           "rawFields": {
             "coord": "{ 75.0, 12.5, MAP.IRONFORGE }",
-            "groups": "{\r\n\t\t\t\t\t\t\t\t\t\tobjective(1, {\t                              \r\n\t\t\t\t\t\t\t\t\t\t\t[\"providers\"] = {\r\n\t\t\t\t\t\t\t\t\t\t\t\t{ \"i\", 5536 },\t                          \r\n\t\t\t\t\t\t\t\t\t\t\t\t{ \"o\", 19284 },\t                          \r\n\t\t\t\t\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\t\t\t\t\t[\"description\"] = \"In the hallway with the benches immediately to your left upon entering it.\",\r\n\t\t\t\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t\t\t\t\ti(7746, {\t                                 \r\n\t\t\t\t\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\t\t\t\tobjective(1, {\t                              \r\n\t\t\t\t\t\t\t\t\t[\"providers\"] = {\r\n\t\t\t\t\t\t\t\t\t\t{ \"i\", 5536 },\t                          \r\n\t\t\t\t\t\t\t\t\t\t{ \"o\", 19284 },\t                          \r\n\t\t\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t\t\t\t[\"description\"] = \"In the hallway with the benches immediately to your left upon entering it.\",\r\n\t\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t\t\ti(7746),\t                                 \r\n\t\t\t\t\t\t\t}",
             "lvl": "28",
             "qg": "3979",
-            "races": "ALLIANCE_ONLY",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "races": "ALLIANCE_ONLY"
           }
         }
       ],
@@ -6211,17 +6208,16 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {
-            "lvl": "lvlsquish(25, 23, 10)"
+            "lvl": "25"
           },
-          "line": 176,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Scarlet Monastery.lua",
+          "line": 179,
+          "path": ".contrib/.db/forever/dungeons & raids/scarlet monastery.lua",
           "rawFields": {
-            "groups": "{\r\n\t\t\t\t\t\t\t\t\t\tobjective(1, {\t                            \r\n\t\t\t\t\t\t\t\t\t\t\t[\"provider\"] = { \"i\", 5538 },\t                        \r\n\t\t\t\t\t\t\t\t\t\t\t[\"coord\"] = { 32.3, 32.8, MAP.ALTERAC_MOUNTAINS },\r\n\t\t\t\t\t\t\t\t\t\t\t[\"cr\"] = 3984,\t               \r\n\t\t\t\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t\t\t\t\ti(4643, {\t                 \r\n\t\t\t\t\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t\t\t\t\ti(7750, {\t                \r\n\t\t\t\t\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t\t\t\t\ti(7751, {\t                 \r\n\t\t\t\t\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\t\t\t\tobjective(1, {\t                            \r\n\t\t\t\t\t\t\t\t\t[\"provider\"] = { \"i\", 5538 },\t                        \r\n\t\t\t\t\t\t\t\t\t[\"coord\"] = { 32.3, 32.8, MAP.ALTERAC_MOUNTAINS },\r\n\t\t\t\t\t\t\t\t\t[\"cr\"] = 3984,\t               \r\n\t\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t\t\ti(4643),\t                 \r\n\t\t\t\t\t\t\t\ti(7750),\t                \r\n\t\t\t\t\t\t\t\ti(7751),\t                 \r\n\t\t\t\t\t\t\t}",
             "lvl": "25",
             "maps": "{ MAP.ALTERAC_MOUNTAINS, MAP.HILLSBRAD_FOOTHILLS }",
             "qg": "3981",
-            "races": "HORDE_ONLY",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "races": "HORDE_ONLY"
           }
         }
       ],
@@ -6440,18 +6436,17 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {
-            "lvl": "lvlsquish(25, 23, 10)"
+            "lvl": "25"
           },
-          "line": 790,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Scarlet Monastery.lua",
+          "line": 96,
+          "path": ".contrib/.db/forever/dungeons & raids/scarlet monastery.lua",
           "rawFields": {
             "coord": "{ 51.5, 58.4, MAP.HILLSBRAD_FOOTHILLS }",
-            "groups": "{\r\n\t\t\t\t\t\t\tobjective(1, {\t                                      \r\n\t\t\t\t\t\t\t\t[\"provider\"] = { \"n\", 3977 },\t                            \r\n\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t\tobjective(2, {\t                                       \r\n\t\t\t\t\t\t\t\t[\"provider\"] = { \"n\", 3976 },\t                             \r\n\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t\tobjective(3, {\t                  \r\n\t\t\t\t\t\t\t\t[\"provider\"] = { \"n\", 3975 },\t                               \r\n\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t\tobjective(4, {\t                               \r\n\t\t\t\t\t\t\t\t[\"provider\"] = { \"n\", 3974 },\t                     \r\n\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t\ti(6830, {\t            \r\n\t\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t\ti(6831, {\t               \r\n\t\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t\ti(6829, {\t                    \r\n\t\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t\ti(11262, {\t                \r\n\t\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t\t}),\r\n\t\t\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\t\tobjective(1, {\t                                      \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"n\", 3977 },\t                            \r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\tobjective(2, {\t                                       \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"n\", 3976 },\t                             \r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\tobjective(3, {\t                  \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"n\", 3975 },\t                               \r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\tobjective(4, {\t                               \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"n\", 3974 },\t                     \r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(6830),\t            \r\n\t\t\t\t\t\ti(6831),\t               \r\n\t\t\t\t\t\ti(6829),\t                    \r\n\t\t\t\t\t\ti(11262),\t                \r\n\t\t\t\t\t}",
             "lvl": "34",
             "qg": "3980",
             "races": "ALLIANCE_ONLY",
-            "sourceQuest": "1052",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "sourceQuest": "1052"
           }
         }
       ],
@@ -36168,6 +36163,7 @@
                 }
               ]
             },
+            "requiredLevel": 4,
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
@@ -36176,7 +36172,7 @@
           "rawFields": {
             "coord": "{ 48.7, 59.3, MAP.MULGORE }",
             "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                         \r\n\t\t\t\t\t\tprovider = { \"i\", 4769 },\t                \r\n\t\t\t\t\t\tcrs = {\r\n\t\t\t\t\t\t\t2970,\t        \r\n\t\t\t\t\t\t\t2969,\t             \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
-            "lvl": "lvlsquish(4, 4, 1)",
+            "lvl": "4",
             "qg": "2947",
             "races": "HORDE_ONLY"
           }
@@ -36256,6 +36252,7 @@
         "stayAlive": false,
         "weekly": false
       },
+      "requiredLevel": 4,
       "requiredRaces": [
         2,
         5,
@@ -36274,13 +36271,6 @@
             ]
           ],
           "type": "npc"
-        }
-      ],
-      "unresolved": [
-        {
-          "expression": "lvlsquish(4, 4, 1)",
-          "field": "lvl",
-          "reason": "unsupported integer expression"
         }
       ]
     },
@@ -43804,16 +43794,17 @@
             "requiredLevel": 55,
             "requiredRaces": 8589934770
           },
-          "inheritedFields": {},
-          "line": 490,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Scholomance.lua",
+          "inheritedFields": {
+            "lvl": "55"
+          },
+          "line": 322,
+          "path": ".contrib/.db/forever/dungeons & raids/scholomance.lua",
           "rawFields": {
             "coord": "{ 83.1, 68.9, MAP.TIRISFAL_GLADES }",
             "lvl": "55",
             "qg": "10837",
             "races": "HORDE_ONLY",
-            "sourceQuest": "5098",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "sourceQuest": "5098"
           }
         }
       ],
@@ -58353,8 +58344,8 @@
           "inheritedFields": {
             "lvl": "55"
           },
-          "line": 526,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Scholomance.lua",
+          "line": 335,
+          "path": ".contrib/.db/forever/dungeons & raids/scholomance.lua",
           "rawFields": {
             "coord": "{ 83.3, 69.2, MAP.TIRISFAL_GLADES }",
             "maps": "{ MAP.WESTERN_PLAGUELANDS }",
