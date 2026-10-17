@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-25T06:59:08+00:00",
+  "fetchedAt": "2026-10-17T04:02:22+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +12,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 13[/li][li]Requires level 7[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Race: [race=96][/li][li][icon name=quest-start]Start: [url=/forever/npc=4949/thrall]Thrall[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3429/thork]Thork[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]7[/color][small] &nbsp;[/small][color=r1]9[/color][small] &nbsp;[/small][color=r2]11[/color][small] &nbsp;[/small][color=r3]16[/color][small] &nbsp;[/small][color=r4]19[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 13[/li][li]Requires level 7[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=4949/thrall]Thrall[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3429/thork]Thork[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]7[/color][small] &nbsp;[/small][color=r1]9[/color][small] &nbsp;[/small][color=r2]11[/color][small] &nbsp;[/small][color=r3]16[/color][small] &nbsp;[/small][color=r4]19[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -95,16 +95,14 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 98024,
-  "races": [
-    96
-  ],
+  "races": [],
   "startPins": [
     {
       "npcId": 4949,
       "npcName": "Thrall",
-      "zoneId": 1637,
       "x": 32.0,
       "y": 37.8,
+      "zoneId": 1637,
       "zoneName": "Orgrimmar"
     }
   ]

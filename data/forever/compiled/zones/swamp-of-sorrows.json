@@ -5,16 +5,16 @@
     "slug": "swamp-of-sorrows",
     "sourceSlug": "ek/swamp-of-sorrows",
     "sourceUrl": "https://www.wowhead.com/forever/quests/eastern-kingdoms/swamp-of-sorrows",
-    "sourceFetchedAt": "2026-09-24T23:19:10+00:00",
+    "sourceFetchedAt": "2026-10-17T11:20:36+00:00",
     "zoneId": 8
   },
-  "questCount": 22,
+  "questCount": 28,
   "quests": {
     "698": {
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 698,
         "list": {
           "category": 8,
@@ -50,6 +50,15 @@
         },
         "minLevel": 35,
         "name": "Lack of Surplus",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 5591,
+          "npcName": "Dar",
+          "x": 44.8,
+          "y": 57.2,
+          "zoneId": 8,
+          "zoneName": "Swamp of Sorrows"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -60,13 +69,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/swamp-of-sorrows"
         ],
+        "startPinCount": 1,
         "zoneId": 8,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:21:56+00:00",
+        "fetchedAt": "2026-10-16T20:50:16+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -2081,9 +2091,9 @@
           {
             "npcId": 5591,
             "npcName": "Dar",
-            "zoneId": 8,
             "x": 44.8,
             "y": 57.2,
+            "zoneId": 8,
             "zoneName": "Swamp of Sorrows"
           }
         ]
@@ -2093,7 +2103,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 699,
         "list": {
           "category": 8,
@@ -2129,6 +2139,15 @@
         },
         "minLevel": 35,
         "name": "Lack of Surplus",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 5592,
+          "npcName": "Tok'Kar",
+          "x": 81.4,
+          "y": 80.8,
+          "zoneId": 8,
+          "zoneName": "Swamp of Sorrows"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -2139,13 +2158,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/swamp-of-sorrows"
         ],
+        "startPinCount": 1,
         "zoneId": 8,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:21:57+00:00",
+        "fetchedAt": "2026-10-16T20:50:21+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -3876,9 +3896,9 @@
           {
             "npcId": 5592,
             "npcName": "Tok'Kar",
-            "zoneId": 8,
             "x": 81.4,
             "y": 80.8,
+            "zoneId": 8,
             "zoneName": "Swamp of Sorrows"
           }
         ]
@@ -3943,7 +3963,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T00:48:13+00:00",
+        "fetchedAt": "2026-10-16T21:51:15+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -4034,9 +4054,9 @@
           {
             "npcId": 1776,
             "npcName": "Magtoor",
-            "zoneId": 8,
             "x": 26.0,
             "y": 31.4,
+            "zoneId": 8,
             "zoneName": "Swamp of Sorrows"
           }
         ]
@@ -4093,7 +4113,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T00:48:38+00:00",
+        "fetchedAt": "2026-10-16T21:51:25+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -4234,7 +4254,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T00:48:38+00:00",
+        "fetchedAt": "2026-10-16T21:51:30+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -4363,9 +4383,9 @@
           {
             "npcId": 5391,
             "npcName": "Galen Goodward",
-            "zoneId": 8,
             "x": 65.4,
             "y": 18.2,
+            "zoneId": 8,
             "zoneName": "Swamp of Sorrows"
           }
         ]
@@ -4437,7 +4457,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:48:53+00:00",
+        "fetchedAt": "2026-10-16T21:51:45+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -4798,6 +4818,10 @@
                         48.8
                       ],
                       [
+                        38.2,
+                        42.6
+                      ],
+                      [
                         38.6,
                         47.6
                       ],
@@ -4811,15 +4835,35 @@
                       ],
                       [
                         40,
+                        42.8
+                      ],
+                      [
+                        40,
                         45
                       ],
                       [
+                        40.5,
+                        42.8
+                      ],
+                      [
+                        40.8,
+                        42.2
+                      ],
+                      [
                         41.2,
-                        41.8
+                        41.4
+                      ],
+                      [
+                        41.8,
+                        41.2
                       ],
                       [
                         42.2,
                         44
+                      ],
+                      [
+                        42.8,
+                        36.8
                       ],
                       [
                         42.8,
@@ -4828,6 +4872,10 @@
                       [
                         43,
                         44.4
+                      ],
+                      [
+                        43.1,
+                        39.9
                       ],
                       [
                         43.4,
@@ -4840,6 +4888,10 @@
                       [
                         44,
                         41.6
+                      ],
+                      [
+                        44.1,
+                        39.3
                       ],
                       [
                         44.8,
@@ -5419,6 +5471,10 @@
                       [
                         42.2,
                         29.2
+                      ],
+                      [
+                        42.7,
+                        37.4
                       ],
                       [
                         43,
@@ -6109,9 +6165,9 @@
           {
             "npcId": 5476,
             "npcName": "Watcher Biggs",
-            "zoneId": 8,
             "x": 26.8,
             "y": 59.6,
+            "zoneId": 8,
             "zoneName": "Swamp of Sorrows"
           }
         ]
@@ -6183,7 +6239,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:48:58+00:00",
+        "fetchedAt": "2026-10-16T21:52:05+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -6290,9 +6346,9 @@
           {
             "npcId": 5476,
             "npcName": "Watcher Biggs",
-            "zoneId": 8,
             "x": 26.8,
             "y": 59.6,
+            "zoneId": 8,
             "zoneName": "Swamp of Sorrows"
           }
         ]
@@ -6364,7 +6420,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T00:49:03+00:00",
+        "fetchedAt": "2026-10-16T21:52:05+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -6459,9 +6515,9 @@
           {
             "npcId": 1442,
             "npcName": "Helgrum the Swift",
-            "zoneId": 8,
             "x": 47.8,
             "y": 55.2,
+            "zoneId": 8,
             "zoneName": "Swamp of Sorrows"
           }
         ]
@@ -6533,7 +6589,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:49:18+00:00",
+        "fetchedAt": "2026-10-16T21:52:20+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -6640,9 +6696,9 @@
           {
             "npcId": 5476,
             "npcName": "Watcher Biggs",
-            "zoneId": 8,
             "x": 26.8,
             "y": 59.6,
+            "zoneId": 8,
             "zoneName": "Swamp of Sorrows"
           }
         ]
@@ -6865,7 +6921,18 @@
         },
         "minLevel": 30,
         "name": "The Lost Supplies",
+        "objectSpawnCount": 26,
         "pinCategory": "repeatable",
+        "primaryStart": {
+          "entityId": 28604,
+          "entityKind": "object",
+          "entityName": "Scattered Crate",
+          "uiMapId": 1435,
+          "uiMapName": "Swamp of Sorrows",
+          "x": 5.0,
+          "y": 31.3,
+          "zoneId": 8
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -6876,14 +6943,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/swamp-of-sorrows"
         ],
-        "startPinCount": 0,
+        "startPinCount": 26,
         "zoneId": 8,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:49:40+00:00",
+        "fetchedAt": "2026-10-16T21:52:30+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -6943,6 +7010,268 @@
           ]
         },
         "minLevel": 30,
+        "objectSpawns": [
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 5.0,
+            "y": 31.3,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 9.8,
+            "y": 30.0,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 12.7,
+            "y": 34.6,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 12.8,
+            "y": 34.3,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 14.3,
+            "y": 38.3,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 29.8,
+            "y": 50.0,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 29.9,
+            "y": 38.5,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 30.0,
+            "y": 38.3,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 33.6,
+            "y": 46.2,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 37.1,
+            "y": 36.0,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 43.2,
+            "y": 33.1,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 45.8,
+            "y": 35.4,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 45.9,
+            "y": 35.7,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 54.3,
+            "y": 30.5,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 54.4,
+            "y": 30.4,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 54.5,
+            "y": 30.4,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 54.5,
+            "y": 30.5,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 56.8,
+            "y": 24.8,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 56.9,
+            "y": 24.4,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 59.9,
+            "y": 21.5,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 62.2,
+            "y": 22.6,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 62.3,
+            "y": 22.3,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 64.0,
+            "y": 23.4,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 64.1,
+            "y": 23.5,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 64.8,
+            "y": 20.2,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 65.0,
+            "y": 20.6,
+            "zoneId": 8
+          }
+        ],
         "pageInfo": {
           "name": "The Lost Supplies",
           "type": 5,
@@ -6954,7 +7283,268 @@
         ],
         "questId": 1423,
         "races": [],
-        "startPins": []
+        "startPins": [
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 5.0,
+            "y": 31.3,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 9.8,
+            "y": 30.0,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 12.7,
+            "y": 34.6,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 12.8,
+            "y": 34.3,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 14.3,
+            "y": 38.3,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 29.8,
+            "y": 50.0,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 29.9,
+            "y": 38.5,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 30.0,
+            "y": 38.3,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 33.6,
+            "y": 46.2,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 37.1,
+            "y": 36.0,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 43.2,
+            "y": 33.1,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 45.8,
+            "y": 35.4,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 45.9,
+            "y": 35.7,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 54.3,
+            "y": 30.5,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 54.4,
+            "y": 30.4,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 54.5,
+            "y": 30.4,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 54.5,
+            "y": 30.5,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 56.8,
+            "y": 24.8,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 56.9,
+            "y": 24.4,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 59.9,
+            "y": 21.5,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 62.2,
+            "y": 22.6,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 62.3,
+            "y": 22.3,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 64.0,
+            "y": 23.4,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 64.1,
+            "y": 23.5,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 64.8,
+            "y": 20.2,
+            "zoneId": 8
+          },
+          {
+            "entityId": 28604,
+            "entityKind": "object",
+            "entityName": "Scattered Crate",
+            "uiMapId": 1435,
+            "uiMapName": "Swamp of Sorrows",
+            "x": 65.0,
+            "y": 20.6,
+            "zoneId": 8
+          }
+        ]
       }
     },
     "1424": {
@@ -7023,7 +7613,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T00:49:45+00:00",
+        "fetchedAt": "2026-10-16T21:52:35+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7106,9 +7696,9 @@
           {
             "npcId": 1443,
             "npcName": "Fel'zerul",
-            "zoneId": 8,
             "x": 48.0,
             "y": 55.0,
+            "zoneId": 8,
             "zoneName": "Swamp of Sorrows"
           }
         ]
@@ -7180,7 +7770,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T00:49:49+00:00",
+        "fetchedAt": "2026-10-16T21:52:40+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7295,9 +7885,9 @@
           {
             "npcId": 5476,
             "npcName": "Watcher Biggs",
-            "zoneId": 8,
             "x": 26.8,
             "y": 59.6,
+            "zoneId": 8,
             "zoneName": "Swamp of Sorrows"
           }
         ]
@@ -7369,7 +7959,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T00:49:55+00:00",
+        "fetchedAt": "2026-10-16T21:52:45+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -9111,9 +9701,9 @@
           {
             "npcId": 5593,
             "npcName": "Katar",
-            "zoneId": 8,
             "x": 83.6,
             "y": 80.4,
+            "zoneId": 8,
             "zoneName": "Swamp of Sorrows"
           }
         ]
@@ -9198,7 +9788,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T00:50:00+00:00",
+        "fetchedAt": "2026-10-16T21:53:05+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -9301,9 +9891,9 @@
           {
             "npcId": 5593,
             "npcName": "Katar",
-            "zoneId": 8,
             "x": 83.6,
             "y": 80.4,
+            "zoneId": 8,
             "zoneName": "Swamp of Sorrows"
           }
         ]
@@ -9375,7 +9965,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T00:50:05+00:00",
+        "fetchedAt": "2026-10-16T21:53:06+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -10925,9 +11515,9 @@
           {
             "npcId": 5593,
             "npcName": "Katar",
-            "zoneId": 8,
             "x": 83.6,
             "y": 80.4,
+            "zoneId": 8,
             "zoneName": "Swamp of Sorrows"
           }
         ]
@@ -10994,7 +11584,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T00:50:09+00:00",
+        "fetchedAt": "2026-10-16T21:53:11+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -11089,9 +11679,9 @@
           {
             "npcId": 1443,
             "npcName": "Fel'zerul",
-            "zoneId": 8,
             "x": 48.0,
             "y": 55.0,
+            "zoneId": 8,
             "zoneName": "Swamp of Sorrows"
           }
         ]
@@ -11172,7 +11762,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T00:50:15+00:00",
+        "fetchedAt": "2026-10-16T21:53:16+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12079,9 +12669,9 @@
           {
             "npcId": 5591,
             "npcName": "Dar",
-            "zoneId": 8,
             "x": 44.8,
             "y": 57.2,
+            "zoneId": 8,
             "zoneName": "Swamp of Sorrows"
           }
         ]
@@ -12148,7 +12738,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T01:28:22+00:00",
+        "fetchedAt": "2026-10-16T22:31:28+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12231,9 +12821,9 @@
           {
             "npcId": 7623,
             "npcName": "Dispatch Commander Ruag",
-            "zoneId": 8,
             "x": 47.8,
             "y": 55.0,
+            "zoneId": 8,
             "zoneName": "Swamp of Sorrows"
           }
         ]
@@ -12300,7 +12890,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T01:28:27+00:00",
+        "fetchedAt": "2026-10-16T22:31:29+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12543,9 +13133,9 @@
           {
             "npcId": 7643,
             "npcName": "Bengor",
-            "zoneId": 8,
             "x": 45.0,
             "y": 57.2,
+            "zoneId": 8,
             "zoneName": "Swamp of Sorrows"
           }
         ]
@@ -12607,7 +13197,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:53:17+00:00",
+        "fetchedAt": "2026-10-16T22:56:20+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12734,7 +13324,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:58:35+00:00",
+        "fetchedAt": "2026-10-16T23:01:49+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12836,9 +13426,1495 @@
           {
             "npcId": 5353,
             "npcName": "Itharius",
-            "zoneId": 8,
             "x": 13.6,
             "y": 71.6,
+            "zoneId": 8,
+            "zoneName": "Swamp of Sorrows"
+          }
+        ]
+      }
+    },
+    "93176": {
+      "index": {
+        "classes": [],
+        "hasDetail": true,
+        "id": 93176,
+        "list": {
+          "category": 8,
+          "category2": 0,
+          "currencychoicerewards": [],
+          "currencyrewards": [],
+          "envChange": {
+            "labels": [],
+            "lines": [],
+            "status": "new"
+          },
+          "firstseenpatch": 16001,
+          "icon": "quest-start",
+          "id": 93176,
+          "itemchoices": [],
+          "itemrewards": [],
+          "level": 35,
+          "money": 0,
+          "name": "My Little Friends",
+          "popularity": 208,
+          "reprewards": [],
+          "reqclass": 0,
+          "reqlevel": 25,
+          "side": 3,
+          "titlereward": 0,
+          "type": 0,
+          "xp": 3450
+        },
+        "minLevel": 25,
+        "name": "My Little Friends",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 217412,
+          "npcName": "Amaryllis Webb",
+          "x": 25.0,
+          "y": 54.2,
+          "zoneId": 8,
+          "zoneName": "Swamp of Sorrows"
+        },
+        "races": [],
+        "sourceKinds": [
+          "zone"
+        ],
+        "sourceSlugs": [
+          "ek/swamp-of-sorrows"
+        ],
+        "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/eastern-kingdoms/swamp-of-sorrows"
+        ],
+        "startPinCount": 1,
+        "zoneId": 8,
+        "zoneId2": 0
+      },
+      "detail": {
+        "classes": [],
+        "fetchedAt": "2026-10-17T12:06:34+00:00",
+        "infoboxFlags": {
+          "daily": false,
+          "dungeon": false,
+          "monthly": false,
+          "pvp": false,
+          "raid": false,
+          "repeatable": false,
+          "sharable": true,
+          "weekly": false
+        },
+        "infoboxMarkup": "[ul][li]Level: 35[/li][li]Requires level 25[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=217412/amaryllis-webb]Amaryllis Webb[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=217412/amaryllis-webb]Amaryllis Webb[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]25[/color][small] &nbsp;[/small][color=r1]31[/color][small] &nbsp;[/small][color=r2]33[/color][small] &nbsp;[/small][color=r3]38[/color][small] &nbsp;[/small][color=r4]44[/color][/li][li]Added in patch [acronym=\"1.60.1.70170\"]1.60.1[/acronym][/li][/ul]",
+        "mapper": {
+          "missing": 3,
+          "objectives": {
+            "8": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      25,
+                      54.2
+                    ],
+                    "coords": [
+                      [
+                        25,
+                        53.4
+                      ],
+                      [
+                        25,
+                        54.2
+                      ],
+                      [
+                        25.2,
+                        54.6
+                      ]
+                    ],
+                    "id": 217412,
+                    "name": "Amaryllis Webb",
+                    "point": "start",
+                    "reactalliance": 1,
+                    "reacthorde": 1,
+                    "type": 1
+                  },
+                  {
+                    "coord": [
+                      25,
+                      54.2
+                    ],
+                    "coords": [
+                      [
+                        25,
+                        53.4
+                      ],
+                      [
+                        25,
+                        54.2
+                      ],
+                      [
+                        25.2,
+                        54.6
+                      ]
+                    ],
+                    "id": 217412,
+                    "name": "Amaryllis Webb",
+                    "point": "end",
+                    "reactalliance": 1,
+                    "reacthorde": 1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Swamp of Sorrows"
+            }
+          },
+          "parent": "fweiuasf",
+          "zoneparent": "lksjdowlha",
+          "zones": [
+            [
+              8,
+              1
+            ]
+          ]
+        },
+        "minLevel": 25,
+        "pageInfo": {
+          "name": "My Little Friends",
+          "type": 5,
+          "typeId": 93176
+        },
+        "pinCategory": "normal",
+        "prerequisiteQuestIds": [],
+        "questId": 93176,
+        "races": [],
+        "startPins": [
+          {
+            "npcId": 217412,
+            "npcName": "Amaryllis Webb",
+            "x": 25.0,
+            "y": 54.2,
+            "zoneId": 8,
+            "zoneName": "Swamp of Sorrows"
+          }
+        ]
+      }
+    },
+    "93429": {
+      "index": {
+        "classes": [],
+        "faction": "Alliance",
+        "hasDetail": true,
+        "id": 93429,
+        "list": {
+          "category": 8,
+          "category2": 0,
+          "currencychoicerewards": [],
+          "currencyrewards": [],
+          "envChange": {
+            "labels": [],
+            "lines": [],
+            "status": "new"
+          },
+          "firstseenpatch": 16001,
+          "icon": "quest-start",
+          "id": 93429,
+          "itemchoices": [],
+          "itemrewards": [],
+          "level": 35,
+          "money": 3500,
+          "name": "Blood of My Blood",
+          "popularity": 97,
+          "reprewards": [],
+          "reqclass": 0,
+          "reqlevel": 30,
+          "side": 1,
+          "titlereward": 0,
+          "type": 0,
+          "xp": 2750
+        },
+        "minLevel": 30,
+        "name": "Blood of My Blood",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 254775,
+          "npcName": "Karana",
+          "x": 24.8,
+          "y": 32.4,
+          "zoneId": 8,
+          "zoneName": "Swamp of Sorrows"
+        },
+        "races": [],
+        "sourceKinds": [
+          "zone"
+        ],
+        "sourceSlugs": [
+          "ek/swamp-of-sorrows"
+        ],
+        "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/eastern-kingdoms/swamp-of-sorrows"
+        ],
+        "startPinCount": 1,
+        "zoneId": 8,
+        "zoneId2": 0
+      },
+      "detail": {
+        "classes": [],
+        "faction": "Alliance",
+        "fetchedAt": "2026-10-17T12:07:20+00:00",
+        "infoboxFlags": {
+          "daily": false,
+          "dungeon": false,
+          "monthly": false,
+          "pvp": false,
+          "raid": false,
+          "repeatable": false,
+          "sharable": true,
+          "weekly": false
+        },
+        "infoboxMarkup": "[ul][li]Level: 35[/li][li]Requires level 30[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=254775/karana]Karana[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=254775/karana]Karana[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]30[/color][small] &nbsp;[/small][color=r1]31[/color][small] &nbsp;[/small][color=r2]33[/color][small] &nbsp;[/small][color=r3]38[/color][small] &nbsp;[/small][color=r4]44[/color][/li][li]Added in patch [acronym=\"1.60.1.70205\"]1.60.1[/acronym][/li][/ul]",
+        "mapper": {
+          "missing": 1,
+          "objectives": {
+            "8": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      24.8,
+                      32.4
+                    ],
+                    "coords": [
+                      [
+                        24.8,
+                        32.4
+                      ],
+                      [
+                        25.6,
+                        31.4
+                      ],
+                      [
+                        26,
+                        32
+                      ],
+                      [
+                        26.4,
+                        32.6
+                      ]
+                    ],
+                    "id": 254775,
+                    "name": "Karana",
+                    "point": "start",
+                    "reactalliance": 0,
+                    "reacthorde": 0,
+                    "type": 1
+                  },
+                  {
+                    "coord": [
+                      24.8,
+                      32.4
+                    ],
+                    "coords": [
+                      [
+                        24.8,
+                        32.4
+                      ],
+                      [
+                        25.6,
+                        31.4
+                      ],
+                      [
+                        26,
+                        32
+                      ],
+                      [
+                        26.4,
+                        32.6
+                      ]
+                    ],
+                    "id": 254775,
+                    "name": "Karana",
+                    "point": "end",
+                    "reactalliance": 0,
+                    "reacthorde": 0,
+                    "type": 1
+                  },
+                  {
+                    "coord": [
+                      64.8,
+                      20.8
+                    ],
+                    "coords": [
+                      [
+                        54.4,
+                        30
+                      ],
+                      [
+                        54.8,
+                        30.2
+                      ],
+                      [
+                        54.8,
+                        30.6
+                      ],
+                      [
+                        55.4,
+                        28.8
+                      ],
+                      [
+                        55.6,
+                        29
+                      ],
+                      [
+                        55.8,
+                        28.4
+                      ],
+                      [
+                        56.4,
+                        25.2
+                      ],
+                      [
+                        56.4,
+                        25.6
+                      ],
+                      [
+                        56.6,
+                        25.2
+                      ],
+                      [
+                        56.6,
+                        25.6
+                      ],
+                      [
+                        57.2,
+                        24.4
+                      ],
+                      [
+                        57.6,
+                        23.4
+                      ],
+                      [
+                        57.6,
+                        23.8
+                      ],
+                      [
+                        57.6,
+                        25
+                      ],
+                      [
+                        58.2,
+                        26.6
+                      ],
+                      [
+                        58.4,
+                        26.4
+                      ],
+                      [
+                        58.6,
+                        26.4
+                      ],
+                      [
+                        61.4,
+                        22.4
+                      ],
+                      [
+                        61.4,
+                        22.6
+                      ],
+                      [
+                        61.8,
+                        22.4
+                      ],
+                      [
+                        61.8,
+                        23.4
+                      ],
+                      [
+                        62.4,
+                        23.8
+                      ],
+                      [
+                        62.6,
+                        23.4
+                      ],
+                      [
+                        62.6,
+                        23.8
+                      ],
+                      [
+                        62.8,
+                        24.6
+                      ],
+                      [
+                        64.4,
+                        23.4
+                      ],
+                      [
+                        64.4,
+                        23.6
+                      ],
+                      [
+                        64.6,
+                        23.6
+                      ],
+                      [
+                        64.8,
+                        20.8
+                      ],
+                      [
+                        64.8,
+                        22
+                      ],
+                      [
+                        64.8,
+                        23
+                      ],
+                      [
+                        65.6,
+                        21.4
+                      ],
+                      [
+                        65.6,
+                        21.6
+                      ]
+                    ],
+                    "id": 759,
+                    "name": "Lost One Hunter",
+                    "objective": 254797,
+                    "point": "requirement",
+                    "reactalliance": -1,
+                    "reacthorde": -1,
+                    "type": 1
+                  },
+                  {
+                    "coord": [
+                      61.2,
+                      26.4
+                    ],
+                    "coords": [
+                      [
+                        43,
+                        37.2
+                      ],
+                      [
+                        43.9,
+                        36.4
+                      ],
+                      [
+                        44.4,
+                        34.2
+                      ],
+                      [
+                        44.4,
+                        34.6
+                      ],
+                      [
+                        44.5,
+                        34
+                      ],
+                      [
+                        44.6,
+                        33.2
+                      ],
+                      [
+                        44.8,
+                        32.4
+                      ],
+                      [
+                        55.2,
+                        28.1
+                      ],
+                      [
+                        55.8,
+                        28.4
+                      ],
+                      [
+                        56.2,
+                        31.6
+                      ],
+                      [
+                        56.3,
+                        28.8
+                      ],
+                      [
+                        56.6,
+                        31.6
+                      ],
+                      [
+                        57.5,
+                        29.8
+                      ],
+                      [
+                        58.2,
+                        23.6
+                      ],
+                      [
+                        58.4,
+                        24.8
+                      ],
+                      [
+                        58.8,
+                        23.4
+                      ],
+                      [
+                        59,
+                        24.4
+                      ],
+                      [
+                        59,
+                        24.6
+                      ],
+                      [
+                        59.6,
+                        24
+                      ],
+                      [
+                        60.4,
+                        26.6
+                      ],
+                      [
+                        61.2,
+                        25.2
+                      ],
+                      [
+                        61.2,
+                        26.4
+                      ],
+                      [
+                        61.2,
+                        26.6
+                      ],
+                      [
+                        61.6,
+                        26.4
+                      ],
+                      [
+                        61.6,
+                        26.6
+                      ],
+                      [
+                        62.2,
+                        19
+                      ],
+                      [
+                        62.6,
+                        18.8
+                      ],
+                      [
+                        62.8,
+                        26
+                      ],
+                      [
+                        63,
+                        18.4
+                      ],
+                      [
+                        63.2,
+                        17.2
+                      ],
+                      [
+                        63.4,
+                        21
+                      ],
+                      [
+                        63.4,
+                        25.4
+                      ],
+                      [
+                        63.6,
+                        21.6
+                      ],
+                      [
+                        64,
+                        17.2
+                      ],
+                      [
+                        64,
+                        25.6
+                      ],
+                      [
+                        64.2,
+                        20.6
+                      ],
+                      [
+                        64.4,
+                        18.4
+                      ],
+                      [
+                        64.4,
+                        18.6
+                      ],
+                      [
+                        64.4,
+                        20.4
+                      ],
+                      [
+                        64.4,
+                        25.2
+                      ],
+                      [
+                        64.6,
+                        18.4
+                      ],
+                      [
+                        64.6,
+                        18.6
+                      ],
+                      [
+                        64.6,
+                        20.2
+                      ],
+                      [
+                        64.6,
+                        25
+                      ],
+                      [
+                        64.6,
+                        25.6
+                      ],
+                      [
+                        64.8,
+                        21
+                      ],
+                      [
+                        66.4,
+                        17.6
+                      ],
+                      [
+                        67.4,
+                        21.4
+                      ]
+                    ],
+                    "id": 760,
+                    "name": "Lost One Muckdweller",
+                    "objective": 254797,
+                    "point": "requirement",
+                    "reactalliance": -1,
+                    "reacthorde": -1,
+                    "type": 1
+                  },
+                  {
+                    "coord": [
+                      60,
+                      22.4
+                    ],
+                    "coords": [
+                      [
+                        59.4,
+                        21.4
+                      ],
+                      [
+                        59.6,
+                        21.4
+                      ],
+                      [
+                        59.8,
+                        23.8
+                      ],
+                      [
+                        60,
+                        22.4
+                      ],
+                      [
+                        60,
+                        22.8
+                      ],
+                      [
+                        60.6,
+                        20.6
+                      ],
+                      [
+                        60.6,
+                        22.2
+                      ],
+                      [
+                        60.8,
+                        22.6
+                      ],
+                      [
+                        61,
+                        24.4
+                      ],
+                      [
+                        61.6,
+                        21.2
+                      ],
+                      [
+                        61.6,
+                        24
+                      ],
+                      [
+                        64,
+                        23.2
+                      ],
+                      [
+                        64.4,
+                        20
+                      ],
+                      [
+                        64.4,
+                        22.2
+                      ],
+                      [
+                        64.6,
+                        22.6
+                      ],
+                      [
+                        64.8,
+                        22
+                      ],
+                      [
+                        65,
+                        21
+                      ],
+                      [
+                        65.2,
+                        19.2
+                      ],
+                      [
+                        65.2,
+                        19.8
+                      ],
+                      [
+                        65.6,
+                        20.2
+                      ]
+                    ],
+                    "id": 761,
+                    "name": "Lost One Seer",
+                    "objective": 254797,
+                    "point": "requirement",
+                    "reactalliance": -1,
+                    "reacthorde": -1,
+                    "type": 1
+                  },
+                  {
+                    "coord": [
+                      64.6,
+                      22.2
+                    ],
+                    "coords": [
+                      [
+                        60,
+                        22.4
+                      ],
+                      [
+                        60,
+                        22.8
+                      ],
+                      [
+                        60.6,
+                        22.4
+                      ],
+                      [
+                        60.8,
+                        23.2
+                      ],
+                      [
+                        61,
+                        24
+                      ],
+                      [
+                        61.8,
+                        20.8
+                      ],
+                      [
+                        64,
+                        23.2
+                      ],
+                      [
+                        64.2,
+                        23.6
+                      ],
+                      [
+                        64.4,
+                        22.2
+                      ],
+                      [
+                        64.6,
+                        22.2
+                      ],
+                      [
+                        64.6,
+                        22.6
+                      ],
+                      [
+                        65,
+                        20.2
+                      ],
+                      [
+                        65,
+                        20.6
+                      ]
+                    ],
+                    "id": 762,
+                    "name": "Lost One Riftseeker",
+                    "objective": 254797,
+                    "point": "requirement",
+                    "reactalliance": -1,
+                    "reacthorde": -1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Swamp of Sorrows"
+            }
+          },
+          "parent": "fweiuasf",
+          "zoneparent": "lksjdowlha",
+          "zones": [
+            [
+              8,
+              5
+            ]
+          ]
+        },
+        "minLevel": 30,
+        "pageInfo": {
+          "name": "Blood of My Blood",
+          "type": 5,
+          "typeId": 93429
+        },
+        "pinCategory": "normal",
+        "prerequisiteQuestIds": [],
+        "questId": 93429,
+        "races": [],
+        "startPins": [
+          {
+            "npcId": 254775,
+            "npcName": "Karana",
+            "x": 24.8,
+            "y": 32.4,
+            "zoneId": 8,
+            "zoneName": "Swamp of Sorrows"
+          }
+        ]
+      }
+    },
+    "93430": {
+      "index": {
+        "classes": [],
+        "hasDetail": true,
+        "id": 93430,
+        "list": {
+          "category": 8,
+          "category2": 0,
+          "currencychoicerewards": [],
+          "currencyrewards": [],
+          "envChange": {
+            "labels": [],
+            "lines": [],
+            "status": "new"
+          },
+          "firstseenpatch": 16001,
+          "icon": "quest-start",
+          "id": 93430,
+          "itemchoices": [],
+          "itemrewards": [],
+          "level": 35,
+          "money": 3500,
+          "name": "Taking the Bait Back",
+          "popularity": 940,
+          "reprewards": [],
+          "reqclass": 0,
+          "reqlevel": 30,
+          "side": 0,
+          "titlereward": 0,
+          "type": 0,
+          "xp": 2750
+        },
+        "minLevel": 30,
+        "name": "Taking the Bait Back",
+        "pinCategory": "normal",
+        "races": [],
+        "sourceKinds": [
+          "zone"
+        ],
+        "sourceSlugs": [
+          "ek/swamp-of-sorrows"
+        ],
+        "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/eastern-kingdoms/swamp-of-sorrows"
+        ],
+        "startPinCount": 0,
+        "zoneId": 8,
+        "zoneId2": 0
+      },
+      "detail": {
+        "classes": [],
+        "fetchedAt": "2026-10-17T12:07:25+00:00",
+        "infoboxFlags": {
+          "daily": false,
+          "dungeon": false,
+          "monthly": false,
+          "pvp": false,
+          "raid": false,
+          "repeatable": false,
+          "sharable": true,
+          "weekly": false
+        },
+        "infoboxMarkup": "[ul][li]Level: 35[/li][li]Requires level 30[/li][li]Side: None[/li][li]Sharable[/li][li]Difficulty: [color=q10]30[/color][small] &nbsp;[/small][color=r1]31[/color][small] &nbsp;[/small][color=r2]33[/color][small] &nbsp;[/small][color=r3]38[/color][small] &nbsp;[/small][color=r4]44[/color][/li][li]Added in patch [acronym=\"1.60.1.70205\"]1.60.1[/acronym][/li][/ul]",
+        "mapper": {
+          "missing": 0,
+          "objectives": {
+            "8": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      57,
+                      27.2
+                    ],
+                    "coords": [
+                      [
+                        43,
+                        39
+                      ],
+                      [
+                        43.2,
+                        38.4
+                      ],
+                      [
+                        48.2,
+                        30.4
+                      ],
+                      [
+                        48.6,
+                        30.2
+                      ],
+                      [
+                        54.4,
+                        30.2
+                      ],
+                      [
+                        54.8,
+                        29.4
+                      ],
+                      [
+                        54.8,
+                        30.2
+                      ],
+                      [
+                        54.8,
+                        30.6
+                      ],
+                      [
+                        56.4,
+                        27.4
+                      ],
+                      [
+                        56.4,
+                        27.6
+                      ],
+                      [
+                        57,
+                        27.2
+                      ],
+                      [
+                        57.6,
+                        26.8
+                      ]
+                    ],
+                    "id": 757,
+                    "item": "Lucky Lure",
+                    "name": "Lost One Fisherman",
+                    "objective": 0,
+                    "point": "sourcerequirement",
+                    "reactalliance": -1,
+                    "reacthorde": -1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Swamp of Sorrows"
+            }
+          },
+          "parent": "fweiuasf",
+          "zoneparent": "lksjdowlha",
+          "zones": [
+            [
+              8,
+              1
+            ]
+          ]
+        },
+        "minLevel": 30,
+        "pageInfo": {
+          "name": "Taking the Bait Back",
+          "type": 5,
+          "typeId": 93430
+        },
+        "pinCategory": "normal",
+        "prerequisiteQuestIds": [],
+        "questId": 93430,
+        "races": [],
+        "startPins": []
+      }
+    },
+    "93464": {
+      "index": {
+        "classes": [],
+        "hasDetail": true,
+        "id": 93464,
+        "list": {
+          "category": 8,
+          "category2": 0,
+          "currencychoicerewards": [],
+          "currencyrewards": [],
+          "envChange": {
+            "labels": [],
+            "lines": [],
+            "status": "new"
+          },
+          "firstseenpatch": 16001,
+          "icon": "quest-start",
+          "id": 93464,
+          "itemchoices": [],
+          "itemrewards": [],
+          "level": 38,
+          "money": 1100,
+          "name": "The Visiting Mage",
+          "popularity": 103,
+          "reprewards": [],
+          "reqclass": 0,
+          "reqlevel": 30,
+          "side": 0,
+          "titlereward": 0,
+          "type": 0,
+          "xp": 710
+        },
+        "minLevel": 30,
+        "name": "The Visiting Mage",
+        "pinCategory": "normal",
+        "races": [],
+        "sourceKinds": [
+          "zone"
+        ],
+        "sourceSlugs": [
+          "ek/swamp-of-sorrows"
+        ],
+        "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/eastern-kingdoms/swamp-of-sorrows"
+        ],
+        "startPinCount": 0,
+        "zoneId": 8,
+        "zoneId2": 0
+      },
+      "detail": {
+        "classes": [],
+        "fetchedAt": "2026-10-17T12:07:30+00:00",
+        "infoboxFlags": {
+          "daily": false,
+          "dungeon": false,
+          "monthly": false,
+          "pvp": false,
+          "raid": false,
+          "repeatable": false,
+          "sharable": true,
+          "weekly": false
+        },
+        "infoboxMarkup": "[ul][li]Level: 38[/li][li]Requires level 30[/li][li]Side: None[/li][li][icon name=quest-end]End: [url=/forever/npc=11863/azore-aldamort]Azore Aldamort[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]30[/color][small] &nbsp;[/small][color=r1]34[/color][small] &nbsp;[/small][color=r2]36[/color][small] &nbsp;[/small][color=r3]41[/color][small] &nbsp;[/small][color=r4]47[/color][/li][li]Added in patch [acronym=\"1.60.1.70205\"]1.60.1[/acronym][/li][/ul]",
+        "mapper": {
+          "missing": 0,
+          "objectives": {
+            "405": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      38.8,
+                      27.2
+                    ],
+                    "coords": [
+                      [
+                        38.8,
+                        27.2
+                      ]
+                    ],
+                    "id": 11863,
+                    "name": "Azore Aldamort",
+                    "point": "end",
+                    "reactalliance": 1,
+                    "reacthorde": 1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Desolace"
+            }
+          },
+          "parent": "fweiuasf",
+          "zoneparent": "lksjdowlha",
+          "zones": [
+            [
+              405,
+              1
+            ]
+          ]
+        },
+        "minLevel": 30,
+        "pageInfo": {
+          "name": "The Visiting Mage",
+          "type": 5,
+          "typeId": 93464
+        },
+        "pinCategory": "normal",
+        "prerequisiteQuestIds": [],
+        "questId": 93464,
+        "races": [],
+        "startPins": []
+      }
+    },
+    "93585": {
+      "index": {
+        "classes": [],
+        "faction": "Alliance",
+        "hasDetail": true,
+        "id": 93585,
+        "list": {
+          "category": 8,
+          "category2": 0,
+          "currencychoicerewards": [],
+          "currencyrewards": [],
+          "envChange": {
+            "labels": [],
+            "lines": [],
+            "status": "new"
+          },
+          "firstseenpatch": 16001,
+          "icon": "quest-start",
+          "id": 93585,
+          "itemchoices": [],
+          "itemrewards": [],
+          "level": 34,
+          "money": 0,
+          "name": "This Light of Mine",
+          "popularity": 84,
+          "reprewards": [],
+          "reqclass": 0,
+          "reqlevel": 30,
+          "side": 1,
+          "titlereward": 0,
+          "type": 0,
+          "xp": 2700
+        },
+        "minLevel": 30,
+        "name": "This Light of Mine",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 255597,
+          "npcName": "Father Tuttle",
+          "x": 22.2,
+          "y": 50.2,
+          "zoneId": 8,
+          "zoneName": "Swamp of Sorrows"
+        },
+        "races": [],
+        "sourceKinds": [
+          "zone"
+        ],
+        "sourceSlugs": [
+          "ek/swamp-of-sorrows"
+        ],
+        "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/eastern-kingdoms/swamp-of-sorrows"
+        ],
+        "startPinCount": 1,
+        "zoneId": 8,
+        "zoneId2": 0
+      },
+      "detail": {
+        "classes": [],
+        "faction": "Alliance",
+        "fetchedAt": "2026-10-17T12:07:40+00:00",
+        "infoboxFlags": {
+          "daily": false,
+          "dungeon": false,
+          "monthly": false,
+          "pvp": false,
+          "raid": false,
+          "repeatable": false,
+          "sharable": true,
+          "weekly": false
+        },
+        "infoboxMarkup": "[ul][li]Level: 34[/li][li]Requires level 30[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=255597/father-tuttle]Father Tuttle[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1776/magtoor]Magtoor[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]30[/color][small] &nbsp;[/small][color=r2]32[/color][small] &nbsp;[/small][color=r3]37[/color][small] &nbsp;[/small][color=r4]43[/color][/li][li]Added in patch [acronym=\"1.60.1.70205\"]1.60.1[/acronym][/li][/ul]",
+        "mapper": {
+          "missing": 1,
+          "objectives": {
+            "8": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      22.2,
+                      50.2
+                    ],
+                    "coords": [
+                      [
+                        22,
+                        50.6
+                      ],
+                      [
+                        22.2,
+                        50.2
+                      ],
+                      [
+                        23.2,
+                        47.8
+                      ],
+                      [
+                        24,
+                        47.2
+                      ],
+                      [
+                        24.6,
+                        47.2
+                      ],
+                      [
+                        24.8,
+                        46.2
+                      ],
+                      [
+                        25.4,
+                        45.2
+                      ],
+                      [
+                        25.6,
+                        44.2
+                      ],
+                      [
+                        26.8,
+                        40.4
+                      ],
+                      [
+                        27,
+                        35.4
+                      ],
+                      [
+                        27,
+                        39
+                      ]
+                    ],
+                    "id": 255597,
+                    "name": "Father Tuttle",
+                    "point": "start",
+                    "reactalliance": 1,
+                    "reacthorde": -1,
+                    "type": 1
+                  },
+                  {
+                    "coord": [
+                      26,
+                      31.4
+                    ],
+                    "coords": [
+                      [
+                        26,
+                        31.4
+                      ],
+                      [
+                        26,
+                        31.6
+                      ]
+                    ],
+                    "id": 1776,
+                    "name": "Magtoor",
+                    "point": "end",
+                    "reactalliance": 1,
+                    "reacthorde": 1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Swamp of Sorrows"
+            }
+          },
+          "parent": "fweiuasf",
+          "zoneparent": "lksjdowlha",
+          "zones": [
+            [
+              8,
+              2
+            ]
+          ]
+        },
+        "minLevel": 30,
+        "pageInfo": {
+          "name": "This Light of Mine",
+          "type": 5,
+          "typeId": 93585
+        },
+        "pinCategory": "normal",
+        "prerequisiteQuestIds": [],
+        "questId": 93585,
+        "races": [],
+        "startPins": [
+          {
+            "npcId": 255597,
+            "npcName": "Father Tuttle",
+            "x": 22.2,
+            "y": 50.2,
+            "zoneId": 8,
+            "zoneName": "Swamp of Sorrows"
+          }
+        ]
+      }
+    },
+    "93663": {
+      "index": {
+        "classes": [],
+        "faction": "Horde",
+        "hasDetail": true,
+        "id": 93663,
+        "list": {
+          "category": 8,
+          "category2": 0,
+          "currencychoicerewards": [],
+          "currencyrewards": [],
+          "envChange": {
+            "labels": [],
+            "lines": [],
+            "status": "new"
+          },
+          "firstseenpatch": 16001,
+          "icon": "quest-start",
+          "id": 93663,
+          "itemchoices": [],
+          "itemrewards": [],
+          "level": 35,
+          "money": 3500,
+          "name": "Lost in Transit",
+          "popularity": 106,
+          "reprewards": [],
+          "reqclass": 0,
+          "reqlevel": 30,
+          "side": 2,
+          "titlereward": 0,
+          "type": 0,
+          "xp": 2750
+        },
+        "minLevel": 30,
+        "name": "Lost in Transit",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 5591,
+          "npcName": "Dar",
+          "x": 44.8,
+          "y": 57.2,
+          "zoneId": 8,
+          "zoneName": "Swamp of Sorrows"
+        },
+        "races": [],
+        "sourceKinds": [
+          "zone"
+        ],
+        "sourceSlugs": [
+          "ek/swamp-of-sorrows"
+        ],
+        "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/eastern-kingdoms/swamp-of-sorrows"
+        ],
+        "startPinCount": 1,
+        "zoneId": 8,
+        "zoneId2": 0
+      },
+      "detail": {
+        "classes": [],
+        "faction": "Horde",
+        "fetchedAt": "2026-10-17T12:07:45+00:00",
+        "infoboxFlags": {
+          "daily": false,
+          "dungeon": false,
+          "monthly": false,
+          "pvp": false,
+          "raid": false,
+          "repeatable": false,
+          "sharable": true,
+          "weekly": false
+        },
+        "infoboxMarkup": "[ul][li]Level: 35[/li][li]Requires level 30[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=5591/dar]Dar[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1776/magtoor]Magtoor[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]30[/color][small] &nbsp;[/small][color=r1]31[/color][small] &nbsp;[/small][color=r2]33[/color][small] &nbsp;[/small][color=r3]38[/color][small] &nbsp;[/small][color=r4]44[/color][/li][li]Added in patch [acronym=\"1.60.1.70205\"]1.60.1[/acronym][/li][/ul]",
+        "mapper": {
+          "missing": 1,
+          "objectives": {
+            "8": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      44.8,
+                      57.2
+                    ],
+                    "coords": [
+                      [
+                        44.8,
+                        57.2
+                      ]
+                    ],
+                    "id": 5591,
+                    "name": "Dar",
+                    "point": "start",
+                    "reactalliance": 0,
+                    "reacthorde": 1,
+                    "type": 1
+                  },
+                  {
+                    "coord": [
+                      26,
+                      31.4
+                    ],
+                    "coords": [
+                      [
+                        26,
+                        31.4
+                      ],
+                      [
+                        26,
+                        31.6
+                      ]
+                    ],
+                    "id": 1776,
+                    "name": "Magtoor",
+                    "point": "end",
+                    "reactalliance": 1,
+                    "reacthorde": 1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Swamp of Sorrows"
+            }
+          },
+          "parent": "fweiuasf",
+          "zoneparent": "lksjdowlha",
+          "zones": [
+            [
+              8,
+              2
+            ]
+          ]
+        },
+        "minLevel": 30,
+        "pageInfo": {
+          "name": "Lost in Transit",
+          "type": 5,
+          "typeId": 93663
+        },
+        "pinCategory": "normal",
+        "prerequisiteQuestIds": [],
+        "questId": 93663,
+        "races": [],
+        "startPins": [
+          {
+            "npcId": 5591,
+            "npcName": "Dar",
+            "x": 44.8,
+            "y": 57.2,
+            "zoneId": 8,
             "zoneName": "Swamp of Sorrows"
           }
         ]

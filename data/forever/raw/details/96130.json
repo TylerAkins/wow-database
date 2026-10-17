@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-25T11:22:54+00:00",
+  "fetchedAt": "2026-10-17T03:46:11+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +12,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 8[/li][li]Requires level 5[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3065/yaw-sharpmane]Yaw Sharpmane[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3065/yaw-sharpmane]Yaw Sharpmane[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]5[/color][small] &nbsp;[/small][color=r2]6[/color][small] &nbsp;[/small][color=r3]11[/color][small] &nbsp;[/small][color=r4]14[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 5[/li][li]Requires level 4[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Races: [race=5], [race=6][/li][li][icon name=quest-start]Start: [url=/forever/npc=3065/yaw-sharpmane]Yaw Sharpmane[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3065/yaw-sharpmane]Yaw Sharpmane[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]4[/color][small] &nbsp;[/small][color=r3]8[/color][small] &nbsp;[/small][color=r4]11[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -21,8 +21,8 @@
           [
             {
               "coord": [
-                47.8,
-                55.6
+                46.8,
+                59.6
               ],
               "coords": [
                 [
@@ -47,8 +47,8 @@
             },
             {
               "coord": [
-                47.8,
-                55.6
+                46.8,
+                59.6
               ],
               "coords": [
                 [
@@ -73,17 +73,17 @@
             },
             {
               "coord": [
-                39.4,
-                66
+                39.3,
+                65.3
               ],
               "coords": [
                 [
-                  38.8,
-                  62.2
+                  39.3,
+                  65.3
                 ],
                 [
-                  39.2,
-                  62.6
+                  39.4,
+                  63
                 ],
                 [
                   39.4,
@@ -91,31 +91,19 @@
                 ],
                 [
                   39.4,
-                  65.4
-                ],
-                [
-                  39.4,
-                  66
-                ],
-                [
-                  39.4,
-                  67.2
-                ],
-                [
-                  39.6,
                   66
                 ],
                 [
                   39.6,
-                  66.8
+                  64.4
                 ],
                 [
-                  39.8,
-                  64.2
-                ],
-                [
-                  39.8,
+                  39.6,
                   65.2
+                ],
+                [
+                  39.6,
+                  65.8
                 ]
               ],
               "id": 268558,
@@ -142,7 +130,7 @@
       ]
     ]
   },
-  "minLevel": 5,
+  "minLevel": 4,
   "pageInfo": {
     "name": "Chakuyak",
     "type": 5,
@@ -151,14 +139,17 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 96130,
-  "races": [],
+  "races": [
+    5,
+    6
+  ],
   "startPins": [
     {
       "npcId": 3065,
       "npcName": "Yaw Sharpmane",
+      "x": 46.8,
+      "y": 59.6,
       "zoneId": 215,
-      "x": 47.8,
-      "y": 55.6,
       "zoneName": "Mulgore"
     }
   ]

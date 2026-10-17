@@ -1,128 +1,8 @@
 {
-  "fetchedAt": "2026-09-24T23:19:10+00:00",
+  "fetchedAt": "2026-10-17T11:20:01+00:00",
   "kind": "zone",
-  "questCount": 43,
+  "questCount": 42,
   "quests": [
-    {
-      "category": 44,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [
-        [
-          3402,
-          50
-        ]
-      ],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 98248,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 0,
-      "name": "Shipping Label",
-      "popularity": 1765,
-      "reprewards": [
-        [
-          2587,
-          2000
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 10,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 660
-    },
-    {
-      "category": 44,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [
-        [
-          3402,
-          50
-        ]
-      ],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 98247,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 0,
-      "name": "Shipping Label",
-      "popularity": 1643,
-      "reprewards": [
-        [
-          2586,
-          2000
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 10,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 660
-    },
-    {
-      "category": 44,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [
-          "rewards_changed"
-        ],
-        "lines": [
-          "Rewards: adds Choice of Demonhide Bracers, Choice of Rose Mantle, Choice of Shadow Gauntlets",
-          "Rewards: no longer Rose Mantle"
-        ],
-        "notShown": [
-          "Rewards: adds Choice of Demonhide Bracers, Choice of Rose Mantle, Choice of Shadow Gauntlets",
-          "Rewards: no longer Rose Mantle"
-        ],
-        "status": "updated"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 249,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          5274,
-          1
-        ]
-      ],
-      "level": 27,
-      "money": 0,
-      "name": "Morganth",
-      "popularity": 834,
-      "reprewards": [
-        [
-          72,
-          150
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 1,
-      "xp": 2750
-    },
     {
       "category": 44,
       "category2": 0,
@@ -150,7 +30,7 @@
       "level": 15,
       "money": 0,
       "name": "Dry Times",
-      "popularity": 695,
+      "popularity": 598,
       "reprewards": [
         [
           72,
@@ -163,6 +43,43 @@
       "titlereward": 0,
       "type": 0,
       "xp": 1050
+    },
+    {
+      "category": 44,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [
+        [
+          3402,
+          50
+        ]
+      ],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 98247,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 60,
+      "money": 0,
+      "name": "Shipping Label",
+      "popularity": 546,
+      "reprewards": [
+        [
+          2586,
+          2000
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 10,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 660
     },
     {
       "category": 44,
@@ -182,7 +99,7 @@
       "level": 15,
       "money": 0,
       "name": "Hilary's Necklace",
-      "popularity": 450,
+      "popularity": 420,
       "reprewards": [
         [
           72,
@@ -195,6 +112,229 @@
       "titlereward": 0,
       "type": 0,
       "xp": 1350
+    },
+    {
+      "category": 44,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "rewards_changed"
+        ],
+        "lines": [
+          "Rewards: adds Choice of Demonhide Bracers, Choice of Rose Mantle, Choice of Shadow Gauntlets",
+          "Rewards: no longer Rose Mantle"
+        ],
+        "notShown": [
+          "Rewards: adds Choice of Demonhide Bracers, Choice of Rose Mantle, Choice of Shadow Gauntlets",
+          "Rewards: no longer Rose Mantle"
+        ],
+        "status": "updated"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 249,
+      "itemchoices": [
+        [
+          5274,
+          1
+        ],
+        [
+          270033,
+          1
+        ],
+        [
+          270034,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 27,
+      "money": 0,
+      "name": "Morganth",
+      "popularity": 280,
+      "reprewards": [
+        [
+          72,
+          150
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 2750
+    },
+    {
+      "category": 44,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 98387,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 21,
+      "money": 1300,
+      "name": "Blackrock Blockade",
+      "popularity": 279,
+      "reprewards": [
+        [
+          72,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 18,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1650
+    },
+    {
+      "category": 44,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 98386,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 21,
+      "money": 1300,
+      "name": "Alther's Mill",
+      "popularity": 275,
+      "reprewards": [
+        [
+          72,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 15,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1650
+    },
+    {
+      "category": 44,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 19,
+      "itemchoices": [
+        [
+          1276,
+          1
+        ],
+        [
+          6093,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 25,
+      "money": 0,
+      "name": "Tharil'zun",
+      "popularity": 270,
+      "reprewards": [
+        [
+          72,
+          150
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 18,
+      "side": 1,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 2550
+    },
+    {
+      "category": 44,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 248,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 22,
+      "money": 0,
+      "name": "Looking Further",
+      "popularity": 270,
+      "reprewards": [
+        [
+          72,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 1300
+    },
+    {
+      "category": 44,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 115,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 23,
+      "money": 3000,
+      "name": "Shadow Magic",
+      "popularity": 218,
+      "reprewards": [
+        [
+          72,
+          150
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 18,
+      "side": 1,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 2300
     },
     {
       "category": 44,
@@ -227,7 +367,7 @@
       "level": 25,
       "money": 3500,
       "name": "WANTED: Incinerator Gar'im",
-      "popularity": 428,
+      "popularity": 214,
       "reprewards": [
         [
           72,
@@ -249,65 +389,29 @@
       "envChange": {
         "labels": [],
         "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 95816,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 900,
-      "name": "Sign Me Up!",
-      "popularity": 331,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 1,
-      "side": 0,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 660
-    },
-    {
-      "category": 44,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
         "status": "unchanged"
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 19,
-      "itemchoices": [
-        [
-          1276,
-          1
-        ],
-        [
-          6093,
-          1
-        ]
-      ],
+      "id": 118,
+      "itemchoices": [],
       "itemrewards": [],
-      "level": 25,
+      "level": 18,
       "money": 0,
-      "name": "Tharil'zun",
-      "popularity": 290,
+      "name": "The Price of Shoes",
+      "popularity": 206,
       "reprewards": [
         [
           72,
-          150
+          25
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 18,
+      "reqlevel": 14,
       "side": 1,
       "titlereward": 0,
-      "type": 1,
-      "xp": 2550
+      "type": 0,
+      "xp": 340
     },
     {
       "category": 44,
@@ -321,22 +425,13 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 126,
-      "itemchoices": [
-        [
-          1319,
-          1
-        ],
-        [
-          2910,
-          1
-        ]
-      ],
+      "id": 20,
+      "itemchoices": [],
       "itemrewards": [],
-      "level": 25,
-      "money": 0,
-      "name": "Howling in the Hills",
-      "popularity": 249,
+      "level": 21,
+      "money": 1300,
+      "name": "Blackrock Menace",
+      "popularity": 203,
       "reprewards": [
         [
           72,
@@ -344,11 +439,11 @@
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 15,
+      "reqlevel": 18,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 2000
+      "xp": 1650
     },
     {
       "category": 44,
@@ -362,25 +457,52 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 124,
+      "id": 94,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 20,
-      "money": 900,
-      "name": "A Baying of Gnolls",
-      "popularity": 246,
-      "reprewards": [
-        [
-          72,
-          75
-        ]
-      ],
+      "level": 21,
+      "money": 0,
+      "name": "A Watchful Eye",
+      "popularity": 202,
+      "reprewards": [],
       "reqclass": 0,
-      "reqlevel": 15,
+      "reqlevel": 20,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 1150
+      "xp": 1250
+    },
+    {
+      "category": 44,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 98407,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 17,
+      "money": 0,
+      "name": "Show of Force",
+      "popularity": 200,
+      "reprewards": [
+        [
+          72,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 11,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 950
     },
     {
       "category": 44,
@@ -400,7 +522,7 @@
       "level": 18,
       "money": 250,
       "name": "Messenger to Darkshire",
-      "popularity": 226,
+      "popularity": 200,
       "reprewards": [
         [
           72,
@@ -422,38 +544,6 @@
       "envChange": {
         "labels": [],
         "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 98407,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 17,
-      "money": 700,
-      "name": "Show of Force",
-      "popularity": 223,
-      "reprewards": [
-        [
-          72,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 11,
-      "side": 0,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 950
-    },
-    {
-      "category": 44,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
         "status": "unchanged"
       },
       "firstseenpatch": 11302,
@@ -464,7 +554,7 @@
       "level": 14,
       "money": 150,
       "name": "Messenger to Westfall",
-      "popularity": 207,
+      "popularity": 193,
       "reprewards": [
         [
           72,
@@ -490,13 +580,136 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
+      "id": 121,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 14,
+      "money": 150,
+      "name": "Messenger to Stormwind",
+      "popularity": 183,
+      "reprewards": [
+        [
+          72,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 14,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 245
+    },
+    {
+      "category": 44,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 124,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 20,
+      "money": 900,
+      "name": "A Baying of Gnolls",
+      "popularity": 174,
+      "reprewards": [
+        [
+          72,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 15,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1150
+    },
+    {
+      "category": 44,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 95816,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 60,
+      "money": 900,
+      "name": "Sign Me Up!",
+      "popularity": 173,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 1,
+      "side": 0,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 660
+    },
+    {
+      "category": 44,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 119,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 18,
+      "money": 500,
+      "name": "Return to Verner",
+      "popularity": 170,
+      "reprewards": [
+        [
+          72,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 13,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 680
+    },
+    {
+      "category": 44,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
       "id": 145,
       "itemchoices": [],
       "itemrewards": [],
       "level": 18,
       "money": 0,
       "name": "Messenger to Darkshire",
-      "popularity": 206,
+      "popularity": 162,
       "reprewards": [
         [
           72,
@@ -528,7 +741,7 @@
       "level": 14,
       "money": 0,
       "name": "Messenger to Westfall",
-      "popularity": 204,
+      "popularity": 159,
       "reprewards": [
         [
           72,
@@ -541,604 +754,6 @@
       "titlereward": 0,
       "type": 0,
       "xp": 490
-    },
-    {
-      "category": 44,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 98387,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 21,
-      "money": 1300,
-      "name": "Blackrock Blockade",
-      "popularity": 193,
-      "reprewards": [
-        [
-          72,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 18,
-      "side": 0,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1650
-    },
-    {
-      "category": 44,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 121,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 14,
-      "money": 150,
-      "name": "Messenger to Stormwind",
-      "popularity": 185,
-      "reprewards": [
-        [
-          72,
-          25
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 14,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 245
-    },
-    {
-      "category": 44,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 127,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          3663,
-          1
-        ],
-        [
-          3680,
-          1
-        ],
-        [
-          1322,
-          5
-        ]
-      ],
-      "level": 21,
-      "money": 1000,
-      "name": "Selling Fish",
-      "popularity": 182,
-      "reprewards": [
-        [
-          72,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 16,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1250
-    },
-    {
-      "category": 44,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 20,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 21,
-      "money": 1300,
-      "name": "Blackrock Menace",
-      "popularity": 178,
-      "reprewards": [
-        [
-          72,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 18,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1650
-    },
-    {
-      "category": 44,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 150,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          3567,
-          1
-        ]
-      ],
-      "level": 20,
-      "money": 0,
-      "name": "Murloc Poachers",
-      "popularity": 176,
-      "reprewards": [
-        [
-          72,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1550
-    },
-    {
-      "category": 44,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 94,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 21,
-      "money": 0,
-      "name": "A Watchful Eye",
-      "popularity": 174,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1250
-    },
-    {
-      "category": 44,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 98386,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 21,
-      "money": 1300,
-      "name": "Alther's Mill",
-      "popularity": 172,
-      "reprewards": [
-        [
-          72,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 15,
-      "side": 0,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1650
-    },
-    {
-      "category": 44,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 119,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 18,
-      "money": 500,
-      "name": "Return to Verner",
-      "popularity": 172,
-      "reprewards": [
-        [
-          72,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 13,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 680
-    },
-    {
-      "category": 44,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 248,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 22,
-      "money": 0,
-      "name": "Looking Further",
-      "popularity": 168,
-      "reprewards": [
-        [
-          72,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 1,
-      "xp": 1300
-    },
-    {
-      "category": 44,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 120,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 14,
-      "money": 0,
-      "name": "Messenger to Stormwind",
-      "popularity": 167,
-      "reprewards": [
-        [
-          72,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 14,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 490
-    },
-    {
-      "category": 44,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 125,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          2313,
-          2
-        ]
-      ],
-      "level": 16,
-      "money": 0,
-      "name": "The Lost Tools",
-      "popularity": 158,
-      "reprewards": [
-        [
-          72,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 15,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 880
-    },
-    {
-      "category": 44,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 92,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          1082,
-          5
-        ],
-        [
-          2699,
-          1
-        ]
-      ],
-      "level": 18,
-      "money": 1000,
-      "name": "Redridge Goulash",
-      "popularity": 155,
-      "reprewards": [
-        [
-          72,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 15,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1350
-    },
-    {
-      "category": 44,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 118,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 18,
-      "money": 0,
-      "name": "The Price of Shoes",
-      "popularity": 154,
-      "reprewards": [
-        [
-          72,
-          25
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 14,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 340
-    },
-    {
-      "category": 44,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 122,
-      "itemchoices": [
-        [
-          6092,
-          1
-        ],
-        [
-          1302,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 18,
-      "money": 0,
-      "name": "Underbelly Scales",
-      "popularity": 149,
-      "reprewards": [
-        [
-          72,
-          150
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 14,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1700
-    },
-    {
-      "category": 44,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [
-          "renamed"
-        ],
-        "lines": [
-          "Renamed from Wanted: Gath'Ilzogg"
-        ],
-        "notShown": [],
-        "status": "updated"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 169,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 26,
-      "money": 4000,
-      "name": "Wanted: Gath'Ilzogg",
-      "popularity": 131,
-      "reprewards": [
-        [
-          72,
-          150
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 15,
-      "side": 1,
-      "titlereward": 0,
-      "type": 1,
-      "xp": 2650
-    },
-    {
-      "category": 44,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 246,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 17,
-      "money": 700,
-      "name": "Assessing the Threat",
-      "popularity": 129,
-      "reprewards": [
-        [
-          72,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 11,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 950
-    },
-    {
-      "category": 44,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 89,
-      "itemchoices": [
-        [
-          1310,
-          1
-        ],
-        [
-          1303,
-          1
-        ],
-        [
-          1304,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 20,
-      "money": 0,
-      "name": "The Everstill Bridge",
-      "popularity": 127,
-      "reprewards": [
-        [
-          72,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 15,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1550
     },
     {
       "category": 44,
@@ -1171,7 +786,7 @@
       "level": 25,
       "money": 0,
       "name": "Missing In Action",
-      "popularity": 119,
+      "popularity": 158,
       "reprewards": [
         [
           72,
@@ -1197,40 +812,22 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 129,
+      "id": 92,
       "itemchoices": [],
-      "itemrewards": [],
-      "level": 15,
-      "money": 0,
-      "name": "A Free Lunch",
-      "popularity": 118,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 12,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 540
-    },
-    {
-      "category": 44,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 128,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 25,
-      "money": 1800,
-      "name": "Blackrock Bounty",
-      "popularity": 118,
+      "itemrewards": [
+        [
+          1082,
+          5
+        ],
+        [
+          2699,
+          1
+        ]
+      ],
+      "level": 18,
+      "money": 1000,
+      "name": "Redridge Goulash",
+      "popularity": 157,
       "reprewards": [
         [
           72,
@@ -1238,11 +835,11 @@
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 20,
+      "reqlevel": 15,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 2000
+      "xp": 1350
     },
     {
       "category": 44,
@@ -1267,7 +864,7 @@
       "level": 23,
       "money": 1200,
       "name": "Theocritus' Retrieval",
-      "popularity": 117,
+      "popularity": 153,
       "reprewards": [
         [
           72,
@@ -1293,13 +890,424 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
+      "id": 122,
+      "itemchoices": [
+        [
+          6092,
+          1
+        ],
+        [
+          1302,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 18,
+      "money": 0,
+      "name": "Underbelly Scales",
+      "popularity": 152,
+      "reprewards": [
+        [
+          72,
+          150
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 14,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1700
+    },
+    {
+      "category": 44,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 126,
+      "itemchoices": [
+        [
+          1319,
+          1
+        ],
+        [
+          2910,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 25,
+      "money": 0,
+      "name": "Howling in the Hills",
+      "popularity": 150,
+      "reprewards": [
+        [
+          72,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 15,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2000
+    },
+    {
+      "category": 44,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 150,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          3567,
+          1
+        ]
+      ],
+      "level": 20,
+      "money": 0,
+      "name": "Murloc Poachers",
+      "popularity": 145,
+      "reprewards": [
+        [
+          72,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1550
+    },
+    {
+      "category": 44,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 125,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          2313,
+          2
+        ]
+      ],
+      "level": 16,
+      "money": 0,
+      "name": "The Lost Tools",
+      "popularity": 142,
+      "reprewards": [
+        [
+          72,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 15,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 880
+    },
+    {
+      "category": 44,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 89,
+      "itemchoices": [
+        [
+          1310,
+          1
+        ],
+        [
+          1303,
+          1
+        ],
+        [
+          1304,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 20,
+      "money": 0,
+      "name": "The Everstill Bridge",
+      "popularity": 139,
+      "reprewards": [
+        [
+          72,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 15,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1550
+    },
+    {
+      "category": 44,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 127,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          3663,
+          1
+        ],
+        [
+          3680,
+          1
+        ],
+        [
+          1322,
+          5
+        ]
+      ],
+      "level": 21,
+      "money": 1000,
+      "name": "Selling Fish",
+      "popularity": 138,
+      "reprewards": [
+        [
+          72,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 16,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1250
+    },
+    {
+      "category": 44,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 128,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 25,
+      "money": 1800,
+      "name": "Blackrock Bounty",
+      "popularity": 130,
+      "reprewards": [
+        [
+          72,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2000
+    },
+    {
+      "category": 44,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 120,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 14,
+      "money": 0,
+      "name": "Messenger to Stormwind",
+      "popularity": 125,
+      "reprewards": [
+        [
+          72,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 14,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 490
+    },
+    {
+      "category": 44,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 246,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 17,
+      "money": 700,
+      "name": "Assessing the Threat",
+      "popularity": 110,
+      "reprewards": [
+        [
+          72,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 11,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 950
+    },
+    {
+      "category": 44,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 244,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 16,
+      "money": 200,
+      "name": "Encroaching Gnolls",
+      "popularity": 109,
+      "reprewards": [
+        [
+          72,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 11,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 290
+    },
+    {
+      "category": 44,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 34,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          2562,
+          1
+        ]
+      ],
+      "level": 24,
+      "money": 1700,
+      "name": "An Unwelcome Guest",
+      "popularity": 109,
+      "reprewards": [
+        [
+          72,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 18,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1950
+    },
+    {
+      "category": 44,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
       "id": 91,
       "itemchoices": [],
       "itemrewards": [],
       "level": 23,
       "money": 1500,
       "name": "Solomon's Law",
-      "popularity": 114,
+      "popularity": 107,
       "reprewards": [
         [
           72,
@@ -1319,19 +1327,24 @@
       "currencychoicerewards": [],
       "currencyrewards": [],
       "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
+        "labels": [
+          "renamed"
+        ],
+        "lines": [
+          "Renamed from Wanted: Gath'Ilzogg"
+        ],
+        "notShown": [],
+        "status": "updated"
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 115,
+      "id": 169,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 23,
-      "money": 3000,
-      "name": "Shadow Magic",
-      "popularity": 108,
+      "level": 26,
+      "money": 4000,
+      "name": "WANTED: Gath'Ilzogg",
+      "popularity": 105,
       "reprewards": [
         [
           72,
@@ -1339,11 +1352,11 @@
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 18,
+      "reqlevel": 15,
       "side": 1,
       "titlereward": 0,
       "type": 1,
-      "xp": 2300
+      "xp": 2650
     },
     {
       "category": 44,
@@ -1367,8 +1380,8 @@
       "itemrewards": [],
       "level": 26,
       "money": 4000,
-      "name": "Wanted: Lieutenant Fangore",
-      "popularity": 107,
+      "name": "WANTED: Lieutenant Fangore",
+      "popularity": 99,
       "reprewards": [
         [
           72,
@@ -1400,7 +1413,7 @@
       "level": 15,
       "money": 0,
       "name": "Visit the Herbalist",
-      "popularity": 100,
+      "popularity": 98,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 12,
@@ -1432,7 +1445,7 @@
       "level": 15,
       "money": 0,
       "name": "Delivering Daffodils",
-      "popularity": 97,
+      "popularity": 95,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 12,
@@ -1453,62 +1466,20 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 34,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          2562,
-          1
-        ]
-      ],
-      "level": 24,
-      "money": 1700,
-      "name": "An Unwelcome Guest",
-      "popularity": 94,
-      "reprewards": [
-        [
-          72,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 18,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1950
-    },
-    {
-      "category": 44,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 244,
+      "id": 129,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 16,
-      "money": 200,
-      "name": "Encroaching Gnolls",
-      "popularity": 75,
-      "reprewards": [
-        [
-          72,
-          25
-        ]
-      ],
+      "level": 15,
+      "money": 0,
+      "name": "A Free Lunch",
+      "popularity": 93,
+      "reprewards": [],
       "reqclass": 0,
-      "reqlevel": 11,
+      "reqlevel": 12,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 290
+      "xp": 540
     }
   ],
   "slug": "ek/redridge-mountains",

@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-25T07:02:15+00:00",
+  "fetchedAt": "2026-10-17T04:05:29+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +12,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 20[/li][li]Requires level 9[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1938/dalar-dawnweaver]Dalar Dawnweaver[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1938/dalar-dawnweaver]Dalar Dawnweaver[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]9[/color][small] &nbsp;[/small][color=r1]16[/color][small] &nbsp;[/small][color=r2]18[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 20[/li][li]Requires level 9[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Races: [race=2], [race=5], [br][race=8][/li][li][icon name=quest-start]Start: [url=/forever/npc=1938/dalar-dawnweaver]Dalar Dawnweaver[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1938/dalar-dawnweaver]Dalar Dawnweaver[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]9[/color][small] &nbsp;[/small][color=r1]16[/color][small] &nbsp;[/small][color=r2]18[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -78,6 +78,10 @@
                   84.6
                 ],
                 [
+                  45.2,
+                  85.6
+                ],
+                [
                   45.4,
                   83.4
                 ],
@@ -86,24 +90,24 @@
                   83.6
                 ],
                 [
-                  45.6,
-                  83.4
+                  45.8,
+                  82.4
                 ],
                 [
                   45.8,
-                  82.4
+                  83.4
                 ],
                 [
                   46,
                   84.2
                 ],
                 [
-                  46.2,
-                  86.4
+                  46,
+                  84.6
                 ],
                 [
-                  46.4,
-                  84.6
+                  46.2,
+                  86.4
                 ],
                 [
                   46.4,
@@ -154,7 +158,7 @@
                 ],
                 [
                   44.4,
-                  83
+                  83.4
                 ],
                 [
                   44.4,
@@ -182,11 +186,11 @@
                 ],
                 [
                   45.6,
-                  83.2
+                  83.4
                 ],
                 [
-                  46.2,
-                  85.4
+                  46,
+                  85.2
                 ],
                 [
                   46.2,
@@ -205,12 +209,12 @@
                   84
                 ],
                 [
-                  46.6,
-                  84.6
-                ],
-                [
                   46.8,
                   83.4
+                ],
+                [
+                  47,
+                  84.8
                 ],
                 [
                   47.2,
@@ -223,10 +227,6 @@
                 [
                   47.6,
                   85
-                ],
-                [
-                  47.6,
-                  86.8
                 ]
               ],
               "id": 2054,
@@ -261,14 +261,18 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 98299,
-  "races": [],
+  "races": [
+    2,
+    5,
+    8
+  ],
   "startPins": [
     {
       "npcId": 1938,
       "npcName": "Dalar Dawnweaver",
-      "zoneId": 130,
       "x": 44.2,
       "y": 39.8,
+      "zoneId": 130,
       "zoneName": "Silverpine Forest"
     }
   ]

@@ -3,7 +3,7 @@
     7
   ],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-25T06:34:24+00:00",
+  "fetchedAt": "2026-10-17T03:37:22+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -36,7 +36,7 @@
               "name": "Norric Lochthane",
               "point": "start",
               "reactalliance": 1,
-              "reacthorde": 0,
+              "reacthorde": -1,
               "type": 1
             },
             {
@@ -54,7 +54,7 @@
               "name": "Norric Lochthane",
               "point": "end",
               "reactalliance": 1,
-              "reacthorde": 0,
+              "reacthorde": -1,
               "type": 1
             }
           ]
@@ -86,9 +86,9 @@
     {
       "npcId": 258043,
       "npcName": "Norric Lochthane",
-      "zoneId": 38,
       "x": 41.8,
       "y": 19.0,
+      "zoneId": 38,
       "zoneName": "Loch Modan"
     }
   ]

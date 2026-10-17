@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-24T23:20:40+00:00",
+  "fetchedAt": "2026-10-16T20:44:07+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -73,6 +73,18 @@
     ]
   },
   "minLevel": 25,
+  "objectSpawns": [
+    {
+      "entityId": 2656,
+      "entityKind": "object",
+      "entityName": "Waterlogged Letter",
+      "uiMapId": 1417,
+      "uiMapName": "Arathi Highlands",
+      "x": 44.3,
+      "y": 92.9,
+      "zoneId": 45
+    }
+  ],
   "pageInfo": {
     "name": "Sully Balloo's Letter",
     "type": 5,
@@ -82,5 +94,16 @@
   "prerequisiteQuestIds": [],
   "questId": 637,
   "races": [],
-  "startPins": []
+  "startPins": [
+    {
+      "entityId": 2656,
+      "entityKind": "object",
+      "entityName": "Waterlogged Letter",
+      "uiMapId": 1417,
+      "uiMapName": "Arathi Highlands",
+      "x": 44.3,
+      "y": 92.9,
+      "zoneId": 45
+    }
+  ]
 }

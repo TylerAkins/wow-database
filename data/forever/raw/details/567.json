@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-24T23:19:14+00:00",
+  "fetchedAt": "2026-10-16T20:37:08+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +12,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 28[/li][li]Requires level 19[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/object=2008/dangerous]Dangerous![/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2215/high-executor-darthalia]High Executor Darthalia[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]19[/color][small] &nbsp;[/small][color=r1]24[/color][small] &nbsp;[/small][color=r2]26[/color][small] &nbsp;[/small][color=r3]31[/color][small] &nbsp;[/small][color=r4]36[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 28[/li][li]Requires level 19[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/object=2008/dangerous]Dangerous![/url][/icon][br][span=invisible][icon name=quest-start]Start: [/icon][/span][url=/forever/object=556669/dangerous]Dangerous![/url][/li][li][icon name=quest-end]End: [url=/forever/npc=2215/high-executor-darthalia]High Executor Darthalia[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]19[/color][small] &nbsp;[/small][color=r1]24[/color][small] &nbsp;[/small][color=r2]26[/color][small] &nbsp;[/small][color=r3]31[/color][small] &nbsp;[/small][color=r4]36[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -27,7 +27,7 @@
               "coords": [
                 [
                   62.4,
-                  19.7
+                  19.8
                 ],
                 [
                   62.5,
@@ -35,6 +35,30 @@
                 ]
               ],
               "id": 2008,
+              "name": "Dangerous!",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                62.5,
+                19.7
+              ],
+              "coords": [
+                [
+                  62.4,
+                  19.8
+                ],
+                [
+                  62.5,
+                  19.3
+                ],
+                [
+                  62.5,
+                  19.7
+                ]
+              ],
+              "id": 556669,
               "name": "Dangerous!",
               "point": "start",
               "type": 2
@@ -73,7 +97,7 @@
                 ],
                 [
                   29.4,
-                  43
+                  42.8
                 ],
                 [
                   29.6,
@@ -84,63 +108,99 @@
                   42.8
                 ],
                 [
+                  30.5,
+                  42.5
+                ],
+                [
                   30.6,
                   42.2
+                ],
+                [
+                  32,
+                  41.2
+                ],
+                [
+                  32.4,
+                  41.6
+                ],
+                [
+                  32.4,
+                  42.6
+                ],
+                [
+                  32.5,
+                  42.4
+                ],
+                [
+                  32.5,
+                  42.8
+                ],
+                [
+                  32.5,
+                  43.5
+                ],
+                [
+                  32.8,
+                  41.4
+                ],
+                [
+                  33.5,
+                  40.7
                 ]
               ],
               "id": 2448,
               "name": "Clerk Horrace Whitesteed",
               "objective": 2448,
               "point": "requirement",
-              "reactalliance": 0,
+              "reactalliance": 1,
               "reacthorde": -1,
               "type": 1
             },
             {
               "coord": [
-                31.2,
-                42
+                31.8,
+                42.2
               ],
               "coords": [
                 [
-                  29,
-                  41.6
+                  28.9,
+                  41.1
                 ],
                 [
-                  30.4,
+                  29.3,
                   40.4
                 ],
                 [
-                  30.4,
-                  40.8
+                  29.6,
+                  40
                 ],
                 [
-                  30.4,
+                  30.2,
                   42.2
                 ],
                 [
+                  30.4,
+                  40.8
+                ],
+                [
                   30.6,
                   40.4
                 ],
                 [
-                  30.6,
-                  40.8
+                  30.8,
+                  41.4
                 ],
                 [
-                  31.2,
+                  31.4,
                   42
                 ],
                 [
-                  31.2,
-                  42.6
+                  31.5,
+                  41.3
                 ],
                 [
-                  31.6,
-                  41.2
-                ],
-                [
-                  31.6,
-                  42
+                  31.8,
+                  42.2
                 ],
                 [
                   32,
@@ -152,43 +212,19 @@
                 ],
                 [
                   32.4,
-                  36.2
-                ],
-                [
-                  32.4,
                   36.6
                 ],
                 [
                   32.4,
-                  38.4
-                ],
-                [
-                  32.4,
-                  39
-                ],
-                [
-                  32.4,
-                  40.4
-                ],
-                [
-                  32.4,
-                  44.4
+                  43.8
                 ],
                 [
                   32.4,
                   44.8
                 ],
                 [
-                  32.6,
-                  35.4
-                ],
-                [
-                  32.6,
-                  37.6
-                ],
-                [
-                  32.6,
-                  40
+                  32.5,
+                  44
                 ],
                 [
                   32.6,
@@ -200,15 +236,11 @@
                 ],
                 [
                   32.6,
-                  42.6
+                  43.4
                 ],
                 [
                   32.6,
-                  44.4
-                ],
-                [
-                  32.6,
-                  44.6
+                  45
                 ],
                 [
                   32.8,
@@ -223,44 +255,28 @@
                   36.6
                 ],
                 [
+                  33,
+                  40
+                ],
+                [
+                  33.7,
+                  43.2
+                ],
+                [
+                  33.7,
+                  45.4
+                ],
+                [
                   34.2,
                   38.8
-                ],
-                [
-                  34.4,
-                  38
-                ],
-                [
-                  34.6,
-                  38.4
                 ],
                 [
                   35.2,
                   38.8
                 ],
                 [
-                  36,
-                  39.6
-                ],
-                [
                   36.2,
                   39.2
-                ],
-                [
-                  36.4,
-                  38.4
-                ],
-                [
-                  36.6,
-                  38.4
-                ],
-                [
-                  36.6,
-                  39.4
-                ],
-                [
-                  36.6,
-                  39.6
                 ]
               ],
               "id": 2449,
@@ -365,16 +381,8 @@
                   46.6
                 ],
                 [
-                  35.4,
-                  48.2
-                ],
-                [
                   35.6,
                   46.6
-                ],
-                [
-                  35.6,
-                  48.8
                 ],
                 [
                   35.8,
@@ -389,8 +397,8 @@
                   47.6
                 ],
                 [
-                  36.6,
-                  45.4
+                  36.5,
+                  45.3
                 ],
                 [
                   36.6,
@@ -399,6 +407,14 @@
                 [
                   36.6,
                   47.6
+                ],
+                [
+                  37,
+                  45.6
+                ],
+                [
+                  37.6,
+                  45.4
                 ]
               ],
               "id": 2451,
@@ -420,7 +436,7 @@
     "zones": [
       [
         267,
-        6
+        7
       ]
     ]
   },
@@ -433,11 +449,41 @@
       "uiMapId": 1424,
       "uiMapName": "Hillsbrad Foothills",
       "x": 62.4,
-      "y": 19.7,
+      "y": 19.8,
       "zoneId": 267
     },
     {
       "entityId": 2008,
+      "entityKind": "object",
+      "entityName": "Dangerous!",
+      "uiMapId": 1424,
+      "uiMapName": "Hillsbrad Foothills",
+      "x": 62.5,
+      "y": 19.7,
+      "zoneId": 267
+    },
+    {
+      "entityId": 556669,
+      "entityKind": "object",
+      "entityName": "Dangerous!",
+      "uiMapId": 1424,
+      "uiMapName": "Hillsbrad Foothills",
+      "x": 62.4,
+      "y": 19.8,
+      "zoneId": 267
+    },
+    {
+      "entityId": 556669,
+      "entityKind": "object",
+      "entityName": "Dangerous!",
+      "uiMapId": 1424,
+      "uiMapName": "Hillsbrad Foothills",
+      "x": 62.5,
+      "y": 19.3,
+      "zoneId": 267
+    },
+    {
+      "entityId": 556669,
       "entityKind": "object",
       "entityName": "Dangerous!",
       "uiMapId": 1424,
@@ -459,6 +505,14 @@
   "startPins": [
     {
       "npcId": 2008,
+      "npcName": "Dangerous!",
+      "x": 62.5,
+      "y": 19.7,
+      "zoneId": 267,
+      "zoneName": "Hillsbrad Foothills"
+    },
+    {
+      "npcId": 556669,
       "npcName": "Dangerous!",
       "x": 62.5,
       "y": 19.7,

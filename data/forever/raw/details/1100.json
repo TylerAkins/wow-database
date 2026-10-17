@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-25T00:27:45+00:00",
+  "fetchedAt": "2026-10-16T21:30:51+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -61,6 +61,28 @@
     ]
   },
   "minLevel": 29,
+  "objectSpawns": [
+    {
+      "entityId": 19861,
+      "entityKind": "object",
+      "entityName": "Henrig Lonebrow's Journal",
+      "uiMapId": 1441,
+      "uiMapName": "Thousand Needles",
+      "x": 30.7,
+      "y": 24.4,
+      "zoneId": 400
+    },
+    {
+      "entityId": 19861,
+      "entityKind": "object",
+      "entityName": "Henrig Lonebrow's Journal",
+      "uiMapId": 1441,
+      "uiMapName": "Thousand Needles",
+      "x": 30.7,
+      "y": 24.5,
+      "zoneId": 400
+    }
+  ],
   "pageInfo": {
     "name": "Lonebrow's Journal",
     "type": 5,
@@ -70,5 +92,26 @@
   "prerequisiteQuestIds": [],
   "questId": 1100,
   "races": [],
-  "startPins": []
+  "startPins": [
+    {
+      "entityId": 19861,
+      "entityKind": "object",
+      "entityName": "Henrig Lonebrow's Journal",
+      "uiMapId": 1441,
+      "uiMapName": "Thousand Needles",
+      "x": 30.7,
+      "y": 24.4,
+      "zoneId": 400
+    },
+    {
+      "entityId": 19861,
+      "entityKind": "object",
+      "entityName": "Henrig Lonebrow's Journal",
+      "uiMapId": 1441,
+      "uiMapName": "Thousand Needles",
+      "x": 30.7,
+      "y": 24.5,
+      "zoneId": 400
+    }
+  ]
 }

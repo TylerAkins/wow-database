@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-09-24T23:19:10+00:00",
+  "fetchedAt": "2026-10-17T11:22:03+00:00",
   "kind": "zone",
-  "questCount": 28,
+  "questCount": 27,
   "quests": [
     {
       "category": 1657,
@@ -21,7 +21,7 @@
       "level": 11,
       "money": 0,
       "name": "Eyes of the Sentinels",
-      "popularity": 299,
+      "popularity": 213,
       "reprewards": [
         [
           69,
@@ -53,7 +53,7 @@
       "level": 10,
       "money": 0,
       "name": "The Sisterhood of Elune",
-      "popularity": 132,
+      "popularity": 163,
       "reprewards": [
         [
           69,
@@ -85,7 +85,7 @@
       "level": 12,
       "money": 1000,
       "name": "Tears of the Moon",
-      "popularity": 123,
+      "popularity": 131,
       "reprewards": [
         [
           69,
@@ -126,7 +126,7 @@
       "level": 12,
       "money": 0,
       "name": "Sathrah's Sacrifice",
-      "popularity": 119,
+      "popularity": 109,
       "reprewards": [
         [
           69,
@@ -146,79 +146,6 @@
       "currencychoicerewards": [],
       "currencyrewards": [],
       "envChange": {
-        "labels": [
-          "level_changed",
-          "rewards_changed"
-        ],
-        "lines": [
-          "Level 17 instead of 11",
-          "Experience 1250 instead of 880"
-        ],
-        "notShown": [
-          "Experience 1250 instead of 880"
-        ],
-        "status": "updated"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 952,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 11,
-      "money": 0,
-      "name": "Grove of the Ancients",
-      "popularity": 109,
-      "reprewards": [
-        [
-          69,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 6,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 880
-    },
-    {
-      "category": 1657,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 6344,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 10,
-      "money": 0,
-      "name": "Nessa Shadowsong",
-      "popularity": 101,
-      "reprewards": [
-        [
-          69,
-          25
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 10,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 210
-    },
-    {
-      "category": 1657,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
         "labels": [],
         "lines": [],
         "status": "unchanged"
@@ -231,7 +158,7 @@
       "level": 14,
       "money": 0,
       "name": "Trouble In Darkshore?",
-      "popularity": 87,
+      "popularity": 107,
       "reprewards": [
         [
           47,
@@ -257,13 +184,45 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
+      "id": 6344,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 10,
+      "money": 0,
+      "name": "Nessa Shadowsong",
+      "popularity": 105,
+      "reprewards": [
+        [
+          69,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 10,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 210
+    },
+    {
+      "category": 1657,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
       "id": 2519,
       "itemchoices": [],
       "itemrewards": [],
       "level": 10,
       "money": 0,
       "name": "The Temple of the Moon",
-      "popularity": 84,
+      "popularity": 95,
       "reprewards": [
         [
           69,
@@ -289,84 +248,25 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 5091,
+      "id": 3764,
       "itemchoices": [],
       "itemrewards": [],
       "level": 50,
-      "money": 0,
-      "name": "A Call to Arms: The Plaguelands!",
-      "popularity": 54,
-      "reprewards": [
-        [
-          72,
-          10
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 50,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 470
-    },
-    {
-      "category": 1657,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 4493,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 53,
-      "money": 0,
-      "name": "March of the Silithid",
-      "popularity": 39,
+      "money": 14500,
+      "name": "Un'Goro Soil",
+      "popularity": 60,
       "reprewards": [
         [
           69,
-          10
+          100
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 50,
+      "reqlevel": 47,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 530
-    },
-    {
-      "category": 1657,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1047,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 55,
-      "money": 0,
-      "name": "The New Frontier",
-      "popularity": 32,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 54,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 560
+      "xp": 4700
     },
     {
       "category": 1657,
@@ -386,7 +286,7 @@
       "level": 60,
       "money": 0,
       "name": "A Donation of Wool",
-      "popularity": 31,
+      "popularity": 57,
       "reprewards": [
         [
           69,
@@ -431,7 +331,7 @@
       "level": 54,
       "money": 0,
       "name": "Calm Before the Storm",
-      "popularity": 28,
+      "popularity": 56,
       "reprewards": [
         [
           469,
@@ -457,186 +357,22 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 7800,
+      "id": 3781,
       "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 0,
-      "name": "A Donation of Runecloth",
-      "popularity": 28,
-      "reprewards": [
+      "itemrewards": [
         [
-          69,
-          150
+          11022,
+          20
         ]
       ],
-      "reqclass": 0,
-      "reqlevel": 50,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 6600
-    },
-    {
-      "category": 1657,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 6761,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 55,
+      "level": 50,
       "money": 0,
-      "name": "The New Frontier",
-      "popularity": 27,
+      "name": "Morrowgrain Research",
+      "popularity": 55,
       "reprewards": [
         [
           69,
           10
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 54,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 560
-    },
-    {
-      "category": 1657,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 3791,
-      "itemchoices": [
-        [
-          11888,
-          1
-        ],
-        [
-          11889,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 50,
-      "money": 0,
-      "name": "The Mystery of Morrowgrain",
-      "popularity": 26,
-      "reprewards": [
-        [
-          69,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 47,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 4700
-    },
-    {
-      "category": 1657,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 6762,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 55,
-      "money": 0,
-      "name": "Rabine Saturna",
-      "popularity": 26,
-      "reprewards": [
-        [
-          609,
-          25
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 54,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1400
-    },
-    {
-      "category": 1657,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 3764,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 50,
-      "money": 14500,
-      "name": "Un'Goro Soil",
-      "popularity": 26,
-      "reprewards": [
-        [
-          69,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 47,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 4700
-    },
-    {
-      "category": 1657,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 3788,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 50,
-      "money": 0,
-      "name": "Jonespyre's Request",
-      "popularity": 25,
-      "reprewards": [
-        [
-          69,
-          25
         ]
       ],
       "reqclass": 0,
@@ -669,7 +405,7 @@
       "level": 50,
       "money": 0,
       "name": "Morrowgrain Research",
-      "popularity": 23,
+      "popularity": 55,
       "reprewards": [
         [
           69,
@@ -695,30 +431,57 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 3781,
+      "id": 5091,
       "itemchoices": [],
-      "itemrewards": [
-        [
-          11022,
-          20
-        ]
-      ],
+      "itemrewards": [],
       "level": 50,
       "money": 0,
-      "name": "Morrowgrain Research",
-      "popularity": 22,
+      "name": "A Call to Arms: The Plaguelands!",
+      "popularity": 53,
       "reprewards": [
         [
-          69,
+          72,
           10
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 47,
+      "reqlevel": 50,
       "side": 1,
       "titlereward": 0,
       "type": 0,
       "xp": 470
+    },
+    {
+      "category": 1657,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 7800,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 60,
+      "money": 0,
+      "name": "A Donation of Runecloth",
+      "popularity": 51,
+      "reprewards": [
+        [
+          69,
+          150
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 50,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 6600
     },
     {
       "category": 1657,
@@ -738,7 +501,7 @@
       "level": 60,
       "money": 0,
       "name": "A Donation of Mageweave",
-      "popularity": 22,
+      "popularity": 50,
       "reprewards": [
         [
           69,
@@ -764,58 +527,21 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 3763,
+      "id": 6761,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 50,
-      "money": 0,
-      "name": "Assisting Arch Druid Staghelm",
-      "popularity": 22,
-      "reprewards": [
-        [
-          69,
-          10
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 47,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 470
-    },
-    {
-      "category": 1657,
-      "category2": 1,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 3792,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          11022,
-          10
-        ]
-      ],
       "level": 55,
       "money": 0,
-      "name": "Morrowgrain to Feathermoon Stronghold",
-      "popularity": 21,
+      "name": "The New Frontier",
+      "popularity": 50,
       "reprewards": [
         [
           69,
-          25
+          10
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 47,
+      "reqlevel": 54,
       "side": 1,
       "titlereward": 0,
       "type": 0,
@@ -833,25 +559,20 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 7801,
+      "id": 1047,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 60,
+      "level": 55,
       "money": 0,
-      "name": "Additional Runecloth",
-      "popularity": 21,
-      "reprewards": [
-        [
-          69,
-          50
-        ]
-      ],
+      "name": "The New Frontier",
+      "popularity": 50,
+      "reprewards": [],
       "reqclass": 0,
-      "reqlevel": 50,
+      "reqlevel": 54,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 0
+      "xp": 560
     },
     {
       "category": 1657,
@@ -865,20 +586,25 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 3622,
+      "id": 4493,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 41,
+      "level": 53,
       "money": 0,
-      "name": "<UNUSED>",
-      "popularity": 21,
-      "reprewards": [],
+      "name": "March of the Silithid",
+      "popularity": 49,
+      "reprewards": [
+        [
+          69,
+          10
+        ]
+      ],
       "reqclass": 0,
-      "reqlevel": 41,
-      "side": 3,
+      "reqlevel": 50,
+      "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 0
+      "xp": 530
     },
     {
       "category": 1657,
@@ -898,7 +624,7 @@
       "level": 60,
       "money": 0,
       "name": "A Donation of Silk",
-      "popularity": 20,
+      "popularity": 49,
       "reprewards": [
         [
           69,
@@ -935,7 +661,7 @@
       "level": 55,
       "money": 0,
       "name": "Morrowgrain to Darnassus",
-      "popularity": 18,
+      "popularity": 48,
       "reprewards": [
         [
           69,
@@ -948,6 +674,239 @@
       "titlereward": 0,
       "type": 0,
       "xp": 560
+    },
+    {
+      "category": 1657,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 3763,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 50,
+      "money": 0,
+      "name": "Assisting Arch Druid Staghelm",
+      "popularity": 48,
+      "reprewards": [
+        [
+          69,
+          10
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 47,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 470
+    },
+    {
+      "category": 1657,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 3791,
+      "itemchoices": [
+        [
+          11888,
+          1
+        ],
+        [
+          11889,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 50,
+      "money": 0,
+      "name": "The Mystery of Morrowgrain",
+      "popularity": 47,
+      "reprewards": [
+        [
+          69,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 47,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 4700
+    },
+    {
+      "category": 1657,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 3792,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          11022,
+          10
+        ]
+      ],
+      "level": 55,
+      "money": 0,
+      "name": "Morrowgrain to Feathermoon Stronghold",
+      "popularity": 46,
+      "reprewards": [
+        [
+          69,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 47,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 560
+    },
+    {
+      "category": 1657,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 7801,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 60,
+      "money": 0,
+      "name": "Additional Runecloth",
+      "popularity": 45,
+      "reprewards": [
+        [
+          69,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 50,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 0
+    },
+    {
+      "category": 1657,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 6762,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 55,
+      "money": 0,
+      "name": "Rabine Saturna",
+      "popularity": 44,
+      "reprewards": [
+        [
+          609,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 54,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1400
+    },
+    {
+      "category": 1657,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 3788,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 50,
+      "money": 0,
+      "name": "Jonespyre's Request",
+      "popularity": 41,
+      "reprewards": [
+        [
+          69,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 47,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 470
+    },
+    {
+      "category": 1657,
+      "category2": 1,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 3622,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 41,
+      "money": 0,
+      "name": "<UNUSED>",
+      "popularity": 29,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 41,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 0
     }
   ],
   "slug": "kd/darnassus",

@@ -1,6 +1,6 @@
 {
   "classes": [],
-  "fetchedAt": "2026-09-25T04:19:36+00:00",
+  "fetchedAt": "2026-10-17T01:22:52+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -11,22 +11,57 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 5[/li][li]Requires level 1[/li][li]Side: Both[/li][li]Sharable[/li][li]Difficulty: [color=r1]1[/color][small] &nbsp;[/small][color=r2]3[/color][small] &nbsp;[/small][color=r3]8[/color][small] &nbsp;[/small][color=r4]11[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 5[/li][li]Requires level 1[/li][li]Side: None[/li][li]Sharable[/li][li]Difficulty: [color=r1]1[/color][small] &nbsp;[/small][color=r2]3[/color][small] &nbsp;[/small][color=r3]8[/color][small] &nbsp;[/small][color=r4]11[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
+      "12": {
+        "levels": [
+          [
+            {
+              "coord": [
+                13.6,
+                71.6
+              ],
+              "coords": [
+                [
+                  13.6,
+                  71.6
+                ],
+                [
+                  13.9,
+                  72.8
+                ],
+                [
+                  14.6,
+                  70
+                ]
+              ],
+              "id": 126,
+              "name": "Murloc Coastrunner",
+              "objective": 126,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Elwynn Forest"
+      },
       "40": {
         "levels": [
           [
             {
               "coord": [
-                56.2,
-                9.4
+                56.1,
+                9.2
               ],
               "coords": [
                 [
                   41.2,
-                  10.4
+                  10.2
                 ],
                 [
                   41.2,
@@ -37,16 +72,8 @@
                   12.4
                 ],
                 [
-                  41.6,
-                  12.6
-                ],
-                [
                   41.8,
                   10
-                ],
-                [
-                  41.8,
-                  11.4
                 ],
                 [
                   42,
@@ -57,8 +84,12 @@
                   11.6
                 ],
                 [
+                  42.2,
+                  11.4
+                ],
+                [
                   42.6,
-                  12.2
+                  12.4
                 ],
                 [
                   42.8,
@@ -73,20 +104,16 @@
                   11.4
                 ],
                 [
-                  43,
-                  8.4
-                ],
-                [
                   43.2,
-                  12.6
+                  8.2
                 ],
                 [
                   43.8,
                   8.2
                 ],
                 [
-                  44.2,
-                  8.8
+                  44.4,
+                  8.6
                 ],
                 [
                   44.4,
@@ -101,7 +128,7 @@
                   9.6
                 ],
                 [
-                  45,
+                  44.8,
                   7.4
                 ],
                 [
@@ -142,10 +169,6 @@
                 ],
                 [
                   51.4,
-                  9.4
-                ],
-                [
-                  51.4,
                   11
                 ],
                 [
@@ -161,12 +184,16 @@
                   10.2
                 ],
                 [
-                  52.6,
-                  9.4
+                  53,
+                  9.2
                 ],
                 [
-                  53,
-                  8.4
+                  53.3,
+                  8
+                ],
+                [
+                  53.3,
+                  11.5
                 ],
                 [
                   53.4,
@@ -174,19 +201,11 @@
                 ],
                 [
                   53.4,
-                  10.6
-                ],
-                [
-                  53.4,
-                  11.8
+                  11
                 ],
                 [
                   53.8,
                   9.4
-                ],
-                [
-                  53.8,
-                  9.8
                 ],
                 [
                   53.8,
@@ -198,7 +217,15 @@
                 ],
                 [
                   54,
-                  12.6
+                  9.8
+                ],
+                [
+                  54,
+                  12.5
+                ],
+                [
+                  54.2,
+                  13.6
                 ],
                 [
                   54.6,
@@ -209,6 +236,10 @@
                   12
                 ],
                 [
+                  54.8,
+                  10.3
+                ],
+                [
                   55.2,
                   9
                 ],
@@ -217,28 +248,24 @@
                   8.4
                 ],
                 [
-                  55.4,
-                  10
-                ],
-                [
                   55.6,
                   7.2
                 ],
                 [
-                  55.6,
-                  8
+                  56.1,
+                  9.2
                 ],
                 [
-                  56,
+                  56.2,
+                  8.4
+                ],
+                [
+                  56.2,
                   10
                 ],
                 [
-                  56.2,
-                  9.4
-                ],
-                [
-                  56.2,
-                  10.8
+                  56.4,
+                  10.9
                 ],
                 [
                   56.6,
@@ -274,6 +301,10 @@
     "parent": "fweiuasf",
     "zoneparent": "lksjdowlha",
     "zones": [
+      [
+        12,
+        1
+      ],
       [
         40,
         1

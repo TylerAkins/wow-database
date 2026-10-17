@@ -1,6 +1,6 @@
 {
   "classes": [],
-  "fetchedAt": "2026-09-25T06:11:12+00:00",
+  "fetchedAt": "2026-10-17T03:14:11+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -11,7 +11,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 12[/li][li]Requires level 7[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=252383/valennia-stormfist]Valennia Stormfist[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=253844/valennia-stormfist]Valennia Stormfist[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]7[/color][small] &nbsp;[/small][color=r1]8[/color][small] &nbsp;[/small][color=r2]10[/color][small] &nbsp;[/small][color=r3]15[/color][small] &nbsp;[/small][color=r4]18[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 12[/li][li]Requires level 7[/li][li]Side: Both[/li][li]Race: [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=252383/valennia-stormfist]Valennia Stormfist[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=253844/valennia-stormfist]Valennia Stormfist[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]7[/color][small] &nbsp;[/small][color=r1]8[/color][small] &nbsp;[/small][color=r2]10[/color][small] &nbsp;[/small][color=r3]15[/color][small] &nbsp;[/small][color=r4]18[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -97,14 +97,16 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 93065,
-  "races": [],
+  "races": [
+    95
+  ],
   "startPins": [
     {
       "npcId": 252383,
       "npcName": "Valennia Stormfist",
-      "zoneId": 16593,
       "x": 66.2,
       "y": 76.6,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

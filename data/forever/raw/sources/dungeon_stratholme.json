@@ -1,8 +1,50 @@
 {
-  "fetchedAt": "2026-09-24T23:19:11+00:00",
+  "fetchedAt": "2026-10-17T11:26:15+00:00",
   "kind": "dungeon",
   "questCount": 17,
   "quests": [
+    {
+      "category": 2017,
+      "category2": 2,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "renamed",
+          "reworded"
+        ],
+        "lines": [
+          "Renamed from The Great Ezra Grimm",
+          "Objective text reworded",
+          "Description reworded"
+        ],
+        "notShown": [
+          "Description reworded"
+        ],
+        "status": "updated"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 5214,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          13171,
+          1
+        ]
+      ],
+      "level": 60,
+      "money": 0,
+      "name": "The Great Fras Siabi",
+      "popularity": 105,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 55,
+      "side": 3,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 8300
+    },
     {
       "category": 2017,
       "category2": 2,
@@ -33,7 +75,7 @@
       "level": 60,
       "money": 0,
       "name": "Dead Man's Plea",
-      "popularity": 76,
+      "popularity": 104,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 58,
@@ -54,16 +96,39 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 5848,
-      "itemchoices": [],
-      "itemrewards": [],
+      "id": 5243,
+      "itemchoices": [
+        [
+          13216,
+          1
+        ],
+        [
+          13217,
+          1
+        ]
+      ],
+      "itemrewards": [
+        [
+          3928,
+          5
+        ],
+        [
+          6149,
+          5
+        ]
+      ],
       "level": 60,
-      "money": 0,
-      "name": "Of Love and Family",
-      "popularity": 67,
-      "reprewards": [],
+      "money": 18000,
+      "name": "Houses of the Holy",
+      "popularity": 87,
+      "reprewards": [
+        [
+          529,
+          100
+        ]
+      ],
       "reqclass": 0,
-      "reqlevel": 52,
+      "reqlevel": 55,
       "side": 3,
       "titlereward": 0,
       "type": 81,
@@ -81,13 +146,13 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 5263,
+      "id": 5251,
       "itemchoices": [],
       "itemrewards": [],
       "level": 60,
-      "money": 0,
-      "name": "Above and Beyond",
-      "popularity": 64,
+      "money": 18000,
+      "name": "The Archivist",
+      "popularity": 87,
       "reprewards": [
         [
           529,
@@ -135,7 +200,7 @@
       "level": 60,
       "money": 0,
       "name": "The Active Agent",
-      "popularity": 61,
+      "popularity": 86,
       "reprewards": [
         [
           529,
@@ -167,7 +232,7 @@
       "level": 60,
       "money": 0,
       "name": "The Truth Comes Crashing Down",
-      "popularity": 58,
+      "popularity": 83,
       "reprewards": [
         [
           529,
@@ -187,89 +252,31 @@
       "currencychoicerewards": [],
       "currencyrewards": [],
       "envChange": {
-        "labels": [
-          "renamed",
-          "reworded"
-        ],
-        "lines": [
-          "Renamed from The Great Ezra Grimm",
-          "Objective text reworded",
-          "Description reworded"
-        ],
-        "notShown": [
-          "Description reworded"
-        ],
-        "status": "updated"
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 5214,
+      "id": 5263,
       "itemchoices": [],
-      "itemrewards": [
-        [
-          13171,
-          1
-        ]
-      ],
+      "itemrewards": [],
       "level": 60,
       "money": 0,
-      "name": "The Great Ezra Grimm",
-      "popularity": 55,
-      "reprewards": [],
+      "name": "Above and Beyond",
+      "popularity": 83,
+      "reprewards": [
+        [
+          529,
+          150
+        ]
+      ],
       "reqclass": 0,
       "reqlevel": 55,
       "side": 3,
       "titlereward": 0,
       "type": 81,
       "xp": 8300
-    },
-    {
-      "category": 2017,
-      "category2": 2,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [
-          "rewards_changed"
-        ],
-        "lines": [
-          "Rewards: no longer Choice of Elemental Circle, Choice of Royal Seal of Alexis"
-        ],
-        "notShown": [
-          "Rewards: no longer Choice of Elemental Circle, Choice of Royal Seal of Alexis"
-        ],
-        "status": "updated"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 6163,
-      "itemchoices": [
-        [
-          18022,
-          1
-        ],
-        [
-          17001,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 60,
-      "money": 18000,
-      "name": "Ramstein",
-      "popularity": 53,
-      "reprewards": [
-        [
-          68,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 56,
-      "side": 2,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 6600
     },
     {
       "category": 2017,
@@ -301,37 +308,10 @@
       "level": 60,
       "money": 18000,
       "name": "The Restless Souls",
-      "popularity": 51,
+      "popularity": 83,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 55,
-      "side": 3,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 8300
-    },
-    {
-      "category": 2017,
-      "category2": 2,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11305,
-      "icon": "quest-start",
-      "id": 8991,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 0,
-      "name": "The Right Piece of Lord Valthalak's Amulet",
-      "popularity": 50,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 58,
       "side": 3,
       "titlereward": 0,
       "type": 81,
@@ -349,39 +329,16 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 5243,
-      "itemchoices": [
-        [
-          13216,
-          1
-        ],
-        [
-          13217,
-          1
-        ]
-      ],
-      "itemrewards": [
-        [
-          3928,
-          5
-        ],
-        [
-          6149,
-          5
-        ]
-      ],
+      "id": 5848,
+      "itemchoices": [],
+      "itemrewards": [],
       "level": 60,
-      "money": 18000,
-      "name": "Houses of the Holy",
-      "popularity": 49,
-      "reprewards": [
-        [
-          529,
-          100
-        ]
-      ],
+      "money": 0,
+      "name": "Of Love and Family",
+      "popularity": 80,
+      "reprewards": [],
       "reqclass": 0,
-      "reqlevel": 55,
+      "reqlevel": 52,
       "side": 3,
       "titlereward": 0,
       "type": 81,
@@ -405,113 +362,10 @@
       "level": 60,
       "money": 0,
       "name": "Menethil's Gift",
-      "popularity": 48,
+      "popularity": 78,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 57,
-      "side": 3,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 6600
-    },
-    {
-      "category": 2017,
-      "category2": 2,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [
-          "rewards_changed"
-        ],
-        "lines": [
-          "Rewards: no longer Ashbringer Test 002"
-        ],
-        "notShown": [
-          "Rewards: no longer Ashbringer Test 002"
-        ],
-        "status": "updated"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 6201,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          16025,
-          1
-        ]
-      ],
-      "level": 65,
-      "money": 0,
-      "name": "<UNUSED> The Legacy of the Ashbringer",
-      "popularity": 48,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 60,
-      "side": 3,
-      "titlereward": 0,
-      "type": 21,
-      "xp": 0
-    },
-    {
-      "category": 2017,
-      "category2": 2,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 5251,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 18000,
-      "name": "The Archivist",
-      "popularity": 47,
-      "reprewards": [
-        [
-          529,
-          150
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 55,
-      "side": 3,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 8300
-    },
-    {
-      "category": 2017,
-      "category2": 2,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 5212,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 18000,
-      "name": "The Flesh Does Not Lie",
-      "popularity": 47,
-      "reprewards": [
-        [
-          529,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 55,
       "side": 3,
       "titlereward": 0,
       "type": 81,
@@ -551,7 +405,7 @@
       "level": 60,
       "money": 0,
       "name": "Aurius' Reckoning",
-      "popularity": 42,
+      "popularity": 77,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 55,
@@ -559,33 +413,6 @@
       "titlereward": 0,
       "type": 81,
       "xp": 9950
-    },
-    {
-      "category": 2017,
-      "category2": 2,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11305,
-      "icon": "quest-start",
-      "id": 8968,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 0,
-      "name": "The Left Piece of Lord Valthalak's Amulet",
-      "popularity": 41,
-      "reprewards": [],
-      "reqclass": 12,
-      "reqlevel": 58,
-      "side": 3,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 8300
     },
     {
       "category": 2017,
@@ -605,13 +432,186 @@
       "level": 60,
       "money": 0,
       "name": "The Medallion of Faith",
-      "popularity": 38,
+      "popularity": 77,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 55,
       "side": 3,
       "titlereward": 0,
       "type": 81,
+      "xp": 0
+    },
+    {
+      "category": 2017,
+      "category2": 2,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 5212,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 60,
+      "money": 18000,
+      "name": "The Flesh Does Not Lie",
+      "popularity": 75,
+      "reprewards": [
+        [
+          529,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 55,
+      "side": 3,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 6600
+    },
+    {
+      "category": 2017,
+      "category2": 2,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "rewards_changed"
+        ],
+        "lines": [
+          "Rewards: no longer Choice of Elemental Circle, Choice of Royal Seal of Alexis"
+        ],
+        "notShown": [
+          "Rewards: no longer Choice of Elemental Circle, Choice of Royal Seal of Alexis"
+        ],
+        "status": "updated"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 6163,
+      "itemchoices": [
+        [
+          18022,
+          1
+        ],
+        [
+          17001,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 60,
+      "money": 18000,
+      "name": "Ramstein",
+      "popularity": 71,
+      "reprewards": [
+        [
+          68,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 56,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 6600
+    },
+    {
+      "category": 2017,
+      "category2": 2,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11305,
+      "icon": "quest-start",
+      "id": 8991,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 60,
+      "money": 0,
+      "name": "The Right Piece of Lord Valthalak's Amulet",
+      "popularity": 64,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 58,
+      "side": 3,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 8300
+    },
+    {
+      "category": 2017,
+      "category2": 2,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11305,
+      "icon": "quest-start",
+      "id": 8968,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 60,
+      "money": 0,
+      "name": "The Left Piece of Lord Valthalak's Amulet",
+      "popularity": 63,
+      "reprewards": [],
+      "reqclass": 12,
+      "reqlevel": 58,
+      "side": 3,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 8300
+    },
+    {
+      "category": 2017,
+      "category2": 2,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "rewards_changed"
+        ],
+        "lines": [
+          "Rewards: no longer Ashbringer Test 002"
+        ],
+        "notShown": [
+          "Rewards: no longer Ashbringer Test 002"
+        ],
+        "status": "updated"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 6201,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          16025,
+          1
+        ]
+      ],
+      "level": 65,
+      "money": 0,
+      "name": "<UNUSED> The Legacy of the Ashbringer",
+      "popularity": 46,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 60,
+      "side": 3,
+      "titlereward": 0,
+      "type": 21,
       "xp": 0
     }
   ],

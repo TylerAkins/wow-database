@@ -1,6 +1,6 @@
 {
   "classes": [],
-  "fetchedAt": "2026-09-25T07:05:37+00:00",
+  "fetchedAt": "2026-10-17T04:08:40+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -11,7 +11,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 11[/li][li]Requires level 6[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=273017/fendaal-windstone]Fendaal Windstone[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=273017/fendaal-windstone]Fendaal Windstone[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]6[/color][small] &nbsp;[/small][color=r1]7[/color][small] &nbsp;[/small][color=r2]9[/color][small] &nbsp;[/small][color=r3]14[/color][small] &nbsp;[/small][color=r4]17[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 11[/li][li]Requires level 6[/li][li]Side: Both[/li][li]Race: [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=273017/fendaal-windstone]Fendaal Windstone[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=273017/fendaal-windstone]Fendaal Windstone[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]6[/color][small] &nbsp;[/small][color=r1]7[/color][small] &nbsp;[/small][color=r2]9[/color][small] &nbsp;[/small][color=r3]14[/color][small] &nbsp;[/small][color=r4]17[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -56,14 +56,10 @@
             },
             {
               "coord": [
-                56,
-                58.8
+                55.8,
+                59.3
               ],
               "coords": [
-                [
-                  54.4,
-                  60
-                ],
                 [
                   55,
                   61.6
@@ -74,27 +70,23 @@
                 ],
                 [
                   55.4,
-                  60.2
+                  59.8
                 ],
                 [
                   55.4,
-                  61.2
+                  61
                 ],
                 [
                   55.6,
                   59.8
                 ],
                 [
-                  56,
-                  58
+                  55.8,
+                  59.3
                 ],
                 [
-                  56,
-                  58.8
-                ],
-                [
-                  56,
-                  60.6
+                  55.9,
+                  61
                 ],
                 [
                   56.6,
@@ -133,14 +125,16 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 98512,
-  "races": [],
+  "races": [
+    95
+  ],
   "startPins": [
     {
       "npcId": 273017,
       "npcName": "Fendaal Windstone",
-      "zoneId": 16593,
       "x": 56.8,
       "y": 61.0,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

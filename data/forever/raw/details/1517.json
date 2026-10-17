@@ -3,7 +3,7 @@
     7
   ],
   "faction": "Horde",
-  "fetchedAt": "2026-09-25T00:58:24+00:00",
+  "fetchedAt": "2026-10-16T22:01:26+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -18,6 +18,32 @@
   "mapper": {
     "missing": 0,
     "objectives": {
+      "1": {
+        "levels": [
+          [
+            {
+              "coord": [
+                24.8,
+                61.8
+              ],
+              "coords": [
+                [
+                  24.8,
+                  61.8
+                ]
+              ],
+              "id": 5891,
+              "name": "Minor Manifestation of Earth",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Dun Morogh"
+      },
       "14": {
         "levels": [
           [
@@ -105,6 +131,10 @@
         2
       ],
       [
+        1,
+        1
+      ],
+      [
         215,
         1
       ]
@@ -131,9 +161,9 @@
     {
       "npcId": 5887,
       "npcName": "Canaga Earthcaller",
-      "zoneId": 14,
       "x": 42.4,
       "y": 69.0,
+      "zoneId": 14,
       "zoneName": "Durotar"
     }
   ]

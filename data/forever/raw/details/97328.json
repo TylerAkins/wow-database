@@ -1,0 +1,98 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-10-17T12:12:22+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 35[/li][li]Requires level 30[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/object=661516/thoroughly-scavenged-supplies]Thoroughly Scavenged Supplies[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]30[/color][small] &nbsp;[/small][color=r1]31[/color][small] &nbsp;[/small][color=r2]33[/color][small] &nbsp;[/small][color=r3]38[/color][small] &nbsp;[/small][color=r4]44[/color][/li][li]Added in patch [acronym=\"1.60.1.70170\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "33": {
+        "levels": [
+          [
+            {
+              "coord": [
+                31.6,
+                12.9
+              ],
+              "coords": [
+                [
+                  31.4,
+                  12.8
+                ],
+                [
+                  31.6,
+                  12.9
+                ]
+              ],
+              "id": 661516,
+              "name": "Thoroughly Scavenged Supplies",
+              "point": "start",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stranglethorn Vale"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        33,
+        1
+      ]
+    ]
+  },
+  "minLevel": 30,
+  "objectSpawns": [
+    {
+      "entityId": 661516,
+      "entityKind": "object",
+      "entityName": "Thoroughly Scavenged Supplies",
+      "uiMapId": 1434,
+      "uiMapName": "Stranglethorn Vale",
+      "x": 31.4,
+      "y": 12.8,
+      "zoneId": 33
+    },
+    {
+      "entityId": 661516,
+      "entityKind": "object",
+      "entityName": "Thoroughly Scavenged Supplies",
+      "uiMapId": 1434,
+      "uiMapName": "Stranglethorn Vale",
+      "x": 31.6,
+      "y": 12.9,
+      "zoneId": 33
+    }
+  ],
+  "pageInfo": {
+    "name": "Anything of Value",
+    "type": 5,
+    "typeId": 97328
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 97328,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 661516,
+      "npcName": "Thoroughly Scavenged Supplies",
+      "x": 31.6,
+      "y": 12.9,
+      "zoneId": 33,
+      "zoneName": "Stranglethorn Vale"
+    }
+  ]
+}

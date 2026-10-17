@@ -1,0 +1,137 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-10-17T12:07:40+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 34[/li][li]Requires level 30[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=255597/father-tuttle]Father Tuttle[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1776/magtoor]Magtoor[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]30[/color][small] &nbsp;[/small][color=r2]32[/color][small] &nbsp;[/small][color=r3]37[/color][small] &nbsp;[/small][color=r4]43[/color][/li][li]Added in patch [acronym=\"1.60.1.70205\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "8": {
+        "levels": [
+          [
+            {
+              "coord": [
+                22.2,
+                50.2
+              ],
+              "coords": [
+                [
+                  22,
+                  50.6
+                ],
+                [
+                  22.2,
+                  50.2
+                ],
+                [
+                  23.2,
+                  47.8
+                ],
+                [
+                  24,
+                  47.2
+                ],
+                [
+                  24.6,
+                  47.2
+                ],
+                [
+                  24.8,
+                  46.2
+                ],
+                [
+                  25.4,
+                  45.2
+                ],
+                [
+                  25.6,
+                  44.2
+                ],
+                [
+                  26.8,
+                  40.4
+                ],
+                [
+                  27,
+                  35.4
+                ],
+                [
+                  27,
+                  39
+                ]
+              ],
+              "id": 255597,
+              "name": "Father Tuttle",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                26,
+                31.4
+              ],
+              "coords": [
+                [
+                  26,
+                  31.4
+                ],
+                [
+                  26,
+                  31.6
+                ]
+              ],
+              "id": 1776,
+              "name": "Magtoor",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Swamp of Sorrows"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        8,
+        2
+      ]
+    ]
+  },
+  "minLevel": 30,
+  "pageInfo": {
+    "name": "This Light of Mine",
+    "type": 5,
+    "typeId": 93585
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 93585,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 255597,
+      "npcName": "Father Tuttle",
+      "x": 22.2,
+      "y": 50.2,
+      "zoneId": 8,
+      "zoneName": "Swamp of Sorrows"
+    }
+  ]
+}

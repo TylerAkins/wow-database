@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-24T23:19:00+00:00",
+  "fetchedAt": "2026-10-16T20:36:02+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,9 +12,9 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 32[/li][li]Requires level 30[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=2437/keeper-belvaril]Keeper Bel'varil[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2437/keeper-belvaril]Keeper Bel'varil[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]30[/color][small] &nbsp;[/small][color=r3]35[/color][small] &nbsp;[/small][color=r4]41[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 33[/li][li]Requires level 30[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=2437/keeper-belvaril]Keeper Bel'varil[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2437/keeper-belvaril]Keeper Bel'varil[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]30[/color][small] &nbsp;[/small][color=r2]31[/color][small] &nbsp;[/small][color=r3]36[/color][small] &nbsp;[/small][color=r4]42[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
   "mapper": {
-    "missing": 1,
+    "missing": 0,
     "objectives": {
       "267": {
         "levels": [
@@ -62,6 +62,122 @@
               "reactalliance": -1,
               "reacthorde": 1,
               "type": 1
+            },
+            {
+              "coord": [
+                27.3,
+                26.7
+              ],
+              "coords": [
+                [
+                  26,
+                  30.8
+                ],
+                [
+                  26.4,
+                  29.8
+                ],
+                [
+                  27.3,
+                  26.7
+                ],
+                [
+                  27.4,
+                  28.4
+                ],
+                [
+                  27.4,
+                  28.6
+                ],
+                [
+                  27.5,
+                  26.8
+                ],
+                [
+                  27.6,
+                  28.8
+                ],
+                [
+                  27.8,
+                  28.2
+                ],
+                [
+                  27.8,
+                  29.8
+                ],
+                [
+                  28.6,
+                  26.8
+                ],
+                [
+                  30,
+                  29.6
+                ],
+                [
+                  30.4,
+                  28.2
+                ]
+              ],
+              "id": 2271,
+              "item": "Worn Stone Token",
+              "name": "Dalaran Shield Guard",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                27.8,
+                27.7
+              ],
+              "coords": [
+                [
+                  27,
+                  31.4
+                ],
+                [
+                  27,
+                  31.6
+                ],
+                [
+                  27.4,
+                  30
+                ],
+                [
+                  27.8,
+                  27.7
+                ],
+                [
+                  27.8,
+                  29.8
+                ],
+                [
+                  28.6,
+                  28.6
+                ],
+                [
+                  28.8,
+                  29.8
+                ],
+                [
+                  29.4,
+                  28.2
+                ],
+                [
+                  30.2,
+                  28
+                ]
+              ],
+              "id": 2272,
+              "item": "Worn Stone Token",
+              "name": "Dalaran Theurgist",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
             }
           ]
         ],
@@ -74,7 +190,7 @@
     "zones": [
       [
         267,
-        1
+        3
       ]
     ]
   },
@@ -92,9 +208,9 @@
     {
       "npcId": 2437,
       "npcName": "Keeper Bel'varil",
-      "zoneId": 267,
       "x": 61.4,
       "y": 20.8,
+      "zoneId": 267,
       "zoneName": "Hillsbrad Foothills"
     }
   ]

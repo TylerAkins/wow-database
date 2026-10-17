@@ -1,8 +1,172 @@
 {
-  "fetchedAt": "2026-09-24T23:19:11+00:00",
+  "fetchedAt": "2026-10-17T11:26:05+00:00",
   "kind": "dungeon",
-  "questCount": 7,
+  "questCount": 8,
   "quests": [
+    {
+      "category": 796,
+      "category2": 2,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 96800,
+      "itemchoices": [
+        [
+          276898,
+          1
+        ],
+        [
+          276899,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 38,
+      "money": 4500,
+      "name": "Past Due",
+      "popularity": 885,
+      "reprewards": [
+        [
+          2740,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 30,
+      "side": 1,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 2850
+    },
+    {
+      "category": 796,
+      "category2": 2,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 1049,
+      "itemchoices": [
+        [
+          7747,
+          1
+        ],
+        [
+          17508,
+          1
+        ],
+        [
+          7749,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 38,
+      "money": 0,
+      "name": "Compendium of the Fallen",
+      "popularity": 573,
+      "reprewards": [
+        [
+          81,
+          150
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 28,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 3550
+    },
+    {
+      "category": 796,
+      "category2": 2,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 1113,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 33,
+      "money": 0,
+      "name": "Hearts of Zeal",
+      "popularity": 560,
+      "reprewards": [
+        [
+          68,
+          150
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 30,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 3300
+    },
+    {
+      "category": 796,
+      "category2": 2,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 1051,
+      "itemchoices": [
+        [
+          7750,
+          1
+        ],
+        [
+          4643,
+          1
+        ]
+      ],
+      "itemrewards": [
+        [
+          7751,
+          1
+        ]
+      ],
+      "level": 33,
+      "money": 0,
+      "name": "Vorrel's Revenge",
+      "popularity": 522,
+      "reprewards": [
+        [
+          68,
+          150
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 25,
+      "side": 2,
+      "titlereward": 0,
+      "type": 1,
+      "xp": 3300
+    },
     {
       "category": 796,
       "category2": 2,
@@ -41,7 +205,7 @@
       "level": 42,
       "money": 0,
       "name": "Into The Scarlet Monastery",
-      "popularity": 103,
+      "popularity": 482,
       "reprewards": [
         [
           68,
@@ -90,7 +254,7 @@
       "level": 40,
       "money": 0,
       "name": "In the Name of the Light",
-      "popularity": 103,
+      "popularity": 474,
       "reprewards": [
         [
           72,
@@ -110,66 +274,9 @@
       "currencychoicerewards": [],
       "currencyrewards": [],
       "envChange": {
-        "labels": [
-          "rewards_changed"
-        ],
-        "lines": [
-          "Rewards: no longer Choice of Forcestone Buckler, Choice of Vile Protector"
-        ],
-        "notShown": [
-          "Rewards: no longer Choice of Forcestone Buckler, Choice of Vile Protector"
-        ],
-        "status": "updated"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1049,
-      "itemchoices": [
-        [
-          7747,
-          1
-        ],
-        [
-          17508,
-          1
-        ],
-        [
-          7749,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 38,
-      "money": 0,
-      "name": "Compendium of the Fallen",
-      "popularity": 97,
-      "reprewards": [
-        [
-          81,
-          150
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 28,
-      "side": 2,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 3550
-    },
-    {
-      "category": 796,
-      "category2": 2,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [
-          "required_level_changed"
-        ],
-        "lines": [
-          "Requires level 25 instead of 26"
-        ],
-        "notShown": [],
-        "status": "updated"
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
@@ -179,7 +286,7 @@
       "level": 36,
       "money": 0,
       "name": "Test of Lore",
-      "popularity": 94,
+      "popularity": 467,
       "reprewards": [
         [
           68,
@@ -192,91 +299,6 @@
       "titlereward": 0,
       "type": 81,
       "xp": 2100
-    },
-    {
-      "category": 796,
-      "category2": 2,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [
-          "rewards_changed"
-        ],
-        "lines": [
-          "Rewards: no longer Choice of Grimsteel Cape, Choice of Mantle of Woe, Vorrel's Boots"
-        ],
-        "notShown": [
-          "Rewards: no longer Choice of Grimsteel Cape, Choice of Mantle of Woe, Vorrel's Boots"
-        ],
-        "status": "updated"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1051,
-      "itemchoices": [
-        [
-          7750,
-          1
-        ],
-        [
-          4643,
-          1
-        ]
-      ],
-      "itemrewards": [
-        [
-          7751,
-          1
-        ]
-      ],
-      "level": 33,
-      "money": 0,
-      "name": "Vorrel's Revenge",
-      "popularity": 91,
-      "reprewards": [
-        [
-          68,
-          150
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 25,
-      "side": 2,
-      "titlereward": 0,
-      "type": 1,
-      "xp": 3300
-    },
-    {
-      "category": 796,
-      "category2": 2,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1113,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 33,
-      "money": 0,
-      "name": "Hearts of Zeal",
-      "popularity": 82,
-      "reprewards": [
-        [
-          68,
-          150
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 30,
-      "side": 2,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 3300
     },
     {
       "category": 796,
@@ -301,7 +323,7 @@
       "level": 38,
       "money": 0,
       "name": "Mythology of the Titans",
-      "popularity": 66,
+      "popularity": 406,
       "reprewards": [
         [
           47,

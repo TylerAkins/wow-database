@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-09-24T23:19:10+00:00",
+  "fetchedAt": "2026-10-17T11:21:17+00:00",
   "kind": "zone",
-  "questCount": 54,
+  "questCount": 53,
   "quests": [
     {
       "category": 40,
@@ -45,17 +45,17 @@
           1
         ]
       ],
-      "level": 40,
+      "level": 22,
       "money": 0,
-      "name": "...and that note you found",
-      "popularity": 4189,
+      "name": "... and that note you found",
+      "popularity": 3686,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 14,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 3150
+      "xp": 1750
     },
     {
       "category": 40,
@@ -63,9 +63,16 @@
       "currencychoicerewards": [],
       "currencyrewards": [],
       "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
+        "labels": [
+          "text_changed"
+        ],
+        "lines": [
+          "Progress text added"
+        ],
+        "notShown": [
+          "Progress text added"
+        ],
+        "status": "updated"
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
@@ -75,7 +82,7 @@
       "level": 18,
       "money": 0,
       "name": "The Defias Brotherhood",
-      "popularity": 2302,
+      "popularity": 1029,
       "reprewards": [
         [
           72,
@@ -101,45 +108,13 @@
       },
       "firstseenpatch": 16001,
       "icon": "quest-start",
-      "id": 92753,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 18,
-      "money": 0,
-      "name": "Destruction in Deadmines",
-      "popularity": 1943,
-      "reprewards": [
-        [
-          72,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 9,
-      "side": 1,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 1350
-    },
-    {
-      "category": 40,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
       "id": 92819,
       "itemchoices": [],
       "itemrewards": [],
       "level": 18,
       "money": 500,
       "name": "Destruction in Deadmines",
-      "popularity": 1752,
+      "popularity": 984,
       "reprewards": [
         [
           72,
@@ -165,20 +140,25 @@
       },
       "firstseenpatch": 16001,
       "icon": "quest-start",
-      "id": 93928,
+      "id": 92742,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 15,
-      "money": 0,
-      "name": "Of Mice and Milk",
-      "popularity": 1749,
-      "reprewards": [],
+      "level": 12,
+      "money": 250,
+      "name": "Testing the Wells",
+      "popularity": 725,
+      "reprewards": [
+        [
+          72,
+          50
+        ]
+      ],
       "reqclass": 0,
-      "reqlevel": 15,
-      "side": 0,
+      "reqlevel": 9,
+      "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 105
+      "xp": 455
     },
     {
       "category": 40,
@@ -198,7 +178,7 @@
       "level": 16,
       "money": 400,
       "name": "A Dynamite Plan",
-      "popularity": 1220,
+      "popularity": 621,
       "reprewards": [
         [
           72,
@@ -208,6 +188,33 @@
       "reqclass": 0,
       "reqlevel": 9,
       "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 580
+    },
+    {
+      "category": 40,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 136,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 16,
+      "money": 0,
+      "name": "Captain Sander's Hidden Treasure",
+      "popularity": 610,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 10,
+      "side": 3,
       "titlereward": 0,
       "type": 0,
       "xp": 580
@@ -230,7 +237,7 @@
       "level": 18,
       "money": 0,
       "name": "The Defias Brotherhood",
-      "popularity": 1186,
+      "popularity": 578,
       "reprewards": [
         [
           72,
@@ -243,102 +250,6 @@
       "titlereward": 0,
       "type": 0,
       "xp": 1350
-    },
-    {
-      "category": 40,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 92752,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 16,
-      "money": 400,
-      "name": "Explosive Consultation",
-      "popularity": 1094,
-      "reprewards": [
-        [
-          72,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 9,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 580
-    },
-    {
-      "category": 40,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 65,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 18,
-      "money": 0,
-      "name": "The Defias Brotherhood",
-      "popularity": 1072,
-      "reprewards": [
-        [
-          72,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 14,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1350
-    },
-    {
-      "category": 40,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 92750,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 16,
-      "money": 400,
-      "name": "Detonation at a Distance",
-      "popularity": 984,
-      "reprewards": [
-        [
-          72,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 9,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 580
     },
     {
       "category": 40,
@@ -377,14 +288,14 @@
           1
         ],
         [
-          3343,
+          270257,
           1
         ]
       ],
       "level": 16,
       "money": 800,
       "name": "Captain Sander's Hidden Treasure",
-      "popularity": 847,
+      "popularity": 555,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 10,
@@ -405,13 +316,13 @@
       },
       "firstseenpatch": 16001,
       "icon": "quest-start",
-      "id": 92747,
+      "id": 92748,
       "itemchoices": [],
       "itemrewards": [],
       "level": 16,
       "money": 400,
-      "name": "Moonbrook Espionage",
-      "popularity": 837,
+      "name": "Explosive Consultation",
+      "popularity": 481,
       "reprewards": [
         [
           72,
@@ -437,13 +348,13 @@
       },
       "firstseenpatch": 16001,
       "icon": "quest-start",
-      "id": 92751,
+      "id": 92750,
       "itemchoices": [],
       "itemrewards": [],
       "level": 16,
       "money": 400,
       "name": "Detonation at a Distance",
-      "popularity": 802,
+      "popularity": 450,
       "reprewards": [
         [
           72,
@@ -456,6 +367,97 @@
       "titlereward": 0,
       "type": 0,
       "xp": 580
+    },
+    {
+      "category": 40,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 65,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 18,
+      "money": 0,
+      "name": "The Defias Brotherhood",
+      "popularity": 447,
+      "reprewards": [
+        [
+          72,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 14,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1350
+    },
+    {
+      "category": 40,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 92745,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 14,
+      "money": 300,
+      "name": "The State of the Mines",
+      "popularity": 437,
+      "reprewards": [
+        [
+          72,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 9,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 490
+    },
+    {
+      "category": 40,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 93928,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 15,
+      "money": 0,
+      "name": "Of Mice and Milk",
+      "popularity": 432,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 15,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 105
     },
     {
       "category": 40,
@@ -475,7 +477,7 @@
       "level": 15,
       "money": 500,
       "name": "Harvesting the Harvesters",
-      "popularity": 769,
+      "popularity": 429,
       "reprewards": [
         [
           54,
@@ -501,13 +503,13 @@
       },
       "firstseenpatch": 16001,
       "icon": "quest-start",
-      "id": 92742,
+      "id": 92744,
       "itemchoices": [],
       "itemrewards": [],
       "level": 12,
       "money": 250,
-      "name": "Testing the Wells",
-      "popularity": 724,
+      "name": "Murloc Gills",
+      "popularity": 415,
       "reprewards": [
         [
           72,
@@ -533,13 +535,13 @@
       },
       "firstseenpatch": 16001,
       "icon": "quest-start",
-      "id": 92748,
+      "id": 92752,
       "itemchoices": [],
       "itemrewards": [],
       "level": 16,
       "money": 400,
       "name": "Explosive Consultation",
-      "popularity": 622,
+      "popularity": 414,
       "reprewards": [
         [
           72,
@@ -565,13 +567,13 @@
       },
       "firstseenpatch": 16001,
       "icon": "quest-start",
-      "id": 92745,
+      "id": 92747,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 14,
-      "money": 300,
-      "name": "The State of the Mines",
-      "popularity": 604,
+      "level": 15,
+      "money": 0,
+      "name": "Moonbrook Espionage",
+      "popularity": 398,
       "reprewards": [
         [
           72,
@@ -583,7 +585,7 @@
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 490
+      "xp": 540
     },
     {
       "category": 40,
@@ -597,13 +599,40 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 136,
+      "id": 139,
       "itemchoices": [],
       "itemrewards": [],
       "level": 16,
       "money": 0,
       "name": "Captain Sander's Hidden Treasure",
-      "popularity": 603,
+      "popularity": 361,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 10,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 580
+    },
+    {
+      "category": 40,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 138,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 16,
+      "money": 0,
+      "name": "Captain Sander's Hidden Treasure",
+      "popularity": 319,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 10,
@@ -624,13 +653,13 @@
       },
       "firstseenpatch": 16001,
       "icon": "quest-start",
-      "id": 92744,
+      "id": 92751,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 12,
-      "money": 250,
-      "name": "Murloc Gills",
-      "popularity": 566,
+      "level": 16,
+      "money": 400,
+      "name": "Detonation at a Distance",
+      "popularity": 312,
       "reprewards": [
         [
           72,
@@ -642,39 +671,7 @@
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 455
-    },
-    {
-      "category": 40,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 141,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 18,
-      "money": 0,
-      "name": "The Defias Brotherhood",
-      "popularity": 561,
-      "reprewards": [
-        [
-          72,
-          25
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 14,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 340
+      "xp": 580
     },
     {
       "category": 40,
@@ -708,13 +705,17 @@
         [
           12296,
           1
+        ],
+        [
+          270006,
+          1
         ]
       ],
       "itemrewards": [],
       "level": 17,
       "money": 0,
       "name": "The People's Militia",
-      "popularity": 559,
+      "popularity": 305,
       "reprewards": [
         [
           72,
@@ -740,44 +741,17 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 139,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 16,
-      "money": 0,
-      "name": "Captain Sander's Hidden Treasure",
-      "popularity": 520,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 10,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 580
-    },
-    {
-      "category": 40,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 132,
+      "id": 141,
       "itemchoices": [],
       "itemrewards": [],
       "level": 18,
       "money": 0,
       "name": "The Defias Brotherhood",
-      "popularity": 477,
+      "popularity": 277,
       "reprewards": [
         [
           72,
-          50
+          25
         ]
       ],
       "reqclass": 0,
@@ -785,66 +759,7 @@
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 680
-    },
-    {
-      "category": 40,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 135,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 18,
-      "money": 0,
-      "name": "The Defias Brotherhood",
-      "popularity": 470,
-      "reprewards": [
-        [
-          72,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 14,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 680
-    },
-    {
-      "category": 40,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 138,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 16,
-      "money": 0,
-      "name": "Captain Sander's Hidden Treasure",
-      "popularity": 427,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 10,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 580
+      "xp": 340
     },
     {
       "category": 40,
@@ -873,7 +788,39 @@
       "level": 15,
       "money": 500,
       "name": "Harvesting the Harvesters",
-      "popularity": 326,
+      "popularity": 251,
+      "reprewards": [
+        [
+          54,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 8,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 800
+    },
+    {
+      "category": 40,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 92910,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 15,
+      "money": 500,
+      "name": "Harvesting the Harvesters",
+      "popularity": 250,
       "reprewards": [
         [
           54,
@@ -899,6 +846,70 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
+      "id": 135,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 18,
+      "money": 0,
+      "name": "The Defias Brotherhood",
+      "popularity": 248,
+      "reprewards": [
+        [
+          72,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 14,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 680
+    },
+    {
+      "category": 40,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 132,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 18,
+      "money": 0,
+      "name": "The Defias Brotherhood",
+      "popularity": 245,
+      "reprewards": [
+        [
+          72,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 14,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 680
+    },
+    {
+      "category": 40,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
       "id": 117,
       "itemchoices": [],
       "itemrewards": [
@@ -910,7 +921,7 @@
       "level": 15,
       "money": 0,
       "name": "Thunderbrew",
-      "popularity": 301,
+      "popularity": 238,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 0,
@@ -927,29 +938,37 @@
       "envChange": {
         "labels": [],
         "lines": [],
-        "status": "new"
+        "status": "unchanged"
       },
-      "firstseenpatch": 16001,
+      "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 92910,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 15,
-      "money": 500,
-      "name": "Harvesting the Harvesters",
-      "popularity": 268,
-      "reprewards": [
+      "id": 104,
+      "itemchoices": [
         [
-          54,
-          50
+          1172,
+          1
+        ],
+        [
+          1557,
+          1
+        ],
+        [
+          5240,
+          1
         ]
       ],
+      "itemrewards": [],
+      "level": 20,
+      "money": 0,
+      "name": "The Coastal Menace",
+      "popularity": 236,
+      "reprewards": [],
       "reqclass": 0,
-      "reqlevel": 8,
-      "side": 1,
+      "reqlevel": 15,
+      "side": 3,
       "titlereward": 0,
       "type": 0,
-      "xp": 800
+      "xp": 1550
     },
     {
       "category": 40,
@@ -986,7 +1005,7 @@
       "level": 13,
       "money": 0,
       "name": "Westfall Stew",
-      "popularity": 262,
+      "popularity": 216,
       "reprewards": [
         [
           72,
@@ -1012,22 +1031,22 @@
       },
       "firstseenpatch": 16001,
       "icon": "quest-start",
-      "id": 92109,
-      "itemchoices": [
+      "id": 92110,
+      "itemchoices": [],
+      "itemrewards": [
         [
-          118,
-          5
+          4597,
+          1
         ],
         [
-          249905,
+          4596,
           1
         ]
       ],
-      "itemrewards": [],
       "level": 10,
       "money": 175,
-      "name": "My First Alchemy Set",
-      "popularity": 227,
+      "name": "My First Real Potion",
+      "popularity": 177,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 10,
@@ -1035,38 +1054,6 @@
       "titlereward": 0,
       "type": 0,
       "xp": 420
-    },
-    {
-      "category": 40,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 12,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 12,
-      "money": 500,
-      "name": "The People's Militia",
-      "popularity": 216,
-      "reprewards": [
-        [
-          72,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 9,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 910
     },
     {
       "category": 40,
@@ -1104,7 +1091,7 @@
       "level": 16,
       "money": 600,
       "name": "Keeper of the Flame",
-      "popularity": 213,
+      "popularity": 173,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 10,
@@ -1112,6 +1099,110 @@
       "titlereward": 0,
       "type": 0,
       "xp": 1150
+    },
+    {
+      "category": 40,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 184,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          5057,
+          5
+        ],
+        [
+          4656,
+          5
+        ]
+      ],
+      "level": 9,
+      "money": 0,
+      "name": "Furlbrow's Deed",
+      "popularity": 162,
+      "reprewards": [
+        [
+          72,
+          75
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 8,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 590
+    },
+    {
+      "category": 40,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 92109,
+      "itemchoices": [
+        [
+          118,
+          5
+        ],
+        [
+          249905,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 10,
+      "money": 175,
+      "name": "My First Alchemy Set",
+      "popularity": 161,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 10,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 420
+    },
+    {
+      "category": 40,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 152,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 19,
+      "money": 1100,
+      "name": "The Coast Isn't Clear",
+      "popularity": 157,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 10,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1450
     },
     {
       "category": 40,
@@ -1140,7 +1231,7 @@
       "level": 14,
       "money": 0,
       "name": "Poor Old Blanchy",
-      "popularity": 209,
+      "popularity": 147,
       "reprewards": [
         [
           72,
@@ -1162,42 +1253,6 @@
       "envChange": {
         "labels": [],
         "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 92110,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          4597,
-          1
-        ],
-        [
-          4596,
-          1
-        ]
-      ],
-      "level": 10,
-      "money": 175,
-      "name": "My First Real Potion",
-      "popularity": 194,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 10,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 420
-    },
-    {
-      "category": 40,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
         "status": "unchanged"
       },
       "firstseenpatch": 11302,
@@ -1208,7 +1263,7 @@
       "level": 14,
       "money": 600,
       "name": "The People's Militia",
-      "popularity": 170,
+      "popularity": 143,
       "reprewards": [
         [
           72,
@@ -1221,78 +1276,6 @@
       "titlereward": 0,
       "type": 0,
       "xp": 980
-    },
-    {
-      "category": 40,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 104,
-      "itemchoices": [
-        [
-          1172,
-          1
-        ],
-        [
-          1557,
-          1
-        ],
-        [
-          5240,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 20,
-      "money": 0,
-      "name": "The Coastal Menace",
-      "popularity": 154,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 15,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1550
-    },
-    {
-      "category": 40,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "new"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 98021,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 13,
-      "money": 300,
-      "name": "Journey to Sentinel Hill",
-      "popularity": 150,
-      "reprewards": [
-        [
-          2779,
-          25
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 7,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 455
     },
     {
       "category": 40,
@@ -1322,13 +1305,17 @@
         [
           1561,
           1
+        ],
+        [
+          276695,
+          1
         ]
       ],
       "itemrewards": [],
       "level": 15,
       "money": 0,
       "name": "The Killing Fields",
-      "popularity": 149,
+      "popularity": 141,
       "reprewards": [
         [
           72,
@@ -1341,6 +1328,79 @@
       "titlereward": 0,
       "type": 0,
       "xp": 1050
+    },
+    {
+      "category": 40,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 12,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 12,
+      "money": 500,
+      "name": "The People's Militia",
+      "popularity": 140,
+      "reprewards": [
+        [
+          72,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 9,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 910
+    },
+    {
+      "category": 40,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 22,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          724,
+          3
+        ],
+        [
+          2697,
+          1
+        ]
+      ],
+      "level": 12,
+      "money": 0,
+      "name": "Goretusk Liver Pie",
+      "popularity": 132,
+      "reprewards": [
+        [
+          72,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 9,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 910
     },
     {
       "category": 40,
@@ -1373,7 +1433,7 @@
       "level": 15,
       "money": 0,
       "name": "Red Leather Bandanas",
-      "popularity": 144,
+      "popularity": 130,
       "reprewards": [
         [
           72,
@@ -1386,129 +1446,6 @@
       "titlereward": 0,
       "type": 0,
       "xp": 1050
-    },
-    {
-      "category": 40,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 102,
-      "itemchoices": [
-        [
-          1154,
-          1
-        ],
-        [
-          710,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 14,
-      "money": 0,
-      "name": "Patrolling Westfall",
-      "popularity": 138,
-      "reprewards": [
-        [
-          72,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 8,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 980
-    },
-    {
-      "category": 40,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 184,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          5057,
-          5
-        ],
-        [
-          4656,
-          5
-        ]
-      ],
-      "level": 9,
-      "money": 0,
-      "name": "Furlbrow's Deed",
-      "popularity": 136,
-      "reprewards": [
-        [
-          72,
-          75
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 8,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 590
-    },
-    {
-      "category": 40,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 22,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          724,
-          3
-        ],
-        [
-          2697,
-          1
-        ]
-      ],
-      "level": 12,
-      "money": 0,
-      "name": "Goretusk Liver Pie",
-      "popularity": 124,
-      "reprewards": [
-        [
-          72,
-          100
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 9,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 910
     },
     {
       "category": 40,
@@ -1537,7 +1474,7 @@
       "level": 12,
       "money": 0,
       "name": "The Forgotten Heirloom",
-      "popularity": 123,
+      "popularity": 120,
       "reprewards": [
         [
           72,
@@ -1559,29 +1496,70 @@
       "envChange": {
         "labels": [],
         "lines": [],
-        "status": "unchanged"
+        "status": "new"
       },
-      "firstseenpatch": 11302,
+      "firstseenpatch": 16001,
       "icon": "quest-start",
-      "id": 6261,
+      "id": 98021,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 10,
-      "money": 0,
-      "name": "Dungar Longdrink",
-      "popularity": 121,
+      "level": 13,
+      "money": 300,
+      "name": "Journey to Sentinel Hill",
+      "popularity": 114,
       "reprewards": [
         [
-          72,
+          2779,
           25
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 10,
+      "reqlevel": 7,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 210
+      "xp": 455
+    },
+    {
+      "category": 40,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 102,
+      "itemchoices": [
+        [
+          1154,
+          1
+        ],
+        [
+          710,
+          1
+        ]
+      ],
+      "itemrewards": [],
+      "level": 14,
+      "money": 0,
+      "name": "Patrolling Westfall",
+      "popularity": 112,
+      "reprewards": [
+        [
+          72,
+          100
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 8,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 980
     },
     {
       "category": 40,
@@ -1601,7 +1579,7 @@
       "level": 10,
       "money": 0,
       "name": "A Swift Message",
-      "popularity": 118,
+      "popularity": 95,
       "reprewards": [
         [
           72,
@@ -1627,104 +1605,13 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 6285,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 10,
-      "money": 350,
-      "name": "Return to Lewis",
-      "popularity": 99,
-      "reprewards": [
-        [
-          72,
-          150
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 10,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1050
-    },
-    {
-      "category": 40,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 6281,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 10,
-      "money": 175,
-      "name": "Continue to Stormwind",
-      "popularity": 94,
-      "reprewards": [
-        [
-          72,
-          50
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 10,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 420
-    },
-    {
-      "category": 40,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 152,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 19,
-      "money": 1100,
-      "name": "The Coast Isn't Clear",
-      "popularity": 88,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 10,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1450
-    },
-    {
-      "category": 40,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
       "id": 36,
       "itemchoices": [],
       "itemrewards": [],
       "level": 10,
       "money": 0,
       "name": "Westfall Stew",
-      "popularity": 87,
+      "popularity": 92,
       "reprewards": [
         [
           72,
@@ -1737,6 +1624,38 @@
       "titlereward": 0,
       "type": 0,
       "xp": 420
+    },
+    {
+      "category": 40,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 6261,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 10,
+      "money": 0,
+      "name": "Dungar Longdrink",
+      "popularity": 84,
+      "reprewards": [
+        [
+          72,
+          25
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 10,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 210
     },
     {
       "category": 40,
@@ -1761,7 +1680,7 @@
       "level": 44,
       "money": 0,
       "name": "Sweet Amber",
-      "popularity": 54,
+      "popularity": 83,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 40,
@@ -1788,7 +1707,7 @@
       "level": 44,
       "money": 6500,
       "name": "Sweet Amber",
-      "popularity": 53,
+      "popularity": 73,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 40,
@@ -1809,13 +1728,104 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
+      "id": 6281,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 10,
+      "money": 175,
+      "name": "Continue to Stormwind",
+      "popularity": 70,
+      "reprewards": [
+        [
+          72,
+          50
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 10,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 420
+    },
+    {
+      "category": 40,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
       "id": 50,
       "itemchoices": [],
       "itemrewards": [],
       "level": 44,
       "money": 12500,
       "name": "Sweet Amber",
-      "popularity": 50,
+      "popularity": 64,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 40,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 4650
+    },
+    {
+      "category": 40,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 6285,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 10,
+      "money": 350,
+      "name": "Return to Lewis",
+      "popularity": 63,
+      "reprewards": [
+        [
+          72,
+          150
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 10,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1050
+    },
+    {
+      "category": 40,
+      "category2": 0,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 49,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 44,
+      "money": 12500,
+      "name": "Sweet Amber",
+      "popularity": 61,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 40,
@@ -1842,34 +1852,7 @@
       "level": 44,
       "money": 12500,
       "name": "Sweet Amber",
-      "popularity": 40,
-      "reprewards": [],
-      "reqclass": 0,
-      "reqlevel": 40,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 4650
-    },
-    {
-      "category": 40,
-      "category2": 0,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 49,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 44,
-      "money": 12500,
-      "name": "Sweet Amber",
-      "popularity": 39,
+      "popularity": 57,
       "reprewards": [],
       "reqclass": 0,
       "reqlevel": 40,

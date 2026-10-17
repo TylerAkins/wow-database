@@ -1,6 +1,6 @@
 {
   "classes": [],
-  "fetchedAt": "2026-09-25T06:36:40+00:00",
+  "fetchedAt": "2026-10-17T03:39:34+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -11,7 +11,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 11[/li][li]Requires level 8[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=259012/ealaane-nimbuswalker]Ealaane Nimbuswalker[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=259012/ealaane-nimbuswalker]Ealaane Nimbuswalker[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]8[/color][small] &nbsp;[/small][color=r2]9[/color][small] &nbsp;[/small][color=r3]14[/color][small] &nbsp;[/small][color=r4]17[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 11[/li][li]Requires level 8[/li][li]Side: Both[/li][li]Race: [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=259012/ealaane-nimbuswalker]Ealaane Nimbuswalker[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=259012/ealaane-nimbuswalker]Ealaane Nimbuswalker[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]8[/color][small] &nbsp;[/small][color=r2]9[/color][small] &nbsp;[/small][color=r3]14[/color][small] &nbsp;[/small][color=r4]17[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 1,
     "objectives": {
@@ -78,14 +78,16 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 94896,
-  "races": [],
+  "races": [
+    95
+  ],
   "startPins": [
     {
       "npcId": 259012,
       "npcName": "Ealaane Nimbuswalker",
-      "zoneId": 16593,
       "x": 65.8,
       "y": 74.4,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

@@ -5,7 +5,7 @@
     "slug": "tanaris",
     "sourceSlug": "kd/tanaris",
     "sourceUrl": "https://www.wowhead.com/forever/quests/kalimdor/tanaris",
-    "sourceFetchedAt": "2026-09-24T23:19:11+00:00",
+    "sourceFetchedAt": "2026-10-17T11:23:19+00:00",
     "zoneId": 440
   },
   "questCount": 94,
@@ -13,7 +13,7 @@
     "10": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 10,
         "list": {
           "category": 440,
@@ -49,22 +49,34 @@
         },
         "minLevel": 39,
         "name": "The Scrimshank Redemption",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 7724,
+          "npcName": "Senior Surveyor Fizzledowser",
+          "x": 50.2,
+          "y": 27.4,
+          "zoneId": 440,
+          "zoneName": "Tanaris"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
+        "startPinCount": 1,
         "zoneId": 440,
         "zoneId2": 1
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:07:51+00:00",
+        "fetchedAt": "2026-10-16T19:41:55+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -149,9 +161,9 @@
           {
             "npcId": 7724,
             "npcName": "Senior Surveyor Fizzledowser",
-            "zoneId": 440,
             "x": 50.2,
             "y": 27.4,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -161,7 +173,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 32,
         "list": {
           "category": 440,
@@ -201,23 +213,35 @@
         },
         "minLevel": 39,
         "name": "Rise of the Silithid",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 7724,
+          "npcName": "Senior Surveyor Fizzledowser",
+          "x": 50.2,
+          "y": 27.4,
+          "zoneId": 440,
+          "zoneName": "Tanaris"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
+        "startPinCount": 1,
         "zoneId": 440,
         "zoneId2": 1
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:08:18+00:00",
+        "fetchedAt": "2026-10-16T19:44:22+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -322,9 +346,9 @@
           {
             "npcId": 7724,
             "npcName": "Senior Surveyor Fizzledowser",
-            "zoneId": 440,
             "x": 50.2,
             "y": 27.4,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -333,7 +357,7 @@
     "82": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 82,
         "list": {
           "category": 440,
@@ -369,22 +393,34 @@
         },
         "minLevel": 39,
         "name": "Noxious Lair Investigation",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 7724,
+          "npcName": "Senior Surveyor Fizzledowser",
+          "x": 50.2,
+          "y": 27.4,
+          "zoneId": 440,
+          "zoneName": "Tanaris"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
+        "startPinCount": 1,
         "zoneId": 440,
         "zoneId2": 1
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:09:16+00:00",
+        "fetchedAt": "2026-10-16T19:48:51+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -434,8 +470,8 @@
                     "id": 5594,
                     "name": "Alchemist Pestlezugg",
                     "point": "end",
-                    "reactalliance": 1,
-                    "reacthorde": 1,
+                    "reactalliance": 0,
+                    "reacthorde": 0,
                     "type": 1
                   },
                   {
@@ -2193,9 +2229,9 @@
           {
             "npcId": 7724,
             "npcName": "Senior Surveyor Fizzledowser",
-            "zoneId": 440,
             "x": 50.2,
             "y": 27.4,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -2204,7 +2240,7 @@
     "110": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 110,
         "list": {
           "category": 440,
@@ -2240,22 +2276,34 @@
         },
         "minLevel": 39,
         "name": "Insect Part Analysis",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 7724,
+          "npcName": "Senior Surveyor Fizzledowser",
+          "x": 50.2,
+          "y": 27.4,
+          "zoneId": 440,
+          "zoneName": "Tanaris"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
+        "startPinCount": 1,
         "zoneId": 440,
         "zoneId2": 1
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:09:51+00:00",
+        "fetchedAt": "2026-10-16T19:51:42+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -2305,8 +2353,8 @@
                     "id": 5594,
                     "name": "Alchemist Pestlezugg",
                     "point": "end",
-                    "reactalliance": 1,
-                    "reacthorde": 1,
+                    "reactalliance": 0,
+                    "reacthorde": 0,
                     "type": 1
                   }
                 ]
@@ -2338,9 +2386,9 @@
           {
             "npcId": 7724,
             "npcName": "Senior Surveyor Fizzledowser",
-            "zoneId": 440,
             "x": 50.2,
             "y": 27.4,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -2349,7 +2397,7 @@
     "113": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 113,
         "list": {
           "category": 440,
@@ -2385,22 +2433,34 @@
         },
         "minLevel": 39,
         "name": "Insect Part Analysis",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 5594,
+          "npcName": "Alchemist Pestlezugg",
+          "x": 50.8,
+          "y": 27.0,
+          "zoneId": 440,
+          "zoneName": "Tanaris"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
+        "startPinCount": 1,
         "zoneId": 440,
         "zoneId2": 1
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:09:54+00:00",
+        "fetchedAt": "2026-10-16T19:51:57+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -2432,8 +2492,8 @@
                     "id": 5594,
                     "name": "Alchemist Pestlezugg",
                     "point": "start",
-                    "reactalliance": 1,
-                    "reacthorde": 1,
+                    "reactalliance": 0,
+                    "reacthorde": 0,
                     "type": 1
                   },
                   {
@@ -2483,9 +2543,9 @@
           {
             "npcId": 5594,
             "npcName": "Alchemist Pestlezugg",
-            "zoneId": 440,
             "x": 50.8,
             "y": 27.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -2495,7 +2555,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 162,
         "list": {
           "category": 440,
@@ -2535,23 +2595,35 @@
         },
         "minLevel": 39,
         "name": "Rise of the Silithid",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 7724,
+          "npcName": "Senior Surveyor Fizzledowser",
+          "x": 50.2,
+          "y": 27.4,
+          "zoneId": 440,
+          "zoneName": "Tanaris"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
+        "startPinCount": 1,
         "zoneId": 440,
         "zoneId2": 1
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:10:55+00:00",
+        "fetchedAt": "2026-10-16T19:56:55+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -2662,9 +2734,9 @@
           {
             "npcId": 7724,
             "npcName": "Senior Surveyor Fizzledowser",
-            "zoneId": 440,
             "x": 50.2,
             "y": 27.4,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -2674,7 +2746,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 243,
         "list": {
           "category": 440,
@@ -2710,23 +2782,35 @@
         },
         "minLevel": 38,
         "name": "Into the Field",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 5204,
+          "npcName": "Apothecary Zinge",
+          "x": 50.0,
+          "y": 68.4,
+          "zoneId": 1497,
+          "zoneName": "Undercity"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
+        "startPinCount": 1,
         "zoneId": 440,
         "zoneId2": 1
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:12:36+00:00",
+        "fetchedAt": "2026-10-16T20:04:59+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -2833,9 +2917,9 @@
           {
             "npcId": 5204,
             "npcName": "Apothecary Zinge",
-            "zoneId": 1497,
             "x": 50.0,
             "y": 68.4,
+            "zoneId": 1497,
             "zoneName": "Undercity"
           }
         ]
@@ -2844,7 +2928,7 @@
     "351": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 351,
         "list": {
           "category": 440,
@@ -2884,22 +2968,26 @@
         },
         "minLevel": 43,
         "name": "Find OOX-17/TN!",
+        "pinCategory": "normal",
         "races": [],
         "sourceKinds": [
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
+        "startPinCount": 0,
         "zoneId": 440,
         "zoneId2": 1
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:14:46+00:00",
+        "fetchedAt": "2026-10-16T20:15:40+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -3002,7 +3090,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 379,
         "list": {
           "category": 440,
@@ -3047,23 +3135,35 @@
         },
         "minLevel": 38,
         "name": "Slake That Thirst",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 7407,
+          "npcName": "Chief Engineer Bilgewhizzle",
+          "x": 52.4,
+          "y": 28.4,
+          "zoneId": 440,
+          "zoneName": "Tanaris"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
+        "startPinCount": 1,
         "zoneId": 440,
         "zoneId2": 1
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:15:21+00:00",
+        "fetchedAt": "2026-10-16T20:18:17+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -3894,9 +3994,9 @@
           {
             "npcId": 7407,
             "npcName": "Chief Engineer Bilgewhizzle",
-            "zoneId": 440,
             "x": 52.4,
             "y": 28.4,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -3905,7 +4005,7 @@
     "648": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 648,
         "list": {
           "category": 440,
@@ -3954,22 +4054,34 @@
         },
         "minLevel": 43,
         "name": "Rescue OOX-17/TN!",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 7784,
+          "npcName": "Homing Robot OOX-17/TN",
+          "x": 60.2,
+          "y": 64.6,
+          "zoneId": 440,
+          "zoneName": "Tanaris"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
+        "startPinCount": 1,
         "zoneId": 440,
         "zoneId2": 1
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:20:53+00:00",
+        "fetchedAt": "2026-10-16T20:45:12+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -4099,9 +4211,9 @@
           {
             "npcId": 7784,
             "npcName": "Homing Robot OOX-17/TN",
-            "zoneId": 440,
             "x": 60.2,
             "y": 64.6,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -4111,7 +4223,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 654,
         "list": {
           "category": 440,
@@ -4147,23 +4259,27 @@
         },
         "minLevel": 38,
         "name": "Tanaris Field Sampling",
+        "pinCategory": "normal",
         "races": [],
         "sourceKinds": [
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
+        "startPinCount": 0,
         "zoneId": 440,
         "zoneId2": 1
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:21:01+00:00",
+        "fetchedAt": "2026-10-16T20:45:58+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -4233,7 +4349,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 841,
         "list": {
           "category": 440,
@@ -4269,6 +4385,15 @@
         },
         "minLevel": 38,
         "name": "Another Power Source?",
+        "pinCategory": "repeatable",
+        "primaryStart": {
+          "npcId": 7407,
+          "npcName": "Chief Engineer Bilgewhizzle",
+          "x": 52.4,
+          "y": 28.4,
+          "zoneId": 440,
+          "zoneName": "Tanaris"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -4279,13 +4404,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
+        "startPinCount": 1,
         "zoneId": 440,
         "zoneId2": 1
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:24:52+00:00",
+        "fetchedAt": "2026-10-16T21:04:29+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -5116,9 +5242,9 @@
           {
             "npcId": 7407,
             "npcName": "Chief Engineer Bilgewhizzle",
-            "zoneId": 440,
             "x": 52.4,
             "y": 28.4,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -5127,7 +5253,7 @@
     "992": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 992,
         "list": {
           "category": 440,
@@ -5163,22 +5289,34 @@
         },
         "minLevel": 38,
         "name": "Gadgetzan Water Survey",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 7724,
+          "npcName": "Senior Surveyor Fizzledowser",
+          "x": 50.2,
+          "y": 27.4,
+          "zoneId": 440,
+          "zoneName": "Tanaris"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
+        "startPinCount": 1,
         "zoneId": 440,
         "zoneId2": 1
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:27:56+00:00",
+        "fetchedAt": "2026-10-16T21:19:38+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -5261,9 +5399,9 @@
           {
             "npcId": 7724,
             "npcName": "Senior Surveyor Fizzledowser",
-            "zoneId": 440,
             "x": 50.2,
             "y": 27.4,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -5320,7 +5458,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T00:33:23+00:00",
+        "fetchedAt": "2026-10-16T21:36:11+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -5397,7 +5535,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T00:33:23+00:00",
+        "fetchedAt": "2026-10-16T21:36:16+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -5480,9 +5618,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 1,
@@ -5491,7 +5631,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:00:47+00:00",
+        "fetchedAt": "2026-10-16T22:03:37+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -5678,9 +5818,9 @@
           {
             "npcId": 5955,
             "npcName": "Tooga",
-            "zoneId": 440,
             "x": 29.6,
             "y": 60.6,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -5739,9 +5879,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 1,
@@ -5750,7 +5892,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:05:55+00:00",
+        "fetchedAt": "2026-10-16T22:08:46+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -6075,9 +6217,9 @@
           {
             "npcId": 7407,
             "npcName": "Chief Engineer Bilgewhizzle",
-            "zoneId": 440,
             "x": 52.4,
             "y": 28.4,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -6136,9 +6278,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 1,
@@ -6147,7 +6291,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:06:00+00:00",
+        "fetchedAt": "2026-10-16T22:08:50+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -6707,9 +6851,9 @@
           {
             "npcId": 7407,
             "npcName": "Chief Engineer Bilgewhizzle",
-            "zoneId": 440,
             "x": 52.4,
             "y": 28.4,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -6773,9 +6917,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 1,
@@ -6784,7 +6930,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:07:10+00:00",
+        "fetchedAt": "2026-10-16T22:10:15+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7615,9 +7761,9 @@
           {
             "npcId": 7408,
             "npcName": "Spigot Operator Luglunket",
-            "zoneId": 440,
             "x": 52.4,
             "y": 28.4,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -7681,9 +7827,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 1,
@@ -7692,7 +7840,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:14:05+00:00",
+        "fetchedAt": "2026-10-16T22:16:54+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -8523,9 +8671,9 @@
           {
             "npcId": 7408,
             "npcName": "Spigot Operator Luglunket",
-            "zoneId": 440,
             "x": 52.4,
             "y": 28.4,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -8595,7 +8743,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:27:42+00:00",
+        "fetchedAt": "2026-10-16T22:30:43+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -8631,8 +8779,8 @@
                     "id": 7564,
                     "name": "Marin Noggenfogger",
                     "point": "start",
-                    "reactalliance": 1,
-                    "reacthorde": 1,
+                    "reactalliance": 0,
+                    "reacthorde": 0,
                     "type": 1
                   },
                   {
@@ -8653,8 +8801,8 @@
                     "id": 7564,
                     "name": "Marin Noggenfogger",
                     "point": "end",
-                    "reactalliance": 1,
-                    "reacthorde": 1,
+                    "reactalliance": 0,
+                    "reacthorde": 0,
                     "type": 1
                   },
                   {
@@ -8792,9 +8940,9 @@
           {
             "npcId": 7564,
             "npcName": "Marin Noggenfogger",
-            "zoneId": 440,
             "x": 51.8,
             "y": 28.6,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -8859,7 +9007,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:27:47+00:00",
+        "fetchedAt": "2026-10-16T22:30:48+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -8895,8 +9043,8 @@
                     "id": 7564,
                     "name": "Marin Noggenfogger",
                     "point": "start",
-                    "reactalliance": 1,
-                    "reacthorde": 1,
+                    "reactalliance": 0,
+                    "reacthorde": 0,
                     "type": 1
                   },
                   {
@@ -8946,9 +9094,9 @@
           {
             "npcId": 7564,
             "npcName": "Marin Noggenfogger",
-            "zoneId": 440,
             "x": 51.8,
             "y": 28.6,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -9007,9 +9155,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 1,
@@ -9018,7 +9168,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:28:32+00:00",
+        "fetchedAt": "2026-10-16T22:31:34+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -9101,9 +9251,9 @@
           {
             "npcId": 7583,
             "npcName": "Sprinkle",
-            "zoneId": 440,
             "x": 51.0,
             "y": 26.8,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -9162,9 +9312,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 1,
@@ -9173,7 +9325,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:28:37+00:00",
+        "fetchedAt": "2026-10-16T22:31:39+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -9227,8 +9379,8 @@
                     "id": 7564,
                     "name": "Marin Noggenfogger",
                     "point": "end",
-                    "reactalliance": 1,
-                    "reacthorde": 1,
+                    "reactalliance": 0,
+                    "reacthorde": 0,
                     "type": 1
                   }
                 ]
@@ -9260,9 +9412,9 @@
           {
             "npcId": 7583,
             "npcName": "Sprinkle",
-            "zoneId": 440,
             "x": 51.0,
             "y": 26.8,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -9321,9 +9473,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 1,
@@ -9332,7 +9486,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:28:42+00:00",
+        "fetchedAt": "2026-10-16T22:31:44+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -9368,8 +9522,8 @@
                     "id": 7564,
                     "name": "Marin Noggenfogger",
                     "point": "start",
-                    "reactalliance": 1,
-                    "reacthorde": 1,
+                    "reactalliance": 0,
+                    "reacthorde": 0,
                     "type": 1
                   },
                   {
@@ -9390,8 +9544,8 @@
                     "id": 7564,
                     "name": "Marin Noggenfogger",
                     "point": "end",
-                    "reactalliance": 1,
-                    "reacthorde": 1,
+                    "reactalliance": 0,
+                    "reacthorde": 0,
                     "type": 1
                   }
                 ]
@@ -9423,9 +9577,9 @@
           {
             "npcId": 7564,
             "npcName": "Marin Noggenfogger",
-            "zoneId": 440,
             "x": 51.8,
             "y": 28.6,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -9505,7 +9659,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:29:18+00:00",
+        "fetchedAt": "2026-10-16T22:32:11+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -9679,7 +9833,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:29:48+00:00",
+        "fetchedAt": "2026-10-16T22:32:51+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -9762,9 +9916,9 @@
           {
             "npcId": 7763,
             "npcName": "Curgle Cranklehop",
-            "zoneId": 440,
             "x": 52.2,
             "y": 26.8,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -9843,7 +9997,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:29:53+00:00",
+        "fetchedAt": "2026-10-16T22:32:56+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -9926,9 +10080,9 @@
           {
             "npcId": 7763,
             "npcName": "Curgle Cranklehop",
-            "zoneId": 440,
             "x": 52.2,
             "y": 26.8,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -10007,7 +10161,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:29:58+00:00",
+        "fetchedAt": "2026-10-16T22:33:01+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -10090,9 +10244,9 @@
           {
             "npcId": 7763,
             "npcName": "Curgle Cranklehop",
-            "zoneId": 440,
             "x": 52.2,
             "y": 26.8,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -10166,7 +10320,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:30:18+00:00",
+        "fetchedAt": "2026-10-16T22:33:06+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -10249,9 +10403,9 @@
           {
             "npcId": 7763,
             "npcName": "Curgle Cranklehop",
-            "zoneId": 440,
             "x": 52.2,
             "y": 26.8,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -10311,9 +10465,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 2,
@@ -10322,7 +10478,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:32:35+00:00",
+        "fetchedAt": "2026-10-16T22:35:38+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -10585,9 +10741,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 1,
@@ -10596,7 +10754,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:36:27+00:00",
+        "fetchedAt": "2026-10-16T22:39:35+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -10691,9 +10849,9 @@
           {
             "npcId": 2501,
             "npcName": "\"Sea Wolf\" MacKinley",
-            "zoneId": 33,
             "x": 27.8,
             "y": 77.0,
+            "zoneId": 33,
             "zoneName": "Stranglethorn Vale"
           }
         ]
@@ -10747,9 +10905,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 1,
@@ -10758,7 +10918,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:36:33+00:00",
+        "fetchedAt": "2026-10-16T22:39:36+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -10845,9 +11005,9 @@
           {
             "npcId": 7881,
             "npcName": "Stoley",
-            "zoneId": 440,
             "x": 67.0,
             "y": 23.8,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -10910,9 +11070,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 1,
@@ -10921,7 +11083,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:36:37+00:00",
+        "fetchedAt": "2026-10-16T22:39:41+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -11016,9 +11178,9 @@
           {
             "npcId": 7881,
             "npcName": "Stoley",
-            "zoneId": 440,
             "x": 67.0,
             "y": 23.8,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -11078,9 +11240,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 2,
@@ -11089,7 +11253,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:36:42+00:00",
+        "fetchedAt": "2026-10-16T22:39:46+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -11153,7 +11317,7 @@
                     "id": 7882,
                     "name": "Security Chief Bilgewhizzle",
                     "point": "end",
-                    "reactalliance": 1,
+                    "reactalliance": 0,
                     "reacthorde": 1,
                     "type": 1
                   },
@@ -11313,9 +11477,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 0,
@@ -11324,7 +11490,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:36:47+00:00",
+        "fetchedAt": "2026-10-16T22:39:51+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -11356,7 +11522,7 @@
                     "id": 7882,
                     "name": "Security Chief Bilgewhizzle",
                     "point": "end",
-                    "reactalliance": 1,
+                    "reactalliance": 0,
                     "reacthorde": 1,
                     "type": 1
                   }
@@ -11448,7 +11614,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:41:00+00:00",
+        "fetchedAt": "2026-10-16T22:44:04+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -11522,28 +11688,6 @@
           ]
         },
         "minLevel": 45,
-        "objectSpawns": [
-          {
-            "entityId": 142343,
-            "entityKind": "object",
-            "entityName": "Uldum Pedestal",
-            "uiMapId": 1446,
-            "uiMapName": "Tanaris",
-            "x": 37.7,
-            "y": 81.4,
-            "zoneId": 440
-          },
-          {
-            "entityId": 142343,
-            "entityKind": "object",
-            "entityName": "Uldum Pedestal",
-            "uiMapId": 1446,
-            "uiMapName": "Tanaris",
-            "x": 37.7,
-            "y": 81.5,
-            "zoneId": 440
-          }
-        ],
         "pageInfo": {
           "name": "The Stone Watcher",
           "type": 5,
@@ -11628,7 +11772,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T01:45:12+00:00",
+        "fetchedAt": "2026-10-16T22:48:16+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -11723,9 +11867,9 @@
           {
             "npcId": 7763,
             "npcName": "Curgle Cranklehop",
-            "zoneId": 440,
             "x": 52.2,
             "y": 26.8,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -11782,7 +11926,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:45:48+00:00",
+        "fetchedAt": "2026-10-16T22:48:51+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -11870,9 +12014,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 1,
@@ -11881,7 +12027,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:51:00+00:00",
+        "fetchedAt": "2026-10-16T22:53:59+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -11964,9 +12110,9 @@
           {
             "npcId": 7771,
             "npcName": "Marvon Rivetseeker",
-            "zoneId": 440,
             "x": 52.6,
             "y": 45.8,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -12036,7 +12182,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T11:21:54+00:00",
+        "fetchedAt": "2026-10-16T22:55:10+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12329,9 +12475,9 @@
           {
             "npcId": 7876,
             "npcName": "Tran'rek",
-            "zoneId": 440,
             "x": 51.6,
             "y": 26.8,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -12385,9 +12531,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 1,
@@ -12396,7 +12544,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:55:44+00:00",
+        "fetchedAt": "2026-10-16T22:58:57+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12479,9 +12627,9 @@
           {
             "npcId": 7771,
             "npcName": "Marvon Rivetseeker",
-            "zoneId": 440,
             "x": 52.6,
             "y": 45.8,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -12535,9 +12683,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 1,
@@ -12546,7 +12696,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:59:21+00:00",
+        "fetchedAt": "2026-10-16T23:02:24+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12917,7 +13067,7 @@
                     "id": 8579,
                     "name": "Yeh'kinya",
                     "point": "start",
-                    "reactalliance": 1,
+                    "reactalliance": 0,
                     "reacthorde": 1,
                     "type": 1
                   },
@@ -12935,7 +13085,7 @@
                     "id": 8579,
                     "name": "Yeh'kinya",
                     "point": "end",
-                    "reactalliance": 1,
+                    "reactalliance": 0,
                     "reacthorde": 1,
                     "type": 1
                   }
@@ -12972,9 +13122,9 @@
           {
             "npcId": 8579,
             "npcName": "Yeh'kinya",
-            "zoneId": 440,
             "x": 67.0,
             "y": 22.4,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -13044,7 +13194,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:26:58+00:00",
+        "fetchedAt": "2026-10-16T23:30:11+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -13076,8 +13226,8 @@
                     "id": 5594,
                     "name": "Alchemist Pestlezugg",
                     "point": "start",
-                    "reactalliance": 1,
-                    "reacthorde": 1,
+                    "reactalliance": 0,
+                    "reacthorde": 0,
                     "type": 1
                   },
                   {
@@ -13094,8 +13244,8 @@
                     "id": 5594,
                     "name": "Alchemist Pestlezugg",
                     "point": "end",
-                    "reactalliance": 1,
-                    "reacthorde": 1,
+                    "reactalliance": 0,
+                    "reacthorde": 0,
                     "type": 1
                   }
                 ]
@@ -13129,9 +13279,9 @@
           {
             "npcId": 5594,
             "npcName": "Alchemist Pestlezugg",
-            "zoneId": 440,
             "x": 50.8,
             "y": 27.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -13201,7 +13351,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:27:18+00:00",
+        "fetchedAt": "2026-10-16T23:30:31+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -13292,9 +13442,9 @@
           {
             "npcId": 7876,
             "npcName": "Tran'rek",
-            "zoneId": 440,
             "x": 51.6,
             "y": 26.8,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -13348,9 +13498,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 1,
@@ -13359,7 +13511,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:27:44+00:00",
+        "fetchedAt": "2026-10-16T23:30:46+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -13391,8 +13543,8 @@
                     "id": 5594,
                     "name": "Alchemist Pestlezugg",
                     "point": "start",
-                    "reactalliance": 1,
-                    "reacthorde": 1,
+                    "reactalliance": 0,
+                    "reacthorde": 0,
                     "type": 1
                   },
                   {
@@ -13409,8 +13561,8 @@
                     "id": 5594,
                     "name": "Alchemist Pestlezugg",
                     "point": "end",
-                    "reactalliance": 1,
-                    "reacthorde": 1,
+                    "reactalliance": 0,
+                    "reacthorde": 0,
                     "type": 1
                   }
                 ]
@@ -13442,9 +13594,9 @@
           {
             "npcId": 5594,
             "npcName": "Alchemist Pestlezugg",
-            "zoneId": 440,
             "x": 50.8,
             "y": 27.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -13516,7 +13668,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:27:49+00:00",
+        "fetchedAt": "2026-10-16T23:31:06+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -13586,8 +13738,8 @@
                     "id": 5594,
                     "name": "Alchemist Pestlezugg",
                     "point": "start",
-                    "reactalliance": 1,
-                    "reacthorde": 1,
+                    "reactalliance": 0,
+                    "reacthorde": 0,
                     "type": 1
                   }
                 ]
@@ -13623,9 +13775,9 @@
           {
             "npcId": 5594,
             "npcName": "Alchemist Pestlezugg",
-            "zoneId": 440,
             "x": 50.8,
             "y": 27.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -13697,7 +13849,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:27:54+00:00",
+        "fetchedAt": "2026-10-16T23:31:06+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -13763,8 +13915,8 @@
                     "id": 5594,
                     "name": "Alchemist Pestlezugg",
                     "point": "start",
-                    "reactalliance": 1,
-                    "reacthorde": 1,
+                    "reactalliance": 0,
+                    "reacthorde": 0,
                     "type": 1
                   }
                 ]
@@ -13800,9 +13952,9 @@
           {
             "npcId": 5594,
             "npcName": "Alchemist Pestlezugg",
-            "zoneId": 440,
             "x": 50.8,
             "y": 27.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -13857,9 +14009,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 1,
@@ -13869,7 +14023,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:11:09+00:00",
+        "fetchedAt": "2026-10-17T00:14:08+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -13882,8 +14036,156 @@
         },
         "infoboxMarkup": "[ul][li]Level: 57[/li][li]Requires level 55[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=5411/krinkle-goodsteel]Krinkle Goodsteel[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=11056/alchemist-arbington]Alchemist Arbington[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]55[/color][small] &nbsp;[/small][color=r3]60[/color][small] &nbsp;[/small][color=r4]68[/color][/li][li]Added in patch [acronym=\"1.13.2.31687\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
         "mapper": {
-          "missing": 2,
+          "missing": 1,
           "objectives": {
+            "139": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      31.8,
+                      30.6
+                    ],
+                    "coords": [
+                      [
+                        24.8,
+                        20
+                      ],
+                      [
+                        28.8,
+                        44
+                      ],
+                      [
+                        31.6,
+                        30.4
+                      ],
+                      [
+                        31.8,
+                        30.6
+                      ],
+                      [
+                        38,
+                        16.4
+                      ],
+                      [
+                        82,
+                        36.4
+                      ],
+                      [
+                        82.4,
+                        36.8
+                      ],
+                      [
+                        82.6,
+                        37
+                      ],
+                      [
+                        82.8,
+                        40.4
+                      ],
+                      [
+                        82.8,
+                        40.6
+                      ],
+                      [
+                        83.4,
+                        46
+                      ],
+                      [
+                        83.4,
+                        46.6
+                      ],
+                      [
+                        83.6,
+                        46.2
+                      ],
+                      [
+                        84.2,
+                        43.2
+                      ],
+                      [
+                        87,
+                        42.4
+                      ],
+                      [
+                        87.2,
+                        42.8
+                      ]
+                    ],
+                    "id": 230146,
+                    "item": "Thorium Bar",
+                    "name": "Fel Interloper",
+                    "objective": 1,
+                    "point": "sourcerequirement",
+                    "reactalliance": -1,
+                    "reacthorde": -1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Eastern Plaguelands"
+            },
+            "16": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      30.2,
+                      79.8
+                    ],
+                    "coords": [
+                      [
+                        16.4,
+                        51
+                      ],
+                      [
+                        17.6,
+                        58.8
+                      ],
+                      [
+                        21.2,
+                        54
+                      ],
+                      [
+                        24.8,
+                        47.4
+                      ],
+                      [
+                        24.8,
+                        47.6
+                      ],
+                      [
+                        25,
+                        81.4
+                      ],
+                      [
+                        25,
+                        81.6
+                      ],
+                      [
+                        30.2,
+                        79.8
+                      ],
+                      [
+                        33,
+                        81.4
+                      ]
+                    ],
+                    "id": 223544,
+                    "item": "Thorium Bar",
+                    "name": "Fel Interloper",
+                    "objective": 1,
+                    "point": "sourcerequirement",
+                    "reactalliance": -1,
+                    "reacthorde": -1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Azshara"
+            },
             "28": {
               "levels": [
                 [
@@ -13910,6 +14212,182 @@
               "mappable": 1,
               "zone": "Western Plaguelands"
             },
+            "357": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      74.2,
+                      50.6
+                    ],
+                    "coords": [
+                      [
+                        68.2,
+                        58.8
+                      ],
+                      [
+                        70.6,
+                        62.6
+                      ],
+                      [
+                        72.4,
+                        63.6
+                      ],
+                      [
+                        72.6,
+                        63.8
+                      ],
+                      [
+                        73.2,
+                        54.2
+                      ],
+                      [
+                        74.2,
+                        50.6
+                      ],
+                      [
+                        74.2,
+                        56.8
+                      ],
+                      [
+                        74.2,
+                        60
+                      ],
+                      [
+                        76.2,
+                        56.4
+                      ],
+                      [
+                        76.2,
+                        56.6
+                      ],
+                      [
+                        76.6,
+                        63.8
+                      ]
+                    ],
+                    "id": 223544,
+                    "item": "Thorium Bar",
+                    "name": "Fel Interloper",
+                    "objective": 1,
+                    "point": "sourcerequirement",
+                    "reactalliance": -1,
+                    "reacthorde": -1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Feralas"
+            },
+            "4": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      62.2,
+                      39
+                    ],
+                    "coords": [
+                      [
+                        34.8,
+                        56.2
+                      ],
+                      [
+                        35,
+                        55
+                      ],
+                      [
+                        41.2,
+                        33.4
+                      ],
+                      [
+                        41.2,
+                        33.6
+                      ],
+                      [
+                        43.6,
+                        25.2
+                      ],
+                      [
+                        46.2,
+                        39.4
+                      ],
+                      [
+                        46.6,
+                        39.2
+                      ],
+                      [
+                        48.8,
+                        48.2
+                      ],
+                      [
+                        49.2,
+                        48.6
+                      ],
+                      [
+                        56.2,
+                        36.4
+                      ],
+                      [
+                        56.2,
+                        36.6
+                      ],
+                      [
+                        56.6,
+                        36.6
+                      ],
+                      [
+                        58.8,
+                        41.2
+                      ],
+                      [
+                        59.2,
+                        40.2
+                      ],
+                      [
+                        59.8,
+                        42.4
+                      ],
+                      [
+                        60.2,
+                        46.6
+                      ],
+                      [
+                        60.4,
+                        46.4
+                      ],
+                      [
+                        60.6,
+                        39
+                      ],
+                      [
+                        60.6,
+                        44.8
+                      ],
+                      [
+                        61.8,
+                        38.4
+                      ],
+                      [
+                        62.2,
+                        39
+                      ]
+                    ],
+                    "id": 223544,
+                    "item": "Thorium Bar",
+                    "name": "Fel Interloper",
+                    "objective": 1,
+                    "point": "sourcerequirement",
+                    "reactalliance": -1,
+                    "reacthorde": -1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Blasted Lands"
+            },
             "440": {
               "levels": [
                 [
@@ -13932,13 +14410,129 @@
                     "name": "Krinkle Goodsteel",
                     "point": "start",
                     "reactalliance": 1,
-                    "reacthorde": 1,
+                    "reacthorde": 0,
                     "type": 1
                   }
                 ]
               ],
               "mappable": 1,
               "zone": "Tanaris"
+            },
+            "46": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      60,
+                      65
+                    ],
+                    "coords": [
+                      [
+                        20.6,
+                        43.2
+                      ],
+                      [
+                        22.4,
+                        52.4
+                      ],
+                      [
+                        22.4,
+                        52.6
+                      ],
+                      [
+                        24.2,
+                        64.2
+                      ],
+                      [
+                        24.2,
+                        64.6
+                      ],
+                      [
+                        29.4,
+                        43.6
+                      ],
+                      [
+                        36,
+                        60
+                      ],
+                      [
+                        36,
+                        61.6
+                      ],
+                      [
+                        36.6,
+                        61.8
+                      ],
+                      [
+                        37.4,
+                        41.8
+                      ],
+                      [
+                        37.6,
+                        42
+                      ],
+                      [
+                        57.6,
+                        45.2
+                      ],
+                      [
+                        57.6,
+                        45.6
+                      ],
+                      [
+                        60,
+                        65
+                      ],
+                      [
+                        60.8,
+                        64.6
+                      ],
+                      [
+                        69,
+                        26.6
+                      ],
+                      [
+                        69.2,
+                        26.2
+                      ],
+                      [
+                        71.6,
+                        31.2
+                      ],
+                      [
+                        72,
+                        30.2
+                      ],
+                      [
+                        72,
+                        32
+                      ],
+                      [
+                        85.4,
+                        43.6
+                      ],
+                      [
+                        93.4,
+                        59
+                      ],
+                      [
+                        93.6,
+                        59.2
+                      ]
+                    ],
+                    "id": 230146,
+                    "item": "Thorium Bar",
+                    "name": "Fel Interloper",
+                    "objective": 1,
+                    "point": "sourcerequirement",
+                    "reactalliance": -1,
+                    "reacthorde": -1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Burning Steppes"
             }
           },
           "parent": "fweiuasf",
@@ -13946,6 +14540,26 @@
           "zones": [
             [
               440,
+              1
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              357,
+              1
+            ],
+            [
+              46,
+              1
+            ],
+            [
+              139,
               1
             ],
             [
@@ -13968,9 +14582,9 @@
           {
             "npcId": 5411,
             "npcName": "Krinkle Goodsteel",
-            "zoneId": 440,
             "x": 51.4,
             "y": 28.8,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -14025,9 +14639,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 1,
@@ -14037,7 +14653,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T03:11:10+00:00",
+        "fetchedAt": "2026-10-17T00:14:13+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -14050,8 +14666,332 @@
         },
         "infoboxMarkup": "[ul][li]Level: 57[/li][li]Requires level 55[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=5411/krinkle-goodsteel]Krinkle Goodsteel[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=11057/apothecary-dithers]Apothecary Dithers[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]55[/color][small] &nbsp;[/small][color=r3]60[/color][small] &nbsp;[/small][color=r4]68[/color][/li][li]Added in patch [acronym=\"1.13.2.31687\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
         "mapper": {
-          "missing": 2,
+          "missing": 1,
           "objectives": {
+            "139": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      31.8,
+                      30.6
+                    ],
+                    "coords": [
+                      [
+                        24.8,
+                        20
+                      ],
+                      [
+                        28.8,
+                        44
+                      ],
+                      [
+                        31.6,
+                        30.4
+                      ],
+                      [
+                        31.8,
+                        30.6
+                      ],
+                      [
+                        38,
+                        16.4
+                      ],
+                      [
+                        82,
+                        36.4
+                      ],
+                      [
+                        82.4,
+                        36.8
+                      ],
+                      [
+                        82.6,
+                        37
+                      ],
+                      [
+                        82.8,
+                        40.4
+                      ],
+                      [
+                        82.8,
+                        40.6
+                      ],
+                      [
+                        83.4,
+                        46
+                      ],
+                      [
+                        83.4,
+                        46.6
+                      ],
+                      [
+                        83.6,
+                        46.2
+                      ],
+                      [
+                        84.2,
+                        43.2
+                      ],
+                      [
+                        87,
+                        42.4
+                      ],
+                      [
+                        87.2,
+                        42.8
+                      ]
+                    ],
+                    "id": 230146,
+                    "item": "Thorium Bar",
+                    "name": "Fel Interloper",
+                    "objective": 1,
+                    "point": "sourcerequirement",
+                    "reactalliance": -1,
+                    "reacthorde": -1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Eastern Plaguelands"
+            },
+            "16": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      30.2,
+                      79.8
+                    ],
+                    "coords": [
+                      [
+                        16.4,
+                        51
+                      ],
+                      [
+                        17.6,
+                        58.8
+                      ],
+                      [
+                        21.2,
+                        54
+                      ],
+                      [
+                        24.8,
+                        47.4
+                      ],
+                      [
+                        24.8,
+                        47.6
+                      ],
+                      [
+                        25,
+                        81.4
+                      ],
+                      [
+                        25,
+                        81.6
+                      ],
+                      [
+                        30.2,
+                        79.8
+                      ],
+                      [
+                        33,
+                        81.4
+                      ]
+                    ],
+                    "id": 223544,
+                    "item": "Thorium Bar",
+                    "name": "Fel Interloper",
+                    "objective": 1,
+                    "point": "sourcerequirement",
+                    "reactalliance": -1,
+                    "reacthorde": -1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Azshara"
+            },
+            "357": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      74.2,
+                      50.6
+                    ],
+                    "coords": [
+                      [
+                        68.2,
+                        58.8
+                      ],
+                      [
+                        70.6,
+                        62.6
+                      ],
+                      [
+                        72.4,
+                        63.6
+                      ],
+                      [
+                        72.6,
+                        63.8
+                      ],
+                      [
+                        73.2,
+                        54.2
+                      ],
+                      [
+                        74.2,
+                        50.6
+                      ],
+                      [
+                        74.2,
+                        56.8
+                      ],
+                      [
+                        74.2,
+                        60
+                      ],
+                      [
+                        76.2,
+                        56.4
+                      ],
+                      [
+                        76.2,
+                        56.6
+                      ],
+                      [
+                        76.6,
+                        63.8
+                      ]
+                    ],
+                    "id": 223544,
+                    "item": "Thorium Bar",
+                    "name": "Fel Interloper",
+                    "objective": 1,
+                    "point": "sourcerequirement",
+                    "reactalliance": -1,
+                    "reacthorde": -1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Feralas"
+            },
+            "4": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      62.2,
+                      39
+                    ],
+                    "coords": [
+                      [
+                        34.8,
+                        56.2
+                      ],
+                      [
+                        35,
+                        55
+                      ],
+                      [
+                        41.2,
+                        33.4
+                      ],
+                      [
+                        41.2,
+                        33.6
+                      ],
+                      [
+                        43.6,
+                        25.2
+                      ],
+                      [
+                        46.2,
+                        39.4
+                      ],
+                      [
+                        46.6,
+                        39.2
+                      ],
+                      [
+                        48.8,
+                        48.2
+                      ],
+                      [
+                        49.2,
+                        48.6
+                      ],
+                      [
+                        56.2,
+                        36.4
+                      ],
+                      [
+                        56.2,
+                        36.6
+                      ],
+                      [
+                        56.6,
+                        36.6
+                      ],
+                      [
+                        58.8,
+                        41.2
+                      ],
+                      [
+                        59.2,
+                        40.2
+                      ],
+                      [
+                        59.8,
+                        42.4
+                      ],
+                      [
+                        60.2,
+                        46.6
+                      ],
+                      [
+                        60.4,
+                        46.4
+                      ],
+                      [
+                        60.6,
+                        39
+                      ],
+                      [
+                        60.6,
+                        44.8
+                      ],
+                      [
+                        61.8,
+                        38.4
+                      ],
+                      [
+                        62.2,
+                        39
+                      ]
+                    ],
+                    "id": 223544,
+                    "item": "Thorium Bar",
+                    "name": "Fel Interloper",
+                    "objective": 1,
+                    "point": "sourcerequirement",
+                    "reactalliance": -1,
+                    "reacthorde": -1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Blasted Lands"
+            },
             "440": {
               "levels": [
                 [
@@ -14074,13 +15014,129 @@
                     "name": "Krinkle Goodsteel",
                     "point": "start",
                     "reactalliance": 1,
-                    "reacthorde": 1,
+                    "reacthorde": 0,
                     "type": 1
                   }
                 ]
               ],
               "mappable": 1,
               "zone": "Tanaris"
+            },
+            "46": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      60,
+                      65
+                    ],
+                    "coords": [
+                      [
+                        20.6,
+                        43.2
+                      ],
+                      [
+                        22.4,
+                        52.4
+                      ],
+                      [
+                        22.4,
+                        52.6
+                      ],
+                      [
+                        24.2,
+                        64.2
+                      ],
+                      [
+                        24.2,
+                        64.6
+                      ],
+                      [
+                        29.4,
+                        43.6
+                      ],
+                      [
+                        36,
+                        60
+                      ],
+                      [
+                        36,
+                        61.6
+                      ],
+                      [
+                        36.6,
+                        61.8
+                      ],
+                      [
+                        37.4,
+                        41.8
+                      ],
+                      [
+                        37.6,
+                        42
+                      ],
+                      [
+                        57.6,
+                        45.2
+                      ],
+                      [
+                        57.6,
+                        45.6
+                      ],
+                      [
+                        60,
+                        65
+                      ],
+                      [
+                        60.8,
+                        64.6
+                      ],
+                      [
+                        69,
+                        26.6
+                      ],
+                      [
+                        69.2,
+                        26.2
+                      ],
+                      [
+                        71.6,
+                        31.2
+                      ],
+                      [
+                        72,
+                        30.2
+                      ],
+                      [
+                        72,
+                        32
+                      ],
+                      [
+                        85.4,
+                        43.6
+                      ],
+                      [
+                        93.4,
+                        59
+                      ],
+                      [
+                        93.6,
+                        59.2
+                      ]
+                    ],
+                    "id": 230146,
+                    "item": "Thorium Bar",
+                    "name": "Fel Interloper",
+                    "objective": 1,
+                    "point": "sourcerequirement",
+                    "reactalliance": -1,
+                    "reacthorde": -1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Burning Steppes"
             },
             "85": {
               "levels": [
@@ -14117,6 +15173,26 @@
               1
             ],
             [
+              4,
+              1
+            ],
+            [
+              16,
+              1
+            ],
+            [
+              357,
+              1
+            ],
+            [
+              46,
+              1
+            ],
+            [
+              139,
+              1
+            ],
+            [
               85,
               1
             ]
@@ -14136,9 +15212,9 @@
           {
             "npcId": 5411,
             "npcName": "Krinkle Goodsteel",
-            "zoneId": 440,
             "x": 51.4,
             "y": 28.8,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -14217,7 +15293,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T03:12:35+00:00",
+        "fetchedAt": "2026-10-17T00:15:49+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -14877,9 +15953,9 @@
           {
             "npcId": 11758,
             "npcName": "Andi Lynn",
-            "zoneId": 440,
             "x": 52.8,
             "y": 27.4,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -14944,7 +16020,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:15:09+00:00",
+        "fetchedAt": "2026-10-17T01:18:24+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -15006,7 +16082,7 @@
                     "id": 10460,
                     "name": "Prospector Ironboot",
                     "point": "start",
-                    "reactalliance": 1,
+                    "reactalliance": 0,
                     "reacthorde": 1,
                     "type": 1
                   }
@@ -15045,9 +16121,9 @@
           {
             "npcId": 10460,
             "npcName": "Prospector Ironboot",
-            "zoneId": 440,
             "x": 66.8,
             "y": 24.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -15106,9 +16182,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 1,
@@ -15117,7 +16195,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:26:21+00:00",
+        "fetchedAt": "2026-10-17T01:29:38+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -15153,7 +16231,7 @@
                     "id": 15165,
                     "name": "Haughty Modiste",
                     "point": "start",
-                    "reactalliance": 1,
+                    "reactalliance": 0,
                     "reacthorde": 1,
                     "type": 1
                   },
@@ -15175,7 +16253,7 @@
                     "id": 15165,
                     "name": "Haughty Modiste",
                     "point": "end",
-                    "reactalliance": 1,
+                    "reactalliance": 0,
                     "reacthorde": 1,
                     "type": 1
                   },
@@ -15728,9 +16806,9 @@
           {
             "npcId": 15165,
             "npcName": "Haughty Modiste",
-            "zoneId": 440,
             "x": 66.6,
             "y": 22.2,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -15798,9 +16876,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 1,
@@ -15809,7 +16889,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:26:27+00:00",
+        "fetchedAt": "2026-10-17T01:29:42+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -15841,7 +16921,7 @@
                     "id": 7882,
                     "name": "Security Chief Bilgewhizzle",
                     "point": "start",
-                    "reactalliance": 1,
+                    "reactalliance": 0,
                     "reacthorde": 1,
                     "type": 1
                   },
@@ -15859,7 +16939,7 @@
                     "id": 7882,
                     "name": "Security Chief Bilgewhizzle",
                     "point": "end",
-                    "reactalliance": 1,
+                    "reactalliance": 0,
                     "reacthorde": 1,
                     "type": 1
                   },
@@ -16268,9 +17348,9 @@
           {
             "npcId": 7882,
             "npcName": "Security Chief Bilgewhizzle",
-            "zoneId": 440,
             "x": 67.0,
             "y": 23.8,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -16340,7 +17420,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:37:53+00:00",
+        "fetchedAt": "2026-10-17T01:41:09+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -16428,9 +17508,9 @@
           {
             "npcId": 15192,
             "npcName": "Anachronos",
-            "zoneId": 440,
             "x": 65.2,
             "y": 50.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -16500,7 +17580,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:38:58+00:00",
+        "fetchedAt": "2026-10-17T01:42:30+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -16597,9 +17677,9 @@
           {
             "npcId": 11811,
             "npcName": "Narain Soothfancy",
-            "zoneId": 440,
             "x": 65.2,
             "y": 18.6,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -16669,7 +17749,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:39:04+00:00",
+        "fetchedAt": "2026-10-17T01:42:30+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -16769,9 +17849,9 @@
           {
             "npcId": 11811,
             "npcName": "Narain Soothfancy",
-            "zoneId": 440,
             "x": 65.2,
             "y": 18.6,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -16836,7 +17916,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:39:24+00:00",
+        "fetchedAt": "2026-10-17T01:42:35+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -16890,8 +17970,8 @@
                     "id": 8125,
                     "name": "Dirge Quikcleave",
                     "point": "end",
-                    "reactalliance": 1,
-                    "reacthorde": 1,
+                    "reactalliance": 0,
+                    "reacthorde": 0,
                     "type": 1
                   }
                 ]
@@ -16926,9 +18006,9 @@
           {
             "npcId": 11811,
             "npcName": "Narain Soothfancy",
-            "zoneId": 440,
             "x": 65.2,
             "y": 18.6,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -16998,7 +18078,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:39:24+00:00",
+        "fetchedAt": "2026-10-17T01:42:40+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -17074,8 +18154,8 @@
                     "id": 8125,
                     "name": "Dirge Quikcleave",
                     "point": "start",
-                    "reactalliance": 1,
-                    "reacthorde": 1,
+                    "reactalliance": 0,
+                    "reacthorde": 0,
                     "type": 1
                   },
                   {
@@ -17092,8 +18172,8 @@
                     "id": 8125,
                     "name": "Dirge Quikcleave",
                     "point": "end",
-                    "reactalliance": 1,
-                    "reacthorde": 1,
+                    "reactalliance": 0,
+                    "reacthorde": 0,
                     "type": 1
                   }
                 ]
@@ -17132,9 +18212,9 @@
           {
             "npcId": 8125,
             "npcName": "Dirge Quikcleave",
-            "zoneId": 440,
             "x": 52.6,
             "y": 28.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -17202,9 +18282,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 1,
@@ -17213,7 +18295,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:39:29+00:00",
+        "fetchedAt": "2026-10-17T01:42:45+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -17245,8 +18327,8 @@
                     "id": 8125,
                     "name": "Dirge Quikcleave",
                     "point": "start",
-                    "reactalliance": 1,
-                    "reacthorde": 1,
+                    "reactalliance": 0,
+                    "reacthorde": 0,
                     "type": 1
                   },
                   {
@@ -17263,8 +18345,8 @@
                     "id": 8125,
                     "name": "Dirge Quikcleave",
                     "point": "end",
-                    "reactalliance": 1,
-                    "reacthorde": 1,
+                    "reactalliance": 0,
+                    "reacthorde": 0,
                     "type": 1
                   },
                   {
@@ -18439,9 +19521,9 @@
           {
             "npcId": 8125,
             "npcName": "Dirge Quikcleave",
-            "zoneId": 440,
             "x": 52.6,
             "y": 28.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -18511,7 +19593,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:39:34+00:00",
+        "fetchedAt": "2026-10-17T01:42:50+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -18543,8 +19625,8 @@
                     "id": 8125,
                     "name": "Dirge Quikcleave",
                     "point": "start",
-                    "reactalliance": 1,
-                    "reacthorde": 1,
+                    "reactalliance": 0,
+                    "reacthorde": 0,
                     "type": 1
                   },
                   {
@@ -18603,9 +19685,9 @@
           {
             "npcId": 8125,
             "npcName": "Dirge Quikcleave",
-            "zoneId": 440,
             "x": 52.6,
             "y": 28.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -18675,7 +19757,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:39:41+00:00",
+        "fetchedAt": "2026-10-17T01:42:55+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -18748,9 +19830,9 @@
           {
             "npcId": 11811,
             "npcName": "Narain Soothfancy",
-            "zoneId": 440,
             "x": 65.2,
             "y": 18.6,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -18812,7 +19894,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:39:44+00:00",
+        "fetchedAt": "2026-10-17T01:43:00+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -18947,7 +20029,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:39:49+00:00",
+        "fetchedAt": "2026-10-17T01:43:05+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -19065,9 +20147,9 @@
           {
             "npcId": 15526,
             "npcName": "Meridith the Mermaiden",
-            "zoneId": 440,
             "x": 58.6,
             "y": 96.8,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -19137,7 +20219,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:39:54+00:00",
+        "fetchedAt": "2026-10-17T01:43:10+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -19270,9 +20352,9 @@
           {
             "npcId": 11811,
             "npcName": "Narain Soothfancy",
-            "zoneId": 440,
             "x": 65.2,
             "y": 18.6,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -19347,7 +20429,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:40:04+00:00",
+        "fetchedAt": "2026-10-17T01:43:31+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -19575,9 +20657,9 @@
           {
             "npcId": 11811,
             "npcName": "Narain Soothfancy",
-            "zoneId": 440,
             "x": 65.2,
             "y": 18.6,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -19647,7 +20729,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:45:07+00:00",
+        "fetchedAt": "2026-10-17T01:48:33+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -21471,9 +22553,9 @@
           {
             "npcId": 11811,
             "npcName": "Narain Soothfancy",
-            "zoneId": 440,
             "x": 65.2,
             "y": 18.6,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -21547,7 +22629,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:46:33+00:00",
+        "fetchedAt": "2026-10-17T01:49:49+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -21636,9 +22718,9 @@
           {
             "npcId": 15192,
             "npcName": "Anachronos",
-            "zoneId": 440,
             "x": 65.2,
             "y": 50.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -21713,7 +22795,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:46:58+00:00",
+        "fetchedAt": "2026-10-17T01:50:14+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -21796,9 +22878,9 @@
           {
             "npcId": 15192,
             "npcName": "Anachronos",
-            "zoneId": 440,
             "x": 65.2,
             "y": 50.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -21873,7 +22955,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:47:03+00:00",
+        "fetchedAt": "2026-10-17T01:50:34+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -21956,9 +23038,9 @@
           {
             "npcId": 15192,
             "npcName": "Anachronos",
-            "zoneId": 440,
             "x": 65.2,
             "y": 50.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -22033,7 +23115,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:47:08+00:00",
+        "fetchedAt": "2026-10-17T01:50:34+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -22116,9 +23198,9 @@
           {
             "npcId": 15192,
             "npcName": "Anachronos",
-            "zoneId": 440,
             "x": 65.2,
             "y": 50.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -22193,7 +23275,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:47:28+00:00",
+        "fetchedAt": "2026-10-17T01:50:39+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -22278,9 +23360,9 @@
           {
             "npcId": 15192,
             "npcName": "Anachronos",
-            "zoneId": 440,
             "x": 65.2,
             "y": 50.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -22357,7 +23439,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:47:28+00:00",
+        "fetchedAt": "2026-10-17T01:50:44+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -22440,9 +23522,9 @@
           {
             "npcId": 15192,
             "npcName": "Anachronos",
-            "zoneId": 440,
             "x": 65.2,
             "y": 50.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -22517,7 +23599,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:47:33+00:00",
+        "fetchedAt": "2026-10-17T01:50:49+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -22602,9 +23684,9 @@
           {
             "npcId": 15192,
             "npcName": "Anachronos",
-            "zoneId": 440,
             "x": 65.2,
             "y": 50.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -22679,7 +23761,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:47:38+00:00",
+        "fetchedAt": "2026-10-17T01:50:54+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -22762,9 +23844,9 @@
           {
             "npcId": 15192,
             "npcName": "Anachronos",
-            "zoneId": 440,
             "x": 65.2,
             "y": 50.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -22839,7 +23921,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:47:43+00:00",
+        "fetchedAt": "2026-10-17T01:50:59+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -22922,9 +24004,9 @@
           {
             "npcId": 15192,
             "npcName": "Anachronos",
-            "zoneId": 440,
             "x": 65.2,
             "y": 50.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -22999,7 +24081,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:47:48+00:00",
+        "fetchedAt": "2026-10-17T01:51:04+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -23082,9 +24164,9 @@
           {
             "npcId": 15192,
             "npcName": "Anachronos",
-            "zoneId": 440,
             "x": 65.2,
             "y": 50.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -23161,7 +24243,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:47:53+00:00",
+        "fetchedAt": "2026-10-17T01:51:09+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -23244,9 +24326,9 @@
           {
             "npcId": 15192,
             "npcName": "Anachronos",
-            "zoneId": 440,
             "x": 65.2,
             "y": 50.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -23321,7 +24403,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:47:58+00:00",
+        "fetchedAt": "2026-10-17T01:51:14+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -23404,9 +24486,9 @@
           {
             "npcId": 15192,
             "npcName": "Anachronos",
-            "zoneId": 440,
             "x": 65.2,
             "y": 50.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -23481,7 +24563,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:48:03+00:00",
+        "fetchedAt": "2026-10-17T01:51:34+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -23564,9 +24646,9 @@
           {
             "npcId": 15192,
             "npcName": "Anachronos",
-            "zoneId": 440,
             "x": 65.2,
             "y": 50.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -23641,7 +24723,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:48:08+00:00",
+        "fetchedAt": "2026-10-17T01:51:35+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -23724,9 +24806,9 @@
           {
             "npcId": 15192,
             "npcName": "Anachronos",
-            "zoneId": 440,
             "x": 65.2,
             "y": 50.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -23801,7 +24883,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:48:28+00:00",
+        "fetchedAt": "2026-10-17T01:51:40+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -23884,9 +24966,9 @@
           {
             "npcId": 15192,
             "npcName": "Anachronos",
-            "zoneId": 440,
             "x": 65.2,
             "y": 50.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -23961,7 +25043,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:48:29+00:00",
+        "fetchedAt": "2026-10-17T01:51:45+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -24044,9 +25126,9 @@
           {
             "npcId": 15192,
             "npcName": "Anachronos",
-            "zoneId": 440,
             "x": 65.2,
             "y": 50.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -24120,7 +25202,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:48:44+00:00",
+        "fetchedAt": "2026-10-17T01:52:00+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -24203,9 +25285,9 @@
           {
             "npcId": 15192,
             "npcName": "Anachronos",
-            "zoneId": 440,
             "x": 65.2,
             "y": 50.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -24271,7 +25353,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:48:49+00:00",
+        "fetchedAt": "2026-10-17T01:52:05+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -24282,7 +25364,7 @@
           "sharable": true,
           "weekly": false
         },
-        "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 60[/li][li]Side: None[/li][li][icon name=quest-end]End: [url=/forever/npc=15192/anachronos]Anachronos[/url][/icon][/li][li]Repeatable[/li][li]Not sharable[/li][li]Difficulty: [color=r2]60[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.5.35395\"]1.13.5[/acronym] \"The Gates of Ahn'Qiraj\"[/li][/ul]",
+        "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 60[/li][li]Side: Both[/li][li][icon name=quest-end]End: [url=/forever/npc=15192/anachronos]Anachronos[/url][/icon][/li][li]Repeatable[/li][li]Not sharable[/li][li]Difficulty: [color=r2]60[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.13.5.35395\"]1.13.5[/acronym] \"The Gates of Ahn'Qiraj\"[/li][/ul]",
         "mapper": {
           "missing": 4,
           "objectives": {
@@ -24403,7 +25485,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:48:54+00:00",
+        "fetchedAt": "2026-10-17T01:52:10+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -24486,9 +25568,9 @@
           {
             "npcId": 15192,
             "npcName": "Anachronos",
-            "zoneId": 440,
             "x": 65.2,
             "y": 50.0,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -24559,7 +25641,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:55:08+00:00",
+        "fetchedAt": "2026-10-17T01:58:43+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -24711,9 +25793,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 1,
@@ -24722,7 +25806,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:57:45+00:00",
+        "fetchedAt": "2026-10-17T02:01:05+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -24849,6 +25933,10 @@
                       [
                         47.8,
                         42.4
+                      ],
+                      [
+                        47.8,
+                        47.4
                       ],
                       [
                         48.6,
@@ -25623,9 +26711,9 @@
           {
             "npcId": 16014,
             "npcName": "Mux Manascrambler",
-            "zoneId": 440,
             "x": 52.4,
             "y": 27.2,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -25680,9 +26768,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 2,
@@ -25692,7 +26782,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:57:50+00:00",
+        "fetchedAt": "2026-10-17T02:01:10+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -25751,12 +26841,12 @@
                     ],
                     "coords": [
                       [
-                        42.4,
-                        52.2
+                        42.2,
+                        52.6
                       ],
                       [
                         42.4,
-                        52.6
+                        52.2
                       ],
                       [
                         43.2,
@@ -25764,7 +26854,7 @@
                       ],
                       [
                         43.4,
-                        51
+                        51.2
                       ],
                       [
                         43.4,
@@ -25847,17 +26937,17 @@
           {
             "npcId": 16013,
             "npcName": "Deliana",
-            "zoneId": 1537,
             "x": 43.4,
             "y": 52.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           },
           {
             "npcId": 230319,
             "npcName": "Deliana",
-            "zoneId": 1537,
             "x": 43.4,
             "y": 52.2,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           }
         ]
@@ -25912,9 +27002,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 2,
@@ -25924,7 +27016,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:57:54+00:00",
+        "fetchedAt": "2026-10-17T02:01:15+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -25984,7 +27076,7 @@
                       ],
                       [
                         34.4,
-                        37.8
+                        37.6
                       ],
                       [
                         34.8,
@@ -26003,7 +27095,7 @@
                     "name": "Mokvar",
                     "point": "start",
                     "reactalliance": 0,
-                    "reacthorde": 1,
+                    "reacthorde": 0,
                     "type": 1
                   }
                 ]
@@ -26065,17 +27157,17 @@
           {
             "npcId": 16012,
             "npcName": "Mokvar",
-            "zoneId": 1637,
             "x": 34.8,
             "y": 38.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           },
           {
             "npcId": 230317,
             "npcName": "Mokvar",
-            "zoneId": 1637,
             "x": 35.0,
             "y": 38.0,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           }
         ]
@@ -26129,9 +27221,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 1,
@@ -26140,7 +27234,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:58:00+00:00",
+        "fetchedAt": "2026-10-17T02:01:20+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -26230,9 +27324,9 @@
           {
             "npcId": 16014,
             "npcName": "Mux Manascrambler",
-            "zoneId": 440,
             "x": 52.4,
             "y": 27.2,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -26297,7 +27391,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:58:05+00:00",
+        "fetchedAt": "2026-10-17T02:01:25+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -26380,9 +27474,9 @@
           {
             "npcId": 16014,
             "npcName": "Mux Manascrambler",
-            "zoneId": 440,
             "x": 52.4,
             "y": 27.2,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -26436,9 +27530,11 @@
           "zone"
         ],
         "sourceSlugs": [
+          "kd/field-of-giants",
           "kd/tanaris"
         ],
         "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants",
           "https://www.wowhead.com/forever/quests/kalimdor/tanaris"
         ],
         "startPinCount": 1,
@@ -26447,7 +27543,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:58:20+00:00",
+        "fetchedAt": "2026-10-17T02:01:51+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -26533,9 +27629,9 @@
           {
             "npcId": 16014,
             "npcName": "Mux Manascrambler",
-            "zoneId": 440,
             "x": 52.4,
             "y": 27.2,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]
@@ -26609,7 +27705,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T05:15:22+00:00",
+        "fetchedAt": "2026-10-17T02:18:21+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -30540,9 +31636,9 @@
           {
             "npcId": 16417,
             "npcName": "Rumsen Fizzlebrack",
-            "zoneId": 440,
             "x": 50.4,
             "y": 26.2,
+            "zoneId": 440,
             "zoneName": "Tanaris"
           }
         ]

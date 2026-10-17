@@ -3,7 +3,7 @@
     4
   ],
   "faction": "Horde",
-  "fetchedAt": "2026-09-25T01:13:39+00:00",
+  "fetchedAt": "2026-10-16T22:16:40+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -14,7 +14,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 10[/li][li]Requires level 10[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Races: [race=2], [race=8][/li][li]Class: [class=4][/li][li][icon name=quest-start]Start: [url=/forever/npc=3170/kaplak]Kaplak[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=6446/therzok]Therzok[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]10[/color][small] &nbsp;[/small][color=r3]13[/color][small] &nbsp;[/small][color=r4]16[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 10[/li][li]Requires level 10[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Race: [race=2][/li][li]Class: [class=4][/li][li][icon name=quest-start]Start: [url=/forever/npc=3170/kaplak]Kaplak[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=6446/therzok]Therzok[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]10[/color][small] &nbsp;[/small][color=r3]13[/color][small] &nbsp;[/small][color=r4]16[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -102,16 +102,15 @@
   "prerequisiteQuestIds": [],
   "questId": 1859,
   "races": [
-    2,
-    8
+    2
   ],
   "startPins": [
     {
       "npcId": 3170,
       "npcName": "Kaplak",
-      "zoneId": 14,
       "x": 52.0,
       "y": 43.6,
+      "zoneId": 14,
       "zoneName": "Durotar"
     }
   ]

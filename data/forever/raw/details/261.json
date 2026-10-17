@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-24T23:12:57+00:00",
+  "fetchedAt": "2026-10-16T20:06:46+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -16,6 +16,45 @@
   "mapper": {
     "missing": 0,
     "objectives": {
+      "16651": {
+        "levels": [
+          [
+            {
+              "coord": [
+                36,
+                23.7
+              ],
+              "coords": [
+                [
+                  36,
+                  23.7
+                ],
+                [
+                  42.5,
+                  30.1
+                ],
+                [
+                  42.7,
+                  31
+                ],
+                [
+                  43,
+                  31.8
+                ]
+              ],
+              "id": 11561,
+              "name": "Undead Ravager",
+              "objective": 11561,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Shen'dralas"
+      },
       "405": {
         "levels": [
           [
@@ -254,6 +293,10 @@
       [
         405,
         2
+      ],
+      [
+        16651,
+        1
       ]
     ]
   },
@@ -271,9 +314,9 @@
     {
       "npcId": 1182,
       "npcName": "Brother Anton",
-      "zoneId": 405,
       "x": 66.4,
       "y": 7.8,
+      "zoneId": 405,
       "zoneName": "Desolace"
     }
   ]

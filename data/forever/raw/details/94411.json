@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-25T06:30:36+00:00",
+  "fetchedAt": "2026-10-17T03:33:30+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +12,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 6[/li][li]Requires level 4[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=251902/illaya-amberwind]Illaya Amberwind[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=251902/illaya-amberwind]Illaya Amberwind[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]4[/color][small] &nbsp;[/small][color=r3]9[/color][small] &nbsp;[/small][color=r4]12[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 6[/li][li]Requires level 4[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Race: [race=6][/li][li][icon name=quest-start]Start: [url=/forever/npc=251902/illaya-amberwind]Illaya Amberwind[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=251902/illaya-amberwind]Illaya Amberwind[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]4[/color][small] &nbsp;[/small][color=r3]9[/color][small] &nbsp;[/small][color=r4]12[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -65,37 +65,33 @@
             },
             {
               "coord": [
-                46,
-                40
+                46.7,
+                37.9
               ],
               "coords": [
                 [
-                  45.4,
+                  46.1,
+                  38.1
+                ],
+                [
+                  46.1,
+                  39.9
+                ],
+                [
+                  46.3,
+                  38.7
+                ],
+                [
+                  46.5,
+                  39.5
+                ],
+                [
+                  46.7,
+                  37.9
+                ],
+                [
+                  46.7,
                   39.2
-                ],
-                [
-                  45.8,
-                  39.4
-                ],
-                [
-                  46,
-                  38.2
-                ],
-                [
-                  46,
-                  40
-                ],
-                [
-                  46.6,
-                  38.2
-                ],
-                [
-                  46.6,
-                  39.2
-                ],
-                [
-                  46.6,
-                  39.6
                 ]
               ],
               "id": 257521,
@@ -128,16 +124,20 @@
     "typeId": 94411
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    1527
+  ],
   "questId": 94411,
-  "races": [],
+  "races": [
+    6
+  ],
   "startPins": [
     {
       "npcId": 251902,
       "npcName": "Illaya Amberwind",
-      "zoneId": 16593,
       "x": 43.6,
       "y": 44.8,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

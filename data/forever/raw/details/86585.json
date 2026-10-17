@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-25T05:56:53+00:00",
+  "fetchedAt": "2026-10-17T02:59:43+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +12,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 17[/li][li]Requires level 10[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=269153/mountaineer-ylva]Mountaineer Ylva[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1092/captain-rugelfuss]Captain Rugelfuss[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]10[/color][small] &nbsp;[/small][color=r1]13[/color][small] &nbsp;[/small][color=r2]15[/color][small] &nbsp;[/small][color=r3]20[/color][small] &nbsp;[/small][color=r4]24[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 17[/li][li]Requires level 10[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=3], [race=4], [br][race=7], [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=269153/mountaineer-ylva]Mountaineer Ylva[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1092/captain-rugelfuss]Captain Rugelfuss[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]10[/color][small] &nbsp;[/small][color=r1]13[/color][small] &nbsp;[/small][color=r2]15[/color][small] &nbsp;[/small][color=r3]20[/color][small] &nbsp;[/small][color=r4]24[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -22,15 +22,15 @@
             {
               "coord": [
                 31.8,
-                86.2
+                86.4
               ],
               "coords": [
                 [
                   31.8,
-                  86.2
+                  86.4
                 ],
                 [
-                  32,
+                  31.8,
                   86.6
                 ]
               ],
@@ -61,17 +61,21 @@
             },
             {
               "coord": [
-                31.8,
-                86.2
+                31.5,
+                85.6
               ],
               "coords": [
                 [
-                  31.8,
-                  86.2
+                  31.5,
+                  85.6
                 ],
                 [
-                  31.8,
-                  86.8
+                  32.1,
+                  87.1
+                ],
+                [
+                  32.8,
+                  87.9
                 ]
               ],
               "id": 269185,
@@ -106,14 +110,19 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 86585,
-  "races": [],
+  "races": [
+    3,
+    4,
+    7,
+    95
+  ],
   "startPins": [
     {
       "npcId": 269153,
       "npcName": "Mountaineer Ylva",
-      "zoneId": 38,
       "x": 31.8,
-      "y": 86.2,
+      "y": 86.4,
+      "zoneId": 38,
       "zoneName": "Loch Modan"
     }
   ]

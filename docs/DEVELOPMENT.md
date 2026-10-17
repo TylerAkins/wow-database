@@ -31,12 +31,17 @@ The compiler validates all selected inputs before replacing output. A full run r
 
 ## Wowhead snapshot invariants
 
-- 5,058 indexed quests
-- 5,057 quest detail records
-- 330 object records
+- 5,223 indexed quests
+- 5,223 quest detail records
+- 410 object records
 - One item record
 - 59 zone catalogs with complete detail coverage
-- Quest `7507` (`Nostro's Compendium`) is the documented non-zone gap because its old Wowhead name redirect-loops
+- Quest `7507` now has a detail record named `Foror's Compendium`, closing the previous detail coverage gap
+
+The Field of Giants catalog retains its September 24, 2026 snapshot. During the
+October 17 refresh, its Wowhead URL returned the broader Kalimdor catalog instead
+of a single zone. The other 110 catalogs were refreshed. All 410 indexed objects
+have saved detail records; zone 1's starter page remains unavailable after retry.
 
 ## Refreshing raw data
 
@@ -49,7 +54,10 @@ python3 tools/fetch_quest_pages.py sync-quests --browser --delay 5 \
   --batch-size 10 --batch-pause 15
 ```
 
-Run the offline tests and regenerate the compiled files after any refresh. See [quest-database.md](quest-database.md) for the complete source catalog and specialized sync commands.
+Follow [the Wowhead refresh workflow](INGESTION.md#wowhead-forever) for catalog
+refreshes, retries, both compilation steps, and verification. See
+[quest-database.md](quest-database.md) for the complete source catalog and
+specialized sync commands.
 
 The scheduled workflow uses Go 1.27.2. See [CLIENT_EXTRACTION.md](CLIENT_EXTRACTION.md)
 for the local client workflow and its current format limits.

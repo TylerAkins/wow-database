@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-25T07:09:45+00:00",
+  "fetchedAt": "2026-10-17T04:13:04+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +12,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 10[/li][li]Requires level 7[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=259190/ephram-barbaro]Ephram Barbaro[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=259190/ephram-barbaro]Ephram Barbaro[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]7[/color][small] &nbsp;[/small][color=r2]8[/color][small] &nbsp;[/small][color=r3]13[/color][small] &nbsp;[/small][color=r4]16[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 12[/li][li]Requires level 10[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Race: [race=5][/li][li][icon name=quest-start]Start: [url=/forever/npc=259190/ephram-barbaro]Ephram Barbaro[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=259190/ephram-barbaro]Ephram Barbaro[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]10[/color][small] &nbsp;[/small][color=r3]15[/color][small] &nbsp;[/small][color=r4]18[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 1,
     "objectives": {
@@ -78,23 +78,27 @@
       ]
     ]
   },
-  "minLevel": 7,
+  "minLevel": 10,
   "pageInfo": {
     "name": "The One That Got Away",
     "type": 5,
     "typeId": 99153
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    98545
+  ],
   "questId": 99153,
-  "races": [],
+  "races": [
+    5
+  ],
   "startPins": [
     {
       "npcId": 259190,
       "npcName": "Ephram Barbaro",
-      "zoneId": 85,
       "x": 20.2,
       "y": 46.4,
+      "zoneId": 85,
       "zoneName": "Tirisfal Glades"
     }
   ]

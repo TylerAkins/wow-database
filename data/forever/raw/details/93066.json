@@ -1,0 +1,201 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-10-17T12:05:44+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 43[/li][li]Requires level 35[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=253136/orgrul]Orgrul[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=253851/hagiak]Hagiak[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]35[/color][small] &nbsp;[/small][color=r1]39[/color][small] &nbsp;[/small][color=r2]41[/color][small] &nbsp;[/small][color=r3]46[/color][small] &nbsp;[/small][color=r4]53[/color][/li][li]Added in patch [acronym=\"1.60.1.70205\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "16651": {
+        "levels": [
+          [
+            {
+              "coord": [
+                35.6,
+                12
+              ],
+              "coords": [
+                [
+                  35.6,
+                  12
+                ],
+                [
+                  35.8,
+                  13
+                ]
+              ],
+              "id": 253136,
+              "name": "Orgrul",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                58.8,
+                53.8
+              ],
+              "coords": [
+                [
+                  58.8,
+                  53.8
+                ],
+                [
+                  59,
+                  53.4
+                ],
+                [
+                  59.6,
+                  53.8
+                ]
+              ],
+              "id": 253851,
+              "name": "Hagiak",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                58.4,
+                20.2
+              ],
+              "coords": [
+                [
+                  58.4,
+                  20.2
+                ],
+                [
+                  68.8,
+                  30.8
+                ],
+                [
+                  71.6,
+                  28.4
+                ],
+                [
+                  72.4,
+                  34.4
+                ]
+              ],
+              "id": 253524,
+              "name": "Bristleback Nomad",
+              "objective": 253524,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                69.2,
+                28.4
+              ],
+              "coords": [
+                [
+                  69.2,
+                  28.4
+                ],
+                [
+                  71.6,
+                  23.6
+                ],
+                [
+                  71.6,
+                  26.4
+                ]
+              ],
+              "id": 253525,
+              "name": "Bristleback Thornweaver",
+              "objective": 253525,
+              "point": "requirement",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                57,
+                15.4
+              ],
+              "coords": [
+                [
+                  57,
+                  15.4
+                ],
+                [
+                  58.4,
+                  18.4
+                ],
+                [
+                  59.4,
+                  14.4
+                ],
+                [
+                  59.6,
+                  34.8
+                ],
+                [
+                  71.2,
+                  25.8
+                ],
+                [
+                  71.4,
+                  29.2
+                ]
+              ],
+              "id": 253526,
+              "name": "Bristleback Skullcrusher",
+              "objective": 253526,
+              "point": "requirement",
+              "reactalliance": -1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Shen'dralas"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16651,
+        5
+      ]
+    ]
+  },
+  "minLevel": 35,
+  "pageInfo": {
+    "name": "Bristleback Retreat",
+    "type": 5,
+    "typeId": 93066
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 93066,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 253136,
+      "npcName": "Orgrul",
+      "x": 35.6,
+      "y": 12.0,
+      "zoneId": 16651,
+      "zoneName": "Shen'dralas"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "classes": [],
-  "fetchedAt": "2026-09-25T06:14:14+00:00",
+  "fetchedAt": "2026-10-17T03:17:13+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -11,7 +11,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 7[/li][li]Requires level 4[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=251991/taleen-shimmerthread]Taleen Shimmerthread[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=251991/taleen-shimmerthread]Taleen Shimmerthread[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]4[/color][small] &nbsp;[/small][color=r2]5[/color][small] &nbsp;[/small][color=r3]10[/color][small] &nbsp;[/small][color=r4]13[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 7[/li][li]Requires level 4[/li][li]Side: Both[/li][li]Race: [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=251991/taleen-shimmerthread]Taleen Shimmerthread[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=251991/taleen-shimmerthread]Taleen Shimmerthread[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]4[/color][small] &nbsp;[/small][color=r2]5[/color][small] &nbsp;[/small][color=r3]10[/color][small] &nbsp;[/small][color=r4]13[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 1,
     "objectives": {
@@ -78,14 +78,16 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 93951,
-  "races": [],
+  "races": [
+    95
+  ],
   "startPins": [
     {
       "npcId": 251991,
       "npcName": "Taleen Shimmerthread",
-      "zoneId": 16593,
       "x": 44.8,
       "y": 44.2,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

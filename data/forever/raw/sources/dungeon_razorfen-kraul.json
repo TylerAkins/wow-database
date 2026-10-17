@@ -1,8 +1,119 @@
 {
-  "fetchedAt": "2026-09-24T23:19:11+00:00",
+  "fetchedAt": "2026-10-17T11:25:40+00:00",
   "kind": "dungeon",
   "questCount": 6,
   "quests": [
+    {
+      "category": 491,
+      "category2": 2,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "rewards_changed"
+        ],
+        "lines": [
+          "Rewards: adds Quilboar Blaster",
+          "Rewards: no longer \"Mage-Eye\" Blunderbuss"
+        ],
+        "notShown": [
+          "Rewards: adds Quilboar Blaster",
+          "Rewards: no longer \"Mage-Eye\" Blunderbuss"
+        ],
+        "status": "updated"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 1101,
+      "itemchoices": [
+        [
+          4197,
+          1
+        ],
+        [
+          6742,
+          1
+        ],
+        [
+          6725,
+          1
+        ]
+      ],
+      "itemrewards": [
+        [
+          274084,
+          1
+        ]
+      ],
+      "level": 34,
+      "money": 0,
+      "name": "The Crone of the Kraul",
+      "popularity": 1047,
+      "reprewards": [],
+      "reqclass": 0,
+      "reqlevel": 29,
+      "side": 1,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 3350
+    },
+    {
+      "category": 491,
+      "category2": 2,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "rewards_changed"
+        ],
+        "lines": [
+          "Rewards: adds Quilboar Blaster"
+        ],
+        "notShown": [
+          "Rewards: adds Quilboar Blaster"
+        ],
+        "status": "updated"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 1102,
+      "itemchoices": [
+        [
+          4197,
+          1
+        ],
+        [
+          6742,
+          1
+        ],
+        [
+          6725,
+          1
+        ]
+      ],
+      "itemrewards": [
+        [
+          274084,
+          1
+        ]
+      ],
+      "level": 34,
+      "money": 0,
+      "name": "A Vengeful Fate",
+      "popularity": 975,
+      "reprewards": [
+        [
+          81,
+          200
+        ]
+      ],
+      "reqclass": 0,
+      "reqlevel": 29,
+      "side": 2,
+      "titlereward": 0,
+      "type": 81,
+      "xp": 4050
+    },
     {
       "category": 491,
       "category2": 2,
@@ -15,30 +126,25 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 1221,
+      "id": 1109,
       "itemchoices": [],
-      "itemrewards": [
-        [
-          6755,
-          1
-        ]
-      ],
-      "level": 26,
+      "itemrewards": [],
+      "level": 33,
       "money": 0,
-      "name": "Blueleaf Tubers",
-      "popularity": 223,
+      "name": "Going, Going, Guano!",
+      "popularity": 742,
       "reprewards": [
         [
-          470,
-          100
+          68,
+          150
         ]
       ],
       "reqclass": 0,
-      "reqlevel": 20,
-      "side": 3,
+      "reqlevel": 30,
+      "side": 2,
       "titlereward": 0,
       "type": 81,
-      "xp": 2100
+      "xp": 3300
     },
     {
       "category": 491,
@@ -50,10 +156,10 @@
           "rewards_changed"
         ],
         "lines": [
-          "Rewards: no longer Choice of Tiger Band"
+          "Rewards: adds Choice of Boar Signet"
         ],
         "notShown": [
-          "Rewards: no longer Choice of Tiger Band"
+          "Rewards: adds Choice of Boar Signet"
         ],
         "status": "updated"
       },
@@ -72,13 +178,17 @@
         [
           6749,
           1
+        ],
+        [
+          274078,
+          1
         ]
       ],
       "itemrewards": [],
       "level": 30,
       "money": 0,
       "name": "Willix the Importer",
-      "popularity": 141,
+      "popularity": 640,
       "reprewards": [
         [
           470,
@@ -104,70 +214,30 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 1109,
+      "id": 1221,
       "itemchoices": [],
-      "itemrewards": [],
-      "level": 33,
-      "money": 0,
-      "name": "Going, Going, Guano!",
-      "popularity": 127,
-      "reprewards": [
-        [
-          68,
-          150
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 30,
-      "side": 2,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 3300
-    },
-    {
-      "category": 491,
-      "category2": 2,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1101,
-      "itemchoices": [
-        [
-          4197,
-          1
-        ],
-        [
-          6742,
-          1
-        ],
-        [
-          6725,
-          1
-        ]
-      ],
       "itemrewards": [
         [
-          3041,
+          6755,
           1
         ]
       ],
-      "level": 34,
+      "level": 26,
       "money": 0,
-      "name": "The Crone of the Kraul",
-      "popularity": 110,
-      "reprewards": [],
+      "name": "Blueleaf Tubers",
+      "popularity": 629,
+      "reprewards": [
+        [
+          470,
+          100
+        ]
+      ],
       "reqclass": 0,
-      "reqlevel": 29,
-      "side": 1,
+      "reqlevel": 20,
+      "side": 3,
       "titlereward": 0,
       "type": 81,
-      "xp": 3350
+      "xp": 2100
     },
     {
       "category": 491,
@@ -179,10 +249,10 @@
           "rewards_changed"
         ],
         "lines": [
-          "Rewards: no longer Choice of Mourning Shawl"
+          "Rewards: adds Choice of Sentinel's Boots"
         ],
         "notShown": [
-          "Rewards: no longer Choice of Mourning Shawl"
+          "Rewards: adds Choice of Sentinel's Boots"
         ],
         "status": "updated"
       },
@@ -197,13 +267,17 @@
         [
           6752,
           1
+        ],
+        [
+          270047,
+          1
         ]
       ],
       "itemrewards": [],
       "level": 30,
       "money": 0,
       "name": "Mortality Wanes",
-      "popularity": 109,
+      "popularity": 482,
       "reprewards": [
         [
           69,
@@ -216,51 +290,6 @@
       "titlereward": 0,
       "type": 81,
       "xp": 3050
-    },
-    {
-      "category": 491,
-      "category2": 2,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1102,
-      "itemchoices": [
-        [
-          4197,
-          1
-        ],
-        [
-          6742,
-          1
-        ],
-        [
-          6725,
-          1
-        ]
-      ],
-      "itemrewards": [],
-      "level": 34,
-      "money": 0,
-      "name": "A Vengeful Fate",
-      "popularity": 105,
-      "reprewards": [
-        [
-          81,
-          200
-        ]
-      ],
-      "reqclass": 0,
-      "reqlevel": 29,
-      "side": 2,
-      "titlereward": 0,
-      "type": 81,
-      "xp": 4050
     }
   ],
   "slug": "dungeon/razorfen-kraul",

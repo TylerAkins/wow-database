@@ -2,15 +2,145 @@
   "classes": [
     3
   ],
-  "fetchedAt": "2026-09-25T05:29:04+00:00",
-  "infoboxFlags": {},
-  "infoboxMarkup": null,
-  "mapper": null,
+  "fetchedAt": "2026-10-17T02:32:13+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 40[/li][li]Requires level 26[/li][li]Side: Both[/li][li]Class: [class=3][/li][li][icon name=quest-start]Start: [url=/forever/npc=715/hemet-nesingwary]Hemet Nesingwary[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=715/hemet-nesingwary]Hemet Nesingwary[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]26[/color][small] &nbsp;[/small][color=r1]36[/color][small] &nbsp;[/small][color=r2]38[/color][small] &nbsp;[/small][color=r3]43[/color][small] &nbsp;[/small][color=r4]49[/color][/li][li]Added in patch [acronym=\"1.60.1.70205\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "3": {
+        "levels": [
+          [
+            {
+              "coord": [
+                22.4,
+                67.6
+              ],
+              "coords": [
+                [
+                  22.4,
+                  67.4
+                ],
+                [
+                  22.4,
+                  67.6
+                ],
+                [
+                  22.6,
+                  67.4
+                ],
+                [
+                  22.6,
+                  67.6
+                ],
+                [
+                  23.4,
+                  66.2
+                ],
+                [
+                  23.6,
+                  66.4
+                ]
+              ],
+              "id": 213795,
+              "item": "Crimson Trophy Quill",
+              "name": "Gharrik",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Badlands"
+      },
+      "33": {
+        "levels": [
+          [
+            {
+              "coord": [
+                35.6,
+                10.8
+              ],
+              "coords": [
+                [
+                  35.6,
+                  10.8
+                ]
+              ],
+              "id": 715,
+              "name": "Hemet Nesingwary",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                35.6,
+                10.8
+              ],
+              "coords": [
+                [
+                  35.6,
+                  10.8
+                ]
+              ],
+              "id": 715,
+              "name": "Hemet Nesingwary",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Stranglethorn Vale"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        33,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ]
+  },
   "minLevel": 26,
-  "pageInfo": null,
+  "pageInfo": {
+    "name": "Terror of the Desert Skies",
+    "type": 5,
+    "typeId": 78830
+  },
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 78830,
   "races": [],
-  "startPins": []
+  "startPins": [
+    {
+      "npcId": 715,
+      "npcName": "Hemet Nesingwary",
+      "x": 35.6,
+      "y": 10.8,
+      "zoneId": 33,
+      "zoneName": "Stranglethorn Vale"
+    }
+  ]
 }

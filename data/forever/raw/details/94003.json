@@ -1,6 +1,6 @@
 {
   "classes": [],
-  "fetchedAt": "2026-09-25T06:14:44+00:00",
+  "fetchedAt": "2026-10-17T03:17:28+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -11,7 +11,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 10[/li][li]Requires level 10[/li][li]Side: Both[/li][li]Races: [race=95], [race=96][/li][li][icon name=quest-start]Start: [url=/forever/npc=252377/seena-skybreaker]Seena Skybreaker[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=252377/seena-skybreaker]Seena Skybreaker[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]10[/color][small] &nbsp;[/small][color=r3]13[/color][small] &nbsp;[/small][color=r4]16[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 10[/li][li]Requires level 10[/li][li]Side: Both[/li][li]Race: [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=252377/seena-skybreaker]Seena Skybreaker[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=252377/seena-skybreaker]Seena Skybreaker[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r2]10[/color][small] &nbsp;[/small][color=r3]13[/color][small] &nbsp;[/small][color=r4]16[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -57,12 +57,20 @@
             {
               "coord": [
                 56.6,
-                50.4
+                50.3
               ],
               "coords": [
                 [
+                  56.4,
+                  50.5
+                ],
+                [
                   56.6,
-                  50.4
+                  50.3
+                ],
+                [
+                  56.6,
+                  50.6
                 ]
               ],
               "id": 257196,
@@ -99,16 +107,15 @@
   "prerequisiteQuestIds": [],
   "questId": 94003,
   "races": [
-    95,
-    96
+    95
   ],
   "startPins": [
     {
       "npcId": 252377,
       "npcName": "Seena Skybreaker",
-      "zoneId": 16593,
       "x": 59.8,
       "y": 72.8,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

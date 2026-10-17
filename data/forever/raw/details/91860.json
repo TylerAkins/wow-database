@@ -3,7 +3,7 @@
     2
   ],
   "faction": "Horde",
-  "fetchedAt": "2026-09-25T06:00:51+00:00",
+  "fetchedAt": "2026-10-17T03:03:40+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -14,9 +14,9 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 22[/li][li]Requires level 18[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Race: [race=5][/li][li]Class: [class=2][/li][li][icon name=quest-start]Start: [url=/forever/npc=259611/deathguard-baldren]Deathguard Baldren[/url][/icon][/li][li][icon name=quest-end]End: Object #566037[/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]18[/color][small] &nbsp;[/small][color=r2]20[/color][small] &nbsp;[/small][color=r3]25[/color][small] &nbsp;[/small][color=r4]29[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 22[/li][li]Requires level 18[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Race: [race=5][/li][li]Class: [class=2][/li][li][icon name=quest-start]Start: [url=/forever/npc=259611/deathguard-baldren]Deathguard Baldren[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=566037/charred-remains]Charred Remains[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]18[/color][small] &nbsp;[/small][color=r2]20[/color][small] &nbsp;[/small][color=r3]25[/color][small] &nbsp;[/small][color=r4]29[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
-    "missing": 1,
+    "missing": 0,
     "objectives": {
       "130": {
         "levels": [
@@ -38,6 +38,22 @@
               "reactalliance": 0,
               "reacthorde": 1,
               "type": 1
+            },
+            {
+              "coord": [
+                65,
+                34.2
+              ],
+              "coords": [
+                [
+                  65,
+                  34.2
+                ]
+              ],
+              "id": 566037,
+              "name": "Charred Remains",
+              "point": "end",
+              "type": 2
             }
           ]
         ],
@@ -50,7 +66,7 @@
     "zones": [
       [
         130,
-        1
+        2
       ]
     ]
   },
@@ -70,9 +86,9 @@
     {
       "npcId": 259611,
       "npcName": "Deathguard Baldren",
-      "zoneId": 130,
       "x": 45.8,
       "y": 41.8,
+      "zoneId": 130,
       "zoneName": "Silverpine Forest"
     }
   ]

@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-25T06:59:13+00:00",
+  "fetchedAt": "2026-10-17T04:02:28+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +12,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 13[/li][li]Requires level 10[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/object=175320/wanted-murkdeep]WANTED: Murkdeep![/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2930/sentinel-glynda-nalshea]Sentinel Glynda Nal'Shea[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]10[/color][small] &nbsp;[/small][color=r2]11[/color][small] &nbsp;[/small][color=r3]16[/color][small] &nbsp;[/small][color=r4]19[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 13[/li][li]Requires level 10[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=3], [race=4], [br][race=7], [race=95][/li][li][icon name=quest-start]Start: [url=/forever/object=175320/wanted-murkdeep]WANTED: Murkdeep![/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=2930/sentinel-glynda-nalshea]Sentinel Glynda Nal'Shea[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]10[/color][small] &nbsp;[/small][color=r2]11[/color][small] &nbsp;[/small][color=r3]16[/color][small] &nbsp;[/small][color=r4]19[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -64,12 +64,24 @@
               ],
               "coords": [
                 [
+                  44.1,
+                  59.2
+                ],
+                [
+                  44.4,
+                  58
+                ],
+                [
                   45,
                   58.2
                 ],
                 [
                   45,
                   58.6
+                ],
+                [
+                  45.2,
+                  57.4
                 ]
               ],
               "id": 270196,
@@ -115,9 +127,16 @@
     "typeId": 98025
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    940
+  ],
   "questId": 98025,
-  "races": [],
+  "races": [
+    3,
+    4,
+    7,
+    95
+  ],
   "startPins": [
     {
       "npcId": 175320,

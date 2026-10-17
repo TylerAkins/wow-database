@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-25T02:19:58+00:00",
+  "fetchedAt": "2026-10-16T23:23:11+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": true,
@@ -81,6 +81,30 @@
             },
             {
               "coord": [
+                26,
+                23
+              ],
+              "coords": [
+                [
+                  26,
+                  23
+                ],
+                [
+                  26.2,
+                  22
+                ]
+              ],
+              "id": 203138,
+              "item": "Dark Iron Fanny Pack",
+              "name": "Anvilrage Overseer",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
                 36,
                 19.2
               ],
@@ -134,7 +158,7 @@
     "zones": [
       [
         46,
-        3
+        4
       ]
     ]
   },
@@ -152,9 +176,9 @@
     {
       "npcId": 9177,
       "npcName": "Oralius",
-      "zoneId": 46,
       "x": 84.6,
       "y": 68.6,
+      "zoneId": 46,
       "zoneName": "Burning Steppes"
     }
   ]

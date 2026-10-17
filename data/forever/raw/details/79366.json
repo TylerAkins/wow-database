@@ -1,0 +1,241 @@
+{
+  "classes": [
+    7
+  ],
+  "faction": "Horde",
+  "fetchedAt": "2026-10-17T12:01:17+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 40[/li][li]Requires level 30[/li][li]Type: Elite[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Class: [class=7][/li][li][icon name=quest-start]Start: [url=/forever/npc=4722/rau-cliffrunner]Rau Cliffrunner[/url][/icon][br][span=invisible][icon name=quest-start]Start: [/icon][/span][url=/forever/npc=5905/prate-cloudseer]Prate Cloudseer[/url][/li][li][icon name=quest-end]End: [url=/forever/npc=4722/rau-cliffrunner]Rau Cliffrunner[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]30[/color][small] &nbsp;[/small][color=r1]36[/color][small] &nbsp;[/small][color=r2]38[/color][small] &nbsp;[/small][color=r3]43[/color][small] &nbsp;[/small][color=r4]49[/color][/li][li]Added in patch [acronym=\"1.60.1.70170\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "400": {
+        "levels": [
+          [
+            {
+              "coord": [
+                46,
+                51.6
+              ],
+              "coords": [
+                [
+                  46,
+                  51.4
+                ],
+                [
+                  46,
+                  51.6
+                ]
+              ],
+              "id": 4722,
+              "name": "Rau Cliffrunner",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                53.6,
+                42.8
+              ],
+              "coords": [
+                [
+                  53.4,
+                  42.6
+                ],
+                [
+                  53.6,
+                  42.4
+                ],
+                [
+                  53.6,
+                  42.8
+                ]
+              ],
+              "id": 5905,
+              "name": "Prate Cloudseer",
+              "point": "start",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                46,
+                51.6
+              ],
+              "coords": [
+                [
+                  46,
+                  51.4
+                ],
+                [
+                  46,
+                  51.6
+                ]
+              ],
+              "id": 4722,
+              "name": "Rau Cliffrunner",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                54,
+                41.2
+              ],
+              "coords": [
+                [
+                  34.6,
+                  42.6
+                ],
+                [
+                  35.6,
+                  41.6
+                ],
+                [
+                  35.8,
+                  36.2
+                ],
+                [
+                  35.8,
+                  44
+                ],
+                [
+                  36.4,
+                  38
+                ],
+                [
+                  36.4,
+                  38.6
+                ],
+                [
+                  36.4,
+                  40.8
+                ],
+                [
+                  36.6,
+                  41
+                ],
+                [
+                  36.6,
+                  42.8
+                ],
+                [
+                  36.7,
+                  39
+                ],
+                [
+                  36.8,
+                  39.6
+                ],
+                [
+                  36.8,
+                  41.8
+                ],
+                [
+                  36.9,
+                  37.9
+                ],
+                [
+                  37.8,
+                  38.8
+                ],
+                [
+                  46.4,
+                  46.8
+                ],
+                [
+                  53.4,
+                  40.8
+                ],
+                [
+                  53.8,
+                  40.4
+                ],
+                [
+                  54,
+                  41.2
+                ],
+                [
+                  54.4,
+                  41.8
+                ],
+                [
+                  54.6,
+                  41.4
+                ],
+                [
+                  54.6,
+                  41.8
+                ],
+                [
+                  55.8,
+                  43.2
+                ]
+              ],
+              "id": 216474,
+              "item": "Eye of the Tempest",
+              "name": "Ravaging Tempest",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Thousand Needles"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        400,
+        3
+      ]
+    ]
+  },
+  "minLevel": 30,
+  "pageInfo": {
+    "name": "Heed My Call",
+    "type": 5,
+    "typeId": 79366
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 79366,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 4722,
+      "npcName": "Rau Cliffrunner",
+      "x": 46.0,
+      "y": 51.6,
+      "zoneId": 400,
+      "zoneName": "Thousand Needles"
+    },
+    {
+      "npcId": 5905,
+      "npcName": "Prate Cloudseer",
+      "x": 53.6,
+      "y": 42.8,
+      "zoneId": 400,
+      "zoneName": "Thousand Needles"
+    }
+  ]
+}

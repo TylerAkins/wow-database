@@ -5,7 +5,7 @@
     "slug": "felwood",
     "sourceSlug": "kd/felwood",
     "sourceUrl": "https://www.wowhead.com/forever/quests/kalimdor/felwood",
-    "sourceFetchedAt": "2026-09-24T23:19:10+00:00",
+    "sourceFetchedAt": "2026-10-17T11:22:23+00:00",
     "zoneId": 361
   },
   "questCount": 87,
@@ -14,7 +14,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 939,
         "list": {
           "category": 361,
@@ -45,23 +45,27 @@
         },
         "minLevel": 49,
         "name": "Flute of Xavaric",
+        "pinCategory": "normal",
         "races": [],
         "sourceKinds": [
           "zone"
         ],
         "sourceSlugs": [
-          "kd/felwood"
+          "kd/felwood",
+          "kd/field-of-giants"
         ],
         "sourceUrls": [
-          "https://www.wowhead.com/forever/quests/kalimdor/felwood"
+          "https://www.wowhead.com/forever/quests/kalimdor/felwood",
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants"
         ],
+        "startPinCount": 0,
         "zoneId": 361,
         "zoneId2": 1
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:26:52+00:00",
+        "fetchedAt": "2026-10-16T21:14:23+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -132,7 +136,7 @@
     "996": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 996,
         "list": {
           "category": 361,
@@ -164,6 +168,7 @@
         "minLevel": 48,
         "name": "Corrupted Windblossom",
         "objectSpawnCount": 1,
+        "pinCategory": "repeatable",
         "primaryStart": {
           "npcId": 174600,
           "npcName": "Corrupted Windblossom",
@@ -188,7 +193,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:28:01+00:00",
+        "fetchedAt": "2026-10-16T21:19:58+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -254,18 +259,6 @@
           ]
         },
         "minLevel": 48,
-        "objectSpawns": [
-          {
-            "entityId": 174600,
-            "entityKind": "object",
-            "entityName": "Corrupted Windblossom",
-            "uiMapId": 1448,
-            "uiMapName": "Felwood",
-            "x": 57.5,
-            "y": 20.0,
-            "zoneId": 361
-          }
-        ],
         "pageInfo": {
           "name": "Corrupted Windblossom",
           "type": 5,
@@ -290,7 +283,7 @@
     "998": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 998,
         "list": {
           "category": 361,
@@ -322,6 +315,7 @@
         "minLevel": 48,
         "name": "Corrupted Windblossom",
         "objectSpawnCount": 1,
+        "pinCategory": "repeatable",
         "primaryStart": {
           "npcId": 174599,
           "npcName": "Corrupted Windblossom",
@@ -346,7 +340,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:28:04+00:00",
+        "fetchedAt": "2026-10-16T21:20:08+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -412,18 +406,6 @@
           ]
         },
         "minLevel": 48,
-        "objectSpawns": [
-          {
-            "entityId": 174599,
-            "entityKind": "object",
-            "entityName": "Corrupted Windblossom",
-            "uiMapId": 1448,
-            "uiMapName": "Felwood",
-            "x": 55.8,
-            "y": 7.0,
-            "zoneId": 361
-          }
-        ],
         "pageInfo": {
           "name": "Corrupted Windblossom",
           "type": 5,
@@ -505,7 +487,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T00:58:09+00:00",
+        "fetchedAt": "2026-10-16T22:01:11+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -682,7 +664,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:26:26+00:00",
+        "fetchedAt": "2026-10-16T22:29:27+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -841,7 +823,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:36:57+00:00",
+        "fetchedAt": "2026-10-16T22:40:01+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -1000,7 +982,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T01:52:12+00:00",
+        "fetchedAt": "2026-10-16T22:55:15+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -1160,7 +1142,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:12:39+00:00",
+        "fetchedAt": "2026-10-16T23:15:56+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -1510,9 +1492,9 @@
           {
             "npcId": 9528,
             "npcName": "Arathandris Silversky",
-            "zoneId": 361,
             "x": 54.2,
             "y": 86.8,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -1579,7 +1561,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:12:44+00:00",
+        "fetchedAt": "2026-10-16T23:15:57+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -1929,9 +1911,9 @@
           {
             "npcId": 9529,
             "npcName": "Maybess Riverbreeze",
-            "zoneId": 361,
             "x": 46.8,
             "y": 83.0,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -2003,7 +1985,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:12:49+00:00",
+        "fetchedAt": "2026-10-16T23:16:02+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -10062,9 +10044,9 @@
           {
             "npcId": 9528,
             "npcName": "Arathandris Silversky",
-            "zoneId": 361,
             "x": 54.2,
             "y": 86.8,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -10136,7 +10118,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T11:22:04+00:00",
+        "fetchedAt": "2026-10-16T23:16:07+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -10230,9 +10212,9 @@
           {
             "npcId": 9528,
             "npcName": "Arathandris Silversky",
-            "zoneId": 361,
             "x": 54.2,
             "y": 86.8,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -10304,7 +10286,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:12:59+00:00",
+        "fetchedAt": "2026-10-16T23:16:11+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -10411,9 +10393,9 @@
           {
             "npcId": 9528,
             "npcName": "Arathandris Silversky",
-            "zoneId": 361,
             "x": 54.2,
             "y": 86.8,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -10485,7 +10467,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:13:04+00:00",
+        "fetchedAt": "2026-10-16T23:16:16+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -11272,9 +11254,9 @@
           {
             "npcId": 9528,
             "npcName": "Arathandris Silversky",
-            "zoneId": 361,
             "x": 54.2,
             "y": 86.8,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -11334,10 +11316,12 @@
           "zone"
         ],
         "sourceSlugs": [
-          "kd/felwood"
+          "kd/felwood",
+          "kd/field-of-giants"
         ],
         "sourceUrls": [
-          "https://www.wowhead.com/forever/quests/kalimdor/felwood"
+          "https://www.wowhead.com/forever/quests/kalimdor/felwood",
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants"
         ],
         "startPinCount": 1,
         "zoneId": 361,
@@ -11346,7 +11330,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:13:10+00:00",
+        "fetchedAt": "2026-10-16T23:16:21+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -11429,9 +11413,9 @@
           {
             "npcId": 9528,
             "npcName": "Arathandris Silversky",
-            "zoneId": 361,
             "x": 54.2,
             "y": 86.8,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -11503,7 +11487,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:13:29+00:00",
+        "fetchedAt": "2026-10-16T23:16:27+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -19562,9 +19546,9 @@
           {
             "npcId": 9529,
             "npcName": "Maybess Riverbreeze",
-            "zoneId": 361,
             "x": 46.8,
             "y": 83.0,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -19636,7 +19620,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:13:29+00:00",
+        "fetchedAt": "2026-10-16T23:16:31+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -19719,9 +19703,9 @@
           {
             "npcId": 9529,
             "npcName": "Maybess Riverbreeze",
-            "zoneId": 361,
             "x": 46.8,
             "y": 83.0,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -19793,7 +19777,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:13:35+00:00",
+        "fetchedAt": "2026-10-16T23:16:37+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -19900,9 +19884,9 @@
           {
             "npcId": 9529,
             "npcName": "Maybess Riverbreeze",
-            "zoneId": 361,
             "x": 46.8,
             "y": 83.0,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -19974,7 +19958,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:13:40+00:00",
+        "fetchedAt": "2026-10-16T23:16:57+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -20761,9 +20745,9 @@
           {
             "npcId": 9529,
             "npcName": "Maybess Riverbreeze",
-            "zoneId": 361,
             "x": 46.8,
             "y": 83.0,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -20835,7 +20819,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:13:44+00:00",
+        "fetchedAt": "2026-10-16T23:16:57+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -20918,9 +20902,9 @@
           {
             "npcId": 9529,
             "npcName": "Maybess Riverbreeze",
-            "zoneId": 361,
             "x": 46.8,
             "y": 83.0,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -20986,7 +20970,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:13:50+00:00",
+        "fetchedAt": "2026-10-16T23:17:02+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -21145,7 +21129,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:13:55+00:00",
+        "fetchedAt": "2026-10-16T23:17:07+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -21322,7 +21306,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:14:00+00:00",
+        "fetchedAt": "2026-10-16T23:17:12+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -21481,7 +21465,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:14:05+00:00",
+        "fetchedAt": "2026-10-16T23:17:17+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -21640,7 +21624,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:14:10+00:00",
+        "fetchedAt": "2026-10-16T23:17:22+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -21801,7 +21785,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:14:30+00:00",
+        "fetchedAt": "2026-10-16T23:17:27+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -21960,7 +21944,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:14:30+00:00",
+        "fetchedAt": "2026-10-16T23:17:32+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -22119,7 +22103,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:17:52+00:00",
+        "fetchedAt": "2026-10-16T23:21:05+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -22185,18 +22169,6 @@
           ]
         },
         "minLevel": 48,
-        "objectSpawns": [
-          {
-            "entityId": 174604,
-            "entityKind": "object",
-            "entityName": "Corrupted Windblossom",
-            "uiMapId": 1448,
-            "uiMapName": "Felwood",
-            "x": 39.0,
-            "y": 59.1,
-            "zoneId": 361
-          }
-        ],
         "pageInfo": {
           "name": "Corrupted Windblossom",
           "type": 5,
@@ -22280,7 +22252,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:17:57+00:00",
+        "fetchedAt": "2026-10-16T23:21:10+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -22346,18 +22318,6 @@
           ]
         },
         "minLevel": 48,
-        "objectSpawns": [
-          {
-            "entityId": 174603,
-            "entityKind": "object",
-            "entityName": "Corrupted Windblossom",
-            "uiMapId": 1448,
-            "uiMapName": "Felwood",
-            "x": 34.4,
-            "y": 48.8,
-            "zoneId": 361
-          }
-        ],
         "pageInfo": {
           "name": "Corrupted Windblossom",
           "type": 5,
@@ -22442,10 +22402,12 @@
           "zone"
         ],
         "sourceSlugs": [
-          "kd/felwood"
+          "kd/felwood",
+          "kd/field-of-giants"
         ],
         "sourceUrls": [
-          "https://www.wowhead.com/forever/quests/kalimdor/felwood"
+          "https://www.wowhead.com/forever/quests/kalimdor/felwood",
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants"
         ],
         "startPinCount": 1,
         "zoneId": 361,
@@ -22454,7 +22416,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:18:48+00:00",
+        "fetchedAt": "2026-10-16T23:22:01+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -22583,9 +22545,9 @@
           {
             "npcId": 9598,
             "npcName": "Arei",
-            "zoneId": 361,
             "x": 49.4,
             "y": 14.4,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -22651,7 +22613,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:22:10+00:00",
+        "fetchedAt": "2026-10-16T23:25:23+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -22810,7 +22772,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:23:10+00:00",
+        "fetchedAt": "2026-10-16T23:26:24+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -22969,7 +22931,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:23:21+00:00",
+        "fetchedAt": "2026-10-16T23:26:34+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -23129,7 +23091,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:23:40+00:00",
+        "fetchedAt": "2026-10-16T23:26:39+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -23636,9 +23598,9 @@
           {
             "npcId": 9116,
             "npcName": "Eridan Bluewind",
-            "zoneId": 361,
             "x": 51.2,
             "y": 81.6,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -23693,10 +23655,12 @@
           "zone"
         ],
         "sourceSlugs": [
-          "kd/felwood"
+          "kd/felwood",
+          "kd/field-of-giants"
         ],
         "sourceUrls": [
-          "https://www.wowhead.com/forever/quests/kalimdor/felwood"
+          "https://www.wowhead.com/forever/quests/kalimdor/felwood",
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants"
         ],
         "startPinCount": 1,
         "zoneId": 361,
@@ -23705,7 +23669,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:23:41+00:00",
+        "fetchedAt": "2026-10-16T23:26:44+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -23796,9 +23760,9 @@
           {
             "npcId": 9116,
             "npcName": "Eridan Bluewind",
-            "zoneId": 361,
             "x": 51.2,
             "y": 81.6,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -23870,7 +23834,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:23:46+00:00",
+        "fetchedAt": "2026-10-16T23:27:04+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -23963,9 +23927,9 @@
           {
             "npcId": 9116,
             "npcName": "Eridan Bluewind",
-            "zoneId": 361,
             "x": 51.2,
             "y": 81.6,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -24031,7 +23995,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:23:51+00:00",
+        "fetchedAt": "2026-10-16T23:27:04+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -24190,7 +24154,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:23:56+00:00",
+        "fetchedAt": "2026-10-16T23:27:09+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -24367,7 +24331,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:24:01+00:00",
+        "fetchedAt": "2026-10-16T23:27:14+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -24526,7 +24490,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:24:06+00:00",
+        "fetchedAt": "2026-10-16T23:27:19+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -24685,7 +24649,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:24:11+00:00",
+        "fetchedAt": "2026-10-16T23:27:24+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -24862,7 +24826,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:24:16+00:00",
+        "fetchedAt": "2026-10-16T23:27:29+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -25039,7 +25003,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:24:47+00:00",
+        "fetchedAt": "2026-10-16T23:28:04+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -25198,7 +25162,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:24:52+00:00",
+        "fetchedAt": "2026-10-16T23:28:05+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -25357,7 +25321,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:25:02+00:00",
+        "fetchedAt": "2026-10-16T23:28:15+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -25534,7 +25498,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:25:07+00:00",
+        "fetchedAt": "2026-10-16T23:28:20+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -25711,7 +25675,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:25:12+00:00",
+        "fetchedAt": "2026-10-16T23:28:25+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -25870,7 +25834,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:25:17+00:00",
+        "fetchedAt": "2026-10-16T23:28:30+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -26035,7 +25999,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:27:23+00:00",
+        "fetchedAt": "2026-10-16T23:30:36+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -26126,9 +26090,9 @@
           {
             "npcId": 9996,
             "npcName": "Winna Hazzard",
-            "zoneId": 361,
             "x": 34.2,
             "y": 52.4,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -26200,7 +26164,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:27:43+00:00",
+        "fetchedAt": "2026-10-16T23:30:41+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -26291,9 +26255,9 @@
           {
             "npcId": 9996,
             "npcName": "Winna Hazzard",
-            "zoneId": 361,
             "x": 34.2,
             "y": 52.4,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -26365,7 +26329,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:28:19+00:00",
+        "fetchedAt": "2026-10-16T23:31:31+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -26946,9 +26910,9 @@
           {
             "npcId": 10306,
             "npcName": "Trull Failbane",
-            "zoneId": 361,
             "x": 34.6,
             "y": 52.6,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -27020,7 +26984,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:30:05+00:00",
+        "fetchedAt": "2026-10-16T23:33:18+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -27342,9 +27306,9 @@
           {
             "npcId": 10306,
             "npcName": "Trull Failbane",
-            "zoneId": 361,
             "x": 34.6,
             "y": 52.6,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -27416,7 +27380,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T02:32:06+00:00",
+        "fetchedAt": "2026-10-16T23:35:19+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -27754,9 +27718,9 @@
           {
             "npcId": 10306,
             "npcName": "Trull Failbane",
-            "zoneId": 361,
             "x": 34.6,
             "y": 52.6,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -27828,7 +27792,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:37:29+00:00",
+        "fetchedAt": "2026-10-16T23:40:42+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -28263,9 +28227,9 @@
           {
             "npcId": 9116,
             "npcName": "Eridan Bluewind",
-            "zoneId": 361,
             "x": 51.2,
             "y": 81.6,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -28330,7 +28294,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:48:00+00:00",
+        "fetchedAt": "2026-10-16T23:51:18+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -28729,9 +28693,9 @@
           {
             "npcId": 10922,
             "npcName": "Greta Mosshoof",
-            "zoneId": 361,
             "x": 51.2,
             "y": 82.2,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -28785,10 +28749,12 @@
           "zone"
         ],
         "sourceSlugs": [
-          "kd/felwood"
+          "kd/felwood",
+          "kd/field-of-giants"
         ],
         "sourceUrls": [
-          "https://www.wowhead.com/forever/quests/kalimdor/felwood"
+          "https://www.wowhead.com/forever/quests/kalimdor/felwood",
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants"
         ],
         "startPinCount": 1,
         "zoneId": 361,
@@ -29380,7 +29346,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:48:11+00:00",
+        "fetchedAt": "2026-10-16T23:51:24+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -29463,9 +29429,9 @@
           {
             "npcId": 10922,
             "npcName": "Greta Mosshoof",
-            "zoneId": 361,
             "x": 51.2,
             "y": 82.2,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -29530,7 +29496,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:48:16+00:00",
+        "fetchedAt": "2026-10-16T23:51:29+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -29625,9 +29591,9 @@
           {
             "npcId": 10922,
             "npcName": "Greta Mosshoof",
-            "zoneId": 361,
             "x": 51.2,
             "y": 82.2,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -29692,7 +29658,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:48:20+00:00",
+        "fetchedAt": "2026-10-16T23:51:34+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -29787,9 +29753,9 @@
           {
             "npcId": 5901,
             "npcName": "Islen Waterseer",
-            "zoneId": 17,
             "x": 65.8,
             "y": 43.8,
+            "zoneId": 17,
             "zoneName": "The Barrens"
           }
         ]
@@ -29854,7 +29820,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:49:02+00:00",
+        "fetchedAt": "2026-10-16T23:52:19+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -29940,9 +29906,9 @@
           {
             "npcId": 10922,
             "npcName": "Greta Mosshoof",
-            "zoneId": 361,
             "x": 51.2,
             "y": 82.2,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -29988,10 +29954,12 @@
           "zone"
         ],
         "sourceSlugs": [
-          "kd/felwood"
+          "kd/felwood",
+          "kd/field-of-giants"
         ],
         "sourceUrls": [
-          "https://www.wowhead.com/forever/quests/kalimdor/felwood"
+          "https://www.wowhead.com/forever/quests/kalimdor/felwood",
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants"
         ],
         "startPinCount": 0,
         "zoneId": 361,
@@ -29999,7 +29967,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:49:31+00:00",
+        "fetchedAt": "2026-10-16T23:52:44+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -30151,10 +30119,12 @@
           "zone"
         ],
         "sourceSlugs": [
-          "kd/felwood"
+          "kd/felwood",
+          "kd/field-of-giants"
         ],
         "sourceUrls": [
-          "https://www.wowhead.com/forever/quests/kalimdor/felwood"
+          "https://www.wowhead.com/forever/quests/kalimdor/felwood",
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants"
         ],
         "startPinCount": 1,
         "zoneId": 361,
@@ -30162,7 +30132,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:49:36+00:00",
+        "fetchedAt": "2026-10-16T23:52:49+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -30287,9 +30257,9 @@
           {
             "npcId": 11016,
             "npcName": "Captured Arko'narin",
-            "zoneId": 361,
             "x": 36.2,
             "y": 55.4,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -30348,10 +30318,12 @@
           "zone"
         ],
         "sourceSlugs": [
-          "kd/felwood"
+          "kd/felwood",
+          "kd/field-of-giants"
         ],
         "sourceUrls": [
-          "https://www.wowhead.com/forever/quests/kalimdor/felwood"
+          "https://www.wowhead.com/forever/quests/kalimdor/felwood",
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants"
         ],
         "startPinCount": 1,
         "zoneId": 361,
@@ -30359,7 +30331,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:49:56+00:00",
+        "fetchedAt": "2026-10-16T23:52:54+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -30477,9 +30449,9 @@
           {
             "npcId": 11019,
             "npcName": "Jessir Moonbow",
-            "zoneId": 361,
             "x": 51.2,
             "y": 82.0,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -30536,7 +30508,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:50:07+00:00",
+        "fetchedAt": "2026-10-16T23:53:20+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -30613,7 +30585,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:50:12+00:00",
+        "fetchedAt": "2026-10-16T23:53:25+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -30690,7 +30662,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:50:17+00:00",
+        "fetchedAt": "2026-10-16T23:53:30+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -30788,7 +30760,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:53:24+00:00",
+        "fetchedAt": "2026-10-16T23:56:37+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -30953,9 +30925,9 @@
           {
             "npcId": 10922,
             "npcName": "Greta Mosshoof",
-            "zoneId": 361,
             "x": 51.2,
             "y": 82.2,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -31027,7 +30999,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T02:54:09+00:00",
+        "fetchedAt": "2026-10-16T23:57:22+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -31126,9 +31098,9 @@
           {
             "npcId": 10924,
             "npcName": "Ivy Leafrunner",
-            "zoneId": 361,
             "x": 50.8,
             "y": 81.6,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -31191,10 +31163,12 @@
           "zone"
         ],
         "sourceSlugs": [
-          "kd/felwood"
+          "kd/felwood",
+          "kd/field-of-giants"
         ],
         "sourceUrls": [
-          "https://www.wowhead.com/forever/quests/kalimdor/felwood"
+          "https://www.wowhead.com/forever/quests/kalimdor/felwood",
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants"
         ],
         "startPinCount": 1,
         "zoneId": 361,
@@ -31202,7 +31176,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T02:57:01+00:00",
+        "fetchedAt": "2026-10-17T00:00:04+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -31289,9 +31263,9 @@
           {
             "npcId": 11020,
             "npcName": "Remains of Trey Lightforge",
-            "zoneId": 361,
             "x": 38.4,
             "y": 50.4,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -31363,7 +31337,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:12:45+00:00",
+        "fetchedAt": "2026-10-17T00:15:59+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -39422,9 +39396,9 @@
           {
             "npcId": 9528,
             "npcName": "Arathandris Silversky",
-            "zoneId": 361,
             "x": 54.2,
             "y": 86.8,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -39496,7 +39470,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:12:50+00:00",
+        "fetchedAt": "2026-10-17T00:16:04+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -39579,9 +39553,9 @@
           {
             "npcId": 9528,
             "npcName": "Arathandris Silversky",
-            "zoneId": 361,
             "x": 54.2,
             "y": 86.8,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -39653,7 +39627,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:13:11+00:00",
+        "fetchedAt": "2026-10-17T00:16:09+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -39760,9 +39734,9 @@
           {
             "npcId": 9528,
             "npcName": "Arathandris Silversky",
-            "zoneId": 361,
             "x": 54.2,
             "y": 86.8,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -39834,7 +39808,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:13:11+00:00",
+        "fetchedAt": "2026-10-17T00:16:14+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -40621,9 +40595,9 @@
           {
             "npcId": 9528,
             "npcName": "Arathandris Silversky",
-            "zoneId": 361,
             "x": 54.2,
             "y": 86.8,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -40695,7 +40669,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T03:13:16+00:00",
+        "fetchedAt": "2026-10-17T00:16:34+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -40778,9 +40752,9 @@
           {
             "npcId": 9528,
             "npcName": "Arathandris Silversky",
-            "zoneId": 361,
             "x": 54.2,
             "y": 86.8,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -40852,7 +40826,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T03:13:21+00:00",
+        "fetchedAt": "2026-10-17T00:16:34+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -48911,9 +48885,9 @@
           {
             "npcId": 9529,
             "npcName": "Maybess Riverbreeze",
-            "zoneId": 361,
             "x": 46.8,
             "y": 83.0,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -48985,7 +48959,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T03:13:26+00:00",
+        "fetchedAt": "2026-10-17T00:16:39+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -49068,9 +49042,9 @@
           {
             "npcId": 9529,
             "npcName": "Maybess Riverbreeze",
-            "zoneId": 361,
             "x": 46.8,
             "y": 83.0,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -49142,7 +49116,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T03:13:31+00:00",
+        "fetchedAt": "2026-10-17T00:16:44+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -49249,9 +49223,9 @@
           {
             "npcId": 9529,
             "npcName": "Maybess Riverbreeze",
-            "zoneId": 361,
             "x": 46.8,
             "y": 83.0,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -49323,7 +49297,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T03:13:36+00:00",
+        "fetchedAt": "2026-10-17T00:16:49+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -50110,9 +50084,9 @@
           {
             "npcId": 9529,
             "npcName": "Maybess Riverbreeze",
-            "zoneId": 361,
             "x": 46.8,
             "y": 83.0,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -50184,7 +50158,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T03:13:42+00:00",
+        "fetchedAt": "2026-10-17T00:16:54+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -50267,9 +50241,9 @@
           {
             "npcId": 9529,
             "npcName": "Maybess Riverbreeze",
-            "zoneId": 361,
             "x": 46.8,
             "y": 83.0,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -50331,7 +50305,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T03:21:46+00:00",
+        "fetchedAt": "2026-10-17T00:24:59+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -50760,7 +50734,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T03:23:22+00:00",
+        "fetchedAt": "2026-10-17T00:26:39+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -50895,9 +50869,9 @@
           {
             "npcId": 9620,
             "npcName": "Dreka'Sur",
-            "zoneId": 361,
             "x": 34.8,
             "y": 52.6,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -50965,10 +50939,12 @@
           "zone"
         ],
         "sourceSlugs": [
-          "kd/felwood"
+          "kd/felwood",
+          "kd/field-of-giants"
         ],
         "sourceUrls": [
-          "https://www.wowhead.com/forever/quests/kalimdor/felwood"
+          "https://www.wowhead.com/forever/quests/kalimdor/felwood",
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants"
         ],
         "startPinCount": 1,
         "zoneId": 361,
@@ -50976,7 +50952,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:34:31+00:00",
+        "fetchedAt": "2026-10-17T01:37:47+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -51376,9 +51352,9 @@
           {
             "npcId": 11554,
             "npcName": "Grazle",
-            "zoneId": 361,
             "x": 51.0,
             "y": 85.0,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -51448,7 +51424,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:34:41+00:00",
+        "fetchedAt": "2026-10-17T01:37:57+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -51531,9 +51507,9 @@
           {
             "npcId": 11554,
             "npcName": "Grazle",
-            "zoneId": 361,
             "x": 51.0,
             "y": 85.0,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -51603,7 +51579,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:34:51+00:00",
+        "fetchedAt": "2026-10-17T01:38:07+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -51702,9 +51678,9 @@
           {
             "npcId": 15395,
             "npcName": "Nafien",
-            "zoneId": 361,
             "x": 64.8,
             "y": 8.2,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -51774,7 +51750,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:34:56+00:00",
+        "fetchedAt": "2026-10-17T01:38:27+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -52723,7 +52699,7 @@
                     ],
                     "coords": [
                       [
-                        40.1,
+                        40.2,
                         44.3
                       ],
                       [
@@ -52783,9 +52759,9 @@
           {
             "npcId": 11554,
             "npcName": "Grazle",
-            "zoneId": 361,
             "x": 51.0,
             "y": 85.0,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -52855,7 +52831,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:35:01+00:00",
+        "fetchedAt": "2026-10-17T01:38:28+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -53864,9 +53840,9 @@
           {
             "npcId": 15395,
             "npcName": "Nafien",
-            "zoneId": 361,
             "x": 64.8,
             "y": 8.2,
+            "zoneId": 361,
             "zoneName": "Felwood"
           }
         ]
@@ -53936,7 +53912,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:35:21+00:00",
+        "fetchedAt": "2026-10-17T01:38:33+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -54569,9 +54545,9 @@
           {
             "npcId": 11556,
             "npcName": "Salfa",
-            "zoneId": 618,
             "x": 27.8,
             "y": 34.4,
+            "zoneId": 618,
             "zoneName": "Winterspring"
           }
         ]
@@ -54631,10 +54607,12 @@
           "zone"
         ],
         "sourceSlugs": [
-          "kd/felwood"
+          "kd/felwood",
+          "kd/field-of-giants"
         ],
         "sourceUrls": [
-          "https://www.wowhead.com/forever/quests/kalimdor/felwood"
+          "https://www.wowhead.com/forever/quests/kalimdor/felwood",
+          "https://www.wowhead.com/forever/quests/kalimdor/field-of-giants"
         ],
         "startPinCount": 0,
         "zoneId": 361,
@@ -54642,7 +54620,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-25T04:35:22+00:00",
+        "fetchedAt": "2026-10-17T01:38:38+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,

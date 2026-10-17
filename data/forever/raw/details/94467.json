@@ -3,7 +3,7 @@
     7
   ],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-25T06:32:03+00:00",
+  "fetchedAt": "2026-10-17T03:34:46+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -14,7 +14,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 14[/li][li]Requires level 10[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Class: [class=7][/li][li][icon name=quest-start]Start: [url=/forever/npc=257808/braldir-ashmantle]Braldir Ashmantle[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=61934/brazier-of-the-dormant-flame]Brazier of the Dormant Flame[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]10[/color][small] &nbsp;[/small][color=r2]12[/color][small] &nbsp;[/small][color=r3]17[/color][small] &nbsp;[/small][color=r4]21[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 14[/li][li]Requires level 10[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Race: [race=3][/li][li]Class: [class=7][/li][li][icon name=quest-start]Start: [url=/forever/npc=257808/braldir-ashmantle]Braldir Ashmantle[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=61934/brazier-of-the-dormant-flame]Brazier of the Dormant Flame[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]10[/color][small] &nbsp;[/small][color=r2]12[/color][small] &nbsp;[/small][color=r3]17[/color][small] &nbsp;[/small][color=r4]21[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 1,
     "objectives": {
@@ -54,6 +54,10 @@
                 [
                   32,
                   66
+                ],
+                [
+                  32.2,
+                  65.4
                 ]
               ],
               "id": 257808,
@@ -111,14 +115,16 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 94467,
-  "races": [],
+  "races": [
+    3
+  ],
   "startPins": [
     {
       "npcId": 257808,
       "npcName": "Braldir Ashmantle",
-      "zoneId": 38,
       "x": 32.0,
       "y": 66.0,
+      "zoneId": 38,
       "zoneName": "Loch Modan"
     }
   ]

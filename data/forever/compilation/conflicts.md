@@ -1,6 +1,6 @@
 # Compilation conflicts
 
-5084 field conflict(s): 5084 selected, 0 unresolved. See `conflicts.json` for candidates and `reconciliation.json` for dispositions.
+5130 field conflict(s): 5130 selected, 0 unresolved. See `conflicts.json` for candidates and `reconciliation.json` for dispositions.
 
 - `forever/item/10444.itemLevel`: selected `foreverclient` using schemas/field-resolution.json: item.itemLevel
 - `forever/item/10444.requiredLevel`: selected `foreverclient` using schemas/field-resolution.json: item.requiredLevel
@@ -693,6 +693,7 @@
 - `forever/object/142713.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/142714.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/142958.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/143980.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/144063.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/144181.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/148498.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
@@ -790,6 +791,7 @@
 - `forever/object/176361.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/176392.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/176393.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/1765.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/1767.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/177226.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/177289.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
@@ -847,6 +849,7 @@
 - `forever/object/181073.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/19024.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/19599.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/19861.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/2008.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/2059.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/2076.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
@@ -861,13 +864,16 @@
 - `forever/object/2289.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/24776.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/2553.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/2554.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/2555.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/2556.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/256.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/2560.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/257.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/259.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/261.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/2652.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/2656.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/2657.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/2688.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/269.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
@@ -877,14 +883,17 @@
 - `forever/object/2703.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/2713.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/2734.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/28604.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/2868.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/287.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/2875.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/288.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/2908.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/2933.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/3076.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/31.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/3238.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/3239.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/32569.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/33.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/34.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
@@ -911,15 +920,36 @@
 - `forever/object/50961.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/51708.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/55.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/556669.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/556670.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/56.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/5619.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/5620.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/5621.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/562131.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/566037.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/581822.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/59.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/60.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/61.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/610954.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/61934.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/619896.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/630696.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/642320.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/645153.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/649051.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/65407.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/654846.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/654925.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/660739.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/660964.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/665282.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/665289.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/669176.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/671518.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/672330.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
+- `forever/object/673378.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/6751.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/6752.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
 - `forever/object/68.spawns`: selected `questiedb` using schemas/field-resolution.json: object.spawns
@@ -2028,7 +2058,6 @@
 - `forever/quest/2987.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
 - `forever/quest/299.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
 - `forever/quest/299.questLevel`: selected `questiedb` using schemas/field-resolution.json: quest.questLevel
-- `forever/quest/299.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
 - `forever/quest/2990.startedBy`: selected `questiedb` using schemas/field-resolution.json: quest.startedBy
 - `forever/quest/2991.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
 - `forever/quest/2994.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
@@ -3335,7 +3364,9 @@
 - `forever/quest/630.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
 - `forever/quest/6301.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
 - `forever/quest/631.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
+- `forever/quest/631.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
 - `forever/quest/632.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
+- `forever/quest/632.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
 - `forever/quest/632.startedBy`: selected `questiedb` using schemas/field-resolution.json: quest.startedBy
 - `forever/quest/6321.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
 - `forever/quest/6321.startedBy`: selected `questiedb` using schemas/field-resolution.json: quest.startedBy
@@ -3343,6 +3374,7 @@
 - `forever/quest/6323.startedBy`: selected `questiedb` using schemas/field-resolution.json: quest.startedBy
 - `forever/quest/6324.startedBy`: selected `questiedb` using schemas/field-resolution.json: quest.startedBy
 - `forever/quest/633.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
+- `forever/quest/633.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
 - `forever/quest/6341.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
 - `forever/quest/6341.preQuestSingle`: selected `questiedb` using schemas/field-resolution.json: quest.preQuestSingle
 - `forever/quest/6342.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
@@ -3824,17 +3856,11 @@
 - `forever/quest/7801.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
 - `forever/quest/7806.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
 - `forever/quest/78088.questLevel`: selected `questiedb` using schemas/field-resolution.json: quest.questLevel
-- `forever/quest/78088.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
 - `forever/quest/78089.questLevel`: selected `questiedb` using schemas/field-resolution.json: quest.questLevel
-- `forever/quest/78089.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
 - `forever/quest/78090.questLevel`: selected `questiedb` using schemas/field-resolution.json: quest.questLevel
-- `forever/quest/78090.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
 - `forever/quest/78091.questLevel`: selected `questiedb` using schemas/field-resolution.json: quest.questLevel
-- `forever/quest/78091.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
 - `forever/quest/78092.questLevel`: selected `questiedb` using schemas/field-resolution.json: quest.questLevel
-- `forever/quest/78092.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
 - `forever/quest/78093.questLevel`: selected `questiedb` using schemas/field-resolution.json: quest.questLevel
-- `forever/quest/78093.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
 - `forever/quest/781.sourceItemId`: selected `questiedb` using schemas/field-resolution.json: quest.sourceItemId
 - `forever/quest/781.startedBy`: selected `questiedb` using schemas/field-resolution.json: quest.startedBy
 - `forever/quest/7812.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
@@ -3872,9 +3898,7 @@
 - `forever/quest/786.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
 - `forever/quest/7861.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
 - `forever/quest/7862.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
-- `forever/quest/78676.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
 - `forever/quest/78699.questLevel`: selected `questiedb` using schemas/field-resolution.json: quest.questLevel
-- `forever/quest/78699.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
 - `forever/quest/7877.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
 - `forever/quest/7877.startedBy`: selected `questiedb` using schemas/field-resolution.json: quest.startedBy
 - `forever/quest/788.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
@@ -3931,6 +3955,8 @@
 - `forever/quest/7926.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
 - `forever/quest/793.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
 - `forever/quest/793.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
+- `forever/quest/79358.questLevel`: selected `questiedb` using schemas/field-resolution.json: quest.questLevel
+- `forever/quest/79361.questLevel`: selected `questiedb` using schemas/field-resolution.json: quest.questLevel
 - `forever/quest/79362.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
 - `forever/quest/79363.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
 - `forever/quest/7937.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
@@ -3953,7 +3979,6 @@
 - `forever/quest/795.questLevel`: selected `questiedb` using schemas/field-resolution.json: quest.questLevel
 - `forever/quest/795.startedBy`: selected `questiedb` using schemas/field-resolution.json: quest.startedBy
 - `forever/quest/79536.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
-- `forever/quest/79624.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
 - `forever/quest/79974.questLevel`: selected `questiedb` using schemas/field-resolution.json: quest.questLevel
 - `forever/quest/79975.questLevel`: selected `questiedb` using schemas/field-resolution.json: quest.questLevel
 - `forever/quest/79976.questLevel`: selected `questiedb` using schemas/field-resolution.json: quest.questLevel
@@ -3968,14 +3993,11 @@
 - `forever/quest/81.startedBy`: selected `questiedb` using schemas/field-resolution.json: quest.startedBy
 - `forever/quest/8105.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
 - `forever/quest/8114.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
-- `forever/quest/8114.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
 - `forever/quest/8115.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
-- `forever/quest/8115.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
 - `forever/quest/812.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
 - `forever/quest/8120.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
 - `forever/quest/8121.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
 - `forever/quest/8122.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
-- `forever/quest/8122.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
 - `forever/quest/813.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
 - `forever/quest/8149.name`: selected `questiedb` using schemas/field-resolution.json: quest.name
 - `forever/quest/8149.specialFlags`: selected `questiedb` using schemas/field-resolution.json: quest.specialFlags
@@ -4002,7 +4024,8 @@
 - `forever/quest/821.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
 - `forever/quest/822.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
 - `forever/quest/822.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
-- `forever/quest/82208.name`: selected `questiedb` using schemas/field-resolution.json: quest.name
+- `forever/quest/82208.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
+- `forever/quest/82208.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
 - `forever/quest/8221.requiredSkill`: selected `questiedb` using schemas/field-resolution.json: quest.requiredSkill
 - `forever/quest/8222.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
 - `forever/quest/8223.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
@@ -4592,9 +4615,16 @@
 - `forever/quest/92819.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
 - `forever/quest/92834.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
 - `forever/quest/92840.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
+- `forever/quest/92841.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
+- `forever/quest/92844.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
+- `forever/quest/92846.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
+- `forever/quest/92847.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
 - `forever/quest/92849.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
 - `forever/quest/92850.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
 - `forever/quest/92860.preQuestSingle`: selected `questiedb` using schemas/field-resolution.json: quest.preQuestSingle
+- `forever/quest/92873.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
+- `forever/quest/92893.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
+- `forever/quest/92894.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
 - `forever/quest/929.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
 - `forever/quest/929.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
 - `forever/quest/92909.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
@@ -4602,8 +4632,23 @@
 - `forever/quest/92911.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
 - `forever/quest/92947.startedBy`: selected `questiedb` using schemas/field-resolution.json: quest.startedBy
 - `forever/quest/930.startedBy`: selected `questiedb` using schemas/field-resolution.json: quest.startedBy
+- `forever/quest/93034.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
+- `forever/quest/93035.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
+- `forever/quest/93037.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
+- `forever/quest/93041.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
+- `forever/quest/93044.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
+- `forever/quest/93058.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
+- `forever/quest/93062.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
+- `forever/quest/93066.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
+- `forever/quest/93072.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
 - `forever/quest/931.startedBy`: selected `questiedb` using schemas/field-resolution.json: quest.startedBy
+- `forever/quest/93122.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
+- `forever/quest/93125.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
+- `forever/quest/93128.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
+- `forever/quest/93129.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
 - `forever/quest/93165.preQuestSingle`: selected `questiedb` using schemas/field-resolution.json: quest.preQuestSingle
+- `forever/quest/93188.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
+- `forever/quest/93196.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
 - `forever/quest/932.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
 - `forever/quest/932.questLevel`: selected `questiedb` using schemas/field-resolution.json: quest.questLevel
 - `forever/quest/9324.startedBy`: selected `questiedb` using schemas/field-resolution.json: quest.startedBy
@@ -4763,6 +4808,7 @@
 - `forever/quest/96139.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
 - `forever/quest/96139.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
 - `forever/quest/962.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
+- `forever/quest/96222.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
 - `forever/quest/96241.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
 - `forever/quest/96259.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
 - `forever/quest/96260.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
@@ -4997,7 +5043,7 @@
 - `forever/quest/982.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
 - `forever/quest/98208.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
 - `forever/quest/98208.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
-- `forever/quest/98209.name`: selected `questiedb` using schemas/field-resolution.json: quest.name
+- `forever/quest/98209.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
 - `forever/quest/98216.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
 - `forever/quest/98245.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
 - `forever/quest/98246.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
@@ -5081,7 +5127,7 @@
 - `forever/quest/99191.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
 - `forever/quest/99196.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
 - `forever/quest/992.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
-- `forever/quest/99267.name`: selected `questiedb` using schemas/field-resolution.json: quest.name
+- `forever/quest/99267.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
 - `forever/quest/993.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
 - `forever/quest/99411.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
 - `forever/quest/996.startedBy`: selected `questiedb` using schemas/field-resolution.json: quest.startedBy

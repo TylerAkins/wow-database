@@ -203,6 +203,9 @@ def sync_zone_starters(
     write_json(starters_path, starters)
     manifest["stats"]["zoneStarterItems"] = len(starters.get("items") or {})
     manifest["stats"]["zoneStarterObjects"] = len(starters.get("objects") or {})
+    object_index_path = data_root / "object_index.json"
+    if object_index_path.is_file():
+        manifest["stats"]["objectIndexCount"] = len(json.loads(object_index_path.read_text(encoding="utf-8")))
     save_manifest(data_root, manifest)
     print(
         f"starters: {manifest['stats']['zoneStarterItems']} items, "

@@ -3,7 +3,7 @@
     7
   ],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-25T06:33:18+00:00",
+  "fetchedAt": "2026-10-17T03:36:02+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -14,7 +14,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 20[/li][li]Requires level 20[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Class: [class=7][/li][li][icon name=quest-start]Start: [url=/forever/npc=258098/eldrun-stormbreaker]Eldrun Stormbreaker[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=258043/norric-lochthane]Norric Lochthane[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]20[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 20[/li][li]Requires level 20[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=3], [race=7][/li][li]Class: [class=7][/li][li][icon name=quest-start]Start: [url=/forever/npc=258098/eldrun-stormbreaker]Eldrun Stormbreaker[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=258043/norric-lochthane]Norric Lochthane[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]20[/color][small] &nbsp;[/small][color=r3]23[/color][small] &nbsp;[/small][color=r4]27[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -32,16 +32,12 @@
                   13
                 ],
                 [
-                  46.4,
-                  12.4
-                ],
-                [
-                  47,
-                  13.4
-                ],
-                [
                   47.2,
                   12.2
+                ],
+                [
+                  47.4,
+                  13.4
                 ],
                 [
                   47.4,
@@ -54,10 +50,6 @@
                 [
                   47.6,
                   13.6
-                ],
-                [
-                  47.6,
-                  14.8
                 ],
                 [
                   47.8,
@@ -94,7 +86,7 @@
               "name": "Norric Lochthane",
               "point": "end",
               "reactalliance": 1,
-              "reacthorde": 0,
+              "reacthorde": -1,
               "type": 1
             }
           ]
@@ -125,14 +117,17 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 94494,
-  "races": [],
+  "races": [
+    3,
+    7
+  ],
   "startPins": [
     {
       "npcId": 258098,
       "npcName": "Eldrun Stormbreaker",
-      "zoneId": 1537,
       "x": 47.4,
       "y": 13.6,
+      "zoneId": 1537,
       "zoneName": "Ironforge"
     }
   ]

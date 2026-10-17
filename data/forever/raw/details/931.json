@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-24T23:26:42+00:00",
+  "fetchedAt": "2026-10-16T21:13:32+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -25,6 +25,10 @@
                 28.8
               ],
               "coords": [
+                [
+                  34.4,
+                  29
+                ],
                 [
                   34.7,
                   28.8
@@ -74,6 +78,16 @@
   },
   "minLevel": 4,
   "objectSpawns": [
+    {
+      "entityId": 6752,
+      "entityKind": "object",
+      "entityName": "Strange Fronded Plant",
+      "uiMapId": 1438,
+      "uiMapName": "Teldrassil",
+      "x": 34.4,
+      "y": 29.0,
+      "zoneId": 141
+    },
     {
       "entityId": 6752,
       "entityKind": "object",

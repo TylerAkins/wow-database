@@ -1,0 +1,129 @@
+{
+  "classes": [
+    7
+  ],
+  "faction": "Alliance",
+  "fetchedAt": "2026-10-17T12:10:31+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": true,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 33[/li][li]Requires level 30[/li][li]Type: Dungeon[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Class: [class=7][/li][li][icon name=quest-start]Start: [url=/forever/npc=259023/veyric-thunderhame]Veyric Thunderhame[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=259023/veyric-thunderhame]Veyric Thunderhame[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]30[/color][small] &nbsp;[/small][color=r2]31[/color][small] &nbsp;[/small][color=r3]36[/color][small] &nbsp;[/small][color=r4]42[/color][/li][li]Added in patch [acronym=\"1.60.1.70170\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "45": {
+        "levels": [
+          [
+            {
+              "coord": [
+                59.8,
+                27.6
+              ],
+              "coords": [
+                [
+                  59.8,
+                  27.4
+                ],
+                [
+                  59.8,
+                  27.6
+                ]
+              ],
+              "id": 259023,
+              "name": "Veyric Thunderhame",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                59.8,
+                27.6
+              ],
+              "coords": [
+                [
+                  59.8,
+                  27.4
+                ],
+                [
+                  59.8,
+                  27.6
+                ]
+              ],
+              "id": 259023,
+              "name": "Veyric Thunderhame",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Arathi Highlands"
+      },
+      "491": {
+        "levels": [
+          [
+            {
+              "coord": [
+                ""
+              ],
+              "coords": [],
+              "id": 4421,
+              "item": "Tattered Note",
+              "name": "Charlga Razorflank",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": -1,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Razorfen Kraul"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        45,
+        1
+      ],
+      [
+        491,
+        1
+      ]
+    ]
+  },
+  "minLevel": 30,
+  "pageInfo": {
+    "name": "Elemental Aid",
+    "type": 5,
+    "typeId": 96264
+  },
+  "pinCategory": "instance",
+  "prerequisiteQuestIds": [],
+  "questId": 96264,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 259023,
+      "npcName": "Veyric Thunderhame",
+      "x": 59.8,
+      "y": 27.6,
+      "zoneId": 45,
+      "zoneName": "Arathi Highlands"
+    }
+  ]
+}

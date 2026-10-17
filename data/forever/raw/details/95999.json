@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-25T06:42:03+00:00",
+  "fetchedAt": "2026-10-17T03:44:49+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,13 +12,41 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 25[/li][li]Requires level 16[/li][li]Type: Elite[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: Object #649051[/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=344/magistrate-solomon]Magistrate Solomon[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]16[/color][small] &nbsp;[/small][color=r1]21[/color][small] &nbsp;[/small][color=r2]23[/color][small] &nbsp;[/small][color=r3]28[/color][small] &nbsp;[/small][color=r4]33[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 25[/li][li]Requires level 16[/li][li]Type: Elite[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=3], [race=4], [br][race=7], [race=95][/li][li][icon name=quest-start]Start: [url=/forever/object=649051/wanted-incinerator-garim]Wanted: Incinerator Gar'im[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=344/magistrate-solomon]Magistrate Solomon[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]16[/color][small] &nbsp;[/small][color=r1]21[/color][small] &nbsp;[/small][color=r2]23[/color][small] &nbsp;[/small][color=r3]28[/color][small] &nbsp;[/small][color=r4]33[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
-    "missing": 1,
+    "missing": 0,
     "objectives": {
       "44": {
         "levels": [
           [
+            {
+              "coord": [
+                24.4,
+                46.3
+              ],
+              "coords": [
+                [
+                  24.4,
+                  46.3
+                ],
+                [
+                  24.4,
+                  46.5
+                ],
+                [
+                  24.5,
+                  46.3
+                ],
+                [
+                  24.5,
+                  47
+                ]
+              ],
+              "id": 649051,
+              "name": "Wanted: Incinerator Gar'im",
+              "point": "start",
+              "type": 2
+            },
             {
               "coord": [
                 30,
@@ -47,21 +75,21 @@
             },
             {
               "coord": [
-                77.8,
-                86.2
+                72.4,
+                85.8
               ],
               "coords": [
                 [
-                  76.2,
-                  84.2
+                  71.6,
+                  84.6
                 ],
                 [
-                  76.6,
-                  84.2
+                  72.4,
+                  85.8
                 ],
                 [
-                  77.4,
-                  85.4
+                  72.6,
+                  86.1
                 ],
                 [
                   77.4,
@@ -70,10 +98,6 @@
                 [
                   77.8,
                   86.2
-                ],
-                [
-                  77.8,
-                  86.6
                 ]
               ],
               "id": 214519,
@@ -96,19 +120,78 @@
     "zones": [
       [
         44,
-        2
+        3
       ]
     ]
   },
   "minLevel": 16,
+  "objectSpawns": [
+    {
+      "entityId": 649051,
+      "entityKind": "object",
+      "entityName": "Wanted: Incinerator Gar'im",
+      "uiMapId": 1433,
+      "uiMapName": "Redridge Mountains",
+      "x": 24.4,
+      "y": 46.3,
+      "zoneId": 44
+    },
+    {
+      "entityId": 649051,
+      "entityKind": "object",
+      "entityName": "Wanted: Incinerator Gar'im",
+      "uiMapId": 1433,
+      "uiMapName": "Redridge Mountains",
+      "x": 24.4,
+      "y": 46.5,
+      "zoneId": 44
+    },
+    {
+      "entityId": 649051,
+      "entityKind": "object",
+      "entityName": "Wanted: Incinerator Gar'im",
+      "uiMapId": 1433,
+      "uiMapName": "Redridge Mountains",
+      "x": 24.5,
+      "y": 46.3,
+      "zoneId": 44
+    },
+    {
+      "entityId": 649051,
+      "entityKind": "object",
+      "entityName": "Wanted: Incinerator Gar'im",
+      "uiMapId": 1433,
+      "uiMapName": "Redridge Mountains",
+      "x": 24.5,
+      "y": 47.0,
+      "zoneId": 44
+    }
+  ],
   "pageInfo": {
     "name": "WANTED: Incinerator Gar'im",
     "type": 5,
     "typeId": 95999
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    20,
+    98387
+  ],
   "questId": 95999,
-  "races": [],
-  "startPins": []
+  "races": [
+    3,
+    4,
+    7,
+    95
+  ],
+  "startPins": [
+    {
+      "npcId": 649051,
+      "npcName": "Wanted: Incinerator Gar'im",
+      "x": 24.4,
+      "y": 46.3,
+      "zoneId": 44,
+      "zoneName": "Redridge Mountains"
+    }
+  ]
 }

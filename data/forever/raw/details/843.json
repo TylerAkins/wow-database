@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-24T23:24:55+00:00",
+  "fetchedAt": "2026-10-16T21:04:39+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -43,7 +43,7 @@
                 ],
                 [
                   46,
-                  76.2
+                  76
                 ],
                 [
                   46,
@@ -85,7 +85,7 @@
                 ],
                 [
                   46,
-                  76.2
+                  76
                 ],
                 [
                   46,
@@ -115,15 +115,15 @@
                 ],
                 [
                   46.8,
-                  85.4
-                ],
-                [
-                  46.8,
                   85.6
                 ],
                 [
                   47.2,
                   84.4
+                ],
+                [
+                  47.4,
+                  85
                 ],
                 [
                   47.6,
@@ -148,8 +148,43 @@
             },
             {
               "coord": [
-                47.4,
+                47.6,
                 85
+              ],
+              "coords": [
+                [
+                  47.2,
+                  84.4
+                ],
+                [
+                  47.4,
+                  85.2
+                ],
+                [
+                  47.4,
+                  85.6
+                ],
+                [
+                  47.6,
+                  85
+                ],
+                [
+                  48,
+                  85.8
+                ]
+              ],
+              "id": 3375,
+              "name": "Bael'dun Foreman",
+              "objective": 3375,
+              "point": "requirement",
+              "reactalliance": 1,
+              "reacthorde": -1,
+              "type": 1
+            },
+            {
+              "coord": [
+                47.6,
+                85.2
               ],
               "coords": [
                 [
@@ -167,41 +202,6 @@
                 [
                   47.6,
                   85.2
-                ],
-                [
-                  48,
-                  85.6
-                ]
-              ],
-              "id": 3375,
-              "name": "Bael'dun Foreman",
-              "objective": 3375,
-              "point": "requirement",
-              "reactalliance": 1,
-              "reacthorde": -1,
-              "type": 1
-            },
-            {
-              "coord": [
-                47.8,
-                85.6
-              ],
-              "coords": [
-                [
-                  47.2,
-                  84.4
-                ],
-                [
-                  47.4,
-                  85
-                ],
-                [
-                  47.4,
-                  85.6
-                ],
-                [
-                  47.8,
-                  85.4
                 ],
                 [
                   47.8,
@@ -246,9 +246,9 @@
     {
       "npcId": 3341,
       "npcName": "Gann Stonespire",
-      "zoneId": 17,
       "x": 46.0,
       "y": 75.4,
+      "zoneId": 17,
       "zoneName": "The Barrens"
     }
   ]

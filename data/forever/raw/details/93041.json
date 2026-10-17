@@ -1,0 +1,134 @@
+{
+  "classes": [],
+  "fetchedAt": "2026-10-17T12:05:19+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 38[/li][li]Requires level 35[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=253177/nerlokh]Nerlokh[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=5397/uthek-the-wise]Uthek the Wise[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]35[/color][small] &nbsp;[/small][color=r2]36[/color][small] &nbsp;[/small][color=r3]41[/color][small] &nbsp;[/small][color=r4]47[/color][/li][li]Added in patch [acronym=\"1.60.1.70235\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 2,
+    "objectives": {
+      "16651": {
+        "levels": [
+          [
+            {
+              "coord": [
+                20.8,
+                22.6
+              ],
+              "coords": [
+                [
+                  20.8,
+                  22.6
+                ],
+                [
+                  21,
+                  22
+                ]
+              ],
+              "id": 253177,
+              "name": "Nerlokh",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Shen'dralas"
+      },
+      "405": {
+        "levels": [
+          [
+            {
+              "coord": [
+                58.4,
+                88.6
+              ],
+              "coords": [
+                [
+                  58.4,
+                  88.6
+                ]
+              ],
+              "id": 253177,
+              "name": "Nerlokh",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                36.2,
+                79.2
+              ],
+              "coords": [
+                [
+                  36.2,
+                  79.2
+                ]
+              ],
+              "id": 5397,
+              "name": "Uthek the Wise",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Desolace"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        16651,
+        1
+      ],
+      [
+        405,
+        2
+      ]
+    ]
+  },
+  "minLevel": 35,
+  "pageInfo": {
+    "name": "Facing the Truth",
+    "type": 5,
+    "typeId": 93041
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 93041,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 253177,
+      "npcName": "Nerlokh",
+      "x": 58.4,
+      "y": 88.6,
+      "zoneId": 405,
+      "zoneName": "Desolace"
+    },
+    {
+      "npcId": 253177,
+      "npcName": "Nerlokh",
+      "x": 20.8,
+      "y": 22.6,
+      "zoneId": 16651,
+      "zoneName": "Shen'dralas"
+    }
+  ]
+}

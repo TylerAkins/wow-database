@@ -1,6 +1,6 @@
 {
   "classes": [],
-  "fetchedAt": "2026-09-25T06:06:55+00:00",
+  "fetchedAt": "2026-10-17T03:09:43+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -11,7 +11,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 11[/li][li]Requires level 6[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=253372/dead-cultist]Dead Cultist[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=252476/talaanis-shadowsong]Talaanis Shadowsong[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]6[/color][small] &nbsp;[/small][color=r1]7[/color][small] &nbsp;[/small][color=r2]9[/color][small] &nbsp;[/small][color=r3]14[/color][small] &nbsp;[/small][color=r4]17[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 11[/li][li]Requires level 6[/li][li]Side: Both[/li][li]Race: [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=253372/dead-cultist]Dead Cultist[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=252476/talaanis-shadowsong]Talaanis Shadowsong[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]6[/color][small] &nbsp;[/small][color=r1]7[/color][small] &nbsp;[/small][color=r2]9[/color][small] &nbsp;[/small][color=r3]14[/color][small] &nbsp;[/small][color=r4]17[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -82,14 +82,16 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 92644,
-  "races": [],
+  "races": [
+    95
+  ],
   "startPins": [
     {
       "npcId": 253372,
       "npcName": "Dead Cultist",
-      "zoneId": 16593,
       "x": 56.0,
       "y": 58.8,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

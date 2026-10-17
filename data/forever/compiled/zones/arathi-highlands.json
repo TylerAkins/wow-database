@@ -5,15 +5,15 @@
     "slug": "arathi-highlands",
     "sourceSlug": "ek/arathi-highlands",
     "sourceUrl": "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands",
-    "sourceFetchedAt": "2026-09-24T23:19:10+00:00",
+    "sourceFetchedAt": "2026-10-17T11:18:20+00:00",
     "zoneId": 45
   },
-  "questCount": 50,
+  "questCount": 56,
   "quests": {
     "635": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 635,
         "list": {
           "category": 45,
@@ -44,6 +44,7 @@
         },
         "minLevel": 30,
         "name": "Crystal in the Mountains",
+        "pinCategory": "normal",
         "races": [],
         "sourceKinds": [
           "zone"
@@ -54,12 +55,13 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 0,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:20:37+00:00",
+        "fetchedAt": "2026-10-16T20:43:57+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -128,7 +130,7 @@
     "636": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 636,
         "list": {
           "category": 45,
@@ -159,6 +161,7 @@
         },
         "minLevel": 30,
         "name": "Legends of the Earth <NYI>",
+        "pinCategory": "normal",
         "races": [],
         "sourceKinds": [
           "zone"
@@ -169,12 +172,13 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 0,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:20:38+00:00",
+        "fetchedAt": "2026-10-16T20:44:02+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -185,7 +189,7 @@
           "sharable": true,
           "weekly": false
         },
-        "infoboxMarkup": "[ul][li]Level: 35[/li][li]Requires level 30[/li][li]Side: Both[/li][li]Sharable[/li][li]Difficulty: [color=q10]30[/color][small] &nbsp;[/small][color=r1]31[/color][small] &nbsp;[/small][color=r2]33[/color][small] &nbsp;[/small][color=r3]38[/color][small] &nbsp;[/small][color=r4]44[/color][/li][li]Added in patch [acronym=\"1.13.2.30682\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+        "infoboxMarkup": "[ul][li]Level: 35[/li][li]Requires level 30[/li][li]Side: None[/li][li]Sharable[/li][li]Difficulty: [color=q10]30[/color][small] &nbsp;[/small][color=r1]31[/color][small] &nbsp;[/small][color=r2]33[/color][small] &nbsp;[/small][color=r3]38[/color][small] &nbsp;[/small][color=r4]44[/color][/li][li]Added in patch [acronym=\"1.13.2.30682\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
         "mapper": null,
         "minLevel": 30,
         "pageInfo": {
@@ -204,7 +208,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 639,
         "list": {
           "category": 45,
@@ -240,6 +244,15 @@
         },
         "minLevel": 32,
         "name": "Sigil of Strom",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2703,
+          "npcName": "Zengu",
+          "x": 73.8,
+          "y": 33.8,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -250,13 +263,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:20:42+00:00",
+        "fetchedAt": "2026-10-16T20:44:17+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -643,9 +657,9 @@
           {
             "npcId": 2703,
             "npcName": "Zengu",
-            "zoneId": 45,
             "x": 73.8,
             "y": 33.8,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -655,7 +669,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 640,
         "list": {
           "category": 45,
@@ -691,6 +705,15 @@
         },
         "minLevel": 32,
         "name": "The Broken Sigil",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2703,
+          "npcName": "Zengu",
+          "x": 73.8,
+          "y": 33.8,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -701,13 +724,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:20:43+00:00",
+        "fetchedAt": "2026-10-16T20:44:22+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -794,6 +818,10 @@
                       [
                         22.2,
                         62.8
+                      ],
+                      [
+                        22.8,
+                        60.6
                       ],
                       [
                         23,
@@ -1032,9 +1060,9 @@
           {
             "npcId": 2703,
             "npcName": "Zengu",
-            "zoneId": 45,
             "x": 73.8,
             "y": 33.8,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -1044,7 +1072,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 641,
         "list": {
           "category": 45,
@@ -1080,6 +1108,15 @@
         },
         "minLevel": 32,
         "name": "Sigil of Thoradin",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2706,
+          "npcName": "Tor'gan",
+          "x": 74.6,
+          "y": 36.4,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -1090,13 +1127,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:20:45+00:00",
+        "fetchedAt": "2026-10-16T20:44:27+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -1189,9 +1227,9 @@
           {
             "npcId": 2706,
             "npcName": "Tor'gan",
-            "zoneId": 45,
             "x": 74.6,
             "y": 36.4,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -1200,7 +1238,7 @@
     "642": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 642,
         "list": {
           "category": 45,
@@ -1232,6 +1270,7 @@
         "minLevel": 30,
         "name": "The Princess Trapped",
         "objectSpawnCount": 2,
+        "pinCategory": "normal",
         "primaryStart": {
           "npcId": 138492,
           "npcName": "Shards of Myzrael",
@@ -1256,7 +1295,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:20:46+00:00",
+        "fetchedAt": "2026-10-16T20:44:32+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -1733,7 +1772,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 643,
         "list": {
           "category": 45,
@@ -1769,6 +1808,15 @@
         },
         "minLevel": 32,
         "name": "Sigil of Arathor",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2703,
+          "npcName": "Zengu",
+          "x": 73.8,
+          "y": 33.8,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -1779,13 +1827,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:20:47+00:00",
+        "fetchedAt": "2026-10-16T20:44:37+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -1841,50 +1890,10 @@
                   },
                   {
                     "coord": [
-                      34.2,
-                      52.2
+                      37.9,
+                      53.2
                     ],
                     "coords": [
-                      [
-                        22.2,
-                        58
-                      ],
-                      [
-                        22.4,
-                        59.4
-                      ],
-                      [
-                        22.4,
-                        61
-                      ],
-                      [
-                        22.4,
-                        61.8
-                      ],
-                      [
-                        22.6,
-                        56
-                      ],
-                      [
-                        22.6,
-                        61
-                      ],
-                      [
-                        22.6,
-                        61.8
-                      ],
-                      [
-                        23,
-                        58.4
-                      ],
-                      [
-                        23.2,
-                        42.4
-                      ],
-                      [
-                        23.2,
-                        57.2
-                      ],
                       [
                         23.2,
                         59
@@ -1895,31 +1904,11 @@
                       ],
                       [
                         23.6,
-                        53.8
-                      ],
-                      [
-                        23.6,
                         58.2
-                      ],
-                      [
-                        23.6,
-                        58.6
-                      ],
-                      [
-                        24,
-                        43.4
                       ],
                       [
                         24,
                         60.6
-                      ],
-                      [
-                        24.2,
-                        63.4
-                      ],
-                      [
-                        24.2,
-                        64.2
                       ],
                       [
                         24.4,
@@ -1930,40 +1919,12 @@
                         61.6
                       ],
                       [
-                        24.6,
-                        58
-                      ],
-                      [
-                        24.6,
-                        60.6
-                      ],
-                      [
                         25,
                         60.2
                       ],
                       [
-                        25.2,
-                        54.2
-                      ],
-                      [
-                        25.2,
-                        54.6
-                      ],
-                      [
-                        25.8,
-                        47
-                      ],
-                      [
                         25.8,
                         59.8
-                      ],
-                      [
-                        26,
-                        46
-                      ],
-                      [
-                        26,
-                        47.6
                       ],
                       [
                         26,
@@ -1998,44 +1959,12 @@
                         53.2
                       ],
                       [
-                        26.2,
-                        62.2
-                      ],
-                      [
-                        26.4,
-                        49
-                      ],
-                      [
-                        26.4,
-                        50.2
-                      ],
-                      [
-                        26.4,
-                        51.4
-                      ],
-                      [
                         26.4,
                         52
                       ],
                       [
                         26.6,
-                        47.4
-                      ],
-                      [
-                        26.6,
-                        49.2
-                      ],
-                      [
-                        26.6,
                         51.6
-                      ],
-                      [
-                        26.6,
-                        60
-                      ],
-                      [
-                        26.6,
-                        62.8
                       ],
                       [
                         26.8,
@@ -2043,35 +1972,15 @@
                       ],
                       [
                         27,
-                        52.6
-                      ],
-                      [
-                        27,
                         55.4
                       ],
                       [
-                        27,
-                        60.8
+                        27.3,
+                        48.8
                       ],
                       [
                         27.4,
                         49.8
-                      ],
-                      [
-                        27.4,
-                        53.6
-                      ],
-                      [
-                        27.6,
-                        51.8
-                      ],
-                      [
-                        27.6,
-                        61
-                      ],
-                      [
-                        27.6,
-                        63
                       ],
                       [
                         27.8,
@@ -2087,39 +1996,11 @@
                       ],
                       [
                         28.6,
-                        49.4
-                      ],
-                      [
-                        28.6,
                         50.4
-                      ],
-                      [
-                        28.8,
-                        52.2
                       ],
                       [
                         29,
                         50.6
-                      ],
-                      [
-                        29.2,
-                        61.2
-                      ],
-                      [
-                        29.6,
-                        49.4
-                      ],
-                      [
-                        29.8,
-                        48.2
-                      ],
-                      [
-                        29.8,
-                        54
-                      ],
-                      [
-                        30,
-                        50.4
                       ],
                       [
                         30,
@@ -2138,140 +2019,40 @@
                         51.8
                       ],
                       [
-                        30.6,
-                        60.8
-                      ],
-                      [
-                        30.6,
-                        62.6
-                      ],
-                      [
-                        30.8,
-                        52.6
-                      ],
-                      [
-                        31.2,
-                        50.2
-                      ],
-                      [
-                        31.6,
-                        50.8
-                      ],
-                      [
                         31.8,
                         51.8
-                      ],
-                      [
-                        32.2,
-                        52.6
-                      ],
-                      [
-                        32.6,
-                        52.6
-                      ],
-                      [
-                        32.8,
-                        51.2
-                      ],
-                      [
-                        33,
-                        65.2
                       ],
                       [
                         33.4,
                         52
                       ],
                       [
-                        33.6,
-                        51.4
-                      ],
-                      [
-                        34,
-                        50.4
-                      ],
-                      [
                         34.2,
                         52.2
                       ],
                       [
-                        34.2,
-                        52.6
-                      ],
-                      [
-                        34.4,
-                        48.4
-                      ],
-                      [
-                        34.8,
-                        50.6
-                      ],
-                      [
                         35.2,
                         52.4
-                      ],
-                      [
-                        35.2,
-                        52.6
-                      ],
-                      [
-                        35.4,
-                        50
                       ],
                       [
                         35.6,
                         52.4
                       ],
                       [
-                        35.8,
-                        51.2
-                      ],
-                      [
-                        36.2,
-                        53.6
-                      ],
-                      [
                         36.4,
                         52.8
-                      ],
-                      [
-                        36.6,
-                        50.8
-                      ],
-                      [
-                        36.8,
-                        52.4
-                      ],
-                      [
-                        37,
-                        53.8
                       ],
                       [
                         37.4,
                         53
                       ],
                       [
-                        37.6,
-                        51.6
-                      ],
-                      [
-                        37.8,
-                        51
-                      ],
-                      [
-                        37.8,
-                        53.4
+                        37.9,
+                        53.2
                       ],
                       [
                         38.4,
                         53.6
-                      ],
-                      [
-                        38.4,
-                        54.6
-                      ],
-                      [
-                        38.4,
-                        62.4
                       ],
                       [
                         38.6,
@@ -2279,15 +2060,7 @@
                       ],
                       [
                         39,
-                        55.8
-                      ],
-                      [
-                        39.2,
-                        54.4
-                      ],
-                      [
-                        39.4,
-                        51.6
+                        54.2
                       ],
                       [
                         39.4,
@@ -2299,91 +2072,27 @@
                       ],
                       [
                         40,
-                        53.2
-                      ],
-                      [
-                        40,
                         54.8
-                      ],
-                      [
-                        40.4,
-                        56.4
-                      ],
-                      [
-                        40.4,
-                        56.8
                       ],
                       [
                         40.6,
                         54.4
                       ],
                       [
-                        40.6,
-                        57.6
-                      ],
-                      [
-                        40.6,
-                        59.8
-                      ],
-                      [
                         40.8,
                         54.8
                       ],
                       [
-                        40.8,
-                        55.8
-                      ],
-                      [
-                        41,
-                        59
-                      ],
-                      [
-                        41.4,
-                        53.4
-                      ],
-                      [
-                        41.8,
-                        53.4
-                      ],
-                      [
                         41.8,
                         54.8
-                      ],
-                      [
-                        41.8,
-                        57.8
-                      ],
-                      [
-                        42,
-                        51.8
                       ],
                       [
                         42,
                         54.4
-                      ],
-                      [
-                        42,
-                        57
                       ],
                       [
                         42.4,
                         55.8
-                      ],
-                      [
-                        42.6,
-                        57.8
-                      ],
-                      [
-                        42.8,
-                        54.4
-                      ],
-                      [
-                        43,
-                        53.4
-                      ],
-                      [
-                        43,
-                        59.2
                       ],
                       [
                         43.2,
@@ -2391,27 +2100,11 @@
                       ],
                       [
                         43.4,
-                        52.4
-                      ],
-                      [
-                        43.4,
                         55.6
-                      ],
-                      [
-                        43.4,
-                        57.2
                       ],
                       [
                         43.8,
                         54.6
-                      ],
-                      [
-                        43.8,
-                        56.2
-                      ],
-                      [
-                        44,
-                        49.8
                       ],
                       [
                         44,
@@ -2426,276 +2119,20 @@
                         54
                       ],
                       [
-                        44.2,
-                        53.4
-                      ],
-                      [
-                        44.2,
-                        57.2
-                      ],
-                      [
-                        44.4,
-                        47.8
-                      ],
-                      [
                         44.4,
                         48.6
                       ],
                       [
-                        44.6,
-                        53
-                      ],
-                      [
                         44.8,
                         47.6
-                      ],
-                      [
-                        44.8,
-                        56.6
-                      ],
-                      [
-                        44.8,
-                        58.2
-                      ],
-                      [
-                        44.8,
-                        62.2
-                      ],
-                      [
-                        45,
-                        54.4
-                      ],
-                      [
-                        45,
-                        55
-                      ],
-                      [
-                        45.2,
-                        51.8
-                      ],
-                      [
-                        45.2,
-                        56.4
-                      ],
-                      [
-                        45.2,
-                        60.4
-                      ],
-                      [
-                        45.4,
-                        46.8
-                      ],
-                      [
-                        45.8,
-                        52.6
-                      ],
-                      [
-                        45.8,
-                        54.6
-                      ],
-                      [
-                        46,
-                        58
-                      ],
-                      [
-                        46.2,
-                        46.6
-                      ],
-                      [
-                        46.4,
-                        46.4
-                      ],
-                      [
-                        46.4,
-                        59.4
-                      ],
-                      [
-                        46.6,
-                        53
-                      ],
-                      [
-                        47,
-                        46.2
-                      ],
-                      [
-                        47.2,
-                        58
-                      ],
-                      [
-                        47.4,
-                        45.4
-                      ],
-                      [
-                        47.4,
-                        59
-                      ],
-                      [
-                        47.4,
-                        60
                       ],
                       [
                         47.6,
                         45.4
                       ],
                       [
-                        47.6,
-                        45.6
-                      ],
-                      [
-                        47.8,
-                        56
-                      ],
-                      [
-                        47.8,
-                        57.6
-                      ],
-                      [
-                        48,
-                        59.4
-                      ],
-                      [
-                        48.4,
-                        44.4
-                      ],
-                      [
-                        48.6,
-                        41.8
-                      ],
-                      [
-                        48.6,
-                        47.6
-                      ],
-                      [
-                        48.8,
-                        44
-                      ],
-                      [
-                        48.8,
-                        49
-                      ],
-                      [
-                        49.2,
-                        53.4
-                      ],
-                      [
-                        49.2,
-                        56.2
-                      ],
-                      [
-                        49.4,
-                        43.2
-                      ],
-                      [
-                        49.6,
-                        43
-                      ],
-                      [
-                        49.8,
-                        44
-                      ],
-                      [
-                        49.8,
-                        45.2
-                      ],
-                      [
                         50.6,
                         44.4
-                      ],
-                      [
-                        50.6,
-                        44.6
-                      ],
-                      [
-                        50.6,
-                        46.4
-                      ],
-                      [
-                        50.8,
-                        41.8
-                      ],
-                      [
-                        51,
-                        56
-                      ],
-                      [
-                        51.2,
-                        42.8
-                      ],
-                      [
-                        51.2,
-                        59
-                      ],
-                      [
-                        51.4,
-                        48
-                      ],
-                      [
-                        51.6,
-                        39.2
-                      ],
-                      [
-                        51.8,
-                        44.2
-                      ],
-                      [
-                        51.8,
-                        57
-                      ],
-                      [
-                        52,
-                        40.2
-                      ],
-                      [
-                        52.2,
-                        42.8
-                      ],
-                      [
-                        52.2,
-                        47.2
-                      ],
-                      [
-                        52.4,
-                        41
-                      ],
-                      [
-                        52.4,
-                        42
-                      ],
-                      [
-                        52.4,
-                        53.8
-                      ],
-                      [
-                        52.6,
-                        37.4
-                      ],
-                      [
-                        52.6,
-                        40.4
-                      ],
-                      [
-                        52.6,
-                        47.4
-                      ],
-                      [
-                        52.8,
-                        38.6
-                      ],
-                      [
-                        52.8,
-                        42.6
-                      ],
-                      [
-                        53,
-                        42.4
-                      ],
-                      [
-                        53.2,
-                        52.8
-                      ],
-                      [
-                        53.2,
-                        53.8
                       ],
                       [
                         53.4,
@@ -2704,74 +2141,6 @@
                       [
                         53.6,
                         40.8
-                      ],
-                      [
-                        53.6,
-                        42
-                      ],
-                      [
-                        54,
-                        40
-                      ],
-                      [
-                        54,
-                        43.2
-                      ],
-                      [
-                        54.2,
-                        53
-                      ],
-                      [
-                        54.8,
-                        38.8
-                      ],
-                      [
-                        54.8,
-                        42.8
-                      ],
-                      [
-                        55,
-                        42
-                      ],
-                      [
-                        56,
-                        51.8
-                      ],
-                      [
-                        56.2,
-                        39.6
-                      ],
-                      [
-                        56.4,
-                        46.4
-                      ],
-                      [
-                        56.6,
-                        45.2
-                      ],
-                      [
-                        58.8,
-                        48.2
-                      ],
-                      [
-                        60.4,
-                        47.4
-                      ],
-                      [
-                        61,
-                        46.4
-                      ],
-                      [
-                        64.8,
-                        42.8
-                      ],
-                      [
-                        67,
-                        37.8
-                      ],
-                      [
-                        67.8,
-                        39.6
                       ]
                     ],
                     "id": 2612,
@@ -2812,9 +2181,9 @@
           {
             "npcId": 2703,
             "npcName": "Zengu",
-            "zoneId": 45,
             "x": 73.8,
             "y": 33.8,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -2824,7 +2193,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 644,
         "list": {
           "category": 45,
@@ -2860,6 +2229,15 @@
         },
         "minLevel": 32,
         "name": "Sigil of Trollbane",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2703,
+          "npcName": "Zengu",
+          "x": 73.8,
+          "y": 33.8,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -2870,13 +2248,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:20:48+00:00",
+        "fetchedAt": "2026-10-16T20:44:57+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -2991,9 +2370,9 @@
           {
             "npcId": 2703,
             "npcName": "Zengu",
-            "zoneId": 45,
             "x": 73.8,
             "y": 33.8,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -3003,7 +2382,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 645,
         "list": {
           "category": 45,
@@ -3039,6 +2418,15 @@
         },
         "minLevel": 32,
         "name": "Trol'kalar",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2703,
+          "npcName": "Zengu",
+          "x": 73.8,
+          "y": 33.8,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -3049,13 +2437,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:20:50+00:00",
+        "fetchedAt": "2026-10-16T20:44:57+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -3136,9 +2525,9 @@
           {
             "npcId": 2703,
             "npcName": "Zengu",
-            "zoneId": 45,
             "x": 73.8,
             "y": 33.8,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -3148,7 +2537,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 646,
         "list": {
           "category": 45,
@@ -3194,6 +2583,7 @@
         "minLevel": 32,
         "name": "Trol'kalar",
         "objectSpawnCount": 1,
+        "pinCategory": "normal",
         "primaryStart": {
           "npcId": 2703,
           "npcName": "Trollbane's Tomb",
@@ -3219,7 +2609,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:20:51+00:00",
+        "fetchedAt": "2026-10-16T20:45:02+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -3323,7 +2713,7 @@
     "651": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 651,
         "list": {
           "category": 45,
@@ -3355,6 +2745,7 @@
         "minLevel": 30,
         "name": "Stones of Binding",
         "objectSpawnCount": 1,
+        "pinCategory": "normal",
         "primaryStart": {
           "npcId": 2701,
           "npcName": "Iridescent Shards",
@@ -3379,7 +2770,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:20:57+00:00",
+        "fetchedAt": "2026-10-16T20:45:27+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -3487,7 +2878,7 @@
     "652": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 652,
         "list": {
           "category": 45,
@@ -3519,6 +2910,7 @@
         "minLevel": 30,
         "name": "Breaking the Keystone",
         "objectSpawnCount": 2,
+        "pinCategory": "normal",
         "primaryStart": {
           "npcId": 2702,
           "npcName": "Stone of Inner Binding",
@@ -3543,7 +2935,7 @@
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:20:58+00:00",
+        "fetchedAt": "2026-10-16T20:45:33+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -4200,10 +3592,6 @@
                         48.4
                       ],
                       [
-                        29.2,
-                        50.6
-                      ],
-                      [
                         29.4,
                         39.4
                       ],
@@ -4218,6 +3606,10 @@
                       [
                         29.4,
                         49
+                      ],
+                      [
+                        29.4,
+                        51
                       ],
                       [
                         29.4,
@@ -5125,6 +4517,10 @@
                       ],
                       [
                         44.6,
+                        57.6
+                      ],
+                      [
+                        44.6,
                         62.8
                       ],
                       [
@@ -5138,10 +4534,6 @@
                       [
                         44.8,
                         54.6
-                      ],
-                      [
-                        44.8,
-                        57.6
                       ],
                       [
                         44.8,
@@ -7003,7 +6395,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 653,
         "list": {
           "category": 45,
@@ -7035,6 +6427,7 @@
         "minLevel": 30,
         "name": "Myzrael's Allies",
         "objectSpawnCount": 1,
+        "pinCategory": "normal",
         "primaryStart": {
           "npcId": 2688,
           "npcName": "Keystone",
@@ -7060,7 +6453,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:21:00+00:00",
+        "fetchedAt": "2026-10-16T20:45:37+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7195,7 +6588,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 655,
         "list": {
           "category": 45,
@@ -7231,6 +6624,15 @@
         },
         "minLevel": 29,
         "name": "Hammerfall",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2792,
+          "npcName": "Gor'mul",
+          "x": 72.6,
+          "y": 34.0,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -7241,13 +6643,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:21:02+00:00",
+        "fetchedAt": "2026-10-16T20:45:58+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7338,9 +6741,9 @@
           {
             "npcId": 2792,
             "npcName": "Gor'mul",
-            "zoneId": 45,
             "x": 72.6,
             "y": 34.0,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -7349,7 +6752,7 @@
     "656": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 656,
         "list": {
           "category": 45,
@@ -7385,6 +6788,15 @@
         },
         "minLevel": 30,
         "name": "Summoning the Princess",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2785,
+          "npcName": "Theldurin the Lost",
+          "x": 51.4,
+          "y": 76.8,
+          "zoneId": 3,
+          "zoneName": "Badlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -7395,12 +6807,13 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:21:04+00:00",
+        "fetchedAt": "2026-10-16T20:46:03+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7511,9 +6924,9 @@
           {
             "npcId": 2785,
             "npcName": "Theldurin the Lost",
-            "zoneId": 3,
             "x": 51.4,
             "y": 76.8,
+            "zoneId": 3,
             "zoneName": "Badlands"
           }
         ]
@@ -7522,7 +6935,7 @@
     "662": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 662,
         "list": {
           "category": 45,
@@ -7567,6 +6980,15 @@
         },
         "minLevel": 35,
         "name": "Deep Sea Salvage",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2767,
+          "npcName": "First Mate Nilzlix",
+          "x": 32.6,
+          "y": 81.4,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -7577,12 +6999,13 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:21:11+00:00",
+        "fetchedAt": "2026-10-16T20:46:33+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7676,9 +7099,9 @@
           {
             "npcId": 2767,
             "npcName": "First Mate Nilzlix",
-            "zoneId": 45,
             "x": 32.6,
             "y": 81.4,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -7687,7 +7110,7 @@
     "663": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 663,
         "list": {
           "category": 45,
@@ -7727,6 +7150,15 @@
         },
         "minLevel": 35,
         "name": "Land Ho!",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2766,
+          "npcName": "Lolo the Lookout",
+          "x": 31.6,
+          "y": 82.6,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -7737,12 +7169,13 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:21:12+00:00",
+        "fetchedAt": "2026-10-16T20:46:38+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -7837,9 +7270,9 @@
           {
             "npcId": 2766,
             "npcName": "Lolo the Lookout",
-            "zoneId": 45,
             "x": 31.6,
             "y": 82.6,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -7848,7 +7281,7 @@
     "664": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 664,
         "list": {
           "category": 45,
@@ -7893,6 +7326,15 @@
         },
         "minLevel": 35,
         "name": "Drowned Sorrows",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2769,
+          "npcName": "Captain Steelgut",
+          "x": 33.8,
+          "y": 80.8,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -7903,12 +7345,13 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:21:13+00:00",
+        "fetchedAt": "2026-10-16T20:46:58+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -8275,9 +7718,9 @@
           {
             "npcId": 2769,
             "npcName": "Captain Steelgut",
-            "zoneId": 45,
             "x": 33.8,
             "y": 80.8,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -8286,7 +7729,7 @@
     "665": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 665,
         "list": {
           "category": 45,
@@ -8326,6 +7769,15 @@
         },
         "minLevel": 35,
         "name": "Sunken Treasure",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2768,
+          "npcName": "Professor Phizzlethorpe",
+          "x": 33.8,
+          "y": 80.6,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -8336,12 +7788,13 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:21:15+00:00",
+        "fetchedAt": "2026-10-16T20:46:59+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -8450,9 +7903,9 @@
           {
             "npcId": 2768,
             "npcName": "Professor Phizzlethorpe",
-            "zoneId": 45,
             "x": 33.8,
             "y": 80.6,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -8461,7 +7914,7 @@
     "666": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 666,
         "list": {
           "category": 45,
@@ -8510,6 +7963,15 @@
         },
         "minLevel": 35,
         "name": "Sunken Treasure",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2774,
+          "npcName": "Doctor Draxlegauge",
+          "x": 33.8,
+          "y": 80.4,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -8520,12 +7982,13 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:21:16+00:00",
+        "fetchedAt": "2026-10-16T20:47:04+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -8616,9 +8079,9 @@
           {
             "npcId": 2774,
             "npcName": "Doctor Draxlegauge",
-            "zoneId": 45,
             "x": 33.8,
             "y": 80.4,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -8627,7 +8090,7 @@
     "667": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 667,
         "list": {
           "category": 45,
@@ -8676,6 +8139,15 @@
         },
         "minLevel": 35,
         "name": "Death From Below",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2610,
+          "npcName": "Shakes O'Breen",
+          "x": 32.2,
+          "y": 81.4,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -8686,12 +8158,13 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:21:17+00:00",
+        "fetchedAt": "2026-10-16T20:47:09+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -8782,9 +8255,9 @@
           {
             "npcId": 2610,
             "npcName": "Shakes O'Breen",
-            "zoneId": 45,
             "x": 32.2,
             "y": 81.4,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -8793,7 +8266,7 @@
     "668": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 668,
         "list": {
           "category": 45,
@@ -8833,6 +8306,15 @@
         },
         "minLevel": 35,
         "name": "Sunken Treasure",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2774,
+          "npcName": "Doctor Draxlegauge",
+          "x": 33.8,
+          "y": 80.4,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -8843,12 +8325,13 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:21:18+00:00",
+        "fetchedAt": "2026-10-16T20:47:14+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -8939,9 +8422,9 @@
           {
             "npcId": 2774,
             "npcName": "Doctor Draxlegauge",
-            "zoneId": 45,
             "x": 33.8,
             "y": 80.4,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -8950,7 +8433,7 @@
     "669": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 669,
         "list": {
           "category": 45,
@@ -8990,6 +8473,15 @@
         },
         "minLevel": 35,
         "name": "Sunken Treasure",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2610,
+          "npcName": "Shakes O'Breen",
+          "x": 32.2,
+          "y": 81.4,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -9000,12 +8492,13 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:21:19+00:00",
+        "fetchedAt": "2026-10-16T20:47:19+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -9104,9 +8597,9 @@
           {
             "npcId": 2610,
             "npcName": "Shakes O'Breen",
-            "zoneId": 45,
             "x": 32.2,
             "y": 81.4,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -9115,7 +8608,7 @@
     "670": {
       "index": {
         "classes": [],
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 670,
         "list": {
           "category": 45,
@@ -9155,6 +8648,15 @@
         },
         "minLevel": 35,
         "name": "Sunken Treasure",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2487,
+          "npcName": "Fleet Master Seahorn",
+          "x": 27.2,
+          "y": 77.0,
+          "zoneId": 33,
+          "zoneName": "Stranglethorn Vale"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -9165,12 +8667,13 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
-        "fetchedAt": "2026-09-24T23:21:21+00:00",
+        "fetchedAt": "2026-10-16T20:47:24+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -9269,9 +8772,9 @@
           {
             "npcId": 2487,
             "npcName": "Fleet Master Seahorn",
-            "zoneId": 33,
             "x": 27.2,
             "y": 77.0,
+            "zoneId": 33,
             "zoneName": "Stranglethorn Vale"
           }
         ]
@@ -9281,7 +8784,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 671,
         "list": {
           "category": 45,
@@ -9317,6 +8820,15 @@
         },
         "minLevel": 30,
         "name": "Foul Magics",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2706,
+          "npcName": "Tor'gan",
+          "x": 74.6,
+          "y": 36.4,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -9327,13 +8839,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:21:22+00:00",
+        "fetchedAt": "2026-10-16T20:47:29+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -9499,11 +9012,11 @@
                       ],
                       [
                         31.8,
-                        24
+                        32.8
                       ],
                       [
-                        31.8,
-                        32.8
+                        32,
+                        24.2
                       ],
                       [
                         32.2,
@@ -9526,7 +9039,7 @@
                         24.4
                       ],
                       [
-                        32.8,
+                        33,
                         25.4
                       ],
                       [
@@ -9820,9 +9333,9 @@
           {
             "npcId": 2706,
             "npcName": "Tor'gan",
-            "zoneId": 45,
             "x": 74.6,
             "y": 36.4,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -9832,7 +9345,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 672,
         "list": {
           "category": 45,
@@ -9868,6 +9381,15 @@
         },
         "minLevel": 29,
         "name": "Raising Spirits",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2706,
+          "npcName": "Tor'gan",
+          "x": 74.6,
+          "y": 36.4,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -9878,13 +9400,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:21:23+00:00",
+        "fetchedAt": "2026-10-16T20:47:34+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -9956,8 +9479,8 @@
                   },
                   {
                     "coord": [
-                      69.2,
-                      27.6
+                      42.6,
+                      53.4
                     ],
                     "coords": [
                       [
@@ -9975,6 +9498,10 @@
                       [
                         22.6,
                         36.4
+                      ],
+                      [
+                        22.6,
+                        37.4
                       ],
                       [
                         22.8,
@@ -10009,16 +9536,16 @@
                         41
                       ],
                       [
+                        24.6,
+                        36.6
+                      ],
+                      [
                         24.8,
                         35.8
                       ],
                       [
                         25.2,
                         39.4
-                      ],
-                      [
-                        25.4,
-                        37
                       ],
                       [
                         25.4,
@@ -10109,32 +9636,40 @@
                         35.2
                       ],
                       [
-                        36.4,
-                        51.2
+                        35.8,
+                        50.6
                       ],
                       [
-                        36.8,
+                        36.3,
                         52.8
+                      ],
+                      [
+                        36.6,
+                        52.9
                       ],
                       [
                         37.2,
                         50.4
                       ],
                       [
-                        37.4,
-                        50.6
+                        37.2,
+                        51
                       ],
                       [
                         37.6,
                         50.2
                       ],
                       [
-                        37.6,
-                        50.6
+                        37.8,
+                        48.4
                       ],
                       [
                         37.8,
-                        48.4
+                        53.2
+                      ],
+                      [
+                        37.9,
+                        51.1
                       ],
                       [
                         38.2,
@@ -10143,10 +9678,6 @@
                       [
                         38.4,
                         52
-                      ],
-                      [
-                        38.4,
-                        52.6
                       ],
                       [
                         38.6,
@@ -10265,16 +9796,16 @@
                         45
                       ],
                       [
+                        41.1,
+                        54.4
+                      ],
+                      [
                         41.2,
                         50.8
                       ],
                       [
                         41.2,
                         53.2
-                      ],
-                      [
-                        41.2,
-                        53.6
                       ],
                       [
                         41.4,
@@ -10302,15 +9833,15 @@
                       ],
                       [
                         41.6,
-                        44.8
-                      ],
-                      [
-                        41.6,
                         53.4
                       ],
                       [
                         41.6,
                         53.6
+                      ],
+                      [
+                        41.7,
+                        44.5
                       ],
                       [
                         41.8,
@@ -10321,20 +9852,20 @@
                         49.8
                       ],
                       [
-                        42,
-                        41.4
+                        41.9,
+                        44.2
                       ],
                       [
                         42,
-                        43.8
+                        41.4
                       ],
                       [
                         42,
                         50.6
                       ],
                       [
-                        42,
-                        52
+                        42.1,
+                        51.5
                       ],
                       [
                         42.4,
@@ -10373,8 +9904,16 @@
                         51.6
                       ],
                       [
+                        42.6,
+                        53.4
+                      ],
+                      [
                         42.8,
                         50
+                      ],
+                      [
+                        42.8,
+                        53.8
                       ],
                       [
                         42.8,
@@ -10393,12 +9932,12 @@
                         39.8
                       ],
                       [
-                        43.4,
-                        38.4
+                        43.2,
+                        77.2
                       ],
                       [
                         43.4,
-                        77.4
+                        38.4
                       ],
                       [
                         43.4,
@@ -10413,6 +9952,10 @@
                         38.8
                       ],
                       [
+                        43.6,
+                        77.4
+                      ],
+                      [
                         43.8,
                         40.8
                       ],
@@ -10425,12 +9968,12 @@
                         40
                       ],
                       [
-                        44.4,
-                        66.2
+                        44.2,
+                        66.8
                       ],
                       [
                         44.4,
-                        76.8
+                        66.2
                       ],
                       [
                         44.6,
@@ -10501,6 +10044,10 @@
                         56.6
                       ],
                       [
+                        46.7,
+                        62.9
+                      ],
+                      [
                         46.8,
                         50.4
                       ],
@@ -10511,10 +10058,6 @@
                       [
                         46.8,
                         55.4
-                      ],
-                      [
-                        47,
-                        63.2
                       ],
                       [
                         47.2,
@@ -10766,7 +10309,7 @@
                       ],
                       [
                         58.4,
-                        41.2
+                        41
                       ],
                       [
                         58.4,
@@ -11049,6 +10592,10 @@
                         45.6
                       ],
                       [
+                        65.7,
+                        45
+                      ],
+                      [
                         65.8,
                         37.4
                       ],
@@ -11067,10 +10614,6 @@
                       [
                         66,
                         43.4
-                      ],
-                      [
-                        66,
-                        44.6
                       ],
                       [
                         66.2,
@@ -11141,6 +10684,10 @@
                         42.2
                       ],
                       [
+                        67,
+                        55.6
+                      ],
+                      [
                         67.2,
                         39.4
                       ],
@@ -11167,6 +10714,10 @@
                       [
                         67.8,
                         43.2
+                      ],
+                      [
+                        68.3,
+                        32.4
                       ],
                       [
                         68.4,
@@ -11201,10 +10752,6 @@
                         49.4
                       ],
                       [
-                        69,
-                        51.6
-                      ],
-                      [
                         69.2,
                         27.4
                       ],
@@ -11229,6 +10776,10 @@
                         51.2
                       ],
                       [
+                        69.3,
+                        52.2
+                      ],
+                      [
                         69.4,
                         28.8
                       ],
@@ -11250,7 +10801,7 @@
                       ],
                       [
                         69.6,
-                        27.2
+                        27.1
                       ],
                       [
                         69.6,
@@ -12303,9 +11854,9 @@
           {
             "npcId": 2706,
             "npcName": "Tor'gan",
-            "zoneId": 45,
             "x": 74.6,
             "y": 36.4,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -12315,7 +11866,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 673,
         "list": {
           "category": 45,
@@ -12360,6 +11911,15 @@
         },
         "minLevel": 35,
         "name": "Foul Magics",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2706,
+          "npcName": "Tor'gan",
+          "x": 74.6,
+          "y": 36.4,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -12370,13 +11930,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:21:24+00:00",
+        "fetchedAt": "2026-10-16T20:47:39+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12523,9 +12084,9 @@
           {
             "npcId": 2706,
             "npcName": "Tor'gan",
-            "zoneId": 45,
             "x": 74.6,
             "y": 36.4,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -12535,7 +12096,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 674,
         "list": {
           "category": 45,
@@ -12571,6 +12132,15 @@
         },
         "minLevel": 29,
         "name": "Raising Spirits",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2706,
+          "npcName": "Tor'gan",
+          "x": 74.6,
+          "y": 36.4,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -12581,13 +12151,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:21:26+00:00",
+        "fetchedAt": "2026-10-16T20:47:59+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12678,9 +12249,9 @@
           {
             "npcId": 2706,
             "npcName": "Tor'gan",
-            "zoneId": 45,
             "x": 74.6,
             "y": 36.4,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -12690,7 +12261,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 675,
         "list": {
           "category": 45,
@@ -12726,6 +12297,15 @@
         },
         "minLevel": 29,
         "name": "Raising Spirits",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2792,
+          "npcName": "Gor'mul",
+          "x": 72.6,
+          "y": 34.0,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -12736,13 +12316,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:21:27+00:00",
+        "fetchedAt": "2026-10-16T20:47:59+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -12833,9 +12414,9 @@
           {
             "npcId": 2792,
             "npcName": "Gor'mul",
-            "zoneId": 45,
             "x": 72.6,
             "y": 34.0,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -12845,7 +12426,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 677,
         "list": {
           "category": 45,
@@ -12881,6 +12462,15 @@
         },
         "minLevel": 30,
         "name": "Call to Arms",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2771,
+          "npcName": "Drum Fel",
+          "x": 74.2,
+          "y": 33.8,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -12891,13 +12481,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:21:30+00:00",
+        "fetchedAt": "2026-10-16T20:48:09+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -13681,9 +13272,9 @@
           {
             "npcId": 2771,
             "npcName": "Drum Fel",
-            "zoneId": 45,
             "x": 74.2,
             "y": 33.8,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -13693,7 +13284,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 678,
         "list": {
           "category": 45,
@@ -13729,6 +13320,15 @@
         },
         "minLevel": 30,
         "name": "Call to Arms",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2771,
+          "npcName": "Drum Fel",
+          "x": 74.2,
+          "y": 33.8,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -13739,13 +13339,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:21:31+00:00",
+        "fetchedAt": "2026-10-16T20:48:14+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -14026,9 +13627,9 @@
           {
             "npcId": 2771,
             "npcName": "Drum Fel",
-            "zoneId": 45,
             "x": 74.2,
             "y": 33.8,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -14038,7 +13639,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 679,
         "list": {
           "category": 45,
@@ -14083,6 +13684,15 @@
         },
         "minLevel": 30,
         "name": "Call to Arms",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2771,
+          "npcName": "Drum Fel",
+          "x": 74.2,
+          "y": 33.8,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -14093,13 +13703,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:21:32+00:00",
+        "fetchedAt": "2026-10-16T20:48:19+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -14356,9 +13967,9 @@
           {
             "npcId": 2771,
             "npcName": "Drum Fel",
-            "zoneId": 45,
             "x": 74.2,
             "y": 33.8,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -14368,7 +13979,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 680,
         "list": {
           "category": 45,
@@ -14413,6 +14024,15 @@
         },
         "minLevel": 30,
         "name": "The Real Threat",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2772,
+          "npcName": "Korin Fel",
+          "x": 74.0,
+          "y": 33.2,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -14423,13 +14043,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:21:33+00:00",
+        "fetchedAt": "2026-10-16T20:48:24+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -14600,9 +14221,9 @@
           {
             "npcId": 2772,
             "npcName": "Korin Fel",
-            "zoneId": 45,
             "x": 74.0,
             "y": 33.2,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -14612,7 +14233,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 681,
         "list": {
           "category": 45,
@@ -14648,6 +14269,15 @@
         },
         "minLevel": 30,
         "name": "Northfold Manor",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2700,
+          "npcName": "Captain Nials",
+          "x": 45.8,
+          "y": 47.4,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -14658,13 +14288,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:21:34+00:00",
+        "fetchedAt": "2026-10-16T20:48:29+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -14822,11 +14453,11 @@
                       ],
                       [
                         31.8,
-                        24
+                        32.8
                       ],
                       [
-                        31.8,
-                        32.8
+                        32,
+                        24.2
                       ],
                       [
                         32.2,
@@ -14849,7 +14480,7 @@
                         24.4
                       ],
                       [
-                        32.8,
+                        33,
                         25.4
                       ],
                       [
@@ -15061,9 +14692,9 @@
           {
             "npcId": 2700,
             "npcName": "Captain Nials",
-            "zoneId": 45,
             "x": 45.8,
             "y": 47.4,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -15073,7 +14704,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 682,
         "list": {
           "category": 45,
@@ -15114,6 +14745,15 @@
         },
         "minLevel": 30,
         "name": "Stromgarde Badges",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2700,
+          "npcName": "Captain Nials",
+          "x": 45.8,
+          "y": 47.4,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -15124,13 +14764,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:21:36+00:00",
+        "fetchedAt": "2026-10-16T20:48:34+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -15525,9 +15166,9 @@
           {
             "npcId": 2700,
             "npcName": "Captain Nials",
-            "zoneId": 45,
             "x": 45.8,
             "y": 47.4,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -15537,7 +15178,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 684,
         "list": {
           "category": 45,
@@ -15579,6 +15220,7 @@
         "minLevel": 30,
         "name": "Wanted! Marez Cowl",
         "objectSpawnCount": 1,
+        "pinCategory": "normal",
         "primaryStart": {
           "npcId": 2713,
           "npcName": "Wanted Board",
@@ -15604,7 +15246,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:21:38+00:00",
+        "fetchedAt": "2026-10-16T20:48:59+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -15737,7 +15379,7 @@
           }
         ],
         "pageInfo": {
-          "name": "Wanted! Marez Cowl",
+          "name": "WANTED: Marez Cowl",
           "type": 5,
           "typeId": 684
         },
@@ -15761,7 +15403,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 685,
         "list": {
           "category": 45,
@@ -15807,6 +15449,7 @@
         "minLevel": 30,
         "name": "Wanted! Otto and Falconcrest",
         "objectSpawnCount": 1,
+        "pinCategory": "normal",
         "primaryStart": {
           "npcId": 2713,
           "npcName": "Wanted Board",
@@ -15832,7 +15475,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:21:40+00:00",
+        "fetchedAt": "2026-10-16T20:49:00+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -15977,7 +15620,7 @@
           }
         ],
         "pageInfo": {
-          "name": "Wanted! Otto and Falconcrest",
+          "name": "WANTED: Otto and Falconcrest",
           "type": 5,
           "typeId": 685
         },
@@ -16001,7 +15644,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 687,
         "list": {
           "category": 45,
@@ -16032,6 +15675,15 @@
         },
         "minLevel": 30,
         "name": "Theldurin the Lost",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2786,
+          "npcName": "Gerrig Bonegrip",
+          "x": 50.4,
+          "y": 6.0,
+          "zoneId": 1537,
+          "zoneName": "Ironforge"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -16042,13 +15694,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 2,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:21:42+00:00",
+        "fetchedAt": "2026-10-16T20:49:10+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -16205,17 +15858,17 @@
           {
             "npcId": 2786,
             "npcName": "Gerrig Bonegrip",
-            "zoneId": 1537,
             "x": 50.4,
             "y": 6.0,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           },
           {
             "npcId": 2787,
             "npcName": "Zaruk",
-            "zoneId": 45,
             "x": 74.4,
             "y": 35.6,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -16225,7 +15878,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 688,
         "list": {
           "category": 45,
@@ -16257,6 +15910,7 @@
         "minLevel": 30,
         "name": "Myzrael's Allies",
         "objectSpawnCount": 1,
+        "pinCategory": "normal",
         "primaryStart": {
           "npcId": 2688,
           "npcName": "Keystone",
@@ -16282,7 +15936,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:21:43+00:00",
+        "fetchedAt": "2026-10-16T20:49:15+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -16394,7 +16048,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 691,
         "list": {
           "category": 45,
@@ -16430,6 +16084,15 @@
         },
         "minLevel": 30,
         "name": "Worth Its Weight in Gold",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2788,
+          "npcName": "Apprentice Kryten",
+          "x": 46.2,
+          "y": 47.6,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -16440,13 +16103,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:21:47+00:00",
+        "fetchedAt": "2026-10-16T20:49:30+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -17495,10 +17159,6 @@
                     ],
                     "coords": [
                       [
-                        22.6,
-                        64.8
-                      ],
-                      [
                         23.4,
                         66.2
                       ],
@@ -17689,9 +17349,9 @@
           {
             "npcId": 2788,
             "npcName": "Apprentice Kryten",
-            "zoneId": 45,
             "x": 46.2,
             "y": 47.6,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -17701,7 +17361,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 693,
         "list": {
           "category": 45,
@@ -17737,6 +17397,15 @@
         },
         "minLevel": 30,
         "name": "Wand over Fist",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2789,
+          "npcName": "Skuerto",
+          "x": 46.6,
+          "y": 47.0,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -17747,13 +17416,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:21:49+00:00",
+        "fetchedAt": "2026-10-16T20:49:40+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -17880,9 +17550,9 @@
           {
             "npcId": 2789,
             "npcName": "Skuerto",
-            "zoneId": 45,
             "x": 46.6,
             "y": 47.0,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -17892,7 +17562,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 694,
         "list": {
           "category": 45,
@@ -17928,6 +17598,15 @@
         },
         "minLevel": 30,
         "name": "Trelane's Defenses",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2789,
+          "npcName": "Skuerto",
+          "x": 46.6,
+          "y": 47.0,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -17938,13 +17617,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:21:51+00:00",
+        "fetchedAt": "2026-10-16T20:50:00+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -18131,9 +17811,9 @@
           {
             "npcId": 2789,
             "npcName": "Skuerto",
-            "zoneId": 45,
             "x": 46.6,
             "y": 47.0,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -18143,7 +17823,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 695,
         "list": {
           "category": 45,
@@ -18179,6 +17859,15 @@
         },
         "minLevel": 30,
         "name": "An Apprentice's Enchantment",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2788,
+          "npcName": "Apprentice Kryten",
+          "x": 46.2,
+          "y": 47.6,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -18189,13 +17878,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:21:52+00:00",
+        "fetchedAt": "2026-10-16T20:50:01+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -18286,9 +17976,9 @@
           {
             "npcId": 2788,
             "npcName": "Apprentice Kryten",
-            "zoneId": 45,
             "x": 46.2,
             "y": 47.6,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -18298,7 +17988,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 696,
         "list": {
           "category": 45,
@@ -18334,6 +18024,15 @@
         },
         "minLevel": 30,
         "name": "Attack on the Tower",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2789,
+          "npcName": "Skuerto",
+          "x": 46.6,
+          "y": 47.0,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -18344,13 +18043,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:21:53+00:00",
+        "fetchedAt": "2026-10-16T20:50:06+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -18441,9 +18141,9 @@
           {
             "npcId": 2789,
             "npcName": "Skuerto",
-            "zoneId": 45,
             "x": 46.6,
             "y": 47.0,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -18453,7 +18153,7 @@
       "index": {
         "classes": [],
         "faction": "Alliance",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 697,
         "list": {
           "category": 45,
@@ -18498,6 +18198,15 @@
         },
         "minLevel": 30,
         "name": "Malin's Request",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2789,
+          "npcName": "Skuerto",
+          "x": 46.6,
+          "y": 47.0,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -18508,13 +18217,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-24T23:21:54+00:00",
+        "fetchedAt": "2026-10-16T20:50:11+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -18557,6 +18267,14 @@
                       [
                         39.8,
                         81.6
+                      ],
+                      [
+                        50.4,
+                        87.2
+                      ],
+                      [
+                        50.6,
+                        87.2
                       ]
                     ],
                     "id": 2708,
@@ -18629,9 +18347,9 @@
           {
             "npcId": 2789,
             "npcName": "Skuerto",
-            "zoneId": 45,
             "x": 46.6,
             "y": 47.0,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -18641,7 +18359,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 701,
         "list": {
           "category": 45,
@@ -18677,6 +18395,15 @@
         },
         "minLevel": 29,
         "name": "Guile of the Raptor",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2706,
+          "npcName": "Tor'gan",
+          "x": 74.6,
+          "y": 36.4,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -18687,13 +18414,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:22:00+00:00",
+        "fetchedAt": "2026-10-16T20:50:31+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -19132,9 +18860,9 @@
           {
             "npcId": 2706,
             "npcName": "Tor'gan",
-            "zoneId": 45,
             "x": 74.6,
             "y": 36.4,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -19144,7 +18872,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 702,
         "list": {
           "category": 45,
@@ -19180,6 +18908,15 @@
         },
         "minLevel": 29,
         "name": "Guile of the Raptor",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2706,
+          "npcName": "Tor'gan",
+          "x": 74.6,
+          "y": 36.4,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -19190,13 +18927,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:22:01+00:00",
+        "fetchedAt": "2026-10-16T20:50:36+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -19287,9 +19025,9 @@
           {
             "npcId": 2706,
             "npcName": "Tor'gan",
-            "zoneId": 45,
             "x": 74.6,
             "y": 36.4,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -19299,7 +19037,7 @@
       "index": {
         "classes": [],
         "faction": "Horde",
-        "hasDetail": false,
+        "hasDetail": true,
         "id": 847,
         "list": {
           "category": 45,
@@ -19340,6 +19078,15 @@
         },
         "minLevel": 29,
         "name": "Guile of the Raptor",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 2792,
+          "npcName": "Gor'mul",
+          "x": 72.6,
+          "y": 34.0,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
         "races": [],
         "sourceKinds": [
           "zone"
@@ -19350,13 +19097,14 @@
         "sourceUrls": [
           "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
         ],
+        "startPinCount": 1,
         "zoneId": 45,
         "zoneId2": 0
       },
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-24T23:25:00+00:00",
+        "fetchedAt": "2026-10-16T21:05:10+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -19447,9 +19195,9 @@
           {
             "npcId": 2792,
             "npcName": "Gor'mul",
-            "zoneId": 45,
             "x": 72.6,
             "y": 34.0,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           }
         ]
@@ -19530,7 +19278,7 @@
       "detail": {
         "classes": [],
         "faction": "Alliance",
-        "fetchedAt": "2026-09-25T04:28:17+00:00",
+        "fetchedAt": "2026-10-17T01:31:29+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -19973,49 +19721,49 @@
           {
             "npcId": 15351,
             "npcName": "Alliance Brigadier General",
-            "zoneId": 36,
             "x": 39.4,
             "y": 82.2,
+            "zoneId": 36,
             "zoneName": "Alterac Mountains"
           },
           {
             "npcId": 15351,
             "npcName": "Alliance Brigadier General",
-            "zoneId": 45,
             "x": 45.6,
             "y": 45.8,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           },
           {
             "npcId": 15351,
             "npcName": "Alliance Brigadier General",
-            "zoneId": 331,
             "x": 61.8,
             "y": 83.8,
+            "zoneId": 331,
             "zoneName": "Ashenvale"
           },
           {
             "npcId": 15351,
             "npcName": "Alliance Brigadier General",
-            "zoneId": 1519,
             "x": 79.4,
             "y": 18.0,
+            "zoneId": 1519,
             "zoneName": "Stormwind City"
           },
           {
             "npcId": 15351,
             "npcName": "Alliance Brigadier General",
-            "zoneId": 1537,
             "x": 69.8,
             "y": 90.0,
+            "zoneId": 1537,
             "zoneName": "Ironforge"
           },
           {
             "npcId": 15351,
             "npcName": "Alliance Brigadier General",
-            "zoneId": 1657,
             "x": 58.0,
             "y": 34.4,
+            "zoneId": 1657,
             "zoneName": "Darnassus"
           }
         ]
@@ -20096,7 +19844,7 @@
       "detail": {
         "classes": [],
         "faction": "Horde",
-        "fetchedAt": "2026-09-25T04:33:35+00:00",
+        "fetchedAt": "2026-10-17T01:36:52+00:00",
         "infoboxFlags": {
           "daily": false,
           "dungeon": false,
@@ -20363,6 +20111,10 @@
                       [
                         46.6,
                         8.6
+                      ],
+                      [
+                        64.8,
+                        35
                       ]
                     ],
                     "id": 15350,
@@ -20385,6 +20137,10 @@
                       [
                         46.6,
                         8.6
+                      ],
+                      [
+                        64.8,
+                        35
                       ]
                     ],
                     "id": 15350,
@@ -20539,50 +20295,2450 @@
           {
             "npcId": 15350,
             "npcName": "Horde Warbringer",
-            "zoneId": 17,
             "x": 46.6,
             "y": 8.6,
+            "zoneId": 17,
             "zoneName": "The Barrens"
           },
           {
             "npcId": 15350,
             "npcName": "Horde Warbringer",
-            "zoneId": 36,
             "x": 63.0,
             "y": 59.8,
+            "zoneId": 36,
             "zoneName": "Alterac Mountains"
           },
           {
             "npcId": 15350,
             "npcName": "Horde Warbringer",
-            "zoneId": 45,
             "x": 73.6,
             "y": 29.2,
+            "zoneId": 45,
             "zoneName": "Arathi Highlands"
           },
           {
             "npcId": 15350,
             "npcName": "Horde Warbringer",
-            "zoneId": 1497,
             "x": 58.2,
             "y": 97.6,
+            "zoneId": 1497,
             "zoneName": "Undercity"
           },
           {
             "npcId": 15350,
             "npcName": "Horde Warbringer",
-            "zoneId": 1637,
             "x": 80.4,
             "y": 30.4,
+            "zoneId": 1637,
             "zoneName": "Orgrimmar"
           },
           {
             "npcId": 15350,
             "npcName": "Horde Warbringer",
-            "zoneId": 1638,
             "x": 57.8,
             "y": 76.8,
+            "zoneId": 1638,
             "zoneName": "Thunder Bluff"
+          }
+        ]
+      }
+    },
+    "79624": {
+      "index": {
+        "classes": [
+          1
+        ],
+        "hasDetail": true,
+        "id": 79624,
+        "list": {
+          "category": -81,
+          "category2": 4,
+          "currencychoicerewards": [],
+          "currencyrewards": [],
+          "envChange": {
+            "labels": [],
+            "lines": [],
+            "status": "unconfirmed"
+          },
+          "firstseenpatch": 20000,
+          "icon": "quest-start",
+          "id": 79624,
+          "itemchoices": [],
+          "itemrewards": [],
+          "level": 40,
+          "money": 0,
+          "name": "Anyone Can Cook",
+          "popularity": 68,
+          "reprewards": [],
+          "reqclass": 1,
+          "reqlevel": 26,
+          "side": 3,
+          "titlereward": 0,
+          "type": 0,
+          "xp": 1550
+        },
+        "minLevel": 32,
+        "name": "Anyone Can Cook",
+        "pinCategory": "normal",
+        "races": [],
+        "sourceKinds": [
+          "class",
+          "zone"
+        ],
+        "sourceSlugs": [
+          "class/warrior",
+          "ek/arathi-highlands"
+        ],
+        "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/classes/warrior",
+          "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
+        ],
+        "startPinCount": 0,
+        "zoneId": -81,
+        "zoneId2": 4
+      },
+      "detail": {
+        "classes": [
+          1
+        ],
+        "fetchedAt": "2026-10-17T02:35:15+00:00",
+        "infoboxFlags": {
+          "daily": false,
+          "dungeon": false,
+          "monthly": false,
+          "pvp": false,
+          "raid": false,
+          "repeatable": false,
+          "sharable": true,
+          "weekly": false
+        },
+        "infoboxMarkup": "[ul][li]Level: 40[/li][li]Requires level 32[/li][li]Side: Both[/li][li][icon name=quest-end]End: [url=/forever/npc=217300/skonk]Skonk[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]32[/color][small] &nbsp;[/small][color=r1]36[/color][small] &nbsp;[/small][color=r2]38[/color][small] &nbsp;[/small][color=r3]43[/color][small] &nbsp;[/small][color=r4]49[/color][/li][li]Added in patch [acronym=\"1.60.1.70170\"]1.60.1[/acronym][/li][/ul]",
+        "mapper": {
+          "missing": 1,
+          "objectives": {
+            "45": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      57.6,
+                      74.6
+                    ],
+                    "coords": [
+                      [
+                        57.4,
+                        74.4
+                      ],
+                      [
+                        57.6,
+                        74.4
+                      ],
+                      [
+                        57.6,
+                        74.6
+                      ]
+                    ],
+                    "id": 217300,
+                    "name": "Skonk",
+                    "point": "end",
+                    "reactalliance": 1,
+                    "reacthorde": 1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Arathi Highlands"
+            }
+          },
+          "parent": "fweiuasf",
+          "zoneparent": "lksjdowlha",
+          "zones": [
+            [
+              45,
+              1
+            ]
+          ]
+        },
+        "minLevel": 32,
+        "pageInfo": {
+          "name": "Anyone Can Cook",
+          "type": 5,
+          "typeId": 79624
+        },
+        "pinCategory": "normal",
+        "prerequisiteQuestIds": [],
+        "questId": 79624,
+        "races": [],
+        "startPins": []
+      }
+    },
+    "92519": {
+      "index": {
+        "classes": [],
+        "faction": "Horde",
+        "hasDetail": true,
+        "id": 92519,
+        "list": {
+          "category": 45,
+          "category2": 0,
+          "currencychoicerewards": [],
+          "currencyrewards": [],
+          "envChange": {
+            "labels": [],
+            "lines": [],
+            "status": "new"
+          },
+          "firstseenpatch": 16001,
+          "icon": "quest-start",
+          "id": 92519,
+          "itemchoices": [],
+          "itemrewards": [],
+          "level": 36,
+          "money": 0,
+          "name": "Ward Restocking",
+          "popularity": 130,
+          "reprewards": [],
+          "reqclass": 0,
+          "reqlevel": 30,
+          "side": 2,
+          "titlereward": 0,
+          "type": 0,
+          "xp": 2800
+        },
+        "minLevel": 30,
+        "name": "Ward Restocking",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 12920,
+          "npcName": "Doctor Gregory Victor",
+          "x": 73.4,
+          "y": 36.8,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
+        "races": [],
+        "sourceKinds": [
+          "zone"
+        ],
+        "sourceSlugs": [
+          "ek/arathi-highlands"
+        ],
+        "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
+        ],
+        "startPinCount": 1,
+        "zoneId": 45,
+        "zoneId2": 0
+      },
+      "detail": {
+        "classes": [],
+        "faction": "Horde",
+        "fetchedAt": "2026-10-17T12:03:12+00:00",
+        "infoboxFlags": {
+          "daily": false,
+          "dungeon": false,
+          "monthly": false,
+          "pvp": false,
+          "raid": false,
+          "repeatable": false,
+          "sharable": true,
+          "weekly": false
+        },
+        "infoboxMarkup": "[ul][li]Level: 36[/li][li]Requires level 30[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=12920/doctor-gregory-victor]Doctor Gregory Victor[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=12920/doctor-gregory-victor]Doctor Gregory Victor[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]30[/color][small] &nbsp;[/small][color=r1]32[/color][small] &nbsp;[/small][color=r2]34[/color][small] &nbsp;[/small][color=r3]39[/color][small] &nbsp;[/small][color=r4]45[/color][/li][li]Added in patch [acronym=\"1.60.1.70205\"]1.60.1[/acronym][/li][/ul]",
+        "mapper": {
+          "missing": 1,
+          "objectives": {
+            "45": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      73.4,
+                      36.8
+                    ],
+                    "coords": [
+                      [
+                        73.4,
+                        36.4
+                      ],
+                      [
+                        73.4,
+                        36.8
+                      ]
+                    ],
+                    "id": 12920,
+                    "name": "Doctor Gregory Victor",
+                    "point": "start",
+                    "reactalliance": 0,
+                    "reacthorde": 1,
+                    "type": 1
+                  },
+                  {
+                    "coord": [
+                      73.4,
+                      36.8
+                    ],
+                    "coords": [
+                      [
+                        73.4,
+                        36.4
+                      ],
+                      [
+                        73.4,
+                        36.8
+                      ]
+                    ],
+                    "id": 12920,
+                    "name": "Doctor Gregory Victor",
+                    "point": "end",
+                    "reactalliance": 0,
+                    "reacthorde": 1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Arathi Highlands"
+            }
+          },
+          "parent": "fweiuasf",
+          "zoneparent": "lksjdowlha",
+          "zones": [
+            [
+              45,
+              1
+            ]
+          ]
+        },
+        "minLevel": 30,
+        "pageInfo": {
+          "name": "Ward Restocking",
+          "type": 5,
+          "typeId": 92519
+        },
+        "pinCategory": "normal",
+        "prerequisiteQuestIds": [],
+        "questId": 92519,
+        "races": [],
+        "startPins": [
+          {
+            "npcId": 12920,
+            "npcName": "Doctor Gregory Victor",
+            "x": 73.4,
+            "y": 36.8,
+            "zoneId": 45,
+            "zoneName": "Arathi Highlands"
+          }
+        ]
+      }
+    },
+    "92707": {
+      "index": {
+        "classes": [],
+        "faction": "Horde",
+        "hasDetail": true,
+        "id": 92707,
+        "list": {
+          "category": 45,
+          "category2": 0,
+          "currencychoicerewards": [],
+          "currencyrewards": [],
+          "envChange": {
+            "labels": [],
+            "lines": [],
+            "status": "new"
+          },
+          "firstseenpatch": 16001,
+          "icon": "quest-start",
+          "id": 92707,
+          "itemchoices": [],
+          "itemrewards": [],
+          "level": 33,
+          "money": 6500,
+          "name": "The Giant in the Den",
+          "popularity": 125,
+          "reprewards": [
+            [
+              76,
+              100
+            ]
+          ],
+          "reqclass": 0,
+          "reqlevel": 30,
+          "side": 2,
+          "titlereward": 0,
+          "type": 0,
+          "xp": 3300
+        },
+        "minLevel": 30,
+        "name": "The Giant in the Den",
+        "pinCategory": "normal",
+        "races": [],
+        "sourceKinds": [
+          "zone"
+        ],
+        "sourceSlugs": [
+          "ek/arathi-highlands"
+        ],
+        "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
+        ],
+        "startPinCount": 0,
+        "zoneId": 45,
+        "zoneId2": 0
+      },
+      "detail": {
+        "classes": [],
+        "faction": "Horde",
+        "fetchedAt": "2026-10-17T12:03:12+00:00",
+        "infoboxFlags": {
+          "daily": false,
+          "dungeon": false,
+          "monthly": false,
+          "pvp": false,
+          "raid": false,
+          "repeatable": false,
+          "sharable": true,
+          "weekly": false
+        },
+        "infoboxMarkup": "[ul][li]Level: 33[/li][li]Requires level 30[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Not sharable[/li][li]Difficulty: [color=r1]30[/color][small] &nbsp;[/small][color=r2]31[/color][small] &nbsp;[/small][color=r3]36[/color][small] &nbsp;[/small][color=r4]42[/color][/li][li]Added in patch [acronym=\"1.60.1.70170\"]1.60.1[/acronym][/li][/ul]",
+        "mapper": {
+          "missing": 0,
+          "objectives": {
+            "45": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      69.4,
+                      81.6
+                    ],
+                    "coords": [
+                      [
+                        67.8,
+                        79.4
+                      ],
+                      [
+                        68.4,
+                        80.4
+                      ],
+                      [
+                        68.4,
+                        80.6
+                      ],
+                      [
+                        69.2,
+                        81.4
+                      ],
+                      [
+                        69.2,
+                        82.6
+                      ],
+                      [
+                        69.4,
+                        81.6
+                      ],
+                      [
+                        69.6,
+                        81.4
+                      ],
+                      [
+                        69.6,
+                        81.6
+                      ]
+                    ],
+                    "id": 218032,
+                    "item": "Goliath's Wristguards",
+                    "name": "Witherbark Goliath",
+                    "objective": 0,
+                    "point": "sourcerequirement",
+                    "reactalliance": -1,
+                    "reacthorde": -1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Arathi Highlands"
+            }
+          },
+          "parent": "fweiuasf",
+          "zoneparent": "lksjdowlha",
+          "zones": [
+            [
+              45,
+              1
+            ]
+          ]
+        },
+        "minLevel": 30,
+        "pageInfo": {
+          "name": "The Giant in the Den",
+          "type": 5,
+          "typeId": 92707
+        },
+        "pinCategory": "normal",
+        "prerequisiteQuestIds": [],
+        "questId": 92707,
+        "races": [],
+        "startPins": []
+      }
+    },
+    "92867": {
+      "index": {
+        "classes": [],
+        "hasDetail": true,
+        "id": 92867,
+        "list": {
+          "category": 45,
+          "category2": 0,
+          "currencychoicerewards": [],
+          "currencyrewards": [],
+          "envChange": {
+            "labels": [],
+            "lines": [],
+            "status": "new"
+          },
+          "firstseenpatch": 16001,
+          "icon": "quest-start",
+          "id": 92867,
+          "itemchoices": [
+            [
+              280505,
+              1
+            ],
+            [
+              278567,
+              1
+            ]
+          ],
+          "itemrewards": [],
+          "level": 39,
+          "money": 4500,
+          "name": "Ground to Keep",
+          "popularity": 98,
+          "reprewards": [],
+          "reqclass": 0,
+          "reqlevel": 32,
+          "side": 0,
+          "titlereward": 0,
+          "type": 1,
+          "xp": 3000
+        },
+        "minLevel": 32,
+        "name": "Ground to Keep",
+        "pinCategory": "normal",
+        "races": [],
+        "sourceKinds": [
+          "zone"
+        ],
+        "sourceSlugs": [
+          "ek/arathi-highlands"
+        ],
+        "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
+        ],
+        "startPinCount": 0,
+        "zoneId": 45,
+        "zoneId2": 0
+      },
+      "detail": {
+        "classes": [],
+        "fetchedAt": "2026-10-17T12:04:28+00:00",
+        "infoboxFlags": {
+          "daily": false,
+          "dungeon": false,
+          "monthly": false,
+          "pvp": false,
+          "raid": false,
+          "repeatable": false,
+          "sharable": true,
+          "weekly": false
+        },
+        "infoboxMarkup": "[ul][li]Level: 39[/li][li]Requires level 32[/li][li]Type: Elite[/li][li]Side: None[/li][li]Sharable[/li][li]Difficulty: [color=q10]32[/color][small] &nbsp;[/small][color=r1]35[/color][small] &nbsp;[/small][color=r2]37[/color][small] &nbsp;[/small][color=r3]42[/color][small] &nbsp;[/small][color=r4]48[/color][/li][li]Added in patch [acronym=\"1.60.1.70205\"]1.60.1[/acronym][/li][/ul]",
+        "mapper": {
+          "missing": 0,
+          "objectives": {
+            "45": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      24.2,
+                      64.8
+                    ],
+                    "coords": [
+                      [
+                        23.4,
+                        66.2
+                      ],
+                      [
+                        24.2,
+                        64.4
+                      ],
+                      [
+                        24.2,
+                        64.8
+                      ],
+                      [
+                        24.2,
+                        65.8
+                      ],
+                      [
+                        24.4,
+                        62.2
+                      ],
+                      [
+                        24.4,
+                        63.4
+                      ]
+                    ],
+                    "id": 2558,
+                    "name": "Witherbark Berserker",
+                    "objective": 2558,
+                    "point": "requirement",
+                    "reactalliance": -1,
+                    "reacthorde": -1,
+                    "type": 1
+                  },
+                  {
+                    "coord": [
+                      17.8,
+                      68.2
+                    ],
+                    "coords": [
+                      [
+                        17.8,
+                        68.2
+                      ],
+                      [
+                        18,
+                        68.8
+                      ],
+                      [
+                        18.8,
+                        67.6
+                      ],
+                      [
+                        19,
+                        67.4
+                      ],
+                      [
+                        19.8,
+                        65.4
+                      ],
+                      [
+                        20,
+                        66.4
+                      ],
+                      [
+                        20,
+                        67.4
+                      ],
+                      [
+                        20,
+                        67.6
+                      ],
+                      [
+                        20.8,
+                        68.6
+                      ],
+                      [
+                        21.2,
+                        67.6
+                      ],
+                      [
+                        21.4,
+                        67
+                      ],
+                      [
+                        21.6,
+                        65.8
+                      ],
+                      [
+                        21.6,
+                        67
+                      ],
+                      [
+                        21.8,
+                        65.4
+                      ],
+                      [
+                        22.2,
+                        67.6
+                      ],
+                      [
+                        23,
+                        66.6
+                      ],
+                      [
+                        23.2,
+                        66.4
+                      ],
+                      [
+                        23.8,
+                        65.6
+                      ],
+                      [
+                        24.2,
+                        65
+                      ],
+                      [
+                        24.4,
+                        61.4
+                      ],
+                      [
+                        24.4,
+                        62.2
+                      ],
+                      [
+                        24.4,
+                        63.4
+                      ],
+                      [
+                        24.4,
+                        63.6
+                      ]
+                    ],
+                    "id": 2569,
+                    "name": "Boulderfist Mauler",
+                    "objective": 2569,
+                    "point": "requirement",
+                    "reactalliance": -1,
+                    "reacthorde": -1,
+                    "type": 1
+                  },
+                  {
+                    "coord": [
+                      29.2,
+                      62.4
+                    ],
+                    "coords": [
+                      [
+                        25.4,
+                        62.2
+                      ],
+                      [
+                        25.4,
+                        63.2
+                      ],
+                      [
+                        25.4,
+                        64.6
+                      ],
+                      [
+                        25.4,
+                        65.6
+                      ],
+                      [
+                        26,
+                        57.4
+                      ],
+                      [
+                        26,
+                        58.2
+                      ],
+                      [
+                        26,
+                        59.2
+                      ],
+                      [
+                        26,
+                        61.4
+                      ],
+                      [
+                        26,
+                        62
+                      ],
+                      [
+                        26,
+                        63.4
+                      ],
+                      [
+                        26,
+                        65.2
+                      ],
+                      [
+                        26.2,
+                        65.6
+                      ],
+                      [
+                        26.4,
+                        60
+                      ],
+                      [
+                        26.4,
+                        64.4
+                      ],
+                      [
+                        26.6,
+                        60
+                      ],
+                      [
+                        26.6,
+                        64.4
+                      ],
+                      [
+                        26.6,
+                        65.6
+                      ],
+                      [
+                        26.8,
+                        63
+                      ],
+                      [
+                        27,
+                        62.4
+                      ],
+                      [
+                        27.4,
+                        61
+                      ],
+                      [
+                        27.4,
+                        65.4
+                      ],
+                      [
+                        27.6,
+                        61
+                      ],
+                      [
+                        27.6,
+                        63.4
+                      ],
+                      [
+                        27.6,
+                        63.6
+                      ],
+                      [
+                        27.8,
+                        62.4
+                      ],
+                      [
+                        28.4,
+                        64.8
+                      ],
+                      [
+                        28.4,
+                        65.6
+                      ],
+                      [
+                        28.6,
+                        65.8
+                      ],
+                      [
+                        29,
+                        65
+                      ],
+                      [
+                        29.2,
+                        61.2
+                      ],
+                      [
+                        29.2,
+                        62.4
+                      ],
+                      [
+                        29.2,
+                        62.6
+                      ],
+                      [
+                        29.4,
+                        64.2
+                      ],
+                      [
+                        29.6,
+                        61.4
+                      ],
+                      [
+                        29.6,
+                        62.4
+                      ],
+                      [
+                        29.6,
+                        64.2
+                      ]
+                    ],
+                    "id": 2588,
+                    "name": "Syndicate Prowler",
+                    "objective": 2588,
+                    "point": "requirement",
+                    "reactalliance": -1,
+                    "reacthorde": -1,
+                    "type": 1
+                  },
+                  {
+                    "coord": [
+                      29,
+                      65
+                    ],
+                    "coords": [
+                      [
+                        25.4,
+                        62.2
+                      ],
+                      [
+                        25.4,
+                        64.8
+                      ],
+                      [
+                        25.4,
+                        65.6
+                      ],
+                      [
+                        25.6,
+                        62.2
+                      ],
+                      [
+                        25.6,
+                        64.6
+                      ],
+                      [
+                        26,
+                        63.4
+                      ],
+                      [
+                        26,
+                        63.6
+                      ],
+                      [
+                        26.2,
+                        65.6
+                      ],
+                      [
+                        26.4,
+                        60.2
+                      ],
+                      [
+                        26.8,
+                        62.4
+                      ],
+                      [
+                        27,
+                        62.6
+                      ],
+                      [
+                        27.4,
+                        60.4
+                      ],
+                      [
+                        27.4,
+                        60.6
+                      ],
+                      [
+                        27.4,
+                        65
+                      ],
+                      [
+                        27.6,
+                        65
+                      ],
+                      [
+                        27.8,
+                        62.4
+                      ],
+                      [
+                        27.8,
+                        62.6
+                      ],
+                      [
+                        28.8,
+                        65.8
+                      ],
+                      [
+                        29,
+                        65
+                      ]
+                    ],
+                    "id": 2590,
+                    "name": "Syndicate Conjuror",
+                    "objective": 2590,
+                    "point": "requirement",
+                    "reactalliance": -1,
+                    "reacthorde": -1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Arathi Highlands"
+            }
+          },
+          "parent": "fweiuasf",
+          "zoneparent": "lksjdowlha",
+          "zones": [
+            [
+              45,
+              4
+            ]
+          ]
+        },
+        "minLevel": 32,
+        "pageInfo": {
+          "name": "Ground to Keep",
+          "type": 5,
+          "typeId": 92867
+        },
+        "pinCategory": "normal",
+        "prerequisiteQuestIds": [],
+        "questId": 92867,
+        "races": [],
+        "startPins": []
+      }
+    },
+    "92872": {
+      "index": {
+        "classes": [],
+        "faction": "Alliance",
+        "hasDetail": true,
+        "id": 92872,
+        "list": {
+          "category": 45,
+          "category2": 0,
+          "currencychoicerewards": [],
+          "currencyrewards": [],
+          "envChange": {
+            "labels": [],
+            "lines": [],
+            "status": "new"
+          },
+          "firstseenpatch": 16001,
+          "icon": "quest-start",
+          "id": 92872,
+          "itemchoices": [],
+          "itemrewards": [],
+          "level": 38,
+          "money": 0,
+          "name": "Dutiful Steps",
+          "popularity": 140,
+          "reprewards": [],
+          "reqclass": 0,
+          "reqlevel": 32,
+          "side": 1,
+          "titlereward": 0,
+          "type": 0,
+          "xp": 2850
+        },
+        "minLevel": 32,
+        "name": "Dutiful Steps",
+        "pinCategory": "normal",
+        "races": [],
+        "sourceKinds": [
+          "zone"
+        ],
+        "sourceSlugs": [
+          "ek/arathi-highlands"
+        ],
+        "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
+        ],
+        "startPinCount": 0,
+        "zoneId": 45,
+        "zoneId2": 0
+      },
+      "detail": {
+        "classes": [],
+        "faction": "Alliance",
+        "fetchedAt": "2026-10-17T12:04:33+00:00",
+        "infoboxFlags": {
+          "daily": false,
+          "dungeon": false,
+          "monthly": false,
+          "pvp": false,
+          "raid": false,
+          "repeatable": false,
+          "sharable": true,
+          "weekly": false
+        },
+        "infoboxMarkup": "[ul][li]Level: 38[/li][li]Requires level 32[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Not sharable[/li][li]Difficulty: [color=q10]32[/color][small] &nbsp;[/small][color=r1]34[/color][small] &nbsp;[/small][color=r2]36[/color][small] &nbsp;[/small][color=r3]41[/color][small] &nbsp;[/small][color=r4]47[/color][/li][li]Added in patch [acronym=\"1.60.1.70291\"]1.60.1[/acronym][/li][/ul]",
+        "mapper": null,
+        "minLevel": 32,
+        "pageInfo": {
+          "name": "Dutiful Steps",
+          "type": 5,
+          "typeId": 92872
+        },
+        "pinCategory": "normal",
+        "prerequisiteQuestIds": [],
+        "questId": 92872,
+        "races": [],
+        "startPins": []
+      }
+    },
+    "97539": {
+      "index": {
+        "classes": [],
+        "faction": "Horde",
+        "hasDetail": true,
+        "id": 97539,
+        "list": {
+          "category": 45,
+          "category2": 0,
+          "currencychoicerewards": [],
+          "currencyrewards": [],
+          "envChange": {
+            "labels": [],
+            "lines": [],
+            "status": "new"
+          },
+          "firstseenpatch": 16001,
+          "icon": "quest-start",
+          "id": 97539,
+          "itemchoices": [],
+          "itemrewards": [],
+          "level": 36,
+          "money": 4000,
+          "name": "Silky Sutures",
+          "popularity": 126,
+          "reprewards": [
+            [
+              76,
+              100
+            ]
+          ],
+          "reqclass": 0,
+          "reqlevel": 30,
+          "side": 2,
+          "titlereward": 0,
+          "type": 0,
+          "xp": 2800
+        },
+        "minLevel": 30,
+        "name": "Silky Sutures",
+        "pinCategory": "normal",
+        "primaryStart": {
+          "npcId": 12920,
+          "npcName": "Doctor Gregory Victor",
+          "x": 73.4,
+          "y": 36.8,
+          "zoneId": 45,
+          "zoneName": "Arathi Highlands"
+        },
+        "races": [],
+        "sourceKinds": [
+          "zone"
+        ],
+        "sourceSlugs": [
+          "ek/arathi-highlands"
+        ],
+        "sourceUrls": [
+          "https://www.wowhead.com/forever/quests/eastern-kingdoms/arathi-highlands"
+        ],
+        "startPinCount": 1,
+        "zoneId": 45,
+        "zoneId2": 0
+      },
+      "detail": {
+        "classes": [],
+        "faction": "Horde",
+        "fetchedAt": "2026-10-17T12:12:42+00:00",
+        "infoboxFlags": {
+          "daily": false,
+          "dungeon": false,
+          "monthly": false,
+          "pvp": false,
+          "raid": false,
+          "repeatable": false,
+          "sharable": true,
+          "weekly": false
+        },
+        "infoboxMarkup": "[ul][li]Level: 36[/li][li]Requires level 30[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=12920/doctor-gregory-victor]Doctor Gregory Victor[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=12920/doctor-gregory-victor]Doctor Gregory Victor[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]30[/color][small] &nbsp;[/small][color=r1]32[/color][small] &nbsp;[/small][color=r2]34[/color][small] &nbsp;[/small][color=r3]39[/color][small] &nbsp;[/small][color=r4]45[/color][/li][li]Added in patch [acronym=\"1.60.1.70170\"]1.60.1[/acronym][/li][/ul]",
+        "mapper": {
+          "missing": 0,
+          "objectives": {
+            "45": {
+              "levels": [
+                [
+                  {
+                    "coord": [
+                      73.4,
+                      36.8
+                    ],
+                    "coords": [
+                      [
+                        73.4,
+                        36.4
+                      ],
+                      [
+                        73.4,
+                        36.8
+                      ]
+                    ],
+                    "id": 12920,
+                    "name": "Doctor Gregory Victor",
+                    "point": "start",
+                    "reactalliance": 0,
+                    "reacthorde": 1,
+                    "type": 1
+                  },
+                  {
+                    "coord": [
+                      73.4,
+                      36.8
+                    ],
+                    "coords": [
+                      [
+                        73.4,
+                        36.4
+                      ],
+                      [
+                        73.4,
+                        36.8
+                      ]
+                    ],
+                    "id": 12920,
+                    "name": "Doctor Gregory Victor",
+                    "point": "end",
+                    "reactalliance": 0,
+                    "reacthorde": 1,
+                    "type": 1
+                  },
+                  {
+                    "coord": [
+                      70.8,
+                      49.4
+                    ],
+                    "coords": [
+                      [
+                        16.2,
+                        44.4
+                      ],
+                      [
+                        16.4,
+                        45.6
+                      ],
+                      [
+                        16.8,
+                        50.4
+                      ],
+                      [
+                        17,
+                        49.2
+                      ],
+                      [
+                        17.2,
+                        47.4
+                      ],
+                      [
+                        18.4,
+                        34.2
+                      ],
+                      [
+                        18.4,
+                        52.2
+                      ],
+                      [
+                        18.6,
+                        33
+                      ],
+                      [
+                        20.6,
+                        50.4
+                      ],
+                      [
+                        21.3,
+                        39.4
+                      ],
+                      [
+                        21.4,
+                        35.8
+                      ],
+                      [
+                        21.6,
+                        35.8
+                      ],
+                      [
+                        22.2,
+                        39.9
+                      ],
+                      [
+                        22.4,
+                        46.2
+                      ],
+                      [
+                        23.2,
+                        54.2
+                      ],
+                      [
+                        23.4,
+                        51.2
+                      ],
+                      [
+                        26.6,
+                        38.6
+                      ],
+                      [
+                        27.8,
+                        26.6
+                      ],
+                      [
+                        28.4,
+                        34.8
+                      ],
+                      [
+                        29.6,
+                        34.6
+                      ],
+                      [
+                        32.8,
+                        54.8
+                      ],
+                      [
+                        33,
+                        60.6
+                      ],
+                      [
+                        33.4,
+                        54.2
+                      ],
+                      [
+                        35,
+                        63.4
+                      ],
+                      [
+                        35.2,
+                        65.4
+                      ],
+                      [
+                        35.2,
+                        65.8
+                      ],
+                      [
+                        35.8,
+                        33.6
+                      ],
+                      [
+                        36.2,
+                        33.2
+                      ],
+                      [
+                        37,
+                        61.4
+                      ],
+                      [
+                        37.2,
+                        30.8
+                      ],
+                      [
+                        37.6,
+                        31.2
+                      ],
+                      [
+                        38,
+                        34.4
+                      ],
+                      [
+                        38,
+                        34.6
+                      ],
+                      [
+                        38.2,
+                        43.8
+                      ],
+                      [
+                        38.8,
+                        35
+                      ],
+                      [
+                        38.8,
+                        50.4
+                      ],
+                      [
+                        39,
+                        44.8
+                      ],
+                      [
+                        39.6,
+                        45
+                      ],
+                      [
+                        39.6,
+                        71.2
+                      ],
+                      [
+                        40,
+                        70.4
+                      ],
+                      [
+                        40.2,
+                        51.4
+                      ],
+                      [
+                        40.2,
+                        52.4
+                      ],
+                      [
+                        40.2,
+                        71.6
+                      ],
+                      [
+                        40.4,
+                        52.6
+                      ],
+                      [
+                        40.4,
+                        59.8
+                      ],
+                      [
+                        40.6,
+                        52.8
+                      ],
+                      [
+                        40.6,
+                        54.8
+                      ],
+                      [
+                        40.6,
+                        60.4
+                      ],
+                      [
+                        40.8,
+                        52
+                      ],
+                      [
+                        41,
+                        37
+                      ],
+                      [
+                        41.4,
+                        47.2
+                      ],
+                      [
+                        41.4,
+                        48
+                      ],
+                      [
+                        41.6,
+                        47.4
+                      ],
+                      [
+                        41.6,
+                        47.8
+                      ],
+                      [
+                        41.8,
+                        73.2
+                      ],
+                      [
+                        42,
+                        56.4
+                      ],
+                      [
+                        42,
+                        57.6
+                      ],
+                      [
+                        42,
+                        58.6
+                      ],
+                      [
+                        42,
+                        61
+                      ],
+                      [
+                        42,
+                        75.6
+                      ],
+                      [
+                        42.4,
+                        75.2
+                      ],
+                      [
+                        42.6,
+                        61
+                      ],
+                      [
+                        42.8,
+                        58
+                      ],
+                      [
+                        42.8,
+                        58.8
+                      ],
+                      [
+                        42.8,
+                        60.4
+                      ],
+                      [
+                        43.6,
+                        66
+                      ],
+                      [
+                        44,
+                        39.2
+                      ],
+                      [
+                        44,
+                        64.8
+                      ],
+                      [
+                        44.2,
+                        40
+                      ],
+                      [
+                        44.2,
+                        70.4
+                      ],
+                      [
+                        44.2,
+                        70.6
+                      ],
+                      [
+                        44.4,
+                        63.4
+                      ],
+                      [
+                        44.4,
+                        63.6
+                      ],
+                      [
+                        44.6,
+                        40
+                      ],
+                      [
+                        44.6,
+                        62.8
+                      ],
+                      [
+                        44.8,
+                        39.2
+                      ],
+                      [
+                        44.8,
+                        61.6
+                      ],
+                      [
+                        45.4,
+                        41.2
+                      ],
+                      [
+                        45.4,
+                        41.6
+                      ],
+                      [
+                        45.4,
+                        66.6
+                      ],
+                      [
+                        45.6,
+                        40.4
+                      ],
+                      [
+                        45.6,
+                        41.8
+                      ],
+                      [
+                        45.8,
+                        41
+                      ],
+                      [
+                        45.8,
+                        62.2
+                      ],
+                      [
+                        47.4,
+                        56.6
+                      ],
+                      [
+                        47.4,
+                        58.2
+                      ],
+                      [
+                        47.6,
+                        62
+                      ],
+                      [
+                        47.8,
+                        35.6
+                      ],
+                      [
+                        47.8,
+                        36.6
+                      ],
+                      [
+                        47.8,
+                        57.2
+                      ],
+                      [
+                        47.8,
+                        57.8
+                      ],
+                      [
+                        48,
+                        34.4
+                      ],
+                      [
+                        48,
+                        38
+                      ],
+                      [
+                        48,
+                        58.6
+                      ],
+                      [
+                        48.2,
+                        61
+                      ],
+                      [
+                        48.4,
+                        35.4
+                      ],
+                      [
+                        48.4,
+                        39.4
+                      ],
+                      [
+                        48.4,
+                        50.2
+                      ],
+                      [
+                        48.4,
+                        51
+                      ],
+                      [
+                        48.4,
+                        56.4
+                      ],
+                      [
+                        48.6,
+                        35.4
+                      ],
+                      [
+                        48.6,
+                        60.4
+                      ],
+                      [
+                        48.8,
+                        50.6
+                      ],
+                      [
+                        49,
+                        36
+                      ],
+                      [
+                        49,
+                        49.4
+                      ],
+                      [
+                        49,
+                        49.8
+                      ],
+                      [
+                        49.4,
+                        36.6
+                      ],
+                      [
+                        49.4,
+                        61.6
+                      ],
+                      [
+                        49.8,
+                        35.2
+                      ],
+                      [
+                        49.8,
+                        61.4
+                      ],
+                      [
+                        49.8,
+                        61.6
+                      ],
+                      [
+                        50,
+                        35.6
+                      ],
+                      [
+                        50.2,
+                        42.6
+                      ],
+                      [
+                        50.4,
+                        38.2
+                      ],
+                      [
+                        50.4,
+                        38.8
+                      ],
+                      [
+                        50.4,
+                        42.4
+                      ],
+                      [
+                        50.6,
+                        38.2
+                      ],
+                      [
+                        50.6,
+                        38.6
+                      ],
+                      [
+                        50.6,
+                        39.6
+                      ],
+                      [
+                        50.8,
+                        42.4
+                      ],
+                      [
+                        51,
+                        36.6
+                      ],
+                      [
+                        51,
+                        40.8
+                      ],
+                      [
+                        51.2,
+                        36.4
+                      ],
+                      [
+                        51.2,
+                        42.6
+                      ],
+                      [
+                        51.8,
+                        36
+                      ],
+                      [
+                        52,
+                        35.4
+                      ],
+                      [
+                        52,
+                        36.6
+                      ],
+                      [
+                        53.4,
+                        33.4
+                      ],
+                      [
+                        54.2,
+                        32.6
+                      ],
+                      [
+                        54.6,
+                        33.4
+                      ],
+                      [
+                        54.8,
+                        33.8
+                      ],
+                      [
+                        55.2,
+                        34.8
+                      ],
+                      [
+                        55.4,
+                        44.4
+                      ],
+                      [
+                        55.4,
+                        44.8
+                      ],
+                      [
+                        55.6,
+                        34.6
+                      ],
+                      [
+                        55.8,
+                        43.8
+                      ],
+                      [
+                        55.8,
+                        44.6
+                      ],
+                      [
+                        55.8,
+                        45.8
+                      ],
+                      [
+                        56.2,
+                        33.2
+                      ],
+                      [
+                        56.4,
+                        33.8
+                      ],
+                      [
+                        56.6,
+                        33.4
+                      ],
+                      [
+                        56.8,
+                        42.6
+                      ],
+                      [
+                        56.8,
+                        45.8
+                      ],
+                      [
+                        57,
+                        34.2
+                      ],
+                      [
+                        57.4,
+                        44.2
+                      ],
+                      [
+                        57.4,
+                        44.6
+                      ],
+                      [
+                        57.6,
+                        33
+                      ],
+                      [
+                        57.8,
+                        44.4
+                      ],
+                      [
+                        58,
+                        45
+                      ],
+                      [
+                        58.2,
+                        46
+                      ],
+                      [
+                        58.2,
+                        51
+                      ],
+                      [
+                        58.4,
+                        50.4
+                      ],
+                      [
+                        58.6,
+                        47.4
+                      ],
+                      [
+                        59,
+                        50.2
+                      ],
+                      [
+                        59.2,
+                        51.2
+                      ],
+                      [
+                        59.2,
+                        51.6
+                      ],
+                      [
+                        59.4,
+                        39.4
+                      ],
+                      [
+                        59.4,
+                        39.6
+                      ],
+                      [
+                        59.4,
+                        48.2
+                      ],
+                      [
+                        59.4,
+                        49.4
+                      ],
+                      [
+                        59.6,
+                        51
+                      ],
+                      [
+                        59.8,
+                        39
+                      ],
+                      [
+                        59.8,
+                        39.6
+                      ],
+                      [
+                        59.8,
+                        49.2
+                      ],
+                      [
+                        59.8,
+                        49.8
+                      ],
+                      [
+                        59.9,
+                        51.6
+                      ],
+                      [
+                        60,
+                        38.4
+                      ],
+                      [
+                        60.1,
+                        47.6
+                      ],
+                      [
+                        60.4,
+                        46.4
+                      ],
+                      [
+                        60.4,
+                        46.6
+                      ],
+                      [
+                        60.6,
+                        39.4
+                      ],
+                      [
+                        60.6,
+                        45.8
+                      ],
+                      [
+                        60.6,
+                        46.6
+                      ],
+                      [
+                        60.6,
+                        50.4
+                      ],
+                      [
+                        60.8,
+                        31.3
+                      ],
+                      [
+                        60.8,
+                        39.6
+                      ],
+                      [
+                        60.9,
+                        47.8
+                      ],
+                      [
+                        60.9,
+                        51.7
+                      ],
+                      [
+                        61.4,
+                        43.2
+                      ],
+                      [
+                        61.4,
+                        49.2
+                      ],
+                      [
+                        61.4,
+                        51.4
+                      ],
+                      [
+                        61.5,
+                        30.9
+                      ],
+                      [
+                        61.6,
+                        43.8
+                      ],
+                      [
+                        61.6,
+                        48.3
+                      ],
+                      [
+                        61.6,
+                        49
+                      ],
+                      [
+                        61.7,
+                        51
+                      ],
+                      [
+                        61.8,
+                        49.6
+                      ],
+                      [
+                        62,
+                        42.4
+                      ],
+                      [
+                        62,
+                        43.2
+                      ],
+                      [
+                        62.4,
+                        36.8
+                      ],
+                      [
+                        62.4,
+                        38.2
+                      ],
+                      [
+                        62.6,
+                        38.6
+                      ],
+                      [
+                        62.6,
+                        50.2
+                      ],
+                      [
+                        62.8,
+                        37.4
+                      ],
+                      [
+                        62.8,
+                        51.2
+                      ],
+                      [
+                        63,
+                        38.2
+                      ],
+                      [
+                        63.1,
+                        29.6
+                      ],
+                      [
+                        63.2,
+                        30.6
+                      ],
+                      [
+                        63.4,
+                        43.2
+                      ],
+                      [
+                        63.5,
+                        29.6
+                      ],
+                      [
+                        64,
+                        43.4
+                      ],
+                      [
+                        64,
+                        44
+                      ],
+                      [
+                        64,
+                        44.6
+                      ],
+                      [
+                        64.8,
+                        44.4
+                      ],
+                      [
+                        64.8,
+                        45.2
+                      ],
+                      [
+                        66.4,
+                        45.8
+                      ],
+                      [
+                        66.4,
+                        50
+                      ],
+                      [
+                        66.4,
+                        50.6
+                      ],
+                      [
+                        66.8,
+                        49.4
+                      ],
+                      [
+                        66.8,
+                        49.8
+                      ],
+                      [
+                        67,
+                        50.6
+                      ],
+                      [
+                        67.2,
+                        52.4
+                      ],
+                      [
+                        67.4,
+                        35.4
+                      ],
+                      [
+                        67.4,
+                        36.2
+                      ],
+                      [
+                        67.4,
+                        36.6
+                      ],
+                      [
+                        67.4,
+                        52.6
+                      ],
+                      [
+                        67.6,
+                        36
+                      ],
+                      [
+                        67.8,
+                        37
+                      ],
+                      [
+                        67.8,
+                        51.6
+                      ],
+                      [
+                        67.8,
+                        53
+                      ],
+                      [
+                        67.8,
+                        56.8
+                      ],
+                      [
+                        68,
+                        35.4
+                      ],
+                      [
+                        68,
+                        50.6
+                      ],
+                      [
+                        68,
+                        55.6
+                      ],
+                      [
+                        68.2,
+                        45.4
+                      ],
+                      [
+                        68.2,
+                        45.8
+                      ],
+                      [
+                        68.2,
+                        55
+                      ],
+                      [
+                        68.4,
+                        47
+                      ],
+                      [
+                        68.4,
+                        48.4
+                      ],
+                      [
+                        68.4,
+                        50
+                      ],
+                      [
+                        68.4,
+                        59
+                      ],
+                      [
+                        68.6,
+                        50
+                      ],
+                      [
+                        68.8,
+                        35.8
+                      ],
+                      [
+                        68.8,
+                        46.2
+                      ],
+                      [
+                        68.8,
+                        46.6
+                      ],
+                      [
+                        68.8,
+                        57.6
+                      ],
+                      [
+                        69,
+                        33.4
+                      ],
+                      [
+                        69,
+                        34.2
+                      ],
+                      [
+                        69,
+                        49.4
+                      ],
+                      [
+                        69,
+                        57.4
+                      ],
+                      [
+                        69.2,
+                        55
+                      ],
+                      [
+                        69.4,
+                        35
+                      ],
+                      [
+                        69.4,
+                        38
+                      ],
+                      [
+                        69.4,
+                        38.6
+                      ],
+                      [
+                        69.4,
+                        48
+                      ],
+                      [
+                        69.4,
+                        53.8
+                      ],
+                      [
+                        69.4,
+                        55.8
+                      ],
+                      [
+                        69.6,
+                        33.8
+                      ],
+                      [
+                        69.6,
+                        34.8
+                      ],
+                      [
+                        69.6,
+                        35.6
+                      ],
+                      [
+                        69.6,
+                        55.4
+                      ],
+                      [
+                        69.6,
+                        56
+                      ],
+                      [
+                        70,
+                        50.6
+                      ],
+                      [
+                        70.2,
+                        38.6
+                      ],
+                      [
+                        70.2,
+                        45.6
+                      ],
+                      [
+                        70.2,
+                        50
+                      ],
+                      [
+                        70.4,
+                        38.2
+                      ],
+                      [
+                        70.4,
+                        47.2
+                      ],
+                      [
+                        70.4,
+                        47.7
+                      ],
+                      [
+                        70.4,
+                        49.2
+                      ],
+                      [
+                        70.6,
+                        38.4
+                      ],
+                      [
+                        70.6,
+                        39
+                      ],
+                      [
+                        70.8,
+                        45.4
+                      ],
+                      [
+                        70.8,
+                        46.4
+                      ],
+                      [
+                        70.8,
+                        49.4
+                      ],
+                      [
+                        70.8,
+                        49.6
+                      ],
+                      [
+                        70.8,
+                        51.8
+                      ],
+                      [
+                        70.8,
+                        55
+                      ],
+                      [
+                        71,
+                        46.6
+                      ],
+                      [
+                        71,
+                        54.4
+                      ],
+                      [
+                        71.4,
+                        48.2
+                      ],
+                      [
+                        71.6,
+                        49.4
+                      ],
+                      [
+                        71.6,
+                        50.6
+                      ],
+                      [
+                        71.8,
+                        48
+                      ],
+                      [
+                        71.8,
+                        50.2
+                      ],
+                      [
+                        72,
+                        45.4
+                      ],
+                      [
+                        72,
+                        45.8
+                      ],
+                      [
+                        72.4,
+                        46.6
+                      ],
+                      [
+                        72.6,
+                        46.2
+                      ],
+                      [
+                        72.8,
+                        45.4
+                      ],
+                      [
+                        73.4,
+                        46.6
+                      ],
+                      [
+                        73.6,
+                        45.4
+                      ],
+                      [
+                        74,
+                        46.8
+                      ],
+                      [
+                        74,
+                        47.6
+                      ],
+                      [
+                        74.2,
+                        46.4
+                      ]
+                    ],
+                    "id": 2563,
+                    "item": "Surgical Spidersilk",
+                    "name": "Plains Creeper",
+                    "objective": 0,
+                    "point": "sourcerequirement",
+                    "reactalliance": -1,
+                    "reacthorde": -1,
+                    "type": 1
+                  },
+                  {
+                    "coord": [
+                      44.2,
+                      35.8
+                    ],
+                    "coords": [
+                      [
+                        44.2,
+                        35.8
+                      ],
+                      [
+                        44.4,
+                        31.8
+                      ],
+                      [
+                        44.6,
+                        32
+                      ],
+                      [
+                        52.2,
+                        60.6
+                      ],
+                      [
+                        56.8,
+                        62
+                      ],
+                      [
+                        57.3,
+                        64.4
+                      ],
+                      [
+                        57.6,
+                        64.4
+                      ],
+                      [
+                        57.8,
+                        59
+                      ],
+                      [
+                        57.8,
+                        60.3
+                      ],
+                      [
+                        61.6,
+                        69.6
+                      ]
+                    ],
+                    "id": 2565,
+                    "item": "Surgical Spidersilk",
+                    "name": "Giant Plains Creeper",
+                    "objective": 0,
+                    "point": "sourcerequirement",
+                    "reactalliance": -1,
+                    "reacthorde": -1,
+                    "type": 1
+                  }
+                ]
+              ],
+              "mappable": 1,
+              "zone": "Arathi Highlands"
+            }
+          },
+          "parent": "fweiuasf",
+          "zoneparent": "lksjdowlha",
+          "zones": [
+            [
+              45,
+              3
+            ]
+          ]
+        },
+        "minLevel": 30,
+        "pageInfo": {
+          "name": "Silky Sutures",
+          "type": 5,
+          "typeId": 97539
+        },
+        "pinCategory": "normal",
+        "prerequisiteQuestIds": [],
+        "questId": 97539,
+        "races": [],
+        "startPins": [
+          {
+            "npcId": 12920,
+            "npcName": "Doctor Gregory Victor",
+            "x": 73.4,
+            "y": 36.8,
+            "zoneId": 45,
+            "zoneName": "Arathi Highlands"
           }
         ]
       }

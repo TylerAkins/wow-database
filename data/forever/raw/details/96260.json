@@ -1,0 +1,217 @@
+{
+  "classes": [],
+  "faction": "Horde",
+  "fetchedAt": "2026-10-17T12:10:21+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 30[/li][li]Requires level 23[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=264072/yorn-grimtotem]Yorn Grimtotem[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=264072/yorn-grimtotem]Yorn Grimtotem[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]23[/color][small] &nbsp;[/small][color=r1]26[/color][small] &nbsp;[/small][color=r2]28[/color][small] &nbsp;[/small][color=r3]33[/color][small] &nbsp;[/small][color=r4]38[/color][/li][li]Added in patch [acronym=\"1.60.1.70170\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "215": {
+        "levels": [
+          [
+            {
+              "coord": [
+                32.4,
+                20
+              ],
+              "coords": [
+                [
+                  32.4,
+                  20
+                ],
+                [
+                  32.6,
+                  20
+                ]
+              ],
+              "id": 264072,
+              "name": "Yorn Grimtotem",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                32.4,
+                20
+              ],
+              "coords": [
+                [
+                  32.4,
+                  20
+                ],
+                [
+                  32.6,
+                  20
+                ]
+              ],
+              "id": 264072,
+              "name": "Yorn Grimtotem",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                33.4,
+                7.4
+              ],
+              "coords": [
+                [
+                  31.4,
+                  11
+                ],
+                [
+                  31.4,
+                  11.8
+                ],
+                [
+                  32,
+                  10
+                ],
+                [
+                  32.2,
+                  10.6
+                ],
+                [
+                  32.4,
+                  7.4
+                ],
+                [
+                  32.4,
+                  7.8
+                ],
+                [
+                  32.4,
+                  9.2
+                ],
+                [
+                  32.4,
+                  11.6
+                ],
+                [
+                  32.4,
+                  13
+                ],
+                [
+                  32.8,
+                  11.4
+                ],
+                [
+                  32.8,
+                  11.6
+                ],
+                [
+                  32.8,
+                  13
+                ],
+                [
+                  33,
+                  9.8
+                ],
+                [
+                  33.2,
+                  7.6
+                ],
+                [
+                  33.4,
+                  7.4
+                ],
+                [
+                  33.4,
+                  9.2
+                ],
+                [
+                  33.6,
+                  7
+                ],
+                [
+                  33.6,
+                  8.2
+                ],
+                [
+                  33.6,
+                  9.4
+                ],
+                [
+                  34,
+                  10
+                ],
+                [
+                  34.4,
+                  10.6
+                ],
+                [
+                  34.8,
+                  10.4
+                ],
+                [
+                  35,
+                  9.4
+                ],
+                [
+                  35,
+                  10.6
+                ],
+                [
+                  35.6,
+                  11
+                ]
+              ],
+              "id": 264081,
+              "item": "Crystalline Silk",
+              "name": "Gloomrise Spinner",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": -1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Mulgore"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        215,
+        2
+      ]
+    ]
+  },
+  "minLevel": 23,
+  "pageInfo": {
+    "name": "Stronger than Steel",
+    "type": 5,
+    "typeId": 96260
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 96260,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 264072,
+      "npcName": "Yorn Grimtotem",
+      "x": 32.4,
+      "y": 20.0,
+      "zoneId": 215,
+      "zoneName": "Mulgore"
+    }
+  ]
+}

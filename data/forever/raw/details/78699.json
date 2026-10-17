@@ -2,12 +2,61 @@
   "classes": [
     4
   ],
-  "fetchedAt": "2026-09-25T05:28:49+00:00",
-  "infoboxFlags": {},
-  "infoboxMarkup": null,
-  "mapper": null,
-  "minLevel": 1,
-  "pageInfo": null,
+  "fetchedAt": "2026-10-17T02:31:47+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 35[/li][li]Requires level 25[/li][li]Side: Both[/li][li]Class: [class=4][/li][li][icon name=quest-end]End: [url=/forever/object=410369/dead-drop]Dead Drop[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]25[/color][small] &nbsp;[/small][color=r1]31[/color][small] &nbsp;[/small][color=r2]33[/color][small] &nbsp;[/small][color=r3]38[/color][small] &nbsp;[/small][color=r4]44[/color][/li][li]Added in patch [acronym=\"1.60.1.70205\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "130": {
+        "levels": [
+          [
+            {
+              "coord": [
+                47.1,
+                71.1
+              ],
+              "coords": [
+                [
+                  47.1,
+                  71.1
+                ]
+              ],
+              "id": 410369,
+              "name": "Dead Drop",
+              "point": "end",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Silverpine Forest"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        130,
+        1
+      ]
+    ]
+  },
+  "minLevel": 25,
+  "pageInfo": {
+    "name": "The Eye of Bhossca",
+    "type": 5,
+    "typeId": 78699
+  },
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 78699,

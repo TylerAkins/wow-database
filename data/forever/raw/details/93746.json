@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-25T06:13:13+00:00",
+  "fetchedAt": "2026-10-17T03:16:12+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -27,10 +27,6 @@
               "coords": [
                 [
                   59,
-                  79.4
-                ],
-                [
-                  59,
                   79.6
                 ]
               ],
@@ -47,10 +43,6 @@
                 79.6
               ],
               "coords": [
-                [
-                  59,
-                  79.4
-                ],
                 [
                   59,
                   79.6
@@ -78,7 +70,7 @@
               "name": "Belathaan Brightwish",
               "objective": 256247,
               "point": "requirement",
-              "reactalliance": 0,
+              "reactalliance": 1,
               "reacthorde": -1,
               "type": 1
             }
@@ -104,16 +96,18 @@
     "typeId": 93746
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    93735
+  ],
   "questId": 93746,
   "races": [],
   "startPins": [
     {
       "npcId": 251968,
       "npcName": "Ayessa Dawnsinger",
-      "zoneId": 16593,
       "x": 59.0,
       "y": 79.6,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

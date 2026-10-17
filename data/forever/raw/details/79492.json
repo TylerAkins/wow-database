@@ -1,0 +1,231 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-10-17T12:01:36+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": true,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 60[/li][li]Requires level 25[/li][li]Type: Raid[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=216902/wulmort-jinglepocket]Wulmort Jinglepocket[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=216902/wulmort-jinglepocket]Wulmort Jinglepocket[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]25[/color][small] &nbsp;[/small][color=r1]56[/color][small] &nbsp;[/small][color=r2]58[/color][small] &nbsp;[/small][color=r3]63[/color][small] &nbsp;[/small][color=r4]72[/color][/li][li]Added in patch [acronym=\"1.60.1.70205\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 1,
+    "objectives": {
+      "1537": {
+        "levels": [
+          [
+            {
+              "coord": [
+                33.4,
+                67
+              ],
+              "coords": [
+                [
+                  32.4,
+                  67.4
+                ],
+                [
+                  33,
+                  68.6
+                ],
+                [
+                  33.4,
+                  65.4
+                ],
+                [
+                  33.4,
+                  66.4
+                ],
+                [
+                  33.4,
+                  67
+                ],
+                [
+                  33.4,
+                  67.6
+                ],
+                [
+                  33.6,
+                  66
+                ],
+                [
+                  33.6,
+                  66.8
+                ],
+                [
+                  33.6,
+                  67.8
+                ]
+              ],
+              "id": 216902,
+              "name": "Wulmort Jinglepocket",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            },
+            {
+              "coord": [
+                33.4,
+                67
+              ],
+              "coords": [
+                [
+                  32.4,
+                  67.4
+                ],
+                [
+                  33,
+                  68.6
+                ],
+                [
+                  33.4,
+                  65.4
+                ],
+                [
+                  33.4,
+                  66.4
+                ],
+                [
+                  33.4,
+                  67
+                ],
+                [
+                  33.4,
+                  67.6
+                ],
+                [
+                  33.6,
+                  66
+                ],
+                [
+                  33.6,
+                  66.8
+                ],
+                [
+                  33.6,
+                  67.8
+                ]
+              ],
+              "id": 216902,
+              "name": "Wulmort Jinglepocket",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ironforge"
+      },
+      "440": {
+        "levels": [
+          [
+            {
+              "coord": [
+                73.2,
+                48
+              ],
+              "coords": [
+                [
+                  73.2,
+                  48
+                ]
+              ],
+              "id": 15664,
+              "name": "Metzen the Reindeer",
+              "objective": 15664,
+              "point": "requirement",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Tanaris"
+      },
+      "51": {
+        "levels": [
+          [
+            {
+              "coord": [
+                68.6,
+                34.4
+              ],
+              "coords": [
+                [
+                  68.4,
+                  34.4
+                ],
+                [
+                  68.4,
+                  34.6
+                ],
+                [
+                  68.6,
+                  34.4
+                ],
+                [
+                  68.6,
+                  34.8
+                ]
+              ],
+              "id": 15664,
+              "name": "Metzen the Reindeer",
+              "objective": 15664,
+              "point": "requirement",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Searing Gorge"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        1537,
+        1
+      ],
+      [
+        51,
+        1
+      ],
+      [
+        440,
+        1
+      ]
+    ]
+  },
+  "minLevel": 25,
+  "pageInfo": {
+    "name": "Metzen the Reindeer",
+    "type": 5,
+    "typeId": 79492
+  },
+  "pinCategory": "raid",
+  "prerequisiteQuestIds": [],
+  "questId": 79492,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 216902,
+      "npcName": "Wulmort Jinglepocket",
+      "x": 33.4,
+      "y": 67.0,
+      "zoneId": 1537,
+      "zoneName": "Ironforge"
+    }
+  ]
+}

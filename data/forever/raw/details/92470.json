@@ -1,6 +1,6 @@
 {
   "classes": [],
-  "fetchedAt": "2026-09-25T06:03:42+00:00",
+  "fetchedAt": "2026-10-17T03:06:32+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -11,7 +11,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 5[/li][li]Requires level 2[/li][li]Side: Both[/li][li][icon name=quest-start]Start: [url=/forever/npc=251366/aetheen-of-the-gales]Aetheen of the Gales[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=251366/aetheen-of-the-gales]Aetheen of the Gales[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]2[/color][small] &nbsp;[/small][color=r2]3[/color][small] &nbsp;[/small][color=r3]8[/color][small] &nbsp;[/small][color=r4]11[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 5[/li][li]Requires level 2[/li][li]Side: Both[/li][li]Race: [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=251366/aetheen-of-the-gales]Aetheen of the Gales[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=251366/aetheen-of-the-gales]Aetheen of the Gales[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r1]2[/color][small] &nbsp;[/small][color=r2]3[/color][small] &nbsp;[/small][color=r3]8[/color][small] &nbsp;[/small][color=r4]11[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -85,16 +85,16 @@
                   23.2
                 ],
                 [
-                  37,
-                  24.2
+                  36.8,
+                  24
+                ],
+                [
+                  37.2,
+                  24.6
                 ],
                 [
                   37.4,
-                  24.8
-                ],
-                [
-                  37.4,
-                  25.8
+                  25.6
                 ],
                 [
                   37.4,
@@ -132,12 +132,16 @@
             {
               "coord": [
                 35.6,
-                25.4
+                26
               ],
               "coords": [
                 [
-                  35.4,
+                  35.2,
                   25.4
+                ],
+                [
+                  35.3,
+                  24.2
                 ],
                 [
                   35.4,
@@ -145,7 +149,7 @@
                 ],
                 [
                   35.6,
-                  25.4
+                  25.2
                 ],
                 [
                   35.6,
@@ -185,14 +189,16 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 92470,
-  "races": [],
+  "races": [
+    95
+  ],
   "startPins": [
     {
       "npcId": 251366,
       "npcName": "Aetheen of the Gales",
-      "zoneId": 16593,
       "x": 42.6,
       "y": 23.6,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

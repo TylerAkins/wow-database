@@ -3,7 +3,7 @@
     7
   ],
   "faction": "Horde",
-  "fetchedAt": "2026-09-25T00:58:55+00:00",
+  "fetchedAt": "2026-10-16T22:01:46+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -18,6 +18,32 @@
   "mapper": {
     "missing": 0,
     "objectives": {
+      "1": {
+        "levels": [
+          [
+            {
+              "coord": [
+                24.8,
+                61.8
+              ],
+              "coords": [
+                [
+                  24.8,
+                  61.8
+                ]
+              ],
+              "id": 5891,
+              "name": "Minor Manifestation of Earth",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Dun Morogh"
+      },
       "14": {
         "levels": [
           [
@@ -80,8 +106,8 @@
               ],
               "coords": [
                 [
-                  44.4,
-                  76.8
+                  44.3,
+                  76.7
                 ],
                 [
                   44.8,
@@ -109,6 +135,10 @@
         2
       ],
       [
+        1,
+        1
+      ],
+      [
         14,
         1
       ]
@@ -132,17 +162,25 @@
     {
       "npcId": 5891,
       "npcName": "Minor Manifestation of Earth",
-      "zoneId": 14,
+      "x": 24.8,
+      "y": 61.8,
+      "zoneId": 1,
+      "zoneName": "Dun Morogh"
+    },
+    {
+      "npcId": 5891,
+      "npcName": "Minor Manifestation of Earth",
       "x": 44.0,
       "y": 76.0,
+      "zoneId": 14,
       "zoneName": "Durotar"
     },
     {
       "npcId": 5891,
       "npcName": "Minor Manifestation of Earth",
-      "zoneId": 215,
       "x": 53.8,
       "y": 80.4,
+      "zoneId": 215,
       "zoneName": "Mulgore"
     }
   ]

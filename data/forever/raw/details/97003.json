@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-25T06:48:00+00:00",
+  "fetchedAt": "2026-10-17T03:51:03+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -33,7 +33,7 @@
               "id": 267310,
               "name": "Gur'ak",
               "point": "start",
-              "reactalliance": 0,
+              "reactalliance": -1,
               "reacthorde": 1,
               "type": 1
             },
@@ -51,16 +51,20 @@
               "id": 267310,
               "name": "Gur'ak",
               "point": "end",
-              "reactalliance": 0,
+              "reactalliance": -1,
               "reacthorde": 1,
               "type": 1
             },
             {
               "coord": [
-                57.4,
-                27.2
+                25.8,
+                23.8
               ],
               "coords": [
+                [
+                  25.8,
+                  23.8
+                ],
                 [
                   57.4,
                   27.2
@@ -75,7 +79,7 @@
               "name": "Chol'aruk",
               "objective": 0,
               "point": "sourcerequirement",
-              "reactalliance": 0,
+              "reactalliance": -1,
               "reacthorde": -1,
               "type": 1
             }
@@ -108,9 +112,9 @@
     {
       "npcId": 267310,
       "npcName": "Gur'ak",
-      "zoneId": 17,
       "x": 52.6,
       "y": 29.0,
+      "zoneId": 17,
       "zoneName": "The Barrens"
     }
   ]

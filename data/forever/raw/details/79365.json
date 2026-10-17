@@ -1,0 +1,119 @@
+{
+  "classes": [
+    7
+  ],
+  "faction": "Horde",
+  "fetchedAt": "2026-10-17T12:01:11+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 40[/li][li]Requires level 30[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Races: [race=2], [race=6], [br][race=8][/li][li]Class: [class=7][/li][li][icon name=quest-start]Start: [url=/forever/npc=6176/bathrah-the-windwatcher]Bath'rah the Windwatcher[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=4722/rau-cliffrunner]Rau Cliffrunner[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]30[/color][small] &nbsp;[/small][color=r1]36[/color][small] &nbsp;[/small][color=r2]38[/color][small] &nbsp;[/small][color=r3]43[/color][small] &nbsp;[/small][color=r4]49[/color][/li][li]Added in patch [acronym=\"1.60.1.70205\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "36": {
+        "levels": [
+          [
+            {
+              "coord": [
+                80.4,
+                66.8
+              ],
+              "coords": [
+                [
+                  80.2,
+                  62.6
+                ],
+                [
+                  80.4,
+                  66.8
+                ]
+              ],
+              "id": 6176,
+              "name": "Bath'rah the Windwatcher",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Alterac Mountains"
+      },
+      "400": {
+        "levels": [
+          [
+            {
+              "coord": [
+                46,
+                51.6
+              ],
+              "coords": [
+                [
+                  46,
+                  51.4
+                ],
+                [
+                  46,
+                  51.6
+                ]
+              ],
+              "id": 4722,
+              "name": "Rau Cliffrunner",
+              "point": "end",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Thousand Needles"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        36,
+        1
+      ],
+      [
+        400,
+        1
+      ]
+    ]
+  },
+  "minLevel": 30,
+  "pageInfo": {
+    "name": "With Wind Beneath Your Wings",
+    "type": 5,
+    "typeId": 79365
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 79365,
+  "races": [
+    2,
+    6,
+    8
+  ],
+  "startPins": [
+    {
+      "npcId": 6176,
+      "npcName": "Bath'rah the Windwatcher",
+      "x": 80.4,
+      "y": 66.8,
+      "zoneId": 36,
+      "zoneName": "Alterac Mountains"
+    }
+  ]
+}

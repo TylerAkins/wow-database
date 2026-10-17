@@ -1,0 +1,171 @@
+{
+  "classes": [
+    7
+  ],
+  "faction": "Horde",
+  "fetchedAt": "2026-10-17T12:01:11+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 33[/li][li]Requires level 30[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Class: [class=7][/li][li][icon name=quest-start]Start: [url=/forever/npc=4722/rau-cliffrunner]Rau Cliffrunner[/url][/icon][br][span=invisible][icon name=quest-start]Start: [/icon][/span][url=/forever/npc=6176/bathrah-the-windwatcher]Bath'rah the Windwatcher[/url][/li][li][icon name=quest-end]End: [url=/forever/npc=5905/prate-cloudseer]Prate Cloudseer[/url][/icon][br][span=invisible][icon name=quest-end]End: [/icon][/span][url=/forever/npc=6176/bathrah-the-windwatcher]Bath'rah the Windwatcher[/url][/li][li]Not sharable[/li][li]Difficulty: [color=r1]30[/color][small] &nbsp;[/small][color=r2]31[/color][small] &nbsp;[/small][color=r3]36[/color][small] &nbsp;[/small][color=r4]42[/color][/li][li]Added in patch [acronym=\"1.60.1.70205\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "36": {
+        "levels": [
+          [
+            {
+              "coord": [
+                80.4,
+                66.8
+              ],
+              "coords": [
+                [
+                  80.2,
+                  62.6
+                ],
+                [
+                  80.4,
+                  66.8
+                ]
+              ],
+              "id": 6176,
+              "name": "Bath'rah the Windwatcher",
+              "point": "start",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                80.4,
+                66.8
+              ],
+              "coords": [
+                [
+                  80.2,
+                  62.6
+                ],
+                [
+                  80.4,
+                  66.8
+                ]
+              ],
+              "id": 6176,
+              "name": "Bath'rah the Windwatcher",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Alterac Mountains"
+      },
+      "400": {
+        "levels": [
+          [
+            {
+              "coord": [
+                46,
+                51.6
+              ],
+              "coords": [
+                [
+                  46,
+                  51.4
+                ],
+                [
+                  46,
+                  51.6
+                ]
+              ],
+              "id": 4722,
+              "name": "Rau Cliffrunner",
+              "point": "start",
+              "reactalliance": 0,
+              "reacthorde": 1,
+              "type": 1
+            },
+            {
+              "coord": [
+                53.6,
+                42.8
+              ],
+              "coords": [
+                [
+                  53.4,
+                  42.6
+                ],
+                [
+                  53.6,
+                  42.4
+                ],
+                [
+                  53.6,
+                  42.8
+                ]
+              ],
+              "id": 5905,
+              "name": "Prate Cloudseer",
+              "point": "end",
+              "reactalliance": -1,
+              "reacthorde": 1,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Thousand Needles"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        36,
+        1
+      ],
+      [
+        400,
+        2
+      ]
+    ]
+  },
+  "minLevel": 30,
+  "pageInfo": {
+    "name": "Eyes on the Sky",
+    "type": 5,
+    "typeId": 79364
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 79364,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 4722,
+      "npcName": "Rau Cliffrunner",
+      "x": 46.0,
+      "y": 51.6,
+      "zoneId": 400,
+      "zoneName": "Thousand Needles"
+    },
+    {
+      "npcId": 6176,
+      "npcName": "Bath'rah the Windwatcher",
+      "x": 80.4,
+      "y": 66.8,
+      "zoneId": 36,
+      "zoneName": "Alterac Mountains"
+    }
+  ]
+}

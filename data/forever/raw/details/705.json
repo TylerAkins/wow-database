@@ -1,6 +1,6 @@
 {
   "classes": [],
-  "fetchedAt": "2026-09-24T23:22:05+00:00",
+  "fetchedAt": "2026-10-16T20:51:01+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -15,6 +15,126 @@
   "mapper": {
     "missing": 0,
     "objectives": {
+      "148": {
+        "levels": [
+          [
+            {
+              "coord": [
+                33.4,
+                45.6
+              ],
+              "coords": [
+                [
+                  33.2,
+                  51.9
+                ],
+                [
+                  33.4,
+                  45.6
+                ],
+                [
+                  33.5,
+                  49
+                ],
+                [
+                  34.4,
+                  34.2
+                ],
+                [
+                  34.8,
+                  38.1
+                ],
+                [
+                  35.5,
+                  36.2
+                ],
+                [
+                  36,
+                  39.3
+                ],
+                [
+                  36.5,
+                  32
+                ],
+                [
+                  47.8,
+                  15.7
+                ],
+                [
+                  50,
+                  18.8
+                ],
+                [
+                  56,
+                  12.1
+                ]
+              ],
+              "id": 2744,
+              "item": "Blue Pearl",
+              "name": "Giant Clam",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Darkshore"
+      },
+      "17": {
+        "levels": [
+          [
+            {
+              "coord": [
+                64,
+                51
+              ],
+              "coords": [
+                [
+                  63.5,
+                  50
+                ],
+                [
+                  63.5,
+                  52.9
+                ],
+                [
+                  63.9,
+                  40.2
+                ],
+                [
+                  63.9,
+                  51.7
+                ],
+                [
+                  64,
+                  51
+                ],
+                [
+                  64.6,
+                  55.9
+                ],
+                [
+                  64.8,
+                  40.5
+                ],
+                [
+                  66.4,
+                  41.5
+                ]
+              ],
+              "id": 2744,
+              "item": "Blue Pearl",
+              "name": "Giant Clam",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "The Barrens"
+      },
       "3": {
         "levels": [
           [
@@ -608,6 +728,80 @@
         ],
         "mappable": 1,
         "zone": "Stranglethorn Vale"
+      },
+      "40": {
+        "levels": [
+          [
+            {
+              "coord": [
+                22.8,
+                85.6
+              ],
+              "coords": [
+                [
+                  20.5,
+                  30.7
+                ],
+                [
+                  22.8,
+                  71.3
+                ],
+                [
+                  22.8,
+                  85.6
+                ],
+                [
+                  23.9,
+                  10.9
+                ],
+                [
+                  24.5,
+                  79.6
+                ],
+                [
+                  24.6,
+                  79.4
+                ],
+                [
+                  25.4,
+                  22.6
+                ],
+                [
+                  28.5,
+                  89.3
+                ],
+                [
+                  29.1,
+                  14.6
+                ],
+                [
+                  31.3,
+                  93.4
+                ],
+                [
+                  31.6,
+                  89.3
+                ],
+                [
+                  35.4,
+                  93.7
+                ],
+                [
+                  38.2,
+                  6.3
+                ]
+              ],
+              "id": 2744,
+              "item": "Blue Pearl",
+              "name": "Giant Clam",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Westfall"
       }
     },
     "parent": "fweiuasf",
@@ -620,6 +814,18 @@
       [
         33,
         4
+      ],
+      [
+        17,
+        1
+      ],
+      [
+        40,
+        1
+      ],
+      [
+        148,
+        1
       ]
     ]
   },
@@ -639,9 +845,9 @@
     {
       "npcId": 2817,
       "npcName": "Rigglefuzz",
-      "zoneId": 3,
       "x": 42.4,
       "y": 52.8,
+      "zoneId": 3,
       "zoneName": "Badlands"
     }
   ]

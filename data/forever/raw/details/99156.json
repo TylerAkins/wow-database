@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-25T07:09:50+00:00",
+  "fetchedAt": "2026-10-17T04:13:07+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +12,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 13[/li][li]Requires level 6[/li][li]Type: Elite[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1495/deathguard-linnea]Deathguard Linnea[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1495/deathguard-linnea]Deathguard Linnea[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]6[/color][small] &nbsp;[/small][color=r1]9[/color][small] &nbsp;[/small][color=r2]11[/color][small] &nbsp;[/small][color=r3]16[/color][small] &nbsp;[/small][color=r4]19[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 13[/li][li]Requires level 6[/li][li]Type: Elite[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Races: [race=2], [race=5][/li][li][icon name=quest-start]Start: [url=/forever/npc=1495/deathguard-linnea]Deathguard Linnea[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1495/deathguard-linnea]Deathguard Linnea[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]6[/color][small] &nbsp;[/small][color=r1]9[/color][small] &nbsp;[/small][color=r2]11[/color][small] &nbsp;[/small][color=r3]16[/color][small] &nbsp;[/small][color=r4]19[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -65,77 +65,33 @@
             },
             {
               "coord": [
-                82.8,
-                44.2
+                83.9,
+                44
               ],
               "coords": [
-                [
-                  80,
-                  45.8
-                ],
-                [
-                  80.2,
-                  48.6
-                ],
-                [
-                  80.8,
-                  43.8
-                ],
-                [
-                  81,
-                  45
-                ],
-                [
-                  81.2,
-                  42.6
-                ],
-                [
-                  81.2,
-                  46.2
-                ],
-                [
-                  81.4,
-                  41
-                ],
-                [
-                  82,
-                  43.8
-                ],
-                [
-                  82,
-                  45.6
-                ],
                 [
                   82.2,
                   45.4
                 ],
                 [
                   82.4,
-                  42.2
+                  44.4
                 ],
                 [
-                  82.4,
-                  43
+                  82.6,
+                  45.8
                 ],
                 [
                   82.8,
-                  44.2
+                  44
                 ],
                 [
                   82.8,
                   45.4
                 ],
                 [
-                  83,
-                  46.4
-                ],
-                [
                   83.2,
                   42.6
-                ],
-                [
-                  83.2,
-                  46.8
                 ],
                 [
                   83.4,
@@ -147,35 +103,31 @@
                 ],
                 [
                   83.8,
-                  44.6
+                  46.8
                 ],
                 [
-                  83.8,
-                  46.8
+                  83.9,
+                  44
                 ],
                 [
                   84,
                   42.8
                 ],
                 [
-                  84.4,
-                  43.6
+                  84,
+                  46.4
                 ],
                 [
-                  84.4,
-                  45.6
-                ],
-                [
-                  84.6,
-                  42.2
+                  84.2,
+                  45
                 ],
                 [
                   84.6,
-                  43.4
+                  43
                 ],
                 [
-                  85,
-                  43.6
+                  84.6,
+                  44
                 ]
               ],
               "id": 276020,
@@ -183,7 +135,7 @@
               "name": "Riptear",
               "objective": 0,
               "point": "sourcerequirement",
-              "reactalliance": 0,
+              "reactalliance": -1,
               "reacthorde": -1,
               "type": 1
             }
@@ -211,14 +163,17 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 99156,
-  "races": [],
+  "races": [
+    2,
+    5
+  ],
   "startPins": [
     {
       "npcId": 1495,
       "npcName": "Deathguard Linnea",
-      "zoneId": 85,
       "x": 65.4,
       "y": 60.2,
+      "zoneId": 85,
       "zoneName": "Tirisfal Glades"
     }
   ]

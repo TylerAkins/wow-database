@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-25T07:04:16+00:00",
+  "fetchedAt": "2026-10-17T04:07:29+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +12,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 12[/li][li]Requires level 4[/li][li]Type: Elite[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3567/tallonkai-swiftroot]Tallonkai Swiftroot[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3567/tallonkai-swiftroot]Tallonkai Swiftroot[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]4[/color][small] &nbsp;[/small][color=r1]8[/color][small] &nbsp;[/small][color=r2]10[/color][small] &nbsp;[/small][color=r3]15[/color][small] &nbsp;[/small][color=r4]18[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 12[/li][li]Requires level 4[/li][li]Type: Elite[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Race: [race=4][/li][li][icon name=quest-start]Start: [url=/forever/npc=3567/tallonkai-swiftroot]Tallonkai Swiftroot[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3567/tallonkai-swiftroot]Tallonkai Swiftroot[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]4[/color][small] &nbsp;[/small][color=r1]8[/color][small] &nbsp;[/small][color=r2]10[/color][small] &nbsp;[/small][color=r3]15[/color][small] &nbsp;[/small][color=r4]18[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -65,117 +65,93 @@
             },
             {
               "coord": [
-                51.4,
-                44.4
+                48.4,
+                50.2
               ],
               "coords": [
                 [
-                  47.8,
-                  49
+                  48.3,
+                  37.3
                 ],
                 [
-                  48,
+                  48.4,
                   50.2
                 ],
                 [
-                  48.2,
-                  51
+                  48.7,
+                  48.7
                 ],
                 [
-                  48.6,
-                  49.6
-                ],
-                [
-                  48.8,
-                  37.4
+                  48.7,
+                  50
                 ],
                 [
                   48.8,
-                  38.4
-                ],
-                [
-                  48.8,
-                  48.8
-                ],
-                [
-                  49,
-                  48.2
-                ],
-                [
-                  49,
-                  50.6
+                  37.3
                 ],
                 [
                   49.2,
-                  47.4
+                  47.6
                 ],
                 [
-                  49.4,
+                  49.3,
                   39.4
                 ],
                 [
-                  49.4,
-                  39.6
+                  49.3,
+                  46.9
                 ],
                 [
                   49.4,
-                  45.2
+                  45.9
                 ],
                 [
-                  49.4,
-                  46
-                ],
-                [
-                  49.4,
-                  52.2
-                ],
-                [
-                  49.6,
+                  49.5,
                   39.8
                 ],
                 [
-                  49.6,
-                  44.4
+                  49.5,
+                  48
                 ],
                 [
                   49.6,
-                  45.2
+                  44.6
+                ],
+                [
+                  49.7,
+                  42.9
                 ],
                 [
                   49.8,
-                  40.8
+                  43.6
                 ],
                 [
-                  49.8,
-                  43.4
+                  50.1,
+                  41.4
                 ],
                 [
-                  50,
-                  41.8
+                  50.1,
+                  41.9
                 ],
                 [
-                  50.6,
+                  50.5,
                   42
                 ],
                 [
-                  51,
-                  43
+                  50.9,
+                  42.8
+                ],
+                [
+                  51.3,
+                  44
                 ],
                 [
                   51.4,
-                  44.4
-                ],
-                [
-                  51.4,
-                  44.8
-                ],
-                [
-                  51.4,
-                  45.6
+                  44.5
                 ],
                 [
                   51.6,
-                  44.4
+                  44.5
                 ]
               ],
               "id": 272096,
@@ -188,17 +164,21 @@
             },
             {
               "coord": [
-                51.4,
-                45.6
+                51.3,
+                45.4
               ],
               "coords": [
                 [
-                  51.4,
-                  44.2
+                  51.3,
+                  45.4
                 ],
                 [
                   51.4,
-                  45.4
+                  43.4
+                ],
+                [
+                  51.4,
+                  44.2
                 ],
                 [
                   51.4,
@@ -236,16 +216,20 @@
     "typeId": 98403
   },
   "pinCategory": "normal",
-  "prerequisiteQuestIds": [],
+  "prerequisiteQuestIds": [
+    932
+  ],
   "questId": 98403,
-  "races": [],
+  "races": [
+    4
+  ],
   "startPins": [
     {
       "npcId": 3567,
       "npcName": "Tallonkai Swiftroot",
-      "zoneId": 141,
       "x": 55.4,
       "y": 56.8,
+      "zoneId": 141,
       "zoneName": "Teldrassil"
     }
   ]

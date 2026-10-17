@@ -1,0 +1,103 @@
+{
+  "classes": [],
+  "faction": "Alliance",
+  "fetchedAt": "2026-10-17T12:12:52+00:00",
+  "infoboxFlags": {
+    "daily": false,
+    "dungeon": false,
+    "monthly": false,
+    "pvp": false,
+    "raid": false,
+    "repeatable": false,
+    "sharable": true,
+    "weekly": false
+  },
+  "infoboxMarkup": "[ul][li]Level: 29[/li][li]Requires level 25[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/object=669176/gleaming-crescent-pendant]Gleaming Crescent Pendant[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=3961/maliynn]Maliynn[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=r1]25[/color][small] &nbsp;[/small][color=r2]27[/color][small] &nbsp;[/small][color=r3]32[/color][small] &nbsp;[/small][color=r4]37[/color][/li][li]Added in patch [acronym=\"1.60.1.70170\"]1.60.1[/acronym][/li][/ul]",
+  "mapper": {
+    "missing": 0,
+    "objectives": {
+      "331": {
+        "levels": [
+          [
+            {
+              "coord": [
+                63,
+                71.6
+              ],
+              "coords": [
+                [
+                  63,
+                  71.6
+                ]
+              ],
+              "id": 669176,
+              "name": "Gleaming Crescent Pendant",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                36.6,
+                49.8
+              ],
+              "coords": [
+                [
+                  36.6,
+                  49.8
+                ]
+              ],
+              "id": 3961,
+              "name": "Maliynn",
+              "point": "end",
+              "reactalliance": 1,
+              "reacthorde": 0,
+              "type": 1
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Ashenvale"
+      }
+    },
+    "parent": "fweiuasf",
+    "zoneparent": "lksjdowlha",
+    "zones": [
+      [
+        331,
+        2
+      ]
+    ]
+  },
+  "minLevel": 25,
+  "objectSpawns": [
+    {
+      "entityId": 669176,
+      "entityKind": "object",
+      "entityName": "Gleaming Crescent Pendant",
+      "uiMapId": 1440,
+      "uiMapName": "Ashenvale",
+      "x": 63.0,
+      "y": 71.6,
+      "zoneId": 331
+    }
+  ],
+  "pageInfo": {
+    "name": "Gleaming Crescent Necklace",
+    "type": 5,
+    "typeId": 98027
+  },
+  "pinCategory": "normal",
+  "prerequisiteQuestIds": [],
+  "questId": 98027,
+  "races": [],
+  "startPins": [
+    {
+      "npcId": 669176,
+      "npcName": "Gleaming Crescent Pendant",
+      "x": 63.0,
+      "y": 71.6,
+      "zoneId": 331,
+      "zoneName": "Ashenvale"
+    }
+  ]
+}

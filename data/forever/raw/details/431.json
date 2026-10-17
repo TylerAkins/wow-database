@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-24T23:16:24+00:00",
+  "fetchedAt": "2026-10-16T20:23:24+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -16,6 +16,174 @@
   "mapper": {
     "missing": 0,
     "objectives": {
+      "1": {
+        "levels": [
+          [
+            {
+              "coord": [
+                45.3,
+                52
+              ],
+              "coords": [
+                [
+                  21.8,
+                  50.3
+                ],
+                [
+                  27.2,
+                  36.5
+                ],
+                [
+                  28.9,
+                  53.3
+                ],
+                [
+                  38,
+                  46.5
+                ],
+                [
+                  39.1,
+                  48.6
+                ],
+                [
+                  39.4,
+                  46.2
+                ],
+                [
+                  41.3,
+                  49.6
+                ],
+                [
+                  42.1,
+                  47.4
+                ],
+                [
+                  42.4,
+                  56.9
+                ],
+                [
+                  42.7,
+                  51.9
+                ],
+                [
+                  43.3,
+                  49.7
+                ],
+                [
+                  44.5,
+                  62.4
+                ],
+                [
+                  45.3,
+                  52
+                ],
+                [
+                  46.5,
+                  53.6
+                ],
+                [
+                  47.2,
+                  52.5
+                ],
+                [
+                  47.6,
+                  52.3
+                ],
+                [
+                  72.2,
+                  49.5
+                ]
+              ],
+              "id": 1586,
+              "name": "Crate of Candles",
+              "point": "start",
+              "type": 2
+            },
+            {
+              "coord": [
+                45.3,
+                52
+              ],
+              "coords": [
+                [
+                  21.8,
+                  50.3
+                ],
+                [
+                  27.2,
+                  36.5
+                ],
+                [
+                  28.9,
+                  53.3
+                ],
+                [
+                  38,
+                  46.5
+                ],
+                [
+                  39.1,
+                  48.6
+                ],
+                [
+                  39.4,
+                  46.2
+                ],
+                [
+                  41.3,
+                  49.6
+                ],
+                [
+                  42.1,
+                  47.4
+                ],
+                [
+                  42.4,
+                  56.9
+                ],
+                [
+                  42.7,
+                  51.9
+                ],
+                [
+                  43.3,
+                  49.7
+                ],
+                [
+                  44.5,
+                  62.4
+                ],
+                [
+                  45.3,
+                  52
+                ],
+                [
+                  46.5,
+                  53.6
+                ],
+                [
+                  47.2,
+                  52.5
+                ],
+                [
+                  47.6,
+                  52.3
+                ],
+                [
+                  72.2,
+                  49.5
+                ]
+              ],
+              "id": 1586,
+              "name": "Crate of Candles",
+              "point": "end",
+              "type": 2
+            }
+          ]
+        ],
+        "mappable": 1,
+        "zone": "Dun Morogh"
+      },
       "85": {
         "levels": [
           [
@@ -63,6 +231,10 @@
       [
         85,
         1
+      ],
+      [
+        1,
+        1
       ]
     ]
   },
@@ -94,6 +266,26 @@
       "entityName": "Crate of Candles",
       "uiMapId": 1426,
       "uiMapName": "Dun Morogh",
+      "x": 28.7,
+      "y": 52.8,
+      "zoneId": 1
+    },
+    {
+      "entityId": 1586,
+      "entityKind": "object",
+      "entityName": "Crate of Candles",
+      "uiMapId": 1426,
+      "uiMapName": "Dun Morogh",
+      "x": 38.0,
+      "y": 46.5,
+      "zoneId": 1
+    },
+    {
+      "entityId": 1586,
+      "entityKind": "object",
+      "entityName": "Crate of Candles",
+      "uiMapId": 1426,
+      "uiMapName": "Dun Morogh",
       "x": 39.1,
       "y": 48.6,
       "zoneId": 1
@@ -114,8 +306,58 @@
       "entityName": "Crate of Candles",
       "uiMapId": 1426,
       "uiMapName": "Dun Morogh",
+      "x": 41.3,
+      "y": 49.6,
+      "zoneId": 1
+    },
+    {
+      "entityId": 1586,
+      "entityKind": "object",
+      "entityName": "Crate of Candles",
+      "uiMapId": 1426,
+      "uiMapName": "Dun Morogh",
+      "x": 42.1,
+      "y": 47.4,
+      "zoneId": 1
+    },
+    {
+      "entityId": 1586,
+      "entityKind": "object",
+      "entityName": "Crate of Candles",
+      "uiMapId": 1426,
+      "uiMapName": "Dun Morogh",
       "x": 42.4,
       "y": 56.9,
+      "zoneId": 1
+    },
+    {
+      "entityId": 1586,
+      "entityKind": "object",
+      "entityName": "Crate of Candles",
+      "uiMapId": 1426,
+      "uiMapName": "Dun Morogh",
+      "x": 42.7,
+      "y": 51.9,
+      "zoneId": 1
+    },
+    {
+      "entityId": 1586,
+      "entityKind": "object",
+      "entityName": "Crate of Candles",
+      "uiMapId": 1426,
+      "uiMapName": "Dun Morogh",
+      "x": 43.3,
+      "y": 49.7,
+      "zoneId": 1
+    },
+    {
+      "entityId": 1586,
+      "entityKind": "object",
+      "entityName": "Crate of Candles",
+      "uiMapId": 1426,
+      "uiMapName": "Dun Morogh",
+      "x": 44.5,
+      "y": 62.4,
       "zoneId": 1
     },
     {
@@ -134,8 +376,38 @@
       "entityName": "Crate of Candles",
       "uiMapId": 1426,
       "uiMapName": "Dun Morogh",
+      "x": 46.5,
+      "y": 53.6,
+      "zoneId": 1
+    },
+    {
+      "entityId": 1586,
+      "entityKind": "object",
+      "entityName": "Crate of Candles",
+      "uiMapId": 1426,
+      "uiMapName": "Dun Morogh",
       "x": 47.2,
       "y": 52.5,
+      "zoneId": 1
+    },
+    {
+      "entityId": 1586,
+      "entityKind": "object",
+      "entityName": "Crate of Candles",
+      "uiMapId": 1426,
+      "uiMapName": "Dun Morogh",
+      "x": 47.6,
+      "y": 52.3,
+      "zoneId": 1
+    },
+    {
+      "entityId": 1586,
+      "entityKind": "object",
+      "entityName": "Crate of Candles",
+      "uiMapId": 1426,
+      "uiMapName": "Dun Morogh",
+      "x": 72.2,
+      "y": 49.5,
       "zoneId": 1
     },
     {
@@ -159,6 +431,14 @@
   "questId": 431,
   "races": [],
   "startPins": [
+    {
+      "npcId": 1586,
+      "npcName": "Crate of Candles",
+      "x": 45.3,
+      "y": 52.0,
+      "zoneId": 1,
+      "zoneName": "Dun Morogh"
+    },
     {
       "npcId": 1586,
       "npcName": "Crate of Candles",

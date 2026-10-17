@@ -1,7 +1,7 @@
 {
-  "fetchedAt": "2026-09-24T23:19:11+00:00",
+  "fetchedAt": "2026-10-17T11:24:29+00:00",
   "kind": "class",
-  "questCount": 76,
+  "questCount": 66,
   "quests": [
     {
       "category": -162,
@@ -26,7 +26,7 @@
       "level": 23,
       "money": 0,
       "name": "The Horn of Xelthos",
-      "popularity": 1694,
+      "popularity": 1258,
       "reprewards": [],
       "reqclass": 8,
       "reqlevel": 1,
@@ -34,6 +34,120 @@
       "titlereward": 0,
       "type": 0,
       "xp": 1850
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "required_level_changed",
+          "rewards_changed"
+        ],
+        "lines": [
+          "Requires level 25 instead of 30",
+          "Experience 3450 instead of 2750"
+        ],
+        "notShown": [
+          "Experience 3450 instead of 2750"
+        ],
+        "status": "updated"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 78676,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 35,
+      "money": 0,
+      "name": "The Eye of Bhossca",
+      "popularity": 1240,
+      "reprewards": [],
+      "reqclass": 8,
+      "reqlevel": 25,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 3450
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [
+          "level_changed",
+          "required_level_changed",
+          "rewards_changed"
+        ],
+        "lines": [
+          "Level 35 instead of 23",
+          "Requires level 25 instead of 1",
+          "Experience 3450 instead of none",
+          "Money 75s instead of 15s",
+          "Rewards: adds Ruby-Adorned Blade"
+        ],
+        "notShown": [
+          "Experience 3450 instead of none",
+          "Money 75s instead of 15s",
+          "Rewards: adds Ruby-Adorned Blade"
+        ],
+        "status": "updated"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 78699,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          277246,
+          1
+        ],
+        [
+          210979,
+          1
+        ]
+      ],
+      "level": 35,
+      "money": 7500,
+      "name": "The Eye of Bhossca",
+      "popularity": 1192,
+      "reprewards": [],
+      "reqclass": 8,
+      "reqlevel": 25,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 3450
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 1998,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 16,
+      "money": 0,
+      "name": "Fenwick Thatros",
+      "popularity": 920,
+      "reprewards": [],
+      "reqclass": 8,
+      "reqlevel": 16,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 880
     },
     {
       "category": -162,
@@ -62,80 +176,25 @@
       "itemchoices": [],
       "itemrewards": [
         [
+          277210,
+          1
+        ],
+        [
           203994,
           1
         ]
       ],
       "level": 23,
-      "money": 1500,
+      "money": 3000,
       "name": "The Horn of Xelthos",
-      "popularity": 1369,
+      "popularity": 777,
       "reprewards": [],
       "reqclass": 8,
       "reqlevel": 1,
       "side": 3,
       "titlereward": 0,
       "type": 0,
-      "xp": 0
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1886,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 13,
-      "money": 0,
-      "name": "The Deathstalkers",
-      "popularity": 463,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 10,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 680
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 2381,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          7676,
-          10
-        ]
-      ],
-      "level": 18,
-      "money": 0,
-      "name": "Plundering the Plunderers",
-      "popularity": 458,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 16,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1350
+      "xp": 2300
     },
     {
       "category": -162,
@@ -167,7 +226,7 @@
       "level": 24,
       "money": 0,
       "name": "Klaven's Tower",
-      "popularity": 382,
+      "popularity": 471,
       "reprewards": [],
       "reqclass": 8,
       "reqlevel": 20,
@@ -199,13 +258,259 @@
       "level": 24,
       "money": 0,
       "name": "Mission: Possible But Not Probable",
-      "popularity": 376,
+      "popularity": 448,
       "reprewards": [],
       "reqclass": 8,
       "reqlevel": 20,
       "side": 2,
       "titlereward": 0,
       "type": 1,
+      "xp": 1950
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 2381,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          7676,
+          10
+        ]
+      ],
+      "level": 18,
+      "money": 0,
+      "name": "Plundering the Plunderers",
+      "popularity": 351,
+      "reprewards": [],
+      "reqclass": 8,
+      "reqlevel": 16,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1350
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 6681,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 24,
+      "money": 0,
+      "name": "The Manor, Ravenholdt",
+      "popularity": 345,
+      "reprewards": [
+        [
+          349,
+          100
+        ]
+      ],
+      "reqclass": 8,
+      "reqlevel": 24,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1950
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 1886,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 13,
+      "money": 0,
+      "name": "The Deathstalkers",
+      "popularity": 323,
+      "reprewards": [],
+      "reqclass": 8,
+      "reqlevel": 10,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 680
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 96781,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 36,
+      "money": 4000,
+      "name": "What's the Big Idea?",
+      "popularity": 298,
+      "reprewards": [
+        [
+          349,
+          100
+        ]
+      ],
+      "reqclass": 8,
+      "reqlevel": 24,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2800
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 2609,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          8432,
+          1
+        ]
+      ],
+      "level": 20,
+      "money": 0,
+      "name": "The Touch of Zanzil",
+      "popularity": 271,
+      "reprewards": [],
+      "reqclass": 8,
+      "reqlevel": 20,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1150
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 96783,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 34,
+      "money": 3500,
+      "name": "A Way In",
+      "popularity": 262,
+      "reprewards": [],
+      "reqclass": 8,
+      "reqlevel": 24,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2700
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 96782,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 36,
+      "money": 4000,
+      "name": "Covert Extraction",
+      "popularity": 246,
+      "reprewards": [
+        [
+          349,
+          100
+        ]
+      ],
+      "reqclass": 8,
+      "reqlevel": 24,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2800
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 96779,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 24,
+      "money": 1700,
+      "name": "Syndicate Sabotage",
+      "popularity": 238,
+      "reprewards": [
+        [
+          349,
+          100
+        ]
+      ],
+      "reqclass": 8,
+      "reqlevel": 24,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
       "xp": 1950
     },
     {
@@ -231,7 +536,7 @@
       "level": 20,
       "money": 0,
       "name": "Deep Cover",
-      "popularity": 297,
+      "popularity": 224,
       "reprewards": [],
       "reqclass": 8,
       "reqlevel": 20,
@@ -239,178 +544,6 @@
       "titlereward": 0,
       "type": 0,
       "xp": 1150
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1963,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 13,
-      "money": 0,
-      "name": "The Shattered Hand",
-      "popularity": 250,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 10,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 680
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1978,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          7298,
-          1
-        ]
-      ],
-      "level": 13,
-      "money": 0,
-      "name": "The Deathstalkers",
-      "popularity": 236,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 10,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 910
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1999,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 20,
-      "money": 0,
-      "name": "Tools of the Trade",
-      "popularity": 235,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 16,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1550
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1858,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          7298,
-          1
-        ]
-      ],
-      "level": 13,
-      "money": 0,
-      "name": "The Shattered Hand",
-      "popularity": 221,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 10,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 455
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1899,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 13,
-      "money": 0,
-      "name": "The Deathstalkers",
-      "popularity": 173,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 10,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 230
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1898,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 13,
-      "money": 0,
-      "name": "The Deathstalkers",
-      "popularity": 161,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 10,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 230
     },
     {
       "category": -162,
@@ -435,7 +568,7 @@
       "level": 20,
       "money": 0,
       "name": "Alther's Mill",
-      "popularity": 161,
+      "popularity": 217,
       "reprewards": [],
       "reqclass": 8,
       "reqlevel": 16,
@@ -456,25 +589,84 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 2609,
+      "id": 1978,
       "itemchoices": [],
       "itemrewards": [
         [
-          8432,
+          7298,
           1
         ]
       ],
-      "level": 20,
+      "level": 13,
       "money": 0,
-      "name": "The Touch of Zanzil",
-      "popularity": 151,
+      "name": "The Deathstalkers",
+      "popularity": 200,
       "reprewards": [],
       "reqclass": 8,
-      "reqlevel": 20,
-      "side": 1,
+      "reqlevel": 10,
+      "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 1150
+      "xp": 910
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 1858,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          7298,
+          1
+        ]
+      ],
+      "level": 13,
+      "money": 0,
+      "name": "The Shattered Hand",
+      "popularity": 183,
+      "reprewards": [],
+      "reqclass": 8,
+      "reqlevel": 10,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 455
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 96784,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 34,
+      "money": 0,
+      "name": "Master of Disguise",
+      "popularity": 181,
+      "reprewards": [],
+      "reqclass": 8,
+      "reqlevel": 24,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2700
     },
     {
       "category": -162,
@@ -506,7 +698,7 @@
       "level": 20,
       "money": 0,
       "name": "Hinott's Assistance",
-      "popularity": 150,
+      "popularity": 180,
       "reprewards": [],
       "reqclass": 8,
       "reqlevel": 20,
@@ -527,13 +719,40 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
+      "id": 1999,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 20,
+      "money": 0,
+      "name": "Tools of the Trade",
+      "popularity": 174,
+      "reprewards": [],
+      "reqclass": 8,
+      "reqlevel": 16,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 1550
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
       "id": 2460,
       "itemchoices": [],
       "itemrewards": [],
       "level": 20,
       "money": 0,
       "name": "The Shattered Salute",
-      "popularity": 136,
+      "popularity": 173,
       "reprewards": [],
       "reqclass": 8,
       "reqlevel": 20,
@@ -554,242 +773,25 @@
       },
       "firstseenpatch": 16001,
       "icon": "quest-start",
-      "id": 92483,
+      "id": 96786,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 2,
-      "money": 0,
-      "name": "At Home in the Shadows",
-      "popularity": 122,
+      "level": 34,
+      "money": 7000,
+      "name": "The Syndicate Sting",
+      "popularity": 165,
       "reprewards": [
         [
-          2778,
-          50
-        ],
-        [
-          2779,
-          50
+          349,
+          300
         ]
       ],
       "reqclass": 8,
-      "reqlevel": 2,
-      "side": 0,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 85
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start",
-      "id": 80454,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 50,
-      "money": 0,
-      "name": "One Last Drop",
-      "popularity": 120,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 45,
+      "reqlevel": 24,
       "side": 3,
       "titlereward": 0,
       "type": 0,
-      "xp": 4700
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 2479,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 26,
-      "money": 0,
-      "name": "Hinott's Assistance",
-      "popularity": 120,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 20,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1050
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 16001,
-      "icon": "quest-start",
-      "id": 78270,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          210186,
-          1
-        ]
-      ],
-      "level": 23,
-      "money": 0,
-      "name": "Goblin Lockpicks",
-      "popularity": 119,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 1,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 0
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 2239,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          7298,
-          1
-        ]
-      ],
-      "level": 10,
-      "money": 0,
-      "name": "Onin's Report",
-      "popularity": 117,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 10,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 840
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start",
-      "id": 80455,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          217736,
-          1
-        ],
-        [
-          219343,
-          1
-        ]
-      ],
-      "level": 50,
-      "money": 7500,
-      "name": "Biding Our Time",
-      "popularity": 112,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 45,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 4700
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1998,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 16,
-      "money": 0,
-      "name": "Fenwick Thatros",
-      "popularity": 108,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 16,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 880
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 2206,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          7298,
-          1
-        ]
-      ],
-      "level": 10,
-      "money": 0,
-      "name": "Snatch and Grab",
-      "popularity": 105,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 10,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 840
+      "xp": 3350
     },
     {
       "category": -162,
@@ -809,7 +811,7 @@
       "level": 20,
       "money": 0,
       "name": "The Touch of Zanzil",
-      "popularity": 99,
+      "popularity": 162,
       "reprewards": [],
       "reqclass": 8,
       "reqlevel": 20,
@@ -817,60 +819,6 @@
       "titlereward": 0,
       "type": 0,
       "xp": 0
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 2378,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 16,
-      "money": 0,
-      "name": "Find the Shattered Hand",
-      "popularity": 99,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 16,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 115
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1885,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 10,
-      "money": 0,
-      "name": "Mennet Carkad",
-      "popularity": 98,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 10,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 210
     },
     {
       "category": -162,
@@ -895,7 +843,7 @@
       "level": 10,
       "money": 0,
       "name": "Destiny Calls",
-      "popularity": 96,
+      "popularity": 158,
       "reprewards": [],
       "reqclass": 8,
       "reqlevel": 10,
@@ -916,20 +864,52 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 2241,
+      "id": 1963,
       "itemchoices": [],
       "itemrewards": [],
+      "level": 13,
+      "money": 0,
+      "name": "The Shattered Hand",
+      "popularity": 158,
+      "reprewards": [],
+      "reqclass": 8,
+      "reqlevel": 10,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 680
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 2206,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          7298,
+          1
+        ]
+      ],
       "level": 10,
       "money": 0,
-      "name": "The Apple Falls",
-      "popularity": 91,
+      "name": "Snatch and Grab",
+      "popularity": 153,
       "reprewards": [],
       "reqclass": 8,
       "reqlevel": 10,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 420
+      "xp": 840
     },
     {
       "category": -162,
@@ -943,74 +923,20 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 2382,
+      "id": 1899,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 16,
+      "level": 13,
       "money": 0,
-      "name": "Wrenix of Ratchet",
-      "popularity": 86,
+      "name": "The Deathstalkers",
+      "popularity": 152,
       "reprewards": [],
       "reqclass": 8,
-      "reqlevel": 16,
+      "reqlevel": 10,
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 115
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start",
-      "id": 78676,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 35,
-      "money": 0,
-      "name": "The Eye of Bhossca",
-      "popularity": 85,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 30,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 2750
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 2281,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 16,
-      "money": 0,
-      "name": "Redridge Rendezvous",
-      "popularity": 84,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 16,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 115
+      "xp": 230
     },
     {
       "category": -162,
@@ -1030,7 +956,7 @@
       "level": 20,
       "money": 0,
       "name": "Mathias and the Defias",
-      "popularity": 83,
+      "popularity": 151,
       "reprewards": [],
       "reqclass": 8,
       "reqlevel": 20,
@@ -1051,98 +977,22 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 2608,
+      "id": 6701,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 20,
+      "level": 60,
       "money": 0,
-      "name": "The Touch of Zanzil",
-      "popularity": 82,
-      "reprewards": [],
+      "name": "Syndicate Emblems",
+      "popularity": 150,
+      "reprewards": [
+        [
+          349,
+          100
+        ]
+      ],
       "reqclass": 8,
-      "reqlevel": 20,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 155
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start",
-      "id": 80526,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 50,
-      "money": 0,
-      "name": "Fool Me Twice",
-      "popularity": 78,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 45,
+      "reqlevel": 24,
       "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 470
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 1859,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 10,
-      "money": 0,
-      "name": "Therzok",
-      "popularity": 71,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 10,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 210
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 2379,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 16,
-      "money": 0,
-      "name": "Zando'zan",
-      "popularity": 66,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 16,
-      "side": 2,
       "titlereward": 0,
       "type": 0,
       "xp": 0
@@ -1159,79 +1009,20 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 2238,
+      "id": 1898,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 10,
+      "level": 13,
       "money": 0,
-      "name": "Simple Subterfugin'",
-      "popularity": 66,
+      "name": "The Deathstalkers",
+      "popularity": 147,
       "reprewards": [],
       "reqclass": 8,
       "reqlevel": 10,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 840
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 6681,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 24,
-      "money": 0,
-      "name": "The Manor, Ravenholdt",
-      "popularity": 66,
-      "reprewards": [
-        [
-          349,
-          100
-        ]
-      ],
-      "reqclass": 8,
-      "reqlevel": 24,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 1950
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 2380,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 16,
-      "money": 0,
-      "name": "To Orgrimmar!",
-      "popularity": 63,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 16,
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 115
+      "xp": 230
     },
     {
       "category": -162,
@@ -1245,13 +1036,13 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 2218,
+      "id": 2241,
       "itemchoices": [],
       "itemrewards": [],
       "level": 10,
-      "money": 175,
-      "name": "Road to Salvation",
-      "popularity": 59,
+      "money": 0,
+      "name": "The Apple Falls",
+      "popularity": 142,
       "reprewards": [],
       "reqclass": 8,
       "reqlevel": 10,
@@ -1268,194 +1059,24 @@
       "envChange": {
         "labels": [],
         "lines": [],
-        "status": "unconfirmed"
+        "status": "unchanged"
       },
-      "firstseenpatch": 20000,
+      "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 80453,
+      "id": 2479,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 50,
+      "level": 26,
       "money": 0,
-      "name": "Best Laid Plans",
-      "popularity": 59,
+      "name": "Hinott's Assistance",
+      "popularity": 140,
       "reprewards": [],
       "reqclass": 8,
-      "reqlevel": 45,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 470
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start",
-      "id": 77573,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          2125,
-          1
-        ]
-      ],
-      "level": 2,
-      "money": 0,
-      "name": "Second-Story Work",
-      "popularity": 57,
-      "reprewards": [
-        [
-          69,
-          50
-        ]
-      ],
-      "reqclass": 8,
-      "reqlevel": 2,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 85
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start",
-      "id": 78699,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          210979,
-          1
-        ]
-      ],
-      "level": 23,
-      "money": 1500,
-      "name": "The Eye of Bhossca",
-      "popularity": 57,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 1,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 0
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start",
-      "id": 80411,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 50,
-      "money": 7500,
-      "name": "The Talisman of Kazdor",
-      "popularity": 55,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 45,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 4700
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start",
-      "id": 77659,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          2125,
-          1
-        ]
-      ],
-      "level": 2,
-      "money": 0,
-      "name": "Thrice Stolen",
-      "popularity": 54,
-      "reprewards": [
-        [
-          54,
-          50
-        ]
-      ],
-      "reqclass": 8,
-      "reqlevel": 2,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 85
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start",
-      "id": 77669,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          2125,
-          1
-        ]
-      ],
-      "level": 2,
-      "money": 0,
-      "name": "The Scarlet Rune",
-      "popularity": 53,
-      "reprewards": [
-        [
-          68,
-          50
-        ]
-      ],
-      "reqclass": 8,
-      "reqlevel": 2,
+      "reqlevel": 20,
       "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 85
+      "xp": 1050
     },
     {
       "category": -162,
@@ -1469,13 +1090,13 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 2300,
+      "id": 2281,
       "itemchoices": [],
       "itemrewards": [],
       "level": 16,
       "money": 0,
-      "name": "SI:7",
-      "popularity": 53,
+      "name": "Redridge Rendezvous",
+      "popularity": 136,
       "reprewards": [],
       "reqclass": 8,
       "reqlevel": 16,
@@ -1492,90 +1113,21 @@
       "envChange": {
         "labels": [],
         "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start",
-      "id": 77583,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          2125,
-          1
-        ]
-      ],
-      "level": 2,
-      "money": 0,
-      "name": "Atop the Cliffs",
-      "popularity": 51,
-      "reprewards": [
-        [
-          76,
-          50
-        ]
-      ],
-      "reqclass": 8,
-      "reqlevel": 2,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 85
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
         "status": "unchanged"
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 3118,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 1,
-      "money": 0,
-      "name": "Encrypted Sigil",
-      "popularity": 50,
-      "reprewards": [
-        [
-          69,
-          50
-        ]
-      ],
-      "reqclass": 8,
-      "reqlevel": 1,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 40
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 2205,
+      "id": 1885,
       "itemchoices": [],
       "itemrewards": [],
       "level": 10,
-      "money": 85,
-      "name": "Seek out SI: 7",
-      "popularity": 50,
+      "money": 0,
+      "name": "Mennet Carkad",
+      "popularity": 134,
       "reprewards": [],
       "reqclass": 8,
       "reqlevel": 10,
-      "side": 1,
+      "side": 2,
       "titlereward": 0,
       "type": 0,
       "xp": 210
@@ -1590,27 +1142,27 @@
         "lines": [],
         "status": "unchanged"
       },
-      "firstseenpatch": 11303,
+      "firstseenpatch": 16001,
       "icon": "quest-start",
-      "id": 8234,
+      "id": 78270,
       "itemchoices": [],
-      "itemrewards": [],
-      "level": 52,
-      "money": 6000,
-      "name": "Sealed Azure Bag",
-      "popularity": 50,
-      "reprewards": [
+      "itemrewards": [
         [
-          349,
-          100
+          210186,
+          1
         ]
       ],
+      "level": 23,
+      "money": 0,
+      "name": "Goblin Lockpicks",
+      "popularity": 133,
+      "reprewards": [],
       "reqclass": 8,
-      "reqlevel": 50,
+      "reqlevel": 1,
       "side": 3,
       "titlereward": 0,
       "type": 0,
-      "xp": 5100
+      "xp": 0
     },
     {
       "category": -162,
@@ -1624,17 +1176,17 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 2298,
+      "id": 2382,
       "itemchoices": [],
       "itemrewards": [],
       "level": 16,
       "money": 0,
-      "name": "Kingly Shakedown",
-      "popularity": 48,
+      "name": "Wrenix of Ratchet",
+      "popularity": 130,
       "reprewards": [],
       "reqclass": 8,
       "reqlevel": 16,
-      "side": 1,
+      "side": 2,
       "titlereward": 0,
       "type": 0,
       "xp": 115
@@ -1651,25 +1203,20 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 3102,
+      "id": 2608,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 1,
+      "level": 20,
       "money": 0,
-      "name": "Encrypted Letter",
-      "popularity": 46,
-      "reprewards": [
-        [
-          72,
-          50
-        ]
-      ],
+      "name": "The Touch of Zanzil",
+      "popularity": 128,
+      "reprewards": [],
       "reqclass": 8,
-      "reqlevel": 1,
+      "reqlevel": 20,
       "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 40
+      "xp": 155
     },
     {
       "category": -162,
@@ -1679,31 +1226,84 @@
       "envChange": {
         "labels": [],
         "lines": [],
-        "status": "unconfirmed"
+        "status": "unchanged"
       },
-      "firstseenpatch": 20000,
+      "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 77658,
+      "id": 2378,
       "itemchoices": [],
-      "itemrewards": [
-        [
-          2125,
-          1
-        ]
-      ],
+      "itemrewards": [],
+      "level": 16,
+      "money": 0,
+      "name": "Find the Shattered Hand",
+      "popularity": 124,
+      "reprewards": [],
+      "reqclass": 8,
+      "reqlevel": 16,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 115
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 96785,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 34,
+      "money": 3500,
+      "name": "Ain't No Telling",
+      "popularity": 123,
+      "reprewards": [],
+      "reqclass": 8,
+      "reqlevel": 24,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 2700
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "new"
+      },
+      "firstseenpatch": 16001,
+      "icon": "quest-start",
+      "id": 92483,
+      "itemchoices": [],
+      "itemrewards": [],
       "level": 2,
       "money": 0,
-      "name": "Thrice Stolen",
-      "popularity": 45,
+      "name": "At Home in the Shadows",
+      "popularity": 121,
       "reprewards": [
         [
-          47,
+          2778,
+          50
+        ],
+        [
+          2779,
           50
         ]
       ],
       "reqclass": 8,
       "reqlevel": 2,
-      "side": 1,
+      "side": 3,
       "titlereward": 0,
       "type": 0,
       "xp": 85
@@ -1720,61 +1320,25 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 2299,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 16,
-      "money": 0,
-      "name": "To Hulfdan!",
-      "popularity": 45,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 16,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 115
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
-      "id": 8249,
+      "id": 2239,
       "itemchoices": [],
       "itemrewards": [
         [
-          20086,
-          200
+          7298,
+          1
         ]
       ],
-      "level": 60,
+      "level": 10,
       "money": 0,
-      "name": "Junkboxes Needed",
-      "popularity": 45,
-      "reprewards": [
-        [
-          349,
-          50
-        ],
-        [
-          70,
-          -250
-        ]
-      ],
+      "name": "Onin's Report",
+      "popularity": 121,
+      "reprewards": [],
       "reqclass": 8,
-      "reqlevel": 50,
-      "side": 3,
+      "reqlevel": 10,
+      "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 0
+      "xp": 840
     },
     {
       "category": -162,
@@ -1814,7 +1378,7 @@
       "level": 52,
       "money": 7500,
       "name": "The Azure Key",
-      "popularity": 45,
+      "popularity": 112,
       "reprewards": [
         [
           349,
@@ -1838,59 +1402,22 @@
         "lines": [],
         "status": "unchanged"
       },
-      "firstseenpatch": 11303,
+      "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 8233,
+      "id": 2379,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 52,
+      "level": 16,
       "money": 0,
-      "name": "A Simple Request",
-      "popularity": 45,
-      "reprewards": [
-        [
-          349,
-          10
-        ]
-      ],
-      "reqclass": 8,
-      "reqlevel": 50,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 510
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start",
-      "id": 84881,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          224122,
-          1
-        ]
-      ],
-      "level": 60,
-      "money": 0,
-      "name": "Into the Hold of Shadows",
-      "popularity": 44,
+      "name": "Zando'zan",
+      "popularity": 104,
       "reprewards": [],
       "reqclass": 8,
-      "reqlevel": 55,
-      "side": 3,
+      "reqlevel": 16,
+      "side": 2,
       "titlereward": 0,
       "type": 0,
-      "xp": 9950
+      "xp": 0
     },
     {
       "category": -162,
@@ -1904,16 +1431,219 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 3113,
+      "id": 1859,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 10,
+      "money": 0,
+      "name": "Therzok",
+      "popularity": 102,
+      "reprewards": [],
+      "reqclass": 8,
+      "reqlevel": 10,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 210
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 2218,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 10,
+      "money": 175,
+      "name": "Road to Salvation",
+      "popularity": 100,
+      "reprewards": [],
+      "reqclass": 8,
+      "reqlevel": 10,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 420
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 2205,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 10,
+      "money": 85,
+      "name": "Seek out SI: 7",
+      "popularity": 96,
+      "reprewards": [],
+      "reqclass": 8,
+      "reqlevel": 10,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 210
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 2238,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 10,
+      "money": 0,
+      "name": "Simple Subterfugin'",
+      "popularity": 96,
+      "reprewards": [],
+      "reqclass": 8,
+      "reqlevel": 10,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 840
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 2298,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 16,
+      "money": 0,
+      "name": "Kingly Shakedown",
+      "popularity": 94,
+      "reprewards": [],
+      "reqclass": 8,
+      "reqlevel": 16,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 115
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 2380,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 16,
+      "money": 0,
+      "name": "To Orgrimmar!",
+      "popularity": 91,
+      "reprewards": [],
+      "reqclass": 8,
+      "reqlevel": 16,
+      "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 115
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 8249,
+      "itemchoices": [],
+      "itemrewards": [
+        [
+          20086,
+          200
+        ]
+      ],
+      "level": 60,
+      "money": 0,
+      "name": "Junkboxes Needed",
+      "popularity": 88,
+      "reprewards": [
+        [
+          349,
+          50
+        ],
+        [
+          70,
+          -250
+        ]
+      ],
+      "reqclass": 8,
+      "reqlevel": 50,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 0
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 3109,
       "itemchoices": [],
       "itemrewards": [],
       "level": 1,
       "money": 0,
-      "name": "Encrypted Memorandum",
-      "popularity": 44,
+      "name": "Encrypted Rune",
+      "popularity": 85,
       "reprewards": [
         [
-          54,
+          47,
           50
         ]
       ],
@@ -1923,88 +1653,6 @@
       "titlereward": 0,
       "type": 0,
       "xp": 40
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start",
-      "id": 77592,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          2125,
-          1
-        ]
-      ],
-      "level": 2,
-      "money": 0,
-      "name": "Atop the Cliffs",
-      "popularity": 43,
-      "reprewards": [
-        [
-          530,
-          50
-        ]
-      ],
-      "reqclass": 8,
-      "reqlevel": 2,
-      "side": 2,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 85
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start",
-      "id": 82110,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          19984,
-          1
-        ],
-        [
-          20255,
-          1
-        ],
-        [
-          19982,
-          1
-        ]
-      ],
-      "level": 50,
-      "money": 7500,
-      "name": "The Azure Key",
-      "popularity": 43,
-      "reprewards": [
-        [
-          349,
-          150
-        ]
-      ],
-      "reqclass": 8,
-      "reqlevel": 50,
-      "side": 3,
-      "titlereward": 0,
-      "type": 62,
-      "xp": 5900
     },
     {
       "category": -162,
@@ -2024,7 +1672,7 @@
       "level": 1,
       "money": 0,
       "name": "Encrypted Scroll",
-      "popularity": 41,
+      "popularity": 85,
       "reprewards": [
         [
           68,
@@ -2046,75 +1694,6 @@
       "envChange": {
         "labels": [],
         "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start",
-      "id": 77618,
-      "itemchoices": [],
-      "itemrewards": [
-        [
-          2125,
-          1
-        ]
-      ],
-      "level": 2,
-      "money": 0,
-      "name": "Thrice Stolen",
-      "popularity": 40,
-      "reprewards": [
-        [
-          72,
-          50
-        ]
-      ],
-      "reqclass": 8,
-      "reqlevel": 2,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 85
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11303,
-      "icon": "quest-start",
-      "id": 8235,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 52,
-      "money": 7500,
-      "name": "Encoded Fragments",
-      "popularity": 40,
-      "reprewards": [
-        [
-          349,
-          100
-        ]
-      ],
-      "reqclass": 8,
-      "reqlevel": 50,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 5100
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
         "status": "unchanged"
       },
       "firstseenpatch": 11302,
@@ -2125,7 +1704,7 @@
       "level": 16,
       "money": 0,
       "name": "Erion's Behest",
-      "popularity": 38,
+      "popularity": 83,
       "reprewards": [],
       "reqclass": 8,
       "reqlevel": 16,
@@ -2146,67 +1725,13 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 2259,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 16,
-      "money": 0,
-      "name": "Erion Shadewhisper",
-      "popularity": 37,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 16,
-      "side": 1,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 115
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start",
-      "id": 84870,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 7000,
-      "name": "The Dark Hoard",
-      "popularity": 37,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 55,
-      "side": 0,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 6600
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unchanged"
-      },
-      "firstseenpatch": 11302,
-      "icon": "quest-start",
       "id": 3088,
       "itemchoices": [],
       "itemrewards": [],
       "level": 1,
       "money": 0,
       "name": "Encrypted Parchment",
-      "popularity": 37,
+      "popularity": 80,
       "reprewards": [
         [
           76,
@@ -2232,16 +1757,16 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 3109,
+      "id": 3113,
       "itemchoices": [],
       "itemrewards": [],
       "level": 1,
       "money": 0,
-      "name": "Encrypted Rune",
-      "popularity": 36,
+      "name": "Encrypted Memorandum",
+      "popularity": 78,
       "reprewards": [
         [
-          47,
+          54,
           50
         ]
       ],
@@ -2260,51 +1785,24 @@
       "envChange": {
         "labels": [],
         "lines": [],
-        "status": "unconfirmed"
+        "status": "unchanged"
       },
-      "firstseenpatch": 11201,
+      "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 2000,
+      "id": 2299,
       "itemchoices": [],
       "itemrewards": [],
       "level": 16,
       "money": 0,
-      "name": "Rokar Bladeshadow",
-      "popularity": 35,
+      "name": "To Hulfdan!",
+      "popularity": 77,
       "reprewards": [],
       "reqclass": 8,
       "reqlevel": 16,
-      "side": 2,
+      "side": 1,
       "titlereward": 0,
       "type": 0,
-      "xp": 290
-    },
-    {
-      "category": -162,
-      "category2": 4,
-      "currencychoicerewards": [],
-      "currencyrewards": [],
-      "envChange": {
-        "labels": [],
-        "lines": [],
-        "status": "unconfirmed"
-      },
-      "firstseenpatch": 20000,
-      "icon": "quest-start",
-      "id": 84880,
-      "itemchoices": [],
-      "itemrewards": [],
-      "level": 60,
-      "money": 7000,
-      "name": "The Enemy of my Enemy",
-      "popularity": 34,
-      "reprewards": [],
-      "reqclass": 8,
-      "reqlevel": 55,
-      "side": 3,
-      "titlereward": 0,
-      "type": 0,
-      "xp": 6600
+      "xp": 115
     },
     {
       "category": -162,
@@ -2318,13 +1816,72 @@
       },
       "firstseenpatch": 11302,
       "icon": "quest-start",
-      "id": 6701,
+      "id": 3102,
       "itemchoices": [],
       "itemrewards": [],
-      "level": 60,
+      "level": 1,
       "money": 0,
-      "name": "Syndicate Emblems",
-      "popularity": 33,
+      "name": "Encrypted Letter",
+      "popularity": 75,
+      "reprewards": [
+        [
+          72,
+          50
+        ]
+      ],
+      "reqclass": 8,
+      "reqlevel": 1,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 40
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 2300,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 16,
+      "money": 0,
+      "name": "SI:7",
+      "popularity": 75,
+      "reprewards": [],
+      "reqclass": 8,
+      "reqlevel": 16,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 115
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11303,
+      "icon": "quest-start",
+      "id": 8235,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 52,
+      "money": 7500,
+      "name": "Encoded Fragments",
+      "popularity": 70,
       "reprewards": [
         [
           349,
@@ -2332,11 +1889,102 @@
         ]
       ],
       "reqclass": 8,
-      "reqlevel": 24,
+      "reqlevel": 50,
       "side": 3,
       "titlereward": 0,
       "type": 0,
-      "xp": 0
+      "xp": 5100
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11303,
+      "icon": "quest-start",
+      "id": 8233,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 52,
+      "money": 0,
+      "name": "A Simple Request",
+      "popularity": 68,
+      "reprewards": [
+        [
+          349,
+          10
+        ]
+      ],
+      "reqclass": 8,
+      "reqlevel": 50,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 510
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11303,
+      "icon": "quest-start",
+      "id": 8234,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 52,
+      "money": 6000,
+      "name": "Sealed Azure Bag",
+      "popularity": 67,
+      "reprewards": [
+        [
+          349,
+          100
+        ]
+      ],
+      "reqclass": 8,
+      "reqlevel": 50,
+      "side": 3,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 5100
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 2259,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 16,
+      "money": 0,
+      "name": "Erion Shadewhisper",
+      "popularity": 65,
+      "reprewards": [],
+      "reqclass": 8,
+      "reqlevel": 16,
+      "side": 1,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 115
     },
     {
       "category": -162,
@@ -2356,7 +2004,7 @@
       "level": 1,
       "money": 0,
       "name": "Encrypted Tablet",
-      "popularity": 31,
+      "popularity": 64,
       "reprewards": [
         [
           530,
@@ -2366,6 +2014,38 @@
       "reqclass": 8,
       "reqlevel": 1,
       "side": 2,
+      "titlereward": 0,
+      "type": 0,
+      "xp": 40
+    },
+    {
+      "category": -162,
+      "category2": 4,
+      "currencychoicerewards": [],
+      "currencyrewards": [],
+      "envChange": {
+        "labels": [],
+        "lines": [],
+        "status": "unchanged"
+      },
+      "firstseenpatch": 11302,
+      "icon": "quest-start",
+      "id": 3118,
+      "itemchoices": [],
+      "itemrewards": [],
+      "level": 1,
+      "money": 0,
+      "name": "Encrypted Sigil",
+      "popularity": 57,
+      "reprewards": [
+        [
+          69,
+          50
+        ]
+      ],
+      "reqclass": 8,
+      "reqlevel": 1,
+      "side": 1,
       "titlereward": 0,
       "type": 0,
       "xp": 40

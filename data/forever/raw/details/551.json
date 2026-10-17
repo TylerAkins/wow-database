@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-24T23:18:53+00:00",
+  "fetchedAt": "2026-10-16T20:35:26+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -57,6 +57,28 @@
     ]
   },
   "minLevel": 30,
+  "objectSpawns": [
+    {
+      "entityId": 1765,
+      "entityKind": "object",
+      "entityName": "Worn Wooden Chest",
+      "uiMapId": 1416,
+      "uiMapName": "Alterac Mountains",
+      "x": 39.2,
+      "y": 14.4,
+      "zoneId": 36
+    },
+    {
+      "entityId": 1765,
+      "entityKind": "object",
+      "entityName": "Worn Wooden Chest",
+      "uiMapId": 1416,
+      "uiMapName": "Alterac Mountains",
+      "x": 39.2,
+      "y": 14.7,
+      "zoneId": 36
+    }
+  ],
   "pageInfo": {
     "name": "The Ensorcelled Parchment",
     "type": 5,
@@ -66,5 +88,26 @@
   "prerequisiteQuestIds": [],
   "questId": 551,
   "races": [],
-  "startPins": []
+  "startPins": [
+    {
+      "entityId": 1765,
+      "entityKind": "object",
+      "entityName": "Worn Wooden Chest",
+      "uiMapId": 1416,
+      "uiMapName": "Alterac Mountains",
+      "x": 39.2,
+      "y": 14.4,
+      "zoneId": 36
+    },
+    {
+      "entityId": 1765,
+      "entityKind": "object",
+      "entityName": "Worn Wooden Chest",
+      "uiMapId": 1416,
+      "uiMapName": "Alterac Mountains",
+      "x": 39.2,
+      "y": 14.7,
+      "zoneId": 36
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-25T07:04:11+00:00",
+  "fetchedAt": "2026-10-17T04:07:25+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,9 +12,9 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 12[/li][li]Requires level 6[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=3519/sentinel-arynia-cloudsbreak]Sentinel Arynia Cloudsbreak[/url][/icon][/li][li][icon name=quest-end]End: Object #673378[/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]6[/color][small] &nbsp;[/small][color=r1]8[/color][small] &nbsp;[/small][color=r2]10[/color][small] &nbsp;[/small][color=r3]15[/color][small] &nbsp;[/small][color=r4]18[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 12[/li][li]Requires level 6[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=4], [race=95][/li][li][icon name=quest-start]Start: [url=/forever/npc=3519/sentinel-arynia-cloudsbreak]Sentinel Arynia Cloudsbreak[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/object=673378/oracle-tree-bark]Oracle Tree Bark[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]6[/color][small] &nbsp;[/small][color=r1]8[/color][small] &nbsp;[/small][color=r2]10[/color][small] &nbsp;[/small][color=r3]15[/color][small] &nbsp;[/small][color=r4]18[/color][/li][li]Added in patch [acronym=\"1.60.1.69913\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
-    "missing": 1,
+    "missing": 0,
     "objectives": {
       "141": {
         "levels": [
@@ -36,6 +36,22 @@
               "reactalliance": 1,
               "reacthorde": 0,
               "type": 1
+            },
+            {
+              "coord": [
+                37,
+                34.1
+              ],
+              "coords": [
+                [
+                  37,
+                  34.1
+                ]
+              ],
+              "id": 673378,
+              "name": "Oracle Tree Bark",
+              "point": "end",
+              "type": 2
             }
           ]
         ],
@@ -48,7 +64,7 @@
     "zones": [
       [
         141,
-        1
+        2
       ]
     ]
   },
@@ -61,14 +77,17 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 98398,
-  "races": [],
+  "races": [
+    4,
+    95
+  ],
   "startPins": [
     {
       "npcId": 3519,
       "npcName": "Sentinel Arynia Cloudsbreak",
-      "zoneId": 141,
       "x": 38.2,
       "y": 34.4,
+      "zoneId": 141,
       "zoneName": "Teldrassil"
     }
   ]

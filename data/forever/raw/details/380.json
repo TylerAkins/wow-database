@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Horde",
-  "fetchedAt": "2026-09-24T23:15:22+00:00",
+  "fetchedAt": "2026-10-16T20:18:22+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +12,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 4[/li][li]Requires level 2[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=1570/executor-arren]Executor Arren[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1570/executor-arren]Executor Arren[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]2[/color][small] &nbsp;[/small][color=r3]7[/color][small] &nbsp;[/small][color=r4]9[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 4[/li][li]Requires level 2[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Races: [race=2], [race=5], [br][race=8][/li][li][icon name=quest-start]Start: [url=/forever/npc=1570/executor-arren]Executor Arren[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=1570/executor-arren]Executor Arren[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]2[/color][small] &nbsp;[/small][color=r3]7[/color][small] &nbsp;[/small][color=r4]9[/color][/li][li]Added in patch [acronym=\"1.13.2.30406\"]1.13.2[/acronym] \"Classic\"[/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -78,16 +78,12 @@
                   59.6
                 ],
                 [
-                  27.8,
+                  27.6,
                   59.6
                 ],
                 [
-                  28,
-                  59.2
-                ],
-                [
                   28.2,
-                  57.4
+                  57.3
                 ],
                 [
                   28.4,
@@ -98,20 +94,24 @@
                   58.2
                 ],
                 [
-                  28.6,
-                  58.2
+                  28.4,
+                  59
                 ],
                 [
                   28.6,
                   59.2
                 ],
                 [
-                  29,
-                  56.2
+                  28.8,
+                  58
                 ],
                 [
                   29,
                   57
+                ],
+                [
+                  29.2,
+                  56.2
                 ],
                 [
                   29.2,
@@ -123,6 +123,10 @@
                 ],
                 [
                   29.6,
+                  58.6
+                ],
+                [
+                  29.6,
                   59.8
                 ],
                 [
@@ -131,11 +135,7 @@
                 ],
                 [
                   29.8,
-                  57.4
-                ],
-                [
-                  29.8,
-                  58.6
+                  57.2
                 ],
                 [
                   30.6,
@@ -156,8 +156,8 @@
             },
             {
               "coord": [
-                26.8,
-                59.4
+                25.4,
+                59.8
               ],
               "coords": [
                 [
@@ -170,11 +170,11 @@
                 ],
                 [
                   23.6,
-                  60.4
+                  58.6
                 ],
                 [
-                  23.8,
-                  58.8
+                  23.6,
+                  60.4
                 ],
                 [
                   24.2,
@@ -186,11 +186,15 @@
                 ],
                 [
                   25.4,
-                  59.6
+                  59.8
                 ],
                 [
                   25.6,
                   59.4
+                ],
+                [
+                  26,
+                  60.5
                 ],
                 [
                   26.2,
@@ -198,11 +202,11 @@
                 ],
                 [
                   26.6,
-                  59.6
+                  59.4
                 ],
                 [
-                  26.8,
-                  59.4
+                  26.6,
+                  59.5
                 ],
                 [
                   27.6,
@@ -241,14 +245,18 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 380,
-  "races": [],
+  "races": [
+    2,
+    5,
+    8
+  ],
   "startPins": [
     {
       "npcId": 1570,
       "npcName": "Executor Arren",
-      "zoneId": 85,
       "x": 32.0,
       "y": 66.0,
+      "zoneId": 85,
       "zoneName": "Tirisfal Glades"
     }
   ]

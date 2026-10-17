@@ -1,7 +1,10 @@
 {
-  "classes": [],
+  "classes": [
+    7,
+    11
+  ],
   "faction": "Horde",
-  "fetchedAt": "2026-09-25T06:03:12+00:00",
+  "fetchedAt": "2026-10-17T03:06:11+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +15,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 4[/li][li]Requires level 3[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=251374/windshaper-boro]Windshaper Boro[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=251374/windshaper-boro]Windshaper Boro[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]3[/color][small] &nbsp;[/small][color=r3]7[/color][small] &nbsp;[/small][color=r4]9[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 4[/li][li]Requires level 3[/li][li]Side: [span class=icon-horde]Horde[/span][/li][li]Race: [race=6][/li][li]Classes: [class=7], [class=11][/li][li][icon name=quest-start]Start: [url=/forever/npc=251374/windshaper-boro]Windshaper Boro[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=251374/windshaper-boro]Windshaper Boro[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=r2]3[/color][small] &nbsp;[/small][color=r3]7[/color][small] &nbsp;[/small][color=r4]9[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -65,81 +68,53 @@
             },
             {
               "coord": [
-                37.6,
-                32
+                37.8,
+                32.8
               ],
               "coords": [
                 [
                   35.4,
-                  32.4
-                ],
-                [
-                  35.4,
-                  33.2
+                  33.4
                 ],
                 [
                   35.4,
                   33.8
                 ],
                 [
-                  35.6,
-                  32.8
+                  35.7,
+                  32.9
                 ],
                 [
                   35.8,
                   34.4
                 ],
                 [
-                  35.8,
-                  34.6
-                ],
-                [
-                  36.4,
-                  31.4
-                ],
-                [
-                  36.4,
-                  32
+                  35.9,
+                  31.9
                 ],
                 [
                   36.6,
-                  31.4
-                ],
-                [
-                  36.6,
-                  34.6
-                ],
-                [
-                  37.2,
-                  33.8
-                ],
-                [
-                  37.4,
-                  32.2
-                ],
-                [
-                  37.4,
                   33
                 ],
                 [
-                  37.6,
-                  31.4
+                  37,
+                  32.3
                 ],
                 [
-                  37.6,
+                  37,
+                  33.5
+                ],
+                [
+                  37.5,
                   32
                 ],
                 [
                   37.6,
-                  32.6
-                ],
-                [
-                  37.6,
-                  33.6
+                  33.5
                 ],
                 [
                   37.8,
-                  35
+                  32.8
                 ]
               ],
               "id": 251145,
@@ -153,17 +128,17 @@
             },
             {
               "coord": [
-                46.7,
-                20.4
+                46.5,
+                20.2
               ],
               "coords": [
                 [
-                  46.7,
-                  20.4
+                  46.5,
+                  20.2
                 ],
                 [
-                  47,
-                  18.9
+                  46.8,
+                  18.7
                 ],
                 [
                   47.3,
@@ -189,65 +164,53 @@
             },
             {
               "coord": [
-                36.8,
-                33
+                35.4,
+                32.6
               ],
               "coords": [
                 [
-                  35,
-                  33.6
+                  34.9,
+                  33.7
                 ],
                 [
                   35.4,
-                  31.8
+                  32.6
                 ],
                 [
-                  35.4,
-                  33.2
-                ],
-                [
-                  36.4,
+                  35.5,
                   31.4
                 ],
                 [
-                  36.4,
+                  36.1,
                   31.6
                 ],
                 [
                   36.4,
-                  33.2
+                  33.3
                 ],
                 [
-                  36.8,
-                  33
-                ],
-                [
-                  37,
+                  36.6,
                   31.4
                 ],
                 [
-                  37,
-                  34.8
+                  36.9,
+                  31.9
+                ],
+                [
+                  37.1,
+                  32.7
                 ],
                 [
                   37.4,
-                  32.4
+                  34.1
                 ],
                 [
-                  37.4,
-                  33.8
+                  37.5,
+                  32.8
                 ],
                 [
-                  37.6,
-                  32.6
-                ],
-                [
-                  37.6,
-                  33.6
-                ],
-                [
-                  37.6,
-                  34.6
+                  37.5,
+                  33.5
                 ]
               ],
               "id": 251448,
@@ -322,6 +285,26 @@
               "reactalliance": 0,
               "reacthorde": 0,
               "type": 1
+            },
+            {
+              "coord": [
+                66.2,
+                76.6
+              ],
+              "coords": [
+                [
+                  66.2,
+                  76.6
+                ]
+              ],
+              "id": 264712,
+              "item": "Signet of Akir",
+              "name": "High Priestess Lorthuna",
+              "objective": 0,
+              "point": "sourcerequirement",
+              "reactalliance": 0,
+              "reacthorde": 0,
+              "type": 1
             }
           ]
         ],
@@ -334,7 +317,7 @@
     "zones": [
       [
         16593,
-        7
+        8
       ]
     ]
   },
@@ -347,14 +330,16 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 92466,
-  "races": [],
+  "races": [
+    6
+  ],
   "startPins": [
     {
       "npcId": 251374,
       "npcName": "Windshaper Boro",
-      "zoneId": 16593,
       "x": 42.8,
       "y": 23.6,
+      "zoneId": 16593,
       "zoneName": "Zephras Isle"
     }
   ]

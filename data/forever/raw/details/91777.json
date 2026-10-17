@@ -1,7 +1,7 @@
 {
   "classes": [],
   "faction": "Alliance",
-  "fetchedAt": "2026-09-25T06:00:36+00:00",
+  "fetchedAt": "2026-10-17T03:03:25+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -12,7 +12,7 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 7[/li][li]Requires level 1[/li][li]Type: Elite[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li][icon name=quest-start]Start: [url=/forever/npc=240/marshal-dughan]Marshal Dughan[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=951/brother-paxton]Brother Paxton[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]1[/color][small] &nbsp;[/small][color=r1]3[/color][small] &nbsp;[/small][color=r2]5[/color][small] &nbsp;[/small][color=r3]10[/color][small] &nbsp;[/small][color=r4]13[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 7[/li][li]Requires level 1[/li][li]Type: Elite[/li][li]Side: [span class=icon-alliance]Alliance[/span][/li][li]Races: [race=3], [race=7][/li][li][icon name=quest-start]Start: [url=/forever/npc=240/marshal-dughan]Marshal Dughan[/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=951/brother-paxton]Brother Paxton[/url][/icon][/li][li]Not sharable[/li][li]Difficulty: [color=q10]1[/color][small] &nbsp;[/small][color=r1]3[/color][small] &nbsp;[/small][color=r2]5[/color][small] &nbsp;[/small][color=r3]10[/color][small] &nbsp;[/small][color=r4]13[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
     "missing": 0,
     "objectives": {
@@ -61,8 +61,8 @@
             },
             {
               "coord": [
-                61.8,
-                47.8
+                61.7,
+                47.6
               ],
               "coords": [
                 [
@@ -70,8 +70,8 @@
                   47
                 ],
                 [
-                  60.8,
-                  47
+                  61.4,
+                  47.4
                 ],
                 [
                   61.4,
@@ -82,12 +82,12 @@
                   48.8
                 ],
                 [
-                  61.6,
+                  61.5,
                   47.4
                 ],
                 [
-                  61.8,
-                  47.8
+                  61.7,
+                  47.6
                 ]
               ],
               "id": 471,
@@ -101,45 +101,45 @@
             },
             {
               "coord": [
-                61.2,
-                49
+                61.3,
+                48.9
               ],
               "coords": [
                 [
-                  60,
+                  60.3,
                   49.4
                 ],
                 [
-                  60.4,
-                  49.8
+                  60.3,
+                  49.9
                 ],
                 [
-                  60.6,
-                  49.8
+                  60.8,
+                  49.5
                 ],
                 [
-                  61.2,
-                  49
-                ],
-                [
-                  61.2,
-                  51.4
+                  60.9,
+                  51.2
                 ],
                 [
                   61.2,
-                  51.6
+                  47
+                ],
+                [
+                  61.3,
+                  48.9
                 ],
                 [
                   61.4,
                   48.2
                 ],
                 [
-                  61.8,
-                  54.2
+                  61.5,
+                  47.6
                 ],
                 [
-                  62,
-                  55
+                  61.6,
+                  47.4
                 ]
               ],
               "id": 248474,
@@ -175,14 +175,17 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 91777,
-  "races": [],
+  "races": [
+    3,
+    7
+  ],
   "startPins": [
     {
       "npcId": 240,
       "npcName": "Marshal Dughan",
-      "zoneId": 12,
       "x": 42.2,
       "y": 65.8,
+      "zoneId": 12,
       "zoneName": "Elwynn Forest"
     }
   ]

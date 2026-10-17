@@ -1,6 +1,6 @@
 {
   "classes": [],
-  "fetchedAt": "2026-09-25T06:12:03+00:00",
+  "fetchedAt": "2026-10-17T03:14:51+00:00",
   "infoboxFlags": {
     "daily": false,
     "dungeon": false,
@@ -11,13 +11,33 @@
     "sharable": true,
     "weekly": false
   },
-  "infoboxMarkup": "[ul][li]Level: 9[/li][li]Requires level 4[/li][li]Type: Elite[/li][li]Side: Both[/li][li][icon name=quest-start]Start: Object #610954[/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=252172/danarii-bellowveil]Danarii Bellowveil[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]4[/color][small] &nbsp;[/small][color=r1]5[/color][small] &nbsp;[/small][color=r2]7[/color][small] &nbsp;[/small][color=r3]12[/color][small] &nbsp;[/small][color=r4]15[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
+  "infoboxMarkup": "[ul][li]Level: 9[/li][li]Requires level 4[/li][li]Type: Elite[/li][li]Side: Both[/li][li]Race: [race=95][/li][li][icon name=quest-start]Start: [url=/forever/object=610954/bounty-available-vulgara-the-insatiable]Bounty Available: Vulgara the Insatiable![/url][/icon][/li][li][icon name=quest-end]End: [url=/forever/npc=252172/danarii-bellowveil]Danarii Bellowveil[/url][/icon][/li][li]Sharable[/li][li]Difficulty: [color=q10]4[/color][small] &nbsp;[/small][color=r1]5[/color][small] &nbsp;[/small][color=r2]7[/color][small] &nbsp;[/small][color=r3]12[/color][small] &nbsp;[/small][color=r4]15[/color][/li][li]Added in patch [acronym=\"1.60.1.69893\"]1.60.1[/acronym][/li][/ul]",
   "mapper": {
-    "missing": 1,
+    "missing": 0,
     "objectives": {
       "16593": {
         "levels": [
           [
+            {
+              "coord": [
+                43.4,
+                45.8
+              ],
+              "coords": [
+                [
+                  43.4,
+                  45.8
+                ],
+                [
+                  43.5,
+                  45.8
+                ]
+              ],
+              "id": 610954,
+              "name": "Bounty Available: Vulgara the Insatiable!",
+              "point": "start",
+              "type": 2
+            },
             {
               "coord": [
                 45.2,
@@ -39,12 +59,12 @@
             {
               "coord": [
                 42.8,
-                52.2
+                52
               ],
               "coords": [
                 [
                   42.4,
-                  52.2
+                  52.4
                 ],
                 [
                   42.4,
@@ -56,7 +76,7 @@
                 ],
                 [
                   42.8,
-                  52.2
+                  52
                 ],
                 [
                   43,
@@ -83,11 +103,33 @@
     "zones": [
       [
         16593,
-        2
+        3
       ]
     ]
   },
   "minLevel": 4,
+  "objectSpawns": [
+    {
+      "entityId": 610954,
+      "entityKind": "object",
+      "entityName": "Bounty Available: Vulgara the Insatiable!",
+      "uiMapId": 2521,
+      "uiMapName": "Zephras Isle",
+      "x": 43.4,
+      "y": 45.8,
+      "zoneId": 16593
+    },
+    {
+      "entityId": 610954,
+      "entityKind": "object",
+      "entityName": "Bounty Available: Vulgara the Insatiable!",
+      "uiMapId": 2521,
+      "uiMapName": "Zephras Isle",
+      "x": 43.5,
+      "y": 45.8,
+      "zoneId": 16593
+    }
+  ],
   "pageInfo": {
     "name": "WANTED: Vulgara the Insatiable",
     "type": 5,
@@ -96,6 +138,17 @@
   "pinCategory": "normal",
   "prerequisiteQuestIds": [],
   "questId": 93318,
-  "races": [],
-  "startPins": []
+  "races": [
+    95
+  ],
+  "startPins": [
+    {
+      "npcId": 610954,
+      "npcName": "Bounty Available: Vulgara the Insatiable!",
+      "x": 43.4,
+      "y": 45.8,
+      "zoneId": 16593,
+      "zoneName": "Zephras Isle"
+    }
+  ]
 }
