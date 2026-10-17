@@ -33904,17 +33904,16 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {
-            "lvl": "lvlsquish(35, 35, 15)"
+            "lvl": "35"
           },
-          "line": 114,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Razorfen Downs.lua",
+          "line": 49,
+          "path": ".contrib/.db/forever/dungeons & raids/razorfen downs.lua",
           "rawFields": {
             "coord": "{ 74.0, 32.8, MAP.UNDERCITY }",
-            "groups": "{\r\n\t\t\t\t\t\tobjective(1, {\t                               \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"i\", 10420 },\t                           \r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(10823, {\t                     \r\n\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(10824, {\t                     \r\n\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\t\tobjective(1, {\t                               \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"i\", 10420 },\t                           \r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(10823),\t                     \r\n\t\t\t\t\t\ti(10824),\t                     \r\n\t\t\t\t\t}",
             "lvl": "37",
             "qg": "2308",
-            "races": "HORDE_ONLY",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "races": "HORDE_ONLY"
           }
         }
       ],
@@ -41164,25 +41163,24 @@
         {
           "expression": "",
           "fields": {
-            "name": "Scourge of the Downs (Before Cataclysm)",
+            "name": "Scourge of the Downs",
             "requiredLevel": 32,
             "sourceItemId": 10682
           },
           "inheritedFields": {
-            "lvl": "lvlsquish(35, 35, 15)"
+            "lvl": "35"
           },
-          "line": 235,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Razorfen Downs.lua",
+          "line": 86,
+          "path": ".contrib/.db/forever/dungeons & raids/razorfen downs.lua",
           "rawFields": {
             "lvl": "32",
-            "providers": "{\r\n\t\t\t\t\t\t{ \"n\", 8516 },\t              \r\n\t\t\t\t\t\t{ \"i\", 10682 },\t                          \r\n\t\t\t\t\t}",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "providers": "{\r\n\t\t\t\t\t\t{ \"n\", 8516 },\t              \r\n\t\t\t\t\t\t{ \"i\", 10682 },\t                          \r\n\t\t\t\t\t}"
           }
         }
       ],
       "faction": "Both",
       "id": 3523,
-      "name": "Scourge of the Downs (Before Cataclysm)",
+      "name": "Scourge of the Downs",
       "places": [
         {
           "id": 8516,
@@ -41373,16 +41371,15 @@
             "requiredLevel": 32
           },
           "inheritedFields": {
-            "lvl": "lvlsquish(35, 35, 15)"
+            "lvl": "35"
           },
-          "line": 170,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Razorfen Downs.lua",
+          "line": 75,
+          "path": ".contrib/.db/forever/dungeons & raids/razorfen downs.lua",
           "rawFields": {
-            "groups": "{\r\n\t\t\t\t\t\ti(10710, {\t                  \r\n\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_6_0_2 },\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\t\ti(10710),\t                  \r\n\t\t\t\t\t}",
             "lvl": "32",
             "providers": "{\r\n\t\t\t\t\t\t{ \"n\",   8516 },\t              \r\n\t\t\t\t\t\t{ \"o\", 152097 },\t                        \r\n\t\t\t\t\t}",
-            "sourceQuest": "3523",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "sourceQuest": "3523"
           }
         }
       ],
@@ -44788,17 +44785,16 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {
-            "lvl": "lvlsquish(35, 35, 15)"
+            "lvl": "35"
           },
-          "line": 132,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Razorfen Downs.lua",
+          "line": 62,
+          "path": ".contrib/.db/forever/dungeons & raids/razorfen downs.lua",
           "rawFields": {
             "coord": "{ 39.6, 27.4, MAP.STORMWIND_CITY }",
-            "groups": "{\r\n\t\t\t\t\t\tobjective(1, {\t                                     \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"n\", 7358 },\t                           \r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(10823, {\t                     \r\n\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(10824, {\t                     \r\n\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\t\tobjective(1, {\t                                     \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"n\", 7358 },\t                           \r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(10823),\t                     \r\n\t\t\t\t\t\ti(10824),\t                     \r\n\t\t\t\t\t}",
             "lvl": "39",
             "qg": "1284",
-            "races": "ALLIANCE_ONLY",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "races": "ALLIANCE_ONLY"
           }
         }
       ],

@@ -9883,15 +9883,14 @@
           "inheritedFields": {
             "lvl": "50"
           },
-          "line": 231,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Blackrock Spire.lua",
+          "line": 172,
+          "path": ".contrib/.db/forever/dungeons & raids/blackrock spire.lua",
           "rawFields": {
             "coord": "{ 66.8, 24.0, MAP.TANARIS }",
-            "groups": "{\r\n\t\t\t\t\ti(20218, {\t                      \r\n\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(20219, {\t                        \r\n\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\ti(20218),\t                      \r\n\t\t\t\t\ti(20219),\t                        \r\n\t\t\t\t}",
             "lvl": "40",
             "qg": "10460",
-            "sourceQuest": "4788",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "sourceQuest": "4788"
           }
         }
       ],
@@ -9961,14 +9960,13 @@
           "inheritedFields": {
             "lvl": "50"
           },
-          "line": 872,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Blackrock Spire.lua",
+          "line": 636,
+          "path": ".contrib/.db/forever/dungeons & raids/blackrock spire.lua",
           "rawFields": {
             "coord": "{ 66.8, 24.0, MAP.TANARIS }",
             "lvl": "40",
             "qg": "10460",
-            "sourceQuest": "8181",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "sourceQuest": "8181"
           }
         }
       ],
@@ -12622,19 +12620,20 @@
             "requiredLevel": 55,
             "requiredRaces": 8589934770
           },
-          "inheritedFields": {},
-          "line": 576,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Scholomance.lua",
+          "inheritedFields": {
+            "lvl": "55"
+          },
+          "line": 380,
+          "path": ".contrib/.db/forever/dungeons & raids/scholomance.lua",
           "rawFields": {
-            "altQuests": "{\r\n\t\t\t\t7668,\t                                   \r\n\t\t\t}",
+            "altQuests": "{\r\n\t\t\t\t\t\t7668,\t                                   \r\n\t\t\t\t\t}",
             "classes": "{ SHAMAN }",
             "coord": "{ 38.7, 35.9, MAP.ORGRIMMAR }",
-            "groups": "{\r\n\t\t\t\tobjective(1, {\t                        \r\n\t\t\t\t\t[\"provider\"] = { \"i\", 18880 },\t                    \r\n\t\t\t\t\t[\"cr\"] = 14516,\t                          \r\n\t\t\t\t}),\r\n\t\t\t\ti(20134, {\t               \r\n\t\t\t\t\t[\"timeline\"] = { ADDED_1_7_0, REMOVED_4_0_3 },\r\n\t\t\t\t}),\r\n\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\t\tobjective(1, {\t                        \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"i\", 18880 },\t                    \r\n\t\t\t\t\t\t\t[\"cr\"] = 14516,\t                          \r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(20134),\t               \r\n\t\t\t\t\t}",
             "lvl": "55",
             "qg": "13417",
             "races": "HORDE_ONLY",
-            "sourceQuest": "7667",
-            "timeline": "{ ADDED_1_7_0, REMOVED_4_0_3 }"
+            "sourceQuest": "7667"
           }
         }
       ],
@@ -12748,19 +12747,20 @@
             "requiredLevel": 55,
             "requiredRaces": 8589934770
           },
-          "inheritedFields": {},
-          "line": 51,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Scholomance.lua",
+          "inheritedFields": {
+            "lvl": "55"
+          },
+          "line": 20,
+          "path": ".contrib/.db/forever/dungeons & raids/scholomance.lua",
           "rawFields": {
             "altQuests": "{ 8258 }",
             "classes": "{ SHAMAN }",
             "coord": "{ 38.7, 35.9, MAP.ORGRIMMAR }",
-            "groups": "{\r\n\t\t\t\ti(20134, {\t               \r\n\t\t\t\t\t[\"timeline\"] = { ADDED_1_7_0, REMOVED_4_0_3 },\r\n\t\t\t\t}),\r\n\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\t\ti(20134),\t               \r\n\t\t\t\t\t}",
             "lvl": "55",
             "qg": "13417",
             "races": "HORDE_ONLY",
-            "sourceQuest": "7668",
-            "timeline": "{ ADDED_1_7_0, REMOVED_4_0_3 }"
+            "sourceQuest": "7668"
           }
         }
       ],

@@ -561,16 +561,17 @@
             "sourceItemId": 13920,
             "specialFlags": 1
           },
-          "inheritedFields": {},
-          "line": 306,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Scholomance.lua",
+          "inheritedFields": {
+            "lvl": "55"
+          },
+          "line": 186,
+          "path": ".contrib/.db/forever/dungeons & raids/scholomance.lua",
           "rawFields": {
             "lvl": "55",
             "maxReputation": "{ FACTION_ARGENT_DAWN, EXALTED }",
             "provider": "{ \"i\", 13920 }",
             "repeatable": "true",
-            "sourceQuest": "5529",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "sourceQuest": "5529"
           }
         }
       ],
@@ -6595,8 +6596,8 @@
           "inheritedFields": {
             "lvl": "55"
           },
-          "line": 284,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Scholomance.lua",
+          "line": 165,
+          "path": ".contrib/.db/forever/dungeons & raids/scholomance.lua",
           "rawFields": {
             "sourceQuest": "5538"
           }
@@ -6641,8 +6642,8 @@
           "inheritedFields": {
             "lvl": "55"
           },
-          "line": 287,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Scholomance.lua",
+          "line": 168,
+          "path": ".contrib/.db/forever/dungeons & raids/scholomance.lua",
           "rawFields": {
             "sourceQuest": "5514"
           }
@@ -6687,8 +6688,8 @@
           "inheritedFields": {
             "lvl": "55"
           },
-          "line": 106,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Scholomance.lua",
+          "line": 57,
+          "path": ".contrib/.db/forever/dungeons & raids/scholomance.lua",
           "rawFields": {
             "coord": "{ 42.7, 83.8, MAP.WESTERN_PLAGUELANDS }",
             "qg": "11056",
@@ -6762,8 +6763,8 @@
           "inheritedFields": {
             "lvl": "55"
           },
-          "line": 111,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Scholomance.lua",
+          "line": 62,
+          "path": ".contrib/.db/forever/dungeons & raids/scholomance.lua",
           "rawFields": {
             "coord": "{ 83.3, 69.2, MAP.TIRISFAL_GLADES }",
             "maps": "{ MAP.WESTERN_PLAGUELANDS }",
@@ -24098,16 +24099,15 @@
           "inheritedFields": {
             "lvl": "50"
           },
-          "line": 288,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Blackrock Spire.lua",
+          "line": 216,
+          "path": ".contrib/.db/forever/dungeons & raids/blackrock spire.lua",
           "rawFields": {
             "coord": "{ 54.55, 51.2, MAP.WINTERSPRING }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                                         \r\n\t\t\t\t\t\t[\"provider\"] = { \"i\", 16663 },\t                                     \r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(16309, {\t                   \r\n\t\t\t\t\t\t[\"timeline\"] = { REMOVED_3_0_2 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                                         \r\n\t\t\t\t\t\t[\"provider\"] = { \"i\", 16663 },\t                                     \r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(16309),\t                   \r\n\t\t\t\t}",
             "lvl": "50",
             "qg": "10929",
             "races": "ALLIANCE_ONLY",
-            "sourceQuest": "6501",
-            "timeline": "{ REMOVED_3_0_2 }"
+            "sourceQuest": "6501"
           }
         }
       ],
@@ -24424,7 +24424,7 @@
         {
           "expression": "",
           "fields": {
-            "name": "An Unholy Alliance (2/2) (Before Wrathgate)",
+            "name": "An Unholy Alliance (2/2)",
             "objectives": {
               "creature": [
                 {
@@ -24446,25 +24446,24 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {
-            "lvl": "lvlsquish(35, 35, 15)"
+            "lvl": "35"
           },
-          "line": 39,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Razorfen Downs.lua",
+          "line": 31,
+          "path": ".contrib/.db/forever/dungeons & raids/razorfen downs.lua",
           "rawFields": {
             "coord": "{ 56.3, 92.2, MAP.UNDERCITY }",
-            "groups": "{\r\n\t\t\t\t\t\tobjective(1, {\t                               \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"i\", 17009 },\t                           \r\n\t\t\t\t\t\t\t[\"coord\"] = { 48.6, 95.6, MAP.THE_BARRENS },\r\n\t\t\t\t\t\t\t[\"cr\"] = 12865,\t                    \r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(17039, {\t               \r\n\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(17042, {\t               \r\n\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(17043, {\t                \r\n\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\t\tobjective(1, {\t                               \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"i\", 17009 },\t                           \r\n\t\t\t\t\t\t\t[\"coord\"] = { 48.6, 95.6, MAP.THE_BARRENS },\r\n\t\t\t\t\t\t\t[\"cr\"] = 12865,\t                    \r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(17039),\t               \r\n\t\t\t\t\t\ti(17042),\t               \r\n\t\t\t\t\t\ti(17043),\t                \r\n\t\t\t\t\t}",
             "lvl": "28",
             "maps": "{ MAP.THE_BARRENS }",
-            "providers": "{\r\n                        \r\n                                                                \r\n              \r\n\t\t\t\t\t\t{ \"n\", 2425 },\t              \r\n               \r\n\t\t\t\t\t}",
+            "provider": "{ \"n\", 2425 }",
             "races": "HORDE_ONLY",
-            "sourceQuest": "6522",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "sourceQuest": "6522"
           }
         }
       ],
       "faction": "Horde",
       "id": 6521,
-      "name": "An Unholy Alliance (2/2) (Before Wrathgate)",
+      "name": "An Unholy Alliance (2/2)",
       "objectives": {
         "creature": [
           {
@@ -26103,15 +26102,14 @@
           "inheritedFields": {
             "lvl": "50"
           },
-          "line": 1176,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Blackrock Spire.lua",
+          "line": 849,
+          "path": ".contrib/.db/forever/dungeons & raids/blackrock spire.lua",
           "rawFields": {
             "coord": "{ 32.0, 37.8, MAP.ORGRIMMAR }",
             "lvl": "55",
             "qg": "4949",
             "races": "HORDE_ONLY",
-            "sourceQuest": "4974",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "sourceQuest": "4974"
           }
         }
       ],
@@ -26189,16 +26187,15 @@
           "inheritedFields": {
             "lvl": "50"
           },
-          "line": 769,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Blackrock Spire.lua",
+          "line": 565,
+          "path": ".contrib/.db/forever/dungeons & raids/blackrock spire.lua",
           "rawFields": {
             "coord": "{ 32.0, 37.8, MAP.ORGRIMMAR }",
             "lvl": "55",
             "maps": "{ MAP.DESOLACE }",
             "qg": "4949",
             "races": "HORDE_ONLY",
-            "sourceQuest": "6566",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "sourceQuest": "6566"
           }
         }
       ],
@@ -26266,7 +26263,7 @@
         {
           "expression": "",
           "fields": {
-            "name": "The Testament of Rexxar(Classic)/Mistress of Deception(TBC)",
+            "name": "The Testament of Rexxar",
             "preQuestSingle": [
               6567
             ],
@@ -26277,22 +26274,21 @@
           "inheritedFields": {
             "lvl": "50"
           },
-          "line": 1022,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Blackrock Spire.lua",
+          "line": 752,
+          "path": ".contrib/.db/forever/dungeons & raids/blackrock spire.lua",
           "rawFields": {
             "coords": "{\r\n\t\t\t\t\t{ 54.0, 3.2, MAP.DESOLACE },\r\n\t\t\t\t\t{ 62.8, 22.6, MAP.DESOLACE },\r\n\t\t\t\t\t{ 59.8, 37.6, MAP.DESOLACE },\r\n\t\t\t\t\t{ 52.0, 39.4, MAP.DESOLACE },\r\n\t\t\t\t\t{ 49.6, 56.4, MAP.DESOLACE },\r\n\t\t\t\t\t{ 55.6, 66.6, MAP.DESOLACE },\r\n\t\t\t\t\t{ 50.6, 75.2, MAP.DESOLACE },\r\n\t\t\t\t\t{ 40.8, 78.6, MAP.DESOLACE },\r\n\t\t\t\t\t{ 42.4, 96.8, MAP.DESOLACE },\r\n\t\t\t\t}",
             "lvl": "55",
             "maps": "{ MAP.WESTERN_PLAGUELANDS }",
-            "providers": "{\r\n\t\t\t\t\t{ \"n\", 10182 },\t                                                                \r\n\t\t\t\t\t{ \"i\", 16785 },\t                                     \r\n\t\t\t\t}",
+            "providers": "{\r\n\t\t\t\t\t{ \"n\", 10182 },\t                                 \r\n\t\t\t\t\t{ \"i\", 16785 },\t                                     \r\n\t\t\t\t}",
             "races": "HORDE_ONLY",
-            "sourceQuest": "6567",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "sourceQuest": "6567"
           }
         }
       ],
       "faction": "Horde",
       "id": 6568,
-      "name": "The Testament of Rexxar(Classic)/Mistress of Deception(TBC)",
+      "name": "The Testament of Rexxar",
       "places": [
         {
           "id": 10182,
@@ -26464,16 +26460,15 @@
           "inheritedFields": {
             "lvl": "50"
           },
-          "line": 667,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Blackrock Spire.lua",
+          "line": 484,
+          "path": ".contrib/.db/forever/dungeons & raids/blackrock spire.lua",
           "rawFields": {
             "coord": "{ 50.8, 77.8, MAP.WESTERN_PLAGUELANDS }",
             "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                             \r\n\t\t\t\t\t\t[\"provider\"] = { \"i\", 16786 },\t                        \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "55",
             "qg": "11872",
             "races": "HORDE_ONLY",
-            "sourceQuest": "6568",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "sourceQuest": "6568"
           }
         }
       ],
@@ -26568,17 +26563,16 @@
           "inheritedFields": {
             "lvl": "50"
           },
-          "line": 359,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Blackrock Spire.lua",
+          "line": 278,
+          "path": ".contrib/.db/forever/dungeons & raids/blackrock spire.lua",
           "rawFields": {
             "coord": "{ 50.8, 77.8, MAP.WESTERN_PLAGUELANDS }",
-            "groups": "{\r\n\t\t\t\t\ti(16787, {\t                                \r\n\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\ti(16787),\t                                \r\n\t\t\t\t}",
             "lvl": "55",
             "maps": "{ MAP.DUSTWALLOW_MARSH }",
             "providers": "{\r\n\t\t\t\t\t{ \"n\", 11872 },\t                  \r\n\t\t\t\t\t{ \"i\", 16787 },\t                                \r\n\t\t\t\t}",
             "races": "HORDE_ONLY",
-            "sourceQuest": "6569",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "sourceQuest": "6569"
           }
         }
       ],
@@ -27197,8 +27191,8 @@
           "inheritedFields": {
             "lvl": "50"
           },
-          "line": 990,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Blackrock Spire.lua",
+          "line": 722,
+          "path": ".contrib/.db/forever/dungeons & raids/blackrock spire.lua",
           "rawFields": {
             "coord": "{ 56.8, 87.4, MAP.DUSTWALLOW_MARSH }",
             "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                          \r\n\t\t\t\t\t\t[\"provider\"] = { \"i\", 16869 },\t                      \r\n\t\t\t\t\t\t[\"coord\"] = { 53.6, 55.8, MAP.WINTERSPRING },\r\n\t\t\t\t\t\t[\"qg\"] = 10664,\t         \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
@@ -27206,8 +27200,7 @@
             "maps": "{ MAP.WINTERSPRING }",
             "qg": "10321",
             "races": "HORDE_ONLY",
-            "sourceQuest": "6570",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "sourceQuest": "6570"
           }
         }
       ],
@@ -27340,8 +27333,8 @@
           "inheritedFields": {
             "lvl": "50"
           },
-          "line": 1006,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Blackrock Spire.lua",
+          "line": 737,
+          "path": ".contrib/.db/forever/dungeons & raids/blackrock spire.lua",
           "rawFields": {
             "coord": "{ 56.8, 87.4, MAP.DUSTWALLOW_MARSH }",
             "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                          \r\n\t\t\t\t\t\t[\"provider\"] = { \"i\", 16870 },\t                      \r\n\t\t\t\t\t\t[\"coord\"] = { 80.2, 57.2, MAP.SWAMP_OF_SORROWS },\r\n\t\t\t\t\t\t[\"qg\"] = 12900,\t         \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
@@ -27349,8 +27342,7 @@
             "maps": "{ MAP.SWAMP_OF_SORROWS }",
             "qg": "10321",
             "races": "HORDE_ONLY",
-            "sourceQuest": "6570",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "sourceQuest": "6570"
           }
         }
       ],
@@ -27483,8 +27475,8 @@
           "inheritedFields": {
             "lvl": "50"
           },
-          "line": 974,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Blackrock Spire.lua",
+          "line": 707,
+          "path": ".contrib/.db/forever/dungeons & raids/blackrock spire.lua",
           "rawFields": {
             "coord": "{ 56.8, 87.4, MAP.DUSTWALLOW_MARSH }",
             "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                             \r\n\t\t\t\t\t\t[\"provider\"] = { \"i\", 16871 },\t                         \r\n\t\t\t\t\t\t[\"coord\"] = { 64.4, 50.6, MAP.TANARIS },\r\n\t\t\t\t\t\t[\"qg\"] = 8197,\t            \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
@@ -27492,8 +27484,7 @@
             "maps": "{ MAP.TANARIS }",
             "qg": "10321",
             "races": "HORDE_ONLY",
-            "sourceQuest": "6570",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "sourceQuest": "6570"
           }
         }
       ],
@@ -27628,8 +27619,8 @@
           "inheritedFields": {
             "lvl": "50"
           },
-          "line": 954,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Blackrock Spire.lua",
+          "line": 688,
+          "path": ".contrib/.db/forever/dungeons & raids/blackrock spire.lua",
           "rawFields": {
             "coord": "{ 56.8, 87.4, MAP.DUSTWALLOW_MARSH }",
             "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                          \r\n\t\t\t\t\t\t[\"provider\"] = { \"i\", 16872 },\t                      \r\n\t\t\t\t\t\t[\"coord\"] = { 83.4, 49.6, MAP.WETLANDS },\r\n\t\t\t\t\t\t[\"cr\"] = 12899,\t         \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
@@ -27637,8 +27628,7 @@
             "maps": "{ MAP.WETLANDS }",
             "qg": "10321",
             "races": "HORDE_ONLY",
-            "sourceQuests": "{\r\n\t\t\t\t\t6584,\t                                \r\n\t\t\t\t\t6582,\t                             \r\n\t\t\t\t\t6583,\t                             \r\n\t\t\t\t}",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "sourceQuests": "{\r\n\t\t\t\t\t6584,\t                                \r\n\t\t\t\t\t6582,\t                             \r\n\t\t\t\t\t6583,\t                             \r\n\t\t\t\t}"
           }
         }
       ],
@@ -27760,16 +27750,15 @@
           "inheritedFields": {
             "lvl": "50"
           },
-          "line": 66,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Blackrock Spire.lua",
+          "line": 40,
+          "path": ".contrib/.db/forever/dungeons & raids/blackrock spire.lua",
           "rawFields": {
             "coord": "{ 56.8, 87.4, MAP.DUSTWALLOW_MARSH }",
             "lvl": "55",
             "maps": "{ MAP.DESOLACE }",
             "providers": "{\r\n\t\t\t\t\t{ \"n\", 10321 },\t              \r\n\t\t\t\t\t{ \"i\", 16888 },\t                        \r\n\t\t\t\t}",
             "races": "HORDE_ONLY",
-            "sourceQuest": "6585",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "sourceQuest": "6585"
           }
         }
       ],
@@ -27867,16 +27856,15 @@
           "inheritedFields": {
             "lvl": "50"
           },
-          "line": 133,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Blackrock Spire.lua",
+          "line": 91,
+          "path": ".contrib/.db/forever/dungeons & raids/blackrock spire.lua",
           "rawFields": {
             "coords": "{\r\n\t\t\t\t\t{ 54.0, 3.2, MAP.DESOLACE },\r\n\t\t\t\t\t{ 62.8, 22.6, MAP.DESOLACE },\r\n\t\t\t\t\t{ 59.8, 37.6, MAP.DESOLACE },\r\n\t\t\t\t\t{ 52.0, 39.4, MAP.DESOLACE },\r\n\t\t\t\t\t{ 49.6, 56.4, MAP.DESOLACE },\r\n\t\t\t\t\t{ 55.6, 66.6, MAP.DESOLACE },\r\n\t\t\t\t\t{ 50.6, 75.2, MAP.DESOLACE },\r\n\t\t\t\t\t{ 40.8, 78.6, MAP.DESOLACE },\r\n\t\t\t\t\t{ 42.4, 96.8, MAP.DESOLACE },\r\n\t\t\t\t}",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                                         \r\n\t\t\t\t\t\t[\"provider\"] = { \"i\", 16663 },\t                                     \r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(16309, {\t                   \r\n\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                                         \r\n\t\t\t\t\t\t[\"provider\"] = { \"i\", 16663 },\t                                     \r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(16309),\t                   \r\n\t\t\t\t}",
             "lvl": "55",
             "qg": "10182",
             "races": "HORDE_ONLY",
-            "sourceQuest": "6601",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "sourceQuest": "6601"
           }
         }
       ],
@@ -29619,16 +29607,15 @@
             "requiredLevel": 28
           },
           "inheritedFields": {
-            "lvl": "lvlsquish(35, 35, 15)"
+            "lvl": "35"
           },
-          "line": 22,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Razorfen Downs.lua",
+          "line": 15,
+          "path": ".contrib/.db/forever/dungeons & raids/razorfen downs.lua",
           "rawFields": {
             "coord": "{ 49.0, 94.0, MAP.THE_BARRENS }",
             "groups": "{\r\n\t\t\t\t\t\tobjective(1, {\t                                 \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"n\", 7873 },\t                       \r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\tobjective(2, {\t             \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"n\", 7874 },\t                       \r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\tobjective(3, {\t                                 \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"n\", 7872 },\t                       \r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t}",
             "lvl": "28",
-            "qg": "12866",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "qg": "12866"
           }
         }
       ],
@@ -32690,6 +32677,7 @@
             "preQuestSingle": [
               6983
             ],
+            "requiredLevel": 30,
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
@@ -32697,7 +32685,7 @@
           "path": ".contrib/.db/forever/holidays/feast of the winter veil.lua",
           "rawFields": {
             "coord": "{ 53.2, 66.6, MAP.ORGRIMMAR }",
-            "lvl": "lvlsquish(30, 30, 10)",
+            "lvl": "30",
             "qg": "13418",
             "races": "HORDE_ONLY",
             "sourceQuest": "6983"
@@ -32741,6 +32729,7 @@
         "stayAlive": false,
         "weekly": false
       },
+      "requiredLevel": 30,
       "requiredRaces": [
         2,
         5,
@@ -32759,13 +32748,6 @@
             ]
           ],
           "type": "npc"
-        }
-      ],
-      "unresolved": [
-        {
-          "expression": "lvlsquish(30, 30, 10)",
-          "field": "lvl",
-          "reason": "unsupported integer expression"
         }
       ]
     },
@@ -33779,14 +33761,13 @@
           "inheritedFields": {
             "lvl": "41"
           },
-          "line": 206,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Maraudon.lua",
+          "line": 174,
+          "path": ".contrib/.db/forever/dungeons & raids/maraudon.lua",
           "rawFields": {
             "coord": "{ 62.2, 39.6, MAP.DESOLACE }",
-            "groups": "{\r\n\t\t\t\t\t\tobjective(1, {\t                                 \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"i\", 17684 },\t                            \r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(17776, {\t                   \r\n\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(17779, {\t                      \r\n\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(17775, {\t               \r\n\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(17777, {\t                   \r\n\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\t\tobjective(1, {\t                                 \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"i\", 17684 },\t                            \r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(17776),\t                   \r\n\t\t\t\t\t\ti(17779),\t                      \r\n\t\t\t\t\t\ti(17775),\t               \r\n\t\t\t\t\t\ti(17777),\t                   \r\n\t\t\t\t\t}",
             "lvl": "41",
-            "qg": "13656",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "qg": "13656"
           }
         }
       ],
@@ -33866,8 +33847,8 @@
           "inheritedFields": {
             "lvl": "41"
           },
-          "line": 234,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Maraudon.lua",
+          "line": 193,
+          "path": ".contrib/.db/forever/dungeons & raids/maraudon.lua",
           "rawFields": {
             "coord": "{ 23.2, 70.3, MAP.DESOLACE }",
             "qg": "11823"
@@ -33934,8 +33915,8 @@
           "inheritedFields": {
             "lvl": "41"
           },
-          "line": 230,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Maraudon.lua",
+          "line": 189,
+          "path": ".contrib/.db/forever/dungeons & raids/maraudon.lua",
           "rawFields": {
             "coord": "{ 68.4, 8.8, MAP.DESOLACE }",
             "qg": "11715"
@@ -34140,14 +34121,13 @@
           "inheritedFields": {
             "lvl": "41"
           },
-          "line": 72,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Maraudon.lua",
+          "line": 56,
+          "path": ".contrib/.db/forever/dungeons & raids/maraudon.lua",
           "rawFields": {
             "coord": "{ 32.1, 64.0, MAP.DESOLACE }",
             "groups": "{\r\n\t\t\t\t\t\tobjective(1, {\t                        \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"i\", 17703 },\t                    \r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\tobjective(2, {\t                    \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"i\", 17702 },\t                \r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t}",
             "lvl": "41",
-            "qg": "13697",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "qg": "13697"
           }
         }
       ],
@@ -34237,6 +34217,7 @@
             "preQuestSingle": [
               7043
             ],
+            "requiredLevel": 30,
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
@@ -34244,7 +34225,7 @@
           "path": ".contrib/.db/forever/holidays/feast of the winter veil.lua",
           "rawFields": {
             "coord": "{ 33.4, 67.0, MAP.IRONFORGE }",
-            "lvl": "lvlsquish(30, 30, 10)",
+            "lvl": "30",
             "qg": "13433",
             "races": "ALLIANCE_ONLY",
             "sourceQuest": "7043"
@@ -34288,6 +34269,7 @@
         "stayAlive": false,
         "weekly": false
       },
+      "requiredLevel": 30,
       "requiredRaces": [
         1,
         3,
@@ -34307,13 +34289,6 @@
           ],
           "type": "npc"
         }
-      ],
-      "unresolved": [
-        {
-          "expression": "lvlsquish(30, 30, 10)",
-          "field": "lvl",
-          "reason": "unsupported integer expression"
-        }
       ]
     },
     "7046": {
@@ -34330,14 +34305,13 @@
           "inheritedFields": {
             "lvl": "41"
           },
-          "line": 194,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Maraudon.lua",
+          "line": 164,
+          "path": ".contrib/.db/forever/dungeons & raids/maraudon.lua",
           "rawFields": {
-            "groups": "{\r\n\t\t\t\t\t\ti(17191, {\t                      \r\n\t\t\t\t\t\t\t[\"description\"] = \"This item is used to open the portal to the Inner Falls just after Celebras the Cursed in Maraudon.\",\r\n\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\t\ti(17191, {\t                      \r\n\t\t\t\t\t\t\t[\"description\"] = \"This item is used to open the portal to the Inner Falls just after Celebras the Cursed in Maraudon.\",\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t}",
             "lvl": "41",
             "qg": "13716",
-            "sourceQuest": "7044",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "sourceQuest": "7044"
           }
         }
       ],
@@ -34647,8 +34621,8 @@
           "inheritedFields": {
             "lvl": "45"
           },
-          "line": 51,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Maraudon.lua",
+          "line": 42,
+          "path": ".contrib/.db/forever/dungeons & raids/maraudon.lua",
           "rawFields": {
             "coord": "{ 26.9, 77.7, MAP.DESOLACE }",
             "qg": "13699"
@@ -34715,8 +34689,8 @@
           "inheritedFields": {
             "lvl": "45"
           },
-          "line": 47,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Maraudon.lua",
+          "line": 38,
+          "path": ".contrib/.db/forever/dungeons & raids/maraudon.lua",
           "rawFields": {
             "coord": "{ 63.8, 10.6, MAP.DESOLACE }",
             "qg": "13698"
@@ -34785,14 +34759,13 @@
           "inheritedFields": {
             "lvl": "41"
           },
-          "line": 86,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Maraudon.lua",
+          "line": 69,
+          "path": ".contrib/.db/forever/dungeons & raids/maraudon.lua",
           "rawFields": {
             "description": "\"This quest becomes available after you defeat Princess Theradras.\"",
             "lvl": "39",
             "maps": "{ MAP.MOONGLADE }",
-            "providers": "{\r\n\t\t\t\t\t\t{ \"n\", 12238 },\t                  \r\n\t\t\t\t\t\t{ \"i\", 17760 },\t               \r\n\t\t\t\t\t}",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "providers": "{\r\n\t\t\t\t\t\t{ \"n\", 12238 },\t                  \r\n\t\t\t\t\t\t{ \"i\", 17760 },\t               \r\n\t\t\t\t\t}"
           }
         }
       ],
@@ -34866,14 +34839,13 @@
           "inheritedFields": {
             "lvl": "41"
           },
-          "line": 125,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Maraudon.lua",
+          "line": 100,
+          "path": ".contrib/.db/forever/dungeons & raids/maraudon.lua",
           "rawFields": {
             "coord": "{ 50.5, 86.7, MAP.DESOLACE }",
-            "groups": "{\r\n                         \r\n\t\t\t\t\t\tobjective(1, {\t                      \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"i\", 17758 },\t                  \r\n\t\t\t\t\t\t\t[\"cost\"] = {\r\n\t\t\t\t\t\t\t\t{ \"i\", 17757, 1 },\t                    \r\n\t\t\t\t\t\t\t\t{ \"i\", 17761, 1 },\t                        \r\n\t\t\t\t\t\t\t\t{ \"i\", 17762, 1 },\t                         \r\n\t\t\t\t\t\t\t\t{ \"i\", 17763, 1 },\t                        \r\n\t\t\t\t\t\t\t\t{ \"i\", 17764, 1 },\t                         \r\n\t\t\t\t\t\t\t\t{ \"i\", 17765, 1 },\t                        \r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(17757, {\t                    \r\n\t\t\t\t\t\t\t[\"coord\"] = { 28.1, 62.4, MAP.DESOLACE },\r\n\t\t\t\t\t\t\t[\"cr\"] = 13718,\t                       \r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(17761, {\t                        \r\n\t\t\t\t\t\t\t[\"description\"] = \"Kolk is standing by the little room where you create the portal for Inner Maraudon, in the middle part.\\n\\nTo attack him, use the Amulet of Spirits that you got from The Nameless Prophet.\",\r\n\t\t\t\t\t\t\t[\"coord\"] = { 29.7, 60.5, MAP.DESOLACE },\r\n\t\t\t\t\t\t\t[\"crs\"] = {\r\n\t\t\t\t\t\t\t\t12240,\t                                  \r\n\t\t\t\t\t\t\t\t13742,\t                        \r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(17762, {\t                         \r\n\t\t\t\t\t\t\t[\"description\"] = \"Gelk is located outside the portal of the purple path, hanging with snakes and rock elementals. He is almost just below the portal (use the stairs to get to him).\\n\\nTo attack him, use the Amulet of Spirits that you got from The Nameless Prophet.\",\r\n\t\t\t\t\t\t\t[\"coord\"] = { 29.4, 56.9, MAP.DESOLACE },\r\n\t\t\t\t\t\t\t[\"crs\"] = {\r\n\t\t\t\t\t\t\t\t12239,\t                                   \r\n\t\t\t\t\t\t\t\t13741,\t                         \r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(17763, {\t                        \r\n\t\t\t\t\t\t\t[\"description\"] = \"Magra is located outside the portal of the orange path. He is in the stairs area.\\n\\nTo attack him, use the Amulet of Spirits that you got from The Nameless Prophet.\",\r\n\t\t\t\t\t\t\t[\"coord\"] = { 35.8, 60.4, MAP.DESOLACE },\r\n\t\t\t\t\t\t\t[\"crs\"] = {\r\n\t\t\t\t\t\t\t\t12241,\t                                   \r\n\t\t\t\t\t\t\t\t13740,\t                         \r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(17764, {\t                         \r\n\t\t\t\t\t\t\t[\"description\"] = \"Maraudos is located inside the purple path of Maraudon, wandering not too far away from the entrance.\\n\\nTo attack him, use the Amulet of Spirits that you got from The Nameless Prophet.\",\r\n\t\t\t\t\t\t\t[\"crs\"] = {\r\n\t\t\t\t\t\t\t\t12242,\t                                       \r\n\t\t\t\t\t\t\t\t13739,\t                             \r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(17765, {\t                        \r\n\t\t\t\t\t\t\t[\"description\"] = \"Veng is located inside the orange path of Maraudon, wandering by the end of the path.\\n\\nTo attack him, use the Amulet of Spirits that you got from The Nameless Prophet.\",\r\n\t\t\t\t\t\t\t[\"crs\"] = {\r\n\t\t\t\t\t\t\t\t12243,\t                                  \r\n\t\t\t\t\t\t\t\t13738,\t                        \r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t}),\r\n               \r\n\t\t\t\t\t\ti(17774, {\t                     \r\n\t\t\t\t\t\t\t[\"timeline\"] = { REMOVED_4_0_3 },\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\t\tobjective(1, {\t                      \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"i\", 17758 },\t                  \r\n\t\t\t\t\t\t\t[\"cost\"] = {\r\n\t\t\t\t\t\t\t\t{ \"i\", 17757, 1 },\t                    \r\n\t\t\t\t\t\t\t\t{ \"i\", 17761, 1 },\t                        \r\n\t\t\t\t\t\t\t\t{ \"i\", 17762, 1 },\t                         \r\n\t\t\t\t\t\t\t\t{ \"i\", 17763, 1 },\t                        \r\n\t\t\t\t\t\t\t\t{ \"i\", 17764, 1 },\t                         \r\n\t\t\t\t\t\t\t\t{ \"i\", 17765, 1 },\t                        \r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(17757, {\t                    \r\n\t\t\t\t\t\t\t[\"coord\"] = { 28.1, 62.4, MAP.DESOLACE },\r\n\t\t\t\t\t\t\t[\"cr\"] = 13718,\t                       \r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(17761, {\t                        \r\n\t\t\t\t\t\t\t[\"description\"] = \"Kolk is standing by the little room where you create the portal for Inner Maraudon, in the middle part.\\n\\nTo attack him, use the Amulet of Spirits that you got from The Nameless Prophet.\",\r\n\t\t\t\t\t\t\t[\"coord\"] = { 29.7, 60.5, MAP.DESOLACE },\r\n\t\t\t\t\t\t\t[\"crs\"] = {\r\n\t\t\t\t\t\t\t\t12240,\t                                  \r\n\t\t\t\t\t\t\t\t13742,\t                        \r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(17762, {\t                         \r\n\t\t\t\t\t\t\t[\"description\"] = \"Gelk is located outside the portal of the purple path, hanging with snakes and rock elementals. He is almost just below the portal (use the stairs to get to him).\\n\\nTo attack him, use the Amulet of Spirits that you got from The Nameless Prophet.\",\r\n\t\t\t\t\t\t\t[\"coord\"] = { 29.4, 56.9, MAP.DESOLACE },\r\n\t\t\t\t\t\t\t[\"crs\"] = {\r\n\t\t\t\t\t\t\t\t12239,\t                                   \r\n\t\t\t\t\t\t\t\t13741,\t                         \r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(17763, {\t                        \r\n\t\t\t\t\t\t\t[\"description\"] = \"Magra is located outside the portal of the orange path. He is in the stairs area.\\n\\nTo attack him, use the Amulet of Spirits that you got from The Nameless Prophet.\",\r\n\t\t\t\t\t\t\t[\"coord\"] = { 35.8, 60.4, MAP.DESOLACE },\r\n\t\t\t\t\t\t\t[\"crs\"] = {\r\n\t\t\t\t\t\t\t\t12241,\t                                   \r\n\t\t\t\t\t\t\t\t13740,\t                         \r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(17764, {\t                         \r\n\t\t\t\t\t\t\t[\"description\"] = \"Maraudos is located inside the purple path of Maraudon, wandering not too far away from the entrance.\\n\\nTo attack him, use the Amulet of Spirits that you got from The Nameless Prophet.\",\r\n\t\t\t\t\t\t\t[\"crs\"] = {\r\n\t\t\t\t\t\t\t\t12242,\t                                       \r\n\t\t\t\t\t\t\t\t13739,\t                             \r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(17765, {\t                        \r\n\t\t\t\t\t\t\t[\"description\"] = \"Veng is located inside the orange path of Maraudon, wandering by the end of the path.\\n\\nTo attack him, use the Amulet of Spirits that you got from The Nameless Prophet.\",\r\n\t\t\t\t\t\t\t[\"crs\"] = {\r\n\t\t\t\t\t\t\t\t12243,\t                                  \r\n\t\t\t\t\t\t\t\t13738,\t                        \r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(17774),\t                     \r\n\t\t\t\t\t}",
             "lvl": "39",
-            "providers": "{\r\n\t\t\t\t\t\t{ \"n\", 13717 },\t                 \r\n\t\t\t\t\t\t{ \"i\", 17781 },\t                            \r\n\t\t\t\t\t}",
-            "timeline": "{ REMOVED_4_0_3 }"
+            "providers": "{\r\n\t\t\t\t\t\t{ \"n\", 13717 },\t                 \r\n\t\t\t\t\t\t{ \"i\", 17781 },\t                            \r\n\t\t\t\t\t}"
           }
         }
       ],
@@ -34965,8 +34937,8 @@
           "inheritedFields": {
             "lvl": "39"
           },
-          "line": 103,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Maraudon.lua",
+          "line": 83,
+          "path": ".contrib/.db/forever/dungeons & raids/maraudon.lua",
           "rawFields": {
             "coord": "{ 39.2, 86.3, MAP.ORGRIMMAR }",
             "qg": "7311"
@@ -35033,8 +35005,8 @@
           "inheritedFields": {
             "lvl": "39"
           },
-          "line": 99,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Maraudon.lua",
+          "line": 79,
+          "path": ".contrib/.db/forever/dungeons & raids/maraudon.lua",
           "rawFields": {
             "coord": "{ 66.4, 49.3, MAP.DUSTWALLOW_MARSH }",
             "qg": "4967"
@@ -44840,19 +44812,133 @@
     "7647": {
       "declarations": [
         {
-          "expression": "bubbleDownSelf({[\"timeline\"] = { REMOVED_4_0_3 }}, {\r\n\t\t\t[\"providers\"] = {\r\n\t\t\t\t{ \"n\", 928 },\t-- Lord Grayson Shadowbreaker <Paladin Trainer>\r\n\t\t\t\t{ \"i\", 18804 },\t-- Lord Grayson's Satchel\r\n\t\t\t},\r\n\t\t\t[\"sourceQuest\"] = 7646,\t-- The Divination Scryer\r\n\t\t\t[\"coord\"] = { 48.6, 50.0, MAP.STORMWIND_CITY },\r\n\t\t\t[\"classes\"] = { PALADIN },\r\n\t\t\t[\"races\"] = ALLIANCE_ONLY,\r\n\t\t\t[\"lvl\"] = 60,\r\n\t\t\t[\"groups\"] = {\r\n\t\t\t\tobjective(1, {\t-- 0/1 Charger's Redeemed Soul\r\n\t\t\t\t\t[\"provider\"] = { \"i\", 18799 },\t-- Charger's Redeemed Soul\r\n\t\t\t\t\t[\"cost\"] = { { \"i\", 18749, 1 } },\t-- Charger's Lost Soul\r\n\t\t\t\t\t[\"crs\"] = {\r\n\t\t\t\t\t\t14516,\t-- Death Knight Darkreaver\r\n\t\t\t\t\t\t14568,\t-- Darkreaver's Fallen Charger\r\n\t\t\t\t\t},\r\n\t\t\t\t}),\r\n\t\t\t\tobjective(2, {\t-- 0/1 Blessed Arcanite Barding\r\n\t\t\t\t\t[\"provider\"] = { \"i\", 18792 },\t-- Blessed Arcanite Barding\r\n\t\t\t\t}),\r\n\t\t\t\tmount(23214, {\t-- Charger (MOUNT!)\r\n\t\t\t\t\t[\"classes\"] = { PALADIN },\r\n\t\t\t\t\t[\"races\"] = ALLIANCE_ONLY,\r\n\t\t\t\t\t[\"lvl\"] = 60,\r\n\t\t\t\t}),\r\n\t\t\t},\r\n\t\t})",
+          "expression": "",
           "fields": {
-            "name": "Judgment and Redemption"
+            "name": "Judgment and Redemption",
+            "objectives": {
+              "creature": [
+                {
+                  "id": 14516,
+                  "text": "0/1 Charger's Redeemed Soul"
+                },
+                {
+                  "id": 14568,
+                  "text": "0/1 Charger's Redeemed Soul"
+                }
+              ],
+              "item": [
+                {
+                  "id": 18799,
+                  "text": "0/1 Charger's Redeemed Soul"
+                },
+                {
+                  "id": 18792,
+                  "text": "0/1 Blessed Arcanite Barding"
+                }
+              ]
+            },
+            "preQuestSingle": [
+              7646
+            ],
+            "requiredClasses": 2,
+            "requiredLevel": 60,
+            "requiredRaces": 4294967373,
+            "sourceItemId": 18804
           },
-          "inheritedFields": {},
-          "line": 351,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Scholomance.lua",
-          "rawFields": {}
+          "inheritedFields": {
+            "lvl": "55"
+          },
+          "line": 218,
+          "path": ".contrib/.db/forever/dungeons & raids/scholomance.lua",
+          "rawFields": {
+            "classes": "{ PALADIN }",
+            "coord": "{ 48.6, 50.0, MAP.STORMWIND_CITY }",
+            "groups": "{\r\n\t\t\t\t\t\tobjective(1, {\t                              \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"i\", 18799 },\t                          \r\n\t\t\t\t\t\t\t[\"cost\"] = { { \"i\", 18749, 1 } },\t                      \r\n\t\t\t\t\t\t\t[\"crs\"] = {\r\n\t\t\t\t\t\t\t\t14516,\t                          \r\n\t\t\t\t\t\t\t\t14568,\t                              \r\n\t\t\t\t\t\t\t},\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\tobjective(2, {\t                               \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"i\", 18792 },\t                           \r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\tmount(23214, {\t                   \r\n\t\t\t\t\t\t\t[\"classes\"] = { PALADIN },\r\n\t\t\t\t\t\t\t[\"races\"] = ALLIANCE_ONLY,\r\n\t\t\t\t\t\t\t[\"lvl\"] = 60,\r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t}",
+            "lvl": "60",
+            "providers": "{\r\n\t\t\t\t\t\t{ \"n\", 928 },\t                                               \r\n\t\t\t\t\t\t{ \"i\", 18804 },\t                         \r\n\t\t\t\t\t}",
+            "races": "ALLIANCE_ONLY",
+            "sourceQuest": "7646"
+          }
         }
       ],
-      "faction": "Both",
+      "faction": "Alliance",
       "id": 7647,
       "name": "Judgment and Redemption",
+      "objectives": {
+        "creature": [
+          {
+            "id": 14516,
+            "text": "0/1 Charger's Redeemed Soul"
+          },
+          {
+            "id": 14568,
+            "text": "0/1 Charger's Redeemed Soul"
+          }
+        ],
+        "item": [
+          {
+            "id": 18799,
+            "text": "0/1 Charger's Redeemed Soul"
+          },
+          {
+            "id": 18792,
+            "text": "0/1 Blessed Arcanite Barding"
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 928,
+          "role": "available",
+          "spawns": [
+            [
+              1519,
+              48.6,
+              50
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 18804,
+          "role": "available",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 18799,
+          "itemId": 18799,
+          "name": "0/1 Charger's Redeemed Soul",
+          "role": "objective",
+          "spawns": [],
+          "type": "item"
+        },
+        {
+          "id": 14516,
+          "name": "0/1 Charger's Redeemed Soul",
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 14568,
+          "name": "0/1 Charger's Redeemed Soul",
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        },
+        {
+          "id": 18792,
+          "itemId": 18792,
+          "name": "0/1 Blessed Arcanite Barding",
+          "role": "objective",
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "preQuestSingle": [
+        7646
+      ],
       "questType": {
         "autoRewarded": false,
         "battleground": false,
@@ -44870,11 +44956,34 @@
         "stayAlive": false,
         "weekly": false
       },
-      "unresolved": [
+      "requiredClasses": [
+        2
+      ],
+      "requiredLevel": 60,
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "sourceItemId": 18804,
+      "startedBy": [
         {
-          "expression": "bubbleDownSelf({[\"timeline\"] = { REMOVED_4_0_3 }}, {\r\n\t\t\t[\"providers\"] = {\r\n\t\t\t\t{ \"n\", 928 },\t-- Lord Grayson Shadowbreaker <Paladin Trainer>\r\n\t\t\t\t{ \"i\", 18804 },\t-- Lord Grayson's Satchel\r\n\t\t\t},\r\n\t\t\t[\"sourceQuest\"] = 7646,\t-- The Divination Scryer\r\n\t\t\t[\"coord\"] = { 48.6, 50.0, MAP.STORMWIND_CITY },\r\n\t\t\t[\"classes\"] = { PALADIN },\r\n\t\t\t[\"races\"] = ALLIANCE_ONLY,\r\n\t\t\t[\"lvl\"] = 60,\r\n\t\t\t[\"groups\"] = {\r\n\t\t\t\tobjective(1, {\t-- 0/1 Charger's Redeemed Soul\r\n\t\t\t\t\t[\"provider\"] = { \"i\", 18799 },\t-- Charger's Redeemed Soul\r\n\t\t\t\t\t[\"cost\"] = { { \"i\", 18749, 1 } },\t-- Charger's Lost Soul\r\n\t\t\t\t\t[\"crs\"] = {\r\n\t\t\t\t\t\t14516,\t-- Death Knight Darkreaver\r\n\t\t\t\t\t\t14568,\t-- Darkreaver's Fallen Charger\r\n\t\t\t\t\t},\r\n\t\t\t\t}),\r\n\t\t\t\tobjective(2, {\t-- 0/1 Blessed Arcanite Barding\r\n\t\t\t\t\t[\"provider\"] = { \"i\", 18792 },\t-- Blessed Arcanite Barding\r\n\t\t\t\t}),\r\n\t\t\t\tmount(23214, {\t-- Charger (MOUNT!)\r\n\t\t\t\t\t[\"classes\"] = { PALADIN },\r\n\t\t\t\t\t[\"races\"] = ALLIANCE_ONLY,\r\n\t\t\t\t\t[\"lvl\"] = 60,\r\n\t\t\t\t}),\r\n\t\t\t},\r\n\t\t})",
-          "field": "declaration",
-          "reason": "quest wrapper expression was not evaluated"
+          "id": 928,
+          "spawns": [
+            [
+              1519,
+              48.6,
+              50
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 18804,
+          "spawns": [],
+          "type": "item"
         }
       ]
     },
@@ -45824,19 +45933,54 @@
     "7666": {
       "declarations": [
         {
-          "expression": "bubbleDownSelf({[\"timeline\"] = { REMOVED_4_0_3 }}, {\r\n\t\t\t[\"qg\"] = 928,\t-- Lord Grayson Shadowbreaker <Paladin Trainer>\r\n\t\t\t[\"sourceQuest\"] = 7647,\t-- Judgment and Redemption\r\n\t\t\t[\"coord\"] = { 48.6, 50.0, MAP.STORMWIND_CITY },\r\n\t\t\t[\"classes\"] = { PALADIN },\r\n\t\t\t[\"races\"] = ALLIANCE_ONLY,\r\n\t\t\t[\"repeatable\"] = true,\r\n\t\t\t[\"lvl\"] = 60,\r\n\t\t\t[\"groups\"] = {\r\n\t\t\t\ti(18746),\t-- Divination Scryer\r\n\t\t\t},\r\n\t\t})",
+          "expression": "",
           "fields": {
-            "name": "Again Into the Great Ossuary [A]"
+            "name": "Again Into the Great Ossuary [A]",
+            "preQuestSingle": [
+              7647
+            ],
+            "requiredClasses": 2,
+            "requiredLevel": 60,
+            "requiredRaces": 4294967373,
+            "specialFlags": 1
           },
-          "inheritedFields": {},
-          "line": 66,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Scholomance.lua",
-          "rawFields": {}
+          "inheritedFields": {
+            "lvl": "55"
+          },
+          "line": 32,
+          "path": ".contrib/.db/forever/dungeons & raids/scholomance.lua",
+          "rawFields": {
+            "classes": "{ PALADIN }",
+            "coord": "{ 48.6, 50.0, MAP.STORMWIND_CITY }",
+            "groups": "{\r\n\t\t\t\t\t\ti(18746),\t                    \r\n\t\t\t\t\t}",
+            "lvl": "60",
+            "qg": "928",
+            "races": "ALLIANCE_ONLY",
+            "repeatable": "true",
+            "sourceQuest": "7647"
+          }
         }
       ],
-      "faction": "Both",
+      "faction": "Alliance",
       "id": 7666,
       "name": "Again Into the Great Ossuary [A]",
+      "places": [
+        {
+          "id": 928,
+          "role": "available",
+          "spawns": [
+            [
+              1519,
+              48.6,
+              50
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        7647
+      ],
       "questType": {
         "autoRewarded": false,
         "battleground": false,
@@ -45849,16 +45993,33 @@
         "monthly": false,
         "partyAccept": false,
         "raid": false,
-        "repeatable": false,
+        "repeatable": true,
         "sharable": false,
         "stayAlive": false,
         "weekly": false
       },
-      "unresolved": [
+      "requiredClasses": [
+        2
+      ],
+      "requiredLevel": 60,
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
         {
-          "expression": "bubbleDownSelf({[\"timeline\"] = { REMOVED_4_0_3 }}, {\r\n\t\t\t[\"qg\"] = 928,\t-- Lord Grayson Shadowbreaker <Paladin Trainer>\r\n\t\t\t[\"sourceQuest\"] = 7647,\t-- Judgment and Redemption\r\n\t\t\t[\"coord\"] = { 48.6, 50.0, MAP.STORMWIND_CITY },\r\n\t\t\t[\"classes\"] = { PALADIN },\r\n\t\t\t[\"races\"] = ALLIANCE_ONLY,\r\n\t\t\t[\"repeatable\"] = true,\r\n\t\t\t[\"lvl\"] = 60,\r\n\t\t\t[\"groups\"] = {\r\n\t\t\t\ti(18746),\t-- Divination Scryer\r\n\t\t\t},\r\n\t\t})",
-          "field": "declaration",
-          "reason": "quest wrapper expression was not evaluated"
+          "id": 928,
+          "spawns": [
+            [
+              1519,
+              48.6,
+              50
+            ]
+          ],
+          "type": "npc"
         }
       ]
     },
@@ -45872,17 +46033,18 @@
             "requiredLevel": 58,
             "requiredRaces": 8589934770
           },
-          "inheritedFields": {},
-          "line": 391,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Scholomance.lua",
+          "inheritedFields": {
+            "lvl": "55"
+          },
+          "line": 256,
+          "path": ".contrib/.db/forever/dungeons & raids/scholomance.lua",
           "rawFields": {
             "classes": "{ SHAMAN }",
             "coord": "{ 39.2, 48.4, MAP.ORGRIMMAR }",
-            "cost": "{\r\n\t\t\t\t{ \"i\", 12800, 1 },\t                     \r\n\t\t\t\t{ \"i\", 18335, 1 },\t                         \r\n\t\t\t}",
+            "cost": "{\r\n\t\t\t\t\t\t{ \"i\", 12800, 1 },\t                     \r\n\t\t\t\t\t\t{ \"i\", 18335, 1 },\t                         \r\n\t\t\t\t\t}",
             "lvl": "58",
             "qg": "13417",
-            "races": "HORDE_ONLY",
-            "timeline": "{ ADDED_1_4_0, REMOVED_4_0_3 }"
+            "races": "HORDE_ONLY"
           }
         }
       ],
@@ -45972,18 +46134,19 @@
             "requiredLevel": 55,
             "requiredRaces": 8589934770
           },
-          "inheritedFields": {},
-          "line": 558,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Scholomance.lua",
+          "inheritedFields": {
+            "lvl": "55"
+          },
+          "line": 365,
+          "path": ".contrib/.db/forever/dungeons & raids/scholomance.lua",
           "rawFields": {
             "classes": "{ SHAMAN }",
             "coord": "{ 38.7, 35.9, MAP.ORGRIMMAR }",
-            "groups": "{\r\n\t\t\t\tobjective(1, {\t                        \r\n\t\t\t\t\t[\"provider\"] = { \"i\", 18880 },\t                    \r\n\t\t\t\t\t[\"cr\"] = 14516,\t                          \r\n\t\t\t\t}),\r\n\t\t\t\ti(18807, {\t                       \r\n\t\t\t\t\t[\"timeline\"] = { REMOVED_1_7_0 },\r\n\t\t\t\t}),\r\n\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\t\tobjective(1, {\t                        \r\n\t\t\t\t\t\t\t[\"provider\"] = { \"i\", 18880 },\t                    \r\n\t\t\t\t\t\t\t[\"cr\"] = 14516,\t                          \r\n\t\t\t\t\t\t}),\r\n\t\t\t\t\t\ti(18807),\t                       \r\n\t\t\t\t\t}",
             "lvl": "55",
             "qg": "13417",
             "races": "HORDE_ONLY",
-            "sourceQuest": "7667",
-            "timeline": "{ REMOVED_1_7_0 }"
+            "sourceQuest": "7667"
           }
         }
       ],
@@ -46081,19 +46244,54 @@
     "7669": {
       "declarations": [
         {
-          "expression": "bubbleDownSelf({[\"timeline\"] = { REMOVED_4_0_3 }}, {\r\n\t\t\t[\"qg\"] = 13417,\t-- Sagorne Creststrider <Shaman Trainer>\r\n\t\t\t[\"sourceQuest\"] = 8258,\t-- The Darkreaver Menace\r\n\t\t\t[\"coord\"] = { 38.7, 35.9, MAP.ORGRIMMAR },\r\n\t\t\t[\"classes\"] = { SHAMAN },\r\n\t\t\t[\"races\"] = HORDE_ONLY,\r\n\t\t\t[\"repeatable\"] = true,\r\n\t\t\t[\"lvl\"] = 60,\r\n\t\t\t[\"groups\"] = {\r\n\t\t\t\ti(18746),\t-- Divination Scryer\r\n\t\t\t},\r\n\t\t})",
+          "expression": "",
           "fields": {
-            "name": "Again Into the Great Ossuary [H]"
+            "name": "Again Into the Great Ossuary [H]",
+            "preQuestSingle": [
+              8258
+            ],
+            "requiredClasses": 64,
+            "requiredLevel": 60,
+            "requiredRaces": 8589934770,
+            "specialFlags": 1
           },
-          "inheritedFields": {},
-          "line": 79,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Scholomance.lua",
-          "rawFields": {}
+          "inheritedFields": {
+            "lvl": "55"
+          },
+          "line": 44,
+          "path": ".contrib/.db/forever/dungeons & raids/scholomance.lua",
+          "rawFields": {
+            "classes": "{ SHAMAN }",
+            "coord": "{ 38.7, 35.9, MAP.ORGRIMMAR }",
+            "groups": "{\r\n\t\t\t\t\t\ti(18746),\t                    \r\n\t\t\t\t\t}",
+            "lvl": "60",
+            "qg": "13417",
+            "races": "HORDE_ONLY",
+            "repeatable": "true",
+            "sourceQuest": "8258"
+          }
         }
       ],
-      "faction": "Both",
+      "faction": "Horde",
       "id": 7669,
       "name": "Again Into the Great Ossuary [H]",
+      "places": [
+        {
+          "id": 13417,
+          "role": "available",
+          "spawns": [
+            [
+              1637,
+              38.7,
+              35.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        8258
+      ],
       "questType": {
         "autoRewarded": false,
         "battleground": false,
@@ -46106,16 +46304,33 @@
         "monthly": false,
         "partyAccept": false,
         "raid": false,
-        "repeatable": false,
+        "repeatable": true,
         "sharable": false,
         "stayAlive": false,
         "weekly": false
       },
-      "unresolved": [
+      "requiredClasses": [
+        7
+      ],
+      "requiredLevel": 60,
+      "requiredRaces": [
+        2,
+        5,
+        6,
+        8,
+        96
+      ],
+      "startedBy": [
         {
-          "expression": "bubbleDownSelf({[\"timeline\"] = { REMOVED_4_0_3 }}, {\r\n\t\t\t[\"qg\"] = 13417,\t-- Sagorne Creststrider <Shaman Trainer>\r\n\t\t\t[\"sourceQuest\"] = 8258,\t-- The Darkreaver Menace\r\n\t\t\t[\"coord\"] = { 38.7, 35.9, MAP.ORGRIMMAR },\r\n\t\t\t[\"classes\"] = { SHAMAN },\r\n\t\t\t[\"races\"] = HORDE_ONLY,\r\n\t\t\t[\"repeatable\"] = true,\r\n\t\t\t[\"lvl\"] = 60,\r\n\t\t\t[\"groups\"] = {\r\n\t\t\t\ti(18746),\t-- Divination Scryer\r\n\t\t\t},\r\n\t\t})",
-          "field": "declaration",
-          "reason": "quest wrapper expression was not evaluated"
+          "id": 13417,
+          "spawns": [
+            [
+              1637,
+              38.7,
+              35.9
+            ]
+          ],
+          "type": "npc"
         }
       ]
     },
@@ -48557,14 +48772,13 @@
           "inheritedFields": {
             "lvl": "50"
           },
-          "line": 114,
-          "path": ".contrib/.db/forever/zzOLD/01 - Dungeons Raids/01 - Classic/Blackrock Spire.lua",
+          "line": 81,
+          "path": ".contrib/.db/forever/dungeons & raids/blackrock spire.lua",
           "rawFields": {
             "coord": "{ 34.9, 27.9, MAP.BURNING_STEPPES }",
             "lvl": "55",
             "maps": "{ MAP.BLACKROCK_MOUNTAIN }",
-            "providers": "{\r\n\t\t\t\t\t{ \"n\",   9046 },\t                                               \r\n\t\t\t\t\t{ \"i\",  18987 },\t                      \r\n\t\t\t\t\t{ \"o\", 179880 },\t                     \r\n\t\t\t\t}",
-            "timeline": "{ REMOVED_6_0_3 }"
+            "providers": "{\r\n\t\t\t\t\t{ \"n\",   9046 },\t                                               \r\n\t\t\t\t\t{ \"i\",  18987 },\t                      \r\n\t\t\t\t\t{ \"o\", 179880 },\t                     \r\n\t\t\t\t}"
           }
         }
       ],
