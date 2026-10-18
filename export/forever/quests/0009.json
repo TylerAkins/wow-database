@@ -1,5 +1,632 @@
 {
   "quests": {
+    "95999": {
+      "declarations": [
+        {
+          "expression": "",
+          "fields": {
+            "name": "Wanted: Insinerator Gar'im",
+            "objectives": {
+              "creature": [
+                {
+                  "id": 214519,
+                  "text": "0/1 Broken Staff of Incinerator Gar'im"
+                }
+              ],
+              "item": [
+                {
+                  "id": 271872,
+                  "text": "0/1 Broken Staff of Incinerator Gar'im"
+                }
+              ]
+            },
+            "requiredLevel": 16,
+            "requiredRaces": 4294967373
+          },
+          "inheritedFields": {},
+          "line": 706,
+          "path": ".contrib/.db/forever/zones/eastern kingdoms/redridge mountains.lua",
+          "rawFields": {
+            "coord": "{ 24.3, 46.2, MAP.REDRIDGE_MOUNTAINS }",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                                         \r\n\t\t\t\t\t\tprovider = { \"i\", 271872 },\t                                           \r\n\t\t\t\t\t\tcoord = { 77.8, 86.6, MAP.REDRIDGE_MOUNTAINS },\r\n\t\t\t\t\t\tcr = 214519,\t                     \r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(277234),\t                    \r\n\t\t\t\t\ti(277226),\t                   \r\n\t\t\t\t\ti(277218),\t                      \r\n\t\t\t\t}",
+            "lvl": "16",
+            "provider": "{ \"o\", 649051 }",
+            "races": "ALLIANCE_ONLY",
+            "timeline": "{ TIMELINE.ADDED_1_60_1 }"
+          }
+        }
+      ],
+      "faction": "Alliance",
+      "id": 95999,
+      "name": "Wanted: Insinerator Gar'im",
+      "objectives": {
+        "creature": [
+          {
+            "id": 214519,
+            "text": "0/1 Broken Staff of Incinerator Gar'im"
+          }
+        ],
+        "item": [
+          {
+            "id": 271872,
+            "text": "0/1 Broken Staff of Incinerator Gar'im"
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 649051,
+          "role": "available",
+          "spawns": [
+            [
+              44,
+              24.3,
+              46.2
+            ]
+          ],
+          "type": "object"
+        },
+        {
+          "id": 271872,
+          "itemId": 271872,
+          "name": "0/1 Broken Staff of Incinerator Gar'im",
+          "role": "objective",
+          "spawns": [
+            [
+              44,
+              77.8,
+              86.6
+            ]
+          ],
+          "type": "item"
+        },
+        {
+          "id": 214519,
+          "name": "0/1 Broken Staff of Incinerator Gar'im",
+          "role": "objective",
+          "spawns": [
+            [
+              44,
+              77.8,
+              86.6
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredLevel": 16,
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 649051,
+          "spawns": [
+            [
+              44,
+              24.3,
+              46.2
+            ]
+          ],
+          "type": "object"
+        }
+      ]
+    },
+    "96031": {
+      "altQuests": [
+        97906,
+        97922,
+        97934,
+        97946,
+        97958,
+        97969
+      ],
+      "declarations": [
+        {
+          "expression": "",
+          "fields": {
+            "altQuests": [
+              97906,
+              97922,
+              97934,
+              97946,
+              97958,
+              97969
+            ],
+            "lockCriteria": [
+              1,
+              "spellID",
+              1229432
+            ],
+            "name": "Camping 101: Leatherworking [Dun Morogh]",
+            "preQuestSingle": [
+              96608
+            ],
+            "requiredLevel": 4,
+            "requiredRaces": 4294967373,
+            "requiredSkill": [
+              165,
+              1
+            ]
+          },
+          "inheritedFields": {},
+          "line": 782,
+          "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
+          "rawFields": {
+            "altQuests": "{\r\n\t\t\t\t\t97906,\t                                        \r\n\t\t\t\t\t97922,\t                                              \r\n\t\t\t\t\t97934,\t                                        \r\n\t\t\t\t\t97946,\t                                           \r\n\t\t\t\t\t97958,\t                                                \r\n\t\t\t\t\t97969,\t                              \r\n\t\t\t\t}",
+            "coord": "{ 46.7, 53.9, MAP.DUN_MOROGH }",
+            "groups": "{\r\n\t\t\t\t\trecipe(1229432),\t                            \r\n\t\t\t\t}",
+            "lockCriteria": "{ 1, \"spellID\", 1229432 }",
+            "lvl": "4",
+            "maps": "{ MAP.IRONFORGE }",
+            "qg": "265813",
+            "races": "ALLIANCE_ONLY",
+            "requireSkill": "LEATHERWORKING",
+            "sourceQuest": "96608",
+            "timeline": "{ TIMELINE.ADDED_1_60_1 }"
+          }
+        }
+      ],
+      "faction": "Alliance",
+      "id": 96031,
+      "lockCriteria": [
+        1,
+        "spellID",
+        1229432
+      ],
+      "name": "Camping 101: Leatherworking [Dun Morogh]",
+      "places": [
+        {
+          "id": 265813,
+          "role": "available",
+          "spawns": [
+            [
+              1,
+              46.7,
+              53.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        96608
+      ],
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "profession": "LEATHERWORKING",
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredLevel": 4,
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "requiredSkill": {
+        "skillId": 165,
+        "value": 1
+      },
+      "startedBy": [
+        {
+          "id": 265813,
+          "spawns": [
+            [
+              1,
+              46.7,
+              53.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ]
+    },
+    "96044": {
+      "altQuests": [
+        97900,
+        97916,
+        97928,
+        97939,
+        97952,
+        97964
+      ],
+      "declarations": [
+        {
+          "expression": "",
+          "fields": {
+            "altQuests": [
+              97900,
+              97916,
+              97928,
+              97939,
+              97952,
+              97964
+            ],
+            "lockCriteria": [
+              1,
+              "spellID",
+              1230171
+            ],
+            "name": "Camping 101: Blacksmithing [Dun Morogh]",
+            "preQuestSingle": [
+              96608
+            ],
+            "requiredLevel": 4,
+            "requiredRaces": 4294967373,
+            "requiredSkill": [
+              164,
+              1
+            ]
+          },
+          "inheritedFields": {},
+          "line": 637,
+          "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
+          "rawFields": {
+            "altQuests": "{\r\n\t\t\t\t\t97900,\t                                       \r\n\t\t\t\t\t97916,\t                                             \r\n\t\t\t\t\t97928,\t                                       \r\n\t\t\t\t\t97939,\t                                          \r\n\t\t\t\t\t97952,\t                                               \r\n\t\t\t\t\t97964,\t                             \r\n\t\t\t\t}",
+            "coord": "{ 46.7, 53.9, MAP.DUN_MOROGH }",
+            "groups": "{\r\n\t\t\t\t\trecipe(1230171),\t                                  \r\n\t\t\t\t}",
+            "lockCriteria": "{ 1, \"spellID\", 1230171 }",
+            "lvl": "4",
+            "qg": "265813",
+            "races": "ALLIANCE_ONLY",
+            "requireSkill": "BLACKSMITHING",
+            "sourceQuest": "96608",
+            "timeline": "{ TIMELINE.ADDED_1_60_1 }"
+          }
+        }
+      ],
+      "faction": "Alliance",
+      "id": 96044,
+      "lockCriteria": [
+        1,
+        "spellID",
+        1230171
+      ],
+      "name": "Camping 101: Blacksmithing [Dun Morogh]",
+      "places": [
+        {
+          "id": 265813,
+          "role": "available",
+          "spawns": [
+            [
+              1,
+              46.7,
+              53.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        96608
+      ],
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "profession": "BLACKSMITHING",
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredLevel": 4,
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "requiredSkill": {
+        "skillId": 164,
+        "value": 1
+      },
+      "startedBy": [
+        {
+          "id": 265813,
+          "spawns": [
+            [
+              1,
+              46.7,
+              53.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ]
+    },
+    "96045": {
+      "altQuests": [
+        97899,
+        97915,
+        97927,
+        97938,
+        97951,
+        97963
+      ],
+      "declarations": [
+        {
+          "expression": "",
+          "fields": {
+            "altQuests": [
+              97899,
+              97915,
+              97927,
+              97938,
+              97951,
+              97963
+            ],
+            "lockCriteria": [
+              1,
+              "spellID",
+              1230564
+            ],
+            "name": "Camping 101: Alchemy [Dun Morogh]",
+            "preQuestSingle": [
+              96608
+            ],
+            "requiredLevel": 4,
+            "requiredRaces": 4294967373,
+            "requiredSkill": [
+              171,
+              1
+            ]
+          },
+          "inheritedFields": {},
+          "line": 615,
+          "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
+          "rawFields": {
+            "altQuests": "{\r\n\t\t\t\t\t97899,\t                                 \r\n\t\t\t\t\t97915,\t                                       \r\n\t\t\t\t\t97927,\t                                 \r\n\t\t\t\t\t97938,\t                                    \r\n\t\t\t\t\t97951,\t                                         \r\n\t\t\t\t\t97963,\t                       \r\n\t\t\t\t}",
+            "coord": "{ 46.7, 53.9, MAP.DUN_MOROGH }",
+            "groups": "{\r\n\t\t\t\t\trecipe(1230564),\t                     \r\n\t\t\t\t}",
+            "lockCriteria": "{ 1, \"spellID\", 1230564 }",
+            "lvl": "4",
+            "maps": "{ MAP.IRONFORGE }",
+            "qg": "265813",
+            "races": "ALLIANCE_ONLY",
+            "requireSkill": "ALCHEMY",
+            "sourceQuest": "96608",
+            "timeline": "{ TIMELINE.ADDED_1_60_1 }"
+          }
+        }
+      ],
+      "faction": "Alliance",
+      "id": 96045,
+      "lockCriteria": [
+        1,
+        "spellID",
+        1230564
+      ],
+      "name": "Camping 101: Alchemy [Dun Morogh]",
+      "places": [
+        {
+          "id": 265813,
+          "role": "available",
+          "spawns": [
+            [
+              1,
+              46.7,
+              53.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        96608
+      ],
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "profession": "ALCHEMY",
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredLevel": 4,
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "requiredSkill": {
+        "skillId": 171,
+        "value": 1
+      },
+      "startedBy": [
+        {
+          "id": 265813,
+          "spawns": [
+            [
+              1,
+              46.7,
+              53.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ]
+    },
+    "96046": {
+      "altQuests": [
+        97907,
+        97923,
+        97935,
+        97948,
+        97959,
+        97970
+      ],
+      "declarations": [
+        {
+          "expression": "",
+          "fields": {
+            "altQuests": [
+              97907,
+              97923,
+              97935,
+              97948,
+              97959,
+              97970
+            ],
+            "lockCriteria": [
+              1,
+              "spellID",
+              1230161
+            ],
+            "name": "Camping 101: Mining [Dun Morogh]",
+            "preQuestSingle": [
+              96608
+            ],
+            "requiredLevel": 4,
+            "requiredRaces": 4294967373,
+            "requiredSkill": [
+              186,
+              1
+            ]
+          },
+          "inheritedFields": {},
+          "line": 804,
+          "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
+          "rawFields": {
+            "altQuests": "{\r\n\t\t\t\t\t97907,\t                                \r\n\t\t\t\t\t97923,\t                                      \r\n\t\t\t\t\t97935,\t                                \r\n\t\t\t\t\t97948,\t                                   \r\n\t\t\t\t\t97959,\t                                        \r\n\t\t\t\t\t97970,\t                      \r\n\t\t\t\t}",
+            "coord": "{ 46.7, 53.9, MAP.DUN_MOROGH }",
+            "groups": "{\r\n\t\t\t\t\trecipe(1230161),\t                    \r\n\t\t\t\t}",
+            "lockCriteria": "{ 1, \"spellID\", 1230161 }",
+            "lvl": "4",
+            "qg": "265813",
+            "races": "ALLIANCE_ONLY",
+            "requireSkill": "MINING",
+            "sourceQuest": "96608",
+            "timeline": "{ TIMELINE.ADDED_1_60_1 }"
+          }
+        }
+      ],
+      "faction": "Alliance",
+      "id": 96046,
+      "lockCriteria": [
+        1,
+        "spellID",
+        1230161
+      ],
+      "name": "Camping 101: Mining [Dun Morogh]",
+      "places": [
+        {
+          "id": 265813,
+          "role": "available",
+          "spawns": [
+            [
+              1,
+              46.7,
+              53.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        96608
+      ],
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "profession": "MINING",
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredLevel": 4,
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "requiredSkill": {
+        "skillId": 186,
+        "value": 1
+      },
+      "startedBy": [
+        {
+          "id": 265813,
+          "spawns": [
+            [
+              1,
+              46.7,
+              53.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ]
+    },
     "96047": {
       "altQuests": [
         97903,
@@ -2352,7 +2979,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1684,
+          "line": 1685,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "coord": "{ 77.4, 61.4, MAP.DUN_MOROGH }",
@@ -3345,7 +3972,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 695,
+          "line": 717,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "altQuests": "{\r\n\t\t\t\t\t95998,\t                                     \r\n\t\t\t\t\t96101,\t                                    \r\n\t\t\t\t\t96604,\t                               \r\n\t\t\t\t\t96605,\t                               \r\n\t\t\t\t\t96606,\t                                  \r\n\t\t\t\t\t96608,\t                                  \r\n\t\t\t\t}",
@@ -4543,7 +5170,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 65,
+          "line": 67,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "altQuests": "{\r\n\t\t\t\t\t\t\t96627,\t                                 \r\n\t\t\t\t\t\t\t96628,\t                              \r\n\t\t\t\t\t\t\t96630,\t                              \r\n\t\t\t\t\t\t\t96638,\t                                \r\n\t\t\t\t\t\t\t96652,\t                           \r\n\t\t\t\t\t\t\t96659,\t                           \r\n\t\t\t\t\t\t}",
@@ -4672,7 +5299,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 220,
+          "line": 242,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "altQuests": "{\r\n\t\t\t\t\t96626,\t                                       \r\n\t\t\t\t\t96629,\t                                    \r\n\t\t\t\t\t96634,\t                                    \r\n\t\t\t\t\t96646,\t                       \r\n\t\t\t\t\t96655,\t                                 \r\n\t\t\t\t\t96661,\t                                 \r\n\t\t\t\t}",
@@ -5931,7 +6558,7 @@
             "sourceItemId": 275722
           },
           "inheritedFields": {},
-          "line": 1566,
+          "line": 1570,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
             "cr": "266851",
@@ -6064,7 +6691,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 671,
+          "line": 693,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 61.4, 53.4, MAP.TIRISFAL_GLADES }",
@@ -6144,7 +6771,7 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 128,
+          "line": 150,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 22.0, 44.8, MAP.TIRISFAL_GLADES }",
@@ -6233,7 +6860,7 @@
             "requiredRaces": 146
           },
           "inheritedFields": {},
-          "line": 678,
+          "line": 700,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 65.8, 61.0, MAP.TIRISFAL_GLADES }",
@@ -6371,7 +6998,7 @@
             "requiredRaces": 146
           },
           "inheritedFields": {},
-          "line": 602,
+          "line": 624,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 65.8, 61.0, MAP.TIRISFAL_GLADES }",
@@ -6524,7 +7151,7 @@
             "requiredRaces": 18
           },
           "inheritedFields": {},
-          "line": 170,
+          "line": 192,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 65.8, 61.0, MAP.TIRISFAL_GLADES }",
@@ -8389,7 +9016,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 2816,
+          "line": 2817,
           "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
           "rawFields": {
             "coord": "{ 44.62, 59.27, MAP.THE_BARRENS }",
@@ -10049,7 +10676,7 @@
             "requiredRaces": 18
           },
           "inheritedFields": {},
-          "line": 475,
+          "line": 497,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 65.4, 60.0, MAP.TIRISFAL_GLADES }",
@@ -15936,7 +16563,7 @@
             ]
           },
           "inheritedFields": {},
-          "line": 177,
+          "line": 199,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "altQuests": "{\r\n\t\t\t\t\t96045,\t                                    \r\n\t\t\t\t\t97899,\t                                 \r\n\t\t\t\t\t97915,\t                                       \r\n\t\t\t\t\t97927,\t                                 \r\n\t\t\t\t\t97938,\t                                    \r\n\t\t\t\t\t97963,\t                       \r\n\t\t\t\t}",
@@ -16059,7 +16686,7 @@
             ]
           },
           "inheritedFields": {},
-          "line": 198,
+          "line": 220,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "altQuests": "{\r\n\t\t\t\t\t96044,\t                                          \r\n\t\t\t\t\t97900,\t                                       \r\n\t\t\t\t\t97916,\t                                             \r\n\t\t\t\t\t97928,\t                                       \r\n\t\t\t\t\t97939,\t                                          \r\n\t\t\t\t\t97964,\t                             \r\n\t\t\t\t}",
@@ -16185,7 +16812,7 @@
             ]
           },
           "inheritedFields": {},
-          "line": 242,
+          "line": 264,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "altQuests": "{\r\n\t\t\t\t\t96059,\t                                       \r\n\t\t\t\t\t97901,\t                                    \r\n\t\t\t\t\t97917,\t                                          \r\n\t\t\t\t\t97929,\t                                    \r\n\t\t\t\t\t97940,\t                                       \r\n\t\t\t\t\t98284,\t                          \r\n\t\t\t\t\t98286,\t                          \r\n\t\t\t\t}",
@@ -16310,7 +16937,7 @@
             ]
           },
           "inheritedFields": {},
-          "line": 264,
+          "line": 286,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "altQuests": "{\r\n\t\t\t\t\t96058,\t                                        \r\n\t\t\t\t\t97902,\t                                     \r\n\t\t\t\t\t97918,\t                                           \r\n\t\t\t\t\t97930,\t                                     \r\n\t\t\t\t\t97941,\t                                        \r\n\t\t\t\t\t98285,\t                           \r\n\t\t\t\t\t98287,\r\n\t\t\t\t}",
@@ -16434,7 +17061,7 @@
             ]
           },
           "inheritedFields": {},
-          "line": 287,
+          "line": 309,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "altQuests": "{\r\n\t\t\t\t\t96047,\t                                      \r\n\t\t\t\t\t97903,\t                                   \r\n\t\t\t\t\t97919,\t                                         \r\n\t\t\t\t\t97931,\t                                   \r\n\t\t\t\t\t97942,\t                                      \r\n\t\t\t\t\t97965,\t                         \r\n\t\t\t\t}",
@@ -16557,7 +17184,7 @@
             ]
           },
           "inheritedFields": {},
-          "line": 308,
+          "line": 330,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "altQuests": "{\r\n\t\t\t\t\t96050,\t                                    \r\n\t\t\t\t\t97904,\t                                 \r\n\t\t\t\t\t97920,\t                                       \r\n\t\t\t\t\t97932,\t                                 \r\n\t\t\t\t\t97943,\t                                    \r\n\t\t\t\t\t97967,\t                       \r\n\t\t\t\t}",
@@ -16680,7 +17307,7 @@
             ]
           },
           "inheritedFields": {},
-          "line": 329,
+          "line": 351,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "altQuests": "{\r\n\t\t\t\t\t96055,\t                                      \r\n\t\t\t\t\t97905,\t                                   \r\n\t\t\t\t\t97921,\t                                         \r\n\t\t\t\t\t97933,\t                                   \r\n\t\t\t\t\t97944,\t                                      \r\n\t\t\t\t\t97968,\t                         \r\n\t\t\t\t}",
@@ -16803,7 +17430,7 @@
             ]
           },
           "inheritedFields": {},
-          "line": 350,
+          "line": 372,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "altQuests": "{\r\n\t\t\t\t\t96031,\t                                           \r\n\t\t\t\t\t97906,\t                                        \r\n\t\t\t\t\t97922,\t                                              \r\n\t\t\t\t\t97934,\t                                        \r\n\t\t\t\t\t97946,\t                                           \r\n\t\t\t\t\t97969,\t                              \r\n\t\t\t\t}",
@@ -16926,7 +17553,7 @@
             ]
           },
           "inheritedFields": {},
-          "line": 371,
+          "line": 393,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "altQuests": "{\r\n\t\t\t\t\t96046,\t                                   \r\n\t\t\t\t\t97907,\t                                \r\n\t\t\t\t\t97923,\t                                      \r\n\t\t\t\t\t97935,\t                                \r\n\t\t\t\t\t97948,\t                                   \r\n\t\t\t\t\t97970,\t                      \r\n\t\t\t\t}",
@@ -17050,7 +17677,7 @@
             ]
           },
           "inheritedFields": {},
-          "line": 393,
+          "line": 415,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "altQuests": "{\r\n\t\t\t\t\t96056,\t                                     \r\n\t\t\t\t\t97908,\t                                  \r\n\t\t\t\t\t97924,\t                                        \r\n\t\t\t\t\t97936,\t                                  \r\n\t\t\t\t\t97949,\t                                     \r\n\t\t\t\t\t97971,\t                        \r\n\t\t\t\t}",
@@ -17175,7 +17802,7 @@
             ]
           },
           "inheritedFields": {},
-          "line": 414,
+          "line": 436,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "altQuests": "{\r\n\t\t\t\t\t96057,\t                                      \r\n\t\t\t\t\t96102,\t                                   \r\n\t\t\t\t\t97925,\t                                         \r\n\t\t\t\t\t97937,\t                                   \r\n\t\t\t\t\t97950,\t                                      \r\n\t\t\t\t\t97972,\t                         \r\n\t\t\t\t\t97973,\t                         \r\n\t\t\t\t}",
@@ -18733,7 +19360,7 @@
             "requiredRaces": 8589934592
           },
           "inheritedFields": {},
-          "line": 2591,
+          "line": 2592,
           "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
           "rawFields": {
             "coord": "{ 31.73, 37.82, MAP.ORGRIMMAR }",
@@ -19455,7 +20082,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 293,
+          "line": 306,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 8.5, 55.7, MAP.WETLANDS }",
@@ -19680,7 +20307,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 2599,
+          "line": 2600,
           "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
           "rawFields": {
             "coord": "{ 62.33, 20.45, MAP.HILLSBRAD_FOOTHILLS }",
@@ -19763,7 +20390,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 665,
+          "line": 679,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 8.4, 58.6, MAP.WETLANDS }",
@@ -20044,7 +20671,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 688,
+          "line": 702,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 10.1, 56.8, MAP.WETLANDS }",
@@ -20419,7 +21046,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 988,
+          "line": 1002,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 38.8, 52.2, MAP.WETLANDS }",
@@ -20547,7 +21174,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 860,
+          "line": 874,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 48.6, 50.0, MAP.STORMWIND_CITY }",
@@ -20649,7 +21276,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 433,
+          "line": 446,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 9.9, 57.4, MAP.WETLANDS }",
@@ -20800,7 +21427,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 552,
+          "line": 565,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 53.5, 54.5, MAP.WETLANDS }",
@@ -20883,7 +21510,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 914,
+          "line": 928,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 9.8, 57.4, MAP.WETLANDS }",
@@ -20954,6 +21581,93 @@
         }
       ]
     },
+    "98240": {
+      "declarations": [
+        {
+          "expression": "",
+          "fields": {
+            "name": "Crimson Crate Delivery",
+            "preQuestSingle": [
+              98072
+            ],
+            "providedItemId": 280099,
+            "requiredLevel": 19,
+            "requiredRaces": 4294967373
+          },
+          "inheritedFields": {},
+          "line": 297,
+          "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
+          "rawFields": {
+            "coord": "{ 8.6, 55.6, MAP.WETLANDS }",
+            "lvl": "19",
+            "qg": "2094",
+            "qi": "280099",
+            "races": "ALLIANCE_ONLY",
+            "sourceQuests": "{ 98072 }",
+            "timeline": "{ TIMELINE.ADDED_1_60_1 }"
+          }
+        }
+      ],
+      "faction": "Alliance",
+      "id": 98240,
+      "name": "Crimson Crate Delivery",
+      "places": [
+        {
+          "id": 2094,
+          "role": "available",
+          "spawns": [
+            [
+              11,
+              8.6,
+              55.6
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        98072
+      ],
+      "providedItemId": 280099,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredLevel": 19,
+      "requiredRaces": [
+        1,
+        3,
+        4,
+        7,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 2094,
+          "spawns": [
+            [
+              11,
+              8.6,
+              55.6
+            ]
+          ],
+          "type": "npc"
+        }
+      ]
+    },
     "98245": {
       "declarations": [
         {
@@ -20978,11 +21692,14 @@
                 }
               ]
             },
+            "preQuestSingle": [
+              98240
+            ],
             "requiredLevel": 21,
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 621,
+          "line": 634,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 49.3, 42.1, MAP.WETLANDS }",
@@ -20990,6 +21707,7 @@
             "lvl": "21",
             "qg": "270637",
             "races": "ALLIANCE_ONLY",
+            "sourceQuests": "{ 98240 }",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
           }
         }
@@ -21069,6 +21787,9 @@
           "type": "npc"
         }
       ],
+      "preQuestSingle": [
+        98240
+      ],
       "questType": {
         "autoRewarded": false,
         "battleground": false,
@@ -21136,7 +21857,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 937,
+          "line": 951,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 49.3, 42.1, MAP.WETLANDS }",
@@ -21984,7 +22705,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 324,
+          "line": 337,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 49.3, 42.1, MAP.WETLANDS }",
@@ -22139,7 +22860,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 415,
+          "line": 428,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 58.8, 45.1, MAP.WETLANDS }",
@@ -22290,7 +23011,7 @@
             "name": "Forced Disarmament? (Triggered shortly after I picked up the Dragonmaw Armaments)"
           },
           "inheritedFields": {},
-          "line": 1476,
+          "line": 1490,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
@@ -22339,7 +23060,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 711,
+          "line": 725,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 49.3, 42.1, MAP.WETLANDS }",
@@ -22446,6 +23167,9 @@
                 }
               ]
             },
+            "preQuestSingle": [
+              99
+            ],
             "requiredLevel": 9,
             "requiredRaces": 8589934770
           },
@@ -22458,6 +23182,7 @@
             "lvl": "9",
             "qg": "1938",
             "races": "HORDE_ONLY",
+            "sourceQuests": "{ 99 }",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
           }
         }
@@ -22494,6 +23219,9 @@
           "spawns": [],
           "type": "item"
         }
+      ],
+      "preQuestSingle": [
+        99
       ],
       "questType": {
         "autoRewarded": false,
@@ -22556,7 +23284,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 69,
+          "line": 71,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/silverpine forest.lua",
           "rawFields": {
             "coord": "{ 44.2, 39.81, MAP.SILVERPINE_FOREST }",
@@ -22664,7 +23392,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1035,
+          "line": 1049,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 49.3, 42.1, MAP.WETLANDS }",
@@ -22790,7 +23518,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 458,
+          "line": 471,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 38.8, 52.2, MAP.WETLANDS }",
@@ -23024,7 +23752,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 405,
+          "line": 418,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 38.8, 52.2, MAP.WETLANDS }",
@@ -23751,7 +24479,7 @@
             "requiredRaces": 8589934624
           },
           "inheritedFields": {},
-          "line": 96,
+          "line": 113,
           "path": ".contrib/.db/forever/zones/kalimdor/moonglade.lua",
           "rawFields": {
             "classes": "{ DRUID }",
@@ -24777,6 +25505,85 @@
         }
       ]
     },
+    "98393": {
+      "declarations": [
+        {
+          "expression": "",
+          "fields": {
+            "name": "The Great Cat Spirit",
+            "requiredClasses": 1024,
+            "requiredLevel": 20,
+            "requiredRaces": 4294967304
+          },
+          "inheritedFields": {},
+          "line": 35,
+          "path": ".contrib/.db/forever/zones/kalimdor/moonglade.lua",
+          "rawFields": {
+            "classes": "{ DRUID }",
+            "coord": "{ 35.2, 8.0, MAP.DARNASSUS }",
+            "lvl": "20",
+            "qg": "4217",
+            "races": "{ NIGHTELF, SKYBORNE_ALLIANCE }",
+            "timeline": "{ TIMELINE.ADDED_1_60_1 }"
+          }
+        }
+      ],
+      "faction": "Alliance",
+      "id": 98393,
+      "name": "The Great Cat Spirit",
+      "places": [
+        {
+          "id": 4217,
+          "role": "available",
+          "spawns": [
+            [
+              1657,
+              35.2,
+              8
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredClasses": [
+        11
+      ],
+      "requiredLevel": 20,
+      "requiredRaces": [
+        4,
+        95
+      ],
+      "startedBy": [
+        {
+          "id": 4217,
+          "spawns": [
+            [
+              1657,
+              35.2,
+              8
+            ]
+          ],
+          "type": "npc"
+        }
+      ]
+    },
     "98394": {
       "declarations": [
         {
@@ -24788,7 +25595,7 @@
             "requiredRaces": 8
           },
           "inheritedFields": {},
-          "line": 35,
+          "line": 43,
           "path": ".contrib/.db/forever/zones/kalimdor/moonglade.lua",
           "rawFields": {
             "classes": "{ DRUID }",
@@ -24877,12 +25684,15 @@
                 }
               ]
             },
+            "preQuestSingle": [
+              98394
+            ],
             "requiredClasses": 1024,
             "requiredLevel": 20,
             "requiredRaces": 8
           },
           "inheritedFields": {},
-          "line": 43,
+          "line": 51,
           "path": ".contrib/.db/forever/zones/kalimdor/moonglade.lua",
           "rawFields": {
             "classes": "{ DRUID }",
@@ -24891,6 +25701,7 @@
             "lvl": "20",
             "qg": "11957",
             "races": "{ NIGHTELF }",
+            "sourceQuests": "{ 98394 }",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
           }
         }
@@ -24952,6 +25763,9 @@
           "type": "item"
         }
       ],
+      "preQuestSingle": [
+        98394
+      ],
       "questType": {
         "autoRewarded": false,
         "battleground": false,
@@ -25001,7 +25815,7 @@
             "requiredRaces": 4294967304
           },
           "inheritedFields": {},
-          "line": 88,
+          "line": 105,
           "path": ".contrib/.db/forever/zones/kalimdor/moonglade.lua",
           "rawFields": {
             "classes": "{ DRUID }",
@@ -25370,7 +26184,7 @@
             "requiredRaces": 12884901888
           },
           "inheritedFields": {},
-          "line": 70,
+          "line": 79,
           "path": ".contrib/.db/forever/zones/kalimdor/moonglade.lua",
           "rawFields": {
             "coord": "{ 44.0, 73.4, MAP.MOONGLADE }",
@@ -25486,7 +26300,7 @@
             "requiredRaces": 32
           },
           "inheritedFields": {},
-          "line": 62,
+          "line": 71,
           "path": ".contrib/.db/forever/zones/kalimdor/moonglade.lua",
           "rawFields": {
             "classes": "{ DRUID }",
@@ -26511,7 +27325,7 @@
             "requiredRaces": 4294967372
           },
           "inheritedFields": {},
-          "line": 1006,
+          "line": 1020,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 37.44, 41.84, MAP.DARKSHORE }",
@@ -26648,7 +27462,7 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 508,
+          "line": 530,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 22.0, 44.8, MAP.TIRISFAL_GLADES }",
@@ -27132,6 +27946,84 @@
               85,
               30.8,
               66.2
+            ]
+          ],
+          "type": "npc"
+        }
+      ]
+    },
+    "98731": {
+      "declarations": [
+        {
+          "expression": "",
+          "fields": {
+            "name": "Blessings of the Great Cat Spirit",
+            "requiredClasses": 1024,
+            "requiredLevel": 20,
+            "requiredRaces": 8
+          },
+          "inheritedFields": {},
+          "line": 97,
+          "path": ".contrib/.db/forever/zones/kalimdor/moonglade.lua",
+          "rawFields": {
+            "classes": "{ DRUID }",
+            "coord": "{ 54.5, 74.8, MAP.MOONGLADE }",
+            "lvl": "20",
+            "qg": "11957",
+            "races": "{ NIGHTELF }",
+            "timeline": "{ TIMELINE.ADDED_1_60_1 }"
+          }
+        }
+      ],
+      "faction": "Alliance",
+      "id": 98731,
+      "name": "Blessings of the Great Cat Spirit",
+      "places": [
+        {
+          "id": 11957,
+          "role": "available",
+          "spawns": [
+            [
+              493,
+              54.5,
+              74.8
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredClasses": [
+        11
+      ],
+      "requiredLevel": 20,
+      "requiredRaces": [
+        4
+      ],
+      "startedBy": [
+        {
+          "id": 11957,
+          "spawns": [
+            [
+              493,
+              54.5,
+              74.8
             ]
           ],
           "type": "npc"
@@ -30368,7 +31260,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 444,
+          "line": 466,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 60.6, 51.7, MAP.TIRISFAL_GLADES }",
@@ -30861,7 +31753,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 554,
+          "line": 576,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 60.6, 51.7, MAP.TIRISFAL_GLADES }",
@@ -31058,7 +31950,7 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 745,
+          "line": 767,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 57.5, 49.0, MAP.TIRISFAL_GLADES }",
@@ -31289,7 +32181,7 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 622,
+          "line": 644,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 32.0, 46.2, MAP.TIRISFAL_GLADES }",
@@ -31400,7 +32292,7 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 153,
+          "line": 175,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 22.0, 47.2, MAP.TIRISFAL_GLADES }",
@@ -31539,7 +32431,7 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 711,
+          "line": 733,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 20.2, 46.4, MAP.TIRISFAL_GLADES }",
@@ -31659,7 +32551,7 @@
             "requiredRaces": 18
           },
           "inheritedFields": {},
-          "line": 584,
+          "line": 606,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/tirisfal glades.lua",
           "rawFields": {
             "coord": "{ 65.4, 60.2, MAP.TIRISFAL_GLADES }",
@@ -32271,7 +33163,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1636,
+          "line": 1637,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "coord": "{ 57.7, 44.9, MAP.DUN_MOROGH }",

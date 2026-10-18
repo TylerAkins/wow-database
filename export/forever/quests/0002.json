@@ -5067,7 +5067,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1443,
+          "line": 1444,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 27.4, 74.1, MAP.STRANGLETHORN_VALE }",
@@ -7347,92 +7347,6 @@
         }
       ]
     },
-    "1060": {
-      "declarations": [
-        {
-          "expression": "",
-          "fields": {
-            "name": "Letter to Jin'Zil",
-            "preQuestSingle": [
-              876
-            ],
-            "providedItemId": 5594,
-            "requiredLevel": 15,
-            "requiredRaces": 8589934770
-          },
-          "inheritedFields": {},
-          "line": 1419,
-          "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
-          "rawFields": {
-            "coord": "{ 51.62, 30.90, MAP.THE_BARRENS }",
-            "lvl": "15",
-            "qg": "3449",
-            "qi": "5594",
-            "races": "HORDE_ONLY",
-            "sourceQuest": "876"
-          }
-        }
-      ],
-      "faction": "Horde",
-      "id": 1060,
-      "name": "Letter to Jin'Zil",
-      "places": [
-        {
-          "id": 3449,
-          "role": "available",
-          "spawns": [
-            [
-              17,
-              51.62,
-              30.9
-            ]
-          ],
-          "type": "npc"
-        }
-      ],
-      "preQuestSingle": [
-        876
-      ],
-      "providedItemId": 5594,
-      "questType": {
-        "autoRewarded": false,
-        "battleground": false,
-        "daily": false,
-        "dungeon": false,
-        "epic": false,
-        "event": false,
-        "exploration": false,
-        "hiddenRewards": false,
-        "monthly": false,
-        "partyAccept": false,
-        "raid": false,
-        "repeatable": false,
-        "sharable": false,
-        "stayAlive": false,
-        "weekly": false
-      },
-      "requiredLevel": 15,
-      "requiredRaces": [
-        2,
-        5,
-        6,
-        8,
-        96
-      ],
-      "startedBy": [
-        {
-          "id": 3449,
-          "spawns": [
-            [
-              17,
-              51.62,
-              30.9
-            ]
-          ],
-          "type": "npc"
-        }
-      ]
-    },
     "526": {
       "altQuests": [
         324
@@ -7466,7 +7380,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 530,
+          "line": 543,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "altQuests": "{ 324 }",
@@ -8139,7 +8053,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 776,
+          "line": 777,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/loch modan.lua",
           "rawFields": {
             "coord": "{ 83.4, 65.2, MAP.LOCH_MODAN }",
@@ -13298,7 +13212,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1469,
+          "line": 1470,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 32.2, 28.8, MAP.STRANGLETHORN_VALE }",
@@ -13405,7 +13319,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1480,
+          "line": 1481,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 32.2, 28.8, MAP.STRANGLETHORN_VALE }",
@@ -13538,7 +13452,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 871,
+          "line": 872,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 32.0, 29.2, MAP.STRANGLETHORN_VALE }",
@@ -13695,7 +13609,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 903,
+          "line": 904,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 32.0, 29.2, MAP.STRANGLETHORN_VALE }",
@@ -13822,7 +13736,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 890,
+          "line": 891,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 32.0, 29.2, MAP.STRANGLETHORN_VALE }",
@@ -13955,7 +13869,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 916,
+          "line": 917,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 32.0, 29.2, MAP.STRANGLETHORN_VALE }",
@@ -14106,7 +14020,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1249,
+          "line": 1250,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 38.0, 3.3, MAP.STRANGLETHORN_VALE }",
@@ -14227,7 +14141,7 @@
             "requiredLevel": 26
           },
           "inheritedFields": {},
-          "line": 1327,
+          "line": 1328,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 28.29, 77.59, MAP.STRANGLETHORN_VALE }",
@@ -14397,7 +14311,7 @@
             "requiredLevel": 37
           },
           "inheritedFields": {},
-          "line": 739,
+          "line": 740,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 28.6, 75.9, MAP.STRANGLETHORN_VALE }",
@@ -14666,7 +14580,7 @@
             "requiredLevel": 31
           },
           "inheritedFields": {},
-          "line": 1185,
+          "line": 1186,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 28.2, 77.6, MAP.STRANGLETHORN_VALE }",
@@ -14768,7 +14682,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1645,
+          "line": 1646,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 27.2, 76.9, MAP.STRANGLETHORN_VALE }",
@@ -14942,7 +14856,7 @@
             "requiredLevel": 40
           },
           "inheritedFields": {},
-          "line": 1835,
+          "line": 1836,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 27.1, 77.5, MAP.STRANGLETHORN_VALE }",
@@ -15147,7 +15061,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 703,
+          "line": 704,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 32.2, 27.8, MAP.STRANGLETHORN_VALE }",
@@ -15380,7 +15294,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 676,
+          "line": 677,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 32.2, 27.8, MAP.STRANGLETHORN_VALE }",
@@ -15489,7 +15403,7 @@
             "requiredLevel": 28
           },
           "inheritedFields": {},
-          "line": 1830,
+          "line": 1831,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 35.7, 10.5, MAP.STRANGLETHORN_VALE }",
@@ -15772,7 +15686,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1219,
+          "line": 1220,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 32.2, 27.7, MAP.STRANGLETHORN_VALE }",
@@ -15993,7 +15907,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1196,
+          "line": 1197,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 32.2, 27.7, MAP.STRANGLETHORN_VALE }",
@@ -16220,7 +16134,7 @@
             "requiredLevel": 37
           },
           "inheritedFields": {},
-          "line": 1745,
+          "line": 1746,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 26.9, 77.3, MAP.STRANGLETHORN_VALE }",
@@ -16480,7 +16394,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1496,
+          "line": 1497,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 32.2, 27.7, MAP.STRANGLETHORN_VALE }",
@@ -16578,7 +16492,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1622,
+          "line": 1623,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 32.2, 27.8, MAP.STRANGLETHORN_VALE }",
@@ -16785,7 +16699,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1560,
+          "line": 1561,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 32.2, 27.8, MAP.STRANGLETHORN_VALE }",
@@ -16906,7 +16820,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1077,
+          "line": 1078,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 32.2, 27.8, MAP.STRANGLETHORN_VALE }",
@@ -16929,7 +16843,7 @@
             }
           },
           "kind": "objective",
-          "line": 1090,
+          "line": 1091,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "questID": 592,
           "rawFields": {
@@ -17027,7 +16941,7 @@
             "lvl": "30",
             "races": "HORDE_ONLY"
           },
-          "line": 1084,
+          "line": 1085,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 39.0, 58.2, MAP.STRANGLETHORN_VALE }",
@@ -17104,7 +17018,7 @@
             "sourceItemId": 4098
           },
           "inheritedFields": {},
-          "line": 853,
+          "line": 854,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "lvl": "45",
@@ -17159,7 +17073,7 @@
             "requiredLevel": 37
           },
           "inheritedFields": {},
-          "line": 1353,
+          "line": 1354,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 28.1, 76.2, MAP.STRANGLETHORN_VALE }",
@@ -17499,7 +17413,7 @@
             "requiredLevel": 37
           },
           "inheritedFields": {},
-          "line": 1358,
+          "line": 1359,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 27.3, 69.5, MAP.STRANGLETHORN_VALE }",
@@ -17629,7 +17543,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1267,
+          "line": 1268,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 32.2, 27.8, MAP.STRANGLETHORN_VALE }",
@@ -17852,7 +17766,7 @@
             "requiredLevel": 37
           },
           "inheritedFields": {},
-          "line": 1364,
+          "line": 1365,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 28.1, 76.2, MAP.STRANGLETHORN_VALE }",
@@ -17960,7 +17874,7 @@
             "requiredLevel": 30
           },
           "inheritedFields": {},
-          "line": 1773,
+          "line": 1774,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 27.1, 77.2, MAP.STRANGLETHORN_VALE }",
@@ -18134,7 +18048,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1817,
+          "line": 1818,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 27.2, 76.9, MAP.STRANGLETHORN_VALE }",
@@ -18248,7 +18162,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 814,
+          "line": 815,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 27.2, 76.8, MAP.STRANGLETHORN_VALE }",
@@ -18443,7 +18357,7 @@
             "requiredLevel": 37
           },
           "inheritedFields": {},
-          "line": 1370,
+          "line": 1371,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 27.2, 77.0, MAP.STRANGLETHORN_VALE }",
@@ -18654,7 +18568,7 @@
             "requiredLevel": 30
           },
           "inheritedFields": {},
-          "line": 1129,
+          "line": 1130,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 27.12, 77.22, MAP.STRANGLETHORN_VALE }",
@@ -18809,7 +18723,7 @@
             "requiredLevel": 30
           },
           "inheritedFields": {},
-          "line": 1100,
+          "line": 1101,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 27.78, 77.07, MAP.STRANGLETHORN_VALE }",
@@ -18910,7 +18824,7 @@
             "requiredLevel": 30
           },
           "inheritedFields": {},
-          "line": 1063,
+          "line": 1064,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 26.9, 73.6, MAP.STRANGLETHORN_VALE }",
@@ -19002,7 +18916,7 @@
             "requiredLevel": 37
           },
           "inheritedFields": {},
-          "line": 1401,
+          "line": 1402,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 27.2, 77.0, MAP.STRANGLETHORN_VALE }",
@@ -19162,7 +19076,7 @@
             "requiredLevel": 30
           },
           "inheritedFields": {},
-          "line": 1794,
+          "line": 1795,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 27.8, 77.1, MAP.STRANGLETHORN_VALE }",
@@ -19512,7 +19426,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1450,
+          "line": 1451,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 27.3, 77.5, MAP.STRANGLETHORN_VALE }",
@@ -19862,7 +19776,7 @@
             "name": "The Captain's Chest [Old] - completed with quest 8551"
           },
           "inheritedFields": {},
-          "line": 2491,
+          "line": 2492,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {}
         }
@@ -19894,7 +19808,7 @@
           "expression": "",
           "fields": {},
           "inheritedFields": {},
-          "line": 2492,
+          "line": 2493,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "timeline": "{ ADDED_1_12_1 }"
@@ -19931,7 +19845,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1541,
+          "line": 1542,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 26.95, 77.21, MAP.STRANGLETHORN_VALE }",
@@ -20116,7 +20030,7 @@
             "name": "Facing Negolash [Old] - completed with quest 8554"
           },
           "inheritedFields": {},
-          "line": 2490,
+          "line": 2491,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {}
         }
@@ -20210,7 +20124,7 @@
           "expression": "",
           "fields": {},
           "inheritedFields": {},
-          "line": 2493,
+          "line": 2494,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "timeline": "{ ADDED_1_12_1 }"
@@ -20292,7 +20206,7 @@
             "requiredLevel": 35
           },
           "inheritedFields": {},
-          "line": 1857,
+          "line": 1858,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 27.1, 77.2, MAP.STRANGLETHORN_VALE }",
@@ -20482,7 +20396,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1052,
+          "line": 1053,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 26.95, 77.21, MAP.STRANGLETHORN_VALE }",
@@ -20910,6 +20824,9 @@
           "expression": "",
           "fields": {
             "name": "Favor for Krazek",
+            "preQuestSingle": [
+              210
+            ],
             "requiredLevel": 32,
             "requiredRaces": 4294967373
           },
@@ -20922,7 +20839,8 @@
             "lvl": "32",
             "maps": "{ MAP.ARATHI_HIGHLANDS }",
             "qg": "773",
-            "races": "ALLIANCE_ONLY"
+            "races": "ALLIANCE_ONLY",
+            "sourceQuests": "{ 210 }"
           }
         }
       ],
@@ -20942,6 +20860,9 @@
           ],
           "type": "npc"
         }
+      ],
+      "preQuestSingle": [
+        210
       ],
       "questType": {
         "autoRewarded": false,
@@ -21124,7 +21045,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1653,
+          "line": 1654,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 32.2, 27.8, MAP.STRANGLETHORN_VALE }",
@@ -21268,7 +21189,7 @@
             "requiredLevel": 42
           },
           "inheritedFields": {},
-          "line": 857,
+          "line": 858,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 38.4, 80.6, MAP.STRANGLETHORN_VALE }",
@@ -21382,7 +21303,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 869,
+          "line": 883,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 49.9, 18.2, MAP.WETLANDS }",
@@ -21462,7 +21383,7 @@
             "sourceItemId": 4429
           },
           "inheritedFields": {},
-          "line": 875,
+          "line": 889,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 51.3, 8.0, MAP.WETLANDS }",
@@ -21565,7 +21486,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 885,
+          "line": 899,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 49.9, 18.2, MAP.WETLANDS }",
@@ -21671,7 +21592,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 614,
+          "line": 627,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 49.9, 18.2, MAP.WETLANDS }",
@@ -33543,7 +33464,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 409,
+          "line": 410,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/loch modan.lua",
           "rawFields": {
             "coord": "{ 65.93, 65.62, MAP.LOCH_MODAN }",
@@ -38752,7 +38673,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1573,
+          "line": 1577,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
             "coord": "{ 52.0, 43.4, MAP.DUROTAR }",
@@ -38856,6 +38777,45 @@
         }
       ]
     },
+    "785": {
+      "declarations": [
+        {
+          "expression": "",
+          "fields": {
+            "name": "A Strategic Alliance",
+            "requiredLevel": 5
+          },
+          "inheritedFields": {},
+          "line": 1535,
+          "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
+          "rawFields": {
+            "lvl": "5",
+            "timeline": "{ TIMELINE.ADDED_1_60_1 }"
+          }
+        }
+      ],
+      "faction": "Both",
+      "id": 785,
+      "name": "A Strategic Alliance",
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredLevel": 5
+    },
     "786": {
       "declarations": [
         {
@@ -38878,6 +38838,9 @@
                 }
               ]
             },
+            "preQuestSingle": [
+              785
+            ],
             "requiredLevel": 5,
             "requiredRaces": 8589934770
           },
@@ -38889,7 +38852,8 @@
             "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                                    \r\n\t\t\t\t\t\tprovider = { \"o\", 3189 },\t                                \r\n\t\t\t\t\t\tcoord = { 49.8, 81.3, MAP.DUROTAR },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                                   \r\n\t\t\t\t\t\tprovider = { \"o\", 3190 },\t                               \r\n\t\t\t\t\t\tcoord = { 47.6, 77.4, MAP.DUROTAR },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(3, {\t                             \r\n\t\t\t\t\t\tprovider = { \"o\", 3192 },\t                         \r\n\t\t\t\t\t\tcoord = { 46.3, 79.0, MAP.DUROTAR },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(4933),\t                           \r\n\t\t\t\t\ti(6062),\t                     \r\n\t\t\t\t}",
             "lvl": "5",
             "qg": "3140",
-            "races": "HORDE_ONLY"
+            "races": "HORDE_ONLY",
+            "sourceQuests": "{ 785 }"
           }
         }
       ],
@@ -38964,6 +38928,9 @@
           ],
           "type": "object"
         }
+      ],
+      "preQuestSingle": [
+        785
       ],
       "questType": {
         "autoRewarded": false,
@@ -42517,7 +42484,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 1604,
+          "line": 1608,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
             "coord": "{ 56.0, 74.6, MAP.DUROTAR }",
@@ -43361,7 +43328,7 @@
             "requiredLevel": 7
           },
           "inheritedFields": {},
-          "line": 1590,
+          "line": 1594,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
             "coord": "{ 46.4, 23.0, MAP.DUROTAR }",
@@ -45345,7 +45312,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 2687,
+          "line": 2688,
           "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
           "rawFields": {
             "coord": "{ 45.34, 28.42, MAP.THE_BARRENS }",
@@ -48311,7 +48278,7 @@
               ]
             },
             "preQuestSingle": [
-              867
+              875
             ],
             "requiredLevel": 12,
             "requiredRaces": 8589934770
@@ -48325,7 +48292,7 @@
             "lvl": "12",
             "qg": "3449",
             "races": "HORDE_ONLY",
-            "sourceQuest": "867"
+            "sourceQuests": "{ 875 }"
           }
         }
       ],
@@ -48388,7 +48355,7 @@
         }
       ],
       "preQuestSingle": [
-        867
+        875
       ],
       "questType": {
         "autoRewarded": false,
@@ -48594,7 +48561,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 2636,
+          "line": 2637,
           "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
           "rawFields": {
             "coord": "{ 44.55, 59.26, MAP.THE_BARRENS }",
@@ -49519,7 +49486,7 @@
             "sourceItemId": 5103
           },
           "inheritedFields": {},
-          "line": 2754,
+          "line": 2755,
           "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
           "rawFields": {
             "coord": "{ 44.8, 78.8, MAP.THE_BARRENS }",
@@ -50409,7 +50376,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 2773,
+          "line": 2774,
           "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
           "rawFields": {
             "coord": "{ 45.10, 57.69, MAP.THE_BARRENS }",
@@ -50609,7 +50576,7 @@
             "requiredLevel": 11
           },
           "inheritedFields": {},
-          "line": 2729,
+          "line": 2730,
           "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
           "rawFields": {
             "coord": "{ 62.59, 37.47, MAP.THE_BARRENS }",
@@ -55990,7 +55957,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 728,
+          "line": 742,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 10.8, 60.4, MAP.WETLANDS }",
@@ -57803,7 +57770,7 @@
             "requiredLevel": 14
           },
           "inheritedFields": {},
-          "line": 2653,
+          "line": 2654,
           "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
           "rawFields": {
             "coord": "{ 63.1, 37.6, MAP.THE_BARRENS }",
@@ -59283,7 +59250,7 @@
             "specialFlags": 1
           },
           "inheritedFields": {},
-          "line": 2761,
+          "line": 2762,
           "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
           "rawFields": {
             "classes": "{ SHAMAN }",
