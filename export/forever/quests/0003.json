@@ -1,5 +1,91 @@
 {
   "quests": {
+    "1060": {
+      "declarations": [
+        {
+          "expression": "",
+          "fields": {
+            "name": "Letter to Jin'Zil",
+            "preQuestSingle": [
+              876
+            ],
+            "providedItemId": 5594,
+            "requiredLevel": 15,
+            "requiredRaces": 8589934770
+          },
+          "inheritedFields": {},
+          "line": 1419,
+          "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
+          "rawFields": {
+            "coord": "{ 51.62, 30.90, MAP.THE_BARRENS }",
+            "lvl": "15",
+            "qg": "3449",
+            "qi": "5594",
+            "races": "HORDE_ONLY",
+            "sourceQuest": "876"
+          }
+        }
+      ],
+      "faction": "Horde",
+      "id": 1060,
+      "name": "Letter to Jin'Zil",
+      "places": [
+        {
+          "id": 3449,
+          "role": "available",
+          "spawns": [
+            [
+              17,
+              51.62,
+              30.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        876
+      ],
+      "providedItemId": 5594,
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredLevel": 15,
+      "requiredRaces": [
+        2,
+        5,
+        6,
+        8,
+        96
+      ],
+      "startedBy": [
+        {
+          "id": 3449,
+          "spawns": [
+            [
+              17,
+              51.62,
+              30.9
+            ]
+          ],
+          "type": "npc"
+        }
+      ]
+    },
     "1061": {
       "declarations": [
         {
@@ -1472,7 +1558,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 176,
+          "line": 197,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/westfall.lua",
           "rawFields": {
             "coord": "{ 53.0, 86.6, MAP.STORMWIND_CITY }",
@@ -16692,7 +16778,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 826,
+          "line": 840,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 10.6, 60.7, MAP.WETLANDS }",
@@ -16791,7 +16877,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 838,
+          "line": 852,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 10.6, 60.3, MAP.WETLANDS }",
@@ -17744,7 +17830,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 845,
+          "line": 859,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/wetlands.lua",
           "rawFields": {
             "coord": "{ 10.6, 60.7, MAP.WETLANDS }",
@@ -20164,7 +20250,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 670,
+          "line": 671,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/loch modan.lua",
           "rawFields": {
             "coord": "{ 24.7, 18.3, MAP.LOCH_MODAN }",
@@ -20248,7 +20334,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 569,
+          "line": 570,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/loch modan.lua",
           "rawFields": {
             "coord": "{ 34.8, 47.0, MAP.LOCH_MODAN }",
@@ -27335,7 +27421,7 @@
               ]
             },
             "preQuestSingle": [
-              1424
+              1444
             ],
             "requiredLevel": 38,
             "requiredRaces": 8589934770
@@ -27351,7 +27437,7 @@
             "lvl": "38",
             "qg": "1443",
             "races": "HORDE_ONLY",
-            "sourceQuest": "1424",
+            "sourceQuests": "{ 1444 }",
             "timeline": "{ REMOVED_4_0_3 }"
           }
         }
@@ -27390,7 +27476,7 @@
         }
       ],
       "preQuestSingle": [
-        1424
+        1444
       ],
       "questType": {
         "autoRewarded": false,
@@ -32543,7 +32629,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 2800,
+          "line": 2801,
           "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
           "rawFields": {
             "coord": "{ 51.44, 30.15, MAP.THE_BARRENS }",
@@ -33367,7 +33453,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 2701,
+          "line": 2702,
           "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
           "rawFields": {
             "altQuests": "{ 1502, 1819 }",
@@ -47784,7 +47870,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1585,
+          "line": 1586,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "classes": "{ PALADIN }",
@@ -48695,7 +48781,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 2615,
+          "line": 2616,
           "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
           "rawFields": {
             "classes": "{ WARRIOR }",
@@ -49219,7 +49305,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 2678,
+          "line": 2679,
           "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
           "rawFields": {
             "classes": "{ WARRIOR }",
@@ -56173,104 +56259,6 @@
             ]
           ],
           "type": "npc"
-        }
-      ]
-    },
-    "1978": {
-      "declarations": [
-        {
-          "expression": "",
-          "fields": {
-            "name": "The Deathstalkers (4/4)",
-            "preQuestSingle": [
-              1899
-            ],
-            "requiredClasses": 8,
-            "requiredLevel": 10,
-            "requiredRaces": 16,
-            "sourceItemId": 7294
-          },
-          "inheritedFields": {},
-          "line": 757,
-          "path": ".contrib/.db/forever/zzOLD/02 - Outdoor Zones/02 Eastern Kingdoms/1 - Undercity.lua",
-          "rawFields": {
-            "classes": "{ ROGUE }",
-            "coord": "{ 83.2, 69.0, MAP.UNDERCITY }",
-            "groups": "{\r\n\t\t\t\t\ti(7298),\t                   \r\n\t\t\t\t}",
-            "lvl": "10",
-            "providers": "{\r\n\t\t\t\t\t{ \"n\", 6467 },\t                \r\n\t\t\t\t\t{ \"i\", 7294 },\t                  \r\n\t\t\t\t}",
-            "races": "{ UNDEAD }",
-            "sourceQuest": "1899"
-          }
-        }
-      ],
-      "faction": "Horde",
-      "id": 1978,
-      "name": "The Deathstalkers (4/4)",
-      "places": [
-        {
-          "id": 6467,
-          "role": "available",
-          "spawns": [
-            [
-              1497,
-              83.2,
-              69
-            ]
-          ],
-          "type": "npc"
-        },
-        {
-          "id": 7294,
-          "role": "available",
-          "spawns": [],
-          "type": "item"
-        }
-      ],
-      "preQuestSingle": [
-        1899
-      ],
-      "questType": {
-        "autoRewarded": false,
-        "battleground": false,
-        "daily": false,
-        "dungeon": false,
-        "epic": false,
-        "event": false,
-        "exploration": false,
-        "hiddenRewards": false,
-        "monthly": false,
-        "partyAccept": false,
-        "raid": false,
-        "repeatable": false,
-        "sharable": false,
-        "stayAlive": false,
-        "weekly": false
-      },
-      "requiredClasses": [
-        4
-      ],
-      "requiredLevel": 10,
-      "requiredRaces": [
-        5
-      ],
-      "sourceItemId": 7294,
-      "startedBy": [
-        {
-          "id": 6467,
-          "spawns": [
-            [
-              1497,
-              83.2,
-              69
-            ]
-          ],
-          "type": "npc"
-        },
-        {
-          "id": 7294,
-          "spawns": [],
-          "type": "item"
         }
       ]
     }

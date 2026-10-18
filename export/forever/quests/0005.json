@@ -1,5 +1,77 @@
 {
   "quests": {
+    "3982": {
+      "declarations": [
+        {
+          "expression": "",
+          "fields": {
+            "name": "What Is Going On? (1/2)",
+            "preQuestSingle": [
+              3981
+            ],
+            "requiredLevel": 48,
+            "requiredRaces": 8589934770
+          },
+          "inheritedFields": {
+            "lvl": "42"
+          },
+          "line": 723,
+          "path": ".contrib/.db/forever/dungeons & raids/blackrock depths.lua",
+          "rawFields": {
+            "lvl": "48",
+            "qg": "9020",
+            "races": "HORDE_ONLY",
+            "sourceQuest": "3981"
+          }
+        }
+      ],
+      "faction": "Horde",
+      "id": 3982,
+      "name": "What Is Going On? (1/2)",
+      "places": [
+        {
+          "id": 9020,
+          "role": "available",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "preQuestSingle": [
+        3981
+      ],
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredLevel": 48,
+      "requiredRaces": [
+        2,
+        5,
+        6,
+        8,
+        96
+      ],
+      "startedBy": [
+        {
+          "id": 9020,
+          "spawns": [],
+          "type": "npc"
+        }
+      ]
+    },
     "4001": {
       "declarations": [
         {
@@ -4672,7 +4744,7 @@
           "fields": {
             "name": "The Woodpaw Gnolls",
             "preQuestSingle": [
-              4129
+              4130
             ],
             "requiredLevel": 40,
             "requiredRaces": 4294967373
@@ -4685,7 +4757,7 @@
             "lvl": "40",
             "qg": "7880",
             "races": "ALLIANCE_ONLY",
-            "sourceQuest": "4129"
+            "sourceQuests": "{ 4130 }"
           }
         }
       ],
@@ -4707,7 +4779,7 @@
         }
       ],
       "preQuestSingle": [
-        4129
+        4130
       ],
       "questType": {
         "autoRewarded": false,
@@ -22575,7 +22647,7 @@
             "specialFlags": 1
           },
           "inheritedFields": {},
-          "line": 627,
+          "line": 628,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "classes": "{ WARLOCK }",
@@ -29485,7 +29557,7 @@
             "specialFlags": 1
           },
           "inheritedFields": {},
-          "line": 2807,
+          "line": 2808,
           "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
           "rawFields": {
             "coord": "{ 44.55, 59.26, MAP.THE_BARRENS }",
@@ -49066,97 +49138,6 @@
         {
           "id": 8598,
           "name": "0/5 Frenzied Plaguehound slain",
-          "role": "objective",
-          "spawns": [],
-          "type": "npc"
-        }
-      ],
-      "questType": {
-        "autoRewarded": false,
-        "battleground": false,
-        "daily": false,
-        "dungeon": false,
-        "epic": false,
-        "event": false,
-        "exploration": false,
-        "hiddenRewards": false,
-        "monthly": false,
-        "partyAccept": false,
-        "raid": false,
-        "repeatable": false,
-        "sharable": false,
-        "stayAlive": false,
-        "weekly": false
-      },
-      "requiredLevel": 52,
-      "startedBy": [
-        {
-          "id": 1855,
-          "spawns": [
-            [
-              139,
-              7.6,
-              43.6
-            ]
-          ],
-          "type": "npc"
-        }
-      ]
-    },
-    "5543": {
-      "declarations": [
-        {
-          "expression": "",
-          "fields": {
-            "name": "Blood Tinged Skies",
-            "objectives": {
-              "creature": [
-                {
-                  "id": 8600,
-                  "text": "0/30 Plaguebat slain"
-                }
-              ]
-            },
-            "requiredLevel": 52
-          },
-          "inheritedFields": {},
-          "line": 147,
-          "path": ".contrib/.db/forever/zzOLD/02 - Outdoor Zones/02 Eastern Kingdoms/Eastern Plaguelands.lua",
-          "rawFields": {
-            "coord": "{ 7.6, 43.6, MAP.EASTERN_PLAGUELANDS }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                       \r\n\t\t\t\t\t\t[\"provider\"] = { \"n\", 8600 },\t            \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
-            "lvl": "52",
-            "qg": "1855"
-          }
-        }
-      ],
-      "faction": "Both",
-      "id": 5543,
-      "name": "Blood Tinged Skies",
-      "objectives": {
-        "creature": [
-          {
-            "id": 8600,
-            "text": "0/30 Plaguebat slain"
-          }
-        ]
-      },
-      "places": [
-        {
-          "id": 1855,
-          "role": "available",
-          "spawns": [
-            [
-              139,
-              7.6,
-              43.6
-            ]
-          ],
-          "type": "npc"
-        },
-        {
-          "id": 8600,
-          "name": "0/30 Plaguebat slain",
           "role": "objective",
           "spawns": [],
           "type": "npc"

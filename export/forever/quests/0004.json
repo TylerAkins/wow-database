@@ -1,5 +1,103 @@
 {
   "quests": {
+    "1978": {
+      "declarations": [
+        {
+          "expression": "",
+          "fields": {
+            "name": "The Deathstalkers (4/4)",
+            "preQuestSingle": [
+              1899
+            ],
+            "requiredClasses": 8,
+            "requiredLevel": 10,
+            "requiredRaces": 16,
+            "sourceItemId": 7294
+          },
+          "inheritedFields": {},
+          "line": 757,
+          "path": ".contrib/.db/forever/zzOLD/02 - Outdoor Zones/02 Eastern Kingdoms/1 - Undercity.lua",
+          "rawFields": {
+            "classes": "{ ROGUE }",
+            "coord": "{ 83.2, 69.0, MAP.UNDERCITY }",
+            "groups": "{\r\n\t\t\t\t\ti(7298),\t                   \r\n\t\t\t\t}",
+            "lvl": "10",
+            "providers": "{\r\n\t\t\t\t\t{ \"n\", 6467 },\t                \r\n\t\t\t\t\t{ \"i\", 7294 },\t                  \r\n\t\t\t\t}",
+            "races": "{ UNDEAD }",
+            "sourceQuest": "1899"
+          }
+        }
+      ],
+      "faction": "Horde",
+      "id": 1978,
+      "name": "The Deathstalkers (4/4)",
+      "places": [
+        {
+          "id": 6467,
+          "role": "available",
+          "spawns": [
+            [
+              1497,
+              83.2,
+              69
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 7294,
+          "role": "available",
+          "spawns": [],
+          "type": "item"
+        }
+      ],
+      "preQuestSingle": [
+        1899
+      ],
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredClasses": [
+        4
+      ],
+      "requiredLevel": 10,
+      "requiredRaces": [
+        5
+      ],
+      "sourceItemId": 7294,
+      "startedBy": [
+        {
+          "id": 6467,
+          "spawns": [
+            [
+              1497,
+              83.2,
+              69
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 7294,
+          "spawns": [],
+          "type": "item"
+        }
+      ]
+    },
     "1998": {
       "declarations": [
         {
@@ -4797,7 +4895,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 1607,
+          "line": 1608,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "classes": "{ ROGUE }",
@@ -5667,7 +5765,7 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 284,
+          "line": 305,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/westfall.lua",
           "rawFields": {
             "classes": "{ ROGUE }",
@@ -13811,7 +13909,7 @@
             ]
           },
           "inheritedFields": {},
-          "line": 1573,
+          "line": 1574,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 28.8, 75.4, MAP.STRANGLETHORN_VALE }",
@@ -13899,7 +13997,7 @@
             ]
           },
           "inheritedFields": {},
-          "line": 1170,
+          "line": 1171,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 50.6, 20.4, MAP.STRANGLETHORN_VALE }",
@@ -13986,7 +14084,7 @@
             ]
           },
           "inheritedFields": {},
-          "line": 1506,
+          "line": 1507,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 50.6, 20.4, MAP.STRANGLETHORN_VALE }",
@@ -14073,7 +14171,7 @@
             ]
           },
           "inheritedFields": {},
-          "line": 1338,
+          "line": 1339,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 50.6, 20.4, MAP.STRANGLETHORN_VALE }",
@@ -14162,7 +14260,7 @@
             ]
           },
           "inheritedFields": {},
-          "line": 637,
+          "line": 638,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 50.6, 20.4, MAP.STRANGLETHORN_VALE }",
@@ -21337,7 +21435,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 649,
+          "line": 650,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 32.2, 27.8, MAP.STRANGLETHORN_VALE }",
@@ -41078,7 +41176,7 @@
           "fields": {
             "name": "Iverron's Antidote (2/2)",
             "preQuestSingle": [
-              3522
+              3521
             ],
             "providedItemId": 10642,
             "requiredLevel": 2,
@@ -41094,7 +41192,7 @@
             "qg": "8583",
             "qi": "10642",
             "races": "ALLIANCE_ONLY",
-            "sourceQuest": "3522"
+            "sourceQuests": "{ 3521 }"
           }
         }
       ],
@@ -41116,7 +41214,7 @@
         }
       ],
       "preQuestSingle": [
-        3522
+        3521
       ],
       "providedItemId": 10642,
       "questType": {
@@ -43550,7 +43648,7 @@
             "requiredLevel": 45
           },
           "inheritedFields": {},
-          "line": 1070,
+          "line": 1071,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 50.6, 20.4, MAP.STRANGLETHORN_VALE }",
@@ -45475,7 +45573,7 @@
             ]
           },
           "inheritedFields": {},
-          "line": 1590,
+          "line": 1591,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "altQuests": "{ 3638, 3640 }",
@@ -45608,7 +45706,7 @@
             ]
           },
           "inheritedFields": {},
-          "line": 1111,
+          "line": 1112,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "altQuests": "{ 3639, 3641 }",
@@ -45795,7 +45893,7 @@
             "specialFlags": 1
           },
           "inheritedFields": {},
-          "line": 839,
+          "line": 840,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/stranglethorn vale.lua",
           "rawFields": {
             "coord": "{ 28.2, 76.2, MAP.STRANGLETHORN_VALE }",
@@ -49607,7 +49705,7 @@
             "specialFlags": 1
           },
           "inheritedFields": {},
-          "line": 145,
+          "line": 166,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/westfall.lua",
           "rawFields": {
             "cost": "{ { \"i\", 11109, 1 } }",
@@ -51481,7 +51579,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 2792,
+          "line": 2793,
           "path": ".contrib/.db/forever/zones/kalimdor/the barrens.lua",
           "rawFields": {
             "coord": "{ 62.98, 37.21, MAP.THE_BARRENS }",
@@ -52368,78 +52466,6 @@
               47.6
             ]
           ],
-          "type": "npc"
-        }
-      ]
-    },
-    "3982": {
-      "declarations": [
-        {
-          "expression": "",
-          "fields": {
-            "name": "What Is Going On? (1/2)",
-            "preQuestSingle": [
-              3981
-            ],
-            "requiredLevel": 48,
-            "requiredRaces": 8589934770
-          },
-          "inheritedFields": {
-            "lvl": "42"
-          },
-          "line": 723,
-          "path": ".contrib/.db/forever/dungeons & raids/blackrock depths.lua",
-          "rawFields": {
-            "lvl": "48",
-            "qg": "9020",
-            "races": "HORDE_ONLY",
-            "sourceQuest": "3981"
-          }
-        }
-      ],
-      "faction": "Horde",
-      "id": 3982,
-      "name": "What Is Going On? (1/2)",
-      "places": [
-        {
-          "id": 9020,
-          "role": "available",
-          "spawns": [],
-          "type": "npc"
-        }
-      ],
-      "preQuestSingle": [
-        3981
-      ],
-      "questType": {
-        "autoRewarded": false,
-        "battleground": false,
-        "daily": false,
-        "dungeon": false,
-        "epic": false,
-        "event": false,
-        "exploration": false,
-        "hiddenRewards": false,
-        "monthly": false,
-        "partyAccept": false,
-        "raid": false,
-        "repeatable": false,
-        "sharable": false,
-        "stayAlive": false,
-        "weekly": false
-      },
-      "requiredLevel": 48,
-      "requiredRaces": [
-        2,
-        5,
-        6,
-        8,
-        96
-      ],
-      "startedBy": [
-        {
-          "id": 9020,
-          "spawns": [],
           "type": "npc"
         }
       ]

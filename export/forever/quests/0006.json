@@ -1,5 +1,96 @@
 {
   "quests": {
+    "5543": {
+      "declarations": [
+        {
+          "expression": "",
+          "fields": {
+            "name": "Blood Tinged Skies",
+            "objectives": {
+              "creature": [
+                {
+                  "id": 8600,
+                  "text": "0/30 Plaguebat slain"
+                }
+              ]
+            },
+            "requiredLevel": 52
+          },
+          "inheritedFields": {},
+          "line": 147,
+          "path": ".contrib/.db/forever/zzOLD/02 - Outdoor Zones/02 Eastern Kingdoms/Eastern Plaguelands.lua",
+          "rawFields": {
+            "coord": "{ 7.6, 43.6, MAP.EASTERN_PLAGUELANDS }",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                       \r\n\t\t\t\t\t\t[\"provider\"] = { \"n\", 8600 },\t            \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "lvl": "52",
+            "qg": "1855"
+          }
+        }
+      ],
+      "faction": "Both",
+      "id": 5543,
+      "name": "Blood Tinged Skies",
+      "objectives": {
+        "creature": [
+          {
+            "id": 8600,
+            "text": "0/30 Plaguebat slain"
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 1855,
+          "role": "available",
+          "spawns": [
+            [
+              139,
+              7.6,
+              43.6
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 8600,
+          "name": "0/30 Plaguebat slain",
+          "role": "objective",
+          "spawns": [],
+          "type": "npc"
+        }
+      ],
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredLevel": 52,
+      "startedBy": [
+        {
+          "id": 1855,
+          "spawns": [
+            [
+              139,
+              7.6,
+              43.6
+            ]
+          ],
+          "type": "npc"
+        }
+      ]
+    },
     "5544": {
       "declarations": [
         {
@@ -3878,7 +3969,7 @@
             "requiredRaces": 16
           },
           "inheritedFields": {},
-          "line": 1547,
+          "line": 1551,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
             "altQuests": "{\r\n\t\t\t\t\t5658,\t                                \r\n\t\t\t\t\t5661,\t                              \r\n\t\t\t\t\t5662,\t                                \r\n\t\t\t\t\t5663,\t                                    \r\n\t\t\t\t}",
@@ -13857,7 +13948,7 @@
             "requiredRaces": 146
           },
           "inheritedFields": {},
-          "line": 1535,
+          "line": 1539,
           "path": ".contrib/.db/forever/zones/kalimdor/durotar.lua",
           "rawFields": {
             "classes": "{ HUNTER }",
@@ -14426,7 +14517,7 @@
             "requiredRaces": 4
           },
           "inheritedFields": {},
-          "line": 1623,
+          "line": 1624,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/dun morogh.lua",
           "rawFields": {
             "classes": "{ HUNTER }",
@@ -15815,7 +15906,7 @@
               ]
             },
             "preQuestSingle": [
-              6121
+              6126
             ],
             "requiredClasses": 1024,
             "requiredLevel": 14,
@@ -15832,7 +15923,7 @@
             "maps": "{ MAP.THE_BARRENS }",
             "qg": "11802",
             "races": "HORDE_ONLY",
-            "sourceQuest": "6121"
+            "sourceQuests": "{ 6126 }"
           }
         }
       ],
@@ -15876,7 +15967,7 @@
         }
       ],
       "preQuestSingle": [
-        6121
+        6126
       ],
       "questType": {
         "autoRewarded": false,
@@ -18420,7 +18511,7 @@
             "requiredRaces": 1
           },
           "inheritedFields": {},
-          "line": 93,
+          "line": 114,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/westfall.lua",
           "rawFields": {
             "coord": "{ 56.9, 47.2, MAP.WESTFALL }",
@@ -19271,7 +19362,7 @@
             "requiredRaces": 1
           },
           "inheritedFields": {},
-          "line": 167,
+          "line": 188,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/westfall.lua",
           "rawFields": {
             "coord": "{ 56.4, 52.6, MAP.WESTFALL }",
@@ -21670,7 +21761,7 @@
             "requiredRaces": 68
           },
           "inheritedFields": {},
-          "line": 453,
+          "line": 454,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/loch modan.lua",
           "rawFields": {
             "coord": "{ 37.0, 47.8, MAP.LOCH_MODAN }",
@@ -21924,7 +22015,7 @@
             "requiredRaces": 68
           },
           "inheritedFields": {},
-          "line": 637,
+          "line": 638,
           "path": ".contrib/.db/forever/zones/eastern kingdoms/loch modan.lua",
           "rawFields": {
             "coord": "{ 33.9, 50.9, MAP.LOCH_MODAN }",
@@ -49700,83 +49791,6 @@
         "weekly": false
       },
       "requiredLevel": 12,
-      "requiredRaces": [
-        1,
-        3,
-        4,
-        7,
-        95
-      ],
-      "startedBy": [
-        {
-          "id": 14723,
-          "spawns": [
-            [
-              1537,
-              43.2,
-              31.9
-            ]
-          ],
-          "type": "npc"
-        }
-      ]
-    },
-    "7803": {
-      "declarations": [
-        {
-          "expression": "",
-          "fields": {
-            "name": "A Donation of Silk",
-            "requiredLevel": 26,
-            "requiredRaces": 4294967373
-          },
-          "inheritedFields": {},
-          "line": 91,
-          "path": ".contrib/.db/forever/zones/eastern kingdoms/1 - ironforge.lua",
-          "rawFields": {
-            "coord": "{ 43.2, 31.9, MAP.IRONFORGE }",
-            "cost": "{{ \"i\", 4306, 60 }}",
-            "lvl": "26",
-            "qg": "14723",
-            "races": "ALLIANCE_ONLY"
-          }
-        }
-      ],
-      "faction": "Alliance",
-      "id": 7803,
-      "name": "A Donation of Silk",
-      "places": [
-        {
-          "id": 14723,
-          "role": "available",
-          "spawns": [
-            [
-              1537,
-              43.2,
-              31.9
-            ]
-          ],
-          "type": "npc"
-        }
-      ],
-      "questType": {
-        "autoRewarded": false,
-        "battleground": false,
-        "daily": false,
-        "dungeon": false,
-        "epic": false,
-        "event": false,
-        "exploration": false,
-        "hiddenRewards": false,
-        "monthly": false,
-        "partyAccept": false,
-        "raid": false,
-        "repeatable": false,
-        "sharable": false,
-        "stayAlive": false,
-        "weekly": false
-      },
-      "requiredLevel": 26,
       "requiredRaces": [
         1,
         3,
