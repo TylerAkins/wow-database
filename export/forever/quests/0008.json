@@ -3959,7 +3959,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 520,
+          "line": 501,
           "path": ".contrib/.db/forever/zzOLD/02 - Outdoor Zones/01 Kalimdor/2 - Orgrimmar.lua",
           "rawFields": {
             "classes": "{ WARLOCK }",
@@ -4324,7 +4324,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 597,
+          "line": 578,
           "path": ".contrib/.db/forever/zzOLD/02 - Outdoor Zones/01 Kalimdor/2 - Orgrimmar.lua",
           "rawFields": {
             "altQuests": "{ 65597 }",
@@ -4457,7 +4457,7 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 763,
+          "line": 744,
           "path": ".contrib/.db/forever/zzOLD/02 - Outdoor Zones/01 Kalimdor/2 - Orgrimmar.lua",
           "rawFields": {
             "altQuests": "{ 65593 }",
@@ -6256,12 +6256,12 @@
             "requiredLevel": 18
           },
           "inheritedFields": {},
-          "line": 258,
-          "path": ".contrib/.db/forever/zzOLD/02 - Outdoor Zones/02 Eastern Kingdoms/Duskwood.lua",
+          "line": 39,
+          "path": ".contrib/.db/forever/zones/eastern kingdoms/duskwood.lua",
           "rawFields": {
-            "aqd": "{\r\n\t\t\t\t\t[\"qg\"] = 268,\t                                          \r\n\t\t\t\t\t[\"coord\"] = { 72.6, 47.6, MAP.DUSKWOOD },\r\n\t\t\t\t}",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                   \r\n\t\t\t\t\t\t[\"provider\"] = { \"i\", 281146 },\t               \r\n\t\t\t\t\t\t[\"crs\"] = {\r\n\t\t\t\t\t\t\t787,\t                  \r\n\t\t\t\t\t\t\t202,\t                  \r\n\t\t\t\t\t\t\t531,\t                 \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
-            "hqd": "{\r\n\t\t\t\t\t[\"qg\"] = 6176,\t                           \r\n\t\t\t\t\t[\"coord\"] = { 80.4, 66.8, MAP.ALTERAC_MOUNTAINS },\r\n\t\t\t\t}",
+            "aqd": "{\r\n\t\t\t\t\tqg = 268,\t                                          \r\n\t\t\t\t\tcoord = { 72.6, 47.6, MAP.DUSKWOOD },\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                   \r\n\t\t\t\t\t\tprovider = { \"i\", 281146 },\t               \r\n\t\t\t\t\t\tcrs = {\r\n\t\t\t\t\t\t\t787,\t                  \r\n\t\t\t\t\t\t\t202,\t                  \r\n\t\t\t\t\t\t\t531,\t                 \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "hqd": "{\r\n\t\t\t\t\tqg = 6176,\t                           \r\n\t\t\t\t\tcoord = { 80.4, 66.8, MAP.ALTERAC_MOUNTAINS },\r\n\t\t\t\t}",
             "lvl": "18",
             "qs": "281147",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
@@ -6364,12 +6364,12 @@
             "requiredLevel": 18
           },
           "inheritedFields": {},
-          "line": 593,
-          "path": ".contrib/.db/forever/zzOLD/02 - Outdoor Zones/02 Eastern Kingdoms/Duskwood.lua",
+          "line": 104,
+          "path": ".contrib/.db/forever/zones/eastern kingdoms/duskwood.lua",
           "rawFields": {
-            "aqd": "{\r\n\t\t\t\t\t[\"qg\"] = 268,\t                                          \r\n\t\t\t\t\t[\"coord\"] = { 72.6, 47.6, MAP.DUSKWOOD },\r\n\t\t\t\t}",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                               \r\n\t\t\t\t\t\t[\"provider\"] = { \"n\", 909 },\t                     \r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                             \r\n\t\t\t\t\t\t[\"provider\"] = { \"n\", 910 },\t                   \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
-            "hqd": "{\r\n\t\t\t\t\t[\"qg\"] = 6176,\t                           \r\n\t\t\t\t\t[\"coord\"] = { 80.4, 66.8, MAP.ALTERAC_MOUNTAINS },\r\n\t\t\t\t}",
+            "aqd": "{\r\n\t\t\t\t\tqg = 268,\t                                          \r\n\t\t\t\t\tcoord = { 72.6, 47.6, MAP.DUSKWOOD },\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                               \r\n\t\t\t\t\t\tprovider = { \"n\", 909 },\t                     \r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                             \r\n\t\t\t\t\t\tprovider = { \"n\", 910 },\t                   \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "hqd": "{\r\n\t\t\t\t\tqg = 6176,\t                           \r\n\t\t\t\t\tcoord = { 80.4, 66.8, MAP.ALTERAC_MOUNTAINS },\r\n\t\t\t\t}",
             "lvl": "18",
             "qs": "281145",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"

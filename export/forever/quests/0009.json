@@ -1856,12 +1856,12 @@
             "requiredLevel": 18
           },
           "inheritedFields": {},
-          "line": 291,
-          "path": ".contrib/.db/forever/zzOLD/02 - Outdoor Zones/02 Eastern Kingdoms/Duskwood.lua",
+          "line": 62,
+          "path": ".contrib/.db/forever/zones/eastern kingdoms/duskwood.lua",
           "rawFields": {
-            "aqd": "{\r\n\t\t\t\t\t[\"qg\"] = 268,\t                                          \r\n\t\t\t\t\t[\"coord\"] = { 72.6, 47.6, MAP.DUSKWOOD },\r\n\t\t\t\t}",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                                 \r\n\t\t\t\t\t\t[\"provider\"] = { \"n\", 923 },\t                      \r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                          \r\n\t\t\t\t\t\t[\"provider\"] = { \"n\", 628 },\t                \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
-            "hqd": "{\r\n\t\t\t\t\t[\"qg\"] = 6176,\t                           \r\n\t\t\t\t\t[\"coord\"] = { 80.4, 66.8, MAP.ALTERAC_MOUNTAINS },\r\n\t\t\t\t}",
+            "aqd": "{\r\n\t\t\t\t\tqg = 268,\t                                          \r\n\t\t\t\t\tcoord = { 72.6, 47.6, MAP.DUSKWOOD },\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                                 \r\n\t\t\t\t\t\tprovider = { \"n\", 923 },\t                      \r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                          \r\n\t\t\t\t\t\tprovider = { \"n\", 628 },\t                \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "hqd": "{\r\n\t\t\t\t\tqg = 6176,\t                           \r\n\t\t\t\t\tcoord = { 80.4, 66.8, MAP.ALTERAC_MOUNTAINS },\r\n\t\t\t\t}",
             "lvl": "18",
             "qs": "281143",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
@@ -1939,12 +1939,12 @@
             "requiredLevel": 18
           },
           "inheritedFields": {},
-          "line": 373,
-          "path": ".contrib/.db/forever/zzOLD/02 - Outdoor Zones/02 Eastern Kingdoms/Duskwood.lua",
+          "line": 83,
+          "path": ".contrib/.db/forever/zones/eastern kingdoms/duskwood.lua",
           "rawFields": {
-            "aqd": "{\r\n\t\t\t\t\t[\"qg\"] = 268,\t                                          \r\n\t\t\t\t\t[\"coord\"] = { 72.6, 47.6, MAP.DUSKWOOD },\r\n\t\t\t\t}",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                                  \r\n\t\t\t\t\t\t[\"provider\"] = { \"n\", 212 },\t                        \r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                                     \r\n\t\t\t\t\t\t[\"provider\"] = { \"n\", 892 },\t                           \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
-            "hqd": "{\r\n\t\t\t\t\t[\"qg\"] = 6176,\t                           \r\n\t\t\t\t\t[\"coord\"] = { 80.4, 66.8, MAP.ALTERAC_MOUNTAINS },\r\n\t\t\t\t}",
+            "aqd": "{\r\n\t\t\t\t\tqg = 268,\t                                          \r\n\t\t\t\t\tcoord = { 72.6, 47.6, MAP.DUSKWOOD },\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                                  \r\n\t\t\t\t\t\tprovider = { \"n\", 212 },\t                        \r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                                     \r\n\t\t\t\t\t\tprovider = { \"n\", 892 },\t                           \r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "hqd": "{\r\n\t\t\t\t\tqg = 6176,\t                           \r\n\t\t\t\t\tcoord = { 80.4, 66.8, MAP.ALTERAC_MOUNTAINS },\r\n\t\t\t\t}",
             "lvl": "18",
             "qs": "281142",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
@@ -2025,11 +2025,11 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 925,
-          "path": ".contrib/.db/forever/zzOLD/02 - Outdoor Zones/02 Eastern Kingdoms/Duskwood.lua",
+          "line": 125,
+          "path": ".contrib/.db/forever/zones/eastern kingdoms/duskwood.lua",
           "rawFields": {
             "coord": "{ 72.6, 47.6, MAP.DUSKWOOD }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                      \r\n\t\t\t\t\t\t[\"providers\"] = {\r\n\t\t\t\t\t\t\t{ \"i\", 281046 },\t                  \r\n\t\t\t\t\t\t\t{ \"o\", 673515 },\t                  \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t[\"coord\"] = { 72.6, 47.6, MAP.DUSKWOOD },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(281149),\t                    \r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                      \r\n\t\t\t\t\t\tproviders = {\r\n\t\t\t\t\t\t\t{ \"i\", 281046 },\t                  \r\n\t\t\t\t\t\t\t{ \"o\", 673515 },\t                  \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\tcoord = { 72.6, 47.6, MAP.DUSKWOOD },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(281149),\t                    \r\n\t\t\t\t}",
             "lvl": "18",
             "qg": "268",
             "races": "ALLIANCE_ONLY",
@@ -6327,6 +6327,47 @@
             "objectives": {
               "creature": [
                 {
+                  "id": 3131,
+                  "text": "0/5 Rough Lizard Hide"
+                },
+                {
+                  "id": 3130,
+                  "text": "0/5 Rough Lizard Hide"
+                }
+              ],
+              "item": [
+                {
+                  "id": 275720,
+                  "text": "0/5 Rough Lizard Hide"
+                }
+              ]
+            },
+            "requiredRaces": 8589934770,
+            "requiredSkill": [
+              165,
+              1
+            ]
+          },
+          "inheritedFields": {},
+          "line": 8,
+          "path": ".contrib/.db/forever/zones/kalimdor/1 - orgrimmar.lua",
+          "rawFields": {
+            "coord": "{ 63.2, 44.4, MAP.ORGRIMMAR }",
+            "cost": "{ { \"i\", 4231, 2 } }",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                        \r\n\t\t\t\t\t\tprovider = { \"i\", 275720 },\t                    \r\n\t\t\t\t\t\tcrs = {\r\n\t\t\t\t\t\t\t3131,\t                 \r\n\t\t\t\t\t\t\t3130,\t                 \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\tcoord = { 40.0, 24.1, MAP.DUROTAR },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(277716),\t                                               \r\n\t\t\t\t}",
+            "qg": "5811",
+            "races": "HORDE_ONLY",
+            "requireSkill": "LEATHERWORKING",
+            "timeline": "{ TIMELINE.ADDED_1_60_1 }"
+          }
+        },
+        {
+          "expression": "",
+          "fields": {
+            "name": "Beasts of Thunder Ridge",
+            "objectives": {
+              "creature": [
+                {
                   "id": 3130,
                   "text": "0/5 Rough Lizard Hide"
                 },
@@ -6365,47 +6406,6 @@
             "requireSkill": "LEATHERWORKING",
             "timeline": "{ TIMELINE.ADDED_1_60_1 }"
           }
-        },
-        {
-          "expression": "",
-          "fields": {
-            "name": "Beasts of Thunder Ridge",
-            "objectives": {
-              "creature": [
-                {
-                  "id": 3131,
-                  "text": "0/5 Rough Lizard Hide"
-                },
-                {
-                  "id": 3130,
-                  "text": "0/5 Rough Lizard Hide"
-                }
-              ],
-              "item": [
-                {
-                  "id": 275720,
-                  "text": "0/5 Rough Lizard Hide"
-                }
-              ]
-            },
-            "requiredRaces": 8589934770,
-            "requiredSkill": [
-              165,
-              1
-            ]
-          },
-          "inheritedFields": {},
-          "line": 280,
-          "path": ".contrib/.db/forever/zzOLD/02 - Outdoor Zones/01 Kalimdor/2 - Orgrimmar.lua",
-          "rawFields": {
-            "coord": "{ 63.2, 44.4, MAP.ORGRIMMAR }",
-            "cost": "{ { \"i\", 4231, 2 } }",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                        \r\n\t\t\t\t\t\t[\"provider\"] = { \"i\", 275720 },\t                    \r\n\t\t\t\t\t\t[\"crs\"] = {\r\n\t\t\t\t\t\t\t3131,\t                 \r\n\t\t\t\t\t\t\t3130,\t                 \r\n\t\t\t\t\t\t},\r\n\t\t\t\t\t\t[\"coord\"] = { 40.0, 24.1, MAP.DUROTAR },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\ti(277716),\t                                               \r\n\t\t\t\t}",
-            "qg": "5811",
-            "races": "HORDE_ONLY",
-            "requireSkill": "LEATHERWORKING",
-            "timeline": "{ TIMELINE.ADDED_1_60_1 }"
-          }
         }
       ],
       "faction": "Horde",
@@ -6418,8 +6418,8 @@
           "spawns": [
             [
               1637,
-              63,
-              45
+              63.2,
+              44.4
             ]
           ],
           "type": "npc"
@@ -6429,21 +6429,39 @@
           "itemId": 275720,
           "name": "0/5 Rough Lizard Hide",
           "role": "objective",
-          "spawns": [],
+          "spawns": [
+            [
+              14,
+              40,
+              24.1
+            ]
+          ],
           "type": "item"
-        },
-        {
-          "id": 3130,
-          "name": "0/5 Rough Lizard Hide",
-          "role": "objective",
-          "spawns": [],
-          "type": "npc"
         },
         {
           "id": 3131,
           "name": "0/5 Rough Lizard Hide",
           "role": "objective",
-          "spawns": [],
+          "spawns": [
+            [
+              14,
+              40,
+              24.1
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 3130,
+          "name": "0/5 Rough Lizard Hide",
+          "role": "objective",
+          "spawns": [
+            [
+              14,
+              40,
+              24.1
+            ]
+          ],
           "type": "npc"
         },
         {
@@ -6491,8 +6509,8 @@
           "spawns": [
             [
               1637,
-              63,
-              45
+              63.2,
+              44.4
             ]
           ],
           "type": "npc"
@@ -6503,6 +6521,24 @@
           "field": "objectives",
           "reason": "conflicting declarations",
           "values": [
+            {
+              "creature": [
+                {
+                  "id": 3131,
+                  "text": "0/5 Rough Lizard Hide"
+                },
+                {
+                  "id": 3130,
+                  "text": "0/5 Rough Lizard Hide"
+                }
+              ],
+              "item": [
+                {
+                  "id": 275720,
+                  "text": "0/5 Rough Lizard Hide"
+                }
+              ]
+            },
             {
               "creature": [
                 {
@@ -6522,24 +6558,6 @@
                 {
                   "id": 4231,
                   "text": "0/2 Cured Light Hide"
-                }
-              ]
-            },
-            {
-              "creature": [
-                {
-                  "id": 3131,
-                  "text": "0/5 Rough Lizard Hide"
-                },
-                {
-                  "id": 3130,
-                  "text": "0/5 Rough Lizard Hide"
-                }
-              ],
-              "item": [
-                {
-                  "id": 275720,
-                  "text": "0/5 Rough Lizard Hide"
                 }
               ]
             }
@@ -10859,11 +10877,11 @@
             "requiredRaces": 8589934770
           },
           "inheritedFields": {},
-          "line": 850,
-          "path": ".contrib/.db/forever/zzOLD/02 - Outdoor Zones/02 Eastern Kingdoms/1 - Undercity.lua",
+          "line": 8,
+          "path": ".contrib/.db/forever/zones/eastern kingdoms/1 - undercity.lua",
           "rawFields": {
             "coords": "{\r\n\t\t\t\t\t{ 57.6, 63.4, MAP.UNDERCITY },\r\n\t\t\t\t\t{ 64.6, 65.0, MAP.UNDERCITY },\r\n\t\t\t\t\t{ 83.4, 45.4, MAP.UNDERCITY },\r\n\t\t\t\t\t{ 74.6, 23.2, MAP.UNDERCITY },\r\n\t\t\t\t\t{ 53.2, 29.4, MAP.UNDERCITY },\r\n\t\t\t\t}",
-            "cost": "{{ \"i\", 278265, 1 }}",
+            "cost": "{ { \"i\", 278265, 1 } }",
             "description": "\"Spam /dance at the excitable slimes that patrol around the Undercity.\"",
             "groups": "{\r\n\t\t\t\t\ti(275682),\t                  \r\n\t\t\t\t}",
             "qg": "269452",
@@ -20043,6 +20061,155 @@
         }
       ]
     },
+    "98070": {
+      "declarations": [
+        {
+          "expression": "",
+          "fields": {
+            "name": "Stop the Screeching",
+            "objectives": {
+              "creature": [
+                {
+                  "id": 4100,
+                  "text": "0/5 Screeching Harpy slain"
+                },
+                {
+                  "id": 4101,
+                  "text": "0/5 Screeching Roguefeather slain"
+                },
+                {
+                  "id": 4104,
+                  "text": "0/5 Screeching Windcaller slain"
+                }
+              ]
+            },
+            "requiredLevel": 31,
+            "requiredRaces": 8589934770
+          },
+          "inheritedFields": {},
+          "line": 8,
+          "path": ".contrib/.db/forever/zones/kalimdor/thousand needles.lua",
+          "rawFields": {
+            "coord": "{ 46.0, 51.4, MAP.THOUSAND_NEEDLES }",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                             \r\n\t\t\t\t\t\tprovider = { \"n\", 4100 },\t                   \r\n\t\t\t\t\t\tcoord = { 26.2, 52.6, MAP.THOUSAND_NEEDLES },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(2, {\t                                    \r\n\t\t\t\t\t\tprovider = { \"n\", 4101 },\t                          \r\n\t\t\t\t\t\tcoord = { 26.0, 55.6, MAP.THOUSAND_NEEDLES },\r\n\t\t\t\t\t}),\r\n\t\t\t\t\tobjective(3, {\t                                  \r\n\t\t\t\t\t\tprovider = { \"n\", 4104 },\t                        \r\n\t\t\t\t\t\tcoord = { 26.2, 52.6, MAP.THOUSAND_NEEDLES },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "lvl": "31",
+            "qg": "4877",
+            "races": "HORDE_ONLY",
+            "timeline": "{ TIMELINE.ADDED_1_60_1 }"
+          }
+        }
+      ],
+      "faction": "Horde",
+      "id": 98070,
+      "name": "Stop the Screeching",
+      "objectives": {
+        "creature": [
+          {
+            "id": 4100,
+            "text": "0/5 Screeching Harpy slain"
+          },
+          {
+            "id": 4101,
+            "text": "0/5 Screeching Roguefeather slain"
+          },
+          {
+            "id": 4104,
+            "text": "0/5 Screeching Windcaller slain"
+          }
+        ]
+      },
+      "places": [
+        {
+          "id": 4877,
+          "role": "available",
+          "spawns": [
+            [
+              400,
+              46,
+              51.4
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 4100,
+          "name": "0/5 Screeching Harpy slain",
+          "role": "objective",
+          "spawns": [
+            [
+              400,
+              26.2,
+              52.6
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 4101,
+          "name": "0/5 Screeching Roguefeather slain",
+          "role": "objective",
+          "spawns": [
+            [
+              400,
+              26,
+              55.6
+            ]
+          ],
+          "type": "npc"
+        },
+        {
+          "id": 4104,
+          "name": "0/5 Screeching Windcaller slain",
+          "role": "objective",
+          "spawns": [
+            [
+              400,
+              26.2,
+              52.6
+            ]
+          ],
+          "type": "npc"
+        }
+      ],
+      "questType": {
+        "autoRewarded": false,
+        "battleground": false,
+        "daily": false,
+        "dungeon": false,
+        "epic": false,
+        "event": false,
+        "exploration": false,
+        "hiddenRewards": false,
+        "monthly": false,
+        "partyAccept": false,
+        "raid": false,
+        "repeatable": false,
+        "sharable": false,
+        "stayAlive": false,
+        "weekly": false
+      },
+      "requiredLevel": 31,
+      "requiredRaces": [
+        2,
+        5,
+        6,
+        8,
+        96
+      ],
+      "startedBy": [
+        {
+          "id": 4877,
+          "spawns": [
+            [
+              400,
+              46,
+              51.4
+            ]
+          ],
+          "type": "npc"
+        }
+      ]
+    },
     "98072": {
       "declarations": [
         {
@@ -24555,8 +24722,8 @@
             "name": "An Unfortunate End"
           },
           "inheritedFields": {},
-          "line": 60,
-          "path": ".contrib/.db/forever/zzOLD/02 - Outdoor Zones/02 Eastern Kingdoms/Duskwood.lua",
+          "line": 8,
+          "path": ".contrib/.db/forever/zones/eastern kingdoms/duskwood.lua",
           "rawFields": {
             "coords": "{\r\n\t\t\t\t\t{ 23.6, 33.2, MAP.DUSKWOOD },\r\n\t\t\t\t\t{ 17.2, 54.4, MAP.DUSKWOOD },\r\n\t\t\t\t\t{ 47.6, 59.6, MAP.DUSKWOOD },\r\n\t\t\t\t\t{ 45.6, 79.0, MAP.DUSKWOOD },\r\n\t\t\t\t\t{ 66.0, 33.8, MAP.DUSKWOOD },\r\n\t\t\t\t\t{ 68.8, 69.6, MAP.DUSKWOOD },\r\n\t\t\t\t}",
             "groups": "{\r\n\t\t\t\t\ti(280612),\t                         \r\n\t\t\t\t}",
@@ -27136,12 +27303,12 @@
             "requiredRaces": 4294967373
           },
           "inheritedFields": {},
-          "line": 942,
-          "path": ".contrib/.db/forever/zzOLD/02 - Outdoor Zones/02 Eastern Kingdoms/Duskwood.lua",
+          "line": 142,
+          "path": ".contrib/.db/forever/zones/eastern kingdoms/duskwood.lua",
           "rawFields": {
             "coord": "{ 72.6, 47.6, MAP.DUSKWOOD }",
             "description": "\"NOTE: No one currently knows how to get this quest. It may not be in the game yet. If you manage to finish it, please @crieve on Discord!\"",
-            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                          \r\n\t\t\t\t\t\t[\"provider\"] = { \"n\", 272450 },\t            \r\n\t\t\t\t\t\t[\"coord\"] = { 17.4, 54.0, MAP.DUSKWOOD },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
+            "groups": "{\r\n\t\t\t\t\tobjective(1, {\t                          \r\n\t\t\t\t\t\tprovider = { \"n\", 272450 },\t            \r\n\t\t\t\t\t\tcoord = { 17.4, 54.0, MAP.DUSKWOOD },\r\n\t\t\t\t\t}),\r\n\t\t\t\t}",
             "lvl": "18",
             "qg": "268",
             "races": "ALLIANCE_ONLY",
@@ -33630,8 +33797,8 @@
             "specialFlags": 1
           },
           "inheritedFields": {},
-          "line": 75,
-          "path": ".contrib/.db/forever/zzOLD/02 - Outdoor Zones/02 Eastern Kingdoms/Duskwood.lua",
+          "line": 23,
+          "path": ".contrib/.db/forever/zones/eastern kingdoms/duskwood.lua",
           "rawFields": {
             "coords": "{\r\n\t\t\t\t\t{ 23.6, 33.2, MAP.DUSKWOOD },\r\n\t\t\t\t\t{ 17.2, 54.4, MAP.DUSKWOOD },\r\n\t\t\t\t\t{ 47.6, 59.6, MAP.DUSKWOOD },\r\n\t\t\t\t\t{ 45.6, 79.0, MAP.DUSKWOOD },\r\n\t\t\t\t\t{ 66.0, 33.8, MAP.DUSKWOOD },\r\n\t\t\t\t\t{ 68.8, 69.6, MAP.DUSKWOOD },\r\n\t\t\t\t}",
             "groups": "{\r\n\t\t\t\t\ti(280612),\t                         \r\n\t\t\t\t}",

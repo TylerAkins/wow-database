@@ -1,6 +1,6 @@
 # Compilation conflicts
 
-5132 field conflict(s): 5132 selected, 0 unresolved. See `conflicts.json` for candidates and `reconciliation.json` for dispositions.
+5134 field conflict(s): 5134 selected, 0 unresolved. See `conflicts.json` for candidates and `reconciliation.json` for dispositions.
 
 - `forever/item/10444.itemLevel`: selected `foreverclient` using schemas/field-resolution.json: item.itemLevel
 - `forever/item/10444.requiredLevel`: selected `foreverclient` using schemas/field-resolution.json: item.requiredLevel
@@ -5035,6 +5035,8 @@
 - `forever/quest/98046.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
 - `forever/quest/98065.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
 - `forever/quest/98067.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
+- `forever/quest/98070.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
+- `forever/quest/98070.requiredLevel`: selected `questiedb` using schemas/field-resolution.json: quest.requiredLevel
 - `forever/quest/98072.objectives`: selected `questiedb` using schemas/field-resolution.json: quest.objectives
 - `forever/quest/981.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
 - `forever/quest/98189.name`: selected `wowhead` using schemas/field-resolution.json: quest.name
