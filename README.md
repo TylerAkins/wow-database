@@ -91,8 +91,8 @@ python3 -m venv .venv
 source .venv/bin/activate
 
 # Upgrade pip and install dependencies
-pip install --upgrade pip
-pip install playwright
+pip3 install --upgrade pip
+pip3 install playwright
 
 # Download the Chromium browser used by Playwright
 playwright install chromium
