@@ -2,15 +2,15 @@
   "schemaVersion": 1,
   "flavor": "forever",
   "source": "allthethings",
-  "sourceRevision": "5eb0692ad09ef1ad77bf630f8ff9d681dac7be0a",
-  "recordCount": 37813,
-  "recordsSha256": "96d4d7c9e27b874a265b3dcf5d9bd82b2ff202f6df41fb064869e50b3ebf5fdb",
-  "generatedAt": "2026-10-20T19:11:27+08:00",
+  "sourceRevision": "c5fe1227412069e87404a624f2124b9a9faab549",
+  "recordCount": 37774,
+  "recordsSha256": "b0ed604b7b5b162ada2275c7c2df59181d08895e4b80ed9ee159fb71d12ae91c",
+  "generatedAt": "2026-10-21T15:45:59+02:00",
   "status": "partial",
   "limitations": [
     "Exports static ATT declarations from shared definitions, Forever configuration and all Forever data files, including zzOLD, in loader order with Forever preprocessor branches applied. Repeated quest declarations retain their paths and normalized field observations.",
     "Static declarations are source evidence, not execution of the ATT Lua parser, timeline filtering or symbolic group expansion. Unresolved expressions for supported quest fields are retained; other Lua fields, standalone map definitions and explicit NPC/item/object coordinates are not normalized.",
     "Unsupported quest expressions and coordinate associations are retained as unresolved evidence. Parent restrictions and literal sharedData/bubbleDown helpers are supported; arbitrary Lua functions, symbolic group expansion, timeline filtering and ATT postprocessing are not executed.",
-    "174 quest-provider coordinate association(s) could not be mapped and are included as issue records."
+    "186 quest-provider coordinate association(s) could not be mapped and are included as issue records."
   ]
 }
