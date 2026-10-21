@@ -82,7 +82,7 @@ The Wowhead ingestion tools require Python 3.9+ and Playwright for browser-based
 
 ```bash
 # From the repository root
-cd /Users/tylerakins/Documents/GitHub/wow-database
+cd "$(git rev-parse --show-toplevel)"
 
 # Create a virtual environment
 python3 -m venv .venv
