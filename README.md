@@ -76,6 +76,30 @@ Each file contains source metadata and a `quests` object keyed by quest ID. Ever
 
 ## Development
 
+### Python environment setup
+
+The Wowhead ingestion tools require Python 3.9+ and Playwright for browser-based scraping. To set up a local environment:
+
+```bash
+# From the repository root
+cd "$(git rev-parse --show-toplevel)"
+
+# Create a virtual environment
+python3 -m venv .venv
+
+# Activate it
+source .venv/bin/activate
+
+# Upgrade pip and install dependencies
+pip3 install --upgrade pip
+pip3 install playwright
+
+# Download the Chromium browser used by Playwright
+playwright install chromium
+```
+
+The virtual environment is isolated to this repository. Activate it with `source .venv/bin/activate` in each new terminal session, or run the venv's Python directly with `.venv/bin/python3`. To deactivate, run `deactivate`.
+
 See [docs/DEVELOPMENT.md](docs/DEVELOPMENT.md) for tests, refresh commands, invariants, and known coverage gaps. See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the rebuild plan and current data flow.
 
 ## License and attribution
