@@ -1,7 +1,7 @@
 {
-  "commit": "5eb0692ad09ef1ad77bf630f8ff9d681dac7be0a",
+  "commit": "c5fe1227412069e87404a624f2124b9a9faab549",
   "gameVersion": "forever",
-  "generatedAt": "2026-10-20T19:11:27+08:00",
+  "generatedAt": "2026-10-21T15:45:59+02:00",
   "locale": "enUS",
   "parse": {
     "issues": [
@@ -20,7 +20,7 @@
         "reason": "unmapped ATT map constant ALTERAC_VALLEY"
       },
       {
-        "file": "1 - Undercity.lua",
+        "file": "1 - undercity.lua",
         "kind": "unmapped",
         "npcId": 4551,
         "questId": 6324,
@@ -629,6 +629,27 @@
         "reason": "unmapped ATT map constant ZEPHRAS_ISLE"
       },
       {
+        "file": "shendralas.lua",
+        "kind": "unmapped",
+        "npcId": 253136,
+        "questId": 92844,
+        "reason": "unmapped ATT map constant SHENDRALAS"
+      },
+      {
+        "file": "shendralas.lua",
+        "kind": "unmapped",
+        "npcId": 253136,
+        "questId": 92846,
+        "reason": "unmapped ATT map constant SHENDRALAS"
+      },
+      {
+        "file": "shendralas.lua",
+        "kind": "unmapped",
+        "npcId": 253136,
+        "questId": 92847,
+        "reason": "unmapped ATT map constant SHENDRALAS"
+      },
+      {
         "file": "zephras isle.lua",
         "kind": "unmapped",
         "npcId": 253284,
@@ -650,6 +671,13 @@
         "reason": "unmapped ATT map constant ZEPHRAS_ISLE"
       },
       {
+        "file": "shendralas.lua",
+        "kind": "unmapped",
+        "npcId": 253136,
+        "questId": 92873,
+        "reason": "unmapped ATT map constant SHENDRALAS"
+      },
+      {
         "file": "zephras isle.lua",
         "kind": "unmapped",
         "npcId": 252378,
@@ -662,6 +690,20 @@
         "npcId": 252383,
         "questId": 92881,
         "reason": "unmapped ATT map constant ZEPHRAS_ISLE"
+      },
+      {
+        "file": "shendralas.lua",
+        "kind": "unmapped",
+        "npcId": 253136,
+        "questId": 92893,
+        "reason": "unmapped ATT map constant SHENDRALAS"
+      },
+      {
+        "file": "shendralas.lua",
+        "kind": "unmapped",
+        "npcId": 253136,
+        "questId": 92894,
+        "reason": "unmapped ATT map constant SHENDRALAS"
       },
       {
         "file": "zephras isle.lua",
@@ -678,6 +720,13 @@
         "reason": "unmapped ATT map constant ZEPHRAS_ISLE"
       },
       {
+        "file": "shendralas.lua",
+        "kind": "unmapped",
+        "npcId": 253177,
+        "questId": 93035,
+        "reason": "unmapped ATT map constant SHENDRALAS"
+      },
+      {
         "file": "zephras isle.lua",
         "kind": "unmapped",
         "npcId": 251523,
@@ -685,11 +734,32 @@
         "reason": "unmapped ATT map constant ZEPHRAS_ISLE"
       },
       {
+        "file": "shendralas.lua",
+        "kind": "unmapped",
+        "npcId": 253177,
+        "questId": 93037,
+        "reason": "unmapped ATT map constant SHENDRALAS"
+      },
+      {
+        "file": "shendralas.lua",
+        "kind": "unmapped",
+        "npcId": 253177,
+        "questId": 93041,
+        "reason": "unmapped ATT map constant SHENDRALAS"
+      },
+      {
         "file": "zephras isle.lua",
         "kind": "unmapped",
         "npcId": 252383,
         "questId": 93065,
         "reason": "unmapped ATT map constant ZEPHRAS_ISLE"
+      },
+      {
+        "file": "shendralas.lua",
+        "kind": "unmapped",
+        "npcId": 253136,
+        "questId": 93066,
+        "reason": "unmapped ATT map constant SHENDRALAS"
       },
       {
         "file": "zephras isle.lua",
@@ -704,6 +774,20 @@
         "npcId": 252476,
         "questId": 93090,
         "reason": "unmapped ATT map constant ZEPHRAS_ISLE"
+      },
+      {
+        "file": "shendralas.lua",
+        "kind": "unmapped",
+        "npcId": 253177,
+        "questId": 93122,
+        "reason": "unmapped ATT map constant SHENDRALAS"
+      },
+      {
+        "file": "desolace.lua",
+        "kind": "unmapped",
+        "npcId": 253177,
+        "questId": 93128,
+        "reason": "unmapped ATT map constant SHENDRALAS"
       },
       {
         "file": "zephras isle.lua",
@@ -1224,9 +1308,9 @@
         "reason": "unmapped ATT map constant ZEPHRAS_ISLE"
       }
     ],
-    "unmappedLocations": 174
+    "unmappedLocations": 186
   },
-  "questCount": 4292,
+  "questCount": 4417,
   "schemaVersion": 2,
   "shards": [
     {
@@ -1236,7 +1320,7 @@
       ],
       "path": "quests/0001.json",
       "questCount": 500,
-      "sha256": "849a8c968bde6301f97c05df296c0d17470e4c5bbaa5075bc8be59db67e1f636"
+      "sha256": "4fef3a6a355f4efdd9266b88328ce13eb90052135dc8e0117ad03f3c209613a1"
     },
     {
       "idRange": [
@@ -1245,7 +1329,7 @@
       ],
       "path": "quests/0002.json",
       "questCount": 500,
-      "sha256": "1ae015969ea00d1ae036c895dfd8a2b37c9edb8de1263f0612c7b971c51d9590"
+      "sha256": "a910345d7fc8ec27b898aff51b7c630860fb63e97c0d4c4bbd6b39aa9f408134"
     },
     {
       "idRange": [
@@ -1254,7 +1338,7 @@
       ],
       "path": "quests/0003.json",
       "questCount": 500,
-      "sha256": "62148b95a53fcc2b9962286de5dc9d0dec8d301f1c9189b24eba44e8fe2c7e1a"
+      "sha256": "5662f6e4d2ccdb6deb2332637e3a58b58324273f10cf68e847e23728ccd9e00a"
     },
     {
       "idRange": [
@@ -1263,7 +1347,7 @@
       ],
       "path": "quests/0004.json",
       "questCount": 500,
-      "sha256": "1a638f027a86973c4ae3a338110b398b7d3d3ab1df22feb9f74c0881d639b0b7"
+      "sha256": "57dca673cecdbac1ae9569574be739b5acb1b4942c1b4cf3d0af28be800d69fb"
     },
     {
       "idRange": [
@@ -1272,7 +1356,7 @@
       ],
       "path": "quests/0005.json",
       "questCount": 500,
-      "sha256": "19859ad89760a7c3141f0adae4d2e9cf9ed0be799256abcd377c331602d659bf"
+      "sha256": "6ae5e9c8928533bdf045c74c441e10435055829d8231aa2f4b2c6eee9be8f350"
     },
     {
       "idRange": [
@@ -1281,7 +1365,7 @@
       ],
       "path": "quests/0006.json",
       "questCount": 500,
-      "sha256": "0a2f248a99314ed8addd380259ad305ad4c3ee909b80061324390b7171afd106"
+      "sha256": "2284cce1e951a804d1703bef6b37e7b1ce54e254a948b44a76b44c1d2f6553e9"
     },
     {
       "idRange": [
@@ -1290,25 +1374,25 @@
       ],
       "path": "quests/0007.json",
       "questCount": 500,
-      "sha256": "86627521e9ace1976abc0f37017c708eb1f6f2b2311fc2f815e7526855fa54b4"
+      "sha256": "855486ecc7aafeef21713a2de225ea2a7b7c60a4ab2a0be781bda1caa4158b76"
     },
     {
       "idRange": [
         8957,
-        95998
+        95111
       ],
       "path": "quests/0008.json",
       "questCount": 500,
-      "sha256": "63a6a51e3a73042d31b099c66c19e8a2b45c6a092236f889507be4e276b07c94"
+      "sha256": "24ef1d611f61d9392893973f9dddd245a4c1ea25a3bc824140ae8ad6615093f4"
     },
     {
       "idRange": [
-        95999,
+        95125,
         99411
       ],
       "path": "quests/0009.json",
-      "questCount": 292,
-      "sha256": "6f8a1c87578078e0de502a241ee9e239ce8ba0375c7cab099f3e54008d1e960b"
+      "questCount": 417,
+      "sha256": "d4ae1e8b01a900b84b057cb4aff45f37fdcbfc86571cee5e84d66ba4055667ad"
     }
   ],
   "source": "AllTheThings"
