@@ -4,6 +4,10 @@ Reusable WoW Forever data from All The Things, QuestieDB, Wowhead, and the local
 client. Quests, NPCs, items, objects, maps, spells, and other supported records
 keep source provenance and compile into one Forever database.
 
+## Status
+
+This repository is being archived and left online for educational purposes.
+
 ## Layout
 
 | Path | Purpose |
